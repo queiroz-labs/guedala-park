@@ -2,7 +2,7 @@
 <rect width="420" height="297" fill="white"/>
 <text x="20" y="43" font-family="Arial, sans-serif" font-size="7" fill="#263238">CADERNO A3  |  R02</text>
 <text x="20" y="55" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL1   Planta cotada - paredes e aberturas</text>
-<text x="20" y="62" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL2   Planta de layout - envelopes R53</text>
+<text x="20" y="62" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL2   Planta de layout - envelopes CAD</text>
 <text x="20" y="69" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL3   Planta de pontos R01</text>
 <text x="20" y="76" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PT1   Pontos R01 - cotas e funções / 1</text>
 <text x="20" y="83" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PT2   Pontos R01 - cotas e funções / 2</text>
@@ -18,14 +18,14 @@
 <text x="20" y="153" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E10   Escritório - TV e prateleira</text>
 <text x="20" y="160" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E11   Sala - painel TV e prateleiras</text>
 <text x="20" y="167" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">E12   Sala - banco P20</text>
-<text x="20" y="174" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">NC1   Módulos - alturas livres entre planos horizontais R53</text>
+<text x="20" y="174" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">NC1   Módulos - alturas livres entre planos horizontais CAD</text>
 <text x="20" y="181" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">DT1   Detalhe-tipo - fechamento ao teto / P03</text>
 <text x="240" y="60" font-family="Arial, sans-serif" font-size="3" fill="#263238">Plantas 1:50; elevações e detalhe 1:25.</text>
 <text x="240" y="70" font-family="Arial, sans-serif" font-size="3" fill="#263238">Imprimir sem ajustar à página; conferir barra de 50 mm.</text>
-<text x="240" y="80" font-family="Arial, sans-serif" font-size="3" fill="#263238">Caixas R53 são envelopes, não contornos de usinagem.</text>
-<text x="240" y="90" font-family="Arial, sans-serif" font-size="3" fill="#263238">Fontes: CSV de medidas + Cotas.json + exportação R53.</text>
+<text x="240" y="80" font-family="Arial, sans-serif" font-size="3" fill="#263238">Caixas CAD são envelopes, não contornos de usinagem.</text>
+<text x="240" y="90" font-family="Arial, sans-serif" font-size="3" fill="#263238">Fontes: CSV de medidas + Cotas.json + exportação CAD.</text>
 <text x="240" y="100" font-family="Arial, sans-serif" font-size="3" fill="#263238">Campo medido vence nominal. Branco = pendência.</text>
-<text x="240" y="110" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajustes ao teto são estudos separados da R53.</text>
+<text x="240" y="110" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajustes ao teto são estudos separados da CAD.</text>
 <text x="240" y="120" font-family="Arial, sans-serif" font-size="3" fill="#263238">R00 preservado; esta revisão não foi publicada.</text>
 <text x="240" y="130" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ver Impacto.json: alterações, fontes e conflitos.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
@@ -37,5 +37,5 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | 00 | 20 folhas | Sem escala</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">0 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
 </svg>

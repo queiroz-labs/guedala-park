@@ -4,7 +4,7 @@ const MAT=Object.fromEntries(PROJECT.materials.map(m=>[m.id,m]));
 const DETAILS_IMAGES=globalThis.GUEDALA_DETAILS||{};
 const state={lighting:'after',room:'all',view:'iso',angle:-.62,tilt:.92,side:'east',sideCut:true,zoom:1,pan:[0,0],sofa:'closed',office:'work',dining:'stored',table:'compact',console:'sala',dry:'stored',sofaGap:0,rackDepth:37,headDepth:5,upper:true,walls:false,measures:false,inside:false,selected:null};
 // Nominal body-to-body distances; handles, people and door swings are separate.
-function diningClearance(st=state){const length=st.table==='compact'?110:170,end=465+length/2,centerProjection=st.table==='extended'&&st.dining==='use'?55:21;return {length,start:465-length/2,end,tableToFridge:615.25-end,entryWidth:85,centerProjection,lateralGap:117.5-centerProjection};}
+function diningClearance(st=state){const length=st.table==='compact'?110:170,end=465+length/2,centerProjection=st.table==='compact'?22.5:st.dining==='use'?55:21;return {length,start:465-length/2,end,tableToFridge:615.25-end,entryWidth:85,centerProjection,lateralGap:117.5-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,renderDirty=false,nodeSequence={},motion=null;
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
@@ -322,6 +322,15 @@ async function render(canvas,st=state,mini=false,selectionOnly=null,sceneNodes=n
     if(floorStyle(f))drawFloorFallback(ctx,f,project);
     else{if(f.edgeMask){ctx.beginPath();p.forEach((v,i)=>{if(f.edgeMask[i]){ctx.moveTo(v[0],v[1]);ctx.lineTo(p[(i+1)%p.length][0],p[(i+1)%p.length][1]);}});}ctx.strokeStyle=shade(f.c,.72);ctx.lineWidth=mini?.25:.4;ctx.stroke();}ctx.globalAlpha=1;
     if(main&&st.selected&&st.selected===f.id){ctx.strokeStyle='#c17b37';ctx.lineWidth=1.6;ctx.stroke();}
+  }
+  // Dashed projection shows the support concealed beneath the opaque tabletop.
+  if(st.view==='top'){
+    ctx.save();ctx.strokeStyle='#252b2b';ctx.lineWidth=1.2;ctx.setLineDash([4,3]);
+    for(const n of list.filter(n=>n.source?.endsWith('Pedestal'))){
+      const points=[[n.x,n.y,n.z],[n.x+n.w,n.y,n.z],[n.x+n.w,n.y,n.z+n.d],[n.x,n.y,n.z+n.d]].map(project);
+      ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.closePath();ctx.stroke();
+    }
+    ctx.restore();
   }
   if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
   if(main){if(!canvas.dataset.rendered)performance.mark('guedala-model-ready');canvas.dataset.rendered='true';document.getElementById('sceneLoading')?.setAttribute('hidden','');}

@@ -59,6 +59,9 @@ def build():
     for source,material in explicit.items():
         assert source in parts
         finishes[source]={'material':material,'evidence':'R43 LEIA-ME:7; decisões de acabamento R13; Fischer escolhido preto em src/data.js'}
+    for source in ('Fechada_110Pedestal','Aberta_cadeira_lateralPedestal'):
+        assert parts[source]['mat']=='black'
+        finishes[source]={'material':'black','evidence':'Elias, 27/10/2026: pedestal preto aproximado, conforme Mesa_e_varal.md'}
     # Documented module appearance used by the lightweight orbit envelopes.
     module_material={f'P{i:02d}':'wood' for i in range(1,21)}
     module_material.update({f'P{i:02d}':'petrol' for i in range(9,13)})

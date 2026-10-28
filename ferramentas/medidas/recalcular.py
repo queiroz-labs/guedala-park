@@ -87,12 +87,12 @@ def base(root=ROOT):
     if doc['cad_sha256'] != geo['cad_sha256']:
         raise ValueError('Regras e exportação pertencem a revisões CAD diferentes')
     if hashlib.sha256((root / geo['cad_path']).read_bytes()).hexdigest() != doc['cad_sha256']:
-        raise ValueError('Exportação R53 desatualizada')
+        raise ValueError('Exportação CAD desatualizada')
     objects = {o['id']: o for o in geo['objects']}
     for name, target in doc['alvos'].items():
         actual = geo['modules'][name] if target['tipo'] == 'modulo' else objects[name]
         if actual['box'] != target['box']:
-            raise ValueError('Envelope não reproduz a R53: ' + name)
+            raise ValueError('Envelope não reproduz a exportação CAD: ' + name)
     return doc
 
 
@@ -168,7 +168,7 @@ def escrever(report, output):
     (output / 'Impacto.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     rows = report['resultados']
     lines = ['# Impacto dimensional', '', 'ESTUDO — NÃO EXECUTAR. '+report['limites'], '',
-             'Base: R53. '+report.get('cenario', 'Valores nominais atuais.'), '',
+             'Base: exportação CAD vigente. '+report.get('cenario', 'Valores nominais atuais.'), '',
              f'{len(rows)} regras; {sum(r["delta_mm"] != 0 for r in rows)} cotas/referências alteradas. '
              f'{sum(r["status"] != "OK" for r in rows)} avisos (inclui conflitos nominais).', '',
              'Interfaces inalteradas ficam somente no JSON. “Ajuste de fabricação” em referência exige revisão de implantação/recorte; não manda deslocar a caixa.', '',

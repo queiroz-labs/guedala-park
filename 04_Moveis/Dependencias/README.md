@@ -1,5 +1,7 @@
 # Dependências dimensionais dos móveis
 
+**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+
 Regras geométricas da R53, 27/10/2026. [Dados](regras.json). Nenhuma medida real incorporada e nenhum FCStd aberto.
 
 469 cotas/referências: 20 módulos e quatro bancadas. X/Y são eixos globais da planta, não largura/profundidade comercial.

@@ -1,4 +1,6 @@
-# Apartamento interativo — R53 e pacote R25
+# Apartamento interativo — R54 e pacote R26
+
+**Berlin R54, 27/10/2026:** pedestal preto aproximado nos dois estados; cadeira lateral +15 mm. 106 cenários sem colisões novas. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Relatório](../../02_Modelo_3D/Relatorio_mudanca.md) · [publicação](../../06_Entregas/README.md). Controle da mesa acessível na sala. Malha da cadeira preservada: só mudou a diagonal de uma face plana; materiais reconciliados. Testes em `test_scene_revision.cjs`.
 
 **Textos públicos:** o site é visto por outras pessoas. Fichas, Escolhas, Planta e Documentos descrevem o estado atual, sem datas, códigos de revisão, "substitui"/"anterior" nem atribuições. Fontes (`source` em `src/data.js`) ficam nos dados, fora da tela. Registros internos e "o que mudou" saem da biblioteca via `INTERNAL_DOCS` em `plain_language.py`, mas seguem no repositório e nas fichas que os citam.
 
@@ -6,7 +8,7 @@
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-A configuração corrente é `current_release.json`: FreeCAD R53, pacote R25, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
+A configuração corrente é `current_release.json`: FreeCAD R54, pacote R26, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
 
 T09, 26/10/2026: entradas antigas de consulta R12/R45 encaminham agora às fichas R14 e ao estado atual. [Manifesto e referências ainda divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09). Fontes e artefatos do site preservados; revisão documental não confirma a publicação remota.
 
@@ -67,8 +69,6 @@ Verificação: [registro R08](Verificacao_interface_R08.json), incluindo 21 comb
 O arquivo permite salvar uma cópia completa do HTML, exportar dados das escolhas, imprimir o moodboard e salvar uma imagem da vista no computador.
 
 ## No S24 Plus
-
-O endereço configurado para acesso pelo navegador é [queiroz-labs.github.io/guedala-park](https://queiroz-labs.github.io/guedala-park/). A [página do moodboard](https://queiroz-labs.github.io/guedala-park/moodboard/) abre a mesma ferramenta nessa aba. A disponibilidade depende da conclusão da primeira publicação no GitHub Pages.
 
 Envie **Guedala_Park_Interativo.html** ao celular e salve o arquivo. Ele contém os estilos, desenhos e interações, sem arquivos auxiliares ou bibliotecas externas. Abra em um navegador que aceite HTML local; se o aplicativo de arquivos exibir apenas uma prévia, use “Abrir com” um navegador compatível. O tratamento de arquivos locais varia conforme o navegador e o gerenciador de arquivos.
 

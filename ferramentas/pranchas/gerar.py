@@ -25,7 +25,7 @@ NOMINAL, MEDIDO = '#94621c', '#006b60'
 
 
 def cad(value, ref):
-    return Medida(value, 'nominal', ('R53:'+ref,))
+    return Medida(value, 'nominal', ('CAD:'+ref,))
 
 
 def valor(f, key, medida, movel='', mostrar=True):
@@ -145,7 +145,7 @@ class Projeto:
             for name,obj in self.modules.items():
                 b=obj['box'];rect([b[0],b[1],b[3]-b[0],b[4]-b[1]],'#263e4b')
                 chamada(f,ox+(b[0]+b[3])/100,oy+(b[1]+b[4])/100,name,labels)
-            f.texto(210,45,'R53: envelopes de todas as peças visíveis exportadas',3.2)
+            f.texto(210,45,'CAD: envelopes de todas as peças visíveis exportadas',3.2)
             for i,(name,obj) in enumerate(self.modules.items()):
                 b=obj['box']; y=55+i*6
                 f.texto(210,y,name,3)
@@ -221,7 +221,7 @@ class Projeto:
         f.linha(25,by-pe.mm/25,ox+(hi-lo)/25+10,by-pe.mm/25,NOMINAL,.4)
         cota(f,'pe-direito',pe,17,by,17,by-pe.mm/25,','.join(names) or room)
         f.texto(25,by-pe.mm/25-5,'TETO ACABADO',2.7)
-        f.texto(213,40,'MÓDULO / L / BASE / TOPO R53 / FOLGA TETO',2.7)
+        f.texto(213,40,'MÓDULO / L / BASE / TOPO CAD / FOLGA TETO',2.7)
         upper={'P02','P03','P04','P09','P10','P11','P12','P15','P17','P19'}
         lanes=[]
         labels=[]
@@ -248,7 +248,7 @@ class Projeto:
                 lanes[lane].append((left,right))
                 cota(f,name+'-largura',width,left,188+lane*7,right,188+lane*7,name)
             if gap.mm<0:
-                f.avisos.append(f'{name}: R53 ultrapassa o teto em {-gap.mm:g} mm; revisar peça/implantação.')
+                f.avisos.append(f'{name}: CAD ultrapassa o teto em {-gap.mm:g} mm; revisar peça/implantação.')
             if self.recalculo and name in upper:
                 # Cenário: fechamento real ao teto; não inventar redimensionamento da caixa.
                 valor(f,name+'-fechamento-recalculado',gap,name)
@@ -267,12 +267,12 @@ class Projeto:
                     f.linha(ox+(b[a]-lo)/25,by-target_top.mm/25,ox+(b[a+3]-lo)/25,by-target_top.mm/25,'#25658c',.6,True)
                     f.texto(213,126+list(n for n in names if n in upper).index(name)*5,
                             name+' H estudo = '+valor(f,name+'-altura-parametrica',target_height,name)+'; base fixa / topo segue PD',2.5,'#25658c')
-        f.texto(25,217,'Azul: fechamento recalculado, não modelado; caixas conforme regras.' if self.recalculo else 'Traço azul: topo paramétrico; caixas cinza: R53 fixa.',3)
+        f.texto(25,217,'Azul: fechamento recalculado, não modelado; caixas conforme regras.' if self.recalculo else 'Traço azul: topo paramétrico; caixas cinza: CAD fixa.',3)
         f.texto(25,223,'Ajuste dimensional não define corte, fixação ou montagem.',3)
         for i,name in enumerate(extras):
             f.texto(213,158+i*4.5,'A'+str(i+1)+': '+self.objects[name]['label'][:95],2.4)
         if not names and code=='E02':
-            f.texto(213,135,'A face oposta não contém módulo de marcenaria na R53.',2.8)
+            f.texto(213,135,'A face oposta não contém módulo de marcenaria na CAD.',2.8)
             f.texto(213,142,'Mostra a interface nominal da lixeira junto ao banheiro.',2.8)
         pts=[r for r in self.data['points'] if r['room']==room]
         f.texto(213,185,'PONTOS DO AMBIENTE: altura / ver PT1-PT2',2.7)
@@ -299,13 +299,13 @@ class Projeto:
         cota(f,'fechamento',gap,x+w+10,y-b[5]/25,x+w+10,y-pe.mm/25,'P03')
         if gap.mm>=0:
             f.caixa(x,y-pe.mm/25,w,gap.mm/25,'#25658c',None,.4)
-        else:f.avisos.append('Fechamento negativo: não desenhado; caixa R53 não cabe sob o teto.')
-        f.texto(180,65,'Altura do fechamento = PD efetivo - topo da caixa R53',3.5)
+        else:f.avisos.append('Fechamento negativo: não desenhado; caixa CAD não cabe sob o teto.')
+        f.texto(180,65,'Altura do fechamento = PD efetivo - topo da caixa CAD',3.5)
         f.texto(180,75,'Resultado: '+valor(f,'fechamento',gap,'P03'),3.5,NOMINAL)
         notes=['Envelope de estudo; espessura, juntas e acesso de montagem com oficina/RT.',
                'Não representa nova peça incorporada ao FCStd.',
                'Não reduzir automaticamente peças existentes para ocultar conflito.',
-               ('Cenário: caixa fixa; fechamento recalculado, não modelado.' if self.recalculo else 'P03 e aéreos: altura de estudo = PD - folga nominal - base R53.'),
+               ('Cenário: caixa fixa; fechamento recalculado, não modelado.' if self.recalculo else 'P03 e aéreos: altura de estudo = PD - folga nominal - base CAD.'),
                'Conferir teto em vários pontos; usar altura livre limitante no CSV.']
         yy=92
         for note in notes:
@@ -314,7 +314,7 @@ class Projeto:
         return f
 
     def nichos(self):
-        f=Folha('NC1','Módulos - alturas livres entre planos horizontais R53',None)
+        f=Folha('NC1','Módulos - alturas livres entre planos horizontais CAD',None)
         f.texto(15,40,'Módulo',3);f.texto(45,40,'Vãos verticais entre envelopes / de baixo para cima / mm',3)
         for i,(name,obj) in enumerate(self.modules.items()):
             b=obj['box']; parts=[]
@@ -368,7 +368,7 @@ def finalizar(f, total, sha):
     nominal=sum(v['mm'] is not None and v['origem']!='medido' for v in f.cotas.values())
     f.texto(215,263,f'R02 | {f.codigo} | {total} folhas | '+('Sem escala' if not f.escala else f'A3 / 1:{f.escala}'),3)
     f.texto(215,270,f'{nominal} cotas nominais | RT: __________________________',3)
-    f.texto(215,277,'R53 SHA256: '+sha[:24]+'...',2.4)
+    f.texto(215,277,'CAD SHA256: '+sha[:24]+'...',2.4)
     if f.escala:
         f.linha(335,282,385,282,'#263238',.5)
         f.texto(335,287,f'50 mm no papel = {50*f.escala:g} mm reais',2.4)
@@ -377,7 +377,7 @@ def finalizar(f, total, sha):
 def gerar(cenario=None):
     p=Projeto(cenario)
     pages=[p.plano('PL1','Planta cotada - paredes e aberturas','paredes'),
-           p.plano('PL2','Planta de layout - envelopes R53','layout'),
+           p.plano('PL2','Planta de layout - envelopes CAD','layout'),
            p.plano('PL3','Planta de pontos R01','pontos')]
     pages += [p.tabela_pontos(1,p.data['points'][:27]),p.tabela_pontos(2,p.data['points'][27:])]
     pages += [p.elevacao(s) for s in ELEVACOES]
@@ -388,10 +388,10 @@ def gerar(cenario=None):
     for i,f in enumerate(pages):cover.texto(20,55+i*7,f.codigo+'   '+f.titulo,3.2)
     for i,line in enumerate(['Plantas 1:50; elevações e detalhe 1:25.',
                              'Imprimir sem ajustar à página; conferir barra de 50 mm.',
-                             'Caixas R53 são envelopes, não contornos de usinagem.',
-                             'Fontes: CSV de medidas + Cotas.json + exportação R53.',
+                             'Caixas CAD são envelopes, não contornos de usinagem.',
+                             'Fontes: CSV de medidas + Cotas.json + exportação CAD.',
                              'Campo medido vence nominal. Branco = pendência.',
-                             'Ajustes ao teto são estudos separados da R53.',
+                             'Ajustes ao teto são estudos separados da CAD.',
                              'R00 preservado; esta revisão não foi publicada.',
                              'Ver Impacto.json: alterações, fontes e conflitos.']):cover.texto(240,60+i*10,line,3)
     pages.insert(0,cover)

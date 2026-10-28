@@ -36,7 +36,7 @@ def testar(parent):
     target.mkdir(parents=True)
     source_files=['07_Imovel/Medidas_e_impactos.csv','06_Entregas/Planta_cotada/Cotas.json',
                   '06_Entregas/Caderno_pranchas/Geometria.json',
-                  '02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd','ferramentas/fatos.json']
+                  json.loads((ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))['cad_path'],'ferramentas/fatos.json']
     before={name:sha(ROOT/name) for name in source_files}
     try:
         for name in source_files:

@@ -217,7 +217,7 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | PL3 | 20 folhas | A3 / 1:50</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">98 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
 <line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
 <text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 2500 mm reais</text>
 </svg>

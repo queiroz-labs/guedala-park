@@ -19,7 +19,7 @@ def sha(path):
 def ensaiar(output):
     scenario = ROOT/'ferramentas/medidas/cenarios/ensaio_chaves.csv'
     sources = [ROOT/'07_Imovel/Medidas_e_impactos.csv', ROOT/'ferramentas/fatos.json',
-               ROOT/'02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd',
+               ROOT/json.loads((ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))['cad_path'],
                ROOT/'04_Moveis/Dependencias/Impacto.json', ROOT/'04_Moveis/Dependencias/Impacto.md']
     sources += [p for p in (ROOT/'06_Entregas/Caderno_pranchas').iterdir() if p.is_file()]
     before = {str(p):sha(p) for p in sources}

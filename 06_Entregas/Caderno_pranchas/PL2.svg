@@ -1072,7 +1072,7 @@
 <rect x="167.0" y="117.0" width="9.0" height="36.0" stroke="#263e4b" fill="none" stroke-width="0.2"/>
 <line x1="171.5" y1="135.0" x2="175.5" y2="131.0" stroke="#263238" stroke-width="0.1"/>
 <text x="175.5" y="132.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">P20</text>
-<text x="210" y="45" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">R53: envelopes de todas as peças visíveis exportadas</text>
+<text x="210" y="45" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">CAD: envelopes de todas as peças visíveis exportadas</text>
 <text x="210" y="55" font-family="Arial, sans-serif" font-size="3" fill="#263238">P01</text>
 <text x="224" y="55" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">2000 N × 650 N × 2132 N</text>
 <text x="210" y="61" font-family="Arial, sans-serif" font-size="3" fill="#263238">P02</text>
@@ -1116,7 +1116,7 @@
 <text x="30" y="211" font-family="Arial, sans-serif" font-size="3" fill="#263238">Planta: X para a direita; Y para baixo. Medidas em mm; imprimir a 100%.</text>
 <text x="30" y="218" font-family="Arial, sans-serif" font-size="3" fill="#263238">Paredes e aberturas reconstituídas; conferir alinhamentos e espessuras no imóvel.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
-<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">PL2 | Planta de layout - envelopes R53</text>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">PL2 | Planta de layout - envelopes CAD</text>
 <text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
 <line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
 <text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
@@ -1124,7 +1124,7 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | PL2 | 20 folhas | A3 / 1:50</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">60 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
 <line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
 <text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 2500 mm reais</text>
 </svg>

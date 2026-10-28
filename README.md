@@ -4,7 +4,7 @@
 
 Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, comece pelo [Estado atual](ESTADO_ATUAL.md).** Para continuar uma sessão, use a [retomada curta T09](ESTADO_ATUAL.md#como-trabalhar-nesta-pasta): versões, cinco decisões recentes, responsáveis, próximo passo e verificações comprovadas.
 
-**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R23.zip)**
+**[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R26.zip)**
 
 ## Como a pasta está organizada
 
@@ -12,7 +12,7 @@ Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, co
 |---|---|
 | [ESTADO_ATUAL.md](ESTADO_ATUAL.md) | Versões vigentes, decisões, pendências e próximos passos |
 | [01_Programa_e_decisoes](01_Programa_e_decisoes) | Programa, registro de decisões, especificações, convenção, plano de reforma |
-| [02_Modelo_3D](02_Modelo_3D) | Modelo FreeCAD vigente (R52), conferências e componentes de ferragens |
+| [02_Modelo_3D](02_Modelo_3D) | Modelo FreeCAD vigente (R54), conferências e componentes de ferragens |
 | [03_Ambientes](03_Ambientes) | Cozinha, banheiro, lavanderia, sala, escritório, quarto, iluminação, plantas |
 | [04_Moveis](04_Moveis/README.md) | Cálculos e estudos por móvel (P01…P20), cargas, ligações, inventário dimensional |
 | [05_Orcamento_e_cronograma](05_Orcamento_e_cronograma) | Orçamento, cronograma e plano de execução |
@@ -30,8 +30,8 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 |---|---|
 | **Executar as prioridades até 31/10** | [Plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Explorar o apartamento e os móveis em 3D | [Site interativo](https://queiroz-labs.github.io/guedala-park/) |
-| Abrir ou editar o projeto no FreeCAD | [Modelo R53 completo (.FCStd)](02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd) · [correções e conferências](02_Modelo_3D/README.md) · salvamento otimizado |
-| Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R14](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/index.html) |
+| Abrir ou editar o projeto no FreeCAD | [Modelo R54 completo (.FCStd)](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [correções e conferências](02_Modelo_3D/README.md) · salvamento otimizado |
+| Ver medidas, espessuras, acabamentos e ferragens | [Fichas dos 20 móveis · R15](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/index.html) |
 | Consultar furações e suas referências | [Escolher o móvel e abrir “Furação” na ficha](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Fichas_fabricacao/index.html) |
 | Consultar distâncias entre paredes | [Planta cotada](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Planta_cotada/index.html) |
 | **Entender o projeto em uma página** | [Estado atual](ESTADO_ATUAL.md) |
@@ -54,11 +54,11 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 
 ## Para encaminhar ao montador
 
-1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R23.zip)** e envie como arquivo ou compartilhe este link.
+1. Baixe o **[pacote ZIP](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R26.zip)** e envie como arquivo ou compartilhe este link.
 2. Extraia o ZIP inteiro e abra **COMECE_AQUI.html** no navegador. Ele funciona como menu da pasta.
-3. Para editar o modelo, abra **02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. Fichas, planta e tabelas abrem sem o FreeCAD.
+3. Para editar o modelo, abra **02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd** pelo menu **Arquivo → Abrir** do FreeCAD. Fichas, planta e tabelas abrem sem o FreeCAD.
 
-**Revisões:** R23 identifica o pacote, R52 o modelo, R14 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
+**Revisões:** R26 identifica o pacote, R54 o modelo, R15 as fichas e R16 a aparência. Furos, forma comercial da FGVTN 500 e a piano do banco continuam fora da geometria; produtos, juntas e protótipos ainda condicionam a execução. As cores são aproximações visuais.
 
 As fichas distinguem medidas nominais, decisões técnicas, verificações na oficina e medidas a levantar no apartamento. Consulte as pendências antes de cortar ou furar; o pacote não é liberação integral de fabricação.
 

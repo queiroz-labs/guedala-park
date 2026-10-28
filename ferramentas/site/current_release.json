@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "releaseDate": "2026-10-27",
-  "projectRevision": "Consulta de marcenaria · FreeCAD R53 · iluminação CB02",
+  "projectRevision": "Consulta de marcenaria · FreeCAD R54 · iluminação CB02",
   "projectDate": "27 outubro 2026",
-  "cadRevision": "R53",
-  "cadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
-  "cadSHA256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "cadRevision": "R54",
+  "cadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
+  "cadSHA256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
   "cadReadme": "02_Modelo_3D/README.md",
   "cadEvidence": [
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R25",
+  "packageRevision": "R26",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R25.zip",
-  "archiveRoot": "Guedala_Park_R25",
+  "packageFile": "Guedala_Park_R26.zip",
+  "archiveRoot": "Guedala_Park_R26",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "published",
+  "publicationStatus": "publication_authorized",
   "lastPublishedCadRevision": "R53",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
   "lastPublishedPackageRevision": "R25",
-  "notes": "R25: alturas nominais por ambiente, 2,60 m nos cômodos e 2,50 m no banheiro; fonte CSV comum ao site e pranchas A3 R02. Medidas a confirmar; CAD R53 e fichas R15 preservados. Elias, 27/10/2026, nesta conversa: altera a altura de todos os comodos para 2,6 e o banheiro para 2,5; pode dar commit push e atualizar o site.",
+  "notes": "R54: pedestais Berlin aproximados, topo Z750; cadeira lateral fechada afastada 15 mm em +X. Verificação completa sem colisões novas. Elias, 27/10/2026, nesta tarefa: \"Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.\"",
   "technicalDocuments": [
     {
       "id": "pe-direito",
@@ -278,6 +278,14 @@
         "06_Entregas/Caderno_pranchas/Geometria.json",
         "06_Entregas/Caderno_pranchas/Ultima_geracao.json"
       ]
+    },
+    {
+      "id": "berlin-pedestal",
+      "title": "Mesa Berlin: pedestal e cadeira lateral",
+      "room": "sala",
+      "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md",
+      "summary": "Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado; medidas do produto sem desenho técnico.",
+      "files": []
     }
   ]
 }

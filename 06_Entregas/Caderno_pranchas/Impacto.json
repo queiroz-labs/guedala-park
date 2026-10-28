@@ -1,33 +1,2440 @@
 {
   "revisao": "R02",
-  "cad_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
   "primeira_geracao": false,
   "alteracoes": [
     {
-      "cota": "E04:B11-altura",
+      "cota": "DT1:fechamento",
       "antes": {
-        "mm": 2600.0,
+        "mm": 160.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "PD-QUA",
+          "R53:P03"
         ],
-        "movel": "P18,P19",
+        "movel": "P03",
+        "prancha": "DT1"
+      },
+      "depois": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "DT1"
+      }
+    },
+    {
+      "cota": "E01:FischerFrenteR31-L",
+      "antes": {
+        "mm": 595.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 595.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:FischerFrenteR31-base",
+      "antes": {
+        "mm": 123.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 123.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:FischerFrenteR31-folga",
+      "antes": {
+        "mm": 2030.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2030.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:FischerFrenteR31-topo",
+      "antes": {
+        "mm": 570.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 570.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:FischerFrenteR31"
+        ],
+        "movel": "FischerFrenteR31",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P05-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P05-base",
+      "antes": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P05-folga",
+      "antes": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P05-largura",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P05-topo",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P06-L",
+      "antes": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P06-base",
+      "antes": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P06-folga",
+      "antes": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P06-largura",
+      "antes": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P06-topo",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P07-L",
+      "antes": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P07-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P07-folga",
+      "antes": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P07-largura",
+      "antes": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P07-topo",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P08-L",
+      "antes": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P08-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P08-folga",
+      "antes": {
+        "mm": 2420.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2420.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P08-largura",
+      "antes": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P08-topo",
+      "antes": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-altura-parametrica",
+      "antes": {
+        "mm": 592.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P09:folga nominal",
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 592.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P09:folga nominal",
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-base",
+      "antes": {
+        "mm": 1958.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1958.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-folga",
+      "antes": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-largura",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-topo",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P09-topo-parametrico",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P09:folga nominal"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P09:folga nominal"
+        ],
+        "movel": "P09",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-L",
+      "antes": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-altura-parametrica",
+      "antes": {
+        "mm": 1018.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P10:folga nominal",
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1018.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P10:folga nominal",
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-base",
+      "antes": {
+        "mm": 1532.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1532.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-folga",
+      "antes": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-largura",
+      "antes": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-topo",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P10-topo-parametrico",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P10:folga nominal"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P10:folga nominal"
+        ],
+        "movel": "P10",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-L",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-altura-parametrica",
+      "antes": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P11:folga nominal",
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P11:folga nominal",
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-base",
+      "antes": {
+        "mm": 1940.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1940.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-folga",
+      "antes": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-largura",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-topo",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P11-topo-parametrico",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P11:folga nominal"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P11:folga nominal"
+        ],
+        "movel": "P11",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-L",
+      "antes": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-altura-parametrica",
+      "antes": {
+        "mm": 584.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P12:folga nominal",
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 584.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P12:folga nominal",
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-base",
+      "antes": {
+        "mm": 1966.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1966.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-folga",
+      "antes": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 50.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-largura",
+      "antes": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-topo",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P12-topo-parametrico",
+      "antes": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P12:folga nominal"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 2550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P12:folga nominal"
+        ],
+        "movel": "P12",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P13-L",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P13-base",
+      "antes": {
+        "mm": 1532.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1532.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P13-folga",
+      "antes": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P13-largura",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:P13-topo",
+      "antes": {
+        "mm": 1550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca134-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca134-base",
+      "antes": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca134-folga",
+      "antes": {
+        "mm": 1665.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1665.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca134-topo",
+      "antes": {
+        "mm": 935.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 935.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca134"
+        ],
+        "movel": "Peca134",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca138-L",
+      "antes": {
+        "mm": 601.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 601.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca138-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca138-folga",
+      "antes": {
+        "mm": 734.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 734.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca138-topo",
+      "antes": {
+        "mm": 1866.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1866.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca138"
+        ],
+        "movel": "Peca138",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca139-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca139-base",
+      "antes": {
+        "mm": 1740.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1740.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca139-folga",
+      "antes": {
+        "mm": 684.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 684.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca139-topo",
+      "antes": {
+        "mm": 1916.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1916.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca139"
+        ],
+        "movel": "Peca139",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca308-L",
+      "antes": {
+        "mm": 1869.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1869.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca308-base",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca308-folga",
+      "antes": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca308-topo",
+      "antes": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca308"
+        ],
+        "movel": "Peca308",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca351-L",
+      "antes": {
+        "mm": 461.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 461.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca351-base",
+      "antes": {
+        "mm": 1550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca351-folga",
+      "antes": {
+        "mm": 760.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 760.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E01:Peca351-topo",
+      "antes": {
+        "mm": 1840.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      },
+      "depois": {
+        "mm": 1840.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca351"
+        ],
+        "movel": "Peca351",
+        "prancha": "E01"
+      }
+    },
+    {
+      "cota": "E02:Peca144-L",
+      "antes": {
+        "mm": 340.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 340.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca144-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca144-folga",
+      "antes": {
+        "mm": 2150.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 2150.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca144-topo",
+      "antes": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca144"
+        ],
+        "movel": "Peca144",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca145-L",
+      "antes": {
+        "mm": 340.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 340.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca145-base",
+      "antes": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca145-folga",
+      "antes": {
+        "mm": 2130.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "R53:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 2130.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-COZ",
+          "CAD:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E02:Peca145-topo",
+      "antes": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      },
+      "depois": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca145"
+        ],
+        "movel": "Peca145",
+        "prancha": "E02"
+      }
+    },
+    {
+      "cota": "E03:P14-L",
+      "antes": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P14-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P14-folga",
+      "antes": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P14-largura",
+      "antes": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P14-topo",
+      "antes": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-L",
+      "antes": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-altura-parametrica",
+      "antes": {
+        "mm": 580.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:P15:folga nominal",
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 580.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:P15:folga nominal",
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-base",
+      "antes": {
+        "mm": 1650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-folga",
+      "antes": {
+        "mm": 370.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 370.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-largura",
+      "antes": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-topo",
+      "antes": {
+        "mm": 2230.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 2230.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:P15-topo-parametrico",
+      "antes": {
+        "mm": 2230.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:P15:folga nominal"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 2230.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:P15:folga nominal"
+        ],
+        "movel": "P15",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca152-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca152-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca152-folga",
+      "antes": {
+        "mm": 1750.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1750.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca152-topo",
+      "antes": {
+        "mm": 850.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 850.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca152"
+        ],
+        "movel": "Peca152",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca155-L",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca155-base",
+      "antes": {
+        "mm": 1570.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1570.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca155-folga",
+      "antes": {
+        "mm": 500.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 500.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca155-topo",
+      "antes": {
+        "mm": 2100.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 2100.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca155"
+        ],
+        "movel": "Peca155",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca357-L",
+      "antes": {
+        "mm": 1330.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1330.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca357-base",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca357-folga",
+      "antes": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "R53:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 1680.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-LAV",
+          "CAD:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E03:Peca357-topo",
+      "antes": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      },
+      "depois": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca357"
+        ],
+        "movel": "Peca357",
+        "prancha": "E03"
+      }
+    },
+    {
+      "cota": "E04:P18-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
         "prancha": "E04"
       },
       "depois": {
-        "mm": 2500.0,
+        "mm": 600.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "CAD:P18"
         ],
-        "movel": "P18,P19",
+        "movel": "P18",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P18-base",
+      "antes": {
+        "mm": 200.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 200.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
         "prancha": "E04"
       }
     },
     {
       "cota": "E04:P18-folga",
       "antes": {
-        "mm": 1855.0,
+        "mm": 1755.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -41,16 +2448,79 @@
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
-          "R53:P18"
+          "CAD:P18"
         ],
         "movel": "P18",
         "prancha": "E04"
       }
     },
     {
+      "cota": "E04:P18-largura",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P18-topo",
+      "antes": {
+        "mm": 745.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 745.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
       "cota": "E04:P19-altura-parametrica",
       "antes": {
-        "mm": 750.0,
+        "mm": 650.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -61,12 +2531,33 @@
         "prancha": "E04"
       },
       "depois": {
-        "mm": 650.0,
+        "mm": 750.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
-          "R53:P19:folga nominal",
+          "CAD:P19:folga nominal",
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-base",
+      "antes": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
           "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
         ],
         "movel": "P19",
         "prancha": "E04"
@@ -75,7 +2566,7 @@
     {
       "cota": "E04:P19-folga",
       "antes": {
-        "mm": 700.0,
+        "mm": 600.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -89,7 +2580,49 @@
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-largura",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
           "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:P19-topo",
+      "antes": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
         ],
         "movel": "P19",
         "prancha": "E04"
@@ -98,7 +2631,7 @@
     {
       "cota": "E04:P19-topo-parametrico",
       "antes": {
-        "mm": 1900.0,
+        "mm": 1800.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -108,20 +2641,62 @@
         "prancha": "E04"
       },
       "depois": {
-        "mm": 1800.0,
+        "mm": 1900.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
-          "R53:P19:folga nominal"
+          "CAD:P19:folga nominal"
         ],
         "movel": "P19",
         "prancha": "E04"
       }
     },
     {
+      "cota": "E04:Peca185-L",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:Peca185-base",
+      "antes": {
+        "mm": 765.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 765.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      }
+    },
+    {
       "cota": "E04:Peca185-folga",
       "antes": {
-        "mm": 1700.0,
+        "mm": 1600.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -135,16 +2710,79 @@
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
-          "R53:Peca185"
+          "CAD:Peca185"
         ],
         "movel": "Peca185",
         "prancha": "E04"
       }
     },
     {
+      "cota": "E04:Peca185-topo",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca185"
+        ],
+        "movel": "Peca185",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:Peca399-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      }
+    },
+    {
+      "cota": "E04:Peca399-base",
+      "antes": {
+        "mm": 745.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      },
+      "depois": {
+        "mm": 745.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca399"
+        ],
+        "movel": "Peca399",
+        "prancha": "E04"
+      }
+    },
+    {
       "cota": "E04:Peca399-folga",
       "antes": {
-        "mm": 1835.0,
+        "mm": 1735.0,
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
@@ -158,52 +2796,3516 @@
         "origem": "nominal",
         "fontes": [
           "PD-BAN",
-          "R53:Peca399"
+          "CAD:Peca399"
         ],
         "movel": "Peca399",
         "prancha": "E04"
       }
     },
     {
-      "cota": "E04:pe-direito",
+      "cota": "E04:Peca399-topo",
       "antes": {
-        "mm": 2600.0,
+        "mm": 765.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "R53:Peca399"
         ],
-        "movel": "P18,P19",
+        "movel": "Peca399",
         "prancha": "E04"
       },
       "depois": {
-        "mm": 2500.0,
+        "mm": 765.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "CAD:Peca399"
         ],
-        "movel": "P18,P19",
+        "movel": "Peca399",
         "prancha": "E04"
       }
     },
     {
-      "cota": "PT2:B11-Z",
+      "cota": "E05:P01-L",
       "antes": {
-        "mm": 2600.0,
+        "mm": 2000.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "R53:P01"
         ],
-        "movel": "banho",
-        "prancha": "PT2"
+        "movel": "P01",
+        "prancha": "E05"
       },
       "depois": {
-        "mm": 2500.0,
+        "mm": 2000.0,
         "origem": "nominal",
         "fontes": [
-          "PD-BAN"
+          "CAD:P01"
         ],
-        "movel": "banho",
-        "prancha": "PT2"
+        "movel": "P01",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P01-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P01-folga",
+      "antes": {
+        "mm": 468.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 468.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P01-largura",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P01-topo",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-altura-parametrica",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02:folga nominal",
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02:folga nominal",
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-base",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-folga",
+      "antes": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-largura",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-topo",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P02-topo-parametrico",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02:folga nominal"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02:folga nominal"
+        ],
+        "movel": "P02",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-L",
+      "antes": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-altura-parametrica",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P03:folga nominal",
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P03:folga nominal",
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-base",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-folga",
+      "antes": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-largura",
+      "antes": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-topo",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E05:P03-topo-parametrico",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P03:folga nominal"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P03:folga nominal"
+        ],
+        "movel": "P03",
+        "prancha": "E05"
+      }
+    },
+    {
+      "cota": "E06:P02-L",
+      "antes": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-altura-parametrica",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02:folga nominal",
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02:folga nominal",
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-base",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-folga",
+      "antes": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-largura",
+      "antes": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-topo",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E06:P02-topo-parametrico",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P02:folga nominal"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P02:folga nominal"
+        ],
+        "movel": "P02",
+        "prancha": "E06"
+      }
+    },
+    {
+      "cota": "E07:CabeceiraDoisPaineisR25-L",
+      "antes": {
+        "mm": 1600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 1600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:CabeceiraDoisPaineisR25-base",
+      "antes": {
+        "mm": 200.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 200.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:CabeceiraDoisPaineisR25-folga",
+      "antes": {
+        "mm": 1450.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 1450.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:CabeceiraDoisPaineisR25-topo",
+      "antes": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:CabeceiraDoisPaineisR25"
+        ],
+        "movel": "CabeceiraDoisPaineisR25",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-L",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-altura-parametrica",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P04:folga nominal",
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P04:folga nominal",
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-base",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-folga",
+      "antes": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 160.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-largura",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-topo",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E07:P04-topo-parametrico",
+      "antes": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "R53:P04:folga nominal"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      },
+      "depois": {
+        "mm": 2440.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-QUA",
+          "CAD:P04:folga nominal"
+        ],
+        "movel": "P04",
+        "prancha": "E07"
+      }
+    },
+    {
+      "cota": "E08:P16-L",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:P16-base",
+      "antes": {
+        "mm": 480.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 480.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:P16-folga",
+      "antes": {
+        "mm": 1880.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 1880.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:P16-largura",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:P16-topo",
+      "antes": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:Peca110-L",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:Peca110-base",
+      "antes": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:Peca110-folga",
+      "antes": {
+        "mm": 1850.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 1850.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E08:Peca110-topo",
+      "antes": {
+        "mm": 750.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      },
+      "depois": {
+        "mm": 750.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca110"
+        ],
+        "movel": "Peca110",
+        "prancha": "E08"
+      }
+    },
+    {
+      "cota": "E09:P17-L",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-altura-parametrica",
+      "antes": {
+        "mm": 550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:P17:folga nominal",
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 550.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:P17:folga nominal",
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-base",
+      "antes": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-folga",
+      "antes": {
+        "mm": 150.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 150.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-largura",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-topo",
+      "antes": {
+        "mm": 2450.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 2450.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E09:P17-topo-parametrico",
+      "antes": {
+        "mm": 2450.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:P17:folga nominal"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      },
+      "depois": {
+        "mm": 2450.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:P17:folga nominal"
+        ],
+        "movel": "P17",
+        "prancha": "E09"
+      }
+    },
+    {
+      "cota": "E10:Peca130-L",
+      "antes": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca130-base",
+      "antes": {
+        "mm": 1920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 1920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca130-folga",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca130-topo",
+      "antes": {
+        "mm": 1950.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 1950.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca130"
+        ],
+        "movel": "Peca130",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca131-L",
+      "antes": {
+        "mm": 970.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 970.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca131-base",
+      "antes": {
+        "mm": 820.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 820.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca131-folga",
+      "antes": {
+        "mm": 1220.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "R53:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 1220.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-ESC",
+          "CAD:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E10:Peca131-topo",
+      "antes": {
+        "mm": 1380.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      },
+      "depois": {
+        "mm": 1380.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca131"
+        ],
+        "movel": "Peca131",
+        "prancha": "E10"
+      }
+    },
+    {
+      "cota": "E11:Peca084-L",
+      "antes": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1150.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca084-base",
+      "antes": {
+        "mm": 250.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 250.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca084-folga",
+      "antes": {
+        "mm": 700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "R53:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 700.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "CAD:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca084-topo",
+      "antes": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca084"
+        ],
+        "movel": "Peca084",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca085-L",
+      "antes": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca085-base",
+      "antes": {
+        "mm": 320.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 320.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca085-folga",
+      "antes": {
+        "mm": 2250.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "R53:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 2250.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "CAD:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca085-topo",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca085"
+        ],
+        "movel": "Peca085",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca086-L",
+      "antes": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1100.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca086-base",
+      "antes": {
+        "mm": 1620.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1620.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca086-folga",
+      "antes": {
+        "mm": 950.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "R53:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 950.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "CAD:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca086-topo",
+      "antes": {
+        "mm": 1650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca086"
+        ],
+        "movel": "Peca086",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca088-L",
+      "antes": {
+        "mm": 1111.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1111.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca088-base",
+      "antes": {
+        "mm": 770.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 770.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca088-folga",
+      "antes": {
+        "mm": 1181.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "R53:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1181.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "CAD:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E11:Peca088-topo",
+      "antes": {
+        "mm": 1419.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      },
+      "depois": {
+        "mm": 1419.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:Peca088"
+        ],
+        "movel": "Peca088",
+        "prancha": "E11"
+      }
+    },
+    {
+      "cota": "E12:P20-L",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      }
+    },
+    {
+      "cota": "E12:P20-base",
+      "antes": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      },
+      "depois": {
+        "mm": 0.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      }
+    },
+    {
+      "cota": "E12:P20-folga",
+      "antes": {
+        "mm": 2200.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      },
+      "depois": {
+        "mm": 2200.0,
+        "origem": "nominal",
+        "fontes": [
+          "PD-SAL",
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      }
+    },
+    {
+      "cota": "E12:P20-largura",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      }
+    },
+    {
+      "cota": "E12:P20-topo",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "E12"
+      }
+    },
+    {
+      "cota": "NC1:P02-vao-0",
+      "antes": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P03-vao-0",
+      "antes": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P04-vao-0",
+      "antes": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 272.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P05-vao-0",
+      "antes": {
+        "mm": 284.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 284.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P06-vao-0",
+      "antes": {
+        "mm": 31.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 31.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P06-vao-1",
+      "antes": {
+        "mm": 369.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 369.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P09-vao-0",
+      "antes": {
+        "mm": 556.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 556.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P10-vao-0",
+      "antes": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P10-vao-1",
+      "antes": {
+        "mm": 192.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 192.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P10-vao-2",
+      "antes": {
+        "mm": 258.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 258.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P10-vao-3",
+      "antes": {
+        "mm": 298.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 298.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P11-vao-0",
+      "antes": {
+        "mm": 258.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 258.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P11-vao-1",
+      "antes": {
+        "mm": 298.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 298.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P12-vao-0",
+      "antes": {
+        "mm": 548.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 548.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P14-vao-0",
+      "antes": {
+        "mm": 532.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 532.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P15-vao-0",
+      "antes": {
+        "mm": 544.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 544.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P16-vao-0",
+      "antes": {
+        "mm": 204.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 204.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P17-vao-0",
+      "antes": {
+        "mm": 514.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 514.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P19-vao-0",
+      "antes": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P19-vao-1",
+      "antes": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "NC1:P19-vao-2",
+      "antes": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      },
+      "depois": {
+        "mm": 226.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "NC1"
+      }
+    },
+    {
+      "cota": "PL2:P01-H",
+      "antes": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 2132.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P01-L",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P01-P",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P01"
+        ],
+        "movel": "P01",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P02-H",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P02-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P02-P",
+      "antes": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1050.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P02"
+        ],
+        "movel": "P02",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P03-H",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P03-L",
+      "antes": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P03-P",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P03"
+        ],
+        "movel": "P03",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P04-H",
+      "antes": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 308.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P04-L",
+      "antes": {
+        "mm": 250.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 250.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P04-P",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P04"
+        ],
+        "movel": "P04",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P05-H",
+      "antes": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P05-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P05-P",
+      "antes": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P05"
+        ],
+        "movel": "P05",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P06-H",
+      "antes": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 720.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P06-L",
+      "antes": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 619.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P06-P",
+      "antes": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P06"
+        ],
+        "movel": "P06",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P07-H",
+      "antes": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 900.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P07-L",
+      "antes": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 613.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P07-P",
+      "antes": {
+        "mm": 597.5,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 597.5,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P07"
+        ],
+        "movel": "P07",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P08-H",
+      "antes": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 180.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P08-L",
+      "antes": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1269.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P08-P",
+      "antes": {
+        "mm": 530.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 530.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P08"
+        ],
+        "movel": "P08",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P09-H",
+      "antes": {
+        "mm": 592.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 592.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P09-L",
+      "antes": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 650.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P09-P",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P09"
+        ],
+        "movel": "P09",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P10-H",
+      "antes": {
+        "mm": 1018.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1018.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P10-L",
+      "antes": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 547.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P10-P",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P10"
+        ],
+        "movel": "P10",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P11-H",
+      "antes": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 610.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P11-L",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P11-P",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P11"
+        ],
+        "movel": "P11",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P12-H",
+      "antes": {
+        "mm": 584.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 584.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P12-L",
+      "antes": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 801.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P12-P",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P12"
+        ],
+        "movel": "P12",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P13-H",
+      "antes": {
+        "mm": 18.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 18.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P13-L",
+      "antes": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 697.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P13-P",
+      "antes": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P13"
+        ],
+        "movel": "P13",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P14-H",
+      "antes": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 920.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P14-L",
+      "antes": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 590.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P14-P",
+      "antes": {
+        "mm": 630.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 630.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P14"
+        ],
+        "movel": "P14",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P15-H",
+      "antes": {
+        "mm": 580.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 580.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P15-L",
+      "antes": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 835.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P15-P",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P15"
+        ],
+        "movel": "P15",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P16-H",
+      "antes": {
+        "mm": 240.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 240.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P16-L",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P16-P",
+      "antes": {
+        "mm": 430.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 430.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P16"
+        ],
+        "movel": "P16",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P17-H",
+      "antes": {
+        "mm": 550.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 550.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P17-L",
+      "antes": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 350.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P17-P",
+      "antes": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 2000.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P17"
+        ],
+        "movel": "P17",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P18-H",
+      "antes": {
+        "mm": 545.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 545.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P18-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P18-P",
+      "antes": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 470.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P18"
+        ],
+        "movel": "P18",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P19-H",
+      "antes": {
+        "mm": 750.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 750.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P19-L",
+      "antes": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 600.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P19-P",
+      "antes": {
+        "mm": 150.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 150.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P19"
+        ],
+        "movel": "P19",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P20-H",
+      "antes": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 400.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P20-L",
+      "antes": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 450.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
+      }
+    },
+    {
+      "cota": "PL2:P20-P",
+      "antes": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "R53:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
+      },
+      "depois": {
+        "mm": 1800.0,
+        "origem": "nominal",
+        "fontes": [
+          "CAD:P20"
+        ],
+        "movel": "P20",
+        "prancha": "PL2"
       }
     }
   ],

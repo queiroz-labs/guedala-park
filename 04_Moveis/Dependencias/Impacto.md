@@ -2,7 +2,7 @@
 
 ESTUDO — NÃO EXECUTAR. Geometria de estudo; sem recortes, corte, colisões 3D ou atualização do FCStd
 
-Base: R53. Valores nominais atuais.
+Base: exportação CAD vigente. Valores nominais atuais.
 
 469 regras; 0 cotas/referências alteradas. 4 avisos (inclui conflitos nominais).
 

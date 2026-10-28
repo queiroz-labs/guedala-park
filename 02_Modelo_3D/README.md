@@ -1,8 +1,10 @@
 # Modelo 3D (FreeCAD)
 
-Modelo vigente: **R53**, [Guedala_Park_R53_Decisoes.FCStd](Guedala_Park_R53_Decisoes.FCStd). Base R52 preservada no Git; propriedades e geometria verificadas no relatório abaixo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
+Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base R52 preservada no Git; propriedades e geometria verificadas no relatório abaixo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
 
 ## Decisões incorporadas na R53 — 27/10/2026
+
+**R54 (27/10):** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
 
 Fonte: Elias,27/10/2026: “Aplicar à R52 e às fichas as decisões já tomadas” e “crie um R53”, nesta conversa. Escopo desta revisão: P02 U1–U4=A, P13 F13=A, TV R44=A e lixeiras LIX=A.
 

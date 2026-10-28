@@ -1,5 +1,7 @@
 # Recálculo dimensional
 
+**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+
 `python ferramentas/medidas/recalcular.py` lê o CSV efetivo e aplica [regras](../../04_Moveis/Dependencias/regras.json). Somente resultado nominal vai para Dependencias/Impacto.md e Impacto.json. Se houver valor medido ou cenário, a saída padrão é temporária fora do repositório; o comando imprime o caminho. `--nominal` ignora medidos explicitamente e serve à reprodução da base.
 
 `python ferramentas/medidas/recalcular.py --cenario C:/Temp/campo.csv --saida C:/Temp/impacto`

@@ -1,6 +1,8 @@
 # Caderno formal A3 — R02
 
-[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 preservado em [PDF histórico](Guedala_Park_Pranchas_R00.pdf); R02 incluído na publicação R25.
+**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+
+[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 preservado em [PDF histórico](Guedala_Park_Pranchas_R00.pdf); R02 incluído no pacote R26.
 
 Gerar na raiz do repositório:
 
@@ -23,7 +25,7 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 | Folhas | Conteúdo |
 |---|---|
 | 00 | Índice, fontes e critérios |
-| PL1–PL3 | Paredes/aberturas; layout R53; pontos R01 |
+| PL1–PL3 | Paredes/aberturas; layout R54; pontos R01 |
 | PT1–PT2 | Os 53 códigos R01: coordenadas, alturas e funções |
 | E01–E02 | Cozinha: bancada/aéreos e face oposta da lixeira |
 | E03–E04 | Lavanderia e banheiro |
@@ -42,7 +44,7 @@ Elias solicitou 2,60 m em todos os cômodos e 2,50 m no banheiro. CSV atualizado
 - N em ocre e linha de cota tracejada: nominal/planta, incluindo CAD. M em verde e linha contínua: medido. Cota derivada só é M quando todas as parcelas forem medidas. O carimbo conta os registros de cota nominal da folha; repetições do mesmo identificador contam uma vez. RT permanece em branco. Todas as folhas: **ESTUDO — NÃO EXECUTAR**.
 - Geometria.json contém envelopes de objetos visíveis e módulos P01–P20, posições, tamanhos e folgas nominais na exportação, com SHA256 do FCStd. Coordenadas globais FreeCAD são espelhadas em X para a planta. Não substitui contornos de usinagem; peças internas aparecem como referência geométrica, sem cálculo de carga/ligação.
 - FCStd R53 preservado: SHA256 `fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f`. Verificação completa: 5.832 objetos, 1.133 formas ativas, 1.362 pares de caixas, 106 cenários; Modelo OK. A exportação abriu oculto, não recalculou nem salvou. `python ferramentas/pranchas/exportar.py` só é necessário quando houver outra revisão CAD autorizada; depois executar a verificação completa.
-- Caixas cinza preservam a R53. Traço azul é estudo: topo = pé-direito atual − folga nominal da exportação; altura do aéreo/maleiro = topo − base R53. DT1 usa fechamento = pé-direito atual − topo R53. Resultado negativo gera aviso e não vira retângulo negativo. Peça fixa que ultrapassa o teto é denunciada, mesmo quando existe alternativa paramétrica.
+- Caixas cinza preservam a geometria CAD. Traço azul é estudo: topo = pé-direito atual − folga nominal da exportação; altura do aéreo/maleiro = topo − base CAD. DT1 usa fechamento = pé-direito atual − topo CAD. Resultado negativo gera aviso e não vira retângulo negativo. Peça fixa que ultrapassa o teto é denunciada, mesmo quando existe alternativa paramétrica.
 - Ultima_geracao.json guarda cotas/fontes da geração anterior. Impacto.json e Impacto.html comparam valor, origem, prancha e móvel: antes → depois. A primeira geração registra inclusões. Nova execução sem mudanças produz zero alterações; os avisos persistem. Não apagar o retrato para esconder diferenças.
 
 ## Pendências que não impedem a geração

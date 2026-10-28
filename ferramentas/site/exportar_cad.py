@@ -117,11 +117,11 @@ for n,it,room in [('Peca308','kitchenbase','cozinha'),('Peca357','laundrybase','
 # Berlin actual saved closed envelope and the documented alternative open scenario.
 for n in ['Fechada_110','Aberta_cadeira_lateral']:
  start=len(parts);visit(d.getObject(n),'table','sala',None,force=True)
- for p in parts[start:]:p['scenario']='compact' if n=='Fechada_110' else 'extended';p['id']='table' if 'Tampo' in p['source'] or 'Sapata' in p['source'] else 'diningchairs'
+ for p in parts[start:]:p['scenario']='compact' if n=='Fechada_110' else 'extended';p['id']='table' if p['source'].endswith(('Tampo','Sapata','Pedestal')) else 'diningchairs'
 # Same physical finish across the two table presentation scenarios.
 for p in parts:
  if p.get('scenario')=='extended':
-  p['finishSource']='Fechada_110Tampo' if p['source'].endswith('Tampo') else ('Fechada_110Sapata' if p['source'].endswith('Sapata') else 'Fechada_110Lateral')
+  p['finishSource']=next(('Fechada_110'+suffix for suffix in ('Tampo','Sapata','Pedestal') if p['source'].endswith(suffix)), 'Fechada_110Lateral')
 data={'current_revision':release['cadRevision'],'current_source_path':release['cadPath'],'current_source_sha256':before,'current_revision_note':'Extracao da revisao vigente; detalhes de furacao R14 conservam fontes historicas e condicoes.','revision':release['cadRevision'],'source_sha256':before,'coordinate_system':'R45 transformada apenas para o eixo histórico do visualizador; câmera faz reflexão única. Medidas documentais em mm.','parts':parts,'modules':modules,'replacements':sorted(set(p['id'] for p in parts))}
 assert len(parts)>200 and len(modules)==20
 (out/'cad-data.js').write_text('/* Geometria vigente de consulta; nao corte executivo. */\nconst CAD_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')

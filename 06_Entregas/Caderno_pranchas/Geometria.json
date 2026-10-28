@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "units": "mm",
-  "cad_path": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
-  "cad_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "cad_path": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
+  "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
   "method": "FreeCAD: envelopes globais de objetos visíveis; sem recálculo/gravação",
   "objects": [
     {
@@ -13745,8 +13745,9 @@
     "cozinha": 2600.0,
     "lavanderia": 2600.0,
     "escritorio": 2600.0,
-    "banho": 2600.0,
-    "sala": 2600.0
+    "banho": 2500.0,
+    "sala": 2600.0,
+    "circulacao": 2600.0
   },
   "modules": {
     "P01": {
@@ -14143,7 +14144,7 @@
         545.0
       ],
       "ceiling_ref": "PD-BAN",
-      "clearance_at_export": 1855.0
+      "clearance_at_export": 1755.0
     },
     "P19": {
       "box": [
@@ -14165,7 +14166,7 @@
         750.0
       ],
       "ceiling_ref": "PD-BAN",
-      "clearance_at_export": 700.0
+      "clearance_at_export": 600.0
     },
     "P20": {
       "box": [

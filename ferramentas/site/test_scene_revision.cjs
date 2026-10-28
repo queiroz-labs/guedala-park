@@ -35,6 +35,14 @@ for(const table of ['compact','extended'])for(const dining of ['stored','use'])f
  const ns=scene({table,dining,sofa}),chairs=ns.filter(n=>n.id==='diningchairs'),top=ns.find(n=>n.id==='table'&&n.source.endsWith('Tampo'));
  assert.equal(chairs.length,3,table+'/'+dining);assert(Math.abs(top.d-(table==='compact'?110:170))<1e-6);assert.equal(top.w,80);
  assert.equal(top.mat,'wood');assert.equal(ns.find(n=>n.id==='table'&&n.source.endsWith('Sapata')).mat,'black');
+ const pedestals=ns.filter(n=>n.source?.endsWith('Pedestal'));
+ assert.equal(pedestals.length,1,'Exactly one pedestal in each table state');
+ const pedestal=pedestals[0];
+ assert.equal(pedestal.id,'table');assert.equal(pedestal.mat,'black');assert.equal(pedestal.h,75);
+ assert.equal(pedestal.w,33);assert.equal(pedestal.d,50);assert.equal(pedestal.y,0);
+ assert.equal(pedestal.scenario,table);assert.equal(pedestal.piece,null,'Visual product component, not a wood panel');
+ assert.equal(pedestal.x+pedestal.w/2,top.x+top.w/2);assert.equal(pedestal.z+pedestal.d/2,top.z+top.d/2);
+ if(table==='compact')assert.equal(chairs.find(n=>n.source==='Fechada_110Lateral').x,590,'Chair moved 15 mm outward in CAD');
  assert(chairs.every(c=>!crossesTable(c,top)),'Chair back intersects tabletop');
  const couches=ns.filter(n=>n.id==='bonnie');assert(chairs.every(c=>couches.every(s=>!overlap(c,s))),'Chair intersects sofa envelope');
  for(const chair of chairs)assert.equal(run(`VISUAL_FINISHES.parts[${JSON.stringify(chair.finishSource||chair.source)}].triangles.length`),chair.t.length,'Preserve face finishes');
@@ -50,9 +58,11 @@ assert(!shell.includes('benchState'));assert(!fs.readFileSync(path.join(src,'exp
 assert(shell.includes('110 × 80')&&shell.includes('170 × 80'));assert.equal(scene({}).find(n=>n.id==='tv43').z,118);
 assert(run("ITEMS.find(n=>n.id==='coffeemaker').notes.includes('não reserva')"));
 assert.equal(run("diningClearance({table:'compact',dining:'stored'}).tableToFridge"),95.25);
+assert.equal(run("diningClearance({table:'compact',dining:'stored'}).centerProjection"),22.5);
 assert.equal(run("diningClearance({table:'extended',dining:'stored'}).tableToFridge"),65.25);
-assert.equal(run('PROJECT.revision'),'Consulta de marcenaria · FreeCAD R53 · iluminação CB02');assert.equal(run('PROJECT.date'),'27 outubro 2026');assert.match(run('CAD_DATA.current_source_sha256'),/^[a-f0-9]{64}$/);
-console.log(JSON.stringify({revision:'R53',sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
+const release=JSON.parse(fs.readFileSync(path.join(__dirname,'current_release.json'),'utf8'));
+assert.equal(run('PROJECT.revision'),release.projectRevision);assert.equal(run('PROJECT.date'),release.projectDate);assert.match(run('CAD_DATA.current_source_sha256'),/^[a-f0-9]{64}$/);
+console.log(JSON.stringify({revision:release.cadRevision,sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
 // Height study is separate from confirmed site measurements and furniture geometry.
 assert.equal(run('PROJECT.ceiling'),260);
 assert.equal(run('PROJECT.ceilingByRoom.escritorio'),260);

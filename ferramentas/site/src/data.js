@@ -1,6 +1,6 @@
 /* Dados atuais do projeto. Medidas em centímetros, salvo indicação. */
 const PROJECT={
-  "revision": "Consulta de marcenaria · FreeCAD R53 · iluminação CB02",
+  "revision": "Consulta de marcenaria · FreeCAD R54 · iluminação CB02",
   "date": "27 outubro 2026",
   "mirrored": false,
   "name": "Guedala Park",

@@ -11,12 +11,12 @@
 <line x1="90.0" y1="77.0" x2="92.0" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
 <text x="92.0" y="78.2" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">160 N</text>
 <rect x="55" y="76.0" width="26.0" height="6.4" stroke="#25658c" fill="none" stroke-width="0.4"/>
-<text x="180" y="65" font-family="Arial, sans-serif" font-size="3.5" fill="#263238">Altura do fechamento = PD efetivo - topo da caixa R53</text>
+<text x="180" y="65" font-family="Arial, sans-serif" font-size="3.5" fill="#263238">Altura do fechamento = PD efetivo - topo da caixa CAD</text>
 <text x="180" y="75" font-family="Arial, sans-serif" font-size="3.5" fill="#94621c">Resultado: 160 N</text>
 <text x="180" y="92" font-family="Arial, sans-serif" font-size="3" fill="#263238">Envelope de estudo; espessura, juntas e acesso de montagem com oficina/RT.</text>
 <text x="180" y="103" font-family="Arial, sans-serif" font-size="3" fill="#263238">Não representa nova peça incorporada ao FCStd.</text>
 <text x="180" y="114" font-family="Arial, sans-serif" font-size="3" fill="#263238">Não reduzir automaticamente peças existentes para ocultar conflito.</text>
-<text x="180" y="125" font-family="Arial, sans-serif" font-size="3" fill="#263238">P03 e aéreos: altura de estudo = PD - folga nominal - base R53.</text>
+<text x="180" y="125" font-family="Arial, sans-serif" font-size="3" fill="#263238">P03 e aéreos: altura de estudo = PD - folga nominal - base CAD.</text>
 <text x="180" y="136" font-family="Arial, sans-serif" font-size="3" fill="#263238">Conferir teto em vários pontos; usar altura livre limitante no CSV.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
 <text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">DT1 | Detalhe-tipo - fechamento ao teto / P03</text>
@@ -27,7 +27,7 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | DT1 | 20 folhas | A3 / 1:25</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">2 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
 <line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
 <text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 1250 mm reais</text>
 </svg>

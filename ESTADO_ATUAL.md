@@ -16,7 +16,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | FreeCAD R53 | [Modelo](02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd) · [o que contém, como abrir e salvar com segurança](02_Modelo_3D/README.md) |
+| Modelo 3D | R54: pedestal Berlin; cadeira lateral +15 mm | [Modelo](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [o que contém, como abrir e salvar com segurança](02_Modelo_3D/README.md) |
 | Triagem geométrica | Zero peças com geometria própria inválida nas 1.449 conferidas (25/10/2026); 12 contêineres informativos | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Cargas, ligações e cálculos por móvel | Estudos separados, não incorporados ao modelo | [Índice dos móveis](04_Moveis/README.md) · [matriz dos 20 móveis](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) |
@@ -28,7 +28,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma de obra e compras | R00 | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) · [plano de execução até 31/10](05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site e pacote para o montador | R53/R25 publicado e conferido em 27/10; fichas R15; alturas 2,60/2,50 m; textos do site sem histórico de revisões (local, sem push) | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site e pacote para o montador | R54/R26; pedestal Berlin e cadeira +15 mm; evidência de publicação em Entregas | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias 27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
 
@@ -42,7 +42,7 @@ Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos d
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04/D06 integradas; E06 adiada, Q06 sem coordenada, implantação e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias 27/10; SKUs e escolha final pendentes |
 | Orçamento | 60% | R44: R$ 137.748,11; luz 4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias 27/10: "C — cotar com aumento de verba". Referência 127.101,22, aporte 7.101,22, reserva 10.000 intacta; pacote 37.000 condicionado, sem contratar |
-| Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R53, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
+| Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R54, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [Registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
@@ -102,4 +102,6 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
-**Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R53 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.
+**Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R54 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.
+
+**Moodboard:** [sala/cozinha/quarto/escritório e lavanderia dia](09_Referencias/README.md): aceites de Elias em 27/10/2026; lavanderia noite e banheiro dia/noite em revisão; painéis 4K por código.

@@ -10,7 +10,7 @@ function uiIcon(name){
 }
 const STATE_OPTIONS=[
   {id:'sofaState',key:'sofa',rooms:['sala'],icon:'sofa',title:'Sofá da sala',hint:'Do bate-papo ao filme no sofá.',choices:[['closed','Fechado','110 cm'],['open','Esticado','136 cm'],['storage','Abrir baú','Demonstração']]},
-  {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Uma mesa que cresce para receber.',choices:[['compact','Dia a dia','110 × 80 cm'],['extended','Mesa aberta','170 × 80 cm']]},
+  {id:'tableState',key:'table',rooms:['sala'],icon:'kitchen',title:'Mesa de jantar',hint:'Pedestal aproximado; tracejado em planta indica a base sob o tampo.',choices:[['compact','Dia a dia','110 × 80 cm'],['extended','Mesa aberta','170 × 80 cm']]},
   {id:'diningState',key:'dining',rooms:['sala'],icon:'home',title:'Cadeiras',hint:'Abra a mesa para afastar as três cadeiras. Uso com pessoas a conferir.',choices:[['stored','Referência','Fechada 2+1; aberta 3 na lateral'],['use','Em uso','Afastadas com a mesa aberta']]},
   {id:'officeState',key:'office',rooms:['escritorio'],icon:'desk',title:'Escritório',hint:'O espaço de trabalho também recebe hóspedes.',choices:[['work','Trabalhar','Sofá fechado'],['guest','Hospedar','Cama aberta']]},
   {id:'consoleState',key:'console',rooms:['sala','escritorio'],icon:'game',title:'Onde jogar?',hint:'Um PS5, duas possibilidades.',choices:[['sala','Na sala','TV principal'],['escritorio','No escritório','TV de 43″']]},
@@ -84,6 +84,7 @@ function showTourStep(index){
 function initializeExperience(){
   STATE_OPTIONS.forEach(config=>{
     const select=$(config.id),card=select.closest('.stategroup');
+    if(config.key==='table')$('tableControls').appendChild(card);
     select.hidden=true;card.querySelector('label').hidden=true;
     card.insertAdjacentHTML('afterbegin',`<div class="state-card-heading"><span class="state-icon">${uiIcon(config.icon)}</span><div><h3 id="${config.id}Title">${config.title}</h3><p>${config.hint}</p></div></div><div class="choice-buttons" role="group" aria-labelledby="${config.id}Title">${config.choices.map(([value,label,note])=>`<button type="button" data-choice="${value}" aria-pressed="false"><strong>${label}</strong><small>${note}</small><span class="choice-check" aria-hidden="true">✓</span></button>`).join('')}</div>`);
     card.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{select.value=b.dataset.choice;select.dispatchEvent(new Event('change',{bubbles:true}));$('stateAnnouncement').textContent=`${config.title}: ${config.choices.find(c=>c[0]===b.dataset.choice)[1]}.`;});

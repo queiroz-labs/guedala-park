@@ -45,7 +45,7 @@
 <text x="15" y="218" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Triagem geométrica: planos que cobrem ao menos metade da largura e profundidade do módulo.</text>
 <text x="15" y="224" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Não confirma vão útil de porta, gaveta, recorte ou ferragem; conferir peça específica antes de executar.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
-<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">NC1 | Módulos - alturas livres entre planos horizontais R53</text>
+<text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">NC1 | Módulos - alturas livres entre planos horizontais CAD</text>
 <text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
 <line x1="8" y1="256" x2="412" y2="256" stroke="#34434a" stroke-width="0.2"/>
 <text x="15" y="263" font-family="Arial, sans-serif" font-size="2.6" fill="#94621c">N / tracejado: planta ou nominal (inclui CAD e derivadas com parcela nominal)</text>
@@ -53,5 +53,5 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | NC1 | 20 folhas | Sem escala</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">21 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">R53 SHA256: fedd9d1d0604fabb93af47f9...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
 </svg>
