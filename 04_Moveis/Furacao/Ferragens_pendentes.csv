@@ -1,0 +1,41 @@
+﻿movel;item;referencia;quantidade;situacao;fonte
+P01;Ligações dos painéis da carcaça;"Minifix 15 em ligações fixas elegíveis de18; Confirmat7×50 e cavilhaØ8×30 nos encontros ocultos do fundo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P01;Parafusos da retenção RO62;Ø3,5×12 CF;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P01;Fixadores das guias/engates FGVTN500;Modelo e contagem pelo kit54FGOC12500TSX0 recebido;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P02;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas uniões fixas acessíveis e ocultas; encaixe do canto específico";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P02;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P03;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; acesso interno nos conectores aparentes";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P03;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P03;Parafusos da retenção RO62;Ø3,5×12 CF;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P04;Ligações dos painéis da carcaça;"Minifix15 nos encontros18 acessíveis pelo interior; Confirmat7×50 no fundo oculto";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P04;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P05;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; Minifix15 na prateleira fixa desmontável após compatibilização";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P06;Ligações dos painéis da carcaça;Confirmat7×50 + cavilhaØ8×30 nas faces ocultas;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P06;Fixadores das guias/engates FGVTN500;Modelo e contagem pelo kit54FGOC12500TSX0 recebido;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P07;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas; grelhas permanecem aparafusadas M4 com porca retida metálica a detalhar";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P08;Batente removível para limpeza;;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P08;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas compatíveis; roda fixada à base conforme chapa do fabricante";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P08;Fixadores dos rodízios;Pelo gabarito real da chapa Leão Aço e do espaçador de 1 mm;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P09;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nos encontros ocultos; conexão interna própria no divisor de profundidade total";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P09;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P10;Ligações dos painéis da carcaça;"20 Minifix15; Confirmat7×50 + cavilhaØ8×30 nas ligações restantes do fundo oculto";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P10;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P11;Ligações dos painéis da carcaça;"12 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P11;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P12;Ligações dos painéis da carcaça;"Minifix15 nos encontros das laterais externas elegíveis; Confirmat7×50 + cavilhaØ8×30 pelo topo/base ocultos no divisor";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P12;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P13;Fixações do apoio do micro-ondas;;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P13;Ligações dos painéis da carcaça;Consoles metálicos ou estrutura própria para profundidade470, interface à chapa18 calculada;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P14;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas uniões ocultas da caixa; mecanismo com fixações próprias";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P15;Ligações dos painéis da carcaça;"8 Minifix15; Confirmat7×50 + cavilhaØ8×30 no fundo oculto";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P15;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P16;Ligações dos painéis da carcaça;"Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa; guias/frentes com o sistema de gaveta selecionado";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P16;Parafusos de fixação das guias MOVENTO;Blum609.1500 Ø3,5×15;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P17;Ligações dos painéis da carcaça;"Minifix15 nos encontros internos18 elegíveis; Confirmat7×50 + cavilhaØ8×30 no fundo oculto";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P17;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P18;Ligações dos painéis da carcaça;"4 Confirmat7×50 +4 cavilhasØ8×30 permanentes;4 M6×100 +4 porcas264.82.014 e4 cavilhasØ8×30 na interface desmontável";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P18;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P19;Ligações dos painéis da carcaça;"12 Minifix15 Häfele262.26.034 +12 pinosS100262.28.920 na carcaça; oito apoios.711 das prateleiras preservados";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P19;Suspensão do móvel e interface com a parede;"Ligação interna acessível ao fundo/laterais; não adotar SAH215 sem rebaixo";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P20;Ligações dos painéis da carcaça;"Carcaça fixa com uniões mecânicas ocultas; apoio fixo da piano e articuladores a detalhar";;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json
+P20;Limitação independente da abertura das tampas;Componente, apoio, geometria e fixação a definir para piano + articuladores;;parâmetro a confirmar;ferramentas/site/fabrication/technical-r14.json

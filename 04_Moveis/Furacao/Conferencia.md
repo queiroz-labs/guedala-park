@@ -25,7 +25,7 @@ Os canecos têm referência 2D histórica de porta; não há transformação suf
 
 Ferramenta: cilindro proposto de raio 10 e curso 100 mm. Acesso bloqueado produz precedência em Montagem.csv; se houver ciclo, sequência executiva fica pendente. O CSV contém proposta para todos os 20 móveis, sem supor montagem/parede estáveis.
 
-Portas.csv: área × espessura × 700 kg/m³, referência Sonae Arauco MDF ST CARB2/EPA >12–19 mm, p.1; não é densidade medida da Greenplac. Tabela Blum p.718/manual local p.2: envelopes 2/750/6, 3/1500/12, 4/2100/17, 5/2500/22 (dobradiças/mm/kg). Largura600–650 acrescenta uma; >650, >2500 ou >22 fica fora. Usar o maior requisito entre altura e peso é triagem conservadora, não interpolação da curva nem conclusão sobre retenção. MDF sem puxador, espelho ou revestimento: massa acabada permanece a confirmar. Portas abaixo de4 kg exigem prova funcional.
+Portas.csv: área × espessura × 700 kg/m³, referência Sonae Arauco MDF ST CARB2/EPA >12–19 mm, p.1; não é densidade medida da Greenplac. Tabela Blum p.718/manual local p.2: envelopes 2/750/6, 3/1500/12, 4/2100/17, 5/2500/22 (dobradiças/mm/kg). Largura600–650 acrescenta uma; >650, >2500 ou >22 fica fora. Usar o maior requisito entre altura e peso é triagem conservadora, não interpolação da curva nem conclusão sobre retenção. MDF sem puxador, espelho ou revestimento: massa acabada permanece a confirmar. Portas abaixo de 4 kg exigem prova funcional.
 
 Fontes: [Blum planejamento p.718](https://publications.blum.com/2024/catalogue/en/718/), [orientação Blum por largura](https://ea.blum.com/en/number-of-hinges/), [densidade nominal p.1](https://www.sonaearauco.com/media/vt5gihec/tds0356sair01_mdf-standard-carb2_epa_en.pdf).
 

@@ -658,7 +658,18 @@
         "04_Moveis/Furacao/Conflitos.csv",
         "04_Moveis/Furacao/Distancias.csv",
         "04_Moveis/Furacao/Portas.csv",
-        "04_Moveis/Furacao/Montagem.csv"
+        "04_Moveis/Furacao/Montagem.csv",
+        "04_Moveis/Furacao/Fita_por_peca.csv",
+        "04_Moveis/Furacao/Fita_por_cor.csv",
+        "04_Moveis/Furacao/Ferragens_por_movel.csv",
+        "04_Moveis/Furacao/Ferragens_totais.csv",
+        "04_Moveis/Furacao/Ferragens_pendentes.csv",
+        "04_Moveis/Furacao/Ferragens_documentais.csv",
+        "04_Moveis/Furacao/Comparacao_R44.csv",
+        "04_Moveis/Furacao/Comparacao_Minifix.csv",
+        "04_Moveis/Furacao/Horas_furacao.csv",
+        "04_Moveis/Furacao/Quantitativos.json",
+        "04_Moveis/Furacao/Quantitativos.md"
       ]
     }
   ]

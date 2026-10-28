@@ -8,7 +8,7 @@
 | Dimensões e acabamento por ID | [Painéis](Paineis.csv) |
 | Contagens e SHA256 das fontes | [Resumo](Resumo.json) |
 
-Gerar: `python -B ferramentas/estudos/gerar_furacao.py`. Entradas alternativas: `--pecas DIR`; saída de ensaio fora do projeto: `--saida DIR`. Biblioteca padrão, sem abrir FCStd. Cada CSV usa `;`, UTF-8 com BOM, mm; vazio significa **parâmetro a confirmar**, nunca zero. `situacao` distingue posição proposta de usinagem incompleta. 2.286 posições: 156 com Ø/profundidade conhecidos e 2.130 com parâmetros. Não representam 2.286 operações prontas para máquina.
+Gerar: `python -B ferramentas/estudos/gerar_furacao.py`. Entradas alternativas: `--pecas DIR`; saída de ensaio fora do projeto: `--saida DIR`. Biblioteca padrão, sem abrir FCStd. Cada CSV usa `;`, UTF-8 com BOM, mm; vazio significa **parâmetro a confirmar**, nunca zero. `situacao` distingue posição proposta de usinagem incompleta. 2.286 posições: 156 com Ø/profundidade conhecidos e 2.130 com parâmetros. Não representam 2.286 operações prontas para máquina. Há centros em 145 peças; 104 ficam sem centros, com pendências por ID. Cobertura de inventário não equivale a cobertura completa de usinagem.
 
 ## Origem e parâmetros
 
@@ -39,6 +39,14 @@ Suspensão de aéreos, ancoragem, cargas de uso, teto, micro-ondas T05 e rodízi
 
 [Relatório e dez ocorrências prioritárias](Conferencia.md) · [todas as ocorrências](Conflitos.csv) · [distâncias por par](Distancias.csv) · [portas e dobradiças](Portas.csv) · [sequência proposta dos 20 móveis](Montagem.csv).
 
-Executar `python -B ferramentas/estudos/conferir_furacao.py`: resultado REPROVADO, 46 ocorrências (1 sobreposição, 2 distâncias, 43 acessos) e 2.130 posições incompletas; quatro portas baixas/largas P04 fora da orientação do gráfico Blum. Não foram detectadas violações de profundidade ou pares quebrados **nos furos verificáveis**; os incompletos não passam por omissão. Dez testes adversariais em `python -B ferramentas/estudos/test_furacao.py` cobrem espessura15/reserva3, tolerância0,5, par ausente, faces/topos cruzados e tipos sobrepostos. Distância mínima3 e envelope de ferramenta raio10/curso100 são hipóteses de projeto configuráveis, não valores de catálogo.
+Executar `python -B ferramentas/estudos/conferir_furacao.py`: resultado REPROVADO, 46 ocorrências (1 sobreposição, 2 distâncias, 43 acessos) e 2.130 posições incompletas; quatro portas baixas/largas P04 fora da orientação do gráfico Blum. Não foram detectadas violações de profundidade ou pares quebrados **nos furos verificáveis**; os incompletos não passam por omissão. Onze testes adversariais em `python -B ferramentas/estudos/test_furacao.py` cobrem espessura15/reserva3, tolerância0,5, par ausente, faces/topos cruzados e tipos sobrepostos. Distância mínima3 e envelope de ferramenta raio10/curso100 são hipóteses de projeto configuráveis, não valores de catálogo.
 
 Acesso avaliado sobre caixas nominais: precedências de aperto aparecem na sequência. Ciclos e peças sem topologia impedem uma sequência executiva completa; não resolver montagem ocultando alertas. Linha System32/base/corrediça sem centros não foi declarada verificada.
+
+## Cotação e horas
+
+[Quantitativos e diferenças R44](Quantitativos.md) · [ferragens por móvel](Ferragens_por_movel.csv) · [totais por família](Ferragens_totais.csv) · [comparação R44](Comparacao_R44.csv) · [fita por peça](Fita_por_peca.csv) · [fita por cor](Fita_por_cor.csv) · [horas por tipo/móvel](Horas_furacao.csv).
+
+Gerar: `python -B ferramentas/estudos/quantificar_furacao.py`. Inventário físico vem de hardwareRows; decisões descritivas não são uma segunda compra. Teste documental/idempotência: `python -B ferramentas/estudos/test_quantitativos_furacao.py`. Cenário:52 dobradiças/bases/limitadores,7 pares FGVTN500 e2 MOVENTO400;316 Minifix,207 Confirmat,527 cavilhas condicionais, com componentes e kits sem duplicação. O novo mapa propõe8 Minifix no P19 contra12 documentais: reconciliar o fundo antes de adotar; a regra genérica não substitui o detalhe específico.
+
+Fita:249 IDs sem bordas/espessura definidas;477,64m é soma de perímetros de envelopes, não metragem de fita. Horas propostas:18,23–42,76, incluindo preparação de319 faces; taxas explícitas e substituíveis. Não incluem furos ainda sem centros, montagem nem retrabalho. Orçamento R44 preservado. Nenhum fornecedor foi contatado.

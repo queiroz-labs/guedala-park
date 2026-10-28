@@ -7,6 +7,7 @@ Mudança de dimensão sem nova topologia bloqueia a junta em vez de esticar posi
 import argparse
 import csv
 import hashlib
+import io
 import itertools
 import json
 import math
@@ -44,7 +45,7 @@ def panels(folder):
     objects = {o['id']: o for o in load(GEO)['objects']}
     result = {}
     for path in sorted(folder.glob('P??-pecas.csv')):
-        for row in csv.DictReader(path.open(encoding='utf-8-sig'), delimiter=';'):
+        for row in csv.DictReader(io.StringIO(path.read_text(encoding='utf-8-sig')), delimiter=';'):
             ids = [s.strip() for s in row['IDs CAD'].split('|')]
             names = row['Peça'].split(' / ')
             for i, pid in enumerate(ids):
@@ -206,6 +207,9 @@ def generate(folder, dest):
         svg+='</svg>'
         name=f'Desenhos/{p["mod"]}-{pid}-{face}.svg';(dest/name).parent.mkdir(parents=True,exist_ok=True);(dest/name).write_text(svg,encoding='utf-8');drawings.append(name)
     summary=dict(paineis=len(ps),furos=len(holes),juntas=len(joints),pendencias=len(pending),faces=len(drawings),furos_com_parametros=sum(h['situacao']=='parâmetro a confirmar' for h in holes),fontes={s:hashlib.sha256((ROOT/s).read_bytes()).hexdigest() for s in [TECH,GEO,HINGES]},files=[f'P{i:02}-coordenadas.csv' for i in range(1,21)]+['Mapa_conectores.csv','Pendencias.csv','Paineis.csv','Resumo.json']+drawings)
+    summary['paineis_com_centros']=len({h['peca'] for h in holes})
+    summary['paineis_sem_centros']=len(ps)-summary['paineis_com_centros']
+    summary['csvs_pecas_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(folder.glob('P??-pecas.csv'))}
     index='<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Furação nominal por peça</title><main><h1>Furação nominal por peça</h1><p>Propostas relativas às bordas. Valores vazios são parâmetros a confirmar. Os círculos com Ø pendente são apenas símbolos. Fontes, origem e condições no CSV. Não usar como arquivo de máquina.</p><p>249 IDs incluem peças especiais, gavetas e tampas sem mapa completo; ausência de furos não significa ausência de ligação.</p><p><a href="Pendencias.csv">Parâmetros a confirmar</a> · <a href="Mapa_conectores.csv">Conectores por encontro</a></p>'
     for mod in tech:
         index+=f'<h2>{mod}</h2><p><a href="{mod}-coordenadas.csv">Coordenadas CSV</a></p><ul>'
@@ -223,4 +227,4 @@ load_module_boxes={m['id']:m['box'] for m in load(GEO)['modules']} if isinstance
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--pecas',type=Path,default=ROOT/'06_Entregas/Fichas_fabricacao');ap.add_argument('--saida',type=Path,default=OUT);args=ap.parse_args();args.saida.mkdir(parents=True,exist_ok=True)
-    r=generate(args.pecas,args.saida);print(json.dumps({k:v for k,v in r.items() if k not in ['files','fontes']},ensure_ascii=False))
+    r=generate(args.pecas,args.saida);print(json.dumps({k:v for k,v in r.items() if k not in ['files','fontes','csvs_pecas_sha256']},ensure_ascii=False))

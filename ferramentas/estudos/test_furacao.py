@@ -54,5 +54,12 @@ class Conferencia(unittest.TestCase):
         self.assertEqual(required_hinges(620,750,5),3)
         self.assertIsNone(required_hinges(700,750,5))
 
+    def test_ferramenta_bloqueada_por_fechamento(self):
+        p=self.panel();block=dict(id='bloqueador',mod='P01',c=200,l=200,t=15,box=[0,0,-15,200,200,0],axes=[0,1,2])
+        h=self.h(tipo='Minifix Ø15 corpo')
+        issues,_,deps=audit([h],{'fixture':p,'bloqueador':block})
+        self.assertIn('ACESSO',{i['tipo'] for i in issues})
+        self.assertEqual(deps[0]['antes_de_instalar'],'bloqueador')
+
 
 if __name__=='__main__':unittest.main()

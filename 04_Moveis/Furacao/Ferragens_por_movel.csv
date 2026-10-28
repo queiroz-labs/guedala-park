@@ -1,0 +1,135 @@
+﻿movel;familia;item;produto;quantidade;unidade;base;situacao;fonte
+P01;Varões, cortes nominais;Varões, cortes nominais;"Candidato Ø20 Häfele 801.01.702; alternativa Ø25 Bigfer 0907266400";4;corte;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P01;Suportes terminais dos varões;Suportes terminais dos varões;"Ø20 Häfele 803.51.702; alternativa Ø25 Bigfer 9168010111";8;unidade;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P01;Suportes centrais dos dois varões longos;Suportes centrais dos dois varões longos;Häfele 802.02.220 para a alternativa Ø20;2;unidade;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P01;Kits de correr RO62 para uma folha;Kits de correr RO62 para uma folha;"Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032";2;kit;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Trilhos inferiores;Trilhos inferiores;RometalRM-023;2;trecho;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Trilhos superiores;Trilhos superiores;RometalRM-025;2;trecho;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Parafusos;Parafusos dos carros RO62;Ø3,5×14 CC;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Parafusos;Parafusos das guias e freios RO62;Ø3,5×22 CC;12;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Corrediça FGVTN500;Corrediças 500 com engates convencionais E/D;FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada;4;par;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P01;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";57;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P01;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;52;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P01;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";109;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P02;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P02;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P02;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P02;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P02;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";2;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P02;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;4;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P02;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";6;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P03;Kits de correr RO62 para uma folha;Kits de correr RO62 para uma folha;"Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032";2;kit;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P03;Trilhos inferiores;Trilhos inferiores;RometalRM-023;2;trecho;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P03;Trilhos superiores;Trilhos superiores;RometalRM-025;2;trecho;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P03;Parafusos;Parafusos dos carros RO62;Ø3,5×14 CC;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P03;Parafusos;Parafusos das guias e freios RO62;Ø3,5×22 CC;12;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P03;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P03;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;4;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P03;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";16;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P04;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P04;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P04;Limitador 86;Limitadores de abertura 86°;Blum70T3553;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P04;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;32;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P04;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";28;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P04;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;12;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P04;Parafuso face a face;Mapa de contatos - Parafuso face a face;SKU a confirmar;12;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P04;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";40;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P05;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P05;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P05;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P05;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P05;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P05;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;9;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P05;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";21;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P06;Corrediça FGVTN500;Corrediças 500 com engates convencionais E/D;FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada;3;par;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P06;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";6;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P06;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;6;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P06;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";12;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P07;Grelhas removíveis sob medida;Grelhas removíveis sob medida;"Inox304, chapa1,5;600 ×90mm,12 rasgos por grelha";2;peça;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P07;Parafusos;Parafusos desmontáveis das grelhas;"M4; comprimento e cabeça a fechar";8;unidade;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P07;Roscas retidas das grelhas;Roscas retidas das grelhas;"Placa/porca metálica M4 retida, desmontável; seção e fixação a detalhar";8;posição de rosca;documental;"Estratégia selecionada; desenho pendente";ferramentas/site/fabrication/technical-r14.json
+P07;Réguas de apoio das grelhas;Réguas de apoio das grelhas;"577 ×18 ×18mm; conectores a definir";4;régua proposta;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P07;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";19;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P07;Parafuso face a face;Mapa de contatos - Parafuso face a face;SKU a confirmar;8;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P07;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";19;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P08;Guias laterais de marcenaria;Guias laterais de marcenaria;Faixa3mm + corrida2mm de estudo;2;faixa;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P08;Rodízios fixos da gaveta baixa;Rodízios fixos da gaveta baixa;"Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm; Magalu ajk5b9dh7c / Metalaçoecommerce";6;unidade;documental;"Selecionado por Elias em 24/10/2026; compra pendente";ferramentas/site/fabrication/technical-r14.json
+P08;Espaçadores dos rodízios;Espaçadores dos rodízios;"Chapa metálica plana rígida de 1 mm; 38 × 20 mm nominais, pelo contorno da chapa real";6;unidade;documental;Montagem 38 + 1 mm aprovada em 24/10/2026;ferramentas/site/fabrication/technical-r14.json
+P09;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P09;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P09;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P09;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P09;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P09;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;9;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P09;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";21;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P10;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P10;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P10;Limitador 86;Limitadores de abertura 86°;Blum70T3553;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P10;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;24;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P10;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";20;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P10;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;17;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P10;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";37;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P11;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P11;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P11;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P11;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P11;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P11;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;9;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P11;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";21;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P12;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P12;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P12;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P12;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P12;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P12;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;9;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P12;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";21;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P14;Mecanismo do cesto preservado;Mecanismo do cesto preservado;Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso55°;1;conjunto;documental;"dimensionamento especial; SKU pendente";ferramentas/site/fabrication/technical-r14.json
+P14;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";26;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P14;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";26;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P15;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P15;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P15;Limitador 86;Limitadores de abertura 86°;Blum70T3553;4;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P15;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;16;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P15;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";8;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P15;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;6;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P15;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";14;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P16;Corrediça MOVENTO400;Corrediças 400;BlumMOVENTO760H4000S, BLUMOTION S, classe40kg;2;par;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P16;Engates;Engates MOVENTO esquerdo e direito;BlumT51.7601 E/D;2;par;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P16;Ferramenta compartilhada;Gabarito MOVENTO de engates/ganchos;BlumT65.1000.02;1;ferramenta compartilhada;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P16;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";12;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P16;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;4;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P16;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";16;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P17;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P17;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P17;Limitador 86;Limitadores de abertura 86°;Blum70T3553;8;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P17;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;32;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P17;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";24;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P17;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;18;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P17;Parafuso face a face;Mapa de contatos - Parafuso face a face;SKU a confirmar;4;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P17;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";42;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P18;Confirmat 7x50;Confirmat de união do quadro;"7 ×50; referência de tipo GTV WK-CF0750-01";4;unidade;documental;"Selecionado em projeto; conferir usinagem";ferramentas/site/fabrication/technical-r14.json
+P18;Cavilhas Ø8x30;Cavilhas da união permanente do quadro;Ø8 ×30;4;unidade;documental;"Selecionado em projeto; conferir usinagem";ferramentas/site/fabrication/technical-r14.json
+P18;Parafusos;Parafusos de retirada do quadro;M6 ×100, cabeça nominalØ10 ×6;4;unidade;documental;"Selecionado em projeto; conferir usinagem";ferramentas/site/fabrication/technical-r14.json
+P18;Porcas transversais;Porcas transversais;Häfele264.82.014 como referência dimensional M6 Ø10 ×14;4;unidade;documental;"Selecionado em projeto; conferir usinagem";ferramentas/site/fabrication/technical-r14.json
+P18;Cavilhas Ø8x30;Cavilhas da interface desmontável;Ø8 ×30;4;unidade;documental;"Selecionado em projeto; conferir usinagem";ferramentas/site/fabrication/technical-r14.json
+P18;Batentes de curso;Batentes de curso;Propostas dimensionais próprias, não acessórios homologados RO25;4;contato de parada;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P18;Parafusos;Parafusos do calço traseiro;4 ×50;2;unidade;documental;candidato;ferramentas/site/fabrication/technical-r14.json
+P18;Kits RO25 para uma folha;Kits RO25 para uma folha;RometalRO25, montagem sobreposta no conjuntoBC43;2;kit;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P18;Trilhos BC43;Trilhos BC43;RometalRM026;4;trecho564mm;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P18;Parafusos;Parafusos RO25;Ø3,5×12 CF;24;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P19;Suportes de prateleira;Apoios das duas prateleiras;Häfele282.04.711;8;unidade;documental;Selecionado em projeto;ferramentas/site/fabrication/technical-r14.json
+P19;Dobradiça Blum 71B3550;Dobradiças das portas de abrir;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P19;Base Blum 173H7100;Calços das dobradiças;Blum173H7100, cruz, distância0, niquelado;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P19;Limitador 86;Limitadores de abertura 86°;Blum70T3553;6;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P19;Parafusos;Parafusos dos canecos e calços;Blum609.1500, Ø3,5×15 mm;24;unidade;documental;selecionado;ferramentas/site/fabrication/technical-r14.json
+P19;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";8;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P19;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;8;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P19;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";16;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P20;Dobradiça piano das tampas 971 e 825;Dobradiça piano das tampas 971 e 825;"Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54";2;trechos cortados de 1–2 barras;documental;"Proposta de cotação; protótipo pendente";ferramentas/site/fabrication/technical-r14.json
+P20;Articuladores com trava das tampas;Articuladores com trava das tampas;Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça;4;unidades (1 par por tampa);documental;"Proposta de cotação; protótipo pendente";ferramentas/site/fabrication/technical-r14.json
+P20;Minifix 15;Mapa de contatos - Minifix 15;"conjunto corpo+pino; passagem Ø8 pendente";46;conjunto;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P20;Confirmat 7x50;Mapa de contatos - Confirmat 7x50;SKU a confirmar;36;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P20;Parafuso face a face;Mapa de contatos - Parafuso face a face;SKU a confirmar;28;unidade;proposta condicional;"inclui contatos sem centros; nao somar 52 antigos";04_Moveis/Furacao/Mapa_conectores.csv
+P20;Cavilhas Ø8x30;Cavilhas do mapa de contatos;"Ø8x30; embutimento a confirmar";82;unidade;proposta condicional;quantidade de cavilhas, dois furos por cavilha;04_Moveis/Furacao/Mapa_conectores.csv
+P01;Engates FGVTN500 incluidos;Par E/D por gaveta;"engate convencional correspondente; confirmar embalagem";4;par;"incluido no kit; nao somar compra";cotacao deve confirmar inclusao;ferramentas/site/fabrication/technical-r14.json
+P06;Engates FGVTN500 incluidos;Par E/D por gaveta;"engate convencional correspondente; confirmar embalagem";3;par;"incluido no kit; nao somar compra";cotacao deve confirmar inclusao;ferramentas/site/fabrication/technical-r14.json
