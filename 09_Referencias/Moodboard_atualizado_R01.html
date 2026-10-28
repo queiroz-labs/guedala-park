@@ -2432,9 +2432,9 @@ function drawAnnotations(ctx,pr,cam,w,h,st){
   if(st.view==='top'){let width=100*cam.scale;let x=15,y=h-17;ctx.strokeStyle='#647062';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x,y-5);ctx.lineTo(x,y);ctx.lineTo(x+width,y);ctx.lineTo(x+width,y-5);ctx.stroke();ctx.fillStyle='#566556';ctx.font='9px Segoe UI';ctx.textAlign='left';ctx.fillText('0',x,y-8);ctx.fillText('1 m',x+width-14,y-8);}
 }
 
-// Selo único por item: o texto original continua no detalhe. Itens marcados com * aguardam confirmação de Elias.
-const STATUS_GROUPS={'Decidido':['Aprovado','Direção aprovada','Modelo escolhido','Aprovado como plano','Escolhido','Escolhido · custo-benefício','Primeira opção aprovada','Aprovado para desenvolver*','Existente*','Entrega*'],'Em estudo':['Em estudo','Parcial'],'Futuro':['Futuro','Tamanho futuro escolhido*']};
-const STATUS_OF=Object.fromEntries(Object.entries(STATUS_GROUPS).flatMap(([g,labels])=>labels.map(l=>[l.replace(/\*$/,''),g])));
+// Selo único por item: o texto original continua no detalhe. Classificação confirmada por Elias em 28/10/2026.
+const STATUS_GROUPS={'Decidido':['Aprovado','Direção aprovada','Modelo escolhido','Aprovado como plano','Escolhido','Escolhido · custo-benefício','Primeira opção aprovada','Aprovado para desenvolver','Existente','Entrega'],'Em estudo':['Em estudo','Parcial'],'Futuro':['Futuro','Tamanho futuro escolhido']};
+const STATUS_OF=Object.fromEntries(Object.entries(STATUS_GROUPS).flatMap(([g,labels])=>labels.map(l=>[l,g])));
 function statusGroup(o){return STATUS_OF[o.choice]||'Em estudo';}
 function chosen(o){return statusGroup(o)==='Decidido';}
 function needsCheck(o){return !/^Projeto aprovado$/.test(o.measure);}
