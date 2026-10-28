@@ -34,6 +34,7 @@ def doc(id, title, category, rooms, status, summary, path):
 doc('dossie','Guia do montador','Começar','all','Consolidado','Medidas, ferragens, acabamentos e pendências por módulo.','06_Entregas/Dossie_marcenaria_R45.html')
 doc('pacote-compartilhar','Pacote '+RELEASE['packageRevision']+' · pacote de consulta','Começar','all',RELEASE['cadRevision']+' · '+RELEASE['releaseDate'],'FreeCAD corrente, fichas, planta, HTML offline e avanços técnicos selecionados.',RELEASE['packageDirectory']+'/'+RELEASE['packageFile'])
 doc('matriz','Medidas dos 20 módulos','Medidas','all','Nominal','Vãos internos em milímetros e o que falta fechar.',R45+'Inventario/Matriz_20_modulos.md')
+doc('comparacao-r54','Conferência dimensional R44 para R54','Medidas','all','Nominal','Dimensões e vãos comparados por peça, diferenças e limites da conferência.',R45+'Inventario/Comparacao_R44_R54.md')
 doc('interfaces','Uniões entre chapas','Montagem','all','Em estudo','171 contatos nominais; ligação e caminho da carga a definir.',R45+'Inventario/Interfaces_retangulares.md')
 doc('fixas','Ferragens fixas e suspensão','Ferragens','all','Candidatas','Pinos, conectores, suportes e restrições de montagem.',R45+'Inventario/Ferragens_fixas.md')
 doc('varoes','Varões do roupeiro','Ferragens','quarto','Em estudo','Quatro varões; oito terminais. Corte depende do suporte.',R45+'Inventario/Varoes.md')

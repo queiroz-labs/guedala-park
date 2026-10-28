@@ -1,4 +1,12 @@
-# Guedala Park R45 — consolidação dimensional
+# Guedala Park — conferência dimensional R54 e histórico R45
+
+## Conferência documental R54 — 28/10/2026
+
+[Tabela R44 → R54](Inventario/Comparacao_R44_R54.md): 3.420 medidas (dimensões e posições) de 380 IDs comuns, mais 37 vãos entre faces. Comparação independente das medidas textuais copiadas em `fabrication-data.js`; utiliza coordenadas e IDs de `cad-data.js`. Mudanças relevantes: divisor P09 +194 mm (já refletido na matriz), quatro painéis superiores P16 −6 mm em altura e correção do envelope histórico G2 −1,196152 mm. Banco: envelopes comparados sem mudança.
+
+Matriz e dois relatórios HTML distinguem cotas atuais de variantes, catálogo e simulações históricas. Não se revalidaram resistência, massas, áreas de contato BRep ou interferências de ferragens. A lacuna exata é documentada na comparação, sem transformar igualdade de envelope em confirmação técnica. O CSV completo fica fora do git; comando e SHA256 estão no resumo. Testes: `python -B -m unittest discover -s ferramentas/estudos -p test_reconciliar_documentos_dimensionais.py`.
+
+Para integrar ao site, após as outras frentes: `python -B ferramentas/site/construir.py`, `python -B ferramentas/site/build_workshop_docs.py --sources-only` e `python -B ferramentas/verificar_site.py`. Nenhum desses comandos publica. O restante deste README é o registro da consolidação R45, não uma afirmação de revisão atual.
 
 > **Southco — aprofundamento posterior:** [fixação proposta no banco e limites](../Banco_e_cesto/Fixacao_Southco/Relatorio.html). Contraplatinas e suporte recuado estudados sem alterar dimensões das tampas ou gabaritos de armazenamento. Instalação ainda não fechada: almofadas, eixo real, batente e ligações pendentes. Modelo principal R45 preservado.
 

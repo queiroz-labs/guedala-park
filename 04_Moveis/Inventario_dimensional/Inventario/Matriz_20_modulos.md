@@ -1,6 +1,6 @@
 # Cobertura dimensional dos 20 módulos
 
-Cotas em mm do modelo nominal R44; não são medidas do apartamento. Largura é ao longo da frente, inclusive nos módulos girados. Vãos abaixo são entre faces de madeira e não descontam ferragens, portas, tubulação ou conteúdo. O levantamento de contatos complementa esta matriz em `Interfaces_retangulares.md`. Elementos rotulados proposta/reserva permanecem condicionais.
+Cotas dos painéis e vãos em mm reconferidas no exportador nominal R54; não são medidas do apartamento. Largura é ao longo da frente, inclusive nos módulos girados. Vãos abaixo são entre faces de madeira e não descontam ferragens, portas, tubulação ou conteúdo. O levantamento de contatos complementa esta matriz em `Interfaces_retangulares.md`. Elementos rotulados proposta/reserva permanecem condicionais.
 
 | ID | Módulo | Verificação dimensional interna | O que falta para fechar |
 |---|---|---|---|
@@ -24,6 +24,12 @@ Cotas em mm do modelo nominal R44; não são medidas do apartamento. Largura é 
 | P18 | Banheiro vigente BC43 | Caixa 564×382; base topo 218. Quadro frontal: vão 564×507 entre base 218 e travessa 725, profundidade 70. Laterais traseiras até 745. | Abertura frontal 507 não é altura útil 509 de versões anteriores. Hidráulica e frente removível M6 dependem de estudo BC43. Não usar Modulo017 histórico oculto. |
 | P19 | Espelheiro | Prateleiras 560×104×18; folgas 2 nas laterais e fundo. Vãos verticais 226 /226 /226 entre base 1168, níveis 1394–1412/1638–1656 e topo 1882. | Oito apoios .711 cabem no estudo separado. Resistência da chapa estreita limita carga; ancoragem da caixa na parede desconhecida. |
 | P20 | Banco | Duas tampas preservadas 971×448×20 e 825×448×20. | Estrutura, apoios, fixação Rockler e armazenamento tratados pelo agente principal; não duplicar aprovação aqui. |
+
+## Reconciliação de revisão — 28/10/2026
+
+[Tabela R44 → R54, IDs e limites da conferência](Comparacao_R44_R54.md). Foram comparados 380 IDs comuns, incluindo dimensões e posições; os vãos listados na tabela foram recalculados entre faces. P09/Peca320 passou de 118 para 312 de profundidade (Δ +194), já incorporado nesta matriz antes desta conferência. P16: laterais da gaveta superior 80 → 74 e frente interna/traseira 53 → 47 (Δ −6); o vão da caixa acima permanece igual. G2 apresenta correção de envelope histórico de −1,196152 em Z, sem inferir remoção material.
+
+As reservas de hidráulica/tanque, varões, folgas de eletros/parede e valores de resistência mantêm as fontes e pendências anteriores; não foram revalidados pelo exportador de painéis. A contagem de 171 contatos abaixo é histórica, não nova análise BRep R54. As conclusões e perguntas foram preservadas. A alternativa de traseira de P16 é histórica: a família vigente é MOVENTO 400, e a receita FGVTN não deve ser aplicada automaticamente.
 
 ## Questões que independem de medição do apartamento
 

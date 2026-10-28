@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Fonte vigente de versões e pendências, atualizada em 27/10/2026. Limite de 14 KB; detalhes nos READMEs. Componentes e site sem pastas datadas; verificador trava a regra (27/10).
+Versões e pendências vigentes; detalhes nos READMEs. Atualizado em 28/10/2026; limite 14 KB.
 
 ## O projeto
 
@@ -107,3 +107,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.
+
+**Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; conclusões históricas separadas.

@@ -1,4 +1,4 @@
-"""Cobertura dos88 destinos, páginas geradas e navegação offline da biblioteca."""
+"""Cobertura dos 89 destinos, páginas geradas e navegação offline da biblioteca."""
 import contextlib
 import csv
 import io
@@ -30,7 +30,11 @@ class DocumentLibraryTests(unittest.TestCase):
         self.assertEqual({d['status'] for d in visible},{'Atual','Em estudo','Pendente'})
         for d in visible:self.assertNotRegex(d['title'],r'\b(?:R\d+|CB\d+|P\d\d|L\d+|T\d+)\b')
         with (docs.STUDY/'Documentos_antes_depois.csv').open(encoding='utf-8',newline='') as f:rows=list(csv.DictReader(f,delimiter=';'))
-        self.assertEqual(len(rows),88);self.assertEqual(len({r['id'] for r in rows}),88)
+        self.assertEqual(len(rows),89);self.assertEqual(len({r['id'] for r in rows}),89)
+        comparison = next(r for r in rows if r['id'] == 'comparacao-r54')
+        self.assertTrue(comparison['depois'])
+        path = next(d['path'] for d in docs.DOCS if d['id'] == 'comparacao-r54')
+        self.assertIn(path, selected_sources(docs.RELEASE, docs.STUDY))
         self.assertTrue(all(r['depois'] for r in rows))
         self.assertEqual(sum(r['depois']=='oculto: histórico' for r in rows),9)
 
