@@ -17,7 +17,7 @@
 | Peca228 | B | 60.0; 34.0 | ACESSO | GavetaComumR026 |  |
 | Peca228 | B | 308.0; 34.0 | ACESSO | GavetaComumR026 |  |
 
-Ocorrências são pares/regiões, não peças únicas. Interseção intencional do corpo/pino Minifix no mesmo grupo é excluída. Profundidade desconhecida não passa: fica incompleta. Distâncias entre faces diferentes só são calculadas com diâmetro, profundidade e referência espacial conhecidos. Topos usam o curso da madeira no eixo do furo, não os 18 mm transversais.
+Ocorrências são pares/regiões, não peças únicas. Interseção intencional do corpo/pino Minifix no mesmo grupo é excluída. Profundidade desconhecida não passa: fica incompleta. Distâncias entre faces diferentes só são calculadas com diâmetro, profundidade e referência espacial conhecidos, exigindo também a margem proposta3mm. Topos usam o curso da madeira no eixo do furo, não os 18 mm transversais.
 
 ## Cobertura e limites
 
@@ -35,7 +35,7 @@ Reproduzir: `python -B ferramentas/estudos/conferir_furacao.py`. Código1 é esp
 
 Antes: 3 conflitos de distância/sobreposição +43 acessos, com2.130 posições condicionadas. Ao preencher os catálogos sem mudar posições aparecem mais20 cruzamentos internos. Depois dos parâmetros propostos: 0 conflitos geométricos e 37 restrições de ferramenta; ver Antes_depois.json. O estado continua REPROVADO enquanto a sequência não for demonstrada.
 
-P20: fase oposta16 em vez de32 move o corpo F02009 de(1730;92) para(1730;76), afastando F01978; cavilhas da junta J019 ficam20mm após o conector. Pares se movem juntos. P04 J004/J006 recebem+16mm; P07 J002 recebe−24mm e J005−8mm. Envelopes das peças preservados.
+P20: fase oposta16 em vez de32 move o corpo F02009 de(1730;92) para(1730;76), afastando F01978; cavilhas da junta J019 ficam20mm após o conector. Pares se movem juntos. P04 J004/J006 recebem+16mm; P07 J002 recebe−44mm e J005−28mm. Envelopes das peças preservados.
 
 P17: os oito acessos em ApoioComumR001/ApoioOpostoR18 usavam as faces coladas uma à outra; os corpos passam às faces opostas livres (centro do pino A9 preservado). Proposta de montagem: usinar e ensaiar peças soltas; unir o par de divisórias; apresentar horizontais; apertar pelas faces livres; fechar fundo; instalar frentes por último. Aparência/tampas dos corpos nessas faces precisa de confirmação. Alternativa se não se aceitar corpo aparente: Confirmat+cavilha/cola nessas quatro juntas, com acesso exterior antes do fechamento; não adotada no mapa de316 Minifix.
 

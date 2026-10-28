@@ -52,6 +52,12 @@ class Conferencia(unittest.TestCase):
         self.assertIn('CRUZAMENTO_INTERNO',self.codes([a,b]))
         b.update(x=82,gx=82);self.assertNotIn('CRUZAMENTO_INTERNO',self.codes([a,b]))
 
+    def test_margem_interna_entre_faces_diferentes(self):
+        a=self.h();b=self.h(furo='B',face='B',x=60,gx=60,gz=15,nz=-1)
+        self.assertIn('DISTANCIA_INTERNA',self.codes([a,b]))
+        b.update(x=61,gx=61)
+        self.assertNotIn('DISTANCIA_INTERNA',self.codes([a,b]))
+
     def test_cruzamento_topos(self):
         a=self.h(face='topo-C0',gx=0,gy=50,gz=7.5,nx=1,nz=0,profundidade=80,curso_material=200)
         b=self.h(furo='B',face='topo-L0',gx=50,gy=0,gz=7.5,ny=1,nz=0,profundidade=80,curso_material=200)

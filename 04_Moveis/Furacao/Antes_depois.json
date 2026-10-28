@@ -290,5 +290,36 @@
         "detalhe": "Apertar antes de instalar GavetaComumR026; envelope de ferramenta proposto, sem simulacao de mao/mandril."
       }
     ]
+  },
+  "margem_interna_entre_faces": {
+    "antes": 4,
+    "depois": 0,
+    "pares_antes": [
+      [
+        "F00932",
+        "F01001",
+        0.518
+      ],
+      [
+        "F00937",
+        "F01006",
+        1.516
+      ],
+      [
+        "F00957",
+        "F00971",
+        0.518
+      ],
+      [
+        "F00962",
+        "F00976",
+        1.516
+      ]
+    ],
+    "parametros_finais_mm": {
+      "P07-J002": -44,
+      "P07-J005": -28
+    },
+    "criterio": "margem3 entre trajetorias de faces distintas; primeira comparacao acima verificava apenas intersecao nessas faces"
   }
 }
