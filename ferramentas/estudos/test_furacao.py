@@ -21,6 +21,27 @@ class Conferencia(unittest.TestCase):
     def test_par_ausente(self):
         self.assertIn('PAR_AUSENTE',self.codes([self.h(par='P',papel='topo')]))
 
+    def test_passagem_confirmat_intencional_nao_exime_furo_cego(self):
+        h=self.h(tipo='Confirmat passagem face',diametro=7,profundidade=15,passante_previsto='sim; passagem Confirmat')
+        self.assertNotIn('PROFUNDIDADE',self.codes([h]))
+        h['tipo']='cavilha'
+        self.assertIn('PROFUNDIDADE',self.codes([h]))
+
+    def test_catalogo_e_correcao_preservam_pares(self):
+        import tempfile
+        from pathlib import Path
+        from gerar_furacao import generate,ROOT,panels
+        from conferir_furacao import read
+        with tempfile.TemporaryDirectory() as tmp:
+            dest=Path(tmp);generate(ROOT/'06_Entregas/Fichas_fabricacao',dest)
+            holes=[h for p in dest.glob('P??-coordenadas.csv') for h in read(p)]
+            self.assertEqual(len(holes),2286)
+            self.assertTrue(all(h['diametro'] and h['profundidade'] for h in holes))
+            self.assertFalse(any(h['tipo']=='Minifix Ø8 topo' for h in holes))
+            issues,_,_=audit(holes,panels(ROOT/'06_Entregas/Fichas_fabricacao'))
+            self.assertEqual({r['tipo'] for r in issues},{'ACESSO'})
+            self.assertFalse(any(r['movel']=='P17' for r in issues))
+
     def test_tolerancia_de_par(self):
         a=self.h(par='P',papel='topo');b=self.h(furo='B',par='P',papel='face',gx=50.51,nz=-1)
         self.assertIn('PAR_DESALINHADO',self.codes([a,b]))

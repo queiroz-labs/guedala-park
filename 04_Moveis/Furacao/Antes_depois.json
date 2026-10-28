@@ -1,0 +1,294 @@
+{
+  "anterior_sem_profundidades": {
+    "furos": 2286,
+    "conflitos": 46,
+    "parametros": 2130,
+    "por_tipo": {
+      "SOBREPOSICAO_FACE": 1,
+      "ACESSO": 43,
+      "DISTANCIA": 2,
+      "PARAMETRO": 2130
+    }
+  },
+  "catalogo_sem_correcao": {
+    "furos": 2286,
+    "por_tipo": {
+      "CRUZAMENTO_INTERNO": 20,
+      "SOBREPOSICAO_FACE": 1,
+      "ACESSO": 43,
+      "DISTANCIA": 2
+    },
+    "sem_diametro_profundidade": 0,
+    "piores": [
+      {
+        "prioridade": 0,
+        "movel": "P07",
+        "peca": "BasePlanaR31",
+        "face": "topo-C1",
+        "x": "507.0",
+        "y": "9.0",
+        "furo": "F00937",
+        "outro": "F01008",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -8.0,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca268",
+        "face": "topo-C1",
+        "x": "124.0",
+        "y": "9.0",
+        "furo": "F00626",
+        "outro": "F00679",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -8.0,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca268",
+        "face": "topo-C1",
+        "x": "244.0",
+        "y": "9.0",
+        "furo": "F00630",
+        "outro": "F00683",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -8.0,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca270",
+        "face": "topo-C1",
+        "x": "124.0",
+        "y": "9.0",
+        "furo": "F00645",
+        "outro": "F00758",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -8.0,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca270",
+        "face": "topo-C1",
+        "x": "184.0",
+        "y": "9.0",
+        "furo": "F00650",
+        "outro": "F00763",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -8.0,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca269",
+        "face": "topo-C1",
+        "x": "92.0",
+        "y": "9.0",
+        "furo": "F00633",
+        "outro": "F00718",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -7.5,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P04",
+        "peca": "Peca269",
+        "face": "topo-C1",
+        "x": "152.0",
+        "y": "9.0",
+        "furo": "F00638",
+        "outro": "F00723",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -7.5,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P20",
+        "peca": "PecaBancoR002",
+        "face": "B",
+        "x": "359.0",
+        "y": "92.0",
+        "furo": "F02048",
+        "outro": "F02078",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -7.5,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P20",
+        "peca": "PecaBancoR002",
+        "face": "B",
+        "x": "359.0",
+        "y": "330.0",
+        "furo": "F02052",
+        "outro": "F02082",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -7.5,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      },
+      {
+        "prioridade": 0,
+        "movel": "P20",
+        "peca": "PecaBancoR002",
+        "face": "B",
+        "x": "575.0",
+        "y": "92.0",
+        "furo": "F02056",
+        "outro": "F02086",
+        "tipo": "CRUZAMENTO_INTERNO",
+        "medida_mm": -7.5,
+        "detalhe": "Cilindros em faces/arestas diferentes cruzam dentro do envelope nominal."
+      }
+    ]
+  },
+  "catalogo_com_correcao": {
+    "furos": 2286,
+    "por_tipo": {
+      "ACESSO": 37
+    },
+    "sem_diametro_profundidade": 0,
+    "piores": [
+      {
+        "prioridade": 1,
+        "movel": "P04",
+        "peca": "ApoioOpostoR001",
+        "face": "B",
+        "x": "34.0",
+        "y": "60.0",
+        "furo": "F00704",
+        "outro": "ApoioComumR004",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar ApoioComumR004; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P04",
+        "peca": "ApoioOpostoR001",
+        "face": "B",
+        "x": "34.0",
+        "y": "120.0",
+        "furo": "F00709",
+        "outro": "ApoioComumR004",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar ApoioComumR004; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P04",
+        "peca": "ApoioOpostoR001",
+        "face": "B",
+        "x": "238.0",
+        "y": "76.0",
+        "furo": "F00744",
+        "outro": "ApoioComumR004",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar ApoioComumR004; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P04",
+        "peca": "ApoioOpostoR001",
+        "face": "B",
+        "x": "238.0",
+        "y": "136.0",
+        "furo": "F00749",
+        "outro": "ApoioComumR004",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar ApoioComumR004; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca213",
+        "face": "B",
+        "x": "76.0",
+        "y": "321.0",
+        "furo": "F00064",
+        "outro": "GavetaComumR002",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca213",
+        "face": "B",
+        "x": "324.0",
+        "y": "321.0",
+        "furo": "F00069",
+        "outro": "GavetaComumR002",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca213",
+        "face": "B",
+        "x": "60.0",
+        "y": "34.0",
+        "furo": "F00424",
+        "outro": "GavetaComumR002",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca213",
+        "face": "B",
+        "x": "308.0",
+        "y": "34.0",
+        "furo": "F00429",
+        "outro": "GavetaComumR002",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca228",
+        "face": "B",
+        "x": "60.0",
+        "y": "34.0",
+        "furo": "F00152",
+        "outro": "GavetaComumR026",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR026; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      },
+      {
+        "prioridade": 1,
+        "movel": "P01",
+        "peca": "Peca228",
+        "face": "B",
+        "x": "308.0",
+        "y": "34.0",
+        "furo": "F00157",
+        "outro": "GavetaComumR026",
+        "tipo": "ACESSO",
+        "medida_mm": "",
+        "detalhe": "Apertar antes de instalar GavetaComumR026; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      }
+    ]
+  }
+}

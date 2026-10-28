@@ -20,9 +20,15 @@ OUT = ROOT / '04_Moveis/Furacao'
 TECH = 'ferramentas/site/fabrication/technical-r14.json'
 GEO = '06_Entregas/Caderno_pranchas/Geometria.json'
 HINGES = 'ferramentas/site/fabrication/r14/hinge-drilling-maps.json'
-MINIFIX = 'https://files.hafele.co.uk/catalogfiles/www/14CFC294.pdf p.294; Minifix_C.md FF2.10/14/17'
+MINIFIX = 'https://files.hafele.co.uk/catalogfiles/www/14CFC294.pdf p.294; https://files.hafele.co.uk/catalogfiles/www/14CFC299.pdf p.299; 262.26.034 + S100 262.28.920'
+CONFIRMAT = 'https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf FF2.45; 264.42.190; https://files.hafele.co.uk/CatalogFiles/www/14CFC416A.PDF p.416A; broca 001.22.485'
+DOWEL = 'https://hafelethailand.com/wp-content/uploads/2025/12/02-connector-technology-shelf-supports.pdf FF2.55; 267.82.230; https://www.wolfcraft.com/en/diy-projects/hobby-workshop/wood-joinery (guia Wood joints p.6)'
+DIVIDER_PHASE = 16
+JOINT_OFFSETS = {'P04-J004':16, 'P04-J006':16, 'P07-J002':-24, 'P07-J005':-8}
+DOWEL_OFFSETS = {'P20-J019':20}
+CAM_ACCESS_FLIP = {'ApoioComumR001','ApoioOpostoR18'}
 BLUM = 'https://publications.blum.com/2024/catalogue/en/'
-FIELDS = ['movel','peca','furo','face','x','y','diametro','profundidade','tipo','situacao','parametros','origem','fonte','par','papel','gx','gy','gz','nx','ny','nz','curso_material','grupo','expressao']
+FIELDS = ['movel','peca','furo','face','x','y','diametro','profundidade','tipo','situacao','parametros','origem','fonte','par','papel','gx','gy','gz','nx','ny','nz','curso_material','grupo','expressao','passante_previsto','escalonamento','origem_valor']
 
 
 def load(path):
@@ -90,7 +96,8 @@ def generate(folder, dest):
             axis=max(range(3),key=lambda i:abs(normal[i]));h['curso_material']=round(p['box'][axis+3]-p['box'][axis],3)
         else:
             h.update(face='A',x=round(xy[0],3),y=round(xy[1],3),curso_material=p['t'])
-        h['origem']=origin(p,h['face']); h['situacao']='parâmetro a confirmar' if params or depth is None or diam is None else 'nominal/proposta'
+        h['origem']=origin(p,h['face']); h['situacao']='parâmetro a confirmar' if depth is None or diam is None else 'catálogo de referência, SKU a confirmar'
+        h['origem_valor']='catálogo; batentes derivados discriminados em expressao'
         holes.append(h);return h
     for p in ps.values():
         pend(p,'bordas/fita','Indicar C0,C1,L0,L1 visiveis, cor e espessura da fita; envelope nao desconta fita.')
@@ -120,8 +127,8 @@ def generate(folder, dest):
                 plane=aa[axis+3] if sign>0 else aa[axis]
                 inward=1 if abs(board['box'][axis]-plane)<.01 else -1
                 line=next(i for i in other if i!=board['axes'][2]);th=board['axes'][2]
-                # A 32 mm phase change on the opposite side of a divider applies to both mating members.
-                phase=32 if abs(side['box'][axis]-plane)<.01 else 0
+                # Half-pitch avoids coincident bolt/dowel pilots across a divider.
+                phase=(DIVIDER_PHASE if abs(side['box'][axis]-plane)<.01 else 0)+JOINT_OFFSETS.get(jid,0)
                 positions=[lo[line]+60+phase+k*(length-152)/(n-1) for k in range(n)]
                 for k,s in enumerate(positions):
                     pair=f'{jid}-{k+1}'
@@ -132,17 +139,20 @@ def generate(folder, dest):
                         # Access from the thickness face facing the nominal module centre.
                         center=(load_module_boxes[mod][th]+load_module_boxes[mod][th+3])/2
                         access=0 if abs(board['box'][th]-center)<abs(board['box'][th+3]-center) else 3
+                        if board['id'] in CAM_ACCESS_FLIP:access=3-access
                         cp=pt.copy();cp[axis]+=inward*34;cp[th]=board['box'][th+access]
                         cn=[0,0,0];cn[th]=1 if access==0 else -1
-                        hole(board,'Minifix Ø15 corpo',cp,cn,15,13.5,MINIFIX,group=pair,expr='B34; recuo60; fase32; passo=(contato-152)/(n-1)',params='SKU novo e acesso de ferramenta a confirmar')
-                        hole(board,'Minifix Ø8 topo',pt,en,8,None,MINIFIX,pair,'topo',pair,params='S100 vigente usa Ø7; Ø8 exige selecionar pino e profundidade compativeis')
-                        hole(side,'Minifix piloto pino',pt,sn,5,8.5,MINIFIX,pair,'face',pair,params='SKU proposto 262.28.920; conferir compatibilidade com passagem Ø8')
+                        hole(board,'Minifix Ø15 corpo',cp,cn,15,13.5,MINIFIX,group=pair,expr=f'B34; A9; recuo60; fase{phase}; passo=(contato-152)/(n-1); acesso invertido={board["id"] in CAM_ACCESS_FLIP}',params='262.26.034; acesso conferido separadamente; aparencia do corpo na face alternativa a confirmar')
+                        hole(board,'Minifix Ø7 topo',pt,en,7,34,MINIFIX,pair,'topo',pair,expr='passagem ate centro do corpo B34; Ø7 compativel S100 262.28.920')
+                        hole(side,'Minifix piloto pino',pt,sn,5,8.5,MINIFIX,pair,'face',pair,expr='rosca8 do catalogo +0.5 de fundo proposto; batente8.5 nao e constante do fabricante')
                     else:
-                        hole(board,'Confirmat piloto topo',pt,en,None,None,'Familia 7x50; ficha '+mod,pair,'topo',pair,params='catalogo do SKU: Ø/profundidade/escalonamento')
-                        hole(side,'Confirmat passagem face',pt,sn,None,None,'Familia 7x50; ficha '+mod,pair,'face',pair,params='catalogo do SKU: Ø/profundidade/escareado')
-                    dp=pt.copy();dp[line]+=32
-                    hole(board,'cavilha Ø8 topo',dp,en,8,None,'Ø8x30: ficha '+mod,pair+'D','topo',pair+'D',params='partilha de embutimento, cola e folga de fundo')
-                    hole(side,'cavilha Ø8 face',dp,sn,8,None,'Ø8x30: ficha '+mod,pair+'D','face',pair+'D',params='partilha de embutimento, cola e folga de fundo')
+                        hole(board,'Confirmat piloto topo',pt,en,5,50-side['t']+3,CONFIRMAT,pair,'topo',pair,expr='50 - espessura atravessada +3 de fundo proposto; batente nao tabelado')
+                        hh=hole(side,'Confirmat passagem face',pt,sn,7,side['t'],CONFIRMAT,pair,'face',pair,expr='Ø7 atravessa a face; escarear pela face exterior oposta ao contato',params='profundidade/perfil do escareado Ø10 dependem da cabeca do SKU')
+                        hh.update(passante_previsto='sim; passagem Confirmat',escalonamento='Ø5 cego no topo; Ø7 passante na face; Ø10 escareado exterior, perfil/batente a confirmar')
+                    dp=pt.copy();dp[line]+=DOWEL_OFFSETS.get(jid,32)
+                    face_depth=round(2*side['t']/3,3)
+                    hole(board,'cavilha Ø8 topo',dp,en,8,30-face_depth+2,DOWEL,pair+'D','topo',pair+'D',expr='30 - embutimento face(2t/3) +2 folga cola; derivado do guia Wolfcraft')
+                    hole(side,'cavilha Ø8 face',dp,sn,8,face_depth,DOWEL,pair+'D','face',pair+'D',expr='2t/3; em18: face12, topo20; soma32 para cavilha30 +2 cola')
     # Caneco coordinates retain bottom and top margins under C/L changes.
     for d in load(HINGES):
         p=ps.get(d['partId'])
@@ -206,7 +216,7 @@ def generate(folder, dest):
             svg+=f'<text x="35" y="{645+i*15}" font-size="11">{escape(label)}</text>'
         svg+='</svg>'
         name=f'Desenhos/{p["mod"]}-{pid}-{face}.svg';(dest/name).parent.mkdir(parents=True,exist_ok=True);(dest/name).write_text(svg,encoding='utf-8');drawings.append(name)
-    summary=dict(paineis=len(ps),furos=len(holes),juntas=len(joints),pendencias=len(pending),faces=len(drawings),furos_com_parametros=sum(h['situacao']=='parâmetro a confirmar' for h in holes),fontes={s:hashlib.sha256((ROOT/s).read_bytes()).hexdigest() for s in [TECH,GEO,HINGES]},files=[f'P{i:02}-coordenadas.csv' for i in range(1,21)]+['Mapa_conectores.csv','Pendencias.csv','Paineis.csv','Resumo.json']+drawings)
+    summary=dict(paineis=len(ps),furos=len(holes),juntas=len(joints),pendencias=len(pending),faces=len(drawings),furos_com_parametros=sum(h['diametro'] is None or h['profundidade'] is None for h in holes),fontes={s:hashlib.sha256((ROOT/s).read_bytes()).hexdigest() for s in [TECH,GEO,HINGES]},files=[f'P{i:02}-coordenadas.csv' for i in range(1,21)]+['Mapa_conectores.csv','Pendencias.csv','Paineis.csv','Resumo.json']+drawings)
     summary['paineis_com_centros']=len({h['peca'] for h in holes})
     summary['paineis_sem_centros']=len(ps)-summary['paineis_com_centros']
     summary['csvs_pecas_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(folder.glob('P??-pecas.csv'))}

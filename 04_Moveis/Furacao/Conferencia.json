@@ -1,13 +1,12 @@
 {
   "resultado": "REPROVADO",
   "furos": 2286,
-  "conflitos": 46,
-  "parametros": 2130,
+  "conflitos": 37,
+  "geometria_sem_acesso": 0,
+  "restricoes_acesso": 37,
+  "parametros": 0,
   "por_tipo": {
-    "SOBREPOSICAO_FACE": 1,
-    "ACESSO": 43,
-    "DISTANCIA": 2,
-    "PARAMETRO": 2130
+    "ACESSO": 37
   },
   "portas_fora_da_faixa": 4,
   "criterios": {
@@ -17,71 +16,6 @@
     "ferramenta_raio_mm": 10
   },
   "piores": [
-    {
-      "prioridade": 0,
-      "movel": "P20",
-      "peca": "PecaBancoR16",
-      "face": "A",
-      "x": "1736.0",
-      "y": "91.0",
-      "furo": "F01978",
-      "outro": "F02009",
-      "tipo": "SOBREPOSICAO_FACE",
-      "medida_mm": -5.417,
-      "detalhe": "cavilha Ø8 face x Minifix Ø15 corpo; criterio borda-borda 3mm (centro >= soma dos raios + margem)."
-    },
-    {
-      "prioridade": 1,
-      "movel": "P17",
-      "peca": "ApoioComumR001",
-      "face": "A",
-      "x": "34.0",
-      "y": "60.0",
-      "furo": "F01787",
-      "outro": "ApoioOpostoR18",
-      "tipo": "ACESSO",
-      "medida_mm": "",
-      "detalhe": "Apertar antes de instalar ApoioOpostoR18; envelope de ferramenta proposto, sem simulacao de mao/mandril."
-    },
-    {
-      "prioridade": 1,
-      "movel": "P17",
-      "peca": "ApoioComumR001",
-      "face": "A",
-      "x": "34.0",
-      "y": "220.0",
-      "furo": "F01792",
-      "outro": "ApoioOpostoR18",
-      "tipo": "ACESSO",
-      "medida_mm": "",
-      "detalhe": "Apertar antes de instalar ApoioOpostoR18; envelope de ferramenta proposto, sem simulacao de mao/mandril."
-    },
-    {
-      "prioridade": 1,
-      "movel": "P17",
-      "peca": "ApoioComumR001",
-      "face": "A",
-      "x": "480.0",
-      "y": "92.0",
-      "furo": "F01827",
-      "outro": "ApoioOpostoR18",
-      "tipo": "ACESSO",
-      "medida_mm": "",
-      "detalhe": "Apertar antes de instalar ApoioOpostoR18; envelope de ferramenta proposto, sem simulacao de mao/mandril."
-    },
-    {
-      "prioridade": 1,
-      "movel": "P17",
-      "peca": "ApoioComumR001",
-      "face": "A",
-      "x": "480.0",
-      "y": "252.0",
-      "furo": "F01832",
-      "outro": "ApoioOpostoR18",
-      "tipo": "ACESSO",
-      "medida_mm": "",
-      "detalhe": "Apertar antes de instalar ApoioOpostoR18; envelope de ferramenta proposto, sem simulacao de mao/mandril."
-    },
     {
       "prioridade": 1,
       "movel": "P04",
@@ -114,7 +48,7 @@
       "peca": "ApoioOpostoR001",
       "face": "B",
       "x": "238.0",
-      "y": "92.0",
+      "y": "76.0",
       "furo": "F00744",
       "outro": "ApoioComumR004",
       "tipo": "ACESSO",
@@ -127,7 +61,7 @@
       "peca": "ApoioOpostoR001",
       "face": "B",
       "x": "238.0",
-      "y": "152.0",
+      "y": "136.0",
       "furo": "F00749",
       "outro": "ApoioComumR004",
       "tipo": "ACESSO",
@@ -136,16 +70,81 @@
     },
     {
       "prioridade": 1,
-      "movel": "P17",
-      "peca": "ApoioOpostoR18",
+      "movel": "P01",
+      "peca": "Peca213",
       "face": "B",
-      "x": "34.0",
-      "y": "60.0",
-      "furo": "F01807",
-      "outro": "ApoioComumR001",
+      "x": "76.0",
+      "y": "321.0",
+      "furo": "F00064",
+      "outro": "GavetaComumR002",
       "tipo": "ACESSO",
       "medida_mm": "",
-      "detalhe": "Apertar antes de instalar ApoioComumR001; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+      "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+    },
+    {
+      "prioridade": 1,
+      "movel": "P01",
+      "peca": "Peca213",
+      "face": "B",
+      "x": "324.0",
+      "y": "321.0",
+      "furo": "F00069",
+      "outro": "GavetaComumR002",
+      "tipo": "ACESSO",
+      "medida_mm": "",
+      "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+    },
+    {
+      "prioridade": 1,
+      "movel": "P01",
+      "peca": "Peca213",
+      "face": "B",
+      "x": "60.0",
+      "y": "34.0",
+      "furo": "F00424",
+      "outro": "GavetaComumR002",
+      "tipo": "ACESSO",
+      "medida_mm": "",
+      "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+    },
+    {
+      "prioridade": 1,
+      "movel": "P01",
+      "peca": "Peca213",
+      "face": "B",
+      "x": "308.0",
+      "y": "34.0",
+      "furo": "F00429",
+      "outro": "GavetaComumR002",
+      "tipo": "ACESSO",
+      "medida_mm": "",
+      "detalhe": "Apertar antes de instalar GavetaComumR002; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+    },
+    {
+      "prioridade": 1,
+      "movel": "P01",
+      "peca": "Peca228",
+      "face": "B",
+      "x": "60.0",
+      "y": "34.0",
+      "furo": "F00152",
+      "outro": "GavetaComumR026",
+      "tipo": "ACESSO",
+      "medida_mm": "",
+      "detalhe": "Apertar antes de instalar GavetaComumR026; envelope de ferramenta proposto, sem simulacao de mao/mandril."
+    },
+    {
+      "prioridade": 1,
+      "movel": "P01",
+      "peca": "Peca228",
+      "face": "B",
+      "x": "308.0",
+      "y": "34.0",
+      "furo": "F00157",
+      "outro": "GavetaComumR026",
+      "tipo": "ACESSO",
+      "medida_mm": "",
+      "detalhe": "Apertar antes de instalar GavetaComumR026; envelope de ferramenta proposto, sem simulacao de mao/mandril."
     }
   ]
 }
