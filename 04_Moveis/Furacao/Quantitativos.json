@@ -1,4 +1,29 @@
 {
+  "cenarios_conectores": [
+    {
+      "cenario": "Minifix316",
+      "minifix": 316,
+      "confirmat": 207,
+      "cavilhas": 527,
+      "conectores_convertidos": 0,
+      "convertidos_com_centros": 0,
+      "horas_min": 18.2295,
+      "horas_max": 42.7552
+    },
+    {
+      "cenario": "Desmontagem_proposta",
+      "minifix": 89,
+      "confirmat": 434,
+      "cavilhas": 527,
+      "conectores_convertidos": 227,
+      "convertidos_com_centros": 181,
+      "horas_min": 15.8057,
+      "horas_max": 37.5763
+    }
+  ],
+  "fita_metros_propostos_retos": 191.136,
+  "fita_metros_propostos_com_perda": 210.2496,
+  "paineis_sem_regra_proposta": 23,
   "fita_metros_definidos": null,
   "paineis_sem_mapa_borda": 249,
   "perimetro_envelopes_referencia_m": 477.64,
@@ -47,6 +72,10 @@
     "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Reconciliacao_ferragens_fichas_R14_2026-10-24.md"
   ],
   "files": [
+    "Cenarios_conectores_por_movel.csv",
+    "Cenarios_conectores_totais.csv",
+    "Politica_desmontagem.csv",
+    "Horas_alternativa.csv",
     "Fita_por_peca.csv",
     "Fita_por_cor.csv",
     "Ferragens_por_movel.csv",

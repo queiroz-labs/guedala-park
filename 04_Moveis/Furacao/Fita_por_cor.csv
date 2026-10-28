@@ -1,15 +1,13 @@
-﻿cor;espessura_chapa_mm;espessura_fita_mm;metros_fita_definidos;referencia_perimetros_m;situacao
-Arauco Beige Matt;18.0;;;3.168;"parâmetro a confirmar; sem percentual de perda aplicado"
-Arauco Louro Freijó Poro;18.0;;;7.284;"parâmetro a confirmar; sem percentual de perda aplicado"
-"Arenza liso (referência; código/amostra a confirmar)";7.0;;;0.58;"parâmetro a confirmar; sem percentual de perda aplicado"
-"Arenza liso (referência; código/amostra a confirmar)";18.0;;;45.712;"parâmetro a confirmar; sem percentual de perda aplicado"
-Branco TX;15.0;;;43.152;"parâmetro a confirmar; sem percentual de perda aplicado"
-Branco TX;16.0;;;7.392;"parâmetro a confirmar; sem percentual de perda aplicado"
-Branco TX;16.2;;;2.082;"parâmetro a confirmar; sem percentual de perda aplicado"
-Branco TX;18.0;;;208.3;"parâmetro a confirmar; sem percentual de perda aplicado"
-Greenplac Arenza liso;18.0;;;84.112;"parâmetro a confirmar; sem percentual de perda aplicado"
-Greenplac Arenza liso;30.0;;;1.578;"parâmetro a confirmar; sem percentual de perda aplicado"
-Guararapes Azul Petróleo;18.0;;;40.62;"parâmetro a confirmar; sem percentual de perda aplicado"
-Off-white fosco;18.0;;;16.424;"parâmetro a confirmar; sem percentual de perda aplicado"
-Um único padrão para a peça inteira;18.0;;;11.852;"parâmetro a confirmar; sem percentual de perda aplicado"
-Um único padrão para a peça inteira;20.0;;;5.384;"parâmetro a confirmar; sem percentual de perda aplicado"
+﻿cor;espessura_fita_mm;metros_propostos_retos;perda_percentual;metros_propostos_com_perda;paineis_com_regra;situacao
+Arauco Beige Matt;1.0;3.168;10;3.4848;2;regra proposta, a confirmar com Elias/oficina
+Arauco Louro Freijó Poro;0.45;1.5;10;1.65;2;regra proposta, a confirmar com Elias/oficina
+Arenza liso (referencia nominal);0.45;19.508;10;21.4588;24;regra proposta, a confirmar com Elias/oficina
+Arenza liso (referencia nominal);1.0;55.105;10;60.6155;28;regra proposta, a confirmar com Elias/oficina
+Branco TX;0.45;49.732;10;54.7052;124;regra proposta, a confirmar com Elias/oficina
+Branco TX;1.0;19.234;10;21.1574;12;regra proposta, a confirmar com Elias/oficina
+Guararapes Azul Petróleo;0.45;8.159;10;8.9749;12;regra proposta, a confirmar com Elias/oficina
+Guararapes Azul Petróleo;1.0;16.526;10;18.1786;8;regra proposta, a confirmar com Elias/oficina
+Off-white fosco;0.45;3.064;10;3.3704;3;regra proposta, a confirmar com Elias/oficina
+Off-white fosco;1.0;8.352;10;9.1872;4;regra proposta, a confirmar com Elias/oficina
+Padrao a definir;0.45;1.404;10;1.5444;5;regra proposta, a confirmar com Elias/oficina
+Padrao a definir;1.0;5.384;10;5.9224;2;regra proposta, a confirmar com Elias/oficina

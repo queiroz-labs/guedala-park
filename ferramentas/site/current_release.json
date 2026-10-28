@@ -669,7 +669,11 @@
         "04_Moveis/Furacao/Comparacao_Minifix.csv",
         "04_Moveis/Furacao/Horas_furacao.csv",
         "04_Moveis/Furacao/Quantitativos.json",
-        "04_Moveis/Furacao/Quantitativos.md"
+        "04_Moveis/Furacao/Quantitativos.md",
+        "04_Moveis/Furacao/Cenarios_conectores_por_movel.csv",
+        "04_Moveis/Furacao/Cenarios_conectores_totais.csv",
+        "04_Moveis/Furacao/Politica_desmontagem.csv",
+        "04_Moveis/Furacao/Horas_alternativa.csv"
       ]
     }
   ]

@@ -1,0 +1,141 @@
+﻿movel;junta;peca_a;peca_b;quantidade;alternativa;motivo
+P01;P01-J002;Peca206;Peca209;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J003;Peca206;Peca211;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J004;Peca206;Peca212;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J005;Peca206;Peca213;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J006;Peca206;Peca245;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J008;Peca207;Peca209;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J009;Peca207;Peca226;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J010;Peca207;Peca227;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J011;Peca207;Peca228;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J012;Peca207;Peca246;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J021;Peca209;Peca210;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J022;Peca209;Peca241;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J023;Peca209;Peca242;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J024;Peca209;Peca243;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J025;Peca209;Peca244;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J026;Peca211;Peca241;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J027;Peca212;Peca241;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J028;Peca213;Peca241;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J029;Peca226;Peca244;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J030;Peca227;Peca244;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J031;Peca228;Peca244;2;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J032;Peca241;Peca245;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P01;P01-J033;Peca244;Peca246;3;Minifix 15;roupeiro alto: propor desmontagem para transporte
+P02;P02-J003;FaixaQuinaAR04;FaixaQuinaBR04;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P03;P03-J002;Peca259;Peca262;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P03;P03-J003;Peca259;Peca263;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P03;P03-J005;Peca260;Peca262;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P03;P03-J006;Peca260;Peca263;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J002;Peca266;Peca269;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J003;Peca266;Peca270;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J005;Peca267;Peca269;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J006;Peca267;Peca270;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J012;Peca269;FaixaFixaEstudo;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J013;Peca269;ApoioComumR003;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J014;Peca269;ApoioComumR004;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J015;Peca269;ApoioOpostoR001;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J016;Peca269;ApoioOpostoR002;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J017;Peca270;FaixaFixaEstudo;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J018;Peca270;ApoioComumR003;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J019;Peca270;ApoioComumR004;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J020;Peca270;ApoioOpostoR001;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P04;P04-J021;Peca270;ApoioOpostoR002;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P05;P05-J002;Peca276;Peca279;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P05;P05-J003;Peca276;Peca280;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P05;P05-J005;Peca277;Peca279;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P05;P05-J006;Peca277;Peca280;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P06;P06-J002;Peca283;Peca286;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P06;P06-J004;Peca284;Peca286;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J001;Peca305;Peca307;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J002;Peca305;BasePlanaR31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J004;Peca306;Peca307;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J005;Peca306;BasePlanaR31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J007;BasePlanaR31;ApoioEsquerdoR31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J008;BasePlanaR31;ApoioCentralR31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P07;P07-J009;BasePlanaR31;ApoioDireitoR31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J002;Peca315;Peca318;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J003;Peca315;Peca319;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J005;Peca316;Peca318;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J006;Peca316;Peca319;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J008;Peca318;Peca320;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P09;P09-J009;Peca319;Peca320;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J002;Peca324;Peca327;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J003;Peca324;Peca328;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J004;Peca324;Peca329;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J005;Peca324;Peca330;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J006;Peca324;Peca331;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J008;Peca325;Peca327;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J009;Peca325;Peca328;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J010;Peca325;Peca329;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J011;Peca325;Peca330;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P10;P10-J012;Peca325;Peca331;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J002;Peca334;Peca337;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J003;Peca334;Peca338;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J004;Peca334;Peca339;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J006;Peca335;Peca337;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J007;Peca335;Peca338;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P11;P11-J008;Peca335;Peca339;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J002;Peca342;Peca345;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J003;Peca342;Peca346;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J005;Peca343;Peca345;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J006;Peca343;Peca346;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J008;Peca345;Peca347;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P12;P12-J009;Peca346;Peca347;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J001;Peca352;ApoioCestoC01R31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J002;Peca353;ApoioCestoC02R31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J003;PecaCestoR15;PecaCestoR001;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J004;PecaCestoR15;ApoioCestoC01R31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J005;PecaCestoR15;ApoioCestoC02R31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J006;PecaCestoR15;ApoioCestoC03R31;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J007;PecaCestoR001;ApoioCestoC01R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J008;PecaCestoR001;ApoioCestoC02R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J009;ApoioCestoC01R31;ApoioCestoC03R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P14;P14-J010;ApoioCestoC02R31;ApoioCestoC03R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P15;P15-J002;Peca359;Peca362;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P15;P15-J003;Peca359;Peca363;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P15;P15-J005;Peca360;Peca362;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P15;P15-J006;Peca360;Peca363;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P16;P16-J002;Peca367;Peca370;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P16;P16-J003;Peca367;Peca371;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P16;P16-J005;Peca368;Peca370;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P16;P16-J006;Peca368;Peca371;3;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P17;P17-J002;Peca384;Peca387;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J003;Peca384;Peca388;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J005;Peca385;Peca387;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J006;Peca385;Peca388;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J011;Peca387;ApoioComumR11;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J012;Peca387;ApoioComumR001;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J013;Peca387;ApoioComumR002;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J014;Peca387;ApoioOpostoR18;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J015;Peca388;ApoioComumR11;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J016;Peca388;ApoioComumR001;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J017;Peca388;ApoioComumR002;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P17;P17-J018;Peca388;ApoioOpostoR18;2;Minifix 15;caixa longa do escritorio: propor desmontagem para transporte
+P19;P19-J002;Peca400;Peca403;2;Minifix 15;manter separado enquanto divergem12 documentais e8 do mapa
+P19;P19-J003;Peca400;Peca404;2;Minifix 15;manter separado enquanto divergem12 documentais e8 do mapa
+P19;P19-J005;Peca401;Peca403;2;Minifix 15;manter separado enquanto divergem12 documentais e8 do mapa
+P19;P19-J006;Peca401;Peca404;2;Minifix 15;manter separado enquanto divergem12 documentais e8 do mapa
+P20;P20-J002;Peca407;PecaBancoR16;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J004;Peca407;Ref_Apoio_B04R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J005;Peca407;Ref_Sarrafo_frente3R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J006;Peca407;Ref_Sarrafo_tras3R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J015;PecaBancoR16;PecaBancoR003;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J016;PecaBancoR16;PecaBancoR004;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J017;PecaBancoR16;PecaBancoR005;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J018;PecaBancoR16;Peca406AtualR31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J019;PecaBancoR16;PecaBancoR006AtualR31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J020;PecaBancoR16;Ref_Apoio_B01R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J021;PecaBancoR16;Ref_Apoio_B02R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J022;PecaBancoR16;Ref_Apoio_B03R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J034;PecaBancoR003;Ref_Apoio_B01R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J035;PecaBancoR003;Ref_Sarrafo_frente2R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J036;PecaBancoR003;Ref_Sarrafo_frente3R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J037;PecaBancoR004;Ref_Sarrafo_frente1R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J038;PecaBancoR004;Ref_Sarrafo_frente2R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J039;PecaBancoR005;PecaBancoR007AtualR31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J040;PecaBancoR005;Ref_Sarrafo_frente1R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J041;Peca406AtualR31;PecaBancoR007AtualR31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J042;Peca406AtualR31;Ref_Apoio_B04R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J043;Peca406AtualR31;Ref_Sarrafo_tras0R31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
+P20;P20-J044;PecaBancoR007AtualR31;PecaBancoR006AtualR31;2;Confirmat 7x50 + cavilha/cola;"caixa proposta permanente; confirmar acesso exterior, aparencia, transporte e possibilidade de cola"
