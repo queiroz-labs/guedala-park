@@ -18,10 +18,10 @@
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "publication_authorized",
-  "lastPublishedCadRevision": "R53",
-  "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R53_Decisoes.FCStd",
-  "lastPublishedPackageRevision": "R25",
+  "publicationStatus": "published",
+  "lastPublishedCadRevision": "R54",
+  "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
+  "lastPublishedPackageRevision": "R26",
   "notes": "R54: pedestais Berlin aproximados, topo Z750; cadeira lateral fechada afastada 15 mm em +X. Verificação completa sem colisões novas. Elias, 27/10/2026, nesta tarefa: \"Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.\"",
   "technicalDocuments": [
     {
