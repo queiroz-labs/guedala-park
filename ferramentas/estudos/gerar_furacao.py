@@ -35,12 +35,16 @@ def load(path):
     return json.loads((ROOT / path).read_text(encoding='utf-8-sig'))
 
 
+def csv_bytes(rows,fields=None):
+    stream=io.StringIO(newline='')
+    w=csv.DictWriter(stream,fieldnames=fields or list(rows[0]),delimiter=';',extrasaction='ignore')
+    w.writeheader();w.writerows(rows)
+    return stream.getvalue().encode('utf-8-sig')
+
+
 def write_csv(path, rows, fields=None):
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', encoding='utf-8-sig', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=fields or list(rows[0]), delimiter=';', extrasaction='ignore')
-        w.writeheader()
-        w.writerows(rows)
+    path.write_bytes(csv_bytes(rows,fields))
 
 
 def count(length):

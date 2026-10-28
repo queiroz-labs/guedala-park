@@ -5,15 +5,17 @@ completude. Critérios de oficina (margens/ferramenta) são hipóteses configur�
 """
 import argparse
 import csv
+import hashlib
 import itertools
 import json
 import math
 from collections import Counter, defaultdict
 from pathlib import Path
-from gerar_furacao import ROOT, OUT, GEO, HINGES, load, panels, write_csv
+from gerar_furacao import ROOT, OUT, GEO, HINGES, load, panels, write_csv,csv_bytes
 
 DENSITY_SOURCE='https://www.sonaearauco.com/media/vt5gihec/tds0356sair01_mdf-standard-carb2_epa_en.pdf p.1 (>12-19mm:700kg/m3)'
 HINGE_SOURCE='https://publications.blum.com/2024/catalogue/en/718/ p.718; manual local Blum_110_planejamento.pdf p.2'
+ISSUE_FIELDS=['prioridade','movel','peca','face','x','y','furo','outro','tipo','medida_mm','detalhe']
 
 
 def read(path):
@@ -144,21 +146,30 @@ def execute(folder,dest,args):
             if a['movel']==mod:assembly.append(dict(movel=mod,etapa=3,acao=f'Apertar {a["grupo"]} ({a["furo"]}) antes de instalar {a["antes_de_instalar"]}.',pecas=a['apertar_peca'],condicao='Dependencia de ferramenta; se ja fechado, acesso bloqueado'))
         assembly.append(dict(movel=mod,etapa=4,acao='Conferir esquadro, fechar fundo apos ultimos apertos acessiveis; instalar mecanismos e frentes por ultimo.',pecas='',condicao='Ciclo a resolver: '+' | '.join(sorted(remaining)) if remaining else 'Confirmar retirada de ferramenta e montagem em seco; instalacao no imovel fora do escopo'))
     dest.mkdir(parents=True,exist_ok=True)
-    write_csv(dest/'Conflitos.csv',issues,['prioridade','movel','peca','face','x','y','furo','outro','tipo','medida_mm','detalhe'])
-    write_csv(dest/'Distancias.csv',distances,['peca','a','b','centros_mm','bordas_mm'])
+    tables={'Conflitos.csv':csv_bytes(issues,ISSUE_FIELDS),
+            'Distancias.csv':csv_bytes(distances,['peca','a','b','centros_mm','bordas_mm'])}
+    details=getattr(args,'detalhes',None)
+    if details is not None and details.resolve().is_relative_to(ROOT.resolve()):
+        raise ValueError('--detalhes deve ficar fora do projeto')
+    if details is None and not dest.resolve().is_relative_to(ROOT.resolve()):details=dest
+    if details is not None:
+        details.mkdir(parents=True,exist_ok=True)
+        for name,data in tables.items():(details/name).write_bytes(data)
     write_csv(dest/'Portas.csv',doors)
     write_csv(dest/'Montagem.csv',assembly)
     counts=Counter(i['tipo'] for i in issues);geometric=sum(v for k,v in counts.items() if k!='PARAMETRO')
     summary=dict(resultado='REPROVADO' if issues else 'sem conflito detectado; cobertura deve ser conferida',furos=len(holes),conflitos=geometric,geometria_sem_acesso=geometric-counts['ACESSO'],restricoes_acesso=counts['ACESSO'],parametros=counts['PARAMETRO'],por_tipo=dict(counts),portas_fora_da_faixa=sum(d['situacao']=='fora da faixa nominal' for d in doors),criterios=dict(margem_mm=args.margem,tolerancia_par_mm=.5,ferramenta_comprimento_mm=args.ferramenta_comprimento,ferramenta_raio_mm=args.ferramenta_raio),piores=issues[:10])
+    summary['detalhes_sha256']={name:hashlib.sha256(data).hexdigest() for name,data in tables.items()}
     (dest/'Conferencia.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     rows=['# Conferência da furação nominal','',f'**{summary["resultado"]}**: {geometric} ocorrências geométricas/acesso e {counts["PARAMETRO"]} posições incompletas. '+f'{summary["portas_fora_da_faixa"]} portas fora do envelope nominal de quantidade/proporção.','', '## Dez ocorrências de maior prioridade','', '| Peça | Face | x; y mm | Tipo | Outro | Medida mm |','|---|---|---|---|---|---|']
     for i in issues[:10]:rows.append(f'| {i["peca"]} | {i["face"]} | {i["x"]}; {i["y"]} | {i["tipo"]} | {i["outro"]} | {i["medida_mm"]} |')
     rows+=['','Ocorrências são pares/regiões, não peças únicas. Interseção intencional do corpo/pino Minifix no mesmo grupo é excluída. Profundidade desconhecida não passa: fica incompleta. Distâncias entre faces diferentes só são calculadas com diâmetro, profundidade e referência espacial conhecidos. Topos usam o curso da madeira no eixo do furo, não os 18 mm transversais.','', '## Cobertura e limites','', 'Os canecos têm referência 2D histórica de porta; não há transformação suficiente para confrontá-los com peças vizinhas. Bases 37/32, linhas System32 e corrediças não individualizadas continuam sem verificação espacial: pendências de cobertura, não zero conflitos. Também não são simulados recortes, ponta cônica da broca, fita, parafusos já montados, mão ou mandril. AABB é triagem conservadora nos painéis especiais.','', 'Ferramenta: cilindro proposto de raio 10 e curso 100 mm. Acesso bloqueado produz precedência em Montagem.csv; se houver ciclo, sequência executiva fica pendente. O CSV contém proposta para todos os 20 móveis, sem supor montagem/parede estáveis.','', 'Portas.csv: área × espessura × 700 kg/m³, referência Sonae Arauco MDF ST CARB2/EPA >12–19 mm, p.1; não é densidade medida da Greenplac. Tabela Blum p.718/manual local p.2: envelopes 2/750/6, 3/1500/12, 4/2100/17, 5/2500/22 (dobradiças/mm/kg). Largura600–650 acrescenta uma; >650, >2500 ou >22 fica fora. Usar o maior requisito entre altura e peso é triagem conservadora, não interpolação da curva nem conclusão sobre retenção. MDF sem puxador, espelho ou revestimento: massa acabada permanece a confirmar. Portas abaixo de 4 kg exigem prova funcional.','', 'Fontes: [Blum planejamento p.718](https://publications.blum.com/2024/catalogue/en/718/), [orientação Blum por largura](https://ea.blum.com/en/number-of-hinges/), [densidade nominal p.1](https://www.sonaearauco.com/media/vt5gihec/tds0356sair01_mdf-standard-carb2_epa_en.pdf).','', 'Reproduzir: `python -B ferramentas/estudos/conferir_furacao.py`. Código1 é esperado enquanto houver conflitos ou parâmetros. Opções `--entrada`, `--saida`, `--margem`, `--ferramenta-comprimento`, `--ferramenta-raio` permitem ensaios externos; valores propostos não são mínimos do fabricante.']
     rows+=['','## Correção nominal e comparação','', 'Antes: 3 conflitos de distância/sobreposição +43 acessos, com2.130 posições condicionadas. Ao preencher os catálogos sem mudar posições aparecem mais20 cruzamentos internos. Depois dos parâmetros propostos: '+str(summary['geometria_sem_acesso'])+' conflitos geométricos e '+str(summary['restricoes_acesso'])+' restrições de ferramenta; ver Antes_depois.json. O estado continua REPROVADO enquanto a sequência não for demonstrada.','', 'P20: fase oposta16 em vez de32 move o corpo F02009 de(1730;92) para(1730;76), afastando F01978; cavilhas da junta J019 ficam20mm após o conector. Pares se movem juntos. P04 J004/J006 recebem+16mm; P07 J002 recebe−24mm e J005−8mm. Envelopes das peças preservados.','', 'P17: os oito acessos em ApoioComumR001/ApoioOpostoR18 usavam as faces coladas uma à outra; os corpos passam às faces opostas livres (centro do pino A9 preservado). Proposta de montagem: usinar e ensaiar peças soltas; unir o par de divisórias; apresentar horizontais; apertar pelas faces livres; fechar fundo; instalar frentes por último. Aparência/tampas dos corpos nessas faces precisa de confirmação. Alternativa se não se aceitar corpo aparente: Confirmat+cavilha/cola nessas quatro juntas, com acesso exterior antes do fechamento; não adotada no mapa de316 Minifix.','', 'Os 43 acessos anteriores pertenciam a P01/P03/P04/P06/P17/P20, somente8 ao P17. Permanecem37 após a nova distribuição: gavetas entram após o aperto; travessas/fundos bloqueadores entram depois dos apertos listados. Essa precedência é proposta, não prova de encaixe ou estabilidade. Não apagar os alertas por assumir a ordem.','', 'Ø7×espessura do Confirmat é passagem intencional, com marcação explícita; apenas essa operação é excluída da regra de furo cego. Escareado exterior Ø10: perfil e batente dependem do SKU, continuam pendentes. Os2.286 centros têm Ø/profundidade, mas bases/corrediças/System32 ainda sem centros não estão nesse denominador.']
+    rows+=['','As tabelas completas ficam fora do git. Regenerar com `python -B ferramentas/estudos/conferir_furacao.py --detalhes C:/Temp/gp-furacao`. Código1 preserva os alertas. SHA256 em Conferencia.json e README.md; saída externa via `--saida` também recebe as tabelas. A execução padrão no projeto mantém somente resumo, dez ocorrências, portas e montagem.']
     (dest/'Conferencia.md').write_text('\n'.join(rows)+'\n',encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k not in ['piores','criterios']},ensure_ascii=False))
     return bool(issues)
 
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--entrada',type=Path,default=OUT);ap.add_argument('--saida',type=Path,default=OUT);ap.add_argument('--margem',type=float,default=3);ap.add_argument('--ferramenta-comprimento',type=float,default=100);ap.add_argument('--ferramenta-raio',type=float,default=10);a=ap.parse_args();raise SystemExit(execute(a.entrada,a.saida,a))
+    ap=argparse.ArgumentParser();ap.add_argument('--entrada',type=Path,default=OUT);ap.add_argument('--saida',type=Path,default=OUT);ap.add_argument('--detalhes',type=Path,help='CSV completos somente fora do projeto');ap.add_argument('--margem',type=float,default=3);ap.add_argument('--ferramenta-comprimento',type=float,default=100);ap.add_argument('--ferramenta-raio',type=float,default=10);a=ap.parse_args();raise SystemExit(execute(a.entrada,a.saida,a))

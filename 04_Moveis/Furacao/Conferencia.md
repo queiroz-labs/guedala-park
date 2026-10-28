@@ -42,3 +42,5 @@ P17: os oito acessos em ApoioComumR001/ApoioOpostoR18 usavam as faces coladas um
 Os 43 acessos anteriores pertenciam a P01/P03/P04/P06/P17/P20, somente8 ao P17. Permanecem37 após a nova distribuição: gavetas entram após o aperto; travessas/fundos bloqueadores entram depois dos apertos listados. Essa precedência é proposta, não prova de encaixe ou estabilidade. Não apagar os alertas por assumir a ordem.
 
 Ø7×espessura do Confirmat é passagem intencional, com marcação explícita; apenas essa operação é excluída da regra de furo cego. Escareado exterior Ø10: perfil e batente dependem do SKU, continuam pendentes. Os2.286 centros têm Ø/profundidade, mas bases/corrediças/System32 ainda sem centros não estão nesse denominador.
+
+As tabelas completas ficam fora do git. Regenerar com `python -B ferramentas/estudos/conferir_furacao.py --detalhes C:/Temp/gp-furacao`. Código1 preserva os alertas. SHA256 em Conferencia.json e README.md; saída externa via `--saida` também recebe as tabelas. A execução padrão no projeto mantém somente resumo, dez ocorrências, portas e montagem.

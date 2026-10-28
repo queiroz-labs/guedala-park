@@ -38,7 +38,7 @@ Suspensão de aéreos, ancoragem, cargas de uso, teto, micro-ondas T05 e rodízi
 
 ## Conferência e montagem
 
-[Relatório e dez ocorrências prioritárias](Conferencia.md) · [todas as ocorrências](Conflitos.csv) · [distâncias por par](Distancias.csv) · [portas e dobradiças](Portas.csv) · [sequência proposta dos 20 móveis](Montagem.csv).
+[Relatório e dez ocorrências prioritárias](Conferencia.md) · [portas e dobradiças](Portas.csv) · [sequência proposta dos 20 móveis](Montagem.csv).
 
 Executar `python -B ferramentas/estudos/conferir_furacao.py`: **0 conflitos geométricos e37 restrições de acesso**, resultado REPROVADO. [Antes/depois](Antes_depois.json): antes3 sobreposições/distâncias+43 acessos; ao completar as profundidades aparecem mais20 cruzamentos; depois de corrigir somente parâmetros, sobram os37 acessos. Não somar restrição de ferramenta a interseção de madeira nem supor que todas foram resolvidas. Quatro portas P04 continuam fora da orientação do gráfico Blum. Treze testes em `python -B ferramentas/estudos/test_furacao.py` incluem passagem intencional sem exceção genérica e integração dos pares.
 
@@ -59,3 +59,18 @@ Fita: **191,136m de bordas retas propostas;210,2496m com10% de perda**, por cor 
 Limitador86:52 mantidos, um em cada dobradiça das portas que receberem o recurso. Produto70T3553 [Blum p.76](https://publications.blum.com/2024/catalogue/en/76/); quantidade pela [regra oficial de montagem](https://ea.blum.com/en/opening-angle-stops-for-110-and-107-hinges/), artigo sem paginação. P19:12 documentais versus8 no mapa, diferença−4 associada ao fundo classificado Confirmat; detalhe preservado como divergência, sem troca decidida. Orçamento R44 preservado.
 
 **Perguntas para Elias:** manter316 Minifix ou escolher a alternativa89/434? Confirmar regra de fita1/0,45mm e10% de perda? No P19, manter o detalhe12 ou estudar8+Confirmat no fundo? A pergunta de folga10mm e os impactos estão em [Dependências](../Dependencias/README.md).
+
+## Dados completos fora do git
+
+`Conflitos.csv` e `Distancias.csv` não são ativos do site nem fontes necessárias da cadeia. Foram retirados do git conforme AGENTS4b; o resumo e as dez ocorrências prioritárias permanecem em Conferencia.md/JSON. Regenerar em pasta externa:
+
+`python -B ferramentas/estudos/conferir_furacao.py --detalhes C:/Temp/gp-furacao`
+
+Código1 é esperado enquanto restarem restrições. O comando padrão não cria essas tabelas dentro do projeto; `--saida` externa recebe também os relatórios. UTF-8 com BOM, separador ponto e vírgula, CRLF canônico; hashes do cenário atual, margem3mm, ferramenta raio10/curso100:
+
+| Arquivo externo | SHA256 |
+|---|---|
+| Conflitos.csv | `8b1e0b4ff742d50da1a04974c02e3b81c94e456d080309c04efa698c4e72b346` |
+| Distancias.csv | `6d4f558b3f745fb3c40c2f45ccdbbe20e7713e48e4f3f34a5f1c40d4cadb9650` |
+
+A cadeia recalcula a referência de conflitos em memória a partir dos CSVs de coordenadas, sem depender de tabela completa versionada. Os SVGs, coordenadas e pequenos relatórios usados pelo site continuam presentes. Ao mudar parâmetros, regenerar e atualizar estes hashes; não reutilizar o hash antigo como validação de outro cenário.

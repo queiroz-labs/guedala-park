@@ -58,7 +58,7 @@ def source_paths():
             Path(dimensional.__file__),Path(furacao.__file__),Path(conflitos.__file__),Path(quantidades.__file__),
             *sorted((ROOT/'06_Entregas/Fichas_fabricacao').glob('P??-pecas.csv')),
             *sorted((ROOT/'06_Entregas/Fichas_fabricacao').glob('P??-furacao.csv')),
-            *sorted(furacao.OUT.glob('P??-coordenadas.csv')),furacao.OUT/'Conflitos.csv',furacao.OUT/'Quantitativos.json']
+            *sorted(furacao.OUT.glob('P??-coordenadas.csv')),furacao.OUT/'Quantitativos.json']
 
 
 def document():
@@ -216,9 +216,10 @@ def run(measures,output=None):
     baseline_holes=[h for p in sorted(furacao.OUT.glob('P??-coordenadas.csv')) for h in conflitos.read(p)]
     current_holes=[h for p in sorted((output/'Furacao').glob('P??-coordenadas.csv')) for h in conflitos.read(p)]
     old_h={hole_key(h) for h in baseline_holes};new_h={hole_key(h) for h in current_holes}
-    old_issues=conflitos.read(furacao.OUT/'Conflitos.csv');current_issues=conflitos.read(output/'Furacao/Conflitos.csv')
+    old_issues=conflitos.audit(baseline_holes,furacao.panels(ROOT/'06_Entregas/Fichas_fabricacao'))[0]
+    current_issues=conflitos.read(output/'Furacao/Conflitos.csv')
     old_i={issue_key(r) for r in old_issues};new_i=[r for r in current_issues if issue_key(r) not in old_i]
-    furacao.write_csv(output/'Conflitos_novos.csv',new_i,list(old_issues[0]))
+    furacao.write_csv(output/'Conflitos_novos.csv',new_i,conflitos.ISSUE_FIELDS)
     old_g=gap_map(nominal);new_g=gap_map(scenario)
     new_neg=[dict(folga=k,antes_mm=old_g[k],depois_mm=v) for k,v in new_g.items() if v < -1e-6 and old_g[k]>=-1e-6]
     furacao.write_csv(output/'Folgas_negativas_novas.csv',new_neg,['folga','antes_mm','depois_mm'])
@@ -227,7 +228,7 @@ def run(measures,output=None):
     after={p.relative_to(ROOT).as_posix():sha(p) for p in paths}
     if before!=after:raise RuntimeError('Fonte mudou durante a execução; repetir com base estável')
     timings['total_s']=time.perf_counter()-started
-    report=dict(base='R54/exportação; 249 IDs das fichas',cad_sha256=doc['cad_sha256'],pecas_total=len(records),pecas_alteradas=sum(r['delta_C_mm']!=0 or r['delta_L_mm']!=0 for r in records),furos=len(current_holes),furos_novos=len(new_h-old_h),furos_perdidos=len(old_h-new_h),conflitos_novos=len(new_i),novas_folgas_negativas=len(new_neg),pendencias_propagacao=len(pending),auxiliares_informados=aux,auxiliares_nao_medidos=sorted(set(AUX)-set(aux)),tempos=timings,fontes_sha256=before,medidas_sha256=sha(Path(measures)),orcamento=budget,limites='Caixas fixas; referências não são peças. Ausência de furos novos não resolve 104 peças sem centros e 2130 posições incompletas. Fita e valor total permanecem pendentes.')
+    report=dict(base='R54/exportação; 249 IDs das fichas',cad_sha256=doc['cad_sha256'],pecas_total=len(records),pecas_alteradas=sum(r['delta_C_mm']!=0 or r['delta_L_mm']!=0 for r in records),furos=len(current_holes),furos_novos=len(new_h-old_h),furos_perdidos=len(old_h-new_h),conflitos_novos=len(new_i),novas_folgas_negativas=len(new_neg),pendencias_propagacao=len(pending),auxiliares_informados=aux,auxiliares_nao_medidos=sorted(set(AUX)-set(aux)),tempos=timings,fontes_sha256=before,medidas_sha256=sha(Path(measures)),orcamento=budget,limites='Caixas fixas; referências não são peças. Ausência de furos novos não resolve 104 peças sem centros, escareados e mecanismos sem cobertura. Fita é regra proposta; valor total permanece pendente.')
     json_out(output/'Cadeia.json',report)
     lines=['# Cadeia de medidas — nominal', '', f'Base R54; {len(records)} peças preservadas. {report["pecas_alteradas"]} peças mudaram; {report["furos_novos"]} furos novos, {report["furos_perdidos"]} perdidos; {len(new_i)} conflitos de furação novos; {len(new_neg)} folgas ficaram negativas.', '', f'Tempo: {timings["total_s"]:.3f}s. Saídas em Pecas/, Furacao/, Formatos.json e Chapas_virtuais.json. Diferença de orçamento em Diferenca_orcamento.json: quantidade comparável, preço total desconhecido.', '', report['limites'], '', 'Esquadro/floor: canais CAMPO-QUA/COZ/LAV/ESC/BAN/SAL/CIR-ESQUADRO (desvio absoluto de90°, deg) e -PISO (elevação máxima desde piso de referência, mm). Folga consome tan(ângulo)×extensão ortogonal da caixa e elevação do piso. Hipótese conservadora de canto; não reconstrói paredes. Se PD já foi medido no ponto alto, não descontar o piso novamente. Auxiliar ausente permanece não medido, zero somente na reprodução nominal.', '', 'Pendencias_propagacao.csv lista recortes e referências sem ID. Caixas/bancadas não são redimensionadas por diferença da parede. As fichas descritivas e fontes permanecem intactas; nenhum FCStd é lido pelo orquestrador.']
     (output/'Cadeia.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')

@@ -13,7 +13,7 @@ PR-FLOORS e outras coordenadas de exportação não têm marco físico demonstra
 
 `python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`
 
-A saída externa contém peças preservadas, furação, conflitos, quantitativos, formatos e comparação quantitativa de orçamento. Sem regra por ID, recortes e fechamentos viram pendência; preços ausentes não são zero. Entradas: codigo_medida,valor_medido,evidencia_campo; unidades explícitas e ambos os eixos DIM. Testes de integração: `python -B 04_Moveis/Dependencias/test_cadeia.py`.
+A saída externa contém peças preservadas, furação, conflitos completos, quantitativos, formatos e comparação quantitativa de orçamento. A referência de conflitos é recalculada em memória; não depende de Conflitos.csv/Distancias.csv no git. Sem regra por ID, recortes e fechamentos viram pendência; preços ausentes não são zero. Entradas: codigo_medida,valor_medido,evidencia_campo; unidades explícitas e ambos os eixos DIM. Testes de integração: `python -B 04_Moveis/Dependencias/test_cadeia.py`.
 
 ## Folgas e paredes
 
