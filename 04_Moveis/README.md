@@ -10,6 +10,7 @@ Estudos separados do modelo R52: nenhum foi incorporado à geometria, e nenhum l
 | Matriz dos 20 módulos, Minifix, interfaces e ferragens fixas | [Inventário dimensional](Inventario_dimensional/README.md) |
 | Conectores propostos | [Mapa de conectores](Mapa_conectores/README.md) |
 | Quantitativos por proposta | [Quantitativos](Quantitativos/README.md) |
+| Ensaios de oficina: caderno, compras, orçamento e registro único | [Pacote de oficina](Ensaios_oficina/README.md) — preparado em 28/10/2026; execução pendente, protocolos de carga a fechar |
 
 Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização de 25/10/2026. Referências sem equivalente local mantêm o texto e o caminho antigo, com aviso de arquivo removido; para recuperar a evidência original, consulte o histórico do Git e a tag `antes-reorganizacao`.
 

@@ -1,0 +1,343 @@
+﻿ensaio_id;medicao_id;descricao;unidade;tipo;fonte;replica;instante;ponto;data;operador_codigo;peca_lote;configuracao;instrumento_resolucao;protocolo;criterio;registros_previstos;carga_aplicada;posicao_carga;duracao_s;ciclo;condicoes;valor;evidencia;observacoes;estado
+E01;material;Material, código e composição de cada peça;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E01;espessura;Espessura por peça e ponto;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E01;massa;Massa individual de cada componente;kg;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E01;umidade;Umidade do painel;%;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base90_insercao;T0 base90: insercao;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base90_giro;T0 base90: giro;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base90_retirada;T0 base90: retirada;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base90_folga;T0 base90: folga;mm;numero;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base158_insercao;T0 base158: insercao;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base158_giro;T0 base158: giro;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base158_retirada;T0 base158: retirada;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;base158_folga;T0 base158: folga;mm;numero;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo90_insercao;T0 tampo90: insercao;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo90_giro;T0 tampo90: giro;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo90_retirada;T0 tampo90: retirada;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo90_folga;T0 tampo90: folga;mm;numero;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo158_insercao;T0 tampo158: insercao;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo158_giro;T0 tampo158: giro;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo158_retirada;T0 tampo158: retirada;texto;texto;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E02;tampo158_folga;T0 tampo158: folga;mm;numero;../Aereos_suspensao/P04_registro_laboratorio.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_base_divisor_forca;P04_base_divisor: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_base_divisor_junta;P04_base_divisor: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_base_divisor_aparelho;P04_base_divisor: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_base_divisor_recuperacao;P04_base_divisor: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_base_divisor_dano;P04_base_divisor: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_topo_divisor_forca;P04_topo_divisor: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_topo_divisor_junta;P04_topo_divisor: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_topo_divisor_aparelho;P04_topo_divisor: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_topo_divisor_recuperacao;P04_topo_divisor: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_topo_divisor_dano;P04_topo_divisor: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_lateral_forca;P04_lateral: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_lateral_junta;P04_lateral: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_lateral_aparelho;P04_lateral: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_lateral_recuperacao;P04_lateral: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_lateral_dano;P04_lateral: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_traseiro_forca;P04_traseiro: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_traseiro_junta;P04_traseiro: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_traseiro_aparelho;P04_traseiro: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_traseiro_recuperacao;P04_traseiro: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P04_traseiro_dano;P04_traseiro: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_lateral_forca;P15_base_lateral: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_lateral_junta;P15_base_lateral: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_lateral_aparelho;P15_base_lateral: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_lateral_recuperacao;P15_base_lateral: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_lateral_dano;P15_base_lateral: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_fundo_forca;P15_base_fundo: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_fundo_junta;P15_base_fundo: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_fundo_aparelho;P15_base_fundo: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_fundo_recuperacao;P15_base_fundo: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_base_fundo_dano;P15_base_fundo: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_fundo_laterais_forca;P15_fundo_laterais: forca por patamar;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_fundo_laterais_junta;P15_fundo_laterais: junta por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_fundo_laterais_aparelho;P15_fundo_laterais: aparelho por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_fundo_laterais_recuperacao;P15_fundo_laterais: recuperacao por patamar;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E03;P15_fundo_laterais_dano;P15_fundo_laterais: dano por patamar;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso1_vertical;P04 caso 1: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso1_para_fora;P04 caso 1: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso1_deslocamento;P04 caso 1: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso2_vertical;P04 caso 2: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso2_para_fora;P04 caso 2: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso2_deslocamento;P04 caso 2: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso3_vertical;P04 caso 3: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso3_para_fora;P04 caso 3: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso3_deslocamento;P04 caso 3: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso4_vertical;P04 caso 4: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso4_para_fora;P04 caso 4: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso4_deslocamento;P04 caso 4: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso5_vertical;P04 caso 5: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso5_para_fora;P04 caso 5: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso5_deslocamento;P04 caso 5: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso6_vertical;P04 caso 6: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso6_para_fora;P04 caso 6: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caso6_deslocamento;P04 caso 6: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_acesso;P04 caixa completa: acesso;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_retencao;P04 caixa completa: retencao;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_contato_inferior;P04 caixa completa: contato_inferior;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_juntas;P04 caixa completa: juntas;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_base;P04 caixa completa: base;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_fundo;P04 caixa completa: fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_topo;P04 caixa completa: topo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_aparelho;P04 caixa completa: aparelho;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_recuperacao;P04 caixa completa: recuperacao;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E04;caixa_dano;P04 caixa completa: dano;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso1_vertical;P12 caso 1: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso1_para_fora;P12 caso 1: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso1_deslocamento;P12 caso 1: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso2_vertical;P12 caso 2: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso2_para_fora;P12 caso 2: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso2_deslocamento;P12 caso 2: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso3_vertical;P12 caso 3: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso3_para_fora;P12 caso 3: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso3_deslocamento;P12 caso 3: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso4_vertical;P12 caso 4: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso4_para_fora;P12 caso 4: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso4_deslocamento;P12 caso 4: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso5_vertical;P12 caso 5: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso5_para_fora;P12 caso 5: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso5_deslocamento;P12 caso 5: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso6_vertical;P12 caso 6: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso6_para_fora;P12 caso 6: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caso6_deslocamento;P12 caso 6: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_acesso;P12 caixa completa: acesso;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_retencao;P12 caixa completa: retencao;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_contato_inferior;P12 caixa completa: contato_inferior;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_juntas;P12 caixa completa: juntas;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_base;P12 caixa completa: base;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_fundo;P12 caixa completa: fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_topo;P12 caixa completa: topo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_aparelho;P12 caixa completa: aparelho;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_recuperacao;P12 caixa completa: recuperacao;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E05;caixa_dano;P12 caixa completa: dano;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso1_vertical;P17 caso 1: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso1_para_fora;P17 caso 1: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso1_deslocamento;P17 caso 1: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso2_vertical;P17 caso 2: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso2_para_fora;P17 caso 2: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso2_deslocamento;P17 caso 2: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso3_vertical;P17 caso 3: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso3_para_fora;P17 caso 3: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso3_deslocamento;P17 caso 3: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso4_vertical;P17 caso 4: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso4_para_fora;P17 caso 4: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso4_deslocamento;P17 caso 4: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso5_vertical;P17 caso 5: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso5_para_fora;P17 caso 5: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso5_deslocamento;P17 caso 5: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso6_vertical;P17 caso 6: vertical;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso6_para_fora;P17 caso 6: para_fora;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caso6_deslocamento;P17 caso 6: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_acesso;P17 caixa completa: acesso;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_retencao;P17 caixa completa: retencao;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_contato_inferior;P17 caixa completa: contato_inferior;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_juntas;P17 caixa completa: juntas;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_base;P17 caixa completa: base;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_fundo;P17 caixa completa: fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_topo;P17 caixa completa: topo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_aparelho;P17 caixa completa: aparelho;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_recuperacao;P17 caixa completa: recuperacao;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E06;caixa_dano;P17 caixa completa: dano;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_processo;"simples: processo; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_frente;"simples: frente; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_centro;"simples: centro; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_apoio;"simples: apoio; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_camadas;"simples: camadas; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_retorno;"simples: retorno; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;simples_dano;"simples: dano; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_processo;"dupla_solta: processo; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_frente;"dupla_solta: frente; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_centro;"dupla_solta: centro; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_apoio;"dupla_solta: apoio; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_camadas;"dupla_solta: camadas; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_retorno;"dupla_solta: retorno; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;dupla_solta_dano;"dupla_solta: dano; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_processo;"composta: processo; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_frente;"composta: frente; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_centro;"composta: centro; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_apoio;"composta: apoio; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_camadas;"composta: camadas; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_retorno;"composta: retorno; expandir para 3 corpos e instantes do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;composta_dano;"composta: dano; expandir para 3 corpos e instantes do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E07;caixa;Comparação na caixa completa, após corpos;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio1;Contato da face principal 1;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio2;Contato da face principal 2;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio3;Contato da face principal 3;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio4;Contato da face principal 4;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio5;Contato da face principal 5;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio6;Contato da face principal 6;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio7;Contato da face principal 7;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio8;Contato da face principal 8;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio9;Contato da face principal 9;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;apoio10;Contato da face principal 10;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior1;Contato da região inferior 1;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior2;Contato da região inferior 2;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior3;Contato da região inferior 3;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior4;Contato da região inferior 4;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior5;Contato da região inferior 5;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior6;Contato da região inferior 6;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;inferior7;Contato da região inferior 7;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_eixo;Tampa maior: eixo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_engate;Tampa maior: engate;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_liberacao;Tampa maior: liberacao;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_angulo;Tampa maior: angulo;graus;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_forca;Tampa maior: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_flecha;Tampa maior: flecha;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_corpo;Tampa maior: corpo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_retorno;Tampa maior: retorno;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;maior_manutencao;Tampa maior: manutencao;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_eixo;Tampa menor: eixo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_engate;Tampa menor: engate;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_liberacao;Tampa menor: liberacao;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_angulo;Tampa menor: angulo;graus;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_forca;Tampa menor: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_flecha;Tampa menor: flecha;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_corpo;Tampa menor: corpo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_retorno;Tampa menor: retorno;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E08;menor_manutencao;Tampa menor: manutencao;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;ombro;"P14: ombro; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;bucha;"P14: bucha; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;arruelas;"P14: arruelas; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;folga_axial;"P14: folga_axial; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;alivio;"P14: alivio; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;rosca;"P14: rosca; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;apoio_resistente;"P14: apoio_resistente; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;SW5;"P14: SW5; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;retencao;"P14: retencao; identificar lado/peça/ponto";texto;texto;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;engate;"P14: engate; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;liberacao;"P14: liberacao; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;angulo;"P14: angulo; identificar lado/peça/ponto";graus;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;folga_terminal;"P14: folga_terminal; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;retirada_saco;"P14: retirada_saco; identificar lado/peça/ponto";texto;texto;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;retirada_armacao;"P14: retirada_armacao; identificar lado/peça/ponto";texto;texto;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;massa;"P14: massa; identificar lado/peça/ponto";kg;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;centro;"P14: centro; identificar lado/peça/ponto";mm;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;forca;"P14: forca; identificar lado/peça/ponto";N;numero;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E09;repeticao_protecao;"P14: repeticao_protecao; identificar lado/peça/ponto";texto;texto;../P14/Reacoes_e_operacao/Registro_montagem.csv;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda1_altura;Roda 1: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda1_folga;Roda 1: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda1_contato;Roda 1: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda2_altura;Roda 2: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda2_folga;Roda 2: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda2_contato;Roda 2: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda3_altura;Roda 3: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda3_folga;Roda 3: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda3_contato;Roda 3: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda4_altura;Roda 4: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda4_folga;Roda 4: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda4_contato;Roda 4: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda5_altura;Roda 5: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda5_folga;Roda 5: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda5_contato;Roda 5: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda6_altura;Roda 6: altura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda6_folga;Roda 6: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;roda6_contato;Roda 6: contato;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;massa;P08: massa;kg;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;curso;P08: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;forca;P08: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;fundo;P08: fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;batente;P08: batente;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E10;retirada;P08: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;massa_tampo;P16: massa_tampo;kg;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;composicao_tampo;P16: composicao_tampo;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;unioes;P16: unioes;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;estabilidade;P16: estabilidade;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_massa;P16 inferior: massa;kg;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_curso;P16 inferior: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_folga;P16 inferior: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_forca;P16 inferior: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_deslocamento;P16 inferior: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_retorno;P16 inferior: retorno;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;inferior_engate_retirada;P16 inferior: engate_retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_massa;P16 superior: massa;kg;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_curso;P16 superior: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_folga;P16 superior: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_forca;P16 superior: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_deslocamento;P16 superior: deslocamento;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_retorno;P16 superior: retorno;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E11;superior_engate_retirada;P16 superior: engate_retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_largura;P01 gaveta 1: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_profundidade;P01 gaveta 1: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_recuo_fundo;P01 gaveta 1: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_curso;P01 gaveta 1: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_ajuste;P01 gaveta 1: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_folga;P01 gaveta 1: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_forca;P01 gaveta 1: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_1_retirada;P01 gaveta 1: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_largura;P01 gaveta 2: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_profundidade;P01 gaveta 2: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_recuo_fundo;P01 gaveta 2: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_curso;P01 gaveta 2: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_ajuste;P01 gaveta 2: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_folga;P01 gaveta 2: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_forca;P01 gaveta 2: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_2_retirada;P01 gaveta 2: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_largura;P01 gaveta 3: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_profundidade;P01 gaveta 3: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_recuo_fundo;P01 gaveta 3: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_curso;P01 gaveta 3: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_ajuste;P01 gaveta 3: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_folga;P01 gaveta 3: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_forca;P01 gaveta 3: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_3_retirada;P01 gaveta 3: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_largura;P01 gaveta 4: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_profundidade;P01 gaveta 4: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_recuo_fundo;P01 gaveta 4: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_curso;P01 gaveta 4: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_ajuste;P01 gaveta 4: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_folga;P01 gaveta 4: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_forca;P01 gaveta 4: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P01_4_retirada;P01 gaveta 4: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_largura;P06 gaveta 1: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_profundidade;P06 gaveta 1: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_recuo_fundo;P06 gaveta 1: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_curso;P06 gaveta 1: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_ajuste;P06 gaveta 1: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_folga;P06 gaveta 1: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_forca;P06 gaveta 1: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_1_retirada;P06 gaveta 1: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_largura;P06 gaveta 2: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_profundidade;P06 gaveta 2: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_recuo_fundo;P06 gaveta 2: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_curso;P06 gaveta 2: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_ajuste;P06 gaveta 2: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_folga;P06 gaveta 2: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_forca;P06 gaveta 2: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_2_retirada;P06 gaveta 2: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_largura;P06 gaveta 3: largura;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_profundidade;P06 gaveta 3: profundidade;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_recuo_fundo;P06 gaveta 3: recuo_fundo;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_curso;P06 gaveta 3: curso;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_ajuste;P06 gaveta 3: ajuste;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_folga;P06 gaveta 3: folga;mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_forca;P06 gaveta 3: forca;N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E12;P06_3_retirada;P06 gaveta 3: retirada;texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_montagem;"P01: montagem; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_forca;"P01: forca; expandir grupos/casos do plano";N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_deslocamento;"P01: deslocamento; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_aparelho;"P01: aparelho; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_retorno;"P01: retorno; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P01_contato;"P01: contato; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_montagem;"P09: montagem; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_forca;"P09: forca; expandir grupos/casos do plano";N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_deslocamento;"P09: deslocamento; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_aparelho;"P09: aparelho; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_retorno;"P09: retorno; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P09_contato;"P09: contato; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_montagem;"P11: montagem; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_forca;"P11: forca; expandir grupos/casos do plano";N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_deslocamento;"P11: deslocamento; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_aparelho;"P11: aparelho; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_retorno;"P11: retorno; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P11_contato;"P11: contato; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_montagem;"P15: montagem; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_forca;"P15: forca; expandir grupos/casos do plano";N;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_deslocamento;"P15: deslocamento; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_aparelho;"P15: aparelho; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_retorno;"P15: retorno; expandir grupos/casos do plano";mm;numero;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+E13;P15_contato;"P15: contato; expandir grupos/casos do plano";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+A01;piso;"Após as chaves: piso; fora da rodada de oficina";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+A01;parede;"Após as chaves: parede; fora da rodada de oficina";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+A01;ancoragem;"Após as chaves: ancoragem; fora da rodada de oficina";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+A01;instalacoes;"Após as chaves: instalacoes; fora da rodada de oficina";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
+A01;folgas;"Após as chaves: folgas; fora da rodada de oficina";texto;texto;Caderno.md;;;;;;;;;;;;;;;;;;;;pendente de execução
