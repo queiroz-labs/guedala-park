@@ -108,7 +108,7 @@ Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de
 
 ## Verificação R05
 
-Teste de oclusão com duas faces cruzadas e seleção pela profundidade real; órbita de 360° com 24 vistas; sete ambientes nas três vistas; animações intermediárias, finais e reversas, redução de movimento, 12 fichas de interiores, 59 decisões, cópia HTML independente e telas de 1440, 412 e 340 px. Renderização WebGL sem erros JavaScript. Animações são ilustrativas e não certificam colisões ou execução.
+Verificação R05: oclusão, vistas, movimentos e controles, fichas e telas sem erros JavaScript. Mantém limites nominais e verificações físicas pendentes.
 
 Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
 
@@ -119,3 +119,5 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 ## Galeria Dia/Noite
 
 [Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. R27 atualiza HTML/especificações; R26 preservado. Elias, 28/10/2026: "Aprovado, pode commitar e dar push."
+
+Sincronia documental: entrada `furacao-pecas` incluída nos três artefatos versionados. Regerar com `python -B ferramentas/site/construir.py`; `verificar_site.py` deve preservar seus bytes.
