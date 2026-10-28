@@ -106,4 +106,4 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
 
-**Furação (28/10):** [catálogo/cotação](04_Moveis/Furacao/README.md):2.286 centros;margem interna3mm;0 colisões/37 acessos;escareados/cobertura pendentes;cenários316/89;dados completos externos com SHA256.
+**Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.

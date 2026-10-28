@@ -62,6 +62,8 @@ Limitador86:52 mantidos, um em cada dobradiça das portas que receberem o recurs
 
 ## Dados completos fora do git
 
+[Estudo de precedências e centros de 28/10](Sequencia_e_centros.md): 37 restrições ordenadas nos 20 móveis, zero ciclos, zero trocas necessárias no grafo. Permanecem 2.286 centros, 37 alertas estáticos e quatro portas fora da faixa. Novos centros dependem das referências e IDs de apoio registrados no estudo; nenhuma coordenada ou ferragem foi alterada. Documento inclui fontes, perguntas, testes, comando de reprodução e hashes dos dados externos.
+
 `Conflitos.csv` e `Distancias.csv` não são ativos do site nem fontes necessárias da cadeia. Foram retirados do git conforme AGENTS4b; o resumo e as dez ocorrências prioritárias permanecem em Conferencia.md/JSON. Regenerar em pasta externa:
 
 `python -B ferramentas/estudos/conferir_furacao.py --detalhes C:/Temp/gp-furacao`
