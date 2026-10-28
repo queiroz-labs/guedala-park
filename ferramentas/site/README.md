@@ -24,8 +24,6 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 `build_workshop_docs.py --sources-only` atualiza somente os dados de consulta. `--regenerate-sources` é uma opção explícita para reconstruir fichas/planta; o fluxo normal usa as fontes correntes já verificadas. Testes ficam nesta pasta e saídas temporárias fora do repositório.
 
-Atualização 26/10: biblioteca e fichas P17/P12 apontam para os estudos de suspensão separados, desenhos e requisitos; matriz 20/20 disponível. Pacote R21 inclui esses documentos. Geometria R52 e comprovações físicas continuam conformeEstadoAtual.
-
 **Integração:**20 módulos/249 painéis com eixos e SHA nas fichas. Produtos, furação, medidas reais e ensaios continuam condicionados; [histórico de publicação](../../06_Entregas/README.md).
 
 ## Verificações anteriores
@@ -104,11 +102,11 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 [Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. R27 atualiza HTML/especificações; R26 preservado. Elias, 28/10/2026: "Aprovado, pode commitar e dar push."
 
-Sincronia documental: entrada `furacao-pecas` incluída nos três artefatos versionados. Regerar com `python -B ferramentas/site/construir.py`; `verificar_site.py` deve preservar seus bytes.
+## Navegação e documentos
 
-## Documentos por intenção
+**Quatro abas** (28/10, local, não publicado): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Rótulos com `*` aguardam Elias. Teste: `test_navigation.cjs`.
 
-**15 cartões**, definidos em `current_release.json → documentLibrary`:3 para começar,1 de móveis,1 antes de fabricar,5 ambientes,3 de escolhas,1 oficina/compras e1 modelo. Arquitetura fica em Planta com medidas; ensaios e ferragens ficam em Oficina e compras. Essas duas junções reduzem os17 cartões da estrutura sugerida para15 sem retirar conteúdo vigente.
+**15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
 
 [Antes → depois das88 entradas](Documentos_antes_depois.csv). A fonte anterior tinha88 entradas,65 visíveis e23 internas. Três entradas sem arquivo viraram pendências em Antes de fabricar. Nove referências de histórico/estudos antigos ficam fora da lista pública, preservadas no repositório e nos vínculos existentes. Nenhum documento foi movido ou apagado. O catálogo técnico permanece separado dos cartões.
 

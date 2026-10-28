@@ -10,7 +10,7 @@ from urllib.parse import quote
 
 HOME='../../index.html?aba=documentos'
 PUBLIC_IMOVEL={'07_Imovel/Medidas_e_impactos.csv','07_Imovel/Roteiro_dia_das_chaves_R01.md'}
-STYLE='''.doc-library{max-width:960px}.doc-library h1{font:38px/1.15 Georgia,serif;text-wrap:balance}.doc-library h2{font:25px/1.2 Georgia,serif}.doc-library .eyebrow{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#66726c}.doc-library nav{display:flex;flex-wrap:wrap;gap:8px}.doc-library nav a{padding:9px 13px;border:1px solid #d8dfd8;border-radius:8px}.doc-library .doc-links{list-style:none;padding:0}.doc-library .doc-links li{padding:12px 0;border-bottom:1px solid #d8dfd8}.doc-library a{overflow-wrap:anywhere;text-underline-offset:4px}.doc-library details>summary{cursor:pointer;padding:12px 0;min-height:24px}.doc-library a:focus-visible,.doc-library summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}.doc-library .doc-status{display:inline-block;font-size:12px;background:#edf1e9;padding:4px 10px;border-radius:20px}.doc-library section{scroll-margin-top:20px}@media(max-width:600px){body{padding:24px 18px}.doc-library h1{font-size:30px}}'''
+STYLE='''.doc-library{max-width:960px}.doc-library h1{font:38px/1.15 Georgia,serif;text-wrap:balance}.doc-library h2{font:25px/1.2 Georgia,serif}.doc-library .eyebrow{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#66726c}.doc-library nav{display:flex;flex-wrap:wrap;gap:8px}.doc-library nav a{padding:9px 13px;border:1px solid #d8dfd8;border-radius:8px}.doc-library .doc-links{list-style:none;padding:0}.doc-library .doc-links li{padding:12px 0;border-bottom:1px solid #d8dfd8}.doc-library a{overflow-wrap:anywhere;text-underline-offset:4px}.doc-library details>summary{cursor:pointer;padding:12px 0;min-height:24px}.doc-library a:focus-visible,.doc-library summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}.doc-library .doc-status{display:inline-block;font-size:12px;background:#edf1e9;padding:4px 10px;border-radius:20px}.doc-library section{scroll-margin-top:20px}.doc-library .doc-crumbs{font-size:14px;color:#66726c;margin-bottom:18px}@media(max-width:600px){body{padding:24px 18px}.doc-library h1{font-size:30px}}'''
 
 
 def library_config(release):
@@ -58,7 +58,7 @@ def configure(catalog,release,fabrication,root,page):
         target=quote(posixpath.relpath(d['path'],posixpath.dirname(base)),safe='/#')
         return '<li><a href="'+target+'">'+escape(label)+'</a></li>'
     def wrap(title,body):
-        return page(title,'<a href="'+HOME+'">← Documentos do projeto</a>'+body).replace('<main>','<main class="doc-library">',1).replace('</style>',STYLE+'</style>',1)
+        return page(title,'<p class="doc-crumbs">Guedala Park › <a href="'+HOME+'">Documentos</a> › <span>'+escape(title)+'</span></p>'+body).replace('<main>','<main class="doc-library">',1).replace('</style>',STYLE+'</style>',1)
     for card in config['cards']:
         public={k:card[k] for k in ['id','title','category','status','summary','rooms']}
         direct=card.get('direct')

@@ -483,9 +483,12 @@ def document_intro(content, document):
     if document['id'] not in DOCUMENT_COPY:
         return content
     title, summary = DOCUMENT_COPY[document['id']]
-    intro = '<h1>'+escape(title)+'</h1><p>'+escape(summary)+'</p>'
+    # Caminho de volta: a página fica em docs/<caminho>.html, abaixo da raiz do site.
+    home = '../'*(document.get('path', '').count('/')+1)+'index.html?aba=documentos'
+    intro = '<p class="project-crumbs"><a href="'+escape(home)+'">← Documentos do projeto</a></p>'
+    intro += '<h1>'+escape(title)+'</h1><p>'+escape(summary)+'</p>'
     intro += '<p>Confira os detalhes e as pendências antes de comprar, cortar ou instalar.</p>'
-    intro += '<details class="project-report"><summary>Ver detalhes e documentos de origem</summary>'
+    intro += '<details class="project-report" open><summary>Detalhes técnicos</summary>'
     intro += '<p>As medidas e os códigos abaixo servem para conferir a montagem.</p>'
     # Mantém o estilo do relatório, seus links, tabelas e referências.
     main = re.search(r'(<main\b[^>]*>)([\s\S]*?)(</main>)', content, flags=re.I)
@@ -499,5 +502,5 @@ def document_intro(content, document):
         original = re.sub(r'<(/?)h1\b', r'<\1h2', body[2], flags=re.I)
         content = content[:body.start()] + body[1]+intro+original+'</details>'+body[3]+content[body.end():]
     content = re.sub(r'<title>[^<]*</title>', '<title>'+escape(title)+'</title>', content, count=1, flags=re.I)
-    style = '<style>.project-report{margin-top:24px}.project-report>summary{cursor:pointer;font-weight:600;padding:12px 0}@media print{.project-report::details-content{content-visibility:visible!important;display:block!important}}</style>'
+    style = '<style>.project-crumbs{font-size:14px;margin:0 0 18px}.project-report{margin-top:24px}.project-report>summary{cursor:pointer;font-weight:600;padding:12px 0}@media print{.project-report::details-content{content-visibility:visible!important;display:block!important}}</style>'
     return content.replace('</head>', style+'</head>') if '</head>' in content else content.replace('<main',style+'<main',1)
