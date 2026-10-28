@@ -25,14 +25,15 @@ def family(item,reference):
     return item
 
 
-def generate(dest,args):
-    ps=panels(ROOT/'06_Entregas/Fichas_fabricacao');tech=load(TECH)['modules'];edges=[];edge_totals=defaultdict(float)
+def generate(dest,args,pecas=None,furacao=None):
+    entrada_furacao=furacao or OUT
+    ps=panels(pecas or ROOT/'06_Entregas/Fichas_fabricacao');tech=load(TECH)['modules'];edges=[];edge_totals=defaultdict(float)
     for p in ps.values():
         # All source edge maps are null; never infer visibility from contact alone.
         row=dict(movel=p['mod'],peca=p['id'],cor=p['finish'].split(' — ')[0],espessura_chapa_mm=p['t'],espessura_fita_mm='',C0='',C1='',L0='',L1='',metros_fita_definidos='',perimetro_envelope_m=round(2*(p['c']+p['l'])/1000,4),situacao='parâmetro a confirmar',detalhe='Definir bordas visiveis por ID; quatro bordas do envelope sao apenas referencia; recortes mudam contorno.')
         edges.append(row);edge_totals[(row['cor'],p['t'])]+=row['perimetro_envelope_m']
     edge_groups=[dict(cor=c,espessura_chapa_mm=t,espessura_fita_mm='',metros_fita_definidos='',referencia_perimetros_m=round(v,4),situacao='parâmetro a confirmar; sem percentual de perda aplicado') for (c,t),v in sorted(edge_totals.items())]
-    joints=read(OUT/'Mapa_conectores.csv');bom=[];missing=[];documentary=[]
+    joints=read(entrada_furacao/'Mapa_conectores.csv');bom=[];missing=[];documentary=[]
     for mod,m in tech.items():
         selected={}
         for d in m['hardwareRows']:
@@ -68,7 +69,7 @@ def generate(dest,args):
     old={'P10':20,'P11':12,'P15':8,'P19':12}
     for mod in tech:
         qty=sum(int(r['quantidade']) for r in joints if r['movel']==mod and r['conector']=='Minifix 15');minifix_by_mod.append(dict(movel=mod,minifix_mapa=qty,minifix_documentado=old.get(mod,''),diferenca='' if mod not in old else qty-old[mod],observacao='Novo mapa e alternativa de distribuicao: nao somar ao anterior; P19 fundo proposto Confirmat precisa reconciliar detalhe Minifix existente.'))
-    holes=[h for p in sorted(OUT.glob('P??-coordenadas.csv')) for h in read(p)];operations=Counter((h['movel'],h['tipo']) for h in holes)
+    holes=[h for p in sorted(entrada_furacao.glob('P??-coordenadas.csv')) for h in read(p)];operations=Counter((h['movel'],h['tipo']) for h in holes)
     # Transparent shop-planning assumptions, not manufacturer cycle times.
     default={typ:((25,45) if 'caneco' in typ or 'corpo' in typ else (12,25) if 'cavilha' in typ else (8,20)) for _,typ in operations}
     if args.tempos:

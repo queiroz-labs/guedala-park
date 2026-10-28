@@ -52,9 +52,9 @@ def packing_blockers(row):
     return reasons
 
 
-def load_base():
+def load_base(folder=None):
     panels = []
-    for path in sorted(FICHAS.glob('P??-pecas.csv')):
+    for path in sorted((folder or FICHAS).glob('P??-pecas.csv')):
         with path.open(encoding='utf-8-sig', newline='') as f:
             for line, raw in enumerate(csv.DictReader(f, delimiter=';'), 2):
                 names = raw['IDs CAD'].split(' | ')
@@ -64,7 +64,7 @@ def load_base():
                         C_mm=float(raw['C nominal mm']), L_mm=float(raw['L nominal mm']),
                         thickness_mm=float(raw['Esp. envelope mm']), specification=raw['Especificação documental'],
                         cad_reference=raw['Referência CAD'], contour=raw['Contorno'], partial_finish=raw['Acabamento parcial'],
-                        edge_grain_machining=raw['Bordas/veios/usinagem'], source_csv=path.relative_to(BASE).as_posix(),
+                        edge_grain_machining=raw['Bordas/veios/usinagem'], source_csv=path.relative_to(BASE).as_posix() if path.is_relative_to(BASE) else path.name,
                         source_line=line, net_area_m2=None, substrate_product=None, grain_axis=None,
                         purchase_ready=False)
                     row['envelope_area_m2'] = row['C_mm'] * row['L_mm'] / 1e6

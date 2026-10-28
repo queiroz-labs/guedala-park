@@ -120,7 +120,7 @@ def audit(holes,ps,gap=3,tool_length=100,tool_radius=10):
 
 
 def execute(folder,dest,args):
-    ps=panels(ROOT/'06_Entregas/Fichas_fabricacao');holes=[h for p in sorted(folder.glob('P??-coordenadas.csv')) for h in read(p)]
+    ps=panels(getattr(args,'pecas',None) or ROOT/'06_Entregas/Fichas_fabricacao');holes=[h for p in sorted(folder.glob('P??-coordenadas.csv')) for h in read(p)]
     issues,distances,access=audit(holes,ps,args.margem,args.ferramenta_comprimento,args.ferramenta_raio)
     doors=[]
     for d in load(HINGES):

@@ -199,3 +199,13 @@ Faixas de planejamento, **não cronometradas**: localizar parâmetros/peças, fa
 Bancadas Peca110/308/357/399: 20–45 min cada para contorno/recortes, com decisões e medidas disponíveis. Depois: reexportação/regeneração, revisão conjunta e verificação completa do modelo (referência do projeto: ~8 min, não executada aqui). Ligações, oficina e RT fora dessas estimativas.
 
 Pergunta 5: criar planilha mestre no CAD? Recomendação: sim para parâmetros estáveis de implantação, caixas e fechamentos, após definir cotas variáveis; não automatizar inicialmente recortes, ferragens ou distribuição entre módulos. O ensaio mede velocidade do relatório, não da remodelagem: caixas conservadas por falta de decisão de redimensionar.
+
+## Cadeia única de medidas
+
+`python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`
+
+Saída temporária externa, caminho impresso; `--saida DIR` exige pasta nova/vazia fora do repositório. Reusa recálculo, geradores de furação/conflitos/quantitativos e triagem/empacotador de formatos. Cadeia.md/JSON: deltas por peça, furos novos/perdidos, conflitos novos, folgas negativas, chapas virtuais e diferença quantitativa do orçamento. Fontes conferidas por hash antes/depois; nenhum FCStd lido.
+
+Base R54: 72 extensões fixas, 249 IDs preservados. Nove fechamentos são referências sem ID de corte: não viram painéis. Recortes manuais e referências alteradas vão para Pendencias_propagacao.csv. Custo total fica desconhecido sem composição/preços; delta conhecido não significa custo total zero. Esquadro e piso usam canais CAMPO por ambiente, descritos no relatório; não descontar piso novamente quando PD já for local.
+
+Ensaio fictício existente: cadeia completa 0,794 s, 0 peças/furos alterados, 10 folgas negativas novas. Tempo desta máquina, sem medição, remodelagem ou montagem. Testar: `python -B 04_Moveis/Dependencias/test_cadeia.py` (4 casos, saída descartada). Derivados permanecem nominais/incompletos onde a fonte não tem centros, fita, recortes ou preços.

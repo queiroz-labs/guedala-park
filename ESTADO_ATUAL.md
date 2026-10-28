@@ -102,7 +102,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
-**Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R54 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.
+**Medidas → derivados (28/10):** [comando único](04_Moveis/Dependencias/README.md): cadeia externa 0,79 s; caixas fixas; recortes/fechamentos sem ID pendentes. Sem alteração no CAD.
 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
 

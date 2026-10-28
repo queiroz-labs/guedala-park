@@ -119,3 +119,5 @@ Executar da raiz. O comando usa os geradores/verificadores anteriores e a audito
 Os 16 SVG atuais foram conferidos como XML; posições, margens e serra pelo verificador geométrico. Restam substrato, códigos, veio, fita/selagem, formato útil, ferramentas, manuseio, contornos especiais e ligações. Sem compra, contato, publicação ou alteração no CAD.
 
 Fontes locais: [quantitativos anteriores](../../Quantitativos/README.md), [formatos registrados e referências de origem](../../Quantitativos/Formatos_e_pendencias.json), fichas R14 correntes e [hashes de cada entrada](Fontes_e_hashes.json). A origem comercial dos formatos foi aproveitada como evidência local; não foi feita nova pesquisa de catálogo/estoque nesta etapa.
+
+A cadeia em `04_Moveis/Dependencias/orquestrar.py` usa `load_base(folder)`/`make_plan`/`triage_records` com CSVs externos. Os arquivos vigentes e parâmetros de corte permanecem intactos.
