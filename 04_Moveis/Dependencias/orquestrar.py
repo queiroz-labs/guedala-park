@@ -92,7 +92,18 @@ def inputs(path,output):
             code=r['codigo_medida']
             if code in seen:raise ValueError('Código repetido: '+code)
             seen.add(code)
-            if code in AUX:aux[code]=parse_aux(code,r['valor_medido'])
+            if code.startswith('PAREDE-'):
+                from sensibilidade import model
+                wall,_,kind=code.rpartition('-')
+                if wall not in model()['walls'] or kind not in ['DESLOCAMENTO','ANGULO']:raise ValueError('Pano/parâmetro desconhecido: '+code)
+                if kind=='DESLOCAMENTO':aux[code]=dimensional.resolver({code:dict(valor_medido=r['valor_medido'],valor_nominal_atual='')},code).mm
+                else:
+                    import re
+                    match=re.fullmatch(r'\s*(-?\d+(?:[.,]\d+)?)\s*(deg|grau|graus|°)\s*',r['valor_medido'])
+                    if not match:raise ValueError('Ângulo com unidade inválida: '+code)
+                    aux[code]=float(match[1].replace(',','.'))
+                if aux[code] is None or not math.isfinite(aux[code]):raise ValueError('Parâmetro de parede inválido')
+            elif code in AUX:aux[code]=parse_aux(code,r['valor_medido'])
             elif code in known:normal.append(r)
             else:raise ValueError('Código desconhecido: '+code)
     normalized=output/'Medidas_entrada.csv'
@@ -128,7 +139,13 @@ def adjust(report,doc,aux):
 
 
 def evaluate(rows,doc,aux=None):
-    return adjust(dimensional.calcular(rows,doc),doc,aux or {})
+    result=adjust(dimensional.calcular(rows,doc),doc,aux or {})
+    if aux and any(c.startswith('PAREDE-') for c in aux):
+        from sensibilidade import model,minimum
+        m=model(doc);gg=gap_map(result)
+        for name,t in m['targets'].items():t['ceiling']=gg[name+'/Z/topo']
+        result['menor_folga_paredes_medidas_mm']=minimum(m,aux)
+    return result
 
 
 def gap_map(report):

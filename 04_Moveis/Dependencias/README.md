@@ -15,4 +15,12 @@ PR-FLOORS e outras coordenadas de exportação não têm marco físico demonstra
 
 A saída externa contém peças preservadas, furação, conflitos, quantitativos, formatos e comparação quantitativa de orçamento. Sem regra por ID, recortes e fechamentos viram pendência; preços ausentes não são zero. Entradas: codigo_medida,valor_medido,evidencia_campo; unidades explícitas e ambos os eixos DIM. Testes de integração: `python -B 04_Moveis/Dependencias/test_cadeia.py`.
 
-A sensibilidade de origens independentes e a antiga lista de criticidade foram identificadas como inadequadas para inferir tolerância física; o ranking será substituído por paredes em datum comum. Valores anteriores permanecem apenas como comparação até essa substituição. Nenhuma folga ou caixa foi alterada.
+## Folgas e paredes
+
+[34 folgas ≤ 15 mm](Folgas_ate_15.csv): inclui 4 negativas nominais. Onde não há pano correspondente, o lado é limite de retângulo de referência, não parede comprovada. Caixas e folgas originais preservadas.
+
+[Modelo de 26 panos](Paredes.csv), [ranking por variância explicada](Ranking_15.csv), [índices por módulo](Variancia_por_modulo.csv) e [resumo](Sensibilidade.json). `python -B 04_Moveis/Dependencias/sensibilidade.py --saida C:/Temp/paredes` gera 5000 pares A/B (10.000 amostras), deslocamento normal±20mm/rotação±1° por pano, datum comum; teto±20mm e piso0–10mm. Retas vêm de PR-WALLS, não das origens independentes dos pisos. Panos compartilhados usam uma única variável. Partes abertas não viram paredes. A identificação física permanece pendente onde o cache não fornece nome inequívoco.
+
+Ranking Sobol de primeira ordem (pick-freeze), ponderado pela variância da menor folga de cada módulo. Estimador bruto preservado; índice exibido truncado0–1 por erro amostral. Interações não se somam à primeira ordem. Brutos ficam externos; hash no resumo. Testes de datum/translação/pano compartilhado em test_sensibilidade.py.
+
+**Pergunta para Elias:** adotar folga de montagem de 10 mm com arremate nos lados hoje com 0 mm? [Impacto por móvel](Pergunta_folga_zero.csv): perda de largura útil e profundidade, sem alterar cotas. Distinguir panos abertos/parede antes de adotar; os conflitos negativos existentes não são resolvidos pela pergunta. Paredes/ancoragem e resistência continuam fora do estudo.

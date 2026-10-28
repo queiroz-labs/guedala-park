@@ -1,31 +1,29 @@
-# Folha de campo — 15 verificações prioritárias
+# Folha de campo — 15 medidas prioritárias
 
-Nominal. Marcar panos e pontos no croqui, medir faces acabadas e repetir leituras. Itens com descrição pendente não devem ser medidos por uma coordenada de computador. O projeto precisa identificar seus marcos físicos.
+Medir faces acabadas a 1 m do piso; usar a mesma estação laser M0, marcada no croqui. Identificar os dois extremos de cada pano. Descrição pendente exige identificação pelo projeto antes de medir.
 
-| Item | O que medir, de onde até onde | Instrumento / altura | Leitura / foto |
+| Item | Medida física | Instrumento / registro | Leitura / foto |
 |---|---|---|---|
-| 1 | cozinha: ângulo entre os dois panos acabados de cada canto que receberá móvel; marcar o canto e os dois panos no croqui; registrar o maior desvio de 90°. | laser angular ou esquadro aferido com duas bases de1m; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 2 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 3 | Avanço da parede acabada atrás da bancada da cozinha entre a leitura baixa e a leitura na altura dos aéreos; positivo para dentro do vão do móvel. | nível laser vertical + régua/trena perpendicular à parede; registrar as duas alturas de leitura | ______ |
-| 4 | Descrição pendente: associar cada eixo da cota oficial às duas faces acabadas efetivas no croqui; medir entre essas faces a 1 m do piso, em três posições; não confundir faixa de planta com parede física. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 5 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 6 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 7 | quarto principal: ângulo entre os dois panos acabados de cada canto que receberá móvel; marcar o canto e os dois panos no croqui; registrar o maior desvio de 90°. | laser angular ou esquadro aferido com duas bases de1m; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 8 | Descrição pendente: associar cada eixo da cota oficial às duas faces acabadas efetivas no croqui; medir entre essas faces a 1 m do piso, em três posições; não confundir faixa de planta com parede física. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 9 | banheiro: ângulo entre os dois panos acabados de cada canto que receberá móvel; marcar o canto e os dois panos no croqui; registrar o maior desvio de 90°. | laser angular ou esquadro aferido com duas bases de1m; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 10 | lavanderia: ângulo entre os dois panos acabados de cada canto que receberá móvel; marcar o canto e os dois panos no croqui; registrar o maior desvio de 90°. | laser angular ou esquadro aferido com duas bases de1m; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 11 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 12 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 13 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 14 | Descrição pendente: identificar em croqui a parede/face e o marco físico comum antes de medir este código. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
-| 15 | Descrição pendente: associar cada eixo da cota oficial às duas faces acabadas efetivas no croqui; medir entre essas faces a 1 m do piso, em três posições; não confundir faixa de planta com parede física. | laser de distâncias + trena; nível laser para transferir o datum; 1.000 mm do piso acabado, para medidas horizontais | ______ |
+| 1 | Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 2 | Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia. | Ângulo da reta pelos dois pontos extremos do mesmo pano, com laser angular/levantamento dos dois pontos. A 1 m do piso. | ______ |
+| 3 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 4 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 5 | Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 6 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 7 | Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui. | Ângulo da reta pelos dois pontos extremos do mesmo pano, com laser angular/levantamento dos dois pontos. A 1 m do piso. | ______ |
+| 8 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 9 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 10 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Ângulo da reta pelos dois pontos extremos do mesmo pano, com laser angular/levantamento dos dois pontos. A 1 m do piso. | ______ |
+| 11 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 12 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Ângulo da reta pelos dois pontos extremos do mesmo pano, com laser angular/levantamento dos dois pontos. A 1 m do piso. | ______ |
+| 13 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Ângulo da reta pelos dois pontos extremos do mesmo pano, com laser angular/levantamento dos dois pontos. A 1 m do piso. | ______ |
+| 14 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
+| 15 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Distância perpendicular da estação M0 ao pano nos dois extremos; laser de distâncias e trena. A 1 m do piso. | ______ |
 
-O mapeamento de escritório e a tabela completa foram separados da folha: [descrições físicas](../04_Moveis/Dependencias/Descricao_fisica.csv) e [546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). A ordem será atualizada pelo modelo de paredes com datum comum. Limiares geométricos não são tolerâncias de obra.
+[Mapeamento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem por variância explicada da menor folga; não é tolerância de obra.
 
-Após preencher CSV externo com codigo_medida,valor_medido,evidencia_campo, executar da raiz do repositório:
+Depois de preencher o CSV de campo, executar da raiz:
 
 ```powershell
 python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv
 ```
-
-Saída temporária externa. Não altera caixas nem incorpora medidas na base.

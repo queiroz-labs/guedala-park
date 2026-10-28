@@ -102,7 +102,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 - Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
 - Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
 
-**Medidas → derivados (28/10):** [cadeia e folha de campo](04_Moveis/Dependencias/README.md): 15 verificações;546 códigos em CSV; marcos físicos pendentes explícitos; caixas preservadas.
+**Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; identificação física pendente.
 
 **Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
 

@@ -1,178 +1,134 @@
-"""Monte Carlo fictício reproduzível; respostas obtidas do motor vigente.
-
-Caixas fixas produzem a mesma chave de painéis: furação/corte são memoizados,
-não reexecutados 5.000 vezes nem confundidos com ausência de pendências.
-"""
-import argparse
-import copy
-import csv
-import hashlib
-import json
-import math
+"""Paredes como retas compartilhadas em datum R54; caixas/folgas nominais intactas."""
+import argparse,csv,hashlib,json,math,random,tempfile,time
 from pathlib import Path
-import random
-import tempfile
-import time
-import contextlib
-import io
 from collections import defaultdict
-from orquestrar import (ROOT,HERE,AUX,ROOMS,document,evaluate,gap_map,dimensional,
-                        furacao,outside,json_out,run)
+from orquestrar import ROOT,HERE,document,dimensional,evaluate,gap_map,furacao,outside,json_out
 
 
-def set_value(rows,code,value):
-    parent,_,component=code.partition('/')
-    if component:
-        vals=[dimensional.resolver(rows,parent+'/'+str(i)).mm for i in range(1 if parent in ['DIM-03','DIM-04'] else 2)]
-        vals[int(component)]=value
-        rows[parent]['valor_medido']=' x '.join(f'{v:.9f}' for v in vals)+' mm'
-    else:rows[parent]['valor_medido']=f'{value:.9f} mm'
+def model(doc=None):
+    doc=doc or document();rows=dimensional.entradas(nominal=True);bounds={}
+    for r in doc['regras']:
+        if r.get('eixo') not in [0,1]:continue
+        room=doc['alvos'][r['movel']]['room'];axis=r['eixo']
+        origin=dimensional.resolver(rows,r['origem']).mm;span=dimensional.resolver(rows,r['dimensao']).mm
+        pair=(origin,origin+span)
+        if axis in bounds.setdefault(room,{}) and bounds[room][axis]!=pair:raise ValueError('Limites incompatíveis no mesmo ambiente')
+        bounds[room][axis]=pair
+    walls={}
+    source={}
+    for code,r in rows.items():
+        if code.startswith('PR-WALLS-'):
+            _,_,ident,axis=code.split('-');source.setdefault(ident,{})[axis]=dimensional.resolver(rows,code).mm
+            source[ident]['room']=r['ambiente']
+    for ident,v in sorted(source.items()):
+        room=v['room'];bb=bounds[room];axis=0 if v['W']<=v['D'] else 1
+        start=v['X'] if axis==0 else v['Y'];thick=v['W'] if axis==0 else v['D']
+        side=0 if sum(bb[axis])/2>start+thick/2 else 1
+        position=start+thick if side==0 else start
+        lo=v['Y'] if axis==0 else v['X'];hi=lo+(v['D'] if axis==0 else v['W'])
+        wid='PAREDE-'+ident
+        pivot=[position,(lo+hi)/2] if axis==0 else [(lo+hi)/2,position]
+        desc='Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.'
+        if ident=='15':desc='Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.'
+        if ident=='02':desc='Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui.'
+        walls[wid]=dict(id=wid,axis=axis,position=position,side=side,segment=[lo,hi],pivot=pivot,physical=desc,rooms=[room],source='PR-WALLS-'+ident)
+    targets={};nominal=evaluate(rows,doc);gaps=gap_map(nominal)
+    for name,t in doc['alvos'].items():
+        bb=t['box_planta'];selected=[]
+        for wid,w in walls.items():
+            other=1-w['axis'];overlap=min(bb[other+3],w['segment'][1])-max(bb[other],w['segment'][0])
+            if overlap<=0:continue
+            near=abs((bb[w['axis']] if w['side']==0 else bb[w['axis']+3])-w['position'])<=30
+            if t['room'] in w['rooms'] or near:selected.append(wid)
+        targets[name]=dict(room=t['room'],box=bb,walls=selected,ceiling=gaps[f'{name}/Z/topo'])
+    return dict(doc=doc,walls=walls,targets=targets,gaps=gaps)
 
 
-def variable_specs(doc,rows):
-    used=sorted({c for r in doc['regras'] for c in r['medidas']})
-    # Also sample wall coordinates explicitly; unsupported walls stay flagged.
-    extra=[c for c in rows if c.startswith('PR-WALLS-') and c not in used]
-    for parent in [f'DIM-{i:02}' for i in range(1,9)]:
-        extra += [parent+'/'+str(i) for i in range(1 if parent in ['DIM-03','DIM-04'] else 2) if parent+'/'+str(i) not in used]
-    extra += [c for c in rows if c.startswith('PD-') and c not in used]
-    specs={}
-    for code in used+extra:
-        value=dimensional.resolver(rows,code).mm
-        if value is None:continue
-        if code.startswith('PD-'):low,high=(2480,2520) if code=='PD-BAN' else (2580,2620)
-        else:low,high=value-20,value+20
-        specs[code]=dict(nominal=value,low=low,high=high,unit='mm',used=code in used,kind='prumo' if code=='DEP-COZ-PRUMO' else 'linear')
-    for code,v in AUX.items():specs[code]=dict(nominal=0,low=0,high=1 if v['kind']=='ESQUADRO' else 10,unit='grau' if v['kind']=='ESQUADRO' else 'mm',used=True,kind='angle' if v['kind']=='ESQUADRO' else 'linear')
-    return specs
+def wall_gap(w,box,displacement=0,angle=0):
+    sign=1 if w['side']==0 else -1
+    theta=math.radians(angle);normal=[0.,0.];normal[w['axis']]=sign*math.cos(theta);normal[1-w['axis']]=sign*math.sin(theta)
+    d=sum(normal[i]*w['pivot'][i] for i in [0,1])+displacement
+    box=list(box);other=1-w['axis'];box[other]=max(box[other],w['segment'][0]);box[other+3]=min(box[other+3],w['segment'][1])
+    if box[other]>=box[other+3]:return float('inf')
+    return min(normal[0]*x+normal[1]*y-d for x in [box[0],box[3]] for y in [box[1],box[4]])
 
 
-def transformed(value,spec):
-    if spec['kind']=='angle':return math.tan(math.radians(value))
-    if spec['kind']=='prumo':return max(0,value)
-    return value-spec['nominal']
-
-
-def actual(values,rows,doc):
-    changed=copy.deepcopy(rows);aux={}
-    for code,value in values.items():
-        if code in AUX:aux[code]=value
-        else:set_value(changed,code,value)
-    return evaluate(changed,doc,aux)
-
-
-def response_model(rows,doc,specs):
-    """Finite-difference response table; independent full-engine validation below.
-
-    Current formulas accept only +/- and constants. Nonlinear inputs are
-    converted with max(prumo,0) and tan(angle), exactly as declared by the chain.
-    Any future non-additive rule must fail validation instead of silently using
-    this acceleration.
-    """
-    baseline=gap_map(evaluate(rows,doc));coeff={}
-    for code,s in specs.items():
-        if not s['used']:coeff[code]={};continue
-        trial=1 if code in AUX else s['nominal']+1
-        result=gap_map(actual({code:trial},rows,doc));den=transformed(trial,s)
-        coeff[code]={k:(v-baseline[k])/den for k,v in result.items() if abs(v-baseline[k])>1e-9}
-    return baseline,coeff
-
-
-def predict(values,baseline,coeff,specs):
-    result=baseline.copy()
-    for code,value in values.items():
-        delta=transformed(value,specs[code])
-        for key,slope in coeff[code].items():result[key]+=slope*delta
+def minimum(m,values=None):
+    values=values or {};result={}
+    for name,t in m['targets'].items():
+        g=[wall_gap(m['walls'][w],t['box'],values.get(w+'-DESLOCAMENTO',0),values.get(w+'-ANGULO',0)) for w in t['walls']]
+        g.append(t['ceiling']+values.get('TETO-'+t['room'],0)-values.get('PISO-'+t['room'],0))
+        result[name]=min(g)
     return result
 
 
-def tolerance(spec,slopes,base):
-    candidates=[]
-    for key,slope in slopes.items():
-        if abs(slope)<1e-12:continue
-        if base[key]<-1e-6:continue # existing failure, not a new threshold
-        adverse=-1 if slope>0 else 1
-        if spec['kind'] in ['angle','prumo'] and adverse<0:continue
-        distance=max(0,base[key])/abs(slope)
-        distance=math.degrees(math.atan(distance)) if spec['kind']=='angle' else distance
-        candidates.append((distance,adverse,key))
-    if not candidates:return None,'',''
-    distance,sign,key=min(candidates)
-    return round(distance,6),('aumentar' if sign>0 else 'reduzir'),key
+def nominal_tables(m,dest,N=10):
+    records=[];questions=[];frames=furacao.load('ferramentas/site/fabrication/module-frames.json')['frames']
+    for name,t in m['targets'].items():
+        zero=[]
+        for key,g in m['gaps'].items():
+            target,axis,side=key.split('/')
+            if target!=name or g>15:continue
+            matches=[wid for wid in t['walls'] if m['walls'][wid]['axis']==('XY'.index(axis) if axis in 'XY' else -1) and m['walls'][wid]['side']==(0 if side=='inicio' else 1) and abs(wall_gap(m['walls'][wid],t['box'])-g)<1e-5]
+            text=' | '.join(m['walls'][w]['physical'] for w in matches) or 'Limite do retângulo de referência; parede física não identificada (não comprova contato).'
+            records.append(dict(modulo=name,lado=axis+'/'+side,folga_mm=g,encosta_em=text,parede=' | '.join(matches),situacao='conflito nominal existente' if g<0 else 'contato nominal' if abs(g)<1e-6 else 'folga curta'))
+            if abs(g)<1e-6 and axis in 'XY':zero.append((axis,side,matches))
+        if zero:
+            width_axis=max(range(2),key=lambda a:abs(frames[name][0][a])) if name in frames else 0
+            loss_width=sum(axis=='XY'[width_axis] for axis,_,_ in zero)*N
+            loss_depth=sum(axis!='XY'[width_axis] for axis,_,_ in zero)*N
+            questions.append(dict(modulo=name,lados_hoje_zero=' | '.join(axis+'/'+side for axis,side,_ in zero),folga_proposta_por_lado_mm=N,perda_largura_util_mm=loss_width,perda_profundidade_mm=loss_depth,lados_sem_parede_identificada=sum(not matches for _,_,matches in zero),condicao='Pergunta; confirmar panos abertos/parede antes de arremate. Não muda caixa; conflitos nominais negativos continuam.'))
+    furacao.write_csv(dest/'Folgas_ate_15.csv',records);furacao.write_csv(dest/'Pergunta_folga_zero.csv',questions)
+    return records,questions
 
 
 def perform(output,n=5000,seed=28102026):
-    if n<5000:raise ValueError('Monte Carlo exige pelo menos 5000 cenários')
+    if n<5000:raise ValueError('Mínimo5000 cenários')
     output=outside(output);output.mkdir(parents=True,exist_ok=True)
-    if any(output.iterdir()):raise ValueError('Escolha pasta de saída vazia')
-    start=time.perf_counter();doc=document();rows=dimensional.entradas(nominal=True);specs=variable_specs(doc,rows)
-    if any(r.get('eixo') is not None and r['modo']!='fixa_com_folga_variavel' for r in doc['regras']):
-        raise ValueError('Envelope móvel exige invalidar cache de peças e rever modelo de sensibilidade')
-    baseline,coeff=response_model(rows,doc,specs);rng=random.Random(seed)
-    max_error=0
-    for _ in range(32):
-        values={c:rng.uniform(s['low'],s['high']) for c,s in specs.items()}
-        expected=gap_map(actual(values,rows,doc));predicted=predict(values,baseline,coeff,specs)
-        max_error=max(max_error,max(abs(expected[k]-v) for k,v in predicted.items()))
-    if max_error>1e-5:raise ValueError('Resposta deixou de ser aditiva; erro máximo '+str(max_error))
-    # One real end-to-end run proves the memoized quantities/holes/cut baseline.
-    fixture=output/'Nominal.csv';fixture.write_text('codigo_medida,valor_medido\n',encoding='utf-8')
-    with contextlib.redirect_stdout(io.StringIO()):chain,_=run(fixture,output/'Cadeia_nominal')
-    totals=defaultdict(int);independent=defaultdict(int);positive_new=0;max_new=0;sum_new=0
-    scenario_file=output/'Cenarios.csv'
-    with scenario_file.open('w',encoding='utf-8',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['cenario',*specs,'folgas_negativas_novas','pecas_CxL_alteradas','conflitos_furacao_novos','chapas_extras'])
-        for i in range(n):
-            values={c:rng.uniform(s['low'],s['high']) for c,s in specs.items()}
-            result=predict(values,baseline,coeff,specs)
-            newly={k for k,v in result.items() if v < -1e-6 and baseline[k]>=-1e-6}
-            if newly:positive_new+=1
-            max_new=max(max_new,len(newly));sum_new+=len(newly)
-            for code,s in specs.items():
-                delta=transformed(values[code],s)
-                # Paired counterfactual: remove only this measurement's adverse
-                # contribution from the joint scenario, not merely correlation.
-                attributed=[k for k in newly if result[k]-coeff[code].get(k,0)*delta>=-1e-6]
-                totals[code]+=len(attributed)
-                independent[code]+=sum(baseline[k]+slope*delta < -1e-6 and baseline[k]>=-1e-6 for k,slope in coeff[code].items())
-            writer.writerow([i+1,*[round(v,6) for v in values.values()],len(newly),0,0,0])
-    panels=furacao.panels(ROOT/'06_Entregas/Fichas_fabricacao');ids_by_mod=defaultdict(set)
-    for p in panels.values():ids_by_mod[p['mod']].add(p['id'])
-    aggregates=defaultdict(list)
-    for code,s in specs.items():aggregates[code.partition('/')[0]].append(code)
-    ranked=[]
-    for parent in [*rows,*AUX]:
-        components=aggregates.get(parent,[]);related=[r for r in doc['regras'] if any(c in r['medidas'] for c in components)]
-        targets={r['movel'] for r in related}
-        for c in components:
-            targets.update(k.split('/')[0] for k in coeff[c])
-        affected=set().union(*(ids_by_mod[t] for t in targets)) if targets else set()
-        t_candidates=[(tolerance(specs[c],coeff[c],baseline),c) for c in components if coeff[c]]
-        t_candidates=[(t,c) for t,c in t_candidates if t[0] is not None]
-        threshold,component=min(t_candidates,key=lambda v:v[0][0]) if t_candidates else ((None,'',''),'')
-        impact=sum(totals[c] for c in components);single=sum(independent[c] for c in components)
-        existing=sum(v< -1e-6 and any(k in coeff[c] for c in components) for k,v in baseline.items())
-        status='medida sem regra quantitativa' if not related and not any(coeff[c] for c in components) else 'alta' if threshold[0] is not None and threshold[0]<=1e-6 else 'atenção nominal existente' if existing else 'média' if impact else 'revisão de referência' if affected else 'sem efeito computável'
-        description=rows[parent]['medida_ou_verificacao'] if parent in rows else 'Desvio absoluto do esquadro' if AUX[parent]['kind']=='ESQUADRO' else 'Elevação do piso desde a referência baixa'
-        ranked.append(dict(codigo_medida=parent,medida=description,criticidade=status,pecas_afetadas_revisao=len(affected),pecas_CxL_alteradas=0,conflitos_furacao_novos=0,folgas_negativas_atribuidas=impact,folgas_negativas_isoladas=single,chapas_extras=0,limiar_novo_conflito=threshold[0],unidade=specs[component]['unit'] if component else '',sentido=threshold[1],componente=component,folga_limitante=threshold[2],folgas_negativas_ja_nominais=existing,componentes_simulados=' | '.join(components),alvos=' | '.join(sorted(targets)),cobertura='caixas fixas; revisão não é redimensionamento' if components else 'qualitativa/sem equação: tolerância RT/oficina pendente'))
-    ranked.sort(key=lambda r:(-r['folgas_negativas_atribuidas'],-r['folgas_negativas_isoladas'],-r['pecas_afetadas_revisao'],r['codigo_medida']))
-    furacao.write_csv(output/'Todas_medidas.csv',ranked)
-    top=[r for r in ranked if r['componentes_simulados']][:15]
-    furacao.write_csv(output/'Ranking_15.csv',top)
-    summary=dict(cenarios=n,seed=seed,distribuicao='uniforme independente; paredes/origens/dimensões±20mm; PD2580–2620/BAN2480–2520; esquadro0–1°; piso0–10mm',variaveis_simuladas=len(specs),medidas_total=len(ranked),com_novas_folgas_negativas=positive_new,media_folgas_negativas_novas=round(sum_new/n,4),max_folgas_negativas_novas=max_new,pecas_CxL_alteradas=0,conflitos_furacao_novos=0,chapas_extras=0,validacao_motor_completo_cenarios=32,erro_maximo_resposta_mm=max_error,cache_derivados='mesma chave C×L/t/topologia de249 IDs; cadeia nominal executada, demais reutilizam resultado idêntico; referências/fechamentos sem ID ficam fora da compra',tempo_cadeia_s=chain['tempos']['total_s'],tempo_s=time.perf_counter()-start,sha256_cenarios=hashlib.sha256(scenario_file.read_bytes()).hexdigest(),sha256_todas_medidas=hashlib.sha256((output/'Todas_medidas.csv').read_bytes()).hexdigest(),top15=top,limites='Limiar geométrico nominal, não tolerância de obra. Contagem de peças é revisão pelos vínculos; nenhuma caixa foi esticada. Zero novos furos/chapas vale só para os IDs fixos cobertos, não para fechamentos sem ID,104 peças sem centros,2130 posições incompletas ou preços ausentes. PR-WALLS sem equação permanece cobertura pendente. Frequências fictícias não são probabilidades da obra.')
-    summary['sha256_regras']=hashlib.sha256((HERE/'regras.json').read_bytes()).hexdigest()
-    summary['sha256_nominais']=hashlib.sha256(json.dumps({c:s['nominal'] for c,s in specs.items()},sort_keys=True).encode()).hexdigest()
-    summary['sha256_motor']=hashlib.sha256(Path(dimensional.__file__).read_bytes()).hexdigest()
-    summary['sha256_sensibilidade']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    if any(output.iterdir()):raise ValueError('Saída deve estar vazia')
+    start=time.perf_counter();m=model();rng=random.Random(seed);variables={}
+    for w in m['walls']:
+        variables[w+'-DESLOCAMENTO']=(-20,20,'mm');variables[w+'-ANGULO']=(-1,1,'grau')
+    for room in sorted({t['room'] for t in m['targets'].values()}):
+        variables['TETO-'+room]=(-20,20,'mm');variables['PISO-'+room]=(0,10,'mm')
+    # A and B are independent samples. Hybrid A_Bi replaces one physical wall
+    # parameter; coordinates of all modules remain in the same global datum.
+    A=[{c:rng.uniform(lo,hi) for c,(lo,hi,_) in variables.items()} for _ in range(n)]
+    B=[{c:rng.uniform(lo,hi) for c,(lo,hi,_) in variables.items()} for _ in range(n)]
+    YA=[minimum(m,v) for v in A];YB=[minimum(m,v) for v in B];variance={}
+    for target in m['targets']:
+        vv=[v[target] for v in YA+YB];avg=sum(vv)/len(vv);variance[target]=sum((v-avg)**2 for v in vv)/len(vv)
+    ranks=[];detail=[]
+    for code,(lo,hi,unit) in variables.items():
+        # Cache unchanged wall contributions by updating only affected targets.
+        wall=code.rsplit('-',1)[0] if code.startswith('PAREDE-') else None
+        affected=[t for t,v in m['targets'].items() if wall in v['walls']] if wall else [t for t,v in m['targets'].items() if v['room']==code.split('-',1)[1]]
+        explained=[]
+        for t in affected:
+            vt=m['targets'][t];responses=[]
+            for i in range(n):
+                value=A[i].copy();value[code]=B[i][code]
+                gg=[wall_gap(m['walls'][w],vt['box'],value.get(w+'-DESLOCAMENTO',0),value.get(w+'-ANGULO',0)) for w in vt['walls']]
+                yy=min(*gg,vt['ceiling']+value.get('TETO-'+vt['room'],0)-value.get('PISO-'+vt['room'],0));responses.append(yy)
+            var=variance[t]
+            raw=sum(YB[i][t]*(responses[i]-YA[i][t]) for i in range(n))/n/var if var>1e-12 else 0
+            index=max(0,min(1,raw));value=index*var;explained.append(value)
+            detail.append(dict(medida=code,modulo=t,variancia_folga_minima_mm2=round(var,5),indice_primeira_ordem=round(index,5),estimador_bruto=round(raw,5),variancia_explicada_mm2=round(value,5)))
+        w=m['walls'].get(wall,{})
+        description=w.get('physical','Altura livre sobre os móveis do ambiente' if code.startswith('TETO') else 'Desnível do piso acabado na área de apoio')
+        ranks.append(dict(codigo_medida=code,descricao_fisica=description,instrumento='laser de distâncias + nível/laser angular; a1m do piso; datum M0 comum' if wall else 'laser de distâncias vertical / nível laser + régua',unidade=unit,modulos=' | '.join(affected),variancia_explicada_mm2=round(sum(explained),5),metodo='Sobol primeira ordem, pick-freeze; soma ponderada pela variância por módulo'))
+    ranks.sort(key=lambda x:(-x['variancia_explicada_mm2'],x['codigo_medida']))
+    furacao.write_csv(output/'Ranking_15.csv',ranks[:15]);furacao.write_csv(output/'Variancia_por_modulo.csv',detail)
+    furacao.write_csv(output/'Paredes.csv',[dict(id=k,ambientes=' | '.join(v['rooms']),eixo=v['axis'],posicao_nominal_mm=v['position'],lado=v['side'],pivot_x=v['pivot'][0],pivot_y=v['pivot'][1],descricao=v['physical']) for k,v in m['walls'].items()])
+    folgas,questions=nominal_tables(m,output)
+    with (output/'Cenarios.csv').open('w',encoding='utf-8',newline='') as f:
+        ww=csv.writer(f);ww.writerow(['amostra','conjunto',*variables,*m['targets']])
+        for label,xx,yy in [('A',A,YA),('B',B,YB)]:
+            for i,(x,y) in enumerate(zip(xx,yy)):ww.writerow([i,label,*x.values(),*y.values()])
+    summary=dict(cenarios_base=n,avaliacoes_independentes=2*n,seed=seed,paredes=len(m['walls']),variaveis=len(variables),modelo='Retas compartilhadas, deslocamento normal±20mm, rotação±1° no mesmo datum; teto±20mm (BAN base2500, demais2600), piso0–10mm.',top15=ranks[:15],folgas_ate_15=len(folgas),modulos_com_zero=len(questions),folga_montagem_pergunta_mm=10,caixas_alteradas=0,folgas_base_alteradas=0,tempo_s=round(time.perf_counter()-start,3),sha256_cenarios=hashlib.sha256((output/'Cenarios.csv').read_bytes()).hexdigest(),limites='Panos reais vêm dos26 retângulos PR-WALLS, não dos limites abertos dos pisos. Faces internas orientadas pelo ambiente; panos compartilhados usam a mesma reta. Identificação física e datum M0 ainda pendentes onde indicado. Não há origens independentes. Relações físicas entre panos devem ser confirmadas no croqui. Índice de primeira ordem não inclui toda interação; erro amostral pode produzir estimador negativo, preservado na tabela detalhada; índices exibidos truncados0–1. Menor folga é nominal, não tolerância de obra. Nenhuma caixa ou folga original foi modificada.')
     json_out(output/'Sensibilidade.json',summary)
-    lines=['# Sensibilidade nominal — Monte Carlo fictício','',f'{n} cenários; seed{seed}; {positive_new} com folga nova negativa. Máximo{max_new}; média{sum_new/n:.3f}.','',summary['limites'],'','| Medida | Peças a revisar | Folgas atribuídas | Limiar nominal |','|---|---:|---:|---|']
-    for r in top:lines.append(f'| {r["codigo_medida"]} | {r["pecas_afetadas_revisao"]} | {r["folgas_negativas_atribuidas"]} | {r["limiar_novo_conflito"]} {r["unidade"]}; {r["sentido"]} |')
-    lines+=['','Furos, chapas e dimensões alteradas: zero nos IDs fixos, por cache verificado da cadeia. Arquivo Todas_medidas.csv cobre cada código do roteiro/índice, inclusive os qualitativos sem equação. Limiar0 significa qualquer variação adversa além da margem numérica, não precisão de medição zero.','', 'Modelo de resposta obtido por perturbação unitária do motor existente; validado contra32 cenários completos. Esquadro usa tan(ângulo), prumo usa parte positiva. Para cada cenário, a atribuição retira uma variável por vez: uma falha com múltiplas causas suficientes pode não ser atribuída a nenhuma isoladamente; soma das atribuições não é total de defeitos únicos.','', 'As 5.000 linhas brutas ficam fora do projeto; resumo e ranking pequeno podem ser versionados. Reproduzir com mesma seed; tempos e caminho não participam do hash dos cenários.']
-    (output/'Sensibilidade.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     return summary
 
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--saida',type=Path);ap.add_argument('--cenarios',type=int,default=5000);ap.add_argument('--seed',type=int,default=28102026);args=ap.parse_args()
-    out=args.saida or Path(tempfile.mkdtemp(prefix='guedala-sensibilidade-'))
-    result=perform(out,args.cenarios,args.seed);print(json.dumps({k:v for k,v in result.items() if k not in ['top15','limites']},ensure_ascii=False));print(out)
+    ap=argparse.ArgumentParser();ap.add_argument('--saida',type=Path);ap.add_argument('--cenarios',type=int,default=5000);ap.add_argument('--seed',type=int,default=28102026);a=ap.parse_args();out=a.saida or Path(tempfile.mkdtemp(prefix='gp-paredes-'));r=perform(out,a.cenarios,a.seed);print(json.dumps({k:v for k,v in r.items() if k not in ['top15','limites']},ensure_ascii=False));print(out)

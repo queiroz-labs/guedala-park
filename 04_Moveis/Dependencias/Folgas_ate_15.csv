@@ -1,0 +1,35 @@
+﻿modulo;lado;folga_mm;encosta_em;parede;situacao
+P01;X/inicio;10.0;"Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui.";PAREDE-02;folga curta
+P01;Y/fim;10.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-03;folga curta
+P02;X/inicio;10.0;"Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui.";PAREDE-02;folga curta
+P02;Y/fim;10.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-03;folga curta
+P03;Y/fim;10.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-03;folga curta
+P04;X/inicio;10.0;"Face acabada da parede da cabeceira e aéreo P04 no quarto; marcar os dois extremos do pano no croqui.";PAREDE-02;folga curta
+P05;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P06;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P07;X/inicio;-13.0;"Limite do retângulo de referência; parede física não identificada (não comprova contato).";;conflito nominal existente
+P07;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P08;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P09;X/inicio;-25.0;"Limite do retângulo de referência; parede física não identificada (não comprova contato).";;conflito nominal existente
+P09;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P10;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P11;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P12;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P13;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P14;X/inicio;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-17;contato nominal
+P14;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P15;X/fim;-15.0;"Limite do retângulo de referência; parede física não identificada (não comprova contato).";;conflito nominal existente
+P15;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+P17;X/inicio;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-07;contato nominal
+P18;X/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-21;contato nominal
+P18;Y/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-20;contato nominal
+P19;X/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-21;contato nominal
+P19;Y/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-20;contato nominal
+Peca110;Y/inicio;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-05 | PAREDE-06;contato nominal
+Peca308;X/inicio;0.0;"Limite do retângulo de referência; parede física não identificada (não comprova contato).";;contato nominal
+Peca308;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+Peca357;X/inicio;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-17;contato nominal
+Peca357;X/fim;-40.0;"Limite do retângulo de referência; parede física não identificada (não comprova contato).";;conflito nominal existente
+Peca357;Y/fim;0.0;"Face acabada da parede atrás da bancada da cozinha e do tanque; marcar extremos do pano junto à cozinha e lavanderia.";PAREDE-15;contato nominal
+Peca399;X/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-21;contato nominal
+Peca399;Y/fim;0.0;Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui.;PAREDE-20;contato nominal

@@ -1,44 +1,22 @@
-import copy
-from pathlib import Path
-import tempfile
-import unittest
-from unittest.mock import patch
-from sensibilidade import (document,dimensional,variable_specs,response_model,
-                           actual,predict,gap_map,tolerance,perform)
+import copy,unittest
+from sensibilidade import model,minimum,wall_gap
 
-
-class Sensibilidade(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.doc=document();cls.rows=dimensional.entradas(nominal=True)
-        cls.specs=variable_specs(cls.doc,cls.rows)
-        cls.base,cls.coeff=response_model(cls.rows,cls.doc,cls.specs)
-
-    def test_modelo_cruzado_com_motor(self):
-        for values in [{'DEP-COZ-PRUMO':0},{'DEP-COZ-PRUMO':-20,'DIM-07/1':1531},
-                       {'CAMPO-COZ-ESQUADRO':.73,'CAMPO-COZ-PISO':9,'PD-COZ':2581},
-                       {'PR-WALLS-00-X':-80,'DIM-03/0':2470}]:
-            values={k:v for k,v in values.items() if k in self.specs}
-            expected=gap_map(actual(values,self.rows,self.doc))
-            calculated=predict(values,self.base,self.coeff,self.specs)
-            self.assertEqual(expected.keys(),calculated.keys())
-            for k,v in expected.items():self.assertAlmostEqual(v,calculated[k],places=6)
-
-    def test_limite_prumo_zero_e_origem_quarto_10(self):
-        t,sign,_=tolerance(self.specs['DEP-COZ-PRUMO'],self.coeff['DEP-COZ-PRUMO'],self.base)
-        self.assertEqual(t,0);self.assertEqual(sign,'aumentar')
-        t,sign,_=tolerance(self.specs['PR-FLOORS-00-X'],self.coeff['PR-FLOORS-00-X'],self.base)
-        self.assertEqual(t,10);self.assertEqual(sign,'aumentar')
-
-    def test_parede_sem_regra_nao_ganha_coeficiente(self):
-        self.assertEqual(self.coeff['PR-WALLS-00-X'],{})
-
-    def test_cache_recusa_envelope_que_nao_seja_fixo(self):
-        changed=copy.deepcopy(self.doc)
-        next(r for r in changed['regras'] if r.get('eixo') is not None)['modo']='segue_parede'
-        with tempfile.TemporaryDirectory(prefix='gp-mc-test-') as tmp:
-            with patch('sensibilidade.document',return_value=changed):
-                with self.assertRaisesRegex(ValueError,'Envelope móvel'):perform(Path(tmp)/'saida')
-
+class Paredes(unittest.TestCase):
+ def test_pano_compartilhado_tem_mesmo_deslocamento(self):
+  m=model();w=m['walls']['PAREDE-15']
+  for target in ['P05','P14']:
+   self.assertIn('PAREDE-15',m['targets'][target]['walls'])
+   self.assertAlmostEqual(wall_gap(w,m['targets'][target]['box'],10),-10)
+ def test_datum_transladado_preserva_distancia(self):
+  m=model();w=copy.deepcopy(m['walls']['PAREDE-15']);b=list(m['targets']['P05']['box']);old=wall_gap(w,b,5,.5)
+  w['pivot'][0]+=100;w['pivot'][1]-=200;w['segment']=[x+100 for x in w['segment']]
+  for a in [0,3]:b[a]+=100
+  for a in [1,4]:b[a]-=200
+  self.assertAlmostEqual(wall_gap(w,b,5,.5),old)
+ def test_sem_parede_no_limite_aberto_da_cozinha(self):
+  m=model()
+  self.assertFalse(any(w['axis']==0 and w['position']==3880 for w in m['walls'].values()))
+ def test_caixas_nao_sao_alteradas(self):
+  m=model();before=copy.deepcopy(m['targets']);minimum(m,{'PAREDE-15-DESLOCAMENTO':20,'PAREDE-15-ANGULO':1});self.assertEqual(before,m['targets'])
 
 if __name__=='__main__':unittest.main()
