@@ -8,7 +8,7 @@ from preparar_pages import build as prepare_web
 TESTROOT=Path(os.environ.get('GUEDALA_TEST_ROOT',ROOT.parent/'outputs/Publicacao/Testes'))
 class CurrentReleaseTests(unittest.TestCase):
  def test_cad_and_project_agree_with_release(self):
-  r=validate_sources(load_release());self.assertEqual(r['cadRevision'],'R54');self.assertEqual(r['packageRevision'],'R26')
+  r=validate_sources(load_release());self.assertEqual(r['cadRevision'],'R54');self.assertEqual(r['packageRevision'],'R27')
  def test_current_document_labels_use_same_release(self):
   from plain_language import DOCUMENT_COPY
   r=load_release();self.assertIn(r['cadRevision'],DOCUMENT_COPY['cad'][0]);self.assertIn(r['packageRevision'],DOCUMENT_COPY['pacote-compartilhar'][0]);self.assertIn(r['cadRevision'],DOCUMENT_COPY['pacote-compartilhar'][1]);self.assertNotIn('R49',DOCUMENT_COPY['cad'][0])

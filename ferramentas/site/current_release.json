@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-27",
+  "releaseDate": "2026-10-28",
   "projectRevision": "Consulta de marcenaria · FreeCAD R54 · iluminação CB02",
   "projectDate": "27 outubro 2026",
   "cadRevision": "R54",
@@ -11,18 +11,18 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R26",
+  "packageRevision": "R27",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R26.zip",
-  "archiveRoot": "Guedala_Park_R26",
+  "packageFile": "Guedala_Park_R27.zip",
+  "archiveRoot": "Guedala_Park_R27",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
-  "publicationStatus": "published",
+  "publicationStatus": "publication_authorized",
   "lastPublishedCadRevision": "R54",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
   "lastPublishedPackageRevision": "R26",
-  "notes": "R54: pedestais Berlin aproximados, topo Z750; cadeira lateral fechada afastada 15 mm em +X. Verificação completa sem colisões novas. Elias, 27/10/2026, nesta tarefa: \"Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.\"",
+  "notes": "R27: galeria Dia/Noite e PDFs do moodboard aprovados; ducha à esquerda do vaso no site e especificações. CAD R54 preservado. Elias, 28/10/2026: \"Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.\"",
   "technicalDocuments": [
     {
       "id": "pe-direito",

@@ -1,4 +1,4 @@
-# Apartamento interativo — R54 e pacote R26
+# Apartamento interativo — R54 e pacote R27
 
 **Berlin R54, 27/10/2026:** pedestal preto aproximado nos dois estados; cadeira lateral +15 mm. 106 cenários sem colisões novas. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Relatório](../../02_Modelo_3D/Relatorio_mudanca.md) · [publicação](../../06_Entregas/README.md). Publicado e conferido em 28/10/2026. Controle da mesa acessível na sala. Malha da cadeira preservada: só mudou a diagonal de uma face plana; materiais reconciliados. Testes em `test_scene_revision.cjs`.
 
@@ -8,7 +8,7 @@
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-A configuração corrente é `current_release.json`: FreeCAD R54, pacote R26, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
+A configuração corrente é `current_release.json`: FreeCAD R54, pacote R27, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
 
 T09, 26/10/2026: entradas antigas de consulta R12/R45 encaminham agora às fichas R14 e ao estado atual. [Manifesto e referências ainda divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09). Fontes e artefatos do site preservados; revisão documental não confirma a publicação remota.
 
@@ -116,4 +116,4 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 ## Galeria Dia/Noite
 
-[Seis pares e exportações](../../09_Referencias/README.md), aparência aprovada em 28/10/2026. Galeria: `galeria/index.html`. `build_web.mjs` copia os arquivos de `ferramentas/moodboard/gerar.py`. Publicação autorizada por Elias, 28/10/2026.
+[Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. R27 atualiza HTML/especificações; R26 preservado. Elias, 28/10/2026: "Aprovado, pode commitar e dar push."
