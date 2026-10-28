@@ -971,12 +971,12 @@ const ITEMS=[
     "room": "banho",
     "name": "Ducha higiênica preta quente e fria",
     "kind": "shower",
-    "dimensions": "Modelo e posição ainda não definidos",
+    "dimensions": "À esquerda do vaso, entre o box e o vaso; modelo e cotas de instalação pendentes",
     "choice": "Direção aprovada",
     "measure": "Percurso e funcionamento pendentes",
     "material": "black",
-    "source": "18/09/2026",
-    "notes": "Com mistura de temperatura e fechamento próprio. Posição desenhada é ilustrativa. Orçamento e modelo pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
+    "source": "Elias, 28/10/2026; 03_Ambientes/Banheiro/README.md",
+    "notes": "À esquerda do vaso, entre o box e o vaso, com a papeleira sozinha à direita (Elias, 28/10/2026). Com mistura de temperatura e fechamento próprio. Orçamento, modelo e cotas de instalação pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
   },
   {
     "id": "hotwater",

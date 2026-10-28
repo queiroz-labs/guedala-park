@@ -105,7 +105,7 @@ Mudanças que prevalecem: VIP substituiu Elite; apenas uma parede verde substitu
 ## O que falta para fechar
 
 1. **Água quente:** escolher percurso após avaliação de acesso e condições técnicas; detalhar descida, derivação, mistura/fechamento e orçamento.
-2. **Ducha higiênica e registros:** modelos/compatibilidade das bases, dimensões, localização e custo.
+2. **Ducha higiênica e registros:** modelos/compatibilidade das bases, cotas de instalação e custo; lado esquerdo definido em 28/10/2026.
 3. **Medidas acabadas:** porta, enchimento, janela, esgoto, pontos e giro de uso. Dados indisponíveis ficam para vistoria/documentação técnica.
 4. **Pia:** desenho da Arion, compatibilidade com Slim/bancada/armário e teste de conforto das alturas.
 5. **Box:** mecanismo/abertura útil, altura, ferragens e instalação; dimensões da prateleira.

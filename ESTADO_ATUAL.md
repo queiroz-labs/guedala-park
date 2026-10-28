@@ -61,7 +61,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** gabinete com portas de correr e frente removível; parede verde no box; luz de teto/indireta 3000 K e espelho 4000 K, três comandos ([L02: composição histórica](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); chapas Arauco Beige Matt e Louro Freijó Poro.
+- **Banheiro:** ducha à esquerda do vaso, entre box e vaso; papeleira à direita (Elias, 28/10/2026). Gabinete com portas de correr e frente removível; parede verde no box; luz de teto/indireta 3000 K e espelho 4000 K, três comandos ([L02: composição histórica](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); chapas Arauco Beige Matt e Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 
 Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_decisoes.md) e [Painel de decisões](01_Programa_e_decisoes/Painel_de_decisoes.md).
@@ -104,4 +104,4 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Medidas → móveis (27/10):** [regras e roteiro das chaves](04_Moveis/Dependencias/README.md): reprodução R54 0 mm; ensaio fictício de 20 folhas/0,73 s. Caixas fixas; recortes e topologia manuais. CAD, fatos e medições reais preservados.
 
-**Moodboard:** [sala/cozinha/quarto/escritório e lavanderia dia](09_Referencias/README.md): aceites de Elias em 27/10/2026; lavanderia noite e banheiro dia/noite em revisão; painéis 4K por código.
+**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”

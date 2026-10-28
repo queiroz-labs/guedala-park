@@ -127,7 +127,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Prateleira do box em Branco Itaúnas | Direção aprovada | 25–30 × 10 cm · proposta | Apoio para shampoo e sabonete. |
 | Enchimento técnico existente | Entrega | Geometria e altura não medidas | Enchimento indicado na planta oficial, fechado em gesso. |
 | Celite VIP branco · kit 1977230012300 | Aprovado | 37,5 L × 59 P × 80 A cm | Caixa acoplada, assento com queda amortecida e bacia Rimless. |
-| Ducha higiênica preta quente e fria | Direção aprovada | Modelo e posição ainda não definidos | Com mistura de temperatura e fechamento próprio. |
+| Ducha higiênica preta quente e fria | Direção aprovada | À esquerda do vaso, entre o box e o vaso; modelo e cotas de instalação pendentes | À esquerda do vaso, entre o box e o vaso, com a papeleira sozinha à direita (Elias, 28/10/2026). |
 | Água quente oculta: quatro caminhos em estudo | Em estudo | Enchimento → pia e ducha higiênica | Comparados: acima do forro existente. |
 | Algodão Egípcio, teto branco e uma parede verde | Direção aprovada | Amostras, paginação e áreas a conferir | Paredes fora do box em Algodão Egípcio. |
 

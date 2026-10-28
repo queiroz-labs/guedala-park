@@ -1,0 +1,236 @@
+{
+  "aprovacao": {
+    "data": "28/10/2026",
+    "rotulo": "Aparência aprovada em 28/10/2026",
+    "fonte": "Conversa do moodboard; citações específicas no README.md"
+  },
+  "aviso": "Imagens ilustrativas de aparência; medidas nas plantas e fichas.",
+  "cenas": [
+    {
+      "arquivo": "Sala_dia.png",
+      "sha256": "103ebb5af6aa4abd6fc943c5b5db8bf2ddc73e73a20a05fdc87fcb68de4a93ff",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Sala_noite.png",
+      "sha256": "fb729c4aa1cf8f5040bb3b81106d88a5ce9c439525f94616497d08359d1fa575",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Cozinha_dia.png",
+      "sha256": "4d28955998f2265f06356ec2658ba5ad07df31bb029fd0a52386b610cb975943",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Cozinha_noite.png",
+      "sha256": "4ff62e43925ee81c67e7faedee45fe88708d8ff885db7d04536738395b9fe9f9",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Lavanderia_dia.png",
+      "sha256": "dbd2bcfe4dfceab2a42ab1345ad89a0f0b313eb80d65de629b0595739de664dc",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Lavanderia_noite.png",
+      "sha256": "8cecd562ce27091c5a6176209f772179e1195203eb7f824fa48c3ea438b1d898",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Quarto_dia.png",
+      "sha256": "a5b99eeb84f720564473b1e9485322a76fa2c68da4ed7472d29ab8d81bc85097",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Quarto_noite.png",
+      "sha256": "a126514608956582c3aeb98d6206c76aa906495163d10aeb3cee08b548e4cdce",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Escritorio_dia.png",
+      "sha256": "1cfacfb2bc5d109a5bb2fc5b0dd0ccadbccf306418bb3d83acbd7fc355d777b1",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Escritorio_noite.png",
+      "sha256": "4b97d7ae83b4b6a964c1f83aad357326fe0f38b4dfc7832f1de5ff82bda05fa1",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Banheiro_dia.png",
+      "sha256": "4112383465c70f06dad00e0112ccace8afa595880472d16dfc3af19fb44b939a",
+      "largura": 1536,
+      "altura": 1024
+    },
+    {
+      "arquivo": "Banheiro_noite.png",
+      "sha256": "86151d595400aa1620477ce7555036aa4166d7435ff34319636e80a8544486fb",
+      "largura": 1536,
+      "altura": 1024
+    }
+  ],
+  "paineis": {
+    "largura": 3840,
+    "altura": 2160,
+    "cena_largura": 1050,
+    "cena_altura": 700,
+    "ampliacao": false
+  },
+  "amostras": "Cores digitais aproximadas, não amostras comerciais",
+  "ambientes": [
+    {
+      "id": "Sala",
+      "name": "Sala e jantar",
+      "caption": "Arenza liso, suede areia e piso em tom mel.",
+      "light": "Jabuticaba sobre a mesa; Jurerê suave e indireta sobre a TV.",
+      "materials": [
+        [
+          "Arenza liso",
+          "#b8aa94"
+        ],
+        [
+          "Suede Areia",
+          "#c9bda8"
+        ],
+        [
+          "Vinílico Olmo",
+          "#b98b59"
+        ],
+        [
+          "Algodão Egípcio",
+          "#e9e0ce"
+        ]
+      ]
+    },
+    {
+      "id": "Cozinha",
+      "name": "Cozinha",
+      "caption": "Azul Petróleo fechado, Arenza e Branco Itaúnas.",
+      "light": "Plafon e luz de bancada sob os aéreos, aproximadamente 3000 K.",
+      "materials": [
+        [
+          "Azul Petróleo",
+          "#344c4e"
+        ],
+        [
+          "Arenza liso",
+          "#b8aa94"
+        ],
+        [
+          "Branco Itaúnas",
+          "#e4dbca"
+        ],
+        [
+          "Inox Look",
+          "#a9aaa7"
+        ]
+      ]
+    },
+    {
+      "id": "Lavanderia",
+      "name": "Lavanderia",
+      "caption": "Arenza liso, pedra clara e cerâmica no piso.",
+      "light": "Plafon como única fonte, aproximadamente 3000 K.",
+      "materials": [
+        [
+          "Arenza liso",
+          "#b8aa94"
+        ],
+        [
+          "Branco Itaúnas",
+          "#e4dbca"
+        ],
+        [
+          "Cerâmica clara",
+          "#ddd8cd"
+        ],
+        [
+          "Inox Look",
+          "#a9aaa7"
+        ]
+      ]
+    },
+    {
+      "id": "Quarto",
+      "name": "Quarto",
+      "caption": "Arenza e suede areia; queen com baú no cenário futuro.",
+      "light": "Plafon Elgin, indireta sob o aéreo e duas arandelas, ~3000 K.",
+      "materials": [
+        [
+          "Arenza liso",
+          "#b8aa94"
+        ],
+        [
+          "Suede Areia",
+          "#c9bda8"
+        ],
+        [
+          "Vinílico Olmo",
+          "#b98b59"
+        ],
+        [
+          "Tecido oliva",
+          "#777c5d"
+        ]
+      ]
+    },
+    {
+      "id": "Escritorio",
+      "name": "Escritório",
+      "caption": "Aéreo Marfim O2, Arenza e sofá Daiane cinza-claro.",
+      "light": "Geral ~3000 K; indireta nos consoles e leve azul atrás da TV.",
+      "materials": [
+        [
+          "Marfim O2",
+          "#e8e2d2"
+        ],
+        [
+          "Arenza liso",
+          "#b8aa94"
+        ],
+        [
+          "Tecido cinza",
+          "#bcbcb6"
+        ],
+        [
+          "Azul Petróleo",
+          "#344c4e"
+        ]
+      ]
+    },
+    {
+      "id": "Banheiro",
+      "name": "Banheiro",
+      "caption": "Beige Matt e Freijó; verde apenas na parede do chuveiro.",
+      "light": "Teto e indireta 3000 K; espelho 4000 K, três comandos.",
+      "materials": [
+        [
+          "Beige Matt",
+          "#c4b49d"
+        ],
+        [
+          "Louro Freijó",
+          "#b08a62"
+        ],
+        [
+          "Vivant Sauge",
+          "#73765b"
+        ],
+        [
+          "Travertino Greige",
+          "#c6b8a2"
+        ]
+      ]
+    }
+  ]
+}

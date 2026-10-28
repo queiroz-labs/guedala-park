@@ -56,5 +56,15 @@ const page=base.replace('<h2 class="material-title">Biblioteca de materiais</h2>
 fs.writeFileSync(path.join(site,'index.html'),page);
 // Relative URLs are kept valid in the existing /moodboard/ entry point.
 fs.writeFileSync(path.join(site,'moodboard/index.html'),page.replace('<head>','<head><base href="../">').replace('<body>','<body data-start-tab="mood">'));
+// Approved day/night gallery: separate assets keep the 3D entry bundle light.
+const references=path.resolve(study,'../../09_Referencias'),gallery=path.join(site,'galeria');
+fs.mkdirSync(gallery,{recursive:true});
+const mood=JSON.parse(fs.readFileSync(path.join(references,'Moodboard.json'),'utf8'));
+const galleryFiles=['Moodboard.json','Moodboard_paineis.pdf','Moodboard_ambientes_A3.pdf',
+ 'Moodboard_Dia.png','Moodboard_Noite.png','Moodboard_Dia_leve.png','Moodboard_Noite_leve.png'];
+for(const scene of mood.cenas)galleryFiles.push(scene.arquivo,scene.arquivo.replace('.png','_web.webp'));
+for(const file of galleryFiles)fs.copyFileSync(path.join(references,file),path.join(gallery,file));
+fs.writeFileSync(path.join(gallery,'index.html'),fs.readFileSync(path.join(references,'Moodboard.html'),'utf8')
+ .replace('../ferramentas/site/Guedala_Park_Interativo.html','../index.html'));
 fs.writeFileSync(path.join(assets,'manifest.json'),JSON.stringify({entry:'assets/'+entryName,...settings,htmlBytes:Buffer.byteLength(page),geometryParts:geometry.length,triangles:geometry.reduce((n,p)=>n+p.t.length,0)},null,2));
 console.log(`Web shell: ${Buffer.byteLength(page)} bytes; geometry: ${geometry.length} parts, loaded by worker.`);

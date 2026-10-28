@@ -205,8 +205,9 @@ function buildScene(){nodes=[];nodeSequence={};
   if(!state.inside)add('bathmirror','banho',404,513.5,60,.6,115,75,'#b8cdcf','box',{upper:true});
   for(const x of [405,461])add('bathlight','banho',x,513,2,.7,115,75,'#fff4cf','box',{upper:true});
   add('toilet','banho',350.75,470,37.5,59,0,80,'offwhite','toilet');
-  add('hygiene','banho',400,524,2,2,60,13,'black');
-  for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',396+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
+  // Elias, 28/10/2026: between shower enclosure and toilet; installation heights remain nominal.
+  add('hygiene','banho',346,524,2,2,60,13,'black');
+  for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',342+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
   if(typeof applyCadSync==='function')nodes=applyCadSync(nodes,state);
   return nodes;
 }

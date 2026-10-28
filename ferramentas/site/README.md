@@ -86,7 +86,7 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 | Quarto | Cama atual de viúvo com baú, sem medidas; queen futura com envelope 200 × 160 cm; armário e aéreos nativos R31, esquema funcional atualizado | Bases reais das camas, circulação, ferragens, conforto e fixação |
 | Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
 | Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
-| Banheiro | VIP 59 cm, Slim como primeira opção, Arion atrás da cuba, gabinete fechado, espelho raso com luz frontal, uma parede verde, Livo e quatro percursos de água quente em estudo | Medidas de bancada/box, registros, ducha higiênica e hidráulica ainda a conferir |
+| Banheiro | VIP 59 cm, Slim como primeira opção, Arion atrás da cuba, gabinete fechado, espelho raso com luz frontal, uma parede verde, Livo e quatro percursos de água quente em estudo | Ducha à esquerda do vaso e papeleira à direita (Elias, 28/10/2026); cotas e hidráulica a conferir |
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
@@ -113,3 +113,7 @@ Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
 ## Organização das fontes
 
 Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removida. ZIP: 264 entradas preservadas; CAD intacto. Pastas datadas bloqueadas no verificador.
+
+## Galeria Dia/Noite
+
+[Seis pares e exportações](../../09_Referencias/README.md), aparência aprovada em 28/10/2026. Galeria: `galeria/index.html`. `build_web.mjs` copia os arquivos de `ferramentas/moodboard/gerar.py`. Publicação autorizada por Elias, 28/10/2026.

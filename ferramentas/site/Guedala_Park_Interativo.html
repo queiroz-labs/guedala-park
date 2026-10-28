@@ -77,7 +77,7 @@
 <a class="skip-link" href="#scene">Ir para o apartamento</a>
 <header class="mast"><div class="brand"><span class="monogram">GP</span><div><strong>Guedala Park</strong><small>PROJETO DO APARTAMENTO</small></div></div><nav aria-label="Conteúdo"><button class="active" data-tab="model">Ambientes</button><button data-tab="mood">Materiais</button><button data-tab="decisions">Escolhas</button><button data-tab="documents">Documentos</button><button data-tab="floorplan" aria-pressed="false">Planta com medidas</button></nav><button id="helpButton" class="quiet">Como explorar <span aria-hidden="true">?</span></button></header>
 <section id="model" class="tabpage active">
-<div class="welcome"><div class="welcome-copy"><span class="eyebrow">GUEDALA PARK / PROJETO DO APARTAMENTO</span><h1>Conheça o projeto do apartamento.</h1><p>Escolha um ambiente e toque em um móvel. A ficha mostra medidas, materiais e o que falta conferir.</p><p class="room-note">Veja também as <a href="docs/09_Referencias/Iluminacao_CB02/Galeria.md.html">simulações de iluminação</a> de cada ambiente.</p><p class="project-repository"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Arquivos no GitHub ↗</a></p><button id="startTour" class="primary-button">Fazer uma visita guiada <span aria-hidden="true">→</span></button></div><ol class="welcome-steps"><li><span>1</span><div><strong>Escolha um ambiente</strong><small>Veja o apto inteiro ou entre em um cômodo.</small></div></li><li><span>2</span><div><strong>Consulte as medidas</strong><small>Escolha um móvel para ver a ficha e o espaço que ocupa.</small></div></li><li><span>3</span><div><strong>Descubra os detalhes</strong><small>Toque nos móveis para ver as escolhas do projeto.</small></div></li></ol></div>
+<div class="welcome"><div class="welcome-copy"><span class="eyebrow">GUEDALA PARK / PROJETO DO APARTAMENTO</span><h1>Conheça o projeto do apartamento.</h1><p>Escolha um ambiente e toque em um móvel. A ficha mostra medidas, materiais e o que falta conferir.</p><p class="room-note"><a href="galeria/index.html">Moodboard aprovado: compare Dia / Noite nos seis ambientes</a>.</p><p class="room-note">Veja também as <a href="docs/09_Referencias/Iluminacao_CB02/Galeria.md.html">simulações de iluminação</a> de cada ambiente.</p><p class="project-repository"><a href="https://github.com/queiroz-labs/guedala-park#readme" target="_blank" rel="noopener">Arquivos no GitHub ↗</a></p><button id="startTour" class="primary-button">Fazer uma visita guiada <span aria-hidden="true">→</span></button></div><ol class="welcome-steps"><li><span>1</span><div><strong>Escolha um ambiente</strong><small>Veja o apto inteiro ou entre em um cômodo.</small></div></li><li><span>2</span><div><strong>Consulte as medidas</strong><small>Escolha um móvel para ver a ficha e o espaço que ocupa.</small></div></li><li><span>3</span><div><strong>Descubra os detalhes</strong><small>Toque nos móveis para ver as escolhas do projeto.</small></div></li></ol></div>
 <nav class="sidebar" aria-label="Ambientes"><div class="section-heading"><span class="step-number">1</span><h2>Ambientes</h2><span class="section-caption">Escolha um ambiente</span></div><div id="rooms" class="roomlist"></div></nav>
 <section id="tourBar" class="tour-bar" aria-label="Visita guiada" hidden><div><span id="tourProgress" class="eyebrow"></span><h2 id="tourTitle" tabindex="-1"></h2><p id="tourDescription"></p></div><div class="tour-actions"><button id="tourPrevious" aria-label="Ambiente anterior da visita">←</button><button id="tourNext" class="primary-button">Próximo ambiente →</button><button id="tourExit" class="quiet">Sair da visita</button></div></section>
 <main class="workspace">
@@ -1071,12 +1071,12 @@ const ITEMS=[
     "room": "banho",
     "name": "Ducha higiênica preta quente e fria",
     "kind": "shower",
-    "dimensions": "Modelo e posição ainda não definidos",
+    "dimensions": "À esquerda do vaso, entre o box e o vaso; modelo e cotas de instalação pendentes",
     "choice": "Direção aprovada",
     "measure": "Percurso e funcionamento pendentes",
     "material": "black",
-    "source": "18/09/2026",
-    "notes": "Com mistura de temperatura e fechamento próprio. Posição desenhada é ilustrativa. Orçamento e modelo pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
+    "source": "Elias, 28/10/2026; 03_Ambientes/Banheiro/README.md",
+    "notes": "À esquerda do vaso, entre o box e o vaso, com a papeleira sozinha à direita (Elias, 28/10/2026). Com mistura de temperatura e fechamento próprio. Orçamento, modelo e cotas de instalação pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
   },
   {
     "id": "hotwater",
@@ -2277,8 +2277,9 @@ function buildScene(){nodes=[];nodeSequence={};
   if(!state.inside)add('bathmirror','banho',404,513.5,60,.6,115,75,'#b8cdcf','box',{upper:true});
   for(const x of [405,461])add('bathlight','banho',x,513,2,.7,115,75,'#fff4cf','box',{upper:true});
   add('toilet','banho',350.75,470,37.5,59,0,80,'offwhite','toilet');
-  add('hygiene','banho',400,524,2,2,60,13,'black');
-  for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',396+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
+  // Elias, 28/10/2026: between shower enclosure and toilet; installation heights remain nominal.
+  add('hygiene','banho',346,524,2,2,60,13,'black');
+  for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',342+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
   if(typeof applyCadSync==='function')nodes=applyCadSync(nodes,state);
   return nodes;
 }

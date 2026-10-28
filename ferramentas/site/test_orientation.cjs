@@ -33,6 +33,11 @@ const entrance=doors.find(n=>n.room==='cozinha');assert.equal(entrance.x+entranc
 const mean=id=>{const ns=nodes.filter(n=>n.id===id);assert(ns.length,id);return [ns.reduce((s,n)=>s+n.x+n.w/2,0)/ns.length,ns.reduce((s,n)=>s+n.z+n.d/2,0)/ns.length];};
 // Fixed fixtures from the official plan: shower / WC / basin, tank left of kitchen sink.
 assert(mean('shower')[0]<mean('toilet')[0]);assert(mean('toilet')[0]<mean('basin')[0]);assert(mean('laundrybase')[0]<mean('sink')[0]);
+// Decided side: every hygiene-spray/hose piece stays between glass and toilet.
+const hygiene=nodes.filter(n=>n.id==='hygiene'),toilet=nodes.find(n=>n.id==='toilet');
+const bathGlass=nodes.find(n=>n.id==='shower'&&n.kind==='glass');
+assert(hygiene.length>0&&bathGlass&&toilet);
+assert(hygiene.every(n=>n.x>bathGlass.x+bathGlass.w&&n.x+n.w<toilet.x),'Hygiene spray and hose must be left of toilet, outside shower');
 const modules=json('CAD_DATA.modules');
 for(const m of modules){const ns=nodes.filter(n=>n.module===m.code);assert(ns.length,m.code);const r=rooms.find(r=>r.id===m.room).bounds;const cx=(Math.min(...ns.map(n=>n.x))+Math.max(...ns.map(n=>n.x+n.w)))/2,cz=(Math.min(...ns.map(n=>n.z))+Math.max(...ns.map(n=>n.z+n.d)))/2;assert(cx>=r[0]&&cx<=r[2]&&cz>=r[1]&&cz<=r[3],m.code+' outside its room');}
 console.log(JSON.stringify({orientation:'official',cameraCases:10,gpuCpuConsistent:true,windows:5,doors:4,modulesInCorrectRooms:modules.length,fixedFixtures:'correct relative positions'}));

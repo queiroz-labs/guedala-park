@@ -8,13 +8,43 @@
 
 Elias aprovou a imagem final e solicitou salvá-la como referência. **[Quarto — referência aprovada R03](Quarto_referencia_aprovada_R03.png)** passa a orientar o plano real do quarto: guarda-roupa até o teto com maleiro e espelho lateral, acabamento amadeirado, cabeceira lisa em dois painéis, iluminação discreta, roupa de cama clara com verde-oliva e janela sem cortina. [Registro e origem da imagem](Quarto_proposta_realista_R03.md). Medidas e execução seguem os estudos.
 
-## Imagem da sala aprovada — R03, 20/09/2026
+## Moodboard aprovado - 28/10/2026
 
-Elias confirmou: “aprovado, deixa salvo como imagem a ser seguida”. **[Sala — referência visual aprovada R03](Sala_referencia_aprovada_R03.png)** passa a ser a imagem a seguir no plano real da sala/jantar, substituindo as versões R01/R02 e o status pendente da R03. Preservar a composição aprovada, quatro fotos na moldura e porta fechada no batente indicado. A lixeira permanece prevista no canto, fora do enquadramento.
+**Aparência aprovada em 28/10/2026.** Rótulo de apresentação solicitado nesta conversa; não é uma citação atribuída a Elias. O aceite de aparência não altera decisões técnicas. O registro interno abaixo mantém as falas específicas de cada ambiente.
 
-A aprovação define a referência visual; medidas, encaixes e dimensionamento estrutural continuam regidos pelos estudos técnicos. Não extrair novas cotas do render nem interpretá-lo como alteração da planta. Nenhuma publicação do site foi solicitada nesta aprovação.
+| Ambiente | Par vigente | Seleção e fonte |
+|---|---|---|
+| Sala e jantar | [Dia](Sala_dia.png) / [Noite](Sala_noite.png) | Elias, 27/10/2026: "agr sim, eu gostei" |
+| Cozinha | [Dia](Cozinha_dia.png) / [Noite](Cozinha_noite.png) | Elias, 27/10/2026: "Cozinha (dia): aprovada" e "Noite: aprovada a segunda versão (a mais quente)" |
+| Lavanderia | [Dia](Lavanderia_dia.png) / [Noite](Lavanderia_noite.png) | Elias, 27/10/2026: "imagem 1 aprovada"; noite derivada dessa diurna selecionada |
+| Quarto | [Dia](Quarto_dia.png) / [Noite](Quarto_noite.png) | Elias, 27/10/2026: "quarto aprovado"; noite quente, segunda versão, sem mancha rosa/roxa no céu |
+| Escritório | [Dia](Escritorio_dia.png) / [Noite](Escritorio_noite.png) | Elias, 27/10/2026: "dia aprovado (primeira versão); noite aprovada = versão mais neutra (a quarta)"; quadros menos luminosos conforme retoque opcional |
+| Banheiro | [Dia](Banheiro_dia.png) / [Noite](Banheiro_noite.png) | Elias, 28/10/2026: "dia aprovado; noite aprovada = versão mais neutra (a terceira). Descartar a versão noturna quente." |
 
-[Voltar ao início](../README.md)
+### Abrir e regenerar
+
+- [Galeria Dia/Noite](Moodboard.html): seis controles deslizantes, teclado/toque e acesso às cenas completas.
+- [Dois painéis em PDF](Moodboard_paineis.pdf): grade 3 × 2 idêntica, imagens completas, texto vetorial.
+- Dia: [PNG 3840 × 2160](Moodboard_Dia.png) / [PNG leve 2000 × 1125](Moodboard_Dia_leve.png).
+- Noite: [PNG 3840 × 2160](Moodboard_Noite.png) / [PNG leve 2000 × 1125](Moodboard_Noite_leve.png).
+- [Caderno A3](Moodboard_ambientes_A3.pdf): seis páginas em retrato, uma por ambiente, Dia acima e Noite abaixo, quatro amostras e legendas.
+- [Manifesto](Moodboard.json): aprovação, SHA-256 das 12 cenas, dimensões, paleta e legendas.
+- Regenerar: `python -B ferramentas/moodboard/gerar.py`. [Dependências e composição](../ferramentas/moodboard/README.md).
+
+**Imagens ilustrativas de aparência; medidas nas plantas e fichas.** Cenas geradas com imagegen, 1536 × 1024 px nativos, sem ampliação. Painéis e páginas compostos por código, não por IA; amostras são aproximações de cor, não fotografias de produtos. As cenas ocupam 1050 × 700 px nos painéis 4K, sem recorte. PDFs mantêm a resolução original com compressão JPEG de qualidade 95 e texto vetorial; PNG das cenas intactos. A galeria usa WebP de 1536 px e oferece os PNG originais; não há upscale. Publicação autorizada por Elias em 28/10/2026, conforme o aceite abaixo.
+
+Revisão de composição, 28/10/2026: citações gerais e notas de processo retiradas das peças visuais; separação entre linhas do painel ampliada; A3 em retrato com cenas 24% mais largas, proporção 3:2 intacta e legendas maiores. Elias, 28/10/2026, nesta conversa: “Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.” Aceite inclui o banheiro com ducha à esquerda.
+
+### Particularidades da seleção
+
+- **Sala:** três cadeiras (pontas e lateral), banco com três painéis e base Arenza visível, lixeira, fotos neutras; noite com queda de luz, reflexos em vidro/TV, sombras e base ~3000 K. Pendente principal, Jurerê baixo e indireta acima da prateleira superior; cápsulas G9 aproximadas.
+- **Cozinha:** Azul Petróleo fechado até o depurador, Arenza na lavanderia, forno de bancada com grelhas só abaixo, eletros Inox Look; dois plafons e luz de bancada. Versão noturna mais fria descartada.
+- **Lavanderia:** primeira diurna da correção P14 (`exec-362cc82f-bc22-4856-bab1-0bd0b9921ec8.png`); noite derivada (`exec-0a77bc01-0dc7-4b52-903c-ae7edd34e854.png`), creme claro e plafon como única fonte. Gabinete 59 cm e reserva LG 64 cm são referências nominais, não medição do render.
+- **Quarto:** queen com baú no cenário futuro, Arenza liso; superiores entre 213,2 e 244 cm e vão de ~16 cm até o teto de 260 cm nesta representação. Cama afastada ~20 cm da janela; passagem ~50 cm do lado do roupeiro. Plafon Elgin, indireta e duas arandelas. A imagem não substitui a compatibilização técnica.
+- **Escritório:** dia primeiro (`exec-d36e6c6e-9a79-49dc-b497-42366dab56e1.png`); noite quarta com quadros suavizados (`exec-b435a33e-d035-4078-a5b4-3c14a43b8b27.png`). Marfim O2, Arenza, Daiane cinza; geral ~3000 K e indiretas nos consoles/TV. Braços dos monitores e produtos são aproximações visuais.
+- **Banheiro:** prateleira Itaúnas na parede verde a ~1,15 m, ducha higiênica à esquerda do vaso, entre box e vaso; papeleira sozinha à direita, Livo redonda pequena, piso no tom da primeira diurna. Bases aprovadas: dia `exec-e02d6a96-31ff-4a45-864c-4ca113b21682.png` e noite neutra `exec-154e9045-1911-4f92-9583-dcba3d0a7a4e.png`. Corrigida apenas a ducha por decisão de Elias em 28/10/2026: “Do lado esquerdo do vaso, entre o box e o vaso” ([registro](../03_Ambientes/Banheiro/README.md)). Novas imagens: dia `exec-9d9505ce-8cd4-4648-947a-49e07ed63084.png` e noite `exec-374eefe1-604c-4aec-8c74-c70b66525946.png`; edições com imagegen, preservando composição e iluminação. Painéis, A3 e galeria regenerados. Firefly/indireta 3000 K e espelho 4000 K, três comandos previstos. Noite quente excluída da seleção.
+
+As cenas partiram das vistas/elevações R53 e das decisões dos ambientes; a R54 técnica posterior continua nas plantas/fichas. Variantes rejeitadas não entram na entrega. Referências anteriores abaixo ficam preservadas onde ainda citadas, sem prevalecer sobre estes pares.
 
 ## Referências atuais — 13/09/2026
 
