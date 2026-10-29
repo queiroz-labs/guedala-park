@@ -18,7 +18,7 @@ const ITEM_COPY={
  wardrobe:['Guarda-roupa','Uma metade para cada pessoa, com quatro gavetas e espaço para sapatos e roupas longas. Confira as portas, os cabideiros e as medidas antes de fabricar.'],
  headboard:['Cabeceira em suede areia','Dois painéis lisos em suede areia escolhido. No quarto, brilho em três níveis pelo interruptor comum; arandelas e indireta com comandos separados. Confira amostra, medidas e fixação.'],
  bedcabinet:['Armários sobre a cama e o guarda-roupa','Armários alinhados, com duas portas independentes no canto. Confira o teto, os materiais e a abertura de cada porta.'],
- desk:['Bancada de trabalho','Profundidade de 70 cm escolhida. Falta confirmar a largura, a altura, os apoios e o espaço para a cadeira.'],
+ desk:['Bancada de trabalho','Profundidade de 70 cm e altura de 75 cm escolhidas em 29/10/2026. O vão de 72 cm sob o tampo deve acomodar os braços da cadeira abaixados. Falta confirmar a largura e os apoios.'],
  drawers:['Duas gavetas no escritório','Gavetas à esquerda, com abertura total e puxador discreto. Confira se abrem com o sofá-cama em uso.'],
  setup:['Notebook, dois monitores e computador','Notebook à esquerda e computador à direita. Falta confirmar os modelos dos monitores e os braços de suporte.'],
  daiane:['Sofá-cama Daiane','Versão suede cinza, escolhida em 29/10/2026. Abre em direção à janela. Confira o espaço para girar e abrir a cama, e o tamanho do baú.'],

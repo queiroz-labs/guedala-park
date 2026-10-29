@@ -65,7 +65,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 | Item | Situação | Medidas de referência | Observação |
 |---|---|---|---|
-| Bancada de trabalho | Parcial | 200 × 70 cm · topo 75 cm no ensaio | Profundidade 70 cm escolhida. |
+| Bancada de trabalho | Escolhido | 200 × 70 cm · topo a 75 cm | Profundidade de 70 cm e altura de 75 cm escolhidas, dentro da faixa de 72 a 75 cm da NBR 13966. |
 | Duas gavetas à esquerda | Parcial | 40 × 45 × 24 cm total · proposta | Duas gavetas à esquerda, com abertura total e puxador discreto. |
 | Notebook + dois monitores + CH360 | Aprovado | 2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm | Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. |
 | Sofá-cama Daiane suede cinza (Matrix) | Escolhido | 140 × 90 × 85 fechado / 140 × 182 × 55 aberto cm · 48 kg | Versão suede cinza, com baú. |
@@ -134,7 +134,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 ## 3. Resumo
 
-67 itens: 37 decididos, 20 decididos com execução em desenvolvimento e 10 parciais, futuros, existentes ou em revisão.
+67 itens: 38 decididos, 20 decididos com execução em desenvolvimento e 9 parciais, futuros, existentes ou em revisão.
 
 Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).
 

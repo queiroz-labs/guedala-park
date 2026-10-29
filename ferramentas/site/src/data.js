@@ -547,12 +547,12 @@ const ITEMS=[
     "room": "escritorio",
     "name": "Bancada de trabalho",
     "kind": "desk",
-    "dimensions": "200 × 70 cm · topo 75 cm no ensaio",
-    "choice": "Parcial",
-    "measure": "Largura/altura em estudo",
+    "dimensions": "200 × 70 cm · topo a 75 cm",
+    "choice": "Escolhido",
+    "measure": "Altura condicionada à medida dos braços da cadeira",
     "material": "wood",
-    "source": "F99",
-    "notes": "Profundidade 70 cm escolhida. Altura, largura, estrutura e vão real dos braços da cadeira pendentes."
+    "source": "Elias, 29/10/2026: “Sim, 75 cm” · F99",
+    "notes": "Profundidade de 70 cm e altura de 75 cm escolhidas, dentro da faixa de 72 a 75 cm da NBR 13966. Com tampo de 3 cm, o vão livre é de 72 cm, para os braços da cadeira entrarem sob a mesa na posição mais baixa (estimados em ~69 cm). Se a Sensetup informar que o topo do braço passa de ~70 cm, rever: bancada = altura do braço + 2 cm + espessura do tampo. Largura, estrutura e suportes ainda pendentes."
   },
   {
     "id": "drawers",
