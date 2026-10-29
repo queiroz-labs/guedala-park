@@ -528,7 +528,7 @@ const ITEMS=[
     "measure": "Dimensões em estudo",
     "material": "head",
     "source": "R25–R31 · consolidação20/10",
-    "notes": "Cabeceira clara estofada, em dois painéis. Foi pensada para a futura queen e funciona também com a cama de viúvo, no mesmo eixo. Faltam as medidas da cama atual, o conforto e a fixação."
+    "notes": "Cabeceira clara estofada, em dois painéis. Reserva para a futura queen; cama atual viúva com baú 128 × 188 × 64 cm, conforme 29/10/2026. Conferir as medidas na peça, conforto e fixação; manter o mesmo eixo de estudo."
   },
   {
     "id": "bedcabinet",
@@ -977,7 +977,7 @@ const ITEMS=[
     "measure": "Percurso e funcionamento pendentes",
     "material": "black",
     "source": "Elias, 28/10/2026; 03_Ambientes/Banheiro/README.md",
-    "notes": "À esquerda do vaso, entre o box e o vaso, com a papeleira sozinha à direita (Elias, 28/10/2026). Com mistura de temperatura e fechamento próprio. Orçamento, modelo e cotas de instalação pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
+    "notes": "À esquerda do vaso, entre o box e o vaso (28/10/2026). Papeleira no lado esquerdo do gabinete na imagem corrigida de 29/10/2026, posição a confirmar. Com mistura de temperatura e fechamento próprio. Orçamento, modelo e cotas de instalação pendentes. Rinnai E21 exige 3,9 L/min para acionar: conferir fluxo pelo aquecedor, estabilidade e espera pela água quente."
   },
   {
     "id": "hotwater",
@@ -1408,7 +1408,7 @@ const INTERNALS={
 };
 const ROOM_NOTES={
   "all": "Planta oficial da Torre 2, final 06. Todos os ambientes ficam prontos antes da mudança. Aparelhos escolhidos, ainda sem compra. Medidas e instalações reais a conferir no imóvel.",
-  "sala": "Sofá-cama Bonnie, mesa extensível Berlin e banco com baú. Espaço de guarda para até três jogos, aspirador, balde, potes e bebidas. TV com aplicativos na própria tela: Philips Ambilight preferida, TCL como alternativa.",
+  "sala": "Sofá-cama Bonnie, mesa extensível Berlin e banco com baú. Guarda para até três jogos, aspirador, balde, potes e bebidas. Philips 50PUG8100/78 Ambilight e soundbar TAB4000 escolhidas em 29/10/2026; TCL 50P7K só reserva.",
   "quarto": "Cama viúva com baú (128 × 188) na mudança; queen com baú bem depois. Guarda-roupa de 65 cm, armários superiores alinhados a 213,2 cm e armário de canto independente. A mala grande deve caber no baú da cama.",
   "escritorio": "Prioridade para o trabalho, com o sofá-cama Daiane para hóspedes. O armário superior guarda o equipamento de ciclismo em prateleiras reguláveis. Medidas, peso e alcance a conferir.",
   "cozinha": "Forno Fischer Infinity com grill, cooktop Electrolux KE4GC a gás natural, armários superiores em Azul Petróleo e base em Arenza. Faltam conferir montagem, elétrica, gás, pedra e ventilação.",

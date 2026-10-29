@@ -106,7 +106,7 @@ PROJECT.note='O desenho mostra o projeto. Confira as medidas e a montagem antes 
 Object.assign(ROOM_NOTES,{
  all:'Escolha um ambiente para ver os móveis e as medidas.',
  sala:'Mesa extensível, três cadeiras e banco com baú. Confira as passagens e a abertura dos móveis.',
- quarto:'A cama viúva atual vai na mudança; a queen com baú fica para bem depois. Luz geral com três níveis de brilho pelo interruptor comum; peças e instalação a conferir.',
+ quarto:'A cama viúva com baú, 128 × 188 × 64 cm, vai na mudança; a queen fica para bem depois. Luz geral smart Elgin escolhida em 27/10/2026; manual, comando físico e instalação a conferir.',
  escritorio:'Espaço de trabalho que também recebe hóspedes. Confira a abertura do sofá-cama e das gavetas.',
  cozinha:'Confira os recortes da bancada, a ventilação e o acesso às conexões dos aparelhos.',
  lavanderia:'Confira o varal, o aquecedor e o acesso ao sifão. Use os aparelhos de bancada sem roupas no varal.',

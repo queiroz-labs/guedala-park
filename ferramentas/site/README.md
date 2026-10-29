@@ -64,13 +64,13 @@ Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos es
 
 | Estudo | Representação atual | Conferência que permanece |
 |---|---|---|
-| Sala | Bonnie 180 cm, profundidades 110/136 cm; painel 115 cm; prateleiras 110 × 35 e 110 × 25 cm, topos 35/60 cm | Parede acabada, ventilação, afastamento do sofá, instalação, modelo final da TV/soundbar |
+| Sala | Bonnie 180 cm, profundidades 110/136 cm; painel 115 cm; prateleiras 110 × 35 e 110 × 25 cm, topos 35/60 cm | Philips 50PUG8100/78 e TAB4000 escolhidas (29/10); parede, ventilação, sofá, suportes e instalação pendentes |
 | Circulação da sala | 245 − 136 − 37 = 72 cm com retrátil aberto; 67 cm se houver mais 5 cm atrás do sofá | Medidas reais e obstáculos; cálculo de faixa reta, sem simular o trajeto de uma pessoa |
 | Jantar | Mesa 150/180 × 75 cm, R15, extensão central; pedestal fixo; três cadeiras na lateral, central mais para fora | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
-| Quarto | Cama atual de viúvo com baú, sem medidas; queen futura com envelope 200 × 160 cm; armário e aéreos nativos R31, esquema funcional atualizado | Bases reais das camas, circulação, ferragens, conforto e fixação |
+| Quarto | Viúva atual com baú 128 × 188 × 64 cm (29/10); queen futura com envelope 200 × 160 cm; armário e aéreos nativos R31 | Conferir camas reais, circulação, ferragens, conforto e fixação |
 | Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
 | Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
-| Banheiro | VIP 59 cm, Slim, Arion atrás da cuba, BC43, P19, parede verde e Livo; [13 opções de água quente](../../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md), sem escolha (29/10) | Ducha à esquerda do vaso; papeleira no lado do gabinete, posição visual a confirmar (Elias, 29/10/2026); hidráulica/elétrica com RT |
+| Banheiro | VIP 59 cm, Slim, Arion atrás da cuba, BC43, P19, parede verde e Livo; [13 opções de água quente](../../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md), sem escolha (29/10) | Ducha à esquerda do vaso; papeleira à esquerda do gabinete, posição a confirmar (imagem 29/10/2026); hidráulica/elétrica com RT |
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
