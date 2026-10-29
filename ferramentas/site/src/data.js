@@ -412,14 +412,14 @@ const ITEMS=[
   {
     "id": "tv50",
     "room": "sala",
-    "name": "TV 50″ · preferência Ambilight",
+    "name": "TV Philips Ambilight 50″ · 50PUG8100/78",
     "kind": "tv",
-    "dimensions": "111,1 × 64,9 × 8,8 cm de referência",
-    "choice": "Parcial",
-    "measure": "Duas candidatas. Modelo final pendente",
+    "dimensions": "111,1 × 64,9 × 8,8 cm sem base · VESA 200 × 100",
+    "choice": "Escolhido",
+    "measure": "Testar o Stremio no prazo de troca",
     "material": "black",
-    "source": "17/10/2026",
-    "notes": "Preferência: Philips Ambilight 50PUG8100/78, com aplicativos direto na TV (inclusive Stremio Lite), sem aparelho externo. Alternativa: TCL 50P7K com Google TV. O modelo final depende de um teste de uso. A altura da borda inferior, 77 cm, ainda é uma hipótese.",
+    "source": "Elias, 29/10/2026: “sim fechar phillips ambilight”",
+    "notes": "Ambilight em três lados, Titan OS com os aplicativos na própria TV, eARC na HDMI 1, saída óptica e Bluetooth. O Stremio Lite não toca torrent direto, mas abre links do Real-Debrid; testar com a conta do Torrentio logo após a compra. Referência de preço: R$ 2.188,98 na Amazon em 29/10/2026. A altura da borda inferior, 77 cm, ainda é uma hipótese.",
     "budget": "Até R$ 3.000 · TV apenas"
   },
   {

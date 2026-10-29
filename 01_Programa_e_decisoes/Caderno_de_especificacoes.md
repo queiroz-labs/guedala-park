@@ -43,7 +43,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Painel liso da TV | Aprovado | 115 cm L · 2 cm P no ensaio | Parede ~120 cm é estimativa gráfica. |
 | Uma prateleira acima e outra abaixo da TV | Aprovado | 110 × 35 cm inferior / 110 × 25 cm superior · ensaio | Uma prateleira acima e outra abaixo da TV, sem gavetas. |
 | Compartimento da régua | Aprovado | 20 × 15 × 12 cm · gabarito | Oculto, acessível e ventilado, lateral ao console. |
-| TV 50″ · preferência Ambilight | Parcial | 111,1 × 64,9 × 8,8 cm de referência | Preferência: Philips Ambilight 50PUG8100/78, com aplicativos direto na TV (inclusive Stremio Lite), sem aparelho externo. |
+| TV Philips Ambilight 50″ · 50PUG8100/78 | Escolhido | 111,1 × 64,9 × 8,8 cm sem base · VESA 200 × 100 | Ambilight em três lados, Titan OS com os aplicativos na própria TV, eARC na HDMI 1, saída óptica e Bluetooth. |
 | Soundbar futura | Futuro | 90 × 10,5 × 7 cm · gabarito | Compra adiada. Dimensões ilustrativas. |
 | PS5 Slim Digital · um aparelho | Direção aprovada | 35,8 × 21,6 × 8 cm · sem saliências | Uso nos dois ambientes. |
 | Mesa Berlin · pronta | Modelo escolhido | 110 / 170 × 80 cm · superfície a 79 cm no estudo | Mesa pronta, extensível de 110 para 170 cm. |
@@ -134,7 +134,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 ## 3. Resumo
 
-67 itens: 34 decididos, 20 decididos com execução em desenvolvimento e 13 parciais, futuros, existentes ou em revisão.
+67 itens: 35 decididos, 20 decididos com execução em desenvolvimento e 12 parciais, futuros, existentes ou em revisão.
 
 Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).
 

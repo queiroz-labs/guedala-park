@@ -7,7 +7,7 @@ const ITEM_COPY={
  panel:['Painel da TV','Painel liso para a TV. Confira a parede, a passagem, a cortina e o espaço para a luz da TV antes de instalar.'],
  racks:['Prateleiras da TV','Uma prateleira acima e outra abaixo da TV. Falta definir as alturas, o peso suportado e a fixação.'],
  power:['Compartimento de tomadas e cabos','Espaço ao lado do videogame para a régua de tomadas e as fontes. Deve ter ventilação e acesso fácil.'],
- tv50:['TV de 50 polegadas','A Philips Ambilight é a preferida. A TCL é outra opção. Teste os aplicativos na própria TV antes de escolher e comprar.'],
+ tv50:['TV Philips Ambilight de 50 polegadas','Escolhida em 29/10/2026. Aplicativos direto na TV. Logo após a compra, teste o Stremio com a sua conta dentro do prazo de troca.'],
  soundbar:['Caixa de som para a TV · compra futura','Compra para depois. Confira o espaço abaixo da TV e as saídas de som antes de escolher.'],
  ps5:['PS5 da sala e do escritório','Um único PS5 para usar nos dois ambientes. Confira os apoios, os cabos e o espaço de ventilação.'],
  table:['Mesa extensível Berlin','Mesa pronta que abre de 110 para 170 cm. Confira as cadeiras e a passagem perto do sofá. A cor do desenho é aproximada.'],

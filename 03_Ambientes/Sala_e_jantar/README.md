@@ -21,7 +21,7 @@ Estado atual da sala e do jantar. Nada aqui libera fabricação ou compra. Hist�
 ## TV e painel
 
 - Painel sob medida off-white fosco liso, sem ripado, com duas prateleiras Arenza (110 cm; profundidades 35/25; vão 22). PS5 deitado embaixo, soundbar em cima, régua oculta numa lateral acessível. [Painel sob medida](Painel_sob_medida.md).
-- TV 50″ com os aplicativos no próprio aparelho, sem reprodutor externo. Candidata principal Philips 50PUG8100/78 (Ambilight, Stremio Lite); segunda TCL 50P7K. Teto R$ 3.000. [Painel e TV](Painel_e_TV.md).
+- **TV escolhida: Philips 50PUG8100/78 Ambilight** (Elias, 29/10/2026: “sim fechar phillips ambilight”). Aplicativos na própria TV; eARC na HDMI 1, óptica e Bluetooth. Stremio Lite abre links do Real-Debrid, não torrent direto: testar a conta no prazo de troca. Referência R$ 2.188,98 (Amazon, 29/10). TCL 50P7K fica só como reserva se o teste falhar. [Painel e TV](Painel_e_TV.md).
 
 ## Sofá, tapete e decoração
 
