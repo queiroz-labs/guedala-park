@@ -23,6 +23,14 @@ const mood=app.slice(app.indexOf('function buildMood'),app.indexOf('function ren
 assert(!mood.includes('o.dimensions')&&!mood.includes('o.notes'),'Cômodos não repete medidas nem descrição');
 assert(mood.includes('Documentos deste cômodo'));
 
+// Cada cômodo com cena aprovada abre com o par Dia/Noite; as imagens leves existem e vão para galeria/.
+const pairs=vm.runInContext(app.match(/const DAY_NIGHT=\{[^}]+\};/)[0]+'DAY_NIGHT',vm.createContext({}));
+const scenes=JSON.parse(fs.readFileSync(path.join(__dirname,'../../09_Referencias/Moodboard.json'),'utf8')).cenas.map(c=>c.arquivo);
+assert.deepEqual(Object.keys(pairs).sort(),['banho','cozinha','escritorio','lavanderia','quarto','sala']);
+for(const f of Object.values(pairs))for(const m of ['dia','noite']){assert(scenes.includes(`${f}_${m}.png`),f+' fora do Moodboard.json');assert(fs.existsSync(path.join(__dirname,`../../09_Referencias/${f}_${m}_web.webp`)),f+'_'+m+'_web.webp');}
+assert(mood.includes('bindDayNight'),'Cômodos liga o comparador Dia/Noite');
+assert(app.includes("[['photo','Dia / Noite'],['3d','3D']]"),'Cartão alterna entre Dia/Noite e 3D');
+
 // Endereços antigos continuam válidos.
 const tabs=vm.runInContext(workshop.match(/const WORK_TABS=\{[^}]+\};/)[0]+'WORK_TABS',vm.createContext({}));
 for(const [old,target] of [['materiais','mood'],['planta','floorplan'],['documentos','documents'],['ambientes','model'],['escolhas','decisions']])assert.equal(tabs[old],target,old);

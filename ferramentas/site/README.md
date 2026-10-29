@@ -100,11 +100,11 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 ## Galeria Dia/Noite
 
-[Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. R27 atualiza HTML/especificações; R26 preservado. Elias, 28/10/2026: "Aprovado, pode commitar e dar push."
+[Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. Elias, 28/10/2026: "Aprovado, pode commitar e dar push." Na aba Cômodos (29/10, local), cada cartão abre com o par Dia/Noite (`_web.webp` de `galeria/`, carregado ao aparecer; arrastar, controle ou botões Dia/Noite) e alterna para o 3D; sem internet, aviso no lugar da foto. `app.js → DAY_NIGHT`.
 
 ## Navegação e documentos
 
-**Quatro abas** (28/10, local, não publicado): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Elias, 28/10/2026: "Confirmo" (ambíguos: para desenvolver, existente, entrega e 1ª opção → Decidido; tamanho futuro → Futuro). Teste: `test_navigation.cjs`.
+**Quatro abas** (28/10): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Elias, 28/10/2026: "Confirmo" (ambíguos: para desenvolver, existente, entrega e 1ª opção → Decidido; tamanho futuro → Futuro). Teste: `test_navigation.cjs`.
 
 **15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
 
