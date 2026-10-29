@@ -1,0 +1,37 @@
+id;ambiente;item;ponto;circuito;potencia_W;qualidade;fonte;observacao;simultaneidade_H01;FP_real;I_equivalente_FP1_A;I_sensibilidade_FP08_A
+EQ01;cozinha;Fischer Infinity Grill 50 L;C01;TUE-FOR;2061;manual;"Fischer_Grill/README.md; manual oficial";Tomada 20 A não define disjuntor;1;ausente;16.2283;20.2854
+EQ02;cozinha;KE4GC ignição;C03;TUG-COZ;;ausente;Lista_equipamentos.csv EQ02;"2,5 A/250 V é especificação do plugue; GN não é carga elétrica";1;ausente;;
+EQ03;cozinha;ME23P;C09;TUE-MIC;1100;referência comercial provisória;"Conferencia_127V_e_folgas.md F103; ME23P manual";"Confirmar potência absorvida da placa; manual circuito exclusivo 20 A curva C";1;ausente;8.6614;10.8268
+EQ04;cozinha;Suggar DE61IX;C04;TUG-COZ;124;manual REV0025;Suggar_DE61IX_DE62IX.pdf;127 V;1;ausente;0.9764;1.2205
+EQ05;cozinha;Electrolux IB6S;C12;TUE-GEL;;ausente;Lista_equipamentos.csv EQ05;"Bivolt; kWh/mês não é potência máxima; partida ausente";1;ausente;;
+EQ06;cozinha;Electrolux PE11X;C10;TUG-COZ;70;manual;Electrolux_PE11X_Manual.pdf;Bivolt;1;ausente;0.5512;0.689
+EQ07;lavanderia;LG CV5012PC4;L01;TUE-LG;1650;manual família;LG_VC4_CV5012WC4_127V.pdf p10;"Lavagem 1250 W e secagem 1650 W: usar maior modo, não somar; conferir placa SKU";1;ausente;12.9921;16.2402
+EQ08;lavanderia;Rinnai E21 GN;L07;TUE-GN;50;manual máximo elétrico;Rinnai_E21_Manual_176.pdf tabela1;"Standby 1,5 W; 33,7 kW térmicos excluídos; tomada exclusiva não prova circuito exclusivo";1;ausente;0.3937;0.4921
+EQ09;lavanderia;Walita RI9252/91;L10;TUE-AIR;1400;referência fabricante registrada F103;Conferencia_127V_e_folgas.md;"Airfryer 127 V; L10 compartilhado no anteprojeto requer revisão RT";1;ausente;11.0236;13.7795
+EQ10;lavanderia;Cafeteira Mondial existente;L10;TUG-LAV;;ausente;Lista_equipamentos.csv EQ10;"Modelo e placa ausentes; não supor simultaneidade impossível com airfryer";1;ausente;;
+EQ22;sala;Philips 50PUG8100/78;S01/S02;TUG-SAL;;ausente;"ESTADO_ATUAL; Philips suporte 50PUG8100/78";"Um aparelho em dois pontos; 100–240 V; potência de áudio não serve";1;ausente;;
+EQ23;sala;PS5 Slim Digital futuro;S01 ou E03;TUG-SAL;;ausente;Escritorio/TV_e_consoles.md;"Uma unidade; transferência rara para escritório; revisão CFI ausente";1;ausente;;
+EQ24;sala;Philips TAB4000/78;S01;TUG-SAL;;ausente;"ESTADO_ATUAL; Philips TAB4000/78";30 W RMS/60 W áudio não são consumo de entrada;1;ausente;;
+EQ26;escritorio;Notebook HP corporativo;E01;TUG-ESC;;ausente;Escritorio/Setup.md;Modelo e potência de entrada da fonte ausentes;1;ausente;;
+EQ27;escritorio;PC em gabinete DeepCool CH360;E02;TUG-ESC;;ausente;Escritorio/Setup.md;"Gabinete não define fonte/consumo; configuração e fonte ausentes";1;ausente;;
+EQ28A;escritorio;ASUS TUF VG27AQ5A;E02;TUG-ESC;20.8;"consumo publicado menor que 20,8 W; não máximo de placa";https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aq5a/techspec/;"100–240 V; 20,8 usado só como referência do subtotal, condição do fabricante a confirmar";1;ausente;0.1638;0.2047
+EQ28B;escritorio;AOC 24 polegadas 144 Hz existente;E02;TUG-ESC;;ausente;Escritorio/Setup.md;"Modelo exato ausente; substitui cadastro antigo de dois AOC 27";1;ausente;;
+EQ29;escritorio;Samsung UN43CU7700GXZD;E03;TUG-ESC;;ausente;https://www.samsung.com/br/tvs/uhd-4k-tv/cu7000-43-inch-un43cu7700gxzd/;"100–240 V; consumo de entrada não localizado";1;ausente;;
+EQ44;quarto;Carregadores/cargas das duas cabeceiras;Q03/Q04;TUG-QUA;;ausente;Lista_equipamentos.csv EQ44;"Quantidade de tomadas não define carga; USB/fontes pendentes";1;ausente;;
+EQ46;cozinha;Liquidificador;C08;TUG-COZ;;ausente;Lista_equipamentos.csv EQ46;Modelo e potência ausentes;1;ausente;;
+EQ47;cozinha;Sanduicheira;C08;TUG-COZ;;ausente;Lista_equipamentos.csv EQ47;Modelo e potência ausentes;1;ausente;;
+LUZ-C13;cozinha;Iluminação C13;C13;IL-UM;30.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.2362;0.2953
+LUZ-L11;lavanderia;Iluminação L11;L11;IL-UM;25.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1969;0.2461
+LUZ-B11;banho;Iluminação B11;B11;IL-UM;25.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1969;0.2461
+LUZ-S03;sala;Iluminação S03;S03;IL-SE;17.6;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1386;0.1732
+LUZ-E04;escritorio;Iluminação E04;E04;IL-SE;17.6;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1386;0.1732
+LUZ-Q05;quarto;Iluminação Q05;Q05;IL-SE;18.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1417;0.1772
+LUZ-S04;sala;Iluminação S04;S04;IL-SE;10.5;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.0827;0.1033
+LUZ-Q01;quarto;Iluminação Q01;Q01;IL-SE;3.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.0236;0.0295
+LUZ-Q02;quarto;Iluminação Q02;Q02;IL-SE;3.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.0236;0.0295
+LUZ-C14;cozinha;Iluminação C14;C14;IL-UM;18.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1417;0.1772
+LUZ-S05;sala;Iluminação S05;S05;IL-SE;16.5;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1299;0.1624
+LUZ-Q06;quarto;Iluminação Q06;Q06;IL-SE;31.5;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.248;0.31
+LUZ-B09;banho;Iluminação B09;B09;IL-UM;16.5;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1299;0.1624
+LUZ-B10;banho;Iluminação B10;B10;IL-UM;12.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.0945;0.1181
+LUZ-E05;escritorio;Iluminação E05;E05;IL-SE;20.0;cenário H11 iluminação;"Iluminacao/Correntes_luz.csv; Estudo_fotometrico.md H11";"Entrada já inclui fontes/controle quando previstos; não somar potência DC novamente";1;ausente;0.1575;0.1969

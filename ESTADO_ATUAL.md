@@ -23,7 +23,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
 | Planta mobiliada e vistas | R02 | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
 | Especificações/luz | R01; E5% e U0 separados | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
-| Pontos (elétrica, água, gás) | R01 de anteprojeto;50 auditados +3 funções | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
+| Pontos (elétrica, água, gás) | R01; 53 funções; cargas 6.740 W parciais/13 ausentes | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; risco auditado em 28/10: faltam modas/durações; sem P50/P80 | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
@@ -98,7 +98,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- Siga [AGENTS.md](AGENTS.md); comece com `git status`. Leia só o README da área; busque no Registro de decisões, sem lê-lo inteiro. [Mapa](README.md).
+- Siga [AGENTS.md](AGENTS.md); comece com `git status`. Leia o README da área; busque no Registro, sem leitura integral. [Mapa](README.md).
 - [Verificadores](ferramentas/README.md): geral antes de cada commit; completo após abrir CAD; clone limpo com `--ci` antes de push. Commits pequenos por assunto.
 - Não rode macros antigas que salvam/fecham documentos nem sobrescreva o modelo em consultas. Em itens condicionados a campo/oficina, registre a dúvida e siga.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.

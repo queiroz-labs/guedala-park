@@ -1,0 +1,15 @@
+{
+  "tensao_cenario_V": 127,
+  "H01_simultaneidade": 1,
+  "cargas": 36,
+  "cargas_sem_potencia": 13,
+  "subtotal_referencias_W": 6740.0,
+  "I_equivalente_FP1_A": 53.07086614173228,
+  "demanda_total_W": null,
+  "capacidade_predio_A": null,
+  "nota": "Subtotal mistura potências de manual e referências provisórias; não demanda dimensionante. AC fora da base.",
+  "fontes_sha256": {
+    "03_Ambientes/Planta_pontos/Cargas_entradas.csv": "d86d304f40b6089bdafd429f2847887bff21c3c2cb8fdb9a437e03fce159d750",
+    "03_Ambientes/Iluminacao/Correntes_luz.csv": "9f09ef86b32b372a314a5755f124c1869abc005f001dddbc963400a9235eed68"
+  }
+}

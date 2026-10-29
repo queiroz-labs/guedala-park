@@ -6,6 +6,10 @@
 
 [Desenho SVG](Planta_pontos_R00.svg) · [gerador](gerar_planta_pontos.py). Rodar `python -B 03_Ambientes/Planta_pontos/gerar_planta_pontos.py` na raiz. A tabela após o marcador é gerada; a auditoria abaixo é manual.
 
+## Quadro elétrico nominal — 29/10
+
+[Estudo 127 V para RT](Quadro_cargas.md): 36 linhas, 13 potências ausentes; subtotal de referências 6.740 W, **não demanda dimensionante**. [Circuitos como opção](Circuitos_cenario.csv), sem seção/disjuntor final ou queda por falta de quadro, FP e trajetos. AC 220 V fica separado; oferta do prédio não confirmada.
+
 ## Fontes e limites
 
 - [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE11X,09/09](../Cozinha/Equipamentos_e_instalacao.md#purificador-de-água--electrolux-pe11x-cinzaprata-escolhido), [iluminação 27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias 26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).
