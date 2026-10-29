@@ -9,6 +9,7 @@ import gzip
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 import sys
 import numpy as np
@@ -687,10 +688,33 @@ def direct(cell, lights, s, ies, obstacles):
 
 
 def statistics(grid,values):
-    if not grid:return dict(mean=0,min=0,u0=0,area=0)
+    if len(grid)!=len(values):raise ValueError('Malha e valores com tamanhos diferentes')
+    if not grid:return dict(mean=0,min=0,u0=0,area=0,e5=None,filtered_min=None,filtered_mean=None,filtered_u0=None,filtered_area=0)
+    if any(c['area']<=0 or not math.isfinite(c['area']) or not math.isfinite(v) for c,v in zip(grid,values)):
+        raise ValueError('Area/iluminancia invalida')
     area=sum(c['area'] for c in grid)
     mean=sum(c['area']*v for c,v in zip(grid,values))/area
-    return dict(mean=mean,min=min(values),u0=min(values)/mean if mean else 0,area=area)
+    cumulative=0
+    for value,weight in sorted((float(v),c['area']) for c,v in zip(grid,values)):
+        cumulative+=weight
+        if cumulative>=.05*area:
+            e5=value;break
+    kept=[(c['area'],float(v)) for c,v in zip(grid,values) if c['area']>=.02-1e-12]
+    filtered_area=sum(a for a,v in kept)
+    filtered_mean=sum(a*v for a,v in kept)/filtered_area if kept else None
+    filtered_min=min(v for a,v in kept) if kept else None
+    return dict(mean=mean,min=min(values),u0=min(values)/mean if mean else 0,area=area,e5=e5,
+                filtered_min=filtered_min,filtered_mean=filtered_mean,
+                filtered_u0=(filtered_min/filtered_mean if filtered_mean else 0) if kept else None,
+                filtered_area=filtered_area)
+
+
+def diagnostic_fields(st,prefix=''):
+    """Diagnosticos separados: nao substituem Emin/Emed da malha original."""
+    return {prefix+k:round(st[v],6) if st[v] is not None else '' for k,v in (
+        ('E5_area_lx','e5'),('Emin_celulas_ge002_lx','filtered_min'),
+        ('Emed_celulas_ge002_lx','filtered_mean'),('U0_celulas_ge002','filtered_u0'),
+        ('area_celulas_ge002_m2','filtered_area'))}
 
 
 def calculation_cases(g,step=.25):
@@ -756,6 +780,9 @@ def calculate(g,ies,step=.25):
                          meta_lx=case['meta'],u0_meta=case['u'],veredito='não avaliável: plano dentro da base' if inside else verdict(a,c,case['meta'],case['u']),
                          fonte='P3/P4/R54; '+','.join(sorted({PRODUCTS[e['code']]['source'] for e in ls})),
                          premissa='H3/H5/H6; direta sem reflexões; caixas opacas; branco100%; pontos nominais'))
+        rows[-1].update(diagnostic_fields(b))
+        if '_roupa' in case['id']:
+            rows[-1]['veredito']='caso-limite: envelope opaco de roupa; nao e veredito do ambiente'
     return rows,grids
 
 
@@ -1066,8 +1093,13 @@ def calculate_reflections(g,ies,rows,grids):
             st=statistics(case['grid'],total);stats.append(st);vectors.append(total)
             row.update({f'ref_media_{name}':round(st['mean'],2),f'ref_minimo_{name}':round(st['min'],2),
                         f'ref_u0_{name}':round(st['u0'],6),f'ganho_{name}_lx':round(st['mean']-row['media_central'],2)})
+            row.update(diagnostic_fields(st,'ref_'+name+'_'))
+            row['veredito_ref_'+name]=verdict(st,st,case['meta'],case['u'])
             balances.append(dict(caso=case['id'],rho=name,patches=len(engine.patches),**{k:round(v,9) for k,v in balance.items()}))
         row['veredito_ref']=verdict(stats[0],stats[2],case['meta'],case['u'])+' com interreflexão H13; três faixas rho'
+        if '_roupa' in case['id']:
+            row['veredito_ref']='caso-limite: bloqueio por envelope opaco de roupa, nao conclusao sobre uso real'
+            for name in ('baixo','central','alto'):row['veredito_ref_'+name]='caso-limite, sem veredito'
         total_grids[case['id']]=(case['grid'],vectors[1])
         RAD_CACHE[case['id']]=(engine,case,ls,vectors,ds)
     return total_grids,balances,engines
@@ -1131,6 +1163,46 @@ def sensitivity(g,ies):
     return result
 
 
+def reading_plane_comparison(out,rows):
+    current=next(r for r in rows if r['caso']=='quarto_leitura')
+    # Registro primario do CSV em git 66083a0; nao e novo calculo da geometria R54 limpa.
+    comparison=[dict(plano_m=.45,origem='Resumo_lux.csv no commit 66083a0',
+        direta_media_lx=499.83,direta_min_lx=378.71,direta_U0=.758,
+        total_rho_baixo_lx='',total_rho_central_lx='',total_rho_alto_lx='',
+        veredito_original='atende no cenario historico',
+        uso_atual='comparador historico invalido como plano de leitura: abaixo da cama de 0,64 m'),
+        dict(plano_m=.85,origem='recalculo vigente com geometria limpa H13',
+        direta_media_lx=current['media_central'],direta_min_lx=current['minimo_central'],direta_U0=current['uniformidade'],
+        total_rho_baixo_lx=current['ref_media_baixo'],total_rho_central_lx=current['ref_media_central'],total_rho_alto_lx=current['ref_media_alto'],
+        veredito_original=current['veredito_ref'],
+        uso_atual='plano nominal do livro acima da cama; EVY com orientacao nominal H8')]
+    write_csv(out/'Comparacao_planos_leitura.csv',comparison)
+    return comparison
+
+
+def externalize_report_tables(report,out):
+    """Preserva todas as celulas das tabelas Markdown em um CSV unico indexado."""
+    lines=report.splitlines();result=[];records=[];section='';i=0;table=0
+    while i<len(lines):
+        line=lines[i]
+        if line.startswith('#'):section=line.lstrip('# ').strip()
+        if line.startswith('|') and i+1<len(lines) and re.fullmatch(r'[| :\-]+',lines[i+1]):
+            table+=1
+            split=lambda text:[c.strip().replace('\\|','|') for c in re.split(r'(?<!\\)\|',text.strip()[1:-1])]
+            headers=split(line);i+=2;number=0
+            while i<len(lines) and lines[i].startswith('|'):
+                values=split(lines[i]);number+=1
+                if len(values)!=len(headers):raise ValueError('Tabela com colunas inconsistentes: '+section)
+                records.append(dict(tabela=table,secao=section,linha=number,
+                    colunas=json.dumps(headers,ensure_ascii=False),valores=json.dumps(values,ensure_ascii=False)))
+                i+=1
+            result.append(f'[Tabela {table}: {section} — {number} linhas](Tabelas_estudo_luz.csv).')
+        else:
+            result.append(line);i+=1
+    write_csv(out/'Tabelas_estudo_luz.csv',records)
+    return '\n'.join(result)+'\n'
+
+
 def update_summary(out,rows):
     path=out/'README.md'
     if not path.exists():return
@@ -1139,7 +1211,7 @@ def update_summary(out,rows):
     with (out/'Alternativas_luz.csv').open(encoding='utf-8-sig',newline='') as f:options=list(csv.DictReader(f,delimiter=';'))
     tasks={'sala':('sala_mesa',500),'cozinha':('cozinha_pia_tampo92',300),'lavanderia':('lavanderia_tanque_tampo92',300),
            'banho':('banho_geral',150),'quarto':('quarto_leitura',300),'escritorio':('escritorio_mesa',500),'circulacao':('circulacao_geral',100)}
-    text+='\n\n## Fotometria — cenários de 29/10/2026\n\n[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.\n\n| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão | Opção numérica para a tarefa indicada, cenário central |\n|---|---:|---:|---|---|\n'
+    text+='\n\n## Fotometria — cenários de 29/10/2026\n\n[Estudo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [tabelas detalhadas](Tabelas_estudo_luz.csv), [grade](Grades_lux.csv) e [fontes](Fotometria_fontes.json). Direta e interreflexão difusa H13, com fontes centrais e faixas de refletância. Desempenho real indeterminado até fotometria e implantação. **As colunas diagnósticas não demonstram atendimento normativo.**\n\n| Ambiente/geral | Direta lx | Total ρbaixo–alto (central) lx | E5% central lx | U0 original / filtrado | Metas originais: baixo / central / alto | Menor opção testada para a tarefa, cenário central |\n|---|---:|---:|---:|---:|---|---|\n'
     for room in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao'):
         r=next(r for r in rows if r['caso']==room+'_geral')
         ident,target=tasks[room];valid=[v for v in options if v['caso']==ident and float(v['meta_lx'])==target and v['meta_central']=='True']
@@ -1147,7 +1219,14 @@ def update_summary(out,rows):
         short=(best['opcao']+f", {float(best['Emed_central']):.0f} lx, R${float(best['material_parcial_RS']):.2f} parcial") if best else 'sem opção testada que cumpra média e U0'
         short=ident.replace('_tampo92','')+': '+short
         u=f"{r['ref_u0_central']:.2f}" if r['ref_u0_central']>=.01 else '<0,01'
-        text+=f"| [{room}](Mapa_lux_{room}.png) | {r['media_central']:.0f} | {r['ref_media_baixo']:.0f}–{r['ref_media_alto']:.0f} ({r['ref_media_central']:.0f}) / {u} | {r['veredito_ref']} | {short} |\n"
+        filtered=r['ref_central_U0_celulas_ge002'];fu=f'{filtered:.3f}' if filtered!='' else 'não calculável'
+        labels=['cumpre' if r['veredito_ref_'+b]=='atende no cenário' else 'não cumpre' for b in ('baixo','central','alto')]
+        text+=f"| [{room}](Mapa_lux_{room}.png) | {r['media_central']:.0f} | {r['ref_media_baixo']:.0f}–{r['ref_media_alto']:.0f} ({r['ref_media_central']:.0f}) | {r['ref_central_E5_area_lx']:.2f} | {u} / {fu} | {' / '.join(labels)} | {short} |\n"
+    current=next(r for r in rows if r['caso']=='quarto_leitura')
+    text+='\n**E5%** é o percentil de 5% ponderado pela área: primeira iluminância cuja área acumulada alcança 5%, sem interpolação. **U0 original** permanece Emin/Emed de toda a malha. **U0 filtrado** usa somente células com área ≥0,02 m² e recalcula tanto o mínimo quanto a média nessa área; área retida está no CSV. Não substitui U0 normativo, não elimina sombras físicas e não muda os vereditos originais ou a escolha da menor opção. Malhas de tarefa de 10 cm têm células ≤0,01 m²: o filtro fica vazio, marcado como não calculável, sem engrossar a malha para favorecer o resultado.\n'
+    text+='\n**Leitura no quarto — comparação dos planos:** [dados e origem](Comparacao_planos_leitura.csv).\n\n| Plano | Direta média / mínimo / U0 | Total H13, ρ baixo–alto | Interpretação |\n|---|---|---|---|\n| 0,45 m histórico, commit 66083a0 | 499,83 / 378,71 lx / 0,758 | não calculado naquela revisão | antigo “atende”; abaixo do topo da cama atual de 0,64 m, não representa leitura atual |\n'
+    text+=f"| 0,85 m atual | {current['media_central']:.2f} / {current['minimo_central']:.2f} lx / {current['uniformidade']:.3f} | {current['ref_media_baixo']:.2f}–{current['ref_media_alto']:.2f} lx | {current['veredito_ref']} |\n"
+    text+='\nA mudança de conclusão envolve plano e limpeza da geometria/obstáculos, não apenas refletância; não é comparação controlada de uma única variável. A orientação nominal das EVY também afeta a leitura. **Tanque com roupa** é caso-limite de envelope totalmente opaco: o zero calculado não é veredito da lavanderia com qualquer roupa real. O cenário sem roupa continua separado.\n'
     text+='\nMetas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Malha limpa: cozinha/tanque somente no tampo0,92 m; livro0,85 m acima da viúva atual. Mínimos escuros fora de sólidos não são descartados. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.\n\nVídeo espelhado conferido: quatro saídas de teto no conjunto social/cozinha/serviço, teclas e tomada do banheiro; evidência e limites no estudo. Centros continuam nominais;±25 cm é sensibilidade, não precisão do vídeo. Fontes técnicas29/10: IES EVO recuperado (ensaio2021 divergente do catálogo); Firefly9608/9605 com2000 lm e EVY2054 com270 lm/30°. E06 continua adiada.\n\nReproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. `--detalhe <pasta externa>` exporta a malha integral. Modelo não aberto; seleção/preços/itens do site preservados. Dados de manutenção, transmissão e distribuição analítica são hipóteses explícitas.\n'
     scenes,energy=scene_energy()
     low=sum(r['kWh_mes_baixo'] for r in energy);high=sum(r['kWh_mes_alto'] for r in energy)
@@ -1197,6 +1276,9 @@ def generate_results(out,detail=None):
     trace=dict(data=DATE,cad_sha256=g['sha'],ies_sha256=ies['sha256'],fontes_sha256_texto_LF={p:hashlib.sha256((ROOT/p).read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in inputs})
     (out/'Rastreio_fotometrico.json').write_text(json.dumps(trace,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     report=report.replace('## Fontes','[Rastreio das entradas por SHA](Rastreio_fotometrico.json): inclui curva, código, lista comercial, geometria, coordenadas e manifesto das imagens; textos normalizados paraLF, CAD/IES originais por bytes.\n\n## Fontes')
+    reading_plane_comparison(out,rows)
+    report=report.replace('## Método','## Diagnósticos de malha e comparação histórica\n\nE5% ponderado por área e U0 de células ≥0,02 m² são diagnósticos separados no Resumo_lux.csv; não substituem Emin/Emed integral nem os vereditos. Filtro vazio tem campos em branco, não zero. A comparação0,45/0,85 m está em [Comparacao_planos_leitura.csv](Comparacao_planos_leitura.csv): o primeiro é resultado histórico do commit66083a0, abaixo da cama atual, não recalculado como plano físico válido. Tanque com roupa é caso-limite de envelope opaco, sem veredito para uso real.\n\n## Método')
+    report=externalize_report_tables(report,out)
     (out/'Estudo_fotometrico.md').write_text(report,encoding='utf-8')
     update_summary(out,rows)
     if (out/'README.md').exists():

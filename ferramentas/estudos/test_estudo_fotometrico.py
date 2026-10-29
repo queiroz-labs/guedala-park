@@ -106,6 +106,31 @@ class Physics(unittest.TestCase):
         self.assertAlmostEqual(st['u0'],100/175)
         self.assertEqual(f.statistics([],[])['u0'],0)
 
+    def test_area_percentile_does_not_replace_original_minimum(self):
+        st=f.statistics([dict(area=.001),dict(area=.049),dict(area=.95)],[0,10,100])
+        self.assertEqual(st['e5'],10)
+        self.assertEqual(st['min'],0)
+        self.assertEqual(st['u0'],0)
+        self.assertAlmostEqual(st['filtered_area'],.999)
+        self.assertAlmostEqual(st['filtered_mean'],(.049*10+.95*100)/.999)
+        self.assertAlmostEqual(st['filtered_u0'],10/st['filtered_mean'])
+
+    def test_empty_filtered_task_is_unknown_not_zero(self):
+        st=f.statistics([dict(area=.01),dict(area=.01)],[0,200])
+        self.assertIsNone(st['filtered_u0'])
+        self.assertEqual(f.diagnostic_fields(st)['U0_celulas_ge002'],'')
+        self.assertEqual(st['e5'],0)
+        self.assertEqual(f.statistics([dict(area=.02)],[100])['filtered_u0'],1)
+
+    def test_tables_export_preserves_escaped_cell_and_prose(self):
+        import csv
+        with tempfile.TemporaryDirectory() as t:
+            report=f.externalize_report_tables('# Tema\ntexto\n| A | B |\n|---|---|\n| x\\|y | 2 |\nfim\n',Path(t))
+            self.assertIn('texto',report);self.assertIn('fim',report)
+            with (Path(t)/'Tabelas_estudo_luz.csv').open(encoding='utf-8-sig') as stream:
+                rows=list(csv.DictReader(stream,delimiter=';'))
+            self.assertEqual(json.loads(rows[0]['valores']),['x|y','2'])
+
     def test_scene_interlocks_and_energy_accounting(self):
         with self.assertRaises(ValueError):f.active_power('B11',.5)
         self.assertAlmostEqual(f.active_power('C14',1,.8),16.5)
@@ -189,7 +214,7 @@ class Physics(unittest.TestCase):
             expected=['Resumo_lux.csv','Grades_lux.csv','Sensibilidade_luz.csv','Cenas_luz.csv','Consumo_luz.csv',
                       'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json',
                       'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json','Fluxo_necessario_luz.csv','Camadas_tarefa_luz.csv',
-                      'UGR_luz.csv','Reflexos_telas_luz.csv']
+                      'UGR_luz.csv','Reflexos_telas_luz.csv','Comparacao_planos_leitura.csv','Tabelas_estudo_luz.csv']
             expected+=['Mapa_lux_'+k+'.png' for k in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao')]
             for name in expected:
                 actual,reference=(Path(t)/name).read_bytes(),(f.OUT/name).read_bytes()

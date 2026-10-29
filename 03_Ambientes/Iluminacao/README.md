@@ -60,17 +60,28 @@ Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmo
 
 ## Fotometria — cenários de 29/10/2026
 
-[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.
+[Estudo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [tabelas detalhadas](Tabelas_estudo_luz.csv), [grade](Grades_lux.csv) e [fontes](Fotometria_fontes.json). Direta e interreflexão difusa H13, com fontes centrais e faixas de refletância. Desempenho real indeterminado até fotometria e implantação. **As colunas diagnósticas não demonstram atendimento normativo.**
 
-| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão | Opção numérica para a tarefa indicada, cenário central |
-|---|---:|---:|---|---|
-| [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) / 0.10 | não atende no cenário com interreflexão H13; três faixas rho | sala_mesa: local 3 perfil COB 1.70m, 672 lx, R$628.04 parcial |
-| [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) / 0.01 | não atende no cenário com interreflexão H13; três faixas rho | cozinha_pia: local 1 perfil COB 0.65m, 879 lx, R$297.25 parcial |
-| [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) / 0.08 | não atende no cenário com interreflexão H13; três faixas rho | lavanderia_tanque: local 1 perfil COB 0.59m, 460 lx, R$297.25 parcial |
-| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) / 0.54 | atende no cenário com interreflexão H13; três faixas rho | banho_geral: vigente sem acréscimo, 202 lx, R$0.00 parcial |
-| [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) / <0,01 | não atende no cenário com interreflexão H13; três faixas rho | quarto_leitura: geral 1 × Q05, 350 lx, R$134.83 parcial |
-| [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho | escritorio_mesa: sem opção testada que cumpra média e U0 |
-| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho | circulacao_geral: sem opção testada que cumpra média e U0 |
+| Ambiente/geral | Direta lx | Total ρbaixo–alto (central) lx | E5% central lx | U0 original / filtrado | Metas originais: baixo / central / alto | Menor opção testada para a tarefa, cenário central |
+|---|---:|---:|---:|---:|---|---|
+| [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) | 31.91 | 0.10 / 0.401 | não cumpre / não cumpre / não cumpre | sala_mesa: local 3 perfil COB 1.70m, 672 lx, R$628.04 parcial |
+| [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) | 4.69 | 0.01 / 0.021 | não cumpre / não cumpre / não cumpre | cozinha_pia: local 1 perfil COB 0.65m, 879 lx, R$297.25 parcial |
+| [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) | 23.45 | 0.08 / 0.122 | não cumpre / não cumpre / não cumpre | lavanderia_tanque: local 1 perfil COB 0.59m, 460 lx, R$297.25 parcial |
+| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) | 119.63 | 0.54 / 0.544 | cumpre / cumpre / cumpre | banho_geral: vigente sem acréscimo, 202 lx, R$0.00 parcial |
+| [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) | 5.97 | <0,01 / 0.056 | não cumpre / não cumpre / não cumpre | quarto_leitura: geral 1 × Q05, 350 lx, R$134.83 parcial |
+| [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) | 15.53 | 0.06 / 0.206 | não cumpre / não cumpre / não cumpre | escritorio_mesa: sem opção testada que cumpra média e U0 |
+| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) | 20.71 | 0.06 / 0.580 | não cumpre / não cumpre / não cumpre | circulacao_geral: sem opção testada que cumpra média e U0 |
+
+**E5%** é o percentil de 5% ponderado pela área: primeira iluminância cuja área acumulada alcança 5%, sem interpolação. **U0 original** permanece Emin/Emed de toda a malha. **U0 filtrado** usa somente células com área ≥0,02 m² e recalcula tanto o mínimo quanto a média nessa área; área retida está no CSV. Não substitui U0 normativo, não elimina sombras físicas e não muda os vereditos originais ou a escolha da menor opção. Malhas de tarefa de 10 cm têm células ≤0,01 m²: o filtro fica vazio, marcado como não calculável, sem engrossar a malha para favorecer o resultado.
+
+**Leitura no quarto — comparação dos planos:** [dados e origem](Comparacao_planos_leitura.csv).
+
+| Plano | Direta média / mínimo / U0 | Total H13, ρ baixo–alto | Interpretação |
+|---|---|---|---|
+| 0,45 m histórico, commit 66083a0 | 499,83 / 378,71 lx / 0,758 | não calculado naquela revisão | antigo “atende”; abaixo do topo da cama atual de 0,64 m, não representa leitura atual |
+| 0,85 m atual | 166.69 / 102.91 lx / 0.617 | 188.80–225.70 lx | não atende no cenário com interreflexão H13; três faixas rho |
+
+A mudança de conclusão envolve plano e limpeza da geometria/obstáculos, não apenas refletância; não é comparação controlada de uma única variável. A orientação nominal das EVY também afeta a leitura. **Tanque com roupa** é caso-limite de envelope totalmente opaco: o zero calculado não é veredito da lavanderia com qualquer roupa real. O cenário sem roupa continua separado.
 
 Metas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Malha limpa: cozinha/tanque somente no tampo0,92 m; livro0,85 m acima da viúva atual. Mínimos escuros fora de sólidos não são descartados. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.
 
