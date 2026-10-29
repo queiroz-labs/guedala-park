@@ -32,7 +32,9 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
-**Clima:** [parcelas e opções](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; ASUS condicional integrado; carga total pendente.
+**Clima:** [parcelas](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; ASUS condicional; carga total pendente.
+
+**Acústica:** [piso e aparelhos](03_Ambientes/Acustica/README.md); compatibilidade da manta e desempenho de campo pendentes.
 
 **Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box a compatibilizar.
 
