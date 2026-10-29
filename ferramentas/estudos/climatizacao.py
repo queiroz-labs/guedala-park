@@ -34,6 +34,31 @@ def write_csv(path, rows):
         w=csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 
 
+def equipment_audit(inputs):
+    """Rastreia todas as entradas; somente ASUS tem parcela condicional nesta zona."""
+    rows=[]
+    for r in inputs:
+        known=r['potencia_W']!=''
+        included=r['id']=='EQ28A' and known
+        if included:
+            reason='H06: ASUS ligado, referencia publicada; dissipacao sensivel integral condicional, nao maximo'
+        elif not known:
+            reason='Potencia de entrada ausente; nao equivale a zero'
+        else:
+            reason='Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes'
+        rows.append(dict(id=r['id'],ambiente=r['ambiente'],item=r['item'],
+            entrada_referencia_W=r['potencia_W'],qualidade=r['qualidade'],
+            parcela_sensivel_H06_W=float(r['potencia_W']) if included else '',
+            tratamento=reason,fonte=r['fonte']))
+    return rows
+
+
+def partial_gain(people, light, fraction, equipment):
+    sensible=72*people+light*fraction+equipment
+    latent=45*people
+    return sensible,latent
+
+
 def generate():
     sys.path.insert(0, str(ROOT/'ferramentas/pranchas'))
     from gerar import Projeto
@@ -45,18 +70,25 @@ def generate():
     with (ROOT/'03_Ambientes/Iluminacao/Correntes_luz.csv').open(encoding='utf-8-sig') as f:
         for r in csv.DictReader(f, delimiter=';'):
             light[r['ambiente']]=light.get(r['ambiente'],0)+float(r['W_entrada_cenario'])
+    inputs=ROOT/'03_Ambientes/Planta_pontos/Cargas_entradas.csv'
+    with inputs.open(encoding='utf-8-sig') as f:
+        audit=equipment_audit(list(csv.DictReader(f,delimiter=';')))
+    write_csv(OUT/'Climatizacao_equipamentos.csv',audit)
     rows=[]
     for room in ('quarto','sala','escritorio'):
         for scenario,n,frac in [('otimista_parcial',1,.25),('central_parcial',2,.5),('conservador_parcial',3,1)]:
-            sensible=72*n+light[room]*frac
-            latent=45*n
+            equipment=sum(r['parcela_sensivel_H06_W'] for r in audit
+                          if r['ambiente']==room and r['parcela_sensivel_H06_W']!='')
+            missing=sum(r['entrada_referencia_W']=='' for r in audit if r['ambiente']==room)
+            sensible,latent=partial_gain(n,light[room],frac,equipment)
             rows.append(dict(ambiente=room,cenario=scenario,area_modelada_m2=round(union_area(floors[room]),4),
                 altura_hipotese_m=2.6,volume_nominal_m3=round(union_area(floors[room])*2.6,4),
                 pessoas_H02=n,luz_instalada_W=round(light[room],2),fracao_luz_H03=frac,
                 ganho_sensivel_parcial_W=round(sensible,2),ganho_latente_parcial_W=latent,
                 ganho_interno_parcial_W=round(sensible+latent,2),ganho_interno_parcial_BTU_h=round((sensible+latent)*BTU_PER_WH,1),
-                equipamentos_W='dado ausente',envoltoria_solar_infiltracao_W='dado ausente',
-                carga_total_W='',carga_total_BTU_h='',situacao='parcela pessoas+luz; não é faixa de dimensionamento'))
+                equipamentos_referencia_H06_W=equipment,equipamentos_sem_potencia=missing,
+                envoltoria_solar_infiltracao_W='dado ausente',
+                carga_total_W='',carga_total_BTU_h='',situacao='pessoas+luz+referencia condicional; não é faixa de dimensionamento'))
     write_csv(OUT/'Climatizacao_parcelas.csv',rows)
     rows=[]
     for sku,btu,power,pmin,voltage in OPTIONS:

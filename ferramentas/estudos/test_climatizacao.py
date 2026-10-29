@@ -1,10 +1,26 @@
 import unittest
 from unittest.mock import Mock
 from pathlib import Path
-from climatizacao import energy, union_area, BTU_PER_WH, OPTIONS, climate
+from climatizacao import energy, union_area, BTU_PER_WH, OPTIONS, climate, equipment_audit, partial_gain
 
 
 class ClimatizacaoTest(unittest.TestCase):
+    def test_asus_conditional_and_unknown_not_zero(self):
+        def row(i,room,p):
+            return dict(id=i,ambiente=room,potencia_W=p,item=i,qualidade='referencia',fonte='teste')
+        result=equipment_audit([row('EQ28A','escritorio','20.8'),row('EQ27','escritorio',''),row('EQ01','cozinha','2061')])
+        self.assertEqual(result[0]['parcela_sensivel_H06_W'],20.8)
+        self.assertEqual(result[1]['parcela_sensivel_H06_W'],'')
+        self.assertEqual(result[2]['entrada_referencia_W'],'2061')
+        self.assertEqual(result[2]['parcela_sensivel_H06_W'],'')
+
+    def test_conditional_equipment_not_scaled_with_lights(self):
+        s,l=partial_gain(2,37.6,.5,20.8)
+        self.assertAlmostEqual(s+l,273.6)
+        s0,l0=partial_gain(2,37.6,.5,0)
+        self.assertAlmostEqual(s-s0,20.8)
+        self.assertEqual(l,l0)
+
     def test_consumo(self):
         self.assertEqual(energy(780,8),187.2)
         self.assertEqual(energy(0,8),0)

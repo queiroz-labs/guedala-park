@@ -64,13 +64,13 @@ D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para 
 
 [Parcelas por ambiente/cenário](Climatizacao_parcelas.csv) e [opções e consumo](Climatizacao_opcoes.csv). Áreas: união dos retângulos exportados R54; não medidas reais nem área externa da envoltória.
 
-| Ambiente | Área modelada m² | Volume a 2,60 m, m³ | Luz nominal W | Pessoas + luz, faixa parcial W (BTU/h) |
+| Ambiente | Área modelada m² | Volume a 2,60 m, m³ | Luz nominal W | Pessoas + luz + H06, parcela W (BTU/h) |
 |---|---:|---:|---:|---|
 | Quarto | 8,3825 | 21,7945 | 55,5 | 130,88–406,50 (446,6–1387,0) |
 | Sala | 9,6715 | 25,1459 | 44,6 | 128,15–395,60 (437,3–1349,8) |
-| Escritório | 6,7850 | 17,6410 | 37,6 | 126,40–388,60 (431,3–1326,0) |
+| Escritório | 6,7850 | 17,6410 | 37,6 | 147,20–409,40 (502,3–1396,9) |
 
-**Faixas parciais, não cargas de refrigeração ou limites superiores.** Faltam equipamentos, envoltória, sol e infiltração. Sala aberta para cozinha não é zona isolada: cocção, geladeira e transferências de ar faltam. Cozinha/lavanderia não recebem aparelho proposto; contribuição às zonas vizinhas pendente.
+**Parcelas, não carga total nem limite superior.** Faltam equipamentos, envoltória, sol e infiltração. Cozinha/sala abertas exigem transferência entre zonas; nenhuma seleção de AC.
 
 Hipóteses explícitas:
 
@@ -80,7 +80,7 @@ Hipóteses explícitas:
 - **H04:** aparelhos funcionando2/4/8h/dia por30dias na potência nominal constante. Não prevê fatura/ciclo inverter. Mínimo de catálogo é referência constante; mínimo–nominal não limita a operação nem inclui potência máxima.
 - **H05:** São Paulo/SP, conforme [registro local da cidade](../../01_Programa_e_decisoes/Rascunhos_emails.md). Congonhas é aproximação meteorológica da cidade, não sensor do apartamento. Não se adotou Palmas.
 
-Método e limite técnico: [ASHRAE2021 cap.17, tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch17/F21_Ch17_si.aspx) restringe o método residencial simplificado RLF por construção, vidro e ganhos; não há comprovação de que a unidade atende suas condições. [Cap.18, §§1–2 e tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch18/F21_Ch18_si.aspx) distingue ganho instantâneo de carga e apresenta balanço térmico/RTS. Parcelas independentes: Qsens=72N+Pluz×fração; Qlat=45N; BTU/h=W×3,412141633. **Não foi implementado um cálculo completo NBR16401-1, CLTD/CLF ou HB/RTS.** Faltam os dados abaixo; aplicar coeficientes genéricos por m² esconderia essas lacunas.
+Método e limite técnico: [ASHRAE2021 cap.17, tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch17/F21_Ch17_si.aspx) restringe o método residencial simplificado RLF por construção, vidro e ganhos; não há comprovação de que a unidade atende suas condições. [Cap.18, §§1–2 e tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch18/F21_Ch18_si.aspx) distingue ganho instantâneo de carga e apresenta balanço térmico/RTS. Parcelas independentes: Qsens=72N+Pluz×fração+H06; Qlat=45N; BTU/h=W×3,412141633. **Não foi implementado um cálculo completo NBR16401-1, CLTD/CLF ou HB/RTS.** Faltam os dados abaixo; aplicar coeficientes genéricos por m² esconderia essas lacunas.
 
 | Entrada essencial | Evidência disponível e pergunta exata |
 |---|---|
@@ -91,6 +91,8 @@ Método e limite técnico: [ASHRAE2021 cap.17, tabela1](https://handbook.ashrae.
 | Uso interno | Quantas pessoas e quais horários por cômodo; qual temperatura desejada? CPU/GPU e consumo de uso do CH360/notebook/AOC24 ainda ausentes. PS5 é uma unidade móvel, sem duplicar sala/escritório. |
 | Equipamentos29/10 | Philips50PUG8100/78+TAB4000; ASUS27+AOC24 e Samsung existente no escritório. Áudio RMS não é entrada elétrica e potência da fonte não é consumo térmico medido; etiquetas/manuais e simultaneidade necessários. |
 | Infiltração | Qual vedação/ventilação e regime de portas/janelas previsto? Sem ACH/vazão demonstrada, parcelas sensível e latente não calculadas. |
+
+**H06 — integração de equipamentos (29/10):** ASUS ligado nos três cenários, 20,8 W como referência condicional de dissipação sensível integral; fabricante publica consumo menor que esse valor, não máximo de placa. Não escala com a luz. Escritório central: **273,60 W / 933,6 BTU/h parciais**. [Rastreio dos 21 aparelhos/grupos](Climatizacao_equipamentos.csv), fonte `../Planta_pontos/Cargas_entradas.csv`: oito referências conhecidas e 13 ausentes. Sete referências de cozinha/lavanderia (incluindo ME23P provisório) ficam discriminadas, sem conversão automática em calor no ar: faltam uso, extração, água e transferência entre zonas. PS5 permanece único; luz já contabilizada; suportes mecânicos não geram calor. Zero na coluna de referência significa nenhuma parcela conhecida incluída, não equipamento sem consumo.
 
 ### Opções comparáveis, sem seleção
 
@@ -114,8 +116,8 @@ Perguntas ao responsável técnico/condomínio: **há capacidade e alimentação
 
 ### Ano típico horário e reprodução
 
-Fonte [Climate.OneBuilding — SãoPaulo/Congonhas837800, TMYx2011–2025](https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip), dados publicados pelos criadores do formatoEPW. Série real de8760horas convertida para CSV leve fora do Git em `../outputs/Climatizacao/Clima_horario.csv` (regra4b). Ano típico composto, não previsão2027 ou temperatura interior. [Resumo e hashes](Climatizacao_clima_resumo.json):7,4–36,0°C, média20,46°C;1666h acima24°C. Não determina uso ou carga. Não há série horária de carga térmica, pois faltam envoltória/uso/zonas.
+Fonte [Climate.OneBuilding — SãoPaulo/Congonhas837800, TMYx2011–2025](https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip), dados publicados pelos criadores do formatoEPW. Ano típico composto de 8760 horas convertido para CSV leve fora do Git em `../outputs/Climatizacao/Clima_horario.csv` (regra4b). Ano típico composto, não previsão2027 ou temperatura interior. [Resumo e hashes](Climatizacao_clima_resumo.json):7,4–36,0°C, média20,46°C;1666h acima24°C. Não determina uso ou carga. Não há série horária de carga térmica, pois faltam envoltória/uso/zonas.
 
 ZIP SHA256 `78ff773c63739fa7034468c2b43dbcf60d5671110d9833b106ef168850b7fd99`; EPW SHA256 `e3fc5a807387948e1b69145df8677c2a51bbc2556b00ab98ca6da69ecb4208b5`; CSV SHA256 `eb6cac2d148dcb51380a81ff6bb2768e0ce40c1b084cb1b466f9c9467675e733`. Bruto também fora do Git. Download e hashes verificados.
 
-Reproduzir da raiz, após baixar oEPW da fonte acima para área externa: `python -B ferramentas/estudos/climatizacao.py --epw ../outputs/Climatizacao/Congonhas_TMYx.epw --clima-csv ../outputs/Climatizacao/Clima_horario.csv`. Testes: `python -B -m unittest discover -s ferramentas/estudos -p test_climatizacao.py`. Script confere estação,8760registros e valores ausentes; usa exportação de geometria existente, sem abrir CAD.
+Reproduzir da raiz, após baixar oEPW da fonte acima para área externa: `python -B ferramentas/estudos/climatizacao.py --epw ../outputs/Climatizacao/Congonhas_TMYx.epw --clima-csv ../outputs/Climatizacao/Clima_horario.csv`. Testes: `python -B -m unittest discover -s ferramentas/estudos -p test_climatizacao.py`. 10 testes: clima, energia, geometria e integração condicional. Usa exportação existente, sem abrir CAD.

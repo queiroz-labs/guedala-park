@@ -1,10 +1,10 @@
-ambiente,cenario,area_modelada_m2,altura_hipotese_m,volume_nominal_m3,pessoas_H02,luz_instalada_W,fracao_luz_H03,ganho_sensivel_parcial_W,ganho_latente_parcial_W,ganho_interno_parcial_W,ganho_interno_parcial_BTU_h,equipamentos_W,envoltoria_solar_infiltracao_W,carga_total_W,carga_total_BTU_h,situacao
-quarto,otimista_parcial,8.3825,2.6,21.7945,1,55.5,0.25,85.88,45,130.88,446.6,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-quarto,central_parcial,8.3825,2.6,21.7945,2,55.5,0.5,171.75,90,261.75,893.1,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-quarto,conservador_parcial,8.3825,2.6,21.7945,3,55.5,1,271.5,135,406.5,1387.0,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-sala,otimista_parcial,9.6715,2.6,25.1459,1,44.6,0.25,83.15,45,128.15,437.3,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-sala,central_parcial,9.6715,2.6,25.1459,2,44.6,0.5,166.3,90,256.3,874.5,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-sala,conservador_parcial,9.6715,2.6,25.1459,3,44.6,1,260.6,135,395.6,1349.8,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-escritorio,otimista_parcial,6.785,2.6,17.641,1,37.6,0.25,81.4,45,126.4,431.3,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-escritorio,central_parcial,6.785,2.6,17.641,2,37.6,0.5,162.8,90,252.8,862.6,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
-escritorio,conservador_parcial,6.785,2.6,17.641,3,37.6,1,253.6,135,388.6,1326.0,dado ausente,dado ausente,,,parcela pessoas+luz; não é faixa de dimensionamento
+ambiente,cenario,area_modelada_m2,altura_hipotese_m,volume_nominal_m3,pessoas_H02,luz_instalada_W,fracao_luz_H03,ganho_sensivel_parcial_W,ganho_latente_parcial_W,ganho_interno_parcial_W,ganho_interno_parcial_BTU_h,equipamentos_referencia_H06_W,equipamentos_sem_potencia,envoltoria_solar_infiltracao_W,carga_total_W,carga_total_BTU_h,situacao
+quarto,otimista_parcial,8.3825,2.6,21.7945,1,55.5,0.25,85.88,45,130.88,446.6,0,1,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+quarto,central_parcial,8.3825,2.6,21.7945,2,55.5,0.5,171.75,90,261.75,893.1,0,1,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+quarto,conservador_parcial,8.3825,2.6,21.7945,3,55.5,1,271.5,135,406.5,1387.0,0,1,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+sala,otimista_parcial,9.6715,2.6,25.1459,1,44.6,0.25,83.15,45,128.15,437.3,0,3,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+sala,central_parcial,9.6715,2.6,25.1459,2,44.6,0.5,166.3,90,256.3,874.5,0,3,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+sala,conservador_parcial,9.6715,2.6,25.1459,3,44.6,1,260.6,135,395.6,1349.8,0,3,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+escritorio,otimista_parcial,6.785,2.6,17.641,1,37.6,0.25,102.2,45,147.2,502.3,20.8,4,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+escritorio,central_parcial,6.785,2.6,17.641,2,37.6,0.5,183.6,90,273.6,933.6,20.8,4,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento
+escritorio,conservador_parcial,6.785,2.6,17.641,3,37.6,1,274.4,135,409.4,1396.9,20.8,4,dado ausente,,,pessoas+luz+referencia condicional; não é faixa de dimensionamento

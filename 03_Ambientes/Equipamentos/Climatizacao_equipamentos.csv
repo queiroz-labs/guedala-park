@@ -1,0 +1,22 @@
+id,ambiente,item,entrada_referencia_W,qualidade,parcela_sensivel_H06_W,tratamento,fonte
+EQ01,cozinha,Fischer Infinity Grill 50 L,2061,manual,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Fischer_Grill/README.md; manual oficial
+EQ02,cozinha,KE4GC ignição,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ02
+EQ03,cozinha,ME23P,1100,referência comercial provisória,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Conferencia_127V_e_folgas.md F103; ME23P manual
+EQ04,cozinha,Suggar DE61IX,124,manual REV0025,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Suggar_DE61IX_DE62IX.pdf
+EQ05,cozinha,Electrolux IB6S,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ05
+EQ06,cozinha,Electrolux PE11X,70,manual,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Electrolux_PE11X_Manual.pdf
+EQ07,lavanderia,LG CV5012PC4,1650,manual família,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",LG_VC4_CV5012WC4_127V.pdf p10
+EQ08,lavanderia,Rinnai E21 GN,50,manual máximo elétrico,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Rinnai_E21_Manual_176.pdf tabela1
+EQ09,lavanderia,Walita RI9252/91,1400,referência fabricante registrada F103,,"Cozinha/lavanderia: entrada eletrica conhecida; fracao para ar, extracao/agua e transferencia de zona ausentes",Conferencia_127V_e_folgas.md
+EQ10,lavanderia,Cafeteira Mondial existente,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ10
+EQ22,sala,Philips 50PUG8100/78,,ausente,,Potencia de entrada ausente; nao equivale a zero,ESTADO_ATUAL; Philips suporte 50PUG8100/78
+EQ23,sala,PS5 Slim Digital futuro,,ausente,,Potencia de entrada ausente; nao equivale a zero,Escritorio/TV_e_consoles.md
+EQ24,sala,Philips TAB4000/78,,ausente,,Potencia de entrada ausente; nao equivale a zero,ESTADO_ATUAL; Philips TAB4000/78
+EQ26,escritorio,Notebook HP corporativo,,ausente,,Potencia de entrada ausente; nao equivale a zero,Escritorio/Setup.md
+EQ27,escritorio,PC em gabinete DeepCool CH360,,ausente,,Potencia de entrada ausente; nao equivale a zero,Escritorio/Setup.md
+EQ28A,escritorio,ASUS TUF VG27AQ5A,20.8,"consumo publicado menor que 20,8 W; não máximo de placa",20.8,"H06: ASUS ligado, referencia publicada; dissipacao sensivel integral condicional, nao maximo",https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aq5a/techspec/
+EQ28B,escritorio,AOC 24 polegadas 144 Hz existente,,ausente,,Potencia de entrada ausente; nao equivale a zero,Escritorio/Setup.md
+EQ29,escritorio,Samsung UN43CU7700GXZD,,ausente,,Potencia de entrada ausente; nao equivale a zero,https://www.samsung.com/br/tvs/uhd-4k-tv/cu7000-43-inch-un43cu7700gxzd/
+EQ44,quarto,Carregadores/cargas das duas cabeceiras,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ44
+EQ46,cozinha,Liquidificador,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ46
+EQ47,cozinha,Sanduicheira,,ausente,,Potencia de entrada ausente; nao equivale a zero,Lista_equipamentos.csv EQ47
