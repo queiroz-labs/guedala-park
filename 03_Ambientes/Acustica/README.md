@@ -41,6 +41,8 @@ Para orientar a conferência, referências secundárias de 2025 reproduzem **66�
 
 ## Mantas: opções pesquisadas, nenhuma adotada
 
+**Busca brasileira complementar:** [nove fontes e pendências](Fontes_brasileiras.csv). Aubicon Piso Acabado oferece 3 e 5 mm para vinílico, mas falta homologação do conjunto Olmo/cola, laudo e preço. Tarkett dispensa manta em orientação geral; isso não comprova desempenho do imóvel nem dispensa a convenção. ProAcústica confirma referências/edições, sem acesso integral às tabelas. Nenhuma compra ou contato.
+
 [Catálogo Tarkett abril/2025, p.4 e 8](https://consolidado.tarkett.com.br/images/arquivos/51381%20(21995)%20-%20TARKETT%20INSTITUCIONAL%20-%20LINHA%20AMBIENTA%20-%20CATA%CC%81LOGO%202025%20DIGITAL%20-%20ABRIL25%20-%20V12_17442216514196.pdf) confirma Olmo 24192727 e ΔLw 4 dB da linha padrão 3 mm. Porém, informa capa 0,55 mm versus 0,50 mm do documento local: **confirmar lote**, sem trocar especificação. O relatório completo do Olmo não foi obtido.
 
 | Opção dentro de 1,5–5 mm | Evidência e compatibilidade | Preço observado / quantidade nominal |
@@ -76,7 +78,7 @@ O [manual técnico OSHA, III.5, campos sonoros e apêndice B](https://www.osha.g
 | LG 9, velocidade alta | 38 | 31,98 | 25,96 |
 | LG 12, alta | 42 | 35,98 | 29,96 |
 | LG 18, alta | 45 | 38,98 | 32,96 |
-| Depurador H=50 / 60 / 70 | 50 / 60 / 70 | 43,98 / 53,98 / 63,98 | 37,96 / 47,96 / 57,96 |
+| Depurador, varredura arbitrária H=50 / 60 / 70 | 50 / 60 / 70 | 43,98 / 53,98 / 63,98 | 37,96 / 47,96 / 57,96 |
 
 Valores em dB(A), **exercício condicional**, não níveis previstos no quarto/sala. H=50/60/70 é varredura arbitrária explicitamente hipotética, não faixa típica pesquisada do Suggar. Sem especificação sonora não se oferece falsa estimativa de equipamento. O CSV repete receptores quarto_H e sala_H com distâncias H de 1/2/4 m e D=0/10/20 dB; não infere parede ou posição pela planta. Cozinha/sala abertas não recebem isolamento automático. Para fontes simultâneas no mesmo receptor: `10log10(Σ10^(Li/10))`; dois sons de 40 dB resultam em 43,01 dB, não 80. Fundo e reverberação ausentes impedem soma real.
 
@@ -90,7 +92,7 @@ Valores em dB(A), **exercício condicional**, não níveis previstos no quarto/s
 | H02 melhoria total | 0 / 4 / 10 / 18 dB | Hipótese algébrica; ensaio completo com Olmo ausente |
 | H03 distância | 1 / 2 / 4 m, r0=1 m | Hipótese; nem catálogo nem implantação confirmam r0 |
 | H04 perda adicional | 0 / 10 / 20 dB | Hipótese; não Rw ou DnT,w da parede |
-| Depurador | 50 / 60 / 70 dB(A) em r0 fictício | Sensibilidade sem atribuição ao produto; dado real ausente |
+| Depurador | 50 / 60 / 70 dB(A) em r0 fictício | Varredura arbitrária, não típica; dado real ausente |
 | Área / custo | 30,8101 m² / R$ 1.500 | Quantidade nominal e verba histórica; não cotação |
 
 Recomendações NOMINAIS: manter a escolha estética do Olmo, mas **não comprar manta genérica**; pedir solução completa colada compatível e ensaiada. Manter rodapé como acabamento até existir detalhe perimetral do sistema: material/cor não demonstram isolamento, e pontes rígidas podem prejudicar uma camada resiliente. Comparar ruído LG no modo realmente necessário após carga térmica, sem escolher potência menor só pelo silêncio. Não posicionar split ou substituir depurador com base nestas contas.
@@ -112,6 +114,8 @@ Perguntas exatas (não houve contatos):
 
 `python -B -m unittest discover -s ferramentas/estudos -p test_acustica_cenarios.py`
 
-Cinco testes analíticos: fórmula de massa, distância, referência/perda, soma energética e domínio. Não validam o apartamento. SHA256 de Cenarios.csv: `d1554604056490b1f8fbf115a4ab868b8d9df878941a19a5dc768b874c5cf7bd`.
+Seis testes: massa, distância, referência/perda, soma, domínio e rótulo arbitrário do depurador no CSV. Não validam o apartamento. SHA256 de Cenarios.csv: `a25d1aed6de4d364e45ead1d3daf5e2c32aaca273580465593b5089ef74a3cd6`.
+
+SHA256 Fontes_brasileiras.csv: `8f01707b27d02f548de12ee3027785e416595c2295ad5c8a9eb994e60529f3d1`.
 
 Limitações de pesquisa: Firecrawl exigiu identificador de conexão indisponível; pesquisa prosseguiu pela ferramenta web. PDFs atuais Tarkett/Mapei e artigo ANTAC retornaram 403; link profundo ABNT expirado; UFRGS inacessível pela ferramenta. Nenhuma rota negada foi contornada. Texto normativo integral e preço de kit compatível não obtidos; por isso não há avaliação normativa ou custo/ganho inventados. Conteúdo de fabricante acessível e evidências locais foram separados das hipóteses.

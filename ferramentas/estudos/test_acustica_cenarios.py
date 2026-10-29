@@ -1,8 +1,17 @@
 import unittest
+import csv
+from pathlib import Path
 from acustica_cenarios import base_homogenea, campo_livre, somar_niveis
 
 
 class AcusticaTest(unittest.TestCase):
+    def test_csv_depurador_identifica_hipotese_arbitraria(self):
+        path=Path(__file__).resolve().parents[2]/'03_Ambientes/Acustica/Cenarios.csv'
+        with path.open(encoding='utf-8') as f:
+            rows=[r for r in csv.DictReader(f,delimiter=';') if r['origem'].startswith('depurador_H/')]
+        self.assertEqual(len(rows),54)
+        self.assertTrue(all('varredura arbitraria, nao tipica' in r['limite'] for r in rows))
+
     def test_massas_analiticas(self):
         self.assertAlmostEqual(base_homogenea(100),94)
         self.assertAlmostEqual(base_homogenea(200),83.4639501518)

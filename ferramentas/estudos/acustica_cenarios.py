@@ -49,7 +49,7 @@ def gerar():
                                          receptor=receptor, massa_kg_m2='', delta_total_db='', lp_ref_dba=lp,
                                          distancia_m=distancia, perda_adicional_db=perda,
                                          resultado_db=round(campo_livre(lp,distancia,perda=perda),3),
-                                         metrica='Lp_H_dBA', limite='sem posicao real; sem reverberacao ou fundo'))
+                                         metrica='Lp_H_dBA', limite=('varredura arbitraria, nao tipica; ' if modelo=='depurador_H' else '') + 'sem posicao real; sem reverberacao ou fundo'))
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / 'Cenarios.csv'
     with path.open('w', encoding='utf-8', newline='') as file:
