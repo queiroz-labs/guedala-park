@@ -1,5 +1,7 @@
 # Alteração vigente — 22/10/2026
 
+**Atualização de 29/10/2026:** a cama atual é a viúva com baú 128 × 188 × 64 cm; queen somente bem depois da mudança, com reserva 160 × 200. Fonte: [Cama no README](README.md#cama). As menções anteriores a queen existente e suas cotas são históricas; não alteram a cama atual nem comprovam conforto/fixação da cabeceira.
+
 **Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
 
 Elias solicitou remover os dois apoios para celular e óculos, inclusive do FreeCAD. Esta decisão substitui as menções à manutenção desses apoios no histórico abaixo. Cabeceira, armário superior e iluminação permanecem no escopo; não reduzir armazenamento.

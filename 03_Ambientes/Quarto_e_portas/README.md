@@ -34,7 +34,7 @@ Estofada lisa em dois painéis, sem capitonê ou ripado, tecido **E2 Suede Areia
 
 ## Pendências
 
-- Medidas externas da queen escolhida, altura final e base.
+- Para a troca futura: modelo, medidas externas, altura e base da queen; reserva 160 × 200 preservada (29/10/2026).
 - Cama viúva real: confirmar 128 × 188 na peça e se a mala grande cabe deitada no baú de 25 cm de profundidade útil.
 - Abertura do maleiro para duas malas: conferir passagem livre mínima 570 ×260 mm; perfis reais de correr ou grupo/giro das portas laterais propostas. Malas reais ainda não medidas.
 - P03: Elias prefereA672 ×306 eArenza liso; baseMDFBP Greenplac 18, ArenzaColore/Lizze nas duas faces de cada peça P03. Confirmar SKU/substrato e peças de eventual conjunto 18+15; porta de referência 2,55 kg antes de acessórios, hipótese acabada 4kg mantida. Corredor nominal em 86°602/1203; grupo de três/extremos 202, capacidade da folha larga, corpos/fixações e caixa 20 kg pendentes. B650 secundária; R52 preservada.
