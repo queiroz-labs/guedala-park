@@ -117,6 +117,13 @@ Reproduzir custo: `python -B ferramentas/estudos/custo_plano_corte.py`; três te
 
 ## Integridade dos CSVs gerados
 
+Complemento: [Custos_propostas.csv](Custos_propostas.csv) traz 63 linhas (sete propostas isoladas × três cenários × três opções Off-white). Todas mantêm 15 chapas, 13 com referência/provisão: parcial Lume R$ 5.556,43–6.366,81; Areia R$ 5.610,94–6.421,32; Nuvem R$ 5.574,11–6.384,49. Delta precificável de chapas = R$ 0, **não custo zero da alteração**. Fita e total ficam vazios; IDs bloqueados e custos ausentes são explícitos. Soco: 54 bloqueados; P15: 34; bancada: 36; demais: 33, além do fundo fora do formato. Não herdar fita da base para peças alteradas.
+
+`../outputs/Plano_de_corte/Retalhos.csv`: 4.588 retângulos, com variante, cenário, cor, espessura, SVG/chapa, posição, dimensões, área e indicador de ambas as dimensões >300 mm. Não acumular cenários/variantes nem confundir retalho pequeno com reaproveitável. Arquivo volumoso fora do Git, sem crédito financeiro. Exportador: `python -B ferramentas/estudos/complementar_corte.py`; três testes em `test_complementar_corte.py`. Lê o plano persistido com SHA conferido; não reotimiza nem muda desenhos.
+
+SHA256 Retalhos.csv: `74c6a69119901922bc8c93eb7819dab470f9faaa9f3105ea24292c98a6cb8448`.
+SHA256 Custos_propostas.csv: `cc9eed06e0e80b2c705162870951c4293ff7777e584c691ccb78dc7f83361c62`.
+
 | Arquivo | SHA256 |
 |---|---|
 | Lista_de_corte.csv | `814bebb168e4ee8c1cc81e86bb830e644f89da72f7e446d08ec13aed4f235678` |
