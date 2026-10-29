@@ -1,0 +1,13 @@
+modulo,ambiente,x_cm,z_cm,base_cm,largura_cm,profundidade_cm,altura_cm,projecao_largura_altura_m2,desconto_adotado_m2,motivo
+P01,quarto,1.0,329.6,0.0,200.0,64.4,213.2,4.264,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P02,quarto,1.0,289.0,213.2,65.0,105.0,30.8,0.2002,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P03,quarto,66.0,329.0,213.2,135.0,65.0,30.8,0.4158,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P04,quarto,1.0,109.0,213.2,25.0,180.0,30.8,0.077,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P09,cozinha,385.5,665.0,195.8,65.0,35.0,59.2,0.3848,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P10,cozinha,450.5,665.0,153.2,54.7,35.0,101.8,0.5568,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P11,cozinha,505.2,665.0,194.0,69.7,35.0,61.0,0.4252,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P12,cozinha,574.9,665.0,196.6,80.1,35.0,58.4,0.4678,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P13,cozinha,505.2,653.0,153.2,69.7,47.0,1.8,0.0125,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P15,lavanderia,302.0,665.0,165.0,83.5,35.0,58.0,0.4843,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P17,escritorio,255.0,90.0,190.0,35.0,200.0,55.0,0.1925,0,Envelope não comprova face encostada; pintura antes da montagem mantida
+P19,banho,404.0,514.0,115.0,60.0,15.0,75.0,0.45,0,Envelope não comprova face encostada; pintura antes da montagem mantida

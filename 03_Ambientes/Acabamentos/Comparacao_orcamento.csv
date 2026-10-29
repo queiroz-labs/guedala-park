@@ -1,0 +1,13 @@
+item,quantidade_orcamento,quantidade_cenario,unidade,diferenca,causa_limite
+R01 vinílico compra,35.8,30.8101,m2,-4.9899,Compra inclui cortes; área líquida não prova redução de caixas nem repete plano de corte
+Base R44 sete retângulos,31.4485,30.8101,m2,-0.6384,"Agora união sem dupla contagem; soleiras gráficas atuais incluídas, não somar novamente 0,48"
+R02/R03 serviço,34,30.8101,m2,-3.1899,Área geométrica versus verba de serviço; mínimo/preparação podem persistir
+R04 rodapé/transições,35,37.03,m,2.03,Antes de desconto de armários; transições e perdas não incluídas
+R06 Satin área histórica,2.4,1.6696,m2,-0.7304,Área líquida fora do box; quantidade por caixa do SKU pendente
+R08 verde compra,3.74,2.07,m2,-1.67,H05A com 15%; orientação/altura divergentes do orçamento; paginação pendente
+R08B claro compra,5,4.7725,m2,-0.2275,H05A com 15% e janela descontada; produto não definido
+R09 lavanderia compra,3.24,2.28459,m2,-0.95541,"Duas caixas vigentes de 1,62; reserva15% não implica reduzir a uma caixa"
+R11 base de assentamento,12,10.5982,m2,-1.4018,H05A: pisos+paredes sem perdas; enchimento e arremates ausentes; não reduzir verba automaticamente
+O06 tinta paredes,21.6,16.2234,L,-5.3766,H05A catálogo acabado +20%; produto/cobertura real pendentes
+O06 tinta teto,7.2,6.3826,L,-0.8174,"Rendimento normalizado da embalagem0,9L oficial; conferir embalagem exata antes de compra"
+O07 forro escritório,7,6.785,m2,-0.215,Projeção horizontal; faixas/cortineiros/minimum de serviço não calculados

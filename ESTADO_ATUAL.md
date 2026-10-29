@@ -34,6 +34,8 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 **Clima:** [parcelas e opções](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; carga total e infraestrutura pendentes.
 
+**Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box a compatibilizar.
+
 ## Onde estamos
 
 | Etapa | % | Situação |

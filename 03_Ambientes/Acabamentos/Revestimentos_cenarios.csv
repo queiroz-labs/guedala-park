@@ -1,0 +1,10 @@
+item,cenario,area_liquida_m2,reserva_percentual,area_com_reserva_m2
+Piso EXT box,H04 planta do desenho,0.992,15,1.1408
+Piso Satin fora box,H04 piso total menos box,1.6696,15,1.92004
+Piso lavanderia,"cota oficial 1,29 x 1,54",1.9866,15,2.28459
+Parede verde,"H05A site: 0,80 x 2,25",1.8,15,2.07
+Parede verde,"H05B mesma parede até 2,50",2.0,15,2.3
+Parede verde,"H05C orçamento: 1,24 x 2,47",3.0628,15,3.52222
+Paredes claras box,"H05A: (1,24 + 0,80) x 2,25 menos janela 0,40 x 1,10",4.15,15,4.7725
+Paredes claras box,"H05B: (1,24 + 0,80) x 2,50 menos janela",4.66,15,5.359
+Paredes claras box,"H05C orçamento: 2 x 0,80 x 2,47 sem descontar janela",3.952,15,4.5448
