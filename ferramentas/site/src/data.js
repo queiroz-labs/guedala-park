@@ -37,7 +37,7 @@ const PROJECT={
     {
       "id": "quarto",
       "name": "Quarto",
-      "sub": "Queen e armazenamento",
+      "sub": "Cama viúva atual e armazenamento",
       "bounds": [
         -10,
         90,
@@ -483,16 +483,28 @@ const ITEMS=[
     "notes": "Com a mesa fechada, duas cadeiras nas pontas e uma na lateral. Com a mesa aberta, as três vão para a lateral, arranjo a testar no local. O desenho não comprova a passagem com pessoas sentadas. Madeira em tom próximo ao Arenza e estofado claro."
   },
   {
+    "id": "bed",
+    "room": "quarto",
+    "name": "Cama viúva com baú · atual",
+    "kind": "bed",
+    "dimensions": "128 × 188 × 64 cm · baú 42 (pés 5) + colchão 22",
+    "choice": "Existente",
+    "measure": "Conferir a cama real e a mala no baú",
+    "material": "head",
+    "source": "Elias, 29/10/2026: “vamos considerar que agr eu tenho uma cama de viuvo” · anúncio Casas Bahia 1500699729",
+    "notes": "Box com baú viúva e colchão Anjos Classic de molas ensacadas. Vai na mudança e fica por um bom tempo. No eixo da cabeceira: 16 cm a mais de passagem diante do guarda-roupa e 12 cm a mais aos pés do que a queen. Baú com 37 cm de altura e 25 cm de profundidade útil: conferir se a mala grande cabe deitada."
+  },
+  {
     "id": "queen",
     "room": "quarto",
-    "name": "Cama queen com baú · futura",
+    "name": "Cama queen com baú · troca futura",
     "kind": "bed",
     "dimensions": "Reserva 200 × 160 cm · colchão padrão 198 × 158",
     "choice": "Tamanho futuro escolhido",
-    "measure": "Base futura e cama atual não medidas",
+    "measure": "Modelo a escolher perto da troca",
     "material": "offwhite",
     "source": "16/10/2026",
-    "notes": "Na mudança vai a cama de viúvo com baú que já existe, ainda sem medidas. Depois, ela será trocada por uma queen com baú. O desenho usa um volume de 160 × 200 cm, com 60 cm de altura, no mesmo eixo para as duas fases. A mala grande deve caber em um compartimento do baú."
+    "notes": "Troca prevista bem depois da mudança. O desenho mostra a reserva de 160 × 200 cm, translúcida, no mesmo eixo da cama atual. O guarda-roupa e a passagem foram dimensionados para ela. A mala grande deve caber no baú."
   },
   {
     "id": "wardrobe",
@@ -1408,7 +1420,7 @@ const INTERNALS={
 const ROOM_NOTES={
   "all": "Planta oficial da Torre 2, final 06. Todos os ambientes ficam prontos antes da mudança. Aparelhos escolhidos, ainda sem compra. Medidas e instalações reais a conferir no imóvel.",
   "sala": "Sofá-cama Bonnie, mesa extensível Berlin e banco com baú. Espaço de guarda para até três jogos, aspirador, balde, potes e bebidas. TV com aplicativos na própria tela: Philips Ambilight preferida, TCL como alternativa.",
-  "quarto": "Cama de viúvo atual na mudança e queen com baú no futuro. Guarda-roupa de 65 cm, armários superiores alinhados a 213,2 cm e armário de canto independente. A mala grande deve caber no baú da cama.",
+  "quarto": "Cama viúva com baú (128 × 188) na mudança; queen com baú bem depois. Guarda-roupa de 65 cm, armários superiores alinhados a 213,2 cm e armário de canto independente. A mala grande deve caber no baú da cama.",
   "escritorio": "Prioridade para o trabalho, com o sofá-cama Daiane para hóspedes. O armário superior guarda o equipamento de ciclismo em prateleiras reguláveis. Medidas, peso e alcance a conferir.",
   "cozinha": "Forno Fischer Infinity com grill, cooktop Electrolux KE4GC a gás natural, armários superiores em Azul Petróleo e base em Arenza. Faltam conferir montagem, elétrica, gás, pedra e ventilação.",
   "lavanderia": "Tanque integrado de 38 × 35 × 20 cm, cesto de frente lisa Arenza com saco removível e varal vertical de 100 × 50 cm. Pedra contínua e pintura fosca; tomada fixa de 20 A e luz 3000 K independente. Air fryer e cafeteira só funcionam aqui sem roupas no varal. Hidráulica, ferragens, aquecedor e pontos em estudo.",

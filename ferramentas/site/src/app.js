@@ -87,9 +87,11 @@ function buildScene(){nodes=[];nodeSequence={};
   // Berlin surfaces, base reference and both chair arrangements come from CAD_DATA.
   // Quarto: more space at wardrobe; no TV and no blue furniture.
   const hx=state.headDepth;
-  slab('queen','quarto',hx,120,200,160,0,34,'head',3);slab('queen','quarto',hx,120,200,160,34,26,'offwhite',5);
-  slab('queen','quarto',hx+65,121,134,158,60,2,'#c9c1ae',3);
-  slab('queen','quarto',hx+5,130,44,62,60,9,'#faf8ee',6);slab('queen','quarto',hx+5,207,44,62,60,9,'#faf8ee',6);
+  // Cama viúva atual (128 × 188; baú 42 + colchão 22) no eixo da cabeceira; a queen futura fica como reserva translúcida.
+  slab('bed','quarto',hx,136,188,128,0,42,'head',3);slab('bed','quarto',hx,136,188,128,42,22,'offwhite',5);
+  slab('bed','quarto',hx+62,137,124,126,64,2,'#c9c1ae',3);
+  slab('bed','quarto',hx+5,141,44,56,64,9,'#faf8ee',6);slab('bed','quarto',hx+5,203,44,56,64,9,'#faf8ee',6);
+  add('queen','quarto',hx,120,200,160,0,60,'offwhite','box',{opacity:.16});
   slab('headboard','quarto',0,120,hx,160,20,95,'head',2);
   cabinet('wardrobe','quarto',0,335,200,60,0,240,'offwhite',[215],[99.1]);
   if(state.inside){

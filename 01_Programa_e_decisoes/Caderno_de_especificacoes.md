@@ -1,6 +1,6 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-28 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R54). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
+Gerado em 2026-10-29 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R54). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -54,7 +54,8 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 | Item | Situação | Medidas de referência | Observação |
 |---|---|---|---|
-| Cama queen com baú · futura | Tamanho futuro escolhido | Reserva 200 × 160 cm · colchão padrão 198 × 158 | Na mudança vai a cama de viúvo com baú que já existe, ainda sem medidas. |
+| Cama viúva com baú · atual | Existente | 128 × 188 × 64 cm · baú 42 (pés 5) + colchão 22 | Box com baú viúva e colchão Anjos Classic de molas ensacadas. |
+| Cama queen com baú · troca futura | Tamanho futuro escolhido | Reserva 200 × 160 cm · colchão padrão 198 × 158 | Troca prevista bem depois da mudança. |
 | Guarda-roupa de 65 cm e armário de canto | Aprovado | 200 ×65 cm · conjunto superior até 244 cm no cenário | Profundidade de 65 cm. |
 | Cabeceira estofada em dois painéis | Aprovado | Composição em dois painéis · cotas de estudo no modelo | Cabeceira clara estofada, em dois painéis. |
 | Armários superiores em L | Aprovado para desenvolver | Profundidades 65 e 25 cm · base a 213,2 cm · topo a 244 cm | O armário sobre o guarda-roupa e o da cabeceira ficam alinhados pela mesma face inferior, sem móvel empilhado. |
@@ -133,7 +134,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 ## 3. Resumo
 
-66 itens: 34 decididos, 20 decididos com execução em desenvolvimento e 12 parciais, futuros, existentes ou em revisão.
+67 itens: 34 decididos, 20 decididos com execução em desenvolvimento e 13 parciais, futuros, existentes ou em revisão.
 
 Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).
 

@@ -13,7 +13,8 @@ const ITEM_COPY={
  table:['Mesa extensível Berlin','Mesa pronta que abre de 110 para 170 cm. Confira as cadeiras e a passagem perto do sofá. A cor do desenho é aproximada.'],
  bench:['Banco com baú','Banco com duas tampas e duas almofadas removíveis em suede areia escolhido. Retire as almofadas antes de abrir. Falta testar as dobradiças, as travas e o peso suportado.'],
  diningchairs:['Três cadeiras de jantar','Na mesa fechada, duas cadeiras ficam nas pontas e uma na lateral. Confira a disposição e a passagem com a mesa aberta.'],
- queen:['Cama queen com baú · troca futura','A cama atual é de viúvo e será usada na mudança. A queen com baú fica para depois. Meça as duas camas e confira se a mala cabe no baú.'],
+ bed:['Cama viúva com baú · atual','A cama que você já tem, 128 × 188 cm, vai na mudança. O baú tem 25 cm de profundidade útil: confira se a mala grande cabe deitada.'],
+ queen:['Cama queen com baú · troca futura','Troca para bem depois da mudança. O desenho mostra a reserva da queen, translúcida, no mesmo eixo da cama atual.'],
  wardrobe:['Guarda-roupa','Uma metade para cada pessoa, com quatro gavetas e espaço para sapatos e roupas longas. Confira as portas, os cabideiros e as medidas antes de fabricar.'],
  headboard:['Cabeceira em suede areia','Dois painéis lisos em suede areia escolhido. No quarto, brilho em três níveis pelo interruptor comum; arandelas e indireta com comandos separados. Confira amostra, medidas e fixação.'],
  bedcabinet:['Armários sobre a cama e o guarda-roupa','Armários alinhados, com duas portas independentes no canto. Confira o teto, os materiais e a abertura de cada porta.'],
@@ -106,7 +107,7 @@ PROJECT.note='O desenho mostra o projeto. Confira as medidas e a montagem antes 
 Object.assign(ROOM_NOTES,{
  all:'Escolha um ambiente para ver os móveis e as medidas.',
  sala:'Mesa extensível, três cadeiras e banco com baú. Confira as passagens e a abertura dos móveis.',
- quarto:'A cama atual será usada na mudança. A queen com baú fica para depois. Luz geral com três níveis de brilho pelo interruptor comum; peças e instalação a conferir.',
+ quarto:'A cama viúva atual vai na mudança; a queen com baú fica para bem depois. Luz geral com três níveis de brilho pelo interruptor comum; peças e instalação a conferir.',
  escritorio:'Espaço de trabalho que também recebe hóspedes. Confira a abertura do sofá-cama e das gavetas.',
  cozinha:'Confira os recortes da bancada, a ventilação e o acesso às conexões dos aparelhos.',
  lavanderia:'Confira o varal, o aquecedor e o acesso ao sifão. Use os aparelhos de bancada sem roupas no varal.',
