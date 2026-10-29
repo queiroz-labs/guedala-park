@@ -26,6 +26,9 @@ def calculate(module, row):
                  densidade_equivalente_kg_m3=DENSITY if candidate else '',
                  massa_envelope_cenario_kg=mass if candidate else '',
                  densidade_limiar_25kg_kg_m3=25 / volume,
+                 # Referência de planejamento: mesma densidade equivalente em todos os painéis; não é peso.
+                 massa_referencia_planejamento_kg=volume * DENSITY,
+                 referencia_maior_25kg='sim' if volume * DENSITY > 25 else 'nao',
                  maior_2200mm='sim' if max(c, l, t) > 2200 else 'nao',
                  envelope_cenario_maior_25kg='sim' if mass is not None and mass > 25 else
                  ('nao' if mass is not None else 'indeterminado'),
@@ -65,6 +68,8 @@ def generate(out):
             maior_massa_entre_paineis_com_cenario_kg=biggest['massa_envelope_cenario_kg'] if biggest else '',
             paineis_maiores_2200mm=' | '.join(r['id'] for r in panels if r['maior_2200mm'] == 'sim'),
             envelopes_cenario_maiores_25kg=' | '.join(r['id'] for r in known if r['envelope_cenario_maior_25kg'] == 'sim'),
+            massa_referencia_paineis_kg=sum(r['massa_referencia_planejamento_kg'] for r in panels),
+            paineis_referencia_maiores_25kg=' | '.join(r['id'] for r in panels if r['referencia_maior_25kg'] == 'sim'),
             linhas_ferragens_sem_massa=sum(r['movel'] == module for r in hardware),
             massa_total_montada_kg='', status_total='incompleta: não somar como massa final'))
     write_csv(out / 'Massas_por_peca.csv', rows)
@@ -76,7 +81,9 @@ def generate(out):
                 paineis=len(rows), paineis_com_cenario=sum(r['massa_envelope_cenario_kg'] != '' for r in rows),
                 volume_envelope_total_m3=sum(r['volume_envelope_m3'] for r in rows),
                 maiores_2200mm=[r['id'] for r in rows if r['maior_2200mm'] == 'sim'],
-                envelopes_cenario_maiores_25kg=[r['id'] for r in rows if r['envelope_cenario_maior_25kg'] == 'sim'])
+                envelopes_cenario_maiores_25kg=[r['id'] for r in rows if r['envelope_cenario_maior_25kg'] == 'sim'],
+                massa_referencia_total_kg=sum(r['massa_referencia_planejamento_kg'] for r in rows),
+                referencia_maiores_25kg={r['id']: round(r['massa_referencia_planejamento_kg'], 1) for r in rows if r['referencia_maior_25kg'] == 'sim'})
     (out / 'Resumo.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({k:v for k,v in meta.items() if k != 'entradas_sha256'}, ensure_ascii=False, indent=2))
 

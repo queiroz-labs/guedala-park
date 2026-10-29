@@ -67,6 +67,12 @@ A equivalência de catálogo foi aplicada **condicionalmente** apenas aos 39 IDs
 
 As ferragens em `04_Moveis/Furacao/Ferragens_por_movel.csv` foram relacionadas separadamente, com massa unitária em branco. Não há massa de catálogo rastreável às linhas nas fontes consultadas; capacidade “40 kg” de corrediça é carga de uso, não peso da ferragem. Não foi considerado peso zero para ferragens, fitas, adesivos, puxadores ou componentes ausentes da lista de painéis. A tentativa Firecrawl falhou por saldo insuficiente; a referência pública Greenplac foi conferida pela ferramenta web, sem contato com terceiros.
 
+### Referência de planejamento para os 249 painéis
+
+Para não deixar o transporte sem número, o CSV traz também `massa_referencia_paineis_kg`: **todos** os envelopes × a mesma densidade equivalente de 690 kg/m³ da chapa Greenplac acima. É ordem de grandeza para combinar frete e ajudantes, **não peso**: Branco TX, Azul Petróleo e demais produtos podem ter densidade diferente, e espelhos, ferragens, fitas e recortes não entram. Total dos painéis: **~732 kg**. Por móvel: P01 ~221 kg; P20 ~59; P17 ~54; P06 ~43; P03 ~34; P10 ~31; P05 ~30; os demais entre 4 e 29 kg.
+
+Único painel acima de 25 kg nessa referência: **P01/Peca208, fundo Branco TX 2096 × 1964 × 18, ~51 kg** — prever duas pessoas e confirmar o peso real com o fornecedor. As portas de correr P01/Peca247 e Peca248 (1999 × 995 × 18) ficam em ~24,7 kg, no limite: tratar também como manuseio a dois até haver peso real.
+
 ### Triagem de manuseio
 
 - **Nenhum dos 249 envelopes tem dimensão maior que 2200 mm.** É o critério pedido, não certificação de manuseio individual.
@@ -87,10 +93,10 @@ python -B ferramentas/estudos/massas_manuseio.py
 python -B -m unittest discover -s ferramentas/estudos -p test_massas_manuseio.py
 ```
 
-Quatro testes: conversão exata da chapa publicada e expansão por ID, recusa de extrapolação por cor/espessura, limiar e contorno especial, erro por quantidade inconsistente. A execução gera `Massas_por_movel.csv` nesta pasta; detalhe externo em `../outputs/Massas_manuseio/`, fora do git. O resumo externo registra os hashes das 20 fichas e do inventário de ferragens. Após regeneração, atualizar os hashes abaixo.
+Cinco testes: referência de planejamento, conversão exata da chapa publicada e expansão por ID, recusa de extrapolação por cor/espessura, limiar e contorno especial, erro por quantidade inconsistente. A execução gera `Massas_por_movel.csv` nesta pasta; detalhe externo em `../outputs/Massas_manuseio/`, fora do git. O resumo externo registra os hashes das 20 fichas e do inventário de ferragens. Após regeneração, atualizar os hashes abaixo.
 
 | Arquivo externo | SHA256 |
 |---|---|
-| Massas_por_peca.csv | `6b07c59323c4a0350d34299596cffbe103922a409b99fc2710120397aeac2de2` |
+| Massas_por_peca.csv | `95628cb8585e4ddafea06c5bc5c909af1de46ac2a3efab3615de596a79317f1c` |
 | Ferragens_sem_massa.csv | `900484e9957be882332b1b322fd2fc67b16f61dbdaed6d5aad13ca43a18a892f` |
-| Resumo.json | `afeab7fa54fb1884f355a62ccc1d41648a1a1e232d6e59014310dd7e237a150f` |
+| Resumo.json | `f7aeffc75a3d93f9fcac471e08660f7ace8603e57c429fe7602993cb1e710143` |

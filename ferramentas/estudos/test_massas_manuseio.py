@@ -26,6 +26,12 @@ class MassesTest(unittest.TestCase):
         self.assertAlmostEqual(result['densidade_limiar_25kg_kg_m3'] * result['volume_envelope_m3'], 25)
         self.assertEqual(result['envelope_cenario_maior_25kg'], 'indeterminado')
 
+    def test_planning_reference_covers_every_panel(self):
+        result = calculate('P01', row('Branco TX', c=2000, l=2000, t=18))[0]
+        self.assertEqual(result['massa_envelope_cenario_kg'], '')
+        self.assertAlmostEqual(result['massa_referencia_planejamento_kg'], 0.072 * 63.2 / (2.75 * 1.85 * .018))
+        self.assertEqual(result['referencia_maior_25kg'], 'sim')
+
     def test_quantity_mismatch_stops(self):
         data = row()
         data['Qtd'] = '1'
