@@ -69,7 +69,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Duas gavetas à esquerda | Parcial | 40 × 45 × 24 cm total · proposta | Duas gavetas à esquerda, com abertura total e puxador discreto. |
 | Notebook + dois monitores + CH360 | Aprovado | 2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm | Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. |
 | Sofá-cama Daiane cinza-claro | Aprovado | 140 × 90 fechado / 140 × 182 aberto cm | Braço junto à parede da porta no cotidiano. |
-| Cadeira de escritório | Em estudo | 74,5 × 73 cm · altura 120 ilustrativa | Ultra Comfort e LiberNovo são as candidatas. |
+| Cadeira Ercathe A01 Mesh Premium · preta | Escolhido | Assento 50 × 50 cm a 50–57 cm do piso · braços 29–36 cm acima do assento (anúncio) · envelope 74,5 × 73 mantido | 100% mesh, lombar com ajuste de altura e profundidade, braços 3D, encosto até 145° e apoio de pés retrátil. |
 | Armário superior sobre o sofá-cama | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Topo a 245 cm, 15 cm abaixo do pé-direito de projeto de 2,60 m (a confirmar no imóvel). |
 | Prateleira alta dos consoles | Parcial | 110 × 35 cm · topo a 195 cm | Altura definida para não atrapalhar a passagem. |
 | Samsung 43″ existente | Existente | 97 × 56 × 5 cm · gabarito | Parede oposta ao sofá. |
@@ -134,7 +134,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 
 ## 3. Resumo
 
-67 itens: 36 decididos, 20 decididos com execução em desenvolvimento e 11 parciais, futuros, existentes ou em revisão.
+67 itens: 37 decididos, 20 decididos com execução em desenvolvimento e 10 parciais, futuros, existentes ou em revisão.
 
 Especificação técnica de marcenaria (chapas, ferragens, furação por peça): [fichas R15](../06_Entregas/Fichas_fabricacao/index.html).
 

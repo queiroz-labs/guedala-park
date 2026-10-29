@@ -55,6 +55,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** TV Philips 50PUG8100 Ambilight e soundbar Philips TAB4000 (29/10); sofá Bonnie; mesa Berlin pronta com três cadeiras; banco baú com duas tampas presas por dobradiça piano e articuladores com trava (protótipo pendente).
 - **Quarto:** roupeiro de 65 cm com portas de correr; cama viúva 128×188 atual (29/10), queen bem depois. Geral smart com brilho regulável, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin 48D18WSRWIFI só no quarto (Elias 27/10/2026); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente.
+- **Escritório:** cadeira Ercathe A01, R$ 2.290,90 fora do orçamento (29/10).
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
 - **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).

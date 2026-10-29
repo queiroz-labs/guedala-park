@@ -22,7 +22,7 @@ const ITEM_COPY={
  drawers:['Duas gavetas no escritório','Gavetas à esquerda, com abertura total e puxador discreto. Confira se abrem com o sofá-cama em uso.'],
  setup:['Notebook, dois monitores e computador','Notebook à esquerda e computador à direita. Falta confirmar os modelos dos monitores e os braços de suporte.'],
  daiane:['Sofá-cama Daiane','Sofá cinza-claro que abre em direção à janela. Confira o espaço para girar e abrir a cama.'],
- officechair:['Cadeira do escritório · a escolher','Ultra Comfort e LiberNovo são opções. Confira a altura dos braços e o espaço sob a bancada antes de escolher.'],
+ officechair:['Cadeira Ercathe A01','Escolhida em 29/10/2026, fora do orçamento. Meça a altura dos braços abaixados: eles podem não passar sob a bancada.'],
  officecab:['Armário sobre o sofá-cama','Aéreo em marfim claro, liso e fosco escolhido para deixar o teto mais leve. Prateleiras ajustáveis para capacete, sapatilha e ferramentas. Confira amostra, alcance, peso e folga até o teto.'],
  officeshelf:['Prateleira dos videogames','Prateleira alta para os videogames. Confira o acesso, a posição e o peso suportado.'],
  tv43:['TV Samsung de 43 polegadas','TV já existente, na parede oposta ao sofá. Meça o aparelho e o suporte. Confira a abertura da porta.'],

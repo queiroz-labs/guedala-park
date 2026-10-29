@@ -56,6 +56,14 @@ Reproduzir com `python -B ferramentas/estudos/cronograma_risco.py --saida ../out
 
 Valores antigos nos documentos são históricos quando divergem do Orcamento_R43. Nada foi contratado ou comprado.
 
+## Compras fora do orçamento
+
+Valores para referência; não entram na verba nem na reserva.
+
+| Item | Valor | Fonte |
+|---|---:|---|
+| Cadeira Ercathe A01 Mesh Premium, preta (escritório) | R$ 2.290,90 | [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |
+
 Controle de 25/10 consolidado em 26/10 no plano: matriz 20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia 26 em andamento. Reserva de 30–31/10 mantida para integração e conferência.
 
 Plano enxugado em 26/10/2026: cada tarefa T01–T09 indica situação, bloqueio e fonte técnica. Objetivo, prioridades, agenda, critérios, regras de corte e controle diário preservados; medição mantém somente a matriz 20/20 concluída. Retomar T02/T03 (juntas/suspensão); enquanto a oficina estiver indisponível, continuar T04.

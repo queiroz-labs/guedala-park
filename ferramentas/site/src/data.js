@@ -594,14 +594,15 @@ const ITEMS=[
   {
     "id": "officechair",
     "room": "escritorio",
-    "name": "Cadeira de escritório",
+    "name": "Cadeira Ercathe A01 Mesh Premium · preta",
     "kind": "chair",
-    "dimensions": "74,5 × 73 cm · altura 120 ilustrativa",
-    "choice": "Em estudo",
-    "measure": "Candidata",
+    "dimensions": "Assento 50 × 50 cm a 50–57 cm do piso · braços 29–36 cm acima do assento (anúncio) · envelope 74,5 × 73 mantido",
+    "choice": "Escolhido",
+    "measure": "Medir braços e base: podem não entrar sob o tampo",
     "material": "black",
-    "source": "F89 / F94",
-    "notes": "Ultra Comfort e LiberNovo são as candidatas. Durante visitas, a cadeira fica no próprio escritório. Falta definir a altura mínima dos braços."
+    "source": "Elias, 29/10/2026: “será Cadeira Ergonômica Mesh Ercathe A01 Premium”",
+    "notes": "100% mesh, lombar com ajuste de altura e profundidade, braços 3D, encosto até 145° e apoio de pés retrátil; até 150 kg e 1,95 m. Durante visitas, fica no próprio escritório. Pelos números do anúncio, o topo dos braços fica a 79 cm ou mais do piso, acima dos ~72 cm livres sob uma bancada de 75 cm: guardar a cadeira inteira sob o tampo deixa de ser garantido. R$ 2.290,90 na Sensetup em 29/10/2026, fora do orçamento.",
+    "budget": "R$ 2.290,90 · fora do orçamento"
   },
   {
     "id": "officecab",
