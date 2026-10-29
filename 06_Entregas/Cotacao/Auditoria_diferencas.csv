@@ -1,0 +1,3 @@
+﻿arquivo;item;valor_documentado;valor_recalculado;delta;unidade;classe;causa
+04_Moveis/Furacao/Fita_por_cor.csv / Fita_por_peca.csv;Fita com perda: soma por grupo x soma por peca;210.2496;210.2498;0.0002;m;bases de arredondamento distintas;"Perda 10% arredondada a 4 casas em cada peca versus em cada grupo; nao e falta de fita nem credito comercial"
+04_Moveis/Furacao/Ferragens_documentais.csv / Mapa_conectores.csv;P19 Minifix documental x mapa;12;8;-4;conjunto;"bases de escopo distintas; decisao pendente";"O mapa e proposta; detalhe documental anterior nao deve ser somado nem substituido automaticamente"

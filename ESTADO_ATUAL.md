@@ -90,13 +90,15 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Corte guilhotinado R54](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | 216 painéis/14 chapas encontradas; 33 excluídos. P13 incluído; produto, formatos e blanks a confirmar (28/10) |
 
+**Cotação:** [auditoria](06_Entregas/Cotacao/README.md): 101 linhas; zero erros aritméticos; P19 mantém bases distintas.
+
 ## Próximos passos
 
 1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Responsáveis a contratar:** projeto — juntas/rigidez/interfaces; oficina — ferragens, P15 e ensaios; RT após chaves — medidas, paredes, ancoragens e piso. Elias decide aparência.
+**Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
 ## Como trabalhar nesta pasta
 
