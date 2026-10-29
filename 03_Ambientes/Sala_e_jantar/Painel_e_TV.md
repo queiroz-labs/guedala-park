@@ -1,5 +1,7 @@
 # Sala — painel e tamanho da TV
 
+**Atualização de 29/10/2026:** Philips 50PUG8100/78 Ambilight escolhida; TCL 50P7K apenas reserva. Soundbar Philips TAB4000 escolhida, 76 × 6,5 × 10,5 cm, HDMI ARC; Sony HT-S100F apenas alternativa. Fonte: [decisões e citações no README](README.md#tv-e-painel). Os blocos datados abaixo preservam a pesquisa anterior; escolha de aparelho não confirma fixação, instalação ou compra.
+
 ## 17/10/2026 — candidata atual e compatibilidade dos aplicativos
 
 Manter50 polegadas, preferênciaAmbilight e tetoR$3000 somente TV. Philips50PUG8100/78 segue candidata, sem modelo adotado nem compra. [Produto oficial](https://www.philips.com.br/c-p/50PUG8100_78) · [ficha oficial](https://www.documents.philips.com/assets/20251120/61496b40626a4cc09bb2b39b009e6a5f.pdf) · [manual oficial](https://www.documents.philips.com/assets/20250626/bc9b71e9ab744d19a369b3080031fc18.pdf).
