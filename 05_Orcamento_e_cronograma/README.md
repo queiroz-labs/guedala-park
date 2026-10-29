@@ -1,49 +1,77 @@
 # Orçamento e cronograma
 
-## Risco do cronograma — frente 6, 28/10/2026
+## Risco do cronograma — escopo registrado em 29/10/2026
 
-**Resultado:** a [fonte R00](Cronograma_obra_e_compras.md) não informa nenhuma moda triangular nem duração de várias etapas. Portanto **P50, P80, probabilidade de terminar em 8 semanas e frequência do caminho crítico não são calculáveis** sem inventar entradas. Solicitados 5.000 cenários; executados **zero cenários do projeto**. O motor valida os dados antes de sortear; não usa moda central, uniforme ou duração zero para preencher lacunas. O teste sintético de 5.000 cenários só verifica o código, não estima este apartamento.
+**Resultado:** rede documental ampliada de 21 para **29 nós, sem ciclos**, com cotação, contratação e abastecimento. **P50/P80, probabilidades dos marcos e caminho crítico global continuam indeterminados**: faltam durações, modas e ligações da conclusão da obra. Foram executados **zero cenários do projeto**, sem preencher lacunas com zero, uniforme ou moda central. Os 5.000 cenários dos testes são sintéticos.
 
-Rede documental com 21 nós, sem ciclos: chaves → medição → executivo → fabricação → inferiores → gabarito → pedras; RT → protocolo → análise → instalações → impermeabilização/cura → revestimentos → pintura-base → vinílico; revestimentos → medição → fornecimento do box. A fonte agrupa marcenaria/pedras/louças/metais/eletros na semana 7–8: esse agregado não foi somado novamente aos componentes. Retoques/testes e mudança não têm dependências completas na tabela; a rede até a mudança permanece incompleta. “Marcenaria” é o caminho crítico **declarado pela fonte**, não uma frequência obtida por simulação.
+Fontes: [cronograma R00](Cronograma_obra_e_compras.md), [pedido de cotação R02](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) e [programa atualizado](../01_Programa_e_decisoes/Programa_de_necessidades.md). Hashes nas saídas. R00 traz **faixas típicas, não respostas de fornecedores**; fontes, orçamento e CAD preservados.
 
-**O que já se calcula:** no cenário do diagrama, fabricação iniciada na semana 2 + 5–6 semanas termina entre 7 e 8. Acrescentar somente os 1–2 de fornecimento de pedras dá **8–10 semanas de parcelas conhecidas**, ainda sem duração de montagem dos inferiores, gabarito, instalação das pedras/metais, limpeza ou esperas. **8–10 não é intervalo da mudança nem limite superior da obra.** O cenário mínimo consome a janela de 8 semanas antes dessas parcelas; a meta de obra em 8 semanas não está demonstrada. A meta de mudança no terceiro mês (9–12) permanece; nenhuma data foi prometida.
+### Dependências e escopo corrente
+
+- Envio → retornos → comparação → contratação → pedido/abastecimento de ferragens. Confirmar fornecimento no pacote e necessidade no início, sem duplicar compra.
+- Chaves → medição → executivo, também dependente de oficina definida e resolução documental dos mecanismos. Executivo + abastecimento → marco de início → fabricação → inferiores → gabarito → pedras. Marco lógico zero não substitui duração ausente de serviço.
+- RT → protocolo → análise → instalações → cura/revestimentos → pintura-base → vinílico; revestimentos → medição do box → fornecimento. O agregado da semana 7–8 não é somado aos componentes. Retoques/testes e mudança ainda não têm predecessores completos: não foram conectados por suposição.
+- **D05-C/D06-B:** cotar integral e etapa sem P16/P17/C01/C03/C04/C05; E06 adiada, E05 mantida. Isso não demonstra redução proporcional de prazo. O fornecedor precisa separar mobilizações e abastecimento.
+- **29/10:** Philips 50PUG8100/78 e TAB4000 identificadas, sem prazo por SKU; cama viúva atual na mudança, queen futura; AOC e TV do escritório existentes, ASUS a comprar; um F80N comprado, outro a comprar. Cadeira/monitores fora da verba não significam já comprados. Volante/pedais retirados não geram compra. Não se aplicou uma faixa genérica de eletros a todos esses modelos.
+
+O pedido permanece **preparado, não enviado**. **30/10/2026 às 18 h, Brasília**, é prazo solicitado de resposta, não confirmação do fornecedor. Sem data de envio, duração de resposta e data das chaves, não se converte esse prazo absoluto em semana relativa nem em probabilidade.
+
+### Marcos calculados pelo motor
+
+| Marco | Alvo documental | Probabilidade | Dado que falta |
+|---|---|---|---|
+| Respostas à cotação | 30/10/2026, 18 h Brasília | Indeterminada | Envio, prazo aceito e calendário das chaves |
+| Oficina escolhida | Antes da semana 0 | Indeterminada | Respostas, comparação e contratação |
+| Início da fabricação | Semana 2 no diagrama | Indeterminada | Medição, executivo, mecanismos, fornecimento e origens pré-chaves |
+| Box recebido | Semana 6 | Indeterminada | Etapas anteriores, medição e moda do fornecimento |
+| Pedras recebidas | Semana 8 | Indeterminada | Inferiores/gabarito e prazo confirmado; não inclui instalação |
+| Obra concluída | Semana 8 | Indeterminada | Rede final, serviços e durações |
+| Mudança | Até semana 12 | Indeterminada | Rede até ocupação e durações; meta continua terceiro mês |
+
+Lacunas geram vazio/`null`, nunca 0% ou 100%; cada marco usa somente seus antecessores.
+
+### Caminho conhecido e o que pode encurtá-lo
+
+Marcenaria é caminho crítico **declarado pela R00**, não demonstrado globalmente. No cenário do diagrama, início em +2 com fabricação de 5–6 semanas termina em +7/+8; somando apenas 1–2 semanas de pedras chega a **+8/+10**. Faltam montagem, gabarito, instalação, limpeza e outras esperas: **8–10 não é intervalo da mudança nem limite superior da obra**.
+
+A sensibilidade restrita aos dois elos conhecidos dá **empate**: passar fabricação de 6 para 5 semanas ou pedras de 2 para 1 reduz essa cadeia em uma semana. Não comprova ganho igual na mudança, pois outra ramificação pode comandar o término. **Não existe item globalmente mais eficaz demonstrado.** A maior espera evitável quantificada na R00 é a fila da oficina, risco de 2–4 semanas, sem probabilidade e sem ganho garantido. Primeira ação útil: revisar/enviar cotação e obter prazo/vaga/escopo da oficina antes das chaves, sem contratar neste estudo.
 
 ### Limites condicionais de pedido
 
-Conta: `semana necessária − maior prazo escrito`. Semanas são relativas às chaves; negativo = antes. São limites para os marcos do planejamento, **não datas garantidas por uma rede completa**. Dias foram divididos por 7; fornecedor deve informar se o prazo usa dias úteis ou corridos. Não se pressupõe compra de itens existentes ou fornecidos no pacote.
+Conta `semana necessária − prazo máximo`, dias/7 (úteis/corridos a confirmar). São limites condicionais; existentes/itens do pacote não geram novas compras.
 
-| Item | Prazo escrito (semanas) | Marco de recebimento usado | Último pedido calculado | Limite da conta |
-|---|---:|---:|---:|---|
-| RT | Ausente | Antes de 0 | A confirmar | Falta duração de contratação; “agora” não é prazo numérico |
-| Ferragens | 1–3 | 2 | −1 | Condição: necessárias no início da fabricação; confirmar com oficina e evitar compra duplicada |
-| Porcelanatos | 1–4 | 2 | −2 | Fonte recomenda −4, com 2 semanas adicionais frente a esse marco |
-| Vinílico | 1–3 | 5 | +2 | Fonte recomenda −3; antecipação de 5 semanas frente a esse marco |
-| Louças/metais | 1–2 | 7 | +5 | Marco é o início do agregado 7–8, sem duração própria de instalação |
-| E21 para gás | 1–2 | 1 | −1 | Fonte manda pedir em +2, mas exige presença na etapa de gás 1–2; sequência contraditória |
-| Eletros | 3–10 dias | 7 | +5,57 | Forno para conferir nicho pode ser necessário antes; marco não informado |
-| Luminárias | 1–3 | 6 | +3 | Coincide com pedido previsto; sem folga no prazo máximo |
-| Estofados | 2–4 | 7 | +3 | Condição de atender início da montagem; confirmar integração ao pacote |
-| Sofás/Berlin/cadeiras | 2–6 | 8 | +2 | Pedido +3/+4 com 6 semanas termina +9/+10, além da primeira semana desejada |
-| Box | 1–3 após medição | 6 | +3 | Exigiria medição em +3; fonte prevê +4/+5, entrega possível +5 a +8. Não antecipável às chaves |
-| Pedras, para terminar até 8 | 1–2 após gabarito | 8 | +6 | Fonte prevê gabarito +7, fornecimento +8 a +9; sem contar instalação. Não antecipável às chaves |
+| Item | Último pedido relativo às chaves | Condição/conflito |
+|---|---:|---|
+| RT | Dado ausente | Contratação antes de 0, duração não informada |
+| Ferragens | −1 | Receber em +2, prazo típico máximo 3; conferir fornecimento da oficina |
+| Porcelanatos | −2 | Receber em +2; R00 recomenda −4 |
+| Vinílico | +2 | Receber em +5; R00 recomenda −3 |
+| Louças/metais | +5 | Início do agregado +7, sem duração de instalação |
+| E21 para gás | −1 | R00 pede em +2 mas exige presença em +1/+2 |
+| Eletros | +5,57 | Receber em +7; forno pode ser necessário antes, marco ausente |
+| Luminárias | +3 | Receber em +6; sem folga no prazo máximo |
+| Estofados | +3 | Receber em +7; escopo da etapa/pacote a confirmar |
+| Sofás/Berlin/cadeiras | +2 | Pedir em +3/+4 com seis semanas entrega em +9/+10 |
+| Box | +3 | Exigiria medição +3; R00 prevê +4/+5, entrega +5 a +8 |
+| Pedras | +6 | Exigiria gabarito +6; R00 prevê +7, entrega +8/+9, sem instalação |
 
-Não há exigência matemática de comprar **todos** os itens antes das chaves. As recomendações antecipadas da fonte foram preservadas, sem transformá-las em autorização de compra. Box e pedras dependem dos marcos físicos já registrados, não de um pedido antecipado arbitrário.
+Box/pedras exigem medição/gabarito após chaves; pedido antecipado não os elimina.
 
-### Dados exatos que faltam
+### Perguntas objetivas e reprodução
 
-- **Fornecedores/oficina:** mínimo, mais provável e máximo de cada prazo de entrega/fabricação, em dias úteis ou corridos; confirmar se fila está incluída nos 5–6 semanas. A fila de +2 a +4 é risco separado, sem probabilidade/moda; não foi somada automaticamente.
-- **Coordenação/RT:** duração de medição, executivo/aprovação, protocolo/análise, instalações, cura/teste, revestimentos, pintura, piso, montagem, gabarito, instalação final e limpeza; predecessores da liberação para mudança. As células “semana 1–2” são janelas de calendário, não distribuições de duração de 1 a 2 semanas.
-- **Pedras:** qual prazo vale, 7–10 dias da seção 1 ou 1–2 semanas da seção 3, e inclui instalação? Com gabarito em +7, o primeiro chega em +8 a +8,43, o segundo em +8 a +9; não somar os dois.
-- **E21/forno/box:** em qual marco cada equipamento físico é indispensável? E21 pedido +2 é incompatível com sua presença no início da etapa de gás; box medido +4/+5 pode não chegar para instalação +6.
+- **Oficina/fornecedores:** qual prazo mínimo, mais provável e máximo por etapa e SKU, em dias úteis ou corridos? A fila está dentro dos 5–6? Quando cada ferragem e o forno devem estar disponíveis? Qual a duração real da etapa reduzida?
+- **Coordenação/RT:** quais durações e predecessores faltam da medição até a mudança, e qual prazo de análise do condomínio? Sem esses dados não há caminho crítico global.
+- **Pedras:** valem 7–10 dias ou 1–2 semanas, e incluem instalação? Não somar as duas referências.
+- **Registro administrativo:** quando o pedido foi enviado e qual retorno foi aceito pelo fornecedor? Não há nova escolha estética para Elias nesta atualização.
 
-Nenhuma nova escolha de Elias é necessária para a auditoria acima. A próxima entrada é prazo e sequência confirmados por fornecedores/coordenação, sem contato realizado aqui. Não se refinou projeto condicionado às chaves ou oficina.
+Reproduzir: `python -B ferramentas/estudos/cronograma_risco.py --saida ../outputs/Cronograma_risco`. Testar: `python -B ferramentas/estudos/test_cronograma_risco.py` — **14 testes passaram**. JSON: rede/lacunas/fontes; CSV: contas, marcos e escopo. Dados externos, sem informações pessoais.
 
-Reproduzir com `python -B ferramentas/estudos/cronograma_risco.py --saida ../outputs/Cronograma_risco`; testes: `python -B ferramentas/estudos/test_cronograma_risco.py` (**8 passaram**). Biblioteca padrão; saídas persistentes em `../outputs/Cronograma_risco`, fora do repositório. O JSON guarda a rede, origem/SHA e lacunas; CSV guarda as contas por item. Fonte, orçamento e CAD preservados.
-
-| Saída regenerável | SHA256 |
+| Saída externa | SHA256 |
 |---|---|
-| `Cronograma_risco.json` | `372872059ecf058b767d8e8faff9781332595f9eaf3369149afd27d7dcb1e511` |
+| `Cronograma_risco.json` | `3c802b14e2498f0d783fc3da3f2069ec6cda07b790b00442f148e56fb509bdfc` |
 | `Limites_compras.csv` | `c44ef0364846c360a9e8e2d7ebc0473c8cfd3a4ef2e0f6f26ac9918b451acaf7` |
+| `Marcos_cronograma.csv` | `2ec4f10bfca16e027a0372c2510f46981662110a19c022e0a3b654b00b985484` |
+| `Escopo_cronograma.csv` | `5fb99ece96daaceb911e93ff697db3a337170aa20462f90349bcd53b8dedf7b9` |
 
 | Arquivo | Para quê |
 |---|---|

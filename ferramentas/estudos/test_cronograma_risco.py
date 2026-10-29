@@ -64,6 +64,48 @@ class ScheduleTests(unittest.TestCase):
             self.assertEqual(a, b)
         self.assertEqual(before, schedule.SOURCE.read_bytes())
 
+    def test_current_network_adds_quote_and_supply_gates_without_dates(self):
+        nodes, _, decisions = schedule.current_model(
+            schedule.SOURCE.read_text(encoding='utf-8'),
+            schedule.QUOTE.read_text(encoding='utf-8'),
+            schedule.PROGRAM.read_text(encoding='utf-8'))
+        self.assertEqual(len(schedule.topological(nodes)), 29)
+        needed = {n['id'] for n in schedule.ancestors(nodes, 'inicio_fabricacao')}
+        self.assertTrue({'envio_cotacao', 'retornos_cotacao', 'contratacao_marcenaria',
+                         'abastecimento_ferragens', 'vistoria_medicao'} <= needed)
+        self.assertEqual(len(decisions), 5)
+        with self.assertRaisesRegex(ValueError, 'data de início'):
+            schedule.simulate(nodes, 'mudanca')
+
+    def test_unknown_milestone_probability_is_none_not_zero(self):
+        rows = schedule.milestone_results([dict(id='x', depends=[])],
+                [dict(id='m', terminal='x', deadline_week=8, target='8')])
+        self.assertIsNone(rows[0]['probabilidade'])
+        self.assertEqual(rows[0]['cenarios'], 0)
+
+    def test_unrelated_unknown_branch_does_not_block_complete_milestone(self):
+        nodes = [dict(id='a', depends=[], fixed=2), dict(id='unknown', depends=[])]
+        rows = schedule.milestone_results(nodes, [dict(id='m', terminal='a', deadline_week=1, target='1')])
+        self.assertEqual(rows[0]['probabilidade'], 0)
+        self.assertEqual(rows[0]['cenarios'], 5000)
+
+    def test_absolute_deadline_is_not_relative_week_zero(self):
+        rows = schedule.milestone_results([dict(id='a', depends=[], fixed=0)],
+                [dict(id='m', terminal='a', deadline_week=None, target='30/10 18h')])
+        self.assertIsNone(rows[0]['probabilidade'])
+        self.assertIn('ponte de calendário', rows[0]['lacunas'])
+
+    def test_complete_durations_do_not_hide_missing_dependencies(self):
+        with self.assertRaisesRegex(ValueError, 'predecessores ainda incompletos'):
+            schedule.simulate([dict(id='m', depends=[], fixed=1, dependencies_complete=False)], 'm')
+
+    def test_partial_sensitivity_does_not_claim_whole_project_gain(self):
+        r = schedule.known_chain_sensitivity()
+        self.assertIsNone(r['global_best_item'])
+        self.assertEqual([x['ganho_na_cadeia_conhecida_semanas'] for x in r['sensitivity']], [1, 1])
+        self.assertTrue(all(x['ganho_na_mudanca'] is None for x in r['sensitivity']))
+        self.assertIsNone(r['largest_avoided_risk']['avoided_weeks_guaranteed'])
+
 
 if __name__ == '__main__':
     unittest.main()

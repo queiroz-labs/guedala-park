@@ -17,6 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / '05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md'
+QUOTE = ROOT / '05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md'
+PROGRAM = ROOT / '01_Programa_e_decisoes/Programa_de_necessidades.md'
 
 
 def topological(nodes):
@@ -61,6 +63,34 @@ def duration_errors(nodes):
     return errors
 
 
+def network_errors(nodes):
+    """Missing predecessors and time origins must not masquerade as zero slack."""
+    return duration_errors(nodes) + [
+        n['id'] + ': predecessores ainda incompletos'
+        for n in nodes if n.get('dependencies_complete') is False
+    ] + [
+        n['id'] + ': data de início relativa às chaves ausente'
+        for n in nodes if n.get('origin_missing')
+    ]
+
+
+def ancestors(nodes, terminal):
+    ordered = topological(nodes)
+    by_id = {n['id']: n for n in ordered}
+    if terminal not in by_id:
+        raise ValueError('Marco terminal ausente')
+    wanted = set()
+
+    def visit(key):
+        wanted.add(key)
+        for parent in by_id[key]['depends']:
+            if parent not in wanted:
+                visit(parent)
+
+    visit(terminal)
+    return [n for n in ordered if n['id'] in wanted]
+
+
 def percentile(values, q):
     ordered = sorted(values)
     x = (len(ordered) - 1) * q
@@ -68,13 +98,13 @@ def percentile(values, q):
     return ordered[lo] + (ordered[hi] - ordered[lo]) * (x - lo)
 
 
-def simulate(nodes, terminal, count=5000, seed=20261028):
+def simulate(nodes, terminal, count=5000, seed=20261028, deadline=8):
     """Strict engine; caller must provide a complete network and sourced modes.
 
     Independent sampling is an explicit model assumption, not inferred evidence.
     The project source currently fails validation, so no project samples are made.
     """
-    errors = duration_errors(nodes)
+    errors = network_errors(nodes)
     if errors:
         raise ValueError('; '.join(errors))
     ordered = topological(nodes)
@@ -98,9 +128,29 @@ def simulate(nodes, terminal, count=5000, seed=20261028):
     return {'scenarios': count, 'P50': percentile(values, .5),
             'P80': percentile(values, .8),
             'probability_by_week_8': sum(v <= 8 for v in values) / count,
+            'deadline_week': deadline,
+            'probability_by_deadline': sum(v <= deadline for v in values) / count,
             'critical_paths': [{'path': list(k), 'count': v} for k, v in paths.most_common()],
             'ties': 'deterministic ID tie-break; ties are not unique critical paths',
             'sampling': 'independent; only usable when this assumption is accepted'}
+
+
+def milestone_results(nodes, milestones):
+    """Assess only ancestors of each milestone; unknown is never zero probability."""
+    rows = []
+    for m in milestones:
+        chain = ancestors(nodes, m['terminal'])
+        missing = network_errors(chain)
+        if m.get('deadline_week') is None:
+            missing.append('Marco absoluto sem data das chaves/ponte de calendário')
+        result = None if missing else simulate(chain, m['terminal'], deadline=m['deadline_week'])
+        rows.append(dict(marco=m['id'], alvo=m['target'],
+                         prazo_semana=m.get('deadline_week'),
+                         probabilidade=None if result is None else result['probability_by_deadline'],
+                         cenarios=0 if result is None else result['scenarios'],
+                         status='dado ausente' if missing else 'simulação condicional',
+                         lacunas=' | '.join(missing)))
+    return rows
 
 
 def purchase_limit(needed_week, maximum_lead_weeks):
@@ -144,6 +194,9 @@ def source_model(text):
         node('retoques_limpeza_testes', [], 'seção 2, semana 8; predecessor não preenchido'),
         node('mudanca', [], 'introdução/seção 1; dependências e duração não fechadas'),
     ]
+    for n in nodes:
+        if n['id'] in ('retoques_limpeza_testes', 'mudanca'):
+            n['dependencies_complete'] = False
     # These are backward dates against named calendar slots, NOT a full CPM schedule.
     purchases = [
         ('RT', None, None, None, 'Antes da semana 0', 'Sem duração de contratação; não há data-limite numérica.'),
@@ -168,10 +221,94 @@ def source_model(text):
     return nodes, rows
 
 
+def current_model(text, quote, program):
+    """Add only documented procurement gates and dated scope, not supplier promises."""
+    checks = [(quote, 'Preparado para Elias revisar e enviar; não enviado.'),
+              (quote, '30/10/2026 às 18 h, Brasília'),
+              (quote, 'sem P16/P17/C01/C03/C04/C05'),
+              (quote, 'E06 não é instalada nesta etapa'),
+              (program, 'Philips 50PUG8100/78'), (program, 'TAB4000'),
+              (program, '128 × 188 × 64'), (program, 'ASUS TUF VG27AQ5A'),
+              (program, 'AOC 24″ existente'), (program, 'Volante e pedais: retirados')]
+    for source, phrase in checks:
+        if phrase not in source:
+            raise ValueError('Fonte corrente alterada; revisar escopo: ' + phrase)
+    nodes, purchases = source_model(text)
+
+    def gate(key, deps, source, low=None, high=None):
+        return dict(id=key, depends=deps, source_section=source, fixed=None,
+                    minimum=low, mode=None, maximum=high)
+
+    gates = [
+        gate('envio_cotacao', [], 'Pedido R02/29-10: preparado, não enviado'),
+        gate('retornos_cotacao', ['envio_cotacao'], 'Pedido R02: prazo solicitado 30/10 18h, não compromisso'),
+        gate('comparacao_propostas', ['retornos_cotacao'], 'R00 seção 4; pedido R02: integral/etapa, inclusões e créditos'),
+        gate('contratacao_marcenaria', ['comparacao_propostas'], 'R00 seção 4: escolher oficina antes das chaves; não contratada'),
+        gate('definicoes_marcenaria', [], 'R00 seção 4: banco/cesto antes do executivo; pedido R02: produtos/ensaios pendentes'),
+        gate('pedido_ferragens', ['contratacao_marcenaria'], 'R00 seção 3: após cotação, conferir fornecimento no pacote'),
+        gate('abastecimento_ferragens', ['pedido_ferragens'], 'R00 seção 3: 1–3 semanas típicas, não cotadas', 1, 3),
+    ]
+    # These roots can precede the keys, but no calendar origin was supplied.
+    for n in gates:
+        if not n['depends']:
+            n['origin_missing'] = True
+    by_id = {n['id']: n for n in nodes}
+    by_id['executivo']['depends'] += ['contratacao_marcenaria', 'definicoes_marcenaria']
+    by_id['fabricacao']['depends'] += ['abastecimento_ferragens']
+    by_id['fabricacao']['source_section'] += '; abastecimento no início: condição a confirmar com oficina'
+    # A zero-duration junction is a milestone, not a missing service duration.
+    gates.append(dict(id='inicio_fabricacao', depends=by_id['fabricacao']['depends'][:], fixed=0,
+                      source_section='marco lógico: executivo e abastecimento completos; não é serviço de duração zero'))
+    by_id['fabricacao']['depends'] = ['inicio_fabricacao']
+    nodes += gates
+    topological(nodes)
+    decisions = [
+        dict(item='Marcenaria D05-C/D06-B', status='etapa inicial sem P16/P17/C01/C03/C04/C05; E06 adiada; E05 mantida',
+             effect='não inferir redução de prazo proporcional a preço, módulos ou chapas', source='Pedido R02, escopo vigente'),
+        dict(item='TV/soundbar sala', status='Philips 50PUG8100/78 e TAB4000, decisões 29/10',
+             effect='modelos identificados, prazo de entrega por SKU ausente; sem compra registrada', source='Programa, sala'),
+        dict(item='Cama', status='viúva com baú atual; queen futura',
+             effect='queen não é predecessora da mudança; transporte da cama atual não tem duração informada', source='Programa, quarto'),
+        dict(item='Setup escritório', status='ASUS a comprar; AOC e TV existentes; cadeira fora da verba; volante/pedais retirados',
+             effect='não duplicar compra de existentes nem prazo para itens retirados; fora da verba não significa comprado', source='Programa, escritório'),
+        dict(item='Braços F80N', status='um comprado, um a comprar',
+             effect='somente unidade adicional requer prazo comercial; sem prazo registrado', source='Programa, escritório'),
+    ]
+    return nodes, purchases, decisions
+
+
+def known_chain_sensitivity():
+    """A conditional two-link chain, never a whole-project critical path."""
+    durations = {'fabricacao': (5, 6), 'pedras': (1, 2)}
+    rows = []
+    for key, (low, high) in durations.items():
+        reduction = high - low
+        rows.append(dict(item=key, intervalo_semanas=[low, high],
+                         reducao_max_para_min_semanas=reduction,
+                         ganho_na_cadeia_conhecida_semanas=reduction,
+                         ganho_na_mudanca=None))
+    return dict(base_known_duration=[6, 8], sensitivity=rows,
+                global_best_item=None,
+                first_action='Revisar/enviar cotação e obter escopo, prazo e vaga da oficina; envio continua pendente.',
+                largest_avoided_risk=dict(item='fila da marcenaria', range_weeks=[2, 4],
+                                         probability=None, avoided_weeks_guaranteed=None),
+                limit='Empate de 1 semana por elo na cadeia conhecida. Fila 2–4 é risco textual separado, não ganho assegurado nem prazo somado.')
+
+
 def build(output):
     text = SOURCE.read_text(encoding='utf-8')
-    nodes, purchases = source_model(text)
-    errors = duration_errors(nodes)
+    nodes, purchases, decisions = current_model(text, QUOTE.read_text(encoding='utf-8'), PROGRAM.read_text(encoding='utf-8'))
+    errors = network_errors(nodes)
+    milestones = [
+        dict(id='respostas_cotacao', terminal='retornos_cotacao', deadline_week=None, target='30/10/2026 18h America/Sao_Paulo, solicitado'),
+        dict(id='oficina_escolhida', terminal='contratacao_marcenaria', deadline_week=0, target='antes das chaves'),
+        dict(id='inicio_fabricacao', terminal='inicio_fabricacao', deadline_week=2, target='executivo e abastecimento completos, marco nominal semana 2'),
+        dict(id='box', terminal='fornecimento_box', deadline_week=6, target='semana 6, janela R00'),
+        dict(id='pedras', terminal='pedras', deadline_week=8, target='semana 8, sem instalação incluída'),
+        dict(id='obra', terminal='retoques_limpeza_testes', deadline_week=8, target='oito semanas'),
+        dict(id='mudanca', terminal='mudanca', deadline_week=12, target='até semana 12, terceiro mês'),
+    ]
+    milestone_rows = milestone_results(nodes, milestones)
     gaps = errors + [p['item'] + ': moda de entrega ausente' for p in purchases if p['minimum_lead_weeks'] is not None]
     report = dict(source=SOURCE.relative_to(ROOT).as_posix(), source_sha256=hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
                   unit='semanas corridas; dias convertidos por 7, natureza útil/corrida a confirmar',
@@ -179,6 +316,10 @@ def build(output):
                   status='bloqueado por parâmetros ausentes; não foi substituído por distribuição uniforme ou moda central',
                   P50=None, P80=None, probability_by_week_8=None, most_frequent_critical_path=None,
                   missing_parameters=gaps, nodes=nodes, purchases=purchases,
+                  sources_sha256={p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                                  for p in (SOURCE, QUOTE, PROGRAM)},
+                  dated_scope=decisions, milestones=milestone_rows,
+                  shortening=known_chain_sensitivity(),
                   known_chain=dict(fabrication_start_from_diagram=2, fabrication_finish_interval=[7, 8],
                                    known_fabrication_plus_stone_duration=[6, 8],
                                    start_plus_known_durations=[8, 10],
@@ -193,10 +334,14 @@ def build(output):
     output.mkdir(parents=True, exist_ok=True)
     result = output / 'Cronograma_risco.json'
     result.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    with (output / 'Limites_compras.csv').open('w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(purchases[0]), delimiter=';')
-        writer.writeheader(); writer.writerows(purchases)
-    return {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [result, output / 'Limites_compras.csv']}
+    files = [result]
+    for name, rows in [('Limites_compras.csv', purchases), ('Marcos_cronograma.csv', milestone_rows), ('Escopo_cronograma.csv', decisions)]:
+        path = output / name
+        with path.open('w', encoding='utf-8-sig', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter=';')
+            writer.writeheader(); writer.writerows(rows)
+        files.append(path)
+    return {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
 
 
 if __name__ == '__main__':

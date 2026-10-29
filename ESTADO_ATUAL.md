@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Versões vigentes; detalhes nos READMEs. Atualizado em 29/10/2026; limite 14 KB.
+Vigente em 29/10/2026; detalhes nos READMEs; teto 14 KB.
 
 ## O projeto
 
@@ -26,7 +26,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Pontos (elétrica, água, gás) | R01; 53 funções; cargas 6.740 W parciais/13 ausentes | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
-| Cronograma | R00; risco auditado em 28/10: faltam modas/durações; sem P50/P80 | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
+| Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
 | Site e pacote para o montador | R54/R29; 4 abas por cômodo, selo único, Dia/Noite em Cômodos (29/10, local); publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
