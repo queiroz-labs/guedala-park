@@ -85,7 +85,74 @@ Fluxo zonal: Emed=ΣΦ×transmissão×FU×FM/área bruta. Direta: E=ΣI(θ,φ)×
 
 UGR real requer luminância direcional, área luminosa aparente, luminância de fundo e índice de posição. Curva só da lâmpada/alegaçãoUGR<19 não comprova o ambiente. Sem esses dados, registrar indeterminado e risco/reflexo geométrico, sem fabricar um UGR numérico. Luz natural, Ambilight, telas acesas e iluminação do depurador não entram como fluxo conhecido.
 
-Resultados espaciais, cenas/consumo e alternativas serão gerados nas próximas etapas deste mesmo arquivo.
+## Resultados por cômodo e tarefa
+
+**Veredito apenas do cenário direto. O desempenho real permanece indeterminado.** A faixa baixo–alto varia manutenção e transmissão; não limita todas as curvas/posições possíveis. Uniformidade é amostrada, não garantia entre pontos nem resultado mantido medido. Indiretas sem coordenadas/reflexões não recebem contribuição inventada.
+
+| Caso | Plano m | Área útil m² | Emed baixo–alto lx (central) | Emin lx | U0 | Meta lx/U0 | Veredito condicional |
+|---|---|---:|---:|---:|---:|---|---|
+| quarto_geral | 0.75 | 6.98 | 52–67 (59) | 0 | 0.00 | 150/0.4 | não atende no cenário |
+| escritorio_geral | 0.75 | 6.79 | 34–73 (50) | 21 | 0.42 | 150/0.4 | não atende no cenário |
+| sala_geral | 0.75 | 9.67 | 34–76 (51) | 15 | 0.29 | 150/0.4 | não atende no cenário |
+| circulacao_geral | 0 | 0.94 | 18–38 (26) | 0 | 0.00 | 100/0.4 | não atende no cenário |
+| cozinha_geral | 0.75 | 4.44 | 151–218 (183) | 0 | 0.00 | 150/0.4 | não atende no cenário |
+| lavanderia_geral | 0.75 | 1.72 | 127–164 (145) | 81 | 0.56 | 150/0.4 | marginal no cenário |
+| banho_geral | 0.75 | 2.66 | 122–157 (139) | 60 | 0.43 | 150/0.4 | marginal no cenário |
+| cozinha_preparo | 0.85 | 0.39 | não avaliável | — | — | 500/0.7 | não avaliável: plano dentro da base |
+| cozinha_pia | 0.85 | 0.40 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
+| lavanderia_tanque | 0.85 | 0.37 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
+| sala_mesa | 0.79 | 1.36 | 52–117 (78) | 35 | 0.45 | 500/0.7 | não atende no cenário |
+| escritorio_mesa | 0.75 | 0.70 | 29–64 (44) | 30 | 0.69 | 500/0.7 | não atende no cenário |
+| quarto_leitura | 0.45 | 0.24 | 437–562 (500) | 379 | 0.76 | 300/0.7 | atende no cenário |
+| banho_rosto | vertical1,35–1,75 | 0.16 | 255–493 (365) | 318 | 0.87 | 300/0.7 | marginal no cenário |
+| cozinha_preparo_tampo92 | 0.92 | 0.39 | 365–615 (482) | 142 | 0.29 | 500/0.7 | não atende no cenário |
+| cozinha_pia_tampo92 | 0.92 | 0.40 | 373–624 (490) | 246 | 0.50 | 300/0.7 | não atende no cenário |
+| cozinha_preparo_tampo92_pessoa | 0.92 | 0.39 | 249–466 (349) | 142 | 0.41 | 500/0.7 | não atende no cenário |
+| lavanderia_tanque_roupa | 0.85 | 0.37 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
+| lavanderia_tanque_tampo92 | 0.92 | 0.37 | 116–149 (132) | 86 | 0.65 | 300/0.7 | não atende no cenário |
+| lavanderia_tanque_roupa_tampo92 | 0.92 | 0.37 | 0–0 (0) | 0 | 0.00 | 300/0.7 | não atende no cenário |
+| circulacao_geral_portas_fechadas | 0 | 0.94 | 18–38 (26) | 0 | 0.00 | 100/0.4 | não atende no cenário |
+
+### Fluxo zonal, controle independente da direta
+
+H4: FU0,30/0,45/0,60; E=ΣΦútil×FU×FM/área bruta, com FM e transmissões de H3/H5. Sem oclusão explícita, sem uso de FU como multiplicador da grade. A área inclui as zonas sob armários: não comparar diretamente com a média da área útil.
+
+| Ambiente | Área bruta m² | Fluxo útil central lm | Emed zonal baixo–alto lx (central) | Fonte |
+|---|---:|---:|---:|---|
+| quarto | 8.383 | 1440 | 36–93 (62) | H3–H5; Q05 |
+| escritorio | 6.785 | 1040 | 25–108 (55) | H3–H5; E04 |
+| sala | 9.672 | 1568 | 26–116 (58) | H3–H5; S03,S04 |
+| cozinha | 5.518 | 3290 | 118–341 (215) | H3–H5; C13,C14 |
+| lavanderia | 1.987 | 2000 | 211–544 (362) | H3–H5; L11 |
+| banho | 2.662 | 2000 | 158–406 (271) | H3–H5; B11 |
+
+### Escuros, sombras e leitura correta
+
+Cozinha: P09–P13 bloqueiam raios do teto; C14 está sob P10/P13 em dois trechos0,475/0,625 m, a7 mm da face inferior,30 mm da frente, hipóteses de posição. O cozinheiro e eletrodomésticos adicionais não foram representados como sólidos: sombras do uso podem reduzir mais. Pia/preparo a0,85 m atravessam as caixas inferiores de0,90 m na R54: o zero calculado representa ponto dentro do sólido, não falta de luz. Esses casos são não avaliáveis; usar os resultados físicos no tampo nominal0,92 m. Na lavanderia há a mesma incompatibilidade0,85×0,92; README local cita bancada0,75, divergência documental preservada para compatibilização.
+
+Lavanderia: o caso roupa usa todo o envelope100×50 cm, com queda1,20 m, como opaco conservador; não é a transparência real das roupas nem a antiga chapa de ocultação removida. Geral/tanque sem roupa e tanque com roupa estão separados. A alteração observável não define posição final nem mecanismo do varal.
+
+Banheiro: B09 foi distribuído em duas barras horizontais0,55 m, centros das propostas R54 Peca188/Peca189, orientadas para o rosto; não copiou as barras verticais do render. Plano do rosto a y=4,70 m,x=4,14–4,54,z=1,35–1,75 m é hipótese H7. P19 é caixa opaca, sem reflexão especular calculada. Pontos a0,75 m não substituem luz no rosto.
+
+Leitura: duas áreas de40×30 cm a0,45 m, com EVY apontadas ao centro, hipótese H8; facho30° não é IES. A cama atual mede0,64 m de altura: plano0,45 é o comparador pedido, não a altura real do livro. Posição da cabeça/livro e ajuste do foco continuam pendentes; não usar pico central como prova de cobertura.
+
+Circulação: sem luminária dedicada acrescentada. Compara luz emprestada de S03/E04/Q05 e paredes com/sem vãos de portas abertas. O fechamento é envelope conservador, não giro contínuo; indiretas ainda sem posição não cobrem o percurso por inferência. Noite com os quartos apagados exige nova conferência de trajeto, não circulação no escuro.
+
+Sala: mesa Berlin aberta170×80 cm, tampo0,79 m, centrada nominalmente no S04. Cascata triangular compacta, bordas inferiores históricas155/170/185 cm mais7,5 cm até o centro luminoso (H9). Não foram espalhados globos ao longo da mesa. TV, quarto/cabeceira e E05 sem implantação não recebem lux de reflexão fictício. Escritório usa faixa frontal livre da mesa, excluindo a traseira ocupada pelos monitores.
+
+O efeito do IES original EVO em comparação com sua normalização é2329/2300=1.01261 vezes a contribuição C13 (≈1,26% a mais); não35,65/30. Potência de ensaio e potência do catálogo não escalam automaticamente a iluminância. Mantida pendência de revisão do fabricante.
+
+### Mapas e dados
+
+[Resumo numérico](Resumo_lux.csv) e [grade resumida](Grades_lux.csv). Mapas mostram direta central a0,75 m (circulação:piso), com escala comum0–500 lx; branco = fora da malha/volume ocupado, contorno = geometria nominal. Não incluem luz natural. Dados detalhados podem ser regenerados externamente.
+
+
+
+## Sensibilidade e reprodução
+
+Deslocamentos±0,25 m dos plafons, um eixo por vez, em [Sensibilidade_luz.csv](Sensibilidade_luz.csv); mantidos fluxos/curvas/obstáculos. Não são incertezas estatísticas nem uma otimização da posição. Células de0,25 m em geral e0,10 m nas tarefas, divididas nas bordas; média ponderada pela área. Mínimo amostrado pode cair numa malha mais fina.
+
+SHA R54: `4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528`. IES original: `132f3d7fd250447ee887a9730acc88cd8ee9691c7cad17b15236b267fcd2e16c`. Regeneração não requer FreeCAD; lê a exportação com SHA e a curva numérica pequena. Dependência dos mapas: Pillow.
 
 ## Fontes
 

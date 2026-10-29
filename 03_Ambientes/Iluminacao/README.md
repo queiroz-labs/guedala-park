@@ -58,8 +58,22 @@ Coerência documental 26/10: READMEs do quarto/lavanderia alinhados à proposta 
 
 Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmotes; E06 adiada. Mesmo valor do orçamento e Roteiro; 87% é maturidade global documental, não comprovação técnica da iluminação.
 
-## Fotometria — premissas de 29/10/2026
+## Fotometria — cenários de 29/10/2026
 
-[Estudo fotométrico](Estudo_fotometrico.md) e [níveis-alvo](Premissas_luz.csv), gerados por script: metas por tarefa, refletâncias de ensaio, dados técnicos e evidências do vídeo espelhado. Diagnóstico de 28/10 parcialmente superado: IES EVO recuperado, Firefly 9608/9605 com 2000 lm e EVY 2054 com 270 lm/30°. Curvas dos conjuntos, posições finais e verificação instalada continuam pendentes. A etapa seguinte calcula cenários, sem transformar hipóteses em fotometria de produto.
+[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo são **luz direta mantida no cenário**, sem reflexões; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.
 
-Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. [Curva EVO e SHA do IES](Fotometria_fontes.json). Modelo não aberto; seleção, preços e site preservados.
+| Ambiente/geral | Emed central lx (faixa) | U0 | Veredito condicional |
+|---|---:|---:|---|
+| [sala](Mapa_lux_sala.png) | 51 (34–76) | 0.29 | não atende no cenário |
+| [cozinha](Mapa_lux_cozinha.png) | 183 (151–218) | 0.00 | não atende no cenário |
+| [lavanderia](Mapa_lux_lavanderia.png) | 145 (127–164) | 0.56 | marginal no cenário |
+| [banho](Mapa_lux_banho.png) | 139 (122–157) | 0.43 | marginal no cenário |
+| [quarto](Mapa_lux_quarto.png) | 59 (52–67) | 0.00 | não atende no cenário |
+| [escritorio](Mapa_lux_escritorio.png) | 50 (34–73) | 0.42 | não atende no cenário |
+| [circulacao](Mapa_lux_circulacao.png) | 26 (18–38) | 0.00 | não atende no cenário |
+
+Metas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Plano0,85 m atravessa bases da cozinha/lavanderia: não avaliar luz dentro da madeira; tampo R54 em0,92 m calculado separadamente. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.
+
+Vídeo espelhado conferido: quatro saídas de teto no conjunto social/cozinha/serviço, teclas e tomada do banheiro; evidência e limites no estudo. Centros continuam nominais;±25 cm é sensibilidade, não precisão do vídeo. Fontes técnicas29/10: IES EVO recuperado (ensaio2021 divergente do catálogo); Firefly9608/9605 com2000 lm e EVY2054 com270 lm/30°. E06 continua adiada.
+
+Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. `--detalhe <pasta externa>` exporta a malha integral. Modelo não aberto; seleção/preços/itens do site preservados. Dados de manutenção, transmissão e distribuição analítica são hipóteses explícitas.
