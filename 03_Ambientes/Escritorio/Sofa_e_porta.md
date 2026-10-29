@@ -6,7 +6,7 @@ Elias solicita conferir sofá-cama e porta. Planta P01 revista visualmente: dorm
 
 ## Referência do sofá reconferida
 
-[Mobly, Daiane Veludo Light Cinza](https://www.mobly.com.br/sofacama-daiane-veludo-light-cinza-974920.html), consultada nesta rodada: fechado140 L ×90 P ×85 A cm; aberto140 L ×182 P ×55 A cm. Página identifica marca Modern, pés fixos,48 kg, encosto reclinável e assento retrátil. Área plana de dormir e interior do baú não têm medidas confirmadas. Medidas externas não validam colchão útil de140 ×182. Mecanismo intermediário e espaço necessário atrás ainda precisam de conferência; não concluir que3 cm de recuo permitem operar a abertura apenas por conhecer tamanho final.
+**Versão escolhida em 29/10/2026: suede cinza** (Elias: “ok, suede então”); as medidas abaixo vêm do anúncio do veludo, mesmo modelo. [Mobly, Daiane Veludo Light Cinza](https://www.mobly.com.br/sofacama-daiane-veludo-light-cinza-974920.html), consultada nesta rodada: fechado140 L ×90 P ×85 A cm; aberto140 L ×182 P ×55 A cm. Página identifica marca Modern, pés fixos,48 kg, encosto reclinável e assento retrátil. Área plana de dormir e interior do baú não têm medidas confirmadas. Medidas externas não validam colchão útil de140 ×182. Mecanismo intermediário e espaço necessário atrás ainda precisam de conferência; não concluir que3 cm de recuo permitem operar a abertura apenas por conhecer tamanho final.
 
 ## Implantação retomada
 

@@ -581,15 +581,15 @@ const ITEMS=[
   {
     "id": "daiane",
     "room": "escritorio",
-    "name": "Sofá-cama Daiane cinza-claro",
+    "name": "Sofá-cama Daiane suede cinza (Matrix)",
     "kind": "daybed",
-    "dimensions": "140 × 90 fechado / 140 × 182 aberto cm",
-    "choice": "Aprovado",
-    "measure": "Medida informada pelo fabricante",
+    "dimensions": "140 × 90 × 85 fechado / 140 × 182 × 55 aberto cm · 48 kg",
+    "choice": "Escolhido",
+    "measure": "Medida informada pelo fabricante; baú e área de dormir a conferir",
     "material": "grey",
-    "source": "F92 / F100",
-    "notes": "Braço junto à parede da porta no cotidiano. Cama gira para abrir rumo à janela. Desenho mostra posições finais, não valida trajetória.",
-    "budget": "Até R$ 1.500"
+    "source": "Elias, 29/10/2026: “ok, suede então”",
+    "notes": "Versão suede cinza, com baú. Braço junto à parede da porta no cotidiano. Cama gira para abrir rumo à janela. Desenho mostra posições finais, não valida trajetória. Suede é o tecido mais citado como fácil de limpar; passar impermeabilizante ao receber. Referência R$ 778 no Pix no Carrefour em 29/10/2026, sem frete; conferir o código do produto.",
+    "budget": "Até R$ 1.500 · referência R$ 778 no Pix"
   },
   {
     "id": "officechair",
