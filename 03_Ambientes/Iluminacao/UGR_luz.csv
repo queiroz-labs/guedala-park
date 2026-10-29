@@ -1,0 +1,4 @@
+﻿cena;observador_m;olhar;rho;area_luminosa_m2;area_projetada_m2;I_cd;L_cd_m2;omega_sr;Guth;Lb_cd_m2;UGR;fonte
+"somente C13; IES2021 original2329lm";5.215,5.000,1.600;0,1,0;baixo;0.125316;0.091037;505.387;5551.42;0.0520678;7.69042;5.513;24.72;"S1 cabeçalho LM63; S13/S14; H16 observador e abertura uniforme; H13 fundo difuso; sem outras fontes"
+"somente C13; IES2021 original2329lm";5.215,5.000,1.600;0,1,0;central;0.125316;0.091037;505.387;5551.42;0.0520678;7.69042;8.633;23.16;"S1 cabeçalho LM63; S13/S14; H16 observador e abertura uniforme; H13 fundo difuso; sem outras fontes"
+"somente C13; IES2021 original2329lm";5.215,5.000,1.600;0,1,0;alto;0.125316;0.091037;505.387;5551.42;0.0520678;7.69042;12.563;21.86;"S1 cabeçalho LM63; S13/S14; H16 observador e abertura uniforme; H13 fundo difuso; sem outras fontes"

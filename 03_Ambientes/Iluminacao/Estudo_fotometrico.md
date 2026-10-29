@@ -241,7 +241,7 @@ Sóρ varia nas colunas baixo/central/alto; fluxo branco/transmissão/curva ause
 
 | Cômodo/tarefa/meta | Até três menores materiais parciais que cumprem cenárioρcentral | Posições testadas que cumprem |
 |---|---|---|
-| banho_geral / 150 lx | geral 1xB11: R$129.00, 420 lx/U0 0.68; geral 2xB11: R$258.00, 632 lx/U0 0.67 | geral 1xB11: -0.15,0,0.15 m; geral 2xB11: -0.15,0,0.15 m |
+| banho_geral / 150 lx | geral 1 × B11: R$129.00, 420 lx/U0 0.68; geral 2 × B11: R$258.00, 632 lx/U0 0.67 | geral 1 × B11: -0.15,0,0.15 m; geral 2 × B11: -0.15,0,0.15 m |
 | circulacao_geral / 100 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
 | cozinha_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
 | cozinha_pia_tampo92 / 300 lx | local 3 perfil COB 0.65m: R$297.25, 1457 lx/U0 0.76; local 2 perfil COB 0.65m: R$297.25, 1181 lx/U0 0.74; local 1 perfil COB 0.65m: R$297.25, 879 lx/U0 0.71 | local 3 perfil COB 0.65m: 0 m; local 2 perfil COB 0.65m: 0 m; local 1 perfil COB 0.65m: 0,0.15 m |
@@ -252,9 +252,9 @@ Sóρ varia nas colunas baixo/central/alto; fluxo branco/transmissão/curva ause
 | lavanderia_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
 | lavanderia_tanque_tampo92 / 300 lx | local 1 perfil COB 0.59m: R$297.25, 495 lx/U0 0.79; local 3 perfil COB 0.59m: R$297.25, 1081 lx/U0 0.76; local 2 perfil COB 0.59m: R$297.25, 802 lx/U0 0.76 | local 1 perfil COB 0.59m: -0.15,0 m; local 3 perfil COB 0.59m: -0.15,0 m; local 2 perfil COB 0.59m: 0 m |
 | quarto_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
-| quarto_leitura / 300 lx | geral 1xQ05: R$134.83, 351 lx/U0 0.79; geral 2xQ05: R$269.66, 493 lx/U0 0.84; local 2 perfil COB 1.00m: R$297.25, 908 lx/U0 0.87 | geral 1xQ05: -0.15,0,0.15 m; geral 2xQ05: -0.15,0,0.15 m; local 2 perfil COB 1.00m: 0,0.15 m |
+| quarto_leitura / 300 lx | geral 1 × Q05: R$134.83, 351 lx/U0 0.79; geral 2 × Q05: R$269.66, 493 lx/U0 0.84; local 2 perfil COB 1.00m: R$297.25, 908 lx/U0 0.87 | geral 1 × Q05: -0.15,0,0.15 m; geral 2 × Q05: -0.15,0,0.15 m; local 2 perfil COB 1.00m: 0,0.15 m |
 | sala_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
-| sala_mesa / 300 lx | local 3 perfil COB 1.70m: R$628.04, 672 lx/U0 0.71; local 4 perfil COB 1.70m: R$760.49, 850 lx/U0 0.72; geral 4xS03: R$1034.36, 441 lx/U0 0.76 | local 3 perfil COB 1.70m: 0 m; local 4 perfil COB 1.70m: 0 m; geral 4xS03: -0.15,0,0.15 m |
+| sala_mesa / 300 lx | local 3 perfil COB 1.70m: R$628.04, 672 lx/U0 0.71; local 4 perfil COB 1.70m: R$760.49, 850 lx/U0 0.72; geral 4 × S03: R$1034.36, 441 lx/U0 0.76 | local 3 perfil COB 1.70m: 0 m; local 4 perfil COB 1.70m: 0 m; geral 4 × S03: -0.15,0,0.15 m |
 | sala_mesa / 500 lx | local 3 perfil COB 1.70m: R$628.04, 672 lx/U0 0.71; local 4 perfil COB 1.70m: R$760.49, 850 lx/U0 0.72 | local 3 perfil COB 1.70m: 0 m; local 4 perfil COB 1.70m: 0 m |
 
 As alternativas que falham também permanecem no CSV. Nenhuma é selecionada; limites por interferência/pontos reais ficam com RT. Metas300/500 lx para sala/escritório coexistem: escolher uma não está implícito no cálculo.
@@ -267,26 +267,26 @@ H15: comparação finita de reforço local e geral; [todos os valores e três fa
 |---|---|---:|---|
 | cozinha_preparo_tampo92 | vigente | 416 (395–444) | 40 / 0.10 |
 | cozinha_preparo_tampo92 | local 2 perfil COB 0.62m | 856 (811–915) | 134 / 0.16 |
-| cozinha_preparo_tampo92 | geral 2xC13 | 430 (404–469) | 41 / 0.10 |
+| cozinha_preparo_tampo92 | geral 2 × C13 | 430 (404–469) | 41 / 0.10 |
 | cozinha_preparo_tampo92_pessoa | vigente | 360 (333–397) | 41 / 0.11 |
 | cozinha_preparo_tampo92_pessoa | local 2 perfil COB 0.62m | 817 (756–897) | 71 / 0.09 |
-| cozinha_preparo_tampo92_pessoa | geral 2xC13 | 377 (342–428) | 43 / 0.11 |
+| cozinha_preparo_tampo92_pessoa | geral 2 × C13 | 377 (342–428) | 43 / 0.11 |
 | cozinha_pia_tampo92 | vigente | 563 (539–595) | 375 / 0.67 |
 | cozinha_pia_tampo92 | local 2 perfil COB 0.65m | 1181 (1132–1244) | 877 / 0.74 |
-| cozinha_pia_tampo92 | geral 2xC13 | 605 (566–664) | 381 / 0.63 |
+| cozinha_pia_tampo92 | geral 2 × C13 | 605 (566–664) | 381 / 0.63 |
 | cozinha_pia_tampo92_pessoa | vigente | 506 (475–547) | 265 / 0.53 |
 | cozinha_pia_tampo92_pessoa | local 2 perfil COB 0.65m | 1152 (1082–1245) | 749 / 0.65 |
-| cozinha_pia_tampo92_pessoa | geral 2xC13 | 546 (501–614) | 339 / 0.62 |
+| cozinha_pia_tampo92_pessoa | geral 2 × C13 | 546 (501–614) | 339 / 0.62 |
 | lavanderia_tanque_tampo92 | vigente | 176 (162–195) | 150 / 0.85 |
 | lavanderia_tanque_tampo92 | local 2 perfil COB 0.59m | 802 (760–854) | 608 / 0.76 |
 | lavanderia_tanque_roupa_tampo92 | vigente | 15 (7–26) | 10 / 0.71 |
 | lavanderia_tanque_roupa_tampo92 | local 2 perfil COB 0.59m | 646 (607–697) | 454 / 0.70 |
 | escritorio_mesa | vigente | 59 (54–66) | 10 / 0.18 |
 | escritorio_mesa | local 2 perfil COB 2.00m | 909 (884–944) | 84 / 0.09 |
-| escritorio_mesa | geral 2xE04 | 232 (216–255) | 40 / 0.17 |
+| escritorio_mesa | geral 2 × E04 | 232 (216–255) | 40 / 0.17 |
 | sala_mesa | vigente | 104 (97–113) | 57 / 0.55 |
 | sala_mesa | local 2 perfil COB 1.70m | 487 (465–515) | 339 / 0.70 |
-| sala_mesa | geral 2xS03 | 285 (268–308) | 199 / 0.70 |
+| sala_mesa | geral 2 × S03 | 285 (268–308) | 199 / 0.70 |
 | banho_rosto | horizontal R54 | 483 (450–527) | 424 / 0.88 |
 | banho_rosto | vertical imagem | 715 (676–765) | 651 / 0.91 |
 | banho_rosto | horizontal + geral adicional | 520 (474–583) | 466 / 0.90 |
@@ -296,22 +296,45 @@ Espelho: horizontais R54 e verticais H15 usam o mesmo1,10 m de COB4000K,13,2 W e
 
 EVY reorientadas ao livro é outra hipótese de orientação, não troca de luminária nem promessa sobre seu curso mecânico. Reforços locais podem introduzir fonte no campo visual/reflexos; cálculos de lux não autorizam montagem sobre aquecedor, passagem, móveis, varal ou área molhada.
 
+## UGR e reflexos geométricos
+
+H16: UGR=8 log10[(0,25/Lb)Σ(L²ω/p²)], com índice Guth S13 e fundo Lb=Evertical_refletida/π S14. Observador em(5,215;5,000;1,600)m, olhar horizontal+Y, apenas EVO aceso. IES2021 original2329 lm, abertura luminosa0,354×0,354 m do cabeçalho LM63, manutenção0,80. L=I/Aprojetada, área uniforme em cada direção como hipótese de cálculo; ω calculado pelas duas faces triangulares do retângulo aparente. Não se copiou UGR<19 do catálogo. Não é a cena cozinha completa, pois C14 não tem IES/área luminosa conciliados.
+
+| ρ | Lb cd/m² | L EVO cd/m² | ω sr | Guth | UGR no cenário EVO |
+|---|---:|---:|---:|---:|---:|
+| baixo | 5.51 | 5551 | 0.05207 | 7.690 | 24.7 |
+| central | 8.63 | 5551 | 0.05207 | 7.690 | 23.2 |
+| alto | 12.56 | 5551 | 0.05207 | 7.690 | 21.9 |
+
+[Entradas e resultado UGR](UGR_luz.csv). Abertura2021 e luminância média não demonstram distribuição de luminância do difusor/lote30W atual; UGR desse lote continua pendente. Demais luminárias: **indeterminado** até IES/LDT do conjunto, dimensões luminosas/área aparente, luminância direcional por branco e condições de montagem. Fundo/observador acima são H13/H16, não medidos.
+
+H17: para telas apagadas, reflete-se a fonte no plano da tela e intersecta-se a reta olho→fonte virtual. Incidência=reflexão; só conta se o ponto fica dentro do envelope da tela e os dois segmentos estão visíveis. [Todas as coordenadas/ângulos](Reflexos_telas_luz.csv). Olhos sentados são hipóteses explícitas; orientação sem inclinação é do envelope R54. Monitor27/24 atual pode divergir dos envelopes R54: não é medição da área ativa dos novos SKUs. Não se calculou intensidade do reflexo, porque faltam BRDF/haze/revestimento. Centro fora não exclui reflexo parcial de um difusor finito.
+
+| Tela / olho nominal m | Centros de fontes que aparecem | Incidência=reflexão |
+|---|---|---|
+| TV_sala / 6.75,2.65,1.1 | nenhum dos centros testados | ver interseções fora da tela no CSV |
+| TV_escritorio / 3.1,2.05,1.1 | nenhum dos centros testados | ver interseções fora da tela no CSV |
+| monitor_esquerdo / 3.7,1.0,1.2 | nenhum dos centros testados | ver interseções fora da tela no CSV |
+| monitor_direito / 3.7,1.0,1.2 | nenhum dos centros testados | ver interseções fora da tela no CSV |
+
+S05/E05/Q06 e Ambilight: implantação/área luminosa ausentes, reflexo indeterminado. Janela, tela acesa e luz natural não estão nesta cena; ausência de um centro testado não promete tela sem reflexos no uso.
+
 ## Riscos e lacunas
 
 | ID/gravidade | Frente | Evidência | O que resolve |
 |---|---|---|---|
 | R01/alta | mesa escritório/jantar | malhas centrais abaixo da meta de tarefa; indireta/TV não é reforço direto quantificado | fotometria do conjunto e distribuição de tarefa; opções em Alternativas_luz.csv |
-| R02/alta | UGR leitura/TV/escritório | UGR real indeterminado: luminância direcional/área aparente/Lb/índiceGuth ausentes; EVOUGR<19 de catálogo não é cálculo da sala | obter IES/LDT e tabelaUGR do conjunto; simular observadores e medir instalação; não inventar índice |
+| R02/alta | UGR leitura/TV/escritório | UGR dos conjuntos atuais indeterminado; EVO histórico tem cenário H16, sem comprovar o lote30W; demais produtos sem IES/área luminosa | obter IES/LDT e tabelaUGR do conjunto; simular observadores e medir instalação; não inventar índice |
 | R03/alta | compatibilidade elétrica | Opus36 W/3 A e Shelly4 A/canal não validam PWM/regulação/térmica nem contatoTramontina; G9/D1 ainda sem ensaio do trio10,5 W | respostasIL04–IL07/IL09;12VCC no controlador, nunca127V em I1; ensaio do trio antes de compra |
 | R04/alta | fitas/dissipação | C14/S05/Q06 nominais13,2/12/24 W, mais<1,2 W/controlador;5m de fita=60 W excedem fonte36 W; perfilMOV4329 com fita12 W/m sem capacidade térmica confirmada | manter grupos e confirmar dissipação, área útil, terminais, proteção e temperatura; não alojar fonte no fluxo do depurador/micro |
 | R05/alta | banheiro/IP | IP44 do plafon não valida todas as posições; IP65 da fita/IP67 da fonte não protegem cortes/emendas | N3§9.1:volumes pelo RT;IPX7/0,IPX4/1,IPX3/2,IPX1/3 na edição consultada;DR≤30mA§5.1.3.2.2; equipotencialização e classes; confirmar revisão aplicável |
 | R06/média | sombra e giro | caixas de aéreos e roupa produzem sombras; cozinha EVO41cm em teto260cm ainda cruza altura do giro nominal; folga histórica13cm não é conferência executiva | preservar abertura integral e acesso; posições/fontes só após coordenação, sem limitar porta/varal para caber luz |
-| R07/alta | luz no rosto | 300 lx verticais é meta residencial, faixa255–493 lx do cenário; barras inferior/superior e torneira exigem acesso, sem refletância especular modelada | confirmar geometriaB09, IRC do lote, conforto e incidência no rosto; não tomar render com barras verticais como detalhe executivo |
+| R07/alta | luz no rosto | 300 lx verticais é meta residencial; comparações H15 não comprovam luz instalada; barras inferior/superior e torneira exigem acesso, sem refletância especular modelada | confirmar geometriaB09, IRC do lote, conforto e incidência no rosto; não tomar render com barras verticais como detalhe executivo |
 | R08/média | reflexos em telas | difusor/âmbar/linhaLED podem aparecer diretamente ou no reflexo; posição/tilt das telas/olhos e luminância ausentes; janela atrás dos monitores cria contraste | manter luz fora da reflexão especular para observadores; cortina/blackout; teste com tela apagada e acesa; não prometer ausência de reflexo |
 | R09/alta | circuitos e consumo | símbolo de iluminação visível no quadro da outra unidade; amperagem/curva/condutor/retornos e correspondência à unidade sem comprovação | RT identifica circuito real e FP/inrush; correnteP/127 é equivalente ativa, não correnteRMS de LED |
 | R10/média | fonte documental | EVO2329lm35,65W em2021 versus2300lm30W atual; WiZ800lm127V versus oferta806lmbivolt; Brilia cabeçalho12V versus tabela314450127V | pedir ficha/etiqueta do lote, fotometria e transmissão do conjunto; não transferir dados entre variantes |
 
-UGR em leitura/TV/escritório fica **indeterminado**, com campos necessários listados em R02; um número assumindo área/índice de posição/fundo seria precisão fabricada. Reflexos especulares e contraste de telas são riscos separados de UGR. Não foi feito ensaio de segurança elétrica, dissipação, dimerização ou desempenho no imóvel.
+UGR em leitura/TV/escritório fica **indeterminado**, com campos necessários em R02. EVO tem cálculo do cenário histórico H16 acima, sem comprovar o lote atual. Reflexos especulares e contraste de telas são riscos separados de UGR. Não foi feito ensaio de segurança elétrica, dissipação, dimerização ou desempenho no imóvel.
 
 ## Confronto com as imagens dia/noite
 
@@ -355,6 +378,8 @@ Sem produto escolhido, envio a fornecedor, mudança de cota/preço/orçamento, m
 - **S10:** [Brilia318939:530 lm/m,4,8 W/m,12 V,3000K,IRC80,IP65; valor comercial já registrado](https://www.belluce.com.br/bll604418-fita-de-led-4-8wm-3000k-irc-80-530lmm-12v-angulo-120-brilia-318939).
 - **S11:** [WiZ Pro Kit-C929002681171:1600 lm/20 W/2 m,IRC80,IP20; E05, E06 adiada](https://assets.wizconnected.com/datasheets/WiZ_Pro_LED_Strip_RGBTW_2M_Kit-C_929002681171_DS1022.pdf).
 - **S12:** [Shelly Plus RGBW PM:12/24 V CC,<1,2 W,4 A/canal,10 A total,PWM833 Hz/22 kHz; consulta29/10](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm).
+- **S13:** [Radiance/EPFL: implementação primária get_posindex/get_ugr; equações Guth/UGR, consulta29/10](https://github.com/LBNL-ETA/Radiance/blob/master/src/util/evalglare.c).
+- **S14:** [Radiance evalglare: fundo CIE Lb=(Ev−Edir)/π; documentação primária](https://www.radiance-online.org/learning/documentation/manual-pages/pdfs/evalglare.pdf).
 - **P1:** [Seleção e preços27/10 prevalecem; sem recotação, frete ou instalação](Lista_curta_luminarias_e_madeira.md).
 - **P2:** [Alturas nominais2,60/2,50 m; rebaixos e vigas sem cotas verticais confirmadas](../../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 - **P3:** [Planta oficial, 1 folha, conferida visualmente29/10; não localiza luminárias](../../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf).

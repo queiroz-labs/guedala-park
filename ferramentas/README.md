@@ -97,4 +97,4 @@ R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI so
 [Recálculo de medidas](medidas/README.md): dependências R53, cenários isolados e reprodução obrigatória no verificador geral.
 
 
-Fotometria: `estudos/estudo_fotometrico.py` gera [premissas por tarefa](../03_Ambientes/Iluminacao/Estudo_fotometrico.md), distinguindo dados de produto, vídeo espelhado e hipóteses. Teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. Curva IES pequena com SHA; não abre FreeCAD nem altera itens do site.
+Fotometria: `estudos/estudo_fotometrico.py` gera [premissas por tarefa](../03_Ambientes/Iluminacao/Estudo_fotometrico.md), distinguindo dados de produto, vídeo espelhado e hipóteses. Teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. Curva IES com SHA; radiosidade/fluxos/UGR nominal/reflexos, NumPy e Pillow locais. Testes analíticos e balanço de energia; não abre FreeCAD nem altera itens do site.

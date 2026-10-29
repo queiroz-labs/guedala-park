@@ -144,6 +144,21 @@ class Physics(unittest.TestCase):
         self.assertAlmostEqual(a[3]-b[3],.65)
         self.assertEqual(a[4:],b[4:])
 
+    def test_specular_geometry_and_equal_angles(self):
+        import numpy as np
+        hit=f.specular_hit((1,2,1),(-1,2,1),(0,0,0),(0,1,0))
+        np.testing.assert_allclose(hit[0],(0,0,1))
+        self.assertAlmostEqual(hit[1],math.degrees(math.atan(.5)))
+        self.assertIsNone(f.specular_hit((1,-2,1),(-1,2,1),(0,0,0),(0,1,0)))
+
+    def test_solid_angle_and_guth(self):
+        import numpy as np
+        corners=[(-1,-1,2),(1,-1,2),(1,1,2),(-1,1,2)]
+        self.assertAlmostEqual(f.rectangle_solid_angle(np.zeros(3),corners),4*math.atan(1/(2*math.sqrt(6))))
+        self.assertEqual(f.guth_position((0,1,0),(0,1,0)),1.)
+        self.assertGreater(f.guth_position((0,1,1),(0,1,0)),1.)
+        with self.assertRaises(ValueError):f.guth_position((0,-1,1),(0,1,0))
+
     def test_official_ies_integrated_flux_not_watt_scaled(self):
         ies=json.loads((f.OUT/'Fotometria_fontes.json').read_text(encoding='utf-8'))['EVO_2021']
         self.assertAlmostEqual(f.ies_cd(ies,0,0),1022.363)
@@ -162,7 +177,8 @@ class Physics(unittest.TestCase):
             self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
             expected=['Resumo_lux.csv','Grades_lux.csv','Sensibilidade_luz.csv','Cenas_luz.csv','Consumo_luz.csv',
                       'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json',
-                      'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json','Fluxo_necessario_luz.csv','Camadas_tarefa_luz.csv']
+                      'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json','Fluxo_necessario_luz.csv','Camadas_tarefa_luz.csv',
+                      'UGR_luz.csv','Reflexos_telas_luz.csv']
             expected+=['Mapa_lux_'+k+'.png' for k in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao')]
             for name in expected:
                 actual,reference=(Path(t)/name).read_bytes(),(f.OUT/name).read_bytes()
