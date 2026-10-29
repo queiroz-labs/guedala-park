@@ -126,7 +126,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('officechair','escritorio',guest?405:367.75,guest?75:80,74.5,73,0,120,'black','officechair');
   upper('officecab','escritorio',255,90,35,200,192,55,'offwhite','z',5);
   add('officeshelf','escritorio',450,105,35,110,192,3,'wood','box',{upper:true});
-  add('tv43','escritorio',473,118,5,97,82,56,'black','screenX');
+  add('tv43','escritorio',472,118,6,96.4,82,55.9,'black','screenX'); // Samsung UN43CU7700GXZD sem base: 96,4 × 55,9 × 6
   if(state.console==='sala'){add('ps5','sala',507,226.1,21.6,35.8,35,8,'offwhite','console');}else{add('ps5','escritorio',453.4,115,21.6,35.8,195,8,'offwhite','console',{upper:true});}
   // R09: dimensional studies remain conditional, as identified in the item cards.
   for(const x of [388,446.2])add('kitchenbase','cozinha',x,639,1.8,61,0,90,'wood');

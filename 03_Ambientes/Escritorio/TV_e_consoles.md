@@ -10,6 +10,10 @@
 
 F95. Cálculo geométrico baseado em R07/F94; não valida conforto ou instalação. Coordenadas x da parede esquerda para direita, y da janela para entrada, em cm. Quarto230×295; sofá diário x2..92 y152..292, centro longitudinal222. Porta aproximada com dobradiça(220,295), folha75cm, trecho longitudinal de giro220..295. Modelo exato da Samsung43 desconhecido.
 
+## TV — modelo identificado em 29/10/2026
+
+Elias informou pelo menu da TV: **Samsung UN43CU7700GXZD** (CU7700, 43", 4K, Tizen, linha 2023). Fabricante e varejo ([Samsung Brasil](https://www.samsung.com/br/tvs/uhd-4k-tv/cu7000-43-inch-un43cu7700gxzd/), [Escolha Segura](https://compare.escolhasegura.com.br/dispositivo/TVs/Samsung-Smart-TV-43-UHD-4K-2023-UN43CU7700GXZD)): **96,4 × 55,9 × 6 cm sem base**, 7,7 kg, **VESA 200 × 200** (suporte não incluso); com base 96,4 × 62,8 × 19,3 cm. Cabe nos 100 cm de largura reservados; a profundidade real de parede soma o suporte escolhido. Segue o estudo abaixo; a reserva de 100 cm e a posição y115..215 não mudam. Pendente: tipo de suporte (fixo, inclinável ou articulado) e parede.
+
 ## TV
 
 Reserva de largura externa100cm, hipótese e não medida da TV. Centralizada em frente ao sofá, centro y222, ocuparia y172..272: sobreposição longitudinal de52cm com trecho da porta. Isso indica necessidade de checar espessura e batente; não prova colisão tridimensional, pois uma TV rasa pode estar atrás da folha aberta. Não assumir que essa alternativa seja segura ou utilizável com porta aberta.

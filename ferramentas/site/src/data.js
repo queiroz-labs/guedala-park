@@ -631,14 +631,14 @@ const ITEMS=[
   {
     "id": "tv43",
     "room": "escritorio",
-    "name": "Samsung 43″ existente",
+    "name": "Samsung 43″ existente · UN43CU7700GXZD",
     "kind": "tv",
-    "dimensions": "97 × 56 × 5 cm · gabarito",
+    "dimensions": "96,4 × 55,9 × 6 cm sem base · 7,7 kg · VESA 200 × 200",
     "choice": "Existente",
-    "measure": "Modelo não informado",
+    "measure": "Medidas do fabricante; suporte de parede a escolher",
     "material": "black",
-    "source": "F94 / F95",
-    "notes": "Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. Medir aparelho e suporte."
+    "source": "Elias, 29/10/2026 (menu da TV) · ficha Samsung/varejo",
+    "notes": "Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. O suporte de parede VESA 200 × 200 não vem na caixa e soma profundidade: escolher o suporte e medir o conjunto."
   },
   {
     "id": "wheel",

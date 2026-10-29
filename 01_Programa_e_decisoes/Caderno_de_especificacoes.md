@@ -72,7 +72,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Cadeira Ercathe A01 Mesh Premium · preta | Escolhido | Assento 50 × 50 cm a 50–57 cm do piso · topo dos braços ~62–76 cm (estimativa por foto) · envelope 74,5 × 73 mantido | 100% mesh, lombar com ajuste de altura e profundidade, braços 3D, encosto até 145° e apoio de pés retrátil. |
 | Armário superior sobre o sofá-cama | Aprovado | 200 ×35 ×55 cm · base190 e topo245 no cenário | Topo a 245 cm, 15 cm abaixo do pé-direito de projeto de 2,60 m (a confirmar no imóvel). |
 | Prateleira alta dos consoles | Parcial | 110 × 35 cm · topo a 195 cm | Altura definida para não atrapalhar a passagem. |
-| Samsung 43″ existente | Existente | 97 × 56 × 5 cm · gabarito | Parede oposta ao sofá. |
+| Samsung 43″ existente · UN43CU7700GXZD | Existente | 96,4 × 55,9 × 6 cm sem base · 7,7 kg · VESA 200 × 200 | Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. |
 | Volante e pedais futuros | Futuro | Dimensões / guarda pendentes | Logitech pretendido, G29 candidato. |
 
 ### 2.4. Cozinha

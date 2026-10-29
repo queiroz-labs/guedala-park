@@ -25,7 +25,7 @@ const ITEM_COPY={
  officechair:['Cadeira Ercathe A01','Escolhida em 29/10/2026, fora do orçamento. Os braços devem passar sob a bancada só na posição mais baixa, com pouca folga: confirme a altura com a loja ou meça na entrega.'],
  officecab:['Armário sobre o sofá-cama','Aéreo em marfim claro, liso e fosco escolhido para deixar o teto mais leve. Prateleiras ajustáveis para capacete, sapatilha e ferramentas. Confira amostra, alcance, peso e folga até o teto.'],
  officeshelf:['Prateleira dos videogames','Prateleira alta para os videogames. Confira o acesso, a posição e o peso suportado.'],
- tv43:['TV Samsung de 43 polegadas','TV já existente, na parede oposta ao sofá. Meça o aparelho e o suporte. Confira a abertura da porta.'],
+ tv43:['TV Samsung de 43 polegadas','TV que você já tem (modelo UN43CU7700GXZD): 96,4 × 55,9 cm e 6 cm de espessura, sem a base. Fica na parede oposta ao sofá. Falta escolher o suporte de parede e conferir a abertura da porta.'],
  wheel:['Volante e pedais · compra futura','O Logitech G29 é uma opção. Falta definir as medidas e onde guardar o conjunto.'],
  kitchenbase:['Gavetas e base da cozinha','Três gavetas com abertura total e fechamento suave. Confira os apoios do forno, os recortes da bancada e a ligação com a lavanderia.'],
  sinkstorage:['Gabinete da pia','Duas portas, com espaço para panelas e utensílios. A prateleira precisa permitir acesso ao sifão. Defina os recortes após escolher a cuba e as conexões.'],
