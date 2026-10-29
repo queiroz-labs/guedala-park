@@ -34,7 +34,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 **Clima:** [parcelas](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; ASUS condicional; carga total pendente.
 
-**Acústica:** [piso e aparelhos](03_Ambientes/Acustica/README.md); Aubicon 3/5 mm candidata; compatibilidade, preço e campo pendentes.
+**Acústica:** [piso, aparelhos e envoltória](03_Ambientes/Acustica/README.md); 29 faces/407 sensibilidades; isolamento real e custos pendentes.
 
 **Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box a compatibilizar.
 
