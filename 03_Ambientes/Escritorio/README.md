@@ -9,8 +9,8 @@ Estado atual do escritório (dormitório 02, 2,30 × 2,95 m). Prioridade: confor
 - **Aéreos:** armário principal sobre o sofá 200 × 55 × 35 cm (L × A × P) e área aberta sobre a prateleira dos consoles, topo a 195 cm. **Módulo dedicado à caixa do gabinete foi retirado** (Elias guarda a caixa por conta própria, possivelmente no baú da queen). [Aéreos](Aereos.md).
 - **Ciclismo:** capacete, sapatilha e kit de ferramentas num setor do armário principal, com prateleiras reguláveis (17/10).
 - **Consoles:** PS5 utilizável na sala e no escritório (um console que circula); prateleira aberta 110 × 35 a 195 cm com reserva para um Xbox. [TV e consoles](TV_e_consoles.md).
-- **Setup:** notebook à esquerda, duas telas AOC 27″ 240 Hz, CH360 à direita; tela principal à direita, alinhada à cadeira. Duas gavetas ~40 × 45 × 24 à esquerda; faixa livre de 80 cm para a cadeira. [Setup](Setup.md).
-- **Hóspedes:** cadeira estacionada junto ao canto direito da bancada antes de abrir o sofá, e fica no quarto. [Cadeira e sofá](Cadeira_e_sofa.md) · [Sofá e porta](Sofa_e_porta.md).
+- **Setup (29/10/2026):** notebook, ASUS TUF VG27AQ5A 27″ + AOC 24″ existente e CH360; dois braços ELG F80N. Volante e pedais retirados. Duas gavetas ~40 × 45 × 24 à esquerda; faixa livre de 80 cm para a cadeira. [Escolhas e fontes](Setup.md).
+- **Hóspedes:** cadeira estacionada junto ao canto direito da bancada antes de abrir o sofá; permanece no escritório. [Cadeira e sofá](Cadeira_e_sofa.md) · [Sofá e porta](Sofa_e_porta.md).
 - **Arte:** duas obras, "São Paulo cinematográfica" e "Cyberpunk"; imagens, tamanhos e posição a definir.
 
 Base documental: dormitório 02 de **2,30 × 2,95 m**, Guedala Park III, torre 02, final 06. Manter portas originais. Prioridade: conforto para trabalhar, depois hóspedes, depois armazenamento. Este documento reúne a disposição vigente; medidas de estudo não liberam fabricação.
@@ -24,7 +24,7 @@ Base documental: dormitório 02 de **2,30 × 2,95 m**, Guedala Park III, torre 0
 | Gavetas | **Duas discretas à esquerda, uma sobre a outra — confirmado** | Preservar centro e canto direito livres para a cadeira. Módulo de cerca de 40 cm de largura ainda proposto; altura, profundidade e ferragens pendentes. Sem gaveteiro até o piso. |
 | Sofá-cama | **Daiane**, encosto principal na parede esquerda, voltado para a TV; braço lateral próximo à parede da porta | Modelo e cor **cinza-claro escolhidos**, com intenção visual gamer; **versão suede cinza escolhida** (Elias, 29/10/2026: “ok, suede então”), [Carrefour](https://www.carrefour.com.br/sofa-cama-daiane-2-lugares-com-bau-suede-cinza-matrix-mp937810131/p) a R$ 778 no Pix em 29/10, sem frete; conferir o código. Referência de **140 × 90 cm fechado**. Teto R$ 1.500. |
 | Cadeira | **Ercathe A01 Mesh Premium, preta** (Elias, 29/10/2026: “será Cadeira Ergonômica Mesh Ercathe A01 Premium”). [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-ercathe-a01-mesh-premium?variant=49668774854978): R$ 2.290,90, **fora do orçamento**. Mesh, lombar ajustável, braços 3D, encosto até 145°, apoio de pés retrátil; até 1,95 m | Anúncio: assento 50 × 50 a 50–57 cm do piso; “braços 29–36 cm”, sem dizer a partir de onde. A foto de perfil, em escala pela profundidade do assento, mostra o braço ~19 cm acima do assento: topo estimado entre **~62 e 76 cm**. Com bancada de 75 cm e tampo de 3 cm (~72 livres), deve passar com braço e assento no mínimo, **com folga de poucos centímetros; não confirmado**. Pedir à Sensetup a altura do piso ao topo do braço na posição mais baixa, ou medir na entrega, antes de fixar a altura da bancada; envelope 74,5 × 73 mantido. Reclinar com o apoio de pés usa a faixa de 82 cm até o sofá. |
-| TV e console | Samsung 43″ na parede direita, oposta ao sofá; PS5 Slim Digital futuro deitado; prateleira acima da TV a 195 cm, com reserva para Xbox | Coordenar posição com o sofá deslocado para a entrada. Altura, suporte, profundidade e posição longitudinal ainda a definir, fora do giro da porta. |
+| TV e console | Samsung UN43CU7700GXZD: 96,4 × 55,9 × 6 cm, VESA 200 × 200; ELG FIX200 fixo, 2,7 cm da parede (29/10/2026). PS5 Slim Digital futuro deitado; prateleira a 195 cm, reserva Xbox | [Modelo, suporte e fontes](TV_e_consoles.md#tv--modelo-identificado-em-29102026). Altura/posição, cabos e fixação com parede/painel reais pendentes; fora do giro da porta. |
 
 No ensaio atual, o braço do sofá fica a **3 cm da parede da entrada**, e o encosto a **2 cm da parede esquerda**: afastamentos provisórios. Isso deixa **82 cm entre a frente da bancada e o primeiro braço do sofá**, liberando mais área para deslocamento da cadeira. Não equivale a passagem livre atrás da cadeira ocupada ou reclinada.
 
@@ -41,7 +41,7 @@ O sofá é movido e girado para a parede da porta, abrindo em direção à janel
 | Cama até frente da bancada | **40 cm**, considerando os 3 cm de afastamento atrás |
 | Faixa lateral direita | **88 cm brutos**, antes do apoio do PS5 e demais interferências |
 | Cama até limite estimado do giro da porta | **3 cm**, margem crítica dependente de batente e cotas reais |
-| Cadeira estacionada | Envelope Ultra Comfort de 74,5 × 73 cm junto ao canto direito da bancada cabe estaticamente no ensaio; trajetória e ajustes reais ainda pendentes |
+| Cadeira estacionada | Ensaio histórico Ultra Comfort: envelope 74,5 × 73 cm junto ao canto direito cabe estaticamente; não demonstra encaixe da Ercathe escolhida em 29/10. Trajetória e ajustes reais pendentes |
 
 **A cadeira deve permanecer no escritório durante a hospedagem.** Só pode sair temporariamente para movimentar o sofá, retornando depois. Não adotar guarda em outro cômodo como solução para a cama aberta. O estacionamento interno ainda precisa ser validado.
 
@@ -75,7 +75,7 @@ Iluminação inteligente com cores e ajuste de branco, compatível com Alexa: lu
 
 | Documento | Conteúdo |
 |---|---|
-| [Cadeira e sofá](Cadeira_e_sofa.md) | Coordenadas atuais, Ultra Comfort, faixa de 82 cm |
+| [Cadeira e sofá](Cadeira_e_sofa.md) | Ensaio histórico Ultra Comfort; faixa de 82 cm, sem comprovar a Ercathe |
 | [TV e consoles](TV_e_consoles.md) | Ângulo da TV, apoio do PS5, prateleira a 195 cm |
 | [Aéreos](Aereos.md) | Redistribuição e volumes |
 | [Setup](Setup.md) | Telas, notebook, gabinete e gavetas |

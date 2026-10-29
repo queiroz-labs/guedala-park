@@ -2,6 +2,8 @@
 
 # Sofá junto à entrada e cenário Ultra Comfort — R07
 
+**Atualização de 29/10/2026:** cadeira escolhida Ercathe A01 Mesh Premium preta, R$ 2.290,90 fora do orçamento; bancada 200 × 70 a 75 cm, condicionada aos braços. Fonte: [README do escritório](README.md#no-dia-a-dia). Este ensaio Ultra Comfort e as memórias F92–F99 são históricos; preservar números/conclusões sem extrapolá-los à cadeira atual. Encaixe e manobra da Ercathe continuam pendentes.
+
 ## Direção do usuário
 
 Elias pede estudar a GenioDesk ErgoChair Ultra Comfort como hipótese, não escolha definitiva, com braços passando sob o tampo para guardar a cadeira. No modo sofá, quer o braço lateral mais próximo da parede da porta, preservando o encosto principal junto à parede esquerda e o assento voltado à TV. A finalidade é liberar movimento lateral junto à bancada.

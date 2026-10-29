@@ -55,7 +55,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** Philips 50PUG8100/78 e TAB4000 (29/10); TCL só reserva. Sofá Bonnie; Berlin com três cadeiras; banco com duas tampas, piano e articuladores com trava (protótipo pendente).
 - **Quarto:** roupeiro 65 cm, portas de correr; viúva com baú 128×188×64 atual (29/10), queen futura. Geral smart, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin 48D18WSRWIFI só no quarto (Elias 27/10/2026); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente.
-- **Escritório:** cadeira Ercathe A01, R$ 2.290,90 fora do orçamento (29/10).
+- **Escritório (29/10):** Ercathe A01 e ASUS 27″ + AOC 24″ fora da verba; volante/pedais retirados. [Setup](03_Ambientes/Escritorio/README.md).
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
 - **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).
@@ -92,7 +92,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Quem resolve** (sugestão, não contratação): Elias — aparência das propostas visíveis; projeto — juntas, rigidez e interfaces; produto/oficina — ferragens reais, composição P15 e ensaios; RT após as chaves — medidas, parede, ancoragens, piso e liberação.
+**Responsáveis a contratar:** projeto — juntas/rigidez/interfaces; oficina — ferragens, P15 e ensaios; RT após chaves — medidas, paredes, ancoragens e piso. Elias decide aparência.
 
 ## Como trabalhar nesta pasta
 
