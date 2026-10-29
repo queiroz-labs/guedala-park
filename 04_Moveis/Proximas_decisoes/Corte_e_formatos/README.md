@@ -36,7 +36,7 @@ Aproveitamento usa a área útil após refilo; o [CSV](Chapas_cotacao.csv) traz 
 ## Parâmetros e direção
 
 - [Parametros.json](Parametros.json): serra 3,2 mm; refilo 10 mm em **cada borda**; janela útil 2730×1830 ou 2730×2080; sobremetal zero. Seu campo histórico R52 não substitui as fichas R15 lidas neste cálculo.
-- **Arenza e Louro Freijó Poro:** maior dimensão do envelope paralela ao lado 2750, sem rotação. É a restrição conservadora solicitada por Elias em 28/10/2026 neste pedido. O Arenza continua descrito como **liso** nas decisões; não se afirmou que tenha veio impresso. A ficha não contém exceção por ID; montagem/aparência e sentido real precisam de confirmação do fornecedor.
+- **Arenza e Louro Freijó Poro:** maior dimensão do envelope paralela ao lado 2750, sem rotação. É hipótese conservadora do pedido de cálculo de 28/10/2026, não decisão de acabamento. O Arenza continua descrito como **liso** nas decisões; não se afirmou que tenha veio impresso. A ficha não contém exceção por ID; montagem/aparência e sentido real precisam de confirmação do fornecedor.
 - **Branco TX, Azul Petróleo, Beige Matt e Off-white:** podem girar 90°. Um único padrão nas duas faces de cada chapa física; não há caixa interna 15 adicionada automaticamente.
 - Padrões e espessuras não se misturam na chapa. 16 mm continua referência nominal, sem SKU presumido. O formato grande não foi tomado como oferta disponível de todos os padrões.
 - Os recortes especiais ocupam o retângulo envolvente completo. Sem encaixar vazios, furos ou contornos uns nos outros. Os cortes registrados dividem recursivamente cada retângulo livre em guilhotina; a sequência depende da seccionadora real.
