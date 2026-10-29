@@ -49,3 +49,48 @@ Não há preços novos, chapas compradas ou mudança no orçamento. Nenhum tubo 
 [extrair.py](extrair.py), noFreeCAD, lê os arquivosFCStd comoZIP e importa apenas os BREP selecionados em memória. Não abre ou fecha documentos e não altera preferências/objetos da sessão. A pasta temporária própria é verificada dentro deste diretório antes da limpeza. ASCII e binário foram lidos pelos métodos nativos, sem converter geometrias para simplificação.
 
 Depois executar `python analisar.py` e [verificar.py](verificar.py). [Verificação](Verificacao.json) confere36 objetos retangulares18,11 substituições, volumes/áreas/massas, sete arquivos persistidos comCRC/hash e formato. Geometria nominal não é fabricação liberada nem ensaio físico.
+
+
+## Massa e manuseio — base corrente das fichas, 28/10/2026
+
+Estudo separado das propostas históricas acima: **249 painéis**, volume de envelopes **1,060405325 m³**. Foram lidas as 20 fichas `06_Entregas/Fichas_fabricacao/Pxx-pecas.csv` vigentes, sem abrir ou salvar o FreeCAD. Não se incorporaram as 36 peças propostas. A identificação R15 das fichas não prova uma extração R54: o metadado de `fabrication-data.js` ainda indicava R53 durante esta leitura. Os SHA256 das entradas ficam no resumo externo; havendo regeneração das fichas, rodar novamente. Isto é triagem nominal de transporte/manuseio, sem conclusão sobre suspensão ou carga de uso.
+
+[Resumo por móvel](Massas_por_movel.csv): 20 linhas com volume, cobertura do cenário de massa, maior envelope entre os painéis com fonte, alertas e lacunas. Os campos vazios de massa **não significam zero**; não há massa total montada completa para nenhum móvel. As 83 peças marcadas `Recortado/especial` conservam o envelope bruto: não foi calculado volume líquido. Também nas retangulares não se deduziram furação e usinagem.
+
+### Fonte e cálculo sustentado
+
+O [fabricante Greenplac — Arenza Colore](https://greenplac.com.br/products/mdf-arenza-linha-colore), consultado em 28/10/2026, publica chapa MDF de 2750 × 1850 × 18 mm e massa de 63,2 kg. A base documental do [P03](../P03/README.md) identifica MDF BP convencional, mas mantém SKU/lote pendentes. Derivou-se **densidade equivalente da chapa acabada de 690,144690 kg/m³**: 63,2 / (2,75 × 1,85 × 0,018). Não é densidade medida do núcleo e não se soma outra camada BP. Massa do cenário = volume do envelope × essa densidade.
+
+A equivalência de catálogo foi aplicada **condicionalmente** apenas aos 39 IDs cuja ficha nomeia Greenplac Arenza com 18 mm. A ficha especifica acabamento, não confirma por si só substrato, linha e SKU; portanto os valores não são pesos comprovados das peças. Somam **131,651 kg de envelopes neste cenário parcial**. Não se extrapolou a 30 mm nem a “Arenza” genérico. P03 possui cenário para seus sete painéis: **33,992 kg**, antes de ferragens e componentes adicionais; os maiores são Peca262 e Peca263, **10,316 kg cada**. Para os demais móveis, “maior massa” no CSV significa somente maior entre os painéis com cenário, nunca maior de todo o móvel quando há lacunas.
+
+**210 painéis permanecem sem massa**: Branco TX, padrões indefinidos, referências sem marca/linha/substrato suficientes e produtos cuja massa aplicável não foi obtida. A [página oficial Branco TX Guararapes](https://www.guararapes.com.br/produto/branco-tx/) identifica MDF e formatos, mas não fornece ali a massa necessária nem estabelece que seja o Branco TX do projeto. Não se adotaram valores genéricos 650/800/900 dos estudos históricos como densidades comprovadas. Espelhos e outras camadas distintas não receberam massa de madeira; as fichas de painel-base não completam a massa desses componentes.
+
+As ferragens em `04_Moveis/Furacao/Ferragens_por_movel.csv` foram relacionadas separadamente, com massa unitária em branco. Não há massa de catálogo rastreável às linhas nas fontes consultadas; capacidade “40 kg” de corrediça é carga de uso, não peso da ferragem. Não foi considerado peso zero para ferragens, fitas, adesivos, puxadores ou componentes ausentes da lista de painéis. A tentativa Firecrawl falhou por saldo insuficiente; a referência pública Greenplac foi conferida pela ferramenta web, sem contato com terceiros.
+
+### Triagem de manuseio
+
+- **Nenhum dos 249 envelopes tem dimensão maior que 2200 mm.** É o critério pedido, não certificação de manuseio individual.
+- Nenhum dos 39 envelopes do cenário de catálogo supera 25 kg. Nos outros 210, o teste de massa fica indeterminado; não se conclui que todos os painéis pesem menos que 25 kg.
+- Cada painel tem o limiar matemático `25 / volume_envelope` em kg/m³. Isso não atribui densidade ao material. P01/Peca208 tem 0,074097792 m³ e limiar **337,392 kg/m³**; Peca247/Peca248 têm 0,035802090 m³ e limiar **698,283 kg/m³**. Priorizar a confirmação de material/composição e peso dessas peças para planejar transporte. Em contornos especiais, ultrapassar esse limiar pelo envelope não prova que a peça recortada passe de 25 kg.
+- Planejamento de duas pessoas: aplicar o critério solicitado quando a massa real/especificada superar 25 kg ou a dimensão superar 2,2 m; o estudo incompleto não substitui avaliação de pega, percurso e montagem.
+
+### Pendências exatas, sem reabrir a escolha de acabamento
+
+1. Qual substrato (MDF ou MDP), fabricante/linha, SKU, composição e massa nominal correspondem a cada família ainda sem vínculo, especialmente Branco TX e peças com espessuras 7, 16, 16,2, 20 e 30 mm? Confirmar também a equivalência Greenplac 18 antes de usar o cenário como peso de transporte.
+2. Quais massas unitárias de catálogo correspondem aos SKUs de ferragens efetivamente especificados? Componentes candidatos não devem ser somados cumulativamente às alternativas.
+3. Qual espessura/área e massa dos espelhos e camadas separadas, além de painéis-base? Qual volume líquido dos contornos especiais, se for necessário fechar massa? São lacunas de ficha/fornecedor, sem necessidade de escolher novamente a cor.
+
+### Reprodução e arquivos externos
+
+```powershell
+python -B ferramentas/estudos/massas_manuseio.py
+python -B -m unittest discover -s ferramentas/estudos -p test_massas_manuseio.py
+```
+
+Quatro testes: conversão exata da chapa publicada e expansão por ID, recusa de extrapolação por cor/espessura, limiar e contorno especial, erro por quantidade inconsistente. A execução gera `Massas_por_movel.csv` nesta pasta; detalhe externo em `../outputs/Massas_manuseio/`, fora do git. O resumo externo registra os hashes das 20 fichas e do inventário de ferragens. Após regeneração, atualizar os hashes abaixo.
+
+| Arquivo externo | SHA256 |
+|---|---|
+| Massas_por_peca.csv | `6b07c59323c4a0350d34299596cffbe103922a409b99fc2710120397aeac2de2` |
+| Ferragens_sem_massa.csv | `900484e9957be882332b1b322fd2fc67b16f61dbdaed6d5aad13ca43a18a892f` |
+| Resumo.json | `afeab7fa54fb1884f355a62ccc1d41648a1a1e232d6e59014310dd7e237a150f` |
