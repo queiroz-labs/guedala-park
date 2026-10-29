@@ -8,6 +8,8 @@ Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de e
 
 Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` gera as páginas por destinatário, checklist e ZIP com fichas R15; não envia mensagens nem altera CAD.
 
+Água quente: `python -B ferramentas/estudos/agua_quente_banheiro.py` gera comparação e 26 vistas para 13 opções; caixas vinculadas por SHA à R54, sem abrir CAD. Teste: `python -B ferramentas/estudos/test_agua_quente_banheiro.py` (volumes, ramais, origem incerta e encaixe).
+
 | Comando | O que faz | Tempo |
 |---|---|---|
 | `python -B ferramentas/aereos/preparar_ensaios_p04.py` | Pacote PDF de quatro páginas, cinco retalhos T0/oito Minifix e 15 registros vazios; ReportLab/NumPy no Python embutido, sem ensaio físico | segundos |

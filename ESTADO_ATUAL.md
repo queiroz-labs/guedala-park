@@ -30,7 +30,7 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
 | Site e pacote para o montador | R54/R29; 4 abas por cômodo, selo único, Dia/Noite em Cômodos (29/10, local); publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
-Correção de planta R23 (lavanderia 1,29 × 1,54 m, circulação, fechamentos do banheiro) publicada com autorização de Elias, 26/10/2026: "Sim, autorizo comitt push". Pendência: envelopes das lixeiras da cozinha/lavanderia sobrepõem fechamentos em cerca de 6/5 cm; [encaixe proposto](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias 27/10/2026, resposta “A”), aplicado nominalmente na R53 e site; testar pedal/tampa, passagem, varal e destino temporário da Loop. Integridade do ZIP não comprova compatibilização das vistas nem ensaios.
+Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
 ## Onde estamos
 
@@ -82,7 +82,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Proposta FGVTN 500, fixação das frentes, consulta não enviada |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
-| Banheiro | [Acesso ao quadro BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) | Desenho de acesso e vistoria |
+| Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente:13 opções](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas e elétrica com RT; sem escolha (29/10) |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Corte guilhotinado R54](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | 216 painéis/14 chapas encontradas; 33 excluídos. P13 incluído; produto, formatos e blanks a confirmar (28/10) |
 

@@ -982,14 +982,14 @@ const ITEMS=[
   {
     "id": "hotwater",
     "room": "banho",
-    "name": "Água quente oculta: quatro caminhos em estudo",
+    "name": "Água quente: 13 opções em três famílias",
     "kind": "technical",
-    "dimensions": "Enchimento → pia e ducha higiênica",
+    "dimensions": "Pia e ducha: rotas externas ou geração local",
     "choice": "Em estudo",
-    "measure": "Nenhum percurso aprovado",
+    "measure": "Traçados nominais; acesso, vazão e elétrica a confirmar",
     "material": "paint",
-    "source": "18/09/2026",
-    "notes": "Comparados: acima do forro existente. Faixa fechada no canto do teto. Sob prateleira elevada de pedra. Percurso baixo atrás do vaso. Prioridade de estudo: forro existente, com descida junto ao espelho/gabinete. A faixa de gesso é alternativa. Prateleira acima da caixa precisa de nível superior ao tampo de 76,5 cm e acesso à tampa. Não avançar o vaso. Memorial restringe alterações hidráulicas. Derivação no enchimento precisa de avaliação técnica."
+    "source": "Estudo de 29/10/2026; 03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md",
+    "notes": "13 opções: seis discretas, quatro simples e três de geração local, sem escolha. Comparar calha com tampa, forro existente e rodapé técnico; rotas baixas dependem de folga atrás do VIP, sem avançar a louça. Origem no enchimento antes dos controles do chuveiro; derivação e reforma com RT. Esperas nominais não incluem E21 até o enchimento; vazão Arion a confirmar e E21 exige 3,9 L/min de água quente. Miniacumulador sem produto/encaixe demonstrado; passagem elétrica exige circuito exclusivo, e torneira elétrica não conserva a Arion. Planta e elevação na comparação do banheiro."
   },
   {
     "id": "bathfinish",

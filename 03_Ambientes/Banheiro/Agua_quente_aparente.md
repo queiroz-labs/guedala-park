@@ -69,28 +69,8 @@ O memorial oficial distingue aspectos que não devem ser confundidos:
 
 Abrir e recompor um fechamento técnico não estrutural é diferente de rasgar alvenaria estrutural. Derivar a rede continua sendo alteração da instalação. O texto não detalha esse caso nem apresenta uma exceção explícita para o enchimento; não concluir autorização automática nem inviabilidade técnica definitiva somente por esse trecho. A avaliação de reforma permanece pendente, sem impedir o estudo das alternativas. Nenhuma consulta externa foi enviada.
 
-### Comparação dos quatro percursos
+### Comparação vigente — 29/10/2026
 
-| Alternativa | Como esconder | Vantagem no projeto | Limite/custo relativo |
-|---|---|---|---|
-| **1. Acima do forro existente** | Subida no enchimento, travessia sobre o forro, descida no canto junto ao espelho/gabinete | Preserva circulação e dispensa pedra sobre a caixa; primeira recomendação do assistente | Bom custo-benefício se houver passagem e reparos localizados; descida ainda precisa de acabamento |
-| **2. Faixa fechada de gesso no canto do teto** | Pequeno volume só no percurso, pintado como teto, com descida junto ao lavatório | Solução proposta por Elias; alternativa quando o forro não permite passagem | Acrescenta volume e mão de obra; não exige automaticamente rebaixar teto inteiro |
-| **3. Prateleira elevada de Branco Itaúnas** | Tubo sob pedra atrás/acima da caixa, com fechamento acessível | Reproduz a ideia visual enviada e pode integrar a marmoraria | Precisa ficar mais alta que o tampo; custo de pedra/apoios/acabamento; liberar botão e tampa |
-| **4. Passagem baixa atrás do vaso** | Tubo atrás da louça/gabinete e cobertura removível nos trechos necessários | Potencialmente percurso curto e econômico | Só vale se couber sem avançar o VIP; exterior fechado não comprova vão traseiro disponível |
+A comparação foi ampliada para 13 opções em três famílias. A tabela antiga de quatro percursos foi substituída, mantendo neste memorial a origem e as restrições documentais. Não há escolha executiva.
 
-**Situação das alternativas:** comparadas, sem escolha expressa de um percurso único. A recomendação foi priorizar o forro existente e manter a faixa no teto como segunda opção. O pedido de documentar não equivale a aprovar fabricação ou execução de uma dessas rotas.
-
-### Detalhes que precisam acompanhar qualquer rota
-
-- A descida do teto até o gabinete deve ser desenhada integralmente. O espelho pode esconder parte; o intervalo visível entre espelho e pedra precisa de cobertura própria. Preservar armazenamento raso e iluminação de maquiagem.
-- Uma prateleira sobre a caixa não pode ser continuação no mesmo nível do tampo:76,5 cm é inferior à altura nominal80 cm do VIP. Criar nível superior com acesso à descarga e retirada da tampa, sem elevar automaticamente a cuba nem avançar o vaso.
-- Tubos PEX próprios para água potável quente/fria e CPVC próprio para água quente são candidatos; sistema e diâmetro não foram escolhidos. Tubulação deve ter suportes, transições e acesso adequados; não ficar solta apoiada na chapa do forro.
-- Prever acesso às conexões e teste de estanqueidade antes de fechar. Compatibilizar passagem no box, vedação, revestimentos e fixações.
-- Passagem pelo alto pode aumentar comprimento, água parada e espera. Preferir percurso curto e bem dimensionado. Não propor abrir outro ponto como solução permanente de acionamento.
-- E21 exige **3,9 L/min passando pelo aquecedor para acionar**. Verificar pia e ducha em uso individual: tubulação conectada não garante aquecimento imediato nem funcionamento estável com vazão baixa.
-- Não estudar uso do forro do vizinho, rasgos em estrutura, perfuração improvisada do vidro ou retirada de enchimento como se fossem automaticamente permitidos.
-- Engrossar a parede inteira ou deslocar o vaso pode consumir o espaço recuperado com o VIP; abrir o piso aumenta intervenção na impermeabilização. Não são prioridades para o objetivo de economia/amplitude.
-
-Pesquisa anterior de material: PEX Amanco20 mm a **R$9,90/m** na página aberta da Ferreira Costa. Valor apenas do tubo, sem frete/instalação e sem selecionar esse diâmetro. Não há orçamento instalado. Conexões, mão de obra, acesso, gesso, pintura, testes e eventual pedra precisam entrar na comparação.
-
-[Estudo da proposta inicial e memorial](Agua_quente_aparente.md) · [Comparação técnica e fontes](Comparacao_rotas_agua_quente.md) · [Comparador visual salvo](Comparacao_visual_dos_percursos.html).
+[Comparação única: rotas, geração local, medidas nominais, espera, custos e fontes](Comparacao_rotas_agua_quente.md) · [Planta e elevação das 13 opções](Comparacao_visual_dos_percursos.html).

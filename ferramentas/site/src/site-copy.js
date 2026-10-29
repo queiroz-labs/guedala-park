@@ -54,7 +54,7 @@ const ITEM_COPY={
  bathshaft:['Fechamento das tubulações','Fechamento existente em gesso. Confira onde passam os tubos antes de abrir ou remover qualquer parte.'],
  toilet:['Vaso sanitário Celite VIP','Modelo branco com caixa acoplada e assento de fechamento suave. Confira a saída de esgoto e as distâncias de instalação.'],
  hygiene:['Ducha higiênica quente e fria','Falta escolher o modelo e a posição. Confira a vazão necessária para acionar o aquecedor e manter a temperatura estável.'],
- hotwater:['Caminho da água quente · em estudo','O caminho preferido passa pelo forro existente. Há outras opções em estudo. Preserve o acesso para manutenção. A mudança depende de avaliação técnica e das regras do imóvel.'],
+ hotwater:['Água quente · 13 opções em estudo','Compare soluções discretas, tubulação com acesso fácil e aquecimento local. Calha com tampa, forro e rodapé são alternativas condicionais; nenhuma foi escolhida. Vazão, passagem, elétrica e reforma dependem de avaliação técnica.'],
  bathfinish:['Cores e revestimentos do banheiro','Paredes em Algodão Egípcio e teto branco. Verde apenas na parede do chuveiro. Confira as amostras e a adequação do piso ao box.'],
  mirror:['Espelho de corpo inteiro','Espelho sem moldura, na lateral do guarda-roupa. Bordas polidas e cantos levemente arredondados. Confira o painel e a fixação.'],
  dishrack:['Escorredor Tramontina Mini Plurale','Modelo compacto para usar junto à cuba. Guarde limpo e seco no gabinete inferior.'],

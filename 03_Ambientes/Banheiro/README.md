@@ -83,14 +83,13 @@ A largura da porta não foi localizada na planta ou no memorial. A cota 1,05 m d
 
 ## Água quente
 
-Elias quer água quente na pia e na ducha higiênica de forma discreta, sem quebrar alvenaria estrutural: derivar o ramal quente privativo **antes dos controles do banho**, partindo da área de enchimento (gesso, segundo Elias). O memorial **não** confirma espaço no forro nem autoriza a derivação (P.13, P.14 §3.1 e §3.2, P.17 §5.4); a avaliação de reforma segue pendente.
+**Estudo de 29/10/2026: 13 opções, sem escolha.** [Comparação, critérios, rankings e fontes](Comparacao_rotas_agua_quente.md) · [planta e elevação](Comparacao_visual_dos_percursos.html). Famílias: discretas, simples e geração local. Recomendações condicionais: B2/calha com tampa, A1/forro e A6/rodapé; preferência com Elias.
 
-- **Quatro percursos comparados, sem escolha única:** (1) acima do forro existente (recomendação inicial), (2) faixa fechada de gesso no canto do teto (segunda opção, proposta de Elias), (3) prateleira elevada de Branco Itaúnas, (4) passagem baixa atrás do vaso.
-- O E21 só aciona com **3,9 L/min**: conferir pia e ducha em uso individual. PEX ou CPVC são candidatos; sistema e diâmetro não foram escolhidos. Prever acesso às conexões e teste de estanqueidade.
-- Uma prateleira sobre a caixa não continua o tampo (76,5 cm é menor que os 80 cm do vaso): precisa de nível próprio.
-- Não está autorizado: usar o forro do vizinho, rasgar estrutura, furar o vidro ou retirar o enchimento. Nenhuma consulta externa foi enviada nem rota aprovada para fabricação.
-
-Memorial citado, tabela dos quatro percursos e detalhes completos: [Água quente aparente](Agua_quente_aparente.md#memorial-quatro-percursos-e-detalhes-movido-do-readme-do-banheiro-em-25102026) · [comparação técnica e fontes](Comparacao_rotas_agua_quente.md) · [comparador visual](Comparacao_visual_dos_percursos.html).
+- Origem: ramal privativo no enchimento de gesso, antes dos controles do banho, conforme Elias. Posição exata desconhecida; R54 consultada por caixas vinculadas ao SHA, sem abrir CAD.
+- E21 exige **3,9 L/min de água quente**, não vazão total misturada. Vazão Arion a confirmar; espera calculada exclui E21→enchimento e engates.
+- Rotas baixas cruzam o envelope VIP: passagem não demonstrada, sem avançar louça. Prateleira exige nível próprio (tampo76,5 < vaso80 cm); P19 não tem espaço técnico automaticamente disponível.
+- Miniacumulador: produto/encaixe127 V não demonstrados. Passagem elétrica: circuito exclusivo, sem tomada. Torneira elétrica não conserva Arion nem atende ducha.
+- Reforma/RT, hidráulica, acesso e elétrica pendentes. Sem rasgo estrutural, piso aberto, vidro furado, forro de vizinho ou retirada do enchimento sem avaliação. [Memorial do estudo](Agua_quente_aparente.md).
 
 ## Referências visuais e versões
 
