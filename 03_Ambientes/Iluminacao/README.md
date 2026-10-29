@@ -62,15 +62,15 @@ Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmo
 
 [Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.
 
-| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão |
-|---|---:|---:|---|
-| [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) / 0.10 | não atende no cenário com interreflexão H13; três faixas rho |
-| [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) / 0.01 | não atende no cenário com interreflexão H13; três faixas rho |
-| [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) / 0.08 | não atende no cenário com interreflexão H13; três faixas rho |
-| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) / 0.54 | atende no cenário com interreflexão H13; três faixas rho |
-| [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) / 0.00 | não atende no cenário com interreflexão H13; três faixas rho |
-| [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) / 0.07 | não atende no cenário com interreflexão H13; três faixas rho |
-| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho |
+| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão | Opção numérica para a tarefa indicada, cenário central |
+|---|---:|---:|---|---|
+| [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) / 0.10 | não atende no cenário com interreflexão H13; três faixas rho | sala_mesa: local 3 perfil COB 1.70m, 672 lx, R$628.04 parcial |
+| [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) / 0.01 | não atende no cenário com interreflexão H13; três faixas rho | cozinha_pia: local 1 perfil COB 0.65m, 879 lx, R$297.25 parcial |
+| [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) / 0.08 | não atende no cenário com interreflexão H13; três faixas rho | lavanderia_tanque: local 1 perfil COB 0.59m, 460 lx, R$297.25 parcial |
+| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) / 0.54 | atende no cenário com interreflexão H13; três faixas rho | banho_geral: vigente sem acréscimo, 202 lx, R$0.00 parcial |
+| [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) / <0,01 | não atende no cenário com interreflexão H13; três faixas rho | quarto_leitura: geral 1 × Q05, 350 lx, R$134.83 parcial |
+| [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho | escritorio_mesa: sem opção testada que cumpra média e U0 |
+| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho | circulacao_geral: sem opção testada que cumpra média e U0 |
 
 Metas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Malha limpa: cozinha/tanque somente no tampo0,92 m; livro0,85 m acima da viúva atual. Mínimos escuros fora de sólidos não são descartados. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.
 
@@ -80,10 +80,30 @@ Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `pytho
 
 [Cenas e horas](Cenas_luz.csv), [consumo por grupo](Consumo_luz.csv), [correntes](Correntes_luz.csv), [opções numéricas](Alternativas_luz.csv) e [coerência dia/noite](Coerencia_imagens_luz.csv). Subtotal modelado no perfil de uso: **12.07–12.61 kWh/mês**, incluindo provisão Shelly24h, sem standby desconhecido das demais fontes/smart. Não é previsão de fatura; grupos não identificam circuitos. [UGR EVO](UGR_luz.csv) calculado para cena/observador H16; demais conjuntos indeterminados. [Reflexos em telas](Reflexos_telas_luz.csv) têm olho/orientação nominal H17.
 
-**Perguntas para Elias:** manter500 lx de leitura/jogos na mesa aberta ou comparar300 lx? Se o déficit persistir, aceita comparar reforço de tarefa? No espelho, prefere avaliar barras horizontais técnicas ou verticais do render? Nenhuma nova seleção inferida. Fabricantes: IES/LDT/SKU, transmissão e IL pendentes. RT/instalador: circuito/quadro real, retorno/neutro, posições/rebaixos e volumes; não pedir agora medidas inexistentes ao morador.
-
 Motor de radiosidade H13 integrado; resultados totais e balanços no estudo e CSV. Caixa vazia validada (<3% frente à solução analítica) e conservação com abertura. Dependências: NumPy e Pillow nas ferramentas locais.
 
-Comparação H14/H15: [lúmens necessários](Fluxo_necessario_luz.csv) e [camadas local/geral/espelho](Camadas_tarefa_luz.csv). Sala e escritório têm metas300/500 lx em paralelo. Opções usam preços existentes, só materiais parciais; nenhuma compra inferida. Verticais e horizontais do espelho preservam1,10 m; segundo plafon é apenas opção.
+## Perguntas objetivas e consequências numéricas
 
-Rascunhos IL02–IL09 revistos29/10 por SKU e escopo vigente, sem envio; [seis prompts de correção](../../09_Referencias/README.md#prompts-de-correção-da-luz--rascunhos29102026) preparados em texto, sem gerar imagens.
+
+
+**Cenários, não escolhas.** As faixas completas estão nos CSV; números abaixo usamρcentral/H13 e preços parciais P1, sem instalação/frete/comando novo. A menor opção do catálogo testado não é o mínimo de mercado nem solução de obra.
+
+
+
+1. **Mesa da sala:300 ou500 lx?** Para300: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. Para500: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. A exigência de U0 mantém o mesmo menor pacote testado nas duas metas; não há economia demonstrada só por baixar a média.
+
+2. **Escritório:300 residencial ou500 lx laboral; aceita reforço local?** nenhuma opção testada cumpre média e U0 no cenário central, em nenhuma das duas metas. Confirmar área efetiva de trabalho e sombras dos equipamentos antes de compra; não descartar pontos escuros apenas para subir U0.
+
+3. **Sala:reforço local ou somente geral?** Local500: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. Somente geral300: geral 4 × S03: 433 lx/U0 0.75, material parcial R$1034.36. Somente geral500: nenhuma opção testada cumpre média e U0 no cenário central.
+
+4. **Espelho:horizontal ou vertical?** horizontal R54: 483 lx/U0 0.88; vertical imagem: 715 lx/U0 0.91; horizontal + geral adicional: 520 lx/U0 0.90. Mesmo1,10 m de fita nas duas orientações; relocalização/terminações ainda sem cotação.
+
+
+
+**Dados faltantes e destinatários:** WiZ/Taschibra:SKU, branco e conjunto fechado/difusor; Stella:IES do lote30W/abertura; Galaxy/Elgin/Nordecor:curva, abertura e fluxo por branco; Cristallux:corrente/fluxo/curva; Brilia:tensãoG9; Opus/Shelly:PWM, perdas e corrente; fornecedores nos [rascunhos IL02–IL09](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados), sem envio. RT/instalador:posição, área de tarefa, circuito, retornos, teto e interferências após levantamento. Não transformar resposta estética em autorização de compra.
+
+
+
+[Prompts de correção por cômodo](../../09_Referencias/README.md#prompts-de-correção-da-luz--rascunhos29102026): apenas rascunhos; nenhuma imagem gerada/substituída.
+
+Comparação H14/H15: [lúmens necessários](Fluxo_necessario_luz.csv) e [camadas local/geral/espelho](Camadas_tarefa_luz.csv). Sala e escritório têm metas300/500 lx em paralelo. Opções usam preços existentes, só materiais parciais; nenhuma compra inferida. Verticais e horizontais do espelho preservam1,10 m; segundo plafon é apenas opção.

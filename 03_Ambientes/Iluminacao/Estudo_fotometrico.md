@@ -67,7 +67,7 @@ H5: transmissão Jurerê0,50/0,65/0,85; âmbar0,40/0,55/0,75; perfil/difusor0,60
 
 Fluxos de fitas resultam de comprimento nominal×lm/m. C2/S3/Q06 mantêm os comprimentos já usados em P6; não são comprimentos de compra. B09=2×0,55 m e B10≤2 m em P5; E05=kit2 m. Não há dado de fluxo por branco/RGB ou intensidade regulada; os cálculos funcionais consideram branco a100%. Faltam transmissão/curva dos conjuntos; IRC das EVY e do Elgin não está comprovado nas fontes usadas. Não confundir lista comercial e SKU conciliado.
 
-IES EVO obtido diretamente do anexo oficial S1 em29/10: teste31/08/2021,2329 lm/35,65 W; catálogo2300 lm/30 W. A curva original é cenário histórico, não fotometria certificada do lote30 W. Serão mostrados separadamente curva original e comparação normalizada2300/2329; normalizar fluxo não resolve diferença construtiva. Curva numérica pequena preservada em `Fotometria_fontes.json`, com SHA do IES original.
+IES EVO obtido diretamente do anexo oficial S1 em29/10: teste31/08/2021,2329 lm/35,65 W; catálogo2300 lm/30 W. A curva original é cenário histórico, não fotometria certificada do lote30 W. UGR H16 usa a curva original; lux H13 usa comparação normalizada2300/2329; normalizar fluxo não resolve diferença construtiva. Curva numérica pequena preservada em `Fotometria_fontes.json`, com SHA do IES original.
 
 ## Geometria e evidências do vídeo
 
@@ -75,9 +75,9 @@ Planta oficial P3 conferida com a skill PDF; projeções PR-FLOORS e PR-PONTO de
 
 Elias,29/10/2026, nesta conversa: “tem imagens de um video de um apartamento semelhante ao meu (só q espelhado)”. V1–V5 foram conferidos: quatro saídas no conjunto social/cozinha/serviço; duas teclas junto ao interfone; três junto à circulação; tomada+interruptor junto ao lavatório. A→Dormitório02/escritório e B→Dormitório01/quarto é a correspondência provável corrigida pela R02. Orientação transferida pelas paredes e vãos da planta, não por inverter coordenadas de pixels. O vídeo sustenta quantidade e região, não centímetros, retorno, neutro ou circuito.
 
-Para o cálculo: centros nominais dos pontos existentes; altura do teto2,60 m (banho2,50) menos corpo/hipótese do emissor. Não deduzir novamente forro de uma altura já acabada. Jurerê10 cm de corpo; EVO3,8 cm; Elgin/Firefly5 cm como hipótese, sem dimensão exata comprovada. Rebaixos/vigas sem cotas ficam como perguntas, sem inventar seção. Deslocamento de±25 cm será ensaio de sensibilidade, não precisão atribuída ao vídeo.
+Para o cálculo: centros nominais dos pontos existentes; altura do teto2,60 m (banho2,50) menos corpo/hipótese do emissor. Não deduzir novamente forro de uma altura já acabada. Jurerê10 cm de corpo; EVO3,8 cm; Elgin/Firefly5 cm como hipótese, sem dimensão exata comprovada. Rebaixos/vigas sem cotas ficam como perguntas, sem inventar seção. Deslocamento de±25 cm é ensaio de sensibilidade, não precisão atribuída ao vídeo.
 
-Planos pedidos0,75/0,85/0,45 m são comparadores; bancadas atuais chegam a0,92 m na cozinha e0,765 no banho; cama atual tem0,64 m. Registrar as duas referências, sem alterar móveis. Plano vertical do rosto separado da horizontal. Portas/varal e armários serão apenas envelopes de oclusão, não simulação contínua de interferências.
+Planos pedidos0,75/0,85/0,45 m são comparadores; bancadas atuais chegam a0,92 m na cozinha e0,765 no banho; cama atual tem0,64 m. Registrar as duas referências, sem alterar móveis. Plano vertical do rosto separado da horizontal. Portas/varal e armários são envelopes de oclusão, não simulação contínua de interferências.
 
 ## Método
 
@@ -112,7 +112,7 @@ Malhas: geral0,75 m exclui projeções de móveis/equipamentos baixos e paredes;
 | cozinha_preparo_tampo92 (0.92 m) | 0.26 | 358.0 / 22.1 / 0.06 | 394.8 / 415.7 / 443.6 | 40.2 / 0.10 | 57.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 | cozinha_pia_tampo92 (0.92 m) | 0.40 | 490.4 / 245.8 / 0.50 | 539.0 / 563.0 / 594.7 | 374.7 / 0.67 | 72.6 | direta: não atende no cenário; reflexão: marginal no cenário com interreflexão H13; três faixas rho |
 | cozinha_preparo_tampo92_pessoa (0.92 m) | 0.26 | 290.4 / 15.7 / 0.05 | 332.7 / 360.2 / 397.4 | 41.1 / 0.11 | 69.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
-| cozinha_pia_tampo92_pessoa (0.92 m) | 0.40 | 423.9 / 213.1 / 0.50 | 475.3 / 505.8 / 547.0 | 265.5 / 0.53 | 81.9 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| cozinha_pia_tampo92_pessoa (0.92 m) | 0.40 | 423.9 / 213.1 / 0.50 | 475.3 / 505.8 / 547.0 | 265.5 / 0.52 | 81.9 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 
 ### lavanderia
 
@@ -140,7 +140,7 @@ Malhas: geral0,75 m exclui projeções de móveis/equipamentos baixos e paredes;
 
 | Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
 |---|---:|---|---|---|---:|---|
-| escritorio_geral (0.75 m) | 4.08 | 53.2 / 0.0 / 0.00 | 64.8 / 70.7 / 79.5 | 4.6 / 0.07 | 17.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| escritorio_geral (0.75 m) | 4.08 | 53.2 / 0.0 / 0.00 | 64.8 / 70.7 / 79.5 | 4.6 / 0.06 | 17.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 | escritorio_mesa (0.75 m) | 0.51 | 44.1 / 0.0 / 0.00 | 53.7 / 58.9 / 66.5 | 10.4 / 0.18 | 14.8 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 
 ### circulacao
@@ -241,7 +241,7 @@ Sóρ varia nas colunas baixo/central/alto; fluxo branco/transmissão/curva ause
 
 | Cômodo/tarefa/meta | Até três menores materiais parciais que cumprem cenárioρcentral | Posições testadas que cumprem |
 |---|---|---|
-| banho_geral / 150 lx | geral 1 × B11: R$129.00, 420 lx/U0 0.68; geral 2 × B11: R$258.00, 632 lx/U0 0.67 | geral 1 × B11: -0.15,0,0.15 m; geral 2 × B11: -0.15,0,0.15 m |
+| banho_geral / 150 lx | vigente sem acréscimo: R$0.00, 202 lx/U0 0.54; geral 1 × B11: R$129.00, 420 lx/U0 0.68; geral 2 × B11: R$258.00, 632 lx/U0 0.67 | vigente sem acréscimo: 0 m; geral 1 × B11: -0.15,0,0.15 m; geral 2 × B11: -0.15,0,0.15 m |
 | circulacao_geral / 100 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
 | cozinha_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
 | cozinha_pia_tampo92 / 300 lx | local 3 perfil COB 0.65m: R$297.25, 1457 lx/U0 0.76; local 2 perfil COB 0.65m: R$297.25, 1181 lx/U0 0.74; local 1 perfil COB 0.65m: R$297.25, 879 lx/U0 0.71 | local 3 perfil COB 0.65m: 0 m; local 2 perfil COB 0.65m: 0 m; local 1 perfil COB 0.65m: 0,0.15 m |
@@ -349,15 +349,29 @@ Doze WebP atuais inspecionados visualmente em29/10, sem regeneração. [Tabela r
 | quarto | coerência parcial | 1 plafon,2 arandelas e linha de cabeceira; luminária smart/modelo/3000K não verificáveis só por imagem; representa queen futura, não viúva atual; Q01/Q02/Q05/Q06;P1 |
 | escritorio | divergência de escopo | noite mostra linha quente sob prateleira e halo TV; E06/prateleira adiada, só E05/TV nesta etapa; produtos são aproximações; luz da tarefa não comprovada pelo brilho do render; E04/E05;E06 adiada por D06-B27/10 |
 
-## Perguntas objetivas
+## Perguntas objetivas e consequências numéricas
 
-1. **Elias:** manter500 lx como meta de leitura/jogos na mesa aberta, ou comparar também uma meta residencial menos exigente de300 lx? Não alterada automaticamente. Para o escritório, a referência de500 lx na tarefa laboral permanece.
-2. **Elias:** caso a confirmação fotométrica mantenha o déficit, aceita comparar reforço local de tarefa ou prefere preservar somente luminárias gerais? Não é autorização de compra/novo ponto.
-3. **Elias:** para o espelho, prefere avaliar barras horizontais da proposta técnica ou a composição vertical da imagem? Ambas precisam de validação; nenhuma foi escolhida neste estudo.
-4. **Fornecedores, dentro das IL existentes:** qual IES/LDT/transmissão do conjunto exato por SKU, branco e difusor? O IES2021 representa o EVO30W atual? Confirmar corrente Cristallux e tensão/cabeçalho G9, PWM/curva térmica da fonte e uso WiZ em plafon fechado.
-5. **RT/instalador após documentação/levantamento:** quais circuito/disjuntor/FP/inrush/condutores e retornos efetivos, coordenadas/altura do emissor, rebaixos/vigas, volumes/IP/DR e sombras de uso? Não pedir agora ao morador medidas que ele não possui.
 
-Sem produto escolhido, envio a fornecedor, mudança de cota/preço/orçamento, modificação de item do site, publicação ou CAD salvo.
+
+**Cenários, não escolhas.** As faixas completas estão nos CSV; números abaixo usamρcentral/H13 e preços parciais P1, sem instalação/frete/comando novo. A menor opção do catálogo testado não é o mínimo de mercado nem solução de obra.
+
+
+
+1. **Mesa da sala:300 ou500 lx?** Para300: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. Para500: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. A exigência de U0 mantém o mesmo menor pacote testado nas duas metas; não há economia demonstrada só por baixar a média.
+
+2. **Escritório:300 residencial ou500 lx laboral; aceita reforço local?** nenhuma opção testada cumpre média e U0 no cenário central, em nenhuma das duas metas. Confirmar área efetiva de trabalho e sombras dos equipamentos antes de compra; não descartar pontos escuros apenas para subir U0.
+
+3. **Sala:reforço local ou somente geral?** Local500: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. Somente geral300: geral 4 × S03: 433 lx/U0 0.75, material parcial R$1034.36. Somente geral500: nenhuma opção testada cumpre média e U0 no cenário central.
+
+4. **Espelho:horizontal ou vertical?** horizontal R54: 483 lx/U0 0.88; vertical imagem: 715 lx/U0 0.91; horizontal + geral adicional: 520 lx/U0 0.90. Mesmo1,10 m de fita nas duas orientações; relocalização/terminações ainda sem cotação.
+
+
+
+**Dados faltantes e destinatários:** WiZ/Taschibra:SKU, branco e conjunto fechado/difusor; Stella:IES do lote30W/abertura; Galaxy/Elgin/Nordecor:curva, abertura e fluxo por branco; Cristallux:corrente/fluxo/curva; Brilia:tensãoG9; Opus/Shelly:PWM, perdas e corrente; fornecedores nos [rascunhos IL02–IL09](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados), sem envio. RT/instalador:posição, área de tarefa, circuito, retornos, teto e interferências após levantamento. Não transformar resposta estética em autorização de compra.
+
+
+
+[Prompts de correção por cômodo](../../09_Referencias/README.md#prompts-de-correção-da-luz--rascunhos29102026): apenas rascunhos; nenhuma imagem gerada/substituída.
 
 [Rastreio das entradas por SHA](Rastreio_fotometrico.json): inclui curva, código, lista comercial, geometria, coordenadas e manifesto das imagens; textos normalizados paraLF, CAD/IES originais por bytes.
 

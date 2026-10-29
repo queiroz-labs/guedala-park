@@ -514,9 +514,9 @@ def emitters(g):
 
 
 SCENARIOS = {
-    'baixo':dict(mf=.7,glass=.5,amber=.4,profile=.6,uf=.30),
-    'central':dict(mf=.8,glass=.65,amber=.55,profile=.75,uf=.45),
-    'alto':dict(mf=.9,glass=.85,amber=.75,profile=.9,uf=.60),
+    'baixo':dict(mf=.7,glass=.5,amber=.4,profile=.6),
+    'central':dict(mf=.8,glass=.65,amber=.55,profile=.75),
+    'alto':dict(mf=.9,glass=.85,amber=.75,profile=.9),
 }
 
 # Cenas alternativas, não agenda do morador: horas/cena não se sobrepõem no cômodo.
@@ -584,36 +584,6 @@ def uniform_addition(mean,minimum,target,u):
     return max(0,target-mean,(u*mean-minimum)/(1-u))
 
 
-def alternatives(g,ies,rows):
-    lights=emitters(g);s=SCENARIOS['central'];cases={c['id']:c for c in calculation_cases(g)};result=[]
-    chosen=('sala_mesa','escritorio_mesa','cozinha_preparo_tampo92','cozinha_pia_tampo92','lavanderia_tanque_tampo92','quarto_geral','circulacao_geral')
-    for ident in chosen:
-        row=next(r for r in rows if r['caso']==ident)
-        if row['veredito']=='atende no cenário':continue
-        add=uniform_addition(row['media_central'],row['minimo_central'],row['meta_lx'],row['u0_meta'])
-        result.append(dict(caso=ident,opcao='acréscimo espacialmente homogêneo mínimo, ideal matemático',
-                           media_antes=row['media_central'],u0_antes=row['uniformidade'],media_depois=round(row['media_central']+add,2),
-                           u0_depois=round((row['minimo_central']+add)/(row['media_central']+add),3),delta_lux=round(add,2),
-                           delta_material_RS='sem produto cotado que comprove esta distribuição',instalacao='não é especificação; obter fotometria/posição para materializar',fonte='H12:solução algébrica; meta e malha central'))
-    tests=[('sala_mesa','um Jurerê+2WiZ adicional, posição nominal de comparação',258.59),
-           ('cozinha_preparo_tampo92','recuar eixo do perfil para centro transversal da bancada',None),
-           ('lavanderia_tanque_tampo92','deslocar plafon35 cm rumo ao tanque e20 cm longitudinalmente',None)]
-    for ident,label,cost in tests:
-        case=cases[ident];ls=copy.deepcopy(case_lights(case,lights));before=next(r for r in rows if r['caso']==ident)
-        if ident=='sala_mesa':
-            e=next(e for e in ls if e['code']=='S03');e=copy.deepcopy(e);e['position']=(6.17,4.75,2.50);ls.append(e)
-        elif ident.startswith('cozinha'):
-            for e in ls:
-                if e['code']=='C14':e['position']=(e['position'][0],6.685,e['position'][2])
-        else:
-            for e in ls:
-                if e['code']=='L11':e['position']=(2.85,6.15,e['position'][2])
-        st=statistics(case['grid'],[direct(c,ls,s,ies,obstacles_for(g,case)) for c in case['grid']])
-        result.append(dict(caso=ident,opcao=label,media_antes=before['media_central'],u0_antes=before['uniformidade'],media_depois=round(st['mean'],2),u0_depois=round(st['u0'],3),
-                           delta_lux=round(st['mean']-before['media_central'],2),delta_material_RS=cost if cost else 'sem novo produto; remanejamento sem cotação',
-                           instalacao='opção, não adotada; conferir portas/canopla/varal/forro e infraestrutura; mão de obra desconhecida',fonte='P1:60,65+2×98,97=258,59 quando aplicável;H12; malha central'))
-    return result
-
 
 VISUALS = [
  ('sala','coerência parcial','1 plafon e3 globos nas duas imagens; noite quente e indireta acima do painel; sombras/reflexos ilustrativos; cápsulas aparentam filamento, não MiniG9 real','09_Referencias/Sala_noite_web.webp','S03/S04/S05;P1'),
@@ -638,7 +608,7 @@ RISKS = [
 
 
 def final_text(out,g,ies,rows):
-    scenes,energy=scene_energy();cr=circuits();alts=alternatives(g,ies,rows)
+    scenes,energy=scene_energy();cr=circuits();alts=[]
     write_csv(out/'Cenas_luz.csv',scenes);write_csv(out/'Consumo_luz.csv',energy);write_csv(out/'Correntes_luz.csv',cr);write_csv(out/'Alternativas_luz.csv',alts)
     write_csv(out/'Coerencia_imagens_luz.csv',(dict(ambiente=r,status=s,evidencia=e,imagem_noite=p,imagem_dia=p.replace('_noite','_dia'),fonte=f,data_inspecao=DATE) for r,s,e,p,f in VISUALS))
     lines=['## Posições aproximadas pelas fotos do vídeo espelhado', '',
@@ -816,6 +786,8 @@ def option_light(code,pos,normal=(0,0,-1),fraction=1):
 def option_patterns(case,g):
     """H14 finite comparison catalogue, not an installation/layout optimization."""
     room=case['room'];grid=case['grid'];points=np.array([c['point'] for c in grid]);center=np.average(points,axis=0,weights=[c['area'] for c in grid])
+    yield dict(name='vigente sem acréscimo',family='vigente',shift=0,lights=[],flux=0,watts=0,cost=0,
+               effort='sem intervenção adicional; compra vigente continua condicionada',risk='mesmos limites H2/H3/H5/H6/H13; delta material zero só significa nenhum item acrescentado')
     general={'sala':('S03',258.59),'escritorio':('E04',258.59),'quarto':('Q05',134.83),
              'cozinha':('C13',239.4),'lavanderia':('L11',203.9),'banho':('B11',129.),'circulacao':('Q05',134.83)}
     code,price=general[room];height=g['heights'][room]-PRODUCTS[code]['drop']
@@ -875,7 +847,7 @@ def comparable_options(g,ies,out):
             # Reject emitters in an opaque box; do not optimize around real conflicts.
             if any(any(all(b[j]<e['position'][j]<b[j+3] for j in range(3)) for b,_,_ in room_solids(g)) for e in pattern['lights']):continue
             increments=response_vectors(engine,case,pattern['lights'],g,ies)
-            pos=' | '.join(','.join(f'{v:.3f}' for v in e['position']) for e in (pattern['lights'][0],pattern['lights'][-1]))
+            pos=' | '.join(','.join(f'{v:.3f}' for v in e['position']) for e in (pattern['lights'][0],pattern['lights'][-1])) if pattern['lights'] else 'pontos vigentes'
             for target in targets:
                 scales=[required_scale(case['grid'],base,delta,target,case['u']) for base,delta in zip(bases,increments)]
                 fluxes=['inviável por distribuição' if v is None else round(v[0]*pattern['flux'],1) for v in scales]
@@ -1058,6 +1030,28 @@ def glare_and_screens(g,ies,out):
     return '\n'.join(lines)+'\n'
 
 
+def decision_summary(out):
+    """Readable choices from the generated tables; never a chosen product."""
+    def read(name):
+        with (out/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f,delimiter=';'))
+    options=read('Alternativas_luz.csv');layers=read('Camadas_tarefa_luz.csv')
+    def best(ident,target,family=None):
+        rows=[r for r in options if r['caso']==ident and float(r['meta_lx'])==target and r['meta_central']=='True' and (family is None or r['camada']==family)]
+        return min(rows,key=lambda r:(float(r['material_parcial_RS']),float(r['W_nominal']))) if rows else None
+    def describe(r):
+        if r is None:return 'nenhuma opção testada cumpre média e U0 no cenário central'
+        return f"{r['opcao']}: {float(r['Emed_central']):.0f} lx/U0 {float(r['U0_central']):.2f}, material parcial R${float(r['material_parcial_RS']):.2f}"
+    texts=['## Perguntas objetivas e consequências numéricas', '',
+           '**Cenários, não escolhas.** As faixas completas estão nos CSV; números abaixo usamρcentral/H13 e preços parciais P1, sem instalação/frete/comando novo. A menor opção do catálogo testado não é o mínimo de mercado nem solução de obra.', '',
+           '1. **Mesa da sala:300 ou500 lx?** Para300: '+describe(best('sala_mesa',300))+'. Para500: '+describe(best('sala_mesa',500))+'. A exigência de U0 mantém o mesmo menor pacote testado nas duas metas; não há economia demonstrada só por baixar a média.',
+           '2. **Escritório:300 residencial ou500 lx laboral; aceita reforço local?** '+describe(best('escritorio_mesa',300))+', em nenhuma das duas metas. Confirmar área efetiva de trabalho e sombras dos equipamentos antes de compra; não descartar pontos escuros apenas para subir U0.',
+           '3. **Sala:reforço local ou somente geral?** Local500: '+describe(best('sala_mesa',500,'local'))+'. Somente geral300: '+describe(best('sala_mesa',300,'geral'))+'. Somente geral500: '+describe(best('sala_mesa',500,'geral'))+'.',
+           '4. **Espelho:horizontal ou vertical?** '+ '; '.join(f"{r['opcao']}: {float(r['Emed_central']):.0f} lx/U0 {float(r['U0_central']):.2f}" for r in layers if r['caso']=='banho_rosto')+'. Mesmo1,10 m de fita nas duas orientações; relocalização/terminações ainda sem cotação.', '',
+           '**Dados faltantes e destinatários:** WiZ/Taschibra:SKU, branco e conjunto fechado/difusor; Stella:IES do lote30W/abertura; Galaxy/Elgin/Nordecor:curva, abertura e fluxo por branco; Cristallux:corrente/fluxo/curva; Brilia:tensãoG9; Opus/Shelly:PWM, perdas e corrente; fornecedores nos [rascunhos IL02–IL09](Fechamento_custo_beneficio/Revisao_quarto_CB02.md#consultas-aos-fornecedores--rascunhos-não-enviados), sem envio. RT/instalador:posição, área de tarefa, circuito, retornos, teto e interferências após levantamento. Não transformar resposta estética em autorização de compra.', '',
+           '[Prompts de correção por cômodo](../../09_Referencias/README.md#prompts-de-correção-da-luz--rascunhos29102026): apenas rascunhos; nenhuma imagem gerada/substituída.']
+    return '\n\n'.join(texts)+'\n'
+
+
 def calculate_reflections(g,ies,rows,grids):
     engines={};balances=[];total_grids={};lights=emitters(g)
     for case in calculation_cases(g):
@@ -1071,7 +1065,7 @@ def calculate_reflections(g,ies,rows,grids):
             B,balance=engine.solve(q,emitted,band);ref=engine.reflected_lux(case['grid'],B);total=ds+ref
             st=statistics(case['grid'],total);stats.append(st);vectors.append(total)
             row.update({f'ref_media_{name}':round(st['mean'],2),f'ref_minimo_{name}':round(st['min'],2),
-                        f'ref_u0_{name}':round(st['u0'],3),f'ganho_{name}_lx':round(st['mean']-row['media_central'],2)})
+                        f'ref_u0_{name}':round(st['u0'],6),f'ganho_{name}_lx':round(st['mean']-row['media_central'],2)})
             balances.append(dict(caso=case['id'],rho=name,patches=len(engine.patches),**{k:round(v,9) for k,v in balance.items()}))
         row['veredito_ref']=verdict(stats[0],stats[2],case['meta'],case['u'])+' com interreflexão H13; três faixas rho'
         total_grids[case['id']]=(case['grid'],vectors[1])
@@ -1142,14 +1136,22 @@ def update_summary(out,rows):
     if not path.exists():return
     text=path.read_text(encoding='utf-8')
     text=text.split('## Fotometria —')[0].rstrip()
-    text+='\n\n## Fotometria — cenários de 29/10/2026\n\n[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.\n\n| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão |\n|---|---:|---:|---|\n'
+    with (out/'Alternativas_luz.csv').open(encoding='utf-8-sig',newline='') as f:options=list(csv.DictReader(f,delimiter=';'))
+    tasks={'sala':('sala_mesa',500),'cozinha':('cozinha_pia_tampo92',300),'lavanderia':('lavanderia_tanque_tampo92',300),
+           'banho':('banho_geral',150),'quarto':('quarto_leitura',300),'escritorio':('escritorio_mesa',500),'circulacao':('circulacao_geral',100)}
+    text+='\n\n## Fotometria — cenários de 29/10/2026\n\n[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.\n\n| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão | Opção numérica para a tarefa indicada, cenário central |\n|---|---:|---:|---|---|\n'
     for room in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao'):
         r=next(r for r in rows if r['caso']==room+'_geral')
-        text+=f"| [{room}](Mapa_lux_{room}.png) | {r['media_central']:.0f} | {r['ref_media_baixo']:.0f}–{r['ref_media_alto']:.0f} ({r['ref_media_central']:.0f}) / {r['ref_u0_central']:.2f} | {r['veredito_ref']} |\n"
+        ident,target=tasks[room];valid=[v for v in options if v['caso']==ident and float(v['meta_lx'])==target and v['meta_central']=='True']
+        best=min(valid,key=lambda v:(float(v['material_parcial_RS']),float(v['W_nominal']))) if valid else None
+        short=(best['opcao']+f", {float(best['Emed_central']):.0f} lx, R${float(best['material_parcial_RS']):.2f} parcial") if best else 'sem opção testada que cumpra média e U0'
+        short=ident.replace('_tampo92','')+': '+short
+        u=f"{r['ref_u0_central']:.2f}" if r['ref_u0_central']>=.01 else '<0,01'
+        text+=f"| [{room}](Mapa_lux_{room}.png) | {r['media_central']:.0f} | {r['ref_media_baixo']:.0f}–{r['ref_media_alto']:.0f} ({r['ref_media_central']:.0f}) / {u} | {r['veredito_ref']} | {short} |\n"
     text+='\nMetas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Malha limpa: cozinha/tanque somente no tampo0,92 m; livro0,85 m acima da viúva atual. Mínimos escuros fora de sólidos não são descartados. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.\n\nVídeo espelhado conferido: quatro saídas de teto no conjunto social/cozinha/serviço, teclas e tomada do banheiro; evidência e limites no estudo. Centros continuam nominais;±25 cm é sensibilidade, não precisão do vídeo. Fontes técnicas29/10: IES EVO recuperado (ensaio2021 divergente do catálogo); Firefly9608/9605 com2000 lm e EVY2054 com270 lm/30°. E06 continua adiada.\n\nReproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. `--detalhe <pasta externa>` exporta a malha integral. Modelo não aberto; seleção/preços/itens do site preservados. Dados de manutenção, transmissão e distribuição analítica são hipóteses explícitas.\n'
     scenes,energy=scene_energy()
     low=sum(r['kWh_mes_baixo'] for r in energy);high=sum(r['kWh_mes_alto'] for r in energy)
-    text+='\n[Cenas e horas](Cenas_luz.csv), [consumo por grupo](Consumo_luz.csv), [correntes](Correntes_luz.csv), [opções numéricas](Alternativas_luz.csv) e [coerência dia/noite](Coerencia_imagens_luz.csv). Subtotal modelado no perfil de uso: **'+f'{low:.2f}–{high:.2f} kWh/mês'+'**, incluindo provisão Shelly24h, sem standby desconhecido das demais fontes/smart. Não é previsão de fatura; grupos não identificam circuitos. [UGR EVO](UGR_luz.csv) calculado para cena/observador H16; demais conjuntos indeterminados. [Reflexos em telas](Reflexos_telas_luz.csv) têm olho/orientação nominal H17.\n\n**Perguntas para Elias:** manter500 lx de leitura/jogos na mesa aberta ou comparar300 lx? Se o déficit persistir, aceita comparar reforço de tarefa? No espelho, prefere avaliar barras horizontais técnicas ou verticais do render? Nenhuma nova seleção inferida. Fabricantes: IES/LDT/SKU, transmissão e IL pendentes. RT/instalador: circuito/quadro real, retorno/neutro, posições/rebaixos e volumes; não pedir agora medidas inexistentes ao morador.\n'
+    text+='\n[Cenas e horas](Cenas_luz.csv), [consumo por grupo](Consumo_luz.csv), [correntes](Correntes_luz.csv), [opções numéricas](Alternativas_luz.csv) e [coerência dia/noite](Coerencia_imagens_luz.csv). Subtotal modelado no perfil de uso: **'+f'{low:.2f}–{high:.2f} kWh/mês'+'**, incluindo provisão Shelly24h, sem standby desconhecido das demais fontes/smart. Não é previsão de fatura; grupos não identificam circuitos. [UGR EVO](UGR_luz.csv) calculado para cena/observador H16; demais conjuntos indeterminados. [Reflexos em telas](Reflexos_telas_luz.csv) têm olho/orientação nominal H17.\n'
     path.write_text(text,encoding='utf-8')
     with path.open('a',encoding='utf-8') as f:
         f.write('\nMotor de radiosidade H13 integrado; resultados totais e balanços no estudo e CSV. Caixa vazia validada (<3% frente à solução analítica) e conservação com abertura. Dependências: NumPy e Pillow nas ferramentas locais.\n')
@@ -1183,16 +1185,22 @@ def generate_results(out,detail=None):
     first=report.index('## Ajustes mínimos condicionais e opções')
     last=report.index('## Riscos e lacunas',first)
     report=report[:first]+options_text(options)+task_layers(g,ies,out)+glare_and_screens(g,ies,out)+report[last:]
+    first=report.index('## Perguntas objetivas')
+    last=report.index('## Fontes',first)
+    report=report[:first]+decision_summary(out)+'\n'+report[last:]
     inputs=['03_Ambientes/Iluminacao/Fotometria_fontes.json','03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md',
             '07_Imovel/Medidas_e_impactos.csv','06_Entregas/Caderno_pranchas/Geometria.json','06_Entregas/Planta_cotada/Cotas.json',
             'ferramentas/estudos/estudo_fotometrico.py','09_Referencias/Moodboard.json',
             'ferramentas/site/src/data.js','ferramentas/site/fabrication/Decisao_acabamentos_R13.md',
-            'ferramentas/pranchas/gerar.py','ferramentas/pranchas/medidas.py','ferramentas/site/current_release.json']
+            'ferramentas/pranchas/gerar.py','ferramentas/pranchas/medidas.py','ferramentas/site/current_release.json',
+            '03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md','09_Referencias/README.md']
     trace=dict(data=DATE,cad_sha256=g['sha'],ies_sha256=ies['sha256'],fontes_sha256_texto_LF={p:hashlib.sha256((ROOT/p).read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in inputs})
     (out/'Rastreio_fotometrico.json').write_text(json.dumps(trace,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     report=report.replace('## Fontes','[Rastreio das entradas por SHA](Rastreio_fotometrico.json): inclui curva, código, lista comercial, geometria, coordenadas e manifesto das imagens; textos normalizados paraLF, CAD/IES originais por bytes.\n\n## Fontes')
     (out/'Estudo_fotometrico.md').write_text(report,encoding='utf-8')
     update_summary(out,rows)
+    if (out/'README.md').exists():
+        with (out/'README.md').open('a',encoding='utf-8') as f:f.write('\n'+decision_summary(out))
     if (out/'README.md').exists():
         with (out/'README.md').open('a',encoding='utf-8') as f:
             f.write('\nComparação H14/H15: [lúmens necessários](Fluxo_necessario_luz.csv) e [camadas local/geral/espelho](Camadas_tarefa_luz.csv). Sala e escritório têm metas300/500 lx em paralelo. Opções usam preços existentes, só materiais parciais; nenhuma compra inferida. Verticais e horizontais do espelho preservam1,10 m; segundo plafon é apenas opção.\n')
@@ -1223,12 +1231,12 @@ def premises():
     for code,p in PRODUCTS.items():
         lines.append(f"| {code} | {p['lm']:g} | {p['w']:g} | {p['cct']} | {p['cri']} | {p['source']}; {p['mode']} |")
     lines += ['', 'Fluxos de fitas resultam de comprimento nominal×lm/m. C2/S3/Q06 mantêm os comprimentos já usados em P6; não são comprimentos de compra. B09=2×0,55 m e B10≤2 m em P5; E05=kit2 m. Não há dado de fluxo por branco/RGB ou intensidade regulada; os cálculos funcionais consideram branco a100%. Faltam transmissão/curva dos conjuntos; IRC das EVY e do Elgin não está comprovado nas fontes usadas. Não confundir lista comercial e SKU conciliado.', '',
-        'IES EVO obtido diretamente do anexo oficial S1 em29/10: teste31/08/2021,2329 lm/35,65 W; catálogo2300 lm/30 W. A curva original é cenário histórico, não fotometria certificada do lote30 W. Serão mostrados separadamente curva original e comparação normalizada2300/2329; normalizar fluxo não resolve diferença construtiva. Curva numérica pequena preservada em `Fotometria_fontes.json`, com SHA do IES original.', '',
+        'IES EVO obtido diretamente do anexo oficial S1 em29/10: teste31/08/2021,2329 lm/35,65 W; catálogo2300 lm/30 W. A curva original é cenário histórico, não fotometria certificada do lote30 W. UGR H16 usa a curva original; lux H13 usa comparação normalizada2300/2329; normalizar fluxo não resolve diferença construtiva. Curva numérica pequena preservada em `Fotometria_fontes.json`, com SHA do IES original.', '',
         '## Geometria e evidências do vídeo', '',
         'Planta oficial P3 conferida com a skill PDF; projeções PR-FLOORS e PR-PONTO de P4 fixam o sistema global da prancha em mm. Exportação R54 e modelo são vinculados por SHA. O FreeCAD não é aberto. Os `bounds` do site incluem margens de câmera e não são áreas dos cômodos. Usar união dos retângulos PR-FLOORS sem duplicar sobreposições; excluir footprints de caixas que atravessam o plano apenas na malha útil, mantendo a área bruta separada.', '',
         'Elias,29/10/2026, nesta conversa: “tem imagens de um video de um apartamento semelhante ao meu (só q espelhado)”. V1–V5 foram conferidos: quatro saídas no conjunto social/cozinha/serviço; duas teclas junto ao interfone; três junto à circulação; tomada+interruptor junto ao lavatório. A→Dormitório02/escritório e B→Dormitório01/quarto é a correspondência provável corrigida pela R02. Orientação transferida pelas paredes e vãos da planta, não por inverter coordenadas de pixels. O vídeo sustenta quantidade e região, não centímetros, retorno, neutro ou circuito.', '',
-        'Para o cálculo: centros nominais dos pontos existentes; altura do teto2,60 m (banho2,50) menos corpo/hipótese do emissor. Não deduzir novamente forro de uma altura já acabada. Jurerê10 cm de corpo; EVO3,8 cm; Elgin/Firefly5 cm como hipótese, sem dimensão exata comprovada. Rebaixos/vigas sem cotas ficam como perguntas, sem inventar seção. Deslocamento de±25 cm será ensaio de sensibilidade, não precisão atribuída ao vídeo.', '',
-        'Planos pedidos0,75/0,85/0,45 m são comparadores; bancadas atuais chegam a0,92 m na cozinha e0,765 no banho; cama atual tem0,64 m. Registrar as duas referências, sem alterar móveis. Plano vertical do rosto separado da horizontal. Portas/varal e armários serão apenas envelopes de oclusão, não simulação contínua de interferências.', '',
+        'Para o cálculo: centros nominais dos pontos existentes; altura do teto2,60 m (banho2,50) menos corpo/hipótese do emissor. Não deduzir novamente forro de uma altura já acabada. Jurerê10 cm de corpo; EVO3,8 cm; Elgin/Firefly5 cm como hipótese, sem dimensão exata comprovada. Rebaixos/vigas sem cotas ficam como perguntas, sem inventar seção. Deslocamento de±25 cm é ensaio de sensibilidade, não precisão atribuída ao vídeo.', '',
+        'Planos pedidos0,75/0,85/0,45 m são comparadores; bancadas atuais chegam a0,92 m na cozinha e0,765 no banho; cama atual tem0,64 m. Registrar as duas referências, sem alterar móveis. Plano vertical do rosto separado da horizontal. Portas/varal e armários são envelopes de oclusão, não simulação contínua de interferências.', '',
         '## Método', '',
         'Interreflexão calculada por radiosidade H13 abaixo. Direta: E=ΣI(θ,φ)×cos(incidência)/r²×FM, com visibilidade por segmento×caixa; todas as coordenadas convertidas para metros. Não multiplicar a direta por FU novamente. Emed ponderada pela área das células; Emin por amostra e U0=Emin/Emed. Refinar malha só para testar erro numérico, sem redimensionar instalação condicionada.', '',
         'UGR real requer luminância direcional, área luminosa aparente, luminância de fundo e índice de posição. Curva só da lâmpada/alegaçãoUGR<19 não comprova o ambiente. Sem esses dados, registrar indeterminado e risco/reflexo geométrico, sem fabricar um UGR numérico. Luz natural, Ambilight, telas acesas e iluminação do depurador não entram como fluxo conhecido.', '',

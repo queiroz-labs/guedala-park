@@ -159,6 +159,17 @@ class Physics(unittest.TestCase):
         self.assertGreater(f.guth_position((0,1,1),(0,1,0)),1.)
         with self.assertRaises(ValueError):f.guth_position((0,-1,1),(0,1,0))
 
+    def test_actual_energy_balances_and_incremental_baseline(self):
+        import csv
+        with (f.OUT/'Energia_luz.csv').open(encoding='utf-8-sig') as stream:rows=list(csv.DictReader(stream,delimiter=';'))
+        self.assertEqual(len(rows),54)
+        for row in rows:
+            emitted=float(row['emitido_lm']);accounted=sum(float(row[k]) for k in ('absorvido_lm','perdido_lm','residual_lm'))
+            self.assertLess(abs(emitted-accounted),1e-6)
+        case=next(c for c in f.calculation_cases(f.load_geometry()) if c['id']=='banho_geral')
+        base=next(f.option_patterns(case,f.load_geometry()))
+        self.assertEqual((base['flux'],base['watts'],base['cost'],base['lights']),(0,0,0,[]))
+
     def test_official_ies_integrated_flux_not_watt_scaled(self):
         ies=json.loads((f.OUT/'Fotometria_fontes.json').read_text(encoding='utf-8'))['EVO_2021']
         self.assertAlmostEqual(f.ies_cd(ies,0,0),1022.363)
