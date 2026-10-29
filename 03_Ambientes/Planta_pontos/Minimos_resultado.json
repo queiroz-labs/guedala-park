@@ -1,0 +1,17 @@
+{
+  "fonte": "ferramentas/site/src/app.js",
+  "sha256": "3a8763a1f8159c3cc75f882d5b77fff15e5254f42001e02b6640dfa2797766d9",
+  "pontos_TUG": 16,
+  "TUG_VA": 4600,
+  "pontos_molhados": 6,
+  "TUG_alternativa_VA": null,
+  "iluminacao_VA": 700,
+  "sala_cozinha_uniao": {
+    "area_m2": 14.6976,
+    "perimetro_m": 17.42,
+    "iluminacao_VA": 220,
+    "pontos_TUG": null,
+    "nota": "Diagnóstico geométrico, não somar à tabela; classificação de recinto aberto com usos distintos pendente"
+  },
+  "norma": "ABNT NBR 5410:2004 Versão Corrigida:2008; 9.5.2.1.2 e 9.5.2.2"
+}

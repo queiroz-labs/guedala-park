@@ -1,0 +1,14 @@
+ambiente;x_cm;y_cm;largura_cm;profundidade_cm
+quarto;0;100;245;295
+quarto;245;305;120;90
+quarto;365;315;10;75
+escritorio;255;0;230;295
+sala;495;185;245;380
+sala;480;395;15;151
+sala;480;305;15;90
+circulacao;375;305;105;90
+cozinha;388;545;352;155
+cozinha;384;546;4;154
+lavanderia;255;546;129;154
+banho;255;405;209;124
+banho;385;395;70;10

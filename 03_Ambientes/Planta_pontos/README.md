@@ -10,6 +10,8 @@
 
 [Estudo 127 V para RT](Quadro_cargas.md): 36 linhas, 13 potências ausentes; subtotal de referências 6.740 W, **não demanda dimensionante**. [Circuitos como opção](Circuitos_cenario.csv), sem seção/disjuntor final ou queda por falta de quadro, FP e trajetos. AC 220 V fica separado; oferta do prédio não confirmada.
 
+[Mínimos nominais por recinto](Quadro_cargas.md#mínimos-por-recinto--levantamento-nominal-complementar): 16 pontos TUG, 4.600 VA e 700 VA de previsão de luz, separados das cargas em W; [CSV e geometria](Minimos_por_recinto.csv). Limites virtuais de ambientes abertos precisam de definição elétrica.
+
 ## Fontes e limites
 
 - [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE11X,09/09](../Cozinha/Equipamentos_e_instalacao.md#purificador-de-água--electrolux-pe11x-cinzaprata-escolhido), [iluminação 27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias 26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).

@@ -40,7 +40,7 @@ A planta de pontos possui coordenadas de marcadores, sem trajeto quadro–eletro
 
 O script implementa a expressão monofásica ΔU = 2·I·L·(R·FP + X·√(1−FP²)), com L em km e R/X em Ω/km, apenas para testar o método. Um teste sintético não é cálculo de circuito do apartamento. Referência de queda terminal de 4% no guia Prysmian (página impressa 20); o limite total depende da origem de alimentação e deve ser conferido pelo RT. Não se aplica automaticamente um único limite da entrada ao último ponto.
 
-Disjuntor geral, alimentação por fases, capacidade dos condutores, padrão da concessionária e carga disponibilizada não estão identificados nas fontes consultadas. Logo, **demanda total, reserva e comparação com o prédio permanecem indeterminadas**. Também falta a previsão normativa de TUG/cargas mínimas por recinto: este inventário de aparelhos não a substitui.
+Disjuntor geral, alimentação por fases, capacidade dos condutores, padrão da concessionária e carga disponibilizada não estão identificados nas fontes consultadas. Logo, **demanda total, reserva e comparação com o prédio permanecem indeterminadas**. A previsão nominal de TUG/cargas mínimas por recinto está calculada abaixo, separada deste inventário de aparelhos.
 
 ## Climatização: cenários separados recebidos do bloco térmico
 
@@ -63,6 +63,33 @@ Os três splits não são alternativas de ligação direta a 127 V: não se calc
 3. **L10:** airfryer e cafeteira estão associadas ao mesmo ponto de 20 A. Como será a separação real e o circuito desse ponto? O cenário separa seus grupos para o RT estudar; não altera a planta nem prova capacidade de uso simultâneo.
 4. **Banheiro:** o inventário de pontos elétricos mostra iluminação, mas não identifica claramente a TUG de serviço junto ao lavatório nem sua proteção. Onde consta no projeto elétrico entregue? Não foi criado aparelho fictício para preencher a lacuna.
 5. **Climatização:** existe alimentação 220 V e infraestrutura compatível com o local de condensadora previsto na convenção? Nenhuma escolha de split é tomada aqui.
+
+## Mínimos por recinto — levantamento nominal complementar
+
+A edição identificada no [catálogo oficial ABNT](https://www.abntcatalogo.com.br/) nesta consulta é **NBR 5410:2004, Versão Corrigida:2008**. Os itens 9.5.2.1.2 e 9.5.2.2 foram conferidos na [reprodução do documento ABNT, páginas impressas 183–184](https://drb-assessoria.com.br/pepi/nrnbr/NBR_S/1.NBR5410Instalacoeseleetricasdebaixatensaao.pdf#page=191), sem copiar o PDF ao repositório. Esta consulta complementa a tentativa anterior que falhou; não constitui revisão integral da norma.
+
+Critérios implementados: banheiro, um ponto junto ao lavatório; cozinha/lavanderia, arredondar perímetro/3,5 para cima; sala/quarto, perímetro/5 para cima; demais recintos até 6 m², um ponto, acima disso perímetro/5. Bancada de pia requer duas tomadas, podendo compartilhar ponto. Potências mínimas: áreas molhadas, 600 VA nos três primeiros pontos e 100 VA nos seguintes; demais, 100 VA/ponto. A alternativa com apenas dois pontos a 600 VA depende de mais de seis pontos molhados no conjunto. Iluminação: 100 VA até 6 m², mais 60 VA por incremento **inteiro** de 4 m². São previsões de carga, não watts de lâmpadas.
+
+| Recinto nominal | Área (m²) | Perímetro (m) | Pontos TUG mínimos | TUG (VA) | Luz (VA) |
+|---|---:|---:|---:|---:|---:|
+| Quarto | 8,3825 | 13,40 | 3 | 300 | 100 |
+| Escritório | 6,7850 | 10,50 | 3 | 300 | 100 |
+| Sala | 9,1800 | 12,40 | 3 | 300 | 100 |
+| Circulação | 0,9450 | 3,90 | 1 | 100 | 100 |
+| Cozinha | 5,5176 | 10,22 | 3 | 1.800 | 100 |
+| Lavanderia | 1,9866 | 5,66 | 2 | 1.200 | 100 |
+| Banheiro | 2,6616 | 6,86 | 1 | 600 | 100 |
+| **Cenário separado** | **35,4583** | — | **16** | **4.600** | **700** |
+
+Esta é uma aplicação calculada aos recintos gráficos, **não contagem verificada de tomadas existentes nem configuração mínima suficiente para o mobiliário escolhido**. A soma de pontos molhados mínimos é seis: não foi acionada a redução opcional de VA. Se o projeto executivo especificar mais pontos, recalcular a potência atribuída e verificar a condição da alternativa. Uma tomada dupla não vira automaticamente dois pontos na conta; uma régua com várias saídas tampouco substitui a distribuição de pontos do recinto.
+
+**Geometria auditável:** [13 retângulos de origem em cm](Minimos_geometria.csv), extraídos diretamente da matriz `floors` do `app.js` vigente; [CSV por recinto](Minimos_por_recinto.csv) e [resultado com SHA256](Minimos_resultado.json). O script próprio faz união/diferença exata por intervalos das bordas e soma somente bordas externas; não importa o estudo de acabamentos. A sobreposição sala/cozinha de 0,4915 m² pertence contabilmente à cozinha, igual à convenção do levantamento de acabamentos. O perímetro é contorno geométrico completo, sem descontar portas/móveis; não é rodapé ou parede disponível para tomada. Escritório recebe categoria demais recintos >6 m²; classificá-lo como dormitório preservaria os três pontos neste caso.
+
+**Ambientes abertos:** separar sala/cozinha/circulação/lavanderia é hipótese de cálculo, não criação de paredes. A união sala+cozinha tem **14,6976 m² e 17,42 m de contorno**, com 220 VA de luz pelo mesmo método, versus 200 VA nos dois recintos separados. Esse diagnóstico não se soma à tabela. Não foi aplicado o intervalo de sala ao conjunto para eliminar pontos de cozinha; o limite dos usos e distribuição nas paredes disponíveis precisam ser definidos no projeto elétrico. A circulação pode integrar espaço vizinho; o ponto individual calculado permanece referência, com posicionamento externo a verificar conforme a condição normativa de recinto pequeno. O desenho atual não confirma um comando/luz exclusivo dessa circulação; conferir cobertura do projeto, sem alterar produto aqui.
+
+**Sem dupla contagem:** 4.600 VA de TUG + 700 VA de previsão luminosa = 5.300 VA deste cenário, mantidos fora dos 6.740 W do inventário. Não somar VA com W, nem acrescentar mínimos de pontos aos aparelhos que esses mesmos pontos alimentarão. Para demanda real, mapear cada ponto/carga, adotar a previsão aplicável sem duplicação, identificar TUE e fatores de potência. As duas bases são complementares para revisão, não duas parcelas independentes de consumo. Banheiro continua exigindo identificar o ponto de serviço; os três pontos funcionais de iluminação não o substituem.
+
+Reproduzir: `python -B ferramentas/estudos/quadro_cargas_minimos.py`; testes: `python -B ferramentas/estudos/test_quadro_cargas_minimos.py`. Sete testes cobrem união/perímetro, sobreposição, desconto geométrico, frações versus incrementos inteiros, potências atribuídas e geometria inválida. Nada foi transferido ao CAD ou aos circuitos reais.
 
 ## Fontes e reprodução
 
