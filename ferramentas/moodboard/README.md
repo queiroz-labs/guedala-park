@@ -1,6 +1,6 @@
 # Composição do moodboard
 
-`python -B ferramentas/moodboard/gerar.py` produz os arquivos vigentes em `09_Referencias/`: dois painéis 4K/PNG leve, PDF de dois painéis, PDF de seis páginas A3 e galeria Dia/Noite. Requer Python com Pillow e ReportLab; Poppler (`pdftoppm`) no PATH. Se o TEMP padrão estiver restrito, configure TEMP/TMP para uma pasta temporária gravável fora do repositório.
+`python -B ferramentas/moodboard/gerar.py` produz os arquivos vigentes em `09_Referencias/`: dois painéis 4K/PNG leve, PDF de dois painéis, PDF de seis páginas A3 e galeria Dia/Noite. Requer Python com Pillow e ReportLab; Poppler (`pdftoppm`) no PATH. Neste computador, ambos ficam em `../ferramentas_locais/` (fora do git): rode antes `. ..erramentas_locaistivar.ps1` no PowerShell 7. Se o TEMP padrão estiver restrito, configure TEMP/TMP para uma pasta temporária gravável fora do repositório.
 
 As 12 imagens aprovadas são entradas imutáveis de 1536 × 1024 px. Nunca ampliar nem recortar as cenas; escala de composição do painel: 1050 × 700 px. PDF mantém 1536 × 1024 px, compressão JPEG qualidade 95/sem subamostragem, fontes Vera incorporadas e texto vetorial; PNG é renderizado do mesmo PDF. WebP mantém dimensões, qualidade 90, com acesso ao PNG original na galeria. `Moodboard.json` registra hashes e aprovação.
 
