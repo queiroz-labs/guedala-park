@@ -635,10 +635,10 @@ const ITEMS=[
     "kind": "tv",
     "dimensions": "96,4 × 55,9 × 6 cm sem base · 7,7 kg · VESA 200 × 200",
     "choice": "Existente",
-    "measure": "Medidas do fabricante; suporte de parede a escolher",
+    "measure": "Medidas do fabricante; conferir cabos atrás da TV",
     "material": "black",
     "source": "Elias, 29/10/2026 (menu da TV) · ficha Samsung/varejo",
-    "notes": "Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. O suporte de parede VESA 200 × 200 não vem na caixa e soma profundidade: escolher o suporte e medir o conjunto."
+    "notes": "Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. Suporte de parede fixo ELG FIX200 (Elias, 29/10/2026: “ok ELG FIX200”): VESA 75 a 200 × 200, até 45 kg, TV a 2,7 cm da parede, ou ~8,7 cm no total. Preço R$ 63,99 na Kabum, esgotada em 29/10/2026: procurar em outra loja, com o E200 (2,9 cm) como reserva. Use conectores HDMI e de energia em L, porque o vão atrás da TV é pequeno."
   },
   {
     "id": "kitchenbase",

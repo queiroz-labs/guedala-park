@@ -25,7 +25,7 @@ const ITEM_COPY={
  officechair:['Cadeira Ercathe A01','Escolhida em 29/10/2026, fora do orçamento. Os braços devem passar sob a bancada só na posição mais baixa, com pouca folga: confirme a altura com a loja ou meça na entrega.'],
  officecab:['Armário sobre o sofá-cama','Aéreo em marfim claro, liso e fosco escolhido para deixar o teto mais leve. Prateleiras ajustáveis para capacete, sapatilha e ferramentas. Confira amostra, alcance, peso e folga até o teto.'],
  officeshelf:['Prateleira dos videogames','Prateleira alta para os videogames. Confira o acesso, a posição e o peso suportado.'],
- tv43:['TV Samsung de 43 polegadas','TV que você já tem (modelo UN43CU7700GXZD): 96,4 × 55,9 cm e 6 cm de espessura, sem a base. Fica na parede oposta ao sofá. Falta escolher o suporte de parede e conferir a abertura da porta.'],
+ tv43:['TV Samsung de 43 polegadas','TV que você já tem (modelo UN43CU7700GXZD): 96,4 × 55,9 cm e 6 cm de espessura, sem a base. Fica na parede oposta ao sofá. O suporte de parede escolhido é o ELG FIX200, que deixa a TV a 2,7 cm da parede. Use cabos com conector em L e confira a abertura da porta.'],
  kitchenbase:['Gavetas e base da cozinha','Três gavetas com abertura total e fechamento suave. Confira os apoios do forno, os recortes da bancada e a ligação com a lavanderia.'],
  sinkstorage:['Gabinete da pia','Duas portas, com espaço para panelas e utensílios. A prateleira precisa permitir acesso ao sifão. Defina os recortes após escolher a cuba e as conexões.'],
  lowdrawer:['Gaveta para vassoura e rodo','Guarde os cabos fixos separados das cabeças da vassoura e do rodo. A gaveta usa seis rodas. Confira os apoios, as guias e o peso suportado.'],

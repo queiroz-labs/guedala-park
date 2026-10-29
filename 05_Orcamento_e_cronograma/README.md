@@ -64,6 +64,7 @@ Valores para referência de compras que não constam no R44; não entram na verb
 |---|---:|---|
 | Cadeira Ercathe A01 Mesh Premium, preta (escritório) | R$ 2.290,90 | [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |
 | Suporte de monitor ELG F80N, 2º (escritório) | R$ 169,99 | [Kabum](https://www.kabum.com.br/produto/107363/suporte-de-mesa-articulado-para-monitores-de-17-a-35-elg-ajuste-de-altura-com-pistao-a-gas-f80n), Pix, 29/10/2026; Elias, 29/10/2026: “2 deses sendo q já possuo 1” |
+| Suporte de parede fixo ELG FIX200 para a Samsung 43″ (escritório) | R$ 63,99 | [Kabum](https://www.kabum.com.br/produto/329908/suporte-tv-fixo-elg-para-tvs-e-monitores-ate-43-polegadas-e-30kg-preto-fix200), 29/10/2026 (esgotado); Elias, 29/10/2026: “ok ELG FIX200”; não consta no R44 |
 | Monitor ASUS TUF Gaming VG27AQ5A 27″ (escritório; o AOC 24″ já é dele) | R$ 2.000,00 | [Kabum](https://www.kabum.com.br/produto/747516/monitor-gamer-asus-tuf-27-qhd-210hz-0-3ms-fast-ips-g-sync-comp-freesync-premium-hdr10-som-integrado-vg27aq5a), Pix, 29/10/2026; Elias, 29/10/2026: “deixa os monitores fora do orçamento igual a cadeira do escritorio” |
 
 Controle de 25/10 consolidado em 26/10 no plano: matriz 20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia 26 em andamento. Reserva de 30–31/10 mantida para integração e conferência.
