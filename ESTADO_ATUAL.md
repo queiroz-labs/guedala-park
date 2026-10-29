@@ -88,7 +88,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Próximos passos
 
-1. **Elias envia hoje:** revisar e enviar o [pacote por destinatário](06_Entregas/Cotacao/index.html), com fichas R15, amostras D02 e IL02–IL09; todos não enviados. Prazo solicitado 30/10 às 18 h. Depois comparar propostas, amostras e respostas; contratar RT. Nenhuma contratação autorizada.
+1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
 2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 

@@ -6,7 +6,7 @@ O verificador bloqueia pastas datadas fora de `06_Entregas/` e `02_Modelo_3D/His
 
 Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de estudo vão para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script novo solto).
 
-Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` gera as páginas por destinatário, checklist e ZIP com fichas R15; não envia mensagens nem altera CAD.
+Pacote de cotação: primeiro `python -B ferramentas/estudos/consolidar_quantidades_cotacao.py --detalhe CAMINHO_EXTERNO`, depois `python -B ferramentas/estudos/gerar_pedidos_cotacao.py`. CSV nominal e anexo no ZIP; divergências/detalhe fora do git. Não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py`: somas, limites, formulário idempotente, respostas preservadas, CRC e links. Gerador exige estado não enviado.
 
 Água quente: `python -B ferramentas/estudos/agua_quente_banheiro.py` gera comparação e 26 vistas para 13 opções; caixas vinculadas por SHA à R54, sem abrir CAD. Teste: `python -B ferramentas/estudos/test_agua_quente_banheiro.py` (volumes, ramais, origem incerta e encaixe).
 
