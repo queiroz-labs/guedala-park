@@ -65,3 +65,21 @@ No modo hóspedes, cama começa y110 e sobrepõe a faixa x15..55: frente aberta 
 ### Resultado
 
 Módulo raso e suspenso à esquerda preserva a área principal de trabalho. As novas dimensões40 ×45 ×24 e altura75 são propostas para detalhamento, não execução aprovada. Fechar vão efetivo e ferragens somente após escolher cadeira/volante e compatibilizar estrutura.
+
+
+## Braços dos monitores — ELG F80N, 29/10/2026
+
+Elias, 29/10/2026: [ELG F80N na Kabum](https://www.kabum.com.br/produto/107363/suporte-de-mesa-articulado-para-monitores-de-17-a-35-elg-ajuste-de-altura-com-pistao-a-gas-f80n), **dois, sendo que já possui um**: falta comprar um. Preço da página: **R$ 169,99 no Pix** (7 × R$ 27,59 parcelado), cupom LIQUIDA10 anunciado; não consta no orçamento R44.
+
+| Dado do fabricante (página Kabum) | Valor |
+|---|---|
+| Monitores | 17" a 35", **2 a 9 kg** sem a base, VESA **75 × 75 e 100 × 100** |
+| Alcance do braço | até 53 cm |
+| Altura | 150 a 410 mm, com pistão a gás |
+| Giro / inclinação | 360° (retrato e paisagem); +85° a −30° |
+| Fixação | morsa na borda ou **furo no tampo com parafuso M10** |
+
+- A bancada é encostada na parede da janela: **morsa na borda traseira não cabe sem vão** entre tampo e parede. Fixação provável por **furo passante M10** no tampo, a definir com a oficina, com reforço sob o tampo. Espessura mínima/máxima do tampo para a morsa e comprimento do parafuso não constam na página: ler o manual.
+- Com alcance de 53 cm e bancada de 70 cm, cada tela pode vir à frente sem passar da borda; os dois braços partem de pontos separados (telas de ensaio centradas em x86 e x150).
+- Pendente de Elias: modelo dos monitores AOC (etiqueta traseira) para confirmar VESA e peso. 27" a 240 Hz costuma ter VESA 100 × 100, mas não foi verificado neste modelo.
+- Não foi calculada carga no tampo; reforço e furos ficam para a oficina.

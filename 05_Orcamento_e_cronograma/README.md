@@ -58,11 +58,12 @@ Valores antigos nos documentos são históricos quando divergem do Orcamento_R43
 
 ## Compras fora do orçamento
 
-Valores para referência; não entram na verba nem na reserva.
+Valores para referência de compras que não constam no R44; não entram na verba nem na reserva.
 
 | Item | Valor | Fonte |
 |---|---:|---|
 | Cadeira Ercathe A01 Mesh Premium, preta (escritório) | R$ 2.290,90 | [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |
+| Suporte de monitor ELG F80N, 2º (escritório) | R$ 169,99 | [Kabum](https://www.kabum.com.br/produto/107363/suporte-de-mesa-articulado-para-monitores-de-17-a-35-elg-ajuste-de-altura-com-pistao-a-gas-f80n), Pix, 29/10/2026; Elias, 29/10/2026: “2 deses sendo q já possuo 1” |
 
 Controle de 25/10 consolidado em 26/10 no plano: matriz 20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia 26 em andamento. Reserva de 30–31/10 mantida para integração e conferência.
 

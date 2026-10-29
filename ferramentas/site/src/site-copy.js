@@ -20,7 +20,7 @@ const ITEM_COPY={
  bedcabinet:['Armários sobre a cama e o guarda-roupa','Armários alinhados, com duas portas independentes no canto. Confira o teto, os materiais e a abertura de cada porta.'],
  desk:['Bancada de trabalho','Profundidade de 70 cm e altura de 75 cm escolhidas em 29/10/2026. O vão de 72 cm sob o tampo deve acomodar os braços da cadeira abaixados. Falta confirmar a largura e os apoios.'],
  drawers:['Duas gavetas no escritório','Gavetas à esquerda, com abertura total e puxador discreto. Confira se abrem com o sofá-cama em uso.'],
- setup:['Notebook, dois monitores e computador','Notebook à esquerda e computador à direita. Falta confirmar os modelos dos monitores e os braços de suporte.'],
+ setup:['Notebook, dois monitores e computador','Notebook à esquerda e computador à direita. Braços ELG F80N, um por monitor: um já comprado e mais um a comprar. Confira na etiqueta dos monitores se o encaixe é VESA 100 × 100.'],
  daiane:['Sofá-cama Daiane','Versão suede cinza, escolhida em 29/10/2026. Abre em direção à janela. Confira o espaço para girar e abrir a cama, e o tamanho do baú.'],
  officechair:['Cadeira Ercathe A01','Escolhida em 29/10/2026, fora do orçamento. Os braços devem passar sob a bancada só na posição mais baixa, com pouca folga: confirme a altura com a loja ou meça na entrega.'],
  officecab:['Armário sobre o sofá-cama','Aéreo em marfim claro, liso e fosco escolhido para deixar o teto mais leve. Prateleiras ajustáveis para capacete, sapatilha e ferramentas. Confira amostra, alcance, peso e folga até o teto.'],

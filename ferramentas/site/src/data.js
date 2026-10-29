@@ -573,10 +573,10 @@ const ITEMS=[
     "kind": "setup",
     "dimensions": "2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm",
     "choice": "Aprovado",
-    "measure": "Equipamentos parcialmente medidos",
+    "measure": "Conferir VESA e peso dos monitores; furação do tampo",
     "material": "black",
-    "source": "F99",
-    "notes": "Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. Monitores AOC 27/240 Hz. Modelos e braços exatos pendentes."
+    "source": "F99 · Elias, 29/10/2026: braços ELG F80N",
+    "notes": "Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. Monitores AOC 27/240 Hz (modelo a conferir na etiqueta: VESA 100 × 100 e peso de 2 a 9 kg). Braços ELG F80N, um por tela: um já comprado e mais um a comprar, R$ 169,99 no Pix (Kabum 107363, 29/10/2026). Alcance de 53 cm, com pistão a gás; fixação por morsa ou por furo M10 no tampo."
   },
   {
     "id": "daiane",
