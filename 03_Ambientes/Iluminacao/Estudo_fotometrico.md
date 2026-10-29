@@ -41,7 +41,7 @@ Acabamentos identificados no `data.js` e na decisão de chapas vigente; cor de i
 | suede cinza/areia | 0.20 | 0.50 | H2: tecido; não medido |
 | metal preto/tela apagada | 0.02 | 0.10 | H2: difusa apenas; reflexo especular não modelado |
 
-H3: fatores de manutenção0,70/0,80/0,90 (baixo/central/alto); N1§4.8 exige justificar manutenção real, não usar estes fatores como garantia. H4: FU zonal0,30/0,45/0,60 para comparação; não são tabela do fabricante, nem derivados das refletâncias. O FU concentra distribuição e reflexões de forma agregada. A análise direta ponto a ponto não usa FU e não soma reflexão inventada.
+H3: fatores de manutenção0,70/0,80/0,90 (baixo/central/alto); N1§4.8 exige justificar manutenção real, não usar estes fatores como garantia. H4 substituída por radiosidade H13; não se usa FU assumido nem se multiplica a direta por um fator de utilização.
 
 H5: transmissão Jurerê0,50/0,65/0,85; âmbar0,40/0,55/0,75; perfil/difusor0,60/0,75/0,90. Faixas de ensaio escolhidas pelo estudo, não limites garantidos do produto. H6: distribuidores analíticos sem IES usam cosⁿ; n=1 como difuso e n=ln(0,5)/ln(cos(facho/2)) quando há facho. Um ângulo publicado não determina toda a curva; a aproximação precisa ser substituída pela fotometria do conjunto.
 
@@ -79,72 +79,79 @@ Para o cálculo: centros nominais dos pontos existentes; altura do teto2,60 m (b
 
 Planos pedidos0,75/0,85/0,45 m são comparadores; bancadas atuais chegam a0,92 m na cozinha e0,765 no banho; cama atual tem0,64 m. Registrar as duas referências, sem alterar móveis. Plano vertical do rosto separado da horizontal. Portas/varal e armários serão apenas envelopes de oclusão, não simulação contínua de interferências.
 
-## Método a executar
+## Método
 
-Fluxo zonal: Emed=ΣΦ×transmissão×FU×FM/área bruta. Direta: E=ΣI(θ,φ)×cos(incidência)/r²×FM, com visibilidade por segmento×caixa; todas as coordenadas convertidas para metros. Não multiplicar a direta por FU novamente. Emed ponderada pela área das células; Emin por amostra e U0=Emin/Emed. Refinar malha só para testar erro numérico, sem redimensionar instalação condicionada.
+Interreflexão calculada por radiosidade H13 abaixo. Direta: E=ΣI(θ,φ)×cos(incidência)/r²×FM, com visibilidade por segmento×caixa; todas as coordenadas convertidas para metros. Não multiplicar a direta por FU novamente. Emed ponderada pela área das células; Emin por amostra e U0=Emin/Emed. Refinar malha só para testar erro numérico, sem redimensionar instalação condicionada.
 
 UGR real requer luminância direcional, área luminosa aparente, luminância de fundo e índice de posição. Curva só da lâmpada/alegaçãoUGR<19 não comprova o ambiente. Sem esses dados, registrar indeterminado e risco/reflexo geométrico, sem fabricar um UGR numérico. Luz natural, Ambilight, telas acesas e iluminação do depurador não entram como fluxo conhecido.
 
-## Resultados por cômodo e tarefa
+## Método e resultados por cômodo
 
-**Veredito apenas do cenário direto. O desempenho real permanece indeterminado.** A faixa baixo–alto varia manutenção e transmissão; não limita todas as curvas/posições possíveis. Uniformidade é amostrada, não garantia entre pontos nem resultado mantido medido. Indiretas sem coordenadas/reflexões não recebem contribuição inventada.
+**H13: interreflexão difusa nominal, não medida.** FU fixo H4 foi retirado. As três faixas abaixo variam somente ρ (H2); manutenção/transmissão ficam centrais H3/H5, para isolar a contribuição refletida. Direta baixo/alto no CSV ainda varia manutenção/transmissão. Nenhuma faixa é intervalo estatístico nem cobre todas as curvas ausentes.
 
-| Caso | Plano m | Área útil m² | Emed baixo–alto lx (central) | Emin lx | U0 | Meta lx/U0 | Veredito condicional |
-|---|---|---:|---:|---:|---:|---|---|
-| quarto_geral | 0.75 | 6.98 | 52–67 (59) | 0 | 0.00 | 150/0.4 | não atende no cenário |
-| escritorio_geral | 0.75 | 6.79 | 34–73 (50) | 21 | 0.42 | 150/0.4 | não atende no cenário |
-| sala_geral | 0.75 | 9.67 | 34–76 (51) | 15 | 0.29 | 150/0.4 | não atende no cenário |
-| circulacao_geral | 0 | 0.94 | 18–38 (26) | 0 | 0.00 | 100/0.4 | não atende no cenário |
-| cozinha_geral | 0.75 | 4.44 | 151–218 (183) | 0 | 0.00 | 150/0.4 | não atende no cenário |
-| lavanderia_geral | 0.75 | 1.72 | 127–164 (145) | 81 | 0.56 | 150/0.4 | marginal no cenário |
-| banho_geral | 0.75 | 2.66 | 122–157 (139) | 60 | 0.43 | 150/0.4 | marginal no cenário |
-| cozinha_preparo | 0.85 | 0.39 | não avaliável | — | — | 500/0.7 | não avaliável: plano dentro da base |
-| cozinha_pia | 0.85 | 0.40 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
-| lavanderia_tanque | 0.85 | 0.37 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
-| sala_mesa | 0.79 | 1.36 | 52–117 (78) | 35 | 0.45 | 500/0.7 | não atende no cenário |
-| escritorio_mesa | 0.75 | 0.70 | 29–64 (44) | 30 | 0.69 | 500/0.7 | não atende no cenário |
-| quarto_leitura | 0.45 | 0.24 | 437–562 (500) | 379 | 0.76 | 300/0.7 | atende no cenário |
-| banho_rosto | vertical1,35–1,75 | 0.16 | 255–493 (365) | 318 | 0.87 | 300/0.7 | marginal no cenário |
-| cozinha_preparo_tampo92 | 0.92 | 0.39 | 365–615 (482) | 142 | 0.29 | 500/0.7 | não atende no cenário |
-| cozinha_pia_tampo92 | 0.92 | 0.40 | 373–624 (490) | 246 | 0.50 | 300/0.7 | não atende no cenário |
-| cozinha_preparo_tampo92_pessoa | 0.92 | 0.39 | 249–466 (349) | 142 | 0.41 | 500/0.7 | não atende no cenário |
-| lavanderia_tanque_roupa | 0.85 | 0.37 | não avaliável | — | — | 300/0.7 | não avaliável: plano dentro da base |
-| lavanderia_tanque_tampo92 | 0.92 | 0.37 | 116–149 (132) | 86 | 0.65 | 300/0.7 | não atende no cenário |
-| lavanderia_tanque_roupa_tampo92 | 0.92 | 0.37 | 0–0 (0) | 0 | 0.00 | 300/0.7 | não atende no cenário |
-| circulacao_geral_portas_fechadas | 0 | 0.94 | 18–38 (26) | 0 | 0.00 | 100/0.4 | não atende no cenário |
+Radiosidade: patches retangulares ≤0,45 m; Fij estimado por 512 raios por patch, origem uniforme na área e direção cossenoidal, semente291026. Potências refletidas p=ρ(q+Fᵀp), em lm; B=p/A e L=B/π. Sensor usa1024 direções cossenoidais e Eref=π×média(L); fontes8192 raios/emissor. A direta continua analítica com visibilidade. Perdas pelas aberturas e resíduo iterativo são explícitos em [Energia_luz.csv](Energia_luz.csv). A conservação não prova precisão espacial; reciprocidade é estatística e o erro Monte Carlo depende da malha. NumPy e Pillow nas ferramentas locais.
 
-### Fluxo zonal, controle independente da direta
+H13/material: paredes Algodão Egípcio0,50/0,625/0,75; teto e topo branco0,70/0,775/0,85; piso Olmo/greige0,15/0,25/0,35; Arenza/Beige/Louro representados por0,35/0,475/0,60; P09–P12 azul e parede Sauge do box0,10/0,20/0,30; tecido0,20/0,35/0,50; eletros/telas0,02/0,06/0,10; pedra0,45/0,575/0,70. São as faixas H2 atribuídas aos acabamentos vigentes, não refletâncias reais medidas. P19 espelho frontal temρdifusa=0: componente especular excluída, energia não devolvida ao campo difuso. Vidro/janela e porta exterior: aberturaρ=0 e fuga integral como limite conservador; sem luz natural. Portas interiores abertas deixam luz atravessar; caso fechado usa parede clara como envelope conservador.
 
-H4: FU0,30/0,45/0,60; E=ΣΦútil×FU×FM/área bruta, com FM e transmissões de H3/H5. Sem oclusão explícita, sem uso de FU como multiplicador da grade. A área inclui as zonas sob armários: não comparar diretamente com a média da área útil.
+H13/geometria: faces expostas dos envelopes R54, paredes com vãos, pisos e tetos por união exata; recorte por sólidos e limite interior. Mesma sombra em direta/refletida. P17/E06 adiado excluído. Cama viúva128×188×64 colocada nominalmente no eixo da reserva, cabeceira x0,05 e centro y2,00 m; não é medida de instalação. Mesa Berlin aberta H9. Caixa de roupa conservadora separada. Sem vidro especular, formas curvas, pessoas móveis ou luz de grupos ainda sem implantação.
 
-| Ambiente | Área bruta m² | Fluxo útil central lm | Emed zonal baixo–alto lx (central) | Fonte |
-|---|---:|---:|---:|---|
-| quarto | 8.383 | 1440 | 36–93 (62) | H3–H5; Q05 |
-| escritorio | 6.785 | 1040 | 25–108 (55) | H3–H5; E04 |
-| sala | 9.672 | 1568 | 26–116 (58) | H3–H5; S03,S04 |
-| cozinha | 5.518 | 3290 | 118–341 (215) | H3–H5; C13,C14 |
-| lavanderia | 1.987 | 2000 | 211–544 (362) | H3–H5; L11 |
-| banho | 2.662 | 2000 | 158–406 (271) | H3–H5; B11 |
+Malhas: geral0,75 m exclui projeções de móveis/equipamentos baixos e paredes; piso da circulação idem. Tarefas usam somente superfície útil, sem purificador/escorredor/PC. Planos0,85 m dentro das bases foram retirados: cozinha/tanque somente tampo0,92 m. Livro passa a0,85 m, acima da cama real0,64 m; foco das EVY permanece nominal H8 e deve ser ajustado no uso. Não comparar esse resultado com a antiga leitura0,45 m como se apenas ρ tivesse mudado. Lux zero remanescente pode ser sombra física, nunca é removido por ser baixo.
 
-### Escuros, sombras e leitura correta
+### sala
 
-Cozinha: P09–P13 bloqueiam raios do teto; C14 está sob P10/P13 em dois trechos0,475/0,625 m, a7 mm da face inferior,30 mm da frente, hipóteses de posição. O cozinheiro e eletrodomésticos adicionais não foram representados como sólidos: sombras do uso podem reduzir mais. Pia/preparo a0,85 m atravessam as caixas inferiores de0,90 m na R54: o zero calculado representa ponto dentro do sólido, não falta de luz. Esses casos são não avaliáveis; usar os resultados físicos no tampo nominal0,92 m. Na lavanderia há a mesma incompatibilidade0,85×0,92; README local cita bancada0,75, divergência documental preservada para compatibilização.
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| sala_geral (0.75 m) | 5.36 | 49.3 / 0.0 / 0.00 | 61.9 / 67.2 / 74.6 | 7.0 / 0.10 | 17.9 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| sala_mesa (0.79 m) | 1.36 | 78.3 / 35.1 / 0.45 | 96.8 / 103.8 / 113.3 | 56.6 / 0.55 | 25.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 
-Lavanderia: o caso roupa usa todo o envelope100×50 cm, com queda1,20 m, como opaco conservador; não é a transparência real das roupas nem a antiga chapa de ocultação removida. Geral/tanque sem roupa e tanque com roupa estão separados. A alteração observável não define posição final nem mecanismo do varal.
+### cozinha
 
-Banheiro: B09 foi distribuído em duas barras horizontais0,55 m, centros das propostas R54 Peca188/Peca189, orientadas para o rosto; não copiou as barras verticais do render. Plano do rosto a y=4,70 m,x=4,14–4,54,z=1,35–1,75 m é hipótese H7. P19 é caixa opaca, sem reflexão especular calculada. Pontos a0,75 m não substituem luz no rosto.
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| cozinha_geral (0.75 m) | 3.87 | 163.7 / 0.0 / 0.00 | 176.9 / 184.9 / 196.1 | 2.6 / 0.01 | 21.2 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| cozinha_preparo_tampo92 (0.92 m) | 0.26 | 358.0 / 22.1 / 0.06 | 394.8 / 415.7 / 443.6 | 40.2 / 0.10 | 57.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| cozinha_pia_tampo92 (0.92 m) | 0.40 | 490.4 / 245.8 / 0.50 | 539.0 / 563.0 / 594.7 | 374.7 / 0.67 | 72.6 | direta: não atende no cenário; reflexão: marginal no cenário com interreflexão H13; três faixas rho |
+| cozinha_preparo_tampo92_pessoa (0.92 m) | 0.26 | 290.4 / 15.7 / 0.05 | 332.7 / 360.2 / 397.4 | 41.1 / 0.11 | 69.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| cozinha_pia_tampo92_pessoa (0.92 m) | 0.40 | 490.4 / 245.8 / 0.50 | 542.3 / 570.5 / 608.7 | 383.5 / 0.67 | 80.1 | direta: não atende no cenário; reflexão: marginal no cenário com interreflexão H13; três faixas rho |
 
-Leitura: duas áreas de40×30 cm a0,45 m, com EVY apontadas ao centro, hipótese H8; facho30° não é IES. A cama atual mede0,64 m de altura: plano0,45 é o comparador pedido, não a altura real do livro. Posição da cabeça/livro e ajuste do foco continuam pendentes; não usar pico central como prova de cobertura.
+### lavanderia
 
-Circulação: sem luminária dedicada acrescentada. Compara luz emprestada de S03/E04/Q05 e paredes com/sem vãos de portas abertas. O fechamento é envelope conservador, não giro contínuo; indiretas ainda sem posição não cobrem o percurso por inferência. Noite com os quartos apagados exige nova conferência de trajeto, não circulação no escuro.
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| lavanderia_geral (0.75 m) | 1.24 | 144.3 / 0.0 / 0.00 | 173.7 / 186.6 / 203.2 | 14.8 / 0.08 | 42.3 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| lavanderia_tanque_tampo92 (0.92 m) | 0.37 | 132.1 / 86.2 / 0.65 | 162.5 / 176.4 / 195.0 | 149.8 / 0.85 | 44.3 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| lavanderia_tanque_roupa_tampo92 (0.92 m) | 0.37 | 0.0 / 0.0 / 0.00 | 7.1 / 14.6 / 26.4 | 10.4 / 0.71 | 14.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 
-Sala: mesa Berlin aberta170×80 cm, tampo0,79 m, centrada nominalmente no S04. Cascata triangular compacta, bordas inferiores históricas155/170/185 cm mais7,5 cm até o centro luminoso (H9). Não foram espalhados globos ao longo da mesa. TV, quarto/cabeceira e E05 sem implantação não recebem lux de reflexão fictício. Escritório usa faixa frontal livre da mesa, excluindo a traseira ocupada pelos monitores.
+### banho
 
-O efeito do IES original EVO em comparação com sua normalização é2329/2300=1.01261 vezes a contribuição C13 (≈1,26% a mais); não35,65/30. Potência de ensaio e potência do catálogo não escalam automaticamente a iluminância. Mantida pendência de revisão do fabricante.
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| banho_geral (0.75 m) | 2.38 | 139.0 / 62.8 / 0.45 | 181.1 / 201.8 / 231.4 | 109.0 / 0.54 | 62.7 | direta: marginal no cenário; reflexão: atende no cenário com interreflexão H13; três faixas rho |
+| banho_rosto (vertical1,35–1,75 m) | 0.16 | 365.0 / 318.1 / 0.87 | 450.2 / 483.1 / 526.8 | 424.0 / 0.88 | 118.1 | direta: marginal no cenário; reflexão: atende no cenário com interreflexão H13; três faixas rho |
 
-### Mapas e dados
+### quarto
 
-[Resumo numérico](Resumo_lux.csv) e [grade resumida](Grades_lux.csv). Mapas mostram direta central a0,75 m (circulação:piso), com escala comum0–500 lx; branco = fora da malha/volume ocupado, contorno = geometria nominal. Não incluem luz natural. Dados detalhados podem ser regenerados externamente.
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| quarto_geral (0.75 m) | 4.68 | 47.6 / 0.0 / 0.00 | 61.7 / 69.7 / 81.8 | 0.0 / 0.00 | 22.1 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| quarto_leitura (0.85 m) | 0.24 | 166.7 / 102.9 / 0.62 | 188.8 / 203.3 / 225.7 | 133.8 / 0.66 | 36.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+
+### escritorio
+
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| escritorio_geral (0.75 m) | 4.08 | 53.2 / 0.0 / 0.00 | 64.8 / 70.7 / 79.5 | 4.6 / 0.07 | 17.6 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| escritorio_mesa (0.75 m) | 0.51 | 44.1 / 0.0 / 0.00 | 53.7 / 58.9 / 66.5 | 10.4 / 0.18 | 14.8 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+
+### circulacao
+
+| Plano/caso | Área m² | Direta Emed / Emin / U0 | Com reflexão Emed baixo / central / alto | Emin central / U0 | Ganho central lx | Veredito por cenário |
+|---|---:|---|---|---|---:|---|
+| circulacao_geral (0 m) | 0.92 | 26.3 / 0.0 / 0.00 | 32.2 / 36.0 / 42.1 | 2.2 / 0.06 | 9.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+| circulacao_geral_portas_fechadas (0 m) | 0.92 | 26.3 / 0.0 / 0.00 | 32.2 / 36.0 / 42.1 | 2.2 / 0.06 | 9.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
+
+[Resumo completo](Resumo_lux.csv): mínimos/U0 nas três faixas. [Malha resumida](Grades_lux.csv), [superfícies por material](Superficies_luz.csv), [validação](Validacao_luz.json). Mapas: total direto+refletido central, mesma legenda0–500 lx para todos; branco é fora da malha. Não há luz natural.
+
 
 
 
@@ -231,14 +238,14 @@ O cenário falhar não prova falha do produto instalado. Não há menor alteraç
 | Caso | Opção de estudo | Emed antes→depois lx | U0 antes→depois | Diferença material |
 |---|---|---:|---:|---|
 | sala_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 78→500 | 0.45→0.91 | sem produto cotado que comprove esta distribuição |
-| escritorio_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 44→500 | 0.69→0.97 | sem produto cotado que comprove esta distribuição |
-| cozinha_preparo_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 482→1135 | 0.29→0.70 | sem produto cotado que comprove esta distribuição |
+| escritorio_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 44→500 | 0.00→0.91 | sem produto cotado que comprove esta distribuição |
+| cozinha_preparo_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 358→1120 | 0.06→0.70 | sem produto cotado que comprove esta distribuição |
 | cozinha_pia_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 490→815 | 0.50→0.70 | sem produto cotado que comprove esta distribuição |
 | lavanderia_tanque_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 132→300 | 0.65→0.85 | sem produto cotado que comprove esta distribuição |
-| quarto_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 59→150 | 0.00→0.61 | sem produto cotado que comprove esta distribuição |
+| quarto_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 48→150 | 0.00→0.68 | sem produto cotado que comprove esta distribuição |
 | circulacao_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 26→100 | 0.00→0.74 | sem produto cotado que comprove esta distribuição |
 | sala_mesa | um Jurerê+2WiZ adicional, posição nominal de comparação | 78→146 | 0.45→0.59 | 258.59 |
-| cozinha_preparo_tampo92 | recuar eixo do perfil para centro transversal da bancada | 482→494 | 0.29→0.37 | sem novo produto; remanejamento sem cotação |
+| cozinha_preparo_tampo92 | recuar eixo do perfil para centro transversal da bancada | 358→379 | 0.06→0.07 | sem novo produto; remanejamento sem cotação |
 | lavanderia_tanque_tampo92 | deslocar plafon35 cm rumo ao tanque e20 cm longitudinalmente | 132→168 | 0.65→0.75 | sem novo produto; remanejamento sem cotação |
 
 H12: opção adicionalJurerê usa apenas preçosP1 de27/10:60,65+2×98,97=R$258,59, sem novo WiZmote se o grupo existente puder controlar o conjunto. Controle novo custaria maisR$117,73 da mesma lista, se necessário; compatibilidade térmica/SKU ainda pendente. Posição de comparação(6,17;4,75;2,50)m não coincide com a canoplaS04, mas sua instalação e abertura dos armários não foram validadas. Não é compra nem solução escolhida. Remanejamentos de perfil/plafon não têm mão de obra, cabos, gesso e acabamento cotados: diferença instalada desconhecida, nunca zero. As três opções geométricas são comparações fixas, não otimização iterativa de instalação condicionada.

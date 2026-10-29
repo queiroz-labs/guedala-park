@@ -24,6 +24,20 @@ class Physics(unittest.TestCase):
             self.assertAlmostEqual(balance['absorvido_lm']+balance['perdido_lm']+balance['residual_lm'],1000.)
             self.assertAlmostEqual(balance['absorvido_lm'],800*(1-(.2,.5,.8)[band]))
 
+    def test_clean_mesh_excludes_solids_and_roundoff_slivers(self):
+        grid=f.clean_grid([[0,0,2,1]],.75,.3,[[.5,0,0,1.5,1,1]])
+        self.assertAlmostEqual(sum(c['area'] for c in grid),1.)
+        self.assertTrue(all(not .5<c['point'][0]<1.5 for c in grid))
+        grid=f.cells([[0,0,1,1],[1-1e-16,0,2,1]],.75,.25)
+        self.assertTrue(all(c['area']>1e-10 for c in grid))
+
+    def test_case_planes_are_physical(self):
+        cases=f.calculation_cases(f.load_geometry())
+        self.assertFalse(any(c['id'] in ('cozinha_preparo','cozinha_pia','lavanderia_tanque') for c in cases))
+        for c in cases:
+            if 'tampo92' in c['id']:self.assertEqual(c['z'],.92)
+            if c['id']=='quarto_leitura':self.assertGreater(c['z'],.64)
+
     def test_union_cells_preserve_area_and_overlap(self):
         cs=f.cells([[0,0,1,1],[.5,0,1.5,1]],.75,.3)
         self.assertAlmostEqual(sum(c['area'] for c in cs),1.5)
@@ -127,7 +141,8 @@ class Physics(unittest.TestCase):
             proc=subprocess.run([sys.executable,'-B',str(Path(f.__file__)), '--saida',t],capture_output=True,text=True)
             self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
             expected=['Resumo_lux.csv','Grades_lux.csv','Sensibilidade_luz.csv','Cenas_luz.csv','Consumo_luz.csv',
-                      'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json']
+                      'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json',
+                      'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json']
             expected+=['Mapa_lux_'+k+'.png' for k in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao')]
             for name in expected:
                 actual,reference=(Path(t)/name).read_bytes(),(f.OUT/name).read_bytes()

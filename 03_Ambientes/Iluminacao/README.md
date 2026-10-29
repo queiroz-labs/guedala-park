@@ -60,19 +60,19 @@ Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmo
 
 ## Fotometria — cenários de 29/10/2026
 
-[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo são **luz direta mantida no cenário**, sem reflexões; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.
+[Estudo completo](Estudo_fotometrico.md), [resultados](Resumo_lux.csv), [grade resumida](Grades_lux.csv), [sensibilidade de posição](Sensibilidade_luz.csv) e [fontes/curva/SHA](Fotometria_fontes.json). Valores abaixo isolam a **direta e a interreflexão difusa H13**, com fontes centrais e três faixas deρ; desempenho real indeterminado até fotometria dos conjuntos e implantação. Não é veredito normativo do apartamento.
 
-| Ambiente/geral | Emed central lx (faixa) | U0 | Veredito condicional |
+| Ambiente/geral | Direta lx | Totalρbaixo–alto (central) lx / U0central | Veredito com reflexão |
 |---|---:|---:|---|
-| [sala](Mapa_lux_sala.png) | 51 (34–76) | 0.29 | não atende no cenário |
-| [cozinha](Mapa_lux_cozinha.png) | 183 (151–218) | 0.00 | não atende no cenário |
-| [lavanderia](Mapa_lux_lavanderia.png) | 145 (127–164) | 0.56 | marginal no cenário |
-| [banho](Mapa_lux_banho.png) | 139 (122–157) | 0.43 | marginal no cenário |
-| [quarto](Mapa_lux_quarto.png) | 59 (52–67) | 0.00 | não atende no cenário |
-| [escritorio](Mapa_lux_escritorio.png) | 50 (34–73) | 0.42 | não atende no cenário |
-| [circulacao](Mapa_lux_circulacao.png) | 26 (18–38) | 0.00 | não atende no cenário |
+| [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) / 0.10 | não atende no cenário com interreflexão H13; três faixas rho |
+| [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) / 0.01 | não atende no cenário com interreflexão H13; três faixas rho |
+| [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) / 0.08 | não atende no cenário com interreflexão H13; três faixas rho |
+| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) / 0.54 | atende no cenário com interreflexão H13; três faixas rho |
+| [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) / 0.00 | não atende no cenário com interreflexão H13; três faixas rho |
+| [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) / 0.07 | não atende no cenário com interreflexão H13; três faixas rho |
+| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) / 0.06 | não atende no cenário com interreflexão H13; três faixas rho |
 
-Metas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Plano0,85 m atravessa bases da cozinha/lavanderia: não avaliar luz dentro da madeira; tampo R54 em0,92 m calculado separadamente. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.
+Metas residenciais gerais150 lx (circulação100); U0≥0,40 adotado. Tarefas no detalhe: escritório500 lx/U0≥0,70 como referência laboral; rosto em plano vertical separado. Malha limpa: cozinha/tanque somente no tampo0,92 m; livro0,85 m acima da viúva atual. Mínimos escuros fora de sólidos não são descartados. Cozinha: verificar também bancada real e sombras. Indiretas sem posição/reflexões não receberam lux inventados.
 
 Vídeo espelhado conferido: quatro saídas de teto no conjunto social/cozinha/serviço, teclas e tomada do banheiro; evidência e limites no estudo. Centros continuam nominais;±25 cm é sensibilidade, não precisão do vídeo. Fontes técnicas29/10: IES EVO recuperado (ensaio2021 divergente do catálogo); Firefly9608/9605 com2000 lm e EVY2054 com270 lm/30°. E06 continua adiada.
 
@@ -82,4 +82,4 @@ Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `pytho
 
 **Perguntas para Elias:** manter500 lx de leitura/jogos na mesa aberta ou comparar300 lx? Se o déficit persistir, aceita comparar reforço de tarefa? No espelho, prefere avaliar barras horizontais técnicas ou verticais do render? Nenhuma nova seleção inferida. Fabricantes: IES/LDT/SKU, transmissão e IL pendentes. RT/instalador: circuito/quadro real, retorno/neutro, posições/rebaixos e volumes; não pedir agora medidas inexistentes ao morador.
 
-Motor de radiosidade por patches implementado e validado em caixa vazia (<3% frente à solução analítica) e balanço de energia com abertura. Integração aos cômodos em andamento; tabela acima ainda direta. Dependências: NumPy e Pillow nas ferramentas locais.
+Motor de radiosidade H13 integrado; resultados totais e balanços no estudo e CSV. Caixa vazia validada (<3% frente à solução analítica) e conservação com abertura. Dependências: NumPy e Pillow nas ferramentas locais.

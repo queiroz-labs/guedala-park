@@ -1,0 +1,11 @@
+{
+  "analitico_lx": 41.666666666666664,
+  "calculado_lx": 41.57481232980438,
+  "erro_relativo": 0.002204504084694804,
+  "emitido_lm": 1000.0,
+  "absorvido_lm": 999.9999999417923,
+  "perdido_lm": 0.0,
+  "residual_lm": 5.82076609134674e-08,
+  "erro_lm": 6.617444900424222e-24,
+  "iteracoes": 33
+}
