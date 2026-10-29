@@ -1,0 +1,14 @@
+{
+  "data": "29/10/2026",
+  "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+  "ies_sha256": "132f3d7fd250447ee887a9730acc88cd8ee9691c7cad17b15236b267fcd2e16c",
+  "fontes_sha256_texto_LF": {
+    "03_Ambientes/Iluminacao/Fotometria_fontes.json": "d50bb6f21f9c88aef5b20d05a8d4ad897076fb2a15993ebc65fde3c723c8f705",
+    "03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md": "fe08c16008028bc79b00219947ef31cbaf5d927781c812ead5fd58a921863a3b",
+    "07_Imovel/Medidas_e_impactos.csv": "8085c810940be323f14626aeaa36dba116f90acb63a1905ae2f0cdc125984561",
+    "06_Entregas/Caderno_pranchas/Geometria.json": "513ded2a2155e584cbef47a6e6160088be37d1263ecf3cfa3d6d9de4912c7445",
+    "06_Entregas/Planta_cotada/Cotas.json": "fdb33661829571a67dd5769b1472c491efe3f59f99252857a21a32cbba837dc7",
+    "ferramentas/estudos/estudo_fotometrico.py": "7e5e99a7e5b7132a927e38a88f9c1965aef29ce8184236cbec3fbc7e02eb3eef",
+    "09_Referencias/Moodboard.json": "7286236d11c45352fd57e27f3d7d7aba796583db26935b00a3d4fea575823db5"
+  }
+}

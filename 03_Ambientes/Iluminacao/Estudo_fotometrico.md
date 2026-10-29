@@ -154,6 +154,137 @@ Deslocamentos±0,25 m dos plafons, um eixo por vez, em [Sensibilidade_luz.csv](S
 
 SHA R54: `4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528`. IES original: `132f3d7fd250447ee887a9730acc88cd8ee9691c7cad17b15236b267fcd2e16c`. Regeneração não requer FreeCAD; lê a exportação com SHA e a curva numérica pequena. Dependência dos mapas: Pillow.
 
+## Posições aproximadas pelas fotos do vídeo espelhado
+
+| Elemento observado | Localização relativa transferível | Uso no estudo / limite |
+|---|---|---|
+| Quatro saídas sociais, V1 | duas na faixa da sala/jantar e duas na faixa cozinha/serviço, interpretação pela continuidade das paredes/vãos | quantidade compatível comS03/S04/C13/L11; não são quatro circuitos nem coordenadas obtidas dos pixels |
+| Teto do quartoA, V6/V5 | saída na região central do quarto identificado provavelmente comoDormitório02/escritório | apoia uma geralE04; centroPR-PONTO é nominal, não medido no vídeo |
+| Teto do quartoB, V7/V5 | saída na região central doDormitório01/quarto principal provável | apoia uma geralQ05; ponto nominal mantido |
+| Interfone, V2 | duas teclas na parede oposta aos equipamentos, perto do interfone | funções cozinha/serviço são hipótese; retorno/neutro não identificados |
+| Acesso íntimo, V3 | três teclas junto à circulação e portas | não deduzir três retornos utilizáveis ou três circuitos |
+| Banheiro, V4 | placa com tomada+interruptor ao lado do lavatório/porta | posição relativa existe na outra unidade; não classificar volume/IP/circuito pela foto |
+| Tomadas da cozinha, V5/K-E01–07 | parede de equipamentos: uma região de entrada, dupla junto à pia, alta e sob a pia, região de cocção | inventário prévio R02: 9 posições em 7 placas, sem duplicar reaparições; não é capacidade/circuito nem posição da unidade de Elias |
+| Quadro, ENT-02 | junto à porta de entrada da outra unidade | símbolo de lâmpada visível; amperagem/curva e associação à unidade sem leitura confiável |
+
+O espelhamento foi tratado pela relação pia/tanque/janelas/acesso íntimo da plantaP3 e pela correçãoV5, sem presumir que a própria imagem foi espelhada digitalmente. Não foi criado ponto em centímetros a partir da perspectiva. O ensaio±25 cm mostra a consequência de posições aproximadas, sem atribuir essa precisão ao vídeo. Estas evidências acrescentam informação útil de infraestrutura, mas não substituem o quadro/pontos da unidade real.
+
+## Cenas, consumo e corrente a127 V
+
+H11: perfil de uso ilustrativo, não informado pelo morador. Horas por cena abaixo são mutuamente exclusivas dentro do cômodo; trabalho8 h×22 dias, demais30 dias/mês. Dimerização proporcional à potência é hipótese ideal, sem curva de consumo. Fontes avulsas usam eficiência suposta80–90%, não fichaOpus; incluiu provisão1,2 W de cada Shelly permanentemente alimentado. Standby das WiZ/Elgin/kit/fonte/D1, perdas de cabos e tolerâncias desconhecidos **não estão fechados**. O total é subtotal modelado, não previsão de fatura. Não atribuir standby zero ao produto.
+
+| Ambiente | Cena | h/dia ×dias | Grupos e fração de teste | W entrada cenário |
+|---|---|---|---|---:|
+| sala | geral | 0.5×30 | S03=1 | 18.9–19.1 |
+| sala | leitura/jogos | 1×30 | S03=1;S04=1 | 29.4–29.6 |
+| sala | relaxar/TV | 2.5×30 | S05=0.15 | 3.3–3.8 |
+| sala | noite | 0.25×30 | S05=0.05 | 2.0–2.2 |
+| sala | limpeza | 0.1×30 | S03=1;S04=1;S05=1 | 42.8–44.6 |
+| cozinha | geral | 0.25×30 | C13=1 | 31.3–31.5 |
+| cozinha | tarefa | 1.5×30 | C13=1;C14=1 | 46.0–48.0 |
+| cozinha | relaxar/apoio | 0.25×30 | C14=0.25 | 5.0–5.6 |
+| cozinha | noite | 0.25×30 | C14=0.1 | 2.8–3.1 |
+| cozinha | limpeza | 0.1×30 | C13=1;C14=1 | 46.0–48.0 |
+| lavanderia | geral | 0.1×30 | L11=1 | 25.0–25.0 |
+| lavanderia | tarefa | 0.25×30 | L11=1 | 25.0–25.0 |
+| lavanderia | relaxar | 0×30 | todos apagados | 0.0–0.0 |
+| lavanderia | noite | 0.05×30 | L11=1 | 25.0–25.0 |
+| lavanderia | limpeza | 0.1×30 | L11=1 | 25.0–25.0 |
+| banho | geral | 0.15×30 | B11=1 | 25.0–25.0 |
+| banho | rosto/tarefa | 0.5×30 | B11=1;B09=1 | 39.7–41.5 |
+| banho | relaxar | 0.15×30 | B10=1 | 10.7–12.0 |
+| banho | noite | 0.1×30 | B10=1 | 10.7–12.0 |
+| banho | limpeza | 0.1×30 | B11=1;B09=1;B10=1 | 50.3–53.5 |
+| quarto | geral | 0.25×30 | Q05=1 | 19.3–19.5 |
+| quarto | leitura lado1 | 0.75×30 | Q01=1 | 4.3–4.5 |
+| quarto | relaxar | 0.5×30 | Q06=0.25 | 8.0–9.0 |
+| quarto | noite | 0.25×30 | Q06=0.05 | 2.7–3.0 |
+| quarto | limpeza | 0.1×30 | Q05=1;Q01=1;Q02=1;Q06=1 | 52.0–55.5 |
+| escritorio | geral | 0.5×30 | E04=1 | 17.6–17.6 |
+| escritorio | trabalho | 8×22 | E04=1 | 17.6–17.6 |
+| escritorio | relaxar/TV | 1.5×30 | E05=0.15 | 3.0–3.0 |
+| escritorio | noite | 0.15×30 | E05=0.05 | 1.0–1.0 |
+| escritorio | limpeza | 0.1×30 | E04=1;E05=1 | 37.6–37.6 |
+
+Circulação: não cria grupo, cena ou consumo duplicado. Geral/limpeza depende de vizinhos e portas; noite não tem cobertura demonstrada. Lavanderia/banho gerais permanecem liga/desliga; não aplicar10% em interruptor comum. B09/B10 são dois comandos comuns separados, não Shelly novos. EVY independentes; Q05/WiZ devem permanecer alimentadas para smart, e o comando físico do Elgin é pendência. S04 usa D1 apenas como candidato. Percentuais0,05/0,10/0,15/0,25/1 são ensaio deste estudo, não mínimo estável nem cenas aceitas por Elias.
+
+3000K é base funcional onde escolhida; espelho4000K. WiZ/Elgin em branco ajustável: fluxo nos extremos/RGB desconhecido, portanto não transportar o cenário branco100% para cores. IRC no inventário; IRC80/90 não substitui amostra nem temperatura. Nenhum UGR/cintilação/nível mínimo de dimmer foi deduzido do render.
+
+| Ambiente | Subtotal mensal kWh no perfil |
+|---|---:|
+| banho | 0.94–0.99 |
+| cozinha | 3.37–3.58 |
+| escritorio | 3.61–3.61 |
+| lavanderia | 0.38–0.38 |
+| quarto | 1.42–1.57 |
+| sala | 2.35–2.49 |
+| **Total parcial** | **12.07–12.61** |
+
+Não somar novamente kWh das cenas ao subtotal por grupo: a base de Shelly24h já está incluída uma vez no Consumo_luz.csv. Somar cenas isoladas não cobre as horas restantes de standby. Tarifa não fornecida: sem valor emR$/mês. Consumo real depende de horas, brilho, FP, perdas e standby medidos.
+
+[Correntes por grupo](Correntes_luz.csv): Iativa=Pentrada/127. FP desconhecido: IRMS=P/(127×FP), sem limite superior demonstrado; FP0,5 no CSV é só sensibilidade, não dado de fabricante. Soma simultânea dos cenários a100%: 264.2 W, 2.08 A equivalentes ativos. Não atribuir a um circuito único. Projeto de pontos identifica funções, não disjuntor/cabo. Vídeo ENT-02 mostra símbolo de lâmpada no quadro, mas não sustenta curva/corrente ou que seja o quadro desta unidade. **Comparação com capacidade do circuito: indeterminada.**
+
+## Ajustes mínimos condicionais e opções
+
+O cenário falhar não prova falha do produto instalado. Não há menor alteração executiva demonstrável sem curvas/implantação do conjunto. Para quantificar o tamanho do problema sem escolher produto: acréscimo uniforme ideal ΔE=max(0,meta−Emed,(Umeta×Emed−Emin)/(1−Umeta)). É o menor ΔE espacialmente constante que resolve simultaneamente média eU0 no modelo. Não especifica fonte real; aumentar todos os lúmens preservaU0 e pode continuar falhando.
+
+| Caso | Opção de estudo | Emed antes→depois lx | U0 antes→depois | Diferença material |
+|---|---|---:|---:|---|
+| sala_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 78→500 | 0.45→0.91 | sem produto cotado que comprove esta distribuição |
+| escritorio_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 44→500 | 0.69→0.97 | sem produto cotado que comprove esta distribuição |
+| cozinha_preparo_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 482→1135 | 0.29→0.70 | sem produto cotado que comprove esta distribuição |
+| cozinha_pia_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 490→815 | 0.50→0.70 | sem produto cotado que comprove esta distribuição |
+| lavanderia_tanque_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 132→300 | 0.65→0.85 | sem produto cotado que comprove esta distribuição |
+| quarto_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 59→150 | 0.00→0.61 | sem produto cotado que comprove esta distribuição |
+| circulacao_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 26→100 | 0.00→0.74 | sem produto cotado que comprove esta distribuição |
+| sala_mesa | um Jurerê+2WiZ adicional, posição nominal de comparação | 78→146 | 0.45→0.59 | 258.59 |
+| cozinha_preparo_tampo92 | recuar eixo do perfil para centro transversal da bancada | 482→494 | 0.29→0.37 | sem novo produto; remanejamento sem cotação |
+| lavanderia_tanque_tampo92 | deslocar plafon35 cm rumo ao tanque e20 cm longitudinalmente | 132→168 | 0.65→0.75 | sem novo produto; remanejamento sem cotação |
+
+H12: opção adicionalJurerê usa apenas preçosP1 de27/10:60,65+2×98,97=R$258,59, sem novo WiZmote se o grupo existente puder controlar o conjunto. Controle novo custaria maisR$117,73 da mesma lista, se necessário; compatibilidade térmica/SKU ainda pendente. Posição de comparação(6,17;4,75;2,50)m não coincide com a canoplaS04, mas sua instalação e abertura dos armários não foram validadas. Não é compra nem solução escolhida. Remanejamentos de perfil/plafon não têm mão de obra, cabos, gesso e acabamento cotados: diferença instalada desconhecida, nunca zero. As três opções geométricas são comparações fixas, não otimização iterativa de instalação condicionada.
+
+## Riscos e lacunas
+
+| ID/gravidade | Frente | Evidência | O que resolve |
+|---|---|---|---|
+| R01/alta | mesa escritório/jantar | malhas centrais abaixo da meta de tarefa; indireta/TV não é reforço direto quantificado | fotometria do conjunto e distribuição de tarefa; opções em Alternativas_luz.csv |
+| R02/alta | UGR leitura/TV/escritório | UGR real indeterminado: luminância direcional/área aparente/Lb/índiceGuth ausentes; EVOUGR<19 de catálogo não é cálculo da sala | obter IES/LDT e tabelaUGR do conjunto; simular observadores e medir instalação; não inventar índice |
+| R03/alta | compatibilidade elétrica | Opus36 W/3 A e Shelly4 A/canal não validam PWM/regulação/térmica nem contatoTramontina; G9/D1 ainda sem ensaio do trio10,5 W | respostasIL04–IL07/IL09;12VCC no controlador, nunca127V em I1; ensaio do trio antes de compra |
+| R04/alta | fitas/dissipação | C14/S05/Q06 nominais13,2/12/24 W, mais<1,2 W/controlador;5m de fita=60 W excedem fonte36 W; perfilMOV4329 com fita12 W/m sem capacidade térmica confirmada | manter grupos e confirmar dissipação, área útil, terminais, proteção e temperatura; não alojar fonte no fluxo do depurador/micro |
+| R05/alta | banheiro/IP | IP44 do plafon não valida todas as posições; IP65 da fita/IP67 da fonte não protegem cortes/emendas | N3§9.1:volumes pelo RT;IPX7/0,IPX4/1,IPX3/2,IPX1/3 na edição consultada;DR≤30mA§5.1.3.2.2; equipotencialização e classes; confirmar revisão aplicável |
+| R06/média | sombra e giro | caixas de aéreos e roupa produzem sombras; cozinha EVO41cm em teto260cm ainda cruza altura do giro nominal; folga histórica13cm não é conferência executiva | preservar abertura integral e acesso; posições/fontes só após coordenação, sem limitar porta/varal para caber luz |
+| R07/alta | luz no rosto | 300 lx verticais é meta residencial, faixa255–493 lx do cenário; barras inferior/superior e torneira exigem acesso, sem refletância especular modelada | confirmar geometriaB09, IRC do lote, conforto e incidência no rosto; não tomar render com barras verticais como detalhe executivo |
+| R08/média | reflexos em telas | difusor/âmbar/linhaLED podem aparecer diretamente ou no reflexo; posição/tilt das telas/olhos e luminância ausentes; janela atrás dos monitores cria contraste | manter luz fora da reflexão especular para observadores; cortina/blackout; teste com tela apagada e acesa; não prometer ausência de reflexo |
+| R09/alta | circuitos e consumo | símbolo de iluminação visível no quadro da outra unidade; amperagem/curva/condutor/retornos e correspondência à unidade sem comprovação | RT identifica circuito real e FP/inrush; correnteP/127 é equivalente ativa, não correnteRMS de LED |
+| R10/média | fonte documental | EVO2329lm35,65W em2021 versus2300lm30W atual; WiZ800lm127V versus oferta806lmbivolt; Brilia cabeçalho12V versus tabela314450127V | pedir ficha/etiqueta do lote, fotometria e transmissão do conjunto; não transferir dados entre variantes |
+
+UGR em leitura/TV/escritório fica **indeterminado**, com campos necessários listados em R02; um número assumindo área/índice de posição/fundo seria precisão fabricada. Reflexos especulares e contraste de telas são riscos separados de UGR. Não foi feito ensaio de segurança elétrica, dissipação, dimerização ou desempenho no imóvel.
+
+## Confronto com as imagens dia/noite
+
+Doze WebP atuais inspecionados visualmente em29/10, sem regeneração. [Tabela reproduzida](Coerencia_imagens_luz.csv). Não converter pixels em lux ou temperatura Kelvin: exposição, emissão gerada e balanço de branco são desconhecidos.
+
+| Ambiente | Situação | Evidência observada |
+|---|---|---|
+| sala | coerência parcial | 1 plafon e3 globos nas duas imagens; noite quente e indireta acima do painel; sombras/reflexos ilustrativos; cápsulas aparentam filamento, não MiniG9 real; S03/S04/S05;P1 |
+| cozinha | divergência de trecho | 1 plafon cozinha+1 lavanderia coerentes; render mostra linha contínua incluindo zona de cocção; C14 técnico são dois trechos sob apoios, não fita comum junto ao cooktop; C13/C14/L11;P5/P6 |
+| lavanderia | coerência qualitativa | 1 plafon como única fonte, sem fita sob aéreo; corpo/posição e intensidade não medem fluxo real; varal está vazio; L11;S2;V1 |
+| banho | divergência de geometria/cor | 1 plafon real+reflexo no espelho, não2 plafons; duas linhas verticais luminosas no render versus propostas R54 horizontais;4000K não verificável em imagem com balanço de branco; indireta inferior não prova B10 separado; B09/B10/B11;P5;Peca188/189 |
+| quarto | coerência parcial | 1 plafon,2 arandelas e linha de cabeceira; luminária smart/modelo/3000K não verificáveis só por imagem; representa queen futura, não viúva atual; Q01/Q02/Q05/Q06;P1 |
+| escritorio | divergência de escopo | noite mostra linha quente sob prateleira e halo TV; E06/prateleira adiada, só E05/TV nesta etapa; produtos são aproximações; luz da tarefa não comprovada pelo brilho do render; E04/E05;E06 adiada por D06-B27/10 |
+
+## Perguntas objetivas
+
+1. **Elias:** manter500 lx como meta de leitura/jogos na mesa aberta, ou comparar também uma meta residencial menos exigente de300 lx? Não alterada automaticamente. Para o escritório, a referência de500 lx na tarefa laboral permanece.
+2. **Elias:** caso a confirmação fotométrica mantenha o déficit, aceita comparar reforço local de tarefa ou prefere preservar somente luminárias gerais? Não é autorização de compra/novo ponto.
+3. **Elias:** para o espelho, prefere avaliar barras horizontais da proposta técnica ou a composição vertical da imagem? Ambas precisam de validação; nenhuma foi escolhida neste estudo.
+4. **Fornecedores, dentro das IL existentes:** qual IES/LDT/transmissão do conjunto exato por SKU, branco e difusor? O IES2021 representa o EVO30W atual? Confirmar corrente Cristallux e tensão/cabeçalho G9, PWM/curva térmica da fonte e uso WiZ em plafon fechado.
+5. **RT/instalador após documentação/levantamento:** quais circuito/disjuntor/FP/inrush/condutores e retornos efetivos, coordenadas/altura do emissor, rebaixos/vigas, volumes/IP/DR e sombras de uso? Não pedir agora ao morador medidas que ele não possui.
+
+Sem produto escolhido, envio a fornecedor, mudança de cota/preço/orçamento, modificação de item do site, publicação ou CAD salvo.
+
+[Rastreio das entradas por SHA](Rastreio_fotometrico.json): inclui curva, código, lista comercial, geometria, coordenadas e manifesto das imagens; textos normalizados paraLF, CAD/IES originais por bytes.
+
 ## Fontes
 
 - **N1:** [ABNT NBR ISO/CIE 8995-1:2013, §§4.2–4.4, 4.8, 4.10 e tabela 5/22; texto primário em cópia pública; edição aplicável a confirmar](https://drb-assessoria.com.br/drbr/nbrisocie8995.pdf).
@@ -177,8 +308,14 @@ SHA R54: `4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528`. IES
 - **P4:** [PR-PONTO e contornos nominais, não levantamento da unidade](../../07_Imovel/Medidas_e_impactos.csv).
 - **P5:** [Comandos funcionais não identificam circuitos/disjuntores/condutores](../Planta_pontos/README.md).
 - **P6:** [Perfis e fontes; comprimentos existentes C2=1,1 m,S3=1 m,Q06=2 m, não cortes executivos](Fechamento_custo_beneficio/Revisao_quarto_CB02.md).
+- **P7:** [Berlin110/170×80 cm, tampo nominal79 cm na R54; fonte vigente29/10](../Sala_e_jantar/README.md).
+- **P8:** [Cama viúva atual128×188×64 cm; queen só futura](../Quarto_e_portas/README.md).
+- **P9:** [Cozinha: materiais, aéreos, passagem e bancada nominais](../Cozinha/README.md).
+- **P10:** [Lavanderia: varal100×50 cm; texto de bancada75 cm diverge da caixa CAD92 cm, não corrigido neste estudo](../Lavanderia/README.md).
 - **V1:** [Outra unidade espelhada: quatro saídas de teto; foto07:26 conferida29/10](../../07_Imovel/Complemento/Fotos/AD-0446.jpg).
 - **V2:** [Outra unidade: duas teclas junto ao interfone; função não testada](../../07_Imovel/Complemento/Fotos/AD-0334.jpg).
 - **V3:** [Outra unidade: três teclas junto à circulação, mão encobre parte](../../07_Imovel/Complemento/Fotos/AD-0430.jpg).
 - **V4:** [Outra unidade: tomada e interruptor junto ao lavatório/porta](../../07_Imovel/Complemento/Fotos/AD-0486.jpg).
 - **V5:** [Correspondência corrigida: quartoA→escritório; B→quarto principal; provável](../../07_Imovel/Complemento/Complemento_da_visita_R02.md).
+- **V6:** [Outra unidade: saída de teto visível no quartoA,09:30; região central, sem escala](../../07_Imovel/Fotos/dormitorio_A/DRA-01_09m30s.jpg).
+- **V7:** [Outra unidade: saída de teto visível no quartoB,11:30; região central, sem escala](../../07_Imovel/Fotos/dormitorio_B/DRB-02_11m30s.jpg).

@@ -1,5 +1,10 @@
 """Conservação de fluxo, geometria de raios e leitura de fotometria."""
 import math
+import json
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
 import unittest
 import estudo_fotometrico as f
 
@@ -71,6 +76,50 @@ class Physics(unittest.TestCase):
         self.assertEqual(st['mean'],175)
         self.assertAlmostEqual(st['u0'],100/175)
         self.assertEqual(f.statistics([],[])['u0'],0)
+
+    def test_scene_interlocks_and_energy_accounting(self):
+        with self.assertRaises(ValueError):f.active_power('B11',.5)
+        self.assertAlmostEqual(f.active_power('C14',1,.8),16.5)
+        self.assertEqual(f.active_power('B11',0),0)
+        scenes,energy=f.scene_energy()
+        self.assertEqual(len(scenes),30)
+        self.assertNotIn('E06',{r['grupo'] for r in energy})
+        # Recompute one month independently:13.2W times (1.5+.25*.25+.25*.1+.1)*30h,
+        # plus1.2W x720h, all divided by efficiency. Controller counted once.
+        expected=(13.2*(1.5+.25*.25+.25*.1+.1)*30+1.2*720)/.8/1000
+        self.assertAlmostEqual(next(r for r in energy if r['grupo']=='C14')['kWh_mes_alto'],expected,places=4)
+        self.assertTrue(all(r['kWh_mes_alto']>=r['kWh_mes_baixo'] for r in energy))
+
+    def test_minimal_uniform_addition(self):
+        extra=f.uniform_addition(400,100,500,.7)
+        self.assertAlmostEqual(extra,600)
+        self.assertAlmostEqual((100+extra)/(400+extra),.7)
+        self.assertEqual(f.uniform_addition(500,400,500,.7),0)
+
+    def test_official_ies_integrated_flux_not_watt_scaled(self):
+        ies=json.loads((f.OUT/'Fotometria_fontes.json').read_text(encoding='utf-8'))['EVO_2021']
+        self.assertAlmostEqual(f.ies_cd(ies,0,0),1022.363)
+        integral=0
+        for deg in range(90):
+            theta=deg+.5
+            avg=(f.ies_cd(ies,theta,0)+2*f.ies_cd(ies,theta,45)+f.ies_cd(ies,theta,90))/4
+            integral+=2*math.pi*avg*math.sin(math.radians(theta))*math.pi/180
+        self.assertLess(abs(integral-2329)/2329,.02)
+        self.assertEqual(ies['watts'],35.65)
+
+    def test_reproduction_outside_repository(self):
+        # A full isolated run must reproduce committed CSVs, maps and report.
+        with tempfile.TemporaryDirectory(prefix='gp_lux_test_') as t:
+            proc=subprocess.run([sys.executable,'-B',str(Path(f.__file__)), '--saida',t],capture_output=True,text=True)
+            self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
+            expected=['Resumo_lux.csv','Grades_lux.csv','Sensibilidade_luz.csv','Cenas_luz.csv','Consumo_luz.csv',
+                      'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json']
+            expected+=['Mapa_lux_'+k+'.png' for k in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao')]
+            for name in expected:
+                actual,reference=(Path(t)/name).read_bytes(),(f.OUT/name).read_bytes()
+                if not name.endswith('.png'):
+                    actual,reference=actual.replace(b'\r\n',b'\n'),reference.replace(b'\r\n',b'\n')
+                self.assertEqual(actual,reference,name)
 
 
 if __name__=='__main__':unittest.main()
