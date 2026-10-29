@@ -2,7 +2,7 @@
 
 **Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
 
-24/10/2026. Reúne num só lugar **o que** cada ambiente precisa fazer. **Como** fazer (ferragens, montagem, furação, instalação) fica nas [fichas R14](../06_Entregas/Fichas_fabricacao/index.html) e nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html).
+Atualizado em 29/10/2026 pelas decisões dos READMEs dos ambientes. Reúne **o que** cada ambiente precisa fazer. **Como** fazer (ferragens, montagem, furação, instalação) fica nas [fichas R15](../06_Entregas/Fichas_fabricacao/index.html) e nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); a base geométrica histórica abaixo não foi reexportada.
 
 Fontes:
 - [Resumo](../ESTADO_ATUAL.md), [Painel](Painel_de_decisoes.md) e Continuidade pré-entrega;
@@ -21,19 +21,19 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 | Verba | R$120.000 de execução + R$10.000 de reserva intocada = R$130.000 |
 | Energia e gás | 127 V; gás natural (GN) |
 | Prioridades | Preservar o armazenamento; simplicidade e custo; manter cores e visual escolhidos |
-| Fora do orçamento | Cadeira de escritório, PS5, cama, air fryer, utensílios e bens já existentes |
+| Fora do orçamento | Cadeira e monitores do escritório, PS5, cama, air fryer, utensílios e bens já existentes |
 
 ## Ambientes
 
 ### Sala e jantar — conversar e receber
 - Sofá Bonnie retrátil e reclinável, com baú, em bouclê bege-claro.
 - TV de 50″ com aplicativos no próprio aparelho:
-  - preferência Philips Ambilight;
-  - alternativa TCL;
+  - Philips 50PUG8100/78 Ambilight escolhida em 29/10/2026;
+  - TCL 50P7K só reserva;
   - painel liso;
   - uma prateleira acima e outra abaixo;
   - compartimento ventilado para a régua de tomadas.
-- Soundbar futura.
+- Soundbar Philips TAB4000 escolhida: 76 × 6,5 × 10,5 cm, HDMI ARC; Sony HT-S100F apenas alternativa. [Fonte de 29/10/2026](../03_Ambientes/Sala_e_jantar/README.md#tv-e-painel).
 - Mesa Berlin pronta (110/170 × 80 cm):
   - **fechada:** uma cadeira em cada ponta e uma na lateral;
   - **aberta:** as três cadeiras na lateral.
@@ -42,7 +42,7 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 - PS5: um aparelho, levado entre a sala e o escritório.
 
 ### Quarto — descansar e guardar
-- Cama atual de viúvo com baú na mudança; queen com baú no futuro (reserva de 160 × 200 cm).
+- Cama atual viúva com baú 128 × 188 × 64 cm na mudança; queen bem depois, reserva translúcida de 160 × 200 cm ([29/10/2026](../03_Ambientes/Quarto_e_portas/README.md#cama)).
 - Roupeiro com 65 cm de profundidade, metade para cada pessoa:
   - quatro gavetas;
   - dez pares de calçados;
@@ -59,10 +59,10 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 - **Retirados em 22/10:** os dois apoios para celular e óculos.
 
 ### Escritório — trabalhar e hospedar
-- Bancada de 200 × 70 cm com duas gavetas à esquerda.
-- Equipamentos: notebook, dois monitores de 27″ e o gabinete CH360.
-- Sofá-cama Daiane cinza-claro para hóspedes, abrindo em direção à janela.
-- TV Samsung 43″ existente, na parede oposta ao sofá.
+- Bancada de 200 × 70 cm a 75 cm, condicionada aos braços da cadeira; duas gavetas à esquerda ([29/10/2026](../03_Ambientes/Escritorio/README.md#no-dia-a-dia)).
+- Equipamentos: notebook, ASUS TUF VG27AQ5A 27″ + AOC 24″ existente e CH360. Braços ELG F80N: um comprado e um a comprar, R$ 169,99 ([29/10/2026](../03_Ambientes/Escritorio/Setup.md)).
+- Sofá-cama Daiane SUEDE cinza para hóspedes, abrindo em direção à janela (29/10/2026).
+- TV Samsung UN43CU7700GXZD existente, 96,4 × 55,9 × 6 cm, VESA 200 × 200; suporte fixo ELG FIX200 a 2,7 cm da parede ([29/10/2026](../03_Ambientes/Escritorio/TV_e_consoles.md#tv--modelo-identificado-em-29102026)).
 - Aéreo sobre o sofá com setor de ciclismo (capacete, sapatilha, ferramentas). Sem módulo baixo adicional.
 - Prateleira alta para consoles, com topo a 195 cm.
 - Cadeira Ercathe A01 (R$ 2.290,90) e monitores ASUS TUF VG27AQ5A (R$ 2.000,00 no Pix) e AOC 24″ existente: fora do orçamento. Volante e pedais: retirados do projeto em 29/10/2026.

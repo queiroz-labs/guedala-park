@@ -58,7 +58,7 @@ Valores antigos nos documentos são históricos quando divergem do Orcamento_R43
 
 ## Compras fora do orçamento
 
-Valores para referência de compras que não constam no R44; não entram na verba nem na reserva.
+Valores fora do R44, sem uso da reserva. Em 29/10/2026, Philips 50PUG8100/78 e TAB4000 estão escolhidas ([fonte](../03_Ambientes/Sala_e_jantar/README.md#tv-e-painel)); TV já provisionada, soundbar ainda a incluir. Preservar totais e preços históricos.
 
 | Item | Valor | Fonte |
 |---|---:|---|
