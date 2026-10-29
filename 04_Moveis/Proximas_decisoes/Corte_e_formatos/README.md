@@ -77,3 +77,7 @@ Cinco testes cobrem perda de serra, orientação proibida, formato inviável, ma
 ## Referências anteriores preservadas
 
 [Arranjos anteriores](Planos_preliminares.json), [SVGs anteriores](Planos_svg/G05_chapa_01.svg), [exclusões anteriores](Peças_sem_definicao_suficiente.csv), [reconciliação](Reconciliacao_acabamentos.json) e [verificação anterior](Verificacao.json) são a memória do ensaio de 16 chapas com rotação; não são a lista corrente de cotação desta frente. Mantidos por serem referências existentes; não somar seus quantitativos ao novo CSV. [36 propostas separadas](Propostas_36.csv), [requisitos do fundo inteiro P01](Requisito_fundo_P01.csv) e [triagem de formatos](Triagem_formatos.json) permanecem consultas, sem adoção automática.
+
+## Extensão de cenários de corte — 29/10/2026
+
+O [plano de corte por cenário](../../Plano_de_corte/README.md) reutiliza este motor/base para chapa 2750 × 1850 com refilo/serra de 10/4, 0/3 e 20/4 mm. Encontra 15 chapas no subconjunto de 215 painéis, sem o fundo P01 que excede 1850; os 33 bloqueios materiais permanecem. Sensibilidade de espessura e sete propostas ficam separadas. Não substitui nem se soma ao conjunto misto corrente de 14 chapas/216 painéis acima; orçamento e cotação não foram alterados.

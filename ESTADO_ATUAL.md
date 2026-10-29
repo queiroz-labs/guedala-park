@@ -88,7 +88,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
 | Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente:13 opções](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas e elétrica com RT; sem escolha (29/10) |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
-| Todos | [Corte guilhotinado R54](04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md) | 216 painéis/14 chapas encontradas; 33 excluídos. P13 incluído; produto, formatos e blanks a confirmar (28/10) |
+| Todos | [Corte e custo nominal](04_Moveis/Plano_de_corte/README.md) | 15 chapas1850/215 painéis;33 bloqueados e fundo fora; meta35mil não demonstrada. Base mista14/216 preservada |
 
 **Cotação:** [auditoria](06_Entregas/Cotacao/README.md): 101 linhas; zero erros aritméticos; P19 mantém bases distintas.
 
