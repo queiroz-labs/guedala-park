@@ -169,8 +169,12 @@ def matrix():
     next(r for r in rows if r['id']=='P20')['pending']='Detalhar a composição e a fixação da dobradiça piano com articuladores/trava, eixo, apoios, almofadas e capacidade. Conferir protótipo e operação antes da fabricação.'
     return rows
 
-STYLE='''body{font:16px/1.6 system-ui,sans-serif;color:#26322d;background:#faf9f5;max-width:1120px;margin:auto;padding:40px}h1{font-size:36px;line-height:1.15}h2{margin-top:40px}h3{margin-bottom:8px}a{color:#336d57}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #d8dfd8;padding:10px;text-align:left;vertical-align:top}th{background:#e8eee7}section{padding:20px 0;border-bottom:1px solid #d8dfd8}.note{padding:18px;background:#edf1e9;border-radius:10px}.meta{font-size:13px;color:#607066}.tags{display:flex;gap:12px;flex-wrap:wrap}button{padding:10px 18px;border:1px solid #667767;border-radius:8px;background:white;cursor:pointer}@media print{body{background:white;padding:0;font-size:10pt}h1{font-size:24pt}.no-print{display:none}section{break-inside:avoid}a{color:inherit;text-decoration:none}table{font-size:9pt}h2,h3{break-after:avoid}}'''
-def page(title,body): return '<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>'+STYLE+'</style><main>'+body+'</main></html>'
+STYLE='''body{font:16px/1.6 system-ui,sans-serif;color:#26322d;background:#faf9f5;max-width:1120px;margin:auto;padding:40px}h1{font-size:36px;line-height:1.15}h2{margin-top:40px}h3{margin-bottom:8px}a{color:#336d57}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #d8dfd8;padding:10px;text-align:left;vertical-align:top}th{background:#e8eee7}section{padding:20px 0;border-bottom:1px solid #d8dfd8}.note{padding:18px;background:#edf1e9;border-radius:10px}.meta{font-size:13px;color:#607066}.tags{display:flex;gap:12px;flex-wrap:wrap}button{padding:10px 18px;border:1px solid #667767;border-radius:8px;background:white;cursor:pointer}ul,ol{padding-left:22px}ul.chk{list-style:none;padding-left:0}ul.chk li{margin:6px 0}ul.chk label{display:flex;gap:10px;align-items:flex-start;min-height:40px;padding:6px 4px;cursor:pointer}ul.chk input{width:22px;height:22px;flex:none;margin-top:2px}ul.chk input:checked+span{color:#7b867f;text-decoration:line-through}.tbl{overflow-x:auto}@media(max-width:640px){body{padding:16px}h1{font-size:28px}table{font-size:13px}td,th{padding:8px 6px}}@media print{body{background:white;padding:0;font-size:10pt}h1{font-size:24pt}.no-print{display:none}section{break-inside:avoid}a{color:inherit;text-decoration:none}table{font-size:9pt}h2,h3{break-after:avoid}}'''
+CHECKS_JS="""<script>(function(){var k='gp-chk:'+location.pathname,b=[].slice.call(document.querySelectorAll('ul.chk input')),s={};try{s=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}
+var bar=document.createElement('p');bar.className='meta no-print';var clr=document.createElement('button');clr.textContent='Limpar marcações';bar.appendChild(clr);document.querySelector('h1').after(bar);var cnt=document.createElement('span');cnt.style.marginRight='12px';bar.insertBefore(cnt,clr);
+function save(){var o={};b.forEach(function(x,i){if(x.checked)o[i]=1});try{localStorage.setItem(k,JSON.stringify(o))}catch(e){}cnt.textContent=Object.keys(o).length+' de '+b.length+' marcados'}
+b.forEach(function(x,i){if(s[i])x.checked=true;x.addEventListener('change',save)});clr.onclick=function(){b.forEach(function(x){x.checked=false});save()};save()})()</script>"""
+def page(title,body): return '<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>'+STYLE+'</style><main>'+body+'</main>'+(CHECKS_JS if 'type="checkbox"' in body else '')+'</html>'
 def inline(text):
     text=escape(text)
     text=re.sub(r'!\[([^\]]*)\]\(([^)]+)\)',lambda m:'<img alt="'+m[1]+'" src="'+m[2]+'" style="max-width:100%;height:auto">',text)
@@ -178,18 +182,33 @@ def inline(text):
     text=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',text)
     return re.sub(r'`([^`]+)`',r'<code>\1</code>',text)
 def markdown(text):
-    out=[]; in_table=False
+    out=[]; in_table=False; in_list=None
+    def close_list():
+        nonlocal in_list
+        if in_list: out.append('</'+in_list+'>'); in_list=None
     for line in text.splitlines():
         if line.startswith('|'):
+            close_list()
             cells=[c.strip() for c in line.strip('|').split('|')]
             if all(re.fullmatch(r'[-: ]+',c or '-') for c in cells): continue
-            if not in_table: out.append('<table>'); in_table=True
+            if not in_table: out.append('<div class="tbl"><table>'); in_table=True
             out.append('<tr>'+''.join('<td>'+inline(c)+'</td>' for c in cells)+'</tr>'); continue
-        if in_table: out.append('</table>'); in_table=False
+        if in_table: out.append('</table></div>'); in_table=False
+        item=re.match(r'^- \[([ xX])\] (.*)',line)
+        bullet=re.match(r'^- (.*)',line)
+        number=re.match(r'^\d+\. (.*)',line)
+        if item or bullet or number:
+            kind='ol' if number else 'ul'
+            if in_list!=kind: close_list(); out.append('<'+kind+(' class="chk"' if item else '')+'>'); in_list=kind
+            if item: out.append('<li><label><input type="checkbox"'+(' checked' if item[1] in 'xX' else '')+'> <span>'+inline(item[2])+'</span></label></li>')
+            else: out.append('<li>'+inline((bullet or number)[1])+'</li>')
+            continue
+        close_list()
         match=re.match(r'^(#{1,6}) (.*)',line)
         if match: out.append(f'<h{len(match[1])}>'+inline(match[2])+f'</h{len(match[1])}>')
         elif line.strip(): out.append('<p>'+inline(line)+'</p>')
-    if in_table: out.append('</table>')
+    close_list()
+    if in_table: out.append('</table></div>')
     return '\n'.join(out)
 
 def write_if_changed(path,content):
@@ -301,7 +320,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
                 return 'data-unpublished-reference='+delimiter+escape(url,quote=True)+delimiter
             content=re.sub(r'\b(href|src)\s*=\s*([\"\'])(.*?)\2',local_link,content,flags=re.I)
             # Original reports may contain action scripts; documentation is read-only.
-            content=re.sub(r'<script\b[^>]*>.*?</script>','',content,flags=re.I|re.S)
+            if source.suffix.lower()!='.md': content=re.sub(r'<script\b[^>]*>.*?</script>','',content,flags=re.I|re.S)  # pagina gerada de .md mantem o script das caixas de marcar
             document = document_by_path.get(src)
             if document and not src.startswith('06_Entregas/'):
                 content = document_intro(content, document)

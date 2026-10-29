@@ -775,6 +775,7 @@
             "documents": [
               "pendencias-r14",
               "campo",
+              "checklist-chaves",
               "roteiro-chaves",
               "dependencias-medidas",
               "pe-direito"
@@ -1368,6 +1369,16 @@
         ],
         "status": "Em estudo",
         "summary": "Marcos de compra e obra; prazos sem fonte ficam como pendentes."
+      },
+      {
+        "id": "checklist-chaves",
+        "title": "Checklist de vistoria · dia das chaves",
+        "path": "07_Imovel/Checklist_vistoria_dia_das_chaves.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Atual",
+        "summary": "Equipamentos, defeitos a procurar e o que verificar antes de alterar o apartamento. Dá para marcar no celular."
       }
     ]
   }
