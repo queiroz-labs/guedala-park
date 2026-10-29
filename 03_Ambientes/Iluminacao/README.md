@@ -85,3 +85,5 @@ Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `pytho
 Motor de radiosidade H13 integrado; resultados totais e balanços no estudo e CSV. Caixa vazia validada (<3% frente à solução analítica) e conservação com abertura. Dependências: NumPy e Pillow nas ferramentas locais.
 
 Comparação H14/H15: [lúmens necessários](Fluxo_necessario_luz.csv) e [camadas local/geral/espelho](Camadas_tarefa_luz.csv). Sala e escritório têm metas300/500 lx em paralelo. Opções usam preços existentes, só materiais parciais; nenhuma compra inferida. Verticais e horizontais do espelho preservam1,10 m; segundo plafon é apenas opção.
+
+Rascunhos IL02–IL09 revistos29/10 por SKU e escopo vigente, sem envio; [seis prompts de correção](../../09_Referencias/README.md#prompts-de-correção-da-luz--rascunhos29102026) preparados em texto, sem gerar imagens.

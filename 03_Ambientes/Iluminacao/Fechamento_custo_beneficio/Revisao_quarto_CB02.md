@@ -242,37 +242,22 @@ Preparadas em 26/10/2026 a pedido de Elias: “preparando as consultas aos forne
 
 ### IL02 — WiZ
 
-**Assunto: WiZ A60 — conciliação de SKU, tensão e manual de instalação em Jurerê**
-
-Olá! Estamos avaliando **seis lâmpadas WiZ A60 E27 com branco ajustável e regulagem**, duas por plafon Taschibra Jurerê 30 cm 2×E27, com difusor de vidro fosco, em rede de **127 V** (sala, escritório e quarto). RGB é necessário na sala/escritório; no quarto priorizamos luz quente, brilho regulável, Alexa e celular.
-
-A [oferta consultada](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz) descreve **bivolt, 8,5 W e 806 lm**. Já a [referência oficial brasileira consultada](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) identifica **12NC 929002424712 / EAN 8718699787370**, **127 V, 8,8 W e 800 lm**. Para conciliar os documentos, poderiam enviar:
-
-1. O 12NC/código, EAN e fotos legíveis da embalagem e da marcação na lâmpada do lote efetivamente oferecido, incluindo tensão e revisão/lote. É a referência acima ou outra versão? Se for outra, informar a identificação completa, sem substituir pela ficha da versão 127 V.
-2. Ficha técnica e instruções oficiais de instalação desse código, incluindo dimensões, alimentação e condições de regulagem/comando. A página brasileira consultada não disponibiliza manual.
-3. Permissão ou restrição documentada para **duas unidades no mesmo Jurerê com o vidro instalado**: luminária fechada/com difusor, orientação dos soquetes, ventilação, temperatura admissível e eventuais folgas exigidas. Indicar página/cláusula; se necessário, encaminhar ao suporte técnico WiZ/Signify.
-4. Confirmar, para a revisão oferecida, controle de intensidade e cor pelo aplicativo e compatibilidade com WiZmote/Alexa, além das restrições a dimmer de rede. Nosso projeto prevê comando WiZ, sem adicionar dimmer de potência a essas lâmpadas.
-
-5. Cotar também cinco WiZmotes, um para o quarto: a referência oficial regional é 929002426812 / EAN 8719514552647. A oferta mostra R$ 117,73 e pilhas incluídas; confirmar código entregue, quantidade/tipo de pilhas, garantia, estoque, frete e preço das seis lâmpadas identificadas.
-
-Se a aplicação depender de informação do plafon, indiquem qual documento precisam receber. Esta é uma consulta documental prévia, sem pedido de compra. Obrigado!
+**Atualização29/10/2026 — assunto: quatro A60 para sala/escritório; SKU, fotometria e uso fechado. Rascunho, não enviado.**
+Olá! Avaliamos quatro WiZ A60 E27 (duas por Jurerê), em127 V, com RGB/brancos e regulagem própria. O quarto usa Elgin por D03-B27/10; não cotar seis lâmpadas.
+A [oferta](https://www.abastece.com.br/products/lampada-smart-bulbo-wifi-bluetooth-rgb-806lm-a60-bivolt-wiz) informa806 lm/8,5 W/bivolt; a [ficha oficial](https://www.wizconnected.com/pt-br/p/lampada-moderna-lampada-60w-a60-e27/8718699787370) identifica929002424712/EAN8718699787370,800 lm/8,8 W/127 V. Qual SKU/EAN/revisão é entregue? Enviar etiqueta, manual e ficha desse lote, sem substituir pela referência de outra tensão.
+Precisamos de IES/LDT, fluxo e potência em3000 K e nos extremos do branco, IRC e curva de regulagem. Há autorização/restrição documentada para duas A60 no Jurerê com vidro montado? Informar orientação, folgas, ventilação, temperatura e cláusula aplicável; E27 e potência máxima não comprovam uso fechado.
+Confirmar WiZmote/Alexa e proibição/restrição a dimmer de rede; o comando previsto é próprio da WiZ. Cotar quatro lâmpadas e três WiZmotes no total vigente (sala e dois grupos do escritório), identificando929002426812/EAN8719514552647 ou outra revisão, pilhas/base, garantia e preço entregue. Não atribuir automaticamente o preço da oferta ao SKU técnico. Consulta documental, sem pedido de compra.
 
 ### IL03 — Jurerê
 
-**Assunto: Jurerê 30 cm 2×E27 — etiqueta, manual e condições de uso com lâmpadas LED**
-
-Olá! Estamos avaliando **três plafons Taschibra Jurerê brancos, 30 cm, dois soquetes E27 e vidro fosco**, conforme [este anúncio de referência](https://www.leroymerlin.com.br/plafon-sobrepor-taschibra-jurere-30cm-2-lampadas-branco_1567591739). A aplicação prevista é em rede de **127 V**: três plafons com duas WiZ cada. Antes de comprar, poderiam enviar:
-
-1. Código completo do fabricante, EAN e fotos legíveis da etiqueta/embalagem da versão oferecida. Confirmar que se trata do Jurerê 30 cm 2×E27, não do modelo de 25 cm/um soquete nem do Laguna.
-2. Manual de instalação e ficha/desenho técnico da mesma versão, mostrando disposição/orientação dos soquetes, espaço útil para lâmpadas, fixação do vidro e aberturas de ventilação. As medidas externas não permitem conferir o espaço interno.
-3. Limites por soquete e restrições específicas para LED: formatos/dimensões admitidos, folgas, orientação e condições térmicas. Com o vidro montado, como o fabricante caracteriza o fechamento/ventilação do plafon para seleção de lâmpadas?
-4. Há documentação de compatibilidade ou restrição para WiZ A60? A referência WiZ identificada é **929002424712 / EAN 8718699787370**, com envelope publicado de **122 × 60 mm**; a oferta bivolt ainda está em conciliação. Não estamos afirmando compatibilidade desses conjuntos; favor indicar a evidência aplicável ou quais dados adicionais precisam receber.
-
-5. A loja Taschibra mostra referência 52040021-01 a R$ 60,65; a ficha oficial informa 40 W por soquete e “Dimerizável: Não”. Confirmar código/EAN do lote e esclarecer se esse campo restringe lâmpadas WiZ com regulagem própria, sem dimmer de rede.
-
-Se a revenda não dispuser desses documentos, pedimos encaminhamento ao suporte técnico Taschibra. Esta consulta não é pedido de compra nem solicitação de alteração do produto. Obrigado!
+**Atualização29/10/2026 — assunto: dois Jurerê52040021-01; vidro e conjunto com WiZ. Rascunho, não enviado.**
+Olá! Avaliamos dois plafons brancos Jurerê30 cm/2×E27, rede127 V, cada um com duas WiZ A60. A referência comercial é52040021-01 da [Taschibra](https://taschibrastore.com.br/produtos/detalhes/plafon-taschibra-redondo-jurere-30cm-vidro-fosco-2xe27/). Enviar SKU/EAN, etiqueta, desenho/manual do lote, espaço útil, orientação dos soquetes, ventilação e fixação do vidro.
+Qual a transmissão fotópica do vidro e há IES/LDT do conjunto com lâmpadas identificadas? Sem ensaio do conjunto, fornecer ao menos curva/transmissão do difusor, sem inferir desempenho pelo vidro fosco. Há restrições térmicas ao uso fechado de duas WiZ122×60 mm? Identificar folgas/temperaturas e documentação.
+A ficha indica40 W por soquete e “Dimerizável: Não”: isso restringe lâmpadas com regulagem eletrônica própria, sem dimmer de rede? Confirmar por escrito. Cotar dois corpos completos com fixações/vidros, sem lâmpadas duplicadas; preçoR$60,65 da consulta27/10 é provisório. Consulta técnica, sem compra.
 
 ### IL04 — Tramontina
+
+Revisado29/10/2026: mantidos três contatos momentâneos; pendências elétricas abaixo continuam, sem envio.
 
 **Assunto: Pulsador 57115/027 — contato de sinal em controlador alimentado em 12 V CC**
 
@@ -288,6 +273,8 @@ A [ficha DT-019 Rev.01, p.5](https://assets.tramontina.com.br/upload/tramon/imag
 Referência do controlador e esquema de ligação: [Shelly Plus RGBW PM — modo light](https://kb.shelly.cloud/knowledge-base/shelly-plus-rgbw-pm). A função desejada é toque curto para ligar/desligar e pressão longa para regular o brilho, mantendo o contato fechado durante a pressão. Pedimos resposta técnica escrita vinculada ao SKU/revisão; esta consulta não é pedido de compra. Obrigado!
 
 ### IL05 — Shelly
+
+Revisado29/10/2026: confirmar também PWM833 Hz/22 kHz, limites de carga e evidência de compatibilidade da fonteOPS31002; não deduzir desempenho da fita pela potência da saída. Sem envio.
 
 **Assunto: Plus RGBW PM em 12 V CC — pulsador Tramontina e alternativa Wall Switch 1**
 
@@ -305,33 +292,32 @@ Se faltarem informações para confirmar o conjunto, favor listá-las. Precisamo
 
 ### IL06 — Opus
 
-**Assunto: OPS 31002 — lote, regulação e uso com controlador PWM**
-
-Olá! Avaliamos cinco fontes OPS 31002/EAN 7898589031002 no projeto: três com Shelly Plus RGBW PM e fita Cristallux 12 V/12 W por metro; duas para fitas do banheiro com liga/desliga. Entrada de rede 127 V. A [ficha atual](https://opusled.com.br/datasheet/?produto=4160) informa 36 W/3 A, 12 V CC e corpo 172 × 21 × 20 mm; a oferta consultada indica 270 × 20 × 20 mm. Poderiam enviar etiqueta/fotos e manual da revisão disponível, esclarecendo a diferença? A saída é tensão constante regulada? Informar tolerância, ripple, carga mínima, funcionamento sem carga, potência contínua/curva térmica, proteções, isolação e condições de fixação/ventilação e das conexões. É admitido controlador PWM a jusante (Shelly: 833 Hz ou opção 22 kHz), permanentemente alimentado mesmo com a fita apagada? Indicar a documentação aplicável e condições/restrições; não estamos declarando ensaio do conjunto. Consulta técnica, sem pedido de compra. Obrigado!
+**Atualização29/10/2026 — assunto: OPS31002/EAN7898589031002, PWM e potência real. Rascunho, não enviado.**
+Olá! Mantemos cinco fontes12 V/36 W/3 A: três com Shelly Plus RGBW PM e duas em liga/desliga no banheiro, entrada127 V. A [ficha](https://opusled.com.br/datasheet/?produto=4160) informa172×21×20 mm e a oferta270×20×20 mm: qual lote/revisão é entregue? Enviar etiqueta e manual.
+Confirmar tensão constante, tolerância/ripple, corrente contínua, eficiência por carga, FP/correnteRMS/inrush/standby, isolação/proteções e curva de redução térmica. A fonte admite PWM a jusante833 Hz/22 kHz do Shelly, inclusive permanentemente alimentada sem carga? Informar carga mínima, ruído/cintilação e condições documentadas de ventilação, fixação e proteção das conexões. Não estamos presumindo eficiência85% de fabricante: é apenas hipótese de cálculo. Comprimentos finais e instalação ainda pendentes; sem compra.
 
 ### IL07 — Cristallux
 
-**Assunto: Fitas 12 V — corrente, PWM e condições de montagem**
-
-Olá! Avaliamos CLX-FT431230/código 221506/3000 K para três grupos com Shelly Plus RGBW PM, além das CLX-FT331240/4000 K e CLX-FT200530/3000 K para o banheiro com liga/desliga. Enviar etiquetas, códigos/EAN e fichas/manuais das revisões disponíveis. Na [página 221506](https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-3000k-1200lm-m-ip65-480led-m-irc-90), 12 W/m a 12 V correspondem a 1 A/m, mas consta 0,1 A/m: qual valor e tolerância devemos usar? Confirmar condições de dimerização PWM, inclusive 833 Hz/22 kHz, dissipação/perfil exigido, cortes, conexões e proteção das pontas após corte. Para as fitas do banheiro, informar restrições de instalação e manutenção do grau de proteção. Comprimentos finais serão levantados; esta consulta documental não é pedido de compra. Obrigado!
+**Atualização29/10/2026 — assunto: COB221506/CLX-FT431230 e CLX-FT331240, fotometria e corrente. Rascunho, não enviado.**
+Olá! Avaliamos COB3000 K221506/CLX-FT431230 e COB4000 KCLX-FT331240. Enviar SKU/EAN/lote, etiquetas, manual, IES/LDT por metro, fluxo/tolerância por branco, IRC e dimensões luminosas. Há curva e transmissão ensaiadas com perfil/difusor MOV4329? Se não, informar o dado ausente.
+Na [ficha221506](https://www.cristallux.com.br/produto/fita-led-cristall-pro-dry-cob-5mt-12v-12w-m-3000k-1200lm-m-ip65-480led-m-irc-90),12 W/m a12 V implicam1 A/m, mas consta0,1 A/m: qual valor/revisão é correto? Confirmar fluxo1200 lm/m e tolerâncias dos dois brancos, PWM833 Hz/22 kHz, potência térmica/perfil exigido, corte, conexões e proteção das extremidades após corte. Para banheiro, quais condições preservam IP e quais restrições se aplicam? A indireta vigente é Brilia318939; não duplicar antiga CLX-FT200530. Consulta técnica sem compra; medidas finais pendentes.
 
 ### IL08 — Kits WiZ
 
-**Assunto: Dois kits WiZ Pro RGBTW 2M Kit-C — identificação e manual**
-
-Olá! Avaliamos dois kits independentes para TV e prateleiras do escritório, com um WiZmote por kit. A referência documental é 929002681171/EAN 8719514336957. Podem confirmar se a oferta corresponde a esse código e enviar fotos da etiqueta, fonte, controlador e conteúdo da embalagem? Pedimos manual de montagem/corte/reconexão, acessórios necessários e compatibilidade com WiZmote/Alexa. As fichas oficiais do mesmo código divergem entre 2200–6500 K e 2700–6500 K: qual faixa vale para o lote? Confirmar passo de corte, possibilidade de reconectar segmentos, extensões admitidas e condições de garantia/dissipação; não presumimos aproveitamento de sobras. Cotar dois kits completos e identificar separadamente os controles, sem duplicar fontes/controladores incluídos. Comprimentos finais pendentes; consulta sem pedido de compra. Obrigado!
+**Atualização29/10/2026 — assunto: um WiZ Pro2M Kit-C929002681171/EAN8719514336957, somente E05. Rascunho, não enviado.**
+Olá! Avaliamos um kit para TV do escritório, com WiZmote separado; E06/prateleiras adiada por D06-B27/10. A oferta de loja kf72hc7016 corresponde ao código acima? Enviar etiqueta, fonte/controlador, manual, conteúdo e acessórios; não cotar dois kits.
+Solicitamos IES/LDT da fita/conjunto, fluxo e potência por branco (especialmente3000 K), dimensões luminosas, IRC e consumo/inrush/standby da fonte. A ficha indica1600 lm/20 W; qual condição produz esse fluxo? Documentos divergem entre2200–6500 K e2700–6500 K: qual vale para o lote?
+Confirmar WiZmote/Alexa, passo de corte, reconexão/extensões admitidas, dissipação e garantia; não presumimos aproveitamento das sobras. Cotar um kit completo, discriminando controle e itens já incluídos. Consulta sem pedido de compra.
 
 ### IL09 — Demais luminárias e perfis
 
-Enviar futuramente **cada texto apenas ao destinatário correspondente**, após conferir canal. Nenhuma mensagem enviada; preços, estoque e modelos permanecem condicionados.
-
-**Stella — assunto: EVO STH21967/30 para cozinha.** Olá! Avaliamos uma unidade branca para rede 127 V, luz geral 3000 K com interruptor convencional. Enviar ficha/manual, SKU/EAN e etiqueta da revisão disponível, incluindo potência, fluxo, IRC, dimensões, acessórios e condições de montagem/limpeza. Cotar a unidade completa; compatibilizaremos a posição com as portas dos armários e o teto real. Consulta prévia, sem compra. Obrigado!
-
-**Galaxy — assunto: Firefly 9608 e 9605, 3000 K.** Olá! Avaliamos uma unidade quadrada 9608 para lavanderia e uma redonda 9605 para banheiro, ambas brancas e com liga/desliga em 127 V. Confirmar códigos/EAN das variantes 3000 K e enviar etiquetas, fichas/manuais, dimensões, potência/fluxo e grau de proteção/condições de uso. Informar restrições a umidade e locais de instalação; IP publicado não substitui a definição dos volumes do banheiro pelo RT. Cotar cada modelo separadamente com acessórios. Consulta sem compra. Obrigado!
-
-**Nordecor — assunto: EVY 2054 e perfil MOV4329.** Olá! Avaliamos duas arandelas EVY 2054 brancas/3000 K e perfis MOV4329 brancos. Enviar etiquetas e manuais, confirmar interruptor próprio e alimentação 127 V das arandelas. Para o perfil, enviar seção útil interna, acessórios incluídos (difusor, tampas e presilhas), fixação e orientação de dissipação, inclusive para fita COB 10 × 3 mm/12 W por metro e para a fita do kit WiZ. Não presumimos encaixe pela dimensão externa. Cotar arandelas e barras/acessórios por código; quantidade final de perfis depende do plano de cortes. Consulta sem compra. Obrigado!
-
-**Revendas do pendente/comando — assunto: Jabuticaba triplo âmbar e dimerização G9 em 127 V.** Olá! Avaliamos um Arevo C82P3 preto com três vidros âmbar, três Brilia MINI G9 314450 e Sonoff D1 + RM433/base. Confirmar cada SKU/revisão, etiqueta, conteúdo da caixa, manual e preço da variante exata. O anúncio do pendente contém “2xG9” no endereço: precisamos comprovar versão tripla. Para D1/Brilia, informar carga mínima, tipo de dimerização e eventual lista/declaração de compatibilidade com três unidades (10,5 W nominais); para RM433, confirmar revisão, bateria e base incluída. Sem comprovação/ensaio não consideraremos a dimerização fechada. Consulta técnica prévia, sem compra; encaminhar cada pergunta ao fabricante responsável. Obrigado!
+**Atualização29/10/2026. Rascunhos separados, não enviados; cada fabricante recebe somente a pergunta do próprio SKU.**
+**Stella — EVO STH21967/30.** Para uma unidade127 V/3000 K/liga-desliga: enviar etiqueta, manual e fotometria do lote atual. O IES oficial de31/08/2021 declara2329 lm/35,65 W e abertura luminosa354×354 mm, enquanto o catálogo indica2300 lm/30 W. É a mesma construção? Qual curva/área luminosa e tabela de luminância/UGR valem hoje? Fornecer IES/LDT e dados do difusor, não apenas “UGR<19”. O cálculo H16 do estudo não representa o lote sem essa conciliação. Cotação por SKU completo, sem compra.
+**Galaxy — Firefly9608 quadrado e9605 redondo,3000 K.** Uma unidade de cada: confirmar2000 lm/25 W/110°/IRC80, enviar IES/LDT, abertura luminosa e distribuição de luminância do difusor, etiqueta/manual, dimensões, grau de proteção e restrições de umidade. O ângulo110° não substitui curva. IP publicado não define volumes do banheiro; posição depende do RT. Cotar separadamente acessórios, sem compra.
+**Elgin — 48D18WSRWIFI, oferta35032460.** Uma unidade do quarto: confirmar1440 lm/18 W e fornecer IES/LDT, fluxo/potência/IRC em3000 K e extremos do branco, dimensões luminosas, etiqueta/manual, dimerização, temperatura e comportamento após falta de energia. Qual comando físico acessível é compatível e quais acessórios/SKUs são necessários? Não presumimos equivalência com WiZmote. Cotar conjunto completo, sem compra.
+**Nordecor — EVY2054 e MOV4329.** Confirmar referência exata EVY/2054 e documentação dos270 lm/3 W/30°, IRC, IES/LDT, área luminosa, curso mecânico/orientação, interruptor e127 V. Para MOV4329, informar seção útil, difusor/tampas/presilhas, transmissão/curva do conjunto e dissipação admissível para COB10×3 mm/12 W por metro e kit WiZ. Quantidade final depende do plano de cortes; sem compra.
+**Arevo/Brilia/Sonoff — C82P3 âmbar, G9314450, D1/RM433.** Confirmar versão tripla (URL contém2xG9), vidro âmbar e transmissão/IES do conjunto. Para314450, conciliar tabela127 V/320 lm/3,5 W com cabeçalho12 V/0,015 A; enviar etiqueta, revisão, IES/LDT e dimensões luminosas. Para D1, informar carga mínima/tipo de dimmer e compatibilidade documentada com três unidades10,5 W; RM433 com revisão, pilha e base identificadas. Dimerização depende de documentação/ensaio; cotar cada item sem duplicações, sem compra.
+**Brilia — fita318939.** Confirmar530 lm/m/4,8 W/m/12 V/3000 K, IRC, IES/LDT por metro, abertura luminosa, cortes, conexões, dissipação e condições para manter IP65 após corte. A consulta é da indireta do banheiro com liga/desliga; sem troca de SKU nem compra.
 
 ### Como conferir as respostas
 
