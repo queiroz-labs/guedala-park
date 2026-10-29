@@ -112,7 +112,7 @@ Malhas: geral0,75 m exclui projeções de móveis/equipamentos baixos e paredes;
 | cozinha_preparo_tampo92 (0.92 m) | 0.26 | 358.0 / 22.1 / 0.06 | 394.8 / 415.7 / 443.6 | 40.2 / 0.10 | 57.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 | cozinha_pia_tampo92 (0.92 m) | 0.40 | 490.4 / 245.8 / 0.50 | 539.0 / 563.0 / 594.7 | 374.7 / 0.67 | 72.6 | direta: não atende no cenário; reflexão: marginal no cenário com interreflexão H13; três faixas rho |
 | cozinha_preparo_tampo92_pessoa (0.92 m) | 0.26 | 290.4 / 15.7 / 0.05 | 332.7 / 360.2 / 397.4 | 41.1 / 0.11 | 69.7 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
-| cozinha_pia_tampo92_pessoa (0.92 m) | 0.40 | 490.4 / 245.8 / 0.50 | 542.3 / 570.5 / 608.7 | 383.5 / 0.67 | 80.1 | direta: não atende no cenário; reflexão: marginal no cenário com interreflexão H13; três faixas rho |
+| cozinha_pia_tampo92_pessoa (0.92 m) | 0.40 | 423.9 / 213.1 / 0.50 | 475.3 / 505.8 / 547.0 | 265.5 / 0.53 | 81.9 | direta: não atende no cenário; reflexão: não atende no cenário com interreflexão H13; três faixas rho |
 
 ### lavanderia
 
@@ -233,22 +233,68 @@ Não somar novamente kWh das cenas ao subtotal por grupo: a base de Shelly24h j�
 
 ## Ajustes mínimos condicionais e opções
 
-O cenário falhar não prova falha do produto instalado. Não há menor alteração executiva demonstrável sem curvas/implantação do conjunto. Para quantificar o tamanho do problema sem escolher produto: acréscimo uniforme ideal ΔE=max(0,meta−Emed,(Umeta×Emed−Emin)/(1−Umeta)). É o menor ΔE espacialmente constante que resolve simultaneamente média eU0 no modelo. Não especifica fonte real; aumentar todos os lúmens preservaU0 e pode continuar falhando.
+H14: [fluxo necessário por padrão/posição](Fluxo_necessario_luz.csv) resolve exatamente as inequações Emed≥meta e cada Ei≥Umeta×Emed para base+a×resposta. É mínimo entre escalas de um padrão fixo, não mínimo global instalado. Se a resposta piora U0, há também limite superior; distribuição inviável não vira promessa de mais lúmens. Lúmens são adicionais nus, antes de H3/H5. Posições amostradas em −0,15/0/+0,15 m no eixo transversal; não representam intervalo contínuo validado nem tolerância de obra.
 
-| Caso | Opção de estudo | Emed antes→depois lx | U0 antes→depois | Diferença material |
-|---|---|---:|---:|---|
-| sala_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 78→500 | 0.45→0.91 | sem produto cotado que comprove esta distribuição |
-| escritorio_mesa | acréscimo espacialmente homogêneo mínimo, ideal matemático | 44→500 | 0.00→0.91 | sem produto cotado que comprove esta distribuição |
-| cozinha_preparo_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 358→1120 | 0.06→0.70 | sem produto cotado que comprove esta distribuição |
-| cozinha_pia_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 490→815 | 0.50→0.70 | sem produto cotado que comprove esta distribuição |
-| lavanderia_tanque_tampo92 | acréscimo espacialmente homogêneo mínimo, ideal matemático | 132→300 | 0.65→0.85 | sem produto cotado que comprove esta distribuição |
-| quarto_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 48→150 | 0.00→0.68 | sem produto cotado que comprove esta distribuição |
-| circulacao_geral | acréscimo espacialmente homogêneo mínimo, ideal matemático | 26→100 | 0.00→0.74 | sem produto cotado que comprove esta distribuição |
-| sala_mesa | um Jurerê+2WiZ adicional, posição nominal de comparação | 78→146 | 0.45→0.59 | 258.59 |
-| cozinha_preparo_tampo92 | recuar eixo do perfil para centro transversal da bancada | 358→379 | 0.06→0.07 | sem novo produto; remanejamento sem cotação |
-| lavanderia_tanque_tampo92 | deslocar plafon35 cm rumo ao tanque e20 cm longitudinalmente | 132→168 | 0.65→0.75 | sem novo produto; remanejamento sem cotação |
+[Opções comparáveis](Alternativas_luz.csv) usa somente produtos P1/S1–S9: gerais adicionais do mesmo tipo e perfis COB locais independentes. Local não reativa E06 nem supõe prateleira. Compra de rolos/fontes/perfis inteiros, sem ratear sobra: fonte por no máximo2,7 m/32,4 W nominais; capacidade térmica ainda pendente. Não são uma solução executiva nem novos itens da lista de compra. FP/inrush desconhecidos; corrente é P/127, não RMS. W das fitas usa eficiência85% hipotética; faixa80–90% dá W×85/90 a W×85/80.
 
-H12: opção adicionalJurerê usa apenas preçosP1 de27/10:60,65+2×98,97=R$258,59, sem novo WiZmote se o grupo existente puder controlar o conjunto. Controle novo custaria maisR$117,73 da mesma lista, se necessário; compatibilidade térmica/SKU ainda pendente. Posição de comparação(6,17;4,75;2,50)m não coincide com a canoplaS04, mas sua instalação e abertura dos armários não foram validadas. Não é compra nem solução escolhida. Remanejamentos de perfil/plafon não têm mão de obra, cabos, gesso e acabamento cotados: diferença instalada desconhecida, nunca zero. As três opções geométricas são comparações fixas, não otimização iterativa de instalação condicionada.
+Sóρ varia nas colunas baixo/central/alto; fluxo branco/transmissão/curva ausentes permanecem limitações fora dessa faixa. Sem fotometria do conjunto, cumprir o cenário não comprova produto instalado. Os preços são materiais parciais P1, não custo entregue: instalação/comandos/frete/acessórios sem cotação. WiZ usa preço da oferta sem SKU conciliado; não atribuir preço ao SKU técnico. Troca por lâmpada de maior fluxo no mesmo soquete e refletor de parede: dado ausente no catálogo permitido, sem opção comercial fabricada.
+
+| Cômodo/tarefa/meta | Até três menores materiais parciais que cumprem cenárioρcentral | Posições testadas que cumprem |
+|---|---|---|
+| banho_geral / 150 lx | geral 1xB11: R$129.00, 420 lx/U0 0.68; geral 2xB11: R$258.00, 632 lx/U0 0.67 | geral 1xB11: -0.15,0,0.15 m; geral 2xB11: -0.15,0,0.15 m |
+| circulacao_geral / 100 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| cozinha_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| cozinha_pia_tampo92 / 300 lx | local 3 perfil COB 0.65m: R$297.25, 1457 lx/U0 0.76; local 2 perfil COB 0.65m: R$297.25, 1181 lx/U0 0.74; local 1 perfil COB 0.65m: R$297.25, 879 lx/U0 0.71 | local 3 perfil COB 0.65m: 0 m; local 2 perfil COB 0.65m: 0 m; local 1 perfil COB 0.65m: 0,0.15 m |
+| cozinha_preparo_tampo92 / 500 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| escritorio_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| escritorio_mesa / 300 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| escritorio_mesa / 500 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| lavanderia_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| lavanderia_tanque_tampo92 / 300 lx | local 1 perfil COB 0.59m: R$297.25, 495 lx/U0 0.79; local 3 perfil COB 0.59m: R$297.25, 1081 lx/U0 0.76; local 2 perfil COB 0.59m: R$297.25, 802 lx/U0 0.76 | local 1 perfil COB 0.59m: -0.15,0 m; local 3 perfil COB 0.59m: -0.15,0 m; local 2 perfil COB 0.59m: 0 m |
+| quarto_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| quarto_leitura / 300 lx | geral 1xQ05: R$134.83, 351 lx/U0 0.79; geral 2xQ05: R$269.66, 493 lx/U0 0.84; local 2 perfil COB 1.00m: R$297.25, 908 lx/U0 0.87 | geral 1xQ05: -0.15,0,0.15 m; geral 2xQ05: -0.15,0,0.15 m; local 2 perfil COB 1.00m: 0,0.15 m |
+| sala_geral / 150 lx | nenhuma das opções testadas fecha média e U0; não há três para ranquear | nenhuma |
+| sala_mesa / 300 lx | local 3 perfil COB 1.70m: R$628.04, 672 lx/U0 0.71; local 4 perfil COB 1.70m: R$760.49, 850 lx/U0 0.72; geral 4xS03: R$1034.36, 441 lx/U0 0.76 | local 3 perfil COB 1.70m: 0 m; local 4 perfil COB 1.70m: 0 m; geral 4xS03: -0.15,0,0.15 m |
+| sala_mesa / 500 lx | local 3 perfil COB 1.70m: R$628.04, 672 lx/U0 0.71; local 4 perfil COB 1.70m: R$760.49, 850 lx/U0 0.72 | local 3 perfil COB 1.70m: 0 m; local 4 perfil COB 1.70m: 0 m |
+
+As alternativas que falham também permanecem no CSV. Nenhuma é selecionada; limites por interferência/pontos reais ficam com RT. Metas300/500 lx para sala/escritório coexistem: escolher uma não está implícito no cálculo.
+
+## Camada de tarefa e espelho
+
+H15: comparação finita de reforço local e geral; [todos os valores e três faixasρ](Camadas_tarefa_luz.csv). Pessoa tem ombros até1,50 m e cabeça até1,75 m; na pia desloca-se0,65 m em X para ficar diante da pia, sem reutilizar a posição do preparo. Não representa anatomia medida. Roupa permanece envelope totalmente opaco; seu resultado não prevê o tecido real.
+
+| Caso | Camada/opção | Emed central lx (baixo–alto) | Emin central / U0 |
+|---|---|---:|---|
+| cozinha_preparo_tampo92 | vigente | 416 (395–444) | 40 / 0.10 |
+| cozinha_preparo_tampo92 | local 2 perfil COB 0.62m | 856 (811–915) | 134 / 0.16 |
+| cozinha_preparo_tampo92 | geral 2xC13 | 430 (404–469) | 41 / 0.10 |
+| cozinha_preparo_tampo92_pessoa | vigente | 360 (333–397) | 41 / 0.11 |
+| cozinha_preparo_tampo92_pessoa | local 2 perfil COB 0.62m | 817 (756–897) | 71 / 0.09 |
+| cozinha_preparo_tampo92_pessoa | geral 2xC13 | 377 (342–428) | 43 / 0.11 |
+| cozinha_pia_tampo92 | vigente | 563 (539–595) | 375 / 0.67 |
+| cozinha_pia_tampo92 | local 2 perfil COB 0.65m | 1181 (1132–1244) | 877 / 0.74 |
+| cozinha_pia_tampo92 | geral 2xC13 | 605 (566–664) | 381 / 0.63 |
+| cozinha_pia_tampo92_pessoa | vigente | 506 (475–547) | 265 / 0.53 |
+| cozinha_pia_tampo92_pessoa | local 2 perfil COB 0.65m | 1152 (1082–1245) | 749 / 0.65 |
+| cozinha_pia_tampo92_pessoa | geral 2xC13 | 546 (501–614) | 339 / 0.62 |
+| lavanderia_tanque_tampo92 | vigente | 176 (162–195) | 150 / 0.85 |
+| lavanderia_tanque_tampo92 | local 2 perfil COB 0.59m | 802 (760–854) | 608 / 0.76 |
+| lavanderia_tanque_roupa_tampo92 | vigente | 15 (7–26) | 10 / 0.71 |
+| lavanderia_tanque_roupa_tampo92 | local 2 perfil COB 0.59m | 646 (607–697) | 454 / 0.70 |
+| escritorio_mesa | vigente | 59 (54–66) | 10 / 0.18 |
+| escritorio_mesa | local 2 perfil COB 2.00m | 909 (884–944) | 84 / 0.09 |
+| escritorio_mesa | geral 2xE04 | 232 (216–255) | 40 / 0.17 |
+| sala_mesa | vigente | 104 (97–113) | 57 / 0.55 |
+| sala_mesa | local 2 perfil COB 1.70m | 487 (465–515) | 339 / 0.70 |
+| sala_mesa | geral 2xS03 | 285 (268–308) | 199 / 0.70 |
+| banho_rosto | horizontal R54 | 483 (450–527) | 424 / 0.88 |
+| banho_rosto | vertical imagem | 715 (676–765) | 651 / 0.91 |
+| banho_rosto | horizontal + geral adicional | 520 (474–583) | 466 / 0.90 |
+| quarto_leitura | EVY apontadas ao livro0,85m | 452 (437–474) | 298 / 0.66 |
+
+Espelho: horizontais R54 e verticais H15 usam o mesmo1,10 m de COB4000K,13,2 W e1320 lm nus, com mesma hipótese de difusor. Vertical: x4,065/4,615 m,y5,139 m,z1,25–1,80 m; não é cota inferida dos pixels. Material nominal reutilizável, custo de remanejamento/terminações sem cotação (não zero). Variante com segundo plafon acrescenta25 W/2000 lm/R$129,00 parciais; composição vigente tem somente um. A escolha estética não está feita.
+
+EVY reorientadas ao livro é outra hipótese de orientação, não troca de luminária nem promessa sobre seu curso mecânico. Reforços locais podem introduzir fonte no campo visual/reflexos; cálculos de lux não autorizam montagem sobre aquecedor, passagem, móveis, varal ou área molhada.
 
 ## Riscos e lacunas
 

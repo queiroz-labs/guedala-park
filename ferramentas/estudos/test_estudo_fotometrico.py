@@ -13,6 +13,7 @@ class Physics(unittest.TestCase):
     def test_radiosity_empty_cube_analytic(self):
         result=f.validate_radiosity()
         self.assertLess(result['erro_relativo'],.03)
+        self.assertLess(result['difusor_retangular_erro_relativo'],.03)
         self.assertLess(abs(result['erro_lm']),1e-6)
         self.assertLess(result['residual_lm'],1e-6)
 
@@ -124,6 +125,25 @@ class Physics(unittest.TestCase):
         self.assertAlmostEqual((100+extra)/(400+extra),.7)
         self.assertEqual(f.uniform_addition(500,400,500,.7),0)
 
+    def test_required_flux_mean_and_uniformity_upper_bound(self):
+        grid=[dict(area=.5),dict(area=.5)]
+        self.assertEqual(f.required_scale(grid,[100,100],[100,100],300,.7),(2.,float('inf')))
+        self.assertIsNone(f.required_scale(grid,[100,100],[0,200],300,.7))
+        interval=f.required_scale(grid,[100,400],[200,0],300,.7)
+        self.assertAlmostEqual(interval[0],75/130)
+        self.assertAlmostEqual(interval[1],225/70)
+        st=f.statistics(grid,[100+interval[0]*200,400])
+        self.assertGreaterEqual(st['mean'],300)
+        self.assertAlmostEqual(st['u0'],.7)
+
+    def test_person_is_in_front_of_each_task(self):
+        g=f.load_geometry()
+        a=next(b for b,label,_ in f.room_solids(g,dict(id='cozinha_preparo_tampo92_pessoa')) if label=='cabeca_H13')
+        b=next(b for b,label,_ in f.room_solids(g,dict(id='cozinha_pia_tampo92_pessoa')) if label=='cabeca_H13')
+        self.assertAlmostEqual(a[0]-b[0],.65)
+        self.assertAlmostEqual(a[3]-b[3],.65)
+        self.assertEqual(a[4:],b[4:])
+
     def test_official_ies_integrated_flux_not_watt_scaled(self):
         ies=json.loads((f.OUT/'Fotometria_fontes.json').read_text(encoding='utf-8'))['EVO_2021']
         self.assertAlmostEqual(f.ies_cd(ies,0,0),1022.363)
@@ -142,7 +162,7 @@ class Physics(unittest.TestCase):
             self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
             expected=['Resumo_lux.csv','Grades_lux.csv','Sensibilidade_luz.csv','Cenas_luz.csv','Consumo_luz.csv',
                       'Correntes_luz.csv','Alternativas_luz.csv','Estudo_fotometrico.md','Coerencia_imagens_luz.csv','Rastreio_fotometrico.json',
-                      'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json']
+                      'Energia_luz.csv','Superficies_luz.csv','Validacao_luz.json','Fluxo_necessario_luz.csv','Camadas_tarefa_luz.csv']
             expected+=['Mapa_lux_'+k+'.png' for k in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao')]
             for name in expected:
                 actual,reference=(Path(t)/name).read_bytes(),(f.OUT/name).read_bytes()

@@ -388,7 +388,16 @@ def validate_radiosity():
     B,balance=engine.solve(q,1000);expected=1000*.5/(24*(1-.5))
     grid=[dict(point=p['point'],normal=p['normal'],area=p['area']) for p in engine.patches]
     sampled=statistics(grid,engine.reflected_lux(grid,B))['mean']
-    return dict(analitico_lx=expected,calculado_lx=sampled,erro_relativo=abs(sampled-expected)/expected,**balance)
+    # Independent point solution for a uniform square luminous ceiling in black
+    # cavity. Rectangle projected solid angle, not a global energy identity.
+    factor=2/math.pi*(2/math.sqrt(5)*math.atan(1/math.sqrt(5)))
+    uniform=np.array([250. if p['normal'][2]==-1 else 0. for p in engine.patches])
+    point=[dict(point=(1,1,0),normal=(0,0,1),area=1)]
+    engine.sensors(point,rays=65536)
+    point_value=float(engine.reflected_lux(point,uniform)[0]);analytic=250*factor
+    return dict(analitico_lx=expected,calculado_lx=sampled,erro_relativo=abs(sampled-expected)/expected,
+                difusor_retangular_analitico_lx=analytic,difusor_retangular_calculado_lx=point_value,
+                difusor_retangular_erro_relativo=abs(point_value-analytic)/analytic,**balance)
 
 
 def room_solids(g,case=None):
@@ -417,8 +426,9 @@ def room_solids(g,case=None):
     if case and '_roupa' in case['id']:
         b=g['objects']['Peca157'];solids.append(([b[0],b[1],b[2]-1.2,b[3],b[4],b[2]],'roupa_H13',(.2,.35,.5)))
     if case and case['id'].endswith('_pessoa'):
-        solids.extend([([5.15,6.00,0,5.70,6.35,1.5],'ombros_H13',(.2,.35,.5)),
-                       ([5.29,6.07,1.5,5.56,6.34,1.75],'cabeca_H13',(.2,.35,.5))])
+        dx=-.65 if case['id'].startswith('cozinha_pia') else 0
+        solids.extend([([5.15+dx,6.00,0,5.70+dx,6.35,1.5],'ombros_H13',(.2,.35,.5)),
+                       ([5.29+dx,6.07,1.5,5.56+dx,6.34,1.75],'cabeca_H13',(.2,.35,.5))])
     return solids
 
 
@@ -780,10 +790,191 @@ def calculate(g,ies,step=.25):
 RAD_CACHE={}
 
 
+def required_scale(grid,base,unit,target,u):
+    """Exact feasible interval for a>=0 with mean>=target and every E>=u*mean.
+
+    Scaling a source with poor uniformity can impose an UPPER bound. Do not
+    claim an arbitrary larger flux solves a distribution that has no solution.
+    """
+    mean=statistics(grid,base)['mean'];gain=statistics(grid,unit)['mean']
+    lower=0.;upper=math.inf
+    constraints=[(gain,target-mean)]+[(k-u*gain,u*mean-b) for b,k in zip(base,unit)]
+    for coefficient,needed in constraints:
+        if abs(coefficient)<1e-12:
+            if needed>1e-9:return None
+        elif coefficient>0:lower=max(lower,needed/coefficient)
+        else:upper=min(upper,needed/coefficient)
+    return (lower,upper) if lower<=upper+1e-9 else None
+
+
+def option_light(code,pos,normal=(0,0,-1),fraction=1):
+    return dict(code=code,position=tuple(pos),normal=normal,fraction=fraction)
+
+
+def option_patterns(case,g):
+    """H14 finite comparison catalogue, not an installation/layout optimization."""
+    room=case['room'];grid=case['grid'];points=np.array([c['point'] for c in grid]);center=np.average(points,axis=0,weights=[c['area'] for c in grid])
+    general={'sala':('S03',258.59),'escritorio':('E04',258.59),'quarto':('Q05',134.83),
+             'cozinha':('C13',239.4),'lavanderia':('L11',203.9),'banho':('B11',129.),'circulacao':('Q05',134.83)}
+    code,price=general[room];height=g['heights'][room]-PRODUCTS[code]['drop']
+    axis=0 if room in ('escritorio','cozinha','lavanderia','circulacao') else 1
+    # Same bounded three tested translations for every scheme; no continuous claim.
+    offsets=(-.15,0,.15)
+    for count in (1,2,4,6):
+        for shift in offsets:
+            positions=[]
+            for i in range(count):
+                p=center.copy();p[2]=height;p[axis]+=(i-(count-1)/2)*.45;p[1-axis]+=shift
+                if not any(r[0]+.18<p[0]<r[2]-.18 and r[1]+.18<p[1]<r[3]-.18 for r in g['floors'][room]):break
+                if any(all(b[j]<p[j]<b[j+3] for j in range(3)) for b,_,_ in room_solids(g)):break
+                positions.append(p)
+            if len(positions)!=count:continue
+            yield dict(name=f'geral {count}x{code}',family='geral',shift=shift,lights=[option_light(code,p) for p in positions],
+                       flux=count*PRODUCTS[code]['lm'],watts=count*PRODUCTS[code]['w'],cost=round(count*price,2),
+                       effort='alto: novos pontos/forro/comandos; posições não compatibilizadas',risk='portas, calor, ofuscamento; SKU/curva ausentes salvo EVO histórico')
+    if case['id'].endswith('_geral') or room=='circulacao':return
+    if room=='banho':return  # Mirror alternatives have exact equal length in layer comparison.
+    # Local profiles: two axes over useful task, no deferred shelf assumed as support.
+    rects=[c['rect'] for c in grid];extent=[max(r[i+2] for r in rects)-min(r[i] for r in rects) for i in (0,1)]
+    axis=0 if room in ('cozinha','lavanderia','escritorio') else int(extent[1]>extent[0])
+    length=min(2.,extent[axis]);center[axis]=(min(r[axis] for r in rects)+max(r[axis+2] for r in rects))/2
+    z={'cozinha':1.525,'lavanderia':1.50,'escritorio':1.40,'sala':2.0,'quarto':1.40}[room]
+    for count in (1,2,3,4):
+        for shift in offsets:
+            ls=[]
+            for i in range(count):
+                a=center.copy();b=center.copy();a[2]=b[2]=z;a[axis]-=length/2;b[axis]+=length/2
+                a[1-axis]+=shift+(i-(count-1)/2)*.18;b[1-axis]=a[1-axis]
+                part=line_sources('C14',a,b,(0,0,-1),count=8)
+                for e in part:e['fraction']*=length/1.1
+                ls+=part
+            total=count*length
+            # Full purchase packs, never prorate a roll or presume leftovers.
+            drivers=math.ceil(total/2.7);profiles=math.ceil(total/2)
+            cost=math.ceil(total/5)*164.8+drivers*98.91+profiles*33.54
+            yield dict(name=f'local {count} perfil COB {length:.2f}m',family='local',shift=shift,lights=ls,flux=1200*total,
+                       watts=12*total/.85,cost=round(cost,2),effort='alto: suporte/perfil/fonte e comando comum independente; não pressupõe prateleira E06',
+                       risk='suporte/dissipação/calor/contato visual a confirmar; custo sem conexões/comando; fonte80–90% hipótese')
+
+
+def response_vectors(engine,case,lights,g,ies):
+    s=SCENARIOS['central'];q,flux=engine.deposit(lights,s,ies)
+    d=np.array([direct(c,lights,s,ies,obstacles_for(g,case)) for c in case['grid']])
+    return [d+engine.reflected_lux(case['grid'],engine.solve(q,flux,band)[0]) for band in range(3)]
+
+
+def comparable_options(g,ies,out):
+    results=[];requirements=[]
+    for ident,(engine,case,ls,bases,ds) in RAD_CACHE.items():
+        if ident.endswith('_pessoa') or '_roupa' in ident or ident.endswith('fechadas') or ident=='banho_rosto':continue
+        print('Opções: '+ident,flush=True)
+        targets=(300,500) if ident in ('sala_mesa','escritorio_mesa') else (case['meta'],)
+        for pattern in option_patterns(case,g):
+            # Reject emitters in an opaque box; do not optimize around real conflicts.
+            if any(any(all(b[j]<e['position'][j]<b[j+3] for j in range(3)) for b,_,_ in room_solids(g)) for e in pattern['lights']):continue
+            increments=response_vectors(engine,case,pattern['lights'],g,ies)
+            pos=' | '.join(','.join(f'{v:.3f}' for v in e['position']) for e in (pattern['lights'][0],pattern['lights'][-1]))
+            for target in targets:
+                scales=[required_scale(case['grid'],base,delta,target,case['u']) for base,delta in zip(bases,increments)]
+                fluxes=['inviável por distribuição' if v is None else round(v[0]*pattern['flux'],1) for v in scales]
+                stats=[statistics(case['grid'],base+delta) for base,delta in zip(bases,increments)]
+                meets=[st['mean']>=target and st['u0']>=case['u'] for st in stats]
+                requirements.append(dict(caso=ident,meta_lx=target,opcao=pattern['name'],deslocamento_m=pattern['shift'],
+                                         lm_adicionais_rho_baixo=fluxes[0],lm_adicionais_rho_central=fluxes[1],lm_adicionais_rho_alto=fluxes[2],
+                                         pos_extremos_m=pos,fonte='H14; mínimo para este padrão fixo; fluxos nus S1–S9; H2/H3/H5/H6/H13'))
+                row=dict(ambiente=case['room'],caso=ident,meta_lx=target,opcao=pattern['name'],camada=pattern['family'],
+                         deslocamento_m=pattern['shift'],fluxo_adicional_lm=round(pattern['flux'],2),pos_extremos_m=pos,
+                         W_nominal=round(pattern['watts'],2),I_ativa_127V_A=round(pattern['watts']/127,4),
+                         material_parcial_RS=pattern['cost'],instalacao=pattern['effort'],risco=pattern['risk'])
+                for name,st,ok in zip(('baixo','central','alto'),stats,meets):
+                    row.update({f'Emed_{name}':round(st['mean'],2),f'Emin_{name}':round(st['min'],2),f'U0_{name}':round(st['u0'],4),f'meta_{name}':bool(ok)})
+                row.update(fonte='P1 preços27/10; H14 posições/quantidades; H2/H3/H5/H6/H13; fonte/W por branco/curva do conjunto ausentes; sem compra',
+                           delta_lx_central=round(stats[1]['mean']-statistics(case['grid'],bases[1])['mean'],2))
+                results.append(row)
+    write_csv(out/'Alternativas_luz.csv',results);write_csv(out/'Fluxo_necessario_luz.csv',requirements)
+    return results
+
+
+def options_text(options):
+    lines=['## Ajustes mínimos condicionais e opções', '',
+        'H14: [fluxo necessário por padrão/posição](Fluxo_necessario_luz.csv) resolve exatamente as inequações Emed≥meta e cada Ei≥Umeta×Emed para base+a×resposta. É mínimo entre escalas de um padrão fixo, não mínimo global instalado. Se a resposta piora U0, há também limite superior; distribuição inviável não vira promessa de mais lúmens. Lúmens são adicionais nus, antes de H3/H5. Posições amostradas em −0,15/0/+0,15 m no eixo transversal; não representam intervalo contínuo validado nem tolerância de obra.', '',
+        '[Opções comparáveis](Alternativas_luz.csv) usa somente produtos P1/S1–S9: gerais adicionais do mesmo tipo e perfis COB locais independentes. Local não reativa E06 nem supõe prateleira. Compra de rolos/fontes/perfis inteiros, sem ratear sobra: fonte por no máximo2,7 m/32,4 W nominais; capacidade térmica ainda pendente. Não são uma solução executiva nem novos itens da lista de compra. FP/inrush desconhecidos; corrente é P/127, não RMS. W das fitas usa eficiência85% hipotética; faixa80–90% dá W×85/90 a W×85/80.', '',
+        'Sóρ varia nas colunas baixo/central/alto; fluxo branco/transmissão/curva ausentes permanecem limitações fora dessa faixa. Sem fotometria do conjunto, cumprir o cenário não comprova produto instalado. Os preços são materiais parciais P1, não custo entregue: instalação/comandos/frete/acessórios sem cotação. WiZ usa preço da oferta sem SKU conciliado; não atribuir preço ao SKU técnico. Troca por lâmpada de maior fluxo no mesmo soquete e refletor de parede: dado ausente no catálogo permitido, sem opção comercial fabricada.', '',
+        '| Cômodo/tarefa/meta | Até três menores materiais parciais que cumprem cenárioρcentral | Posições testadas que cumprem |', '|---|---|---|']
+    keys=sorted({(r['caso'],r['meta_lx']) for r in options})
+    for ident,target in keys:
+        valid=[r for r in options if r['caso']==ident and r['meta_lx']==target and r['meta_central']]
+        best={}
+        for r in sorted(valid,key=lambda r:(r['material_parcial_RS'],-r['U0_central'])):best.setdefault(r['opcao'],r)
+        chosen=list(best.values())[:3]
+        desc='; '.join(f"{r['opcao']}: R${r['material_parcial_RS']:.2f}, {r['Emed_central']:.0f} lx/U0 {r['U0_central']:.2f}" for r in chosen) or 'nenhuma das opções testadas fecha média e U0; não há três para ranquear'
+        position='; '.join(r['opcao']+': '+','.join(str(v['deslocamento_m']) for v in valid if v['opcao']==r['opcao'])+' m' for r in chosen) or 'nenhuma'
+        lines.append(f'| {ident} / {target} lx | {desc} | {position} |')
+    lines+=['', 'As alternativas que falham também permanecem no CSV. Nenhuma é selecionada; limites por interferência/pontos reais ficam com RT. Metas300/500 lx para sala/escritório coexistem: escolher uma não está implícito no cálculo.', '']
+    return '\n'.join(lines)+'\n'
+
+
+def task_layers(g,ies,out):
+    rows=[]
+    for ident in ('cozinha_preparo_tampo92','cozinha_pia_tampo92','lavanderia_tanque_tampo92','escritorio_mesa','sala_mesa'):
+        engine,case,ls,bases,ds=RAD_CACHE[ident]
+        patterns=list(option_patterns(case,g));chosen=[]
+        for family in ('local','geral'):
+            eligible=[p for p in patterns if p['family']==family and p['shift']==0 and p['name'].startswith(family+' 2')]
+            if eligible:chosen.append(eligible[0])
+        variants=[ident]
+        if ident.startswith('cozinha'):variants.append(ident+'_pessoa')
+        if ident.startswith('lavanderia'):variants.append('lavanderia_tanque_roupa_tampo92')
+        for variant in variants:
+            e,c,_,b,d=RAD_CACHE[variant]
+            for pattern in [None]+chosen:
+                values=b if pattern is None else [v+a for v,a in zip(b,response_vectors(e,c,pattern['lights'],g,ies))]
+                stats=[statistics(c['grid'],v) for v in values]
+                row=dict(caso=variant,opcao='vigente' if pattern is None else pattern['name'],fluxo_adicional_lm=0 if pattern is None else round(pattern['flux'],2))
+                for name,st in zip(('baixo','central','alto'),stats):row.update({f'Emed_{name}':round(st['mean'],2),f'Emin_{name}':round(st['min'],2),f'U0_{name}':round(st['u0'],3)})
+                row['fonte']='H14; mesmos produtos/posições com e sem cabeça+ombros ou envelope opaco de roupa; H2/H3/H5/H6/H13'
+                rows.append(row)
+    engine,case,ls,bases,ds=RAD_CACHE['banho_rosto']
+    for label in ('horizontal R54','vertical imagem','horizontal + geral adicional'):
+        lights=copy.deepcopy(ls)
+        if label=='vertical imagem':
+            lights=[e for e in lights if e['code']!='B09']
+            for x in (4.065,4.615):
+                line=line_sources('B09',(x,5.139,1.25),(x,5.139,1.80),(0,-1,0))
+                for e in line:e['fraction']*=.5
+                lights+=line
+        if label.endswith('adicional'):lights.append(option_light('B11',(2.95,4.65,2.45)))
+        values=response_vectors(engine,case,lights,g,ies)
+        row=dict(caso='banho_rosto',opcao=label,fluxo_adicional_lm=2000 if label.endswith('adicional') else 0)
+        for name,values in zip(('baixo','central','alto'),values):
+            st=statistics(case['grid'],values);row.update({f'Emed_{name}':round(st['mean'],2),f'Emin_{name}':round(st['min'],2),f'U0_{name}':round(st['u0'],3)})
+        row['fonte']='H15; B09 mesmo total1,10m/1320lm/13,2W; H7 plano do rosto; vertical posição hipotética da imagem; B11 adicional é opção129,00/P1, não composição vigente'
+        rows.append(row)
+    # Same selected arandelas, aim at the physical book plane; no new purchase.
+    engine,case,ls,bases,ds=RAD_CACHE['quarto_leitura'];aimed=copy.deepcopy(ls)
+    for e in aimed:
+        if e['code'] in ('Q01','Q02'):
+            target=(.6,1.65 if e['code']=='Q01' else 2.35,.85)
+            e['normal']=norm(np.array(target)-np.array(e['position']))
+    vals=response_vectors(engine,case,aimed,g,ies)
+    row=dict(caso='quarto_leitura',opcao='EVY apontadas ao livro0,85m',fluxo_adicional_lm=0)
+    for name,vs in zip(('baixo','central','alto'),vals):
+        st=statistics(case['grid'],vs);row.update({f'Emed_{name}':round(st['mean'],2),f'Emin_{name}':round(st['min'],2),f'U0_{name}':round(st['u0'],3)})
+    row['fonte']='H15; mesmo par270lm/3W cada; orientação nominal ao livro, limites mecânicos e conforto pendentes; sem material adicional, instalação desconhecida';rows.append(row)
+    write_csv(out/'Camadas_tarefa_luz.csv',rows)
+    lines=['## Camada de tarefa e espelho', '',
+           'H15: comparação finita de reforço local e geral; [todos os valores e três faixasρ](Camadas_tarefa_luz.csv). Pessoa tem ombros até1,50 m e cabeça até1,75 m; na pia desloca-se0,65 m em X para ficar diante da pia, sem reutilizar a posição do preparo. Não representa anatomia medida. Roupa permanece envelope totalmente opaco; seu resultado não prevê o tecido real.', '',
+           '| Caso | Camada/opção | Emed central lx (baixo–alto) | Emin central / U0 |','|---|---|---:|---|']
+    for r in rows:lines.append(f"| {r['caso']} | {r['opcao']} | {r['Emed_central']:.0f} ({r['Emed_baixo']:.0f}–{r['Emed_alto']:.0f}) | {r['Emin_central']:.0f} / {r['U0_central']:.2f} |")
+    lines+=['', 'Espelho: horizontais R54 e verticais H15 usam o mesmo1,10 m de COB4000K,13,2 W e1320 lm nus, com mesma hipótese de difusor. Vertical: x4,065/4,615 m,y5,139 m,z1,25–1,80 m; não é cota inferida dos pixels. Material nominal reutilizável, custo de remanejamento/terminações sem cotação (não zero). Variante com segundo plafon acrescenta25 W/2000 lm/R$129,00 parciais; composição vigente tem somente um. A escolha estética não está feita.', '',
+            'EVY reorientadas ao livro é outra hipótese de orientação, não troca de luminária nem promessa sobre seu curso mecânico. Reforços locais podem introduzir fonte no campo visual/reflexos; cálculos de lux não autorizam montagem sobre aquecedor, passagem, móveis, varal ou área molhada.', '']
+    return '\n'.join(lines)+'\n'
+
+
 def calculate_reflections(g,ies,rows,grids):
     engines={};balances=[];total_grids={};lights=emitters(g)
     for case in calculation_cases(g):
-        kind='pessoa' if case['id'].endswith('_pessoa') else 'roupa' if '_roupa' in case['id'] else 'fechadas' if case['id'].endswith('portas_fechadas') else 'abertas'
+        kind=case['id'] if case['id'].endswith('_pessoa') else 'roupa' if '_roupa' in case['id'] else 'fechadas' if case['id'].endswith('portas_fechadas') else 'abertas'
         if kind not in engines:
             print('Radiosidade: geometria '+kind,flush=True)
             engines[kind]=Radiosity(scene_faces(g,case));engines[kind].transport()
@@ -901,6 +1092,10 @@ def generate_results(out,detail=None):
     report=premises().replace('Resultados espaciais, cenas/consumo e alternativas serão gerados nas próximas etapas deste mesmo arquivo.',result_text(g,rows,grids))
     report=report.replace('## Fontes','## Sensibilidade e reprodução\n\nDeslocamentos±0,25 m dos plafons, um eixo por vez, em [Sensibilidade_luz.csv](Sensibilidade_luz.csv); mantidos fluxos/curvas/obstáculos. Não são incertezas estatísticas nem uma otimização da posição. Células de0,25 m em geral e0,10 m nas tarefas, divididas nas bordas; média ponderada pela área. Mínimo amostrado pode cair numa malha mais fina.\n\nSHA R54: `'+g['sha']+'`. IES original: `'+ies['sha256']+'`. Regeneração não requer FreeCAD; lê a exportação com SHA e a curva numérica pequena. Dependência dos mapas: Pillow.\n\n## Fontes')
     report=report.replace('## Fontes',final_text(out,g,ies,rows)+'## Fontes')
+    options=comparable_options(g,ies,out)
+    first=report.index('## Ajustes mínimos condicionais e opções')
+    last=report.index('## Riscos e lacunas',first)
+    report=report[:first]+options_text(options)+task_layers(g,ies,out)+report[last:]
     inputs=['03_Ambientes/Iluminacao/Fotometria_fontes.json','03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md',
             '07_Imovel/Medidas_e_impactos.csv','06_Entregas/Caderno_pranchas/Geometria.json','06_Entregas/Planta_cotada/Cotas.json',
             'ferramentas/estudos/estudo_fotometrico.py','09_Referencias/Moodboard.json',
@@ -910,6 +1105,9 @@ def generate_results(out,detail=None):
     report=report.replace('## Fontes','[Rastreio das entradas por SHA](Rastreio_fotometrico.json): inclui curva, código, lista comercial, geometria, coordenadas e manifesto das imagens; textos normalizados paraLF, CAD/IES originais por bytes.\n\n## Fontes')
     (out/'Estudo_fotometrico.md').write_text(report,encoding='utf-8')
     update_summary(out,rows)
+    if (out/'README.md').exists():
+        with (out/'README.md').open('a',encoding='utf-8') as f:
+            f.write('\nComparação H14/H15: [lúmens necessários](Fluxo_necessario_luz.csv) e [camadas local/geral/espelho](Camadas_tarefa_luz.csv). Sala e escritório têm metas300/500 lx em paralelo. Opções usam preços existentes, só materiais parciais; nenhuma compra inferida. Verticais e horizontais do espelho preservam1,10 m; segundo plafon é apenas opção.\n')
     if detail:
         detail.mkdir(parents=True,exist_ok=True)
         write_csv(detail/'Grade_completa.csv',(dict(caso=k,x_m=c['point'][0],y_m=c['point'][1],z_m=c['point'][2],area_m2=c['area'],lx=v) for k,(cs,vs) in grids.items() for c,v in zip(cs,vs)))
