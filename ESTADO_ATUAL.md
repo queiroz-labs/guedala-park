@@ -62,7 +62,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** ducha à esquerda do vaso, entre box e vaso; papeleira à direita (Elias, 28/10/2026). Gabinete com portas de correr e frente removível; parede verde no box; luz de teto/indireta 3000 K e espelho 4000 K, três comandos ([L02: composição histórica](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); chapas Arauco Beige Matt e Louro Freijó Poro.
+- **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, posição a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde no box; teto/indireta 3000 K, espelho 4000 K, três comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 
 Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_decisoes.md) e [Painel de decisões](01_Programa_e_decisoes/Painel_de_decisoes.md).

@@ -4,6 +4,8 @@
 
 Estado atual da lavanderia. Nada aqui libera fabricação, compra ou instalação. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git.
 
+**Imagem corrigida de 29/10/2026:** fogão/cooktop e forno logo após a máquina, conforme [referência e fonte](../../09_Referencias/README.md). A imagem não altera cotas nem dispensa o painel isolante e as conferências de instalação.
+
 ## Aparelhos
 
 | Item | Escolha | Situação |

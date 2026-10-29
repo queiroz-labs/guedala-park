@@ -2,7 +2,7 @@
 
 **Pé-direito do banheiro: 2,50 m = 250 cm = 2500 mm, medida a confirmar (Elias, 27/10/2026).** Demais cômodos: 2,60 m. [Fonte e limites](../../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
-Estado atual do banheiro. Nada aqui libera compra ou execução. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [imagem do banheiro](../../09_Referencias/Banheiro_referencia_aprovada_2026-09-18.png).
+Estado atual do banheiro; compra/execução pendentes. Histórico no [Registro](../../01_Programa_e_decisoes/Registro_de_decisoes.md). [Imagem atual](../../09_Referencias/Banheiro_dia.png): gabinete 60 cm, papeleira à esquerda dele, posição a confirmar (Elias, 29/10/2026: “Aprovo a segunda”).
 
 ## Situação atual, revisão comercial 27/10
 
