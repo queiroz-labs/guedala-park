@@ -97,7 +97,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 ## Próximos passos
 
 1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
-2. **No dia das chaves:** [roteiro](07_Imovel/Roteiro_dia_das_chaves_R01.md), com vistoria da Cury e medição.
+2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.

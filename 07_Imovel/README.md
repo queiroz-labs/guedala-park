@@ -4,7 +4,7 @@
 
 ## Levantamento e impactos — T08, 26/10/2026
 
-[Roteiro do dia das chaves](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
+[Checklist de vistoria](Checklist_vistoria_dia_das_chaves.md) · [Folha de medidas](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
 
 São **532 registros** no índice atual de levantamento, incluindo verificações e coordenadas PR da geração A3 R02. Não representam medições feitas: incluem preparação, vistoria, documentos, referências e coordenadas nominais. **Nenhum valor de campo preenchido.**
 
