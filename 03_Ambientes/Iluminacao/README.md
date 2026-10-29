@@ -58,51 +58,8 @@ Coerência documental 26/10: READMEs do quarto/lavanderia alinhados à proposta 
 
 Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmotes; E06 adiada. Mesmo valor do orçamento e Roteiro; 87% é maturidade global documental, não comprovação técnica da iluminação.
 
-## Frente 7 - dados para iluminância (28/10/2026)
+## Fotometria — premissas de 29/10/2026
 
-**Resultado: nenhum ambiente tem, nesta conferência, dados suficientes para calcular iluminância média, mínima e uniformidade da seleção vigente na R54.** Isso significa resultado indeterminado, não insuficiência de luz demonstrada. Não foi feita nova simulação nem alterado produto, ponto, CAD ou orçamento. Preservada a regra acima de não repetir estudos nominais condicionados.
+[Estudo fotométrico](Estudo_fotometrico.md) e [níveis-alvo](Premissas_luz.csv), gerados por script: metas por tarefa, refletâncias de ensaio, dados técnicos e evidências do vídeo espelhado. Diagnóstico de 28/10 parcialmente superado: IES EVO recuperado, Firefly 9608/9605 com 2000 lm e EVY 2054 com 270 lm/30°. Curvas dos conjuntos, posições finais e verificação instalada continuam pendentes. A etapa seguinte calcula cenários, sem transformar hipóteses em fotometria de produto.
 
-A [planta oficial](../../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), página única, foi renderizada e conferida: traz cotas horizontais e indicação de forro no banheiro, mas não locação das luminárias selecionadas ou alturas de seus emissores. Cotas de projeto não são levantamento presencial. A base vigente indicada no ESTADO é 2,60 m, com banheiro 2,50 m, a confirmar; as alturas 2,57 m e 2,47 m dos ensaios antigos não foram transportadas para este diagnóstico. Teto menos plano de 0,75 m resulta em 1,85 m (banheiro 1,75 m): referência geométrica, não distância emissor-plano.
-
-### Evidência disponível e lacuna por conjunto
-
-Os fluxos abaixo são dados documentais, não lux calculados. Salvo o recurso Stella consultado novamente nesta frente, os valores têm a qualificação e as fontes da [lista curta](Lista_curta_luminarias_e_madeira.md) e do [fechamento CB02](Fechamento_custo_beneficio/Revisao_quarto_CB02.md).
-
-| Ambiente / conjunto vigente | Dado disponível | O que impede o cálculo atual |
-|---|---|---|
-| Cozinha, EVO STH21967/30 | Ficha registrada: 2300 lm/30 W; fabricante oferece IES /30 | O [estudo histórico](Cozinha_e_lavanderia.md) identifica IES de 2021 com 2329 lm/35,65 W. Conciliar revisão com produto cotado; faltam implantação vigente e obstáculos da R54. Não substituir a curva por fluxo normalizado sem justificar equivalência. |
-| Bancada, Cristallux COB3000K + perfil | CLX-FT431230: 1200 lm/m nominais, IRC>90 | Curva e perdas do conjunto fita/perfil/difusor, comprimento emissor por trecho, altura, recuo e orientação. Fluxo da fita nua não é fluxo útil após difusor. |
-| Lavanderia, Firefly 9608 quadrado/3000K | Variante e potência de 25 W registradas | Fluxo e curva da variante exata, centro/altura atuais e cenário de oclusão por varal carregado. Não usar 9607/6500K nem o antigo Decorlux. |
-| Quarto, Elgin 48D18WSRWIFI | 18 W; 1440 lm anunciados na referência comercial | Ficha/curva do SKU, fluxo por ajuste de branco/intensidade, posição e plano emissor. Potência não converte diretamente em lux. |
-| Quarto, duas EVY 2054 | Duas arandelas de leitura 3 W/3000K | Fluxo, distribuição, posição/orientação do foco e área real da tarefa; não presumir distribuição isotrópica. |
-| Quarto/cabeceira e sala/TV, COB3000K | Mesma família Cristallux, fluxo por metro registrado | Comprimentos úteis, perfil/difusor, posição, orientação, superfícies atingidas e suas refletâncias; indireta exige cálculo de reflexões. |
-| Sala e escritório, Jurerê + duas WiZ por plafon | Ficha WiZ identificada: 800 lm; anúncio de 806 lm sem SKU conciliado | SKU/fluxo por cena, curva do conjunto com vidro fosco e transmissão do plafon; centros/alturas atuais. Somar lúmens das lâmpadas não resolve perdas e uniformidade. |
-| Jantar, C82P3 âmbar + três G9 Brilia 314450 | Três lâmpadas 3,5 W/3000K na composição | Fluxo/curva e transmissão do conjunto âmbar; posições dos emissores e relação com Berlin aberta/fechada. Cotas antigas das bases dos globos não são coordenadas dos emissores. |
-| Escritório, E05 WiZ Pro 929002681171 | Kit 2 m, 1600 lm nominais | Implantação independente ainda pendente, orientação/curva por cena e reflexões. E06 continua adiada e não entra no cálculo. |
-| Banheiro, Firefly 9605 redondo/3000K | Variante de 25 W registrada | Fluxo/curva da variante, locação e emissor sob teto de estudo a 2,50 m. Não transferir dados da 9608. |
-| Banheiro, espelho COB4000K | Família e temperatura da fita registradas | SKU/fluxo/curva exatos, perfil/difusor e geometria final das barras. Iluminação do rosto exige também plano vertical; malha horizontal a 0,75 m não o substitui. |
-| Banheiro, indireta Brilia 318939 | 4,8 W/m; referência comercial de 530 lm/m e facho 120° | Confirmar ficha da variante e distribuição com perfil; comprimentos/orientação/reflexões. Ângulo 120° sozinho não define a curva entre ângulos. |
-| Circulação | Área cotada na planta, sem conjunto dedicado definido nesta seleção | Depende das distribuições/posições das fontes vizinhas e oclusões. Não inventar uma luminária adicional. |
-
-### Critério de cálculo e comparação
-
-Quando houver dados suficientes: recortar malha de 0,25 m ao polígono útil de cada ambiente/tarefa, fixar origem e tratamento das bordas e calcular no plano horizontal a 0,75 m; circulação no piso. Registrar separadamente bancada real, mesa e plano vertical do rosto. Avaliar cena, manutenção e obstáculos. Para contribuição direta de fonte pontual válida, usar intensidade da curva na direção do ponto, cosseno de incidência e distância ao quadrado; fontes extensas próximas exigem representação compatível. Somar contribuições e reflexões sustentadas, calcular média ponderada por área, mínimo e U0 = mínimo/média. Declarar se o resultado é inicial ou mantido; não comparar um com requisito do outro.
-
-Refletâncias propostas para estudo: teto 0,70, paredes 0,50 e piso 0,20, hipóteses típicas não medidas nem usadas em cálculo nesta frente. Não substituem fotometria ou manutenção. UGR, luz natural e elétrica não calculados.
-
-A [ISO/CIE 8995-1:2025](https://www.iso.org/standard/76342.html) trata de iluminação de locais de trabalho interiores. A [CIE](https://www.cie.co.at/publications/light-and-lighting-lighting-work-places-part-1-indoor-0) informa que substitui a edição internacional de 2002; isso **não comprova atualização equivalente da ABNT NBR**. A edição brasileira aplicável e sua tabela de tarefas não foram obtidas nesta consulta. Não atribuir automaticamente 300 ou 500 lx a cada cômodo residencial. Escritório usado para trabalho pode ser analisado pela tarefa correspondente, explicitando o uso; cozinha doméstica não equivale automaticamente a cozinha profissional, nem espelho doméstico a estabelecimento de atendimento. Nenhum ambiente foi classificado como abaixo da norma, porque faltam tanto resultados sustentados quanto enquadramento/tabela normativa verificada.
-
-### Perguntas exatas que destravam (registradas, não enviadas)
-
-1. **Fabricantes/revendas, dentro das IL já abertas:** qual IES/LDT ou tabela de intensidades corresponde a cada SKU e cena? No EVO, o ensaio STH21967/30 de 2021 representa a revisão comercial 30 W atual? Para Jurerê, pendente e perfis, há fotometria do conjunto com o difusor/vidro escolhido, ou transmissão e distribuição documentadas?
-2. **Projeto/instalador, quando existir levantamento:** quais coordenadas, altura do plano emissor, orientação e comprimento luminoso de cada fonte vigente, com obstáculos e áreas de tarefa? Não pedir agora medidas reais que ainda não existem, nem refinar implantação condicionada para preencher a lacuna.
-3. **Responsável pelo estudo luminotécnico:** qual edição brasileira e item de tarefa sustentam cada comparação, quais áreas/planos representam a tarefa, cena e fator de manutenção? Para o rosto, qual altura/área vertical e critério declarado?
-
-Sem nova escolha comercial para Elias; completar dados nas consultas já previstas.
-
-### Rastreabilidade e limitações de acesso
-
-- [Stella: IES, Revit e fator de utilização STH21967/XX](https://conhecimento.stella.com.br/hc/pt-br/articles/11888873996311-PLAFON-DE-SOBREPOR-EVO-30W-STH21967-XX), consultado em 28/10/2026: lista explicitamente IES /30 e /40. [Anexo /30](https://conhecimento.stella.com.br/hc/pt-br/article_attachments/35841818392983). Leitor web sem suporte ao binário; download local falhou por resolução de host. Nenhum IES novo salvo.
-- Ensaio histórico: 253 lx no preparo e 235 lx na pia, luz direta. **Não são resultados R54**, iluminância mantida atual ou atendimento normativo.
-- A ferramenta Firecrawl falhou por argumento de integração `link_id` ausente; a consulta documental pública prosseguiu pelo leitor web. A página técnica Galaxy e a página de produto Stella tiveram timeout; isso não demonstra inexistência de documentos. Sem contatos externos.
-- Saída: este README, sem programa ou dados volumosos. Render temporário da planta removido; CAD e histórico preservados.
+Reproduzir: `python -B ferramentas/estudos/estudo_fotometrico.py`; teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. [Curva EVO e SHA do IES](Fotometria_fontes.json). Modelo não aberto; seleção, preços e site preservados.

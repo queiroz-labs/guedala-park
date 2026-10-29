@@ -1,0 +1,16 @@
+﻿ambiente;tarefa;plano_m;meta_lx;uniformidade;natureza;fonte
+sala;geral;0.75;150;0.4;conforto residencial adotado;N2 §5.3.65
+sala;mesa/leitura;0.75;500;0.7;meta residencial para leitura/jogos;"N2 §5.3.65; N1 analogia tarefa"
+cozinha;geral;0.75;150;0.4;conforto residencial adotado;N2 §5.3.65
+cozinha;preparo;0.85;500;0.7;meta residencial exigente;"N2 faixa local200–500; N1 analogia tarefa"
+cozinha;pia;0.85;300;0.7;meta residencial adotada;N2 §5.3.65
+lavanderia;geral;0.75;150;0.4;hipótese de conforto;"H1; N2 analogia"
+lavanderia;tanque;0.85;300;0.7;meta residencial adotada;"H1; N2 analogia tarefa"
+banho;geral;0.75;150;0.4;hipótese de conforto;"H1; N2 analogia"
+banho;rosto vertical;1.6;300;0.7;"meta residencial; faixa de teste150–500";"H1; não é piso normativo para maquiagem"
+quarto;geral;0.75;150;0.4;conforto residencial adotado;N2 §5.3.65
+quarto;leitura cama;0.45;300;0.7;meta residencial adotada;N2 §5.3.65
+escritorio;geral;0.75;150;0.4;conforto residencial adotado;"H1; N2 analogia"
+escritorio;mesa/monitores;0.75;500;0.7;referência normativa de tarefa laboral;"N1 tabela5/22 e§4.3.4; UGR≤19,Ra≥80"
+circulacao;piso;0;100;0.4;meta residencial adotada;"N2 §5.3.65; não iluminação de emergência"
+sala;TV;0.75;30;0;faixa de conforto10–50, sem fonte visível/reflexo;"H1; não requisito normativo"
