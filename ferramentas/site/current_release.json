@@ -693,7 +693,8 @@
               "decisoes-vigentes",
               "avancos-pendencias",
               "andamento20",
-              "orcamento-r44"
+              "orcamento-r44",
+              "cronograma"
             ]
           }
         ]
@@ -784,6 +785,16 @@
             "documents": [
               "corte-formatos"
             ]
+          },
+          {
+            "title": "Cálculos de apoio",
+            "documents": [
+              "quadro-cargas",
+              "clima",
+              "acabamentos-qtd",
+              "massas",
+              "auditoria-cotacao"
+            ]
           }
         ],
         "notes": [
@@ -828,6 +839,12 @@
               "banheiro-fechamento",
               "luz-banho",
               "torneiras"
+            ]
+          },
+          {
+            "title": "Água quente",
+            "documents": [
+              "agua-quente"
             ]
           }
         ]
@@ -974,6 +991,12 @@
             "title": "Composição para conferir",
             "documents": [
               "luz-selecao"
+            ]
+          },
+          {
+            "title": "Cálculos de luz",
+            "documents": [
+              "luz-estudo"
             ]
           }
         ]
@@ -1265,6 +1288,86 @@
         ],
         "status": "Em estudo",
         "summary": "Cenários nominais para cotação."
+      },
+      {
+        "id": "luz-estudo",
+        "title": "Estudo de luz: níveis, reflexão e opções",
+        "path": "03_Ambientes/Iluminacao/Estudo_fotometrico.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Lux por cômodo e tarefa, com e sem reflexão das paredes, consumo e opções numéricas."
+      },
+      {
+        "id": "agua-quente",
+        "title": "Água quente do banheiro: 13 opções",
+        "path": "03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md",
+        "rooms": [
+          "banho"
+        ],
+        "status": "Em estudo",
+        "summary": "Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha."
+      },
+      {
+        "id": "quadro-cargas",
+        "title": "Cargas elétricas e pontos mínimos",
+        "path": "03_Ambientes/Planta_pontos/Quadro_cargas.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Potências conhecidas e pontos mínimos por recinto, como referência para o responsável técnico."
+      },
+      {
+        "id": "clima",
+        "title": "Equipamentos e climatização",
+        "path": "03_Ambientes/Equipamentos/README.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Lista de aparelhos e cálculo parcial de calor e ar-condicionado."
+      },
+      {
+        "id": "acabamentos-qtd",
+        "title": "Pintura, piso e rodapé: quantidades",
+        "path": "03_Ambientes/Acabamentos/README.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Áreas por cômodo comparadas com o orçamento."
+      },
+      {
+        "id": "massas",
+        "title": "Massas dos móveis para manuseio",
+        "path": "04_Moveis/Quantitativos/README.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Peso estimado por móvel para transporte e montagem."
+      },
+      {
+        "id": "auditoria-cotacao",
+        "title": "Conferência das quantidades da cotação",
+        "path": "06_Entregas/Cotacao/README.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Atual",
+        "summary": "Recálculo independente das quantidades enviadas aos fornecedores."
+      },
+      {
+        "id": "cronograma",
+        "title": "Cronograma e marcos",
+        "path": "05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md",
+        "rooms": [
+          "all"
+        ],
+        "status": "Em estudo",
+        "summary": "Marcos de compra e obra; prazos sem fonte ficam como pendentes."
       }
     ]
   }
