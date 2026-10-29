@@ -1,6 +1,6 @@
 # Equipamentos
 
-Escolhas de eletrodomésticos, todos em **127 V** (decisão de 12/09). Orçamento atual: [Eletros e TV](../../05_Orcamento_e_cronograma/Orcamento/Eletros_e_TV/Analise_eletros.md), R$ 17.251,83 antes dos fretes (IB6S e CV5012PC4 Inox Look vigentes; TV Philips Ambilight candidata). O forno Fischer e o cooktop estão detalhados na [Cozinha](../Cozinha/README.md). O memorial informa tomadas "110V" e proíbe instalar ar-condicionado.
+Escolhas de eletrodomésticos, todos em **127 V** (decisão de 12/09). Orçamento atual: [Eletros e TV](../../05_Orcamento_e_cronograma/Orcamento/Eletros_e_TV/Analise_eletros.md), R$ 17.251,83 antes dos fretes (IB6S e CV5012PC4 Inox Look vigentes; TV Philips Ambilight candidata). O forno Fischer e o cooktop estão detalhados na [Cozinha](../Cozinha/README.md). O memorial informa tomadas "110V"; isso não confirma oferta de 220 V. Ar-condicionado: o memorial §5.9 restringe, mas a convenção art.58 prevê instalação condicionada; capacidade, local e viabilidade continuam pendentes. [Confronto documental](../../01_Programa_e_decisoes/Convencao_e_ata_impactos.md).
 
 Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-E211 FEH GN escolhido em F106, sem Wi-Fi adicional; instalação pendente. Os preços são históricos; as condições de instalação estão complementadas nos estudos da cozinha.
 
@@ -26,7 +26,7 @@ O CSV separa dimensões do produto, encaixe, alimentação, potência, corrente 
 
 Veja também [manuais dos equipamentos](../../09_Referencias/Plantas_e_manuais/README.md) e [medidas e folgas](../Cozinha/Medidas_e_folgas.md).
 
-Consultar estudos anteriores. Os estudos não liberam fabricação ou instalação.
+Consultar estudos anteriores. Estudos nominais; instalação condicionada.
 
 ## Tensões definidas — F102
 
@@ -55,3 +55,67 @@ B10/EQ32: Brilia 318939 substituta proposta em 27/10, com oferta nacional e fabr
 D03/D04, Elias 27/10/2026: EQ43 registra Elgin 48D18WSRWIFI no quarto; EQ42 registra cabeceira/face inferior acessível. Citações no CSV e na lista de iluminação; dimensões/manuais e implantação permanecem condicionados.
 
 D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para cotação". EQ51 permanece como função futura, fora da cotação atual.
+
+## Climatização — triagem nominal, 29/10/2026
+
+**Ainda não há base para escolher 9, 12 ou 18 mil BTU/h por cômodo.** Opções não adotadas. Carga total ausente, não zero; orçamento/CAD preservados.
+
+### Parcelas calculáveis e limites
+
+[Parcelas por ambiente/cenário](Climatizacao_parcelas.csv) e [opções e consumo](Climatizacao_opcoes.csv). Áreas: união dos retângulos exportados R54; não medidas reais nem área externa da envoltória.
+
+| Ambiente | Área modelada m² | Volume a 2,60 m, m³ | Luz nominal W | Pessoas + luz, faixa parcial W (BTU/h) |
+|---|---:|---:|---:|---|
+| Quarto | 8,3825 | 21,7945 | 55,5 | 130,88–406,50 (446,6–1387,0) |
+| Sala | 9,6715 | 25,1459 | 44,6 | 128,15–395,60 (437,3–1349,8) |
+| Escritório | 6,7850 | 17,6410 | 37,6 | 126,40–388,60 (431,3–1326,0) |
+
+**Faixas parciais, não cargas de refrigeração ou limites superiores.** Faltam equipamentos, envoltória, sol e infiltração. Sala aberta para cozinha não é zona isolada: cocção, geladeira e transferências de ar faltam. Cozinha/lavanderia não recebem aparelho proposto; contribuição às zonas vizinhas pendente.
+
+Hipóteses explícitas:
+
+- **H01:** altura 2,60 m, medida a confirmar; banheiro 2,50 m separado e fora deste cálculo. Área nominal da exportação, não janela nem fachada.
+- **H02:** três testes de presença, 1/2/3 pessoas, sem afirmar ocupação real; 72 W sensíveis +45 W latentes por pessoa sentada em atividade muito leve a aproximadamente23,9°C, ASHRAE2021 cap.18 tabela1. Quarto: teste acordado, não sono. Não somar os cenários como ocupação simultânea.
+- **H03:** luz em25/50/100% da entrada nominal registrada em [Correntes_luz.csv](../Iluminacao/Correntes_luz.csv), incluindo fontes; dissipação interna integral. Fração é hipótese de uso, não medição.
+- **H04:** aparelhos funcionando2/4/8h/dia por30dias na potência nominal constante. Não prevê fatura/ciclo inverter. Mínimo de catálogo é referência constante; mínimo–nominal não limita a operação nem inclui potência máxima.
+- **H05:** São Paulo/SP, conforme [registro local da cidade](../../01_Programa_e_decisoes/Rascunhos_emails.md). Congonhas é aproximação meteorológica da cidade, não sensor do apartamento. Não se adotou Palmas.
+
+Método e limite técnico: [ASHRAE2021 cap.17, tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch17/F21_Ch17_si.aspx) restringe o método residencial simplificado RLF por construção, vidro e ganhos; não há comprovação de que a unidade atende suas condições. [Cap.18, §§1–2 e tabela1](https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch18/F21_Ch18_si.aspx) distingue ganho instantâneo de carga e apresenta balanço térmico/RTS. Parcelas independentes: Qsens=72N+Pluz×fração; Qlat=45N; BTU/h=W×3,412141633. **Não foi implementado um cálculo completo NBR16401-1, CLTD/CLF ou HB/RTS.** Faltam os dados abaixo; aplicar coeficientes genéricos por m² esconderia essas lacunas.
+
+| Entrada essencial | Evidência disponível e pergunta exata |
+|---|---|
+| Orientação e sombreamento | Qual é o norte/azimute das janelas do final06 e quais obstruções permanentes existem? Não inferir da planta espelhada de outra unidade. |
+| Janela/vidro | Qual a largura×altura efetiva de cada vão, composição do vidro, fator solar e transmitância? Os2,45m da sala são largura interna, não largura da janela. |
+| Cortinas/película | Sala C2Areia+blackout; escritório cortina clara/blackout conforme READMEs vigentes. Qual o código e desempenho solar do conjunto? Não presumir película nem SHGC pelo nome/cor. |
+| Paredes/laje | Qual composição, espessura, exposição externa e condição dos ambientes vizinhos? Forro não é isolamento térmico automaticamente. |
+| Uso interno | Quantas pessoas e quais horários por cômodo; qual temperatura desejada? CPU/GPU e consumo de uso do CH360/notebook/AOC24 ainda ausentes. PS5 é uma unidade móvel, sem duplicar sala/escritório. |
+| Equipamentos29/10 | Philips50PUG8100/78+TAB4000; ASUS27+AOC24 e Samsung existente no escritório. Áudio RMS não é entrada elétrica e potência da fonte não é consumo térmico medido; etiquetas/manuais e simultaneidade necessários. |
+| Infiltração | Qual vedação/ventilação e regime de portas/janelas previsto? Sem ACH/vazão demonstrada, parcelas sensível e latente não calculadas. |
+
+### Opções comparáveis, sem seleção
+
+| Opção de catálogo | Capacidade nominal BTU/h | Entrada nominal/mínima W | Tensão | P/V nominal equivalente A | kWh/mês nominal a2/4/8h |
+|---|---:|---:|---:|---:|---|
+| LG S3-Q09AA31C (alternativa) | 9000 | 780/150 | 220 V | 3,545 | 46,8 /93,6 /187,2 |
+| LG S3-Q12JA33K (alternativa) | 12000 | 1130/200 | 220 V | 5,136 | 67,8 /135,6 /271,2 |
+| LG S3-W18KL31C (alternativa) | 18000 | 1600/210 | 220 V | 7,273 | 96 /192 /384 |
+| Ventisol Mistral DC controle (alternativa) | sem refrigeração ativa | 30/mínimo ausente | bivolt127–220 V | 0,236 em127 V | 1,8 /3,6 /7,2 |
+| Sem aparelho adicional | sem refrigeração ativa | 0 | — | 0 | 0 /0 /0 |
+
+Fontes primárias consultadas29/10/2026: LG [9mil](https://www.lg.com/br/ar-condicionado-residencial/s3-q09aa31c/), [12mil](https://www.lg.com/br/ar-condicionado-residencial/dual-inverter-split/s3-q12ja33k/), [18mil](https://www.lg.com/br/ar-condicionado-residencial/s3-w18kl31c/); [manual Ventisol Mistral, p.1–2, hospedado pelo distribuidor](https://www.leverosintegra.com.br/download/manuais/Ventisol/manual-ventilador-ventisol-de-teto-mistral-bivolt.pdf). O18mil é quente/frio; valores da tabela referem-se apenas a resfriamento.
+
+**P/V não é corrente dimensionante**: FP e corrente máxima dos splits ausentes. O manual do Mistral informa0,24A em127V e0,14A em220V;30W é do motor, lâmpadas excluídas. Não se converte aparelho220V em127V por conta aritmética. Ventilador movimenta ar e acrescenta calor; não remove calor/umidade. Altura, pás, armários e luzes dependem de compatibilização com o manual. Sem equipamento não há consumo adicional, mas também não há garantia de conforto. Preço não acrescentado: não foi localizada cotação vigente desses itens no orçamento.
+
+### Infraestrutura antes de qualquer escolha
+
+[Confronto convenção/memorial](../../01_Programa_e_decisoes/Convencao_e_ata_impactos.md): memorialp.18§5.9 não prevê capacidade e restringe AC; convençãop.34art.58 prevê possibilidade condicionada à avaliação de capacidade pela concessionária, assistência de engenheiro e local predeterminado sem visibilidade exterior. Viabilidade da unidade e conflito documental pendentes. O [plano de reforma](../../01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md) mantém AC fora do escopo atual, com consulta separada.
+
+Perguntas ao responsável técnico/condomínio: **há capacidade e alimentação220V disponíveis para esta unidade? Qual local autorizado para condensadora? Qual rota permitida de tubulação e destino/queda do dreno?** Memorialp.19itemh menciona tomadas110V; escolha127V do projeto não comprova220V. Pontos/rebaixos atuais são de outras funções e não constituem reserva para AC; não usar sanca de água quente como rota de refrigerante por suposição. Sem rasgos em estrutura ou passagem pela fachada definidos neste estudo.
+
+### Ano típico horário e reprodução
+
+Fonte [Climate.OneBuilding — SãoPaulo/Congonhas837800, TMYx2011–2025](https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip), dados publicados pelos criadores do formatoEPW. Série real de8760horas convertida para CSV leve fora do Git em `../outputs/Climatizacao/Clima_horario.csv` (regra4b). Ano típico composto, não previsão2027 ou temperatura interior. [Resumo e hashes](Climatizacao_clima_resumo.json):7,4–36,0°C, média20,46°C;1666h acima24°C. Não determina uso ou carga. Não há série horária de carga térmica, pois faltam envoltória/uso/zonas.
+
+ZIP SHA256 `78ff773c63739fa7034468c2b43dbcf60d5671110d9833b106ef168850b7fd99`; EPW SHA256 `e3fc5a807387948e1b69145df8677c2a51bbc2556b00ab98ca6da69ecb4208b5`; CSV SHA256 `eb6cac2d148dcb51380a81ff6bb2768e0ce40c1b084cb1b466f9c9467675e733`. Bruto também fora do Git. Download e hashes verificados.
+
+Reproduzir da raiz, após baixar oEPW da fonte acima para área externa: `python -B ferramentas/estudos/climatizacao.py --epw ../outputs/Climatizacao/Congonhas_TMYx.epw --clima-csv ../outputs/Climatizacao/Clima_horario.csv`. Testes: `python -B -m unittest discover -s ferramentas/estudos -p test_climatizacao.py`. Script confere estação,8760registros e valores ausentes; usa exportação de geometria existente, sem abrir CAD.

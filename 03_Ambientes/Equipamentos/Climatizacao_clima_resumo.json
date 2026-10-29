@@ -1,0 +1,12 @@
+{
+  "estacao": "Sao.Paulo-Congonhas.AP",
+  "periodo": "TMYx 2011-2025",
+  "horas": 8760,
+  "epw_sha256": "e3fc5a807387948e1b69145df8677c2a51bbc2556b00ab98ca6da69ecb4208b5",
+  "csv_sha256": "eb6cac2d148dcb51380a81ff6bb2768e0ce40c1b084cb1b466f9c9467675e733",
+  "min_C": 7.4,
+  "max_C": 36.0,
+  "media_C": 20.46,
+  "horas_acima_24_C": 1666,
+  "limite": "clima de estação, não temperatura interior nem carga horária"
+}

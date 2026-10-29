@@ -4,7 +4,7 @@ Versões vigentes; detalhes nos READMEs. Atualizado em 29/10/2026; limite 14 KB.
 
 ## O projeto
 
-Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,18 m², dois dormitórios). **O apartamento ainda não foi entregue**: todas as medidas vêm da planta oficial e precisam ser conferidas no local.
+Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,18 m², dois dormitórios). **Não entregue**; cotas de projeto a conferir no local.
 
 - **Objetivo:** mudar com tudo pronto, com dois meses de obra depois das chaves e mudança no terceiro mês.
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
@@ -31,6 +31,8 @@ Interiores e marcenaria de um apartamento Cury Guedala Park III (Torre 2, final 
 | Site e pacote para o montador | R54/R29; 4 abas por cômodo, selo único, Dia/Noite em Cômodos (29/10, local); publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
+
+**Clima:** [parcelas e opções](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; carga total e infraestrutura pendentes.
 
 ## Onde estamos
 
