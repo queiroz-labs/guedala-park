@@ -95,12 +95,10 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- Regras de organização e leitura econômica: [AGENTS.md](AGENTS.md). Mapa das pastas: [README.md](README.md). Leia esta página e depois só o README da área; **não leia inteiro** o Registro de decisões (475 KB).
-- Comece com `git status`; outras sessões editam a pasta. Commits pequenos, um assunto cada.
-- Verificadores ([ferramentas/README.md](ferramentas/README.md)): `python ferramentas/verificar_tudo.py` antes de commitar; `python ferramentas/verificar_modelo/verificar_modelo.py --completo` depois de qualquer trabalho no FreeCAD. Antes de push, clone limpo com `--ci`.
-- Não rode macros antigas que salvam ou fecham documentos; não sobrescreva o modelo vigente para consultar. Portas e movimentos: [cinemática fora do CAD](04_Moveis/Proximas_decisoes/Cinematica/README.md).
-- Estudo que depende de medida real (chaves) já marcado como condicionado não ganha refinamento novo; registre a dúvida e siga outra frente.
-- Versões antigas (R45 a R51, compatibilizações) estão no git, na tag `antes-reorganizacao`.
+- Siga [AGENTS.md](AGENTS.md); comece com `git status`. Leia só o README da área; busque no Registro de decisões, sem lê-lo inteiro. [Mapa](README.md).
+- [Verificadores](ferramentas/README.md): geral antes de cada commit; completo após abrir CAD; clone limpo com `--ci` antes de push. Commits pequenos por assunto.
+- Não rode macros antigas que salvam/fecham documentos nem sobrescreva o modelo em consultas. Em itens condicionados a campo/oficina, registre a dúvida e siga.
+- R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.
 
@@ -109,3 +107,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.
 
 **Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; conclusões históricas separadas.
+
+**Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos amostrados, 277 intervalos; oito choques adicionais com portas P01 fechadas. Sem garantia contínua ou folga real integral.

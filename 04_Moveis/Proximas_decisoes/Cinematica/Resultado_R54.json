@@ -1,0 +1,49 @@
+{
+  "source_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+  "controls": 33,
+  "bodies": 614,
+  "moving_bodies": 273,
+  "pairs": 130221,
+  "candidates": 852,
+  "unsupported": {
+    "FaixaFixaEstudo": "invalid syntax (<unknown>, line 1)"
+  },
+  "native_validation_complete": true,
+  "native_poses": 99,
+  "native_matrices": 819,
+  "native_maximum_matrix_error": 9.094947017729282e-13,
+  "brep_pairs": 540,
+  "internal_hinge_pairs_excluded": 312,
+  "initial_positive_pairs": 52,
+  "new_positive_pairs": 8,
+  "positive_during_motion": 28,
+  "brep_candidate_states_checked": 28412,
+  "source_unchanged": true,
+  "minimum_sampled_distances": {
+    "source_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+    "source_unchanged": true,
+    "pairs": 129909,
+    "pairs_with_exact_minimum": 1528,
+    "near_pair_threshold_mm": 25.0,
+    "pairs_with_interval": 277,
+    "native_call_timeouts": 0,
+    "exact_distance_calls": 59368,
+    "zero_distance_pairs": 252,
+    "internal_hinge_pairs_excluded": 312,
+    "tolerance_mm": 1e-07,
+    "parallel_parts": 4,
+    "table_sha256": "2769c5242083229ad099ac48a3ff3ddbe48aab2eaafaa1def613211e738fea92",
+    "limit": "Minimos certificados ou intervalos nos pares proximos; demais conservam limite inferior. Busca limitada a 32 avaliacoes/2 s entre chamadas; chamada nativa interrompida por supervisor apos 60 s fica pendente. Amostras 1 grau/10 mm, sem continuidade."
+  },
+  "external_sha256": {
+    "Snapshot.json": "00993ee81638f4a46b87d960764267c0d143bdf1c53d7176402122c37f6d0b66",
+    "Pares_articulacoes.csv": "6cd1848ed8fbff69a1ea70b80fac5e9d88a5ac6996432fe8f2bef7d95e5aecbc",
+    "Candidatos_articulados.json": "23e4e4fdbb0012f38297af8e6f08e4df8a20ec7232a88a85a3ba5d945d1d8cba",
+    "Validacao_poses.json": "4fdf999df07fe30aea89990b4a79b7eff151683645662116faf34166b6d9f3fe",
+    "Validacao_nativa_articulacoes.json": "606f6bc4e0a739ceba550b594e29db998818037746211a39c1592e78a126565d",
+    "BREP_articulacoes.json": "4d7fe1e8551be3de004844cfca6862ce739f9af100e582476f781cb04ad7e8dd",
+    "Retrato_nativo_R54.json": "3ac8b209e0df8ff9d53671bb566000fdb0273b4340080fa7430faadbcef3f658",
+    "Folgas_BREP.csv": "2769c5242083229ad099ac48a3ff3ddbe48aab2eaafaa1def613211e738fea92",
+    "Folgas_resumo.json": "9628e5154eb5045194ed60904712242908da4852285f3f17d99a5a5e0ed480ec"
+  }
+}
