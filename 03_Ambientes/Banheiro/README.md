@@ -44,7 +44,7 @@ T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manu
 | Chuveiro | **Addra Livo Black Matte**, de parede, com desviador e duchinha de mão; BRS2003-BK / SKU 2193038; espalhador redondo 13,2 cm registrado anteriormente | Vazão/pressão e compatibilidade da instalação; modelo já escolhido em 09/09, não reabrir pesquisa sem pedido |
 | Registros do banho | Direção estética aceita: **preto fosco e linhas simples**, combinando com Livo; aproveitar bases existentes quando compatíveis | Identificar bases. Acabamento monocomando Livo para base Docol foi apenas candidato, não escolhido |
 | Ducha higiênica | **Preta, quente e fria, à esquerda do vaso, entre o box e o vaso** (Elias, 28/10/2026: "Do lado esquerdo do vaso, entre o box e o vaso") | Modelo, misturador, alcance, orçamento e baixa vazão |
-| Acessórios | **Preto fosco**: papeleira simples **sozinha, à direita do vaso**; toalheiro de rosto e ganchos | Modelos e quantidades |
+| Acessórios | **Preto fosco**: papeleira simples **sozinha, à direita do vaso**; toalheiro de rosto e ganchos | Modelos e quantidades. Papeleira no lado esquerdo do gabinete: posição da imagem de 29/10, a confirmar (vão vaso–gabinete ~15 cm) |
 
 As aprovações acima são escolhas de projeto. Não registram compras, fabricação liberada ou medidas finais de instalação. Detalhes incidentais de imagens não se tornam aprovados automaticamente.
 

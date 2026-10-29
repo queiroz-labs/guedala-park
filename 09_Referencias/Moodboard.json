@@ -32,13 +32,13 @@
     },
     {
       "arquivo": "Lavanderia_dia.png",
-      "sha256": "dbd2bcfe4dfceab2a42ab1345ad89a0f0b313eb80d65de629b0595739de664dc",
+      "sha256": "45eadb65f994178f7cc2c097703da179765a82b4346175ba465141513345549e",
       "largura": 1536,
       "altura": 1024
     },
     {
       "arquivo": "Lavanderia_noite.png",
-      "sha256": "8cecd562ce27091c5a6176209f772179e1195203eb7f824fa48c3ea438b1d898",
+      "sha256": "8dcfbd71c47545985dc04447f2344733616898d7e5df400c6c6b275ece1bef0f",
       "largura": 1536,
       "altura": 1024
     },
@@ -68,13 +68,13 @@
     },
     {
       "arquivo": "Banheiro_dia.png",
-      "sha256": "4112383465c70f06dad00e0112ccace8afa595880472d16dfc3af19fb44b939a",
+      "sha256": "7b896b24e4f05b2d534f5a995d416fa949f29108d1dd716469a4ed9403353c76",
       "largura": 1536,
       "altura": 1024
     },
     {
       "arquivo": "Banheiro_noite.png",
-      "sha256": "86151d595400aa1620477ce7555036aa4166d7435ff34319636e80a8544486fb",
+      "sha256": "6ac0de079eece1a651db8e292c34e5ecb7d8e6a6fa1fb18bc548ce520c7c5903",
       "largura": 1536,
       "altura": 1024
     }

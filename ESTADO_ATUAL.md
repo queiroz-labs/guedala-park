@@ -102,7 +102,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.
 
-**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Elias, nesta conversa: “Aprovado, pode commitar e dar push.”
+**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.
 
