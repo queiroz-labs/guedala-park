@@ -22,6 +22,7 @@ Estado atual da sala e do jantar. Nada aqui libera fabricação ou compra. Hist�
 
 - Painel sob medida off-white fosco liso, sem ripado, com duas prateleiras Arenza (110 cm; profundidades 35/25; vão 22). PS5 deitado embaixo, soundbar em cima, régua oculta numa lateral acessível. [Painel sob medida](Painel_sob_medida.md).
 - **TV escolhida: Philips 50PUG8100/78 Ambilight** (Elias, 29/10/2026: “sim fechar phillips ambilight”). Aplicativos na própria TV; eARC na HDMI 1, óptica e Bluetooth. Stremio Lite abre links do Real-Debrid, não torrent direto: testar a conta no prazo de troca. Referência R$ 2.188,98 (Amazon, 29/10). TCL 50P7K fica só como reserva se o teste falhar. [Painel e TV](Painel_e_TV.md).
+- **Soundbar escolhida: Philips TAB4000** (Elias, 29/10/2026: “Philips TAB4000”). 76 × 6,5 × 10,5 cm, 2.0, 30 W RMS; HDMI ARC na HDMI 1 da TV, Bluetooth, USB, sem óptica. Centrada na reserva de 90 cm, em suporte próprio sob a TV. Referência R$ 330 a 360 (29/10); ainda fora do orçamento R44. Comparação: Sony HT-S100F (90 cm, ~R$ 1.000 a 1.200, som melhor) ficou como alternativa.
 
 ## Sofá, tapete e decoração
 

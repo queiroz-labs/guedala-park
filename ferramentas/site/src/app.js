@@ -80,7 +80,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('power','sala',497,192,15,20,35,12,'wood');
   // Screen luminous dark face along x, Ambilight is only a muted visual cue.
   add('tv50','sala',504,189.45,8.8,111.1,77,64.9,'black','screenX');
-  add('soundbar','sala',505,200,10.5,90,60,7,'black','round',{r:3});
+  add('soundbar','sala',505,207,10.5,76,60,6.5,'black','round',{r:3}); // Philips TAB4000, centrada na reserva de 90
   add('decor','sala',505,193,7,5,60,12,'sage','vase');
   // Jantar: Berlin 110/170 x 80; native surfaces remain dimensional references.
   add('bench','sala',685,375,55,180,0,40,'wood');slab('bench','sala',685,375,45,180,40,7,'head',3);slab('bench','sala',730,375,10,180,40,50,'head',3);

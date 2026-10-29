@@ -18,7 +18,7 @@ Medidas em centímetros, relativas ao piso acabado.
 | Prateleira superior | 107 L × 25 P; topo a 165 | Espessura aparente de 3 como referência, fixação a dimensionar |
 | Prateleira inferior | 107 L × 35 P; topo a 35 | Para PS5 deitado/decoração; cantos frontais suavizados |
 | TV de referência | 111,1 L × 64,9 A; base a 77 e topo a 141,9 | Centro a 109,45; modelo e ergonomia a confirmar |
-| Soundbar futura | Reserva gráfica 90 L × 7 A; base a 60 | Proposta de suporte próprio sob a TV, não apoiada na prateleira superior |
+| Soundbar Philips TAB4000 (29/10) | 76 L × 6,5 A × 10,5 P, centrada na reserva de 90; base a 60 | Proposta de suporte próprio sob a TV, não apoiada na prateleira superior |
 | Luz indireta | Trecho de referência de 90, sobre a prateleira superior | Fonte escondida da visão, coerente com o estudo de iluminação |
 
 Alturas de TV/soundbar e prateleiras aproveitam os envelopes do estudo anterior. Ajustar após ensaio de visão sentado/reclinado e definição de aparelhos; nenhuma nova altura foi aprovada pelo usuário nesta rodada. Não alinhar automaticamente o topo do painel a espelho/quadro: o painel é um conjunto menor, condicionado ao trecho estreito.

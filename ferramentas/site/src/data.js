@@ -425,14 +425,14 @@ const ITEMS=[
   {
     "id": "soundbar",
     "room": "sala",
-    "name": "Soundbar futura",
+    "name": "Soundbar Philips TAB4000",
     "kind": "soundbar",
-    "dimensions": "90 × 10,5 × 7 cm · gabarito",
-    "choice": "Futuro",
-    "measure": "Hipótese",
+    "dimensions": "76 × 6,5 × 10,5 cm · reserva de 90 sob a TV",
+    "choice": "Escolhido",
+    "measure": "Conferir o código /78 e o suporte de parede",
     "material": "black",
-    "source": "F137 / F149",
-    "notes": "Compra adiada. Dimensões ilustrativas. Conferir portas, alto-falantes superiores e espaço abaixo da TV."
+    "source": "Elias, 29/10/2026: “Philips TAB4000”",
+    "notes": "Barra 2.0, 30 W RMS, ligada à TV pela HDMI 1 (eARC) com um cabo; o controle da TV comanda o volume. Bluetooth e USB; sem entrada óptica. Suporte próprio sob a TV, saídas de som livres. Referência R$ 330 a 360 (Amazon e Simonetti, 29/10/2026); fora do orçamento R44, a incluir."
   },
   {
     "id": "ps5",

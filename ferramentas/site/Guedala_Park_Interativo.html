@@ -534,14 +534,14 @@ const ITEMS=[
   {
     "id": "soundbar",
     "room": "sala",
-    "name": "Soundbar futura",
+    "name": "Soundbar Philips TAB4000",
     "kind": "soundbar",
-    "dimensions": "90 × 10,5 × 7 cm · gabarito",
-    "choice": "Futuro",
-    "measure": "Hipótese",
+    "dimensions": "76 × 6,5 × 10,5 cm · reserva de 90 sob a TV",
+    "choice": "Escolhido",
+    "measure": "Conferir o código /78 e o suporte de parede",
     "material": "black",
-    "source": "F137 / F149",
-    "notes": "Compra adiada. Dimensões ilustrativas. Conferir portas, alto-falantes superiores e espaço abaixo da TV."
+    "source": "Elias, 29/10/2026: “Philips TAB4000”",
+    "notes": "Barra 2.0, 30 W RMS, ligada à TV pela HDMI 1 (eARC) com um cabo; o controle da TV comanda o volume. Bluetooth e USB; sem entrada óptica. Suporte próprio sob a TV, saídas de som livres. Referência R$ 330 a 360 (Amazon e Simonetti, 29/10/2026); fora do orçamento R44, a incluir."
   },
   {
     "id": "ps5",
@@ -1579,7 +1579,7 @@ const ITEM_COPY={
  racks:['Prateleiras da TV','Uma prateleira acima e outra abaixo da TV. Falta definir as alturas, o peso suportado e a fixação.'],
  power:['Compartimento de tomadas e cabos','Espaço ao lado do videogame para a régua de tomadas e as fontes. Deve ter ventilação e acesso fácil.'],
  tv50:['TV Philips Ambilight de 50 polegadas','Escolhida em 29/10/2026. Aplicativos direto na TV. Logo após a compra, teste o Stremio com a sua conta dentro do prazo de troca.'],
- soundbar:['Caixa de som para a TV · compra futura','Compra para depois. Confira o espaço abaixo da TV e as saídas de som antes de escolher.'],
+ soundbar:['Caixa de som Philips TAB4000','Escolhida em 29/10/2026. Liga na TV por um cabo HDMI, e o controle da TV comanda o volume. Fica sob a TV, com as saídas de som livres.'],
  ps5:['PS5 da sala e do escritório','Um único PS5 para usar nos dois ambientes. Confira os apoios, os cabos e o espaço de ventilação.'],
  table:['Mesa extensível Berlin','Mesa pronta que abre de 110 para 170 cm. Confira as cadeiras e a passagem perto do sofá. A cor do desenho é aproximada.'],
  bench:['Banco com baú','Banco com duas tampas e duas almofadas removíveis em suede areia escolhido. Retire as almofadas antes de abrir. Falta testar as dobradiças, as travas e o peso suportado.'],
@@ -2174,7 +2174,7 @@ function buildScene(){nodes=[];nodeSequence={};
   add('power','sala',497,192,15,20,35,12,'wood');
   // Screen luminous dark face along x, Ambilight is only a muted visual cue.
   add('tv50','sala',504,189.45,8.8,111.1,77,64.9,'black','screenX');
-  add('soundbar','sala',505,200,10.5,90,60,7,'black','round',{r:3});
+  add('soundbar','sala',505,207,10.5,76,60,6.5,'black','round',{r:3}); // Philips TAB4000, centrada na reserva de 90
   add('decor','sala',505,193,7,5,60,12,'sage','vase');
   // Jantar: Berlin 110/170 x 80; native surfaces remain dimensional references.
   add('bench','sala',685,375,55,180,0,40,'wood');slab('bench','sala',685,375,45,180,40,7,'head',3);slab('bench','sala',730,375,10,180,40,50,'head',3);

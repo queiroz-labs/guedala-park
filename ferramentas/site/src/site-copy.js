@@ -8,7 +8,7 @@ const ITEM_COPY={
  racks:['Prateleiras da TV','Uma prateleira acima e outra abaixo da TV. Falta definir as alturas, o peso suportado e a fixação.'],
  power:['Compartimento de tomadas e cabos','Espaço ao lado do videogame para a régua de tomadas e as fontes. Deve ter ventilação e acesso fácil.'],
  tv50:['TV Philips Ambilight de 50 polegadas','Escolhida em 29/10/2026. Aplicativos direto na TV. Logo após a compra, teste o Stremio com a sua conta dentro do prazo de troca.'],
- soundbar:['Caixa de som para a TV · compra futura','Compra para depois. Confira o espaço abaixo da TV e as saídas de som antes de escolher.'],
+ soundbar:['Caixa de som Philips TAB4000','Escolhida em 29/10/2026. Liga na TV por um cabo HDMI, e o controle da TV comanda o volume. Fica sob a TV, com as saídas de som livres.'],
  ps5:['PS5 da sala e do escritório','Um único PS5 para usar nos dois ambientes. Confira os apoios, os cabos e o espaço de ventilação.'],
  table:['Mesa extensível Berlin','Mesa pronta que abre de 110 para 170 cm. Confira as cadeiras e a passagem perto do sofá. A cor do desenho é aproximada.'],
  bench:['Banco com baú','Banco com duas tampas e duas almofadas removíveis em suede areia escolhido. Retire as almofadas antes de abrir. Falta testar as dobradiças, as travas e o peso suportado.'],
