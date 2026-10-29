@@ -65,7 +65,7 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 - TV Samsung 43″ existente, na parede oposta ao sofá.
 - Aéreo sobre o sofá com setor de ciclismo (capacete, sapatilha, ferramentas). Sem módulo baixo adicional.
 - Prateleira alta para consoles, com topo a 195 cm.
-- Cadeira e volante/pedais: futuros, fora do orçamento.
+- Cadeira Ercathe A01 (R$ 2.290,90) e monitores ASUS TUF VG27AQ5A (R$ 2.000,00 no Pix) e AOC 24″ existente: fora do orçamento. Volante e pedais: retirados do projeto em 29/10/2026.
 
 ### Cozinha — cozinhar e compartilhar
 - Base e gaveteiro em Arenza; aéreos A/B/C/D em Azul Petróleo.

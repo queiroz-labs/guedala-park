@@ -680,12 +680,12 @@ const ITEMS=[
     "room": "escritorio",
     "name": "Notebook + dois monitores + CH360",
     "kind": "setup",
-    "dimensions": "2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm",
+    "dimensions": "ASUS 27″ 61,5 × 36,7 cm + AOC 24″ · CH360 21,5 × 42,8 × 43,1 cm",
     "choice": "Aprovado",
-    "measure": "Conferir VESA e peso dos monitores; furação do tampo",
+    "measure": "Conferir o modelo do AOC (VESA e peso)",
     "material": "black",
-    "source": "F99 · Elias, 29/10/2026: braços ELG F80N",
-    "notes": "Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. Monitores AOC 27/240 Hz (modelo a conferir na etiqueta: VESA 100 × 100 e peso de 2 a 9 kg). Braços ELG F80N, um por tela: um já comprado e mais um a comprar, R$ 169,99 no Pix (Kabum 107363, 29/10/2026). Alcance de 53 cm, com pistão a gás; fixação por morsa ou por furo M10 no tampo."
+    "source": "F99 · Elias, 29/10/2026: monitores e braços",
+    "notes": "Notebook HP à esquerda, AOC 24″ 144 Hz (já tem) ao centro e ASUS TUF VG27AQ5A 27″ QHD 210 Hz (a comprar, R$ 2.000 no Pix, 61,5 × 36,7 × 5,4 cm, 4,2 kg, VESA 100 × 100) à direita, e o gabinete na ponta direita. Monitores fora do orçamento. Braços ELG F80N, um por tela: um já comprado e mais um a comprar, R$ 169,99 no Pix (Kabum 107363, 29/10/2026). Alcance de 53 cm, com pistão a gás; fixação por morsa ou por furo M10 no tampo."
   },
   {
     "id": "daiane",
@@ -748,18 +748,6 @@ const ITEMS=[
     "material": "black",
     "source": "Elias, 29/10/2026 (menu da TV) · ficha Samsung/varejo",
     "notes": "Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. O suporte de parede VESA 200 × 200 não vem na caixa e soma profundidade: escolher o suporte e medir o conjunto."
-  },
-  {
-    "id": "wheel",
-    "room": "escritorio",
-    "name": "Volante e pedais futuros",
-    "kind": "accessory",
-    "dimensions": "Dimensões / guarda pendentes",
-    "choice": "Futuro",
-    "measure": "Não dimensionado",
-    "material": "black",
-    "source": "F92",
-    "notes": "Logitech pretendido, G29 candidato. Sem módulo baixo adicional. Não desenhado no piso para não inventar local de guarda."
   },
   {
     "id": "kitchenbase",
@@ -1592,13 +1580,12 @@ const ITEM_COPY={
  bedcabinet:['Armários sobre a cama e o guarda-roupa','Armários alinhados, com duas portas independentes no canto. Confira o teto, os materiais e a abertura de cada porta.'],
  desk:['Bancada de trabalho','Profundidade de 70 cm e altura de 75 cm escolhidas em 29/10/2026. O vão de 72 cm sob o tampo deve acomodar os braços da cadeira abaixados. Falta confirmar a largura e os apoios.'],
  drawers:['Duas gavetas no escritório','Gavetas à esquerda, com abertura total e puxador discreto. Confira se abrem com o sofá-cama em uso.'],
- setup:['Notebook, dois monitores e computador','Notebook à esquerda e computador à direita. Braços ELG F80N, um por monitor: um já comprado e mais um a comprar. Confira na etiqueta dos monitores se o encaixe é VESA 100 × 100.'],
+ setup:['Notebook, dois monitores e computador','Notebook à esquerda, monitor AOC de 24 polegadas que você já tem e monitor ASUS de 27 polegadas a comprar, computador à direita. Braços ELG F80N, um por monitor. Confira na etiqueta do AOC se o encaixe é VESA 100 × 100.'],
  daiane:['Sofá-cama Daiane','Versão suede cinza, escolhida em 29/10/2026. Abre em direção à janela. Confira o espaço para girar e abrir a cama, e o tamanho do baú.'],
  officechair:['Cadeira Ercathe A01','Escolhida em 29/10/2026, fora do orçamento. Os braços devem passar sob a bancada só na posição mais baixa, com pouca folga: confirme a altura com a loja ou meça na entrega.'],
  officecab:['Armário sobre o sofá-cama','Aéreo em marfim claro, liso e fosco escolhido para deixar o teto mais leve. Prateleiras ajustáveis para capacete, sapatilha e ferramentas. Confira amostra, alcance, peso e folga até o teto.'],
  officeshelf:['Prateleira dos videogames','Prateleira alta para os videogames. Confira o acesso, a posição e o peso suportado.'],
  tv43:['TV Samsung de 43 polegadas','TV que você já tem (modelo UN43CU7700GXZD): 96,4 × 55,9 cm e 6 cm de espessura, sem a base. Fica na parede oposta ao sofá. Falta escolher o suporte de parede e conferir a abertura da porta.'],
- wheel:['Volante e pedais · compra futura','O Logitech G29 é uma opção. Falta definir as medidas e onde guardar o conjunto.'],
  kitchenbase:['Gavetas e base da cozinha','Três gavetas com abertura total e fechamento suave. Confira os apoios do forno, os recortes da bancada e a ligação com a lavanderia.'],
  sinkstorage:['Gabinete da pia','Duas portas, com espaço para panelas e utensílios. A prateleira precisa permitir acesso ao sifão. Defina os recortes após escolher a cuba e as conexões.'],
  lowdrawer:['Gaveta para vassoura e rodo','Guarde os cabos fixos separados das cabeças da vassoura e do rodo. A gaveta usa seis rodas. Confira os apoios, as guias e o peso suportado.'],
@@ -2207,7 +2194,8 @@ function buildScene(){nodes=[];nodeSequence={};
   for(const x of[275,460])leg('desk','escritorio',x,12,0,72);
   // laptop, 2 monitors and cabinet: reserves from R10.
   slab('setup','escritorio',272,30,36,25,75,1.5,'#7c8381',1);add('setup','escritorio',272,29,36,1.5,76,22,'black','screenZ');
-  for(const x of[310,374]){add('setup','escritorio',x,19,62,3,93,35,'black','screenZ');add('setup','escritorio',x+30,20,2,9,75,19,'black');}
+  // AOC 24″ existente (≈54 × 32) à esquerda; ASUS TUF VG27AQ5A 27″ (61,5 × 36,7) à direita.
+  for(const [x,w,h] of[[312,54,32],[372,61.5,36.7]]){add('setup','escritorio',x,19,w,3,93,h,'black','screenZ');add('setup','escritorio',x+w/2-1,20,2,9,75,19,'black');}
   add('setup','escritorio',443.25,15,21.5,42.8,75,43.1,'black');add('setup','escritorio',443,18,.4,34,80,31,'#526b70','glass');
   slab('setup','escritorio',368,48,47,15,75,1,'#555b59',1);
   const guest=state.office==='guest',bedDepth=guest?182:90;

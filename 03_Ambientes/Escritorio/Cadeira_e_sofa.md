@@ -32,11 +32,11 @@ Altura mínima do topo dos braços ao piso (cadeira e apoios abaixados), altura 
 
 ## Próxima proposta — F90, aguardando decisão
 
-Duas gavetas sobrepostas na extremidade esquerda, módulo com cerca de 40 cm de largura; centro e canto direito livres para cadeira, pernas e fixação removível do volante. Altura superior do tampo de 75 cm como ponto de partida de estudo: com 3 cm hipotéticos de tampo, 72 cm brutos abaixo, descontando suportes/ferragens. Não confirma ergonomia ou passagem dos braços da Ultra Comfort. Nenhuma dessas novas medidas ou posição das gavetas foi aprovada; largura de bancada de 200 cm continua proposta e profundidade de 70 cm permanece confirmada.
+Duas gavetas sobrepostas na extremidade esquerda, módulo com cerca de 40 cm de largura; centro e canto direito livres para cadeira, pernas. Altura superior do tampo de 75 cm como ponto de partida de estudo: com 3 cm hipotéticos de tampo, 72 cm brutos abaixo, descontando suportes/ferragens. Não confirma ergonomia ou passagem dos braços da Ultra Comfort. Nenhuma dessas novas medidas ou posição das gavetas foi aprovada; largura de bancada de 200 cm continua proposta e profundidade de 70 cm permanece confirmada.
 
 ## Decisão F91 — gavetas
 
-Confirmadas duas gavetas sobrepostas à esquerda. Centro e canto direito preservados para cadeira e volante. Largura aproximada de 40 cm e demais medidas permanecem em estudo; altura da bancada não foi confirmada.
+Confirmadas duas gavetas sobrepostas à esquerda. Centro e canto direito preservados para a cadeira. Largura aproximada de 40 cm e demais medidas permanecem em estudo; altura da bancada não foi confirmada.
 
 ## F93 — Manobra alternativa com cadeira já estacionada
 

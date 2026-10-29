@@ -571,12 +571,12 @@ const ITEMS=[
     "room": "escritorio",
     "name": "Notebook + dois monitores + CH360",
     "kind": "setup",
-    "dimensions": "2 telas 27″ · CH360 21,5 × 42,8 × 43,1 cm",
+    "dimensions": "ASUS 27″ 61,5 × 36,7 cm + AOC 24″ · CH360 21,5 × 42,8 × 43,1 cm",
     "choice": "Aprovado",
-    "measure": "Conferir VESA e peso dos monitores; furação do tampo",
+    "measure": "Conferir o modelo do AOC (VESA e peso)",
     "material": "black",
-    "source": "F99 · Elias, 29/10/2026: braços ELG F80N",
-    "notes": "Notebook HP à esquerda, monitor principal à direita do secundário, gabinete à direita. Monitores AOC 27/240 Hz (modelo a conferir na etiqueta: VESA 100 × 100 e peso de 2 a 9 kg). Braços ELG F80N, um por tela: um já comprado e mais um a comprar, R$ 169,99 no Pix (Kabum 107363, 29/10/2026). Alcance de 53 cm, com pistão a gás; fixação por morsa ou por furo M10 no tampo."
+    "source": "F99 · Elias, 29/10/2026: monitores e braços",
+    "notes": "Notebook HP à esquerda, AOC 24″ 144 Hz (já tem) ao centro e ASUS TUF VG27AQ5A 27″ QHD 210 Hz (a comprar, R$ 2.000 no Pix, 61,5 × 36,7 × 5,4 cm, 4,2 kg, VESA 100 × 100) à direita, e o gabinete na ponta direita. Monitores fora do orçamento. Braços ELG F80N, um por tela: um já comprado e mais um a comprar, R$ 169,99 no Pix (Kabum 107363, 29/10/2026). Alcance de 53 cm, com pistão a gás; fixação por morsa ou por furo M10 no tampo."
   },
   {
     "id": "daiane",
@@ -639,18 +639,6 @@ const ITEMS=[
     "material": "black",
     "source": "Elias, 29/10/2026 (menu da TV) · ficha Samsung/varejo",
     "notes": "Samsung Crystal UHD CU7700, 43 polegadas, 4K, Tizen, 3 HDMI e 1 USB. Parede oposta ao sofá. Posição deslocada para evitar giro da porta é estudo. O suporte de parede VESA 200 × 200 não vem na caixa e soma profundidade: escolher o suporte e medir o conjunto."
-  },
-  {
-    "id": "wheel",
-    "room": "escritorio",
-    "name": "Volante e pedais futuros",
-    "kind": "accessory",
-    "dimensions": "Dimensões / guarda pendentes",
-    "choice": "Futuro",
-    "measure": "Não dimensionado",
-    "material": "black",
-    "source": "F92",
-    "notes": "Logitech pretendido, G29 candidato. Sem módulo baixo adicional. Não desenhado no piso para não inventar local de guarda."
   },
   {
     "id": "kitchenbase",

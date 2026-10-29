@@ -53,7 +53,7 @@ Elias aceita a distribuição notebook à esquerda, dois monitores e gabinete à
 - Duas gavetas sobrepostas à esquerda: módulo externo de estudo40 L ×45 P ×24 A cm. Duas frentes de aproximadamente12 cm, descontando juntas na execução; não são alturas internas úteis. Frentes Arenza, perfil discreto e abertura total já escolhidos. Profundidade útil depende de fundo, ferragens e construção.
 - Com o módulo imediatamente sob tampo, base a48 cm no cenário. Posição x15..55, y25..70. Centro e direita sem gaveteiro, mantendo faixa bruta de160 cm de largura antes de apoios; não prometer vão estrutural inteiramente sem suportes.
 - Preservar faixa de entrada de cadeira de80 cm centrada no principal x150: x110..190. Envelope de74,5 cm deixa5,5 cm totais em largura; não garante giro ou recolhimento completo. Braços devem ficar abaixo do vão efetivo, já descontados suportes; exemplo: se houver72 cm livres, topo dos braços até70 cm deixa2 cm. Altura real dos braços ainda desconhecida.
-- Fixação removível do volante alinhada ao principal, mantendo borda frontal e face inferior livres de saia/travessa/calha nessa região. Não definir profundidade da reserva da presilha antes do modelo; G29 continua candidato, não comprado. Estrutura de suporte deve ser dimensionada sem ocupar o espaço necessário à presilha ou à cadeira.
+- Volante e pedais descartados por Elias em 29/10/2026 (“nao tenho planos de ter mais”): sem fixação removível nem reserva na borda da bancada.
 - Planejar calha de cabos mais ao fundo, compatibilizando pernas, braços dos monitores e conectores; posição final ainda não determinada. Não assumir que todos os72 cm estarão livres em toda profundidade.
 
 ### Abertura das gavetas
@@ -64,7 +64,7 @@ No modo hóspedes, cama começa y110 e sobrepõe a faixa x15..55: frente aberta 
 
 ### Resultado
 
-Módulo raso e suspenso à esquerda preserva a área principal de trabalho. As novas dimensões40 ×45 ×24 e altura75 são propostas para detalhamento, não execução aprovada. Fechar vão efetivo e ferragens somente após escolher cadeira/volante e compatibilizar estrutura.
+Módulo raso e suspenso à esquerda preserva a área principal de trabalho. As novas dimensões40 ×45 ×24 e altura75 são propostas para detalhamento, não execução aprovada. Fechar vão efetivo e ferragens somente após escolher a cadeira e compatibilizar estrutura.
 
 
 ## Braços dos monitores — ELG F80N, 29/10/2026
@@ -81,5 +81,18 @@ Elias, 29/10/2026: [ELG F80N na Kabum](https://www.kabum.com.br/produto/107363/s
 
 - A bancada é encostada na parede da janela: **morsa na borda traseira não cabe sem vão** entre tampo e parede. Fixação provável por **furo passante M10** no tampo, a definir com a oficina, com reforço sob o tampo. Espessura mínima/máxima do tampo para a morsa e comprimento do parafuso não constam na página: ler o manual.
 - Com alcance de 53 cm e bancada de 70 cm, cada tela pode vir à frente sem passar da borda; os dois braços partem de pontos separados (telas de ensaio centradas em x86 e x150).
-- Pendente de Elias: modelo dos monitores AOC (etiqueta traseira) para confirmar VESA e peso. 27" a 240 Hz costuma ter VESA 100 × 100, mas não foi verificado neste modelo.
+- Pendente de Elias: modelo do AOC 24″ (etiqueta traseira) para confirmar VESA e peso; o ASUS declara VESA 100 × 100 e 4,2 kg.
 - Não foi calculada carga no tampo; reforço e furos ficam para a oficina.
+
+## Monitores — ASUS TUF VG27AQ5A + AOC 24″, 29/10/2026
+
+Elias, 29/10/2026: **só um** [ASUS TUF VG27AQ5A](https://www.kabum.com.br/produto/747516/monitor-gamer-asus-tuf-27-qhd-210hz-0-3ms-fast-ips-g-sync-comp-freesync-premium-hdr10-som-integrado-vg27aq5a) (27", QHD 2560 × 1440, Fast IPS, 210 Hz) e o **AOC 24″ 144 Hz que já possui**. Substitui os dois AOC 27″ de F99. **Fora do orçamento**, como a cadeira; valor da página: **R$ 2.000,00 no Pix** (10 × R$ 235,29 sem juros).
+
+| Monitor | Tela sem base | Peso sem base | VESA |
+|---|---|---|---|
+| ASUS TUF VG27AQ5A (a comprar) | 61,5 × 36,7 × 5,4 cm ([ASUS EUA](https://www.asus.com/us/product-compare?ProductID=32195&LevelId=Displays-Desktops-Monitors)) | 4,2 kg ([ASUS Brasil](https://www.asus.com/br/product-compare?ProductID=32195&LevelId=Displays-Desktops-Monitors)) | 100 × 100 |
+| AOC 24″ 144 Hz (existente) | ≈ 54 × 32 cm (24″ 16:9, estimativa) | a conferir | a conferir |
+
+- Largura total ≈ 115,5 cm, contra os 128 cm reservados para dois monitores de 27″: sobram ~12 cm e as telas podem ficar mais juntas.
+- Proposta: AOC à esquerda (secundário) e ASUS à direita (principal), mantendo a ordem notebook – monitores – gabinete. Troca de lado é livre; é preferência, não medida.
+- O ASUS inclina de +20° a −5° e tem alto-falantes; a base original não regula altura, por isso o braço ELG F80N (2 a 9 kg, VESA 75/100) serve.

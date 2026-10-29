@@ -112,7 +112,8 @@ function buildScene(){nodes=[];nodeSequence={};
   for(const x of[275,460])leg('desk','escritorio',x,12,0,72);
   // laptop, 2 monitors and cabinet: reserves from R10.
   slab('setup','escritorio',272,30,36,25,75,1.5,'#7c8381',1);add('setup','escritorio',272,29,36,1.5,76,22,'black','screenZ');
-  for(const x of[310,374]){add('setup','escritorio',x,19,62,3,93,35,'black','screenZ');add('setup','escritorio',x+30,20,2,9,75,19,'black');}
+  // AOC 24″ existente (≈54 × 32) à esquerda; ASUS TUF VG27AQ5A 27″ (61,5 × 36,7) à direita.
+  for(const [x,w,h] of[[312,54,32],[372,61.5,36.7]]){add('setup','escritorio',x,19,w,3,93,h,'black','screenZ');add('setup','escritorio',x+w/2-1,20,2,9,75,19,'black');}
   add('setup','escritorio',443.25,15,21.5,42.8,75,43.1,'black');add('setup','escritorio',443,18,.4,34,80,31,'#526b70','glass');
   slab('setup','escritorio',368,48,47,15,75,1,'#555b59',1);
   const guest=state.office==='guest',bedDepth=guest?182:90;

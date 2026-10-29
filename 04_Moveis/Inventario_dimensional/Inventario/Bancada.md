@@ -54,9 +54,9 @@ O teste no extremo mostra por que carga distribuída não deve virar capacidade 
 
 ## O que fecha a especificação sem esperar medidas do apartamento
 
-1. Confirmar cargas de equipamentos e esforço dos braços de monitor/volante; os valores da tabela são cenários, não pesagem do setup.
+1. Confirmar cargas de equipamentos e esforço dos braços de monitor; os valores da tabela são cenários, não pesagem do setup.
 2. Dimensionar quadro e ligações com grau de aço e seções reais, incluindo flambagem, torção, soldas, estabilidade lateral e ensaio de móvel. As diagonais são propostas construtivas, não detalhamento de solda liberado.
-3. Marceneiro conferir a construção do tampo30 mm e os bolsões: uma chapa engrossada com núcleo oco ou duas chapas apenas unidas na borda não equivale ao sólido modelado. Detalhar retentores e bordas, sem comprometer braços dos monitores ou grampo do volante.
+3. Marceneiro conferir a construção do tampo30 mm e os bolsões: uma chapa engrossada com núcleo oco ou duas chapas apenas unidas na borda não equivale ao sólido modelado. Detalhar retentores e bordas, sem comprometer braços dos monitores.
 4. Escolher sapatas, proteção do piso, acabamento e cotação do conjunto. Nenhuma redução de material deve ser feita usando apenas a flecha ideal.
 
 As medidas reais do apartamento só entram depois para nível, piso, parede/rodapé e tolerâncias de implantação. Esta opção evita depender da resistência desconhecida da parede para o caminho vertical da carga, mas ainda precisa das verificações acima antes de substituir os apoios esquemáticos da R44.

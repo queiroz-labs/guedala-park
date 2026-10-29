@@ -20,7 +20,7 @@
 
 São cinco painéis propostos, dois substituindo as laterais atuais. Massa nominal bruta de 27,833 kg a 800 kg/m³, menos 2,972 kg das duas laterais antigas. Os pés esquemáticos retirados **somente deste estudo** não têm massa conhecida. Não se trata de orçamento ou peso final do móvel.
 
-A distância livre entre apoio esquerdo e pedestal é **1.562 mm**, maior que a faixa central de 800 mm do estudo de uso. A entrada frontal não recebe travessa abaixo do tampo; a travessa fica atrás, em Y70–88. O espaço sob o gaveteiro muda com as novas laterais até o piso, e a aparência fica diferente da mesa de pés finos. **Elias precisa revisar essa alteração antes de incorporação.** A cadeira real, pedais, cabos e eventual armazenamento sob a mesa ainda precisam de envelope de uso próprio.
+A distância livre entre apoio esquerdo e pedestal é **1.562 mm**, maior que a faixa central de 800 mm do estudo de uso. A entrada frontal não recebe travessa abaixo do tampo; a travessa fica atrás, em Y70–88. O espaço sob o gaveteiro muda com as novas laterais até o piso, e a aparência fica diferente da mesa de pés finos. **Elias precisa revisar essa alteração antes de incorporação.** A cadeira real, cabos e eventual armazenamento sob a mesa ainda precisam de envelope de uso próprio.
 
 As partes originais das laterais que contêm as gavetas foram preservadas por inclusão geométrica nos painéis maiores. No estudo, gavetas, guias e equipamentos são contexto estático copiado da R51; seus movimentos continuam na fonte completa, não neste arquivo parcial.
 
@@ -75,7 +75,7 @@ Painéis de madeira têm composição e direção de fibras relevantes. A [APA](
 1. O gaveteiro pode participar de uma solução **com apoios efetivos ao piso**, sem depender apenas de dois pés traseiros. A geometria nominal foi desenhada e conferida.
 2. A peça de 30 mm do CAD é apenas uma caixa sólida idealizada. Não se comprovou se o tampo comercial será maciço, laminado, engrossado só nas bordas ou oco. Essa constituição precisa ser fechada antes da capacidade.
 3. Retenção e juntas são verificações próprias. O modelo de contacto equivalente requer rigidez de 5 N/mm² por unidade de comprimento na sensibilidade diferida e 500 N/mm por grupo de extremidade da travessa; são requisitos de conjunto, não dados de fabricante.
-4. Cargas das gavetas, estabilidade com gavetas abertas, esforços horizontais dos braços/volante, torção, ligação ao piso e nivelamento ainda não estão encerrados. Os pesos das gavetas descem pelo pedestal e não foram adicionados como carga sobre o tampo.
+4. Cargas das gavetas, estabilidade com gavetas abertas, esforços horizontais dos braços dos monitores, torção, ligação ao piso e nivelamento ainda não estão encerrados. Os pesos das gavetas descem pelo pedestal e não foram adicionados como carga sobre o tampo.
 
 ## Referências e próximos passos
 

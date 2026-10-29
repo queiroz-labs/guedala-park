@@ -56,7 +56,7 @@ Também foi verificado o limite de confiar somente na rigidez rotacional dos doi
 
 ## Situação da bancada
 
-A alternativa tubular antiga, inteiramente oculta, foi retirada da R51. Os dois apoios30×30×720 ativos são sólidos esquemáticos sem material especificado; a solução de marcenaria ainda precisa definir apoios em profundidade, estabilidade, ligações e rigidez do tampo para equipamentos e esforços dos braços/volante.
+A alternativa tubular antiga, inteiramente oculta, foi retirada da R51. Os dois apoios30×30×720 ativos são sólidos esquemáticos sem material especificado; a solução de marcenaria ainda precisa definir apoios em profundidade, estabilidade, ligações e rigidez do tampo para equipamentos e esforços dos braços dos monitores.
 
 Avanço02:22–02:45: [estudo separado da bancada de marcenaria](../Bancada/README.md), com cinco painéis, gaveteiro apoiado ao piso e entrada central preservada. Sete contatos e14 verificações; tampo/retencão e estabilidade ainda condicionados, com alteração visual para revisão antes de incorporar.
 

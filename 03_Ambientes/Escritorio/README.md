@@ -20,12 +20,11 @@ Base documental: dormitório 02 de **2,30 × 2,95 m**, Guedala Park III, torre 0
 | Elemento | Disposição vigente | Escolhas e limites |
 |---|---|---|
 | Bancada | Na parede da janela, estação voltada para a janela | Profundidade **70 cm confirmada**; largura **200 cm proposta**, centralizada. **Altura 75 cm** (Elias, 29/10/2026: “Sim, 75 cm”), dentro dos 72 a 75 cm da NBR 13966; com tampo de 3 cm o vão sob ele é de 72 cm, para os braços da cadeira (estimados em ~69 cm, assento no mínimo) entrarem sob a mesa. **Condicionada** à altura real dos braços: bancada = altura do braço + 2 cm + espessura do tampo. No uso, assento a ~55 cm e apoio de pés. Suportes e espessura a definir. |
-| Setup | Sobre a bancada | CH360 visível, dois monitores de 27″ com braços individuais **ELG F80N** (um já comprado, mais um a comprar, R$ 169,99; [Setup](Setup.md#braços-dos-monitores--elg-f80n-29102026)) e notebook aberto como terceira tela. Posição lateral exata dos equipamentos a compatibilizar. |
-| Gavetas | **Duas discretas à esquerda, uma sobre a outra — confirmado** | Preservar centro e canto direito livres para cadeira e volante. Módulo de cerca de 40 cm de largura ainda proposto; altura, profundidade e ferragens pendentes. Sem gaveteiro até o piso. |
+| Setup | Sobre a bancada | CH360 visível, monitores **ASUS TUF 27″ (a comprar) e AOC 24″ (existente)**, fora do orçamento, com braços individuais **ELG F80N** (um já comprado, mais um a comprar, R$ 169,99; [Setup](Setup.md#braços-dos-monitores--elg-f80n-29102026)) e notebook aberto como terceira tela. Posição lateral exata dos equipamentos a compatibilizar. |
+| Gavetas | **Duas discretas à esquerda, uma sobre a outra — confirmado** | Preservar centro e canto direito livres para a cadeira. Módulo de cerca de 40 cm de largura ainda proposto; altura, profundidade e ferragens pendentes. Sem gaveteiro até o piso. |
 | Sofá-cama | **Daiane**, encosto principal na parede esquerda, voltado para a TV; braço lateral próximo à parede da porta | Modelo e cor **cinza-claro escolhidos**, com intenção visual gamer; **versão suede cinza escolhida** (Elias, 29/10/2026: “ok, suede então”), [Carrefour](https://www.carrefour.com.br/sofa-cama-daiane-2-lugares-com-bau-suede-cinza-matrix-mp937810131/p) a R$ 778 no Pix em 29/10, sem frete; conferir o código. Referência de **140 × 90 cm fechado**. Teto R$ 1.500. |
 | Cadeira | **Ercathe A01 Mesh Premium, preta** (Elias, 29/10/2026: “será Cadeira Ergonômica Mesh Ercathe A01 Premium”). [Sensetup](https://sensetup.com.br/products/cadeira-ergonomica-ercathe-a01-mesh-premium?variant=49668774854978): R$ 2.290,90, **fora do orçamento**. Mesh, lombar ajustável, braços 3D, encosto até 145°, apoio de pés retrátil; até 1,95 m | Anúncio: assento 50 × 50 a 50–57 cm do piso; “braços 29–36 cm”, sem dizer a partir de onde. A foto de perfil, em escala pela profundidade do assento, mostra o braço ~19 cm acima do assento: topo estimado entre **~62 e 76 cm**. Com bancada de 75 cm e tampo de 3 cm (~72 livres), deve passar com braço e assento no mínimo, **com folga de poucos centímetros; não confirmado**. Pedir à Sensetup a altura do piso ao topo do braço na posição mais baixa, ou medir na entrega, antes de fixar a altura da bancada; envelope 74,5 × 73 mantido. Reclinar com o apoio de pés usa a faixa de 82 cm até o sofá. |
 | TV e console | Samsung 43″ na parede direita, oposta ao sofá; PS5 Slim Digital futuro deitado; prateleira acima da TV a 195 cm, com reserva para Xbox | Coordenar posição com o sofá deslocado para a entrada. Altura, suporte, profundidade e posição longitudinal ainda a definir, fora do giro da porta. |
-| Volante e pedais | Montar na bancada para jogar e guardar depois | Logitech futuro; G29 apenas candidato. **Não reservar módulo baixo** que comprometa circulação. Guarda ainda pendente; baú do Daiane a conferir. |
 
 No ensaio atual, o braço do sofá fica a **3 cm da parede da entrada**, e o encosto a **2 cm da parede esquerda**: afastamentos provisórios. Isso deixa **82 cm entre a frente da bancada e o primeiro braço do sofá**, liberando mais área para deslocamento da cadeira. Não equivale a passagem livre atrás da cadeira ocupada ou reclinada.
 
@@ -66,9 +65,9 @@ Iluminação inteligente com cores e ajuste de branco, compatível com Alexa: lu
 
 ## Próximas conferências
 
-1. Altura mínima dos braços da cadeira e vão livre efetivo sob a bancada; detalhar gavetas, suportes e passagem do volante.
+1. Altura mínima dos braços da cadeira e vão livre efetivo sob a bancada; detalhar gavetas e suportes.
 2. Posição real do batente e giro da porta, pela pequena margem junto à cama.
-3. Superfície útil da cama e baú da versão Daiane escolhida; testar guarda de volante e pedais.
+3. Superfície útil da cama e baú da versão Daiane escolhida.
 4. Compatibilizar apoio do PS5, TV e aéreos com a nova posição diária do sofá.
 5. Validar cadeira estacionada, mecanismo do sofá e operação de movimentação, além dos envelopes geométricos.
 
