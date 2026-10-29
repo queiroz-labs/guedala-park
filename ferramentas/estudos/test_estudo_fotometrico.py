@@ -10,6 +10,20 @@ import estudo_fotometrico as f
 
 
 class Physics(unittest.TestCase):
+    def test_radiosity_empty_cube_analytic(self):
+        result=f.validate_radiosity()
+        self.assertLess(result['erro_relativo'],.03)
+        self.assertLess(abs(result['erro_lm']),1e-6)
+        self.assertLess(result['residual_lm'],1e-6)
+
+    def test_radiosity_open_boundary_energy(self):
+        import numpy as np
+        engine=f.Radiosity([(2,0,1,(0,0,2,2),(.2,.5,.8),'piso')],step=1,rays=128)
+        for band in range(3):
+            _,balance=engine.solve(np.full(4,200.),1000.,band)
+            self.assertAlmostEqual(balance['absorvido_lm']+balance['perdido_lm']+balance['residual_lm'],1000.)
+            self.assertAlmostEqual(balance['absorvido_lm'],800*(1-(.2,.5,.8)[band]))
+
     def test_union_cells_preserve_area_and_overlap(self):
         cs=f.cells([[0,0,1,1],[.5,0,1.5,1]],.75,.3)
         self.assertAlmostEqual(sum(c['area'] for c in cs),1.5)

@@ -11,6 +11,7 @@ import json
 import math
 from pathlib import Path
 import sys
+import numpy as np
 
 sys.dont_write_bytecode = True
 
@@ -241,6 +242,145 @@ def cells(rects, z, step=.25, normal=(0,0,1), vertical=False):
 def norm(v):
     d=math.sqrt(sum(x*x for x in v))
     return tuple(x/d for x in v)
+
+
+def rect_difference(a,b):
+    """Non-overlapping remainder of rectangle a after subtracting b."""
+    x,y,X,Y=max(a[0],b[0]),max(a[1],b[1]),min(a[2],b[2]),min(a[3],b[3])
+    if X<=x or Y<=y:return [a]
+    return [r for r in ((a[0],a[1],x,a[3]),(X,a[1],a[2],a[3]),
+                         (x,a[1],X,y),(x,Y,X,a[3])) if r[2]-r[0]>1e-7 and r[3]-r[1]>1e-7]
+
+
+def hemisphere(rng,n,normal,exponent=1):
+    """Cosine-power PDF; exponent=1 samples diffuse projected solid angle."""
+    normal=np.asarray(normal,float);u=np.asarray(norm(np.cross(normal,(1,0,0) if abs(normal[0])<.9 else (0,1,0))))
+    v=np.cross(normal,u);mu=rng.random(n)**(1/(exponent+1));phi=rng.random(n)*2*math.pi
+    return mu[:,None]*normal+np.sqrt(1-mu*mu)[:,None]*(np.cos(phi)[:,None]*u+np.sin(phi)[:,None]*v)
+
+
+class Radiosity:
+    """Diffuse patch transport in lumens. Open boundaries lose energy; no daylight.
+
+    Geometry consists of axis-aligned rectangles with inward/exposed normals.
+    Ray tracing is vectorized over rays; patch lookup is deterministic. Transfer
+    fractions come from uniform-area, cosine-weighted Monte Carlo (fixed seed).
+    Solving outgoing powers rather than irradiance preserves energy even though
+    finite-sample factors only satisfy reciprocity statistically.
+    """
+    def __init__(self,faces,step=.45,rays=512,seed=291026):
+        self.faces=[];self.patches=[];self.seed=seed;self.rays=rays
+        for axis,plane,sign,rect,rho,label in faces:
+            a,b,A,B=rect;nu=max(1,math.ceil((A-a)/step));nv=max(1,math.ceil((B-b)/step))
+            axes=[k for k in range(3) if k!=axis];normal=np.zeros(3);normal[axis]=sign
+            start=len(self.patches);du=(A-a)/nu;dv=(B-b)/nv
+            self.faces.append((axis,plane,sign,rect,axes,nu,nv,start))
+            for i in range(nu):
+                for j in range(nv):
+                    p=np.zeros(3);p[axis]=plane;p[axes]=[a+(i+.5)*du,b+(j+.5)*dv]
+                    self.patches.append(dict(point=p,normal=normal,area=du*dv,rho=rho,label=label,axes=axes,du=du,dv=dv))
+        self.area=np.array([p['area'] for p in self.patches]);self.rho=np.array([p['rho'] for p in self.patches])
+        self.source_cache={};self.sensor_cache={};self.edges=None
+
+    def trace(self,origins,directions):
+        origins=np.broadcast_to(origins,directions.shape);count=len(directions)
+        distance=np.full(count,np.inf);hit=np.full(count,-1,dtype=np.int32)
+        for axis,plane,sign,r,axes,nu,nv,start in self.faces:
+            den=directions[:,axis];valid=den*sign < -1e-10
+            t=np.divide(plane-origins[:,axis],den,out=np.full(count,np.inf),where=valid)
+            valid &= (t>1e-7)&(t<distance)
+            ix=np.flatnonzero(valid)
+            if not len(ix):continue
+            u=origins[ix,axes[0]]+t[ix]*directions[ix,axes[0]]
+            v=origins[ix,axes[1]]+t[ix]*directions[ix,axes[1]]
+            inside=(u>=r[0])&(u<r[2])&(v>=r[1])&(v<r[3]);ix=ix[inside];u=u[inside];v=v[inside]
+            hit[ix]=start+np.minimum(nu-1,((u-r[0])/(r[2]-r[0])*nu).astype(int))*nv+np.minimum(nv-1,((v-r[1])/(r[3]-r[1])*nv).astype(int))
+            distance[ix]=t[ix]
+        return hit
+
+    def transport(self):
+        if self.edges is not None:return
+        rng=np.random.default_rng(self.seed);src=[];dst=[];weights=[];escape=[]
+        for i,p in enumerate(self.patches):
+            origins=np.tile(p['point']+p['normal']*1e-6,(self.rays,1))
+            origins[:,p['axes'][0]]+=(rng.random(self.rays)-.5)*p['du']
+            origins[:,p['axes'][1]]+=(rng.random(self.rays)-.5)*p['dv']
+            hits=self.trace(origins,hemisphere(rng,self.rays,p['normal']))
+            counts=np.bincount(hits[hits>=0],minlength=len(self.patches));indices=np.flatnonzero(counts)
+            src.extend([i]*len(indices));dst.extend(indices);weights.extend(counts[indices]/self.rays)
+            escape.append(float(np.mean(hits<0)))
+        self.edges=(np.array(src,int),np.array(dst,int),np.array(weights));self.escape=np.array(escape)
+
+    def solve(self,incident,emitted,rho_index=1):
+        self.transport();src,dst,w=self.edges;rho=self.rho[:,rho_index]
+        reflected=rho*incident;total=reflected.copy();absorbed=float(((1-rho)*incident).sum())
+        lost=float(emitted-incident.sum())
+        for iteration in range(500):
+            lost+=float(reflected@self.escape)
+            incoming=np.bincount(dst,weights=reflected[src]*w,minlength=len(self.patches))
+            absorbed+=float(((1-rho)*incoming).sum());reflected=rho*incoming;total+=reflected
+            if reflected.sum()<max(1,emitted)*1e-10:break
+        # Residual is explicitly retained, not silently counted as absorption.
+        residual=float(reflected.sum())
+        return total/self.area,dict(emitido_lm=float(emitted),absorvido_lm=absorbed,perdido_lm=lost,
+                                   residual_lm=residual,erro_lm=float(emitted-absorbed-lost-residual),iteracoes=iteration+1)
+
+    def sensors(self,grid,rays=1024):
+        key=tuple((tuple(c['point']),tuple(c['normal'])) for c in grid)
+        if key not in self.sensor_cache:
+            rng=np.random.default_rng(self.seed+17);hits=[]
+            for c in grid:
+                pos=np.array(c['point'])+np.array(c['normal'])*1e-5
+                hits.append(self.trace(pos,hemisphere(rng,rays,c['normal'])))
+            self.sensor_cache[key]=np.array(hits)
+        return self.sensor_cache[key]
+
+    def reflected_lux(self,grid,radiosity):
+        hits=self.sensors(grid);extended=np.r_[radiosity,0.]
+        # L=B/pi, cosine-weighted integral E=pi*mean(L).
+        return extended[hits].mean(axis=1)
+
+    def deposit(self,lights,scenario,ies,rays=8192):
+        incident=np.zeros(len(self.patches));emitted=0.
+        for e in lights:
+            key=(e['code'],tuple(e['position']),tuple(e['normal']))
+            if key not in self.source_cache:
+                rng=np.random.default_rng(self.seed+31);mode=PRODUCTS[e['code']]['mode']
+                if mode=='isotropic':
+                    dirs=hemisphere(rng,rays,(0,0,1),0);dirs[:,2]*=rng.choice([-1,1],rays)
+                elif mode=='IES':
+                    angles=[(t+.5,h+2.5) for t in range(90) for h in range(0,360,5)]
+                    weights=np.array([ies_cd(ies,t,h)*math.sin(math.radians(t)) for t,h in angles]);weights/=weights.sum()
+                    chosen=np.asarray(angles)[rng.choice(len(angles),rays,p=weights)]
+                    theta=np.radians(chosen[:,0]+rng.random(rays)-.5);phi=np.radians(chosen[:,1]+5*rng.random(rays)-2.5)
+                    dirs=np.column_stack((np.sin(theta)*np.cos(phi),np.sin(theta)*np.sin(phi),-np.cos(theta)))
+                else:
+                    power=math.log(.5)/math.log(math.cos(math.radians(15 if mode=='cos30' else 55))) if mode in ('cos30','cos110') else 1
+                    dirs=hemisphere(rng,rays,e['normal'],power)
+                hits=self.trace(np.array(e['position']),dirs)
+                self.source_cache[key]=np.bincount(hits[hits>=0],minlength=len(self.patches))/rays
+            flux=PRODUCTS[e['code']]['lm']*e['fraction']*transmission(e['code'],scenario)*scenario['mf']
+            incident+=self.source_cache[key]*flux;emitted+=flux
+        return incident,emitted
+
+
+def validate_radiosity():
+    """Closed empty cube, known Lambertian ceiling emitter: global exact solution.
+
+    For uniform reflectance rho and emitted Phi, mean reflected irradiance over
+    ALL enclosing surfaces equals rho*Phi/(A*(1-rho)), irrespective of source
+    distribution. Independent sensor estimate also checks the ray integrator.
+    """
+    faces=[]
+    for axis in range(3):
+        for plane,sign in ((0,1),(2,-1)):faces.append((axis,plane,sign,(0,0,2,2),(.5,.5,.5),'caixa'))
+    engine=Radiosity(faces,step=1,rays=2048);rng=np.random.default_rng(7)
+    hits=engine.trace(np.array([1,1,1.999]),hemisphere(rng,65536,(0,0,-1)))
+    q=np.bincount(hits[hits>=0],minlength=len(engine.patches))*1000/len(hits)
+    B,balance=engine.solve(q,1000);expected=1000*.5/(24*(1-.5))
+    grid=[dict(point=p['point'],normal=p['normal'],area=p['area']) for p in engine.patches]
+    sampled=statistics(grid,engine.reflected_lux(grid,B))['mean']
+    return dict(analitico_lx=expected,calculado_lx=sampled,erro_relativo=abs(sampled-expected)/expected,**balance)
 
 
 def line_sources(code,a,b,normal,count=12):
@@ -655,6 +795,8 @@ def update_summary(out,rows):
     low=sum(r['kWh_mes_baixo'] for r in energy);high=sum(r['kWh_mes_alto'] for r in energy)
     text+='\n[Cenas e horas](Cenas_luz.csv), [consumo por grupo](Consumo_luz.csv), [correntes](Correntes_luz.csv), [opções numéricas](Alternativas_luz.csv) e [coerência dia/noite](Coerencia_imagens_luz.csv). Subtotal modelado no perfil de uso: **'+f'{low:.2f}–{high:.2f} kWh/mês'+'**, incluindo provisão Shelly24h, sem standby desconhecido das demais fontes/smart. Não é previsão de fatura; grupos não identificam circuitos. UGR e reflexos reais permanecem indeterminados por falta de luminância/curva/observadores.\n\n**Perguntas para Elias:** manter500 lx de leitura/jogos na mesa aberta ou comparar300 lx? Se o déficit persistir, aceita comparar reforço de tarefa? No espelho, prefere avaliar barras horizontais técnicas ou verticais do render? Nenhuma nova seleção inferida. Fabricantes: IES/LDT/SKU, transmissão e IL pendentes. RT/instalador: circuito/quadro real, retorno/neutro, posições/rebaixos e volumes; não pedir agora medidas inexistentes ao morador.\n'
     path.write_text(text,encoding='utf-8')
+    with path.open('a',encoding='utf-8') as f:
+        f.write('\nMotor de radiosidade por patches implementado e validado em caixa vazia (<3% frente à solução analítica) e balanço de energia com abertura. Integração aos cômodos em andamento; tabela acima ainda direta. Dependências: NumPy e Pillow nas ferramentas locais.\n')
 
 
 def generate_results(out,detail=None):
