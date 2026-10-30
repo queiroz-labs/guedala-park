@@ -55,3 +55,4 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 .room-quick button.active{background:var(--green);border-color:var(--green);color:#fff}
 .room-quick button:focus-visible{outline:3px solid var(--green);outline-offset:2px}
 .mast-compact nav button{white-space:nowrap}
+@media(max-width:760px){.room-quick{position:sticky;top:var(--mast-h,98px);z-index:5;background:var(--paper);padding-top:6px}}

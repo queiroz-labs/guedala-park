@@ -6,6 +6,7 @@
  const spacer=document.createElement('div');spacer.className='mast-compensation';spacer.setAttribute('aria-hidden','true');mast.after(spacer);
  function measure(){
   const h=mast.getBoundingClientRect().height;if(!compact)fullHeight=h;
+  document.documentElement.style.setProperty('--mast-h',h+'px');
   spacer.style.height=Math.max(0,fullHeight-h)+'px';
  }
  function apply(next){compact=next;mast.classList.toggle('mast-compact',next);measure();}
