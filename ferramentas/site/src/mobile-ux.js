@@ -6,7 +6,7 @@
  const spacer=document.createElement('div');spacer.className='mast-compensation';spacer.setAttribute('aria-hidden','true');mast.after(spacer);
  function measure(){
   const h=mast.getBoundingClientRect().height;if(!compact)fullHeight=h;
-  spacer.style.height=media.matches?Math.max(0,fullHeight-h)+'px':'0px';
+  spacer.style.height=Math.max(0,fullHeight-h)+'px';
  }
  function apply(next){compact=next;mast.classList.toggle('mast-compact',next);measure();}
  function scroll(){
@@ -15,7 +15,7 @@
  }
  window.addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(scroll);}},{passive:true});
  mast.addEventListener('focusin',event=>{if(event.target.closest('.global-search'))apply(false);});
- function resize(){const previous=compact;mast.classList.remove('mast-compact');fullHeight=mast.getBoundingClientRect().height;apply(media.matches&&previous);}
+ function resize(){const previous=compact;mast.classList.remove('mast-compact');fullHeight=mast.getBoundingClientRect().height;apply(previous);}
  window.addEventListener('resize',resize);new ResizeObserver(measure).observe(mast);measure();
  globalThis.GuedalaMobileHeader={expand:()=>apply(false),measure,get compact(){return compact;}};
 })();

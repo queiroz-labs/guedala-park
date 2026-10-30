@@ -8,14 +8,13 @@
 .status-popover button,.status-popover a{min-height:44px}.status-popover a{display:inline-flex;align-items:center;color:var(--green);margin-right:12px}.status-popover p{font-size:16px;line-height:1.5}
 .status-help-trigger:focus-visible,.status-popover :focus-visible,.status-popover:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 .room-items button.status-help-trigger{min-height:44px;width:auto}.room-items>li>.status-help-trigger{margin:0 10px 8px}
-.mast-compensation{display:none}
+.mast-compensation{display:block}
 .mast-tab-strip{position:relative;order:4;flex-basis:100%;width:100%;min-width:0}
 .mast nav{scrollbar-width:none}.mast nav::-webkit-scrollbar{display:none}
 .mast-tab-strip::before,.mast-tab-strip::after{content:"";position:absolute;top:0;bottom:0;width:24px;pointer-events:none;opacity:0;z-index:1}
 .mast-tab-strip::before{left:0;background:linear-gradient(to right,#fffefa,transparent)}.mast-tab-strip::after{right:0;background:linear-gradient(to left,#fffefa,transparent)}
 .mast-tab-strip.has-more-left::before,.mast-tab-strip.has-more-right::after{opacity:1}
 @media(max-width:760px){
-.mast-compensation{display:block}
 .mast.mast-compact{padding:3px 12px;gap:3px;min-height:0}
 .mast-compact .brand,.mast-compact #helpButton,.mast-compact #glossaryButton,.mast-compact .global-project-notice{display:none}
 .mast-compact .global-search-input{height:44px}
@@ -40,3 +39,19 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 @media(max-width:760px){.mast .architect-tools-label{font-size:12px}}
 
 .fab-hardware .status-help-trigger,.fab-decision .status-help-trigger,.fab-finish .status-help-trigger{font-size:12px;min-height:44px}
+
+/* Computador: ao rolar, o cabeçalho vira uma faixa só (abas + busca). */
+.mast.mast-compact{padding-block:6px;gap:10px;min-height:0;flex-wrap:nowrap;align-items:center}
+.mast-compact .brand small,.mast-compact #helpButton,.mast-compact #glossaryButton,.mast-compact .global-project-notice{display:none}
+.mast-compact .mast-tab-strip{order:2;flex:1 1 0;width:auto}
+.mast-compact .global-search{order:3;flex:0 0 min(300px,28vw);width:auto}
+@media(min-width:761px) and (max-width:1099px){.mast-compact .brand{display:none}}
+@media(max-width:760px){.mast.mast-compact{flex-wrap:wrap}.mast-compact .mast-tab-strip{order:4;flex:0 0 100%}.mast-compact .global-search{order:0;flex:1 1 100%}}
+
+/* Atalho de ambientes logo acima do 3D, sem voltar ao topo da página. */
+.room-quick{display:flex;gap:8px;overflow-x:auto;padding:2px 0 10px;margin:0 0 4px;scrollbar-width:none}
+.room-quick::-webkit-scrollbar{display:none}
+.room-quick button{flex:0 0 auto;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:600 13px 'Segoe UI',Arial,sans-serif;cursor:pointer;white-space:nowrap}
+.room-quick button.active{background:var(--green);border-color:var(--green);color:#fff}
+.room-quick button:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+.mast-compact nav button{white-space:nowrap}

@@ -5,7 +5,7 @@ assert.equal(headerState(false,{width:375,y:500,delta:100,searchFocused:false}),
 assert.equal(headerState(true,{width:360,y:400,delta:-100,searchFocused:false}),false);
 assert.equal(headerState(true,{width:375,y:20,delta:0,searchFocused:false}),false);
 assert.equal(headerState(true,{width:375,y:600,delta:0,searchFocused:true}),false);
-assert.equal(headerState(false,{width:1280,y:600,delta:100,searchFocused:false}),false);
+assert.equal(headerState(false,{width:1280,y:600,delta:100,searchFocused:false}),true);
 assert.equal(headerState(true,{width:375,y:600,delta:1,searchFocused:false}),true);
 assert(read('src/mobile-ux.js').includes('mast-compensation'));assert(read('src/mobile-ux.js').includes("addEventListener('focusin'"));
 assert(read('construir.py').includes("'mobile-ux.css'"));
