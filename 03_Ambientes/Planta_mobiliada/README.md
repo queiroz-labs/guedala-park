@@ -1,13 +1,30 @@
 # Planta mobiliada geral
 
-## R02 — vigente · 24/10/2026
+## R03 — vigente · 30/10/2026
 
-Capturada do estudo interativo com a **geometria FreeCAD R45** e as cores R16. Inclui Bonnie, mesa Berlin com três cadeiras, banco com duas tampas, banheiro com portas de correr e interiores atuais.
+Capturada do estudo interativo com a **geometria FreeCAD R54** e a apresentação atual das cores R16/acabamentos do site, incluindo Sauge na parede da janela do box. Nenhum FCStd, orçamento ou decisão foi alterado. A imagem e as sete vistas substituem as capturas R02 da R45; o histórico fica no git.
 
-- [Planta mobiliada R02 (vista superior)](Planta_mobiliada_R02.png)
+- [Planta mobiliada R03 (vista superior)](Planta_mobiliada_R03.png)
 - Vistas 3D por ambiente: [apartamento](Vistas/00_Apartamento.png) · [sala e jantar](Vistas/01_Sala_e_jantar.png) · [quarto](Vistas/02_Quarto.png) · [escritório](Vistas/03_Escritorio.png) · [cozinha](Vistas/04_Cozinha.png) · [lavanderia](Vistas/05_Lavanderia.png) · [banheiro](Vistas/06_Banheiro.png)
 
 As imagens servem para o estudo preliminar e para mostrar o layout. Cores e materiais são aproximados, e as medidas não foram conferidas no apartamento. Não são prancha executiva. O programa correspondente está em [Programa de necessidades R01](../../01_Programa_e_decisoes/Programa_de_necessidades.md).
+
+### Diferenças visíveis em relação à R02
+
+Comparação lado a lado das oito imagens, com o mesmo quadro de 1005 × 649 px, câmeras, zoom e deslocamento. São diferenças da representação já existente no site, não escolhas novas ou comprovação física.
+
+| Vista | O que mudou na imagem |
+|---|---|
+| Planta superior | Pedestal Berlin indicado pela projeção tracejada sob o tampo; cadeira lateral na posição R54 (+15 mm); cama viúva atual menor que a reserva queen; lixeiras nas posições atuais; topos brancos visíveis. |
+| Apartamento | Reúne essas mudanças, a parede verde da janela do box e a apresentação atual das chapas. |
+| Sala e jantar | Cadeira lateral +15 mm e envelope atual da soundbar Philips TAB4000; o tampo oculta grande parte do pedestal nesta direção. |
+| Quarto | Cama viúva atual no cotidiano, em vez da antiga representação da queen; topos/fechamentos brancos da extração atual. Queen permanece reserva futura nos dados. |
+| Escritório | Monitores e TV43 com os envelopes/posições já presentes na cena atual; diferenças pequenas, sem nova implantação proposta nesta captura. |
+| Cozinha | Biovis deslocada +7 cm no eixo da cena; topos brancos e detalhamento frontal da extração atual. |
+| Lavanderia | Loop deslocada +6 cm no eixo da cena; topo branco do aéreo. Varal continua recolhido. |
+| Banheiro | Sauge também no pano da janela; ducha higiênica entre box e vaso; topo branco do espelheiro. |
+
+Todas as oito vistas foram refeitas; nenhuma ficou marcada como desatualizada. Chapas, acessórios e pisos continuam simplificados pelo renderizador. Conferência de enquadramento não demonstra medidas, montagem, resistência ou conformidade. A aparência verde vem do site; não se atribui alteração ao arquivo CAD R54.
 
 ## Procedimento de captura
 
@@ -15,7 +32,7 @@ As imagens servem para o estudo preliminar e para mostrar o layout. Cores e mate
 
 Captura somente o quadro da cena, em 1005 × 649 px e escala de tela 1, com câmeras da R02 recuperadas de `1b4aeaa:01_Projeto/Estudo_interativo/src/app.js`: inclinação 0,92; giros −0,62 (geral/sala/escritório), −2,4 (quarto), 2,8 (cozinha/banheiro) e 2,5 (lavanderia); planta perpendicular. Zoom 1 e deslocamento zero. O envelope óptico histórico `ymax=247` conserva o enquadramento: não é pé-direito e não altera a geometria.
 
-Cena cotidiana: sofá/mesa fechados, escritório em trabalho, PS5 na sala, varal recolhido, móveis altos visíveis, sem paredes completas, seleção, cotas ou corte interno. `captura.json` registra navegador, câmera, SHA do HTML/PNGs e limites projetados; fica fora do git. Confira as oito imagens e compare com as anteriores antes de substituir as vigentes. O script recusa gravar dentro do repositório ou sobre imagens existentes; nenhum FreeCAD é aberto.
+Cena cotidiana: sofá/mesa fechados, escritório em trabalho, PS5 na sala, varal recolhido, móveis altos visíveis, sem paredes completas, seleção, cotas ou corte interno. [Metadados da R03](Captura.json): navegador, câmera, SHA do HTML/PNGs e limites projetados. As comparações ficam fora do git. Confira as oito imagens antes de substituir as vigentes. O script recusa gravar dentro do repositório ou sobre imagens existentes; nenhum FreeCAD é aberto.
 
 ## R01 — histórico
 
@@ -29,7 +46,7 @@ Cena cotidiana: sofá/mesa fechados, escritório em trabalho, PS5 na sala, varal
 
 Base: P01, representação da planta oficial do final06. Desenho reconstituído a partir do contorno e cotas documentais, preservando quartos, circulação, banheiro e área integrada. Portas e contornos sem cota específica são aproximações gráficas; não é levantamento acabado ou planta executiva.
 
-## Decisões representadas
+### R01 — decisões representadas no estudo histórico
 
 Escritório conforme F89/F99 e R07/R10: bancada de70 cm de profundidade, largura200 cm em estudo; notebook à esquerda, dois monitores e PC à direita; Daiane fechado na lateral esquerda próximo à entrada, TV43 oposta. Cadeira ilustrativa, sem modelo escolhido. Armários altos, consoles e gavetas sob tampo omitidos na vista do piso, não removidos do projeto. Tela e cadeira não comprovam curso ou circulação.
 

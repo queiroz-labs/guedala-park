@@ -17,7 +17,7 @@
     {"id":"reforma","title":"Plano de reforma · rascunho","description":"Organização inicial para a NBR 16280; sem validade formal. O RT deve completar, assinar e protocolar.","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","revision":{"label":"Rascunho sem revisão numerada"},"status":"sem validade formal / pendente"},
     {"id":"cotada","title":"Planta com medidas","description":"Guia para imprimir, com cotas oficiais e trechos reconstruídos identificados.","path":"06_Entregas/Planta_cotada/index.html","revision":{"release":"cadRevision","prefix":"Base "},"status":"nominal / a confirmar"},
     {"id":"cotada-svg","title":"Planta cotada · desenho vetorial","description":"Desenho SVG das medidas do apartamento; conferir os fechamentos reconstruídos no imóvel.","path":"06_Entregas/Planta_cotada/Planta_cotada.svg","revision":{"release":"cadRevision","prefix":"Base "},"status":"nominal / a confirmar"},
-    {"id":"mobiliada","title":"Planta mobiliada · imagem","description":"Vista superior R02, capturada da base R45. Conferir diferenças contra o modelo corrente.","path":"03_Ambientes/Planta_mobiliada/Planta_mobiliada_R02.png","revision":{"state":"Planta mobiliada e vistas"},"status":"nominal / a confirmar"}
+    {"id":"mobiliada","title":"Planta mobiliada R03 · imagem","description":"Vista superior R03 da cena R54, com os acabamentos atuais do site. Imagem ilustrativa, sem cotas.","path":"03_Ambientes/Planta_mobiliada/Planta_mobiliada_R03.png","revision":{"state":"Planta mobiliada e vistas"},"status":"nominal / a confirmar"}
   ],
   "support": [
     "01_Programa_e_decisoes/Perguntas_em_aberto/Origens.csv",

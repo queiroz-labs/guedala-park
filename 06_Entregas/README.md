@@ -1,5 +1,7 @@
 # Entregas — manifesto e versões
 
+**Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R54, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
+
 **Ensaios de oficina, 28/10/2026:** [PDF e ZIP](Ensaios_oficina/README.md) com caderno, CSV vazio, verificador e fontes selecionadas. Todos pendentes de execução. Publicação no site autorizada por Elias nesta conversa: “pode fazer o push e atualizar o site com essas infos”.
 
 **Moodboard / pacote R27, 28/10/2026:** [seis pares, painéis 4K e A3](../09_Referencias/README.md), galeria Dia/Noite e ducha à esquerda do vaso no site/especificações. R27 renova o HTML e documentos do ZIP; R26 permanece preservado. CAD R54 intacto. Elias, nesta conversa: “Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.”
@@ -92,7 +94,7 @@ Busca nos Markdown de entrada e referências cruzadas em 26/10/2026: encaminhame
 | Referência sem substituição integral demonstrada | Pendência para Elias/projeto |
 |---|---|
 | `Dossie_marcenaria_R45.html` e [consulta R12](../ferramentas/site/fabrication/Consulta/README.md) | Nome/base R45 com trechos atualizados; usar fichas e estado como entrada. Não renomeado, apagado nem tratado como cópia integral da R52. |
-| [Planta mobiliada R02](../03_Ambientes/Planta_mobiliada/README.md), [programa R01](../01_Programa_e_decisoes/Programa_de_necessidades.md) e pranchas R00 | Documentam geometria R45; sem artefato substituto demonstrado nesta tarefa. Conferir vistas contra R52 numa integração autorizada; não trocar a revisão escrita sobre desenhos antigos. |
+| [Programa R01](../01_Programa_e_decisoes/Programa_de_necessidades.md) e pranchas R00 | Registro histórico da triagem: documentavam geometria R45. A planta mobiliada foi substituída pela R03/R54 em 30/10/2026, com capturas novas; não houve troca de revisão sobre imagem antiga. |
 | [Painel de decisões](../01_Programa_e_decisoes/Painel_de_decisoes.md) | Cabeçalho de pacote R18 e blocos datados chamados “vigente R44/R43”; ler como registro histórico onde superado pelo estado. Falta conciliar pacote e reorganizar a entrada sem perder fontes. |
 | [Registro de publicação](../ferramentas/site/Publicacao_GitHub_Pages.md) | “Revisão vigente R05” pertence ao registro de setembro; não é confirmação da versão online atual nem autorização de push nesta tarefa. |
 

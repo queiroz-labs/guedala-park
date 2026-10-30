@@ -1,0 +1,237 @@
+{
+  "revision": "R54",
+  "sourceHTMLSHA256": "85379a0cc9658792fe67bf1d5bf82f42904a686f40cc9db4ca480f89410512fa",
+  "browser": "156.0.4314.50",
+  "imageSize": [
+    1005,
+    649
+  ],
+  "cameraSource": "1b4aeaa:01_Projeto/Estudo_interativo/src/app.js",
+  "note": "ymax=247 é o envelope óptico histórico; não altera o pé-direito nem a geometria.",
+  "images": [
+    {
+      "file": "Planta_mobiliada_R03.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "all",
+        "view": "top",
+        "angle": -0.62,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        235.81944444444446,
+        85.18055555555554,
+        767.1805555555555,
+        587.8194444444445
+      ],
+      "bytes": 87280,
+      "sha256": "b0079d433ee5bec01de875cdab744af60e1f2aab292ceb437197fcf132f489a6"
+    },
+    {
+      "file": "Vistas/00_Apartamento.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "all",
+        "view": "iso",
+        "angle": -0.62,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        327.2995383088696,
+        122.87900166008077,
+        713.0833477957807,
+        561.8794967129561
+      ],
+      "bytes": 118099,
+      "sha256": "7eb3a8acd3ed6f6cc32da62ba20cde3b6bc951d44640daba0f0df0b4a1028d47"
+    },
+    {
+      "file": "Vistas/01_Sala_e_jantar.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "sala",
+        "view": "iso",
+        "angle": -0.62,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        411.6095671488846,
+        124.55746463782123,
+        704.4937576413496,
+        579.5092470052757
+      ],
+      "bytes": 85644,
+      "sha256": "3f26b77226cff003ea42a4d0e6807a9a614dc3424997aad3c917f39aec988464"
+    },
+    {
+      "file": "Vistas/02_Quarto.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "quarto",
+        "view": "iso",
+        "angle": -2.4,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        393.96510995831903,
+        91.54462519829048,
+        718.6654557794394,
+        490.9405602176952
+      ],
+      "bytes": 78541,
+      "sha256": "ed54613e824b552bb9b008c9369399b822bd6f9981a6d001b74dadf18cbec0d1"
+    },
+    {
+      "file": "Vistas/03_Escritorio.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "escritorio",
+        "view": "iso",
+        "angle": -0.62,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        307.12611515762137,
+        155.78179007694524,
+        685.1873928696596,
+        503.95458227292386
+      ],
+      "bytes": 81844,
+      "sha256": "e3b6c2e4b8aa24c1b0e791c84585137cf280697516bea8e680f109a15fb07ab1"
+    },
+    {
+      "file": "Vistas/04_Cozinha.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "cozinha",
+        "view": "iso",
+        "angle": 2.8,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        397.42554614108406,
+        115.73633786048993,
+        765.8508877829764,
+        580.0386683803065
+      ],
+      "bytes": 96291,
+      "sha256": "93943e41c119ff307f3fe8948b4b25a5ce2add63e7310d56ba98f36b4fa25568"
+    },
+    {
+      "file": "Vistas/05_Lavanderia.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "lavanderia",
+        "view": "iso",
+        "angle": 2.5,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        385.85977392500416,
+        113.75211987261508,
+        653.3847725513275,
+        562.1875701356397
+      ],
+      "bytes": 54962,
+      "sha256": "9dbe516b5f612903be056498a24fea6bbb530dc5260b944e06a74f0b47cfa37f"
+    },
+    {
+      "file": "Vistas/06_Banheiro.png",
+      "canvas": [
+        1003,
+        647
+      ],
+      "renderer": "depth",
+      "camera": {
+        "room": "banho",
+        "view": "iso",
+        "angle": 2.8,
+        "tilt": 0.92,
+        "zoom": 1,
+        "pan": [
+          0,
+          0
+        ],
+        "ymax": 247
+      },
+      "projectedBounds": [
+        350.8581283040967,
+        151.93396359546944,
+        694.8454307345074,
+        578.5639846604079
+      ],
+      "bytes": 62237,
+      "sha256": "084a76cf1e40b0fc939b46ec7c5195a9fc4ae2558cd9c6efc657f0c5783dd937"
+    }
+  ]
+}
