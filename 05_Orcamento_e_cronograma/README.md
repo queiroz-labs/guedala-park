@@ -1,5 +1,7 @@
 # Orçamento e cronograma
 
+[Comparador de cotações: modelos, cobertura e custo equivalente](Orcamento/Cotacoes/README.md): sem propostas reais; decisão pendente.
+
 ## Risco do cronograma — escopo registrado em 29/10/2026
 
 **Resultado:** rede documental ampliada de 21 para **29 nós, sem ciclos**, com cotação, contratação e abastecimento. **P50/P80, probabilidades dos marcos e caminho crítico global continuam indeterminados**: faltam durações, modas e ligações da conclusão da obra. Foram executados **zero cenários do projeto**, sem preencher lacunas com zero, uniforme ou moda central. Os 5.000 cenários dos testes são sintéticos.

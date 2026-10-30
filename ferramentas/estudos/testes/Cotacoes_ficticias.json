@@ -1,0 +1,24 @@
+{
+  "rotulo": "FICTÍCIO — preços e condições apenas para testes, sem proposta real",
+  "propostas": [
+    {
+      "fornecedor": "F01",
+      "campos": {
+        "escopo": {"valor": "integral", "unidade": "", "origem": "FICTÍCIO: fixture, linha 1"},
+        "preco_total": {"valor": "1000,00", "unidade": "BRL", "origem": "FICTÍCIO: fixture, linha 2"}
+      },
+      "linhas": {
+        "L001": {
+          "situacao": {"valor": "incluida", "unidade": "", "origem": "FICTÍCIO: fixture, linha 3"},
+          "quantidade": {"valor": "2", "unidade": "chapa", "origem": "FICTÍCIO: fixture, linha 3"},
+          "formato": {"valor": "2750x1850", "unidade": "mm", "origem": "FICTÍCIO: fixture, linha 3"}
+        },
+        "L051": {
+          "situacao": {"valor": "incluida", "unidade": "", "origem": "FICTÍCIO: fixture, linha 4"},
+          "quantidade": {"valor": "7", "unidade": "par", "origem": "FICTÍCIO: fixture, linha 4"},
+          "marca_modelo": {"valor": "Produto fictício substituto", "unidade": "", "origem": "FICTÍCIO: fixture, linha 4"}
+        }
+      }
+    }
+  ]
+}

@@ -94,6 +94,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Cotação:** [auditoria](06_Entregas/Cotacao/README.md): 101 linhas; zero erros aritméticos; P19 mantém bases distintas.
 
+**Cotações:** [comparador](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md), sem propostas reais.
+
 ## Próximos passos
 
 1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
@@ -104,9 +106,9 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- Siga [AGENTS.md](AGENTS.md); comece com `git status`. Leia o README da área; busque no Registro, sem leitura integral. [Mapa](README.md).
-- [Verificadores](ferramentas/README.md): geral antes de cada commit; completo após abrir CAD; clone limpo com `--ci` antes de push. Commits pequenos por assunto.
-- Não rode macros antigas que salvam/fecham documentos nem sobrescreva o modelo em consultas. Em itens condicionados a campo/oficina, registre a dúvida e siga.
+- [AGENTS.md](AGENTS.md): `git status`, README da área e busca no Registro, sem leitura integral. [Mapa](README.md).
+- [Verificações](ferramentas/README.md): geral antes de commit; completo após abrir CAD; clone limpo `--ci` antes de push. Commit pequeno por assunto.
+- Não usar macros que salvam/fecham documentos nem sobrescrever modelo em consultas. Campo/oficina pendentes: registre a dúvida e siga.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.

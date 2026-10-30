@@ -1,0 +1,176 @@
+﻿linha;grupo;item;movel;padrao;espessura_mm;formato;quantidade;unidade;quantidade_com_perda;base;fonte;observacao
+L001;chapas;Arenza;;Arenza;18.0;2750x1850;3;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"39 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L002;chapas;Azul Petroleo;;Azul Petroleo;18.0;2750x2100;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"20 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L003;chapas;Beige Matt;;Beige Matt;18.0;2750x1850;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"2 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L004;chapas;Branco TX;;Branco TX;15.0;2750x1850;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"35 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L005;chapas;Branco TX;;Branco TX;16.0;2750x1850;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"8 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L006;chapas;Branco TX;;Branco TX;18.0;2750x2100;5;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"101 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L007;chapas;Louro Freijo Poro;;Louro Freijo Poro;18.0;2750x1850;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"4 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L008;chapas;Off-white fosco;;Off-white fosco;18.0;2750x1850;1;chapa;;"estimativa nominal; subconjunto integral";04_Moveis/Proximas_decisoes/Corte_e_formatos/Chapas_cotacao.csv;"7 painéis; formato do conjunto misto do README de 28/10; confirmar SKU, blank e processo."
+L009;fita_sem_regra;PlacaL;P02;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L010;fita_sem_regra;PlacaL001;P02;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L011;fita_sem_regra;LateralApoioPrincipal;P02;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L012;fita_sem_regra;MontagemG2R016;P06;;15.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L013;fita_sem_regra;MontagemG2R017;P06;;15.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L014;fita_sem_regra;MontagemG2R018;P06;;15.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L015;fita_sem_regra;ReguaInferiorBaixaR31;P07;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L016;fita_sem_regra;ReguaInferiorAltaR31;P07;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L017;fita_sem_regra;ReguaSuperiorBaixaR31;P07;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L018;fita_sem_regra;ReguaSuperiorAltaR31;P07;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L019;fita_sem_regra;PecaBaixaR002;P08;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L020;fita_sem_regra;PecaBaixaR003;P08;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L021;fita_sem_regra;ApoioCestoC03R31;P14;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L022;fita_sem_regra;BC43_LateralE;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L023;fita_sem_regra;BC43_LateralD;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L024;fita_sem_regra;BC43_Base;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L025;fita_sem_regra;BC43_Travessa;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L026;fita_sem_regra;BC43_CaixaE;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L027;fita_sem_regra;BC43_CaixaD;P18;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao calcular perimetro recortado pelo envelope"
+L028;fita_sem_regra;Ref_Sarrafo_tras0R31;P20;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L029;fita_sem_regra;Ref_Sarrafo_tras1R31;P20;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L030;fita_sem_regra;Ref_Sarrafo_tras2R31;P20;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L031;fita_sem_regra;Ref_Sarrafo_tras3R31;P20;;18.0;;;;;"pendente; vazio não é zero";04_Moveis/Furacao/Fita_por_peca.csv;"descricao/exposicao pendente; nao inferir comprimento pela maior dimensao"
+L032;fita;Arauco Beige Matt;;Arauco Beige Matt;1.0;;3.168;m;3.4848;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L033;fita;Arauco Louro Freijó Poro;;Arauco Louro Freijó Poro;0.45;;1.5;m;1.65;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L034;fita;Arenza liso (referencia nominal);;Arenza liso (referencia nominal);0.45;;19.508;m;21.4588;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L035;fita;Arenza liso (referencia nominal);;Arenza liso (referencia nominal);1.0;;55.105;m;60.6155;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L036;fita;Branco TX;;Branco TX;0.45;;49.732;m;54.7052;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L037;fita;Branco TX;;Branco TX;1.0;;19.234;m;21.1574;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L038;fita;Guararapes Azul Petróleo;;Guararapes Azul Petróleo;0.45;;8.159;m;8.9749;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L039;fita;Guararapes Azul Petróleo;;Guararapes Azul Petróleo;1.0;;16.526;m;18.1786;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L040;fita;Off-white fosco;;Off-white fosco;0.45;;3.064;m;3.3704;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L041;fita;Off-white fosco;;Off-white fosco;1.0;;8.352;m;9.1872;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L042;fita;Padrao a definir;;Padrao a definir;0.45;;1.404;m;1.5444;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L043;fita;Padrao a definir;;Padrao a definir;1.0;;5.384;m;5.9224;"regra proposta; perda 10%";04_Moveis/Furacao/Fita_por_cor.csv;"Espessura desta linha é da fita; não da chapa. Cor nominal não confirma SKU."
+L044;ferragens;Articuladores com trava das tampas;;;;;4.0;unidades (1 par por tampa);;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Bigfer 04.03.185/183 epóxi branco (dir./esq.) ou equivalente conferido na peça
+L045;ferragens;Base Blum 173H7100;;;;;52.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Blum173H7100, cruz, distância0, niquelado
+L046;ferragens;Batentes de curso;;;;;4.0;contato de parada;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Propostas dimensionais próprias, não acessórios homologados RO25
+L047;ferragens;Cavilhas Ø8x30;;;;;8.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Ø8 ×30
+L048;ferragens;Cavilhas Ø8x30;;;;;519.0;unidade;;proposta condicional;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"267.82.230; face12/topo20 propostos em18mm; SKU a confirmar"
+L049;ferragens;Confirmat 7x50;;;;;4.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"7 ×50; referência de tipo GTV WK-CF0750-01"
+L050;ferragens;Confirmat 7x50;;;;;203.0;unidade;;proposta condicional;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;catalogo de referencia, SKU a confirmar
+L051;ferragens;Corrediça FGVTN500;;;;;7.0;par;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada
+L052;ferragens;Corrediça MOVENTO400;;;;;2.0;par;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;BlumMOVENTO760H4000S, BLUMOTION S, classe40kg
+L053;ferragens;Dobradiça Blum 71B3550;;;;;52.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Blum CLIP top BLUMOTION71B3550, reta, parafusada, niquelada
+L054;ferragens;Dobradiça piano das tampas 971 e 825;;;;;2.0;trechos cortados de 1–2 barras;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Piano aço zincado 1800 × 30 mm (Mega Full USH-160) ou 2000 × 30; referência dimensional Mahler Ref.54"
+L055;ferragens;Engates;;;;;2.0;par;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;BlumT51.7601 E/D
+L056;ferragens;Engates FGVTN500 incluidos;;;;;7.0;par;;"incluido no kit; nao somar compra";04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"engate convencional correspondente; confirmar embalagem"
+L057;ferragens;Espaçadores dos rodízios;;;;;6.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Chapa metálica plana rígida de 1 mm; 38 × 20 mm nominais, pelo contorno da chapa real"
+L058;ferragens;Ferramenta compartilhada;;;;;1.0;ferramenta compartilhada;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;BlumT65.1000.02
+L059;ferragens;Grelhas removíveis sob medida;;;;;2.0;peça;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Inox304, chapa1,5;600 ×90mm,12 rasgos por grelha"
+L060;ferragens;Guias laterais de marcenaria;;;;;2.0;faixa;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Faixa3mm + corrida2mm de estudo
+L061;ferragens;Kits RO25 para uma folha;;;;;2.0;kit;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;RometalRO25, montagem sobreposta no conjuntoBC43
+L062;ferragens;Kits de correr RO62 para uma folha;;;;;4.0;kit;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032"
+L063;ferragens;Limitador 86;;;;;52.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Blum70T3553
+L064;ferragens;Mecanismo do cesto preservado;;;;;1.0;conjunto;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Conjunto a dimensionar para frente550×521×18, saco400×200×400, curso55°
+L065;ferragens;Minifix 15;;;;;316.0;conjunto;;proposta condicional;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"262.26.034 + S100262.28.920; passagem Ø7; SKU a confirmar"
+L066;ferragens;Parafuso face a face;;;;;52.0;unidade;;proposta condicional;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;catalogo de referencia, SKU a confirmar
+L067;ferragens;Parafusos;;;;;302.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"4 ×50 | Blum609.1500, Ø3,5×15 mm | M4; comprimento e cabeça a fechar | M6 ×100, cabeça nominalØ10 ×6 | Ø3,5×12 CF | Ø3,5×14 CC | Ø3,5×22 CC"
+L068;ferragens;Porcas transversais;;;;;4.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Häfele264.82.014 como referência dimensional M6 Ø10 ×14
+L069;ferragens;Rodízios fixos da gaveta baixa;;;;;6.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Leão Aço, kit 6 fixos, roda Ø30 mm, altura 38 mm; Magalu ajk5b9dh7c / Metalaçoecommerce"
+L070;ferragens;Roscas retidas das grelhas;;;;;8.0;posição de rosca;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Placa/porca metálica M4 retida, desmontável; seção e fixação a detalhar"
+L071;ferragens;Réguas de apoio das grelhas;;;;;4.0;régua proposta;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"577 ×18 ×18mm; conectores a definir"
+L072;ferragens;Suportes centrais dos dois varões longos;;;;;2.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Häfele 802.02.220 para a alternativa Ø20
+L073;ferragens;Suportes de prateleira;;;;;8.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;Häfele282.04.711
+L074;ferragens;Suportes terminais dos varões;;;;;8.0;unidade;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Ø20 Häfele 803.51.702; alternativa Ø25 Bigfer 9168010111"
+L075;ferragens;Trilhos BC43;;;;;4.0;trecho564mm;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;RometalRM026
+L076;ferragens;Trilhos inferiores;;;;;4.0;trecho;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;RometalRM-023
+L077;ferragens;Trilhos superiores;;;;;4.0;trecho;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;RometalRM-025
+L078;ferragens;Varões, cortes nominais;;;;;4.0;corte;;documental;04_Moveis/Furacao/Ferragens_por_movel.csv / Ferragens_totais.csv;"Candidato Ø20 Häfele 801.01.702; alternativa Ø25 Bigfer 0907266400"
+L079;paineis;P01;P01;;;;43;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P01-pecas.csv;"39 no corte; 4 excluídos do corte; 0 sem regra de fita."
+L080;paineis;P02;P02;;;;10;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P02-pecas.csv;"4 no corte; 6 excluídos do corte; 3 sem regra de fita."
+L081;paineis;P03;P03;;;;7;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P03-pecas.csv;"7 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L082;paineis;P04;P04;;;;14;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P04-pecas.csv;"6 no corte; 8 excluídos do corte; 0 sem regra de fita."
+L083;paineis;P05;P05;;;;7;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P05-pecas.csv;"7 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L084;paineis;P06;P06;;;;21;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P06-pecas.csv;"20 no corte; 1 excluídos do corte; 3 sem regra de fita."
+L085;paineis;P07;P07;;;;11;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P07-pecas.csv;"10 no corte; 1 excluídos do corte; 4 sem regra de fita."
+L086;paineis;P08;P08;;;;8;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P08-pecas.csv;"6 no corte; 2 excluídos do corte; 2 sem regra de fita."
+L087;paineis;P09;P09;;;;8;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P09-pecas.csv;"8 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L088;paineis;P10;P10;;;;10;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P10-pecas.csv;"10 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L089;paineis;P11;P11;;;;8;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P11-pecas.csv;"8 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L090;paineis;P12;P12;;;;8;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P12-pecas.csv;"8 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L091;paineis;P13;P13;;;;1;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P13-pecas.csv;"1 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L092;paineis;P14;P14;;;;10;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P14-pecas.csv;"10 no corte; 0 excluídos do corte; 1 sem regra de fita."
+L093;paineis;P15;P15;;;;7;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P15-pecas.csv;"7 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L094;paineis;P16;P16;;;;17;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P16-pecas.csv;"15 no corte; 2 excluídos do corte; 0 sem regra de fita."
+L095;paineis;P17;P17;;;;13;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P17-pecas.csv;"13 no corte; 0 excluídos do corte; 0 sem regra de fita."
+L096;paineis;P18;P18;;;;10;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P18-pecas.csv;"6 no corte; 4 excluídos do corte; 6 sem regra de fita."
+L097;paineis;P19;P19;;;;9;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P19-pecas.csv;"6 no corte; 3 excluídos do corte; 0 sem regra de fita."
+L098;paineis;P20;P20;;;;27;painel;;"20 móveis integrais; inclui adiados";06_Entregas/Fichas_fabricacao/P20-pecas.csv;"25 no corte; 2 excluídos do corte; 4 sem regra de fita."
+L099;limite;Ferragens sem quantidade ou incluídas em kit;;;;;;;;não somar como zero;04_Moveis/Furacao/Ferragens_pendentes.csv;"40 linhas a esclarecer; não duplicar componentes de kit."
+L100;comparacao_nao_somar;Minifix documentais;;;;;52;conjunto;;"referência anterior; não somar aos 316";04_Moveis/Furacao/Ferragens_documentais.csv;"P10=20, P11=12, P15=8, P19=12; mapa P19=8, diferença 4 não decidida."
+L101;comparacao_nao_somar;Fita com perda por peça;;;;;210.2498;m;;"comparação; não somar à fita por cor";04_Moveis/Furacao/Fita_por_peca.csv;"Soma por cor=210.2496 m; diferença de arredondamento, sem escolher valor."
+CORTE-Peca206;lacuna_corte;Peca206;P01;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca207;lacuna_corte;Peca207;P01;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca247;lacuna_corte;Peca247;P01;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca248;lacuna_corte;Peca248;P01;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-PlacaL;lacuna_corte;PlacaL;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-PlacaL001;lacuna_corte;PlacaL001;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteSimplesR04;lacuna_corte;FrenteSimplesR04;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteSimplesR001;lacuna_corte;FrenteSimplesR001;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FaixaQuinaAR04;lacuna_corte;FaixaQuinaAR04;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FaixaQuinaBR04;lacuna_corte;FaixaQuinaBR04;P02;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca266;lacuna_corte;Peca266;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca267;lacuna_corte;Peca267;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca269;lacuna_corte;Peca269;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteComumR015;lacuna_corte;FrenteComumR015;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteComumR016;lacuna_corte;FrenteComumR016;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteComumR017;lacuna_corte;FrenteComumR017;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FaixaFixaEstudo;lacuna_corte;FaixaFixaEstudo;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteVizinhaR18;lacuna_corte;FrenteVizinhaR18;P04;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-MontagemG2R019;lacuna_corte;MontagemG2R019;P06;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca307;lacuna_corte;Peca307;P07;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-PecaBaixaR036;lacuna_corte;PecaBaixaR036;P08;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-PecaBaixaR037;lacuna_corte;PecaBaixaR037;P08;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca367;lacuna_corte;Peca367;P16;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca368;lacuna_corte;Peca368;P16;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BC43_LateralE;lacuna_corte;BC43_LateralE;P18;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BC43_LateralD;lacuna_corte;BC43_LateralD;P18;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BC43_Base;lacuna_corte;BC43_Base;P18;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BC43_Travessa;lacuna_corte;BC43_Travessa;P18;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-Peca403;lacuna_corte;Peca403;P19;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteComumR019;lacuna_corte;FrenteComumR019;P19;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-FrenteComumR020;lacuna_corte;FrenteComumR020;P19;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BancoR43_Painel1;lacuna_corte;BancoR43_Painel1;P20;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+CORTE-BancoR43_Painel2;lacuna_corte;BancoR43_Painel2;P20;;;;;;;;04_Moveis/Plano_de_corte/Lista_de_corte.csv;
+FER-PEND-01;lacuna_ferragem;Ligações dos painéis da carcaça;P01;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-02;lacuna_ferragem;Parafusos da retenção RO62;P01;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-03;lacuna_ferragem;Fixadores das guias/engates FGVTN500;P01;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-04;lacuna_ferragem;Ligações dos painéis da carcaça;P02;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-05;lacuna_ferragem;Suspensão do móvel e interface com a parede;P02;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-06;lacuna_ferragem;Ligações dos painéis da carcaça;P03;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-07;lacuna_ferragem;Suspensão do móvel e interface com a parede;P03;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-08;lacuna_ferragem;Parafusos da retenção RO62;P03;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-09;lacuna_ferragem;Ligações dos painéis da carcaça;P04;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-10;lacuna_ferragem;Suspensão do móvel e interface com a parede;P04;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-11;lacuna_ferragem;Ligações dos painéis da carcaça;P05;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-12;lacuna_ferragem;Ligações dos painéis da carcaça;P06;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-13;lacuna_ferragem;Fixadores das guias/engates FGVTN500;P06;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-14;lacuna_ferragem;Ligações dos painéis da carcaça;P07;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-15;lacuna_ferragem;Batente removível para limpeza;P08;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-16;lacuna_ferragem;Ligações dos painéis da carcaça;P08;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-17;lacuna_ferragem;Fixadores dos rodízios;P08;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-18;lacuna_ferragem;Ligações dos painéis da carcaça;P09;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-19;lacuna_ferragem;Suspensão do móvel e interface com a parede;P09;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-20;lacuna_ferragem;Ligações dos painéis da carcaça;P10;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-21;lacuna_ferragem;Suspensão do móvel e interface com a parede;P10;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-22;lacuna_ferragem;Ligações dos painéis da carcaça;P11;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-23;lacuna_ferragem;Suspensão do móvel e interface com a parede;P11;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-24;lacuna_ferragem;Ligações dos painéis da carcaça;P12;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-25;lacuna_ferragem;Suspensão do móvel e interface com a parede;P12;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-26;lacuna_ferragem;Fixações do apoio do micro-ondas;P13;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-27;lacuna_ferragem;Ligações dos painéis da carcaça;P13;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-28;lacuna_ferragem;Ligações dos painéis da carcaça;P14;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-29;lacuna_ferragem;Ligações dos painéis da carcaça;P15;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-30;lacuna_ferragem;Suspensão do móvel e interface com a parede;P15;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-31;lacuna_ferragem;Ligações dos painéis da carcaça;P16;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-32;lacuna_ferragem;Parafusos de fixação das guias MOVENTO;P16;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-33;lacuna_ferragem;Ligações dos painéis da carcaça;P17;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-34;lacuna_ferragem;Suspensão do móvel e interface com a parede;P17;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-35;lacuna_ferragem;Ligações dos painéis da carcaça;P18;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-36;lacuna_ferragem;Suspensão do móvel e interface com a parede;P18;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-37;lacuna_ferragem;Ligações dos painéis da carcaça;P19;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-38;lacuna_ferragem;Suspensão do móvel e interface com a parede;P19;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-39;lacuna_ferragem;Ligações dos painéis da carcaça;P20;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+FER-PEND-40;lacuna_ferragem;Limitação independente da abertura das tampas;P20;;;;;;;;04_Moveis/Furacao/Ferragens_pendentes.csv;
+P19-MINIFIX;divergencia;P19: 12 documentais versus 8 no mapa;P19;;;;;;;;06_Entregas/Cotacao/README.md;
