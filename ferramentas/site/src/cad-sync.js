@@ -5,14 +5,14 @@ function cadFaceColor(n,normal,triangle=null){
  const finish=n.visualFinish;
  if(!finish||n.finishHighlight)return n.c;
  if(triangle!==null&&finish.triangles)return color(finish.triangles[triangle]);
- if(finish.inner&&normal[finish.axis]*finish.outward<-.5)return color(finish.inner);
+ if(finish.inner&&normal[finish.axis]*finish.outward<-.5)return color(finish.inner==='whiteTX'&&n.look?n.look:finish.inner);
  return n.c;
 }
 // Camera movement uses the same geometry and per-face finishes as the settled view.
 // Meshes are cached in world coordinates; the renderer handles camera transforms.
 function cadMesh(n){
  let variants=CAD_MESHES.get(n.v);if(!variants){variants=new Map();CAD_MESHES.set(n.v,variants);}
- const key=[n.x,n.y,n.z,n.c,n.opacity??1,!!n.finishHighlight,VISUAL_FINISHES.revision].join('|');
+ const key=[n.x,n.y,n.z,n.c,n.opacity??1,!!n.finishHighlight,n.look||'',VISUAL_FINISHES.revision].join('|');
  if(variants.has(key))return variants.get(key);
  const finish=faces=>{if(variants.size>=4)variants.clear();variants.set(key,faces);return faces;};
  let cached=CAD_NORMALS.get(n.v)||n.preparedMesh;
@@ -43,7 +43,10 @@ function applyCadSync(scene,st){
   // three chairs on the free side. Only the open use demonstration pulls out.
   if(n.id==='diningchairs'&&st.table==='extended'&&st.dining==='use')n.x-=34;
   n.visualFinish=VISUAL_FINISHES.parts[part.finishSource||part.source];
-  if(n.visualFinish){n.mat=n.visualFinish.material;n.c=color(n.mat);}
+  // Só na visualização: onde a chapa seria Branco TX, o 3D usa a cor do próprio móvel (o acabamento real não muda).
+  const code=(part.module||'').match(/P\d\d/)?.[0],look=VISUAL_FINISHES.modules[code];
+  if(look&&look!=='mirror'&&look!=='whiteTX')n.look=look;
+  if(n.visualFinish){n.mat=n.visualFinish.material==='whiteTX'&&n.look?n.look:n.visualFinish.material;n.c=color(n.mat);}
   if(Array.isArray(st.focusPart)?st.focusPart.includes(part.source):st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
   result.push(n);
  }
