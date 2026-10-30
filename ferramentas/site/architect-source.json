@@ -10,6 +10,33 @@
     "Responsável técnico e aprovação":"Plano em rascunho; profissional não contratado.",
     "Levantamento no imóvel":"Registros preparados; levantamento depende das chaves."
   },
+  "glossary": [
+    {"id":"modelo","term":"{cadRevision}","definition":"Revisão vigente do modelo do projeto. Não comprova medidas reais nem execução.","path":"ESTADO_ATUAL.md"},
+    {"id":"bc43","term":"BC43","definition":"Estudo do gabinete do banheiro e sua relação com porta, box e acesso. Cotas e compatibilização a conferir.","path":"03_Ambientes/Banheiro/Conferencia_bancada_porta.md"},
+    {"id":"pr-pto","term":"PR / PTO","definition":"Códigos de posições e pontos do projeto. Pontos reais dependem do levantamento; PR exige um ponto de partida documentado.","path":"07_Imovel/README.md"},
+    {"id":"e21","term":"E21 / GN","definition":"Aquecedor Rinnai E21 REU-E211 FEH a gás natural. Instalação, exaustão e ligações permanecem pendentes.","path":"03_Ambientes/Equipamentos/README.md"},
+    {"id":"tug","term":"TUG","definition":"Pontos de tomadas previstos por recinto. O estudo separa a previsão em VA das potências de aparelhos em W.","path":"03_Ambientes/Planta_pontos/Quadro_cargas.md"},
+    {"id":"dr","term":"DR","definition":"Proteção adicional citada no estudo elétrico. Tipo, abrangência e coordenação precisam de definição pelo RT.","path":"03_Ambientes/Planta_pontos/Quadro_cargas.md"},
+    {"id":"rt","term":"RT","definition":"Responsável técnico por projeto e execução, identificado por CAU/CREA e registros de responsabilidade. Contratação pendente.","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md"},
+    {"id":"art-rrt","term":"ART / RRT","definition":"Registros de responsabilidade de projeto e execução previstos no plano de reforma; documentos ainda pendentes.","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md"},
+    {"id":"nbr5410","term":"NBR 5410","definition":"Referência do estudo de elétrica. Edição aplicável, dimensionamento e conformidade precisam de conferência técnica.","path":"03_Ambientes/Planta_pontos/Quadro_cargas.md"},
+    {"id":"nbr13103","term":"NBR 13103","definition":"Norma de gás citada nos manuais consultados. O projeto registra que seu texto não foi conferido.","path":"03_Ambientes/Gas_natural/README.md"},
+    {"id":"nbr15575","term":"NBR 15575","definition":"Referência de desempenho e acústica do estudo. Não há comprovação do desempenho real do piso deste apartamento.","path":"03_Ambientes/Acustica/README.md"},
+    {"id":"nbr16280","term":"NBR 16280","definition":"Referência do plano de reforma, ainda em rascunho. Exigências e documentos devem ser fechados com RT e condomínio.","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md"},
+    {"id":"d01-d06","term":"D01 D02 D03 D04 D05 D06","definition":"Perguntas numeradas de escopo, amostras, iluminação e implantação. Respostas estão no roteiro; propostas e execução seguem condicionadas.","path":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md"},
+    {"id":"t0","term":"T0","definition":"Ensaio sem carga para conferir montagem e acesso aos conectores. Não comprova resistência; execução física não registrada.","path":"04_Moveis/P04/Suspensao_P04_P15/README.md"}
+  ],
+  "globalNotice":"Tudo aqui é de projeto; medidas reais só depois das chaves",
+  "tabDescriptions": {
+    "architect":"Resumo, etapas e responsáveis para revisão.",
+    "model":"Desenho e fichas; movimentos simulados.",
+    "mood":"Projeto por ambiente; conferir amostras.",
+    "decisions":"Escolhas a conferir.",
+    "documents":"Fontes e fichas.",
+    "chaves":"Registro local das medidas de campo.",
+    "obra":"Etapas e dependências da obra.",
+    "floorplan":"Cotas oficiais e reconstruções identificadas."
+  },
   "disciplines": [
     {"id":"eletrica","title":"Elétrica · NBR 5410","text":"Pontos e cargas parciais registrados; circuitos, proteções e posições reais dependem do RT.","path":"03_Ambientes/Planta_pontos/README.md","owners":["RT"],"ownerSource":"03_Ambientes/Planta_pontos/README.md","ownerQuote":"RT confere pontos da construtora, quadro, circuitos","measurement":true},
     {"id":"gas","title":"Gás · NBR 13103","text":"Gás natural previsto; ventilação, exaustão e instalação do E21 precisam de conferência técnica.","path":"03_Ambientes/Gas_natural/README.md","owners":["RT"],"ownerSource":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","ownerQuote":"GN/ventilação/exaustão E21","measurement":true},

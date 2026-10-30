@@ -36,4 +36,5 @@ const tabs=vm.runInContext(workshop.match(/const WORK_TABS=\{[^}]+\};/)[0]+'WORK
 for(const [old,target] of [['materiais','mood'],['planta','floorplan'],['documentos','documents'],['ambientes','model'],['escolhas','decisions']])assert.equal(tabs[old],target,old);
 assert.equal(tabs.chaves,'chaves');
 assert.equal(tabs.obra,'obra');
+assert.equal(tabs.arquiteto,'architect');
 console.log(JSON.stringify({tabs:7,status:tally,legacyLinks:Object.keys(tabs).length}));

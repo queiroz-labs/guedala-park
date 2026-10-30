@@ -4,7 +4,7 @@
  function find(query,index,limit=40){
   const q=normalize(query);if(!q)return [];const terms=q.split(/\s+/);
   return index.filter(r=>terms.every(t=>r.tokens.split(' ').some(w=>w.startsWith(t)))).sort((a,b)=>{
-   const rank=r=>normalize(r.title)===q?0:normalize(r.title).startsWith(q)?1:2;
+   const rank=r=>/^p\d{2}$/.test(q)&&r.kind==='module'&&normalize(r.id)===q?-1:normalize(r.title)===q?0:normalize(r.title).startsWith(q)?1:2;
    return rank(a)-rank(b)||a.title.localeCompare(b.title,'pt-BR');
   }).slice(0,limit);
  }

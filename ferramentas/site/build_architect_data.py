@@ -47,14 +47,21 @@ def build():
         cells=[plain(c) for c in line.strip('|').split('|')]
         if len(cells)==3 and re.match(r'\d',cells[1]) and '%' in cells[1]:progress.append(dict(stage=cells[0],percent=cells[1],reading=cells[2].split(';')[0],source='ESTADO_ATUAL.md'))
     assert len(progress)==9,'Tabela de etapas mudou: revisar o extrator'
-    for p in progress:p['reading']=source['progressBrief'].get(p['stage'],p['reading'])
+    for p in progress:
+        original=p['reading'];p['reading']=source['progressBrief'].get(p['stage'],original)
+        if p['stage']=='Orçamento':p['reading']=original+'; propostas pendentes.'
     def bullet(label):return plain(re.search(r'- \*\*'+label+r':\*\* (.+)',state)[1])
     overview=dict(project=plain(state.split('## O projeto',1)[1].split('\n\n')[1]),objective=bullet('Objetivo'),budget=bullet('Verba'),model=release['cadRevision'],notice='Tudo nominal até o levantamento real',source='ESTADO_ATUAL.md')
     for d in source['disciplines']:
         assert (ROOT/d['path']).exists(),d['path']
         if d['ownerSource']:assert d['ownerQuote'].lower() in (ROOT/d['ownerSource']).read_text(encoding='utf-8').lower(),d['id']
     for d in source['disciplines']:d['owners']=d['owners'] or ['a definir']
-    data=dict(overview=overview,progress=progress,itemResponsibilities=responsibilities(),**source)
+    for g in source['glossary']:g['term']=g['term'].replace('{cadRevision}',release['cadRevision'])
+    for m in literal(HERE/'src/cad-data.js','CAD_DATA')['modules']:
+        source['glossary'].append(dict(id=m['code'].lower(),term=m['code'],definition='Código do móvel '+m['name']+'. Consulte a ficha; medidas são de projeto.',path='06_Entregas/Fichas_fabricacao/'+m['code']+'.html'))
+    revisions=dict(architect=release['cadRevision'],model=release['cadRevision'],mood=release['appearanceRevision'],decisions=release['cadRevision']+'/'+release['lightingRevision'],documents=release['packageRevision']+'/'+release['fabricationRevision'],chaves=release['fabricationRevision'],obra=re.search(r'\| Cronograma \| ([^;|]+)',state)[1].strip(),floorplan=release['cadRevision'])
+    contexts={id:dict(text=text,revision=revisions[id]) for id,text in source['tabDescriptions'].items()}
+    data=dict(overview=overview,progress=progress,itemResponsibilities=responsibilities(),tabContexts=contexts,**source)
     import io
     stream=io.StringIO(newline='');writer=csv.writer(stream)
     writer.writerow(['id','pendencia','ambiente','responsavel'])

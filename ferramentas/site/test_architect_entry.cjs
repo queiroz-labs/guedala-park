@@ -15,4 +15,11 @@ const rows=[...d.disciplines,...d.itemResponsibilities],counts=core.ownerCounts(
 assert.equal(core.ownerItems(rows,'todos').length,8+pending);assert(counts.RT>0);assert(counts['a definir']>0);
 assert.equal(core.ownerItems(rows,'RT').length,counts.RT);assert(core.ownerItems(rows,'a definir').every(r=>r.owners.includes('a definir')));
 assert(read('src/shell.html').includes('id="architect"'));assert(read('src/architect-ui.js').includes('GUEDALA_ARCHITECT'));assert(!read('src/shell.html').includes('Cury Guedala Park III'),'Textos vêm dos dados');
+assert.equal(d.glossary.filter(g=>/^P\d{2}$/.test(g.term)).length,20);
+for(const g of d.glossary)assert(fs.existsSync(path.resolve(__dirname,'../..',g.path)),g.path);
+assert.deepEqual(Object.keys(d.tabContexts).sort(),['architect','chaves','decisions','documents','floorplan','model','mood','obra']);
+for(const c of Object.values(d.tabContexts))assert(c.text&&c.revision);
+const release=JSON.parse(read('current_release.json'));assert.equal(d.tabContexts.decisions.revision,release.cadRevision+'/'+release.lightingRevision);assert.equal(d.tabContexts.documents.revision,release.packageRevision+'/'+release.fabricationRevision);
+assert.equal(d.globalNotice,'Tudo aqui é de projeto; medidas reais só depois das chaves');
+assert(read('src/context-ui.js').includes('glossaryDialog'));assert(read('src/context-ui.js').includes('architect-tools-label'));
 console.log('Entrada: 9 etapas da fonte, 8 disciplinas, 6 atalhos, responsáveis com fonte, perfil e links legados');

@@ -43,16 +43,16 @@ A interface mantém fichas, visitas e movimentos; limites físicos nas fontes vi
 1. Escolha o ambiente e a vista: superior, 3D ou lateral. A vista lateral tem quatro direções e pode ocultar a metade oposta do ambiente para facilitar a leitura.
 2. Arraste para girar o 3D; use a roda do mouse ou pinça com dois dedos para aproximar. Nas vistas superior/lateral, arrastar desloca o desenho. “Enquadrar” restaura a câmera.
 3. Toque ou clique em um móvel para abrir sua ficha, com dimensões, material, origem da decisão e o que falta conferir. No celular, também existe “Ver móveis deste ambiente”.
-4. “Mesa extensível” alterna 150/180 cm, com centro/banco fixos e três cadeiras na lateral. As transições de Bonnie, escritório, cadeiras, PS5 e varal são conceituais; encaixe e mecanismos seguem pendentes nas fichas.
-5. Consulte as passagens e expanda “Ajustar hipóteses de circulação” para testar afastamento do sofá, profundidade do apoio da TV e espessura da cabeceira. Esses ajustes são simulações; recarregar restaura as decisões.
+4. “Mesa extensível”, Bonnie, escritório, cadeiras, PS5 e varal alternam cenas conceituais; dimensões correntes nos dados/fichas, mecanismos pendentes.
+5. Consulte passagens e simule afastamento do sofá, apoio da TV e espessura da cabeceira; recarregar restaura os dados do projeto.
 6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
-7. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
+7. Em “Cômodos”, consulte paletas/móveis; em “Escolhas”, decisões e conferências. Esquema interno R02 na ficha do guarda-roupa.
 
 HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar imagem da vista no computador.
 
 ## No S24 Plus
 
-Envie **Guedala_Park_Interativo.html** ao celular e salve o arquivo. Ele contém os estilos, desenhos e interações, sem arquivos auxiliares ou bibliotecas externas. Abra em um navegador que aceite HTML local; se o aplicativo de arquivos exibir apenas uma prévia, use “Abrir com” um navegador compatível. O tratamento de arquivos locais varia conforme o navegador e o gerenciador de arquivos.
+Salve **Guedala_Park_Interativo.html** no celular: estilos, desenhos e interações incluídos. Use navegador com HTML local; se abrir só prévia, escolha “Abrir com”. Compatibilidade varia por navegador/gerenciador.
 
 Emulação anterior: 412 × 915 e 915 × 412 com toque; computador 1440 × 1100. Layout/gestos testados, sem equivaler ao aparelho real. A cópia HTML funciona localmente e na web.
 
@@ -98,8 +98,9 @@ Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barr
 
 **Para o arquiteto:** `?perfil=arquiteto` abre a sétima aba; sem perfil, entrada atual preservada. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json` guarda 8 disciplinas/6 atalhos com fontes; UI em `src/architect-*`. Sem dado real novo. Layout segue o site e referências locais Refero; pesquisa remota indisponível por assinatura.
 O build compacta scripts com esbuild já instalado, preservando nomes globais; sem dependências novas. HTML anterior: 5.238.720 bytes. Teste `test_architect_entry.cjs` no verificador/CI.
-“Quem decide” filtra disciplinas e conferências dos65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
+“Quem decide” filtra disciplinas e conferências dos 65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
 Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
+Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nominal; aviso global e glossário pelo “?” (34 entradas com fonte, incluindo P01–P20), também pesquisável. Rótulos/ids antigos preservados; Ferramentas ao fim no perfil arquiteto. Resumos de etapas: ESTADO_ATUAL; normas/siglas: fontes no glossário, sem interpretação normativa nova.
 
 **15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
 

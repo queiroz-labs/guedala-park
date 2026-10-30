@@ -64,7 +64,7 @@ function drawDocuments(){
  $('docCount').textContent=`${docs.length} ${docs.length===1?'acesso':'acessos'} para consultar o projeto`;
  $('docCards').innerHTML=docs.length?docs.map(d=>`<article id="doc-${d.id}" class="work-doc"><p class="eyebrow">${esc(d.category)}</p><h2>${esc(d.title)}</h2><span class="work-status">${esc(d.status)}</span><p class="work-doc-summary">${esc(d.summary)}</p>${d.path&&workDocUrl(d)?`<a href="${workDocUrl(d)}" ${d.id==='biblioteca-pacote'&&!packaged?'download':d.generated?'':'target="_blank" rel="noopener"'} aria-label="${esc(d.id==='biblioteca-pacote'?(packaged?'Abrir índice do pacote':'Baixar pacote ZIP'):'Ver documentos: '+d.title)}">${d.id==='biblioteca-pacote'?(packaged?'Abrir índice do pacote':'Baixar pacote · ZIP'):(d.generated?'Ver documentos →':'Ver documentos ↗')}</a>`:'<p>Não incluído nesta cópia do pacote.</p>'}</article>`).join(''):'<div class="work-empty">Nenhum resultado. Tente outro termo ou ambiente.</div>';
 }
-const WORK_TABS={apartamento:'model',ambientes:'model',comodos:'mood','cômodos':'mood',materiais:'mood',escolhas:'decisions',documentos:'documents',planta:'floorplan',chaves:'chaves',obra:'obra'};
+const WORK_TABS={arquiteto:'architect',apartamento:'model',ambientes:'model',comodos:'mood','cômodos':'mood',materiais:'mood',escolhas:'decisions',documentos:'documents',planta:'floorplan',chaves:'chaves',obra:'obra'};
 function initializeWorkshop(){
  document.querySelector('.welcome-copy h1').textContent='Conheça o projeto do apartamento.';
  document.querySelector('.welcome-copy p').textContent='Escolha um ambiente. Toque em um móvel para ver medidas, materiais e montagem.';
