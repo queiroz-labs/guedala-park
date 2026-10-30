@@ -2,6 +2,8 @@
 
 Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base R52 preservada no Git; propriedades e geometria verificadas no relatório abaixo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
 
+**Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
+
 ## Decisões incorporadas na R53 — 27/10/2026
 
 **R54 (27/10):** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
@@ -69,7 +71,7 @@ No OCCT 7.8.1 local, `GeomAbs_C0` consulta a continuidade da curva/superfície d
 
 Nas cinco peças P07 comparadas, fonte e representação atual, alinhadas por translação no ensaio, deram volume zero nas diferenças em ambos os sentidos. As peças são simétricas no espelhamento testado. Isso não é uma certificação geral de equivalência ou uma correção já aplicada ao CAD. A diferença do valor bruto de `Volume` foi de até **4,965 mm³** nas réguas e **0,754 mm³** na grelha; não confundir essa diferença numérica da representação com material realmente removido.
 
-Os **18 cortes sintéticos** (plano central em X/Y/Z de cada uma das seis peças de marcenaria) retornaram interseção e diferença válidas, sem volume de sobreposição. O maior resíduo de soma de volumes foi **5,523 mm³**; o maior relativo, **0,002651%**. São controles de robustez, não trajetórias CNC nem comprovação de usinagem. `fix(1e-7, 1e-7, 1e-5)` retornou sucesso, mas manteve os alertas; `removeSplitter()` também os manteve. Ambos conservaram o volume nesta amostra.
+Os **18 cortes sintéticos** passaram; resíduos máximos **5,523 mm³/0,002651%**, sem prova de usinagem. `fix` e `removeSplitter` conservaram volumes e alertas. [Planos, parâmetros e resultados](Analise_bop.json).
 
 A correção candidata para o fluxo próprio está nas cópias isométricas de [consolidar_r31.py](../ferramentas/componentes/Consolidacao/consolidar_r31.py): preservar `Placement` ou usar `transformShape()` para translações, rotações e espelhamentos, em vez da conversão geral de geometria. O ensaio isolado com o espelho passou nas cinco fontes analíticas. Isso não autoriza substituir chamadas que realmente precisem de escala não uniforme, nem executar o consolidador antigo sobre a R52.
 

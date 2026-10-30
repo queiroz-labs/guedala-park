@@ -1,0 +1,104 @@
+{
+  "aprovacao": "PENDENTE",
+  "candidato_sha256": "d1f74ac0dbd06f367360f086fe9ddcfa8f7b479b7fde18d1aae6ba0acabf298a",
+  "gui_document_preservado": true,
+  "objetos": 5835,
+  "expressoes": 7702,
+  "cenarios": 106,
+  "invariantes": [],
+  "invalidos": [],
+  "colisoes_novas": [],
+  "erros": [],
+  "avisos": [
+    "1 objetos novos: RevestJanelaBoxR55",
+    "2 com geometria alterada: Ambiente_banho, ApartamentoR34",
+    "1 pares tiveram caixa maior, mas sem sobreposicao real"
+  ],
+  "diferencas": {
+    "removidos": [],
+    "novos": [
+      "RevestJanelaBoxR55"
+    ],
+    "geometria": [
+      [
+        "Ambiente_banho",
+        {
+          "volume": 560377005.822,
+          "area": 29882313.671,
+          "faces": 3906,
+          "solidos": 101,
+          "caixa": [
+            2760.0,
+            4050.0,
+            -50.0,
+            4950.0,
+            5290.0,
+            2250.0
+          ],
+          "valida": true
+        },
+        {
+          "volume": 604981005.824,
+          "area": 34540713.671,
+          "faces": 3918,
+          "solidos": 102,
+          "caixa": [
+            2760.0,
+            4050.0,
+            -50.0,
+            4950.0,
+            5290.0,
+            2250.0
+          ],
+          "valida": true
+        }
+      ],
+      [
+        "ApartamentoR34",
+        {
+          "volume": 19475644127.477,
+          "area": 585586350.976,
+          "faces": 43425,
+          "solidos": 1004,
+          "caixa": [
+            -100.0,
+            -100.0,
+            -50.0,
+            7500.0,
+            7100.0,
+            2570.0
+          ],
+          "valida": false
+        },
+        {
+          "volume": 19520248127.434,
+          "area": 590244750.976,
+          "faces": 43437,
+          "solidos": 1005,
+          "caixa": [
+            -100.0,
+            -100.0,
+            -50.0,
+            7500.0,
+            7100.0,
+            2570.0
+          ],
+          "valida": false
+        }
+      ]
+    ],
+    "posicao": [],
+    "visibilidade": [],
+    "expressoes": [],
+    "aparencia": [],
+    "suspeitos": [
+      [
+        "Peca159",
+        "RevestJanelaBoxR55"
+      ]
+    ],
+    "invalidos_novos": [],
+    "fora_envelope": [],
+    "movimentos": []
+  }
+}

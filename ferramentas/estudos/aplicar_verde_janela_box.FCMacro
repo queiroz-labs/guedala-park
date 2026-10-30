@@ -1,0 +1,87 @@
+"""GUI: acrescenta Sauge na parede da janela SOMENTE em cópia externa R55 candidata.
+Pedido: Elias, 30/10/2026, verde também na parede da janela do box.
+GP_REPO aponta ao repositório. Não troca vigente, base, dimensões ou objetos existentes.
+"""
+import FreeCAD as App, FreeCADGui as Gui, Part
+from PySide import QtCore
+from pathlib import Path
+import hashlib,json,os,shutil,traceback
+
+
+def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def signature(o):
+    s=o.Shape.copy()
+    s.Placement=o.getGlobalPlacement().multiply(o.Placement.inverse()).multiply(s.Placement)
+    b=s.BoundBox
+    solids=s.Solids;volume=sum(q.Volume for q in solids)
+    if abs(volume)>1e-9:c=sum((q.CenterOfMass*q.Volume for q in solids),App.Vector())/volume
+    elif s.Faces and s.Area>0:c=sum((q.CenterOfMass*q.Area for q in s.Faces),App.Vector())/s.Area
+    else:c=b.Center
+    return dict(volume=round(s.Volume,9),area=round(s.Area,9),faces=len(s.Faces),
+                vertices=len(s.Vertexes),bbox=[round(v,9) for v in (b.XMin,b.YMin,b.ZMin,b.XMax,b.YMax,b.ZMax)],
+                centro=[round(v,9) for v in (c.x,c.y,c.z)],
+                placement=[round(v,9) for v in o.getGlobalPlacement().toMatrix().A])
+
+
+def hash_signature(value):
+    return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+
+
+def main():
+    Gui.getMainWindow().hide()
+    root=Path(os.environ['GP_REPO']).resolve()
+    out=root.parent/'outputs/R55_candidato';out.mkdir(parents=True,exist_ok=True)
+    source=root/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'
+    candidate=out/'Guedala_Park_R55_candidato.FCStd'
+    if candidate.exists():raise FileExistsError('Preservar candidato existente; escolha outra pasta fora do repositório')
+    original_sha=digest(source);shutil.copy2(source,candidate)
+    doc=App.openDocument(str(candidate))
+    before={o.Name:signature(o) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
+    expressions={o.Name:str(o.ExpressionEngine) for o in doc.Objects if hasattr(o,'ExpressionEngine')}
+    names={o.Name for o in doc.Objects}
+    back=doc.getObject('Peca160');window=doc.getObject('Peca071');floor=doc.getObject('Peca158')
+    fill=doc.getObject('Peca159');bb=back.Shape.BoundBox;wb=window.Shape.BoundBox;fb=floor.Shape.BoundBox
+    thickness=bb.YLength
+    assert abs(thickness-20)<1e-6 and abs(bb.ZMax-2250)<1e-6
+    # Mesmo topo desenhado do fundo (2250), não o teto nominal nem a hipótese do orçamento.
+    wall=Part.makeBox(thickness,fb.YLength,bb.ZMax,App.Vector(wb.XMin-thickness,fb.YMin,0))
+    opening=Part.makeBox(thickness+2,wb.YLength,wb.ZLength,App.Vector(wb.XMin-thickness-1,wb.YMin,wb.ZMin))
+    wall=wall.cut(opening)
+    # Encontros com piso, enchimento e fundo: recorta só a nova camada, preserva as fontes.
+    for o in (floor,fill,back):wall=wall.cut(o.Shape)
+    wall=wall.removeSplitter()
+    assert wall.isValid() and wall.Volume>0
+    obj=doc.addObject('Part::Feature','RevestJanelaBoxR55');obj.Label='Sauge - parede da janela do box - candidato'
+    obj.Shape=wall;obj.addProperty('App::PropertyString','MaterialReferencia');obj.MaterialReferencia=back.MaterialReferencia
+    obj.ViewObject.ShapeColor=back.ViewObject.ShapeColor
+    obj.ViewObject.Transparency=back.ViewObject.Transparency
+    doc.getObject('Ambiente_banho').addObject(obj);doc.recompute()
+    after={n:signature(doc.getObject(n)) for n in before}
+    changed=[n for n in before if before[n]!=after[n]]
+    assert not changed,changed
+    assert expressions=={o.Name:str(o.ExpressionEngine) for o in doc.Objects if o.Name in names and hasattr(o,'ExpressionEngine')}
+    intersections={o.Name:wall.common(o.Shape).Volume for o in (window,floor,fill,back,doc.getObject('Peca161'),doc.getObject('Peca162'))}
+    assert all(v<1e-6 for v in intersections.values()),intersections
+    App.setActiveDocument(doc.Name);doc.save()
+    complete=dict(antes=before,depois=after)
+    signatures=out/'Assinaturas_geometricas.json';signatures.write_text(json.dumps(complete,ensure_ascii=False,indent=2),encoding='utf-8')
+    report=dict(aprovacao='PENDENTE',fonte='Elias, 30/10/2026: quer verde também na parede da janela',
+                source_sha256=original_sha,candidate_sha256=digest(candidate),
+                material=back.MaterialReferencia,espessura_mm=thickness,topo_desenhado_mm=bb.ZMax,
+                abertura_bbox_mm=[wb.XMin,wb.YMin,wb.ZMin,wb.XMax,wb.YMax,wb.ZMax],
+                novo=signature(obj),intersecoes_mm3=intersections,
+                objetos_anteriores=len(names),objetos_novos=sorted({o.Name for o in doc.Objects}-names),
+                expressoes_preservadas=True,alterados=changed,assinaturas_sha256=digest(signatures),
+                preservacao=[dict(objeto=n,antes=hash_signature(before[n]),depois=hash_signature(after[n])) for n in sorted(before)])
+    (out/'Preservacao.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    App.closeDocument(doc.Name)
+    assert digest(source)==original_sha
+
+
+try:main()
+except Exception:
+    root=Path(os.environ['GP_REPO'])
+    (root.parent/'.gp_box/erro_candidato.txt').write_text(traceback.format_exc(),encoding='utf-8')
+finally:QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)
