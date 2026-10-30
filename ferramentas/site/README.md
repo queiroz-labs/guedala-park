@@ -2,7 +2,7 @@
 
 **Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
-**Modelo R54:** pedestal Berlin e cadeira lateral +15 mm; 106 cenários sem colisões novas. [Relatório e limites](../../02_Modelo_3D/Relatorio_mudanca.md).
+**R54:** [106 cenários e limites](../../02_Modelo_3D/Relatorio_mudanca.md); pedestal Berlin/cadeira +15 mm.
 
 **Textos públicos:** estado atual, sem datas/revisões/atribuições. Fontes em `src/data.js`; registros internos preservados no git/fichas, retirados da biblioteca por `INTERNAL_DOCS` em `plain_language.py`.
 
@@ -92,11 +92,11 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 ## Navegação e documentos
 
-Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Baixar usa o mesmo componente na entrada do arquiteto e em Documentos, com revisão/formato/tamanho e situação. Busca abre o arquivo na seção. Sem ZIP agregado: os pacotes mantêm escopos distintos. `downloads-manifest.json` registra os destinos publicados. `test_downloads.cjs` confere fontes, bytes, links e as 8 imagens R03/SHA no verificador/CI.
+Downloads: `downloads-source.json` seleciona itens; `build_downloads_data.py` mede os bytes e publica em `docs/`. Catálogo fora do HTML evita autorreferência do ZIP. Entrada/Documentos usam o mesmo componente, com busca, revisão, formato, tamanho e situação. Pacotes têm escopos distintos; `downloads-manifest.json` lista destinos. `test_downloads.cjs` confere fontes, bytes, links e 8 imagens R03/SHA no CI.
 
 Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
 
-**Comece aqui:** entrada padrão para qualquer visitante; `?perfil=arquiteto` e ids preservados. `?aba=`/hash reconhecidos têm prioridade; o endereço antigo do moodboard mantém Cômodos. “Como explorar” abre ajuda e leva ao 3D/visita. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json`: 3 caminhos iniciais (botões ≥56 px), 3 perguntas/atalhos e 8 disciplinas/6 documentos com fontes; UI em `src/architect-*`. Planta mobiliada R03: cena R54 e sete vistas recapturadas. Layout segue o site/Refero.
+**Comece aqui:** entrada padrão para qualquer visitante; `?perfil=arquiteto` e ids preservados. `?aba=`/hash reconhecidos têm prioridade; o endereço antigo do moodboard mantém Cômodos. “Como explorar” abre ajuda e leva ao 3D/visita. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json`: 3 caminhos iniciais (botões ≥56 px), 3 perguntas/atalhos e 8 disciplinas/6 documentos com fontes; UI em `src/architect-*`. Planta mobiliada R03: cena R54 e sete vistas recapturadas. Tokens do site/Refero.
 esbuild existente compacta scripts sem mudar nomes globais. Teste `test_architect_entry.cjs` no verificador/CI.
 “Quem decide” filtra disciplinas e conferências dos 65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
 Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
@@ -136,6 +136,6 @@ Sexta aba: semanas 0–8 derivadas apenas de `Cronograma_obra_e_compras.md` §2 
 
 **Pergunta do guia:** qual ponto ou borda de cada janela, porta e ligação deve receber a ponta da trena, e como o início junto à entrada se relaciona com o desenho? A folha continua proposta; distâncias sem essa definição não são aplicadas.
 
-**UX móvel:** visual atual preservado; `mobile-ux-core.js`/`mobile-ux.js` e CSS final em `mobile-ux.css`. Até760 px, cabeçalho recolhe ao descer e reabre ao subir/topo/foco na busca; busca/abas ficam visíveis. Compensação conserva o fluxo. Medido203,2→98 px; desktop155,2 px inalterado. `test_mobile_ux.cjs` no verificador/CI.
+**UX móvel:** visual atual preservado; `mobile-ux-core.js`/`mobile-ux.js` e CSS final em `mobile-ux.css`. Até760 px, cabeçalho recolhe ao descer e reabre ao subir/topo/foco na busca; busca/abas ficam visíveis. Compensação conserva o fluxo. Medido203,2→98 px; desktop155,2 px inalterado. `tab-strip.js`: bordas indicam rolagem, aba ativa visível; setas/Home/End. Medição inclui painéis abertos e modo lista; lacunas de texto/alvos corrigidas. `test_mobile_ux.cjs` no verificador/CI.
 
 **Selos:** toque ou Enter/Espaço abre explicação; Esc fecha, com foco de volta. `statusHelp` em `architect-source.json` alimenta glossário/busca. Legenda do [caderno](../../01_Programa_e_decisoes/Caderno_de_especificacoes.md): escolha registrada e detalhamento pendente; não confirma execução. Materiais são referências/opções e “Atual” indica revisão documental. Papéis vêm das fontes de cada pendência; ausentes ficam “Responsável a definir”. Fichas: compra, produto, montagem e protótipo pendentes têm ajuda com fonte na ficha. Dados originais preservados.

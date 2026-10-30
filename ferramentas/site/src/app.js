@@ -403,7 +403,7 @@ function requestRender(){
  });
 }
 function toast(s){$('toast').textContent=s;$('toast').style.opacity=1;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.opacity=0,3000);}
-function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood'){buildMood();renderMood();}if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});}
+function tab(id){document.querySelectorAll('.tabpage').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('[data-tab]').forEach(e=>{e.classList.toggle('active',e.dataset.tab===id);e.setAttribute('aria-pressed',e.dataset.tab===id);});$('inspector').classList.remove('open');if(id==='mood'){buildMood();renderMood();}if(id==='decisions')renderDecisions();if(id==='model')requestRender();if(id!=='model')endTour();window.scrollTo({top:0,behavior:'instant'});window.dispatchEvent(new CustomEvent('guedala-tab-change',{detail:id}));}
 function materialStyle(m){return`background-color:${m.color}`;}
 const STORAGE_MODULES={kitchenupper:['P09','P10','P11','P12'],sinkstorage:['P05'],kitchenbase:['P06'],lowdrawer:['P08'],wardrobe:['P01'],bedcabinet:['P02','P03','P04'],laundrybase:['P14'],laundryupper:['P15'],officecab:['P17'],drawers:['P16'],bathvanity:['P18'],bathmirror:['P19']};
 function storageModel(id){

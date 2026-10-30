@@ -9,6 +9,11 @@
 .status-help-trigger:focus-visible,.status-popover :focus-visible,.status-popover:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 .room-items button.status-help-trigger{min-height:44px;width:auto}.room-items>li>.status-help-trigger{margin:0 10px 8px}
 .mast-compensation{display:none}
+.mast-tab-strip{position:relative;order:4;flex-basis:100%;width:100%;min-width:0}
+.mast nav{scrollbar-width:none}.mast nav::-webkit-scrollbar{display:none}
+.mast-tab-strip::before,.mast-tab-strip::after{content:"";position:absolute;top:0;bottom:0;width:24px;pointer-events:none;opacity:0;z-index:1}
+.mast-tab-strip::before{left:0;background:linear-gradient(to right,#fffefa,transparent)}.mast-tab-strip::after{right:0;background:linear-gradient(to left,#fffefa,transparent)}
+.mast-tab-strip.has-more-left::before,.mast-tab-strip.has-more-right::after{opacity:1}
 @media(max-width:760px){
 .mast-compensation{display:block}
 .mast.mast-compact{padding:3px 12px;gap:3px;min-height:0}
@@ -22,6 +27,11 @@ small,.room-note,.work-note,.work-count,.section-label,.stage-heading span,.stag
 .welcome-copy,.work-context,.work-context *,.work-accordion p,.material .body p,.scene-options button,.scene-options summary{font-size:12px!important}
 .eyebrow{letter-spacing:1.2px}
 .badge{padding:4px 8px}
+/* Lacunas encontradas na medição dos elementos reais, além do ajuste anterior. */
+.welcome .welcome-copy p,.roomlist .room-card strong,.work-selection label span,.fab-quick a,footer,footer span{font-size:12px}
+.viewbar .segmented button,.viewbar .viewtools button,.dn-control button,.work-table button,.work-table summary{min-width:44px}
+.field-row-status,.work-subtitle,.work-measures span,.fab-drill-filter,.fab-drill-filter select,.work-accordion a,.work-table th,.work-table td,.work-table button,.fab-drill dl,.work-list code,.work-accordion li,.work-actions button{font-size:12px}
+.fab-quick a{display:inline-flex;align-items:center;min-height:44px}
 }
 @media(pointer:coarse){
 button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44px!important}

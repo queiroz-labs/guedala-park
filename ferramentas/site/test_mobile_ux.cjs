@@ -10,3 +10,12 @@ assert.equal(headerState(true,{width:375,y:600,delta:1,searchFocused:false}),tru
 assert(read('src/mobile-ux.js').includes('mast-compensation'));assert(read('src/mobile-ux.js').includes("addEventListener('focusin'"));
 assert(read('construir.py').includes("'mobile-ux.css'"));
 console.log('UX móvel: recolher ao descer, reabrir ao subir/topo/foco; desktop preservado e fluxo compensado');
+
+const {tabScroll,tabEdges}=vm.runInContext('GuedalaMobileUX',ctx);
+assert.equal(tabScroll({left:260,right:350,viewLeft:0,viewRight:300,scrollLeft:0}),74);
+assert.equal(tabScroll({left:-10,right:70,viewLeft:0,viewRight:300,scrollLeft:120}),86);
+assert.equal(tabScroll({left:50,right:160,viewLeft:0,viewRight:300,scrollLeft:80}),80);
+assert.equal(tabScroll({left:0,right:80,viewLeft:0,viewRight:300,scrollLeft:0}),0);
+assert.equal(JSON.stringify(tabEdges(0,300,900)),JSON.stringify({left:false,right:true}));
+assert.equal(JSON.stringify(tabEdges(600,300,900)),JSON.stringify({left:true,right:false}));
+assert.equal(JSON.stringify(tabEdges(0,900,900)),JSON.stringify({left:false,right:false}));

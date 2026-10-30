@@ -41,3 +41,6 @@ vm.runInContext(read('architect-core.js'),ctx);const architect=vm.runInContext('
 assert(read('context-ui.js').includes("addEventListener('hashchange',toolLink)"));
 for(const [alias,id]of Object.entries(tabs))assert.equal(architect.hashTab('#'+alias,tabs),id,alias);
 console.log(JSON.stringify({tabs:7,status:tally,legacyLinks:Object.keys(tabs).length}));
+
+assert(read('app.js').includes("new CustomEvent('guedala-tab-change'"));
+assert(read('tab-strip.js').includes("'ArrowLeft','ArrowRight','Home','End'"));
