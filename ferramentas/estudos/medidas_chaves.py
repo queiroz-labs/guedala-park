@@ -61,10 +61,16 @@ def catalog():
                 natureza_do_valor='parâmetro nominal; vínculo físico pendente', moveis_afetados=affected,
                 fonte_nominal=DEPS + 'Ranking_15.csv', quem_valida='levantamento e RT', impacto='Reconstrução de reta exige marcos comuns documentados.')
     result['BOX-VERDE'] = dict(codigo_medida='BOX-VERDE', ambiente='Banheiro',
-        medida_ou_verificacao='Largura x altura da parede verde efetivamente medida; identificar a parede na foto',
+        medida_ou_verificacao='Largura x altura da parede verde do chuveiro; código legado, identificar a parede na foto',
         valor_nominal_atual='800 x 2250 mm', valor_medido='', natureza_do_valor='referência gráfica conflitante com orçamento 1240 x 2470 mm',
         moveis_afetados='P18|P19', fonte_nominal='03_Ambientes/Acabamentos/README.md',
         quem_valida='RT/oficina', impacto='Rever paginação, área e compra; não escolher parede/altura pelo cálculo.')
+    result['BOX-VERDE-JANELA'] = dict(codigo_medida='BOX-VERDE-JANELA', ambiente='Banheiro',
+        medida_ou_verificacao='Largura x altura da parede verde da janela; registrar abertura separadamente',
+        valor_nominal_atual='800 x 2470 mm', valor_medido='',
+        natureza_do_valor='hipótese do orçamento adicional, sem descontar janela; não é medida real',
+        moveis_afetados='P18|P19', fonte_nominal='05_Orcamento_e_cronograma/Orcamento/Pisos_e_revestimentos/Analise_pisos.md',
+        quem_valida='RT/oficina', impacto='Conferir área, abertura e paginação das duas paredes; não altera orçamento automaticamente.')
     # Preserva exatamente os 15 itens do roteiro vigente; demais registros são complemento.
     order = [r['codigo_medida'] for r in ranking]
     for row in result.values():
@@ -76,7 +82,7 @@ def unit(row):
     code, nominal = row['codigo_medida'], row.get('valor_nominal_atual', '')
     if code.endswith(('ANGULO', 'ESQUADRO')):
         return 'grau'
-    if code.startswith('DIM-') or code == 'BOX-VERDE' or re.fullmatch(r'\s*-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)\s*', nominal) or code.startswith(('PR-', 'PAREDE-', 'CAMPO-')) or code == 'DEP-COZ-PRUMO':
+    if code.startswith(('DIM-', 'BOX-VERDE')) or re.fullmatch(r'\s*-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)\s*', nominal) or code.startswith(('PR-', 'PAREDE-', 'CAMPO-')) or code == 'DEP-COZ-PRUMO':
         return 'mm'
     return 'texto'
 
@@ -88,8 +94,8 @@ def nominal_values(row, engine):
         return [0.0]
     code = row['codigo_medida']
     try:
-        if code.startswith('DIM-') or code == 'BOX-VERDE':
-            count = 2 if code in {'DIM-01', 'DIM-02', 'DIM-05', 'DIM-06', 'DIM-07', 'DIM-08', 'BOX-VERDE'} else 1
+        if code.startswith(('DIM-', 'BOX-VERDE')):
+            count = 2 if code.startswith('BOX-VERDE') or code in {'DIM-01', 'DIM-02', 'DIM-05', 'DIM-06', 'DIM-07', 'DIM-08', 'BOX-VERDE'} else 1
             return [engine.dimensional.resolver({code: row}, code + '/' + str(i)).mm for i in range(count)]
         val = engine.dimensional.resolver({code: row}, code).mm
         return None if val is None else [val]
@@ -126,8 +132,8 @@ def parse_measured(row, incoming, engine):
     if units_in_cell and any(u != supplied for u in units_in_cell):
         raise ValueError(code + ': unidade na célula difere da coluna')
     working = dict(row, valor_medido=text)
-    if code.startswith('DIM-') or code == 'BOX-VERDE':
-        count = 2 if code in {'DIM-01', 'DIM-02', 'DIM-05', 'DIM-06', 'DIM-07', 'DIM-08', 'BOX-VERDE'} else 1
+    if code.startswith(('DIM-', 'BOX-VERDE')):
+        count = 2 if code.startswith('BOX-VERDE') or code in {'DIM-01', 'DIM-02', 'DIM-05', 'DIM-06', 'DIM-07', 'DIM-08', 'BOX-VERDE'} else 1
         if len(re.findall(r'-?\d+(?:[.,]\d+)?', text)) != count:
             raise ValueError(code + ': informar todos os eixos, separados por x')
         values = [engine.dimensional.resolver({code: working}, code + '/' + str(i)).mm for i in range(count)]
@@ -308,6 +314,8 @@ def impacts(rows, measured, table, engine, datum=None):
         if code == 'BOX-VERDE' and isinstance(reading['valores'], list):
             results[-1]['criterio'] += '; delta vs orçamento 1240×2470 mm: ' + str([reading['valores'][0] - 1240, reading['valores'][1] - 2470])
             results[-1]['efeito_quantidade'] += f' Delta vs gráfico 1,80 m²: {area - 1.8:.6f} m²; vs orçamento 3,0628 m²: {area - 3.0628:.6f} m². Não desconta compra automaticamente.'
+        if code == 'BOX-VERDE-JANELA' and isinstance(reading['valores'], list):
+            results[-1]['efeito_quantidade'] += f' Delta vs hipótese adicional 1,976 m²: {area - 1.976:.6f} m²; janela ainda não descontada. Não altera compra.'
     # Reutiliza o motor vigente. Valores não medidos continuam nominal, explicitamente.
     evaluated = engine.evaluate(working, doc, aux)
     selected = []

@@ -167,12 +167,12 @@ def finishing(totals):
     wet=[dict(item='Piso EXT box',cenario='H04 planta do desenho',area_liquida_m2=.8*1.24,reserva_percentual=15),
          dict(item='Piso Satin fora box',cenario='H04 piso total menos box',area_liquida_m2=by['banho']['piso_sem_sobreposicao_H01_m2']-.8*1.24,reserva_percentual=15),
          dict(item='Piso lavanderia',cenario='cota oficial 1,29 x 1,54',area_liquida_m2=by['lavanderia']['piso_sem_sobreposicao_H01_m2'],reserva_percentual=15),
-         dict(item='Parede verde',cenario='H05A site: 0,80 x 2,25',area_liquida_m2=.8*2.25,reserva_percentual=15),
-         dict(item='Parede verde',cenario='H05B mesma parede até 2,50',area_liquida_m2=.8*2.5,reserva_percentual=15),
-         dict(item='Parede verde',cenario='H05C orçamento: 1,24 x 2,47',area_liquida_m2=1.24*2.47,reserva_percentual=15),
-         dict(item='Paredes claras box',cenario='H05A: (1,24 + 0,80) x 2,25 menos janela 0,40 x 1,10',area_liquida_m2=2.04*2.25-.4*1.1,reserva_percentual=15),
-         dict(item='Paredes claras box',cenario='H05B: (1,24 + 0,80) x 2,50 menos janela',area_liquida_m2=2.04*2.5-.4*1.1,reserva_percentual=15),
-         dict(item='Paredes claras box',cenario='H05C orçamento: 2 x 0,80 x 2,47 sem descontar janela',area_liquida_m2=2*.8*2.47,reserva_percentual=15)]
+         dict(item='Duas paredes verdes',cenario='H05A gráfico: (0,80 + 1,24) x 2,25 menos janela 0,40 x 1,10; hipótese',area_liquida_m2=2.04*2.25-.4*1.1,reserva_percentual=15),
+         dict(item='Duas paredes verdes',cenario='H05B gráfico até 2,50 menos janela; hipótese',area_liquida_m2=2.04*2.5-.4*1.1,reserva_percentual=15),
+         dict(item='Duas paredes verdes',cenario='H05C orçamento: fundo 1,24 x 2,47 + janela 0,80 x 2,47 sem descontar abertura; hipótese',area_liquida_m2=(1.24+.8)*2.47,reserva_percentual=15),
+         dict(item='Parede clara box',cenario='H05A: 0,80 x 2,25; hipótese gráfica',area_liquida_m2=.8*2.25,reserva_percentual=15),
+         dict(item='Parede clara box',cenario='H05B: 0,80 x 2,50; hipótese',area_liquida_m2=.8*2.5,reserva_percentual=15),
+         dict(item='Parede clara box',cenario='H05C orçamento remanescente: 0,80 x 2,47; hipótese',area_liquida_m2=.8*2.47,reserva_percentual=15)]
     for row in wet:
         row['area_com_reserva_m2']=round(row['area_liquida_m2']*(1+row['reserva_percentual']/100),6)
         row['area_liquida_m2']=round(row['area_liquida_m2'],6)
@@ -199,8 +199,8 @@ def finishing(totals):
                  comparison('R02/R03 serviço',34,round(vinyl,6),'m2','Área geométrica versus verba de serviço; mínimo/preparação podem persistir'),
                  comparison('R04 rodapé/transições',35,round(sum(r['rodape_antes_moveis_m'] for r in totals if r['ambiente'] not in ('banho','lavanderia')),6),'m','Antes de desconto de armários; transições e perdas não incluídas'),
                  comparison('R06 Satin área histórica',2.4,round(by['banho']['piso_sem_sobreposicao_H01_m2']-.992,6),'m2','Área líquida fora do box; quantidade por caixa do SKU pendente'),
-                 comparison('R08 verde compra',3.74,2.07,'m2','H05A com 15%; orientação/altura divergentes do orçamento; paginação pendente'),
-                 comparison('R08B claro compra',5,round(4.15*1.15,6),'m2','H05A com 15% e janela descontada; produto não definido'),
+                 comparison('R08 verde compra',3.74,round(5.0388*1.15,6),'m2','H05C: duas paredes, janela adicional 0,80 x 2,47 sem desconto; hipótese, não altera R44/caixas'),
+                 comparison('R08B claro compra',5,round(1.976*1.15,6),'m2','H05C: uma parede clara restante, hipótese; não altera R44/caixas'),
                  comparison('R09 lavanderia compra',3.24,round(1.9866*1.15,6),'m2','Duas caixas vigentes de 1,62; reserva15% não implica reduzir a uma caixa'),
                  comparison('R11 base de assentamento',12,round(.992+(by['banho']['piso_sem_sobreposicao_H01_m2']-.992)+1.9866+1.8+4.15,6),'m2','H05A: pisos+paredes sem perdas; enchimento e arremates ausentes; não reduzir verba automaticamente'),
                  comparison('O06 tinta paredes',21.6,round(sum(p['parede_L_reserva20_H06'] for p in paint),4),'L','H05A catálogo acabado +20%; produto/cobertura real pendentes'),

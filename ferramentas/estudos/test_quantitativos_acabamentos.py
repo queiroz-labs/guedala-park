@@ -41,5 +41,13 @@ class GeometryTests(unittest.TestCase):
         wet,_,_=q.finishing(totals)
         self.assertAlmostEqual(wet[0]['area_liquida_m2']+wet[1]['area_liquida_m2'],2.6616)
 
+    def test_two_green_walls_keep_budget_hypothesis_separate(self):
+        wet,_,_=q.finishing(q.calculate()[0])
+        self.assertAlmostEqual(wet[5]['area_liquida_m2'],1.24*2.47+.8*2.47)
+        self.assertIn('sem descontar',wet[5]['cenario'])
+        self.assertIn('hipótese',wet[5]['cenario'])
+        self.assertAlmostEqual(wet[8]['area_liquida_m2'],.8*2.47)
+        self.assertAlmostEqual(wet[3]['area_liquida_m2']+wet[6]['area_liquida_m2'],5.95)
+
 
 if __name__=='__main__': unittest.main()

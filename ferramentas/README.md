@@ -99,6 +99,8 @@ R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI so
 
 Fotometria: `estudos/estudo_fotometrico.py` gera [premissas por tarefa](../03_Ambientes/Iluminacao/Estudo_fotometrico.md), distinguindo dados de produto, vídeo espelhado e hipóteses. Teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. Curva IES com SHA; radiosidade/fluxos/UGR nominal/reflexos, NumPy e Pillow locais. Testes analíticos e balanço de energia; não abre FreeCAD nem altera itens do site.
 
+Box (Elias, 30/10/2026): `estudos/atualizar_verde_box.py` reproduz B09; quantitativos separam duas paredes verdes e uma clara. `BOX-VERDE` conserva o código do chuveiro; `BOX-VERDE-JANELA` usa hipótese 800×2470 mm sem desconto, só no cadastro auxiliar. CSV real, cadeia e R44 intactos. Perguntas regeneradas preservando mensagens reservadas a outra sessão.
+
 `estudos/medidas_do_celular.py --entrada <json> --saida <pasta externa nova>` importa e executa a cadeia sem abrir CAD; `--csv <cópia externa>` para fixtures. [Uso e limites](../07_Imovel/README.md). Teste de ponta a ponta em `estudos/test_importar_medidas_site.py`, integrado ao verificador do site.
 
 `estudos/rascunhar_guias_campo.py --saida <json externo>` prepara rascunho simples para edição manual e separa a descrição técnica, sem substituir o guia revisado. [Modo guiado e limites](site/README.md).

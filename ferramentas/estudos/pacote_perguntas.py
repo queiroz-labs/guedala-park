@@ -38,7 +38,7 @@ RULES = [
  ('clima','climatização','RT','Confirmar carga térmica total, ventilação/exaustão, regras para climatização e viabilidade de dreno/condensadora/alimentação antes de qualquer compra; separar parcelas de cálculo de solução executiva.', 'compra|protocolo da reforma|obra','parecer técnico/ART','antes de comprar',r'climat|ar.condicionado|térmic|tmy|condensadora'),
  ('impermeab','piso','RT','Que reparos, impermeabilização, cura e ensaios são necessários no box/lavanderia e contrapiso antes dos revestimentos? Confirmar estado entregue e limites dos sistemas escolhidos.', 'compra|obra|mudança','parecer técnico/ART','na vistoria',r'impermeabil|umidade|cura|caimento|ralo'),
  ('piso','piso','Fornecedor','Fornecer ficha do piso Olmo e sistema completo: limites de umidade/planicidade, adesivo, preparo, lote, quantidade e documentação acústica. Confirmar preço entregue e serviço preservado.', 'compra|obra','informação documental','antes de comprar',r'vinílico|olmo|piso|rodapé|revestimento'),
- ('box','pedras','Oficina/marceneiro','Compatibilizar box, porta e BC43: qual parede verde/altura vale (0,80×2,25 versus 1,24×2,47 m; teto nominal 2,50 m), vão/eixo de porta e acesso de manutenção? Entregar croqui antes da compra/corte.', 'compra|corte|fabricação|obra','medida real','na vistoria',r'box|bc43|porta.*banheiro|bancada.*porta'),
+ ('box','pedras','Oficina/marceneiro','Compatibilizar box, porta e BC43: medir as duas paredes verdes (chuveiro e janela), definir altura/paginação e descontar abertura; orçamento usa 1,24×2,47 e hipótese adicional 0,80×2,47 m sem desconto. Conferir vão/eixo de porta e manutenção antes da compra/corte.', 'compra|corte|fabricação|obra','medida real','na vistoria',r'box|bc43|porta.*banheiro|bancada.*porta'),
  ('pedras','pedras','Fornecedor','Confirmar gabarito após inferiores montados, cortes/apoios da pedra Branco Itaúnas, tanque/prateleira e prazo real de fabricação/instalação (7–10 dias ou 1–2 semanas), com frete e montagem discriminados.', 'compra|corte|obra|mudança','informação documental','antes de comprar',r'pedra|granito|gabarito|itaúnas|itaunas'),
  ('ancoragem','marcenaria','RT','Para os aéreos e bancadas, confirmar substrato real, parede/revestimento, contato, ancoragens e instalações ocultas; definir fixadores e responsabilidade técnica, sem inferir capacidade dos estudos nominais.', 'compra|corte|fabricação|obra','parecer técnico/ART','antes de fabricar',r'ancorag|substrato|suspens|aéreos|capacidade|carga|resistên'),
  ('juntas','marcenaria','Oficina/marceneiro','Apresentar produto e montagem/ensaio das juntas, fundos, apoios, contatos, retenções e furação dos móveis indicados nas origens; confirmar Minifix/Confirmat/cavilhas e P19: 12 documentais versus 8 no mapa.', 'compra|corte|fabricação','parecer técnico/ART','antes de fabricar',r'junta|minifix|confirmat|cavilha|ligação|furação|furo|apoio|fundo'),
@@ -115,7 +115,10 @@ def extract():
         for line in proc.stdout.splitlines():
             match = re.match(r'(\d+):(.*)',line)
             if match and 'Perguntas_em_aberto/README.md' not in match[2]:
-                records.append(dict(arquivo=relative,linha=int(match[1]),texto=match[2]))
+                text=match[2]
+                if 'somente uma parede verde' in text:
+                    text='[Trecho superado: Elias, 30/10/2026, pediu verde no chuveiro e na janela.] '+text
+                records.append(dict(arquivo=relative,linha=int(match[1]),texto=text))
     extras = [(ROOT/'07_Imovel/Medidas_e_impactos.csv', ','), (ROOT/'04_Moveis/Dependencias/Descricao_fisica.csv',';')]
     external = ROOT.parent/'outputs'
     extras += [(external/'Codex_cotacao_e_chaves'/name, ';') for name in ['Perguntas_RT.csv','Perguntas.csv','Perguntas_modelo.csv']]

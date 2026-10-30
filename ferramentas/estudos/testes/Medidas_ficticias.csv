@@ -2,4 +2,5 @@ codigo_medida;descricao;valor_nominal;unidade;valor_medido;data_hora;foto/arquiv
 PD-QUA;FICTÍCIO — teto de teste;2600 mm;mm;2598;2026-10-29T10:00:00;FICTÍCIO;FICTÍCIO — sem levantamento real
 DIM-06;FICTÍCIO — lavanderia;1290 x 1540 mm;mm;1290 x 1610;;;FICTÍCIO — diferença documental simulada
 BOX-VERDE;FICTÍCIO — box;800 x 2250 mm;mm;1240 x 2470;;;FICTÍCIO — sem medição real
+BOX-VERDE-JANELA;FICTÍCIO — parede da janela;800 x 2470 mm;mm;800 x 2470;;;FICTÍCIO — hipótese sem descontar abertura
 PD-COZ;FICTÍCIO — ausente;2600 mm;mm;;;;FICTÍCIO — vazio não é zero

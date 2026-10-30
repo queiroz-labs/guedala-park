@@ -560,4 +560,5 @@ CAMPO-SAL-ESQUADRO;Desvio absoluto de 90° no canto;0 grau;grau;;;;
 CAMPO-SAL-PISO;Elevação do piso desde a referência (não descontar duas vezes do pé-direito);0 mm;mm;;;;
 CAMPO-CIR-ESQUADRO;Desvio absoluto de 90° no canto;0 grau;grau;;;;
 CAMPO-CIR-PISO;Elevação do piso desde a referência (não descontar duas vezes do pé-direito);0 mm;mm;;;;
-BOX-VERDE;"Largura x altura da parede verde efetivamente medida; identificar a parede na foto";800 x 2250 mm;mm;;;;
+BOX-VERDE;"Largura x altura da parede verde do chuveiro; código legado, identificar a parede na foto";800 x 2250 mm;mm;;;;
+BOX-VERDE-JANELA;"Largura x altura da parede verde da janela; registrar abertura separadamente";800 x 2470 mm;mm;;;;
