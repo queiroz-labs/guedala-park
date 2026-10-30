@@ -1,4 +1,15 @@
 {
+  "progressBrief": {
+    "Programa e estudo preliminar":"Fechado; conferir no local.",
+    "Anteprojeto":"Documentação avançou; faltam cotações e amostras.",
+    "Executivo de marcenaria":"Fichas prontas; faltam montagens, furação e medidas reais.",
+    "Complementares":"Pontos auditados; faltam circuitos e posições reais.",
+    "Especificações":"Catálogo disponível; faltam amostras, SKUs e escolha final.",
+    "Orçamento":"R44; propostas e fechamento financeiro pendentes.",
+    "Pranchas formais":"20 folhas; faltam levantamento, interfaces e revisão técnica.",
+    "Responsável técnico e aprovação":"Plano em rascunho; profissional não contratado.",
+    "Levantamento no imóvel":"Registros preparados; levantamento depende das chaves."
+  },
   "disciplines": [
     {"id":"eletrica","title":"Elétrica · NBR 5410","text":"Pontos e cargas parciais registrados; circuitos, proteções e posições reais dependem do RT.","path":"03_Ambientes/Planta_pontos/README.md","owners":["RT"],"ownerSource":"03_Ambientes/Planta_pontos/README.md","ownerQuote":"RT confere pontos da construtora, quadro, circuitos","measurement":true},
     {"id":"gas","title":"Gás · NBR 13103","text":"Gás natural previsto; ventilação, exaustão e instalação do E21 precisam de conferência técnica.","path":"03_Ambientes/Gas_natural/README.md","owners":["RT"],"ownerSource":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","ownerQuote":"GN/ventilação/exaustão E21","measurement":true},
