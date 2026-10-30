@@ -31,6 +31,15 @@ for(const label of vm.runInContext('ITEMS.map(o=>o.choice).concat(PROJECT.materi
 for(const label of ['Decidido','a definir','Depende das medidas reais','Atual','Conferir antes de fabricar'])assert(sealLabels.has(label));
 for(const seal of d.statusHelp){assert(d.glossary.some(g=>g.id===seal.id&&g.definition===seal.definition));assert(!/aprovad|liberad/i.test(seal.label));}
 
+assert.equal(d.entryPaths.length,3);assert.equal(d.entryQuestions.length,3);
+assert.deepEqual(d.entryPaths.map(p=>p.title),['Ver o apartamento','Ver as decisões','Baixar os arquivos']);
+assert.deepEqual(d.entryPaths.map(p=>p.tab),['model','decisions','architect']);
+assert.deepEqual(d.entryQuestions.map(q=>q.tab),['model','architect','floorplan']);
+assert.equal(d.entryQuestions[0].room,'banho');assert.equal(d.entryPaths[2].target,'downloads-architect');
+for(const p of [...d.entryPaths,...d.entryQuestions]){assert(p.description&&p.target);assert(!/[.!?].+[.!?]/.test(p.description));}
+const entryUI=read('src/architect-ui.js');assert(entryUI.indexOf('entry-paths')<entryUI.indexOf('arch-intro'));
+assert(entryUI.includes('data.entryPaths.map'));assert(entryUI.includes('data.entryQuestions.map'));
+
 vm.runInContext(read('src/workshop-docs.js'),ctx);
 for(const label of vm.runInContext('Object.values(MODULE_GUIDANCE).flatMap(m=>[...(m.fabrication?.hardwareRows||[]),...(m.fabrication?.decisions||[]),...(m.fabrication?.finishSpecs||[])].map(r=>r.status))',ctx))assert(sealLabels.has(label),'Selo de ficha sem definição: '+label);
 assert(sealLabels.has('Confira antes de fabricar'));

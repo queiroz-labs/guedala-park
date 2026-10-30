@@ -375,5 +375,57 @@
     "definition": "Diretriz de acabamento registrada no estudo. A referência e as condições permanecem na ficha.",
     "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
   }
-]
+],
+
+  "entryHeading": "Por onde você quer começar?",
+  "entryPaths": [
+    {
+      "id": "apartamento",
+      "title": "Ver o apartamento",
+      "description": "3D e móveis por cômodo.",
+      "tab": "model",
+      "target": "scene"
+    },
+    {
+      "id": "decisoes",
+      "title": "Ver as decisões",
+      "description": "Escolhas e o que falta conferir.",
+      "tab": "decisions",
+      "target": "decisions"
+    },
+    {
+      "id": "arquivos",
+      "title": "Baixar os arquivos",
+      "description": "Plantas, imagens e documentos.",
+      "tab": "architect",
+      "target": "downloads-architect"
+    }
+  ],
+  "entryQuestions": [
+    {
+      "id": "banheiro",
+      "title": "Onde vejo o banheiro?",
+      "description": "Abra o banheiro no 3D.",
+      "shortcut": "Ver banheiro",
+      "tab": "model",
+      "room": "banho",
+      "target": "scene"
+    },
+    {
+      "id": "pendencias",
+      "title": "Como sei o que ainda falta?",
+      "description": "Veja as pendências do projeto.",
+      "shortcut": "Ver pendências",
+      "tab": "architect",
+      "target": "entry-responsibilities"
+    },
+    {
+      "id": "planta",
+      "title": "Onde está a planta com medidas?",
+      "description": "Abra a planta cotada.",
+      "shortcut": "Ver planta com medidas",
+      "tab": "floorplan",
+      "target": "floorplan"
+    }
+  ]
 }

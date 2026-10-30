@@ -21,7 +21,5 @@
   expanded.add(where);render(where);const target=document.getElementById('download-'+where+'-'+id)||document.getElementById('downloads-'+where);target.scrollIntoView({block:'center'});target.focus({preventScroll:true});
  }
  for(const where of ['architect','documents'])render(where);
- const intro=document.querySelector('.arch-intro h1');if(!document.querySelector('.downloads-shortcut'))intro.insertAdjacentHTML('afterend','<a class="downloads-shortcut" href="#downloads-architect">Baixar arquivos ↓</a>');
- document.querySelector('.downloads-shortcut').onclick=event=>{event.preventDefault();tab('architect');const target=document.getElementById('downloads-architect');target.tabIndex=-1;target.scrollIntoView({block:'start'});target.focus({preventScroll:true});};
  globalThis.GuedalaDownloads={show,render,size};
 })();
