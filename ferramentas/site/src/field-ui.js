@@ -19,10 +19,15 @@
     <div class="field-review" role="group" aria-label="Sua conferência de ${escape(r.codigo)}"><button type="button" data-review="ok" aria-pressed="false">✓ OK</button><button type="button" data-review="fora_do_esperado" aria-pressed="false">Fora do esperado</button><button type="button" data-review="pendente" class="quiet" aria-label="Deixar ${escape(r.codigo)} pendente">Pendente</button></div>
     <label class="field-observation" for="field-note-${i}">Observação <textarea id="field-note-${i}" data-observation="${escape(r.codigo)}" rows="2" placeholder="Posição da cota, acabamento, foto…"></textarea></label>
   </article>`);
+  const roomFields=id=>{
+    const regular=fields.filter((_,i)=>rows[i].ambiente===id&&!rows[i].avancado).join('');
+    const advanced=fields.filter((_,i)=>rows[i].ambiente===id&&rows[i].avancado);
+    return regular+(advanced.length?`<details class="field-advanced"><summary>Pontos e panos (avançado) · ${advanced.length}</summary><p>Coordenadas da cadeia, condicionadas ao vínculo ao datum. Verifique a descrição antes de medir.</p>${advanced.join('')}</details>`:'');
+  };
   page.innerHTML=`<div class="field-heading"><span class="eyebrow">LEVANTAMENTO NO IMÓVEL</span><h1>Dia das chaves</h1><p>Meça em milímetros. Registre o que encontrou e exporte uma cópia antes de sair.</p></div>
     <p id="fieldSaveState" class="field-save-state" role="status"></p>
     <div class="field-toolbar"><label for="fieldRoom">Cômodo<select id="fieldRoom"><option value="todos">Todos os cômodos</option>${groups.map(([id,name])=>`<option value="${id}">${name}</option>`).join('')}</select></label><div><span id="fieldProgress"></span><small>${rows.length} itens do roteiro · ${parts.size} campos</small></div></div>
-    <div id="fieldGroups">${groups.map(([id,name])=>`<section data-field-group="${id}" class="field-group"><h2>${name}</h2>${datumControl(id)}${fields.filter((_,i)=>rows[i].ambiente===id).join('')}</section>`).join('')}</div>
+    <div id="fieldGroups">${groups.map(([id,name])=>`<section data-field-group="${id}" class="field-group"><h2>${name}</h2>${datumControl(id)}${roomFields(id)}</section>`).join('')}</div>
     <aside id="fieldExportPanel" class="field-export-panel" aria-labelledby="fieldExportTitle" hidden><h2 id="fieldExportTitle">Guarde os dois arquivos</h2><p>JSON para reabrir e levar ao projeto; CSV para consultar. Seus dados continuam neste aparelho.</p><div id="fieldDownloads"></div><button type="button" id="fieldCloseExport" class="quiet">Fechar</button></aside>
     <div class="field-actions"><button type="button" id="fieldExport" class="primary-button">Exportar</button><button type="button" id="fieldImport">Importar JSON</button><input id="fieldImportFile" type="file" accept=".json,application/json" hidden><span id="fieldMessage" role="status"></span></div>`;
   function saveState(){

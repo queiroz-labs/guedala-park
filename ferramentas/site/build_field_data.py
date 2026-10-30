@@ -53,7 +53,7 @@ def rows_from_csv(path):
     result=[]
     for r in source:
         code=r['codigo_medida']
-        if not SELECT.match(code) and (code not in consumed or code.startswith(('PR-PONTO-','PR-FLOORS-'))):continue
+        if not SELECT.match(code) and code not in consumed:continue
         room=room_id(r['ambiente'])
         if room not in ROOMS:raise ValueError('Ambiente sem grupo: '+r['ambiente'])
         clean=lambda s:re.sub(r'laminado','vinílico Olmo',s,flags=re.I)
@@ -63,6 +63,7 @@ def rows_from_csv(path):
             descricao=clean(r['medida_ou_verificacao']),nominal=clean(r['valor_nominal_atual']),
             tolerancia=r['tolerancia_que_afeta_projeto'] or 'a definir',partes=nominal_parts(code,r['valor_nominal_atual']),
             moveis=r['moveis_afetados'],datum=code.startswith('PR-'),
+            avancado=code.startswith(('PR-PONTO-','PR-FLOORS-')),
             como_medir='ver protocolo de datum' if pending else detail.get('descricao_fisica',''),
             protocolo=PROTOCOL if pending or code.startswith('PR-') else None))
     codes=[p['codigo'] for r in result for p in r['partes']]

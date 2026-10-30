@@ -37,7 +37,7 @@ Exportar `Medidas_reais.json` para fora do git e executar, na raiz:
 python -B ferramentas/estudos/medidas_do_celular.py --entrada C:/Temp/Medidas_reais.json --saida C:/Temp/Impactos
 ```
 
-Saída nova/vazia e externa: `Importacao.md`, `campo.csv` (só cotas preenchidas com unidade e DIM completo) e `Cadeia/` com `Cadeia.md`, `Impacto.md`, `Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e evidência preservada. Só as duas colunas de campo do índice são importadas; CAD, fichas e orçamento vigentes permanecem. MOV/ANC/PISO/COMP são anotações, fora da cadeia.
+Saída nova/vazia e externa: `Importacao.md`, `campo.csv` (só cotas preenchidas com unidade e DIM completo) e `Cadeia/` com `Cadeia.md`, `Impacto.md`, `Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e evidência preservada. Só as duas colunas de campo do índice são importadas; CAD, fichas e orçamento vigentes permanecem. Pontos/panos PR ficam recolhidos por cômodo; MOV/ANC/PISO/COMP são anotações.
 
 Para teste fictício, fornecer `--csv C:/Temp/Copia_medidas.csv`, cópia externa do índice; a trava impede fixture no CSV real. Importador isolado: `importar_medidas_site.py --entrada <json> --csv <copia> --relatorio <md> --campo <csv externo>`. Teste integrado: `python -B ferramentas/estudos/test_importar_medidas_site.py`, incluído em `verificar_site.py`.
 
