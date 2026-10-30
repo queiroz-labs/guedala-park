@@ -7,9 +7,13 @@
   const store=api.createStore([...parts.keys()]);let urls=[];
   const statusLabels={pendente:'Ainda não conferido',ok:'OK marcado por você',fora_do_esperado:'Fora do esperado — sua anotação'};
   const groups=[['sala','Sala e jantar'],['cozinha','Cozinha'],['lavanderia','Lavanderia'],['quarto','Quarto'],['escritorio','Escritório'],['banho','Banheiro'],['circulacao','Circulação'],['all','Geral']];
+  const projectLink=p=>{const [file,anchor]=p.split('#');return (typeof workDocUrl==='function'?workDocUrl({path:file,available:true}):'docs/'+file+'.html')+(anchor?'#'+anchor:'');};
+  const datumControl=id=>rows.some(r=>r.ambiente===id&&r.datum)?`<label class="field-datum"><input type="checkbox" data-datum-room="${id}"><span>Datum confirmado: as coordenadas desta seção já estão vinculadas aos eixos da planta. <a href="${escape(projectLink('07_Imovel/Roteiro_dia_das_chaves_R01.md#protocolo-de-datum--proposto'))}">Ver protocolo de datum</a></span></label>`:'';
   const fields=rows.map((r,i)=>`<article class="field-row" data-measure="${escape(r.codigo)}" data-field-room="${r.ambiente}">
     <div class="field-row-head"><code>${escape(r.codigo)}</code><span class="field-row-status"></span></div>
     <h3>${escape(r.descricao)}</h3><p class="field-nominal">Nominal: <strong>${escape(r.nominal)}</strong></p>
+    ${r.como_medir?`<p class="field-method">${escape(r.como_medir)}${r.protocolo?` · <a href="${escape(projectLink(r.protocolo))}">Abrir protocolo de datum</a>`:''}</p>`:''}
+    ${r.datum?'<p class="field-datum-warning">Sem datum confirmado, a coordenada fica como anotação e não será aplicada à cadeia.</p>':''}
     <div class="field-inputs">${r.partes.map((p,j)=>`<label for="field-${i}-${j}">${escape(p.label)} <span>mm</span><input id="field-${i}-${j}" data-measure-input="${escape(p.codigo)}" type="number" inputmode="decimal" step="any" autocomplete="off"><output data-difference="${escape(p.codigo)}" for="field-${i}-${j}"></output></label>`).join('')}</div>
     <p class="field-tolerance">Tolerância: ${escape(r.tolerancia)}. A diferença não classifica a medida.</p>
     <div class="field-review" role="group" aria-label="Sua conferência de ${escape(r.codigo)}"><button type="button" data-review="ok" aria-pressed="false">✓ OK</button><button type="button" data-review="fora_do_esperado" aria-pressed="false">Fora do esperado</button><button type="button" data-review="pendente" class="quiet" aria-label="Deixar ${escape(r.codigo)} pendente">Pendente</button></div>
@@ -18,7 +22,7 @@
   page.innerHTML=`<div class="field-heading"><span class="eyebrow">LEVANTAMENTO NO IMÓVEL</span><h1>Dia das chaves</h1><p>Meça em milímetros. Registre o que encontrou e exporte uma cópia antes de sair.</p></div>
     <p id="fieldSaveState" class="field-save-state" role="status"></p>
     <div class="field-toolbar"><label for="fieldRoom">Cômodo<select id="fieldRoom"><option value="todos">Todos os cômodos</option>${groups.map(([id,name])=>`<option value="${id}">${name}</option>`).join('')}</select></label><div><span id="fieldProgress"></span><small>${rows.length} itens do roteiro · ${parts.size} campos</small></div></div>
-    <div id="fieldGroups">${groups.map(([id,name])=>`<section data-field-group="${id}" class="field-group"><h2>${name}</h2>${fields.filter((_,i)=>rows[i].ambiente===id).join('')}</section>`).join('')}</div>
+    <div id="fieldGroups">${groups.map(([id,name])=>`<section data-field-group="${id}" class="field-group"><h2>${name}</h2>${datumControl(id)}${fields.filter((_,i)=>rows[i].ambiente===id).join('')}</section>`).join('')}</div>
     <aside id="fieldExportPanel" class="field-export-panel" aria-labelledby="fieldExportTitle" hidden><h2 id="fieldExportTitle">Guarde os dois arquivos</h2><p>JSON para reabrir e levar ao projeto; CSV para consultar. Seus dados continuam neste aparelho.</p><div id="fieldDownloads"></div><button type="button" id="fieldCloseExport" class="quiet">Fechar</button></aside>
     <div class="field-actions"><button type="button" id="fieldExport" class="primary-button">Exportar</button><button type="button" id="fieldImport">Importar JSON</button><input id="fieldImportFile" type="file" accept=".json,application/json" hidden><span id="fieldMessage" role="status"></span></div>`;
   function saveState(){
@@ -42,6 +46,18 @@
     saveState();
   }
   function message(text){document.getElementById('fieldMessage').textContent=text;}
+  function syncDatum(){
+    page.querySelectorAll('[data-datum-room]').forEach(input=>{
+      const codes=rows.filter(r=>r.ambiente===input.dataset.datumRoom&&r.datum).flatMap(r=>r.partes.map(p=>p.codigo));
+      input.checked=codes.length>0&&codes.every(c=>store.get(c).datum_confirmado===true);
+    });
+  }
+  page.addEventListener('change',event=>{
+    const input=event.target;if(!input.dataset.datumRoom)return;
+    for(const r of rows.filter(r=>r.ambiente===input.dataset.datumRoom&&r.datum))
+      for(const p of r.partes)store.update(p.codigo,{datum_confirmado:input.checked});
+    saveState();
+  });
   page.addEventListener('input',event=>{
     const input=event.target,code=input.dataset.measureInput,note=input.dataset.observation;
     try{
@@ -69,11 +85,11 @@
   fileInput.addEventListener('change',async()=>{
     const file=fileInput.files[0];if(!file)return;
     try{if(file.size>2*1024*1024)throw new Error('Arquivo maior que 2 MB. Use uma exportação JSON do levantamento.');
-      const result=store.importFile(await file.text());for(const r of rows)syncRow(r,true);
+      const result=store.importFile(await file.text());for(const r of rows)syncRow(r,true);syncDatum();
       message(`${result.imported} registros importados; ${result.older} antigos mantidos sem substituir os mais recentes.`);
     }catch(e){message('Importação não aplicada: '+e.message);}finally{fileInput.value='';}
   });
-  window.addEventListener('beforeunload',revoke);for(const r of rows)syncRow(r,true);
+  window.addEventListener('beforeunload',revoke);for(const r of rows)syncRow(r,true);syncDatum();
   document.addEventListener('click',event=>{
     const button=event.target.closest('.mast [data-tab]');
     if(button)button.scrollIntoView({block:'nearest',inline:'nearest',behavior:'instant'});

@@ -22,7 +22,10 @@
       if(seen.has(r.codigo))throw new Error('Código repetido: '+r.codigo);seen.add(r.codigo);
       if(r.valor_mm!==null&&(typeof r.valor_mm!=='number'||!Number.isFinite(r.valor_mm)))throw new Error('Valor inválido: '+r.codigo);
       if(!STATUS.has(r.status)||typeof r.observacao!=='string'||!dateValid(r.data_hora))throw new Error('Registro inválido: '+r.codigo);
-      return {codigo:r.codigo,valor_mm:r.valor_mm,status:r.status,observacao:r.observacao,data_hora:r.data_hora};
+      if('datum_confirmado' in r&&typeof r.datum_confirmado!=='boolean')throw new Error('Confirmação de datum inválida: '+r.codigo);
+      const record={codigo:r.codigo,valor_mm:r.valor_mm,status:r.status,observacao:r.observacao,data_hora:r.data_hora};
+      if(r.codigo.startsWith('PR-'))record.datum_confirmado=r.datum_confirmado===true;
+      return record;
     });
   }
   function csvCell(value,freeText=false){
@@ -31,7 +34,7 @@
     return '"'+text.replace(/"/g,'""')+'"';
   }
   function toCsv(payload){
-    const fields=['codigo','valor_mm','status','observacao','data_hora'];
+    const fields=['codigo','valor_mm','status','observacao','data_hora','datum_confirmado'];
     return '\ufeff'+fields.join(';')+'\r\n'+payload.medidas.map(r=>fields.map(k=>csvCell(r[k],k==='observacao')).join(';')).join('\r\n')+'\r\n';
   }
   function createStore(codes,{storage=()=>root.localStorage,clock=()=>new Date().toISOString()}={}){
@@ -55,14 +58,14 @@
       catch(e){persistent=false;error='O navegador não conseguiu salvar no aparelho.';}
     }
     return {
-      get:code=>records[code]?{...records[code]}:{codigo:code,valor_mm:null,status:'pendente',observacao:'',data_hora:''},
+      get:code=>records[code]?{...records[code]}:{codigo:code,valor_mm:null,status:'pendente',observacao:'',data_hora:'',...(code.startsWith('PR-')?{datum_confirmado:false}:{})},
       update(code,change){
         if(!allowed.has(code))throw new Error('Código desconhecido: '+code);
         const old=this.get(code),next={...old,...change,codigo:code,data_hora:clock()};
         next.valor_mm=number(next.valor_mm);
         if('valor_mm' in change&&next.valor_mm!==old.valor_mm&&!('status' in change))next.status='pendente';
         validate({versao:1,projeto:'guedala-park',exportado_em:clock(),medidas:[next]},allowed);
-        records[code]=next;persist();return {...next};
+        records[code]=validate({versao:1,projeto:'guedala-park',exportado_em:clock(),medidas:[next]},allowed)[0];persist();return {...records[code]};
       },
       importFile(text){
         const incoming=validate(JSON.parse(text),allowed);let imported=0,older=0;

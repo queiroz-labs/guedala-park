@@ -37,7 +37,7 @@ Exportar `Medidas_reais.json` para fora do git e executar, na raiz:
 python -B ferramentas/estudos/medidas_do_celular.py --entrada C:/Temp/Medidas_reais.json --saida C:/Temp/Impactos
 ```
 
-Saída nova/vazia e externa: `Importacao.md`, `campo.csv` (só cotas preenchidas com unidade e DIM completo) e `Cadeia/` com `Cadeia.md`, `Impacto.md`, `Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas novas e pendências; caixas fixas continuam fixas. Só as duas colunas de campo do índice são importadas; CAD, fichas e orçamento vigentes permanecem. MOV/ANC/PISO/COMP são anotações, fora da cadeia.
+Saída nova/vazia e externa: `Importacao.md`, `campo.csv` (só cotas preenchidas com unidade e DIM completo) e `Cadeia/` com `Cadeia.md`, `Impacto.md`, `Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e evidência preservada. Só as duas colunas de campo do índice são importadas; CAD, fichas e orçamento vigentes permanecem. MOV/ANC/PISO/COMP são anotações, fora da cadeia.
 
 Para teste fictício, fornecer `--csv C:/Temp/Copia_medidas.csv`, cópia externa do índice; a trava impede fixture no CSV real. Importador isolado: `importar_medidas_site.py --entrada <json> --csv <copia> --relatorio <md> --campo <csv externo>`. Teste integrado: `python -B ferramentas/estudos/test_importar_medidas_site.py`, incluído em `verificar_site.py`.
 
@@ -132,6 +132,6 @@ Vídeos/ZIPs originais ficam apenas no PC, fora do Git/site.
 
 Folha: 15 prioridades; [546 códigos e descrições pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv).
 
-Levantamento dos panos no roteiro: duas visadas com distância e azimute desde M0/M0→M1, a1m do piso; não são duas perpendiculares a partir do mesmo ponto. Identificar M0/M1/E1/E2 e vinculá-los ao datum nominal antes de converter a reta para deslocamento normal assinado/ângulo no CSV da cadeia. Esse vínculo ainda é descrição pendente, sem transformação inventada.
+Levantamento dos panos no roteiro: duas visadas com distância e azimute desde M0/M0→M1, a1m do piso; não são duas perpendiculares a partir do mesmo ponto. Identificar M0/M1/E1/E2 e vinculá-los ao datum nominal antes de converter a reta para deslocamento normal assinado/ângulo no CSV da cadeia. Vínculo pendente.
 
 **Datum proposto:** [folha de uma página](Roteiro_dia_das_chaves_R01.md#protocolo-de-datum--proposto), antes das prioridades. **Pergunta exata:** quais faces/marcos físicos correspondem à origem (0,0), ao sentido +X da planta e ao PR-EIXO-X nominal de 7400 mm, e que transformação leva M0 junto à entrada/M0→M1 paralelo à fachada a esse referencial? Até demonstrar o vínculo, PR-* não deve alimentar a cadeia.

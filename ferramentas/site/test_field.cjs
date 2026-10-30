@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const coreModule={exports:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'src/field-core.js'),'utf8'),{module:coreModule,Date});const api=coreModule.exports;
 const context=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(__dirname,'src/field-data.js'),'utf8'),context);
 const rows=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_ROWS)',context)),codes=rows.flatMap(r=>r.partes.map(p=>p.codigo));
-assert.equal(new Set(codes).size,codes.length);assert(rows.length>50);assert(rows.every(r=>!/^(LOG|POS|PR|PTO|OBS)-/.test(r.codigo)));
+assert.equal(new Set(codes).size,codes.length);assert(rows.length>50);assert(rows.every(r=>!/^(LOG|POS|PTO|OBS)-/.test(r.codigo)));
 const dim=rows.find(r=>r.codigo==='DIM-01');assert.deepEqual(dim.partes.map(p=>p.nominal_mm),[2450,2950]);assert.deepEqual(dim.partes.map(p=>p.codigo),['DIM-01/0','DIM-01/1']);
 assert(rows.every(r=>r.tolerancia==='a definir'),'Mudança na fonte deve ser revisada sem inventar tolerância');
 assert.equal(api.number(''),null);assert.equal(api.number('0'),0);assert.equal(api.number('25,5'),25.5);assert.throws(()=>api.number('25 mm'));assert.throws(()=>api.number(Infinity));

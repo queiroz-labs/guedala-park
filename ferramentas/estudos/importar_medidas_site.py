@@ -20,7 +20,7 @@ import tempfile
 ROOT=Path(__file__).resolve().parents[2]
 DEFAULT_CSV=ROOT/'07_Imovel/Medidas_e_impactos.csv'
 sys.path.insert(0,str(ROOT/'ferramentas/site'))
-from build_field_data import rows_from_csv,nominal_parts
+from build_field_data import rows_from_csv,nominal_parts,chain_codes
 
 STATUSES={'pendente','ok','fora_do_esperado'}
 
@@ -32,11 +32,6 @@ def external(path):
     return path
 
 
-def chain_codes():
-    rules=json.loads((ROOT/'04_Moveis/Dependencias/regras.json').read_text(encoding='utf-8'))
-    return {c.split('/')[0] for r in rules['regras'] for c in r['medidas']} | {'PR-EIXO-X'}
-
-
 def field_csv(rows):
     """Somente entradas numéricas consumidas pela cadeia; vazio não é zero."""
     allowed=chain_codes();output=io.StringIO(newline='')
@@ -45,6 +40,7 @@ def field_csv(rows):
     for row in rows:
         code=row['codigo_medida'];value=row['valor_medido'].strip()
         if code not in allowed or not value:continue
+        if code.startswith('PR-') and not row['evidencia_campo'].startswith('DATUM_CONFIRMADO:SIM; '):continue
         scalar=r'-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)'
         pattern='(?:'+scalar+r'|-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)?\s*[×x;]\s*'+scalar+')' if code.startswith('DIM-') else scalar
         if not re.fullmatch(pattern,value):raise ValueError('Cota inválida ou sem unidade explícita: '+code)
@@ -77,6 +73,8 @@ def validate(payload,catalog):
         if value is not None and code.startswith(('PD-','DIM-')) and value<=0:raise ValueError('Dimensão deve ser positiva: '+code)
         if not isinstance(r.get('status'),str) or r.get('status') not in STATUSES or not isinstance(r.get('observacao'),str):raise ValueError('Status/observação inválidos: '+code)
         iso(r.get('data_hora'));result.append(r)
+        if 'datum_confirmado' in r and type(r['datum_confirmado']) is not bool:
+            raise ValueError('datum_confirmado deve ser booleano: '+code)
     return result
 
 
@@ -96,7 +94,9 @@ def evidence(records,input_name,sha):
     for r in sorted(records,key=lambda v:v['codigo']):
         value='sem cota' if r['valor_mm'] is None else fmt(r['valor_mm'])+' mm'
         values.append(f"{r['codigo']}={value}; {r['data_hora']}; status={r['status']}; obs={r['observacao']}")
-    return f'JSON {input_name}; SHA256 {sha}; '+' | '.join(values)
+    confirmed=all(r.get('datum_confirmado') is True for r in records)
+    prefix=('DATUM_CONFIRMADO:SIM; ' if confirmed else 'DATUM_CONFIRMADO:NAO; ') if records[0]['codigo'].startswith('PR-') else ''
+    return prefix+f'JSON {input_name}; SHA256 {sha}; '+' | '.join(values)
 
 
 def atomic_write(path,content):
@@ -131,7 +131,7 @@ def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None,field_path=None
         if field not in fields:raise ValueError('Coluna ausente: '+field)
     groups={}
     for r in records:groups.setdefault(r['codigo'].split('/')[0],[]).append(r)
-    changes=[];pending=[];unchanged=[];stale=[];source_sha=hashlib.sha256(raw_input).hexdigest()
+    changes=[];pending=[];unchanged=[];stale=[];blocked=[];source_sha=hashlib.sha256(raw_input).hexdigest()
     for item in catalog:
         code=item['codigo']
         if code not in groups:continue
@@ -142,6 +142,9 @@ def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None,field_path=None
         # Uma cota composta só é real se todos os seus componentes forem reais.
         complete=all(p['codigo'] in by_part and by_part[p['codigo']]['valor_mm'] is not None for p in item['partes'])
         proof=evidence(captured,input_path.name,source_sha)
+        if code.startswith('PR-') and not all(r.get('datum_confirmado') is True for r in captured):
+            row['valor_medido']='';row['evidencia_campo']=proof;blocked.append(code)
+            continue
         if not complete:
             missing=[p['codigo'] for p in item['partes'] if p['codigo'] not in by_part or by_part[p['codigo']]['valor_mm'] is None]
             if row['evidencia_campo'] and proof not in row['evidencia_campo']:proof+=' | Evidência anterior preservada: '+row['evidencia_campo']
@@ -174,6 +177,9 @@ def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None,field_path=None
     for code,missing,reason in pending:lines.append(f'- **{md(code)}:** faltam {md(missing)}. {reason} Evidência no CSV.')
     if not pending:lines.append('Nenhuma cota parcial recebida.')
     lines+=['','## Registros anteriores ignorados','',', '.join(stale) or 'Nenhum nesta entrada.']
+    lines+=['','## Coordenadas sem datum','']
+    for code in blocked:lines.append(f'- **{code}:** coordenada de campo sem vínculo ao datum — não aplicar. Valor apenas na evidência; não enviado à cadeia.')
+    if not blocked:lines.append('Nenhuma coordenada bloqueada nesta entrada.')
     lines+=['','## Valores iguais ao nominal','',', '.join(r['codigo'] for r in unchanged) or 'Nenhum nesta entrada.','',
             '## Conferência seguinte','',
             'Conferir pontos/face acabada e evidências com RT/oficina. Atualizar os derivados somente em etapa posterior, após revisão; nenhuma regeneração foi executada.','']
@@ -198,7 +204,7 @@ def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None,field_path=None
             else:atomic_write(path,previous)
         raise
     return dict(recebidos=len(records),preenchidos=len(changes)+len(unchanged),divergencias=len(changes),incompletos=len(pending),antigos_ignorados=len(stale),
-                csv=str(csv_path),relatorio=str(report_path),campo=str(field_path) if field_path else None,entradas_cadeia=field_count)
+                csv=str(csv_path),relatorio=str(report_path),campo=str(field_path) if field_path else None,entradas_cadeia=field_count,sem_datum=len(blocked))
 
 
 def main():

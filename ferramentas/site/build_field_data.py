@@ -9,6 +9,12 @@ ROOT=Path(__file__).resolve().parents[2]
 SELECT=re.compile(r'^(PD-|DIM-|MOV-|ANC(?:-|$)|PISO(?:-|$)|COMP(?:-|$)|LAV-TEC(?:-|$)|COZ-|SAL-COND(?:-|$))')
 ROOMS={'quarto':'Quarto','cozinha':'Cozinha','lavanderia':'Lavanderia','escritorio':'Escritório',
        'banho':'Banheiro','sala':'Sala e jantar','circulacao':'Circulação','all':'Geral'}
+PROTOCOL='07_Imovel/Roteiro_dia_das_chaves_R01.md#protocolo-de-datum--proposto'
+
+
+def chain_codes(root=ROOT):
+    rules=json.loads((root/'04_Moveis/Dependencias/regras.json').read_text(encoding='utf-8'))
+    return {c.split('/')[0] for r in rules['regras'] for c in r['medidas']} | {'PR-EIXO-X'}
 
 
 def room_id(text):
@@ -41,17 +47,24 @@ def rows(root=ROOT):
 
 def rows_from_csv(path):
     with Path(path).open(encoding='utf-8-sig',newline='') as f:source=list(csv.DictReader(f))
+    with (ROOT/'04_Moveis/Dependencias/Descricao_fisica.csv').open(encoding='utf-8-sig',newline='') as f:
+        physical={r['codigo_medida']:r for r in csv.DictReader(f,delimiter=';')}
+    consumed=chain_codes()
     result=[]
     for r in source:
         code=r['codigo_medida']
-        if not SELECT.match(code):continue
+        if not SELECT.match(code) and (code not in consumed or code.startswith(('PR-PONTO-','PR-FLOORS-'))):continue
         room=room_id(r['ambiente'])
         if room not in ROOMS:raise ValueError('Ambiente sem grupo: '+r['ambiente'])
         clean=lambda s:re.sub(r'laminado','vinílico Olmo',s,flags=re.I)
+        detail=physical.get(code,{})
+        pending='pendente' in detail.get('situacao','')
         result.append(dict(codigo=code,ambiente=room,ambiente_nome=ROOMS[room],
             descricao=clean(r['medida_ou_verificacao']),nominal=clean(r['valor_nominal_atual']),
-            tolerancia=r['tolerancia_que_afeta_projeto'],partes=nominal_parts(code,r['valor_nominal_atual']),
-            moveis=r['moveis_afetados']))
+            tolerancia=r['tolerancia_que_afeta_projeto'] or 'a definir',partes=nominal_parts(code,r['valor_nominal_atual']),
+            moveis=r['moveis_afetados'],datum=code.startswith('PR-'),
+            como_medir='ver protocolo de datum' if pending else detail.get('descricao_fisica',''),
+            protocolo=PROTOCOL if pending or code.startswith('PR-') else None))
     codes=[p['codigo'] for r in result for p in r['partes']]
     if len(codes)!=len(set(codes)):raise ValueError('Código de campo duplicado')
     return result

@@ -39,7 +39,7 @@ def main():
     print(f"Peças alteradas: {summary['pecas_alteradas']}")
     print(f"Folgas negativas novas: {summary['novas_folgas_negativas']}")
     print(f"Pendências de propagação: {summary['pendencias_propagacao']}")
-    print(f"Importação: {result['preenchidos']} linhas; {result['incompletos']} incompletas; {result['entradas_cadeia']} entradas na cadeia")
+    print(f"Importação: {result['preenchidos']} linhas; {result['incompletos']} incompletas; {result['sem_datum']} sem datum; {result['entradas_cadeia']} entradas na cadeia")
     print('Limites: caixas fixas; referências sem vínculo por peça continuam pendentes; sem medida omitida convertida em zero.')
     for name in ('Cadeia.md','Impacto.md','Pecas_diferencas.csv','Pendencias_propagacao.csv'):
         print(str(folder/name))

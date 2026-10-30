@@ -96,11 +96,11 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
-**Chaves:** [JSON→cadeia e datum proposto](07_Imovel/README.md); sem medida real.
+**Chaves:** [JSON→cadeia; PR condicionado a datum](07_Imovel/README.md); sem medida real.
 
 **Perguntas:** [pacote](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
 
-**Gás:** [rede e ventilação](03_Ambientes/Gas_natural/README.md), nominal.
+**Gás:** [rede/ventilação nominal](03_Ambientes/Gas_natural/README.md).
 
 ## Próximos passos
 

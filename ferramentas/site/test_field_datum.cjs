@@ -1,0 +1,26 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const read=n=>fs.readFileSync(path.join(__dirname,n),'utf8'),ctx=vm.createContext({});
+vm.runInContext(read('src/field-data.js'),ctx);
+const rows=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_ROWS)',ctx));
+const rules=JSON.parse(fs.readFileSync(path.join(__dirname,'../../04_Moveis/Dependencias/regras.json'),'utf8'));
+const consumed=new Set(rules.regras.flatMap(r=>r.medidas.map(c=>c.split('/')[0])).concat('PR-EIXO-X'));
+const deferred=c=>c.startsWith('PR-PONTO-')||c.startsWith('PR-FLOORS-');
+const actual=new Set(rows.map(r=>r.codigo));
+for(const c of consumed)if(!deferred(c))assert(actual.has(c),'Entrada da cadeia ausente: '+c);
+assert(rows.filter(r=>r.datum).every(r=>r.codigo.startsWith('PR-')));
+for(let i=1;i<=5;i++)for(const axis of ['X','Y','Z']){
+ const row=rows.find(r=>r.codigo===`PR-JANELA-${i}-${axis}`);assert(row);assert.equal(row.como_medir,'ver protocolo de datum');assert(row.protocolo.includes('Roteiro_dia'));
+}
+const mod={exports:{}};vm.runInNewContext(read('src/field-core.js'),{module:mod,Date});const api=mod.exports;
+const codes=rows.flatMap(r=>r.partes.map(p=>p.codigo));let saved=null;
+const options={storage:()=>({getItem:()=>saved,setItem:(k,v)=>saved=v}),clock:()=> '2026-10-30T06:00:00Z'};
+const store=api.createStore(codes,options),code='PR-JANELA-1-X';
+store.update(code,{valor_mm:610});assert.equal(store.get(code).datum_confirmado,false);
+store.update(code,{datum_confirmado:true});assert.equal(store.get(code).datum_confirmado,true);
+const reopened=api.createStore(codes,options);assert.equal(reopened.get(code).datum_confirmado,true);
+const copy=api.createStore(codes,{storage:()=>null,clock:options.clock});copy.importFile(JSON.stringify(store.exportData()));assert.equal(copy.get(code).datum_confirmado,true);
+assert(api.toCsv(copy.exportData()).includes('datum_confirmado'));
+const legacy=store.exportData();delete legacy.medidas[0].datum_confirmado;copy.importFile(JSON.stringify(legacy));assert.equal(copy.get(code).datum_confirmado,false);
+const invalid=store.exportData();invalid.medidas[0].datum_confirmado='true';assert.throws(()=>copy.importFile(JSON.stringify(invalid)));
+assert(read('src/field-ui.js').includes('data-datum-room'));
+console.log('Cobertura principal, unidades e confirmação de datum: OK');

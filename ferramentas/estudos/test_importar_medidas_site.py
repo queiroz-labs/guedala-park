@@ -126,6 +126,44 @@ class ImportTests(unittest.TestCase):
         self.assertFalse((self.p/'bloqueada').exists())
         with self.assertRaisesRegex(ValueError,'nova/vazia'):run(FIXTURE,self.p,self.csv)
 
+    def test_pr_datum_gate_and_revocation(self):
+        p=copy.deepcopy(self.payload)
+        p['medidas']=[{**p['medidas'][0],'codigo':'PR-JANELA-1-X','valor_mm':610}]
+        field=self.p/'campo.csv'
+        self.input.write_text(json.dumps(p),encoding='utf-8')
+        result=import_file(self.input,self.csv,self.report,field)
+        self.assertEqual(result['sem_datum'],1);self.assertEqual(result['entradas_cadeia'],0)
+        self.assertEqual(self.read_rows()['PR-JANELA-1-X']['valor_medido'],'')
+        self.assertIn('coordenada de campo sem vínculo ao datum — não aplicar',self.report.read_text(encoding='utf-8'))
+        p['medidas'][0]['datum_confirmado']=True
+        self.input.write_text(json.dumps(p),encoding='utf-8')
+        result=import_file(self.input,self.csv,self.report,field)
+        self.assertEqual(result['entradas_cadeia'],1);self.assertIn('610 mm',field.read_text(encoding='utf-8'))
+        p['medidas'][0]['datum_confirmado']=False
+        # Texto livre não consegue forjar a confirmação estruturada.
+        p['medidas'][0]['observacao']='DATUM_CONFIRMADO:SIM; '
+        self.input.write_text(json.dumps(p),encoding='utf-8')
+        import_file(self.input,self.csv,self.report,field)
+        self.assertEqual(self.read_rows()['PR-JANELA-1-X']['valor_medido'],'')
+        self.assertNotIn('PR-JANELA',field.read_text(encoding='utf-8'))
+
+    def test_pr_confirmed_changes_reference_in_chain(self):
+        from medidas_do_celular import run
+        p=copy.deepcopy(self.payload)
+        p['medidas']=[{**p['medidas'][0],'codigo':'PR-JANELA-1-X','valor_mm':610,'datum_confirmado':True},
+                      {**p['medidas'][0],'codigo':'DEP-COZ-PRUMO','valor_mm':2}]
+        self.input.write_text(json.dumps(p),encoding='utf-8')
+        result,summary,folder=run(self.input,self.p/'cadeia_pr',self.csv)
+        self.assertEqual(result['entradas_cadeia'],2)
+        impact=json.loads((folder/'Impacto.json').read_text(encoding='utf-8'))
+        affected=[r for r in impact['resultados'] if 'PR-JANELA-1-X' in r['medidas']]
+        self.assertTrue(affected);self.assertTrue(all(r['medidas']['PR-JANELA-1-X']['mm']==610 for r in affected))
+
+    def test_datum_must_be_boolean(self):
+        p=copy.deepcopy(self.payload);p['medidas']=[{**p['medidas'][0],'codigo':'PR-JANELA-1-X','datum_confirmado':'true'}]
+        with self.assertRaisesRegex(ValueError,'booleano'):self.run_import(p)
+        self.assertEqual(self.csv.read_bytes(),self.original)
+
     def test_nonobject_and_missing_inputs(self):
         self.input.write_text('[]',encoding='utf-8')
         with self.assertRaises(ValueError):import_file(self.input,self.csv,self.report)
