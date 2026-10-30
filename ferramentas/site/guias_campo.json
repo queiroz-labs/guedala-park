@@ -14,7 +14,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PD-COZ",
@@ -31,7 +32,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/cozinha/COZ-01_02m30s.jpg",
-    "foto_confere": "Teto e paredes da cozinha vistos juntos."
+    "foto_confere": "Teto e paredes da cozinha vistos juntos.",
+    "icone": "altura"
   },
   {
     "codigo": "PD-LAV",
@@ -48,7 +50,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg",
-    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia."
+    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia.",
+    "icone": "altura"
   },
   {
     "codigo": "PD-ESC",
@@ -65,7 +68,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/dormitorio_A/DRA-01_09m30s.jpg",
-    "foto_confere": "Teto e paredes do primeiro quarto, associado ao escritório pelo percurso filmado."
+    "foto_confere": "Teto e paredes do primeiro quarto, associado ao escritório pelo percurso filmado.",
+    "icone": "altura"
   },
   {
     "codigo": "PD-BAN",
@@ -82,7 +86,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/banheiro/BAN-04_08m54s.jpg",
-    "foto_confere": "Teto e paredes do banheiro, acima da janela."
+    "foto_confere": "Teto e paredes do banheiro, acima da janela.",
+    "icone": "altura"
   },
   {
     "codigo": "PD-SAL",
@@ -99,7 +104,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/sala/SAL-04_07m30s.jpg",
-    "foto_confere": "Teto e paredes da sala, acima da janela."
+    "foto_confere": "Teto e paredes da sala, acima da janela.",
+    "icone": "altura"
   },
   {
     "codigo": "PD-CIR",
@@ -116,7 +122,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Mobiliado/Fotos/circulacao/M-CIR-02_17m36s.jpg",
-    "foto_confere": "Teto rebaixado e paredes do corredor, acima das portas."
+    "foto_confere": "Teto rebaixado e paredes do corredor, acima das portas.",
+    "icone": "altura"
   },
   {
     "codigo": "DIM-01/0",
@@ -133,7 +140,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-01/1",
@@ -150,7 +158,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-02/0",
@@ -167,7 +176,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-02/1",
@@ -184,7 +194,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-03",
@@ -201,7 +212,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-04",
@@ -218,7 +230,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-05/0",
@@ -235,7 +248,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-05/1",
@@ -252,7 +266,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-06/0",
@@ -269,7 +284,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-06/1",
@@ -286,7 +302,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-07/0",
@@ -303,7 +320,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-07/1",
@@ -320,7 +338,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-08/0",
@@ -337,7 +356,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "DIM-08/1",
@@ -354,7 +374,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "largura"
   },
   {
     "codigo": "MOV-P01",
@@ -371,7 +392,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P02",
@@ -388,7 +410,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P03",
@@ -405,7 +428,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P04",
@@ -422,7 +446,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P05",
@@ -439,7 +464,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P06",
@@ -456,7 +482,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P07",
@@ -473,7 +500,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P08",
@@ -490,7 +518,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P09",
@@ -507,7 +536,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P10",
@@ -524,7 +554,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P11",
@@ -541,7 +572,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P12",
@@ -558,7 +590,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P13",
@@ -575,7 +608,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P14",
@@ -592,7 +626,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P15",
@@ -609,7 +644,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P16",
@@ -626,7 +662,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P17",
@@ -643,7 +680,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P18",
@@ -660,7 +698,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P19",
@@ -677,7 +716,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "MOV-P20",
@@ -694,7 +734,8 @@
     "instrumento": "Trena, nível e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "COMP-01",
@@ -711,7 +752,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "COMP-02",
@@ -728,7 +770,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "COMP-03",
@@ -745,7 +788,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "COMP-04",
@@ -762,7 +806,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
-    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado.",
+    "icone": "distancia"
   },
   {
     "codigo": "COMP-05",
@@ -779,7 +824,8 @@
     "instrumento": "Celular. Profissional de hidráulica.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": null
   },
   {
     "codigo": "COMP-06",
@@ -796,7 +842,8 @@
     "instrumento": "Celular. Profissional de elétrica.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0110.jpg",
-    "foto_confere": "Quadro elétrico fechado na parede junto à entrada."
+    "foto_confere": "Quadro elétrico fechado na parede junto à entrada.",
+    "icone": null
   },
   {
     "codigo": "LAV-TEC",
@@ -813,7 +860,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg",
-    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia."
+    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia.",
+    "icone": null
   },
   {
     "codigo": "COZ-FAIXA",
@@ -830,7 +878,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "COZ-ACESSO",
@@ -847,7 +896,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "SAL-COND",
@@ -864,7 +914,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/sala/SAL-02_06m42s.jpg",
-    "foto_confere": "Tomadas e conexões de comunicação na parede da sala."
+    "foto_confere": "Tomadas e conexões de comunicação na parede da sala.",
+    "icone": null
   },
   {
     "codigo": "ANC-P04",
@@ -881,7 +932,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P09",
@@ -898,7 +950,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P11",
@@ -915,7 +968,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P12",
@@ -932,7 +986,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P15",
@@ -949,7 +1004,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P17",
@@ -966,7 +1022,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P18",
@@ -983,7 +1040,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "ANC-P19",
@@ -1000,7 +1058,8 @@
     "instrumento": "Celular para fotografar. Profissional para conferir a parede.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   },
   {
     "codigo": "PISO-P01-P03",
@@ -1017,7 +1076,8 @@
     "instrumento": "Nível, régua, trena e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "nivel"
   },
   {
     "codigo": "PISO-P08",
@@ -1034,7 +1094,8 @@
     "instrumento": "Nível, régua, trena e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "nivel"
   },
   {
     "codigo": "PISO-P16",
@@ -1051,7 +1112,8 @@
     "instrumento": "Nível, régua, trena e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "nivel"
   },
   {
     "codigo": "PISO-P20",
@@ -1068,7 +1130,8 @@
     "instrumento": "Nível, régua, trena e celular.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "nivel"
   },
   {
     "codigo": "PR-EIXO-X",
@@ -1085,7 +1148,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-00-X",
@@ -1102,7 +1166,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-00-Y",
@@ -1119,7 +1184,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-03-X",
@@ -1136,7 +1202,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-03-Y",
@@ -1153,7 +1220,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-04-X",
@@ -1170,7 +1238,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-04-Y",
@@ -1187,7 +1256,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-04-D",
@@ -1204,7 +1274,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-08-X",
@@ -1221,7 +1292,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-08-Y",
@@ -1238,7 +1310,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-10-X",
@@ -1255,7 +1328,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-10-Y",
@@ -1272,7 +1346,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-11-X",
@@ -1289,7 +1364,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-FLOORS-11-Y",
@@ -1306,7 +1382,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-1-X",
@@ -1323,7 +1400,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-1-Y",
@@ -1340,7 +1418,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-1-Z",
@@ -1357,7 +1436,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-JANELA-2-X",
@@ -1374,7 +1454,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
-    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-2-Y",
@@ -1391,7 +1472,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
-    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-2-Z",
@@ -1408,7 +1490,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
-    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-JANELA-3-X",
@@ -1425,7 +1508,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-3-Y",
@@ -1442,7 +1526,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-3-Z",
@@ -1459,7 +1544,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-JANELA-4-X",
@@ -1476,7 +1562,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
-    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-4-Y",
@@ -1493,7 +1580,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
-    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-4-Z",
@@ -1510,7 +1598,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
-    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-JANELA-5-X",
@@ -1527,7 +1616,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-5-Y",
@@ -1544,7 +1634,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-JANELA-5-Z",
@@ -1561,7 +1652,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PORTA-1-X",
@@ -1578,7 +1670,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-1-Y",
@@ -1595,7 +1688,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-1-Z",
@@ -1612,7 +1706,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PORTA-2-X",
@@ -1629,7 +1724,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-2-Y",
@@ -1646,7 +1742,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-2-Z",
@@ -1663,7 +1760,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PORTA-3-X",
@@ -1680,7 +1778,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-3-Y",
@@ -1697,7 +1796,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-3-Z",
@@ -1714,7 +1814,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PORTA-4-X",
@@ -1731,7 +1832,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
-    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-4-Y",
@@ -1748,7 +1850,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
-    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PORTA-4-Z",
@@ -1765,7 +1868,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
-    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-C02-X",
@@ -1782,7 +1886,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C02-Y",
@@ -1799,7 +1904,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C02-Z",
@@ -1816,7 +1922,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-C05-X",
@@ -1833,7 +1940,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C05-Y",
@@ -1850,7 +1958,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C05-Z",
@@ -1867,7 +1976,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-C06-X",
@@ -1884,7 +1994,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C06-Y",
@@ -1901,7 +2012,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C06-Z",
@@ -1918,7 +2030,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-C07-X",
@@ -1935,7 +2048,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C07-Y",
@@ -1952,7 +2066,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C07-Z",
@@ -1969,7 +2084,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-C11-X",
@@ -1986,7 +2102,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C11-Y",
@@ -2003,7 +2120,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-C11-Z",
@@ -2020,7 +2138,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L02-X",
@@ -2037,7 +2156,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L02-Y",
@@ -2054,7 +2174,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L02-Z",
@@ -2071,7 +2192,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L03-X",
@@ -2088,7 +2210,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L03-Y",
@@ -2105,7 +2228,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L03-Z",
@@ -2122,7 +2246,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
-    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L04-X",
@@ -2139,7 +2264,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L04-Y",
@@ -2156,7 +2282,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L04-Z",
@@ -2173,7 +2300,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L05-X",
@@ -2190,7 +2318,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L05-Y",
@@ -2207,7 +2336,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L05-Z",
@@ -2224,7 +2354,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
-    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L06-X",
@@ -2241,7 +2372,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L06-Y",
@@ -2258,7 +2390,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L06-Z",
@@ -2275,7 +2408,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-L09-X",
@@ -2292,7 +2426,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L09-Y",
@@ -2309,7 +2444,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-L09-Z",
@@ -2326,7 +2462,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B01-X",
@@ -2343,7 +2480,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B01-Y",
@@ -2360,7 +2498,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B01-Z",
@@ -2377,7 +2516,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B02-X",
@@ -2394,7 +2534,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B02-Y",
@@ -2411,7 +2552,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B02-Z",
@@ -2428,7 +2570,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B03-X",
@@ -2445,7 +2588,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B03-Y",
@@ -2462,7 +2606,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B03-Z",
@@ -2479,7 +2624,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B04-X",
@@ -2496,7 +2642,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B04-Y",
@@ -2513,7 +2660,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B04-Z",
@@ -2530,7 +2678,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B05-X",
@@ -2547,7 +2696,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B05-Y",
@@ -2564,7 +2714,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B05-Z",
@@ -2581,7 +2732,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B06-X",
@@ -2598,7 +2750,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B06-Y",
@@ -2615,7 +2768,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B06-Z",
@@ -2632,7 +2786,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B07-X",
@@ -2649,7 +2804,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
-    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B07-Y",
@@ -2666,7 +2822,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
-    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo.",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B07-Z",
@@ -2683,7 +2840,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
-    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo.",
+    "icone": "altura"
   },
   {
     "codigo": "PR-PONTO-B08-X",
@@ -2700,7 +2858,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B08-Y",
@@ -2717,7 +2876,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": 1000,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "distancia"
   },
   {
     "codigo": "PR-PONTO-B08-Z",
@@ -2734,7 +2894,8 @@
     "instrumento": "Trena ou medidor a laser. Celular para fotografar.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "altura"
   },
   {
     "codigo": "DEP-COZ-PRUMO",
@@ -2751,6 +2912,7 @@
     "instrumento": "Nível a laser e régua ou trena.",
     "altura_ref_mm": null,
     "foto": null,
-    "foto_confere": ""
+    "foto_confere": "",
+    "icone": "prumo"
   }
 ]

@@ -96,7 +96,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
-**Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia simples: 34 fotos](ferramentas/site/Dia_das_chaves.html); sem medida real.
+**Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia: 34 fotos/setas](ferramentas/site/Dia_das_chaves.html); sem medida real.
 
 **Perguntas:** [pacote não enviado](01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
 

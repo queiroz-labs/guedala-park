@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 from html import escape
-from build_field_data import rows,ROOT
+from build_field_data import rows,ROOT,nominal_parts
 
 HERE=Path(__file__).resolve().parent
 
@@ -36,6 +36,12 @@ def guide_data():
         measures={r['codigo_medida']:r for r in csv.DictReader(f)}
     plans=json.loads((ROOT/'06_Entregas/Planta_cotada/Cotas.json').read_text(encoding='utf-8'))['pranchas']
     def mm(code):
+        parent,separator,component=code.partition('/')
+        if separator:
+            parts=nominal_parts(parent,measures[parent]['valor_nominal_atual'])
+            value=parts[int(component)]['nominal_mm']
+            if value is None:raise ValueError('Eixo da cota sem valor de projeto: '+code)
+            return value/10
         match=re.fullmatch(r'(-?\d+(?:\.\d+)?) mm',measures[code]['valor_nominal_atual'])
         if not match:raise ValueError('Geometria nominal sem cota escalar: '+code)
         return float(match[1])/10
@@ -49,6 +55,15 @@ def guide_data():
         if item['id'] not in needed:continue
         x,y=map(mm,item['refs'][:2])
         targets[item['id']]=dict(room=item['room'],x=x,y=y,kind='ponto')
+    # Canto desenhado mais próximo da entrada: sugestão visual local, nunca
+    # transformação para o zero nominal nem entrada nova da cadeia.
+    entry=targets['porta-4'];center=(entry['x']+entry['w']/2,entry['y']+entry['d']/2)
+    corners=[]
+    for item in plans['floors']:
+        if item['room']!=entry['room']:continue
+        x,y,w,d=map(mm,item['refs'])
+        corners.extend([(x,y),(x+w,y),(x,y+d),(x+w,y+d)])
+    start=min(corners,key=lambda p:(p[0]-center[0])**2+(p[1]-center[1])**2)
     overlay=[]
     for key,t in targets.items():
         shape=(f'<circle cx="{t["x"]}" cy="{t["y"]}" r="7"/>' if t['kind']=='ponto' else
@@ -73,7 +88,7 @@ def guide_data():
         photo_info[photo]=dict(confere=next(iter(descriptions)),
             legenda='Foto de outra unidade, só para você reconhecer o que medir' if '/Mobiliado/' in photo else 'Foto de unidade espelhada; a sua pode ser invertida')
     protocol=(ROOT/'07_Imovel/Roteiro_dia_das_chaves_R01.md').read_text(encoding='utf-8').split('\n---\n')[0]
-    return dict(guias=guides,targets=targets,overlay=''.join(overlay),photos=photos,photo_info=photo_info,protocolo_html=protocol_html(protocol))
+    return dict(guias=guides,targets=targets,overlay=''.join(overlay),photos=photos,photo_info=photo_info,protocolo_html=protocol_html(protocol),inicio_sugerido=dict(x=start[0],y=start[1],proposto=True))
 
 
 def build():
@@ -86,11 +101,11 @@ def build():
     methods=[];packed=[]
     for g in data.pop('guias'):
         if g['como'] not in methods:methods.append(g['como'])
-        packed.append([g['codigo'],g['titulo_simples'],g['onde']['comodo'],g['onde']['alvo'],g['onde']['orientacao'],methods.index(g['como']),g['instrumento'],g['altura_ref_mm'],g['foto']])
+        packed.append([g['codigo'],g['titulo_simples'],g['onde']['comodo'],g['onde']['alvo'],g['onde']['orientacao'],methods.index(g['como']),g['instrumento'],g['altura_ref_mm'],g['foto'],g.get('icone')])
     data['itens']=packed;data['metodos']=methods
     js='// Gerado: guias revisados, Cotas.json e quadros existentes.\n'
     js+='globalThis.GUEDALA_FIELD_GUIDE='+json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+';\n'
-    js+="{const d=globalThis.GUEDALA_FIELD_GUIDE;d.guias=d.itens.map(g=>({codigo:g[0],titulo_simples:g[1],onde:{comodo:g[2],alvo:g[3],orientacao:g[4]},como:d.metodos[g[5]],instrumento:g[6],altura_ref_mm:g[7],foto:g[8],foto_confere:g[8]?d.photo_info[g[8]].confere:''}));delete d.itens;delete d.metodos;}\n"
+    js+="{const d=globalThis.GUEDALA_FIELD_GUIDE;d.guias=d.itens.map(g=>({codigo:g[0],titulo_simples:g[1],onde:{comodo:g[2],alvo:g[3],orientacao:g[4]},como:d.metodos[g[5]],instrumento:g[6],altura_ref_mm:g[7],foto:g[8],foto_confere:g[8]?d.photo_info[g[8]].confere:'',icone:g[9]}));delete d.itens;delete d.metodos;}\n"
     (HERE/'src/field-guide-data.js').write_text(js,encoding='utf-8')
     return js
 
@@ -101,7 +116,7 @@ def standalone():
     svg=(ROOT/'06_Entregas/Planta_cotada/Planta_cotada.svg').read_text(encoding='utf-8')
     bootstrap='globalThis.GuedalaFloorplan={data:{svg:'+json.dumps(svg,ensure_ascii=False).replace('<','\\u003c')+'}};'
     css='\n'.join((src/p).read_text(encoding='utf-8') for p in ('app.css','field.css'))
-    scripts='\n'.join((src/p).read_text(encoding='utf-8') for p in ('field-data.js','field-guide-data.js','field-core.js','field-ui.js'))
+    scripts='\n'.join((src/p).read_text(encoding='utf-8') for p in ('field-data.js','field-guide-data.js','field-icons.js','field-core.js','field-ui.js'))
     html='<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guedala Park · Dia das chaves</title><style>'+css+'</style><main id="chaves" class="field-page active"></main><script>'+bootstrap+'\n'+scripts+'</script></html>'
     if len(html.encode('utf-8'))>1024*1024:raise ValueError('Guia offline ultrapassou 1 MB; reduzir mídia')
     (HERE/'Dia_das_chaves.html').write_text(html,encoding='utf-8')

@@ -1,8 +1,13 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const read=n=>fs.readFileSync(path.join(__dirname,n),'utf8'),context=vm.createContext({});
-vm.runInContext(read('src/field-data.js')+read('src/field-guide-data.js'),context);
+vm.runInContext(read('src/field-data.js')+read('src/field-guide-data.js')+read('src/field-icons.js'),context);
 const rows=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_ROWS)',context));
 const data=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_GUIDE)',context));
+const icons=JSON.parse(vm.runInContext('JSON.stringify(GuedalaFieldIcons)',context));
+assert.deepEqual(Object.keys(icons).sort(),['altura','distancia','largura','nivel','prumo']);
+assert.equal(data.inicio_sugerido.proposto,true,'O início desenhado continua sugerido, sem transformação comprovada');
+const ui=read('src/field-ui.js');
+for(const phrase of ['Início (0)','→ para a direita','↓ para baixo','Ele ainda não é o início usado pelo projeto.'])assert(ui.includes(phrase));
 const guides=JSON.parse(read('guias_campo.json')),codes=rows.flatMap(r=>r.partes.map(p=>p.codigo));
 assert(read('Cobertura_guias.csv').split(/\r?\n/)[0].endsWith(',foto_confere'));
 assert.equal(new Set(guides.map(g=>g.codigo)).size,guides.length);
@@ -19,6 +24,10 @@ function simple(text,context){
 for(const g of guides){
  assert(g.titulo_simples&&g.como.length>=2&&g.como.length<=3&&g.instrumento);
  for(const text of [g.titulo_simples,...g.como,g.onde.orientacao,g.instrumento,g.foto_confere||''])simple(text,g.codigo);
+ if(g.icone)assert(icons[g.icone],g.codigo+': ícone desconhecido');
+ if(g.codigo.startsWith('PD-'))assert.equal(g.icone,'altura');
+ if(g.codigo.startsWith('PISO-'))assert.equal(g.icone,'nivel');
+ if(g.codigo==='DEP-COZ-PRUMO')assert.equal(g.icone,'prumo');
  assert(rooms.has(g.onde.comodo)||g.onde.comodo==='all');
  if(g.onde.alvo){assert(targetIds.has(g.onde.alvo));assert(data.targets[g.onde.alvo]);assert(data.overlay.includes(`data-fp-target="${g.onde.alvo}"`));}
  else assert(g.onde.orientacao.includes('Vale para o cômodo todo'));
@@ -27,6 +36,7 @@ for(const g of guides){
  if(g.foto){assert(g.foto_confere?.trim(),'Descrever o que foi conferido: '+g.codigo);assert(fs.existsSync(path.resolve(__dirname,'../..',g.foto)));assert(data.photos[g.foto]?.startsWith('data:image/jpeg;base64,'));assert.equal(data.photo_info[g.foto].confere,g.foto_confere);}
 }
 for(const photo of Object.values(data.photo_info))simple(photo.legenda,'legenda da origem');
+for(const icon of Object.values(icons)){simple(icon.label,'ícone');assert(icon.svg.startsWith('<svg'));assert(!icon.svg.includes('href='));}
 assert.throws(()=>simple('Copie o nominal no croqui.','regressão'));
 assert.throws(()=>simple(Array(21).fill('palavra').join(' '),'regressão'));
 // O JPEG deve ser reduzido; lê SOF sem dependência externa para o teste.
@@ -37,6 +47,12 @@ for(const photo of Object.values(data.photos)){
  }assert(found,'JPEG sem dimensões');
 }
 const mod={exports:{}};vm.runInNewContext(read('src/field-core.js'),{module:mod,Date});const api=mod.exports;
+const preferenceStorage=new Map(),preferences=()=>({getItem:k=>preferenceStorage.get(k),setItem:(k,v)=>preferenceStorage.set(k,v)});
+const intro=api.createIntroPreference({storage:preferences});assert(intro.visible());intro.setVisible(false);
+assert(!api.createIntroPreference({storage:preferences}).visible());assert(!preferenceStorage.has(api.KEY),'Preferência não altera armazenamento das medidas');
+for(const storage of [()=>null,()=>{throw Error('SecurityError');},()=>({getItem:()=>null,setItem:()=>{throw Error('QuotaExceeded');}})]){
+ const fallback=api.createIntroPreference({storage});assert(fallback.visible());fallback.setVisible(false);assert(!fallback.visible());
+}
 let saved=null;const clock=()=> '2026-10-30T06:00:00Z',storage=()=>({getItem:()=>saved,setItem:(k,v)=>{assert.equal(k,'guedala:medidas:v1');saved=v;}});
 const store=api.createStore(codes,{storage,clock}),flow=api.createGuide(['PD-QUA','DIM-01/0','DIM-01/1'],store);
 flow.update({valor_mm:2584});flow.next();flow.update({valor_mm:2442});flow.next();flow.update({valor_mm:2946});flow.next();assert.equal(flow.current(),null);assert.equal(flow.missing().length,0);

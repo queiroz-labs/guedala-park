@@ -94,6 +94,14 @@
       exportData:()=>store.exportData()
     };
   }
-  const api={KEY,number,difference,dateValid,validate,toCsv,createStore,createGuide};root.GuedalaField=api;
+  function createIntroPreference({storage=()=>root.localStorage}={}){
+    const key='guedala:guia:inicio:v1';let dismissed=false;
+    try{dismissed=storage()?.getItem(key)==='dispensado';}catch(e){}
+    return {visible:()=>!dismissed,setVisible(visible){
+      dismissed=!visible;
+      try{storage()?.setItem(key,dismissed?'dispensado':'mostrar');}catch(e){}
+    }};
+  }
+  const api={KEY,number,difference,dateValid,validate,toCsv,createStore,createGuide,createIntroPreference};root.GuedalaField=api;
   if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(globalThis);

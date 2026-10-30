@@ -5,6 +5,7 @@
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const byCode=new Map(rows.map(r=>[r.codigo,r])),parts=new Map(rows.flatMap(r=>r.partes.map(p=>[p.codigo,p])));
   const store=api.createStore([...parts.keys()]);let urls=[];
+  const intro=api.createIntroPreference();
   const guideData=globalThis.GUEDALA_FIELD_GUIDE;
   const guides=new Map((guideData?.guias||[]).map(g=>[g.codigo,g]));
   let mode='guide',flow=null,guideRoom=null,guideCodes=[];
@@ -31,6 +32,7 @@
   };
   page.innerHTML=`<div class="field-heading"><span class="eyebrow">LEVANTAMENTO NO IMÓVEL</span><h1>Dia das chaves</h1><p>Meça em milímetros. Registre o que encontrou e exporte uma cópia antes de sair.</p>${!globalThis.GUEDALA_PACKAGE&&!location.pathname.endsWith('/Dia_das_chaves.html')?`<a class="field-protocol-link" href="${lightGuideUrl}" download>Salvar guia leve para usar sem internet</a>`:''}</div>
     <p id="fieldSaveState" class="field-save-state" role="status"></p>
+    <aside id="fieldIntro" class="field-intro" ${intro.visible()?'':'hidden'}><h2>Antes de começar</h2><ol><li>Leve trena, laser se tiver, e celular.</li><li>Toque no cômodo, meça e use Próxima.</li><li>OK ou Fora do esperado registra sua opinião. Isso não confirma que a montagem pode ser feita.</li></ol><p><strong>Exporte antes de sair.</strong></p><button type="button" data-guide-dismiss>Entendi, começar</button></aside>
     <div class="field-modes" role="group" aria-label="Modo de levantamento"><button type="button" data-field-mode="guide" aria-pressed="true">Medir com guia</button><button type="button" data-field-mode="list" aria-pressed="false">Ver todos</button></div>
     <div id="fieldGuide"></div>
     <div id="fieldList" hidden><div class="field-toolbar"><label for="fieldRoom">Cômodo<select id="fieldRoom"><option value="todos">Todos os cômodos</option>${groups.map(([id,name])=>`<option value="${id}">${name}</option>`).join('')}</select></label><div><span id="fieldProgress"></span><small>${rows.length} itens do roteiro · ${parts.size} campos</small></div></div>
@@ -65,7 +67,16 @@
   function miniPlan(room,target=null,entry=false){
     const svg=globalThis.GuedalaFloorplan?.data.svg;
     if(!svg)return '<p>Planta indisponível nesta cópia. Escolha o cômodo na lista.</p>';
-    return `<div class="field-mini${entry?' field-room-map':''}" data-guide-plan="${escape(room)}" data-guide-target="${escape(target||'')}">${svg.replace('</svg>',(guideData?.overlay||'')+'</svg>')}</div>`;
+    let origin='';
+    if(target){
+      const {x,y}=guideData.inicio_sugerido;
+      origin=`<g class="field-plan-origin" data-guide-origin="proposto"><circle cx="${x}" cy="${y}" r="10"/><text x="${x-16}" y="${y+30}" text-anchor="end">Início (0)</text><path d="M${x+14} ${y}H${x+88}m-12 -8l12 8l-12 8M${x} ${y+14}V${y+80}m-8 -12l8 12l8 -12"/><text x="${x+88}" y="${y-18}" text-anchor="end">→ para a direita</text><text x="${x-15}" y="${y+82}" text-anchor="end">↓ para baixo</text></g>`;
+    }
+    return `<div class="field-mini${entry?' field-room-map':''}${target?' field-coordinate-plan':''}" data-guide-plan="${escape(room)}" data-guide-target="${escape(target||'')}">${svg.replace('</svg>',(guideData?.overlay||'')+origin+'</svg>')}</div>${target?'<div class="field-directions"><span>→ para a direita</span><span>↓ para baixo</span></div><p class="field-start-note">Este início é uma proposta para anotar no local. Ele ainda não é o início usado pelo projeto.</p><p class="field-start-note">Confirme a folha de início antes de preencher estas posições.</p>':''}`;
+  }
+  function measureIcon(g){
+    const icon=globalThis.GuedalaFieldIcons?.[g.icone];
+    return icon?`<figure class="field-measure-icon">${icon.svg}<figcaption>${escape(icon.label)}</figcaption></figure>`:'';
   }
   function decoratePlans(){
     guideHost.querySelectorAll('[data-guide-plan]').forEach(container=>{
@@ -73,6 +84,7 @@
       svg.removeAttribute('aria-labelledby');svg.setAttribute('aria-label','Planta aproximada · '+(groups.find(g=>g[0]===room)?.[1]||'escolher cômodo'));
       // O SVG é reutilizado com IDs locais únicos; as zonas preservam data-fp-select.
       svg.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
+      svg.querySelectorAll('title,desc').forEach(el=>el.remove());
       svg.querySelectorAll('[data-fp-r]').forEach(el=>{
         const selected=el.dataset.fpR.split(' ').includes(room);
         el.classList.toggle('fp-muted',room!=='all'&&!selected);
@@ -82,7 +94,8 @@
       if(!container.classList.contains('field-room-map')){
         svg.querySelectorAll('[data-fp-select]').forEach(el=>{el.removeAttribute('tabindex');el.removeAttribute('role');});
         const zones=[...svg.querySelectorAll(`[data-fp-select="${room}"]`)];
-        if(zones.length){
+        if(target){svg.setAttribute('viewBox','-35 -35 890 855');}
+        else if(zones.length){
           const boxes=zones.map(el=>el.getBBox()),x=Math.min(...boxes.map(b=>b.x)),y=Math.min(...boxes.map(b=>b.y));
           const right=Math.max(...boxes.map(b=>b.x+b.width)),bottom=Math.max(...boxes.map(b=>b.y+b.height));
           svg.setAttribute('viewBox',`${x-35} ${y-35} ${right-x+70} ${bottom-y+70}`);
@@ -93,7 +106,7 @@
   function renderGuide(focus=false){
     if(!guideData)return;
     if(!flow){
-      guideHost.innerHTML=`<h2 tabindex="-1">Por onde vamos começar?</h2><p>Toque no cômodo ou escolha na lista. Você pode pular uma medida e voltar depois.</p>${miniPlan('all',null,true)}<div class="field-room-choices">${groups.map(([id,name])=>`<button type="button" data-guide-room="${id}">${name}<small>${rows.filter(r=>r.ambiente===id&&!r.avancado).reduce((n,r)=>n+r.partes.length,0)} campos principais</small></button>`).join('')}</div><label class="field-datum"><input type="checkbox" id="fieldGuideAdvanced"><span>Incluir pontos e paredes (mais detalhes)</span></label>`;
+      guideHost.innerHTML=`<h2 tabindex="-1">Por onde vamos começar?</h2><p>Toque no cômodo ou escolha na lista. Você pode pular uma medida e voltar depois.</p><button type="button" data-guide-help>Antes de começar</button>${miniPlan('all',null,true)}<div class="field-room-choices">${groups.map(([id,name])=>`<button type="button" data-guide-room="${id}">${name}<small>${rows.filter(r=>r.ambiente===id&&!r.avancado).reduce((n,r)=>n+r.partes.length,0)} campos principais</small></button>`).join('')}</div><label class="field-datum"><input type="checkbox" id="fieldGuideAdvanced"><span>Incluir pontos e paredes (mais detalhes)</span></label>`;
     }else if(flow.current()===null){
       const {total,recorded}=flow.progress(),missing=flow.missing();
       const unreviewed=guideCodes.filter(c=>store.get(c).status==='pendente'&&(store.get(c).valor_mm!==null||store.get(c).observacao.trim()));
@@ -103,7 +116,7 @@
       const code=flow.current(),g=guides.get(code),r=byCode.get(code.split('/')[0]),p=parts.get(code),record=store.get(code),progress=flow.progress();
       const photo=g.foto&&guideData.photos[g.foto];
       guideHost.innerHTML=`<div class="field-guide-progress"><span>${escape(groups.find(v=>v[0]===guideRoom)[1])} · ${progress.index+1} de ${progress.total}</span><button type="button" data-guide-home>Trocar cômodo</button><progress max="${progress.total}" value="${progress.index}">${progress.index}/${progress.total}</progress></div>
-        <h2 tabindex="-1">${escape(g.titulo_simples)}</h2><div class="field-guide-layout"><div class="field-guide-visual"><figure>${miniPlan(g.onde.comodo,g.onde.alvo)}<figcaption>${escape(g.onde.orientacao)}${g.onde.alvo?' · confira o elemento destacado':''}</figcaption></figure>${photo?`<details class="field-guide-photo"><summary>Ver foto do elemento</summary><figure><img src="${photo}" width="800" height="450" alt="${escape(g.foto_confere)}"><figcaption>${escape(guideData.photo_info[g.foto].legenda)}. ${escape(g.foto_confere)}</figcaption></figure></details>`:'<p class="field-photo-missing">Ainda não há uma foto adequada. Marque o lugar no desenho.</p>'}</div>
+        <h2 tabindex="-1">${escape(g.titulo_simples)}</h2><div class="field-guide-layout"><div class="field-guide-visual">${measureIcon(g)}<figure>${miniPlan(g.onde.comodo,g.onde.alvo)}<figcaption>${escape(g.onde.orientacao)}${g.onde.alvo?' · confira o elemento destacado':''}</figcaption></figure>${photo?`<details class="field-guide-photo"><summary>Ver foto do elemento</summary><figure><img src="${photo}" width="800" height="450" alt="${escape(g.foto_confere)}"><figcaption>${escape(guideData.photo_info[g.foto].legenda)}. ${escape(g.foto_confere)}</figcaption></figure></details>`:'<p class="field-photo-missing">Ainda não há uma foto adequada. Marque o lugar no desenho.</p>'}</div>
         <div class="field-guide-form"><h3>Como medir</h3><ol>${g.como.map(line=>`<li>${escape(line)}</li>`).join('')}</ol>${g.como.some(s=>/folha de início/i.test(s))?'<a href="#fieldDatumProtocol" class="field-protocol-link">Ver folha de início</a>':''}<p class="field-guide-instrument">${escape(g.instrumento)}${g.altura_ref_mm!==null?' Na horizontal, meça a '+g.altura_ref_mm+' mm do chão':''}</p>
         <p class="field-nominal">Valor do projeto: <strong>${p.nominal_mm===null?'o projeto não informa esse número':p.nominal_mm.toLocaleString('pt-BR')+' mm'}</strong></p>${p.nominal_mm===null?'<p>Este item reúne várias verificações. Escreva o que encontrou em Observação. O número é opcional.</p>':''}
         <label class="field-guide-value" for="fieldGuideValue">${p.nominal_mm===null?'Número, se aplicável':'Valor medido'} <span>mm</span><input id="fieldGuideValue" data-guide-input="${escape(code)}" type="number" inputmode="decimal" step="any" autocomplete="off" value="${record.valor_mm??''}"></label><output id="fieldGuideDifference" for="fieldGuideValue"></output><p id="fieldGuideError" role="alert"></p>
@@ -151,6 +164,8 @@
   });
   page.addEventListener('click',event=>{
     const target=event.target.closest('button,a,[data-fp-select]');
+    if(target?.hasAttribute('data-guide-dismiss')){intro.setVisible(false);document.getElementById('fieldIntro').hidden=true;return;}
+    if(target?.hasAttribute('data-guide-help')){intro.setVisible(true);const card=document.getElementById('fieldIntro');card.hidden=false;card.scrollIntoView({block:'start'});return;}
     if(target?.dataset.fieldMode){setMode(target.dataset.fieldMode);return;}
     const room=target?.dataset.guideRoom||(target?.closest('.field-room-map')?target.dataset.fpSelect:null);
     if(room){
