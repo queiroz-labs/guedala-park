@@ -1,4 +1,13 @@
 /* Celular: texto mínimo de 12 px e alvos de toque de 44 px (carregado por último). */
+.status-help-trigger{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px 10px;font-size:12px;line-height:1.4;white-space:normal;text-align:left;cursor:help;text-decoration:underline dotted;text-underline-offset:4px}
+.owner-badges .status-help-trigger{background:#edf1e9;border:1px solid #c5d0c6;border-radius:4px;font-weight:400}
+.owner-badges [data-status-label="Depende das medidas reais"]{background:#fff1dc;color:#684a1b;border-color:#ddc49d}
+.status-owner-note{display:block;flex-basis:100%;font-size:12px;color:var(--muted)}
+.status-popover{position:fixed;inset:0;margin:auto;width:min(420px,calc(100vw - 28px));max-height:80vh;overflow:auto;padding:20px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 35px #203b3d33;font-size:16px}
+.status-help-heading{display:flex;align-items:center;gap:16px;justify-content:space-between}.status-help-heading h2{font:24px/1.2 Georgia,serif;margin:0}.status-help-heading button{font-size:22px;min-width:44px}
+.status-popover button,.status-popover a{min-height:44px}.status-popover a{display:inline-flex;align-items:center;color:var(--green);margin-right:12px}.status-popover p{font-size:16px;line-height:1.5}
+.status-help-trigger:focus-visible,.status-popover :focus-visible,.status-popover:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.room-items button.status-help-trigger{min-height:44px;width:auto}.room-items>li>.status-help-trigger{margin:0 10px 8px}
 .mast-compensation{display:none}
 @media(max-width:760px){
 .mast-compensation{display:block}
@@ -19,3 +28,5 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 }
 
 @media(max-width:760px){.mast .architect-tools-label{font-size:12px}}
+
+.fab-hardware .status-help-trigger,.fab-decision .status-help-trigger,.fab-finish .status-help-trigger{font-size:12px;min-height:44px}

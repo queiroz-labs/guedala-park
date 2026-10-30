@@ -25,3 +25,12 @@ const release=JSON.parse(read('current_release.json'));assert.equal(d.tabContext
 assert.equal(d.globalNotice,'Tudo aqui é de projeto; medidas reais só depois das chaves');
 assert(read('src/context-ui.js').includes('glossaryDialog'));assert(read('src/context-ui.js').includes('architect-tools-label'));
 console.log('Entrada: 9 etapas da fonte, 8 disciplinas, 6 atalhos, responsáveis com fonte, perfil e links legados');
+
+const sealLabels=new Set(d.statusHelp.flatMap(s=>s.labels));
+for(const label of vm.runInContext('ITEMS.map(o=>o.choice).concat(PROJECT.materials.map(m=>m.status))',ctx))assert(sealLabels.has(label),'Selo sem definição: '+label);
+for(const label of ['Decidido','a definir','Depende das medidas reais','Atual','Conferir antes de fabricar'])assert(sealLabels.has(label));
+for(const seal of d.statusHelp){assert(d.glossary.some(g=>g.id===seal.id&&g.definition===seal.definition));assert(!/aprovad|liberad/i.test(seal.label));}
+
+vm.runInContext(read('src/workshop-docs.js'),ctx);
+for(const label of vm.runInContext('Object.values(MODULE_GUIDANCE).flatMap(m=>[...(m.fabrication?.hardwareRows||[]),...(m.fabrication?.decisions||[]),...(m.fabrication?.finishSpecs||[])].map(r=>r.status))',ctx))assert(sealLabels.has(label),'Selo de ficha sem definição: '+label);
+assert(sealLabels.has('Confira antes de fabricar'));

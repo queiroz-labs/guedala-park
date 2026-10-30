@@ -55,5 +55,325 @@
     {"title":"Fichas dos móveis","path":"06_Entregas/Fichas_fabricacao/index.html"},
     {"title":"O que falta conferir","path":"06_Entregas/Fichas_fabricacao/Pendencias.html"},
     {"title":"Pacote de perguntas","path":"01_Programa_e_decisoes/Perguntas_em_aberto/README.md"}
-  ]
+  ],
+  "statusHelp": [
+  {
+    "id": "selo-escolha",
+    "labels": [
+      "Decidido",
+      "Escolhido",
+      "Aprovado",
+      "Modelo escolhido",
+      "Escolhido · custo-benefício",
+      "Aprovado como plano",
+      "Primeira opção aprovada",
+      "selecionado",
+      "Selecionado em projeto",
+      "Escolha de Elias,27/10/2026, nesta conversa"
+    ],
+    "label": "Escolha registrada",
+    "definition": "A escolha consta no projeto. Medidas são de referência; isso não confirma execução nem compra.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-detalhamento",
+    "labels": [
+      "Aprovado para desenvolver",
+      "Direção aprovada",
+      "Detalhamento de projeto pendente"
+    ],
+    "label": "Detalhamento pendente",
+    "definition": "A direção está escolhida; como executar segue nas pendências do projeto. Não é uma confirmação técnica.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-existente",
+    "labels": [
+      "Existente"
+    ],
+    "label": "Já existente",
+    "definition": "Indica um bem já existente, conforme a legenda do caderno.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-estudo",
+    "labels": [
+      "Em estudo",
+      "Parcial"
+    ],
+    "label": "Em estudo",
+    "definition": "Ainda há questões em aberto na escolha ou no detalhamento. Consulte a ficha.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-futuro",
+    "labels": [
+      "Futuro",
+      "Tamanho futuro escolhido"
+    ],
+    "label": "Para depois",
+    "definition": "Item adiado ou previsto para uma etapa futura; confira as pendências.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-entrega",
+    "labels": [
+      "Entrega"
+    ],
+    "label": "Previsto na entrega",
+    "definition": "Situação registrada no projeto; a condição real precisa ser conferida no imóvel.",
+    "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
+  },
+  {
+    "id": "selo-alternativa",
+    "labels": [
+      "Alternativa"
+    ],
+    "label": "Opção para comparar",
+    "definition": "Material apresentado como alternativa; consulte a nota de comparação, sem presumir escolha final.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-referencia",
+    "labels": [
+      "Referência aprovada",
+      "Escolhido / referência",
+      "Escolha para o projeto",
+      "Opção preferida"
+    ],
+    "label": "Referência do projeto",
+    "definition": "Referência visual ou opção do estudo. Cor, amostra e aplicação precisam da conferência indicada na ficha.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-pendente",
+    "labels": [
+      "Pendente",
+      "Proposta a conferir",
+      "pendente"
+    ],
+    "label": "A conferir",
+    "definition": "Há uma conferência pendente; o documento ou a nota ao lado informa o que falta.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-atual",
+    "labels": [
+      "Atual"
+    ],
+    "label": "Revisão atual",
+    "definition": "Documento disponível nesta revisão da biblioteca. O selo não indica conclusão da obra.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-fabricar",
+    "labels": [
+      "Conferir antes de fabricar",
+      "Confira antes de fabricar"
+    ],
+    "label": "Conferir antes de fabricar",
+    "definition": "As medidas são do desenho. Peças, bordas, furos e montagem precisam de conferência antes do corte.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-responsavel",
+    "labels": [
+      "a definir"
+    ],
+    "label": "Responsável a definir",
+    "definition": "A fonte não atribui um responsável específico a esta pendência. Não há delegação presumida.",
+    "path": "ferramentas/site/Responsaveis_pendentes.csv"
+  },
+  {
+    "id": "selo-medidas",
+    "labels": [
+      "Depende das medidas reais"
+    ],
+    "label": "Depende das medidas reais",
+    "definition": "Esta conferência depende do levantamento no imóvel; os valores de projeto continuam nominais.",
+    "path": "07_Imovel/README.md"
+  },
+  {
+    "id": "selo-papel-13",
+    "labels": [
+      "Elias"
+    ],
+    "label": "Elias",
+    "definition": "Papel indicado para esta pendência na fonte citada. A indicação não comprova contratação nem substitui a conferência técnica.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-papel-14",
+    "labels": [
+      "Arquiteto"
+    ],
+    "label": "Arquiteto",
+    "definition": "Papel indicado para esta pendência na fonte citada. A indicação não comprova contratação nem substitui a conferência técnica.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-papel-15",
+    "labels": [
+      "RT"
+    ],
+    "label": "RT",
+    "definition": "Papel indicado para esta pendência na fonte citada. A indicação não comprova contratação nem substitui a conferência técnica.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-papel-16",
+    "labels": [
+      "Oficina/marceneiro"
+    ],
+    "label": "Oficina/marceneiro",
+    "definition": "Papel indicado para esta pendência na fonte citada. A indicação não comprova contratação nem substitui a conferência técnica.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-papel-17",
+    "labels": [
+      "Construtora/condomínio"
+    ],
+    "label": "Construtora/condomínio",
+    "definition": "Papel indicado para esta pendência na fonte citada. A indicação não comprova contratação nem substitui a conferência técnica.",
+    "path": "ferramentas/site/README.md"
+  },
+  {
+    "id": "selo-candidato",
+    "labels": [
+      "candidato"
+    ],
+    "label": "Opção em estudo",
+    "definition": "Opção candidata; a ficha informa a proposta e o que falta conferir.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-mapa",
+    "labels": [
+      "Estratégia selecionada. Mapa parcial"
+    ],
+    "label": "Mapa de montagem parcial",
+    "definition": "A estratégia está registrada; o mapa de montagem ainda é parcial.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-conjunto",
+    "labels": [
+      "pendente de especificação do conjunto"
+    ],
+    "label": "Conjunto a especificar",
+    "definition": "Falta especificar o conjunto de montagem indicado na ficha.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-desenho",
+    "labels": [
+      "Estratégia selecionada. Desenho pendente"
+    ],
+    "label": "Desenho pendente",
+    "definition": "A estratégia está registrada; o desenho da montagem continua pendente.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-compra",
+    "labels": [
+      "Selecionado por Elias em 24/10/2026. Compra pendente"
+    ],
+    "label": "Compra pendente",
+    "definition": "A escolha está registrada no projeto; a compra continua pendente.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-montagem",
+    "labels": [
+      "Montagem 38 + 1 mm aprovada em 24/10/2026"
+    ],
+    "label": "Montagem registrada",
+    "definition": "Configuração de montagem registrada no estudo. A ficha conserva as dimensões e as condições de execução.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-furos",
+    "labels": [
+      "Furação e fixadores a conferir em oficina"
+    ],
+    "label": "Furos e fixadores a conferir",
+    "definition": "A furação e os fixadores precisam de conferência na oficina, conforme a ficha.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-produto",
+    "labels": [
+      "dimensionamento especial. SKU pendente"
+    ],
+    "label": "Produto a especificar",
+    "definition": "O estudo indica dimensionamento especial; falta identificar o modelo e o código do produto.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-preparacao",
+    "labels": [
+      "Selecionado em projeto. Conferir preparação das peças"
+    ],
+    "label": "Preparação a conferir",
+    "definition": "A escolha está registrada; a preparação das peças ainda precisa de conferência.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-prova",
+    "labels": [
+      "Desenho de montagem do projeto emitido em estudo separado. Prova pendente",
+      "Escolhido no projeto. Testar na oficina."
+    ],
+    "label": "Teste da montagem pendente",
+    "definition": "A solução está registrada no estudo; o teste na oficina continua pendente.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-solucao",
+    "labels": [
+      "Necessidade funcional. Solução e quantitativo pendentes"
+    ],
+    "label": "Solução e quantidade pendentes",
+    "definition": "A necessidade está registrada; faltam a solução e a quantidade de peças.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-prototipo",
+    "labels": [
+      "Proposta de cotação. Protótipo pendente"
+    ],
+    "label": "Protótipo pendente",
+    "definition": "Proposta para cotação; o protótipo continua pendente.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-peca",
+    "labels": [
+      "Solução escolhida. Falta definir a peça e suas medidas."
+    ],
+    "label": "Peça e medidas pendentes",
+    "definition": "A solução está registrada; falta definir a peça e suas medidas.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-produto-montagem",
+    "labels": [
+      "Diretriz de 23/10/2026. Produto e montagem pendentes"
+    ],
+    "label": "Produto e montagem pendentes",
+    "definition": "Há uma diretriz no estudo; produto e montagem continuam pendentes.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  },
+  {
+    "id": "selo-acabamento",
+    "labels": [
+      "Diretriz25/10. Código/material da base/oficina conforme ficha",
+      "Elias,27/10/2026: F13=A (resposta “a” nesta conversa); 04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md"
+    ],
+    "label": "Acabamento registrado",
+    "definition": "Diretriz de acabamento registrada no estudo. A referência e as condições permanecem na ficha.",
+    "path": "06_Entregas/Fichas_fabricacao/Pendencias.html"
+  }
+]
 }

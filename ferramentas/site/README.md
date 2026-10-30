@@ -22,7 +22,7 @@ Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 python -B ferramentas/site/preparar_pages.py --output-dir "../outputs/Publicacao/Site" --publication-ready --package-mode auto
 ```
 
-Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado quando já existe; só constrói se estiver ausente. Textos são normalizados para UTF8/LF, binários preservados, e a conferência de fontes usa hashes canônicos sem recompressão no CI. Mudanças de conteúdo exigem outra revisão de pacote. Publicação efetiva é tarefa do workflow Pages, após commit/push autorizados; o gerador não faz deploy.
+Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausente; texto UTF8/LF e binários preservados. Conteúdo novo exige revisão do pacote. O gerador só cria artefato local; deploy depende de commit/push autorizados.
 
 `build_workshop_docs.py --sources-only` atualiza somente os dados de consulta. `--regenerate-sources` é uma opção explícita para reconstruir fichas/planta; o fluxo normal usa as fontes correntes já verificadas. Testes ficam nesta pasta e saídas temporárias fora do repositório.
 
@@ -52,13 +52,13 @@ HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar ima
 
 ## No S24 Plus
 
-Salve **Guedala_Park_Interativo.html** no celular: estilos, desenhos e interações incluídos. Use navegador com HTML local; se abrir só prévia, escolha “Abrir com”. O HTML-fonte usa `src/downloads-data.js` ao lado; “Salvar cópia” e o HTML distribuído embutem o catálogo, preservando busca/central sem rede. Os arquivos vinculados exigem rede ou cópia local.
+Salve **Guedala_Park_Interativo.html** e abra em navegador com suporte a HTML local. “Salvar cópia” embute o catálogo; a fonte usa `src/downloads-data.js`. Desenhos/interações funcionam sem rede; arquivos vinculados exigem rede ou cópia local.
 
 Conferências anteriores não equivalem ao aparelho real.
 
 ## O que o modelo representa
 
-Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos estudos do projeto. Os volumes são proporcionais e podem ser girados; estofados, texturas, mecanismos e ferragens são simplificados. O painel visual PNG foi produzido como ilustração de ambiente com auxílio de geração de imagem e revisado pelas decisões atuais. Use as fichas do HTML para medidas e aprovação.
+Geometria reconstruída da P01, com volumes, texturas e mecanismos simplificados. Painel PNG ilustrativo com auxílio de geração de imagem. [Fontes e limites](../../02_Modelo_3D/README.md); medidas nas fichas são nominais.
 
 As dimensões e pendências por ambiente ficam nas fontes vigentes: [sala/mesa/TV](../../03_Ambientes/Sala_e_jantar/README.md), [quarto/cama/armários](../../03_Ambientes/Quarto_e_portas/README.md), [escritório](../../03_Ambientes/Escritorio/README.md), [cozinha](../../03_Ambientes/Cozinha/README.md), [lavanderia](../../03_Ambientes/Lavanderia/README.md) e [banheiro](../../03_Ambientes/Banheiro/README.md). Representação aproximada; produto, mecanismo, carga e fabricação continuam condicionados.
 
@@ -80,8 +80,6 @@ Pages usa o workflow após push autorizado; `preparar_pages.py` gera apenas arte
 
 
 
-Oclusão, movimentos e fichas: verificações históricas; permanecem os limites nominais.
-
 
 
 ## Organização das fontes
@@ -90,7 +88,7 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 ## Galeria Dia/Noite
 
-[Seis pares e PDFs](../../09_Referencias/README.md) em `galeria/index.html`. Elias, 28/10/2026: "Aprovado, pode commitar e dar push." Na aba Cômodos (29/10, local), cada cartão abre com o par Dia/Noite (`_web.webp` de `galeria/`, carregado ao aparecer; arrastar, controle ou botões Dia/Noite) e alterna para o 3D; sem internet, aviso no lugar da foto. `app.js → DAY_NIGHT`.
+[Seis pares e PDFs](../../09_Referencias/README.md): galeria e Dia/Noite nos cartões de Cômodos (`app.js → DAY_NIGHT`). Botões, arraste e alternância para 3D; sem rede, aviso na foto.
 
 ## Navegação e documentos
 
@@ -139,3 +137,5 @@ Sexta aba: semanas 0–8 derivadas apenas de `Cronograma_obra_e_compras.md` §2 
 **Pergunta do guia:** qual ponto ou borda de cada janela, porta e ligação deve receber a ponta da trena, e como o início junto à entrada se relaciona com o desenho? A folha continua proposta; distâncias sem essa definição não são aplicadas.
 
 **UX móvel:** visual atual preservado; `mobile-ux-core.js`/`mobile-ux.js` e CSS final em `mobile-ux.css`. Até760 px, cabeçalho recolhe ao descer e reabre ao subir/topo/foco na busca; busca/abas ficam visíveis. Compensação conserva o fluxo. Medido203,2→98 px; desktop155,2 px inalterado. `test_mobile_ux.cjs` no verificador/CI.
+
+**Selos:** toque ou Enter/Espaço abre explicação; Esc fecha, com foco de volta. `statusHelp` em `architect-source.json` alimenta glossário/busca. Legenda do [caderno](../../01_Programa_e_decisoes/Caderno_de_especificacoes.md): escolha registrada e detalhamento pendente; não confirma execução. Materiais são referências/opções e “Atual” indica revisão documental. Papéis vêm das fontes de cada pendência; ausentes ficam “Responsável a definir”. Fichas: compra, produto, montagem e protótipo pendentes têm ajuda com fonte na ficha. Dados originais preservados.

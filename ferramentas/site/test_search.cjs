@@ -18,3 +18,5 @@ for(const kind of new Set(index.map(r=>r.kind))){
 assert.equal(api.navigate({kind:'inexistente'},{}),false);
 const ui=read('src/search-ui.js');assert(ui.includes('Nenhum resultado'));assert(ui.includes("event.key==='/'"));assert(ui.includes("event.key==='Escape'"));assert(ui.includes('scrollIntoView'));
 console.log('Busca: acentos, caixa, tipos, P01–P20, sem resultado e rotas até cada registro');
+
+for(const term of ['Detalhamento pendente','Responsável a definir','Opção para comparar'])assert(api.find(term,index).some(r=>r.kind==='glossary'),term);

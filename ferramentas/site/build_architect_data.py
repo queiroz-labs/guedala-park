@@ -57,6 +57,9 @@ def build():
         if d['ownerSource']:assert d['ownerQuote'].lower() in (ROOT/d['ownerSource']).read_text(encoding='utf-8').lower(),d['id']
     for d in source['disciplines']:d['owners']=d['owners'] or ['a definir']
     for g in source['glossary']:g['term']=g['term'].replace('{cadRevision}',release['cadRevision'])
+    for seal in source['statusHelp']:
+        assert (ROOT/seal['path']).exists(),seal['id']
+        source['glossary'].append(dict(id=seal['id'],term=seal['label'],definition=seal['definition'],path=seal['path']))
     stages=(ROOT/source['glossaryStagesSource']).read_text(encoding='utf-8')
     stages=re.findall(r'^### (T0[1-9]) — ([^|]+)\|',stages,re.M)
     assert len(stages)==9,'Etapas T01–T09 mudaram: conferir o glossário'
