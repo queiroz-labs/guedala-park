@@ -175,4 +175,45 @@ Falas sobre dimensões por andar, liberdade de reforma, garantias ou materiais d
 
 **Antes da marcenaria:** cotar K-E05 e os suportes sob a pia; medir o volume sob o tanque; confirmar funções de L-H02/L-H03; localizar as ventilacões; conferir o aviso do box no manual da unidade. Para o escritório, conferir os pontos do Dormitório 02 de P01 usando A como referência provável.
 
-O pacote contém o relatório, 56 frames adicionais, 3 folhas de percurso e transcrição automática com horários. A galeria HTML incorpora as imagens para consulta sem internet; cada referência AD-xxxx no texto leva à respectiva foto. O arquivo V01 original e o PDF oficial não foram modificados. Permanecem válidas as cotas e ressalvas documentais da R01, exceto a classificação de 11:06 corrigida aqui.
+O pacote contém o relatório, 56 frames adicionais (mais 14 na seção 11), 3 folhas de percurso e transcrição automática com horários. A galeria HTML incorpora as imagens para consulta sem internet; cada referência AD-xxxx no texto leva à respectiva foto. O arquivo V01 original e o PDF oficial não foram modificados. Permanecem válidas as cotas e ressalvas documentais da R01, exceto a classificação de 11:06 corrigida aqui.
+
+## 11. Acréscimos: trechos que a triagem não cobria
+
+A triagem da R02 começou em 01:26, e o percurso inicial do vídeo ficou sem imagens. Esta seção acrescenta 14 quadros em três grupos. Não há medidas: tudo é observação visual.
+
+### Da garagem à porta da unidade (00:00–01:24)
+
+Garagem, hall dos elevadores e elevador de serviço com proteção acolchoada; o morador diz que só ele funciona nesta fase de entrega de chaves (00:31) e que as luzes do corredor acendem por sensor (00:47–01:15). Serve de referência para a mudança e a entrada de material, cujas medidas continuam no [checklist](../Checklist_vistoria_dia_das_chaves.md).
+
+| ID | Tempo | O que mostra |
+|---|---|---|
+| [AD-0000](Fotos/AD-0000.jpg) | 00:00 | Garagem: vaga e pilar, antes do hall dos elevadores |
+| [AD-0012](Fotos/AD-0012.jpg) | 00:12 | Hall dos elevadores na garagem: elevadores e sinalização |
+| [AD-0018](Fotos/AD-0018.jpg) | 00:18 | Botoeira do elevador de serviço, com os andares numerados |
+| [AD-0030](Fotos/AD-0030.jpg) | 00:30 | Cabina do elevador de serviço com proteção acolchoada nas paredes |
+| [AD-0060](Fotos/AD-0060.jpg) | 01:00 | Corredor do andar: porta dupla com puxadores e furo redondo (função não identificada) |
+| [AD-0066](Fotos/AD-0066.jpg) | 01:06 | Corredor do andar: portas das unidades e piso cinza |
+| [AD-0078](Fotos/AD-0078.jpg) | 01:18 | Chave na fechadura da porta de entrada da unidade |
+| [AD-0084](Fotos/AD-0084.jpg) | 01:24 | Porta da unidade aberta: batente, piso cinza no hall e vista do interior |
+
+### Divisa de piso entre cozinha e sala
+
+A cozinha e o serviço vêm com cerâmica clara; a sala vem com contrapiso. Um perfil escuro marca a divisa, e pelos quadros a cerâmica parece mais alta. É aparência, sem cota. A divisa é anterior ao piso vinílico previsto em [Pisos e rodapés](../../01_Programa_e_decisoes/Pisos_e_rodapes.md). Medir o desnível e definir a transição são tarefas das chaves e do RT.
+
+| ID | Tempo | O que mostra |
+|---|---|---|
+| [AD-0360](Fotos/AD-0360.jpg) | 06:00 | Cozinha vista da sala: cerâmica clara com perfil escuro na divisa e contrapiso à frente |
+| [AD-0378](Fotos/AD-0378.jpg) | 06:18 | Passagem sala–cozinha: perfil escuro entre a cerâmica e o contrapiso |
+| [AD-0756](Fotos/AD-0756.jpg) | 12:36 | Divisa cerâmica × contrapiso vista de frente; o desnível não foi medido |
+| [AD-0768](Fotos/AD-0768.jpg) | 12:48 | Divisa de piso, pia da cozinha e porta à direita |
+
+### Teto
+
+O morador chama o teto de "chapiscado" (02:17–02:31), e o acabamento áspero aparece nos quadros da sala. Efeito no forro, na pintura e nas luminárias não foi estudado.
+
+| ID | Tempo | O que mostra |
+|---|---|---|
+| [AD-0432](Fotos/AD-0432.jpg) | 07:12 | Teto da sala com acabamento áspero e ponto de luz com fio (relato de teto chapiscado em 02:17–02:31) |
+| [AD-0456](Fotos/AD-0456.jpg) | 07:36 | Teto da sala com dois pontos de luz com fio, acabamento áspero |
+
+O [HTML da R02](Complemento_da_visita_R02.html) não incorpora estes quadros; vale o Markdown e o [índice](indice_adicional.json).
