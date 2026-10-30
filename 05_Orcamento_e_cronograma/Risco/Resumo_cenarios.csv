@@ -1,0 +1,8 @@
+﻿cenario;custo_P50;execucao_ate120;execucao_ate130_usa_reserva;marcenaria_ate35;mudanca_P50;mudanca_ate10;mudanca_ate12;mudanca_ate9;nota;proposta_marcenaria_ate35;status;total_planejado_ate130
+Integral_R44;138282.7412;0.0006;0.10585;0.01175;11.3742;0.0176;0.6923;0.0;"Referência integral R44 histórica; sem climatização adicional e sem novos bens fora da verba";0.0155;simulação condicional;0.0006
+Etapa_D05C_documentada;127534.3588;0.08645;0.66645;0.313;11.3742;0.0176;0.6923;0.0;"cenário documental 27/10:127101,22, não oferta obtida; nenhum desconto sorteado como fato";0.34525;simulação condicional;0.08645
+Somente_se_propostas_ate35mil;126793.1183;0.011;0.858;0.7488;11.3742;0.0176;0.6923;0.0;"Condição imposta: proposta integral instalada ≤35mil; usa teto35mil, não estima chance de obter proposta nem trunca a distribuição da base";1.0;simulação condicional;0.011
+Medida_real_diverge;140272.1811;5e-05;0.0632;0.0016;11.6939;0.0012;0.63405;0.0;"Evento imposto, não previsão de probabilidade das medidas; usa vínculos externos sem transformar contagem em custo";0.0155;simulação condicional;5e-05
+Sem_refazer_impermeabilizacao;138273.091;0.0006;0.1061;0.01175;11.0183;0.0508;0.76085;0.0;"Somente se RT confirmar desnecessidade; provisão de custo não é reduzida sem rateio documentado";0.0155;simulação condicional;0.0006
+Pedras_1a2_semanas;138294.5157;0.00055;0.1054;0.01175;11.6734;0.006;0.61325;0.0;"Alternativa documental da seção3; não somar com faixa7–10 dias";0.0155;simulação condicional;0.00055
+Com_climatizacao_a_cotar;;;;;;;;;Custo/escopo ausentes: informar faixa própria antes de calcular, sem imputar zero;;sem base — não calculado;

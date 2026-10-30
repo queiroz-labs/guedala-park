@@ -1,0 +1,952 @@
+{
+  "schema": 1,
+  "semente": 20261029,
+  "iteracoes": 20000,
+  "data_chaves": null,
+  "escopo_base": "Referência integral R44 histórica; sem climatização adicional e sem novos bens fora da verba",
+  "orcamento_soma_vigente": 137748.11,
+  "reserva": 10000,
+  "regras_amplitude": {
+    "preço confirmado": 0,
+    "cotado sem validade": 0.1,
+    "estimativa": 0.15,
+    "provisão": 0.3
+  },
+  "itens": [
+    {
+      "id": "Marcenaria",
+      "central": 46500.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:15",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Eletros e TV",
+      "central": 17251.83,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:16",
+      "tipo": "estimativa",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±15% do central; limites não são cotações"
+    },
+    {
+      "id": "Móveis e tecidos",
+      "central": 10690.44,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:17",
+      "tipo": "estimativa",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±15% do central; limites não são cotações"
+    },
+    {
+      "id": "Pisos e revestimentos",
+      "central": 16998.13,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:18",
+      "tipo": "estimativa",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±15% do central; limites não são cotações"
+    },
+    {
+      "id": "Obra e pintura",
+      "central": 12310.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:19",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Instalações",
+      "central": 10100.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:20",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Pedras",
+      "central": 5300,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:21; Limite_e_metas_130mil.json: revisaoPedrasBox, rateio 5300/1400",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Box",
+      "central": 1400,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:21; Limite_e_metas_130mil.json: revisaoPedrasBox, rateio 5300/1400",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Louças e metais",
+      "central": 5057.71,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:22",
+      "tipo": "estimativa",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±15% do central; limites não são cotações"
+    },
+    {
+      "id": "Iluminação",
+      "central": 3540.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:23",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Complementos",
+      "central": 750.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:24",
+      "tipo": "estimativa",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±15% do central; limites não são cotações"
+    },
+    {
+      "id": "Coordenação e logística",
+      "central": 7850.0,
+      "fonte": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md:25",
+      "tipo": "provisão",
+      "ativo": true,
+      "distribuicao": "triangular",
+      "regra": "hipótese de simulação: ±30% do central; limites não são cotações"
+    },
+    {
+      "id": "Climatização adicional",
+      "central": null,
+      "tipo": "estimativa",
+      "ativo": false,
+      "distribuicao": null,
+      "fonte": "01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md: fora do escopo; consulta própria",
+      "regra": "Sem base de custo; cenário com climatização não calculável até informar faixa"
+    },
+    {
+      "id": "Reserva",
+      "central": 10000,
+      "tipo": "preço confirmado",
+      "ativo": false,
+      "distribuicao": "ponto",
+      "fonte": "ferramentas/fatos.json; reserva fixa separada, não preço de serviço",
+      "regra": "Não é gasto; somada somente ao total planejado com reserva"
+    }
+  ],
+  "rede": [
+    {
+      "id": "chaves",
+      "depends": [],
+      "source_section": "introdução: marco de origem",
+      "fixed": 0,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0,
+        0,
+        0
+      ],
+      "origem_semana": 0,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "marco lógico fixo",
+      "depends_original": [],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "vistoria_medicao",
+      "depends": [
+        "chaves"
+      ],
+      "source_section": "seção 2, semana 0",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "chaves"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "executivo",
+      "depends": [
+        "vistoria_medicao",
+        "contratacao_marcenaria",
+        "definicoes_marcenaria"
+      ],
+      "source_section": "seção 1, semanas 0/1",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        1,
+        1.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "vistoria_medicao",
+        "contratacao_marcenaria",
+        "definicoes_marcenaria"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "fabricacao",
+      "depends": [
+        "inicio_fabricacao"
+      ],
+      "source_section": "introdução/seção 1; abastecimento no início: condição a confirmar com oficina",
+      "fixed": null,
+      "minimum": 5,
+      "mode": null,
+      "maximum": 6,
+      "triangular": [
+        5,
+        5.5,
+        6
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "limites típicos documentados; moda central é hipótese de simulação",
+      "depends_original": [
+        "inicio_fabricacao"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "inferiores",
+      "depends": [
+        "fabricacao",
+        "vinilico"
+      ],
+      "source_section": "seção 1, semana 7",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.25,
+        0.5,
+        1
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "fabricacao"
+      ],
+      "ligacao_nova": "hipótese explícita para completar rede até ocupação; confirmar com RT/oficina"
+    },
+    {
+      "id": "gabarito",
+      "depends": [
+        "inferiores"
+      ],
+      "source_section": "seção 3, pedras",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "inferiores"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "pedras",
+      "depends": [
+        "gabarito"
+      ],
+      "source_section": "seção 3, pedras; seção 1 mais estreita",
+      "fixed": null,
+      "minimum": 1,
+      "mode": null,
+      "maximum": 2,
+      "triangular": [
+        1,
+        1.2142857142857142,
+        1.4285714285714286
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "7–10 dias da seção 1; moda8,5 dias é hipótese; 1–2 semanas como cenário separado",
+      "depends_original": [
+        "gabarito"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "rt",
+      "depends": [],
+      "source_section": "seção 2, contratado antes",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        1,
+        2
+      ],
+      "origem_semana": -4,
+      "origem_natureza": "hipótese: preparativos iniciados quatro semanas antes das chaves",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "protocolo",
+      "depends": [
+        "chaves",
+        "rt"
+      ],
+      "source_section": "seção 2, semana 0–1",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "rt"
+      ],
+      "ligacao_nova": "hipótese explícita para completar rede até ocupação; confirmar com RT/oficina"
+    },
+    {
+      "id": "analise_condominio",
+      "depends": [
+        "protocolo"
+      ],
+      "source_section": "seção 2, prazo a confirmar",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        1,
+        2
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "protocolo"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "eletrica_hidraulica",
+      "depends": [
+        "analise_condominio"
+      ],
+      "source_section": "seção 2, semana 1–2",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        1,
+        1.5,
+        2
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "analise_condominio"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "impermeabilizacao_cura",
+      "depends": [
+        "eletrica_hidraulica"
+      ],
+      "source_section": "seção 2, semana 2, se refeita",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        1,
+        1.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "eletrica_hidraulica"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "revestimentos",
+      "depends": [
+        "impermeabilizacao_cura"
+      ],
+      "source_section": "seção 2, semana 2–4",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        1,
+        1.5,
+        2
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "impermeabilizacao_cura"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "pintura_base",
+      "depends": [
+        "revestimentos"
+      ],
+      "source_section": "seção 2, semana 4–5",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        0.75,
+        1
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "revestimentos"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "vinilico",
+      "depends": [
+        "pintura_base"
+      ],
+      "source_section": "seção 2, semana 5–6",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        0.75,
+        1
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "pintura_base"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "medicao_box",
+      "depends": [
+        "revestimentos"
+      ],
+      "source_section": "seção 3, só depois do revestimento",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "revestimentos"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "fornecimento_box",
+      "depends": [
+        "medicao_box"
+      ],
+      "source_section": "seção 3, box",
+      "fixed": null,
+      "minimum": 1,
+      "mode": null,
+      "maximum": 3,
+      "triangular": [
+        1,
+        2,
+        3
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "limites típicos documentados; moda central é hipótese de simulação",
+      "depends_original": [
+        "medicao_box"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "instalacoes_box_e21_luz",
+      "depends": [
+        "fornecimento_box",
+        "eletrica_hidraulica"
+      ],
+      "source_section": "seção 2, semana 6",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.25,
+        0.5,
+        1
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "revestimentos"
+      ],
+      "ligacao_nova": "hipótese explícita para completar rede até ocupação; confirmar com RT/oficina"
+    },
+    {
+      "id": "retoques_limpeza_testes",
+      "depends": [
+        "montagem_resto",
+        "instalacao_pedras",
+        "loucas_metais_eletros",
+        "instalacoes_box_e21_luz"
+      ],
+      "source_section": "seção 2, semana 8; predecessor não preenchido",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "dependencies_complete": false,
+      "triangular": [
+        0.25,
+        0.5,
+        1
+      ],
+      "origem_semana": 0,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [],
+      "ligacao_nova": "hipótese explícita para completar rede até ocupação; confirmar com RT/oficina"
+    },
+    {
+      "id": "mudanca",
+      "depends": [
+        "retoques_limpeza_testes"
+      ],
+      "source_section": "introdução/seção 1; dependências e duração não fechadas",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "dependencies_complete": false,
+      "triangular": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "origem_semana": 0,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [],
+      "ligacao_nova": "hipótese explícita para completar rede até ocupação; confirmar com RT/oficina"
+    },
+    {
+      "id": "envio_cotacao",
+      "depends": [],
+      "source_section": "Pedido R02/29-10: preparado, não enviado",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "origin_missing": true,
+      "triangular": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "origem_semana": -4,
+      "origem_natureza": "hipótese: preparativos iniciados quatro semanas antes das chaves",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "retornos_cotacao",
+      "depends": [
+        "envio_cotacao"
+      ],
+      "source_section": "Pedido R02: prazo solicitado 30/10 18h, não compromisso",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.5,
+        1,
+        1.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "envio_cotacao"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "comparacao_propostas",
+      "depends": [
+        "retornos_cotacao"
+      ],
+      "source_section": "R00 seção 4; pedido R02: integral/etapa, inclusões e créditos",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "retornos_cotacao"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "contratacao_marcenaria",
+      "depends": [
+        "comparacao_propostas"
+      ],
+      "source_section": "R00 seção 4: escolher oficina antes das chaves; não contratada",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "comparacao_propostas"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "definicoes_marcenaria",
+      "depends": [],
+      "source_section": "R00 seção 4: banco/cesto antes do executivo; pedido R02: produtos/ensaios pendentes",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "origin_missing": true,
+      "triangular": [
+        0.5,
+        1,
+        2
+      ],
+      "origem_semana": -4,
+      "origem_natureza": "hipótese: preparativos iniciados quatro semanas antes das chaves",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "pedido_ferragens",
+      "depends": [
+        "contratacao_marcenaria"
+      ],
+      "source_section": "R00 seção 3: após cotação, conferir fornecimento no pacote",
+      "fixed": null,
+      "minimum": null,
+      "mode": null,
+      "maximum": null,
+      "triangular": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "hipótese de simulação: duração ausente; janelas de calendário não são durações observadas",
+      "depends_original": [
+        "contratacao_marcenaria"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "abastecimento_ferragens",
+      "depends": [
+        "pedido_ferragens"
+      ],
+      "source_section": "R00 seção 3: 1–3 semanas típicas, não cotadas",
+      "fixed": null,
+      "minimum": 1,
+      "mode": null,
+      "maximum": 3,
+      "triangular": [
+        1,
+        2,
+        3
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "limites típicos documentados; moda central é hipótese de simulação",
+      "depends_original": [
+        "pedido_ferragens"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "inicio_fabricacao",
+      "depends": [
+        "executivo",
+        "abastecimento_ferragens"
+      ],
+      "fixed": 0,
+      "source_section": "marco lógico: executivo e abastecimento completos; não é serviço de duração zero",
+      "triangular": [
+        0,
+        0,
+        0
+      ],
+      "origem_semana": null,
+      "origem_natureza": "origem relativa às chaves, não data de calendário",
+      "natureza": "marco lógico fixo",
+      "depends_original": [
+        "executivo",
+        "abastecimento_ferragens"
+      ],
+      "ligacao_nova": ""
+    },
+    {
+      "id": "montagem_resto",
+      "depends": [
+        "inferiores"
+      ],
+      "triangular": [
+        0.25,
+        0.5,
+        1
+      ],
+      "origem_semana": 0,
+      "depends_original": [],
+      "ligacao_nova": "hipótese: desagregação do agregado semana7–8, sem somá-lo novamente",
+      "natureza": "hipótese de simulação: serviço sem duração documentada",
+      "source_section": "Cronograma R00 seção1/2"
+    },
+    {
+      "id": "instalacao_pedras",
+      "depends": [
+        "pedras"
+      ],
+      "triangular": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "origem_semana": 0,
+      "depends_original": [],
+      "ligacao_nova": "hipótese: desagregação do agregado semana7–8, sem somá-lo novamente",
+      "natureza": "hipótese de simulação: serviço sem duração documentada",
+      "source_section": "Cronograma R00 seção1/2"
+    },
+    {
+      "id": "loucas_metais_eletros",
+      "depends": [
+        "instalacao_pedras",
+        "eletrica_hidraulica"
+      ],
+      "triangular": [
+        0.25,
+        0.5,
+        1
+      ],
+      "origem_semana": 0,
+      "depends_original": [],
+      "ligacao_nova": "hipótese: desagregação do agregado semana7–8, sem somá-lo novamente",
+      "natureza": "hipótese de simulação: serviço sem duração documentada",
+      "source_section": "Cronograma R00 seção1/2"
+    }
+  ],
+  "rede_origem": "../outputs/Cronograma_risco/Cronograma_risco.json",
+  "rede_base_sha256": "3c802b14e2498f0d783fc3da3f2069ec6cda07b790b00442f148e56fb509bdfc",
+  "riscos": [
+    {
+      "id": "exigencia_condominio",
+      "atividade": "analise_condominio",
+      "probabilidade": 0.2,
+      "atraso_semanas": [
+        0.5,
+        1,
+        2
+      ],
+      "natureza": "hipótese de simulação; probabilidade não observada; não representa estatística de fornecedor",
+      "fonte": "R00: riscos qualitativos; fila de oficina 2–4 semanas somente como evento, fora dos 5–6 de produção"
+    },
+    {
+      "id": "medida_divergente",
+      "atividade": "executivo",
+      "probabilidade": 0.25,
+      "atraso_semanas": [
+        0.25,
+        0.75,
+        1.5
+      ],
+      "natureza": "hipótese de simulação; probabilidade não observada; não representa estatística de fornecedor",
+      "fonte": "R00: riscos qualitativos; fila de oficina 2–4 semanas somente como evento, fora dos 5–6 de produção"
+    },
+    {
+      "id": "falta_material",
+      "atividade": "abastecimento_ferragens",
+      "probabilidade": 0.2,
+      "atraso_semanas": [
+        0.5,
+        1,
+        2
+      ],
+      "natureza": "hipótese de simulação; probabilidade não observada; não representa estatística de fornecedor",
+      "fonte": "R00: riscos qualitativos; fila de oficina 2–4 semanas somente como evento, fora dos 5–6 de produção"
+    },
+    {
+      "id": "atraso_marcenaria",
+      "atividade": "fabricacao",
+      "probabilidade": 0.2,
+      "atraso_semanas": [
+        2,
+        3,
+        4
+      ],
+      "natureza": "hipótese de simulação; probabilidade não observada; não representa estatística de fornecedor",
+      "fonte": "R00: riscos qualitativos; fila de oficina 2–4 semanas somente como evento, fora dos 5–6 de produção"
+    },
+    {
+      "id": "atraso_pedra",
+      "atividade": "pedras",
+      "probabilidade": 0.15,
+      "atraso_semanas": [
+        0.25,
+        0.5,
+        1
+      ],
+      "natureza": "hipótese de simulação; probabilidade não observada; não representa estatística de fornecedor",
+      "fonte": "R00: riscos qualitativos; fila de oficina 2–4 semanas somente como evento, fora dos 5–6 de produção"
+    }
+  ],
+  "custo_armazenamento_semana": 150,
+  "regra_armazenamento": "hipótese de simulação: R$150 por semana além da semana12; não cotação e não parcela já provada da logística",
+  "retrabalho_fracao_marcenaria": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "regra_retrabalho": "hipótese de simulação: custo adicional somente se evento medida_divergente ocorrer",
+  "independencia": "Preços e durações-base independentes. Mesmo evento de retrabalho gera atraso/custo; mudança além de12 gera armazenamento. Sem correlação de mercado presumida.",
+  "cenarios": [
+    {
+      "id": "Integral_R44"
+    },
+    {
+      "id": "Etapa_D05C_documentada",
+      "centrais": {
+        "Marcenaria": 37000,
+        "Móveis e tecidos": 8549,
+        "Iluminação": 4534.55
+      },
+      "nota": "cenário documental 27/10:127101,22, não oferta obtida; nenhum desconto sorteado como fato"
+    },
+    {
+      "id": "Somente_se_propostas_ate35mil",
+      "marcenaria_fixa": 35000,
+      "nota": "Condição imposta: proposta integral instalada ≤35mil; usa teto35mil, não estima chance de obter proposta nem trunca a distribuição da base"
+    },
+    {
+      "id": "Medida_real_diverge",
+      "forcar_medida": true,
+      "nota": "Evento imposto, não previsão de probabilidade das medidas; usa vínculos externos sem transformar contagem em custo"
+    },
+    {
+      "id": "Sem_refazer_impermeabilizacao",
+      "zerar_atividade": "impermeabilizacao_cura",
+      "nota": "Somente se RT confirmar desnecessidade; provisão de custo não é reduzida sem rateio documentado"
+    },
+    {
+      "id": "Pedras_1a2_semanas",
+      "pedras_tri": [
+        1,
+        1.5,
+        2
+      ],
+      "nota": "Alternativa documental da seção3; não somar com faixa7–10 dias"
+    },
+    {
+      "id": "Com_climatizacao_a_cotar",
+      "sem_base": true,
+      "nota": "Custo/escopo ausentes: informar faixa própria antes de calcular, sem imputar zero"
+    }
+  ],
+  "fontes_sha256": {
+    "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md": "9bfd0110eeb947c9c4a8f32da897683215247e2b602a4625ee90ec297413bb9e",
+    "05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md": "ab1f7fa7fc38bedbe0b0d44c00b94c358d2ce43b537ae36c5569559498bb5a90",
+    "05_Orcamento_e_cronograma/Orcamento/Limite_e_metas_130mil.json": "657bfe1f23974e58171e32f3d2c8d7039a3d8144f70fc854599ac7e30519f71e"
+  }
+}

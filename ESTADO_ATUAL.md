@@ -98,7 +98,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais
 
 **Chaves:** [pipeline/modelo](07_Imovel/README.md); sem campo real.
 
-**Perguntas:** [pacote por destinatário](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
+**Perguntas:** [pacote](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
 
 ## Próximos passos
 
@@ -124,3 +124,5 @@ Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais
 **Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; conclusões históricas separadas.
 
 **Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos amostrados, 277 intervalos; oito choques adicionais com portas P01 fechadas. Sem garantia contínua ou folga real integral.
+
+**Risco:** [modelo](05_Orcamento_e_cronograma/Risco/README.md), hipóteses.

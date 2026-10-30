@@ -1,0 +1,121 @@
+﻿cenario;alvo;entrada;spearman;pergunta
+Integral_R44;custo;Marcenaria;0.8810393703530982;PQ-028
+Integral_R44;custo;Obra e pintura;0.21396489304591218;PQ-018
+Integral_R44;custo;Retrabalho hipotético;0.2055217320052808;PQ-001
+Integral_R44;custo;Instalações;0.1765026566792566;PQ-012
+Integral_R44;custo;Eletros e TV;0.1628919840982299;PQ-028
+Integral_R44;custo;Coordenação e logística;0.1487530116103825;PQ-003
+Integral_R44;custo;Pisos e revestimentos;0.1475426083828565;PQ-019
+Integral_R44;custo;Móveis e tecidos;0.10061834819204586;PQ-028
+Integral_R44;custo;Pedras;0.0939889649214724;PQ-021
+Integral_R44;custo;Iluminação;0.06979305424998263;PQ-029
+Integral_R44;prazo;risco:atraso_marcenaria;0.6841606438576808;PQ-002
+Integral_R44;prazo;fabricacao;0.5501981663084954;PQ-002
+Integral_R44;prazo;analise_condominio;0.32703945660309863;PQ-004
+Integral_R44;prazo;risco:exigencia_condominio;0.3109848321654247;PQ-004
+Integral_R44;prazo;risco:medida_divergente;0.23398419345116347;PQ-001
+Integral_R44;prazo;executivo;0.2171803216259508;PQ-002
+Integral_R44;prazo;risco:atraso_pedra;0.1985458107139739;PQ-021
+Integral_R44;prazo;pedras;0.19122560708356398;PQ-021
+Integral_R44;prazo;retoques_limpeza_testes;0.15645383987063458;PQ-002
+Integral_R44;prazo;loucas_metais_eletros;0.14621058407352644;PQ-002
+Etapa_D05C_documentada;custo;Marcenaria;0.835563235382408;PQ-028
+Etapa_D05C_documentada;custo;Obra e pintura;0.2578650991226627;PQ-018
+Etapa_D05C_documentada;custo;Instalações;0.21203183116257954;PQ-012
+Etapa_D05C_documentada;custo;Retrabalho hipotético;0.1955429006469662;PQ-001
+Etapa_D05C_documentada;custo;Eletros e TV;0.1937633694944084;PQ-028
+Etapa_D05C_documentada;custo;Coordenação e logística;0.1771863628459659;PQ-003
+Etapa_D05C_documentada;custo;Pisos e revestimentos;0.17696035298240084;PQ-019
+Etapa_D05C_documentada;custo;Pedras;0.11247304051118258;PQ-021
+Etapa_D05C_documentada;custo;Iluminação;0.1041413271953533;PQ-029
+Etapa_D05C_documentada;custo;Móveis e tecidos;0.09711966105579914;PQ-028
+Etapa_D05C_documentada;prazo;risco:atraso_marcenaria;0.6841606438576808;PQ-002
+Etapa_D05C_documentada;prazo;fabricacao;0.5501981663084954;PQ-002
+Etapa_D05C_documentada;prazo;analise_condominio;0.32703945660309863;PQ-004
+Etapa_D05C_documentada;prazo;risco:exigencia_condominio;0.3109848321654247;PQ-004
+Etapa_D05C_documentada;prazo;risco:medida_divergente;0.23398419345116347;PQ-001
+Etapa_D05C_documentada;prazo;executivo;0.2171803216259508;PQ-002
+Etapa_D05C_documentada;prazo;risco:atraso_pedra;0.1985458107139739;PQ-021
+Etapa_D05C_documentada;prazo;pedras;0.19122560708356398;PQ-021
+Etapa_D05C_documentada;prazo;retoques_limpeza_testes;0.15645383987063458;PQ-002
+Etapa_D05C_documentada;prazo;loucas_metais_eletros;0.14621058407352644;PQ-002
+Somente_se_propostas_ate35mil;custo;Obra e pintura;0.49717764240694406;PQ-018
+Somente_se_propostas_ate35mil;custo;Instalações;0.39977169700242915;PQ-012
+Somente_se_propostas_ate35mil;custo;Eletros e TV;0.35140310562850774;PQ-028
+Somente_se_propostas_ate35mil;custo;Pisos e revestimentos;0.3291392791658482;PQ-019
+Somente_se_propostas_ate35mil;custo;Coordenação e logística;0.31759732308799327;PQ-003
+Somente_se_propostas_ate35mil;custo;Retrabalho hipotético;0.28779712470850993;PQ-001
+Somente_se_propostas_ate35mil;custo;Móveis e tecidos;0.21689601307724;PQ-028
+Somente_se_propostas_ate35mil;custo;Pedras;0.21089241512173101;PQ-021
+Somente_se_propostas_ate35mil;custo;Iluminação;0.14752472118731177;PQ-029
+Somente_se_propostas_ate35mil;custo;Louças e metais;0.09426362967165905;PQ-028
+Somente_se_propostas_ate35mil;prazo;risco:atraso_marcenaria;0.6841606438576808;PQ-002
+Somente_se_propostas_ate35mil;prazo;fabricacao;0.5501981663084954;PQ-002
+Somente_se_propostas_ate35mil;prazo;analise_condominio;0.32703945660309863;PQ-004
+Somente_se_propostas_ate35mil;prazo;risco:exigencia_condominio;0.3109848321654247;PQ-004
+Somente_se_propostas_ate35mil;prazo;risco:medida_divergente;0.23398419345116347;PQ-001
+Somente_se_propostas_ate35mil;prazo;executivo;0.2171803216259508;PQ-002
+Somente_se_propostas_ate35mil;prazo;risco:atraso_pedra;0.1985458107139739;PQ-021
+Somente_se_propostas_ate35mil;prazo;pedras;0.19122560708356398;PQ-021
+Somente_se_propostas_ate35mil;prazo;retoques_limpeza_testes;0.15645383987063458;PQ-002
+Somente_se_propostas_ate35mil;prazo;loucas_metais_eletros;0.14621058407352644;PQ-002
+Medida_real_diverge;custo;Marcenaria;0.8969790339419474;PQ-028
+Medida_real_diverge;custo;Retrabalho hipotético;0.43180044970900106;PQ-001
+Medida_real_diverge;custo;Obra e pintura;0.2100163011180407;PQ-018
+Medida_real_diverge;custo;Instalações;0.17458745459846858;PQ-012
+Medida_real_diverge;custo;Eletros e TV;0.15762503962906255;PQ-028
+Medida_real_diverge;custo;Coordenação e logística;0.14541614684304036;PQ-003
+Medida_real_diverge;custo;Pisos e revestimentos;0.1432988436072471;PQ-019
+Medida_real_diverge;custo;Móveis e tecidos;0.09735867127839666;PQ-028
+Medida_real_diverge;custo;Pedras;0.09095450699188624;PQ-021
+Medida_real_diverge;custo;Iluminação;0.06893541566383853;PQ-029
+Medida_real_diverge;prazo;risco:atraso_marcenaria;0.6917703071187681;PQ-002
+Medida_real_diverge;prazo;fabricacao;0.6174759386266897;PQ-002
+Medida_real_diverge;prazo;executivo;0.2974428320801071;PQ-002
+Medida_real_diverge;prazo;risco:medida_divergente;0.2445419087348547;PQ-001
+Medida_real_diverge;prazo;risco:atraso_pedra;0.23047852196134347;PQ-021
+Medida_real_diverge;prazo;risco:exigencia_condominio;0.22517237086320124;PQ-004
+Medida_real_diverge;prazo;pedras;0.21695850909389625;PQ-021
+Medida_real_diverge;prazo;analise_condominio;0.20164282487710702;PQ-004
+Medida_real_diverge;prazo;retoques_limpeza_testes;0.18051342627728353;PQ-002
+Medida_real_diverge;prazo;loucas_metais_eletros;0.1708301606500754;PQ-002
+Sem_refazer_impermeabilizacao;custo;Marcenaria;0.88103211299158;PQ-028
+Sem_refazer_impermeabilizacao;custo;Obra e pintura;0.21397376207343438;PQ-018
+Sem_refazer_impermeabilizacao;custo;Retrabalho hipotético;0.20554801124517322;PQ-001
+Sem_refazer_impermeabilizacao;custo;Instalações;0.17651091116577725;PQ-012
+Sem_refazer_impermeabilizacao;custo;Eletros e TV;0.16289412494773528;PQ-028
+Sem_refazer_impermeabilizacao;custo;Coordenação e logística;0.1487575733788939;PQ-003
+Sem_refazer_impermeabilizacao;custo;Pisos e revestimentos;0.14752839397332096;PQ-019
+Sem_refazer_impermeabilizacao;custo;Móveis e tecidos;0.10061773396004432;PQ-028
+Sem_refazer_impermeabilizacao;custo;Pedras;0.0939957629124894;PQ-021
+Sem_refazer_impermeabilizacao;custo;Iluminação;0.06979291447248227;PQ-029
+Sem_refazer_impermeabilizacao;prazo;risco:atraso_marcenaria;0.6911067131941161;PQ-002
+Sem_refazer_impermeabilizacao;prazo;fabricacao;0.6284098577045245;PQ-002
+Sem_refazer_impermeabilizacao;prazo;executivo;0.3698505505416263;PQ-002
+Sem_refazer_impermeabilizacao;prazo;risco:medida_divergente;0.3543363775763683;PQ-001
+Sem_refazer_impermeabilizacao;prazo;risco:atraso_pedra;0.215685801978331;PQ-021
+Sem_refazer_impermeabilizacao;prazo;pedras;0.20545358764713395;PQ-021
+Sem_refazer_impermeabilizacao;prazo;retoques_limpeza_testes;0.17194646106236613;PQ-002
+Sem_refazer_impermeabilizacao;prazo;loucas_metais_eletros;0.1581658086264145;PQ-002
+Sem_refazer_impermeabilizacao;prazo;inferiores;0.15572812997182028;PQ-002
+Sem_refazer_impermeabilizacao;prazo;risco:exigencia_condominio;0.13896862485069245;PQ-004
+Pedras_1a2_semanas;custo;Marcenaria;0.8809423392243556;PQ-028
+Pedras_1a2_semanas;custo;Obra e pintura;0.21394856382987137;PQ-018
+Pedras_1a2_semanas;custo;Retrabalho hipotético;0.20583862119241012;PQ-001
+Pedras_1a2_semanas;custo;Instalações;0.17646098842065244;PQ-012
+Pedras_1a2_semanas;custo;Eletros e TV;0.16287622518369052;PQ-028
+Pedras_1a2_semanas;custo;Coordenação e logística;0.14877914228094782;PQ-003
+Pedras_1a2_semanas;custo;Pisos e revestimentos;0.14752703422931754;PQ-019
+Pedras_1a2_semanas;custo;Móveis e tecidos;0.10059611833599028;PQ-028
+Pedras_1a2_semanas;custo;Pedras;0.09396734060041834;PQ-021
+Pedras_1a2_semanas;custo;Iluminação;0.06983214125758033;PQ-029
+Pedras_1a2_semanas;prazo;risco:atraso_marcenaria;0.6823152634679467;PQ-002
+Pedras_1a2_semanas;prazo;fabricacao;0.5445751711839378;PQ-002
+Pedras_1a2_semanas;prazo;analise_condominio;0.316834823344587;PQ-004
+Pedras_1a2_semanas;prazo;risco:exigencia_condominio;0.3028943072556027;PQ-004
+Pedras_1a2_semanas;prazo;pedras;0.2700337530810843;PQ-021
+Pedras_1a2_semanas;prazo;risco:medida_divergente;0.22570403662457386;PQ-001
+Pedras_1a2_semanas;prazo;executivo;0.20937262509743154;PQ-002
+Pedras_1a2_semanas;prazo;risco:atraso_pedra;0.19169987405432987;PQ-021
+Pedras_1a2_semanas;prazo;retoques_limpeza_testes;0.15106751046116876;PQ-002
+Pedras_1a2_semanas;prazo;loucas_metais_eletros;0.1410155229030388;PQ-002
