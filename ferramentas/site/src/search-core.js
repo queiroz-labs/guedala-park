@@ -9,7 +9,7 @@
   }).slice(0,limit);
  }
  function navigate(r,api){
-  if(!r||!['pending','choice','room','module','document','glossary'].includes(r.kind))return false;
+  if(!r||!['pending','choice','room','module','document','glossary','download'].includes(r.kind))return false;
   api.tab(r.tab);api[r.kind](r);return true;
  }
  const api={normalize,find,navigate};root.GuedalaSearch=api;if(typeof module!=='undefined')module.exports=api;

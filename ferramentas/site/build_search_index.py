@@ -1,6 +1,7 @@
 """Índice offline gerado das escolhas, módulos, documentos e dados de consulta."""
 import json,re,unicodedata
 from build_architect_data import HERE,literal
+from build_downloads_data import selection
 
 
 def words(text):
@@ -24,6 +25,7 @@ def build(data):
         if not r.get('internal') and r.get('path'):
             add('document',r['title'],'documents',r['id'],r['rooms'][0] if len(r['rooms'])==1 else 'all',r.get('summary','')+' '+r.get('searchTerms',''))
     for r in data.get('glossary',[]):add('glossary',r['term'],'architect',r['id'],terms=r['definition'])
+    for r in selection()['items']:add('download',r['title'],'documents',r['id'],terms=r['description']+' '+r['status']+' baixar download '+r['path'])
     assert len({r['key'] for r in rows})==len(rows)
     content='// Gerado por build_search_index.py; palavras únicas, sem duplicar textos longos.\nglobalThis.GUEDALA_SEARCH_INDEX='+json.dumps(rows,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+';\n'
     target=HERE/'src/search-data.js'

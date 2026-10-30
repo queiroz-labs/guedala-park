@@ -4,7 +4,7 @@
  const header=document.querySelector('.mast');
  header.insertAdjacentHTML('beforeend','<div class="global-search"><label class="sr-only" for="globalSearch">Buscar em todo o projeto</label><div class="global-search-input"><input id="globalSearch" type="search" placeholder="Buscar no projeto · /" autocomplete="off" aria-controls="globalSearchResults" aria-expanded="false"><button id="globalSearchClear" aria-label="Limpar busca" hidden>×</button></div><div id="globalSearchResults" class="global-search-results" aria-label="Resultados da busca" hidden></div></div>');
  const input=document.getElementById('globalSearch'),results=document.getElementById('globalSearchResults'),clear=document.getElementById('globalSearchClear');
- const types={pending:'Pendência',choice:'Escolha',room:'Cômodo',module:'Móvel / ficha',document:'Documento',glossary:'Glossário'};
+ const types={pending:'Pendência',choice:'Escolha',room:'Cômodo',module:'Móvel / ficha',document:'Documento',glossary:'Glossário',download:'Download'};
  const tabs={architect:'Para o arquiteto',model:'Apartamento',decisions:'Escolhas',documents:'Documentos'};
  function focus(id){const el=document.getElementById(id);if(!el)return;el.tabIndex=-1;el.scrollIntoView({block:'center'});el.focus({preventScroll:true});}
  function choose(r){
@@ -15,7 +15,8 @@
    room:r=>{setRoom(r.id);setView('iso');focus('scene');},
    module:r=>{GuedalaWorkshop.showModule(r.id);focus('selectedInfo');},
    document:r=>{document.getElementById('docSearch').value=r.title;document.getElementById('docRoom').value='all';document.getElementById('docCategory').value='all';GuedalaWorkshop.drawDocuments();focus('doc-'+r.id);},
-   glossary:r=>globalThis.GuedalaGlossary?.open(r.id)
+   glossary:r=>globalThis.GuedalaGlossary?.open(r.id),
+   download:r=>globalThis.GuedalaDownloads?.show(r.id,'documents')
   });
  }
  function render(){

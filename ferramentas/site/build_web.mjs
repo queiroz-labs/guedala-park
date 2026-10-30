@@ -28,7 +28,9 @@ for(const [code,guide]of Object.entries(guidance))if(guide.fabrication){
 const geometryUrl=writeAsset('geometry','json',JSON.stringify(geometry));
 const worker=await transform(read('geometry-worker.js'),{minify:true,target:'es2020'});
 const workerUrl=writeAsset('geometry-worker','js',worker.code);
-const offline=fs.readFileSync(path.join(study,'Guedala_Park_Interativo.html'),'utf8').replace(/\r\n/g,'\n');
+const catalog=fs.readFileSync(path.join(site,'downloads-data.js'),'utf8');
+const offline=fs.readFileSync(path.join(study,'Guedala_Park_Interativo.html'),'utf8').replace(/\r\n/g,'\n')
+ .replace(/<script data-downloads-loader>[\s\S]*?<\/script>/,()=>'<script>'+catalog+'</script>');
 // Download asset lives under /assets; its relative documentation links use site root.
 const offlineDownload=offline.replace('<head>','<head><base href="../">');
 const offlineUrl=writeAsset('Guedala_Park_Interativo','html',offlineDownload);
