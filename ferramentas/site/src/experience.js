@@ -32,7 +32,7 @@ const TOUR_STEPS=[
 let tourIndex=-1,infoReturnTarget=null;
 function buildRoomNavigation(){
   $('rooms').innerHTML=PROJECT.rooms.map(r=>`<button type="button" data-room="${r.id}" aria-pressed="${r.id==='all'}" class="room-card ${r.id==='all'?'active':''}"><span class="room-icon">${uiIcon(ROOM_PRESENTATION[r.id][0])}</span><span><strong>${esc(r.id==='all'?'Visão geral':r.name)}</strong><small>${esc(ROOM_PRESENTATION[r.id][1])}</small></span><span class="room-check" aria-hidden="true">✓</span></button>`).join('');
-  document.querySelector('.workspace').insertAdjacentHTML('afterbegin',`<div class="room-quick" role="group" aria-label="Ambientes">${PROJECT.rooms.map(r=>`<button type="button" data-room="${r.id}" aria-pressed="${r.id==='all'}" class="${r.id==='all'?'active':''}">${esc(r.id==='all'?'Visão geral':r.name)}</button>`).join('')}</div>`);
+  document.querySelectorAll('.workspace')[0]?.insertAdjacentHTML('afterbegin',`<div class="room-quick" role="group" aria-label="Ambientes">${PROJECT.rooms.map(r=>`<button type="button" data-room="${r.id}" aria-pressed="${r.id==='all'}" class="${r.id==='all'?'active':''}">${esc(r.id==='all'?'Visão geral':r.name)}</button>`).join('')}</div>`);
   document.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>{endTour();setRoom(b.dataset.room);});
 }
 function roomWelcome(id){
