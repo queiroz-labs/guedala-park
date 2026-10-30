@@ -16,7 +16,7 @@ NODE = shutil.which('node')
 
 TESTES_NODE = ['test_orientation.cjs', 'test_scene_revision.cjs', 'test_lighting.cjs',
                'test_part_groups_ui.cjs', 'test_storage.cjs', 'test_document_library.cjs',
-               'test_navigation.cjs', 'test_architect_entry.cjs', 'test_search.cjs', 'test_field.cjs', 'test_field_datum.cjs', 'test_field_guides.cjs', 'test_work.cjs']
+               'test_navigation.cjs', 'test_architect_entry.cjs', 'test_search.cjs', 'test_downloads.cjs', 'test_field.cjs', 'test_field_datum.cjs', 'test_field_guides.cjs', 'test_work.cjs']
 
 
 def passo(nome, cmd, env=None):
@@ -76,6 +76,7 @@ def main():
                 if f.is_file() and git('check-ignore', str(f.relative_to(RAIZ))).strip():
                     f.unlink()
             ok &= passo('preparar_pages, segunda tentativa', cmd, env)
+        ok &= passo('test_downloads.cjs (arquivos publicados)', [NODE, str(SITE / 'test_downloads.cjs')], dict(env,GUEDALA_DOWNLOADS_SITE=str(tmp/'site')))
         ok &= passo('test_current_release.py (selagem do pacote)', [PY, '-B', str(SITE / 'test_current_release.py')], env)
     finally:
         for f in pacote_local_ignorado():  # o pacote gerado agora sai; o guardado volta

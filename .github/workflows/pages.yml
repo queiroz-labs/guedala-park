@@ -40,10 +40,13 @@ jobs:
       - name: Preparar HTML e moodboard
         run: python3 -B ferramentas/site/preparar_pages.py --output-dir "$RUNNER_TEMP/guedala-pages" --publication-ready --package-mode auto
       - name: Conferir entrada do arquiteto e navegação
+        env:
+          GUEDALA_DOWNLOADS_SITE: ${{ runner.temp }}/guedala-pages
         run: |
           node ferramentas/site/test_architect_entry.cjs
           node ferramentas/site/test_search.cjs
           node ferramentas/site/test_navigation.cjs
+          node ferramentas/site/test_downloads.cjs
       - name: Conferir revisão e selagem do pacote
         env:
           GUEDALA_TEST_ROOT: ${{ runner.temp }}/guedala-testes

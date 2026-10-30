@@ -2,7 +2,7 @@
 
 **Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
-**Modelo R54:** pedestal Berlin e cadeira lateral +15 mm; 106 cenários sem colisões novas. [Relatório e limites](../../02_Modelo_3D/Relatorio_mudanca.md). Publicação anterior em28/10/2026; alterações locais de30/10 não estão publicadas.
+**Modelo R54:** pedestal Berlin e cadeira lateral +15 mm; 106 cenários sem colisões novas. [Relatório e limites](../../02_Modelo_3D/Relatorio_mudanca.md).
 
 **Textos públicos:** estado atual, sem datas/revisões/atribuições. Fontes em `src/data.js`; registros internos preservados no git/fichas, retirados da biblioteca por `INTERNAL_DOCS` em `plain_language.py`.
 
@@ -94,12 +94,12 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 ## Navegação e documentos
 
-Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Baixar usa o mesmo componente na entrada do arquiteto e em Documentos, com revisão/formato/tamanho e situação. Busca abre o arquivo na seção. Sem ZIP agregado: os pacotes mantêm escopos distintos. `downloads-manifest.json` registra os destinos publicados.
+Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Baixar usa o mesmo componente na entrada do arquiteto e em Documentos, com revisão/formato/tamanho e situação. Busca abre o arquivo na seção. Sem ZIP agregado: os pacotes mantêm escopos distintos. `downloads-manifest.json` registra os destinos publicados. `test_downloads.cjs` confere fontes, bytes e links após o build no verificador/CI; arquivo ausente reprova.
 
 Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
 
 **Para o arquiteto:** `?perfil=arquiteto` abre a sétima aba; sem perfil, entrada atual preservada. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json` guarda 8 disciplinas/6 atalhos com fontes; UI em `src/architect-*`. Sem dado real novo. Layout segue o site e referências locais Refero; pesquisa remota indisponível.
-O build compacta scripts com esbuild já instalado, preservando nomes globais; sem dependências novas. Teste `test_architect_entry.cjs` no verificador/CI.
+esbuild existente compacta scripts sem mudar nomes globais. Teste `test_architect_entry.cjs` no verificador/CI.
 “Quem decide” filtra disciplinas e conferências dos 65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
 Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
 Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nominal; aviso global e glossário pelo “?” (43 entradas com fonte; P01–P20, T0 e T01–T09), também pesquisável. Rótulos/ids antigos preservados; Ferramentas já ao fim no perfil arquiteto; `#chaves`/`#obra` agora abrem as telas, preservando `data-tab`/`?aba=`. Resumos de etapas: ESTADO_ATUAL; normas/siglas: fontes no glossário, sem interpretação normativa nova.
