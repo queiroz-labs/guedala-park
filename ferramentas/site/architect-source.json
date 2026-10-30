@@ -1,0 +1,20 @@
+{
+  "disciplines": [
+    {"id":"eletrica","title":"Elétrica · NBR 5410","text":"Pontos e cargas parciais registrados; circuitos, proteções e posições reais dependem do RT.","path":"03_Ambientes/Planta_pontos/README.md","owners":["RT"],"ownerSource":"03_Ambientes/Planta_pontos/README.md","ownerQuote":"RT confere pontos da construtora, quadro, circuitos","measurement":true},
+    {"id":"gas","title":"Gás · NBR 13103","text":"Gás natural previsto; ventilação, exaustão e instalação do E21 precisam de conferência técnica.","path":"03_Ambientes/Gas_natural/README.md","owners":["RT"],"ownerSource":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","ownerQuote":"GN/ventilação/exaustão E21","measurement":true},
+    {"id":"agua","title":"Hidráulica e água quente","text":"Há 13 opções para pia e ducha, sem escolha de solução; acesso, vazão e rotas seguem pendentes.","path":"03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md","owners":["RT"],"ownerSource":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","ownerQuote":"água quente (incluindoTelca)","measurement":true},
+    {"id":"box","title":"Impermeabilização do box","text":"Refazer impermeabilização, se necessário, e testar estanqueidade antes dos revestimentos.","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","owners":["RT"],"ownerSource":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","ownerQuote":"Impermeabilização","measurement":true},
+    {"id":"fixacao","title":"Fixação em parede","text":"Juntas, suspensão e fixadores dependem de parede real, produtos e ensaios de oficina.","path":"04_Moveis/Aereos_suspensao/README.md","owners":["RT","Oficina/marceneiro"],"ownerSource":"07_Imovel/README.md","ownerQuote":"RT define tolerâncias ainda ausentes e valida infraestrutura, piso e ancoragens; oficina valida encaixe/acesso","measurement":true},
+    {"id":"teto","title":"Teto acabado e pé-direito","text":"Projeto considera 2,60 m nos cômodos e 2,50 m no banheiro; medir teto e arremates no imóvel.","path":"07_Imovel/README.md","owners":["Arquiteto"],"ownerSource":"ESTADO_ATUAL.md","ownerQuote":"projeto: juntas/interfaces","measurement":true},
+    {"id":"acustica","title":"Acústica do piso · NBR 15575","text":"Desempenho real, sistema do piso e critérios do condomínio precisam ser conferidos.","path":"03_Ambientes/Acustica/README.md","owners":["RT","Construtora/condomínio"],"ownerSource":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","ownerQuote":"critério acústico aceito para piso vinílico","measurement":true},
+    {"id":"prazo","title":"Cronograma e verba","text":"Rede de etapas e orçamento são referências; faltam prazos, propostas completas e fechamento financeiro.","path":"05_Orcamento_e_cronograma/README.md","owners":[],"ownerSource":null,"ownerQuote":null,"measurement":false}
+  ],
+  "shortcuts": [
+    {"title":"Planta mobiliada","path":"03_Ambientes/Planta_mobiliada/README.md"},
+    {"title":"Banheiro e cozinha em 3D","rooms":["banho","cozinha"]},
+    {"title":"Pranchas A3 · PDF","path":"06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf"},
+    {"title":"Fichas dos móveis","path":"06_Entregas/Fichas_fabricacao/index.html"},
+    {"title":"O que falta conferir","path":"06_Entregas/Fichas_fabricacao/Pendencias.html"},
+    {"title":"Pacote de perguntas","path":"01_Programa_e_decisoes/Perguntas_em_aberto/README.md"}
+  ]
+}

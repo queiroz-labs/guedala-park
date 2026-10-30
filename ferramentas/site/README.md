@@ -94,15 +94,18 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 ## Navegação e documentos
 
-**Consulta anterior em quatro abas** (28/10): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Elias, 28/10/2026: "Confirmo" (ambíguos: para desenvolver, existente, entrega e 1ª opção → Decidido; tamanho futuro → Futuro). Teste: `test_navigation.cjs`.
+Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
+
+**Para o arquiteto:** `?perfil=arquiteto` abre a sétima aba; sem perfil, entrada atual preservada. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json` guarda 8 disciplinas/6 atalhos com fontes; UI em `src/architect-*`. Sem dado real novo. Layout segue o site e referências locais Refero; pesquisa remota indisponível por assinatura.
+O build compacta scripts com esbuild já instalado, preservando nomes globais; sem dependências novas. HTML anterior: 5.238.720 bytes. Teste `test_architect_entry.cjs` no verificador/CI.
 
 **15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
 
-[Antes → depois das88 entradas](Documentos_antes_depois.csv). A fonte anterior tinha88 entradas,65 visíveis e23 internas. Três entradas sem arquivo viraram pendências em Antes de fabricar. Nove referências de histórico/estudos antigos ficam fora da lista pública, preservadas no repositório e nos vínculos existentes. Nenhum documento foi movido ou apagado. O catálogo técnico permanece separado dos cartões.
+[Mapa das88 entradas anteriores](Documentos_antes_depois.csv):65 públicas/23 internas;3 ausentes viraram pendências e9 históricas saíram da lista pública, preservadas no git/vínculos. Catálogo técnico separado, sem mover/apagar documentos.
 
-`document_library.py` gera14 páginas de agrupamento no build, nos mesmos tons, fontes e links do site; o15º acesso baixa o ZIP. O índice dos móveis reúne Estudos deste móvel para os20 módulos e furação por peça, sem alterar fichas, dimensões ou arquivos técnicos. As duas referências de mesa/varal apontam para uma única entrada por agrupamento. A busca consulta também os subitens; status dos cartões: Atual, Em estudo ou Pendente. No pacote extraído, o cartão do ZIP abre seu índice, sem tentar baixar o próprio arquivo.
+`document_library.py`:14 grupos e ZIP; índice dos20 móveis/estudos/furação por peça, fichas intactas. Mesa/varal sem duplicação; busca inclui subitens; status Atual/Em estudo/Pendente. No pacote extraído, ZIP abre o índice.
 
-As páginas geradas entram tanto em docs/ do preview quanto no pacote offline, com a mesma seleção explícita de fontes. Não escrever HTML à mão em .site/. Regerar: `python -B ferramentas/site/build_workshop_docs.py --sources-only` e `python -B ferramentas/site/construir.py`. Testes: `python -B ferramentas/site/test_document_library.py`, `node ferramentas/site/test_document_library.cjs` e `python -B ferramentas/verificar_site.py`. Os testes conferem88 destinos,15 cartões,20 móveis, links dos grupos, busca, filtros e navegação offline. ZIPs selados não são sobrescritos; o verificador usa uma reconstrução temporária. Nada nesta alteração autoriza publicação.
+Mesmas fontes em docs/ e pacote offline; .site é gerada. Regerar `build_workshop_docs.py --sources-only` e `construir.py`. `test_document_library.py/.cjs` e `verificar_site.py` conferem88 destinos,15 cartões,20 móveis, links/busca/filtros/offline; reconstrução temporária preserva ZIP selado. Sem autorização nova de publicação.
 
 **Reconciliação pendente; fontes preservadas:**
 
@@ -120,7 +123,7 @@ Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-
 34 guias usam 14 quadros inspecionados: seis associações trocadas, 23 adicionadas. A cobertura descreve `foto_confere` e origem; sem marcas/reflexos ou cortes inadequados. JPEG 480 px; legendas distinguem unidade espelhada/Mobiliado. Associação dos dormitórios estimada no Complemento R02.
 Cinco ícones ilustram altura/largura/distância/nível/prumo. Setas mostram direita/baixo e “Início (0)” sugerido junto à entrada, sem equiparar ao zero do projeto. O cartão “Antes de começar” lembra a dispensa em `guedala:guia:inicio:v1`, com fallback; não altera medidas.
 [Guia leve offline](Dia_das_chaves.html) <1 MB, com fotos/planta/protocolo sem rede. HTML completo conserva CAD/dossiês e teto anterior (>5 MB); deduplicação e WebP sem perda reduzem tamanho. Sem capturas no git.
-Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar com `python -B ferramentas/site/construir.py`. Testes `test_field*.cjs` e importador em `verificar_site.py`; Playwright nos 162 passos a 375/1280 px: sem overflow, botões ≥44 px, campos ≥16 px, persistência e exportação idêntica entre modos. Referência visual: site existente/Refero; pesquisa remota indisponível por assinatura.
+Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar via `construir.py`. Testes `test_field*.cjs`/importador em `verificar_site.py`; Playwright: 162 passos, 375/1280 px, sem overflow, botões ≥44 px, campos ≥16 px; persistência/exportação entre modos.
 
 ## Obra — local
 

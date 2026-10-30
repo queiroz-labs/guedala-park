@@ -4,7 +4,7 @@ const app=read('app.js'),shell=read('shell.html'),workshop=read('workshop.js');
 
 // Abas de consulta e levantamento; a planta cotada abre de dentro do Apartamento.
 const nav=shell.match(/<nav aria-label="Conteúdo">([\s\S]*?)<\/nav>/)[1];
-assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos'],['chaves','Dia das chaves'],['obra','Obra']]);
+assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['architect','Para o arquiteto'],['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos'],['chaves','Dia das chaves'],['obra','Obra']]);
 assert(!nav.includes('floorplan'),'Planta com medidas não é aba');
 assert(read('floorplan-ui.js').includes('.viewbar .viewtools'),'Botão da planta fica na barra do Apartamento');
 
@@ -36,4 +36,4 @@ const tabs=vm.runInContext(workshop.match(/const WORK_TABS=\{[^}]+\};/)[0]+'WORK
 for(const [old,target] of [['materiais','mood'],['planta','floorplan'],['documentos','documents'],['ambientes','model'],['escolhas','decisions']])assert.equal(tabs[old],target,old);
 assert.equal(tabs.chaves,'chaves');
 assert.equal(tabs.obra,'obra');
-console.log(JSON.stringify({tabs:6,status:tally,legacyLinks:Object.keys(tabs).length}));
+console.log(JSON.stringify({tabs:7,status:tally,legacyLinks:Object.keys(tabs).length}));

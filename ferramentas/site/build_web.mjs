@@ -40,8 +40,12 @@ function externalImages(code){return code.replace(/data:image\/(png|svg\+xml|web
  return imageAssets.get(whole);
 });}
 let scripts=[...offline.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
-for(const name of ['cad-data.js','workshop-docs.js'])if(!scripts.some(code=>code.includes(read(name))))throw Error('Cannot externalize '+name);
-scripts=scripts.map(code=>code.replace(read('cad-data.js'),`const CAD_DATA=${JSON.stringify(cad)};`).replace(read('workshop-docs.js'),`const WORKSHOP_DOCS=${JSON.stringify(docs)};const MODULE_GUIDANCE=${JSON.stringify(guidance)};`));
+const inline={};
+for(const name of ['cad-data.js','workshop-docs.js']){
+ inline[name]=(await transform(read(name),{minifyWhitespace:true,minifyIdentifiers:false,legalComments:'none'})).code.trim();
+ if(!scripts.some(code=>code.includes(inline[name])))throw Error('Cannot externalize '+name);
+}
+scripts=scripts.map(code=>code.replace(inline['cad-data.js'],`const CAD_DATA=${JSON.stringify(cad)};`).replace(inline['workshop-docs.js'],`const WORKSHOP_DOCS=${JSON.stringify(docs)};const MODULE_GUIDANCE=${JSON.stringify(guidance)};`));
 const runtime='globalThis.GUEDALA_WEB='+JSON.stringify(settings)+';\n'+scripts.map(externalImages).join('\n')+'\n'+read('web-loader.js');
 const entryName=`app-${digest(runtime)}.js`;
 await build({stdin:{contents:runtime,sourcefile:'guedala-runtime.js',resolveDir:src},bundle:false,minify:true,sourcemap:true,sourcesContent:true,target:'es2020',outfile:path.join(assets,entryName),legalComments:'none'});
