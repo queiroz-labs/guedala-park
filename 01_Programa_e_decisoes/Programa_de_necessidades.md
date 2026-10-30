@@ -101,7 +101,7 @@ O desenho correspondente está na [planta mobiliada R02](../03_Ambientes/Planta_
 - Armário raso todo espelhado.
 - Luz do espelho de 4000 K e indireta de 3000 K, com comandos separados.
 - Box transparente com perfis pretos e ducha Livo Black Matte.
-- Uma só parede verde (Vivant Sauge) no chuveiro; piso Travertino Greige.
+- Duas paredes verdes (Vivant Sauge), fundo/chuveiro e janela (Elias, 30/10/2026); piso Travertino Greige.
 - Prateleira de pedra no box, no lugar de um nicho.
 - Ducha higiênica quente e fria.
 - Vaso existente pode permanecer.

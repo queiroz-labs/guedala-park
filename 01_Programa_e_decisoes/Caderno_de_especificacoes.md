@@ -1,6 +1,6 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-29 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R54). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
+Gerado em 2026-10-30 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R54). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
@@ -25,7 +25,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Bouclê bege-claro · Bonnie | Sala + jantar | Escolhido | Modelo e versão de referência escolhidos. |
 | Cinza-claro · Daiane | Escritório | Escolhido | Cinza-claro aprovado. |
 | Bege / greige estofado | Quarto, Sala + jantar | Proposta a conferir | Cabeceira clara aprovada como composição. |
-| Portobello Vivant Sauge Mate | Banheiro | Escolhido | RB-01 · 7 × 24,4 cm · parede focal do box. |
+| Portobello Vivant Sauge Mate | Banheiro | Escolhido | RB-01 · 7 × 24,4 cm · paredes focais do box (fundo e janela, 30/10/2026). |
 | Travertino Reale Greige | Banheiro | Escolhido | Biancogres PB-01 Satin 90 × 90 cm. |
 | Eliane Iseo Marfim AC | Lavanderia | Escolhido | PL-01 · 90 × 90 cm. Entrega cerâmica. |
 | Preto / grafite | Todos | Escolhido | Metais, pedestal, eletrônicos e detalhes. |
@@ -129,7 +129,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Celite VIP branco · kit 1977230012300 | Aprovado | 37,5 L × 59 P × 80 A cm | Caixa acoplada, assento com queda amortecida e bacia Rimless. |
 | Ducha higiênica preta quente e fria | Direção aprovada | À esquerda do vaso, entre o box e o vaso; modelo e cotas de instalação pendentes | À esquerda do vaso, entre o box e o vaso (28/10/2026). |
 | Água quente: 13 opções em três famílias | Em estudo | Pia e ducha: rotas externas ou geração local | 13 opções: seis discretas, quatro simples e três de geração local, sem escolha. |
-| Algodão Egípcio, teto branco e uma parede verde | Direção aprovada | Amostras, paginação e áreas a conferir | Paredes fora do box em Algodão Egípcio. |
+| Algodão Egípcio, teto branco e duas paredes verdes no box | Direção aprovada | Amostras, paginação e áreas a conferir | Paredes fora do box em Algodão Egípcio. |
 
 ## 3. Resumo
 

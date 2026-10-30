@@ -2959,12 +2959,6 @@ Elias aprovou a proposta de **luz quente e indireta, inspirada na referência, c
 
 Elias solicitou que, **ao final das decisões do banheiro**, seja gerada uma imagem realista para avaliar o resultado e decidir eventuais mudanças. Entrega futura autorizada dentro desta conversa: gerar após fechar as decisões, usando as escolhas vigentes e a geometria disponível, distinguindo medidas conhecidas de hipóteses. Não gerar agora nem tratar imagem como comprovação de encaixe executivo. Preservar as escolhas já aprovadas (cuba primeira opção Deca Slim, misturador Addra Arion Black, granito Branco Itaúnas, gabinete inferior suspenso fechado bege/madeira e armário superior raso todo espelhado).
 
-### Verde nas paredes de todo o box — direção aceita, 18/09/2026
-
-Após manifestar preferência estética pelo verde no box inteiro e perguntar sobre amplitude, Elias respondeu “ok, seguimos” à recomendação de seguir com verde sálvia nas paredes de todo o box e comparar visualmente ao final. **Direção aceita para desenvolvimento: revestimento verde nas paredes internas de todo o box**, ampliando a aplicação anteriormente registrada como parede focal (MAT-009). Manter como referência de produto já registrada Portobello Vivant Sauge Mate 7 × 24,4; tom real, amostra, paginação, áreas e quantidades ainda a conferir. Esta decisão se refere às paredes; não altera automaticamente piso ou teto.
-
-Para a imagem realista final já solicitada, prever comparação entre paredes do box todas verdes e somente uma parede verde, com geometria, iluminação e enquadramento equivalentes. A versão de uma parede é alternativa de comparação, não nova escolha vigente. Resultado visual sujeito à avaliação de Elias.
-
 ### Paredes fora do box — Algodão Egípcio confirmado, 18/09/2026
 
 Elias especificou “paredes do banheiro na cor algodão egípcio” ao decidir o acabamento fora do box. **Confirmado: cor Algodão Egípcio nas paredes fora do box**, mantendo o verde sálvia nas paredes internas de todo o box conforme decisão anterior. Esta escolha substitui a proposta imediatamente anterior de revestimento bege na parede da bancada/vaso e off-white nas demais; não tratar essa proposta como aprovada.
@@ -3023,7 +3017,7 @@ Elias confirmou manter o piso claro Travertino Reale Greige, inclusive no box, c
 
 ### Revisão após imagens — decisões de Elias, 18/09/2026
 
-Elias escolheu **apenas uma parede verde no box**, citando impacto na iluminação. Substitui a decisão anterior de todas as paredes internas verdes. Usar versão comparativa apresentada: parede do fundo/chuveiro verde; parede da janela clara. Revestimento exato da parede clara ainda a especificar, mantendo aparência clara do estudo.
+Elias escolheu **apenas uma parede verde no box**, citando impacto na iluminação. Substituiu o box inteiro verde. Fundo/chuveiro verde; janela clara (superado em 30/10/2026: janela também verde).
 
 Correções expressas: **espelho precisa de iluminação para maquiagem**, com proposta de luz frontal difusa nas laterais para iluminar o rosto; luz indireta sob armário não substitui essa função. **Torneira da pia atrás da cuba, entre cuba e espelho, centralizada em relação à cuba**, sem instalação lateral. Compatibilizar alcance do jato, acesso da alavanca, profundidade da bancada e armário raso; imagem não libera furação. Preparar imagem revisada com essas correções; manter demais escolhas.
 
@@ -3151,3 +3145,5 @@ Na sequência, Elias pediu estender o divisor e as prateleiras até o fundo e at
 **24/10/2026 — pendências rápidas das fichas (R49):** Elias pediu resolver as conferências de projeto P01, P02, P04, P16 e P18. P01 (eixos dos varões a 82 e 52 mm), P02 (dobradiças do canto válidas; alerta vinha do grupo STEP), P04 (≈23 N por dobradiça nas folhas 440 × 306) e P18 (vão frontal 507) conferidos sem mudar o modelo. P16 corrigido na [R49](../02_Modelo_3D/Historico/Gavetas_escritorio/README.md): gaveta 2 com laterais 74 mm para os 7 mm da MOVENTO sob o tampo, e trava T51.7601 direita espelhada, sem invadir a guia.
 
 **24/10/2026 — reservas ilustrativas ocultas:** na revisão das reservas sem aprovação, Elias determinou: remover “proteção lateral de 10 mm do quarto, faixa de cadeira 800×500×720 do escritório e o grupo R31 de diagnóstico da cocção. Mantém tanque e reservas hidráulicas.” Removidas na [R48](../02_Modelo_3D/Historico/Depurador_sem_canal/README.md); tanque externo e reservas hidráulicas do P14 seguem até a medição.
+
+**30/10/2026 — parede da janela do box também em verde:** Elias: “eu mudei minha opiniao sobre o azulejo verde no banheiro, ele esta só em uma parede da area do chuveiro, quero que esteja na parede da janela tbm, entendo q fica mais bonito”. Passam a ser **duas paredes verdes** no box (fundo/chuveiro e janela), em Portobello Vivant Sauge Mate; substitui a decisão de 18/09/2026, em que a parede da janela era clara. A outra parede interna do box segue clara. Pendências: paginação e recorte ao redor da janela, quantidade e orçamento (estimativa preliminar em [Análise de pisos](../05_Orcamento_e_cronograma/Orcamento/Pisos_e_revestimentos/Analise_pisos.md)), efeito na iluminação que Elias citou em 18/09/2026, imagens do site e referências, modelo 3D e dados derivados.

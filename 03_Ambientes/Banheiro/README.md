@@ -34,8 +34,8 @@ T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manu
 | Conteúdo atrás do espelho | Escovas, pasta, desodorante e pequenos cosméticos | Profundidade útil a partir das embalagens |
 | Iluminação | **Teto 3000 K, espelho 4000 K e indireta 3000 K**, três comandos físicos. L02: componentes propostosR$ 704,64 à vista. Firefly 9605; espelho Cristallux COB CLX-FT331240/IRC>90; indireta Brilia 318939/4,8 W/m, substituta proposta; MOV4329 e 2 fontes Opus OPS31002 | Sem frete/instalação. Encaixe/dissipação, terminais/proteção e luz no rosto a conferir. Barra inferior condicionada à torneira; até 2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |
 | Paredes fora do box | **Algodão Egípcio** | Marca, código, produto, preparo e proteção nas regiões de respingo |
-| Parede verde | **Somente uma parede do box**, fundo/chuveiro no estudo; referência Portobello Vivant Sauge Mate 7 ×24,4 | Amostra, paginação e quantidade; demais paredes internas não ficam todas verdes |
-| Parede da janela no box | Aparência clara/bege da referência revisada | Revestimento exato ainda não escolhido |
+| Parede verde | **Duas paredes do box: fundo/chuveiro e janela** (Elias, 30/10/2026); Portobello Vivant Sauge Mate 7 ×24,4 | Amostra, paginação com a janela, quantidade e luz; a outra parede interna não fica verde |
+| Parede da janela no box | **Verde, Vivant Sauge**, como o fundo (Elias, 30/10/2026) | Recorte ao redor da janela; imagens e 3D a atualizar |
 | Piso | **Biancogres Travertino Reale Greige**, referência 90 ×90; Satin fora e EXT dentro do box nos registros MAT-007/008 | Adequação técnica a cada área, amostras, paginação, caimentos, rejunte e quantidades |
 | Teto | **Branco** | Produto e código; forro é previsto na entrega, espaço interno/altura ainda não conferidos |
 | Box | **Vidro transparente, perfis pretos finos** | Tipo e sentido de abertura, altura, vidro, ferragens, vedação e acesso |
@@ -99,7 +99,7 @@ A largura da porta não foi localizada na planta ou no memorial. A cota 1,05 m d
 - Registro da geração de imagens e revisão R01.
 - Próxima imagem realista, após fechar os detalhes restantes, deve refletir VIP, Livo, uma parede verde, gabinete fechado e eventual solução hidráulica escolhida. Não reproduzir automaticamente o chuveiro quadrado, vaso anterior ou shaft omitido de uma ilustração.
 
-Mudanças que prevalecem: VIP substituiu Elite; apenas uma parede verde substituiu box inteiro verde; gabinete fechado substituiu nichos da inspiração; apoio no box é prateleira; torneira é centralizada atrás da cuba; espelho exige luz de maquiagem. A ducha Livo já estava definida e foi incorretamente listada como escolha pendente na conversa, erro corrigido.
+Mudanças que prevalecem: VIP substituiu Elite; duas paredes verdes (fundo e janela, 30/10) substituíram o box inteiro verde; gabinete fechado substituiu nichos da inspiração; apoio no box é prateleira; torneira é centralizada atrás da cuba; espelho exige luz de maquiagem. A ducha Livo já estava definida e foi incorretamente listada como escolha pendente na conversa, erro corrigido.
 
 ## O que falta para fechar
 

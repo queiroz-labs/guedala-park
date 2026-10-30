@@ -10,7 +10,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
 - **Regra de Elias:** nenhum tubo ou quadro metálico substituto para sustentar chapas de madeira sem sua autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
 - **Chapas/cores:** faces iguais por chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria/ligações/cargas; caixa dupla/15 mm não automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
-- **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026, nesta conversa). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+- **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 ## Versões vigentes
 
@@ -68,7 +68,7 @@ Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, posição a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde no box; teto/indireta 3000 K, espelho 4000 K, três comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
+- **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box ([R55 pendente](02_Modelo_3D/Verde_box_candidato.md)); teto/indireta 3000 K, espelho 4000 K, 3 comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 
 Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_decisoes.md) e [Painel de decisões](01_Programa_e_decisoes/Painel_de_decisoes.md).
@@ -88,7 +88,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Proposta FGVTN 500, fixação das frentes, consulta não enviada |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
-| Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente:13 opções](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas e elétrica com RT; sem escolha (29/10) |
+| Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas, elétrica com RT; sem escolha (29/10) |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Corte e custo nominal](04_Moveis/Plano_de_corte/README.md) | 15 chapas/215 painéis; 33 bloqueados e fundo fora; retalhos e custos de sete propostas exportados; meta não demonstrada |
 
@@ -119,7 +119,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.
 
-**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3 e galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
+**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3, galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.
 

@@ -6,6 +6,8 @@ PQ-001;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;22;"z, adaptaçõe
 PQ-001;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;32;tamento, interfaces e RT pendentes |
 PQ-001;03_Ambientes/Acabamentos/README.md;62;odapé atrás da marcenaria? A medição bruta é 37,03 m antes desses ajustes.
 PQ-001;03_Ambientes/Banheiro/README.md;11;cina e levantamento real pendentes.
+PQ-001;03_Ambientes/Conforto_ambiental/README.md;11;2026, sem nova medição independente.
+PQ-001;03_Ambientes/Conforto_ambiental/README.md;115;## Medir, perguntar e reproduzir
 PQ-001;03_Ambientes/Cozinha/README.md;3;250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anter
 PQ-001;03_Ambientes/Escritorio/README.md;3;250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anter
 PQ-001;03_Ambientes/Escritorio/README.md;26;"-ercathe-a01-mesh-premium?variant=49668774854978): R$ 2.290,90, **fora do orçamento**. Mesh, lombar ajustável, braços 3D, encosto até 145°, apoio de pés retrátil; até 1,9"
@@ -43,31 +45,36 @@ PQ-001;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e banca
 PQ-001;07_Imovel/Checklist_vistoria_dia_das_chaves.md;164;as e campo](../04_Moveis/Dependencias/README.md) |
 PQ-001;07_Imovel/Checklist_vistoria_dia_das_chaves.md;203; de medida que não podem faltar:
 PQ-001;07_Imovel/Checklist_vistoria_dia_das_chaves.md;211;sica do datum ainda está pendente em [Descrição física](../04_Moveis/Dependencias/Descricao_fisica.csv)
+PQ-001;07_Imovel/Mobiliado/README.md;131; profundidades continuam pendentes das [medidas reais](../Medidas_e_impactos.csv).
 PQ-001;07_Imovel/README.md;3;250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anter
-PQ-001;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-001;07_Imovel/README.md;67;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
-PQ-001;07_Imovel/README.md;76;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
-PQ-001;07_Imovel/README.md;122;ódigos foram para CSV em Dependencias. Coordenadas sem datum físico estão marcadas descrição pendente. [Mapeamento](../04_Moveis/Dependencias/Descricao_fisica.csv).
-PQ-001;07_Imovel/README.md;124;ínculo ainda é descrição pendente, sem transformação inventada.
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;3;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;9;"| 3 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;10;"| 4 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;12;"| 6 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;14;"| 8 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;15;"| 9 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;16;| 10 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;17;"| 11 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;18;| 12 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;19;| 13 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;20;"| 14 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;21;"| 15 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;23;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
+PQ-001;07_Imovel/README.md;40;"Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e e"
+PQ-001;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-001;07_Imovel/README.md;79;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
+PQ-001;07_Imovel/README.md;88;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-001;07_Imovel/README.md;133;546 códigos e descrições pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv).
+PQ-001;07_Imovel/README.md;135;o CSV da cadeia. Vínculo pendente.
+PQ-001;07_Imovel/README.md;137;antes das prioridades. **Pergunta exata:** quais faces/marcos físicos correspondem à origem (0,0), ao sentido +X da planta e ao PR-EIXO-X nominal de 7400 mm, e que transf
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;7;nto esse vínculo estiver pendente.
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;11;"/Y/Z permanece descrição pendente: **ver protocolo de datum**, identificar o marco antes de preencher; não presumir centro nem eixo do caixilho. DEP-COZ-PRUMO: duas leitu"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;32;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;38;"| 3 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;39;"| 4 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;41;"| 6 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;43;"| 8 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;44;"| 9 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;45;| 10 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;46;"| 11 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;47;| 12 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;48;| 13 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;49;"| 14 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;50;"| 15 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-001;07_Imovel/Roteiro_dia_das_chaves_R01.md;52;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
 PQ-001;ESTADO_ATUAL.md;21;tregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 PQ-001;ESTADO_ATUAL.md;51;", 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |"
 PQ-001;ESTADO_ATUAL.md;53;".csv); levantamento real depende das chaves |"
 PQ-001;ESTADO_ATUAL.md;86;") | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |"
-PQ-001;ESTADO_ATUAL.md;118;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
-PQ-001;ESTADO_ATUAL.md;122;"eservados; novos centros dependem de datum/apoios. Alertas físicos continuam."
+PQ-001;ESTADO_ATUAL.md;120;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
+PQ-001;ESTADO_ATUAL.md;124;"eservados; novos centros dependem de datum/apoios. Alertas físicos continuam."
 PQ-001;07_Imovel/Medidas_e_impactos.csv;9;da | valor_nominal_atual=a definir | natureza_do_valor=Sem valor nominal documentado | fonte_nominal=07_Imovel/Roteiro_dia_das_chaves_R01.md | tolerancia_que_afeta_projet
 PQ-001;07_Imovel/Medidas_e_impactos.csv;10;ho | valor_nominal_atual=a definir | natureza_do_valor=Sem valor nominal documentado | fonte_nominal=07_Imovel/Roteiro_dia_das_chaves_R01.md | tolerancia_que_afeta_projet
 PQ-001;07_Imovel/Medidas_e_impactos.csv;11;to | valor_nominal_atual=a definir | natureza_do_valor=Sem valor nominal documentado | fonte_nominal=07_Imovel/Roteiro_dia_das_chaves_R01.md | tolerancia_que_afeta_projet
@@ -1179,15 +1186,23 @@ PQ-002;05_Orcamento_e_cronograma/README.md;64;em dias úteis ou corridos? A fila
 PQ-002;05_Orcamento_e_cronograma/README.md;65;durações e predecessores faltam da medição até a mudança, e qual prazo de análise do condomínio? Sem esses dados não há caminho crítico global.
 PQ-002;05_Orcamento_e_cronograma/README.md;66;nas, e incluem instalação? Não somar as duas referências.
 PQ-002;05_Orcamento_e_cronograma/README.md;67;oi aceito pelo fornecedor? Não há nova escolha estética para Elias nesta atualização.
-PQ-002;05_Orcamento_e_cronograma/README.md;95;"-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |"
-PQ-002;05_Orcamento_e_cronograma/README.md;110;_10.md). Montagens ainda condicionadas, sem mudança da R52.
-PQ-002;05_Orcamento_e_cronograma/README.md;120;"cia; comprovação técnica pendente."
-PQ-002;05_Orcamento_e_cronograma/README.md;122;rdas e inclusão no corte pendentes.
-PQ-002;05_Orcamento_e_cronograma/README.md;124;"alizado; gabarito físico pendente."
-PQ-002;05_Orcamento_e_cronograma/README.md;126;vações físicas continuam pendentes.
-PQ-002;05_Orcamento_e_cronograma/README.md;128;"V e reserva preservadas. Dependem de R$ 17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias 27/10/2026, sem contratar. Redução comprovada ainda insu"
-PQ-002;05_Orcamento_e_cronograma/README.md;132;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
-PQ-002;05_Orcamento_e_cronograma/README.md;138;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
+PQ-002;05_Orcamento_e_cronograma/README.md;93;"**Dúvidas de sequência — a confirmar com RT; ordem atual mantida:**"
+PQ-002;05_Orcamento_e_cronograma/README.md;95;1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
+PQ-002;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-002;05_Orcamento_e_cronograma/README.md;97;3. **A confirmar com RT:** conduítes e passagem de água quente pelo forro integram a infraestrutura das semanas 1–2? Quando inspecionar e fechar o forro antes da pintura,
+PQ-002;05_Orcamento_e_cronograma/README.md;98;4. **A confirmar com RT:** qual sequência prevalecerá entre o plano NBR 16280 §5 (pedras antes da marcenaria) e o cronograma §§1/3 (inferiores montados → gabarito → pedra
+PQ-002;05_Orcamento_e_cronograma/README.md;99;5. **A confirmar com RT:** gabarito na semana 7 mais fornecimento de pedras de 1–2 semanas inclui instalação e cabe no agregado 7–8? Qual conclusão antecede os testes fin
+PQ-002;05_Orcamento_e_cronograma/README.md;100;6. **A confirmar com RT:** quais predecessores encerram retoques/limpeza/testes, sem dependência na semana 8 do §2, mas na semana 9 do §1? Como separar pintura-base 4–5 d
+PQ-002;05_Orcamento_e_cronograma/README.md;110;"-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |"
+PQ-002;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
+PQ-002;05_Orcamento_e_cronograma/README.md;117;"omparáveis e contratação pendentes; prevalece o fechamento D05/D06 abaixo."
+PQ-002;05_Orcamento_e_cronograma/README.md;125;"cia; comprovação técnica pendente."
+PQ-002;05_Orcamento_e_cronograma/README.md;127;rdas e inclusão no corte pendentes.
+PQ-002;05_Orcamento_e_cronograma/README.md;129;"alizado; gabarito físico pendente."
+PQ-002;05_Orcamento_e_cronograma/README.md;131;vações físicas continuam pendentes.
+PQ-002;05_Orcamento_e_cronograma/README.md;133;"V e reserva preservadas. Dependem de R$ 17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias 27/10/2026, sem contratar. Redução comprovada ainda insu"
+PQ-002;05_Orcamento_e_cronograma/README.md;137;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
+PQ-002;05_Orcamento_e_cronograma/README.md;143;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
 PQ-002;08_Contratos_e_atraso/Pesquisa/README.md;8;que o número seja falso: faltam os marcos usados pela Cury, eventuais períodos adicionais e o impacto no cronograma crítico.
 PQ-002;08_Contratos_e_atraso/Pesquisa/README.md;72; a pendência principal é confirmar a memória de cálculo da incorporadora e o efeito líquido da restrição arqueológica no cronograma de entrega. A correspondência de 254 d
 PQ-002;ESTADO_ATUAL.md;29;" 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |"
@@ -1211,9 +1226,13 @@ PQ-021;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;50;"T e obra final
 PQ-021;05_Orcamento_e_cronograma/README.md;14;ição → executivo, também dependente de oficina definida e resolução documental dos mecanismos. Executivo + abastecimento → marco de início → fabricação → inferiores → gab
 PQ-021;05_Orcamento_e_cronograma/README.md;37;dras chega a **+8/+10**. Faltam montagem, gabarito, instalação, limpeza e outras esperas: **8–10 não é intervalo da mudança nem limite superior da obra**.
 PQ-021;05_Orcamento_e_cronograma/README.md;66;nas, e incluem instalação? Não somar as duas referências.
-PQ-021;05_Orcamento_e_cronograma/README.md;124;"alizado; gabarito físico pendente."
-PQ-021;05_Orcamento_e_cronograma/README.md;126;vações físicas continuam pendentes.
+PQ-021;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-021;05_Orcamento_e_cronograma/README.md;98;4. **A confirmar com RT:** qual sequência prevalecerá entre o plano NBR 16280 §5 (pedras antes da marcenaria) e o cronograma §§1/3 (inferiores montados → gabarito → pedra
+PQ-021;05_Orcamento_e_cronograma/README.md;99;5. **A confirmar com RT:** gabarito na semana 7 mais fornecimento de pedras de 1–2 semanas inclui instalação e cabe no agregado 7–8? Qual conclusão antecede os testes fin
+PQ-021;05_Orcamento_e_cronograma/README.md;129;"alizado; gabarito físico pendente."
+PQ-021;05_Orcamento_e_cronograma/README.md;131;vações físicas continuam pendentes.
 PQ-021;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
+PQ-023;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;25;impermeabilização do box [RT] | Sim: pisos e paredes |
 PQ-023;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;29; E21 | Instalação de gás [RT] | Confirmar [ADM] |
 PQ-023;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;57;os horários permitidos | [ADM] |
 PQ-023;03_Ambientes/Acabamentos/README.md;31;"ura, substrato e produto faltam. Tetos são projeções horizontais; gesso e faixas adicionais permanecem pendentes."
@@ -1341,10 +1360,11 @@ PQ-023;04_Moveis/Quantitativos/README.md;37;Pergunta exata para produto/oficina,
 PQ-023;04_Moveis/Quantitativos/README.md;74; — prever duas pessoas e confirmar o peso real com o fornecedor. As portas de correr P01/Peca247 e Peca248 (1999 × 995 × 18) ficam em ~24,7 kg, no limite: tratar também c
 PQ-023;04_Moveis/README.md;25;"; produto/juntas/ensaios pendentes |"
 PQ-023;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;38;"`P19-MINIFIX` preserva a pergunta **12 documentais × 8 no mapa**. Para lacunas, `incluida` significa inclusão explícita no preço a conferir; `esclarecer` significa que pe"
-PQ-023;07_Imovel/README.md;74;ir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, 
+PQ-023;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
+PQ-023;07_Imovel/README.md;86;ir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, 
 PQ-023;ESTADO_ATUAL.md;47;"45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |"
 PQ-023;ESTADO_ATUAL.md;82;s, soco/piso e fundo P01 pendentes |
-PQ-023;ESTADO_ATUAL.md;122;"eservados; novos centros dependem de datum/apoios. Alertas físicos continuam."
+PQ-023;ESTADO_ATUAL.md;124;"eservados; novos centros dependem de datum/apoios. Alertas físicos continuam."
 PQ-023;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;7;"destino=RT/construtora | pergunta=O ponto de TV e conduíte entrada–painel existem e permitem a ligação? Identificar neutro, retornos e caixa; não assumir infraestrutura. "
 PQ-023;../outputs/Auditoria_quantidades/Conferencias.csv;1493;or_cor.csv | item=Padrao a definir/0.45 | valor_documentado=1.404 | valor_recalculado=1.404 | delta=0.000 | unidade=m | resultado=confere
 PQ-023;../outputs/Auditoria_quantidades/Conferencias.csv;1494;or_cor.csv | item=Padrao a definir/perda | valor_documentado=1.5444 | valor_recalculado=1.5444 | delta=0.0000 | unidade=m | resultado=confere
@@ -1433,9 +1453,9 @@ PQ-024;04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md;56;**Perguntas que
 PQ-024;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;74;"recrawl não executou por falta de créditos; a consulta oficial prosseguiu pela busca padrão. O catálogo amplo MOVENTO e uma instrução regional americana não puderam ser r"
 PQ-024;04_Moveis/Proximas_decisoes/README.md;50;"oteiro_banco_cesto.md), [perguntas P02](P01_P03/README.md) e [acabamento P13](Corte_e_formatos/README.md) preparados. Sem novos cálculos dos estudos condicionados; próxim"
 PQ-024;04_Moveis/README.md;28;ço de pendências](Avanco_pendencias/Avanco_pendencias.html) |
-PQ-024;05_Orcamento_e_cronograma/README.md;110;_10.md). Montagens ainda condicionadas, sem mudança da R52.
-PQ-024;05_Orcamento_e_cronograma/README.md;124;"alizado; gabarito físico pendente."
-PQ-024;05_Orcamento_e_cronograma/README.md;132;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
+PQ-024;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
+PQ-024;05_Orcamento_e_cronograma/README.md;129;"alizado; gabarito físico pendente."
+PQ-024;05_Orcamento_e_cronograma/README.md;137;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
 PQ-024;ESTADO_ATUAL.md;47;"45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |"
 PQ-024;ESTADO_ATUAL.md;62;res com trava (protótipo pendente).
 PQ-024;ESTADO_ATUAL.md;69;laro. Códigos comerciais dependem de amostra.
@@ -1444,6 +1464,7 @@ PQ-026;01_Programa_e_decisoes/README.md;25;"es candidatos. Proposto, depende de 
 PQ-026;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;16;"isponíveis | **Proposto, depende de amostra; D02** | Amostras A/C solicitadas por Elias, ainda não enviadas; confirmar SKU de fábrica ausente, BrancoTX por fornecedor e L"
 PQ-026;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;17;"-B respondida; IL02–IL09 pendentes; D06-B integrada** | WiZ/WiZmote sem SKU nacional conciliado; Elgin no quarto selecionada, comando físico não comprovado; Brilia 318939"
 PQ-026;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;42;"ra ao lado do Arenza"".** Solicitar Lume Matt e Areia Matt; acabamento final proposto, depende de amostra."
+PQ-026;03_Ambientes/Conforto_ambiental/README.md;95;"a a27°C, SKUOlmo/adesivo pendentes. Manta sob vinílico colado não é automaticamente compatível; acréscimo hipotético10–30mm consome pé-direito. RT deve verificar carga/ci"
 PQ-026;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;16;"e fabricação; fornecedor confirmar planicidade, resistência dos filetes e acabamento compatível com uso junto ao forno |"
 PQ-026;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;75;" do corte e marceneiro | Confirmar chapa, filetes, acabamento, área efetiva, retençãoM4 e união das réguas; apresentar custo das duas grelhas e ferragens |"
 PQ-026;03_Ambientes/Equipamentos/README.md;119;a de carga térmica, pois faltam envoltória/uso/zonas.
@@ -1498,10 +1519,10 @@ PQ-026;04_Moveis/README.md;58;"ordas e corte permanecem pendentes; estudos resis
 PQ-026;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;44;e diferenças de formato. Confirmar SKU, processo e cobertura dos 33 bloqueados. Nenhum formato é intercambiável automaticamente.
 PQ-026;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;46;"ados de frete/impostos + faltas quantificáveis. Primeiro busca preço unitário da mesma linha em outra proposta de **mesmo escopo**, com unidade/especificação compatíveis;"
 PQ-026;05_Orcamento_e_cronograma/README.md;64;em dias úteis ou corridos? A fila está dentro dos 5–6? Quando cada ferragem e o forno devem estar disponíveis? Qual a duração real da etapa reduzida?
-PQ-026;05_Orcamento_e_cronograma/README.md;122;rdas e inclusão no corte pendentes.
+PQ-026;05_Orcamento_e_cronograma/README.md;127;rdas e inclusão no corte pendentes.
 PQ-026;ESTADO_ATUAL.md;49;"10; SKUs e escolha final pendentes |"
 PQ-026;ESTADO_ATUAL.md;59;"-26102026), teto/acessos pendentes; escopo R53 no README do modelo."
-PQ-026;ESTADO_ATUAL.md;71;"rda do gabinete, posição a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde no box; teto/indireta 3000 K, espelho 4000 K, três comandos "
+PQ-026;ESTADO_ATUAL.md;71;" à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box; teto/indireta 3000 K, espelho 4000 K, 3"
 PQ-027;03_Ambientes/Acabamentos/README.md;22;"m conforme especificação pendente. A área privativa oficial de 40,18 m² inclui outros elementos; não deve ser comparada diretamente com esta união de pisos internos."
 PQ-027;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;47;em parafusos comerciais: dependem do material das réguas e da espessura final. Não declarar essas ligações dimensionadas apenas porque os envelopes cabem.
 PQ-027;03_Ambientes/Escritorio/README.md;54;"r e folga técnica oculta a definir. Sem fresta aparente obrigatória de 5 cm; fixação na parede sem carga no forro."
@@ -1523,10 +1544,10 @@ PQ-027;04_Moveis/README.md;58;"ordas e corte permanecem pendentes; estudos resis
 PQ-027;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;38;"`P19-MINIFIX` preserva a pergunta **12 documentais × 8 no mapa**. Para lacunas, `incluida` significa inclusão explícita no preço a conferir; `esclarecer` significa que pe"
 PQ-027;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;45; de regra de borda geram perguntas. Os 23 painéis sem regra não entram como fita grátis. A linha comparativa L101 não é compra adicional.
 PQ-027;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;46;"ados de frete/impostos + faltas quantificáveis. Primeiro busca preço unitário da mesma linha em outra proposta de **mesmo escopo**, com unidade/especificação compatíveis;"
-PQ-027;05_Orcamento_e_cronograma/README.md;122;rdas e inclusão no corte pendentes.
+PQ-027;05_Orcamento_e_cronograma/README.md;127;rdas e inclusão no corte pendentes.
 PQ-027;07_Imovel/Checklist_vistoria_dia_das_chaves.md;43;pão do diâmetro do ralo (confirmar no local) |
-PQ-027;07_Imovel/README.md;74;ir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, 
-PQ-027;07_Imovel/README.md;75;"- `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quan"
+PQ-027;07_Imovel/README.md;86;ir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, 
+PQ-027;07_Imovel/README.md;87;"- `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quan"
 PQ-027;../outputs/Auditoria_quantidades/Conferencias.csv;1493;or_cor.csv | item=Padrao a definir/0.45 | valor_documentado=1.404 | valor_recalculado=1.404 | delta=0.000 | unidade=m | resultado=confere
 PQ-027;../outputs/Auditoria_quantidades/Conferencias.csv;1494;or_cor.csv | item=Padrao a definir/perda | valor_documentado=1.5444 | valor_recalculado=1.5444 | delta=0.0000 | unidade=m | resultado=confere
 PQ-027;../outputs/Auditoria_quantidades/Conferencias.csv;1495;or_cor.csv | item=Padrao a definir/1.0 | valor_documentado=5.384 | valor_recalculado=5.384 | delta=0.000 | unidade=m | resultado=confere
@@ -1540,6 +1561,7 @@ PQ-008;03_Ambientes/Cozinha/Fischer_Grill/Apoios_ventilacao/README.md;3;"inete d
 PQ-008;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;59;"a do projeto. Encerrar a pergunta sobre o tipo de gás; ainda conferir o ponto, registro e capacidade da instalação. A configuração de fábrica do KE4GC e eventual adaptaçã"
 PQ-008;03_Ambientes/Cozinha/Fischer_Grill/README.md;3;"inete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas"
 PQ-008;03_Ambientes/Equipamentos/README.md;115;Perguntas ao responsável técnico/condomínio: **há capacidade e alimentação220V disponíveis para esta unidade? Qual local autorizado para condensadora? Qual rota permitida
+PQ-008;03_Ambientes/Gas_natural/README.md;112;o na alvenaria estrutural? O caixilho tem grelha? | RT / construtora |
 PQ-008;04_Moveis/Aereos_suspensao/README.md;80;nica rejeitado. Proposta a confirmar: gabinete sustentado/nivelado e fixações inseridas/apertadas por dentro, retiradas também com apoio. Validar cabeça/arruela no rasgo 
 PQ-008;04_Moveis/Inventario_dimensional/Inventario/README.md;68; montagem do móvel precisa definir quais painéis contraventam o conjunto.
 PQ-008;04_Moveis/P01/Massas_equilibrio/README.md;69;io para o acabamento real? A carga da estrutura do edifício não se resolve dividindo o peso apenas pela área de madeira em contato.
@@ -1547,6 +1569,7 @@ PQ-008;04_Moveis/P03/README.md;48;"estrutural e sua rigidez pendentes. Receptore
 PQ-008;04_Moveis/P12/README.md;60;1. Produto/oficina: confirmar montagem Bigfer com fundo 18, fixadores MDF/pilotos/profundidade/torque, passo 12/borda 9,5, cabeça/arruela/rasgo 5, retenção, flexão/esmaga
 PQ-008;04_Moveis/P17/Base_fundo_ligacoes/README.md;47;"**Continua pendente:** método Bigfer/fixadores MDF18/cabeça/rasgo/retenção e ferramenta reais; juntas e transmissão pelo fundo/laterais até os cantos; deformação da refer"
 PQ-008;04_Moveis/Quantitativos/README.md;37;Pergunta exata para produto/oficina, não enviada: “É possível fornecer o painel real escolhido em formato que permita cortar o fundoP01 inteiro1964×2114×18, com refilo e 
+PQ-008;05_Orcamento_e_cronograma/README.md;97;3. **A confirmar com RT:** conduítes e passagem de água quente pelo forro integram a infraestrutura das semanas 1–2? Quando inspecionar e fechar o forro antes da pintura,
 PQ-008;07_Imovel/Checklist_vistoria_dia_das_chaves.md;70;nde houver, fotografar e perguntar ao RT e à construtora (a alvenaria é estrutural)
 PQ-008;07_Imovel/Checklist_vistoria_dia_das_chaves.md;110;" há infraestrutura de ar-condicionado prevista: perguntar se existe espera, dreno, tomada ou local para condensadora; registrar a resposta e a regra do condomínio"
 PQ-008;07_Imovel/Checklist_vistoria_dia_das_chaves.md;228; instalações, estrutura) dependem do contrato e da NBR 15575: conferir no manual e anotar as datas.
@@ -1563,6 +1586,8 @@ PQ-022;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;22;ha. Climatização
 PQ-022;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;104;aio acústico documentados? Qual preço completo para 30,8101 m², incluindo perdas e instalação?
 PQ-022;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;105;na dos códigos candidatos? Qual modo atende à carga térmica ainda pendente?
 PQ-022;03_Ambientes/Banheiro/README.md;11;cina e levantamento real pendentes.
+PQ-022;03_Ambientes/Conforto_ambiental/README.md;93;io/capacidade/COP/tensão pendentes. [Detalhes](Metodo_e_limites.md).
+PQ-022;03_Ambientes/Conforto_ambiental/README.md;95;"a a27°C, SKUOlmo/adesivo pendentes. Manta sob vinílico colado não é automaticamente compatível; acréscimo hipotético10–30mm consome pé-direito. RT deve verificar carga/ci"
 PQ-022;03_Ambientes/Cozinha/Fischer_Grill/Apoios_ventilacao/README.md;3;"inete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas"
 PQ-022;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;16;"e fabricação; fornecedor confirmar planicidade, resistência dos filetes e acabamento compatível com uso junto ao forno |"
 PQ-022;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;59;"a do projeto. Encerrar a pergunta sobre o tipo de gás; ainda conferir o ponto, registro e capacidade da instalação. A configuração de fábrica do KE4GC e eventual adaptaçã"
@@ -1680,9 +1705,10 @@ PQ-022;04_Moveis/README.md;55;**Aplicação ainda pendente no CAD e nas fichas.*
 PQ-022;04_Moveis/README.md;58;"ordas e corte permanecem pendentes; estudos resistentes não incorporados."
 PQ-022;07_Imovel/Checklist_vistoria_dia_das_chaves.md;164;as e campo](../04_Moveis/Dependencias/README.md) |
 PQ-022;07_Imovel/Checklist_vistoria_dia_das_chaves.md;203; de medida que não podem faltar:
-PQ-022;07_Imovel/README.md;73;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
-PQ-022;ESTADO_ATUAL.md;35;"condicional; carga total pendente."
-PQ-022;ESTADO_ATUAL.md;78;"is; hipóteses, números e perguntas no README de cada item."
+PQ-022;07_Imovel/README.md;85;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
+PQ-022;07_Imovel/Roteiro_dia_das_chaves_R01.md;11;"/Y/Z permanece descrição pendente: **ver protocolo de datum**, identificar o marco antes de preencher; não presumir centro nem eixo do caixilho. DEP-COZ-PRUMO: duas leitu"
+PQ-022;ESTADO_ATUAL.md;35;"h/ASUS condicional/carga pendente; [conforto anual](03_Ambientes/Conforto_ambiental/README.md)."
+PQ-022;ESTADO_ATUAL.md;78;"Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/perguntas nos READMEs."
 PQ-022;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;6;O | destino=RT/oficina | pergunta=Qual desvio absoluto de 90° e prumo em cada canto? Definir calços/folgas/ancoragem com faces identificadas. | fonte=04_Moveis/Dependenci
 PQ-022;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;8;"destino=RT/construtora | pergunta=As tampas cegas do quadro escondem posições úteis? Conferir circuitos, proteção e capacidade; tampas não demonstram disponibilidade elét"
 PQ-003;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;5;tes do início das obras. Confirmar com o(a) profissional a versão vigente da norma e o formato aceito pelo condomínio. Os campos marcados **[RT]** são do(a) responsável t
@@ -1724,6 +1750,9 @@ PQ-004;04_Moveis/P20/Assento_fechado/README.md;3;"mpra definitiva/montagem depen
 PQ-004;04_Moveis/README.md;13;" em 28/10/2026; execução pendente, protocolos de carga a fechar |"
 PQ-004;05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md;25;"de_reforma_NBR16280.md); confirmar o prazo de análise da administração |"
 PQ-004;05_Orcamento_e_cronograma/README.md;65;durações e predecessores faltam da medição até a mudança, e qual prazo de análise do condomínio? Sem esses dados não há caminho crítico global.
+PQ-004;07_Imovel/README.md;137;antes das prioridades. **Pergunta exata:** quais faces/marcos físicos correspondem à origem (0,0), ao sentido +X da planta e ao PR-EIXO-X nominal de 7400 mm, e que transf
+PQ-004;07_Imovel/Roteiro_dia_das_chaves_R01.md;5;** [regras](../04_Moveis/Dependencias/regras.json): X espelhado pela PR-EIXO-X nominal, Y da planta, Z vertical. [Cotas, pranchas.frame](../06_Entregas/Planta_cotada/Cota
+PQ-004;07_Imovel/Roteiro_dia_das_chaves_R01.md;11;"/Y/Z permanece descrição pendente: **ver protocolo de datum**, identificar o marco antes de preencher; não presumir centro nem eixo do caixilho. DEP-COZ-PRUMO: duas leitu"
 PQ-004;ESTADO_ATUAL.md;86;") | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |"
 PQ-004;../outputs/Codex_acustica_envoltoria/Resumo_para_Elias.md;3;G, protocolo indicativo, perguntas, script e 11 testes novos.
 PQ-012;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;30;trica: circuitos e carga [RT] | Confirmar [ADM] |
@@ -1736,6 +1765,8 @@ PQ-012;03_Ambientes/Acabamentos/README.md;27;"cas. Pé-direito **2,60 m a confir
 PQ-012;03_Ambientes/Acustica/Envoltoria/README.md;22;"ontos/Quadro_cargas.md): falta origem/rota do quadro para comprimentos elétricos; não confirma quadro ao lado da entrada. Caixas de costas e rasgos não estão inventariado"
 PQ-012;03_Ambientes/Acustica/Envoltoria/README.md;26;cias](../../../04_Moveis/Dependencias/README.md): 34 folgas nominais ≤15 mm, quatro negativas, algumas contra limites de referência. Contraparede de 63 mm não cabe automa
 PQ-012;03_Ambientes/Banheiro/README.md;92;ulica, acesso e elétrica pendentes. Sem rasgo estrutural, piso aberto, vidro furado, forro de vizinho ou retirada do enchimento sem avaliação. [Memorial do estudo](Agua_q
+PQ-012;03_Ambientes/Conforto_ambiental/README.md;93;io/capacidade/COP/tensão pendentes. [Detalhes](Metodo_e_limites.md).
+PQ-012;03_Ambientes/Conforto_ambiental/README.md;95;"a a27°C, SKUOlmo/adesivo pendentes. Manta sob vinílico colado não é automaticamente compatível; acréscimo hipotético10–30mm consome pé-direito. RT deve verificar carga/ci"
 PQ-012;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;59;"a do projeto. Encerrar a pergunta sobre o tipo de gás; ainda conferir o ponto, registro e capacidade da instalação. A configuração de fábrica do KE4GC e eventual adaptaçã"
 PQ-012;03_Ambientes/Cozinha/Fischer_Grill/README.md;9;óvel com o cooktop e o q falta pra fechar”. Adotar **Fischer Infinity 50 L com grill, sem turbo, preto 127 V, 28349-64929**, em substituição à referência Venax para o des
 PQ-012;03_Ambientes/Equipamentos/README.md;3;"rio de climatização). Ar-condicionado: o memorial §5.9 restringe, mas a convenção art.58 prevê instalação condicionada; capacidade, local e viabilidade continuam pendente"
@@ -1759,9 +1790,9 @@ PQ-012;07_Imovel/Checklist_vistoria_dia_das_chaves.md;34;Multímetro (tensão CA
 PQ-012;07_Imovel/Checklist_vistoria_dia_das_chaves.md;106;"quada usual é 117–133 V; confirmar)"
 PQ-012;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
 PQ-012;07_Imovel/Checklist_vistoria_dia_das_chaves.md;164;as e campo](../04_Moveis/Dependencias/README.md) |
-PQ-012;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-012;07_Imovel/README.md;67;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
-PQ-012;07_Imovel/README.md;76;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-012;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-012;07_Imovel/README.md;79;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
+PQ-012;07_Imovel/README.md;88;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
 PQ-012;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;6;O | destino=RT/oficina | pergunta=Qual desvio absoluto de 90° e prumo em cada canto? Definir calços/folgas/ancoragem com faces identificadas. | fonte=04_Moveis/Dependenci
 PQ-012;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;8;"destino=RT/construtora | pergunta=As tampas cegas do quadro escondem posições úteis? Conferir circuitos, proteção e capacidade; tampas não demonstram disponibilidade elét"
 PQ-014;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;31;"ia; hidráulica (cubas) | Confirmar |"
@@ -1777,6 +1808,9 @@ PQ-014;03_Ambientes/Cozinha/Fischer_Grill/README.md;3;"inete da pia à esquerda,
 PQ-014;03_Ambientes/Equipamentos/README.md;15;- **Dados condicionados:** códigos dos aparelhos existentes, manuais dos metais, fixação/retirada e circuitos dependem de Elias (etiquetas), fabricante, projeto/oficina e
 PQ-014;03_Ambientes/Equipamentos/README.md;93;e portas/janelas previsto? Sem ACH/vazão demonstrada, parcelas sensível e latente não calculadas. |
 PQ-014;03_Ambientes/Equipamentos/README.md;115;Perguntas ao responsável técnico/condomínio: **há capacidade e alimentação220V disponíveis para esta unidade? Qual local autorizado para condensadora? Qual rota permitida
+PQ-014;03_Ambientes/Gas_natural/README.md;46;pótese). A conferência independente pela fórmula clássica de Renouard (baixa pressão) fica a 8% do resultado (29,1 contra 31,5 mmca em 3,04 m³/h, DI 14 mm, 10 m). Rugosid
+PQ-014;03_Ambientes/Gas_natural/README.md;113;ara ≈ 42,5 kW (3,83 m³/h)? | Construtora / concessionária |
+PQ-014;03_Ambientes/Gas_natural/README.md;116;te aplicam a esta unidade? | RT / concessionária |
 PQ-014;03_Ambientes/Lavanderia/README.md;22;mpletos e montagem ainda condicionados. [Estado técnico vigente](../../04_Moveis/P14/Reacoes_e_operacao/README.md) · [kit de oficina e ensaio vazio](../../04_Moveis/P20/A
 PQ-014;03_Ambientes/Planta_pontos/README.md;34;"revisto | **Ramal quente falta**; RT define se e como acrescentar, sem inventar trajeto |"
 PQ-014;03_Ambientes/Planta_pontos/README.md;39;"temperatura e misturador dependem fornecedor/RT; nenhum cálculo novo |"
@@ -1788,12 +1822,14 @@ PQ-014;04_Moveis/P01/Massas_equilibrio/README.md;69;io para o acabamento real? A
 PQ-014;04_Moveis/P03/README.md;48;"estrutural e sua rigidez pendentes. Receptores superiores em seções planas; extensões frontais equivalentes. Sem flambagem, retenção ou envelope de todo P01 carregado."
 PQ-014;04_Moveis/P04/Suspensao_P04_P15/README.md;72;"artilha de T entre lados depende da rigidez e do caminho dentro da caixa; foram comparados 100/0,50/50 e 0/100. Em cada lado, a compressão inferior correspondente fecha o"
 PQ-014;04_Moveis/P20/Assento_fechado/README.md;33;",70°; em 290 mm, 89,57°. Confirmar curso/modo de liberação e resistência em compressão antes de definir o batente. O modelo não oferece extensão reta adicional além de 29"
+PQ-014;05_Orcamento_e_cronograma/README.md;97;3. **A confirmar com RT:** conduítes e passagem de água quente pelo forro integram a infraestrutura das semanas 1–2? Quando inspecionar e fechar o forro antes da pintura,
 PQ-014;07_Imovel/Checklist_vistoria_dia_das_chaves.md;157;olhido, mas a instalação depende do ponto de gás, da exaustão e da vazão. Veja [rotas de água quente](../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) |
 PQ-015;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;80;se exigidos (art. 57, g) [ADM]
 PQ-015;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;85;o de reforma (art. 7º, i)? Há formulário próprio? Exigem RRT/ART e laudo (art. 57, g)? Qual o prazo de análise?
 PQ-015;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;5;autorização de execução. Pergunta pronta é **aguardando Elias**, não decisão concluída. Preços-alvo não são descontos obtidos.
 PQ-015;03_Ambientes/Acustica/Envoltoria/README.md;58;arante maior isolamento. Falta laudo do conjunto exato com batente, guarnição, soleira e montagem. Não foram encontradas faixas comprovadas universais para porta comum ma
 PQ-015;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;44;" 5 mm para vinílico, mas falta homologação do conjunto Olmo/cola, laudo e preço. Tarkett dispensa manta em orientação geral; isso não comprova desempenho do imóvel nem di"
+PQ-015;05_Orcamento_e_cronograma/README.md;95;1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
 PQ-015;07_Imovel/Checklist_vistoria_dia_das_chaves.md;43;pão do diâmetro do ralo (confirmar no local) |
 PQ-015;07_Imovel/Checklist_vistoria_dia_das_chaves.md;122;, não (Memorial Cury). **Pergunte pelo laudo e pela garantia de impermeabilização**
 PQ-015;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
@@ -1825,6 +1861,16 @@ PQ-016;03_Ambientes/Equipamentos/README.md;5;"Fi adicional; instalação pendent
 PQ-016;03_Ambientes/Equipamentos/README.md;11;"ampo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não"
 PQ-016;03_Ambientes/Equipamentos/README.md;95;"tomática em calor no ar: faltam uso, extração, água e transferência entre zonas. PS5 permanece único; luz já contabilizada; suportes mecânicos não geram calor. Zero na co"
 PQ-016;03_Ambientes/Equipamentos/README.md;113;t.58 prevê possibilidade condicionada à avaliação de capacidade pela concessionária, assistência de engenheiro e local predeterminado sem visibilidade exterior. Viabilida
+PQ-016;03_Ambientes/Gas_natural/README.md;46;pótese). A conferência independente pela fórmula clássica de Renouard (baixa pressão) fica a 8% do resultado (29,1 contra 31,5 mmca em 3,04 m³/h, DI 14 mm, 10 m). Rugosid
+PQ-016;03_Ambientes/Gas_natural/README.md;107;## Perguntas novas (ligadas a PQ-015, PQ-016, PQ-017)
+PQ-016;03_Ambientes/Gas_natural/README.md;109;| Id | Pergunta | Destinatário |
+PQ-016;03_Ambientes/Gas_natural/README.md;111;uecedor a gás no final 06? Onde, com que diâmetro e comprimento? A convenção permite terminal na fachada? | Construtora / condomínio |
+PQ-016;03_Ambientes/Gas_natural/README.md;112;o na alvenaria estrutural? O caixilho tem grelha? | RT / construtora |
+PQ-016;03_Ambientes/Gas_natural/README.md;113;ara ≈ 42,5 kW (3,83 m³/h)? | Construtora / concessionária |
+PQ-016;03_Ambientes/Gas_natural/README.md;114;ume (≥ 6 m³ e ventilação)? Pode haver porta entre elas? | RT |
+PQ-016;03_Ambientes/Gas_natural/README.md;115;, ou só em modo depurador? Que medida de ventilação compensa o cooktop? | RT / condomínio |
+PQ-016;03_Ambientes/Gas_natural/README.md;116;te aplicam a esta unidade? | RT / concessionária |
+PQ-016;03_Ambientes/Gas_natural/README.md;126;"ecundárias que divergem; confirmar com a norma vigente."
 PQ-016;03_Ambientes/Lavanderia/README.md;50;to e afastamentos do E21 a confirmar.
 PQ-016;03_Ambientes/Medidas/README.md;22;s de estudo e fechamento dependem do pé-direito do ambiente. Alteração não salva o CAD.
 PQ-016;03_Ambientes/Planta_mobiliada/README.md;34;"osição inventada; seguem pendentes junto da caixa e mecanismo. Não confundir a omissão dos volumes aéreos com sua retirada."
@@ -1841,19 +1887,23 @@ PQ-016;04_Moveis/Furacao/README.md;37;P08 não foram refinados. Perguntas de ofi
 PQ-016;04_Moveis/Ligacoes_sem_tubos/README.md;3;er proposta futura assim depende de autorização prévia. [Decisão registrada](../Cargas_e_ligacoes/Decisao_sem_tubos.md).
 PQ-016;04_Moveis/P17/Base_fundo_ligacoes/README.md;29;" rigidez real das juntas pendentes; as flechas locais não comprovam o novo Minifix."
 PQ-016;04_Moveis/Proximas_decisoes/Cinematica/README.md;38;"- Pergunta técnica restante: qual geometria e curso correspondem às portas de correr e às pegas efetivas? Não exige nova escolha estética de Elias; depende de desenho e v"
+PQ-016;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-016;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
 PQ-016;07_Imovel/Checklist_vistoria_dia_das_chaves.md;129;a cozinha e na lavanderia? Onde exatamente (altura, distância das paredes), com registro, tampão ou flexível? Fotografar e medir
 PQ-016;07_Imovel/Checklist_vistoria_dia_das_chaves.md;132;de exaustão do Rinnai E21? Compare com o manual e com o RT antes de comprar
 PQ-016;07_Imovel/Checklist_vistoria_dia_das_chaves.md;157;olhido, mas a instalação depende do ponto de gás, da exaustão e da vazão. Veja [rotas de água quente](../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) |
 PQ-016;07_Imovel/Checklist_vistoria_dia_das_chaves.md;164;as e campo](../04_Moveis/Dependencias/README.md) |
 PQ-016;07_Imovel/Checklist_vistoria_dia_das_chaves.md;187;3. Regras para ar-condicionado (local da condensadora, dreno), aquecedor a gás (exaustão), porta e vedação da entrada.
-PQ-016;07_Imovel/README.md;73;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
-PQ-016;07_Imovel/README.md;76;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-016;07_Imovel/README.md;40;"Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e e"
+PQ-016;07_Imovel/README.md;85;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
+PQ-016;07_Imovel/README.md;88;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-016;07_Imovel/Roteiro_dia_das_chaves_R01.md;5;** [regras](../04_Moveis/Dependencias/regras.json): X espelhado pela PR-EIXO-X nominal, Y da planta, Z vertical. [Cotas, pranchas.frame](../06_Entregas/Planta_cotada/Cota
 PQ-016;ESTADO_ATUAL.md;21;tregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 PQ-016;ESTADO_ATUAL.md;51;", 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |"
 PQ-016;ESTADO_ATUAL.md;65;"nto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados."
 PQ-016;ESTADO_ATUAL.md;86;") | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |"
-PQ-016;ESTADO_ATUAL.md;105;"s/amostras/respostas. RT pendente; sem contratação autorizada."
-PQ-016;ESTADO_ATUAL.md;118;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
+PQ-016;ESTADO_ATUAL.md;107;"s/amostras/respostas. RT pendente; sem contratação autorizada."
+PQ-016;ESTADO_ATUAL.md;120;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
 PQ-016;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;6;O | destino=RT/oficina | pergunta=Qual desvio absoluto de 90° e prumo em cada canto? Definir calços/folgas/ancoragem com faces identificadas. | fonte=04_Moveis/Dependenci
 PQ-016;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;8;"destino=RT/construtora | pergunta=As tampas cegas do quadro escondem posições úteis? Conferir circuitos, proteção e capacidade; tampas não demonstram disponibilidade elét"
 PQ-016;../outputs/Auditoria_quantidades/Conferencias.csv;2009; | item=linha 43: Padrao a definir | valor_documentado=1.404 | valor_recalculado=1.404 | delta=0.000 | unidade=m | resultado=confere
@@ -1865,6 +1915,7 @@ PQ-018;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;32;" em alvenaria est
 PQ-018;03_Ambientes/Equipamentos/README.md;109;a, pás, armários e luzes dependem de compatibilização com o manual. Sem equipamento não há consumo adicional, mas também não há garantia de conforto. Preço não acrescenta
 PQ-018;04_Moveis/P15/Composicao_parcial/README.md;55;" e ambiente da lavanderia? Fornecer condições de aplicação, cura, prensagem e durabilidade; produto que exclui esse uso não entra como candidato."
 PQ-018;04_Moveis/P20/Assento_fechado/README.md;99;o do acabamento nos 20 mm? Quais D11/D22/D12/D66 ou propriedades Ex/Ey/Gxy/νxy correspondem à espessura e condição de umidade escolhidas? Quais resistências de cálculo e 
+PQ-018;05_Orcamento_e_cronograma/README.md;95;1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
 PQ-018;07_Imovel/Checklist_vistoria_dia_das_chaves.md;43;pão do diâmetro do ralo (confirmar no local) |
 PQ-018;07_Imovel/Checklist_vistoria_dia_das_chaves.md;88;piso/laje com medidor (e pergunte à construtora a data de cura/concretagem)
 PQ-018;07_Imovel/Checklist_vistoria_dia_das_chaves.md;122;, não (Memorial Cury). **Pergunte pelo laudo e pela garantia de impermeabilização**
@@ -1875,12 +1926,15 @@ PQ-034;03_Ambientes/Equipamentos/README.md;90;ão dos ambientes vizinhos? Forro 
 PQ-034;07_Imovel/Checklist_vistoria_dia_das_chaves.md;88;piso/laje com medidor (e pergunte à construtora a data de cura/concretagem)
 PQ-007;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;19;atização e possibilidade condicionada precisam ser conciliadas. Não há posição viável de condensadora demonstrada.
 PQ-007;03_Ambientes/Banheiro/README.md;92;ulica, acesso e elétrica pendentes. Sem rasgo estrutural, piso aberto, vidro furado, forro de vizinho ou retirada do enchimento sem avaliação. [Memorial do estudo](Agua_q
+PQ-007;03_Ambientes/Conforto_ambiental/README.md;15;des térmicas/área livre. Confirmar persiana também na sala.
+PQ-007;03_Ambientes/Conforto_ambiental/README.md;119;: proibição x instalação condicionada de AC, viabilidade pendente. [Prioridades/custos hipotéticos](Prioridades.csv), sem mudar decisões.
 PQ-007;03_Ambientes/Equipamentos/README.md;3;"rio de climatização). Ar-condicionado: o memorial §5.9 restringe, mas a convenção art.58 prevê instalação condicionada; capacidade, local e viabilidade continuam pendente"
 PQ-007;03_Ambientes/Equipamentos/README.md;113;t.58 prevê possibilidade condicionada à avaliação de capacidade pela concessionária, assistência de engenheiro e local predeterminado sem visibilidade exterior. Viabilida
 PQ-007;03_Ambientes/Equipamentos/README.md;115;Perguntas ao responsável técnico/condomínio: **há capacidade e alimentação220V disponíveis para esta unidade? Qual local autorizado para condensadora? Qual rota permitida
 PQ-007;07_Imovel/Checklist_vistoria_dia_das_chaves.md;122;, não (Memorial Cury). **Pergunte pelo laudo e pela garantia de impermeabilização**
 PQ-013;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;88;adro de cargas da unidade?
 PQ-013;03_Ambientes/Acustica/Envoltoria/README.md;22;"ontos/Quadro_cargas.md): falta origem/rota do quadro para comprimentos elétricos; não confirma quadro ao lado da entrada. Caixas de costas e rasgos não estão inventariado"
+PQ-013;03_Ambientes/Conforto_ambiental/README.md;11;2026, sem nova medição independente.
 PQ-013;05_Orcamento_e_cronograma/README.md;37;dras chega a **+8/+10**. Faltam montagem, gabarito, instalação, limpeza e outras esperas: **8–10 não é intervalo da mudança nem limite superior da obra**.
 PQ-033;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;9; destino=RT/condomínio | pergunta=Quais marcos M0/M1/E1/E2 e vínculo ao datum nominal, documentação como construído e restrições para reforma? Registrar antes de converte
 PQ-020;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;25;impermeabilização do box [RT] | Sim: pisos e paredes |
@@ -1898,12 +1952,13 @@ PQ-020;03_Ambientes/Quarto_e_portas/README.md;30; manual e comando físico pende
 PQ-020;04_Moveis/P12/README.md;52;"inos e tolerâncias reais pendentes. Montar base/divisor, fechar tampo em z, encaixar cada lateral em u e instalar o fundo pela traseira. Apertar antes das portas; cabeça "
 PQ-020;04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md;53;" ainda parcial na ficha; falta definir o padrão único da peça. |"
 PQ-020;04_Moveis/README.md;55;**Aplicação ainda pendente no CAD e nas fichas.** Compatibilizar o encontro ao teto por ambiente, as portas e os acessos de montagem antes de incorporar. Não estender est
-PQ-020;05_Orcamento_e_cronograma/README.md;110;_10.md). Montagens ainda condicionadas, sem mudança da R52.
+PQ-020;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-020;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
 PQ-020;07_Imovel/Checklist_vistoria_dia_das_chaves.md;43;pão do diâmetro do ralo (confirmar no local) |
 PQ-020;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
-PQ-020;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-020;07_Imovel/README.md;76;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
-PQ-020;ESTADO_ATUAL.md;71;"rda do gabinete, posição a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde no box; teto/indireta 3000 K, espelho 4000 K, três comandos "
+PQ-020;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-020;07_Imovel/README.md;88;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-020;ESTADO_ATUAL.md;71;" à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box; teto/indireta 3000 K, espelho 4000 K, 3"
 PQ-020;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;3;"3 | destino=RT/oficina | pergunta=Qual parede verde e altura do box: 0,80×2,25 m do site ou 1,24×2,47 m do orçamento? Teto nominal atual 2,50 m; não adotar cenário antigo"
 PQ-006;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;55;teção das áreas comuns | [ADM] | — |
 PQ-006;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;91;uns e retirada de entulho?
@@ -1973,6 +2028,9 @@ PQ-017;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;67;"[link na origem] 
 PQ-017;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;68;[link na origem] condições/distância ausentes |
 PQ-017;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;105;na dos códigos candidatos? Qual modo atende à carga térmica ainda pendente?
 PQ-017;03_Ambientes/Banheiro/README.md;82;o do encaixe: preliminar condicionado.** Ainda não foi demonstrado que tudo cabe com porta, box e equipamentos em uso. [Conferência da bancada e porta](Conferencia_bancad
+PQ-017;03_Ambientes/Conforto_ambiental/README.md;15;des térmicas/área livre. Confirmar persiana também na sala.
+PQ-017;03_Ambientes/Conforto_ambiental/README.md;55;"r luminárias. NBR15575-1 pendente de conferir texto; horários não equivalem a economia sem ocupação/comandos."
+PQ-017;03_Ambientes/Conforto_ambiental/README.md;103;"C dez–mar/20°C demais, independente do RC; estudo de risco condicional, sem acoplamento térmico-hígrico completo. Julho parede média SW19,52/SSE19,38°C: diferença pequena"
 PQ-017;03_Ambientes/Equipamentos/README.md;3;"rio de climatização). Ar-condicionado: o memorial §5.9 restringe, mas a convenção art.58 prevê instalação condicionada; capacidade, local e viabilidade continuam pendente"
 PQ-017;03_Ambientes/Equipamentos/README.md;83;" térmico/RTS. Parcelas independentes: Qsens=72N+Pluz×fração+H06; Qlat=45N; BTU/h=W×3,412141633. **Não foi implementado um cálculo completo NBR16401-1, CLTD/CLF ou HB/RTS."
 PQ-017;03_Ambientes/Equipamentos/README.md;90;ão dos ambientes vizinhos? Forro não é isolamento térmico automaticamente. |
@@ -1983,7 +2041,7 @@ PQ-017;03_Ambientes/Equipamentos/README.md;119;a de carga térmica, pois faltam 
 PQ-017;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;21;**O que falta:** aceitar ou rejeitar a mudança de altura, detalhar apoio/fixação, acesso e ergonomia, conferir instalação real e tolerâncias. O estudo entrega exatamente 
 PQ-017;07_Imovel/Checklist_vistoria_dia_das_chaves.md;110;" há infraestrutura de ar-condicionado prevista: perguntar se existe espera, dreno, tomada ou local para condensadora; registrar a resposta e a regra do condomínio"
 PQ-017;07_Imovel/Checklist_vistoria_dia_das_chaves.md;187;3. Regras para ar-condicionado (local da condensadora, dreno), aquecedor a gás (exaustão), porta e vedação da entrada.
-PQ-017;ESTADO_ATUAL.md;35;"condicional; carga total pendente."
+PQ-017;ESTADO_ATUAL.md;35;"h/ASUS condicional/carga pendente; [conforto anual](03_Ambientes/Conforto_ambiental/README.md)."
 PQ-025;01_Programa_e_decisoes/README.md;5;250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anter
 PQ-025;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;61;"gado, lixeiras e fontes. Perguntas já nos READMEs; não modificar oCAD nesta janela."
 PQ-025;03_Ambientes/Acustica/Envoltoria/README.md;26;cias](../../../04_Moveis/Dependencias/README.md): 34 folgas nominais ≤15 mm, quatro negativas, algumas contra limites de referência. Contraparede de 63 mm não cabe automa
@@ -2022,13 +2080,15 @@ PQ-025;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;21;**O que falta:*
 PQ-025;04_Moveis/Proximas_decisoes/P01_P03/README.md;29;io_L.png). Duas portas independentes, quina fixa e curso ilustrativo86°, a partir das vistas CAD do canto simplesR04 ainda vigente nas portas P02. Azul/âmbar apenas ident
 PQ-025;04_Moveis/README.md;44;10/2026). São hipóteses, a confirmar no levantamento. A decisão não determina a altura real do teto nem elimina a folga de montagem.
 PQ-025;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;48;"mil/127.101,22 permanece condicionado e não é alterado; uma proposta da etapa não é comparável ao integral."
-PQ-025;05_Orcamento_e_cronograma/README.md;124;"alizado; gabarito físico pendente."
+PQ-025;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
+PQ-025;05_Orcamento_e_cronograma/README.md;129;"alizado; gabarito físico pendente."
 PQ-025;07_Imovel/Checklist_vistoria_dia_das_chaves.md;164;as e campo](../04_Moveis/Dependencias/README.md) |
 PQ-025;07_Imovel/README.md;3;250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anter
-PQ-025;07_Imovel/README.md;73;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
-PQ-025;07_Imovel/Roteiro_dia_das_chaves_R01.md;23;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
+PQ-025;07_Imovel/README.md;40;"Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e e"
+PQ-025;07_Imovel/README.md;85;": reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais "
+PQ-025;07_Imovel/Roteiro_dia_das_chaves_R01.md;52;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
 PQ-025;ESTADO_ATUAL.md;65;"nto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados."
-PQ-025;ESTADO_ATUAL.md;118;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
+PQ-025;ESTADO_ATUAL.md;120;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
 PQ-025;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;4;"no=construtora/oficina | pergunta=Qual largura real da folha/vão, eixo, maçaneta e giro? Não há largura documental de porta; fotos não são cota. | fonte=07_Imovel/Checkli"
 PQ-025;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;6;O | destino=RT/oficina | pergunta=Qual desvio absoluto de 90° e prumo em cada canto? Definir calços/folgas/ancoragem com faces identificadas. | fonte=04_Moveis/Dependenci
 PQ-028;01_Programa_e_decisoes/README.md;29;"minado e sem crédito por perguntas/negociação. D01–D06 respondidas por Elias,27/10/2026, com citações; D06-B integrada. A3 R01 e consultas integradas.90–95% depende princ"
@@ -2049,6 +2109,7 @@ PQ-028;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;54;ença para R$ 1.50
 PQ-028;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;104;aio acústico documentados? Qual preço completo para 30,8101 m², incluindo perdas e instalação?
 PQ-028;03_Ambientes/Acustica/README.md;7;to e desempenho de campo pendentes |
 PQ-028;03_Ambientes/Banheiro/README.md;35;"conferir. Barra inferior condicionada à torneira; até 2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |"
+PQ-028;03_Ambientes/Conforto_ambiental/README.md;119;: proibição x instalação condicionada de AC, viabilidade pendente. [Prioridades/custos hipotéticos](Prioridades.csv), sem mudar decisões.
 PQ-028;03_Ambientes/Cozinha/Fischer_Grill/Apoios_ventilacao/README.md;3;"inete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas"
 PQ-028;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;21;valente desmontável, sem depender de parafuso repetidamente retirado da madeira |
 PQ-028;03_Ambientes/Cozinha/Fischer_Grill/README.md;3;"inete da pia à esquerda, condicionado à hidráulica, área seca e armazenamento. **GN já confirmado por Elias**; não repetir pergunta sobre tipo de gás. R30/R01 preservadas"
@@ -2129,27 +2190,36 @@ PQ-028;05_Orcamento_e_cronograma/README.md;64;em dias úteis ou corridos? A fila
 PQ-028;05_Orcamento_e_cronograma/README.md;65;durações e predecessores faltam da medição até a mudança, e qual prazo de análise do condomínio? Sem esses dados não há caminho crítico global.
 PQ-028;05_Orcamento_e_cronograma/README.md;66;nas, e incluem instalação? Não somar as duas referências.
 PQ-028;05_Orcamento_e_cronograma/README.md;67;oi aceito pelo fornecedor? Não há nova escolha estética para Elias nesta atualização.
-PQ-028;05_Orcamento_e_cronograma/README.md;95;"-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |"
-PQ-028;05_Orcamento_e_cronograma/README.md;110;_10.md). Montagens ainda condicionadas, sem mudança da R52.
-PQ-028;05_Orcamento_e_cronograma/README.md;120;"cia; comprovação técnica pendente."
-PQ-028;05_Orcamento_e_cronograma/README.md;122;rdas e inclusão no corte pendentes.
-PQ-028;05_Orcamento_e_cronograma/README.md;124;"alizado; gabarito físico pendente."
-PQ-028;05_Orcamento_e_cronograma/README.md;126;vações físicas continuam pendentes.
-PQ-028;05_Orcamento_e_cronograma/README.md;128;"V e reserva preservadas. Dependem de R$ 17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias 27/10/2026, sem contratar. Redução comprovada ainda insu"
-PQ-028;05_Orcamento_e_cronograma/README.md;132;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
-PQ-028;05_Orcamento_e_cronograma/README.md;138;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
+PQ-028;05_Orcamento_e_cronograma/README.md;93;"**Dúvidas de sequência — a confirmar com RT; ordem atual mantida:**"
+PQ-028;05_Orcamento_e_cronograma/README.md;95;1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
+PQ-028;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-028;05_Orcamento_e_cronograma/README.md;97;3. **A confirmar com RT:** conduítes e passagem de água quente pelo forro integram a infraestrutura das semanas 1–2? Quando inspecionar e fechar o forro antes da pintura,
+PQ-028;05_Orcamento_e_cronograma/README.md;98;4. **A confirmar com RT:** qual sequência prevalecerá entre o plano NBR 16280 §5 (pedras antes da marcenaria) e o cronograma §§1/3 (inferiores montados → gabarito → pedra
+PQ-028;05_Orcamento_e_cronograma/README.md;99;5. **A confirmar com RT:** gabarito na semana 7 mais fornecimento de pedras de 1–2 semanas inclui instalação e cabe no agregado 7–8? Qual conclusão antecede os testes fin
+PQ-028;05_Orcamento_e_cronograma/README.md;100;6. **A confirmar com RT:** quais predecessores encerram retoques/limpeza/testes, sem dependência na semana 8 do §2, mas na semana 9 do §1? Como separar pintura-base 4–5 d
+PQ-028;05_Orcamento_e_cronograma/README.md;110;"-ercathe-a01-mesh-premium?variant=49668774854978), 29/10/2026; Elias, 29/10/2026: “deixa ela fora do orçamento, mas coloca o valor nos documentos” |"
+PQ-028;05_Orcamento_e_cronograma/README.md;115;"tais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entreg"
+PQ-028;05_Orcamento_e_cronograma/README.md;117;"omparáveis e contratação pendentes; prevalece o fechamento D05/D06 abaixo."
+PQ-028;05_Orcamento_e_cronograma/README.md;125;"cia; comprovação técnica pendente."
+PQ-028;05_Orcamento_e_cronograma/README.md;127;rdas e inclusão no corte pendentes.
+PQ-028;05_Orcamento_e_cronograma/README.md;129;"alizado; gabarito físico pendente."
+PQ-028;05_Orcamento_e_cronograma/README.md;131;vações físicas continuam pendentes.
+PQ-028;05_Orcamento_e_cronograma/README.md;133;"V e reserva preservadas. Dependem de R$ 17.317,45 de negociação e propostas comerciais; D01-C para cotação, Elias 27/10/2026, sem contratar. Redução comprovada ainda insu"
+PQ-028;05_Orcamento_e_cronograma/README.md;137;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
+PQ-028;05_Orcamento_e_cronograma/README.md;143;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
 PQ-028;07_Imovel/Checklist_vistoria_dia_das_chaves.md;122;, não (Memorial Cury). **Pergunte pelo laudo e pela garantia de impermeabilização**
 PQ-028;07_Imovel/Checklist_vistoria_dia_das_chaves.md;225;to: `python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`, depois confira o relatório de mudanças antes de qualquer decisão.
 PQ-028;07_Imovel/Checklist_vistoria_dia_das_chaves.md;228; instalações, estrutura) dependem do contrato e da NBR 15575: conferir no manual e anotar as datas.
-PQ-028;07_Imovel/README.md;22;ios arquivos ou móveis. “a definir” é ausência de dado, nunca zero. Papéis de Elias, RT e oficina são indicações de validação, não contratação. `valor_medido` e `evidenci
-PQ-028;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-028;07_Imovel/README.md;75;"- `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quan"
-PQ-028;07_Imovel/README.md;81;s.py --data 2026-10-29 --dependencias ../outputs/Codex_cotacao_e_chaves/Linhas_dependentes_medidas.csv
+PQ-028;07_Imovel/README.md;40;"Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e e"
+PQ-028;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-028;07_Imovel/README.md;87;"- `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quan"
+PQ-028;07_Imovel/README.md;93;s.py --data 2026-10-29 --dependencias ../outputs/Codex_cotacao_e_chaves/Linhas_dependentes_medidas.csv
+PQ-028;07_Imovel/Roteiro_dia_das_chaves_R01.md;7;nto esse vínculo estiver pendente.
 PQ-028;ESTADO_ATUAL.md;29;" 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |"
 PQ-028;ESTADO_ATUAL.md;50;"0 intacta; pacote 37.000 condicionado, sem contratar |"
 PQ-028;ESTADO_ATUAL.md;86;") | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |"
-PQ-028;ESTADO_ATUAL.md;105;"s/amostras/respostas. RT pendente; sem contratação autorizada."
-PQ-028;ESTADO_ATUAL.md;118;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
+PQ-028;ESTADO_ATUAL.md;107;"s/amostras/respostas. RT pendente; sem contratação autorizada."
+PQ-028;ESTADO_ATUAL.md;120;"olgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes."
 PQ-028;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;2;"6 | destino=RT/oficina | pergunta=Conferir o eixo de 1540 mm da lavanderia versus 1610 mm do desenho histórico; identificar faces e espessuras acabadas. | fonte=07_Imovel"
 PQ-028;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;3;"3 | destino=RT/oficina | pergunta=Qual parede verde e altura do box: 0,80×2,25 m do site ou 1,24×2,47 m do orçamento? Teto nominal atual 2,50 m; não adotar cenário antigo"
 PQ-028;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;4;"no=construtora/oficina | pergunta=Qual largura real da folha/vão, eixo, maçaneta e giro? Não há largura documental de porta; fotos não são cota. | fonte=07_Imovel/Checkli"
@@ -2180,6 +2250,8 @@ PQ-029;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;40;0183/313828/001311
 PQ-029;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;44;" 5 mm para vinílico, mas falta homologação do conjunto Olmo/cola, laudo e preço. Tarkett dispensa manta em orientação geral; isso não comprova desempenho do imóvel nem di"
 PQ-029;03_Ambientes/Banheiro/README.md;3;250 cm = 2500 mm, medida a confirmar (Elias, 27/10/2026).** Demais cômodos: 2,60 m. [Fonte e limites](../../01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 PQ-029;03_Ambientes/Banheiro/README.md;35;"conferir. Barra inferior condicionada à torneira; até 2 m de indireta é limite do kit. Fontes com versões dimensionais diferentes: conferir lote |"
+PQ-029;03_Ambientes/Conforto_ambiental/README.md;55;"r luminárias. NBR15575-1 pendente de conferir texto; horários não equivalem a economia sem ocupação/comandos."
+PQ-029;03_Ambientes/Conforto_ambiental/README.md;95;"a a27°C, SKUOlmo/adesivo pendentes. Manta sob vinílico colado não é automaticamente compatível; acréscimo hipotético10–30mm consome pé-direito. RT deve verificar carga/ci"
 PQ-029;03_Ambientes/Cozinha/README.md;64;"3000 K. Três comandos independentes: teto da cozinha, bancada (com regulagem) e teto da lavanderia. Plafons brancos, discretos, de sobrepor, com difusor; EVO 41 × 41 cand"
 PQ-029;03_Ambientes/Cozinha/README.md;84;"ocal; conferência física pendente. **LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retir"
 PQ-029;03_Ambientes/Equipamentos/README.md;11;"ampo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não"
@@ -2189,6 +2261,8 @@ PQ-029;03_Ambientes/Equipamentos/README.md;95;"tomática em calor no ar: faltam 
 PQ-029;03_Ambientes/Equipamentos/README.md;107;[link na origem] [12mil]([link na origem] [18mil](http
 PQ-029;03_Ambientes/Equipamentos/README.md;119;a de carga térmica, pois faltam envoltória/uso/zonas.
 PQ-029;03_Ambientes/Escritorio/README.md;27;" com parede/painel reais pendentes; fora do giro da porta. |"
+PQ-029;03_Ambientes/Gas_natural/README.md;46;pótese). A conferência independente pela fórmula clássica de Renouard (baixa pressão) fica a 8% do resultado (29,1 contra 31,5 mmca em 3,04 m³/h, DI 14 mm, 10 m). Rugosid
+PQ-029;03_Ambientes/Gas_natural/README.md;126;"ecundárias que divergem; confirmar com a norma vigente."
 PQ-029;03_Ambientes/Iluminacao/README.md;3;rcial e instalação ainda condicionadas.** A geral do quarto passa a smart: Elias, 26/10/2026, pediu “conecta-las na alexa e celular” e confirmou “Manter essas três com in
 PQ-029;03_Ambientes/Iluminacao/README.md;7;o | Proposta e comando | Falta para fechar |
 PQ-029;03_Ambientes/Iluminacao/README.md;13;"cabeceira | 2 EVY 2054 independentes; COB 3000 K + Opus/Shelly/pulsador na indireta | Interruptores das EVY, acesso e montagem da indireta |"
@@ -2240,19 +2314,20 @@ PQ-029;04_Moveis/Proximas_decisoes/Pacote_local/README.md;62;o e capacidade cont
 PQ-029;04_Moveis/Proximas_decisoes/README.md;39;"avessa frontal; o efeito depende da ligaçãoP02↔P03. Um autoequilíbrio demonstrado mostra que a estática sozinha não fornece envelope finito de solicitações das juntas. Ac"
 PQ-029;05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md;48;1–3 semanas | Semana 3 | Depende da [lista curta](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md) a montar |
 PQ-029;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;11;R, página X, conferência pendente` e registrar trechos ilegíveis em observacoes. **Nenhum OCR foi executado** nesta entrega.
-PQ-029;05_Orcamento_e_cronograma/README.md;132;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
-PQ-029;05_Orcamento_e_cronograma/README.md;138;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
+PQ-029;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
+PQ-029;05_Orcamento_e_cronograma/README.md;137;"vos com fonte histórica, dependem de cotação. C preserva quarto/banco, perde armazenamento do escritório; aporte 7.101,22 recomendado frente ao consumo da reserva. Elias,"
+PQ-029;05_Orcamento_e_cronograma/README.md;143;"onferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$"
 PQ-029;07_Imovel/Checklist_vistoria_dia_das_chaves.md;160; a região do painel da TV? Nada confirmado | Espelho de inspeção, fio-guia (se permitido), lanterna | Decide entre comando com fio ou sem fio. [Iluminação da sala](../03_
-PQ-029;07_Imovel/README.md;22;ios arquivos ou móveis. “a definir” é ausência de dado, nunca zero. Papéis de Elias, RT e oficina são indicações de validação, não contratação. `valor_medido` e `evidenci
-PQ-029;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-029;07_Imovel/README.md;34;"tada. Descrições físicas pendentes continuam indicadas; não converter leitura absoluta do laser em deslocamento da parede sem marcos comuns."
-PQ-029;07_Imovel/README.md;56;**hipótese de trabalho — a confirmar com RT/oficina**. Fonte: **referência usual, não verificada**, sem norma invocada. A tabela é triagem de diferença absoluta em relaçã
-PQ-029;07_Imovel/README.md;76;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
-PQ-029;07_Imovel/README.md;88;## Conferência pendente — iluminação de sala/jantar (20/09/2026)
+PQ-029;07_Imovel/README.md;22;z, `|` separa vínculos. “a definir” não é zero. Papéis de RT/oficina não indicam contratação. Campos reais continuam vazios.
+PQ-029;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-029;07_Imovel/README.md;46;"tada. Descrições físicas pendentes continuam indicadas; não converter leitura absoluta do laser em deslocamento da parede sem marcos comuns."
+PQ-029;07_Imovel/README.md;68;**hipótese de trabalho — a confirmar com RT/oficina**. Fonte: **referência usual, não verificada**, sem norma invocada. A tabela é triagem de diferença absoluta em relaçã
+PQ-029;07_Imovel/README.md;88;- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do
+PQ-029;07_Imovel/README.md;98;## Conferência pendente — iluminação de sala/jantar (20/09/2026)
 PQ-029;ESTADO_ATUAL.md;13;0 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026, nesta conversa). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 PQ-029;ESTADO_ATUAL.md;51;", 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |"
 PQ-029;ESTADO_ATUAL.md;63;"); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente."
-PQ-029;ESTADO_ATUAL.md;71;"rda do gabinete, posição a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde no box; teto/indireta 3000 K, espelho 4000 K, três comandos "
+PQ-029;ESTADO_ATUAL.md;71;" à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box; teto/indireta 3000 K, espelho 4000 K, 3"
 PQ-029;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;2;"6 | destino=RT/oficina | pergunta=Conferir o eixo de 1540 mm da lavanderia versus 1610 mm do desenho histórico; identificar faces e espessuras acabadas. | fonte=07_Imovel"
 PQ-029;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;3;"3 | destino=RT/oficina | pergunta=Qual parede verde e altura do box: 0,80×2,25 m do site ou 1,24×2,47 m do orçamento? Teto nominal atual 2,50 m; não adotar cenário antigo"
 PQ-029;../outputs/Codex_cotacao_e_chaves/Perguntas_RT.csv;4;"no=construtora/oficina | pergunta=Qual largura real da folha/vão, eixo, maçaneta e giro? Não há largura documental de porta; fotos não são cota. | fonte=07_Imovel/Checkli"
@@ -2265,6 +2340,8 @@ PQ-005;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;52;"| Horários de tr
 PQ-005;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;57;os horários permitidos | [ADM] |
 PQ-005;01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md;86;ados, domingos e feriados? O art. 57, f tem redação contraditória.
 PQ-005;03_Ambientes/Acabamentos/README.md;31;"ura, substrato e produto faltam. Tetos são projeções horizontais; gesso e faixas adicionais permanecem pendentes."
+PQ-005;03_Ambientes/Conforto_ambiental/README.md;55;"r luminárias. NBR15575-1 pendente de conferir texto; horários não equivalem a economia sem ocupação/comandos."
+PQ-005;03_Ambientes/Conforto_ambiental/README.md;103;"C dez–mar/20°C demais, independente do RC; estudo de risco condicional, sem acoplamento térmico-hígrico completo. Julho parede média SW19,52/SSE19,38°C: diferença pequena"
 PQ-005;03_Ambientes/Equipamentos/README.md;91;qual temperatura desejada? CPU/GPU e consumo de uso do CH360/notebook/AOC24 ainda ausentes. PS5 é uma unidade móvel, sem duplicar sala/escritório. |
 PQ-005;03_Ambientes/Equipamentos/README.md;119;a de carga térmica, pois faltam envoltória/uso/zonas.
 PQ-005;04_Moveis/Furacao/README.md;57;"sem cola/montagem. Exige confirmar transporte, acesso exterior e aparência das cabeças; não é auditoria espacial alternativa. Não se alterou o mapa de316."
@@ -2300,6 +2377,8 @@ PQ-019;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;106;ais condições d
 PQ-019;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;107;e reverberação considerar? Confirmar tabelas normativas na edição aplicável antes de avaliar desempenho.
 PQ-019;03_Ambientes/Acustica/README.md;7;to e desempenho de campo pendentes |
 PQ-019;03_Ambientes/Banheiro/README.md;92;ulica, acesso e elétrica pendentes. Sem rasgo estrutural, piso aberto, vidro furado, forro de vizinho ou retirada do enchimento sem avaliação. [Memorial do estudo](Agua_q
+PQ-019;03_Ambientes/Conforto_ambiental/README.md;31;"a no quarto. Ofuscamento depende do olho/BRDF, sem DGP/UGR. Tapete sem posição confirmada; UV/desbotamento e aquecimento do vinílico sem dose/temperatura calculadas. [Det"
+PQ-019;03_Ambientes/Conforto_ambiental/README.md;95;"a a27°C, SKUOlmo/adesivo pendentes. Manta sob vinílico colado não é automaticamente compatível; acréscimo hipotético10–30mm consome pé-direito. RT deve verificar carga/ci"
 PQ-019;03_Ambientes/Cozinha/README.md;84;"ocal; conferência física pendente. **LIX=A. Fonte: Elias,27/10/2026, resposta “A” nesta conversa.** Manter os modelos e aceitar os avanços7/6cm e, se demonstrada, a retir"
 PQ-019;03_Ambientes/Escritorio/README.md;24;profundidade e ferragens pendentes. Sem gaveteiro até o piso. |
 PQ-019;03_Ambientes/Escritorio/README.md;26;"-ercathe-a01-mesh-premium?variant=49668774854978): R$ 2.290,90, **fora do orçamento**. Mesh, lombar ajustável, braços 3D, encosto até 145°, apoio de pés retrátil; até 1,9"
@@ -2329,15 +2408,21 @@ PQ-019;04_Moveis/Proximas_decisoes/P01_P03/README.md;16;reabrir as duas portas i
 PQ-019;04_Moveis/Proximas_decisoes/P01_P03/README.md;19;"as e deformação superior pendentes;20kg não demonstrados. R52 preservada sem abrirCAD."
 PQ-019;04_Moveis/Proximas_decisoes/P01_P03/README.md;27;, fixações e caixa ainda pendentes. Não somar resultados antigos como se a geometria fosse a mesma.
 PQ-019;04_Moveis/Quantitativos/README.md;27;Massa real depende de painel, revestimento, adesivo, ferragens e fabricação. Não usar a massa hipotética como pesagem ou contrapeso garantido. Atualizar a demanda global 
+PQ-019;05_Orcamento_e_cronograma/README.md;95;1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
+PQ-019;05_Orcamento_e_cronograma/README.md;96;2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8
 PQ-019;07_Imovel/Checklist_vistoria_dia_das_chaves.md;88;piso/laje com medidor (e pergunte à construtora a data de cura/concretagem)
 PQ-019;07_Imovel/Checklist_vistoria_dia_das_chaves.md;122;, não (Memorial Cury). **Pergunte pelo laudo e pela garantia de impermeabilização**
 PQ-019;07_Imovel/Checklist_vistoria_dia_das_chaves.md;161;nto atual. Box e bancada dependem do vão real |
 PQ-019;07_Imovel/Checklist_vistoria_dia_das_chaves.md;166;"ndicativo com som e app; perguntar pelo laudo NBR 15575 | Lanterna, caixa de som, app de sonômetro | Sem dados da construtora o estudo só dá faixas. [Estudo da envoltória"
 PQ-019;07_Imovel/Checklist_vistoria_dia_das_chaves.md;203; de medida que não podem faltar:
-PQ-019;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-019;07_Imovel/README.md;67;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
-PQ-019;07_Imovel/README.md;124;ínculo ainda é descrição pendente, sem transformação inventada.
-PQ-019;07_Imovel/Roteiro_dia_das_chaves_R01.md;3;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
+PQ-019;07_Imovel/README.md;40;"Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas e pendências. PR-* só passa com datum confirmado por seção; sem vínculo, cota vazia e e"
+PQ-019;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-019;07_Imovel/README.md;79;"ação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. C"
+PQ-019;07_Imovel/README.md;135;o CSV da cadeia. Vínculo pendente.
+PQ-019;07_Imovel/Roteiro_dia_das_chaves_R01.md;5;** [regras](../04_Moveis/Dependencias/regras.json): X espelhado pela PR-EIXO-X nominal, Y da planta, Z vertical. [Cotas, pranchas.frame](../06_Entregas/Planta_cotada/Cota
+PQ-019;07_Imovel/Roteiro_dia_das_chaves_R01.md;7;nto esse vínculo estiver pendente.
+PQ-019;07_Imovel/Roteiro_dia_das_chaves_R01.md;11;"/Y/Z permanece descrição pendente: **ver protocolo de datum**, identificar o marco antes de preencher; não presumir centro nem eixo do caixilho. DEP-COZ-PRUMO: duas leitu"
+PQ-019;07_Imovel/Roteiro_dia_das_chaves_R01.md;32;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
 PQ-019;ESTADO_ATUAL.md;37;isolamento real e custos pendentes.
 PQ-019;ESTADO_ATUAL.md;82;s, soco/piso e fundo P01 pendentes |
 PQ-030;01_Programa_e_decisoes/README.md;25;"es candidatos. Proposto, depende de amostra; SKUs de fábrica ausentes seguem na consulta; Nuvem 18 com referênciaR$ 607,15 em 27/10. O gerador preserva essa seção documen"
@@ -2348,8 +2433,10 @@ PQ-030;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;22;"z, adaptaçõe
 PQ-030;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;33;nçaram, amostras e dados faltantes não concluídos |
 PQ-030;01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md;42;"ra ao lado do Arenza"".** Solicitar Lume Matt e Areia Matt; acabamento final proposto, depende de amostra."
 PQ-030;03_Ambientes/Acustica/Piso_e_equipamentos/README.md;40;0183/313828/001311795.pdf?sequence=1). A abertura integral dessa fonte falhou nesta pesquisa. **Comparação formal pendente**, tanto pela tabela primária quanto pela falta
+PQ-030;03_Ambientes/Conforto_ambiental/README.md;103;"C dez–mar/20°C demais, independente do RC; estudo de risco condicional, sem acoplamento térmico-hígrico completo. Julho parede média SW19,52/SSE19,38°C: diferença pequena"
 PQ-030;03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md;47;em parafusos comerciais: dependem do material das réguas e da espessura final. Não declarar essas ligações dimensionadas apenas porque os envelopes cabem.
 PQ-030;03_Ambientes/Equipamentos/README.md;89;empenho solar do conjunto? Não presumir película nem SHGC pelo nome/cor. |
+PQ-030;03_Ambientes/Gas_natural/README.md;114;ume (≥ 6 m³ e ventilação)? Pode haver porta entre elas? | RT |
 PQ-030;03_Ambientes/Planta_mobiliada/README.md;34;"osição inventada; seguem pendentes junto da caixa e mecanismo. Não confundir a omissão dos volumes aéreos com sua retirada."
 PQ-030;03_Ambientes/Planta_pontos/README.md;41;lumes e espelho/torneira pendentes |
 PQ-030;03_Ambientes/Planta_pontos/README.md;106;" 9605 /25 W /IP44 | teto a confirmar | Selecionado L02; ponto e volumes a conferir |"
@@ -2375,7 +2462,7 @@ PQ-030;04_Moveis/README.md;22;es/caixa e terceira mala condicionados |
 PQ-030;05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md;46;"ados de frete/impostos + faltas quantificáveis. Primeiro busca preço unitário da mesma linha em outra proposta de **mesmo escopo**, com unidade/especificação compatíveis;"
 PQ-030;ESTADO_ATUAL.md;49;"10; SKUs e escolha final pendentes |"
 PQ-030;ESTADO_ATUAL.md;69;laro. Códigos comerciais dependem de amostra.
-PQ-030;ESTADO_ATUAL.md;105;"s/amostras/respostas. RT pendente; sem contratação autorizada."
+PQ-030;ESTADO_ATUAL.md;107;"s/amostras/respostas. RT pendente; sem contratação autorizada."
 PQ-031;04_Moveis/P01/Massas_equilibrio/README.md;69;io para o acabamento real? A carga da estrutura do edifício não se resolve dividindo o peso apenas pela área de madeira em contato.
 PQ-031;04_Moveis/P16/Gavetas_estabilidade/README.md;56;## Próximas operações independentes das chaves
 PQ-031;04_Moveis/P17/Base_fundo_ligacoes/README.md;96;bal. Ancoragem no imóvel depende do substrato real após as chaves.
@@ -2409,22 +2496,26 @@ PQ-031;07_Imovel/Checklist_vistoria_dia_das_chaves.md;203; de medida que não po
 PQ-031;07_Imovel/Checklist_vistoria_dia_das_chaves.md;211;sica do datum ainda está pendente em [Descrição física](../04_Moveis/Dependencias/Descricao_fisica.csv)
 PQ-031;07_Imovel/Checklist_vistoria_dia_das_chaves.md;225;to: `python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv`, depois confira o relatório de mudanças antes de qualquer decisão.
 PQ-031;07_Imovel/Checklist_vistoria_dia_das_chaves.md;228; instalações, estrutura) dependem do contrato e da NBR 15575: conferir no manual e anotar as datas.
-PQ-031;07_Imovel/README.md;32;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
-PQ-031;07_Imovel/README.md;81;s.py --data 2026-10-29 --dependencias ../outputs/Codex_cotacao_e_chaves/Linhas_dependentes_medidas.csv
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;3;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;9;"| 3 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;10;"| 4 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;12;"| 6 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;14;"| 8 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;15;"| 9 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;16;| 10 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;17;"| 11 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;18;| 12 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;19;| 13 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;20;"| 14 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;21;"| 15 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;23;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
-PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;28;python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv
+PQ-031;07_Imovel/README.md;44;, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmet
+PQ-031;07_Imovel/README.md;93;s.py --data 2026-10-29 --dependencias ../outputs/Codex_cotacao_e_chaves/Linhas_dependentes_medidas.csv
+PQ-031;07_Imovel/README.md;137;antes das prioridades. **Pergunta exata:** quais faces/marcos físicos correspondem à origem (0,0), ao sentido +X da planta e ao PR-EIXO-X nominal de 7400 mm, e que transf
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;5;** [regras](../04_Moveis/Dependencias/regras.json): X espelhado pela PR-EIXO-X nominal, Y da planta, Z vertical. [Cotas, pranchas.frame](../06_Entregas/Planta_cotada/Cota
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;7;nto esse vínculo estiver pendente.
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;11;"/Y/Z permanece descrição pendente: **ver protocolo de datum**, identificar o marco antes de preencher; não presumir centro nem eixo do caixilho. DEP-COZ-PRUMO: duas leitu"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;32;"datum nominal: descrição pendente; definir antes de converter leituras. Distância e azimute das duas visadas permitem reconstruir a reta no mesmo referencial."
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;38;"| 3 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;39;"| 4 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;41;"| 6 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;43;"| 8 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;44;"| 9 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distâncias"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;45;| 10 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;46;"| 11 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;47;| 12 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;48;| 13 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Orientação da reta E1–E2 em relação a M0→M1: mesmas duas visadas com distâ
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;49;"| 14 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;50;"| 15 | Descrição pendente: identificar os dois extremos do pano acabado e datum M0 no croqui. | Visadas M0→E1 e M0→E2: distância e azimute desde M0→M1; laser de distância"
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;52;ento de códigos e marcos pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv) · [tabela de 546 códigos](../04_Moveis/Dependencias/Criticidade_por_codigo.csv). Ordem
+PQ-031;07_Imovel/Roteiro_dia_das_chaves_R01.md;57;python -B 04_Moveis/Dependencias/orquestrar.py --medidas C:/Temp/campo.csv
 PQ-031;08_Contratos_e_atraso/Pesquisa/README.md;8;que o número seja falso: faltam os marcos usados pela Cury, eventuais períodos adicionais e o impacto no cronograma crítico.
 PQ-031;08_Contratos_e_atraso/Pesquisa/README.md;28;"nos trechos monitorados, condicionada a consulta e resposta formal da associação do Parque Linear sobre participação; após retorno e comunicação, área poderia ser liberad"
 PQ-031;08_Contratos_e_atraso/Pesquisa/README.md;41;## Documentos que ainda faltam para avaliar 254 dias
@@ -2494,9 +2585,8 @@ PQ-032;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;34;"magnitudes hip
 PQ-032;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;48;. Se houver faixa, ainda faltam instalação, fixação, ventilação completa, ergonomia e acesso. A preferência F104 e o CAD principal permanecem preservados.
 PQ-032;04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md;68;*Pendência específica, independente das medidas do imóvel:** confirmar configuração400, referência dos engates, posições neutras do STEP, fixação da guia e tolerâncias, p
 PQ-032;04_Moveis/README.md;60;"pendências dimensionais](Dependencias/README.md): regras de encaixe e interfaces da R53; caixas fixas por padrão, fechamentos separados."
+PQ-032;07_Imovel/Mobiliado/README.md;9;mobiliado mostra | Ainda falta |
 PQ-032;07_Imovel/README.md;18;"ontos; coordenadas reais a definir pelo RT |"
-PQ-032;07_Imovel/README.md;71; obra/marcenaria/compra, perguntas e códigos sem medida. `Relatorio_medidas_celular.md`: consulta compacta de uma página, com remissão ao detalhe.
-PQ-032;07_Imovel/README.md;86;"a62cc9a9344b26`; `Linhas_dependentes_medidas.csv`: `64832fdcb8ce2eced33fd75202355458c59f1a800508ce2547a0fb9ecae78b77`. Os demais hashes estão no manifesto externo."
+PQ-032;07_Imovel/README.md;83; obra/marcenaria/compra, perguntas e códigos sem medida. `Relatorio_medidas_celular.md`: consulta compacta de uma página, com remissão ao detalhe.
 PQ-032;ESTADO_ATUAL.md;45;"minar | 100% | Fechados; falta só validar no local |"
 PQ-032;ESTADO_ATUAL.md;80;| Móvel | Estudo | Falta |
-PQ-032;ESTADO_ATUAL.md;115;consultas. Campo/oficina pendentes: registre a dúvida e siga.

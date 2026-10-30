@@ -21,7 +21,7 @@ O projeto tem medidas nominais; precisamos destas informações antes das etapas
 4. **PQ-024** — Validar banco de duas tampas com piano/articuladores com trava, cesto, gavetas FGVTN 500/MOVENTO 400 e rodízios: ensaio, fixação, curso, batentes, estabilidade e retirada/manutenção, sem trocar especificação silenciosamente.
    Responder antes de: antes de fabricar. Origens no Perguntas.csv, ID PQ-024.
 
-5. **PQ-020** — Compatibilizar box, porta e BC43: qual parede verde/altura vale (0,80×2,25 versus 1,24×2,47 m; teto nominal 2,50 m), vão/eixo de porta e acesso de manutenção? Entregar croqui antes da compra/corte.
+5. **PQ-020** — Compatibilizar box, porta e BC43: quais paredes verdes (fundo/chuveiro e janela, desde 30/10/2026) e qual altura valem (0,80×2,25 versus 1,24×2,47 m; teto nominal 2,50 m), vão/eixo de porta e acesso de manutenção? Entregar croqui antes da compra/corte.
    Responder antes de: na vistoria. Origens no Perguntas.csv, ID PQ-020.
 
 6. **PQ-025** — Quais folgas e limitadores reais evitam choques de portas, varal carregado, lixeiras, cadeiras e equipamentos, considerando montagem e percurso completo? Mostrar gabarito/ensaio dos casos apontados nas origens.

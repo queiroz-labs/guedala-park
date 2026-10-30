@@ -4,4 +4,4 @@ A [revisão de pisos e revestimentos](../Pisos_e_revestimentos/Analise_pisos.md)
 
 ## Registro de origem
 
-O item R08 do orçamento geral inicial considerou todas as paredes do box em Vivant Sauge. O documento Banheiro/Decisoes_consolidadas_2026-09-18.md, seção vigente, determina somente uma parede verde e outra clara/bege. Revisar áreas e material substituto quando retomar revestimentos; não abater toda a diferença sem prever o acabamento das demais paredes. Nenhuma economia deste ponto foi usada para fechar a meta de marcenaria.
+O item R08 do orçamento geral inicial considerou todas as paredes do box em Vivant Sauge. O documento Banheiro/Decisoes_consolidadas_2026-09-18.md, seção vigente, determinava somente uma parede verde e outra clara/bege (superado em 30/10/2026: fundo e janela verdes). Revisar áreas e material substituto quando retomar revestimentos; não abater toda a diferença sem prever o acabamento das demais paredes. Nenhuma economia deste ponto foi usada para fechar a meta de marcenaria.

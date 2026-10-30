@@ -22,7 +22,7 @@ Fontes: [Convenção e ata](Convencao_e_ata_impactos.md), [Programa R01](Program
 | Serviço | Descrição resumida | Sistemas afetados | Aprovação prévia (Convenção p. 21, art. 7º, i) |
 |---|---|---|---|
 | Piso vinílico | Tarkett Olmo colado em sala, quartos, escritório e cozinha | Revestimento de piso; **acústica** (art. 6º, w) | Sim: acabamento de piso |
-| Revestimentos do banheiro | Porcelanato Travertino Greige no piso; parede do box em Vivant Sauge | Revestimentos; impermeabilização do box [RT] | Sim: pisos e paredes |
+| Revestimentos do banheiro | Porcelanato Travertino Greige no piso; paredes do box (fundo e janela) em Vivant Sauge | Revestimentos; impermeabilização do box [RT] | Sim: pisos e paredes |
 | Revestimento da lavanderia | Eliane Iseo Marfim no piso | Revestimento de piso | Sim |
 | Pintura | Algodão Egípcio em todos os ambientes; fosca e lavável na cozinha e lavanderia | Acabamento de paredes | Sim: acabamento de paredes |
 | Água quente | Rinnai E21 GN levando água quente ao lavatório e à ducha higiênica; percurso oculto em estudo (forro ou faixa no teto) | **Hidráulica: ramais**; gás; exaustão do aquecedor | **Sim: alteração de ramais** |

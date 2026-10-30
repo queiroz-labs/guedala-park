@@ -1,6 +1,6 @@
 # Perguntas em aberto
 
-**34 perguntas deduplicadas**, a partir de 1693 trechos de 71 arquivos. Nada enviado. Cadastro por tema; classificação documental para revisão, sem parecer técnico.
+**34 perguntas deduplicadas**, a partir de 1725 trechos de 74 arquivos. Nada enviado. Cadastro por tema; classificação documental para revisão, sem parecer técnico.
 [Perguntas](Perguntas.csv) · [todas as origens/citações por PQ](Origens.csv) · [decisões já respondidas](Respostas_decisoes.csv). IDs semânticos estáveis PQ-001…PQ-034; lacunas de numeração não são perda de pergunta.
 
 ## Destinatários
@@ -46,4 +46,4 @@ Mensagens são modelos por destinatário, com placeholders. RT separa contrataç
 Classificação automática tem limites: revisar agrupamentos e contexto nas origens antes de enviar. Trechos históricos não provam pendência atual; decisões explícitas correntes prevalecem. A varredura é rastreável, não certificação de completude técnica.
 Publicação: nenhuma alteração em current_release.json/document_library ou no site. Falta registrar este pacote na biblioteca e regenerar/verificar o site em frente autorizada de publicação.
 
-SHA256 Extracao_perguntas.json: `0ba5c90926615c76b287d41ae65ee12e9ba37671c329a454050142afa28ba0aa`; Perguntas.csv: `46cbe7a47bd9abf09f269f979916ede3e27323c6ef65dd0aa70d1f4c81ebb62e`.
+SHA256 Extracao_perguntas.json: `95d7156c83bf7f9326d84cbe281bfdcc1d789ac8f673b859c42197db1858b83c`; Perguntas.csv: `1d607b7e6af1691bc32b9aef6fa112e9412fa12632a4203b13b1774bafb46af4`.
