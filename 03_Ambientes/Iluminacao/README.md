@@ -1,5 +1,7 @@
 # Iluminação
 
+**Verde no box (30/10/2026):** [comparação isolada](Verde_box_luz.md): no cenário central, média no box 154,6→142,2 lx (−8,0%); faixas −6,4% a −10,2%. Refletâncias são hipóteses, sem luz natural; mesmas fontes/malha. Não muda luminárias nem compra. Decisão de verde também na janela: Elias, 30/10/2026, nesta conversa.
+
 **Proposta consolidada em 26/10 e preços revistos em 27/10/2026; seleção comercial e instalação ainda condicionadas.** A geral do quarto passa a smart: Elias, 26/10/2026, pediu “conecta-las na alexa e celular” e confirmou “Manter essas três com interruptor comum” para cozinha, lavanderia e banheiro. SceneSwitch sai da proposta prioritária; não registrar iluminação como pronta para compra/execução.
 
 ## Composição vigente por ambiente
@@ -67,10 +69,10 @@ Conferência final: 17 subtotais somam R$ 4.534,55, com um kit E05 e três WiZmo
 | [sala](Mapa_lux_sala.png) | 49 | 62–75 (67) | 31.91 | 0.10 / 0.401 | não cumpre / não cumpre / não cumpre | sala_mesa: local 3 perfil COB 1.70m, 672 lx, R$628.04 parcial |
 | [cozinha](Mapa_lux_cozinha.png) | 164 | 177–196 (185) | 4.69 | 0.01 / 0.021 | não cumpre / não cumpre / não cumpre | cozinha_pia: local 1 perfil COB 0.65m, 879 lx, R$297.25 parcial |
 | [lavanderia](Mapa_lux_lavanderia.png) | 144 | 174–203 (187) | 23.45 | 0.08 / 0.122 | não cumpre / não cumpre / não cumpre | lavanderia_tanque: local 1 perfil COB 0.59m, 460 lx, R$297.25 parcial |
-| [banho](Mapa_lux_banho.png) | 139 | 181–231 (202) | 119.63 | 0.54 / 0.544 | cumpre / cumpre / cumpre | banho_geral: vigente sem acréscimo, 202 lx, R$0.00 parcial |
+| [banho](Mapa_lux_banho.png) | 139 | 175–218 (193) | 107.89 | 0.48 / 0.488 | cumpre / cumpre / cumpre | banho_geral: vigente sem acréscimo, 193 lx, R$0.00 parcial |
 | [quarto](Mapa_lux_quarto.png) | 48 | 62–82 (70) | 5.97 | <0,01 / 0.056 | não cumpre / não cumpre / não cumpre | quarto_leitura: geral 1 × Q05, 350 lx, R$134.83 parcial |
 | [escritorio](Mapa_lux_escritorio.png) | 53 | 65–79 (71) | 15.53 | 0.06 / 0.206 | não cumpre / não cumpre / não cumpre | escritorio_mesa: sem opção testada que cumpra média e U0 |
-| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) | 20.71 | 0.06 / 0.580 | não cumpre / não cumpre / não cumpre | circulacao_geral: sem opção testada que cumpra média e U0 |
+| [circulacao](Mapa_lux_circulacao.png) | 26 | 32–42 (36) | 20.70 | 0.06 / 0.580 | não cumpre / não cumpre / não cumpre | circulacao_geral: sem opção testada que cumpra média e U0 |
 
 **E5%** é o percentil de 5% ponderado pela área: primeira iluminância cuja área acumulada alcança 5%, sem interpolação. **U0 original** permanece Emin/Emed de toda a malha. **U0 filtrado** usa somente células com área ≥0,02 m² e recalcula tanto o mínimo quanto a média nessa área; área retida está no CSV. Não substitui U0 normativo, não elimina sombras físicas e não muda os vereditos originais ou a escolha da menor opção. Malhas de tarefa de 10 cm têm células ≤0,01 m²: o filtro fica vazio, marcado como não calculável, sem engrossar a malha para favorecer o resultado.
 
@@ -107,7 +109,7 @@ Motor de radiosidade H13 integrado; resultados totais e balanços no estudo e CS
 
 3. **Sala:reforço local ou somente geral?** Local500: local 3 perfil COB 1.70m: 672 lx/U0 0.71, material parcial R$628.04. Somente geral300: geral 4 × S03: 433 lx/U0 0.75, material parcial R$1034.36. Somente geral500: nenhuma opção testada cumpre média e U0 no cenário central.
 
-4. **Espelho:horizontal ou vertical?** horizontal R54: 483 lx/U0 0.88; vertical imagem: 715 lx/U0 0.91; horizontal + geral adicional: 520 lx/U0 0.90. Mesmo1,10 m de fita nas duas orientações; relocalização/terminações ainda sem cotação.
+4. **Espelho:horizontal ou vertical?** horizontal R54: 479 lx/U0 0.88; vertical imagem: 711 lx/U0 0.91; horizontal + geral adicional: 510 lx/U0 0.89. Mesmo1,10 m de fita nas duas orientações; relocalização/terminações ainda sem cotação.
 
 
 

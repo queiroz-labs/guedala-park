@@ -18,7 +18,7 @@ sys.dont_write_bytecode = True
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / '03_Ambientes/Iluminacao'
-DATE = '29/10/2026'
+DATE = '30/10/2026'
 SOURCES = {
     'N1': ('ABNT NBR ISO/CIE 8995-1:2013, §§4.2–4.4, 4.8, 4.10 e tabela 5/22; texto primário em cópia pública; edição aplicável a confirmar', 'https://drb-assessoria.com.br/drbr/nbrisocie8995.pdf'),
     'N2': ('ABNT NBR 5413:1992, §5.3.65; referência histórica secundária, não declaração de vigência', 'http://ftp.demec.ufpr.br/disciplinas/TM802/NBR5413.pdf'),
@@ -435,7 +435,7 @@ def room_solids(g,case=None):
     return solids
 
 
-def scene_faces(g,case=None):
+def scene_faces(g,case=None,green_window=True):
     solids=room_solids(g,case);air=[]
     for room,rects in g['floors'].items():
         for c in cells(rects,0,20):
@@ -464,11 +464,14 @@ def scene_faces(g,case=None):
                     if label.startswith('P') and axis==2 and sign==1 and plane>=2.4:reflect=(.7,.775,.85)
                     # Mirror front is not turned into a diffuse white reflector.
                     if label=='P19' and axis==1 and sign==-1:reflect=(0,0,0)
-                    # Sauge wall in shower zone; split off exact rectangle as H13.
-                    if label.startswith('parede') and axis==1 and abs(plane-5.29)<.03:
-                        clip=(2.55,0,3.35,2.5);ix=(max(r[0],clip[0]),max(r[1],clip[1]),min(r[2],clip[2]),min(r[3],clip[3]))
+                    # Duas faces interiores; recortes de janela já retirados acima.
+                    back=axis==1 and sign==-1 and abs(plane-5.29)<.03
+                    window=green_window and axis==0 and sign==1 and abs(plane-2.55)<.03
+                    if label.startswith('parede') and (back or window):
+                        clip=(2.55,0,3.35,2.5) if back else (4.05,0,5.29,2.5)
+                        ix=(max(r[0],clip[0]),max(r[1],clip[1]),min(r[2],clip[2]),min(r[3],clip[3]))
                         if ix[2]>ix[0] and ix[3]>ix[1]:
-                            faces.append((axis,plane,sign,ix,(.1,.2,.3),'Sauge_H13'))
+                            faces.append((axis,plane,sign,ix,(.1,.2,.3),'Sauge_H13' if back else 'Sauge_janela_H13'))
                             faces.extend((axis,plane,sign,q,reflect,label) for q in rect_difference(r,clip));continue
                     faces.append((axis,plane,sign,r,reflect,label))
     return faces
@@ -1079,13 +1082,13 @@ def decision_summary(out):
     return '\n\n'.join(texts)+'\n'
 
 
-def calculate_reflections(g,ies,rows,grids):
+def calculate_reflections(g,ies,rows,grids,green_window=True):
     engines={};balances=[];total_grids={};lights=emitters(g)
     for case in calculation_cases(g):
         kind=case['id'] if case['id'].endswith('_pessoa') else 'roupa' if '_roupa' in case['id'] else 'fechadas' if case['id'].endswith('portas_fechadas') else 'abertas'
         if kind not in engines:
             print('Radiosidade: geometria '+kind,flush=True)
-            engines[kind]=Radiosity(scene_faces(g,case));engines[kind].transport()
+            engines[kind]=Radiosity(scene_faces(g,case,green_window));engines[kind].transport()
         engine=engines[kind];ls=case_lights(case,lights);q,emitted=engine.deposit(ls,SCENARIOS['central'],ies)
         row=next(r for r in rows if r['caso']==case['id']);ds=np.array(grids[case['id']][1]);stats=[];vectors=[]
         for band,name in enumerate(('baixo','central','alto')):
@@ -1109,7 +1112,7 @@ def result_text(g,rows,grids):
     lines=['## Método e resultados por cômodo', '',
         '**H13: interreflexão difusa nominal, não medida.** FU fixo H4 foi retirado. As três faixas abaixo variam somente ρ (H2); manutenção/transmissão ficam centrais H3/H5, para isolar a contribuição refletida. Direta baixo/alto no CSV ainda varia manutenção/transmissão. Nenhuma faixa é intervalo estatístico nem cobre todas as curvas ausentes.', '',
         'Radiosidade: patches retangulares ≤0,45 m; Fij estimado por 512 raios por patch, origem uniforme na área e direção cossenoidal, semente291026. Potências refletidas p=ρ(q+Fᵀp), em lm; B=p/A e L=B/π. Sensor usa1024 direções cossenoidais e Eref=π×média(L); fontes8192 raios/emissor. A direta continua analítica com visibilidade. Perdas pelas aberturas e resíduo iterativo são explícitos em [Energia_luz.csv](Energia_luz.csv). A conservação não prova precisão espacial; reciprocidade é estatística e o erro Monte Carlo depende da malha. NumPy e Pillow nas ferramentas locais.', '',
-        'H13/material: paredes Algodão Egípcio0,50/0,625/0,75; teto e topo branco0,70/0,775/0,85; piso Olmo/greige0,15/0,25/0,35; Arenza/Beige/Louro representados por0,35/0,475/0,60; P09–P12 azul e parede Sauge do box0,10/0,20/0,30; tecido0,20/0,35/0,50; eletros/telas0,02/0,06/0,10; pedra0,45/0,575/0,70. São as faixas H2 atribuídas aos acabamentos vigentes, não refletâncias reais medidas. P19 espelho frontal temρdifusa=0: componente especular excluída, energia não devolvida ao campo difuso. Vidro/janela e porta exterior: aberturaρ=0 e fuga integral como limite conservador; sem luz natural. Portas interiores abertas deixam luz atravessar; caso fechado usa parede clara como envelope conservador.', '',
+        'H13/material: paredes Algodão Egípcio0,50/0,625/0,75; teto e topo branco0,70/0,775/0,85; piso Olmo/greige0,15/0,25/0,35; Arenza/Beige/Louro representados por0,35/0,475/0,60; P09–P12 azul e paredes Sauge do chuveiro e janela do box0,10/0,20/0,30; tecido0,20/0,35/0,50; eletros/telas0,02/0,06/0,10; pedra0,45/0,575/0,70. São as faixas H2 atribuídas aos acabamentos vigentes, não refletâncias reais medidas. P19 espelho frontal temρdifusa=0: componente especular excluída, energia não devolvida ao campo difuso. Vidro/janela e porta exterior: aberturaρ=0 e fuga integral como limite conservador; sem luz natural. Portas interiores abertas deixam luz atravessar; caso fechado usa parede clara como envelope conservador.', '',
         'H13/geometria: faces expostas dos envelopes R54, paredes com vãos, pisos e tetos por união exata; recorte por sólidos e limite interior. Mesma sombra em direta/refletida. P17/E06 adiado excluído. Cama viúva128×188×64 colocada nominalmente no eixo da reserva, cabeceira x0,05 e centro y2,00 m; não é medida de instalação. Mesa Berlin aberta H9. Caixa de roupa conservadora separada. Sem vidro especular, formas curvas, pessoas móveis ou luz de grupos ainda sem implantação.', '',
         'Malhas: geral0,75 m exclui projeções de móveis/equipamentos baixos e paredes; piso da circulação idem. Tarefas usam somente superfície útil, sem purificador/escorredor/PC. Planos0,85 m dentro das bases foram retirados: cozinha/tanque somente tampo0,92 m. Livro passa a0,85 m, acima da cama real0,64 m; foco das EVY permanece nominal H8 e deve ser ajustado no uso. Não comparar esse resultado com a antiga leitura0,45 m como se apenas ρ tivesse mudado. Lux zero remanescente pode ser sombra física, nunca é removido por ser baixo.', '']
     for room in ('sala','cozinha','lavanderia','banho','quarto','escritorio','circulacao'):

@@ -10,6 +10,18 @@ import estudo_fotometrico as f
 
 
 class Physics(unittest.TestCase):
+    def test_green_window_face_keeps_aperture_and_geometry(self):
+        g=f.load_geometry();before=f.scene_faces(g,green_window=False);after=f.scene_faces(g)
+        area=lambda faces:sum((p[3][2]-p[3][0])*(p[3][3]-p[3][1]) for p in faces)
+        self.assertAlmostEqual(area(before),area(after))
+        window=[p for p in after if p[5]=='Sauge_janela_H13']
+        self.assertTrue(window)
+        for axis,plane,sign,r,rho,_ in window:
+            self.assertEqual((axis,sign,rho),(0,1,(.1,.2,.3)))
+            self.assertAlmostEqual(plane,2.55)
+            hole=(4.35,.95,4.75,2.05)
+            self.assertTrue(r[2]<=hole[0] or r[0]>=hole[2] or r[3]<=hole[1] or r[1]>=hole[3])
+
     def test_radiosity_empty_cube_analytic(self):
         result=f.validate_radiosity()
         self.assertLess(result['erro_relativo'],.03)

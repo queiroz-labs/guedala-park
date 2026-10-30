@@ -1,5 +1,5 @@
 {
-  "data": "29/10/2026",
+  "data": "30/10/2026",
   "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
   "ies_sha256": "132f3d7fd250447ee887a9730acc88cd8ee9691c7cad17b15236b267fcd2e16c",
   "fontes_sha256_texto_LF": {
@@ -8,14 +8,14 @@
     "07_Imovel/Medidas_e_impactos.csv": "8085c810940be323f14626aeaa36dba116f90acb63a1905ae2f0cdc125984561",
     "06_Entregas/Caderno_pranchas/Geometria.json": "513ded2a2155e584cbef47a6e6160088be37d1263ecf3cfa3d6d9de4912c7445",
     "06_Entregas/Planta_cotada/Cotas.json": "fdb33661829571a67dd5769b1472c491efe3f59f99252857a21a32cbba837dc7",
-    "ferramentas/estudos/estudo_fotometrico.py": "75a8073df358701948f0be6ba37407e57fc846da2a842535ad9b06576da1cd77",
-    "09_Referencias/Moodboard.json": "7286236d11c45352fd57e27f3d7d7aba796583db26935b00a3d4fea575823db5",
-    "ferramentas/site/src/data.js": "843e386d70d44617e37f252b8918948d0bf18cc56b64a40f4f44f33bf24e3af4",
+    "ferramentas/estudos/estudo_fotometrico.py": "cf2e44787915be99d3baf24d6e46d3cf048bb6f56d9ce6b2aa1784a63a7f50aa",
+    "09_Referencias/Moodboard.json": "0ac6076d1ef4baea0fc0782e58af91b9a34bda3402aaf78c9f3fcbc5bed6975c",
+    "ferramentas/site/src/data.js": "d5e5a98b59324e3c872f2f3e7c803d49f410c2df0f2a205b2f3dab8a2ac00dd1",
     "ferramentas/site/fabrication/Decisao_acabamentos_R13.md": "00901904d6817ea9c1b2773bd22379291a360c6498536aee198d4e2444be0f35",
     "ferramentas/pranchas/gerar.py": "e9bc7f6a963e01d52deae449260bff93c09c612af449662f072d881235273345",
     "ferramentas/pranchas/medidas.py": "79cee50779863ef4a8300b5cf3d167d351446b764c12deb3a95cb2377fd12b0f",
-    "ferramentas/site/current_release.json": "58e6631c31829bb78138af021a792d1f2b4165802f35eb674b84b35ef608fb51",
+    "ferramentas/site/current_release.json": "bd513688f3974cb7ea3eff7ef363e6983faf7b86200674c3e12501dc69591991",
     "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md": "15ac974298266df2813d9ec0495d572d0b848de10520bd0f4db64ca1bc0351be",
-    "09_Referencias/README.md": "91bb20102a85321b248329d22e765d803fc90463fc157478bb4190fb61fc0ff3"
+    "09_Referencias/README.md": "525685280fb55e9b08daefde2175900b5e6dca1243b7cfb0c824fe044893834d"
   }
 }
