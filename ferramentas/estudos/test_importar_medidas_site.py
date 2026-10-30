@@ -8,6 +8,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+import subprocess
 from unittest.mock import patch
 import importar_medidas_site as importer
 from importar_medidas_site import ROOT,DEFAULT_CSV,import_file
@@ -88,6 +89,42 @@ class ImportTests(unittest.TestCase):
     def test_fixture_cannot_write_real_project(self):
         with self.assertRaisesRegex(ValueError,'Fixture'):import_file(FIXTURE,DEFAULT_CSV,self.report)
         self.assertFalse(self.report.exists())
+
+    def test_single_command_fixture_chain_and_no_source_changes(self):
+        real_hash=hashlib.sha256(DEFAULT_CSV.read_bytes()).hexdigest()
+        output=self.p/'saida'
+        proc=subprocess.run([sys.executable,'-B',str(ROOT/'ferramentas/estudos/medidas_do_celular.py'),
+                             '--entrada',str(FIXTURE),'--csv',str(self.csv),'--saida',str(output)],
+                            capture_output=True,text=True,encoding='utf-8')
+        self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
+        with (output/'campo.csv').open(encoding='utf-8',newline='') as f:rows=list(csv.DictReader(f))
+        self.assertEqual({r['codigo_medida'] for r in rows},{'PD-QUA','DIM-01'})
+        self.assertTrue(all(r['valor_medido'].strip() and r['evidencia_campo'] for r in rows))
+        self.assertEqual(next(r for r in rows if r['codigo_medida']=='DIM-01')['valor_medido'],'2442 × 2946 mm')
+        summary=json.loads((output/'Cadeia/Cadeia.json').read_text(encoding='utf-8'))
+        self.assertEqual(summary['pecas_alteradas'],0);self.assertEqual(summary['novas_folgas_negativas'],0)
+        self.assertGreater(summary['pendencias_propagacao'],0)
+        for name in ('Cadeia.md','Impacto.md','Pecas_diferencas.csv','Pendencias_propagacao.csv'):
+            self.assertTrue((output/'Cadeia'/name).is_file());self.assertIn(name,proc.stdout)
+        self.assertEqual(real_hash,hashlib.sha256(DEFAULT_CSV.read_bytes()).hexdigest())
+
+    def test_field_path_must_be_external_before_import(self):
+        with self.assertRaisesRegex(ValueError,'fora do repositório'):
+            import_file(FIXTURE,self.csv,self.report,ROOT/'campo.csv')
+        self.assertEqual(self.csv.read_bytes(),self.original);self.assertFalse(self.report.exists())
+
+    def test_field_rejects_partial_dim_and_preserves_outputs(self):
+        rows=list(self.read_rows().values());row=next(r for r in rows if r['codigo_medida']=='DIM-01')
+        row['valor_medido']='2442 mm'
+        with self.assertRaisesRegex(ValueError,'eixos'):importer.field_csv(rows)
+        row['valor_medido']='2442 × 2946'
+        with self.assertRaisesRegex(ValueError,'unidade'):importer.field_csv(rows)
+
+    def test_single_command_fixture_real_guard_and_nonempty_output(self):
+        from medidas_do_celular import run
+        with self.assertRaisesRegex(ValueError,'Fixture'):run(FIXTURE,self.p/'bloqueada')
+        self.assertFalse((self.p/'bloqueada').exists())
+        with self.assertRaisesRegex(ValueError,'nova/vazia'):run(FIXTURE,self.p,self.csv)
 
     def test_nonobject_and_missing_inputs(self):
         self.input.write_text('[]',encoding='utf-8')

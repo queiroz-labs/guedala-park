@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente30/10/2026; READMEs; ≤14KB.
+Vigente 30/10/2026; detalhes nos READMEs.
 
 ## O projeto
 
@@ -94,9 +94,9 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Cotação:** [auditoria](06_Entregas/Cotacao/README.md): 101 linhas; zero erros aritméticos; P19 mantém bases distintas.
 
-**Cotações:** [comparador](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md), sem propostas reais.
+**Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
-**Chaves:** [JSON→campo](07_Imovel/README.md); sem medida real.
+**Chaves:** [JSON→campo→cadeia, comando único](07_Imovel/README.md); sem medida real.
 
 **Perguntas:** [pacote](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
 

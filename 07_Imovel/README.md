@@ -19,7 +19,7 @@ São **532 registros** no índice atual de levantamento, incluindo verificaçõe
 | OBS-* | 23 observações de outra unidade, sem correspondência presumida com PTO-* |
 | PR-* | Contornos, vãos, peitoris e eixos XYZ dos pontos para as pranchas R02; nominal/planta com fonte |
 
-Cada linha traz código, ambiente, valor nominal e sua natureza/fonte, tolerância e quem a define, Pxx, arquivos de ficha/prancha/README/orçamento e quem valida. Caminhos são relativos à raiz do repositório; `|` separa vários arquivos ou móveis. “a definir” é ausência de dado, nunca zero. Papéis de Elias, RT e oficina são indicações de validação, não contratação. `valor_medido` e `evidencia_campo` ficam vazios até a visita.
+O CSV vincula código, ambiente, fonte, tolerância, móveis e arquivos a revisar; caminhos relativos à raiz, `|` separa vínculos. “a definir” não é zero. Papéis de RT/oficina não indicam contratação. Campos reais continuam vazios.
 
 **Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Pé-direito 2600 mm é hipótese vigente, não cota oficial; 2470 mm do escritório é cenário separado. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. A lavanderia tem cota oficial 1540 mm, divergente do desenho histórico 1610 mm; conferir no local.
 
@@ -31,9 +31,15 @@ Os arquivos indicados são **alvos de revisão após validar o levantamento**, n
 
 ### Importar o JSON do celular
 
-1. Na aba **Dia das chaves**, exportar `Medidas_reais.json` e guardá-lo fora do git.
-2. Na raiz, executar `python -B ferramentas/estudos/importar_medidas_site.py --entrada caminho/Medidas_reais.json`: só `valor_medido`/`evidencia_campo` e `07_Imovel/Relatorio_medidas_reais.md` mudam; CAD, fichas e orçamento não são regenerados.
-3. Revisar diferenças, móveis e arquivos do relatório; DIM composto exige todos os eixos reais, sem completar com nominal. Teste fictício: `python -B ferramentas/estudos/test_importar_medidas_site.py`, sempre em cópia temporária.
+Exportar `Medidas_reais.json` para fora do git e executar, na raiz:
+
+```powershell
+python -B ferramentas/estudos/medidas_do_celular.py --entrada C:/Temp/Medidas_reais.json --saida C:/Temp/Impactos
+```
+
+Saída nova/vazia e externa: `Importacao.md`, `campo.csv` (só cotas preenchidas com unidade e DIM completo) e `Cadeia/` com `Cadeia.md`, `Impacto.md`, `Pecas_diferencas.csv` e `Pendencias_propagacao.csv`. O resumo mostra peças, folgas novas e pendências; caixas fixas continuam fixas. Só as duas colunas de campo do índice são importadas; CAD, fichas e orçamento vigentes permanecem. MOV/ANC/PISO/COMP são anotações, fora da cadeia.
+
+Para teste fictício, fornecer `--csv C:/Temp/Copia_medidas.csv`, cópia externa do índice; a trava impede fixture no CSV real. Importador isolado: `importar_medidas_site.py --entrada <json> --csv <copia> --relatorio <md> --campo <csv externo>`. Teste integrado: `python -B ferramentas/estudos/test_importar_medidas_site.py`, incluído em `verificar_site.py`.
 
 **Preparado, sem levantamento real.** O [script](../ferramentas/estudos/medidas_chaves.py) gera diferenças, semáforo, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmetros da folha prioritária, 14 auxiliares de piso/esquadro do motor existente e BOX-VERDE, suplemento para a divergência documentada em [Acabamentos](../03_Ambientes/Acabamentos/README.md). Não são medições realizadas.
 
@@ -89,8 +95,6 @@ python -B ferramentas/estudos/comparador_cotacoes.py --data 2026-10-29 --depende
 
 No uso real, acrescentar `--entrada` da proposta normalizada e atualizar a data. As fontes de campo, decisões, CAD, base, fichas, corte e orçamento permanecem preservadas. Oito testes **FICTÍCIOS** passaram; cobrem tolerância dentro/fora, sem tolerância, ausência, unidade, decimal, código/duplicação, propagação ao P01, lavanderia e box. Nenhum teste representa visita real.
 
-Hashes das saídas sem campo (29/10/2026): `Relatorio_medidas.md`: `30c1befe9530805fc4b382a6b44e3fbdefb4aa7951734b1187a62cc9a9344b26`; `Linhas_dependentes_medidas.csv`: `64832fdcb8ce2eced33fd75202355458c59f1a800508ce2547a0fb9ecae78b77`. Os demais hashes estão no manifesto externo.
-
 ## Conferência pendente — iluminação de sala/jantar (20/09/2026)
 
 - Conferir se existe conduíte aproveitável entre a caixa de comandos na entrada e a região do painel da TV. Elias não sabe se existe; não tratar como infraestrutura entregue.
@@ -108,7 +112,7 @@ O levantamento vem do vídeo de **outra unidade, espelhada**. Registra evidênci
 2. [Relatório principal — R01 (HTML)](Relatorio_da_visita_R01.html): álbum por ambiente, com legendas.
 3. [Resumo visual](Resumo_visual.jpg): visão rápida das imagens selecionadas.
 
-Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Versões em texto: [relatório R01](Relatorio_da_visita_R01.md) e [complemento R02](Complemento/Complemento_da_visita_R02.md).
+HTMLs com imagens incorporadas. Textos: [relatório R01](Relatorio_da_visita_R01.md) e [complemento R02](Complemento/Complemento_da_visita_R02.md).
 
 ## Fotos e apoio
 
@@ -122,7 +126,7 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 
 **Histórico:** relatório R00 em HTML e texto R00. Use R01 com as correções de R02 para continuar. Os códigos dos quartos nas fotos foram mantidos para rastreabilidade; a identificação corrigida está no complemento.
 
-O vídeo original do apartamento espelhado (`Video_Apartamento_Espelhado.mp4`, somente no PC, fora do Git/site) foi recuperado da pasta antiga na unificação de 25/09/2026. Os pacotes originais dos levantamentos também foram preservados. Vídeos e ZIPs continuam fora do Git e estão disponíveis nesta pasta local.
+Vídeos/ZIPs originais ficam apenas no PC, fora do Git/site.
 
 **Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.
 

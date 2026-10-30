@@ -20,9 +20,41 @@ import tempfile
 ROOT=Path(__file__).resolve().parents[2]
 DEFAULT_CSV=ROOT/'07_Imovel/Medidas_e_impactos.csv'
 sys.path.insert(0,str(ROOT/'ferramentas/site'))
-from build_field_data import rows_from_csv
+from build_field_data import rows_from_csv,nominal_parts
 
 STATUSES={'pendente','ok','fora_do_esperado'}
+
+
+def external(path):
+    path=Path(path).resolve()
+    if path==ROOT or ROOT in path.parents:
+        raise ValueError('Saída da cadeia deve ficar fora do repositório')
+    return path
+
+
+def chain_codes():
+    rules=json.loads((ROOT/'04_Moveis/Dependencias/regras.json').read_text(encoding='utf-8'))
+    return {c.split('/')[0] for r in rules['regras'] for c in r['medidas']} | {'PR-EIXO-X'}
+
+
+def field_csv(rows):
+    """Somente entradas numéricas consumidas pela cadeia; vazio não é zero."""
+    allowed=chain_codes();output=io.StringIO(newline='')
+    writer=csv.DictWriter(output,fieldnames=['codigo_medida','valor_medido','evidencia_campo'])
+    writer.writeheader();count=0
+    for row in rows:
+        code=row['codigo_medida'];value=row['valor_medido'].strip()
+        if code not in allowed or not value:continue
+        scalar=r'-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)'
+        pattern='(?:'+scalar+r'|-?\d+(?:[.,]\d+)?\s*(?:mm|cm|m)?\s*[×x;]\s*'+scalar+')' if code.startswith('DIM-') else scalar
+        if not re.fullmatch(pattern,value):raise ValueError('Cota inválida ou sem unidade explícita: '+code)
+        parts=nominal_parts(code,value)
+        if any(p['nominal_mm'] is None for p in parts):raise ValueError('Cota sem unidade explícita: '+code)
+        if code.startswith('DIM-'):
+            nominal=nominal_parts(code,row['valor_nominal_atual'])
+            if len(parts)!=len(nominal):raise ValueError('DIM exige todos os eixos: '+code)
+        writer.writerow({k:row[k] for k in writer.fieldnames});count+=1
+    return output.getvalue().encode('utf-8'),count
 
 
 def iso(value):
@@ -78,11 +110,15 @@ def atomic_write(path,content):
         if os.path.exists(name):os.unlink(name)
 
 
-def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None):
+def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None,field_path=None):
     input_path=Path(input_path);csv_path=Path(csv_path)
     report_path=Path(report_path) if report_path else ROOT/'07_Imovel/Relatorio_medidas_reais.md'
     if csv_path.resolve()==report_path.resolve():raise ValueError('CSV e relatório precisam de caminhos distintos')
     if input_path.resolve() in (csv_path.resolve(),report_path.resolve()):raise ValueError('Preservar o JSON de entrada em caminho separado')
+    if field_path is not None:
+        field_path=external(field_path)
+        if field_path in {input_path.resolve(),csv_path.resolve(),report_path.resolve()}:
+            raise ValueError('campo.csv precisa de caminho distinto das fontes e relatório')
     raw_input=input_path.read_bytes();payload=json.loads(raw_input.decode('utf-8-sig'))
     if not isinstance(payload,dict):raise ValueError('Formato de exportação incompatível')
     if (str(payload.get('uso','')).lower().startswith('teste') or 'ficticio' in input_path.name.lower()) and csv_path.resolve()==DEFAULT_CSV.resolve():
@@ -146,24 +182,31 @@ def import_file(input_path,csv_path=DEFAULT_CSV,report_path=None):
     writer.writeheader();writer.writerows(rows);data=output.getvalue().encode('utf-8')
     if raw.startswith(b'\xef\xbb\xbf'):data=b'\xef\xbb\xbf'+data
     if csv_path.read_bytes()!=raw:raise ValueError('O CSV mudou durante a importação; repetir com a fonte atual')
-    old_report=report_path.read_bytes() if report_path.exists() else None
-    atomic_write(report_path,report)
+    writes=[(report_path,report)]
+    field_count=0
+    if field_path is not None:
+        field_data,field_count=field_csv(rows);writes.append((field_path,field_data))
+    if data!=raw:writes.append((csv_path,data))
+    applied=[]
     try:
-        if data!=raw:atomic_write(csv_path,data)
+        for path,content in writes:
+            previous=path.read_bytes() if path.exists() else None
+            atomic_write(path,content);applied.append((path,previous))
     except OSError:
-        # A troca do CSV é atômica. Restaurar o relatório se a troca falhar.
-        if old_report is None:report_path.unlink()
-        else:atomic_write(report_path,old_report)
+        for path,previous in reversed(applied):
+            if previous is None:path.unlink()
+            else:atomic_write(path,previous)
         raise
     return dict(recebidos=len(records),preenchidos=len(changes)+len(unchanged),divergencias=len(changes),incompletos=len(pending),antigos_ignorados=len(stale),
-                csv=str(csv_path),relatorio=str(report_path))
+                csv=str(csv_path),relatorio=str(report_path),campo=str(field_path) if field_path else None,entradas_cadeia=field_count)
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--entrada',type=Path,required=True)
     parser.add_argument('--csv',type=Path,default=DEFAULT_CSV);parser.add_argument('--relatorio',type=Path,default=ROOT/'07_Imovel/Relatorio_medidas_reais.md')
+    parser.add_argument('--campo',type=Path,help='CSV numérico para cadeia, fora do repositório')
     args=parser.parse_args()
-    try:print(json.dumps(import_file(args.entrada,args.csv,args.relatorio),ensure_ascii=False))
+    try:print(json.dumps(import_file(args.entrada,args.csv,args.relatorio,args.campo),ensure_ascii=False))
     except (ValueError,KeyError,OSError) as exc:parser.exit(1,'Importação não aplicada: '+str(exc)+'\n')
 
 
