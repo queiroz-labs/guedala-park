@@ -17,3 +17,5 @@ small,.room-note,.work-note,.work-count,.section-label,.stage-heading span,.stag
 @media(pointer:coarse){
 button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44px!important}
 }
+
+@media(max-width:760px){.mast .architect-tools-label{font-size:12px}}

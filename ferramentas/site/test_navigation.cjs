@@ -4,7 +4,7 @@ const app=read('app.js'),shell=read('shell.html'),workshop=read('workshop.js');
 
 // Abas de consulta e levantamento; a planta cotada abre de dentro do Apartamento.
 const nav=shell.match(/<nav aria-label="Conteúdo">([\s\S]*?)<\/nav>/)[1];
-assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['architect','Para o arquiteto'],['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos'],['chaves','Dia das chaves'],['obra','Obra']]);
+assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['architect','Comece aqui'],['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos'],['chaves','Dia das chaves'],['obra','Obra']]);
 assert(!nav.includes('floorplan'),'Planta com medidas não é aba');
 assert(read('floorplan-ui.js').includes('.viewbar .viewtools'),'Botão da planta fica na barra do Apartamento');
 
@@ -39,4 +39,5 @@ assert.equal(tabs.obra,'obra');
 assert.equal(tabs.arquiteto,'architect');
 vm.runInContext(read('architect-core.js'),ctx);const architect=vm.runInContext('GuedalaArchitect',ctx);assert.equal(architect.toolTab('#chaves'),'chaves');assert.equal(architect.toolTab('#obra'),'obra');assert.equal(architect.toolTab('#planta-pe-direito'),null);
 assert(read('context-ui.js').includes("addEventListener('hashchange',toolLink)"));
+for(const [alias,id]of Object.entries(tabs))assert.equal(architect.hashTab('#'+alias,tabs),id,alias);
 console.log(JSON.stringify({tabs:7,status:tally,legacyLinks:Object.keys(tabs).length}));

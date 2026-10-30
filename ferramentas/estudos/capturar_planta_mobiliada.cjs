@@ -24,7 +24,7 @@ async function main(){
  const browser=await chromium.launch({executablePath:browserFile,headless:true});
  try{
   const page=await browser.newPage({viewport:{width:1400,height:1000},deviceScaleFactor:1,offline:true,reducedMotion:'reduce'}),errors=[];
-  page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(html).href);
+  page.on('pageerror',e=>errors.push(e.message));await page.goto(pathToFileURL(html).href+'?aba=apartamento');
   await page.waitForFunction(()=>!!window.GuedalaStudy&&document.querySelector('#scene').dataset.rendered==='true');
   await page.evaluate(()=>document.fonts.ready);
   const actual=await page.evaluate(()=>CAD_DATA.current_revision||CAD_DATA.revision);assert.equal(actual,revision,'Revisão da cena diverge do pedido');

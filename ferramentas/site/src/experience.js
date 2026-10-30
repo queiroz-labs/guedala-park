@@ -94,7 +94,8 @@ function initializeExperience(){
   $('seeScene').onclick=()=>$('stage').scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'center'});
   $('resetExperience').onclick=()=>{applyScenario(SCENARIOS[0]);$('fit').click();toast('De volta à configuração do dia a dia.');};
   $('helpButton').onclick=()=>$('helpDialog').showModal();
-  $('closeHelp').onclick=$('helpExplore').onclick=()=>$('helpDialog').close();
+  $('closeHelp').onclick=()=>$('helpDialog').close();
+  $('helpExplore').onclick=()=>{$('helpDialog').close();tab('model');$('scene').focus({preventScroll:true});};
   $('startTour').onclick=()=>showTourStep(0);
   $('helpTour').onclick=()=>{$('helpDialog').close();tab('model');showTourStep(0);};
   $('tourPrevious').onclick=()=>showTourStep(Math.max(0,tourIndex-1));

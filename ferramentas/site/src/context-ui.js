@@ -15,5 +15,5 @@
  dialog.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();event.stopPropagation();dialog.close();}});
  const measure=()=>document.documentElement.style.setProperty('--mast-height',header.getBoundingClientRect().height+'px');new ResizeObserver(measure).observe(header);measure();
  globalThis.GuedalaGlossary={open};
- const toolLink=()=>{const id=GuedalaArchitect.toolTab(location.hash);if(id)tab(id);};window.addEventListener('hashchange',toolLink);setTimeout(toolLink);
+ const toolLink=()=>{const id=GuedalaArchitect.hashTab(location.hash,WORK_TABS);let target;try{target=document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{return;}const page=id||target?.closest('.tabpage')?.id;if(page){tab(page);if(page==='documents')GuedalaWorkshop.drawDocuments();if(target)requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}};window.addEventListener('hashchange',toolLink);setTimeout(toolLink);
 })();

@@ -53,7 +53,7 @@ html=html.replace('/*DETAILS_IMAGES*/','globalThis.GUEDALA_DETAILS='+__import__(
 html=subprocess.run([shutil.which('node') or 'node',str(root/'compact_inline.cjs')],input=html,text=True,encoding='utf-8',capture_output=True,check=True).stdout
 (root/'Guedala_Park_Interativo.html').write_text(html,encoding='utf-8')
 # Same self-contained artifact with the moodboard active after initialization.
-board=html.replace('src="src/downloads-data.js"','src="../ferramentas/site/src/downloads-data.js"').replace('</body>','<script>if(!new URLSearchParams(location.search).has("perfil"))tab("mood");</script></body>')
+board=html.replace('<body>','<body data-start-tab="mood">').replace('src="src/downloads-data.js"','src="../ferramentas/site/src/downloads-data.js"')
 (root.parent.parent/'09_Referencias'/'Moodboard_atualizado_R01.html').write_text(board,encoding='utf-8')
 print(f'HTML principal: {len(html.encode("utf-8")):,} bytes; moodboard atualizado.')
 build_field_standalone()

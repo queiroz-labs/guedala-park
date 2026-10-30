@@ -2,7 +2,9 @@ const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),asse
 const read=p=>fs.readFileSync(path.join(__dirname,p),'utf8'),ctx=vm.createContext({URLSearchParams});
 vm.runInContext(read('src/architect-data.js')+read('src/architect-core.js'),ctx);const d=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_ARCHITECT)',ctx));
 const core=vm.runInContext('GuedalaArchitect',ctx),state=read('../../ESTADO_ATUAL.md');
-assert.equal(core.entryTab('?perfil=arquiteto'),'architect');assert.equal(core.entryTab(''),null);assert.equal(core.entryTab('?perfil=arquiteto&aba=materiais'),null);
+assert.equal(core.entryTab('?perfil=arquiteto'),'architect');assert.equal(core.entryTab(''),'architect');assert.equal(core.entryTab('?perfil=arquiteto&aba=materiais'),null);
+for(const id of ['model','mood','decisions','documents','chaves','obra','floorplan']){assert.equal(core.entryTab('','#'+id),null);assert.equal(core.hashTab('#'+id),id);}
+assert.equal(core.hashTab('#planta-pe-direito'),'floorplan');assert.equal(core.hashTab('#scene'),'model');assert.equal(core.hashTab('#%XX'),null);
 assert.equal(d.progress.length,9);for(const p of d.progress){assert(state.includes(p.percent));assert(state.includes(p.stage));assert.equal(p.source,'ESTADO_ATUAL.md');}
 assert.equal(d.overview.model,JSON.parse(read('current_release.json')).cadRevision);
 assert(d.overview.project.includes('40,18'));assert(d.overview.project.includes('Não entregue'));
