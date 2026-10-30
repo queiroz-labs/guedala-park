@@ -30,6 +30,8 @@ jobs:
           fi
       - name: Instalar ferramenta de build
         run: npm ci --prefix ferramentas/site --ignore-scripts
+      - name: Instalar Pillow (o build do site compacta imagens)
+        run: python3 -m pip install --disable-pip-version-check Pillow==11.3.0
       - name: Conferir orientação e aberturas
         run: |
           node ferramentas/site/test_orientation.cjs
