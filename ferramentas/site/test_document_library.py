@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import unquote,urlsplit
 import build_workshop_docs as docs
 from document_library import HOME,selected_sources
+from build_work_data import document_paths as work_document_paths
 
 
 class Links(HTMLParser):
@@ -53,6 +54,10 @@ class DocumentLibraryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix='gp-library-') as tmp:
             target=Path(tmp)/'docs'
             with contextlib.redirect_stdout(io.StringIO()):docs.build(target=target)
+            for source in work_document_paths():
+                exported=target/(source+'.html')
+                self.assertTrue(exported.is_file(),source)
+                self.assertIn('<html',exported.read_text(encoding='utf-8'),source)
             for source in docs.GENERATED_PAGES:
                 content=(target/source).read_text(encoding='utf-8')
                 self.assertNotIn('data-unpublished-reference',content,source)

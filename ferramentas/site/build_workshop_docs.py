@@ -9,6 +9,7 @@ from urllib.parse import urlsplit, unquote, quote
 import json, re, shutil, posixpath, runpy, copy
 from document_library import configure as configure_library, HOME as LIBRARY_HOME
 from current_release import load_release
+from build_work_data import document_paths as work_document_paths
 RELEASE = load_release()
 
 STUDY = Path(__file__).resolve().parent
@@ -86,6 +87,7 @@ for item in RELEASE.get('technicalDocuments',[]):
     doc(item['id'],item['title'],item.get('category','Avanços e pendências'),item['room'],item.get('status','Estudo separado'),item['summary'],item['path'])
 
 ASSETS = [
+    *work_document_paths(),
     'ferramentas/site/current_release.json',
     *[str(Path(RELEASE['cadReadme']).parent/n).replace('\\','/')for n in RELEASE['cadEvidence']],
     R49+'Verificacao_R49.json', R49+'Diferencas_CAD.json',
@@ -291,6 +293,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
     if not export_docs:return dict(modules=20,documents=len(DOCS),exported=False)
     mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path'] and not d.get('generated')}
     mapping.update({p:p for p in ASSETS})
+    mapping.update({p:p+'.html' for p in work_document_paths()})
     missing_sources=[src for src in mapping if not(ROOT/src).is_file()]
     mapping={src:dst for src,dst in mapping.items()if(ROOT/src).is_file()}
     mapping.update({p:p for p in GENERATED_PAGES})

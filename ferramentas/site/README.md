@@ -32,11 +32,7 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 ## Referências da interface
 
-As revisões anteriores de iluminação, interiores e compatibilização ficam no git. Permanecem os controles de movimentos e as verificações de produtos, medidas, instalações e oficina descritas nas fichas atuais. As autorizações de publicação anteriores não se estendem a alterações locais novas.
-
-## Navegação e referências anteriores
-
-A navegação mantém ambientes, fichas, Materiais e Escolhas, visitas guiadas e controles de movimentos. [Verificação inicial](Verificacao_interface_R08.json): computador/celular, teclado, abas e21 combinações de vistas. Referências anteriores de planta e publicação ficam no histórico do git; prevalecem a configuração corrente e as instruções abaixo.
+A interface mantém fichas, visitas e movimentos; limites físicos nas fontes vigentes. [Verificação inicial](Verificacao_interface_R08.json): teclado, computador/celular e21 vistas. Revisões e autorizações anteriores ficam no git e não autorizam publicar alterações novas.
 
 [Apartamento](Guedala_Park_Interativo.html) · [Moodboard](../../09_Referencias/Moodboard_atualizado_R01.html) · [Estado atual](../../ESTADO_ATUAL.md).
 
@@ -45,7 +41,7 @@ A navegação mantém ambientes, fichas, Materiais e Escolhas, visitas guiadas e
 1. Escolha o ambiente e a vista: superior, 3D ou lateral. A vista lateral tem quatro direções e pode ocultar a metade oposta do ambiente para facilitar a leitura.
 2. Arraste para girar o 3D; use a roda do mouse ou pinça com dois dedos para aproximar. Nas vistas superior/lateral, arrastar desloca o desenho. “Enquadrar” restaura a câmera.
 3. Toque ou clique em um móvel para abrir sua ficha, com dimensões, material, origem da decisão e o que falta conferir. No celular, também existe “Ver móveis deste ambiente”.
-4. Em “Mesa extensível”, alterne 150 cm recolhida e 180 cm aberta. O centro e o banco ficam fixos; as três cadeiras guardadas ficam na lateral livre, com a central mais para fora. As posições longitudinais acompanham a mesa. Cabeceira sem cadeira; cotas e fichas distinguem o plano da validação de encaixe. Folha removível prevista no banco; encaixe real pendente. Veja também as transições animadas ao alternar Bonnie fechado/aberto/baú, escritório em trabalho/hóspedes, três cadeiras guardadas na lateral/em uso, PS5 na sala/escritório e os três estados conceituais do varal.
+4. “Mesa extensível” alterna 150/180 cm, com centro/banco fixos e três cadeiras na lateral. As transições de Bonnie, escritório, cadeiras, PS5 e varal são conceituais; encaixe e mecanismos seguem pendentes nas fichas.
 5. Consulte as passagens e expanda “Ajustar hipóteses de circulação” para testar afastamento do sofá, profundidade do apoio da TV e espessura da cabeceira. Esses ajustes são simulações; recarregar restaura as decisões.
 6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
 7. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
@@ -123,3 +119,9 @@ Cada alteração tenta salvar no navegador; bloqueio/quota/corrupção mantém f
 Teste `node ferramentas/site/test_field.cjs`: persistência, duas abas, fallback, importação atômica, CSV protegido e diferença. Build e todos os testes em `python -B ferramentas/verificar_site.py` passaram. Emulação412×915: delta−16mm, persistência após recarregar, conferência manual e exportação JSON/CSV verificadas; não teste físico no celular. Sem push/deploy.
 
 Direção visual: identidade do próprio site como referência principal; mesmos tokens/tipografia, agrupamento por cômodo e ações inferiores para uma mão. Controles≥44px, rótulos e foco visível seguem o guia de formulários da habilidade Refero. Consulta ao MCP Refero indisponível por assinatura; não foi inventada pesquisa de telas. Nenhuma imagem nova necessária.
+
+## Obra — local
+
+Sexta aba: semanas 0–8 derivadas apenas de `Cronograma_obra_e_compras.md` §2 por `build_work_data.py`; ordem, dependências e observações preservadas. Etapas longas aparecem nas semanas correspondentes, com uma única marcação/contagem. Links da área e plano NBR 16280 acompanham as etapas; [seis dúvidas para o RT](../../05_Orcamento_e_cronograma/README.md#acompanhamento-da-obra-no-site), sem mudar a sequência.
+
+“Feito” salva no aparelho (`guedala:obra:v1`), com fallback em memória e backup `Obra_real.json` por Exportar/Importar obra. Uma etapa cuja semana/condição mudou não herda a marca antiga. O HTML autônomo funciona sem rede; documentos externos exigem conexão ou inclusão na cópia. Fontes: `src/work-*`; testes `test_work.cjs` e `test_work_data.py`, incluídos em `verificar_site.py`. Sem publicação.

@@ -86,6 +86,21 @@ Reproduzir: `python -B ferramentas/estudos/cronograma_risco.py --saida ../output
 
 Valores antigos nos documentos são históricos quando divergem do Orcamento_R43. Nada foi contratado ou comprado.
 
+## Acompanhamento da obra no site
+
+A aba Obra lê exclusivamente a seção 2 do [cronograma](Cronograma_obra_e_compras.md), sem reordenar serviços. “Feito” é anotação local no celular, com exportação/importação; não muda a fonte. [Uso e testes](../ferramentas/site/README.md#obra--local).
+
+**Dúvidas de sequência — a confirmar com RT; ordem atual mantida:**
+
+1. **A confirmar com RT:** qual produto, tempo de cura e resultado do teste de estanqueidade devem anteceder o revestimento, se ambos começam na semana 2 da seção 2?
+2. **A confirmar com RT:** quando e como proteger o vinílico Olmo instalado nas semanas 5–6 antes do box/E21/luminárias na semana 6 e da marcenaria/pedras nas semanas 7–8?
+3. **A confirmar com RT:** conduítes e passagem de água quente pelo forro integram a infraestrutura das semanas 1–2? Quando inspecionar e fechar o forro antes da pintura, já que não há essa etapa na seção 2?
+4. **A confirmar com RT:** qual sequência prevalecerá entre o plano NBR 16280 §5 (pedras antes da marcenaria) e o cronograma §§1/3 (inferiores montados → gabarito → pedras)?
+5. **A confirmar com RT:** gabarito na semana 7 mais fornecimento de pedras de 1–2 semanas inclui instalação e cabe no agregado 7–8? Qual conclusão antecede os testes finais?
+6. **A confirmar com RT:** quais predecessores encerram retoques/limpeza/testes, sem dependência na semana 8 do §2, mas na semana 9 do §1? Como separar pintura-base 4–5 do acabamento após marcenaria?
+
+Fontes: [cronograma §§1–3](Cronograma_obra_e_compras.md) e [plano de reforma §§2–5](../01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md). Nenhum prazo novo presumido.
+
 ## Compras fora do orçamento
 
 Valores fora do R44, sem uso da reserva. Em 29/10/2026, Philips 50PUG8100/78 e TAB4000 estão escolhidas ([fonte](../03_Ambientes/Sala_e_jantar/README.md#tv-e-painel)); TV já provisionada, soundbar ainda a incluir. Preservar totais e preços históricos.
@@ -97,25 +112,15 @@ Valores fora do R44, sem uso da reserva. Em 29/10/2026, Philips 50PUG8100/78 e T
 | Suporte de parede fixo ELG FIX200 para a Samsung 43″ (escritório) | R$ 63,99 | [Kabum](https://www.kabum.com.br/produto/329908/suporte-tv-fixo-elg-para-tvs-e-monitores-ate-43-polegadas-e-30kg-preto-fix200), 29/10/2026 (esgotado); Elias, 29/10/2026: “ok ELG FIX200”; não consta no R44 |
 | Monitor ASUS TUF Gaming VG27AQ5A 27″ (escritório; o AOC 24″ já é dele) | R$ 2.000,00 | [Kabum](https://www.kabum.com.br/produto/747516/monitor-gamer-asus-tuf-27-qhd-210hz-0-3ms-fast-ips-g-sync-comp-freesync-premium-hdr10-som-integrado-vg27aq5a), Pix, 29/10/2026; Elias, 29/10/2026: “deixa os monitores fora do orçamento igual a cadeira do escritorio” |
 
-Controle de 25/10 consolidado em 26/10 no plano: matriz 20/20 revisada, T01 documental concluída. Estudos, ensaios e dados externos continuam separados; dia 26 em andamento. Reserva de 30–31/10 mantida para integração e conferência.
+O [plano de execução](Plano_execucao_ate_31_10.md) reúne o controle T01–T09, critérios e bloqueios de 25–26/10: matriz 20/20 e T01 documentais concluídas; T02/T03 dependem de oficina; T04/T05 delimitam banco/cesto, micro, P08/varal, gavetas e BC43. Ensaios e medidas reais pendentes. A [entrega](../06_Entregas/README.md) registra a verificação histórica T09 dos pacotes R20/R23; prevalece a versão no ESTADO_ATUAL. Reserva de integração 30–31/10 mantida.
 
-Plano enxugado em 26/10/2026: cada tarefa T01–T09 indica situação, bloqueio e fonte técnica. Objetivo, prioridades, agenda, critérios, regras de corte e controle diário preservados; medição mantém somente a matriz 20/20 concluída. Retomar T02/T03 (juntas/suspensão); enquanto a oficina estiver indisponível, continuar T04.
-
-T09, conferência de 26/10: ZIP local R20 íntegro, 196 entradas e CAD R52 com hash correspondente; R23 é a configuração corrente e a publicação remota foi conferida: 251 entradas, CRC e hashes sem falhas; testes e geração temporária do site/pacote passaram. [Evidência e próxima ação](../06_Entregas/README.md). Integração de 30/10 e conferência de 31/10 preservadas.
-
-T04/T05, 26/10: margens de engate do banco/cesto e cadeia dimensional do micro calculadas a partir dos estudos salvos. [Avanços e critérios no plano](Plano_execucao_ate_31_10.md). Nenhum ensaio, novo ângulo/altura adotado ou CAD alterado; próximas entradas são dados da trava e altura útil de trabalho sob o micro.
-
-T05 — P08/varal: percurso nominal P08 de 400 mm conferido contra obstáculos fixos; retirada e guias/batente delimitados. No varal, três cenários com roupa longa atingem o envelope da lixeira; distinguir curso vazio/carregado. Resultados e próximas entradas no [plano](Plano_execucao_ate_31_10.md).
-
-T05 — P01/P06 e banheiro: divergências das sete caixas versus FGVTN 500 identificadas por objeto; faixas de retirada e ferramenta do BC43 calculadas. [Plano e próximas ações](Plano_execucao_ate_31_10.md). Montagens ainda condicionadas, sem mudança da R52.
-
-T07 — memória anterior à proposta smart/Shelly: [consolidado](Orcamento/Orcamento_R43.md) distribui CB02 em L01–L07 (4.415,94; diferença 875,94), sem duplicar banheiro/10,62. Provisão marcenaria 46.500 mantida, pedido/formulário reconciliados com alternativas e regra sem tubos. Valores globais R44 preservados; pacote em espera. Próximo: fechar componentes T06 e obter preços comparáveis.
+T07: [memória CB02 e orçamento](Orcamento/Orcamento_R43.md), com provisão histórica de marcenaria 46.500 e alternativas sem tubos. Componentes, preços comparáveis e contratação pendentes; prevalece o fechamento D05/D06 abaixo.
 
 T07 — agenda 27/10: [cenários A/B](Orcamento/Orcamento_R43.md#cenários-para-decisão-r44--agenda-2710) preservam ou adiam TV da sala, com valores/perdas e metas separadas de descontos. A memória de iluminação 4.415,94 é histórica; proposta vigente parcial 4.938,62. R44 permanece 137.748,11. Elias 27/10/2026, resposta “A”: manter TV nesta etapa; obter metas e reduzir mais 1.179,28, além das lacunas.
 
 Coerência 26/10: M09/cortina do quarto é provisão indevida frente ao Registro 21/09; [delta de escopo](Orcamento/Orcamento_R43.md#divergência-de-escopo-m09--corrigir-na-próxima-consolidação) separado de negociação e sem reabrir a escolha. Não cotar M09; incorporar a retirada na próxima revisão financeira. A decisão A no README do orçamento usa os cenários corrigidos, sem contar essa retirada como desconto.
 
-**Controle diário 27/10 preenchido antecipadamente em 26/10:** entregas documentais, verificações, decisões e bloqueios separados no [plano](Plano_execucao_ate_31_10.md#9-controle-diário). Oficina/medidas não foram marcadas como concluídas. Janela de trabalho desta conversa termina 27/10 às 07:30 de Brasília; sem publicação/envios.
+**Controle de 27/10:** [plano e bloqueios](Plano_execucao_ate_31_10.md#9-controle-diário); oficina/medidas não concluídas, sem envios.
 
 P02: uso definido por Elias em 27/10/2026 (U1–U4=A); [plano](Plano_execucao_ate_31_10.md) atualizado. Requisito 10 kg, organização por zonas e preservação de vãos/aparência; comprovação técnica pendente.
 
