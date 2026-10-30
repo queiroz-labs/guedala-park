@@ -1,0 +1,359 @@
+[
+ {
+  "id": "M-COZ-01",
+  "ambiente": "cozinha",
+  "segundo": 12,
+  "path": "Fotos/cozinha/M-COZ-01_00m12s.jpg",
+  "legenda": "Cozinha em corredor: aéreo de madeira com forno elétrico e micro-ondas, cooktop a gás e cuba na bancada preta; lava e seca e forno embutido sob a bancada"
+ },
+ {
+  "id": "M-COZ-02",
+  "ambiente": "cozinha",
+  "segundo": 24,
+  "path": "Fotos/cozinha/M-COZ-02_00m24s.jpg",
+  "legenda": "Corredor da cozinha visto da sala: janela ao fundo, geladeira de duas portas à direita"
+ },
+ {
+  "id": "M-COZ-03",
+  "ambiente": "cozinha",
+  "segundo": 84,
+  "path": "Fotos/cozinha/M-COZ-03_01m24s.jpg",
+  "legenda": "Frente dos inferiores: forno embutido e gavetas largas sem puxador aparente"
+ },
+ {
+  "id": "M-COZ-04",
+  "ambiente": "cozinha",
+  "segundo": 108,
+  "path": "Fotos/cozinha/M-COZ-04_01m48s.jpg",
+  "legenda": "Gaveta larga com vassoura e rodo (cabos desmontados)"
+ },
+ {
+  "id": "M-COZ-05",
+  "ambiente": "cozinha",
+  "segundo": 156,
+  "path": "Fotos/cozinha/M-COZ-05_02m36s.jpg",
+  "legenda": "Parede da cuba: revestimento 3D, torneira de bancada, escorredor e tomada dupla alta"
+ },
+ {
+  "id": "M-COZ-06",
+  "ambiente": "cozinha",
+  "segundo": 312,
+  "path": "Fotos/cozinha/M-COZ-06_05m12s.jpg",
+  "legenda": "Nicho aéreo aberto para micro-ondas e forno elétrico; relato de 32 cm de altura × 34 cm de profundidade (05:23)"
+ },
+ {
+  "id": "M-COZ-07",
+  "ambiente": "cozinha",
+  "segundo": 204,
+  "path": "Fotos/cozinha/M-COZ-07_03m24s.jpg",
+  "legenda": "Aéreo de madeira com caixa vazada embaixo, sobre a máquina; janela e grelha de ventilação na parede"
+ },
+ {
+  "id": "M-COZ-08",
+  "ambiente": "cozinha",
+  "segundo": 228,
+  "path": "Fotos/cozinha/M-COZ-08_03m48s.jpg",
+  "legenda": "Portinha sob a bancada junto à cuba (produtos de limpeza e cesto de roupa, relato 03:48)"
+ },
+ {
+  "id": "M-COZ-09",
+  "ambiente": "cozinha",
+  "segundo": 240,
+  "path": "Fotos/cozinha/M-COZ-09_04m00s.jpg",
+  "legenda": "Janela da área de serviço com veneziana fixa de alumínio; armário alto de madeira ao lado"
+ },
+ {
+  "id": "M-COZ-10",
+  "ambiente": "cozinha",
+  "segundo": 276,
+  "path": "Fotos/cozinha/M-COZ-10_04m36s.jpg",
+  "legenda": "Janela do serviço (parte com veneziana e parte de correr) e ganchos na parede"
+ },
+ {
+  "id": "M-COZ-11",
+  "ambiente": "cozinha",
+  "segundo": 288,
+  "path": "Fotos/cozinha/M-COZ-11_04m48s.jpg",
+  "legenda": "Vista do fundo para a cozinha: máquina, forno, cooktop, nicho e grelha na parede da janela"
+ },
+ {
+  "id": "M-COZ-12",
+  "ambiente": "cozinha",
+  "segundo": 348,
+  "path": "Fotos/cozinha/M-COZ-12_05m48s.jpg",
+  "legenda": "Coifa curva de vidro com comando de quatro botões sob o nicho"
+ },
+ {
+  "id": "M-COZ-13",
+  "ambiente": "cozinha",
+  "segundo": 372,
+  "path": "Fotos/cozinha/M-COZ-13_06m12s.jpg",
+  "legenda": "Torneira flexível de bancada com dois tipos de jato; cooktop à esquerda"
+ },
+ {
+  "id": "M-COZ-14",
+  "ambiente": "cozinha",
+  "segundo": 444,
+  "path": "Fotos/cozinha/M-COZ-14_07m24s.jpg",
+  "legenda": "Gaveta de talheres com organizador sob o tampo"
+ },
+ {
+  "id": "M-LAV-01",
+  "ambiente": "lavanderia",
+  "segundo": 1548,
+  "path": "Fotos/lavanderia/M-LAV-01_25m48s.jpg",
+  "legenda": "Máquina lava e seca atrás de porta de abrir sob a bancada, com prateleira interna e dobradiças; relato: aquecedor atrás da mesma porta (04:06)"
+ },
+ {
+  "id": "M-LAV-02",
+  "ambiente": "lavanderia",
+  "segundo": 1560,
+  "path": "Fotos/lavanderia/M-LAV-02_26m00s.jpg",
+  "legenda": "Varal de teto retrátil com cordas e roldanas, fixado na parede"
+ },
+ {
+  "id": "M-SAL-01",
+  "ambiente": "sala",
+  "segundo": 36,
+  "path": "Fotos/sala/M-SAL-01_00m36s.jpg",
+  "legenda": "Sala vista do corredor: painel ripado com TV, aparador e mesa redonda sob a janela"
+ },
+ {
+  "id": "M-SAL-02",
+  "ambiente": "sala",
+  "segundo": 48,
+  "path": "Fotos/sala/M-SAL-02_00m48s.jpg",
+  "legenda": "Parede revestida atrás do sofá, mesa redonda e janela com cortina"
+ },
+ {
+  "id": "M-SAL-03",
+  "ambiente": "sala",
+  "segundo": 456,
+  "path": "Fotos/sala/M-SAL-03_07m36s.jpg",
+  "legenda": "Painel ripado com TV de 55\" (relato 08:04) e passagem para os quartos ao fundo; interfone à direita"
+ },
+ {
+  "id": "M-SAL-04",
+  "ambiente": "sala",
+  "segundo": 504,
+  "path": "Fotos/sala/M-SAL-04_08m24s.jpg",
+  "legenda": "Forro rebaixado com spots sobre o painel; caixas de som nos cantos"
+ },
+ {
+  "id": "M-SAL-05",
+  "ambiente": "sala",
+  "segundo": 540,
+  "path": "Fotos/sala/M-SAL-05_09m00s.jpg",
+  "legenda": "Vista oposta: painel até o forro, janela da cozinha ao fundo, geladeira"
+ },
+ {
+  "id": "M-SAL-06",
+  "ambiente": "sala",
+  "segundo": 576,
+  "path": "Fotos/sala/M-SAL-06_09m36s.jpg",
+  "legenda": "Rack raso preto brilhante: profundidade só a dos aparelhos (relato 09:25)"
+ },
+ {
+  "id": "M-SAL-07",
+  "ambiente": "sala",
+  "segundo": 648,
+  "path": "Fotos/sala/M-SAL-07_10m48s.jpg",
+  "legenda": "Parede decorada atrás do sofá, com spots"
+ },
+ {
+  "id": "M-SAL-08",
+  "ambiente": "sala",
+  "segundo": 672,
+  "path": "Fotos/sala/M-SAL-08_11m12s.jpg",
+  "legenda": "Sofá retrátil de dois módulos avançando até o meio da sala, tapete e mesa ao fundo"
+ },
+ {
+  "id": "M-SAL-09",
+  "ambiente": "sala",
+  "segundo": 684,
+  "path": "Fotos/sala/M-SAL-09_11m24s.jpg",
+  "legenda": "Aparador de madeira ao lado da porta do quarto e da mesa"
+ },
+ {
+  "id": "M-SAL-10",
+  "ambiente": "sala",
+  "segundo": 732,
+  "path": "Fotos/sala/M-SAL-10_12m12s.jpg",
+  "legenda": "Janela da sala/jantar com parapeito alto e cortina; relato: sentado se vê a rua, no sofá só o céu (12:12–12:36)"
+ },
+ {
+  "id": "M-SAL-11",
+  "ambiente": "sala",
+  "segundo": 792,
+  "path": "Fotos/sala/M-SAL-11_13m12s.jpg",
+  "legenda": "Roteador e fios sob o tampo do aparador, vão aberto atrás (relato 13:06–13:16)"
+ },
+ {
+  "id": "M-SAL-12",
+  "ambiente": "sala",
+  "segundo": 1572,
+  "path": "Fotos/sala/M-SAL-12_26m12s.jpg",
+  "legenda": "Aparador com duas gavetas e porta: cantinho do café (relato 12:44–13:03)"
+ },
+ {
+  "id": "M-BAN-01",
+  "ambiente": "banheiro",
+  "segundo": 816,
+  "path": "Fotos/banheiro/M-BAN-01_13m36s.jpg",
+  "legenda": "Vaso, bancada com cuba esculpida e gabinete suspenso de duas gavetas"
+ },
+ {
+  "id": "M-BAN-02",
+  "ambiente": "banheiro",
+  "segundo": 828,
+  "path": "Fotos/banheiro/M-BAN-02_13m48s.jpg",
+  "legenda": "Cuba esculpida com escoamento linear e torneira quadrada de bancada"
+ },
+ {
+  "id": "M-BAN-03",
+  "ambiente": "banheiro",
+  "segundo": 888,
+  "path": "Fotos/banheiro/M-BAN-03_14m48s.jpg",
+  "legenda": "Vaso com caixa acoplada ao lado do gabinete de duas gavetas"
+ },
+ {
+  "id": "M-BAN-04",
+  "ambiente": "banheiro",
+  "segundo": 900,
+  "path": "Fotos/banheiro/M-BAN-04_15m00s.jpg",
+  "legenda": "Gaveta de toalhas: abertura limitada pela porta, relato 14:55–15:03"
+ },
+ {
+  "id": "M-BAN-05",
+  "ambiente": "banheiro",
+  "segundo": 948,
+  "path": "Fotos/banheiro/M-BAN-05_15m48s.jpg",
+  "legenda": "Box de vidro com o vaso visível ao lado; revestimento amadeirado dentro do box"
+ },
+ {
+  "id": "M-BAN-06",
+  "ambiente": "banheiro",
+  "segundo": 972,
+  "path": "Fotos/banheiro/M-BAN-06_16m12s.jpg",
+  "legenda": "Chuveiro de teto retangular e janela dentro do box"
+ },
+ {
+  "id": "M-BAN-07",
+  "ambiente": "banheiro",
+  "segundo": 984,
+  "path": "Fotos/banheiro/M-BAN-07_16m24s.jpg",
+  "legenda": "Janela projetante (vidro fosco) dentro do box, de frente"
+ },
+ {
+  "id": "M-BAN-08",
+  "ambiente": "banheiro",
+  "segundo": 996,
+  "path": "Fotos/banheiro/M-BAN-08_16m36s.jpg",
+  "legenda": "Janela projetante e toalha ao lado do box"
+ },
+ {
+  "id": "M-BAN-09",
+  "ambiente": "banheiro",
+  "segundo": 1008,
+  "path": "Fotos/banheiro/M-BAN-09_16m48s.jpg",
+  "legenda": "Dois registros cromados e saboneteira de vidro na parede do box"
+ },
+ {
+  "id": "M-CIR-01",
+  "ambiente": "circulacao",
+  "segundo": 1044,
+  "path": "Fotos/circulacao/M-CIR-01_17m24s.jpg",
+  "legenda": "Corredor: portas de batente branco e parede cinza"
+ },
+ {
+  "id": "M-CIR-02",
+  "ambiente": "circulacao",
+  "segundo": 1056,
+  "path": "Fotos/circulacao/M-CIR-02_17m36s.jpg",
+  "legenda": "Corredor com forro rebaixado e spot; três portas"
+ },
+ {
+  "id": "M-QB-01",
+  "ambiente": "quarto_beliche",
+  "segundo": 1092,
+  "path": "Fotos/quarto_beliche/M-QB-01_18m12s.jpg",
+  "legenda": "Quarto menor: beliche com baú e bancada dupla junto à janela"
+ },
+ {
+  "id": "M-QB-02",
+  "ambiente": "quarto_beliche",
+  "segundo": 1104,
+  "path": "Fotos/quarto_beliche/M-QB-02_18m24s.jpg",
+  "legenda": "Beliche e janela de correr com persiana rolô"
+ },
+ {
+  "id": "M-QB-03",
+  "ambiente": "quarto_beliche",
+  "segundo": 1128,
+  "path": "Fotos/quarto_beliche/M-QB-03_18m48s.jpg",
+  "legenda": "Ventilador de teto com luminária, janela com persiana e nichos de parede"
+ },
+ {
+  "id": "M-QB-04",
+  "ambiente": "quarto_beliche",
+  "segundo": 1224,
+  "path": "Fotos/quarto_beliche/M-QB-04_20m24s.jpg",
+  "legenda": "TV na parede sobre a bancada; prateleira aérea acima"
+ },
+ {
+  "id": "M-QB-05",
+  "ambiente": "quarto_beliche",
+  "segundo": 1284,
+  "path": "Fotos/quarto_beliche/M-QB-05_21m24s.jpg",
+  "legenda": "Prateleira aérea sobre a TV"
+ },
+ {
+  "id": "M-QC-01",
+  "ambiente": "quarto_casal",
+  "segundo": 1308,
+  "path": "Fotos/quarto_casal/M-QC-01_21m48s.jpg",
+  "legenda": "Armário lateral de portas lisas, até perto do teto; porta do quarto aberta"
+ },
+ {
+  "id": "M-QC-02",
+  "ambiente": "quarto_casal",
+  "segundo": 1332,
+  "path": "Fotos/quarto_casal/M-QC-02_22m12s.jpg",
+  "legenda": "Cama de 1,30 m (relato 22:12) com cabeceira em painel e criado-mudo suspenso"
+ },
+ {
+  "id": "M-QC-03",
+  "ambiente": "quarto_casal",
+  "segundo": 1344,
+  "path": "Fotos/quarto_casal/M-QC-03_22m24s.jpg",
+  "legenda": "Cabeceira em painel de madeira com luminária de leitura"
+ },
+ {
+  "id": "M-QC-04",
+  "ambiente": "quarto_casal",
+  "segundo": 1440,
+  "path": "Fotos/quarto_casal/M-QC-04_24m00s.jpg",
+  "legenda": "Painel da cama com criados e nichos iluminados"
+ },
+ {
+  "id": "M-QC-05",
+  "ambiente": "quarto_casal",
+  "segundo": 1464,
+  "path": "Fotos/quarto_casal/M-QC-05_24m24s.jpg",
+  "legenda": "Aéreos lisos sobre a cabeceira, até o limite do pé-direito (relato 24:26)"
+ },
+ {
+  "id": "M-QC-06",
+  "ambiente": "quarto_casal",
+  "segundo": 1524,
+  "path": "Fotos/quarto_casal/M-QC-06_25m24s.jpg",
+  "legenda": "TV na parede ao lado da porta, com prateleira e canaleta de fiação"
+ },
+ {
+  "id": "M-QC-07",
+  "ambiente": "quarto_casal",
+  "segundo": 1584,
+  "path": "Fotos/quarto_casal/M-QC-07_26m24s.jpg",
+  "legenda": "Armário aberto: cabides, profundidade rasa e gavetas internas"
+ }
+]

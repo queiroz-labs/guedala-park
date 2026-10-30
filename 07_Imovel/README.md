@@ -112,6 +112,7 @@ Os HTMLs podem ser abertos no navegador e contêm as imagens incorporadas. Vers�
 - [Índice das fotos](indice_frames.json): relação entre arquivos, ambientes e horários.
 - [Transcrição com horários](Complemento/Transcricao_automatica_com_horarios.txt): transcrição automática, sujeita a erros.
 - `triagem/` e as pastas de apoio do complemento guardam quadros e imagens de seleção.
+- [Vídeo do apartamento mobiliado](Mobiliado/README.md): 51 quadros catalogados (códigos M-…), medidas relatadas pelo morador e o que ele responde das lacunas do vazio.
 
 **Histórico:** relatório R00 em HTML e texto R00. Use R01 com as correções de R02 para continuar. Os códigos dos quartos nas fotos foram mantidos para rastreabilidade; a identificação corrigida está no complemento.
 
