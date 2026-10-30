@@ -13,9 +13,11 @@ A importação recebia `#bbbdb7` quando o objeto não tinha `MaterialReferencia`
 | Escritório | Arenza na bancada e frentes de gavetas; aéreo off-white; Daiane cinza-claro preservada |
 | Cozinha | Inferiores Arenza; superiores Guararapes Azul Petróleo; forno Fischer preto; Branco Itaúnas e inox preservados |
 | Lavanderia | Marcenaria Arenza; pedra Branco Itaúnas; piso Iseo Marfim |
-| Banheiro | Frentes bege; laterais madeira clara; camada de espelho distinta; Sauge e Travertino Greige preservados |
+| Banheiro | Frentes bege/Louro; Sauge no chuveiro e na janela do box, abertura preservada; outra parede clara; Greige no piso |
 
 Os tons são aproximações. Madeira clara do banheiro não foi substituída por Arenza. Códigos comerciais pendentes continuam pendentes. Acabamento de verso oculto não especificado mantém apenas sua referência visual anterior; tampas sob almofadas continuam neutras por cima e TX por baixo. Nenhum gabarito desconhecido recebe madeira automaticamente.
+
+Fonte do box: Elias, 30/10/2026, “quero que esteja na parede da janela tbm”. A camada visual usa a espessura/altura desenhadas do fundo, sem alterar o CAD vigente ou afirmar medidas reais. Testes de cena/luz conferem o recorte e a composição existente.
 
 ## Fontes e implementação
 

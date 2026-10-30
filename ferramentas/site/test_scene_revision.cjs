@@ -77,5 +77,11 @@ console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:260,bathroomC
 
 // LIX=A: all bodies/lids/pedals move together; units in centimetres.
 const bins=scene({});
+const greenWindow=bins.filter(n=>n.finishRole==='sauge-window');
+assert.equal(greenWindow.length,4);
+const aperture={x:245,z:435,w:12,d:40,y:95,h:110};
+assert(greenWindow.every(n=>n.room==='banho'&&n.mat==='sage'&&n.w===2&&!overlap(n,aperture)));
+assert.equal(greenWindow.reduce((a,n)=>a+n.d*n.h,0),124*225-40*110);
+assert(bins.some(n=>n.room==='banho'&&n.mat==='sage'&&n.z===527&&n.w===80));
 assert.deepEqual(bins.filter(n=>n.id==='trash').map(n=>n.x),[481,481,512]);
 assert.deepEqual(bins.filter(n=>n.id==='recycling').map(n=>n.z),[547,547,574]);

@@ -277,7 +277,7 @@ const PROJECT={
         "banho"
       ],
       "status": "Escolhido",
-      "note": "RB-01 · 7 × 24,4 cm · parede focal do box."
+      "note": "RB-01 · 7 × 24,4 cm · paredes focais do box (fundo e janela, 30/10/2026)."
     },
     {
       "id": "greige",
@@ -994,14 +994,14 @@ const ITEMS=[
   {
     "id": "bathfinish",
     "room": "banho",
-    "name": "Algodão Egípcio, teto branco e uma parede verde",
+    "name": "Algodão Egípcio, teto branco e duas paredes verdes no box",
     "kind": "finish",
     "dimensions": "Amostras, paginação e áreas a conferir",
     "choice": "Direção aprovada",
     "measure": "Produtos complementares pendentes",
     "material": "paint",
     "source": "18/09/2026",
-    "notes": "Paredes fora do box em Algodão Egípcio. Teto branco. Vivant Sauge Mate apenas na parede do chuveiro. Parede clara do box, rejunte, tinta e acessórios exatos a definir. Piso Travertino Reale Greige, Satin fora/EXT dentro conforme adequação técnica."
+    "notes": "Paredes fora do box em Algodão Egípcio. Teto branco. Vivant Sauge Mate nas paredes do chuveiro e da janela; a outra parede interna segue clara. Rejunte, tinta e acessórios exatos a definir. Piso Travertino Reale Greige, Satin fora/EXT dentro conforme adequação técnica."
   },
   {
     "id": "mirror",
@@ -1413,7 +1413,7 @@ const ROOM_NOTES={
   "escritorio": "Prioridade para o trabalho, com o sofá-cama Daiane para hóspedes. O armário superior guarda o equipamento de ciclismo em prateleiras reguláveis. Medidas, peso e alcance a conferir.",
   "cozinha": "Forno Fischer Infinity com grill, cooktop Electrolux KE4GC a gás natural, armários superiores em Azul Petróleo e base em Arenza. Faltam conferir montagem, elétrica, gás, pedra e ventilação.",
   "lavanderia": "Tanque integrado de 38 × 35 × 20 cm, cesto de frente lisa Arenza com saco removível e varal vertical de 100 × 50 cm. Pedra contínua e pintura fosca; tomada fixa de 20 A e luz 3000 K independente. Air fryer e cafeteira só funcionam aqui sem roupas no varal. Hidráulica, ferragens, aquecedor e pontos em estudo.",
-  "banho": "Luz de espelho 4000 K e indireta 3000 K, com comandos separados. Bacia VIP, cuba Slim, torneira Arion, gabinete fechado, ducha Livo e uma parede verde no box. Água quente, box, luminárias e instalações em desenvolvimento."
+  "banho": "Luz de espelho 4000 K e indireta 3000 K, com comandos separados. Bacia VIP, cuba Slim, torneira Arion, gabinete fechado, ducha Livo e duas paredes verdes no box: chuveiro e janela. Água quente, box, luminárias e instalações em desenvolvimento."
 };
 const SOURCES=[
   [

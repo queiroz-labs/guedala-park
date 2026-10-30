@@ -8,6 +8,8 @@ assert.equal(run("enhancedLighting({room:'sala',view:'iso',lighting:'after'})"),
 for(const room of ['all','quarto','banho','escritorio'])assert.equal(run(`enhancedLighting({room:'${room}',view:'iso',lighting:'after'})`),false);
 assert.equal(run("enhancedLighting({room:'sala',view:'top',lighting:'after'})"),false);
 run('buildScene();');
+assert.equal(run("nodes.filter(n=>n.finishRole==='sauge-window'&&n.mat==='sage').length"),4);
+assert.equal(run("nodes.filter(n=>n.room==='banho'&&n.id==='bathlight').length"),2,'Preserva as duas barras do espelho; não acrescenta luminária');
 // Original factors remain exact in Before, including underside and rotated normals.
 assert.equal(run(`nodes.flatMap(mesh).every(f=>JSON.stringify(faceLighting(f,false))===JSON.stringify(rgb(shade(f.c,f.normal[1]?1.04:.80+.11*f.normal[0]-.07*f.normal[2])).map(v=>v/255)))`),true);
 const snapshot=()=>JSON.parse(run(`JSON.stringify(contactPatches(nodes.filter(n=>n.room==='sala').flatMap(mesh)))`));

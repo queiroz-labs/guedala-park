@@ -192,6 +192,9 @@ function buildScene(){nodes=[];nodeSequence={};
   add('shower','banho',255,405,80,124,0,2,'greige','floor');
   add('bathshaft','banho',255,499,80,30,2,18,'greige');
   add('shower','banho',255,527,80,2,0,225,'sage','box',{upper:true});
+  // Sauge na janela do box; abertura 435–475 / 95–205 preservada.
+  for(const [z,d,y,h]of [[405,30,0,225],[475,54,0,225],[435,40,0,95],[435,40,205,20]])
+    add('shower','banho',255,z,2,d,y,h,'sage','box',{upper:true,finishRole:'sauge-window'});
   add('shower','banho',334,405,1,124,0,210,'#9fb2aa','glass');
   for(const zz of [405,528])add('shower','banho',333.5,zz,2,1,0,210,'black');
   add('shower','banho',333.5,405,2,124,209,1,'black');

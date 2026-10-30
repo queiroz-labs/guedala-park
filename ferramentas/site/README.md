@@ -4,7 +4,9 @@
 
 **Modelo R54:** pedestal Berlin e cadeira lateral +15 mm; 106 cenários sem colisões novas. [Relatório e limites](../../02_Modelo_3D/Relatorio_mudanca.md). Publicação anterior em28/10/2026; alterações locais de30/10 não estão publicadas.
 
-**Textos públicos:** o site é visto por outras pessoas. Fichas, Escolhas, Planta e Documentos descrevem o estado atual, sem datas, códigos de revisão, "substitui"/"anterior" nem atribuições. Fontes (`source` em `src/data.js`) ficam nos dados, fora da tela. Registros internos e "o que mudou" saem da biblioteca via `INTERNAL_DOCS` em `plain_language.py`, mas seguem no repositório e nas fichas que os citam.
+**Textos públicos:** estado atual, sem datas/revisões/atribuições. Fontes em `src/data.js`; registros internos preservados no git/fichas, retirados da biblioteca por `INTERNAL_DOCS` em `plain_language.py`.
+
+**Box verde:** duas paredes, chuveiro e janela; outra interna clara (Elias, 30/10/2026: “quero que esteja na parede da janela tbm”). Quantidades são hipóteses; R44 intacto. Estado/README de referências reservados ao commit do Elias.
 
 **Pé-direito nominal:**2,60m nos cômodos/2,50m no banheiro, Elias27/10/2026; [fonte e precedência do medido](../../07_Imovel/README.md). Forros/instalações/móveis condicionados ao levantamento; não alterar o FCStd automaticamente.
 
@@ -117,7 +119,7 @@ Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-
 “Ponto de partida conferido” mantém a trava PR/datum por seção; sem confirmação, só evidência. A “Folha de início” explica a proposta; o protocolo técnico fica recolhido. Pontos/panos ficam recolhidos e opcionais no guia; MOV/ANC/PISO/COMP continuam anotações.
 34 guias usam 14 quadros inspecionados: seis associações trocadas, 23 adicionadas. A cobertura descreve `foto_confere` e origem; sem marcas/reflexos ou cortes inadequados. JPEG 480 px; legendas distinguem unidade espelhada/Mobiliado. Associação dos dormitórios estimada no Complemento R02.
 Cinco ícones ilustram altura/largura/distância/nível/prumo. Setas mostram direita/baixo e “Início (0)” sugerido junto à entrada, sem equiparar ao zero do projeto. O cartão “Antes de começar” lembra a dispensa em `guedala:guia:inicio:v1`, com fallback; não altera medidas.
-[Guia leve offline](Dia_das_chaves.html), menos de 1 MB, inclui fotos/planta/protocolo sem rede. O HTML completo mantém CAD/dossiês e a exceção anterior (>5 MB); instruções deduplicadas e imagem antiga em WebP sem perda de pixels deixam o conjunto menor que o teto existente. Sem capturas no git.
+[Guia leve offline](Dia_das_chaves.html) <1 MB, com fotos/planta/protocolo sem rede. HTML completo conserva CAD/dossiês e teto anterior (>5 MB); deduplicação e WebP sem perda reduzem tamanho. Sem capturas no git.
 Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar com `python -B ferramentas/site/construir.py`. Testes `test_field*.cjs` e importador em `verificar_site.py`; Playwright nos 162 passos a 375/1280 px: sem overflow, botões ≥44 px, campos ≥16 px, persistência e exportação idêntica entre modos. Referência visual: site existente/Refero; pesquisa remota indisponível por assinatura.
 
 ## Obra — local
