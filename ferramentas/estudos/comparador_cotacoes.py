@@ -203,9 +203,11 @@ def missing_cost(code, ref, proposal, proposals, missing):
         if value(line, 'situacao') != 'incluida' or substituted(ref, line):
             continue
         # Comparabilidade exige especificação coincidente, não apenas ID atribuído.
-        if ref['grupo'] == 'chapas' and any(str(value(line, field) or '') != str(ref[field])
-                for field in ['formato', 'espessura_mm']):
-            continue
+        if ref['grupo'] == 'chapas':
+            if (value(line, 'formato') != ref['formato']
+                    or number(value(line, 'espessura_mm')) != number(ref['espessura_mm'])
+                    or key(value(line, 'cor') or '') != key(ref['padrao'])):
+                continue
         if ref['grupo'] == 'ferragens' and key(value(line, 'marca_modelo') or '') != key(ref['item']):
             continue
         price = unit_price(line)
@@ -268,6 +270,11 @@ def compare(proposals, as_of, weights, dependencies=None):
                     alerts.append(f'divergência de chapas: misto {expected}; confirmar cenário/LI por grupo')
                 if not value(line, 'sku'):
                     alerts.append('SKU/processo a confirmar')
+                    unknown.append(code + ': SKU/processo pendente')
+                if (number(value(line, 'espessura_mm')) != number(ref['espessura_mm'])
+                        or key(value(line, 'cor') or '') != key(ref['padrao'])):
+                    alerts.append('cor/espessura diferente ou ausente; não demonstra mesmo escopo')
+                    unknown.append(code + ': cor/espessura pendente')
             if ref['grupo'] == 'fita':
                 if qty is not None and expected and abs(qty / expected - 1) > Decimal('.10'):
                     alerts.append('metragem diverge mais de 10% da referência com perda')

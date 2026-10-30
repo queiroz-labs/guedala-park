@@ -6,17 +6,17 @@ Vigente 29/10/2026; detalhes nos READMEs; teto 14 KB.
 
 Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,18 m², dois dormitórios). **Não entregue**; cotas de projeto a conferir no local.
 
-- **Objetivo:** mudar com tudo pronto, com dois meses de obra depois das chaves e mudança no terceiro mês.
+- **Objetivo:** tudo pronto para mudar; dois meses de obra após chaves, mudança no terceiro.
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
 - **Regra fixa de Elias:** nenhum tubo sustentando chapas de madeira, nem quadro metálico substituto. Qualquer proposta desse tipo exige autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
-- **Chapas e cores:** um acabamento por chapa física, igual nas duas faces; duas peças distintas podem ter cores diferentes (externa 18 mm no padrão, interna 15 mm BrancoTX), com conferência de geometria, ligações e cargas. Não presumir caixa dupla nem inserir 15 mm automaticamente. [Regra e auditoria por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
+- **Chapas e cores:** mesmo acabamento nas duas faces de cada chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria, ligações e cargas; caixa dupla/15 mm não são automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 - **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026, nesta conversa). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 ## Versões vigentes
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | R54: pedestal Berlin; cadeira lateral +15 mm | [Modelo](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [o que contém, como abrir e salvar com segurança](02_Modelo_3D/README.md) |
+| Modelo 3D | R54: pedestal Berlin; cadeira lateral +15 mm | [Modelo](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [conteúdo e abertura/salvamento seguro](02_Modelo_3D/README.md) |
 | Triagem geométrica | Zero peças com geometria própria inválida nas 1.449 conferidas (25/10/2026); 12 contêineres informativos | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
@@ -56,7 +56,7 @@ Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_p
 
 ## Decisões tomadas
 
-- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Tampos com ligações para 18 mm ficam em Branco TX nas duas faces, sem chapa decorativa sobreposta; encontro ao teto acabado a compatibilizar. [Diretriz e cotas atuais](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), compatibilização física de teto/acessos pendente; verificar escopo R53 no README do modelo.
+- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Ligações de 18 mm: tampos Branco TX nas duas faces, sem chapa decorativa sobreposta; compatibilizar teto acabado. [Diretriz e cotas](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), teto/acessos pendentes; escopo R53 no README do modelo.
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** Philips 50PUG8100/78 e TAB4000 (29/10); TCL só reserva. Sofá Bonnie; Berlin com três cadeiras; banco com duas tampas, piano e articuladores com trava (protótipo pendente).
@@ -96,6 +96,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Cotações:** [comparador](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md), sem propostas reais.
 
+**Chaves:** [pipeline e modelo](07_Imovel/README.md#pipeline-de-medidas-no-dia-das-chaves), sem campo real.
+
 ## Próximos passos
 
 1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
@@ -106,7 +108,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- [AGENTS.md](AGENTS.md): `git status`, README da área e busca no Registro, sem leitura integral. [Mapa](README.md).
+- [AGENTS.md](AGENTS.md): `git status`, README da área, busca no Registro (não integral). [Mapa](README.md).
 - [Verificações](ferramentas/README.md): geral antes de commit; completo após abrir CAD; clone limpo `--ci` antes de push. Commit pequeno por assunto.
 - Não usar macros que salvam/fecham documentos nem sobrescrever modelo em consultas. Campo/oficina pendentes: registre a dúvida e siga.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.

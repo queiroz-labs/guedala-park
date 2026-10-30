@@ -1,0 +1,9 @@
+﻿codigo_medida;unidade;ok_ate;atencao_ate;natureza;fonte;quem_confirma
+PD-*;mm;0;5;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+DIM-*;mm;2;5;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+PR-*;mm;2;5;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+PAREDE-*-DESLOCAMENTO;mm;2;5;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+PAREDE-*-ANGULO;grau;0.1;0.3;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+CAMPO-*-ESQUADRO;grau;0.1;0.3;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+CAMPO-*-PISO;mm;1;3;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina
+DEP-COZ-PRUMO;mm;1;3;hipótese de trabalho — a confirmar com RT/oficina;"referência usual, não verificada; sem norma invocada";RT/oficina

@@ -53,7 +53,7 @@ class Comparador(unittest.TestCase):
         other = copy.deepcopy(self.proposals[0])
         other['fornecedor'] = 'F02'
         line = other['linhas']['L001']
-        line.update(preco_unitario=sourced('600'), espessura_mm=sourced('18.0'))
+        line.update(preco_unitario=sourced('600'), espessura_mm=sourced('18'), cor=sourced('Arenza'))
         self.proposals.append(other)
         cost = c.missing_cost('L001', c.references()['L001'], self.proposals[0], self.proposals, Decimal(1))
         self.assertEqual(cost[:3], (Decimal(600), Decimal(600), 'estimado com base em outra proposta'))

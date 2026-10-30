@@ -27,6 +27,64 @@ Os arquivos indicados são **alvos de revisão após validar o levantamento**, n
 
 **Retomada exata:** com acesso à unidade, preencher PD-*, DIM-*, MOV-* e os pontos PTO/OBS usando piso acabado e faces identificadas, anexando fotos/croqui. RT define tolerâncias ainda ausentes e valida infraestrutura, piso e ancoragens; oficina valida encaixe/acesso. Só depois atualizar os arquivos afetados. Sem chaves, preparar documentação do RT e instrumentos; T08 não encerra medição, aprovação profissional ou fabricação.
 
+## Pipeline de medidas no dia das chaves
+
+**Preparado, sem levantamento real.** O [script](../ferramentas/estudos/medidas_chaves.py) gera diferenças, semáforo, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmetros da folha prioritária, 14 auxiliares de piso/esquadro do motor existente e BOX-VERDE, suplemento para a divergência documentada em [Acabamentos](../03_Ambientes/Acabamentos/README.md). Não são medições realizadas.
+
+Os **15 primeiros seguem exatamente a ordem do roteiro vigente/Ranking_15**, por variância explicada; o restante conserva a ordem do índice fonte e depois os complementos. O roteiro atual não documenta uma caminhada espacial completa: não foi inventada. Descrições físicas pendentes continuam indicadas; não converter leitura absoluta do laser em deslocamento da parede sem marcos comuns.
+
+### Uso no dia
+
+Ativar o Python local com `. ..\ferramentas_locais\ativar.ps1`, na raiz. Guardar medidas e fotos **fora do git**, na saída externa. O comando sem entrada produz o diagnóstico de ausência; não preenche zero nem usa a fixture como visita real.
+
+```powershell
+python -B ferramentas/estudos/medidas_chaves.py --gerar-modelo
+Copy-Item ../outputs/Codex_cotacao_e_chaves/medidas_reais_modelo.csv ../outputs/Codex_cotacao_e_chaves/Medidas_reais.csv
+# Preencher a cópia externa, sem alterar o modelo do repositório.
+python -B ferramentas/estudos/medidas_chaves.py --entrada ../outputs/Codex_cotacao_e_chaves/Medidas_reais.csv
+python -B ferramentas/estudos/test_medidas_chaves.py
+```
+
+Não repetir `Copy-Item` sobre a cópia já preenchida. Saída padrão: `../outputs/Codex_cotacao_e_chaves/`. `--saida` aceita outra pasta externa e rejeita o repositório. Usar `-B`; em sandbox com temporário bloqueado, apontar TEMP/TMP para uma pasta externa autorizada antes dos testes.
+
+CSV UTF-8 com separador `;`: **codigo_medida, descricao, valor_nominal, unidade, valor_medido, data_hora, foto/arquivo, obs**. Só preencher as últimas quatro colunas; pode trocar unidade mm/cm/m junto com o número. O nominal da análise vem da fonte, nunca da coluna editável. Ex.: 2598 em mm, ou `2,598` em m; cotas compostas: `1290 x 1540` em mm, na ordem da fonte. Data/hora ISO, exemplo `2026-10-29T10:00:00`; preservar a data real da visita. Códigos desconhecidos/duplicados, eixos incompletos, unidades incompatíveis, negativo em dimensões, não finitos e data inválida são rejeitados. Vazio é sem medida; não é zero. Zero é válido para deslocamento, piso e desvio angular, não para altura/largura.
+
+Linhas `texto` são verificações compostas/qualitativas: descrever em valor_medido/obs e anexar evidência; o motor não extrai cotas de texto livre. Use PD/DIM/PR para os valores numéricos relacionados. Fotografar e identificar os pontos/posições; as várias alturas de um móvel ou leituras de teto precisam de croqui/fotos, não de média automática. A entrada aceita subconjunto dos códigos: os omitidos ficam sem medida.
+
+### Tolerâncias e datum
+
+[Tabela editável de trabalho](../ferramentas/estudos/modelos/Tolerancias_trabalho.csv): **hipótese de trabalho — a confirmar com RT/oficina**. Fonte: **referência usual, não verificada**, sem norma invocada. A tabela é triagem de diferença absoluta em relação ao nominal, não aceitação de obra nem tolerância de fabricação.
+
+| Família | Ok até | Atenção até | Acima |
+|---|---:|---:|---|
+| PD | 0 mm | 5 mm | revisar |
+| DIM, PR e deslocamento de parede | 2 mm | 5 mm | revisar |
+| Ângulo de parede/desvio absoluto de esquadro | 0,1° | 0,3° | revisar |
+| Piso/prumo da cozinha | 1 mm | 3 mm | revisar |
+
+**Qualquer diferença de teto exige rever encontro/arremate**, mesmo em atenção. Para diferença bruta sem hipótese: acrescentar `--modo bruto`; sem tolerância nunca vira ok, mesmo delta zero. Para tolerâncias próprias: `--tolerancias caminho_externo.csv`, com as colunas do modelo (codigo_medida, unidade, ok_ate, atencao_ate, natureza, fonte, quem_confirma). A tabela própria **substitui integralmente** a hipótese; códigos omitidos ficam sem tolerância. Código exato prevalece sobre padrão com `*`; manter uma única regra por família. Unidade da tabela deve corresponder à unidade interna mm/grau, não à unidade escolhida no formulário.
+
+PR/PAREDE sem `--datum arquivo_externo.txt` só têm diferença bruta e alerta; suas coordenadas não são aplicadas na geometria. O arquivo deve documentar M0/M1/E1/E2, direção, faces e transformação para o datum nominal; o script registra seu hash, **não valida a transformação**. Descrição física pendente continua alerta. PAREDE-DESLOCAMENTO é avanço normal assinado já convertido, não distância absoluta; PAREDE-ANGULO é rotação derivada. CAMPO-*-ESQUADRO é desvio absoluto de 90°, não o ângulo total. CAMPO-*-PISO é elevação desde o piso de referência; não descontar novamente se PD já usa o ponto alto.
+
+### Resultados e limites
+
+- `Relatorio_medidas.md`: semáforo por ambiente, o que muda em obra/marcenaria/compra, perguntas e códigos sem medida. `Relatorio_medidas_celular.md`: consulta compacta de uma página, com remissão ao detalhe.
+- `Impactos_medidas.csv`: delta em mm/grau, classificação, móveis/fichas/pranchas, origem, evidência e responsável a consultar. Sem nominal numérico fica atenção. BOX-VERDE compara 800×2250 mm e registra também delta contra 1240×2470 mm; calcula área do retângulo, sem escolher parede, altura ou descontar a compra. O teto vigente do banheiro continua 2500 mm.
+- `Impactos_geometria.json`: reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais bases continuam nominais. Caixas fixas permanecem fixas; referências e nove fechamentos não são peças de corte. Conflito geométrico agrava o semáforo para revisar, inclusive se uma base nominal participar. Ausência de conflito não comprova tolerância nem carga.
+- `Pecas_afetadas.csv`: lista somente painéis dos móveis atingidos por diferença numérica, com C/L atuais, C/L revisados vazios e indicação **reabrir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, fitas e compras continuam sujeitos à revisão indicada.
+- `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quando o vínculo não é suficiente, marca precaução sem ratear preço. **42.469 vínculos** externos não significam 42.469 compras ou novas medidas. Campos logísticos/pós-visita não entram. Condiciona preço à medida real, sem alterar orçamento.
+- `Perguntas_RT.csv`: lavanderia 1540/1610, box/forro, porta sem largura documental, teto/arremates, prumo/esquadro, TV/conduíte, tampas cegas do quadro e datum/regras do condomínio. `Manifesto_medidas.json` guarda hashes de fontes, entrada, datum, tolerâncias e resultados.
+
+Integração com o [comparador](../05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md):
+
+```powershell
+python -B ferramentas/estudos/comparador_cotacoes.py --data 2026-10-29 --dependencias ../outputs/Codex_cotacao_e_chaves/Linhas_dependentes_medidas.csv
+```
+
+No uso real, acrescentar `--entrada` da proposta normalizada e atualizar a data. As fontes de campo, decisões, CAD, base, fichas, corte e orçamento permanecem preservadas. Oito testes **FICTÍCIOS** passaram; cobrem tolerância dentro/fora, sem tolerância, ausência, unidade, decimal, código/duplicação, propagação ao P01, lavanderia e box. Nenhum teste representa visita real.
+
+Hashes das saídas sem campo (29/10/2026): `Relatorio_medidas.md`: `30c1befe9530805fc4b382a6b44e3fbdefb4aa7951734b1187a62cc9a9344b26`; `Linhas_dependentes_medidas.csv`: `64832fdcb8ce2eced33fd75202355458c59f1a800508ce2547a0fb9ecae78b77`. Os demais hashes estão no manifesto externo.
+
 ## Conferência pendente — iluminação de sala/jantar (20/09/2026)
 
 - Conferir se existe conduíte aproveitável entre a caixa de comandos na entrada e a região do painel da TV. Elias não sabe se existe; não tratar como infraestrutura entregue.
