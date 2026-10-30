@@ -57,7 +57,7 @@ def guide_data():
     for guide in guides:
         target=guide['onde']['alvo']
         if target is not None and target not in targets:raise ValueError('Alvo do guia sem geometria: '+str(target))
-        if target is None and 'só cômodo' not in guide['onde']['orientacao']:raise ValueError('Declarar limite de geometria: '+guide['codigo'])
+        if target is None and 'Vale para o cômodo todo' not in guide['onde']['orientacao']:raise ValueError('Declarar limite de geometria: '+guide['codigo'])
     photos={};photo_info={}
     # Quadros inspecionados nesta tarefa: sem rosto, retrato, placa ou marca visível.
     # Não alterar evidência: somente redução/compressão, sem recorte nem retoque.

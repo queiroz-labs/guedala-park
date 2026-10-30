@@ -25,6 +25,6 @@ assert(api.toCsv(copy.exportData()).includes('datum_confirmado'));
 const legacy=store.exportData();delete legacy.medidas[0].datum_confirmado;copy.importFile(JSON.stringify(legacy));assert.equal(copy.get(code).datum_confirmado,false);
 const invalid=store.exportData();invalid.medidas[0].datum_confirmado='true';assert.throws(()=>copy.importFile(JSON.stringify(invalid)));
 assert(read('src/field-ui.js').includes('data-datum-room'));
-assert(read('src/field-ui.js').includes('<details class="field-advanced"><summary>Pontos e panos (avançado)'));
+assert(read('src/field-ui.js').includes('<details class="field-advanced"><summary>Pontos e paredes (mais detalhes)'));
 assert(!read('src/field-ui.js').includes('<details class="field-advanced" open'));
 console.log('Cobertura principal, unidades e confirmação de datum: OK');

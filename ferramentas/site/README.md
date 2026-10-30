@@ -46,13 +46,13 @@ A interface mantém fichas, visitas e movimentos; limites físicos nas fontes vi
 6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
 7. Em “Moodboard”, veja paletas, móveis e dimensões por ambiente. Em “Decisões”, filtre escolhas aprovadas ou itens com decisões/medidas pendentes. O esquema interno aprovado R02 está incorporado à ficha do guarda-roupa.
 
-O arquivo permite salvar uma cópia completa do HTML, exportar dados das escolhas, imprimir o moodboard e salvar uma imagem da vista no computador.
+HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar imagem da vista no computador.
 
 ## No S24 Plus
 
 Envie **Guedala_Park_Interativo.html** ao celular e salve o arquivo. Ele contém os estilos, desenhos e interações, sem arquivos auxiliares ou bibliotecas externas. Abra em um navegador que aceite HTML local; se o aplicativo de arquivos exibir apenas uma prévia, use “Abrir com” um navegador compatível. O tratamento de arquivos locais varia conforme o navegador e o gerenciador de arquivos.
 
-A interface foi verificada em emulação de tela de 412 × 915 pixels lógicos com toque e em 915 × 412 na horizontal, além de computador em 1440 × 1100. Isso testa o layout e os gestos; não equivale a um teste físico no aparelho. A cópia HTML continua funcionando localmente, além da versão web.
+Emulação anterior: 412 × 915 e 915 × 412 com toque; computador 1440 × 1100. Layout/gestos testados, sem equivaler ao aparelho real. A cópia HTML funciona localmente e na web.
 
 ## O que o modelo representa
 
@@ -70,11 +70,11 @@ Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficam
 - [Painel e TV](../../03_Ambientes/Sala_e_jantar/Painel_e_TV.md), [mesa e três cadeiras R03](../../03_Ambientes/Sala_e_jantar/Mesa_e_cadeiras.md), [guarda-roupa R02](../../03_Ambientes/Quarto_e_portas/Guarda_roupa_interior.md) e [cabeceira](../../03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md).
 - [Escritório](../../03_Ambientes/Escritorio/README.md), [cozinha](../../03_Ambientes/Cozinha/README.md) e [lavanderia](../../03_Ambientes/Lavanderia/README.md).
 
-As fontes editáveis ficam em `src`; `construir.py` gera os dois HTML autônomos. Atualizar os dados e os desenhos em conjunto quando uma decisão mudar. A planta anterior F118–F120 e o painel de materiais antigo são históricos.
+Fontes em `src`; `construir.py` gera os HTMLs autônomos. Atualizar dados e desenhos juntos quando houver decisão. Planta F118–F120 e painel de materiais antigo são históricos.
 
 O fluxo `.github/workflows/pages.yml` executa `preparar_pages.py` a cada push em `main` e publica o artefato `.site` com página principal, moodboard, imagem de materiais e identificação da versão. Pages usa GitHub Actions. Fotos da visita e registros ficam no repositório.
 
-Verificação registrada em `Verificacao_completa_R01.json`: 21 combinações de ambientes/vistas, estados, fórmulas de circulação, gestos de toque, esquema R02 incorporado e cópia HTML reaberta. Sem erros JavaScript, requisições externas ou transbordamento horizontal nos cenários testados.
+[Verificação anterior](Verificacao_completa_R01.json): 21 combinações, controles, fórmulas de circulação, toque, esquema R02 e cópia reaberta; sem erros, requisições externas ou transbordamento nos cenários testados.
 
 ## Verificação R05
 
@@ -111,16 +111,18 @@ As páginas geradas entram tanto em docs/ do preview quanto no pacote offline, c
 
 ## Dia das chaves — local, sem publicação
 
-Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-planta, instruções, foto disponível, nominal e campo grande; Pular/Voltar/Próxima e revisão final. “Ver todos” mantém a lista.
-156 itens/162 campos do CSV, sem medidas novas; DIM conserva `/0`/`/1`. Guia e lista usam `guedala:medidas:v1` e o mesmo JSON v1/CSV; fallback, importação atômica e exportação continuam. Sem tolerância presumida.
+Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-planta, instruções, foto disponível, valor do projeto e campo grande; Pular/Voltar/Próxima e revisão final. “Ver todos” mantém a lista.
+156 itens/162 campos do CSV, sem medidas novas; DIM conserva `/0`/`/1`. Guia e lista usam `guedala:medidas:v1` e o mesmo JSON v1/CSV; fallback, importação atômica e exportação continuam. Sem tolerância presumida. Textos dos 162 guias têm frases de até 20 palavras, sem jargão; códigos/fontes ficam em “Código e referência”.
 [Guias por código](guias_campo.json): rascunho externo por `estudos/rascunhar_guias_campo.py`, seguido de edição dos textos. [Cobertura](Cobertura_guias.csv): 78 códigos só com cômodo; 128 sem foto. Alvos nominais vêm de Cotas.pranchas; descrição pendente remete ao protocolo proposto, disponível offline.
-PR-* só entra na cadeia com datum confirmado por seção; sem vínculo, cota vazia e evidência preservada. Pontos/panos ficam recolhidos e opcionais no guia; MOV/ANC/PISO/COMP continuam anotações.
+“Ponto de partida conferido” mantém a trava PR/datum por seção; sem confirmação, só evidência. A “Folha de início” explica a proposta; o protocolo técnico fica recolhido. Pontos/panos ficam recolhidos e opcionais no guia; MOV/ANC/PISO/COMP continuam anotações.
 34 guias usam 14 quadros inspecionados; descrição `foto_confere` e origem na cobertura. Seis associações foram trocadas: teto da cozinha/sala/escritório e janela da lavanderia. Outras 23 receberam foto; as demais continuam sem. Teto com parede, janelas inteiras e elementos reconhecíveis; imagens com marcas/reflexos ou cortes inadequados foram descartadas. JPEG 480 px; fontes espelhadas e Mobiliado têm legendas distintas. Associação dos dormitórios estimada no Complemento R02.
-[Guia leve offline](Dia_das_chaves.html), menos de 1 MB, inclui fotos/planta/protocolo sem rede. O HTML completo mantém CAD/dossiês e a exceção anterior (>5 MB); instruções deduplicadas e imagem antiga em WebP sem perda de pixels deixam o conjunto menor que o teto existente. Nenhuma captura entra no git.
-Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar com `python -B ferramentas/site/construir.py`. Testes `test_field*.cjs` e importador em `verificar_site.py`; Playwright em 375/1280 px: sem overflow, controles ≥44 px, persistência e exportação idêntica entre modos. Pesquisa Refero indisponível por assinatura; referência: site existente e guia de formulários da habilidade.
+[Guia leve offline](Dia_das_chaves.html), menos de 1 MB, inclui fotos/planta/protocolo sem rede. O HTML completo mantém CAD/dossiês e a exceção anterior (>5 MB); instruções deduplicadas e imagem antiga em WebP sem perda de pixels deixam o conjunto menor que o teto existente. Sem capturas no git.
+Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar com `python -B ferramentas/site/construir.py`. Testes `test_field*.cjs` e importador em `verificar_site.py`; Playwright em 375/1280 px: sem overflow, controles ≥44 px, persistência e exportação idêntica entre modos. Referência visual: site existente e guia de formulários Refero; pesquisa remota indisponível por assinatura.
 
 ## Obra — local
 
 Sexta aba: semanas 0–8 derivadas apenas de `Cronograma_obra_e_compras.md` §2 por `build_work_data.py`; ordem, dependências e observações preservadas. Etapas longas aparecem nas semanas correspondentes, com uma única marcação/contagem. Links da área e plano NBR 16280 acompanham as etapas; [seis dúvidas para o RT](../../05_Orcamento_e_cronograma/README.md#acompanhamento-da-obra-no-site), sem mudar a sequência.
 
 “Feito” salva no aparelho (`guedala:obra:v1`), com fallback em memória e backup `Obra_real.json` por Exportar/Importar obra. Uma etapa cuja semana/condição mudou não herda a marca antiga. O HTML autônomo funciona sem rede; documentos externos exigem conexão ou inclusão na cópia. Fontes: `src/work-*`; testes `test_work.cjs` e `test_work_data.py`, incluídos em `verificar_site.py`. Sem publicação.
+
+**Pergunta do guia:** qual ponto ou borda de cada janela, porta e ligação deve receber a ponta da trena, e como o início junto à entrada se relaciona com o desenho? A folha continua proposta; distâncias sem essa definição não são aplicadas.

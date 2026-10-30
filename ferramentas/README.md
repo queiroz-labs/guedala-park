@@ -101,4 +101,4 @@ Fotometria: `estudos/estudo_fotometrico.py` gera [premissas por tarefa](../03_Am
 
 `estudos/medidas_do_celular.py --entrada <json> --saida <pasta externa nova>` importa e executa a cadeia sem abrir CAD; `--csv <cópia externa>` para fixtures. [Uso e limites](../07_Imovel/README.md). Teste de ponta a ponta em `estudos/test_importar_medidas_site.py`, integrado ao verificador do site.
 
-`estudos/rascunhar_guias_campo.py --saida <json externo>` prepara textos do formulário para edição manual, sem substituir o guia revisado. [Modo guiado e limites](site/README.md).
+`estudos/rascunhar_guias_campo.py --saida <json externo>` prepara rascunho simples para edição manual e separa a descrição técnica, sem substituir o guia revisado. [Modo guiado e limites](site/README.md).

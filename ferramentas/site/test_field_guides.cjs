@@ -11,15 +11,24 @@ assert.deepEqual(data.guias,guides,'Regerar field-guide-data.js após editar o g
 const plans=JSON.parse(fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/Cotas.json'),'utf8')).pranchas;
 const targetIds=new Set(plans.openings.concat(plans.points).map(r=>r.id));
 const rooms=new Set([...read('../../06_Entregas/Planta_cotada/Planta_cotada.svg').matchAll(/data-fp-select="([^"]+)"/g)].map(m=>m[1]));
+const PROIBIDOS=[/\bdatum\b/i,/\bnomina(?:l|is)\b/i,/\bPR-/i,/\b[XYZ]\b/,/faces? acabadas?/i,/implanta[çc][ãa]o/i,/marcos? f[íi]sicos?/i,/croqui/i,/s[óo] c[ôo]modo\s*;/i,/referencial/i,/v[íi]nculo/i,/\bP\d{2}\b/,/\bRT\b/];
+function simple(text,context){
+ for(const term of PROIBIDOS)assert(!term.test(text),`${context}: termo técnico ${term} em ${text}`);
+ for(const sentence of text.split(/[.!?;]+/).filter(s=>s.trim()))assert(sentence.trim().split(/\s+/).length<=20,`${context}: frase com mais de 20 palavras: ${sentence}`);
+}
 for(const g of guides){
  assert(g.titulo_simples&&g.como.length>=2&&g.como.length<=3&&g.instrumento);
+ for(const text of [g.titulo_simples,...g.como,g.onde.orientacao,g.instrumento,g.foto_confere||''])simple(text,g.codigo);
  assert(rooms.has(g.onde.comodo)||g.onde.comodo==='all');
  if(g.onde.alvo){assert(targetIds.has(g.onde.alvo));assert(data.targets[g.onde.alvo]);assert(data.overlay.includes(`data-fp-target="${g.onde.alvo}"`));}
- else assert(g.onde.orientacao.includes('só cômodo'));
+ else assert(g.onde.orientacao.includes('Vale para o cômodo todo'));
  const row=rows.find(r=>r.partes.some(p=>p.codigo===g.codigo));
- if(row.como_medir==='ver protocolo de datum')assert(g.como.some(s=>/ver protocolo de datum/i.test(s)),'Não inventar descrição: '+g.codigo);
+ if(row.como_medir==='ver protocolo de datum')assert(g.como.some(s=>/folha de início/i.test(s)),'Não inventar descrição: '+g.codigo);
  if(g.foto){assert(g.foto_confere?.trim(),'Descrever o que foi conferido: '+g.codigo);assert(fs.existsSync(path.resolve(__dirname,'../..',g.foto)));assert(data.photos[g.foto]?.startsWith('data:image/jpeg;base64,'));assert.equal(data.photo_info[g.foto].confere,g.foto_confere);}
 }
+for(const photo of Object.values(data.photo_info))simple(photo.legenda,'legenda da origem');
+assert.throws(()=>simple('Copie o nominal no croqui.','regressão'));
+assert.throws(()=>simple(Array(21).fill('palavra').join(' '),'regressão'));
 // O JPEG deve ser reduzido; lê SOF sem dependência externa para o teste.
 for(const photo of Object.values(data.photos)){
  const b=Buffer.from(photo.split(',')[1],'base64');let found=false;

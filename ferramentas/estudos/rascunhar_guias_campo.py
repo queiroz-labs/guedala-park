@@ -18,11 +18,12 @@ def draft():
         description=descriptions.get(row['codigo'],{})
         for part in row['partes']:
             pending='pendente' in description.get('situacao','')
-            result.append(dict(codigo=part['codigo'],titulo_simples=row['descricao'],
-                onde=dict(comodo=row['ambiente'],alvo=None,orientacao='só cômodo; marco físico a identificar'),
-                como=['ver protocolo de datum' if pending else description.get('descricao_fisica',row['descricao']),
-                      'Rascunho: revisar o texto e a associação física antes de usar.'],
-                instrumento=description.get('instrumento','a definir'),altura_ref_mm=1000,foto=None))
+            result.append(dict(codigo=part['codigo'],titulo_simples='Medida a explicar: '+row['ambiente_nome'],
+                onde=dict(comodo=row['ambiente'],alvo=None,orientacao='Vale para o cômodo todo. Veja a folha de início.'),
+                como=['A folha de início precisa indicar exatamente onde medir.',
+                      'Este texto ainda precisa ser escrito antes de usar o guia.'],
+                instrumento='Trena ou medidor a laser. Celular.',altura_ref_mm=1000,foto=None,foto_confere='',
+                referencia_tecnica=dict(pendente=pending,descricao=description.get('descricao_fisica',row['descricao']),instrumento=description.get('instrumento','a definir'))))
     return result
 
 
