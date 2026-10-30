@@ -58,26 +58,30 @@ def guide_data():
         target=guide['onde']['alvo']
         if target is not None and target not in targets:raise ValueError('Alvo do guia sem geometria: '+str(target))
         if target is None and 'só cômodo' not in guide['onde']['orientacao']:raise ValueError('Declarar limite de geometria: '+guide['codigo'])
-    photos={}
+    photos={};photo_info={}
     # Quadros inspecionados nesta tarefa: sem rosto, retrato, placa ou marca visível.
     # Não alterar evidência: somente redução/compressão, sem recorte nem retoque.
     from PIL import Image
     for photo in sorted({g['foto'] for g in guides if g['foto']}):
+        descriptions={g.get('foto_confere','').strip() for g in guides if g['foto']==photo}
+        if '' in descriptions or len(descriptions)!=1:raise ValueError('Foto precisa de descrição conferida e consistente: '+photo)
         source=(ROOT/photo).resolve()
         if ROOT not in source.parents or not source.is_file():raise ValueError('Foto fora do acervo: '+photo)
-        im=Image.open(source).convert('RGB');im.thumbnail((800,800))
-        stream=io.BytesIO();im.save(stream,format='JPEG',quality=65,optimize=True)
+        im=Image.open(source).convert('RGB');im.thumbnail((480,480))
+        stream=io.BytesIO();im.save(stream,format='JPEG',quality=50,optimize=True)
         photos[photo]='data:image/jpeg;base64,'+base64.b64encode(stream.getvalue()).decode('ascii')
+        photo_info[photo]=dict(confere=next(iter(descriptions)),
+            legenda='Foto de outra unidade, só para você reconhecer o que medir' if '/Mobiliado/' in photo else 'Foto de unidade espelhada; a sua pode ser invertida')
     protocol=(ROOT/'07_Imovel/Roteiro_dia_das_chaves_R01.md').read_text(encoding='utf-8').split('\n---\n')[0]
-    return dict(guias=guides,targets=targets,overlay=''.join(overlay),photos=photos,protocolo_html=protocol_html(protocol))
+    return dict(guias=guides,targets=targets,overlay=''.join(overlay),photos=photos,photo_info=photo_info,protocolo_html=protocol_html(protocol))
 
 
 def build():
     data=guide_data()
     with (HERE/'Cobertura_guias.csv').open('w',encoding='utf-8',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['codigo','comodo','geometria','alvo','foto'])
+        writer=csv.writer(f);writer.writerow(['codigo','comodo','geometria','alvo','foto','foto_confere'])
         for guide in data['guias']:
-            writer.writerow([guide['codigo'],guide['onde']['comodo'],'alvo nominal' if guide['onde']['alvo'] else 'só cômodo',guide['onde']['alvo'] or '',guide['foto'] or 'sem foto'])
+            writer.writerow([guide['codigo'],guide['onde']['comodo'],'alvo nominal' if guide['onde']['alvo'] else 'só cômodo',guide['onde']['alvo'] or '',guide['foto'] or 'sem foto',guide.get('foto_confere','')])
     # Evitar repetir as mesmas instruções e chaves 162 vezes no HTML autônomo.
     methods=[];packed=[]
     for g in data.pop('guias'):
@@ -86,7 +90,7 @@ def build():
     data['itens']=packed;data['metodos']=methods
     js='// Gerado: guias revisados, Cotas.json e quadros existentes.\n'
     js+='globalThis.GUEDALA_FIELD_GUIDE='+json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+';\n'
-    js+="{const d=globalThis.GUEDALA_FIELD_GUIDE;d.guias=d.itens.map(g=>({codigo:g[0],titulo_simples:g[1],onde:{comodo:g[2],alvo:g[3],orientacao:g[4]},como:d.metodos[g[5]],instrumento:g[6],altura_ref_mm:g[7],foto:g[8]}));delete d.itens;delete d.metodos;}\n"
+    js+="{const d=globalThis.GUEDALA_FIELD_GUIDE;d.guias=d.itens.map(g=>({codigo:g[0],titulo_simples:g[1],onde:{comodo:g[2],alvo:g[3],orientacao:g[4]},como:d.metodos[g[5]],instrumento:g[6],altura_ref_mm:g[7],foto:g[8],foto_confere:g[8]?d.photo_info[g[8]].confere:''}));delete d.itens;delete d.metodos;}\n"
     (HERE/'src/field-guide-data.js').write_text(js,encoding='utf-8')
     return js
 

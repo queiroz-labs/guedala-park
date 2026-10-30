@@ -13,7 +13,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PD-COZ",
@@ -29,7 +30,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0446.jpg"
+    "foto": "07_Imovel/Fotos/cozinha/COZ-01_02m30s.jpg",
+    "foto_confere": "Teto e paredes da cozinha vistos juntos."
   },
   {
     "codigo": "PD-LAV",
@@ -45,7 +47,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg",
+    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia."
   },
   {
     "codigo": "PD-ESC",
@@ -61,7 +64,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+    "foto": "07_Imovel/Fotos/dormitorio_A/DRA-01_09m30s.jpg",
+    "foto_confere": "Teto e paredes do primeiro quarto, associado ao escritório pelo percurso filmado."
   },
   {
     "codigo": "PD-BAN",
@@ -77,7 +81,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Fotos/banheiro/BAN-04_08m54s.jpg",
+    "foto_confere": "Teto e paredes do banheiro, acima da janela."
   },
   {
     "codigo": "PD-SAL",
@@ -93,7 +98,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0446.jpg"
+    "foto": "07_Imovel/Fotos/sala/SAL-04_07m30s.jpg",
+    "foto_confere": "Teto e paredes da sala, acima da janela."
   },
   {
     "codigo": "PD-CIR",
@@ -109,7 +115,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Mobiliado/Fotos/circulacao/M-CIR-02_17m36s.jpg",
+    "foto_confere": "Teto rebaixado e paredes do corredor, acima das portas."
   },
   {
     "codigo": "DIM-01/0",
@@ -125,7 +132,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-01/1",
@@ -141,7 +149,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-02/0",
@@ -157,7 +166,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-02/1",
@@ -173,7 +183,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-03",
@@ -189,7 +200,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-04",
@@ -205,7 +217,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-05/0",
@@ -221,7 +234,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-05/1",
@@ -237,7 +251,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-06/0",
@@ -253,7 +268,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-06/1",
@@ -269,7 +285,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-07/0",
@@ -285,7 +302,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-07/1",
@@ -301,7 +319,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-08/0",
@@ -317,7 +336,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DIM-08/1",
@@ -333,7 +353,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P01",
@@ -349,7 +370,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P02",
@@ -365,7 +387,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P03",
@@ -381,7 +404,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P04",
@@ -397,7 +421,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P05",
@@ -413,7 +438,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P06",
@@ -429,7 +455,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P07",
@@ -445,7 +472,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P08",
@@ -461,7 +489,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P09",
@@ -477,7 +506,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P10",
@@ -493,7 +523,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P11",
@@ -509,7 +540,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P12",
@@ -525,7 +557,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P13",
@@ -541,7 +574,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P14",
@@ -557,7 +591,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P15",
@@ -573,7 +608,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P16",
@@ -589,7 +625,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P17",
@@ -605,7 +642,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P18",
@@ -621,7 +659,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P19",
@@ -637,7 +676,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "MOV-P20",
@@ -653,7 +693,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COMP-01",
@@ -669,7 +710,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COMP-02",
@@ -685,7 +727,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COMP-03",
@@ -701,7 +744,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COMP-04",
@@ -717,7 +761,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
   },
   {
     "codigo": "COMP-05",
@@ -733,7 +778,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COMP-06",
@@ -749,7 +795,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0110.jpg",
+    "foto_confere": "Quadro elétrico fechado na parede junto à entrada."
   },
   {
     "codigo": "LAV-TEC",
@@ -765,7 +812,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg",
+    "foto_confere": "Teto, paredes e abertura circular no alto da lavanderia."
   },
   {
     "codigo": "COZ-FAIXA",
@@ -781,7 +829,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "COZ-ACESSO",
@@ -797,7 +846,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "SAL-COND",
@@ -813,7 +863,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Fotos/sala/SAL-02_06m42s.jpg",
+    "foto_confere": "Tomadas e conexões de comunicação na parede da sala."
   },
   {
     "codigo": "ANC-P04",
@@ -829,7 +880,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P09",
@@ -845,7 +897,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P11",
@@ -861,7 +914,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P12",
@@ -877,7 +931,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P15",
@@ -893,7 +948,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P17",
@@ -909,7 +965,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P18",
@@ -925,7 +982,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "ANC-P19",
@@ -941,7 +999,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PISO-P01-P03",
@@ -957,7 +1016,8 @@
     ],
     "instrumento": "Nível laser, régua e trena; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PISO-P08",
@@ -973,7 +1033,8 @@
     ],
     "instrumento": "Nível laser, régua e trena; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PISO-P16",
@@ -989,7 +1050,8 @@
     ],
     "instrumento": "Nível laser, régua e trena; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PISO-P20",
@@ -1005,7 +1067,8 @@
     ],
     "instrumento": "Nível laser, régua e trena; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-EIXO-X",
@@ -1021,7 +1084,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-00-X",
@@ -1037,7 +1101,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-00-Y",
@@ -1053,7 +1118,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-03-X",
@@ -1069,7 +1135,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-03-Y",
@@ -1085,7 +1152,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-04-X",
@@ -1101,7 +1169,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-04-Y",
@@ -1117,7 +1186,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-04-D",
@@ -1133,7 +1203,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-08-X",
@@ -1149,7 +1220,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-08-Y",
@@ -1165,7 +1237,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-10-X",
@@ -1181,7 +1254,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-10-Y",
@@ -1197,7 +1271,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-11-X",
@@ -1213,7 +1288,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-FLOORS-11-Y",
@@ -1229,7 +1305,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-1-X",
@@ -1245,7 +1322,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-1-Y",
@@ -1261,7 +1339,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-1-Z",
@@ -1277,7 +1356,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-2-X",
@@ -1293,7 +1373,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
   },
   {
     "codigo": "PR-JANELA-2-Y",
@@ -1309,7 +1390,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
   },
   {
     "codigo": "PR-JANELA-2-Z",
@@ -1325,7 +1407,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg",
+    "foto_confere": "Janela inteira do primeiro quarto, associado ao escritório pelo percurso filmado."
   },
   {
     "codigo": "PR-JANELA-3-X",
@@ -1341,7 +1424,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-3-Y",
@@ -1357,7 +1441,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-3-Z",
@@ -1373,7 +1458,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-4-X",
@@ -1389,7 +1475,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
   },
   {
     "codigo": "PR-JANELA-4-Y",
@@ -1405,7 +1492,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
   },
   {
     "codigo": "PR-JANELA-4-Z",
@@ -1421,7 +1509,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-08_05m42s.jpg",
+    "foto_confere": "Janela inteira da lavanderia com vidro embaixo e veneziana em cima."
   },
   {
     "codigo": "PR-JANELA-5-X",
@@ -1437,7 +1526,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-5-Y",
@@ -1453,7 +1543,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-JANELA-5-Z",
@@ -1469,7 +1560,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-1-X",
@@ -1485,7 +1577,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-1-Y",
@@ -1501,7 +1594,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-1-Z",
@@ -1517,7 +1611,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-2-X",
@@ -1533,7 +1628,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-2-Y",
@@ -1549,7 +1645,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-2-Z",
@@ -1565,7 +1662,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-3-X",
@@ -1581,7 +1679,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-3-Y",
@@ -1597,7 +1696,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-3-Z",
@@ -1613,7 +1713,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PORTA-4-X",
@@ -1629,7 +1730,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
   },
   {
     "codigo": "PR-PORTA-4-Y",
@@ -1645,7 +1747,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
   },
   {
     "codigo": "PR-PORTA-4-Z",
@@ -1661,7 +1764,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0350.jpg",
+    "foto_confere": "Porta de entrada fechada com maçaneta e parede ao lado."
   },
   {
     "codigo": "PR-PONTO-C02-X",
@@ -1677,7 +1781,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C02-Y",
@@ -1693,7 +1798,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C02-Z",
@@ -1709,7 +1815,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C05-X",
@@ -1725,7 +1832,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C05-Y",
@@ -1741,7 +1849,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C05-Z",
@@ -1757,7 +1866,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C06-X",
@@ -1773,7 +1883,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C06-Y",
@@ -1789,7 +1900,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C06-Z",
@@ -1805,7 +1917,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C07-X",
@@ -1821,7 +1934,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C07-Y",
@@ -1837,7 +1951,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C07-Z",
@@ -1853,7 +1968,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C11-X",
@@ -1869,7 +1985,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C11-Y",
@@ -1885,7 +2002,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-C11-Z",
@@ -1901,7 +2019,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L02-X",
@@ -1917,7 +2036,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L02-Y",
@@ -1933,7 +2053,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L02-Z",
@@ -1949,7 +2070,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L03-X",
@@ -1965,7 +2087,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L03-Y",
@@ -1981,7 +2104,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L03-Z",
@@ -1997,7 +2121,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Complemento/Fotos/AD-0302.jpg",
+    "foto_confere": "Conexões de água e esgoto da máquina na parede lateral."
   },
   {
     "codigo": "PR-PONTO-L04-X",
@@ -2013,7 +2138,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L04-Y",
@@ -2029,7 +2155,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L04-Z",
@@ -2045,7 +2172,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L05-X",
@@ -2061,7 +2189,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L05-Y",
@@ -2077,7 +2206,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L05-Z",
@@ -2093,7 +2223,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Fotos/lavanderia/LAV-07_05m30s.jpg",
+    "foto_confere": "Tanque, torneira, cano de saída e piso da lavanderia."
   },
   {
     "codigo": "PR-PONTO-L06-X",
@@ -2109,7 +2240,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L06-Y",
@@ -2125,7 +2257,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L06-Z",
@@ -2141,7 +2274,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L09-X",
@@ -2157,7 +2291,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L09-Y",
@@ -2173,7 +2308,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-L09-Z",
@@ -2189,7 +2325,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B01-X",
@@ -2205,7 +2342,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B01-Y",
@@ -2221,7 +2359,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B01-Z",
@@ -2237,7 +2376,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B02-X",
@@ -2253,7 +2393,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B02-Y",
@@ -2269,7 +2410,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B02-Z",
@@ -2285,7 +2427,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B03-X",
@@ -2301,7 +2444,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B03-Y",
@@ -2317,7 +2461,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B03-Z",
@@ -2333,7 +2478,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B04-X",
@@ -2349,7 +2495,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B04-Y",
@@ -2365,7 +2512,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B04-Z",
@@ -2381,7 +2529,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B05-X",
@@ -2397,7 +2546,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B05-Y",
@@ -2413,7 +2563,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B05-Z",
@@ -2429,7 +2580,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B06-X",
@@ -2445,7 +2597,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B06-Y",
@@ -2461,7 +2614,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B06-Z",
@@ -2477,7 +2631,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B07-X",
@@ -2493,7 +2648,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
   },
   {
     "codigo": "PR-PONTO-B07-Y",
@@ -2509,7 +2665,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
   },
   {
     "codigo": "PR-PONTO-B07-Z",
@@ -2525,7 +2682,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": "07_Imovel/Mobiliado/Fotos/banheiro/M-BAN-06_16m12s.jpg",
+    "foto_confere": "Chuveiro de teto e sua ligação na parede, vistos de baixo."
   },
   {
     "codigo": "PR-PONTO-B08-X",
@@ -2541,7 +2699,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B08-Y",
@@ -2557,7 +2716,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": 1000,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "PR-PONTO-B08-Z",
@@ -2573,7 +2733,8 @@
     ],
     "instrumento": "Trena ou laser; croqui e fotos",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   },
   {
     "codigo": "DEP-COZ-PRUMO",
@@ -2589,6 +2750,7 @@
     ],
     "instrumento": "Nível laser vertical e régua ou trena perpendicular à parede",
     "altura_ref_mm": null,
-    "foto": null
+    "foto": null,
+    "foto_confere": ""
   }
 ]

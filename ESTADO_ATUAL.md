@@ -92,11 +92,11 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Corte e custo nominal](04_Moveis/Plano_de_corte/README.md) | 15 chapas/215 painéis; 33 bloqueados e fundo fora; retalhos e custos de sete propostas exportados; meta não demonstrada |
 
-**Cotação:** [101 linhas, sem erros aritméticos; bases P19 distintas](06_Entregas/Cotacao/README.md).
+**Cotação:** [101 linhas; aritmética sem erros; bases P19 distintas](06_Entregas/Cotacao/README.md).
 
 **Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
-**Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia offline](ferramentas/site/Dia_das_chaves.html); sem medida real.
+**Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia offline: 34 fotos](ferramentas/site/Dia_das_chaves.html); sem medida real.
 
 **Perguntas:** [pacote não enviado](01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
 

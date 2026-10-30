@@ -4,6 +4,7 @@ vm.runInContext(read('src/field-data.js')+read('src/field-guide-data.js'),contex
 const rows=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_ROWS)',context));
 const data=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_GUIDE)',context));
 const guides=JSON.parse(read('guias_campo.json')),codes=rows.flatMap(r=>r.partes.map(p=>p.codigo));
+assert(read('Cobertura_guias.csv').split(/\r?\n/)[0].endsWith(',foto_confere'));
 assert.equal(new Set(guides.map(g=>g.codigo)).size,guides.length);
 assert.deepEqual(guides.map(g=>g.codigo).sort(),[...codes].sort());
 assert.deepEqual(data.guias,guides,'Regerar field-guide-data.js após editar o guia');
@@ -17,7 +18,7 @@ for(const g of guides){
  else assert(g.onde.orientacao.includes('só cômodo'));
  const row=rows.find(r=>r.partes.some(p=>p.codigo===g.codigo));
  if(row.como_medir==='ver protocolo de datum')assert(g.como.some(s=>/ver protocolo de datum/i.test(s)),'Não inventar descrição: '+g.codigo);
- if(g.foto){assert(fs.existsSync(path.resolve(__dirname,'../..',g.foto)));assert(data.photos[g.foto]?.startsWith('data:image/jpeg;base64,'));}
+ if(g.foto){assert(g.foto_confere?.trim(),'Descrever o que foi conferido: '+g.codigo);assert(fs.existsSync(path.resolve(__dirname,'../..',g.foto)));assert(data.photos[g.foto]?.startsWith('data:image/jpeg;base64,'));assert.equal(data.photo_info[g.foto].confere,g.foto_confere);}
 }
 // O JPEG deve ser reduzido; lê SOF sem dependência externa para o teste.
 for(const photo of Object.values(data.photos)){
