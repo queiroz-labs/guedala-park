@@ -4,6 +4,7 @@
  const owners=['Elias','Arquiteto','RT','Oficina/marceneiro','Construtora/condomínio','a definir'];
  const ownerItems=(rows,owner='todos')=>rows.filter(r=>owner==='todos'||r.owners.includes(owner));
  const ownerCounts=rows=>Object.fromEntries(owners.map(o=>[o,ownerItems(rows,o).length]));
- const api={entryTab,owners,ownerItems,ownerCounts};root.GuedalaArchitect=api;
+ const toolTab=hash=>({'#chaves':'chaves','#obra':'obra'})[hash]||null;
+ const api={entryTab,toolTab,owners,ownerItems,ownerCounts};root.GuedalaArchitect=api;
  if(typeof module!=='undefined')module.exports=api;
 })(globalThis);

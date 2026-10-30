@@ -8,7 +8,7 @@ assert.equal(api.find('zxqwx-inexistente',index).length,0);assert.equal(api.find
 for(const kind of ['pending','choice','room','module','document','glossary'])assert(index.some(r=>r.kind===kind),kind);
 for(let n=1;n<=20;n++){const code='P'+String(n).padStart(2,'0');assert(api.find(code,index).some(r=>r.kind==='module'&&r.id===code));}
 assert.equal(api.find('P01',index)[0].kind,'module','Código de móvel prioriza a ficha');
-for(const term of ['BC43',JSON.parse(read('current_release.json')).cadRevision,'PR','PTO','E21','TUG','DR','RT','ART','RRT','5410','13103','15575','16280','D01','D06','T0'])assert(api.find(term,index).some(r=>r.kind==='glossary'),term+' no glossário');
+for(const term of ['BC43',JSON.parse(read('current_release.json')).cadRevision,'PR','PTO','E21','GN','TUG','DR','RT','ART','RRT','5410','13103','15575','16280','D01','D02','D03','D04','D05','D06','T0',...Array.from({length:9},(_,i)=>'T0'+(i+1))])assert(api.find(term,index).some(r=>r.kind==='glossary'),term+' no glossário');
 assert.equal(new Set(index.map(r=>r.key)).size,index.length);
 const destination={pending:'architect',choice:'decisions',room:'model',module:'model',document:'documents',glossary:'architect'};
 for(const kind of new Set(index.map(r=>r.kind))){

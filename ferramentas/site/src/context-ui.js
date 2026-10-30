@@ -15,4 +15,5 @@
  dialog.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();event.stopPropagation();dialog.close();}});
  const measure=()=>document.documentElement.style.setProperty('--mast-height',header.getBoundingClientRect().height+'px');new ResizeObserver(measure).observe(header);measure();
  globalThis.GuedalaGlossary={open};
+ const toolLink=()=>{const id=GuedalaArchitect.toolTab(location.hash);if(id)tab(id);};window.addEventListener('hashchange',toolLink);setTimeout(toolLink);
 })();

@@ -10,6 +10,7 @@
     "Responsável técnico e aprovação":"Plano em rascunho; profissional não contratado.",
     "Levantamento no imóvel":"Registros preparados; levantamento depende das chaves."
   },
+  "glossaryStagesSource":"05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md",
   "glossary": [
     {"id":"modelo","term":"{cadRevision}","definition":"Revisão vigente do modelo do projeto. Não comprova medidas reais nem execução.","path":"ESTADO_ATUAL.md"},
     {"id":"bc43","term":"BC43","definition":"Estudo do gabinete do banheiro e sua relação com porta, box e acesso. Cotas e compatibilização a conferir.","path":"03_Ambientes/Banheiro/Conferencia_bancada_porta.md"},

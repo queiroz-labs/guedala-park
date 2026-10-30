@@ -37,4 +37,6 @@ for(const [old,target] of [['materiais','mood'],['planta','floorplan'],['documen
 assert.equal(tabs.chaves,'chaves');
 assert.equal(tabs.obra,'obra');
 assert.equal(tabs.arquiteto,'architect');
+vm.runInContext(read('architect-core.js'),ctx);const architect=vm.runInContext('GuedalaArchitect',ctx);assert.equal(architect.toolTab('#chaves'),'chaves');assert.equal(architect.toolTab('#obra'),'obra');assert.equal(architect.toolTab('#planta-pe-direito'),null);
+assert(read('context-ui.js').includes("addEventListener('hashchange',toolLink)"));
 console.log(JSON.stringify({tabs:7,status:tally,legacyLinks:Object.keys(tabs).length}));

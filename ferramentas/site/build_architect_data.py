@@ -57,6 +57,11 @@ def build():
         if d['ownerSource']:assert d['ownerQuote'].lower() in (ROOT/d['ownerSource']).read_text(encoding='utf-8').lower(),d['id']
     for d in source['disciplines']:d['owners']=d['owners'] or ['a definir']
     for g in source['glossary']:g['term']=g['term'].replace('{cadRevision}',release['cadRevision'])
+    stages=(ROOT/source['glossaryStagesSource']).read_text(encoding='utf-8')
+    stages=re.findall(r'^### (T0[1-9]) — ([^|]+)\|',stages,re.M)
+    assert len(stages)==9,'Etapas T01–T09 mudaram: conferir o glossário'
+    for code,title in stages:
+        source['glossary'].append(dict(id=code.lower(),term=code,definition='Etapa do plano: '+title.strip()+'. Código da agenda; não indica execução concluída.',path=source['glossaryStagesSource']))
     for m in literal(HERE/'src/cad-data.js','CAD_DATA')['modules']:
         source['glossary'].append(dict(id=m['code'].lower(),term=m['code'],definition='Código do móvel '+m['name']+'. Consulte a ficha; medidas são de projeto.',path='06_Entregas/Fichas_fabricacao/'+m['code']+'.html'))
     revisions=dict(architect=release['cadRevision'],model=release['cadRevision'],mood=release['appearanceRevision'],decisions=release['cadRevision']+'/'+release['lightingRevision'],documents=release['packageRevision']+'/'+release['fabricationRevision'],chaves=release['fabricationRevision'],obra=re.search(r'\| Cronograma \| ([^;|]+)',state)[1].strip(),floorplan=release['cadRevision'])
