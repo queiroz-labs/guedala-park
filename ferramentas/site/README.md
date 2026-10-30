@@ -28,7 +28,7 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 **Integração:**20 módulos/249 painéis com eixos e SHA nas fichas. Produtos, furação, medidas reais e ensaios continuam condicionados; [histórico de publicação](../../06_Entregas/README.md).
 
-## Verificações anteriores
+## Referências e verificações
 
 [Luz e contatos](Luz_e_contato/README.md): efeitos aproximados, controles e movimentos preservados. Prevalecem a configuração corrente e os limites atuais.
 
@@ -54,7 +54,7 @@ HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar ima
 
 Salve **Guedala_Park_Interativo.html** no celular: estilos, desenhos e interações incluídos. Use navegador com HTML local; se abrir só prévia, escolha “Abrir com”. Compatibilidade varia por navegador/gerenciador.
 
-Emulação anterior: 412 × 915 e 915 × 412 com toque; computador 1440 × 1100. Layout/gestos testados, sem equivaler ao aparelho real. A cópia HTML funciona localmente e na web.
+Conferências anteriores não equivalem ao aparelho real.
 
 ## O que o modelo representa
 
@@ -74,19 +74,19 @@ Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficam
 
 Fontes em `src`; `construir.py` gera os HTMLs autônomos. Atualizar dados e desenhos juntos quando houver decisão. Planta F118–F120 e painel de materiais antigo são históricos.
 
-O fluxo `.github/workflows/pages.yml` executa `preparar_pages.py` a cada push em `main` e publica o artefato `.site` com página principal, moodboard, imagem de materiais e identificação da versão. Pages usa GitHub Actions. Fotos da visita e registros ficam no repositório.
+Pages usa o workflow após push autorizado; `preparar_pages.py` gera apenas artefato local.
 
-[Verificação anterior](Verificacao_completa_R01.json): 21 combinações, controles, fórmulas de circulação, toque, esquema R02 e cópia reaberta; sem erros, requisições externas ou transbordamento nos cenários testados.
+[Histórico da interface](Verificacao_completa_R01.json); novas alterações exigem nova conferência.
 
-## Verificação R05
 
-Verificação R05: oclusão, vistas, movimentos e controles, fichas e telas sem erros JavaScript. Mantém limites nominais e verificações físicas pendentes.
 
-Caderno: preserva `ESPECIFICACOES_COMERCIAIS` manual.
+Oclusão, movimentos e fichas: verificações históricas; permanecem os limites nominais.
+
+
 
 ## Organização das fontes
 
-Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removida. ZIP: 264 entradas preservadas; CAD intacto. Pastas datadas bloqueadas no verificador.
+Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 ## Galeria Dia/Noite
 
@@ -94,10 +94,12 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 ## Navegação e documentos
 
+Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Nenhum pacote grande novo no git. `downloads-manifest.json` registra os destinos publicados.
+
 Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
 
 **Para o arquiteto:** `?perfil=arquiteto` abre a sétima aba; sem perfil, entrada atual preservada. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json` guarda 8 disciplinas/6 atalhos com fontes; UI em `src/architect-*`. Sem dado real novo. Layout segue o site e referências locais Refero; pesquisa remota indisponível.
-O build compacta scripts com esbuild já instalado, preservando nomes globais; sem dependências novas. HTML anterior: 5.238.720 bytes. Teste `test_architect_entry.cjs` no verificador/CI.
+O build compacta scripts com esbuild já instalado, preservando nomes globais; sem dependências novas. Teste `test_architect_entry.cjs` no verificador/CI.
 “Quem decide” filtra disciplinas e conferências dos 65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
 Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
 Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nominal; aviso global e glossário pelo “?” (43 entradas com fonte; P01–P20, T0 e T01–T09), também pesquisável. Rótulos/ids antigos preservados; Ferramentas já ao fim no perfil arquiteto; `#chaves`/`#obra` agora abrem as telas, preservando `data-tab`/`?aba=`. Resumos de etapas: ESTADO_ATUAL; normas/siglas: fontes no glossário, sem interpretação normativa nova.

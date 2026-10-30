@@ -6,6 +6,7 @@ import runpy
 import subprocess,shutil
 from build_architect_data import build as build_architect_data
 from build_search_index import build as build_search_index
+from build_downloads_data import build as build_downloads_data
 from plain_language import plain_html
 from height_data import build as build_heights
 from build_field_data import build as build_field_data
@@ -16,6 +17,7 @@ root=Path(__file__).resolve().parent
 src=root/'src'
 height_text=build_heights()
 build_search_index(build_architect_data())
+build_downloads_data()
 build_field_data()
 build_work_data()
 runpy.run_path(str(root/'build_floorplan.py'))['build']()

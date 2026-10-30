@@ -1,6 +1,7 @@
 """Prepare a local web artifact from the current release; no deploy or legacy writes."""
 from pathlib import Path
 from build_architect_data import publish_docs
+from build_downloads_data import publish as publish_downloads
 import argparse,json,os,runpy,shutil,subprocess
 from height_data import heights
 from current_release import ROOT,STUDY,load_release,validate_sources
@@ -23,6 +24,7 @@ def build(output_dir=None,regenerate=False,package_mode='auto',publication_ready
  runpy.run_path(str(STUDY/'build_share_package.py'))['ensure_package'](package_mode)
  docs=runpy.run_path(str(STUDY/'build_workshop_docs.py'));docs['build'](target=site/'docs',regenerate=False,build_package=False)
  publish_docs(site/'docs')
+ publish_downloads(site/'docs')
  (site/'moodboard').mkdir(exist_ok=True)
  shutil.copyfile(ROOT/'09_Referencias/Moodboard_visual_atualizado_R01.png',site/'moodboard.png')
  subprocess.run(['node',str(STUDY/'build_web.mjs'),str(site)],check=True)
