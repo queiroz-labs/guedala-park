@@ -50,6 +50,7 @@ def main():
         ok &= passo(t, [NODE, str(SITE / t)])
     ok &= passo('test_part_groups.py', [PY, '-B', str(SITE / 'test_part_groups.py')])
     ok &= passo('test_document_library.py', [PY, '-B', str(SITE / 'test_document_library.py')])
+    ok &= passo('test_importar_medidas_site.py', [PY, '-B', str(RAIZ / 'ferramentas/estudos/test_importar_medidas_site.py')])
     tmp = Path(tempfile.mkdtemp(prefix='gp_site_'))
     antes = git('status', '--porcelain')
     guardados = []

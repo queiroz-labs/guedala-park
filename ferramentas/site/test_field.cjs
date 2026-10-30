@@ -32,4 +32,6 @@ corrupt.update('PD-QUA',{valor_mm:2599});assert.equal(corrupted,'{invalid','Não
 const csv=api.toCsv({medidas:[{codigo:'PD-QUA',valor_mm:2584,status:'pendente',observacao:'=HYPERLINK("x");\ntexto',data_hora:tick}]});
 assert(csv.startsWith('\ufeffcodigo;'));assert(csv.includes('"2584"'));assert(csv.includes("'="));assert(csv.includes('""x""'));assert(csv.includes('\ntexto'));
 const ui=fs.readFileSync(path.join(__dirname,'src/field-ui.js'),'utf8');assert(ui.includes('inputmode="decimal"'));assert(ui.includes('Medidas_reais.json'));assert(ui.includes('Medidas_reais.csv'));assert(!ui.includes('fetch('));
+const fixture=JSON.parse(fs.readFileSync(path.join(__dirname,'fixtures/Medidas_reais_ficticio_teste.json'),'utf8'));
+assert(fixture.uso.startsWith('TESTE'));assert.equal(api.validate(fixture,new Set(codes)).length,4);
 console.log(JSON.stringify({fieldRows:rows.length,scalarFields:codes.length,storage:true,fallback:true,atomicImport:true,csv:true,difference:true}));

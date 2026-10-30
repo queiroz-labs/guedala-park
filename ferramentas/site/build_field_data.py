@@ -36,7 +36,11 @@ def nominal_parts(code,text):
 
 
 def rows(root=ROOT):
-    with (root/'07_Imovel/Medidas_e_impactos.csv').open(encoding='utf-8-sig',newline='') as f:source=list(csv.DictReader(f))
+    return rows_from_csv(root/'07_Imovel/Medidas_e_impactos.csv')
+
+
+def rows_from_csv(path):
+    with Path(path).open(encoding='utf-8-sig',newline='') as f:source=list(csv.DictReader(f))
     result=[]
     for r in source:
         code=r['codigo_medida']

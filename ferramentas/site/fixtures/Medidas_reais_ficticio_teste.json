@@ -1,0 +1,12 @@
+{
+  "versao": 1,
+  "projeto": "guedala-park",
+  "uso": "TESTE FICTÍCIO — não representa levantamento do imóvel",
+  "exportado_em": "2026-10-30T05:00:00.000Z",
+  "medidas": [
+    {"codigo":"PD-QUA","valor_mm":2584,"status":"fora_do_esperado","observacao":"TESTE FICTÍCIO: três pontos e foto de teste.","data_hora":"2026-10-30T04:58:00.000Z"},
+    {"codigo":"DIM-01/0","valor_mm":2442,"status":"pendente","observacao":"TESTE FICTÍCIO: primeiro eixo.","data_hora":"2026-10-30T04:58:30.000Z"},
+    {"codigo":"DIM-01/1","valor_mm":2946,"status":"pendente","observacao":"TESTE FICTÍCIO: segundo eixo.","data_hora":"2026-10-30T04:59:00.000Z"},
+    {"codigo":"ANC-P04","valor_mm":null,"status":"pendente","observacao":"TESTE FICTÍCIO: substrato não identificado.","data_hora":"2026-10-30T04:59:30.000Z"}
+  ]
+}

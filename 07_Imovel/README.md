@@ -29,6 +29,12 @@ Os arquivos indicados são **alvos de revisão após validar o levantamento**, n
 
 ## Pipeline de medidas no dia das chaves
 
+### Importar o JSON do celular
+
+1. Na aba **Dia das chaves**, exportar `Medidas_reais.json` e guardá-lo fora do git.
+2. Na raiz, executar `python -B ferramentas/estudos/importar_medidas_site.py --entrada caminho/Medidas_reais.json`: só `valor_medido`/`evidencia_campo` e `07_Imovel/Relatorio_medidas_reais.md` mudam; CAD, fichas e orçamento não são regenerados.
+3. Revisar diferenças, móveis e arquivos do relatório; DIM composto exige todos os eixos reais, sem completar com nominal. Teste fictício: `python -B ferramentas/estudos/test_importar_medidas_site.py`, sempre em cópia temporária.
+
 **Preparado, sem levantamento real.** O [script](../ferramentas/estudos/medidas_chaves.py) gera diferenças, semáforo, vínculos com cotação e perguntas. O [modelo CSV](../ferramentas/estudos/modelos/medidas_reais_modelo.csv) contém **562 códigos vazios**: 532 do índice fonte, 15 parâmetros da folha prioritária, 14 auxiliares de piso/esquadro do motor existente e BOX-VERDE, suplemento para a divergência documentada em [Acabamentos](../03_Ambientes/Acabamentos/README.md). Não são medições realizadas.
 
 Os **15 primeiros seguem exatamente a ordem do roteiro vigente/Ranking_15**, por variância explicada; o restante conserva a ordem do índice fonte e depois os complementos. O roteiro atual não documenta uma caminhada espacial completa: não foi inventada. Descrições físicas pendentes continuam indicadas; não converter leitura absoluta do laser em deslocamento da parede sem marcos comuns.
