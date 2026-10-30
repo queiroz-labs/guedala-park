@@ -10,6 +10,7 @@ from pathlib import Path
 import sys
 
 sys.dont_write_bytecode=True
+for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')  # saída igual em terminal e em pipe no Windows
 from importar_medidas_site import ROOT,DEFAULT_CSV,external,import_file
 
 
