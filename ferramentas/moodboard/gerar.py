@@ -40,7 +40,7 @@ ROOMS = [
     dict(id='Escritorio', name='Escritório', caption='Aéreo Marfim O2, Arenza e sofá Daiane cinza-claro.',
          light='Geral ~3000 K; indireta nos consoles e leve azul atrás da TV.',
          materials=[('Marfim O2','#e8e2d2'),('Arenza liso','#b8aa94'),('Tecido cinza','#bcbcb6'),('Azul Petróleo','#344c4e')]),
-    dict(id='Banheiro', name='Banheiro', caption='Beige Matt e Freijó; verde apenas na parede do chuveiro.',
+    dict(id='Banheiro', name='Banheiro', caption='Beige Matt e Freijó; Sauge no chuveiro e na janela do box.',
          light='Teto e indireta 3000 K; espelho 4000 K, três comandos.',
          materials=[('Beige Matt','#c4b49d'),('Louro Freijó','#b08a62'),('Vivant Sauge','#73765b'),('Travertino Greige','#c6b8a2')]),
 ]
@@ -157,7 +157,9 @@ def main():
             with Image.open(p) as im:
                 if im.size != (1536,1024): raise ValueError(f'Dimensões inesperadas: {p.name} {im.size}')
                 im.convert('RGB').save(OUT/f'{r["id"]}_{mode}_web.webp',quality=90,method=6)
-            records.append(dict(arquivo=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest(),largura=1536,altura=1024))
+            record=dict(arquivo=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest(),largura=1536,altura=1024)
+            if r['id']=='Banheiro':record.update(edicao='30/10/2026: janela do box em Sauge; edição ilustrativa, sem cotas',fonte='Pedido de Elias, 30/10/2026; prompts e inventário em ferramentas/moodboard/README.md')
+            records.append(record)
     panels();a3();gallery()
     manifest=dict(aprovacao=dict(data='28/10/2026',rotulo='Aparência aprovada em 28/10/2026',fonte='Conversa do moodboard; citações específicas no README.md'),aviso=NOTICE,cenas=records,paineis=dict(largura=3840,altura=2160,cena_largura=1050,cena_altura=700,ampliacao=False),amostras='Cores digitais aproximadas, não amostras comerciais',ambientes=ROOMS)
     (OUT/'Moodboard.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

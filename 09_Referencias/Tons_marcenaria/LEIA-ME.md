@@ -1,5 +1,7 @@
 # Tons de marcenaria — comparações visuais
 
+Recortes do banheiro são comparações históricas de cores; não mostram a janela nem representam a atualização para duas paredes verdes. [Inventário e imagens atuais](../../ferramentas/moodboard/README.md).
+
 24/10/2026. Estudos solicitados por Elias para facilitar escolhas. Gerados com a ferramenta integrada ImageGen, em modo de edição com referências locais. Nenhuma opção foi escolhida pelo usuário nesta rodada; nenhuma alteração ao CAD, site ou especificação vigente.
 
 ## Comparações

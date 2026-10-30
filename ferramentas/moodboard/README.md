@@ -1,5 +1,11 @@
 # Composição do moodboard
 
+**Box, 30/10/2026:** pedido de Elias para verde também na janela. `Banheiro_dia.png` e `Banheiro_noite.png` reeditados com imagegen/precise-object-edit; câmera, gabinete 60 cm, vão estreito, papeleira, metais, vidro e único Firefly preservados. Edições ilustrativas, sem cotas nem nova aprovação estética presumida. [Prompts exatos e inventário](Edicao_banheiro.json); hashes no manifesto `09_Referencias/Moodboard.json`. WebP, painéis/PDF e galeria regenerados pelo script.
+
+Imagens de inspiração e comparações históricas permanecem como fontes, não estado atual; as que conservam janela clara estão identificadas no inventário. CB02 e estudos de cores também têm gabinete/papeleira anteriores: não os corrigir silenciosamente por uma troca só de revestimento. **Pergunta:** reeditá-los mesmo mantendo esses elementos superados, ou retirar seus atalhos da consulta atual?
+
+O README de referências e o estado foram reservados ao commit do Elias. Texto proposto para ambos: “Banheiro: duas paredes Sauge no box; imagens Dia/Noite reeditadas em 30/10/2026, ilustrativas; candidato CAD externo com aprovação PENDENTE.” O Caderno coincide com a fonte nova, exceto a data de geração; a trava por data impede commit sem tocar nesse arquivo protegido. **Pergunta:** pode regenerar apenas a data do Caderno, preservando o texto do Claude, antes dos commits desta frente?
+
 `python -B ferramentas/moodboard/gerar.py` produz os arquivos vigentes em `09_Referencias/`: dois painéis 4K/PNG leve, PDF de dois painéis, PDF de seis páginas A3 e galeria Dia/Noite. Requer Python com Pillow e ReportLab; Poppler (`pdftoppm`) no PATH. Neste computador, ambos ficam em `../ferramentas_locais/` (fora do git): rode antes `. ..erramentas_locaistivar.ps1` no PowerShell 7. Se o TEMP padrão estiver restrito, configure TEMP/TMP para uma pasta temporária gravável fora do repositório.
 
 As 12 imagens aprovadas são entradas imutáveis de 1536 × 1024 px. Nunca ampliar nem recortar as cenas; escala de composição do painel: 1050 × 700 px. PDF mantém 1536 × 1024 px, compressão JPEG qualidade 95/sem subamostragem, fontes Vera incorporadas e texto vetorial; PNG é renderizado do mesmo PDF. WebP mantém dimensões, qualidade 90, com acesso ao PNG original na galeria. `Moodboard.json` registra hashes e aprovação.

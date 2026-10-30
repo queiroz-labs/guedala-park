@@ -22,6 +22,8 @@ Sala com luz geral, pendente âmbar e LED quente acima da prateleira da TV. Escr
 
 ## Banheiro
 
+**Desatualizada em 30/10/2026:** a parede da janela ainda está clara; gabinete e papeleira também são anteriores. Usar apenas como comparação histórica de iluminação. [Imagens atuais e prompts](../../ferramentas/moodboard/README.md).
+
 Firefly9605 redondo no teto; duas barras horizontais4000K no espelho. Teto e indireta3000K. Posição da barra inferior depende da torneira e da montagem real.
 
 ![Banheiro com plafon redondo e duas barras horizontais no espelho](04_Banheiro_L02.png)

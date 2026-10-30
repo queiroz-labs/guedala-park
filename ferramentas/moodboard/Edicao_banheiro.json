@@ -1,0 +1,69 @@
+{
+  "fonte": "Elias, 30/10/2026: quer verde também na parede da janela do box",
+  "metodo": "imagegen / precise-object-edit",
+  "natureza": "Ilustrativas, sem cotas; edição pedida, sem nova aprovação estética presumida",
+  "editadas": [
+    {
+      "arquivo": "09_Referencias/Banheiro_dia.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied daytime bathroom image. Change ONLY the beige patterned tile wall surrounding the projecting window INSIDE the shower, at the left of the image, to the exact same muted olive Sauge green slim rectangular tiles and pale grout already on the back shower wall. Continue the vertical tile scale/pattern naturally around the entire window wall, including below and above the window and the visible edge at the far left. Keep the window opening, white frame, frosted projecting glass and opening handle exactly as shown. Preserve camera, crop, dimensions, daylight/shadows and all other surfaces: 60 cm Beige cabinet with Louro sides and sliding doors, very narrow toilet–cabinet gap, paper holder on cabinet left, faucet, toilet, stone shelf, black shower, transparent glass and black profiles, pale floor and remaining clear wall. Keep exactly ONE physical Firefly ceiling light and its existing mirror reflection; preserve mirror shape, unlit daytime lighting and all hardware. No additional fixtures, no text, no people. Photorealistic illustrative interior, no dimension claims."
+    },
+    {
+      "arquivo": "09_Referencias/Banheiro_noite.png",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied NIGHT bathroom image. Change ONLY the beige patterned wall around the projecting window INSIDE the shower, on the left, to the same muted olive Sauge slim green rectangular tiles with pale grout already present on the back shower wall. Cover the entire window wall, including visible far-left edge, below and above window; keep tiles vertical at the same scale. Preserve the window opening, white frame, dark frosted projecting glass and handle exactly. Preserve night exposure, warm ceiling/indirect light and neutral mirror light, shadows, camera, framing, all hardware, ONE physical Firefly light and its existing reflection. Keep 60 cm Beige cabinet with Louro sides and sliding doors, narrow toilet–cabinet gap, left cabinet paper holder, faucet, toilet, shower and stone shelf unchanged. Keep clear glass, black profiles, pale floor and other pale walls. No extra light, no layout change, no labels, no people, no dimension claims."
+    }
+  ],
+  "derivados": [
+    "09_Referencias/Banheiro_dia_web.webp",
+    "09_Referencias/Banheiro_noite_web.webp",
+    "09_Referencias/Moodboard_Dia.png",
+    "09_Referencias/Moodboard_Noite.png",
+    "09_Referencias/Moodboard_Dia_leve.png",
+    "09_Referencias/Moodboard_Noite_leve.png",
+    "09_Referencias/Moodboard_paineis.pdf",
+    "09_Referencias/Moodboard_ambientes_A3.pdf",
+    "09_Referencias/Moodboard.html",
+    "09_Referencias/Moodboard.json"
+  ],
+  "historicas": [
+    {
+      "arquivo": "09_Referencias/Iluminacao_CB02/04_Banheiro_L02.png",
+      "status": "desatualizada: parede da janela ainda clara; referência histórica, não estado atual",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Tons_marcenaria/04_R02_Banheiro_frentes.png",
+      "status": "comparação histórica de cores: recorte sem janela, preservado; não demonstra o estado atual do box",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Tons_marcenaria/03_Banheiro_madeiras_M1_M2_M3.png",
+      "status": "comparação histórica de cores: recorte sem janela, preservado; não demonstra o estado atual do box",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Tons_marcenaria/01_Banheiro_frentes_B1_B2_B3.png",
+      "status": "comparação histórica de cores: recorte sem janela, preservado; não demonstra o estado atual do box",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Banheiro_vista_em_perspectiva.png",
+      "status": "desatualizada: parede da janela ainda clara; referência histórica, não estado atual",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Banheiro_referencia_aprovada_2026-09-18.png",
+      "status": "desatualizada: parede da janela ainda clara; referência histórica, não estado atual",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    },
+    {
+      "arquivo": "09_Referencias/Banheiro_com_parede_verde.png",
+      "status": "desatualizada: parede da janela ainda clara; referência histórica, não estado atual",
+      "prompt": "Use case: precise-object-edit. Na imagem fornecida, mudar somente o revestimento claro da parede da janela dentro do box para o mesmo Portobello Vivant Sauge Mate verde da parede do chuveiro. Preservar integralmente câmera, enquadramento, janela projetante, vidro transparente, perfis pretos, iluminação, único Firefly, gabinete, papeleira, torneira, chuveiro e paleta Beige/Louro. Não introduzir cotas, pessoas, peças ou aprovação. Em comparações com várias vistas, editar essa mesma parede em cada vista e preservar as variantes de marcenaria."
+    }
+  ],
+  "inspiracoes_preservadas": [
+    "09_Referencias/Banheiro_inspiracao_original_2026-09-18.png",
+    "09_Referencias/Banheiro_prateleira_ocultacao_tubulacao_2026-09-18.png"
+  ],
+  "limites": "Históricas conservam outros elementos superados; alteração além do revestimento não foi aplicada. README de referências protegido: atualização proposta no README do gerador."
+}

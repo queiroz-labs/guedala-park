@@ -1,5 +1,7 @@
 # Comparação de tons — R02
 
+Recorte do banheiro preservado para comparar frentes; janela fora do quadro. Não representa a atualização do box em 30/10/2026. [Inventário](../../ferramentas/moodboard/README.md).
+
 **Escolha recebida em 24/10/2026:** Elias aprovou **B2 Areia**, **M2 Madeira Natural** e **O2 Marfim no aéreo do escritório**. [Registro da escolha e relação com códigos comerciais](Escolha_aprovada_R02.md). O estado sem escolha descrito abaixo pertence à preparação das imagens e foi superado por este aceite.
 
 24/10/2026. Elias informou que as opções R01 pareciam iguais. Refeitas as três comparações com tons mais separados, luz mais neutra e amostras maiores, usando a ferramenta integrada ImageGen. As R01 foram preservadas como histórico, mas não devem orientar a escolha desta rodada.

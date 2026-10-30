@@ -5,7 +5,7 @@
 1. [Quarto econômico](01_Quarto_economico.png): proposta Jurerê30cm com duas Philips SceneSwitch, Evy2054 brancas e LED escondido na cabeceira. Elias aprovou três níveis de brilho pelo interruptor após rejeitar o Liny de cerca deR$500; modelos comerciais ainda sujeitos às conferências indicadas na revisão.
 2. [Cozinha e lavanderia](02_Cozinha_lavanderia.png): Stella EVO e Galaxy Firefly9607 quadrado, com closes gerados para distinguir os formatos.
 3. [Sala e escritório](03_Sala_escritorio.png): Jurerê curvo, pendente âmbar e indireta quente na sala; luz branca de trabalho com apoios RGB no escritório. Plafons corrigidos para não parecerem cilindros.
-4. [Banheiro](04_Banheiro_L02.png): teto Firefly9605 e barras horizontais4000K acima/abaixo do espelho, conforme direção L02.
+4. [Banheiro](04_Banheiro_L02.png): comparação histórica L02. Desatualizada: parede da janela ainda clara; gabinete/papeleira anteriores. [Correção atual e prompts](../../ferramentas/moodboard/README.md).
 
 **São simulações ilustrativas.** O desenho das luminárias, escala, temperatura percebida, reflexos e níveis de luz são aproximados. Não demonstram encaixe, dissipação, lux, abertura das portas ou posição executiva. Closes na base das pranchas também são recriações; fotos comerciais usadas como referência estão em [Produtos](Produtos/fontes.json). O arquivo evo_sth21967.webp é placeholder retornado pela primeira loja e não foi usado; a referência real é evo_foto_produto.png, visualmente conferida.
 

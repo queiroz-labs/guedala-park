@@ -68,15 +68,19 @@
     },
     {
       "arquivo": "Banheiro_dia.png",
-      "sha256": "7b896b24e4f05b2d534f5a995d416fa949f29108d1dd716469a4ed9403353c76",
+      "sha256": "969fce34ffd757d70fa00d922272997b1d1bf8c5c02ca41c2a82a0193b84b484",
       "largura": 1536,
-      "altura": 1024
+      "altura": 1024,
+      "edicao": "30/10/2026: janela do box em Sauge; edição ilustrativa, sem cotas",
+      "fonte": "Pedido de Elias, 30/10/2026; prompts e inventário em ferramentas/moodboard/README.md"
     },
     {
       "arquivo": "Banheiro_noite.png",
-      "sha256": "6ac0de079eece1a651db8e292c34e5ecb7d8e6a6fa1fb18bc548ce520c7c5903",
+      "sha256": "2bc3df1649e3527bf5d10715a78549b292e13656b4e33022b49ffec69927e2b2",
       "largura": 1536,
-      "altura": 1024
+      "altura": 1024,
+      "edicao": "30/10/2026: janela do box em Sauge; edição ilustrativa, sem cotas",
+      "fonte": "Pedido de Elias, 30/10/2026; prompts e inventário em ferramentas/moodboard/README.md"
     }
   ],
   "paineis": {
@@ -211,7 +215,7 @@
     {
       "id": "Banheiro",
       "name": "Banheiro",
-      "caption": "Beige Matt e Freijó; verde apenas na parede do chuveiro.",
+      "caption": "Beige Matt e Freijó; Sauge no chuveiro e na janela do box.",
       "light": "Teto e indireta 3000 K; espelho 4000 K, três comandos.",
       "materials": [
         [
