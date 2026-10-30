@@ -100,3 +100,5 @@ R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI so
 Fotometria: `estudos/estudo_fotometrico.py` gera [premissas por tarefa](../03_Ambientes/Iluminacao/Estudo_fotometrico.md), distinguindo dados de produto, vídeo espelhado e hipóteses. Teste: `python -B ferramentas/estudos/test_estudo_fotometrico.py`. Curva IES com SHA; radiosidade/fluxos/UGR nominal/reflexos, NumPy e Pillow locais. Testes analíticos e balanço de energia; não abre FreeCAD nem altera itens do site.
 
 `estudos/medidas_do_celular.py --entrada <json> --saida <pasta externa nova>` importa e executa a cadeia sem abrir CAD; `--csv <cópia externa>` para fixtures. [Uso e limites](../07_Imovel/README.md). Teste de ponta a ponta em `estudos/test_importar_medidas_site.py`, integrado ao verificador do site.
+
+`estudos/rascunhar_guias_campo.py --saida <json externo>` prepara textos do formulário para edição manual, sem substituir o guia revisado. [Modo guiado e limites](site/README.md).

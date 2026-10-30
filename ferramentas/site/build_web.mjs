@@ -9,6 +9,8 @@ const study=path.dirname(fileURLToPath(import.meta.url)),src=path.join(study,'sr
 const site=process.argv[2]?path.resolve(process.argv[2]):path.resolve(study,'../../.site'),assets=path.join(site,'assets');
 if(!process.argv[2]&&fs.existsSync(site)&&fs.readdirSync(site).length)throw Error('Existing .site preserved; pass an isolated output directory.');
 fs.mkdirSync(assets,{recursive:true});
+// Mesma interface de campo em arquivo leve, com planta/fotos e sem rede.
+fs.copyFileSync(path.join(study,'Dia_das_chaves.html'),path.join(site,'Dia_das_chaves.html'));
 const read=name=>fs.readFileSync(path.join(src,name),'utf8').replace(/\r\n/g,'\n');
 const digest=data=>crypto.createHash('sha256').update(data).digest('hex').slice(0,12);
 const writeAsset=(stem,extension,data)=>{const name=`${stem}-${digest(data)}.${extension}`;fs.writeFileSync(path.join(assets,name),data);return 'assets/'+name;};
@@ -33,8 +35,8 @@ const offlineUrl=writeAsset('Guedala_Park_Interativo','html',offlineDownload);
 const settings={geometryUrl,workerUrl,offlineUrl,modules,geometryReady:false};
 // Only images required by detail dialogs stay external to the entry bundle.
 const imageAssets=new Map();
-function externalImages(code){return code.replace(/data:image\/(png|svg\+xml);base64,([A-Za-z0-9+/=]+)/g,(whole,type,b64)=>{
- if(!imageAssets.has(whole))imageAssets.set(whole,writeAsset('detail',type==='png'?'png':'svg',Buffer.from(b64,'base64')));
+function externalImages(code){return code.replace(/data:image\/(png|svg\+xml|webp|jpeg);base64,([A-Za-z0-9+/=]+)/g,(whole,type,b64)=>{
+ if(!imageAssets.has(whole))imageAssets.set(whole,writeAsset('detail',type==='svg+xml'?'svg':type==='jpeg'?'jpg':type,Buffer.from(b64,'base64')));
  return imageAssets.get(whole);
 });}
 let scripts=[...offline.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);

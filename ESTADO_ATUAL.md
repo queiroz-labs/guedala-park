@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 30/10/2026; detalhes nos READMEs.
+Vigente 30/10/2026; READMEs.
 
 ## O projeto
 
@@ -28,7 +28,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site e pacote para o montador | R54/R29; 6 abas, campo/obra locais (30/10); selo único; publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site/pacote do montador | R54/R29; 6 abas, guia de campo/obra locais (30/10); selo único; publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
@@ -54,7 +54,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md).
 
-## Decisões tomadas
+## Decisões
 
 - **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Ligações de 18 mm: tampos Branco TX nas duas faces, sem chapa decorativa sobreposta; compatibilizar teto acabado. [Diretriz e cotas](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), teto/acessos pendentes; escopo R53 no README do modelo.
 
@@ -96,7 +96,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
-**Chaves:** [JSON→cadeia; PR com datum; pontos/panos recolhidos](07_Imovel/README.md); sem medida real.
+**Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia offline](ferramentas/site/Dia_das_chaves.html); sem medida real.
 
 **Perguntas:** [pacote não enviado](01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
 
@@ -127,4 +127,4 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos amostrados, 277 intervalos; oito choques adicionais com portas P01 fechadas. Sem garantia contínua ou folga real integral.
 
-**Risco:** [modelo](05_Orcamento_e_cronograma/Risco/README.md), hipóteses.
+**Risco:** [hipóteses](05_Orcamento_e_cronograma/Risco/README.md).

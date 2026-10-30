@@ -1,0 +1,2594 @@
+[
+  {
+    "codigo": "PD-QUA",
+    "titulo_simples": "Altura do piso ao teto — quarto",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PD-COZ",
+    "titulo_simples": "Altura do piso ao teto — cozinha",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0446.jpg"
+  },
+  {
+    "codigo": "PD-LAV",
+    "titulo_simples": "Altura do piso ao teto — lavanderia",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+  },
+  {
+    "codigo": "PD-ESC",
+    "titulo_simples": "Altura do piso ao teto — escritório",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+  },
+  {
+    "codigo": "PD-BAN",
+    "titulo_simples": "Altura do piso ao teto — banheiro",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PD-SAL",
+    "titulo_simples": "Altura do piso ao teto — sala",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0446.jpg"
+  },
+  {
+    "codigo": "PD-CIR",
+    "titulo_simples": "Altura do piso ao teto — circulação",
+    "onde": {
+      "comodo": "circulacao",
+      "alvo": null,
+      "orientacao": "só cômodo; vertical, do piso acabado para cima"
+    },
+    "como": [
+      "Meça na vertical, do piso acabado até a face de baixo do teto, forro ou viga sobre o móvel.",
+      "Confira pelo menos três pontos. Registre a menor altura e anote no croqui todas as leituras e posições."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-01/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — quarto",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-01/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — quarto",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-02/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — escritório",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-02/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — escritório",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-03",
+    "titulo_simples": "Medida 1 entre faces acabadas — sala",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-04",
+    "titulo_simples": "Medida 1 entre faces acabadas — apartamento",
+    "onde": {
+      "comodo": "all",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-05/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — banheiro",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-05/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — banheiro",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-06/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — lavanderia",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-06/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — lavanderia",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-07/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — cozinha",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-07/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — cozinha",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-08/0",
+    "titulo_simples": "Medida 1 entre faces acabadas — circulação",
+    "onde": {
+      "comodo": "circulacao",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 1 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "DIM-08/1",
+    "titulo_simples": "Medida 2 entre faces acabadas — circulação",
+    "onde": {
+      "comodo": "circulacao",
+      "alvo": null,
+      "orientacao": "só cômodo; eixo 2 na ordem da cota oficial; faces a identificar"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique no croqui as duas faces correspondentes a esta cota da planta.",
+      "Meça na horizontal a 1000 mm do piso acabado, em três posições. Anote as leituras; não escolha outra parede para completar o valor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P01",
+    "titulo_simples": "Conferir o espaço do móvel P01",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P02",
+    "titulo_simples": "Conferir o espaço do móvel P02",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P03",
+    "titulo_simples": "Conferir o espaço do móvel P03",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P04",
+    "titulo_simples": "Conferir o espaço do móvel P04",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P05",
+    "titulo_simples": "Conferir o espaço do móvel P05",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P06",
+    "titulo_simples": "Conferir o espaço do móvel P06",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P07",
+    "titulo_simples": "Conferir o espaço do móvel P07",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P08",
+    "titulo_simples": "Conferir o espaço do móvel P08",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P09",
+    "titulo_simples": "Conferir o espaço do móvel P09",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P10",
+    "titulo_simples": "Conferir o espaço do móvel P10",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P11",
+    "titulo_simples": "Conferir o espaço do móvel P11",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P12",
+    "titulo_simples": "Conferir o espaço do móvel P12",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P13",
+    "titulo_simples": "Conferir o espaço do móvel P13",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P14",
+    "titulo_simples": "Conferir o espaço do móvel P14",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P15",
+    "titulo_simples": "Conferir o espaço do móvel P15",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P16",
+    "titulo_simples": "Conferir o espaço do móvel P16",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P17",
+    "titulo_simples": "Conferir o espaço do móvel P17",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P18",
+    "titulo_simples": "Conferir o espaço do móvel P18",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P19",
+    "titulo_simples": "Conferir o espaço do móvel P19",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "MOV-P20",
+    "titulo_simples": "Conferir o espaço do móvel P20",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o vão embaixo, no meio e em cima, com as posições anotadas no croqui.",
+      "Anote prumo, esquadro, rodapé, revestimento e interferências. É uma verificação composta: use a observação, sem reduzir tudo a um número."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-01",
+    "titulo_simples": "Espaço para mesa, banco e cadeiras",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Confira onde ficarão a mesa Berlin, o banco e as cadeiras.",
+      "Anote passagens e acesso ao baú na observação; identifique as posições no croqui."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-02",
+    "titulo_simples": "Espaço para abrir e recolher o varal",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o espaço ocupado pelo varal aberto e recolhido.",
+      "Anote o percurso, a retenção e os encontros com janela e aquecedor."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-03",
+    "titulo_simples": "Box, janela e acesso do banheiro",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre o box, o peitoril e o espaço de abertura da janela.",
+      "Anote caimentos, prateleira e acesso para manutenção na observação."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-04",
+    "titulo_simples": "Passagem por portas e janelas",
+    "onde": {
+      "comodo": "all",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre os vãos livres, os peitoris e os batentes.",
+      "Anote o sentido de abertura e a passagem para entrada e retirada dos equipamentos."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-05",
+    "titulo_simples": "Água quente e caminho das tubulações",
+    "onde": {
+      "comodo": "all",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre a infraestrutura visível e suas fotos na observação.",
+      "Anote o que falta ao RT conferir sobre pressão, vazão e percurso até pia e banheiro."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COMP-06",
+    "titulo_simples": "Quadro e circuitos elétricos",
+    "onde": {
+      "comodo": "all",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique o quadro e fotografe as informações disponíveis.",
+      "Anote para o RT as dúvidas de circuitos, proteção, terra e acesso."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "LAV-TEC",
+    "titulo_simples": "Grelhas e trecho técnico da lavanderia",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique os elementos no croqui antes de registrar a medida.",
+      "Use a observação para as verificações descritas no modo lista. A descrição física deste item continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+  },
+  {
+    "codigo": "COZ-FAIXA",
+    "titulo_simples": "Encontro entre cozinha e lavanderia",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique os elementos no croqui antes de registrar a medida.",
+      "Use a observação para as verificações descritas no modo lista. A descrição física deste item continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "COZ-ACESSO",
+    "titulo_simples": "Acesso para manter os aparelhos da cozinha",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique os elementos no croqui antes de registrar a medida.",
+      "Use a observação para as verificações descritas no modo lista. A descrição física deste item continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "SAL-COND",
+    "titulo_simples": "Caminho dos fios entre entrada e TV",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique os elementos no croqui antes de registrar a medida.",
+      "Use a observação para as verificações descritas no modo lista. A descrição física deste item continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P04",
+    "titulo_simples": "Conferir a parede para fixar P04",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P09",
+    "titulo_simples": "Conferir a parede para fixar P09",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P11",
+    "titulo_simples": "Conferir a parede para fixar P11",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P12",
+    "titulo_simples": "Conferir a parede para fixar P12",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P15",
+    "titulo_simples": "Conferir a parede para fixar P15",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P17",
+    "titulo_simples": "Conferir a parede para fixar P17",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P18",
+    "titulo_simples": "Conferir a parede para fixar P18",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "ANC-P19",
+    "titulo_simples": "Conferir a parede para fixar P19",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Identifique no croqui a parede e a posição prevista do móvel.",
+      "Anote para o RT o substrato, revestimento, instalações ocultas, prumo e contato inferior; a ancoragem continua pendente."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PISO-P01-P03",
+    "titulo_simples": "Conferir o piso sob P01 / P03",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre nível, irregularidades e revestimento onde o móvel ficará apoiado.",
+      "Anote os pontos de contato; calços, nivelamento e proteção dependem da revisão com RT e oficina."
+    ],
+    "instrumento": "Nível laser, régua e trena; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PISO-P08",
+    "titulo_simples": "Conferir o piso sob P08",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre nível, irregularidades e revestimento onde o móvel ficará apoiado.",
+      "Anote os pontos de contato; calços, nivelamento e proteção dependem da revisão com RT e oficina."
+    ],
+    "instrumento": "Nível laser, régua e trena; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PISO-P16",
+    "titulo_simples": "Conferir o piso sob P16",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre nível, irregularidades e revestimento onde o móvel ficará apoiado.",
+      "Anote os pontos de contato; calços, nivelamento e proteção dependem da revisão com RT e oficina."
+    ],
+    "instrumento": "Nível laser, régua e trena; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PISO-P20",
+    "titulo_simples": "Conferir o piso sob P20",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Registre nível, irregularidades e revestimento onde o móvel ficará apoiado.",
+      "Anote os pontos de contato; calços, nivelamento e proteção dependem da revisão com RT e oficina."
+    ],
+    "instrumento": "Nível laser, régua e trena; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-EIXO-X",
+    "titulo_simples": "Referência para espelhar o eixo X",
+    "onde": {
+      "comodo": "all",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-00-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-00-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-03-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-03-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-04-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-04-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-04-D",
+    "titulo_simples": "Referência do piso — D",
+    "onde": {
+      "comodo": "sala",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-08-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-08-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-10-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-10-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-11-X",
+    "titulo_simples": "Referência do piso — X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-FLOORS-11-Y",
+    "titulo_simples": "Referência do piso — Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Ver protocolo de datum: o marco físico deste código ainda precisa ser identificado no croqui.",
+      "Não copie o nominal nem use uma distância isolada. Registre a evidência e deixe sem confirmação até demonstrar o vínculo."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-1-X",
+    "titulo_simples": "Janela do quarto — posição X",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "janela-1",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-1-Y",
+    "titulo_simples": "Janela do quarto — posição Y",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "janela-1",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-1-Z",
+    "titulo_simples": "Janela do quarto — posição Z",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "janela-1",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-2-X",
+    "titulo_simples": "Janela do escritório — posição X",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "janela-2",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-2-Y",
+    "titulo_simples": "Janela do escritório — posição Y",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "janela-2",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-2-Z",
+    "titulo_simples": "Janela do escritório — posição Z",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "janela-2",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0602.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-3-X",
+    "titulo_simples": "Janela da sala — posição X",
+    "onde": {
+      "comodo": "sala",
+      "alvo": "janela-3",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-3-Y",
+    "titulo_simples": "Janela da sala — posição Y",
+    "onde": {
+      "comodo": "sala",
+      "alvo": "janela-3",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-3-Z",
+    "titulo_simples": "Janela da sala — posição Z",
+    "onde": {
+      "comodo": "sala",
+      "alvo": "janela-3",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-4-X",
+    "titulo_simples": "Janela da lavanderia — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "janela-4",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-4-Y",
+    "titulo_simples": "Janela da lavanderia — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "janela-4",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-4-Z",
+    "titulo_simples": "Janela da lavanderia — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "janela-4",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": "07_Imovel/Complemento/Fotos/AD-0322.jpg"
+  },
+  {
+    "codigo": "PR-JANELA-5-X",
+    "titulo_simples": "Janela do banheiro — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "janela-5",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-5-Y",
+    "titulo_simples": "Janela do banheiro — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "janela-5",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-JANELA-5-Z",
+    "titulo_simples": "Janela do banheiro — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "janela-5",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-1-X",
+    "titulo_simples": "Porta do escritório — posição X",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "porta-1",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-1-Y",
+    "titulo_simples": "Porta do escritório — posição Y",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "porta-1",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-1-Z",
+    "titulo_simples": "Porta do escritório — posição Z",
+    "onde": {
+      "comodo": "escritorio",
+      "alvo": "porta-1",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-2-X",
+    "titulo_simples": "Porta do quarto — posição X",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "porta-2",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-2-Y",
+    "titulo_simples": "Porta do quarto — posição Y",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "porta-2",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-2-Z",
+    "titulo_simples": "Porta do quarto — posição Z",
+    "onde": {
+      "comodo": "quarto",
+      "alvo": "porta-2",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-3-X",
+    "titulo_simples": "Porta do banheiro — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "porta-3",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-3-Y",
+    "titulo_simples": "Porta do banheiro — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "porta-3",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-3-Z",
+    "titulo_simples": "Porta do banheiro — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "porta-3",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-4-X",
+    "titulo_simples": "Porta da cozinha — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "porta-4",
+      "orientacao": "Eixo X da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-4-Y",
+    "titulo_simples": "Porta da cozinha — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "porta-4",
+      "orientacao": "Eixo Y da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PORTA-4-Z",
+    "titulo_simples": "Porta da cozinha — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "porta-4",
+      "orientacao": "Eixo Z da planta; posição nominal do vão, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: identifique a face ou o marco desta coordenada antes de medir.",
+      "O desenho só localiza o vão nominal. Não use centro, borda ou largura como se fossem esta coordenada; confirme o datum para aplicar."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C02-X",
+    "titulo_simples": "Localizar ponto C02 — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C02",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C02-Y",
+    "titulo_simples": "Localizar ponto C02 — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C02",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C02-Z",
+    "titulo_simples": "Localizar ponto C02 — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C02",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C05-X",
+    "titulo_simples": "Localizar ponto C05 — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C05",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C05-Y",
+    "titulo_simples": "Localizar ponto C05 — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C05",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C05-Z",
+    "titulo_simples": "Localizar ponto C05 — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C05",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C06-X",
+    "titulo_simples": "Localizar ponto C06 — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C06",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C06-Y",
+    "titulo_simples": "Localizar ponto C06 — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C06",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C06-Z",
+    "titulo_simples": "Localizar ponto C06 — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C06",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C07-X",
+    "titulo_simples": "Localizar ponto C07 — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C07",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C07-Y",
+    "titulo_simples": "Localizar ponto C07 — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C07",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C07-Z",
+    "titulo_simples": "Localizar ponto C07 — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C07",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C11-X",
+    "titulo_simples": "Localizar ponto C11 — posição X",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C11",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C11-Y",
+    "titulo_simples": "Localizar ponto C11 — posição Y",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C11",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-C11-Z",
+    "titulo_simples": "Localizar ponto C11 — posição Z",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": "C11",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L02-X",
+    "titulo_simples": "Localizar ponto L02 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L02",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L02-Y",
+    "titulo_simples": "Localizar ponto L02 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L02",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L02-Z",
+    "titulo_simples": "Localizar ponto L02 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L02",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L03-X",
+    "titulo_simples": "Localizar ponto L03 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L03",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L03-Y",
+    "titulo_simples": "Localizar ponto L03 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L03",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L03-Z",
+    "titulo_simples": "Localizar ponto L03 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L03",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L04-X",
+    "titulo_simples": "Localizar ponto L04 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L04",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L04-Y",
+    "titulo_simples": "Localizar ponto L04 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L04",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L04-Z",
+    "titulo_simples": "Localizar ponto L04 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L04",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L05-X",
+    "titulo_simples": "Localizar ponto L05 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L05",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L05-Y",
+    "titulo_simples": "Localizar ponto L05 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L05",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L05-Z",
+    "titulo_simples": "Localizar ponto L05 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L05",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L06-X",
+    "titulo_simples": "Localizar ponto L06 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L06",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L06-Y",
+    "titulo_simples": "Localizar ponto L06 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L06",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L06-Z",
+    "titulo_simples": "Localizar ponto L06 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L06",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L09-X",
+    "titulo_simples": "Localizar ponto L09 — posição X",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L09",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L09-Y",
+    "titulo_simples": "Localizar ponto L09 — posição Y",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L09",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-L09-Z",
+    "titulo_simples": "Localizar ponto L09 — posição Z",
+    "onde": {
+      "comodo": "lavanderia",
+      "alvo": "L09",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B01-X",
+    "titulo_simples": "Localizar ponto B01 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B01",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B01-Y",
+    "titulo_simples": "Localizar ponto B01 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B01",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B01-Z",
+    "titulo_simples": "Localizar ponto B01 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B01",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B02-X",
+    "titulo_simples": "Localizar ponto B02 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B02",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B02-Y",
+    "titulo_simples": "Localizar ponto B02 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B02",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B02-Z",
+    "titulo_simples": "Localizar ponto B02 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B02",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B03-X",
+    "titulo_simples": "Localizar ponto B03 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B03",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B03-Y",
+    "titulo_simples": "Localizar ponto B03 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B03",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B03-Z",
+    "titulo_simples": "Localizar ponto B03 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B03",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B04-X",
+    "titulo_simples": "Localizar ponto B04 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B04",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B04-Y",
+    "titulo_simples": "Localizar ponto B04 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B04",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B04-Z",
+    "titulo_simples": "Localizar ponto B04 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B04",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B05-X",
+    "titulo_simples": "Localizar ponto B05 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B05",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B05-Y",
+    "titulo_simples": "Localizar ponto B05 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B05",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B05-Z",
+    "titulo_simples": "Localizar ponto B05 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B05",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B06-X",
+    "titulo_simples": "Localizar ponto B06 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B06",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B06-Y",
+    "titulo_simples": "Localizar ponto B06 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B06",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B06-Z",
+    "titulo_simples": "Localizar ponto B06 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B06",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B07-X",
+    "titulo_simples": "Localizar ponto B07 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B07",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B07-Y",
+    "titulo_simples": "Localizar ponto B07 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B07",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B07-Z",
+    "titulo_simples": "Localizar ponto B07 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B07",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B08-X",
+    "titulo_simples": "Localizar ponto B08 — posição X",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B08",
+      "orientacao": "Eixo X da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B08-Y",
+    "titulo_simples": "Localizar ponto B08 — posição Y",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B08",
+      "orientacao": "Eixo Y da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": 1000,
+    "foto": null
+  },
+  {
+    "codigo": "PR-PONTO-B08-Z",
+    "titulo_simples": "Localizar ponto B08 — posição Z",
+    "onde": {
+      "comodo": "banho",
+      "alvo": "B08",
+      "orientacao": "Eixo Z da planta; implantação nominal, marco físico pendente"
+    },
+    "como": [
+      "Ver protocolo de datum: associe o ponto desenhado ao ponto físico e identifique a face de leitura.",
+      "Só registre a coordenada no referencial da planta depois de vincular os marcos; a foto de outra unidade não resolve essa posição."
+    ],
+    "instrumento": "Trena ou laser; croqui e fotos",
+    "altura_ref_mm": null,
+    "foto": null
+  },
+  {
+    "codigo": "DEP-COZ-PRUMO",
+    "titulo_simples": "Quanto a parede da cozinha avança no alto",
+    "onde": {
+      "comodo": "cozinha",
+      "alvo": null,
+      "orientacao": "só cômodo; trecho físico ainda sem geometria identificada"
+    },
+    "como": [
+      "Na parede atrás da bancada, compare uma leitura baixa com outra na altura dos aéreos, usando o mesmo nível laser vertical.",
+      "Anote as duas alturas de leitura e sua diferença. Valor positivo significa que a parede avança para dentro do vão do móvel."
+    ],
+    "instrumento": "Nível laser vertical e régua ou trena perpendicular à parede",
+    "altura_ref_mm": null,
+    "foto": null
+  }
+]

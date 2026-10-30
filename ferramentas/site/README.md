@@ -102,17 +102,22 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 As páginas geradas entram tanto em docs/ do preview quanto no pacote offline, com a mesma seleção explícita de fontes. Não escrever HTML à mão em .site/. Regerar: `python -B ferramentas/site/build_workshop_docs.py --sources-only` e `python -B ferramentas/site/construir.py`. Testes: `python -B ferramentas/site/test_document_library.py`, `node ferramentas/site/test_document_library.cjs` e `python -B ferramentas/verificar_site.py`. Os testes conferem88 destinos,15 cartões,20 móveis, links dos grupos, busca, filtros e navegação offline. ZIPs selados não são sobrescritos; o verificador usa uma reconstrução temporária. Nada nesta alteração autoriza publicação.
 
-**Reconciliação pendente:** Dossie R45 como atalho, comparação CB01, movimentos R52 frente à R54 e seleção L02 histórica: fontes preservadas, sem nova publicação.
+**Reconciliação pendente; fontes preservadas:**
 
-## Dia das chaves — local, 30/10/2026
+- Manter Dossie R45 como atalho às fichas atuais?
+- Manter CB01 como comparação com a opção econômica ou mostrar só a seleção atual?
+- Manter estudo de movimentos R52 como referência numérica separada, com o modelo R54?
+- L02 histórica ainda é referência de componentes/preços do banheiro ou há outra composição vigente?
 
-A quinta aba deriva 156 itens/162 campos de `07_Imovel/Medidas_e_impactos.csv`, agrupados por cômodo. Cotas compostas DIM usam componentes `/0`, `/1`, na ordem da fonte; valores em mm, diferença instantânea, observação e conferência manual. “a definir” nunca recebe tolerância/cor de aceitação automática. Fontes: `build_field_data.py` e `src/field-*`. Janelas 1–5, portas 1–4, PR-EIXO-X e DEP-COZ-PRUMO usam os códigos das regras; descrições pendentes remetem ao [protocolo proposto](../../07_Imovel/Roteiro_dia_das_chaves_R01.md).
+## Dia das chaves — local, sem publicação
 
-Cada alteração tenta salvar no navegador; bloqueio/quota/corrupção mantém funcionamento em memória com aviso. “Exportar” prepara **Medidas_reais.json e CSV**, com dois links de salvamento para evitar bloqueio de downloads múltiplos no celular. “Importar JSON” valida o arquivo inteiro antes de aplicar; códigos repetidos/desconhecidos/valores/datas inválidos são rejeitados e dados antigos não sobrescrevem registros mais recentes. PR-PONTO/PR-FLOORS consumidos ficam em “Pontos e panos (avançado)”, recolhidos por cômodo. PR-* exige checkbox de datum por cômodo; registros antigos sem o booleano contam como não confirmados. Importação sem datum conserva evidência, esvazia cota PR e não a envia a campo.csv; desmarcar revoga a aplicação. MOV/ANC/PISO/COMP continuam anotações. Nada é enviado. Usar a cópia HTML autônoma baixada para trabalhar sem internet; a URL web exige acesso prévio e não se declara instalada em cache offline.
-
-Testes `test_field.cjs`, `test_field_datum.cjs` e importador integrado: persistência, duas abas, fallback, importação atômica, CSV protegido e diferença. Build e todos os testes em `python -B ferramentas/verificar_site.py` passaram. Emulação412×915: delta−16mm, persistência após recarregar, conferência manual e exportação JSON/CSV verificadas; não teste físico no celular. Sem push/deploy.
-
-Direção visual: identidade do próprio site como referência principal; mesmos tokens/tipografia, agrupamento por cômodo e ações inferiores para uma mão. Controles≥44px, rótulos e foco visível seguem o guia de formulários da habilidade Refero. Consulta ao MCP Refero indisponível por assinatura; não foi inventada pesquisa de telas. Nenhuma imagem nova necessária.
+Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-planta, instruções, foto disponível, nominal e campo grande; Pular/Voltar/Próxima e revisão final. “Ver todos” mantém a lista.
+156 itens/162 campos do CSV, sem medidas novas; DIM conserva `/0`/`/1`. Guia e lista usam `guedala:medidas:v1` e o mesmo JSON v1/CSV; fallback, importação atômica e exportação continuam. Sem tolerância presumida.
+[Guias por código](guias_campo.json): rascunho externo por `estudos/rascunhar_guias_campo.py`, seguido de edição dos textos. [Cobertura](Cobertura_guias.csv): 78 códigos só com cômodo; 151 sem foto. Alvos nominais vêm de Cotas.pranchas; descrição pendente remete ao protocolo proposto, disponível offline.
+PR-* só entra na cadeia com datum confirmado por seção; sem vínculo, cota vazia e evidência preservada. Pontos/panos ficam recolhidos e opcionais no guia; MOV/ANC/PISO/COMP continuam anotações.
+Três quadros existentes inspecionados, sem rosto/placa/retrato/marca visível: AD-0322, AD-0446, AD-0602. JPEG ≤800 px, só redução/compressão; outra unidade espelhada, associação dos dormitórios estimada no Complemento R02. Não fornecem cotas nem lado de leitura.
+[Guia leve offline](Dia_das_chaves.html), cerca de 230 KB, inclui fotos/planta/protocolo sem rede. O HTML completo mantém CAD/dossiês e a exceção anterior (>5 MB); instruções deduplicadas e imagem antiga em WebP sem perda de pixels deixam o conjunto menor que o teto existente. Nenhuma captura entra no git.
+Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar com `python -B ferramentas/site/construir.py`. Testes `test_field*.cjs` e importador em `verificar_site.py`; Playwright em 375/1280 px: sem overflow, controles ≥44 px, persistência e exportação idêntica entre modos. Pesquisa Refero indisponível por assinatura; referência: site existente e guia de formulários da habilidade.
 
 ## Obra — local
 

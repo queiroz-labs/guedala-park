@@ -81,6 +81,19 @@
                   reviewed:Object.values(records).filter(r=>r.status!=='pendente').length,total:allowed.size})
     };
   }
-  const api={KEY,number,difference,dateValid,validate,toCsv,createStore};root.GuedalaField=api;
+  function createGuide(codes,store){
+    let index=0;
+    return {
+      current:()=>codes[index]??null,
+      progress:()=>({index,total:codes.length,recorded:codes.filter(c=>store.get(c).valor_mm!==null||store.get(c).observacao.trim()).length}),
+      next:()=>{index=Math.min(index+1,codes.length);},
+      back:()=>{index=Math.max(0,index-1);},
+      goTo:code=>{const i=codes.indexOf(code);if(i>=0)index=i;},
+      update:change=>{if(index<codes.length)return store.update(codes[index],change);},
+      missing:()=>codes.filter(c=>store.get(c).valor_mm===null&&!store.get(c).observacao.trim()),
+      exportData:()=>store.exportData()
+    };
+  }
+  const api={KEY,number,difference,dateValid,validate,toCsv,createStore,createGuide};root.GuedalaField=api;
   if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(globalThis);
