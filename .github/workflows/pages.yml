@@ -42,6 +42,7 @@ jobs:
       - name: Conferir entrada do arquiteto e navegação
         run: |
           node ferramentas/site/test_architect_entry.cjs
+          node ferramentas/site/test_search.cjs
           node ferramentas/site/test_navigation.cjs
       - name: Conferir revisão e selagem do pacote
         env:
