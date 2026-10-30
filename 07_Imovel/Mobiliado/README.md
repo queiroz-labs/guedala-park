@@ -2,7 +2,7 @@
 
 Continua o catálogo do apartamento vazio ([Complemento R02](../Complemento/Complemento_da_visita_R02.md), [índice dos quadros](../indice_frames.json)). Fonte: `Video_Apartamento_Espelhado_Mobiliado.mp4` (29 min 23 s, só no PC, fora do Git e do site). Segundo Elias, é a mesma planta, mobiliada e reformada pelo morador. A identificação de cada cômodo com a P01 continua hipótese.
 
-**Limites:** é a unidade de outra pessoa, com reformas dela (forro, painéis, trocas de louça). Os quadros mostram escala e solução, não cotas. O áudio foi transcrito por máquina, com erros, sem escuta palavra a palavra: [transcrição com horários](Transcricao_automatica_com_horarios.txt), cortada em 27:00 (o restante é despedida e comentário sobre fornecedores, sem uso no projeto). 51 quadros selecionados em `Fotos/` e em [indice_mobiliado.json](indice_mobiliado.json). Não foram guardados os quadros com rosto, retratos de família ou marcas de terceiros.
+**Limites:** é a unidade de outra pessoa, com reformas dela (forro, painéis, trocas de louça). Os quadros mostram escala e solução, não cotas. O áudio foi transcrito por máquina, com erros, sem escuta palavra a palavra: [transcrição com horários](Transcricao_automatica_com_horarios.txt), cortada em 27:00 (o restante é despedida e comentário sobre fornecedores, sem uso no projeto). 51 quadros selecionados em `Fotos/` e em [indice_mobiliado.json](indice_mobiliado.json). Não foram guardados quadros com rosto, retratos de família ou marcas de terceiros; o reflexo no micro-ondas de M-COZ-06 foi borrado.
 
 ## O que o vazio deixou em aberto e o que este vídeo responde
 
@@ -10,7 +10,7 @@ Continua o catálogo do apartamento vazio ([Complemento R02](../Complemento/Comp
 |---|---|---|
 | Sob a pia e o tanque (percurso oculto, volume) | Porta de abrir sob a bancada esconde máquina, aquecedor e cesto de roupa ([M-LAV-01](Fotos/lavanderia/M-LAV-01_25m48s.jpg), [M-COZ-08](Fotos/cozinha/M-COZ-08_03m48s.jpg)) | Interior dos tubos: não é mostrado |
 | Ventilação e janela do serviço | Veneziana fixa de alumínio ao lado de janela de correr ([M-COZ-09](Fotos/cozinha/M-COZ-09_04m00s.jpg), [M-COZ-10](Fotos/cozinha/M-COZ-10_04m36s.jpg)); grelha de parede junto à janela ([M-COZ-07](Fotos/cozinha/M-COZ-07_03m24s.jpg)) | Área livre e saída externa |
-| Forro e teto | Sala e corredor têm forro rebaixado com spots ([M-SAL-04](Fotos/sala/M-SAL-04_08m24s.jpg), [M-CIR-02](Fotos/circulacao/M-CIR-02_17m36s.jpg)); o morador diz que o aéreo do quarto para abaixo do teto porque “a altura podia variar” (24:26) | Pé-direito: nenhuma medida |
+| Forro e teto | Sala e corredor aparentam ter forro rebaixado com spots ([M-SAL-04](Fotos/sala/M-SAL-04_08m24s.jpg), [M-CIR-02](Fotos/circulacao/M-CIR-02_17m36s.jpg)); o morador diz que o aéreo do quarto para abaixo do teto porque “a altura podia variar” (24:26) | Pé-direito: nenhuma medida |
 | Quarto B escuro e placas desfocadas | Quarto menor bem iluminado, com janela, persiana rolô e ponto de teto ([M-QB-01…03](Fotos/quarto_beliche/)); tomada e persiana vistas, placas pequenas não | Placas de comunicação |
 | Atrás da porta do quarto A | Entrada do quarto do casal com a porta aberta ([M-QC-01](Fotos/quarto_casal/M-QC-01_21m48s.jpg)) | Parede atrás da porta |
 | Janela e box do banheiro | Janela projetante **dentro** do box, com ducha de teto e registros ([M-BAN-06…09](Fotos/banheiro/)) | Medidas da janela |
@@ -28,13 +28,13 @@ Só vale o que foi dito, com horário. Nada é cota do projeto.
 | Rack da sala raso: só a profundidade dos aparelhos | 09:25 | Idem |
 | TV de 55" ocupa toda a parede do painel; na parede original “não cabe” | 08:04 | Posição da TV na sala |
 | Gaveta de talheres, de vassouras e de temperos sob a bancada, sem armário alto | 01:24 a 02:06 | Guarda de limpeza |
-| Gaveta de toalhas do banheiro só abre com a porta fechada; o suporte de vidro do kit não cabe no espaço estreito | 14:55 a 15:23 | Conflito porta × gaveta, como na manutenção do gabinete |
+| Gaveta de toalhas do banheiro só abre com a porta fechada; uma peça do kit (áudio pouco claro) não cabe no espaço estreito | 14:55 a 15:23 | Conflito porta × gaveta, como na manutenção do gabinete |
 | Na sala o ponto de TV e telefone fica só na parede de origem; o morador puxou o cabo HDMI pela parede e pelo teto | 11:31 a 11:58 | Pontos de TV/dados da sala |
 | Janela da sala alta: sentado se vê a rua, no sofá só o céu | 12:12 a 12:36 | Posição do sofá e da mesa em relação à janela |
 
 ## Comparação com decisões do projeto
 
-- **Lavanderia:** a máquina, o forno e o cooktop ficam em fila sob a mesma bancada, como no estudo de [lavanderia](../../03_Ambientes/Lavanderia/README.md). Aquecedor e varal ficam atrás de portas na própria frente. Não aparece painel isolante entre máquina e forno; o manual do projeto pede um, e o vídeo não o contradiz nem o confirma.
+- **Lavanderia:** a máquina, o forno e o cooktop ficam em fila sob a mesma bancada, como no estudo de [lavanderia](../../03_Ambientes/Lavanderia/README.md). Aquecedor e varal ficam atrás de portas na própria frente. Não é possível ver se há painel isolante entre máquina e forno; o manual do projeto pede um, e o vídeo não o confirma nem o contradiz.
 - **Escritório (quarto menor, 2,30 × 2,95 m no projeto):** bancada dupla, beliche e janela de correr cabem no mesmo tipo de quarto, sem guarda-roupa. Só como referência de escala.
 - **Banheiro:** ducha de teto e janela no box, cuba esculpida e gabinete de duas gavetas cuja gaveta só abre com a porta fechada; compare com o BC43.
 - **Sala:** o morador pôs TV e sofá em paredes diferentes do layout original da construtora, por causa da cortina e da janela alta. Conferir com a [sala](../../03_Ambientes/Sala_e_jantar/README.md).
@@ -52,7 +52,7 @@ Só vale o que foi dito, com horário. Nada é cota do projeto.
 | [M-COZ-05](Fotos/cozinha/M-COZ-05_02m36s.jpg) | 02:36 | Parede da cuba: revestimento 3D, torneira de bancada, escorredor e tomada dupla alta | Altura das tomadas em relação à bancada |
 | [M-COZ-06](Fotos/cozinha/M-COZ-06_05m12s.jpg) | 05:12 | Nicho aéreo aberto para micro-ondas e forno elétrico; relato de 32 cm de altura × 34 cm de profundidade (05:23) | Única medida de nicho dada pelo morador |
 | [M-COZ-07](Fotos/cozinha/M-COZ-07_03m24s.jpg) | 03:24 | Aéreo de madeira com caixa vazada embaixo, sobre a máquina; janela e grelha de ventilação na parede | Grelha de ventilação junto à janela: posição da saída |
-| [M-COZ-08](Fotos/cozinha/M-COZ-08_03m48s.jpg) | 03:48 | Portinha sob a bancada junto à cuba (produtos de limpeza e cesto de roupa, relato 03:48) | Aproveitamento do vão sob a pedra |
+| [M-COZ-08](Fotos/cozinha/M-COZ-08_03m48s.jpg) | 03:48 | Portinha sob a bancada junto à cuba, com produtos dentro (relato 03:48: cesto de roupa escondido) | Aproveitamento do vão sob a pedra |
 | [M-COZ-09](Fotos/cozinha/M-COZ-09_04m00s.jpg) | 04:00 | Janela da área de serviço com veneziana fixa de alumínio; armário alto de madeira ao lado | Tipo de janela do serviço |
 | [M-COZ-10](Fotos/cozinha/M-COZ-10_04m36s.jpg) | 04:36 | Janela do serviço (parte com veneziana e parte de correr) e ganchos na parede | Altura do peitoril em relação à bancada |
 | [M-COZ-11](Fotos/cozinha/M-COZ-11_04m48s.jpg) | 04:48 | Vista do fundo para a cozinha: máquina, forno, cooktop, nicho e grelha na parede da janela | Visão geral do corredor |
