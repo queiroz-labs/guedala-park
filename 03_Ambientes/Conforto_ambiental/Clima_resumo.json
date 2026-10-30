@@ -1,0 +1,36 @@
+{
+  "horas": 87672,
+  "anos": 10,
+  "min_C": 2.4,
+  "min_em": "2021-07-30T04:00:00",
+  "max_C": 37.1,
+  "max_em": "2020-10-02T15:00:00",
+  "horas_ano_menor16": 1397.0,
+  "horas_ano_menor18": 2563.6,
+  "horas_ano_18a26": 5034.9,
+  "pct_frio16_entre0e12": 75.08947745168217,
+  "dias30_por_ano": [
+    66,
+    71,
+    68,
+    45,
+    73,
+    53,
+    48,
+    37,
+    66,
+    85
+  ],
+  "vento10_percentis": [
+    1.22,
+    2.63,
+    4.679000000000087
+  ],
+  "vento_altura_percentis": [
+    1.480372426157579,
+    3.181081326410054,
+    5.407647224785179
+  ],
+  "alfa_mediano": 0.1990404571266498,
+  "limite": "ERA5 reanálise regional; TMYx estação/ano sintético; não temperatura dentro do apartamento"
+}

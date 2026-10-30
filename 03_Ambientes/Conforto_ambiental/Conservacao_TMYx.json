@@ -1,0 +1,7 @@
+{
+  "residuo_maximo_W": 1.6548540315852733e-11,
+  "limite_W": 1e-06,
+  "horas": 8760,
+  "cenarios": 22,
+  "natureza": "balanço numérico; não valida calibração física"
+}

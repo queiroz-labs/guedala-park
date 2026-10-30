@@ -1,0 +1,76 @@
+{
+  "data": "2026-10-30",
+  "natureza": "Estudo condicional A–D; parâmetros usuais não verificados no imóvel, sem dimensionar compra ou alterar decisão.",
+  "latitude": -23.60,
+  "longitude": -46.72,
+  "fuso_h": -3,
+  "coordenada_publica_contexto": [-23.583937, -46.7159814],
+  "coordenada_publica_limite": "Pin do endereço no portal Guerato; não é posição medida da janela. Mantido ponto climático fornecido. Hospital e tênis não georreferenciados relativamente à janela.",
+  "azimute_topo_graus": 245,
+  "azimutes_sensibilidade": [240, 245, 250],
+  "altura_piso_m": 23.2,
+  "altura_piso_faixa_m": [21, 25],
+  "altura_limite": "8 x 2,9 m é hipótese de entrepisos; documentos confirmam pé-direito 2,60/2,50 m, não espessura/nível de laje.",
+  "clima": {
+    "era5_arquivo": "ERA5_OpenMeteo_2015-2024_horario.json",
+    "era5_sha256": "f75cc1f245064b2e74c261e960fa2bcff94f8d9db4c3e6e8e2b2d91662d9a876",
+    "epw_arquivo": "Congonhas_TMYx.epw",
+    "epw_sha256": "e3fc5a807387948e1b69145df8677c2a51bbc2556b00ab98ca6da69ecb4208b5",
+    "limite": "ERA5 fornecido por Elias, 2015–2024, célula 0,25°; TMYx Congonhas 2011–2025 é ano sintético de 8760h, não os mesmos dez anos. UTC−3 fixo. ERA5 sem DNI/DHI: partição Erbs empírica."
+  },
+  "janelas": [
+    {"id":"J-Q","ambiente":"quarto","eixo":1,"plano_m":1.0,"inicio_m":0.60,"largura_m":1.20,"altura_m":1.10,"peitoril_m":0.95,"normal_relativa":0},
+    {"id":"J-E","ambiente":"escritorio","eixo":1,"plano_m":0.0,"inicio_m":3.15,"largura_m":1.15,"altura_m":1.10,"peitoril_m":0.95,"normal_relativa":0},
+    {"id":"J-S","ambiente":"sala","eixo":1,"plano_m":1.85,"inicio_m":5.33,"largura_m":1.39,"altura_m":1.10,"peitoril_m":0.95,"normal_relativa":0},
+    {"id":"J-AS","ambiente":"lavanderia","eixo":0,"plano_m":2.55,"inicio_m":5.69,"largura_m":1.06,"altura_m":1.10,"peitoril_m":0.95,"normal_relativa":-90},
+    {"id":"J-B","ambiente":"banho","eixo":0,"plano_m":2.55,"inicio_m":4.35,"largura_m":0.40,"altura_m":1.10,"peitoril_m":0.95,"normal_relativa":-90,"tau_vis":0.55}
+  ],
+  "janela_fonte": "Dimensões gráficas da exportação R54; 2,45/2,30 m na planta são larguras de cômodos. Não são área transparente medida. Fração de vidro 0,8 é hipótese; dimensões acima tratadas como vão bruto.",
+  "vidro": {"shgc":0.78,"shgc_faixa":[0.60,0.87],"tau_vis":0.80,"fracao_vidro":0.80,"u_W_m2K":5.7,"u_faixa":[4.5,6.5],"r_persiana_noturna_m2K_W":0.12,"frsi_aluminio_faixa":[0.30,0.70],"fonte":"Memorial §4.2: alumínio, vidro liso incolor/fantasia no banho; propriedades e tipo de abertura ausentes. Todas as propriedades numéricas são hipóteses."},
+  "protecao": {
+    "aberta":{"solar":1.0,"visivel":1.0},
+    "ripas":{"solar":0.45,"visivel":0.35},
+    "persiana_fechada":{"solar":0.15,"visivel":0.02},
+    "blackout_claro":{"solar":0.45,"visivel":0.01},
+    "tecido_compacto":{"solar":0.65,"visivel":0.15},
+    "pelicula_refletiva":{"solar":0.55,"visivel":0.55},
+    "persiana_blackout":{"solar":0.10,"visivel":0.001},
+    "pelicula_tecido":{"solar":0.36,"visivel":0.08},
+    "limite":"Fatores agregados relativos ao vidro aberto: ordem de grandeza usual, não verificada; combinações fornecidas, sem multiplicação automática de ensaios inexistentes. Cortina interna absorve calor; não equivale a sombra externa."
+  },
+  "parede": {
+    "espessura_vano_m":0.14,
+    "espessura_vano_faixa_m":[0.10,0.19],
+    "camadas":[[0.02,1.0,1400000],[0.14,0.8,1200000],[0.015,0.7,1000000]],
+    "lambda_bloco_faixa":[0.45,1.20],
+    "rsi":0.13,"rse":0.04,"absorcao_solar":0.45,"absorcao_faixa":[0.25,0.70],
+    "fonte":"Memorial §3.1 alvenaria estrutural; §4.14 textura sobre massa única. Bloco/graute/espessuras/condutividade/capacidade/absortância/cor externa não determinados: hipótese equivalente, não cálculo normativo NBR15220/ISO6946. Cerâmica no banho: camada adicional não quantificada.",
+    "isolamento":{"espessura_m":0.04,"lambda":0.04,"gesso_m":0.0125,"gesso_lambda":0.25,"mu_isolante_faixa":[1,40],"mu_bloco":10,"mu_gesso":10,"mu_reboco":15,"limite":"Lã/EPS hipotéticos; Glaser estacionário sem chuva nem redistribuição, permeâncias não verificadas; EPS e lã não intercambiáveis acusticamente."}
+  },
+  "luz":{"externa_lux":10000,"rho_piso":0.25,"rho_parede":0.65,"rho_teto":0.80,"rho_parede_faixa":[0.45,0.80],"eficacia_difusa_lm_W":120,"eficacia_direta_lm_W":95,"metas_lux":[150,300,500],"fracao_grade_meta":0.80,"grade_m":0.5,"limite":"Refletâncias de superfícies claras e eficácia luminosa são hipóteses. Componente do céu geométrica + cavidade difusa aproximada, sem conformidade NBR15575 ou Radiance."},
+  "situacao": {
+    "origem_unidade_pixel":[244,148],"m_por_pixel":0.23871,"incerteza_escala_pct":30,
+    "fonte":"Digitalização do recorte Situacao_detalhe.png da planta oficial SEM ESCALA; largura gráfica da unidade ~31 px / 7,4 m nominais. Orientação coerente pelo diagrama 06 e ACESSO, não levantamento cadastral.",
+    "torres":[
+      {"id":"T03","altura_m":60.9,"poligono_pixel":[[88,180],[128,151],[234,293],[195,325]]},
+      {"id":"T01","altura_m":49.3,"poligono_pixel":[[444,129],[647,129],[647,208],[444,208]]}
+    ],
+    "alturas_fonte":"Hipótese (20+1)x2,9 m T03 e (16+1)x2,9 m T01/T02; contagens no folder público, térreo/platibanda/desníveis não medidos."
+  },
+  "vento":{"cd":0.60,"abertura_correr":0.50,"abertura_maximar":0.35,"fatores_urbanos":[0.25,0.50,1.0],"fator_urbano_central":0.50,"passagem_aberta_m2":1.0,"passagem_obstaculos_m2":0.35,"passagem_fechada_m2":0.015,"infiltracao_ach":0.50,"infiltracao_faixa_ach":[0.20,1.0],"infiltracao_vedada_ach":0.20,"limite":"Tipos de abertura não especificados no memorial. Correr/maxim-ar, Cp, Cd, área de portas/gargalos e atenuação urbana são cenários. Interpolação v10/v100 é cota superior, não vento na janela; sem CFD ou garantia de vazão."},
+  "termico": {
+    "capacidade_massa_J_m2K":180000,"capacidade_massa_faixa":[100000,300000],"h_ar_massa_W_m2K":4.0,
+    "vizinho":"adiabatico","vizinho_alternativo_C":22,"vizinho_alternativo_W_m2K":0.50,
+    "hall_W_K":3.0,"hall_C":22,
+    "ganho_pessoa_sensivel_W":72,"ganho_pessoa_latente_W":45,
+    "ocupacao_quarto_noite":2,"ocupacao_escritorio_dia":1,"ocupacao_sala_noite":2,
+    "ganhos_equipamentos_nao_conhecidos_W":{"quarto":20,"escritorio":120,"sala":120,"cozinha":180,"lavanderia":40,"banho":0,"circulacao":0},
+    "ganhos_equipamentos_faixa_fator":[0.5,2.0],
+    "ventilador_W":30,"ventilador_velocidade_m_s":0.5,"ventilador_efeito_C":2.0,
+    "cop_aquecimento":3.0,"cop_resfriamento":3.0,"setpoint_verao_C":26,
+    "tarifa_base_R_kWh":0.78938,"tarifa_total_hipotese_R_kWh":1.05,
+    "tarifa_fonte":"Enel SP B1 convencional, REH3596/2026, vigente 04/07/2026, consultada30/10/2026: TUSD472,42+TE316,96 R$/MWh; base sem tributos/bandeiras/CIP. 1,05 é cenário de tarifa total, não conta vigente.",
+    "limite":"Modelo 2 nós/7 zonas, Top≈(Tar+Tm)/2. Laje entre vizinhos adiabáticos, massa efetiva hipotética. Sem cobertura solar de último andar. Hall22°C e H3W/K são hipóteses. Cargas de cocção/processos e transferência para água/exaustão incertas; parcelas de aparelhos ausentes são preenchidas apenas por hipóteses explícitas, não zero nem dimensionamento AC."
+  },
+  "umidade":{"pressao_Pa":92500,"densidade_ar_seco_kg_m3":1.10,"ur_interna_cenarios":[50,65,80],"temperatura_verao_C":26,"temperatura_inverno_C":20,"pessoa_kg_h":0.045,"banho_kg":0.50,"banho_duracao_min":15,"coccao_kg_h":0.25,"lavadora_lavaloucas_kg_ciclo":0.10,"roupa_agua_inicial_kg":2.0,"roupa_evaporacao_kg_h":0.30,"banho_exaustores_L_s":[15,25,40],"ach_fechado":0.20,"ach_aberto":4.0,"limite":"Gerações/ACH são hipóteses, sem medições de vapor capturado ou água de roupa. 45W latentes anteriores equivalem ~0,066kg/h com hfg2,45MJ/kg; 0,045kg/h é hipótese para sono/atividade mista. Saturação do ar drena condensado explicitamente; sem sorção dos materiais. Gás CH4+2O2→CO2+2H2O, volume real ausente."}
+}

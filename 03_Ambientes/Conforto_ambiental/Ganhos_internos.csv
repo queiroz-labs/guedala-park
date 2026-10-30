@@ -1,0 +1,8 @@
+﻿ambiente;luz_instalada_W;pessoa_W;aparelhos_referencia_H06_W;outros_aparelhos_hipotese_W;fonte
+quarto;55.5;72;0.0;20;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+escritorio;37.6;72;20.8;120;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+sala;44.6;72;0.0;120;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+circulacao;0.0;72;0.0;0;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+cozinha;48.0;72;0.0;180;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+lavanderia;25.0;72;0.0;40;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"
+banho;53.5;72;0.0;0;"climatizacao.py H02/H03/H06 + hipótese de uso; ausentes não viram zero medido"

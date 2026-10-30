@@ -1,0 +1,21 @@
+{
+  "fonte": "09_Referencias\\Plantas_e_manuais\\Planta_oficial.pdf",
+  "sha256": "3e74676c94e767143cc3b3c7a726f967f1a91b77963a98b324180ce70a1683d0",
+  "pagina": 1,
+  "inicio_pontos": [
+    788.5999936416,
+    86.71999924912001
+  ],
+  "fim_pontos": [
+    797.95999360416,
+    91.51999922992002
+  ],
+  "dx_pontos": 9.359999962559982,
+  "dy_pontos": 4.79999998080001,
+  "angulo_imagem_graus": 27.14968169778326,
+  "azimute_alto_graus": 242.85031830221675,
+  "incerteza_leitura_graus": 2,
+  "azimute_adotado_graus": 245,
+  "incerteza_adotada_graus": 4,
+  "limite": "Barra grossa colinear com a linha extraída; incerteza2° é conservadora por traço/registro, não erro estatístico. Satélite de Elias30/10/2026 não arquivado."
+}

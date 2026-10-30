@@ -1,0 +1,12 @@
+﻿moveis;ambiente;face;evidencia_geometrica;tratamento
+P04;quarto;SSE;"fundo/lateral estreita junto a x0,01; confirmar montagem e parede exterior";prioridade para medir
+P01|P02;quarto;SSE_lateral;"lateral x0,01; fundos principais junto a y3,94 são internos";não aplicar risco SSE a todo o roupeiro
+P03;quarto;interna;"maleiro y3,29–3,94 afastado da janela SW; não é fundo SW";umidade ambiente e acesso ao teto
+P14;lavanderia;SSE_lateral;"borda x2,55 junto à fachada; fundo y7 em outra face";conferir contato lateral e circulação de ar
+P15;lavanderia;outra_face;"fundo y7; não é fachada SSE da janela x2,55";roupa/dutos e umidade local, não inferir parede exterior
+P18|P19;banho;interna;"x4,04–4,64; opostos à fachada SSE x2,55; fundo y5,29";risco de banho/água, não classificar como fundo SSE
+P09|P10|P11|P12;cozinha;outra_face;"fundos y7; cozinha sem janela própria; adjacência exterior não comprovada";confirmar parede/shafts e vapor de cocção
+P17;escritorio;adiado;"D06 E06 adiada; não usado como oclusor existente";não reinstalar por hipótese do estudo
+P16;escritorio;SW_proximidade;"janela y0; módulo inicia y0,25; bancada Peca110 junto à janela";luz e calor no posto, não fundo encostado SW
+sofa|TV;sala;SW_proximidade;"sofá Peca077–083 junto y1,85; TV Peca088 no painel Peca084 em x4,95";UV/ofuscamento/temperatura e cortina, sem índices DGP/UGR
+tapete;sala;implantacao_pendente;"140x200 nominal; localização exata não confirmada no projeto";não inventar interseção da mancha de sol

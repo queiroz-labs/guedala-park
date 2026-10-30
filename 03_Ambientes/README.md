@@ -11,6 +11,7 @@ Cada pasta tem um README com o estado atual daquele ambiente (decisões por tema
 | Quarto e portas | [Quarto_e_portas](Quarto_e_portas/README.md) |
 | Banheiro | [Banheiro](Banheiro/README.md) |
 | Iluminação (todos os ambientes) | [Iluminacao](Iluminacao/README.md) |
+| Sol, luz natural, umidade e temperatura anual | [Conforto_ambiental](Conforto_ambiental/README.md) |
 | Eletrodomésticos (todos) | [Equipamentos](Equipamentos/README.md) |
 | Origem das medidas | [Medidas](Medidas/README.md) |
 | Planta mobiliada e vistas | [Planta_mobiliada](Planta_mobiliada/README.md) |

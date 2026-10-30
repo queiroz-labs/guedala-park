@@ -1,0 +1,12 @@
+﻿ordem;solucao;custo_qualitativo;cenario;decisao_afetada;PQ;condicoes
+1;usar persiana existente de forma sazonal;baixo/sem compra se entregue;persiana_13_18;"cortina da sala; confirmar persiana na sala";PQ-001|PQ-007;"verão13–18h; inverno abrir à tarde/fechar ao anoitecer; escurece e pode restringir ventilação"
+2;ventilação noturna com portas abertas;baixo;persiana_vent_noite;varal, acesso e móveis altos;PQ-001|PQ-017;"abrir quando fora mais fresco; chuva, ruído e segurança reais condicionam operação"
+3;ventilador de teto;"médio; R$300–1200 instalado hipótese";ventilador;"iluminação e teto;127V";PQ-012|PQ-017;"30W referência anterior;0,5m/s≈2°C alívio hipotético, não queda da temperatura do ar"
+4;vedar frestas com controle de vapor;"baixo; R$100–500 hipótese";sazonal_vedada;caixa de persiana/manutenção;PQ-007|PQ-018;"não bloquear admissão necessária a gás/exaustão; ventilar por eventos no inverno"
+5;cortina/blackout claro ou tecido;"médio; cotar conforme C2 Areia";blackout_claro;cortina sala, C2 preservada;PQ-028|PQ-029;"avaliar cor externa, trilho, vãos e acesso à janela; interna pode reter calor"
+6;película compatível;"médio; R$150–400/m² hipótese";pelicula_refletiva;vidro e fachada/garantia;PQ-007|PQ-017;"condomínio/fabricante; reduz luz útil também no inverno; não prescrever SKU"
+7;manta pessoal e tapete sobre piso;"baixo/médio; tapete histórico R$269 não recotado";nao_modelado_Top;Olmo/tapete escolhido;PQ-019;"alívio de contato; não atribuir horas de Top evitadas; manta sob vinílico/adesivo exige sistema aprovado pelo fabricante"
+8;aquecedor portátil no quarto;R$200–800 hipótese;portatil1500_quarto;elétrica127V, circulação junto à cama;PQ-012;"1500W referência=11,81A equivalente; termostato/noite; tomadas/circuito/proteções com RT"
+9;split quente/frio;"alto; R$3000–7000/zona hipótese";AC_ideal26;climatização e fachada;PQ-017|PQ-012;"memorial§5.9 x convençãoart58; sem viabilidade/capacidade definida, sem compra"
+10;isolamento interno40mm+gesso12,5mm;"alto; R$150–350/m² hipótese";isolamento;área útil, marcenaria e acústica;PQ-008|PQ-026;"pode reter calor; Glaser/chuva/ponte2D e acústica sem desempenho certificado"
+11;piso radiante elétrico;"alto; R$250–600/m² hipótese";ideal20;Olmo, contrapiso e elétrica;PQ-019|PQ-012|PQ-034;"referência100W/m²; base/sistema<=27°C; sem prova de potência útil suficiente ou de compatibilidade do SKU"

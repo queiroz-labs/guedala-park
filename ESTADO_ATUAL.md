@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 29/10/2026; detalhes nos READMEs; teto 14 KB.
+Vigente30/10/2026; READMEs; ≤14KB.
 
 ## O projeto
 
@@ -32,7 +32,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
-**Clima:** [parcelas](03_Ambientes/Equipamentos/README.md); TMY 8.760 h; ASUS condicional; carga total pendente.
+**Clima:** [parcelas](03_Ambientes/Equipamentos/README.md), TMY8.760h/ASUS condicional/carga pendente; [conforto anual](03_Ambientes/Conforto_ambiental/README.md).
 
 **Acústica:** [piso, aparelhos e envoltória](03_Ambientes/Acustica/README.md); 29 faces/407 sensibilidades; isolamento real e custos pendentes.
 
@@ -75,7 +75,7 @@ Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_
 
 ## Pendências por móvel
 
-Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais; hipóteses, números e perguntas no README de cada item.
+Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/perguntas nos READMEs.
 
 | Móvel | Estudo | Falta |
 |---|---|---|
@@ -112,9 +112,9 @@ Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais
 
 ## Como trabalhar nesta pasta
 
-- [AGENTS.md](AGENTS.md): `git status`, README da área, busca pontual no Registro. [Mapa](README.md).
-- [Verificações](ferramentas/README.md): geral antes de commit; completo após abrir CAD; clone limpo `--ci` antes de push. Commit pequeno por assunto.
-- Não usar macros que salvam/fecham documentos nem sobrescrever modelo em consultas. Campo/oficina pendentes: registre a dúvida e siga.
+- [AGENTS](AGENTS.md): status/README/busca no Registro. [Mapa](README.md).
+- [Verificações](ferramentas/README.md): geral pré-commit; completo após abrir CAD; clone limpo `--ci` pré-push; commit por assunto.
+- Não salvar/fechar CAD por macro nem sobrescrevê-lo em consulta; pendências de campo/oficina: registrar e seguir.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.

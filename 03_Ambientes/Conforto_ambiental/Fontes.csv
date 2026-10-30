@@ -1,0 +1,21 @@
+﻿arquivo;url;acesso;sha256;bytes;situacao;nota
+NOAA_solar.pdf;https://gml.noaa.gov/grad/solcalc/solareqns.PDF;2026-10-30;7fa1fdb5f6b5c05ab1ec3ffde92e6fb2d5df98bf1a87055075ae2c3c1240a627;208947;ok;
+Tarkett_FAQ.html;https://tarkett.com.br/faq;2026-10-30;2fd9f88182a2cd0fba2360f037796c0bea6590fb3caf64219e1440dc0a404596;234492;ok;
+FAO_psicrometria.html;https://www.fao.org/4/x0490e/x0490e07.htm;2026-10-30;63d52d7c2858df69e6423312e17a631b8c6495575f8a2598915bcdf597a35cbe;138060;ok;
+OSM_hospital.json;https://www.openstreetmap.org/api/0.6/way/1221447693/full.json;2026-10-30;7e8c5ecc9c9d4a49551fd1ec5e503954deb562ababc0f418d59a8cb9ac864fbc;1593;ok;
+OSM_guedala.json;https://nominatim.openstreetmap.org/search?format=jsonv2&q=Guedala%20Park%20S%C3%A3o%20Paulo;2026-10-30;4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945;2;ok;
+OSM_morato1767.json;https://nominatim.openstreetmap.org/search?format=jsonv2&q=Avenida%20Professor%20Francisco%20Morato%201767%20S%C3%A3o%20Paulo;2026-10-30;46238a79a981e68203320a73cf7c97c608bc1f12966a3ad8984e20788f5a3590;5257;ok;
+Clima_horario.csv;https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip;2026-10-30 (reuso local de download documentado em29/10);eb6cac2d148dcb51380a81ff6bb2768e0ce40c1b084cb1b466f9c9467675e733;290215;ok;
+Congonhas_TMYx.epw;https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip;2026-10-30 (reuso local de download documentado em29/10);e3fc5a807387948e1b69145df8677c2a51bbc2556b00ab98ca6da69ecb4208b5;1594653;ok;
+Congonhas_TMYx.zip;https://climate.onebuilding.org/WMO_Region_3_South_America/BRA_Brazil/SP_Sao_Paulo/BRA_SP_Sao.Paulo-Congonhas.AP.837800_TMYx.2011-2025.zip;2026-10-30 (reuso local de download documentado em29/10);78ff773c63739fa7034468c2b43dbcf60d5671110d9833b106ef168850b7fd99;408395;ok;
+OSM_entorno.json;https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%3B%28way%5B%22building%22%5D%28-23.589%2C-46.722%2C-23.581%2C-46.711%29%3Bnwr%5B%22name%22~%22Guedala%7CMorumbi%20Tennis%22%2Ci%5D%28-23.59%2C-46.73%2C-23.57%2C-46.70%29%3B%29%3Bout%20center%20tags%20geom%3B;2026-10-30;;;The read operation timed out;
+Localizacao_publica.html;https://www.guerato.com.br/zona-sul/guedala-park-premium;2026-10-30;4a179790a197e6a7ebe194e8478fa3f34e80de045eedd82d9b6443d707f06449;1486354;ok;
+Tenis_oficial.html;https://morumbitennis.com.br/contato;2026-10-30;ffaa7975fc8808b188652358241831c67753c47cc263eb1a21d13d3249248a89;113656;ok;
+Enel_tarifa.html;https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html;2026-10-30;7280c8182391e05cf534b2fab999b66751e7567add1b1c8941ba3a65ac0f266c;111207;ok;
+OpenMeteo_documentacao.html;https://open-meteo.com/en/docs/historical-weather-api;2026-10-30;671c8881bb499b260b416844a6fc809e2cd7bb4fe7cebe277aebd625e0460904;391302;ok;
+Tarkett_instalacao.pdf;https://cdn-tarkett.nyc3.cdn.digitaloceanspaces.com/images/arquivos/MANUAL%20GERAL%20DE%20INSTALACAO_2024__17103572612596.pdf;2026-10-30;;;HTTP Error 403: Forbidden;
+CBE_adaptativo.js;https://raw.githubusercontent.com/CenterForTheBuiltEnvironment/comfort_tool/master/static/js/comfort-models.js;2026-10-30;6cd28dea355e3f20b49e8d2403002d125193b95968ab390f4baf793959bcffdd;28852;ok;
+Erbs_documentacao.html;https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.erbs.html;2026-10-30;3497f367460b14843ad0765027b388ab79d7ad98f249e3e7554da5812e0db576;106704;ok;
+CIE_overcast.html;https://help.iesve.com/ve2026/dialogue_boxes_1.htm;2026-10-30;e99dc125bece4816b571f4141d2de79ecb9927c8ffcab009357ca3cfe40068b2;3048344;ok;
+Folder_torres.pdf;https://www2.fab.mil.br/cfiae/images/imoveis_parceiros/REV_set_GUEDALA_PREMIUM.pdf;2026-10-30;;;HTTP Error 403: Forbidden;
+ERA5_OpenMeteo_2015-2024_horario.json;https://open-meteo.com/en/docs/historical-weather-api;2026-10-30;f75cc1f245064b2e74c261e960fa2bcff94f8d9db4c3e6e8e2b2d91662d9a876;4769371;ok;"Arquivo fornecido por Elias; URL da documentação; requisição original não arquivada. ERA5 conforme proveniência fornecida."

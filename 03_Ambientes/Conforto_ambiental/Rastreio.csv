@@ -1,0 +1,13 @@
+﻿fonte;sha256_LF_ou_binario;natureza
+ferramentas/estudos/modelos/Conforto_hipoteses.json;67b62b4305b816a11a06eacb3633693501ccbce166fd3e63e5a0d6862746c35d;"entrada ou código; textos normalizados LF, não medida real"
+09_Referencias/Plantas_e_manuais/Planta_oficial.pdf;3e74676c94e767143cc3b3c7a726f967f1a91b77963a98b324180ce70a1683d0;"entrada ou código; textos normalizados LF, não medida real"
+06_Entregas/Caderno_pranchas/Geometria.json;513ded2a2155e584cbef47a6e6160088be37d1263ecf3cfa3d6d9de4912c7445;"entrada ou código; textos normalizados LF, não medida real"
+03_Ambientes/Iluminacao/Grades_lux.csv;9c108e20d2cc9cbe05be284544e7462624451c0412227a604ea2996f8bcf93b0;"entrada ou código; textos normalizados LF, não medida real"
+03_Ambientes/Equipamentos/Climatizacao_parcelas.csv;44a00edec241a3303fbe39609d8b692a7492d0fd43b811298302a763ff931ee5;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_calor.py;e23ef705f097e69f229e59d09174d76bf043ec73dc0f91d0e21cfa26b333da51;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_clima.py;8dfa9ba47f22aa74d62c6140f306b1fb6c07bcd0027b6c29088dba0898f68f7c;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_fisica.py;4e157e9b2c25e1438866896a0266cf7e924b35f0652a4d24077bf20123139002;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_geometria.py;187dc81400c9439e4535f19e6ce402fb102f64b8a8a55bccb07a8654a75bbd18;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_relatorio.py;eaebe0986f1d0cf441c76d3e75853e446adcc1d2462a98d2d16e1e05b89cbe26;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/conforto_umidade.py;22dbbc2e5456a73e318e764ac0082a83055c375427ef123b059f6f401a3ca5a6;"entrada ou código; textos normalizados LF, não medida real"
+ferramentas/estudos/sol_luz_umidade.py;3a97c09f78228cfa829aabecad0a5924a47b7b2cb5844d23d0fce66ef2fd0f49;"entrada ou código; textos normalizados LF, não medida real"

@@ -1,0 +1,6 @@
+﻿ambiente;area_bruta_m2;fracao_aquecivel_hipotese;potencia_eletrica100W_m2_W;corrente_equivalente127V_A;potencia_termica_teto27C_Ti20_h8_W;acrescimo_piso_hipotese_mm;pe_direito_depois_m;restricao
+quarto;8.3825;0.7;586.8;4.62;328.6;10–30;"2,57–2,59; banho2,47–2,49 se aplicável";"área livre sem armários; potência100W/m² não é entrega contínua; sensor/adesivo/SKU/RT pendentes, não alterar piso"
+escritorio;6.785;0.7;474.9;3.74;266.0;10–30;"2,57–2,59; banho2,47–2,49 se aplicável";"área livre sem armários; potência100W/m² não é entrega contínua; sensor/adesivo/SKU/RT pendentes, não alterar piso"
+sala;9.6715;0.7;677.0;5.33;379.1;10–30;"2,57–2,59; banho2,47–2,49 se aplicável";"área livre sem armários; potência100W/m² não é entrega contínua; sensor/adesivo/SKU/RT pendentes, não alterar piso"
+circulacao;0.945;0.7;66.1;0.52;37.0;10–30;"2,57–2,59; banho2,47–2,49 se aplicável";"área livre sem armários; potência100W/m² não é entrega contínua; sensor/adesivo/SKU/RT pendentes, não alterar piso"
+cozinha;5.5176;0.7;386.2;3.04;216.3;10–30;"2,57–2,59; banho2,47–2,49 se aplicável";"área livre sem armários; potência100W/m² não é entrega contínua; sensor/adesivo/SKU/RT pendentes, não alterar piso"

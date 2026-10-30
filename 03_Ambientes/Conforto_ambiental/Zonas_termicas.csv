@@ -1,0 +1,8 @@
+﻿ambiente;area_m2;volume_m3;parede_SW_m2;parede_SSE_m2;janela_bruta_m2;comprimento_fachada_m;limite
+quarto;8.3825;21.7945;5.05;7.67;1.32;5.4;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+escritorio;6.785;17.641;4.715;2.6;1.265;3.3;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+sala;9.6715;25.1459;4.841;0.0;1.529;2.45;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+circulacao;0.945;2.457;0.0;0.0;0.0;0.0;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+cozinha;5.5176;14.3458;0.0;0.0;0.0;0.0;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+lavanderia;1.9866;5.1652;0.0;2.838;1.166;1.54;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
+banho;2.6616;6.654;0.0;2.66;0.44;1.24;"envoltória nominal parcial; recessos/partes comuns a medir; vidro80% hipotético"
