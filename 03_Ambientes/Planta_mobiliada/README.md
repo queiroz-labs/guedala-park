@@ -26,6 +26,8 @@ Comparação lado a lado das oito imagens, com o mesmo quadro de 1005 × 649 px,
 
 Todas as oito vistas foram refeitas; nenhuma ficou marcada como desatualizada. Chapas, acessórios e pisos continuam simplificados pelo renderizador. Conferência de enquadramento não demonstra medidas, montagem, resistência ou conformidade. A aparência verde vem do site; não se atribui alteração ao arquivo CAD R54.
 
+Seleção do build web: os oito PNGs, este README e os metadados são copiados para `docs/03_Ambientes/Planta_mobiliada/`. O teste de downloads confere dimensões, revisão e SHA dos PNGs e exige os oito links ativos no artefato; capturar não faz publicação.
+
 ## Procedimento de captura
 
 `node ferramentas/estudos/capturar_planta_mobiliada.cjs --output-dir ../captura_planta` abre o HTML gerado no Edge via Playwright local. Ajuste `NODE_PATH` para a instalação local existente; `--browser` aceita outro executável. Não é etapa do build/CI e não instala dependências.

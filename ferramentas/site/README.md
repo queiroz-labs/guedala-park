@@ -94,7 +94,7 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 ## Navegação e documentos
 
-Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Baixar usa o mesmo componente na entrada do arquiteto e em Documentos, com revisão/formato/tamanho e situação. Busca abre o arquivo na seção. Sem ZIP agregado: os pacotes mantêm escopos distintos. `downloads-manifest.json` registra os destinos publicados. `test_downloads.cjs` confere fontes, bytes e links após o build no verificador/CI; arquivo ausente reprova.
+Downloads: seleção em `downloads-source.json`; `build_downloads_data.py` mede arquivos reais e completa a publicação explícita em `docs/`. O R29 só recebe tamanho depois de existir; catálogo fora do HTML evita autorreferência no ZIP. Baixar usa o mesmo componente na entrada do arquiteto e em Documentos, com revisão/formato/tamanho e situação. Busca abre o arquivo na seção. Sem ZIP agregado: os pacotes mantêm escopos distintos. `downloads-manifest.json` registra os destinos publicados. `test_downloads.cjs` confere fontes, bytes, links e as 8 imagens R03/SHA no verificador/CI.
 
 Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
 

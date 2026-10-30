@@ -20,6 +20,15 @@
     {"id":"mobiliada","title":"Planta mobiliada R03 · imagem","description":"Vista superior R03 da cena R54, com os acabamentos atuais do site. Imagem ilustrativa, sem cotas.","path":"03_Ambientes/Planta_mobiliada/Planta_mobiliada_R03.png","revision":{"state":"Planta mobiliada e vistas"},"status":"nominal / a confirmar"}
   ],
   "support": [
+    "03_Ambientes/Planta_mobiliada/README.md",
+    "03_Ambientes/Planta_mobiliada/Captura.json",
+    "03_Ambientes/Planta_mobiliada/Vistas/00_Apartamento.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/01_Sala_e_jantar.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/02_Quarto.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/03_Escritorio.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/04_Cozinha.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/05_Lavanderia.png",
+    "03_Ambientes/Planta_mobiliada/Vistas/06_Banheiro.png",
     "01_Programa_e_decisoes/Perguntas_em_aberto/Origens.csv",
     "01_Programa_e_decisoes/Perguntas_em_aberto/Respostas_decisoes.csv",
     "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/elias.md",
