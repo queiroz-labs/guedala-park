@@ -1,0 +1,11 @@
+/* Celular: texto mínimo de 12 px e alvos de toque de 44 px (carregado por último). */
+@media(max-width:760px){
+.badge,.source-label,.status-original,.eyebrow,.welcome .eyebrow,.motion-note,.mast nav button,.mast .quiet,.mast #helpButton,.mast .brand small,
+small,.room-note,.work-note,.work-count,.section-label,.stage-heading span,.stage-tip,.stage-tag,.viewtools button,.segmented button,summary,
+.welcome-copy,.work-context,.work-context *,.work-accordion p,.material .body p,.scene-options button,.scene-options summary{font-size:12px!important}
+.eyebrow{letter-spacing:1.2px}
+.badge{padding:4px 8px}
+}
+@media(pointer:coarse){
+button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44px!important}
+}

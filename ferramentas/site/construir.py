@@ -29,6 +29,7 @@ html=html.replace('</style>',(src/'field.css').read_text(encoding='utf-8')+'\n</
 html=html.replace('</style>',(src/'work.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</style>',(src/'architect.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</style>',(src/'downloads.css').read_text(encoding='utf-8')+'\n</style>')
+html=html.replace('</style>',(src/'mobile-ux.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encoding='utf-8')+'\n'+(src/'workshop.js').read_text(encoding='utf-8')+'\n'+(src/'fabrication-ui.js').read_text(encoding='utf-8')+'\n'+(src/'floorplan-ui.js').read_text(encoding='utf-8')+'</script></body>')
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('field-data.js','field-guide-data.js','field-icons.js','field-core.js','field-ui.js'))+'</script></body>')
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('work-data.js','work-core.js','work-ui.js'))+'</script></body>')
