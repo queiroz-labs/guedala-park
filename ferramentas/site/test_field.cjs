@@ -1,0 +1,35 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const coreModule={exports:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'src/field-core.js'),'utf8'),{module:coreModule,Date});const api=coreModule.exports;
+const context=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(__dirname,'src/field-data.js'),'utf8'),context);
+const rows=JSON.parse(vm.runInContext('JSON.stringify(GUEDALA_FIELD_ROWS)',context)),codes=rows.flatMap(r=>r.partes.map(p=>p.codigo));
+assert.equal(new Set(codes).size,codes.length);assert(rows.length>50);assert(rows.every(r=>!/^(LOG|POS|PR|PTO|OBS)-/.test(r.codigo)));
+const dim=rows.find(r=>r.codigo==='DIM-01');assert.deepEqual(dim.partes.map(p=>p.nominal_mm),[2450,2950]);assert.deepEqual(dim.partes.map(p=>p.codigo),['DIM-01/0','DIM-01/1']);
+assert(rows.every(r=>r.tolerancia==='a definir'),'Mudança na fonte deve ser revisada sem inventar tolerância');
+assert.equal(api.number(''),null);assert.equal(api.number('0'),0);assert.equal(api.number('25,5'),25.5);assert.throws(()=>api.number('25 mm'));assert.throws(()=>api.number(Infinity));
+assert.equal(api.difference(null,2600),null);assert.equal(api.difference(2500,null),null);assert.equal(api.difference(2584,2600),-16);assert.equal(api.difference(2600,2600),0);
+let persisted=null,tick='2026-10-30T05:00:00.000Z';const storage={getItem:()=>persisted,setItem:(k,v)=>{assert.equal(k,api.KEY);persisted=v;}};
+const store=api.createStore(codes,{storage:()=>storage,clock:()=>tick});
+store.update('PD-QUA',{valor_mm:2584});assert.equal(JSON.parse(persisted).medidas[0].valor_mm,2584);
+store.update('PD-QUA',{status:'ok',observacao:'Conferido na parede.'});assert.equal(store.get('PD-QUA').status,'ok');
+store.update('PD-QUA',{valor_mm:2585});assert.equal(store.get('PD-QUA').status,'pendente','Nova medida pede nova conferência manual');
+const reopened=api.createStore(codes,{storage:()=>storage,clock:()=>tick});assert.equal(reopened.get('PD-QUA').valor_mm,2585);
+const otherTab=api.createStore(codes,{storage:()=>storage,clock:()=>tick});
+reopened.update('PD-SAL',{valor_mm:2590});otherTab.update('PD-COZ',{valor_mm:2570});assert.equal(JSON.parse(persisted).medidas.length,3,'Outra aba não apaga registros de códigos diferentes');
+const exported=store.exportData();assert.equal(exported.projeto,'guedala-park');assert.equal(exported.versao,1);assert.equal(exported.medidas[0].data_hora,tick);
+const target=api.createStore(codes,{storage:()=>null,clock:()=>tick});target.importFile(JSON.stringify(exported));assert.equal(target.get('PD-QUA').valor_mm,2585);
+const before=JSON.stringify(target.exportData());const bad=structuredClone(exported);bad.medidas.push({...bad.medidas[0],codigo:'DESCONHECIDO'});
+assert.throws(()=>target.importFile(JSON.stringify(bad)));assert.equal(JSON.stringify(target.exportData()),before,'Arquivo inválido não aplica parte dos registros');
+bad.medidas=[{...exported.medidas[0],valor_mm:'2585'}];assert.throws(()=>target.importFile(JSON.stringify(bad)));
+bad.medidas=[exported.medidas[0],exported.medidas[0]];assert.throws(()=>target.importFile(JSON.stringify(bad)));
+bad.medidas=[{...exported.medidas[0],data_hora:'2026-02-30T00:00:00Z'}];assert.throws(()=>target.importFile(JSON.stringify(bad)));
+bad.medidas=[{...exported.medidas[0],status:'aprovado'}];assert.throws(()=>target.importFile(JSON.stringify(bad)));
+tick='2026-10-30T06:00:00.000Z';target.update('PD-QUA',{valor_mm:2587});const result=target.importFile(JSON.stringify(exported));assert.equal(result.older,1);assert.equal(target.get('PD-QUA').valor_mm,2587);
+for(const storageFactory of [()=>null,()=>{throw Error('SecurityError');},()=>({getItem:()=>null,setItem:()=>{throw Error('QuotaExceeded');}})]){
+ const memory=api.createStore(codes,{storage:storageFactory,clock:()=>tick});memory.update('PD-QUA',{valor_mm:2588});assert.equal(memory.get('PD-QUA').valor_mm,2588);assert(!memory.storageState().persistent);assert.equal(memory.exportData().medidas.length,1);
+}
+let corrupted='{invalid';const corrupt=api.createStore(codes,{storage:()=>({getItem:()=>corrupted,setItem:(k,v)=>{corrupted=v;}}),clock:()=>tick});
+corrupt.update('PD-QUA',{valor_mm:2599});assert.equal(corrupted,'{invalid','Não sobrescrever armazenamento corrompido');
+const csv=api.toCsv({medidas:[{codigo:'PD-QUA',valor_mm:2584,status:'pendente',observacao:'=HYPERLINK("x");\ntexto',data_hora:tick}]});
+assert(csv.startsWith('\ufeffcodigo;'));assert(csv.includes('"2584"'));assert(csv.includes("'="));assert(csv.includes('""x""'));assert(csv.includes('\ntexto'));
+const ui=fs.readFileSync(path.join(__dirname,'src/field-ui.js'),'utf8');assert(ui.includes('inputmode="decimal"'));assert(ui.includes('Medidas_reais.json'));assert(ui.includes('Medidas_reais.csv'));assert(!ui.includes('fetch('));
+console.log(JSON.stringify({fieldRows:rows.length,scalarFields:codes.length,storage:true,fallback:true,atomicImport:true,csv:true,difference:true}));

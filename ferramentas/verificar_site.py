@@ -16,7 +16,7 @@ NODE = shutil.which('node')
 
 TESTES_NODE = ['test_orientation.cjs', 'test_scene_revision.cjs', 'test_lighting.cjs',
                'test_part_groups_ui.cjs', 'test_storage.cjs', 'test_document_library.cjs',
-               'test_navigation.cjs']
+               'test_navigation.cjs', 'test_field.cjs']
 
 
 def passo(nome, cmd, env=None):

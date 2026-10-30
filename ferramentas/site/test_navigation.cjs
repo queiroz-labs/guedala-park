@@ -2,9 +2,9 @@ const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),asse
 const src=path.join(__dirname,'src'),read=n=>fs.readFileSync(path.join(src,n),'utf8');
 const app=read('app.js'),shell=read('shell.html'),workshop=read('workshop.js');
 
-// Quatro abas; a planta cotada é aberta de dentro do Apartamento.
+// Abas de consulta e levantamento; a planta cotada abre de dentro do Apartamento.
 const nav=shell.match(/<nav aria-label="Conteúdo">([\s\S]*?)<\/nav>/)[1];
-assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos']]);
+assert.deepEqual([...nav.matchAll(/data-tab="(\w+)">([^<]+)</g)].map(m=>[m[1],m[2]]),[['model','Apartamento'],['mood','Cômodos'],['decisions','Escolhas'],['documents','Documentos'],['chaves','Dia das chaves']]);
 assert(!nav.includes('floorplan'),'Planta com medidas não é aba');
 assert(read('floorplan-ui.js').includes('.viewbar .viewtools'),'Botão da planta fica na barra do Apartamento');
 
@@ -34,4 +34,5 @@ assert(app.includes("[['photo','Dia / Noite'],['3d','3D']]"),'Cartão alterna en
 // Endereços antigos continuam válidos.
 const tabs=vm.runInContext(workshop.match(/const WORK_TABS=\{[^}]+\};/)[0]+'WORK_TABS',vm.createContext({}));
 for(const [old,target] of [['materiais','mood'],['planta','floorplan'],['documentos','documents'],['ambientes','model'],['escolhas','decisions']])assert.equal(tabs[old],target,old);
-console.log(JSON.stringify({tabs:4,status:tally,legacyLinks:Object.keys(tabs).length}));
+assert.equal(tabs.chaves,'chaves');
+console.log(JSON.stringify({tabs:5,status:tally,legacyLinks:Object.keys(tabs).length}));

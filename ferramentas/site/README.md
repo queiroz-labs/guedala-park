@@ -2,15 +2,15 @@
 
 **Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
-**Berlin R54, 27/10/2026:** pedestal preto aproximado nos dois estados; cadeira lateral +15 mm. 106 cenários sem colisões novas. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Relatório](../../02_Modelo_3D/Relatorio_mudanca.md) · [publicação](../../06_Entregas/README.md). Publicado e conferido em 28/10/2026. Controle da mesa acessível na sala. Malha da cadeira preservada: só mudou a diagonal de uma face plana; materiais reconciliados. Testes em `test_scene_revision.cjs`.
+**Modelo R54:** pedestal Berlin e cadeira lateral +15 mm; 106 cenários sem colisões novas. [Relatório e limites](../../02_Modelo_3D/Relatorio_mudanca.md). Publicação anterior em28/10/2026; alterações locais de30/10 não estão publicadas.
 
 **Textos públicos:** o site é visto por outras pessoas. Fichas, Escolhas, Planta e Documentos descrevem o estado atual, sem datas, códigos de revisão, "substitui"/"anterior" nem atribuições. Fontes (`source` em `src/data.js`) ficam nos dados, fora da tela. Registros internos e "o que mudou" saem da biblioteca via `INTERNAL_DOCS` em `plain_language.py`, mas seguem no repositório e nas fichas que os citam.
 
-**Pé-direito, 27/10/2026:** Elias solicitou 2,60 m em todos os cômodos e 2,50 m no banheiro, com commit/push e atualização do site. CSV `07_Imovel/Medidas_e_impactos.csv` alimenta paredes, guia e pranchas; medido prevalece sobre nominal. Medidas a confirmar. Escritório 2,47 m substituído; mobiliário e FCStd R53 preservados. R25 inclui caderno A3 R02 atualizado. Publicado e conferido em 27/10: alturas remotas corretas, PDF e ZIP com 295 entradas íntegros; [evidência](../../06_Entregas/README.md).
+**Pé-direito nominal:**2,60m nos cômodos/2,50m no banheiro, Elias27/10/2026; [fonte e precedência do medido](../../07_Imovel/README.md). Forros/instalações/móveis condicionados ao levantamento; não alterar o FCStd automaticamente.
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-A configuração corrente é `current_release.json`: FreeCAD R54, pacote R29, fichas R15 e iluminação CB02. Em 26/10, metadados e ZIP remoto R23 foram conferidos: 251 entradas, CRC e hashes sem falhas. `lastPublishedPackageRevision` foi reconciliado para R23. O ZIP local R20 é histórico. [Evidências e limites](../../06_Entregas/README.md). Estudos separados não são incorporados automaticamente à geometria.
+`current_release.json` conserva CAD R54, pacote R29, fichas R15 e iluminação CB02. [Histórico de publicação e ZIPs](../../06_Entregas/README.md). Estudos separados não alteram geometria automaticamente.
 
 Entradas antigas encaminham às fichas e ao estado atual; [referências divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09).
 
@@ -62,15 +62,7 @@ A interface foi verificada em emulação de tela de 412 × 915 pixels lógicos c
 
 Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos estudos do projeto. Os volumes são proporcionais e podem ser girados; estofados, texturas, mecanismos e ferragens são simplificados. O painel visual PNG foi produzido como ilustração de ambiente com auxílio de geração de imagem e revisado pelas decisões atuais. Use as fichas do HTML para medidas e aprovação.
 
-| Estudo | Representação atual | Conferência que permanece |
-|---|---|---|
-| Sala | Bonnie 180 cm, profundidades 110/136 cm; painel 115 cm; prateleiras 110 × 35 e 110 × 25 cm, topos 35/60 cm | Philips 50PUG8100/78 e TAB4000 escolhidas (29/10); parede, ventilação, sofá, suportes e instalação pendentes |
-| Circulação da sala | 245 − 136 − 37 = 72 cm com retrátil aberto; 67 cm se houver mais 5 cm atrás do sofá | Medidas reais e obstáculos; cálculo de faixa reta, sem simular o trajeto de uma pessoa |
-| Jantar | Mesa 150/180 × 75 cm, R15, extensão central; pedestal fixo; três cadeiras na lateral, central mais para fora | Cadeira e sapata são gabaritos compactos; não foi comprovado um conjunto comercial com esse encaixe |
-| Quarto | Viúva atual com baú 128 × 188 × 64 cm (29/10); queen futura com envelope 200 × 160 cm; armário e aéreos nativos R31 | Conferir camas reais, circulação, ferragens, conforto e fixação |
-| Escritório | Mesa 200 × 70 cm; Daiane; TV 43″; aéreo 200 × 35 × 55 cm; topo da prateleira dos consoles a 195 cm | Largura/altura da mesa, cadeira, mecanismo e trajetória do sofá, porta, acesso aos consoles e ferragens |
-| Cozinha/lavanderia | Sequência F38, equipamentos escolhidos, paleta vigente, interiores A/B/C/D e varal 100 × 50 cm | Ventilação dos equipamentos, ajustes de módulos, instalações, pé-direito, aquecedor e mecanismo do varal |
-| Banheiro | VIP 59 cm, Slim, Arion atrás da cuba, BC43, P19, parede verde e Livo; [13 opções de água quente](../../03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md), sem escolha (29/10) | Ducha à esquerda do vaso; papeleira à esquerda do gabinete, posição a confirmar (imagem 29/10/2026); hidráulica/elétrica com RT |
+As dimensões e pendências por ambiente ficam nas fontes vigentes: [sala/mesa/TV](../../03_Ambientes/Sala_e_jantar/README.md), [quarto/cama/armários](../../03_Ambientes/Quarto_e_portas/README.md), [escritório](../../03_Ambientes/Escritorio/README.md), [cozinha](../../03_Ambientes/Cozinha/README.md), [lavanderia](../../03_Ambientes/Lavanderia/README.md) e [banheiro](../../03_Ambientes/Banheiro/README.md). A interface consulta os dados atuais; representação de pedestal, móveis, abertura, trajetórias e materiais é aproximada, sem validar produto, mecanismo, carga ou fabricação.
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
@@ -104,7 +96,7 @@ Componentes por tema; consulta R12 em `fabrication/Consulta`; R13 sem uso removi
 
 ## Navegação e documentos
 
-**Quatro abas** (28/10): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Elias, 28/10/2026: "Confirmo" (ambíguos: para desenvolver, existente, entrega e 1ª opção → Decidido; tamanho futuro → Futuro). Teste: `test_navigation.cjs`.
+**Consulta anterior em quatro abas** (28/10): Apartamento (3D; *Planta com medidas* virou botão da barra, com volta), Cômodos (antiga Materiais: paleta, todos os itens com selo e *Documentos deste cômodo*), Escolhas (placar e detalhe de cada item, com *Ver no 3D*) e Documentos. `?aba=materiais|planta|ambientes` continuam válidos. Selo único em `app.js → STATUS_GROUPS`: Decidido, Em estudo, Futuro; "A conferir" mostra o texto de medida. Elias, 28/10/2026: "Confirmo" (ambíguos: para desenvolver, existente, entrega e 1ª opção → Decidido; tamanho futuro → Futuro). Teste: `test_navigation.cjs`.
 
 **15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
 
@@ -120,3 +112,14 @@ As páginas geradas entram tanto em docs/ do preview quanto no pacote offline, c
 - A composição de iluminação CB01 se declara histórica comparativa e encaminha à opção econômica. Manter a comparação dentro de Iluminação ou apontar somente para a seleção atual? Sua função comparativa é indicada no link.
 - O estudo de movimentos está vinculado à R52, enquanto o modelo atual é R54. Manter como referência numérica separada? Continua dentro das fichas, identificado como referência a conferir.
 - O estado atual chama a composição de luz do banheiro L02 de histórica. Ela ainda é a referência de componentes/preços, ou há outra composição vigente? O link permanece no Banheiro e em Iluminação, sem tratar preço antigo como cotação atual.
+
+
+## Dia das chaves — local, 30/10/2026
+
+A quinta aba deriva57 itens/63 campos de `07_Imovel/Medidas_e_impactos.csv`, agrupados por cômodo. Cotas compostas DIM usam componentes `/0`, `/1`, na ordem da fonte; valores em mm, diferença instantânea, observação e conferência manual. “a definir” nunca recebe tolerância/cor de aceitação automática. Fontes editáveis: `build_field_data.py` e `src/field-*`.
+
+Cada alteração tenta salvar no navegador; bloqueio/quota/corrupção mantém funcionamento em memória com aviso. “Exportar” prepara **Medidas_reais.json e CSV**, com dois links de salvamento para evitar bloqueio de downloads múltiplos no celular. “Importar JSON” valida o arquivo inteiro antes de aplicar; códigos repetidos/desconhecidos/valores/datas inválidos são rejeitados e dados antigos não sobrescrevem registros mais recentes. Nada é enviado. Usar a cópia HTML autônoma baixada para trabalhar sem internet; a URL web exige acesso prévio e não se declara instalada em cache offline.
+
+Teste `node ferramentas/site/test_field.cjs`: persistência, duas abas, fallback, importação atômica, CSV protegido e diferença. Build e todos os testes em `python -B ferramentas/verificar_site.py` passaram. Emulação412×915: delta−16mm, persistência após recarregar, conferência manual e exportação JSON/CSV verificadas; não teste físico no celular. Sem push/deploy.
+
+Direção visual: identidade do próprio site como referência principal; mesmos tokens/tipografia, agrupamento por cômodo e ações inferiores para uma mão. Controles≥44px, rótulos e foco visível seguem o guia de formulários da habilidade Refero. Consulta ao MCP Refero indisponível por assinatura; não foi inventada pesquisa de telas. Nenhuma imagem nova necessária.
