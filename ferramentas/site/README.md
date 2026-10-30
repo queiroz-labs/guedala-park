@@ -34,7 +34,7 @@ Execute a partir da raiz `guedala-park`. O modo `auto` verifica o ZIP selado qua
 
 ## Referências da interface
 
-A interface mantém fichas, visitas e movimentos; limites físicos nas fontes vigentes. [Verificação inicial](Verificacao_interface_R08.json): teclado, computador/celular e21 vistas. Revisões e autorizações anteriores ficam no git e não autorizam publicar alterações novas.
+[Verificação inicial](Verificacao_interface_R08.json) e limites nas fontes vigentes; histórico não autoriza publicação nova.
 
 [Apartamento](Guedala_Park_Interativo.html) · [Moodboard](../../09_Referencias/Moodboard_atualizado_R01.html) · [Estado atual](../../ESTADO_ATUAL.md).
 
@@ -60,7 +60,7 @@ Conferências anteriores não equivalem ao aparelho real.
 
 Geometria em centímetros, reconstruída a partir da planta oficial P01 e dos estudos do projeto. Os volumes são proporcionais e podem ser girados; estofados, texturas, mecanismos e ferragens são simplificados. O painel visual PNG foi produzido como ilustração de ambiente com auxílio de geração de imagem e revisado pelas decisões atuais. Use as fichas do HTML para medidas e aprovação.
 
-As dimensões e pendências por ambiente ficam nas fontes vigentes: [sala/mesa/TV](../../03_Ambientes/Sala_e_jantar/README.md), [quarto/cama/armários](../../03_Ambientes/Quarto_e_portas/README.md), [escritório](../../03_Ambientes/Escritorio/README.md), [cozinha](../../03_Ambientes/Cozinha/README.md), [lavanderia](../../03_Ambientes/Lavanderia/README.md) e [banheiro](../../03_Ambientes/Banheiro/README.md). A interface consulta os dados atuais; representação de pedestal, móveis, abertura, trajetórias e materiais é aproximada, sem validar produto, mecanismo, carga ou fabricação.
+As dimensões e pendências por ambiente ficam nas fontes vigentes: [sala/mesa/TV](../../03_Ambientes/Sala_e_jantar/README.md), [quarto/cama/armários](../../03_Ambientes/Quarto_e_portas/README.md), [escritório](../../03_Ambientes/Escritorio/README.md), [cozinha](../../03_Ambientes/Cozinha/README.md), [lavanderia](../../03_Ambientes/Lavanderia/README.md) e [banheiro](../../03_Ambientes/Banheiro/README.md). Representação aproximada; produto, mecanismo, carga e fabricação continuam condicionados.
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
@@ -108,7 +108,7 @@ Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nomi
 
 [Mapa das88 entradas anteriores](Documentos_antes_depois.csv):65 públicas/23 internas;3 ausentes viraram pendências e9 históricas saíram da lista pública, preservadas no git/vínculos. Catálogo técnico separado, sem mover/apagar documentos.
 
-`document_library.py`:14 grupos e ZIP; índice dos20 móveis/estudos/furação por peça, fichas intactas. Mesa/varal sem duplicação; busca inclui subitens; status Atual/Em estudo/Pendente. No pacote extraído, ZIP abre o índice.
+`document_library.py`:14 grupos/ZIP,20 móveis/estudos/furação; fichas intactas. Busca inclui subitens; no pacote, ZIP abre o índice.
 
 Mesmas fontes em docs/ e pacote offline; .site é gerada. Regerar `build_workshop_docs.py --sources-only` e `construir.py`. `test_document_library.py/.cjs` e `verificar_site.py` conferem88 destinos,15 cartões,20 móveis, links/busca/filtros/offline; reconstrução temporária preserva ZIP selado. Sem autorização nova de publicação.
 
@@ -138,4 +138,4 @@ Sexta aba: semanas 0–8 derivadas apenas de `Cronograma_obra_e_compras.md` §2 
 
 **Pergunta do guia:** qual ponto ou borda de cada janela, porta e ligação deve receber a ponta da trena, e como o início junto à entrada se relaciona com o desenho? A folha continua proposta; distâncias sem essa definição não são aplicadas.
 
-**Celular:** `src/mobile-ux.css`, texto ≥12 px e toques ≥44 px.
+**UX móvel:** visual atual preservado; `mobile-ux-core.js`/`mobile-ux.js` e CSS final em `mobile-ux.css`. Até760 px, cabeçalho recolhe ao descer e reabre ao subir/topo/foco na busca; busca/abas ficam visíveis. Compensação conserva o fluxo. Medido203,2→98 px; desktop155,2 px inalterado. `test_mobile_ux.cjs` no verificador/CI.

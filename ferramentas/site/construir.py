@@ -34,7 +34,7 @@ html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encod
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('field-data.js','field-guide-data.js','field-icons.js','field-core.js','field-ui.js'))+'</script></body>')
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('work-data.js','work-core.js','work-ui.js'))+'</script></body>')
 html=html.replace('</body>','<script data-downloads-loader>if(!globalThis.GUEDALA_PACKAGE)document.write(\'<script data-downloads-data src="src/downloads-data.js"><\\/script>\');</script></body>')
-html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('architect-data.js','architect-core.js','architect-ui.js','responsibility-ui.js','search-data.js','search-core.js','search-ui.js','context-ui.js','downloads-ui.js'))+'</script></body>')
+html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('architect-data.js','architect-core.js','architect-ui.js','responsibility-ui.js','search-data.js','search-core.js','search-ui.js','context-ui.js','downloads-ui.js','mobile-ux-core.js','mobile-ux.js'))+'</script></body>')
 for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('cad-data.js','/*CAD_DATA*/'),('cad-sync.js','/*CAD_SYNC*/'),('lighting.js','/*LIGHTING*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     content=(src/name).read_text(encoding='utf-8')
     if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+(src/'site-copy.js').read_text(encoding='utf-8')+'\n'+content

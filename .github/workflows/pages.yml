@@ -45,6 +45,7 @@ jobs:
         run: |
           node ferramentas/site/test_architect_entry.cjs
           node ferramentas/site/test_search.cjs
+          node ferramentas/site/test_mobile_ux.cjs
           node ferramentas/site/test_navigation.cjs
           node ferramentas/site/test_downloads.cjs
       - name: Conferir revisão e selagem do pacote
