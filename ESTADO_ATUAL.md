@@ -21,14 +21,14 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
-| Planta mobiliada e vistas | R02 | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
+| Planta mobiliada e vistas | R02; captura reproduzível | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
 | Especificações/luz | R01; E5% e U0 separados | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
 | Pontos (elétrica, água, gás) | R01; 6.740 W parciais; mínimos: 16 TUG/5.300 VA | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R54/R29; 7 abas; arquiteto, glossário/ferramentas; Baixar/busca com testes de links (30/10); publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site/pacote do montador | R54/R29; 7 abas; arquiteto, glossário, ferramentas e Baixar/busca (30/10); publicação autorizada por Elias, 28/10/2026 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 

@@ -9,6 +9,14 @@ Capturada do estudo interativo com a **geometria FreeCAD R45** e as cores R16. I
 
 As imagens servem para o estudo preliminar e para mostrar o layout. Cores e materiais são aproximados, e as medidas não foram conferidas no apartamento. Não são prancha executiva. O programa correspondente está em [Programa de necessidades R01](../../01_Programa_e_decisoes/Programa_de_necessidades.md).
 
+## Procedimento de captura
+
+`node ferramentas/estudos/capturar_planta_mobiliada.cjs --output-dir ../captura_planta` abre o HTML gerado no Edge via Playwright local. Ajuste `NODE_PATH` para a instalação local existente; `--browser` aceita outro executável. Não é etapa do build/CI e não instala dependências.
+
+Captura somente o quadro da cena, em 1005 × 649 px e escala de tela 1, com câmeras da R02 recuperadas de `1b4aeaa:01_Projeto/Estudo_interativo/src/app.js`: inclinação 0,92; giros −0,62 (geral/sala/escritório), −2,4 (quarto), 2,8 (cozinha/banheiro) e 2,5 (lavanderia); planta perpendicular. Zoom 1 e deslocamento zero. O envelope óptico histórico `ymax=247` conserva o enquadramento: não é pé-direito e não altera a geometria.
+
+Cena cotidiana: sofá/mesa fechados, escritório em trabalho, PS5 na sala, varal recolhido, móveis altos visíveis, sem paredes completas, seleção, cotas ou corte interno. `captura.json` registra navegador, câmera, SHA do HTML/PNGs e limites projetados; fica fora do git. Confira as oito imagens e compare com as anteriores antes de substituir as vigentes. O script recusa gravar dentro do repositório ou sobre imagens existentes; nenhum FreeCAD é aberto.
+
 ## R01 — histórico
 
 **Histórico:** esta planta retrata F118–F120, antes da escolha do Bonnie e das revisões do quarto, jantar e painel. Para o layout atual, abra o [estudo interativo atualizado](../../ferramentas/site/Guedala_Park_Interativo.html). Os arquivos abaixo ficam preservados como registro da etapa anterior.
