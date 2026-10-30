@@ -130,6 +130,8 @@ Vídeos/ZIPs originais ficam apenas no PC, fora do Git/site.
 
 **Uso no caderno R02:** PD-* alimenta o teto por ambiente; DIM-* fornece as cotas compostas oficiais (exemplo de preenchimento: `2450 × 2950 mm`), sem segunda linha numérica para a mesma cota. PR-* fornece as coordenadas escalares. [Guia de regeneração e teste](../06_Entregas/Caderno_pranchas/README.md). Os campos de vistoria PTO/OBS não substituem as coordenadas PR-PONTO.
 
-A folha de campo contém 15 verificações físicas e comando único; 546 códigos foram para CSV em Dependencias. Coordenadas sem datum físico estão marcadas descrição pendente. [Mapeamento](../04_Moveis/Dependencias/Descricao_fisica.csv).
+Folha: 15 prioridades; [546 códigos e descrições pendentes](../04_Moveis/Dependencias/Descricao_fisica.csv).
 
 Levantamento dos panos no roteiro: duas visadas com distância e azimute desde M0/M0→M1, a1m do piso; não são duas perpendiculares a partir do mesmo ponto. Identificar M0/M1/E1/E2 e vinculá-los ao datum nominal antes de converter a reta para deslocamento normal assinado/ângulo no CSV da cadeia. Esse vínculo ainda é descrição pendente, sem transformação inventada.
+
+**Datum proposto:** [folha de uma página](Roteiro_dia_das_chaves_R01.md#protocolo-de-datum--proposto), antes das prioridades. **Pergunta exata:** quais faces/marcos físicos correspondem à origem (0,0), ao sentido +X da planta e ao PR-EIXO-X nominal de 7400 mm, e que transformação leva M0 junto à entrada/M0→M1 paralelo à fachada a esse referencial? Até demonstrar o vínculo, PR-* não deve alimentar a cadeia.
