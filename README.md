@@ -43,7 +43,7 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 | Ver tomadas, luzes, água e gás previstos | [Planta de pontos preliminar](03_Ambientes/Planta_pontos/README.md) |
 | Preparar o dia da entrega das chaves | [Roteiro do dia das chaves](07_Imovel/Roteiro_dia_das_chaves_R01.md) |
 | Ver o cronograma da obra e o que comprar antes | [Cronograma](05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md) |
-| Imprimir as pranchas (A3) | [Caderno de pranchas R00 (PDF)](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf) |
+| Imprimir as pranchas (A3) | [Caderno de pranchas R02 (PDF)](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
 | Escolher luminárias | [Lista curta](03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md) |
 | Ver luminárias nos ambientes | [Simulações CB02](https://queiroz-labs.github.io/guedala-park/docs/09_Referencias/Iluminacao_CB02/Galeria.md.html) · [quarto smart, custo e condições de uso](03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md) |
 | Ver o que falta para virar projeto oficial | [Roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md) |

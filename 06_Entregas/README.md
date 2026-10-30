@@ -24,7 +24,7 @@
 | Fichas | R14 | [Índice](Fichas_fabricacao/index.html); revisão indicada no pacote e no site |
 | Pacote publicado | R23 | [Baixar ZIP R23](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R23.zip); 251 entradas, CRC e hashes de todas as entradas do manifesto sem falhas |
 | Pacote local histórico | R20 | `Publicacao/Guedala_Park_R20.zip`; 196 entradas, CRC e hash CAD conferidos; não representa a entrega corrente |
-| Pranchas | R00 | [PDF](Caderno_pranchas/Guedala_Park_Pranchas_R00.pdf); compatibilização das vistas antigas com R52 ainda pendente |
+| Pranchas | R02 | [PDF](Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf); limites no [README das pranchas](Caderno_pranchas/README.md) |
 | Orçamento | R44 | [Consolidado](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md); execução estimada R$ 137.748,11 |
 | Especificações | R01 | [Caderno](../01_Programa_e_decisoes/Caderno_de_especificacoes.md); coerência integral com estudos posteriores condicionada |
 

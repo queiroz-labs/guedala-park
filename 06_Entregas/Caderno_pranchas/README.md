@@ -2,7 +2,7 @@
 
 **Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
 
-[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 preservado em [PDF histórico](Guedala_Park_Pranchas_R00.pdf); R02 incluído no pacote R26.
+[Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 removido da pasta (histórico no git); R02 incluído no pacote R26.
 
 Gerar na raiz do repositório:
 
