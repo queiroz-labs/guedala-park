@@ -168,6 +168,8 @@ Para cada alteração, a vistoria precisa responder à pergunta da última colun
 
 ### B1. Perguntas à construtora (registre a resposta e a data)
 
+[Pacote consolidado por destinatário](../01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
+
 1. Tipo, espessura e preenchimento (graute) dos blocos estruturais; espessura da laje; piso e manta do apartamento de cima.
 2. Onde ficam os pontos de GN, a saída de exaustão e a ventilação; a liberação pela concessionária e a data.
 3. Laudos e testes feitos na obra: gás, pressão, estanqueidade, impermeabilização, desempenho NBR 15575 e acústica.
@@ -177,6 +179,8 @@ Para cada alteração, a vistoria precisa responder à pergunta da última colun
 7. Prazo e forma de entrega de segunda via de chaves e de controles.
 
 ### B2. Perguntas ao condomínio
+
+[Pacote consolidado por destinatário](../01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
 
 1. Procedimento, formulário e prazo de protocolo do plano de reforma (NBR 16280) e quais itens exigem aprovação: [rascunho do plano](../01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md).
 2. Horários de obra, de entrada de material e de **mudança**; uso do elevador de serviço; taxa e caução.

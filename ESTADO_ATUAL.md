@@ -8,8 +8,8 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 - **Objetivo:** tudo pronto para mudar; dois meses de obra após chaves, mudança no terceiro.
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
-- **Regra fixa de Elias:** nenhum tubo sustentando chapas de madeira, nem quadro metálico substituto. Qualquer proposta desse tipo exige autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
-- **Chapas e cores:** mesmo acabamento nas duas faces de cada chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria, ligações e cargas; caixa dupla/15 mm não são automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
+- **Regra de Elias:** nenhum tubo ou quadro metálico substituto para sustentar chapas de madeira sem sua autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
+- **Chapas/cores:** faces iguais por chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria/ligações/cargas; caixa dupla/15 mm não automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 - **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026, nesta conversa). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 ## Versões vigentes
@@ -17,7 +17,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | O quê | Versão | Abrir |
 |---|---|---|
 | Modelo 3D | R54: pedestal Berlin; cadeira lateral +15 mm | [Modelo](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [conteúdo e abertura/salvamento seguro](02_Modelo_3D/README.md) |
-| Triagem geométrica | Zero peças com geometria própria inválida nas 1.449 conferidas (25/10/2026); 12 contêineres informativos | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
+| Triagem geométrica | Geometria própria: 0 inválidas/1.449 conferidas (25/10/2026); 12 contêineres informativos | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
@@ -52,7 +52,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [Registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
-Detalhes no [roteiro para projeto oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md).
+Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md).
 
 ## Decisões tomadas
 
@@ -75,7 +75,7 @@ Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_
 
 ## Pendências por móvel
 
-Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são nominais; hipóteses, números e perguntas exatas estão no README de cada item.
+Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais; hipóteses, números e perguntas no README de cada item.
 
 | Móvel | Estudo | Falta |
 |---|---|---|
@@ -96,11 +96,13 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 **Cotações:** [comparador](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md), sem propostas reais.
 
-**Chaves:** [pipeline e modelo](07_Imovel/README.md#pipeline-de-medidas-no-dia-das-chaves), sem campo real.
+**Chaves:** [pipeline/modelo](07_Imovel/README.md); sem campo real.
+
+**Perguntas:** [pacote por destinatário](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
 
 ## Próximos passos
 
-1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) com R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo 30/10 às 18 h mantido. Comparar propostas/amostras/respostas; RT pendente. Sem contratação autorizada.
+1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; resposta solicitada 30/10 às 18 h. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
@@ -108,7 +110,7 @@ Nada abaixo está liberado para fabricação ou carga de uso. Os cálculos são 
 
 ## Como trabalhar nesta pasta
 
-- [AGENTS.md](AGENTS.md): `git status`, README da área, busca no Registro (não integral). [Mapa](README.md).
+- [AGENTS.md](AGENTS.md): `git status`, README da área, busca pontual no Registro. [Mapa](README.md).
 - [Verificações](ferramentas/README.md): geral antes de commit; completo após abrir CAD; clone limpo `--ci` antes de push. Commit pequeno por assunto.
 - Não usar macros que salvam/fecham documentos nem sobrescrever modelo em consultas. Campo/oficina pendentes: registre a dúvida e siga.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
