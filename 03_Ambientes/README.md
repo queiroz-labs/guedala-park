@@ -15,5 +15,6 @@ Cada pasta tem um README com o estado atual daquele ambiente (decisões por tema
 | Origem das medidas | [Medidas](Medidas/README.md) |
 | Planta mobiliada e vistas | [Planta_mobiliada](Planta_mobiliada/README.md) |
 | Pontos elétricos, água e gás | [Planta_pontos](Planta_pontos/README.md) |
+| Gás natural: rede, ventilação e exaustão | [Gas_natural](Gas_natural/README.md) |
 
 Cálculos estruturais dos móveis ficam em [04_Moveis](../04_Moveis/README.md), não aqui.

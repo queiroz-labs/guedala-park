@@ -1,0 +1,16 @@
+item;valor;base
+secao_chamine_cm2;28.3;"π·(6 cm)²/4; manual E21 item 3x"
+abertura_permanente_minima_cm2;100.0;"maior entre 100 cm² e a seção da chaminé; manual E21 item 3x"
+soma_potencias_kW;42.5;E21 + 4 queimadores
+volume_para_dispensar_ventilacao_m3;382.5;"9 m³/kW da soma; manual E21 item 3x"
+volume_cozinha_nominal_m3;14.2;3,52 × 1,55 × 2,60 (cotas oficiais, nominal)
+volume_area_servico_nominal_m3;5.2;1,29 × 1,54 × 2,60 (cotas oficiais, nominal)
+volume_cozinha_mais_AS_m3;19.4;sem parede entre as duas: não confirmado
+volume_unidade_bruto_m3;104.5;40,18 m² × 2,60, inclui paredes
+volume_minimo_E21_m3;6.0;manual E21, figura 2
+ar_de_combustao_lambda_1.2_m3_h;43.8;"E21 34.7 + cooktop 9.1; excesso de ar λ=1.2 é hipótese"
+area_livre_para_1ms_lambda_1.2_cm2;122;verificação informativa, não é exigência do manual
+ar_de_combustao_lambda_1.5_m3_h;54.7;"E21 43.4 + cooktop 11.3; excesso de ar λ=1.5 é hipótese"
+area_livre_para_1ms_lambda_1.5_cm2;152;verificação informativa, não é exigência do manual
+ar_de_combustao_lambda_2.0_m3_h;73.0;"E21 57.9 + cooktop 15.1; excesso de ar λ=2.0 é hipótese"
+area_livre_para_1ms_lambda_2.0_cm2;203;verificação informativa, não é exigência do manual

@@ -1,0 +1,19 @@
+volume;volume_m3;trocas_ar_h;minutos;CO2_acima_do_externo_ppm;agua_gerada_kg;umidade_sem_ventilacao_g_kg;UR_final_a_22C_sem_remocao_pct;passa_da_saturacao
+cozinha+AS;19.4;0.5;30;8249;0.27;12.1;100;True
+cozinha+AS;19.4;0.5;60;14674;0.54;24.3;100;True
+cozinha+AS;19.4;2.0;30;5894;0.27;12.1;100;True
+cozinha+AS;19.4;2.0;60;8062;0.54;24.3;100;True
+cozinha+AS;19.4;5.0;30;3423;0.27;12.1;100;True
+cozinha+AS;19.4;5.0;60;3704;0.54;24.3;100;True
+cozinha+AS+sala;44.5;0.5;30;3587;0.27;5.3;89;False
+cozinha+AS+sala;44.5;0.5;60;6381;0.54;10.6;100;True
+cozinha+AS+sala;44.5;2.0;30;2563;0.27;5.3;89;False
+cozinha+AS+sala;44.5;2.0;60;3506;0.54;10.6;100;True
+cozinha+AS+sala;44.5;5.0;30;1489;0.27;5.3;89;False
+cozinha+AS+sala;44.5;5.0;60;1611;0.54;10.6;100;True
+unidade inteira;104.5;0.5;30;1528;0.27;2.2;72;False
+unidade inteira;104.5;0.5;60;2718;0.54;4.5;84;False
+unidade inteira;104.5;2.0;30;1092;0.27;2.2;72;False
+unidade inteira;104.5;2.0;60;1493;0.54;4.5;84;False
+unidade inteira;104.5;5.0;30;634;0.27;2.2;72;False
+unidade inteira;104.5;5.0;60;686;0.54;4.5;84;False

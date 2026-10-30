@@ -100,6 +100,8 @@ Nada abaixo está liberado para fabricação ou carga de uso. Cálculos nominais
 
 **Perguntas:** [pacote](01_Programa_e_decisoes/Perguntas_em_aberto/README.md), não enviado.
 
+**Gás:** [rede e ventilação](03_Ambientes/Gas_natural/README.md), nominal.
+
 ## Próximos passos
 
 1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; resposta solicitada 30/10 às 18 h. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.

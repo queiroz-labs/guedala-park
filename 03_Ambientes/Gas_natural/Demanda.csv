@@ -1,0 +1,6 @@
+cenario;descricao;E21_kW;cooktop_kW;total_kW;total_m3_h;total_kcal_h
+S1;Tudo no máximo: E21 a 100% + 4 queimadores;33.7;8.8;42.5;3.834;36543
+S2;Inverno: chuveiro 14 L/min, 15→45 °C (E21 satura) + 2 semirrápidos;33.7;4.0;37.7;3.401;32416
+S3;Chuveiro 8 L/min, 15→40 °C + 1 semirrápido;16.19;2.0;18.19;1.641;15643
+S4;Só E21 no máximo;33.7;0.0;33.7;3.04;28977
+S5;Só cooktop, 4 queimadores;0.0;8.8;8.8;0.794;7567
