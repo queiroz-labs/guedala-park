@@ -772,9 +772,9 @@
     },
     {
       "path": "ferramentas/site/README.md",
-      "publico": "oculto",
-      "titulo_simples": "Apartamento interativo — e pacote",
-      "motivo": "Manutenção do gerador; a ajuda de uso está no próprio site."
+      "publico": "tecnico",
+      "titulo_simples": "Como consultar o site e os arquivos",
+      "motivo": "Também explica navegação e selos usados no glossário público; manter consulta após remover comandos."
     },
     {
       "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/elias.md",
@@ -823,6 +823,186 @@
       "publico": "tecnico",
       "titulo_simples": "Perguntas para outro",
       "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "biblioteca/visao.html",
+      "publico": "tecnico",
+      "titulo_simples": "Visão do projeto",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/plantas.html",
+      "publico": "tecnico",
+      "titulo_simples": "Planta com medidas",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/moveis.html",
+      "publico": "tecnico",
+      "titulo_simples": "Fichas dos 20 móveis",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/conferir.html",
+      "publico": "tecnico",
+      "titulo_simples": "Antes de fabricar",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/cozinha.html",
+      "publico": "tecnico",
+      "titulo_simples": "Cozinha",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/banheiro.html",
+      "publico": "tecnico",
+      "titulo_simples": "Banheiro",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/sala.html",
+      "publico": "tecnico",
+      "titulo_simples": "Sala",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/quarto.html",
+      "publico": "tecnico",
+      "titulo_simples": "Quarto",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/lavanderia.html",
+      "publico": "tecnico",
+      "titulo_simples": "Lavanderia",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/cores.html",
+      "publico": "tecnico",
+      "titulo_simples": "Cores e acabamentos",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/tecidos.html",
+      "publico": "tecnico",
+      "titulo_simples": "Tecidos",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/luz.html",
+      "publico": "tecnico",
+      "titulo_simples": "Iluminação",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/oficina.html",
+      "publico": "tecnico",
+      "titulo_simples": "Oficina e compras",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "biblioteca/modelo.html",
+      "publico": "tecnico",
+      "titulo_simples": "Modelo 3D",
+      "motivo": "Índice de documentos e estudos do mesmo assunto; consulta do projetista."
+    },
+    {
+      "path": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
+      "publico": "tecnico",
+      "titulo_simples": "FreeCAD  · modelo atual",
+      "motivo": "Arquivo de consulta vinculado à biblioteca; formato original preservado."
+    },
+    {
+      "path": "09_Referencias/Plantas_e_manuais/Planta_oficial.pdf",
+      "publico": "tecnico",
+      "titulo_simples": "Planta oficial do apartamento",
+      "motivo": "Arquivo de consulta vinculado à biblioteca; formato original preservado."
+    },
+    {
+      "path": "04_Moveis/Furacao/Conferencia.md",
+      "publico": "tecnico",
+      "titulo_simples": "Conferência dos furos",
+      "motivo": "Arquivo de consulta vinculado à biblioteca; formato original preservado."
+    },
+    {
+      "path": "04_Moveis/Furacao/Quantitativos.md",
+      "publico": "tecnico",
+      "titulo_simples": "Fita, ferragens e horas",
+      "motivo": "Arquivo de consulta vinculado à biblioteca; formato original preservado."
+    },
+    {
+      "path": "06_Entregas/Publicacao/Guedala_Park_R29.zip",
+      "publico": "tecnico",
+      "titulo_simples": "Pacote para baixar",
+      "motivo": "Arquivo de consulta vinculado à biblioteca; formato original preservado."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md",
+      "publico": "tecnico",
+      "titulo_simples": "Orçamento detalhado e cenários",
+      "motivo": "Memória de valores e condições apontada pelo resumo do orçamento; apenas cópia de leitura."
+    },
+    {
+      "path": "02_Modelo_3D/Relatorio_mudanca.md",
+      "publico": "tecnico",
+      "titulo_simples": "Relatório de mudança do modelo",
+      "motivo": "Documento de apoio já selecionado como anexo; publicar HTML com extensão e apresentação corretas."
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Fichas_no_CAD/README.md",
+      "publico": "oculto",
+      "titulo_simples": "FreeCAD — fichas no modelo",
+      "motivo": "Registro de manutenção de revisão histórica do modelo; fonte original preservada para download."
+    },
+    {
+      "path": "03_Ambientes/Medidas/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Medidas e instalações",
+      "motivo": "Documento de apoio já selecionado como anexo; publicar HTML com extensão e apresentação corretas."
+    },
+    {
+      "path": "04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md",
+      "publico": "tecnico",
+      "titulo_simples": "Banco e cesto — lista para amostras e protótipo",
+      "motivo": "Documento de apoio já selecionado como anexo; publicar HTML com extensão e apresentação corretas."
+    },
+    {
+      "path": "06_Entregas/Caderno_pranchas/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Caderno formal A3",
+      "motivo": "Documento de apoio já selecionado como anexo; publicar HTML com extensão e apresentação corretas."
     }
-  ]
+  ],
+  "padroes": {
+    "codigos": "\\b(?:R\\d{2,3}|P\\d{2}|F\\d{2,4}|SHA(?:256)?|[a-fA-F0-9]{40,64})\\b",
+    "caminhos": "(?:[A-Za-z]:[\\\\/][^\\s<>\";,)]+|(?:\\.{1,2}/)*(?:0[1-9]_[\\w-]+|ferramentas|src)/[^\\s<>\";,)]+|[\\w.*-]+\\.(?:py|cjs|mjs|ps1|FCStd|json)(?:\\b))",
+    "comandos": "(?:\\b(?:python(?:3)?|node|npm|git|powershell|pwsh|FreeCADCmd)(?:\\.exe)?\\s+(?:-\\S+|[\\w./\\\\]+\\.(?:py|cjs|mjs|ps1)|status\\b|clone\\b|add\\b|commit\\b|push\\b|ci\\b|run\\b|install\\b)|\\s--[a-z][a-z-]*(?:\\b)|[\\w./\\\\-]+\\.ps1\\b)"
+  },
+  "excecoes": [],
+  "escopo_verificacao": {
+    "svg": "Ilustrações vetoriais conservam rótulos e escala; a auditoria textual cobre a prosa HTML.",
+    "fontes": "Páginas de origem e arquivos para download permanecem completos; a trava verifica o HTML publicado."
+  },
+  "teste_local": {
+    "larguras": [
+      360,
+      375,
+      412
+    ],
+    "altura": 915,
+    "paginas": [
+      "ESTADO_ATUAL.md.html",
+      "03_Ambientes/Banheiro/README.md.html",
+      "03_Ambientes/Cozinha/README.md.html",
+      "07_Imovel/Checklist_vistoria_dia_das_chaves.md.html",
+      "05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md.html",
+      "07_Imovel/Roteiro_dia_das_chaves_R01.md.html"
+    ],
+    "fonte_minima": 12,
+    "alvo_minimo": 44,
+    "excluir_texto": "svg *,style,script",
+    "motivo_exclusao": "Rótulos dentro de desenhos vetoriais têm escala própria e ampliação; não são controles da interface."
+  }
 }

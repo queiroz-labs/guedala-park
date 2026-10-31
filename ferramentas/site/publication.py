@@ -9,18 +9,23 @@ import posixpath
 
 HERE = Path(__file__).resolve().parent
 VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'wbr'}
-CODE = re.compile(r'\b(?:R\d{2,3}|P\d{2}|F\d{2,4}|SHA(?:256)?|[a-fA-F0-9]{40,64})\b')
-PATH = re.compile(r'(?:[A-Za-z]:[\\/][^\s<>";,)]+|(?:\.{1,2}/)*(?:0[1-9]_[\w-]+|ferramentas|src)/[^\s<>";,)]+|[\w.-]+\.(?:py|cjs|mjs|ps1|FCStd|json)(?:\b))', re.I)
-COMMAND = re.compile(r'(?:\b(?:python(?:3)?|node|npm|git|powershell|pwsh|FreeCADCmd)(?:\.exe)?\s+(?:-\S+|[\w./\\]+\.(?:py|cjs|mjs|ps1)|status\b|clone\b|add\b|commit\b|push\b|ci\b|run\b|install\b)|\s--[a-z][a-z-]*(?:\b)|[\w./\\-]+\.ps1\b)', re.I)
+PATTERNS = json.loads((HERE/'publicacao_documentos.json').read_text(encoding='utf-8'))['padroes']
+CODE = re.compile(PATTERNS['codigos'])
+PATH = re.compile(PATTERNS['caminhos'], re.I)
+COMMAND = re.compile(PATTERNS['comandos'], re.I)
+BASE_STYLE = 'body{font:16px/1.6 system-ui,sans-serif;color:#26322d;background:#faf9f5;max-width:1120px;margin:auto;padding:40px}h1{font-size:36px;line-height:1.15}h2{margin-top:40px}h3{margin-bottom:8px}a{color:#336d57}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #d8dfd8;padding:10px;text-align:left;vertical-align:top}th{background:#e8eee7}section{padding:20px 0;border-bottom:1px solid #d8dfd8}.note{padding:18px;background:#edf1e9;border-radius:10px}.meta{font-size:13px;color:#607066}.tags{display:flex;gap:12px;flex-wrap:wrap}button{padding:10px 18px;border:1px solid #667767;border-radius:8px;background:white;cursor:pointer}ul,ol{padding-left:22px}ul.chk{list-style:none;padding-left:0}ul.chk li{margin:6px 0}ul.chk label{display:flex;gap:10px;align-items:flex-start;min-height:40px;padding:6px 4px;cursor:pointer}ul.chk input{width:22px;height:22px;flex:none;margin-top:2px}ul.chk input:checked+span{color:#7b867f;text-decoration:line-through}.tbl{overflow-x:auto}@media(max-width:640px){body{padding:16px}h1{font-size:28px}table{font-size:13px}td,th{padding:8px 6px}}@media print{body{background:white;padding:0;font-size:10pt}h1{font-size:24pt}.no-print{display:none}section{break-inside:avoid}a{color:inherit;text-decoration:none}table{font-size:9pt}h2,h3{break-after:avoid}}main p,main li,main dd{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}main table p,main table li,main .doc-crumbs{text-align:left;hyphens:manual}'
+LIBRARY_STYLE = '.doc-library{max-width:960px}.doc-library h1{font:38px/1.15 Georgia,serif;text-wrap:balance}.doc-library h2{font:25px/1.2 Georgia,serif}.doc-library .eyebrow{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#66726c}.doc-library nav{display:flex;flex-wrap:wrap;gap:8px}.doc-library nav a{padding:9px 13px;border:1px solid #d8dfd8;border-radius:8px}.doc-library .doc-links{list-style:none;padding:0}.doc-library .doc-links li{padding:12px 0;border-bottom:1px solid #d8dfd8}.doc-library a{overflow-wrap:anywhere;text-underline-offset:4px}.doc-library details>summary{cursor:pointer;padding:12px 0;min-height:24px}.doc-library a:focus-visible,.doc-library summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}.doc-library .doc-status{display:inline-block;font-size:12px;background:#edf1e9;padding:4px 10px;border-radius:20px}.doc-library section{scroll-margin-top:20px}.doc-library .doc-crumbs{font-size:14px;color:#66726c;margin-bottom:18px}@media(max-width:600px){body{padding:24px 18px}.doc-library h1{font-size:30px}}'
 READ_STYLE = '''
 .public-document{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:auto;overflow-wrap:anywhere}
 .public-document h1{font-size:32px;line-height:1.2;text-wrap:balance}
 .public-document h2{font-size:24px;line-height:1.3;margin:28px 0 12px}
+.public-document .eyebrow,.public-document .meta,.public-document .doc-status{font-size:14px}
 .public-document h3{font-size:20px;line-height:1.4}
 .public-document p{max-width:65ch;margin:12px 0}
 .public-document details{border-bottom:1px solid #d8dfd8;margin:16px 0;padding:0 0 8px}
 .public-document summary{cursor:pointer;min-height:44px;box-sizing:border-box;padding:12px 0;line-height:1.5}
 .public-document a{overflow-wrap:anywhere;min-height:44px;display:inline-flex;align-items:center}
+.public-document button,.public-document select,.public-document input:not([type=checkbox]){min-height:44px;font-size:16px}
 .public-document .reading-summary{padding:16px 20px;background:#edf1e9;border-radius:10px;margin:24px 0}
 .public-document .reading-summary h2{margin:0;font-size:20px}
 .public-document .reading-summary p{margin:8px 0;text-align:left}
@@ -56,6 +61,12 @@ def policy(path):
                 dict(path=path, publico='tecnico', titulo_simples='', motivo='Documento vinculado; consulta técnica.'))
 
 
+def publish_styles(target):
+    target = Path(target)
+    target.mkdir(parents=True, exist_ok=True)
+    (target/'leitura.css').write_text(BASE_STYLE+'\n'+LIBRARY_STYLE+'\n'+READ_STYLE, encoding='utf8', newline='\n')
+
+
 @dataclass
 class Node:
     tag: str = ''
@@ -66,7 +77,7 @@ class Node:
         return ''.join(c.text() if isinstance(c, Node) else c for c in self.children)
 
     def html(self):
-        content = ''.join(c.html() if isinstance(c, Node) else escape(c, quote=False) for c in self.children)
+        content = ''.join(c.html() if isinstance(c, Node) else c if self.tag in {'script','style'} else escape(c, quote=False) for c in self.children)
         if not self.tag:
             return content
         attrs = ''.join(' '+k+('="'+escape(str(v), quote=True)+'"' if v is not None else '') for k, v in self.attrs.items())
@@ -167,8 +178,12 @@ def mobile_tables(main):
         if not rows:
             continue
         headers = [c.text().strip() for c in rows[0].children if isinstance(c, Node) and c.tag in {'td', 'th'}]
-        rows[0].attrs['class'] = 'table-head'
-        for row in rows[1:]:
+        has_header = any(isinstance(c, Node) and c.tag=='th' for c in rows[0].children)
+        if has_header:
+            rows[0].attrs['class'] = 'table-head'
+        else:
+            headers = ['Informação '+str(i+1) for i in range(len(headers))]
+        for row in rows[1:] if has_header else rows:
             cells = [c for c in row.children if isinstance(c, Node) and c.tag in {'td', 'th'}]
             for i, cell in enumerate(cells):
                 cell.attrs['data-label'] = headers[i] if i < len(headers) else 'Informação'
@@ -180,8 +195,8 @@ def add_summary(main):
     sentences = [s.strip() for p in paragraphs for s in re.split(r'(?<=[.!?])\s+', p) if s.strip()]
     selected = []
     for sentence in sentences:
-        if len(sentence) <= 280 and sentence not in selected:
-            if selected and len(' '.join(selected+[sentence])) > 360:
+        if len(sentence) <= 180 and sentence not in selected:
+            if selected and len(' '.join(selected+[sentence])) > 180:
                 break
             selected.append(sentence)
             if len(selected) == 3:
@@ -189,7 +204,7 @@ def add_summary(main):
     if not selected:
         cells = [c.text().strip() for c in main.find('td') if c.text().strip()]
         selected = cells[:3]
-    summary = Node('aside', {'class': 'reading-summary', 'aria-label': 'Em resumo'}, [Node('h2', {}, ['Em resumo'])]+[Node('p', {}, [s]) for s in selected])
+    summary = Node('aside', {'class': 'reading-summary', 'aria-label': 'Em resumo'}, [Node('h2', {}, ['Em resumo']), Node('p', {}, [' '.join(selected)])])
     index = next((i+1 for i, c in enumerate(main.children) if isinstance(c, Node) and c.tag == 'h1'), 0)
     main.children.insert(index, summary)
 
@@ -197,10 +212,14 @@ def add_summary(main):
 def fold_sections(main, limits):
     """Agrupa por título; preserva a hierarquia e todos os valores do conteúdo."""
     first = True
+    def words(node):
+        if node.tag in {'details', 'nav'} or node.attrs.get('class')=='reading-summary':
+            return 0
+        return sum(words(c) if isinstance(c, Node) else len(c.split()) for c in node.children)
     def fold(container):
         nonlocal first
         for node in container.children:
-            if isinstance(node, Node) and node.tag in {'section', 'div', 'article'}:
+            if isinstance(node, Node) and node.tag in {'section', 'div', 'article', 'aside'} and node.attrs.get('class')!='reading-summary':
                 fold(node)
         groups = []
         group = []
@@ -214,10 +233,10 @@ def fold_sections(main, limits):
         result = []
         for group in groups:
             nodes = [n for n in group if isinstance(n, Node)]
-            words = sum(len(n.text().split()) for n in nodes if n.tag not in {'h1', 'h2', 'h3', 'aside', 'details', 'section', 'div', 'nav'})
+            count = sum(words(n) if isinstance(n, Node) else len(n.split()) for n in group if not isinstance(n, Node) or n.tag not in {'h1', 'h2', 'h3', 'details', 'nav'})
             large_list = any(len(list(n.find('li'))) > limits['itens_lista'] for n in nodes if n.tag in {'ul', 'ol'})
-            if words > limits['palavras_recolher'] or large_list:
-                fixed = [n for n in group if isinstance(n, Node) and n.tag in {'h1', 'h2', 'h3', 'aside', 'nav'}]
+            if count > limits['palavras_recolher'] or large_list:
+                fixed = [n for n in group if isinstance(n, Node) and (n.tag in {'h1', 'h2', 'h3', 'nav'} or n.attrs.get('class')=='reading-summary')]
                 body = [n for n in group if n not in fixed]
                 attrs = {'class': 'reading-details'}
                 if first:
@@ -228,6 +247,11 @@ def fold_sections(main, limits):
                 result.extend(group)
         container.children = result
     fold(main)
+    ordered = [node for node in main.find('details') if node.attrs.get('class')=='reading-details']
+    for node in ordered:
+        node.attrs.pop('open', None)
+    if ordered:
+        ordered[0].attrs['open'] = None
 
 
 def related_links(main, settings):
@@ -272,13 +296,13 @@ def public_html(content, path, title=None):
     names = settings.get('moveis', {})
 
     def prose(text):
+        text = text.replace('`', '')
         text = PATH.sub('', text)
         def replace(m):
             if m[0] not in codes:
                 codes.append(m[0])
             return names.get(m[0], '')
         text = CODE.sub(replace, text)
-        text = re.sub(r'[`*]+', '', text)
         text = re.sub(r'[ \t]{2,}', ' ', text)
         return text
 
@@ -292,7 +316,7 @@ def public_html(content, path, title=None):
                 continue
             if 'crumb' in child.attrs.get('class', ''):
                 continue
-            if child.tag == 'style':
+            if child.tag in {'style', 'svg'}:
                 children.append(child)
                 continue
             if child.tag == 'code':
@@ -312,6 +336,8 @@ def public_html(content, path, title=None):
         node.children = children
 
     clean(main)
+    for style in tree.find('style'):
+        style.children = [style.text().replace(BASE_STYLE, '').replace(LIBRARY_STYLE, '')]
     extra_links = related_links(main, settings) if settings['recursos']['relacionados'] else None
     if title:
         h1 = next(main.find('h1'), None)
@@ -326,9 +352,8 @@ def public_html(content, path, title=None):
         short_paragraphs(main)
         add_summary(main)
         mobile_tables(main)
-        style = next(tree.find('style'), None)
-        if style:
-            style.children.append(READ_STYLE)
+        parent = next(tree.find('head'), None) or next(tree.find('html'), tree)
+        parent.children.insert(0, Node('link', {'rel': 'stylesheet', 'href': posixpath.relpath('leitura.css', posixpath.dirname(path))}))
     if settings['recursos']['recolher']:
         fold_sections(main, settings['limites'])
     if codes or extra_links:

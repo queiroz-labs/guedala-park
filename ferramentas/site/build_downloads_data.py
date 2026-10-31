@@ -23,7 +23,9 @@ def published_path(name):return name+'.html' if name.endswith('.md') else name
 def publish(target,write_source=False):
     """Completa somente a seleção explícita; reutiliza documentos já exportados."""
     from build_workshop_docs import markdown,page
+    from publication import publish_styles
     target=Path(target);data=selection();paths=[r['path'] for r in data['items']]+data['support']
+    publish_styles(target)
     mapping={p:published_path(p) for p in paths if (ROOT/p).is_file()}
     for name,dest_name in mapping.items():
         source=ROOT/name;dest=target/dest_name

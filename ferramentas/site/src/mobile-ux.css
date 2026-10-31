@@ -66,7 +66,7 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 .mood-room ul.room-items>li>.status-help-trigger{flex:0 0 auto;margin:0;min-height:44px;white-space:nowrap}
 .mood-room ul.room-items>li>.status-help-trigger{white-space:normal;max-width:42%;padding:4px 6px;text-align:right;line-height:1.25}
 /* Caminhos adicionais permanecem disponíveis por teclado e na busca. */
-.entry-more>summary,.welcome-more>summary,.downloads-centre>summary,.document-sections details>summary{min-height:44px;padding:12px 0;cursor:pointer;font-size:16px;line-height:1.5}
+.entry-more>summary,.welcome-more>summary,.publication-more>summary,.downloads-centre>summary,.document-sections details>summary{min-height:44px;padding:12px 0;cursor:pointer;font-size:16px;line-height:1.5}
 .document-sections>section>.work-docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
 .document-sections .more-reading{grid-column:1/-1}
 .document-sections #technicalArchive{margin-top:24px;border-top:1px solid var(--line,#d8dfd8)}

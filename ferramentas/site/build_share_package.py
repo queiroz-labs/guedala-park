@@ -6,7 +6,7 @@ import hashlib,io,json,posixpath,re,zipfile
 from current_release import ROOT,STUDY,load_release,validate_sources,normalized_payload,canonical_source
 from plain_language import plain_html
 from document_library import selected_sources,PUBLIC_IMOVEL,HOME as LIBRARY_HOME
-from publication import clean_markdown,public_html,policy
+from publication import clean_markdown,public_html,policy,READ_STYLE,BASE_STYLE,LIBRARY_STYLE
 FBASE='06_Entregas/Fichas_fabricacao/'
 PBASE='06_Entregas/Planta_cotada/'
 BATH='03_Ambientes/Banheiro/Fechamento_pre_entrega/'
@@ -46,6 +46,7 @@ def package_payload(release):
  mapping={p:p+'.html'if p.endswith('.md') and policy(p)['publico']!='oculto' else p for p in paths}
  payload.update({p:content.encode('utf8') for p,content in docs.GENERATED_PAGES.items()})
  mapping.update({p:p for p in docs.GENERATED_PAGES})
+ payload['leitura.css']=(BASE_STYLE+'\n'+LIBRARY_STYLE+'\n'+READ_STYLE).encode('utf8')
  omissions=[];local_links=[];external_links=[]
  def html_links(src,content):
   def link(m):

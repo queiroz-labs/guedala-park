@@ -77,6 +77,7 @@ def main():
                     f.unlink()
             ok &= passo('preparar_pages, segunda tentativa', cmd, env)
         ok &= passo('test_downloads.cjs (arquivos publicados)', [NODE, str(SITE / 'test_downloads.cjs')], dict(env,GUEDALA_DOWNLOADS_SITE=str(tmp/'site')))
+        ok &= passo('test_public_readability.py (HTML publicado)', [PY, '-B', str(SITE / 'test_public_readability.py'), '--site', str(tmp/'site')], env)
         ok &= passo('test_current_release.py (selagem do pacote)', [PY, '-B', str(SITE / 'test_current_release.py')], env)
     finally:
         for f in pacote_local_ignorado():  # o pacote gerado agora sai; o guardado volta

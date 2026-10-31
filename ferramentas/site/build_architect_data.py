@@ -88,8 +88,9 @@ if __name__=='__main__':build()
 def publish_docs(target):
     """Fontes explícitas da entrada; não amplia o pacote selado ou varre pastas."""
     from build_workshop_docs import markdown,page
-    from publication import clean_markdown,public_html,policy
+    from publication import clean_markdown,public_html,policy,publish_styles
     data=build();target=Path(target)
+    publish_styles(target)
     paths={'ESTADO_ATUAL.md','01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md','01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md','07_Imovel/Medidas_e_impactos.csv'}
     for item in data['shortcuts']+data['disciplines']:
         paths.update(item[k] for k in ('path','ownerSource') if item.get(k))

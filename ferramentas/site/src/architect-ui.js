@@ -12,7 +12,7 @@
  host.querySelectorAll('[data-arch-room]').forEach(b=>b.onclick=()=>{tab('model');setRoom(b.dataset.archRoom);setView('iso');document.getElementById('scene').focus();});
  function follow(action){
   tab(action.tab);if(action.room){setRoom(action.room);setView('iso');}
-  requestAnimationFrame(()=>{const target=document.getElementById(action.target);if(!target)return;for(let parent=target.parentElement;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;target.tabIndex=-1;target.scrollIntoView({block:'start'});target.focus({preventScroll:true});});
+  requestAnimationFrame(()=>{const target=document.getElementById(action.target);if(!target)return;if(target.tagName==='DETAILS')target.open=true;for(let parent=target.parentElement;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;target.tabIndex=-1;target.scrollIntoView({block:'start'});target.focus({preventScroll:true});});
  }
  host.querySelectorAll('[data-entry-path]').forEach(b=>b.onclick=()=>follow(data.entryPaths.find(p=>p.id===b.dataset.entryPath)));
  host.querySelectorAll('[data-entry-question]').forEach(b=>b.onclick=()=>follow(data.entryQuestions.find(q=>q.id===b.dataset.entryQuestion)));

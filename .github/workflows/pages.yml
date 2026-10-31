@@ -48,6 +48,8 @@ jobs:
           node ferramentas/site/test_mobile_ux.cjs
           node ferramentas/site/test_navigation.cjs
           node ferramentas/site/test_downloads.cjs
+      - name: Conferir leitura dos documentos publicados
+        run: python3 -B ferramentas/site/test_public_readability.py --site "$RUNNER_TEMP/guedala-pages"
       - name: Conferir revisão e selagem do pacote
         env:
           GUEDALA_TEST_ROOT: ${{ runner.temp }}/guedala-testes

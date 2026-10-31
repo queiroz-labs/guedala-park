@@ -10,7 +10,7 @@ import json, re, shutil, posixpath, runpy, copy
 from document_library import configure as configure_library, HOME as LIBRARY_HOME
 from current_release import load_release
 from build_work_data import document_paths as work_document_paths
-from publication import clean_markdown, public_html, policy
+from publication import clean_markdown, public_html, policy, publish_styles, BASE_STYLE as STYLE
 RELEASE = load_release()
 
 STUDY = Path(__file__).resolve().parent
@@ -172,7 +172,6 @@ def matrix():
     next(r for r in rows if r['id']=='P20')['pending']='Detalhar a composição e a fixação da dobradiça piano com articuladores/trava, eixo, apoios, almofadas e capacidade. Conferir protótipo e operação antes da fabricação.'
     return rows
 
-STYLE='''body{font:16px/1.6 system-ui,sans-serif;color:#26322d;background:#faf9f5;max-width:1120px;margin:auto;padding:40px}h1{font-size:36px;line-height:1.15}h2{margin-top:40px}h3{margin-bottom:8px}a{color:#336d57}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #d8dfd8;padding:10px;text-align:left;vertical-align:top}th{background:#e8eee7}section{padding:20px 0;border-bottom:1px solid #d8dfd8}.note{padding:18px;background:#edf1e9;border-radius:10px}.meta{font-size:13px;color:#607066}.tags{display:flex;gap:12px;flex-wrap:wrap}button{padding:10px 18px;border:1px solid #667767;border-radius:8px;background:white;cursor:pointer}ul,ol{padding-left:22px}ul.chk{list-style:none;padding-left:0}ul.chk li{margin:6px 0}ul.chk label{display:flex;gap:10px;align-items:flex-start;min-height:40px;padding:6px 4px;cursor:pointer}ul.chk input{width:22px;height:22px;flex:none;margin-top:2px}ul.chk input:checked+span{color:#7b867f;text-decoration:line-through}.tbl{overflow-x:auto}@media(max-width:640px){body{padding:16px}h1{font-size:28px}table{font-size:13px}td,th{padding:8px 6px}}@media print{body{background:white;padding:0;font-size:10pt}h1{font-size:24pt}.no-print{display:none}section{break-inside:avoid}a{color:inherit;text-decoration:none}table{font-size:9pt}h2,h3{break-after:avoid}}main p,main li,main dd{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}main table p,main table li,main .doc-crumbs{text-align:left;hyphens:manual}'''
 CHECKS_JS="""<script>(function(){var k='gp-chk:'+location.pathname,b=[].slice.call(document.querySelectorAll('ul.chk input')),s={};try{s=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}
 var bar=document.createElement('p');bar.className='meta no-print';var clr=document.createElement('button');clr.textContent='Limpar marcações';bar.appendChild(clr);document.querySelector('h1').after(bar);var cnt=document.createElement('span');cnt.style.marginRight='12px';bar.insertBefore(cnt,clr);
 function save(){var o={};b.forEach(function(x,i){if(x.checked)o[i]=1});try{localStorage.setItem(k,JSON.stringify(o))}catch(e){}cnt.textContent=Object.keys(o).length+' de '+b.length+' marcados'}
@@ -194,8 +193,10 @@ def markdown(text):
             close_list()
             cells=[c.strip() for c in line.strip('|').split('|')]
             if all(re.fullmatch(r'[-: ]+',c or '-') for c in cells): continue
-            if not in_table: out.append('<div class="tbl"><table>'); in_table=True
-            out.append('<tr>'+''.join('<td>'+inline(c)+'</td>' for c in cells)+'</tr>'); continue
+            header=not in_table
+            if header: out.append('<div class="tbl"><table>'); in_table=True
+            tag='th' if header else 'td'
+            out.append('<tr>'+''.join('<'+tag+'>'+inline(c)+'</'+tag+'>' for c in cells)+'</tr>'); continue
         if in_table: out.append('</table></div>'); in_table=False
         item=re.match(r'^- \[([ xX])\] (.*)',line)
         bullet=re.match(r'^- (.*)',line)
@@ -293,15 +294,16 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
     write_sources()
     if not export_docs:return dict(modules=20,documents=len(DOCS),exported=False)
     mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path'] and not d.get('generated') and policy(d['path'])['publico']!='oculto'}
-    mapping.update({p:p for p in ASSETS})
+    mapping.update({p:p+('.html' if p.endswith('.md') and policy(p)['publico']!='oculto' else '') for p in ASSETS})
     mapping.update({p:p+'.html' for p in work_document_paths()})
     missing_sources=[src for src in mapping if not(ROOT/src).is_file()]
     mapping={src:dst for src,dst in mapping.items()if(ROOT/src).is_file()}
     mapping.update({p:p for p in GENERATED_PAGES})
-    mapping={src:dst for src,dst in mapping.items() if policy(src)['publico']!='oculto'}
+    mapping={src:dst for src,dst in mapping.items() if policy(src)['publico']!='oculto' or (src in ASSETS and src==dst)}
     materialized=set(mapping.values())
     document_by_path = {d['path']:d for d in DOCS if d.get('path')}
     target=Path(target)if target else ROOT/'.site/docs'
+    publish_styles(target)
     published=[]; omitted=[dict(source=src,reference=src,reason='Historical source not present locally; excluded from artifact')for src in missing_sources]
     for src, dst in mapping.items():
         source=ROOT/src
@@ -309,6 +311,8 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
             omitted.append(dict(source=src,reference=src,reason='Historical source not present locally; no archive extracted'))
             continue
         dest=target/dst; dest.parent.mkdir(parents=True,exist_ok=True)
+        if source.suffix=='.md' and policy(src)['publico']=='oculto':
+            shutil.copyfile(source,dest);published.append(dst);continue
         if source.suffix.lower() in ['.md','.html']:
             content=GENERATED_PAGES[src] if src in GENERATED_PAGES else source.read_text(encoding='utf-8')
             if source.suffix=='.md': content=page(source.stem,markdown(clean_markdown(content)))
@@ -334,7 +338,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
             dest.write_text(content,encoding='utf-8')
         else: shutil.copyfile(source,dest)
         published.append(dst)
-    (target/'manifest.json').write_text(json.dumps(dict(files=published,unpublishedReferences=omitted,policy='Explicit technical allowlist only; no recursive inclusion.'),ensure_ascii=False,indent=2),encoding='utf-8')
+    (target/'manifest.json').write_text(json.dumps(dict(files=published+['leitura.css'],unpublishedReferences=omitted,policy='Explicit technical allowlist only; no recursive inclusion.'),ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(dict(documents=len(DOCS),modules=20,published=len(published),unpublishedReferences=len(omitted),directory=str(target)),ensure_ascii=False))
 
 if __name__=='__main__':
