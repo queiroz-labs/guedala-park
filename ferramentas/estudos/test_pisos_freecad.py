@@ -19,8 +19,9 @@ def main():
     import FreeCAD as App
     root=Path(os.environ['GP_REPO']).resolve()
     out=Path(os.environ['GP_PISOS_DIR']).resolve()
-    candidate=out/'Guedala_Park_Piso_candidato.FCStd'
     metadata=json.loads((out/'Pisos.json').read_text(encoding='utf8'))
+    candidate=Path(metadata['candidato']).resolve()
+    assert root not in candidate.parents
     assert sha(candidate)==metadata['candidate_sha256']
     macro=root/'ferramentas/estudos/modelar_pisos.FCMacro'
     tree=ast.parse(macro.read_text(encoding='utf8'))
@@ -42,6 +43,22 @@ def main():
     assert not acceptance['celulas_sem_piso_nem_parede']
     assert not acceptance['sobreposicoes']
     assert acceptance['area_piso_sob_parede_m2']==0
+    expression_count=sum(len(getattr(o,'ExpressionEngine',[]) or []) for o in doc.Objects)
+    baseboards=[o for o in doc.Objects if o.Name.startswith('RodapeTrecho_')]
+    if metadata.get('rodape_presente'):
+        composition=json.loads((candidate.parent/'Composicao.json').read_text(encoding='utf8'))
+        assert expression_count==composition['expressoes_gui'], 'Expressões não restauradas na leitura nativa'
+        assert baseboards
+        for obj in baseboards:
+            assert obj.Visibility and obj.Shape.isValid() and len(obj.Shape.Solids)==1
+            assert abs(obj.Height.Value-80)<1e-6 and abs(obj.Shape.BoundBox.ZMin)<1e-6
+            assert len(obj.ExpressionEngine)>=2
+        for i,obj in enumerate(baseboards):
+            a=obj.Shape.BoundBox
+            for other in baseboards[i+1:]:
+                b=other.Shape.BoundBox
+                if all(min(getattr(a,k+'Max'),getattr(b,k+'Max'))-max(getattr(a,k+'Min'),getattr(b,k+'Min'))>1e-6 for k in ('X','Y','Z')):
+                    assert obj.Shape.common(other.Shape).Volume<=.01
     # Cada encontro deve ter face inteira em comum, sem volume compartilhado.
     contacts=[]
     for a,b in ((0,3),(1,3),(0,4),(2,4)):
@@ -62,6 +79,7 @@ def main():
     result=dict(resultado='OK',candidate_sha256=sha(candidate),**acceptance,
                 contatos_por_face=contacts,antigos_ocultos=namespace['OLD'],
                 solidos_validos=5,vinilico_solido_unico=True,fonte_e_base_preservadas=True,
+                trechos_rodape=len(baseboards),expressoes_nativas=expression_count,
                 controle_negativo_fresta_1mm_m2=metadata['controle_negativo_fresta_1mm'],
                 controle_negativo_penetracao_1mm_mm3=metadata['controle_negativo_penetracao_1mm_mm3'])
     (out/'Aceite_pisos.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

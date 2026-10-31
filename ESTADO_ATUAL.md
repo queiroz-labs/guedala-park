@@ -28,7 +28,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R54/R29; 20 leituras, limpeza e retorno; trava textual/CI e teste móvel local; sem push; pub.: Elias,28/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site/pacote do montador | R54/R29; 20 leituras e trava textual/CI; local; pub.: Elias,28/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
@@ -43,7 +43,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Etapa | % | Situação |
 |---|---:|---|
 | Programa e estudo preliminar | 100% | Fechados; falta só validar no local |
-| Anteprojeto | 87% estimado | Antes 75%; +8 documental e +4 por D03/D04/D06/integração A3. [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; pacote pronto para envio; cotações/amostras impedem 90–95% |
+| Anteprojeto | 87% estimado | [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; pacote pronto para envio; cotações/amostras impedem 90–95% |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01](03_Ambientes/Planta_pontos/README.md):53 funções, 50 originais auditadas; D03/D04/D06 integradas; E06 adiada, Q06 sem coordenada, implantação e circuitos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias 27/10; SKUs e escolha final pendentes |
@@ -56,7 +56,7 @@ Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.
 
 ## Decisões
 
-- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Ligações de 18 mm: tampos Branco TX nas duas faces, sem chapa decorativa sobreposta; compatibilizar teto acabado. [Diretriz e cotas](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), teto/acessos pendentes; escopo R53 no README do modelo.
+- **Armários até o teto:** Elias, 26/10/2026, nesta conversa: “Todos os armários previstos até o teto, em todos os ambientes” e “ok, mantem 18mm para esses casos, mas deixa branco”. Ligações de 18 mm: tampos Branco TX nas duas faces, sem chapa decorativa sobreposta; compatibilizar teto acabado. [Diretriz e cotas](04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026), interfaces de teto pendentes.
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** Philips 50PUG8100/78 e TAB4000 (29/10); TCL só reserva. Sofá Bonnie; Berlin com três cadeiras; banco com duas tampas, piano e articuladores com trava (protótipo pendente).
@@ -108,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Rodapé:** 8 cm em todo o projeto (Elias, 30/10/2026); sem rodapé no CAD R54, pendente.
+**Piso/rodapé:** [candidato externo](02_Modelo_3D/README.md#candidato-piso-e-rodapé): 3 pisos, rodapé 80/15 mm nominal; 106 cenários; bloqueado pelo envelope Z. R54/base intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
@@ -119,14 +119,14 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 - Não salvar/fechar CAD por macro nem sobrescrevê-lo em consulta; pendências de campo/oficina: registrar e seguir.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
 
-**Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum;34 folgas ≤15mm; proposta10mm sem alterar caixas; marcos/datum físico pendentes.
+**Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum, 34 folgas ≤15 mm; proposta 10 mm sem mudar caixas; datum físico pendente.
 
-**Moodboard:** [aparência e composição aprovadas em 28/10/2026](09_Referencias/README.md); painéis 4K, A3, galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
+**Moodboard:** [moodboard de 28/10/2026](09_Referencias/README.md); painéis 4K, A3, galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
 
-**Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições ordenadas/0 ciclos;2.286 centros preservados; novos centros dependem de datum/apoios. Alertas físicos continuam.
+**Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 
-**Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; conclusões históricas separadas.
+**Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; histórico separado.
 
-**Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos amostrados, 277 intervalos; oito choques adicionais com portas P01 fechadas. Sem garantia contínua ou folga real integral.
+**Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos/277 intervalos; oito choques com portas P01 fechadas; sem garantia contínua ou folga real.
 
 **Risco:** [hipóteses](05_Orcamento_e_cronograma/Risco/README.md).

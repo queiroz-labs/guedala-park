@@ -1,8 +1,20 @@
 # Modelo 3D (FreeCAD)
 
-Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base R52 preservada no Git; propriedades e geometria verificadas no relatório abaixo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
+Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base e arquivo vigente preservados; o relatório abaixo confere o candidato externo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
 
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
+
+## Candidato piso e rodapé
+
+**Aprovação PENDENTE.** Elias, 30/10/2026: pisos → rodapé em cópia do R54 original. Um FCStd externo, salvo na GUI: `../outputs/Piso_rodape_candidato/Guedala_Park_Piso_rodape_candidato.FCStd`. R54, base e release preservados. [Relatório, hashes e perguntas](Relatorio_mudanca.md).
+
+- Vinílico Olmo em um sólido; lavanderia Iseo Marfim e banheiro Travertino Reale Greige separados, mais duas soleiras. Z −50..0 mm. Nove pisos antigos ocultos. Sob a folha do banheiro: vinílico como hipótese visual.
+- Rodapé 80 mm/15 mm nominal: **54 trechos / 35,41680 m**. Recortado contra interferências; piso corrigido define adjacências. `Rodape_Parametros` fora do grupo evita ciclo de expressões. Produto e áreas molhadas pendentes.
+- Aceite: **59.104 células**, zero lacunas/sobreposições; soleiras em contato exato. **7839 expressões** e **106 cenários**, sem peça inválida/colisão nova. **Completo REPROVADO:** cinco pisos em Z −50..0 excedem o envelope, iniciado em Z=0 (tolerância 1 mm). Regras/base intactas.
+
+Reproduzir com `ferramentas/estudos/compor_piso_rodape.FCMacro` (`GP_REPO`, `GP_COMPOSICAO_DIR` externo vazio). Verificar com `--completo --relatorio --candidato <FCStd externo>`; esse modo não atualiza a base. Evidências completas junto ao candidato.
+
+**Proposta separada, sem número:** R54 → verde da janela → pisos → rodapé; compatibilizar encontros e repetir aceite/completo. O R55 verde permanece separado, inalterado e pendente.
 
 ## Decisões incorporadas na R53 — 27/10/2026
 
@@ -16,11 +28,9 @@ Fonte: Elias,27/10/2026: “Aplicar à R52 e às fichas as decisões já tomadas
 - Lixeiras: três peças Biovis com LocalX+70mm e três Loop com LocalY+60mm. Expressões do controle de manutenção preservadas. Posições nominais, sem prova física de passagem, tampa/pedal ou destino temporário.
 - Links das20 fichas corrigidos para a pasta vigente, com revisão R15 identificada no CAD.
 
-[Alterações por objeto](Alteracoes_R53.json) · [verificação e diferenças](Relatorio_mudanca.md). Gravação pela GUI, sem modificar paleta, espessuras, portas, ferragens ou demais estudos condicionados. Armários até o teto e alternativas P03/gavetas continuam separados; esta revisão não inventa detalhes faltantes.
+[Alterações históricas da R53](Alteracoes_R53.json); o relatório atual trata do candidato acima. Gravação pela GUI; armários até o teto e alternativas P03/gavetas continuaram separados.
 
-**Verificação completa R53:** 5.832 objetos,7.702 expressões,106 cenários; zero peças inválidas e nenhuma colisão nova. Diferenças: seis posições das lixeiras e duas formas agregadas, sem alteração de aparência. Base atualizada somente após comparação, sob o pedido expresso acima.
-
-As seções R52 abaixo são evidência histórica da base, não nova inspeção declarada da R53.
+**Histórico R53:** 5.832 objetos, 7.702 expressões e 106 cenários; seis posições de lixeiras e duas formas agregadas. As seções R52 abaixo são históricas.
 
 ## Triagem das formas inválidas — 25/10/2026
 
@@ -107,9 +117,7 @@ A base ([Base_verificacao.json.gz](Base_verificacao.json.gz), compactada, não s
 
 ## O que o R52 corrigiu em relação à R51
 
-TV do escritório recuada (`Peca131.LocalY` 1280 → 1180, 50 mm de folga até a porta aberta); tanque antigo e frentes alternativas 500 da lavanderia ocultos; mesa Berlin 110/170 vigente (mesa sob medida e cadeiras anteriores ocultas); controles antigos do banheiro movidos para grupo histórico (`BC43_Controle` com `CursoEsquerda`/`CursoDireita`); `Gaveta009.AlturaParedeSobreFundo` 53 → 47 mm; ferragens declaradas nas gavetas P01 (FGVTN 500) e P16 (MOVENTO 400); lista de ferragens do banco P20 (piano e articuladores com trava); seis atalhos de gaveta que renderizavam cópias fora do apartamento removidos (as gavetas reais permanecem).
-
-Detalhe linha a linha: [Alteracoes_R52.json](Alteracoes_R52.json) · [Diferencas_R51_R52.json](Diferencas_R51_R52.json).
+TV do escritório: `Peca131.LocalY` 1280 → 1180, folga de 50 mm da porta. Tanque/frentes 500 e móveis antigos ocultos; Berlin 110/170; controles históricos BC43; `Gaveta009` 53 → 47 mm; ferragens declaradas nas gavetas e banco; seis atalhos fora do apartamento removidos. Evidência histórica: [alterações R52](Alteracoes_R52.json) · [diferenças R51–R52](Diferencas_R51_R52.json).
 
 ## Movimentos e operação
 
@@ -123,14 +131,6 @@ As evidências citadas estão em [Componentes por assunto](Componentes/README.md
 
 ## Arquivos desta pasta
 
-| Arquivo | Para quê |
-|---|---|
-| `Verificacao_R52.json`, `Verificacao_posicoes_R52.json`, `Auditoria_estatica_R52.json` | Evidências do arquivo vigente |
-| `Comparacao_colisoes_R51_R52.json` | Colisões antes e depois |
-| `Preservacao_originais.json`, `Registro_entrega_R52.json` | Rastreabilidade da entrega |
-| `Historico/` | Estudos R46–R49 que o site ainda referencia; os binários R45 e R48 foram removidos em 26/10/2026 (recuperáveis no git) |
-| `Componentes/` | Evidências por tema; Atual e Estudos por tema, com trava no verificador contra pastas datadas. Scripts de origem em `ferramentas/componentes/`; histórico não citado recuperável no Git |
+Evidências históricas R52: `Verificacao_R52.json`, `Verificacao_posicoes_R52.json`, `Auditoria_estatica_R52.json`, `Comparacao_colisoes_R51_R52.json`, `Preservacao_originais.json` e `Registro_entrega_R52.json`. Não são nova inspeção do candidato.
 
-## Contadores históricos para rastreabilidade
-
-Transferidos do plano até 31/10, registro de 25/10/2026: a R50 completa otimizada preservava 5.893 objetos, 1.546 geometrias e movimentos da R49; integração local corrigida e tempos comparados. O manifesto inicial de continuidade conferiu 227 arquivos, 5.833 objetos e 7.702 expressões persistidas da R51, com hash R50 identificado como histórico. São bases de comparação anteriores, não os contadores da R52 vigente. Atualizar manifesto somente após mudanças conhecidas; esse registro não comprova integração das propostas nem publicação do pacote.
+`Historico/` conserva estudos R46–R49 citados; binários R45/R48 no Git. `Componentes/` organiza evidências por tema; scripts em `ferramentas/componentes/`. Contadores R50/R51 e registros de continuidade estão no Git; os contadores atuais estão no relatório da composição.

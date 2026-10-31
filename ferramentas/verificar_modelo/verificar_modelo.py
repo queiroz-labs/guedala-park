@@ -10,6 +10,8 @@ Uso (python comum, na raiz do repo):
   ... --completo --atualizar-base --aprovado-por "Elias, 25/10/2026: o que foi aprovado"
       grava a base nova. Se houver diferencas em relacao a base, SO grava com --aprovado-por.
   ... --sem-movimentos   pula os cenarios de movimento (mais rapido)
+  ... --completo --relatorio --candidato <FCStd externo>
+      inspecao somente leitura do candidato; nunca atualiza base/release.
 
 Saida: 0 = ok, 1 = erro. Avisos nao reprovam.
 Base: 02_Modelo_3D/Base_verificacao.json.gz. Relatorio: 02_Modelo_3D/Relatorio_mudanca.md.
@@ -367,11 +369,36 @@ def valor_arg(nome):
     return sys.argv[sys.argv.index(nome) + 1] if nome in sys.argv and sys.argv.index(nome) + 1 < len(sys.argv) else None
 
 
+def validar_candidato(caminho, completo, atualizar):
+    if not completo or atualizar:
+        raise ValueError('--candidato exige --completo e proibe --atualizar-base')
+    if not caminho:raise ValueError('--candidato precisa de um arquivo externo')
+    cad=Path(caminho).resolve()
+    if RAIZ==cad or RAIZ in cad.parents or cad.suffix.lower()!='.fcstd':
+        raise ValueError('Candidato precisa ser um FCStd fora do repositorio')
+    with zipfile.ZipFile(cad) as archive:
+        if archive.testzip() or not {'Document.xml','GuiDocument.xml'}<=set(archive.namelist()):
+            raise ValueError('Candidato sem documento/cores GUI ou ZIP corrompido')
+    return cad
+
+
 def main():
     completo = '--completo' in sys.argv
     atualizar = '--atualizar-base' in sys.argv
     aprovacao = valor_arg('--aprovado-por')
     rel, cad = rapido()
+    protegidos={}
+    if '--candidato' in sys.argv:
+        try:
+            candidato=validar_candidato(valor_arg('--candidato'),completo,atualizar)
+        except (ValueError,OSError,zipfile.BadZipFile) as exc:
+            print('ERRO:',exc);sys.exit(1)
+        if erros:
+            for erro in erros:print('ERRO:',erro)
+            sys.exit(1)
+        protegidos={p:sha(p) for p in (cad,BASE,RELEASE) if p.exists()}
+        cad=candidato
+        rel=dict(rel,cadRevision='Candidato externo: '+cad.stem)
     if completo and cad.exists():
         inv = json.loads(INVARIANTES.read_text(encoding='utf-8'))
         casos = None if '--sem-movimentos' in sys.argv else json.loads(MOVIMENTOS.read_text(encoding='utf-8'))
@@ -439,6 +466,8 @@ def main():
             print('Inspecao em %.0f s: %d objetos, %d formas ativas, %d pares de caixas, %d cenarios de movimento' % (
                 retrato['segundos'], retrato['total_objetos'], retrato.get('formas_ativas', 0),
                 len(retrato.get('caixas_sobrepostas', [])), len(retrato.get('movimentos') or {})))
+    for path,digest in protegidos.items():
+        if sha(path)!=digest:erros.append('Arquivo protegido mudou durante a inspecao: '+path.name)
     for a in avisos:
         print('AVISO:', a)
     for e in erros:

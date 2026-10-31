@@ -10,7 +10,7 @@ from types import SimpleNamespace
 MACRO = Path(__file__).with_name('modelar_rodape.FCMacro')
 tree = ast.parse(MACRO.read_text(encoding='utf8'))
 # Carrega só funções puras: o teste não importa FreeCAD, abre CAD ou executa main.
-names = {'inside','merge','subtract','rect','wall_faces','strip_box','ensure_destination','apply_finish','copy_candidate'}
+names = {'inside','merge','subtract','rect','wall_faces','strip_box','ensure_destination','apply_finish','copy_candidate','bind_dimensions'}
 nodes = [n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name in names
          or isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id in {'EPS','FLOORS'} for t in n.targets)]
 scope = {'Path':Path,'defaultdict':__import__('collections').defaultdict,'shutil':shutil}
@@ -29,6 +29,22 @@ class RodapeGeometryTests(unittest.TestCase):
         face = dict(axis='x', fixed=1000, sign=-1)
         self.assertEqual(strip_box(face, 100, 500, 15), [985, 100, 0, 1000, 500, 80])
         self.assertEqual(strip_box(face, 100, 500, 20), [980, 100, 0, 1000, 500, 80])
+
+    def test_composition_uses_corrected_floor_instead_of_old_envelope(self):
+        objects={n:{'caixa_global':[9000,9000,-50,9001,9001,0]} for ns in FLOORS.values() for n in ns}
+        objects['Peca']={'caixa_global':[0,0,-50,500,500,0]}
+        objects['A']={'caixa_global':[0,-100,0,1000,0,2600]}
+        probe=lambda x,y:'cozinha' if 600<x<1000 and 0<y<500 else None
+        faces=wall_faces(objects,['A'],probe,[600],[])
+        self.assertEqual([(f['room'],f['start'],f['end']) for f in faces],[('cozinha',600,1000)])
+
+    def test_dimensions_depend_on_independent_parameters_not_parent_group(self):
+        expressions={}
+        obj=SimpleNamespace(setExpression=lambda prop,value:expressions.__setitem__(prop,value))
+        scope['bind_dimensions'](obj,'x',1000,-1)
+        self.assertEqual(expressions,{'Height':'Rodape_Parametros.Altura',
+                                     'Length':'Rodape_Parametros.EspessuraNominal',
+                                     'Placement.Base.x':'1000 mm - Rodape_Parametros.EspessuraNominal'})
 
     def test_opening_and_lintel_do_not_gain_baseboard(self):
         objects = {n: {'caixa_global': [9000, 9000, -50, 9001, 9001, 0]} for ns in FLOORS.values() for n in ns}

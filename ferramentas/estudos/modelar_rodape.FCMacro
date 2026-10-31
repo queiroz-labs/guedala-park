@@ -3,6 +3,7 @@
 GP_REPO e GP_RODAPE_DIR são obrigatórios. Recusa qualquer candidato existente.
 Não importa nem executa a macro de piso; usa os contornos da R54 original.
 GP_RODAPE_CLOSE_GUI=1 fecha apenas uma instância iniciada sem documentos.
+main(document) aplica ao documento externo de composição, sem copiar a fonte.
 """
 import FreeCAD as App, FreeCADGui as Gui, Part
 from PySide import QtCore
@@ -52,7 +53,7 @@ def rect(box):
     return box[0], box[1], box[3], box[4]
 
 
-def wall_faces(objects, walls):
+def wall_faces(objects, walls, floor_probe=None, extra_x=(), extra_y=()):
     """Faces que tocam piso interno; sem parede virtual em portas ou janelas.
 
     O CAD e o desenho do site têm contornos distintos. Não corrige esses
@@ -62,6 +63,7 @@ def wall_faces(objects, walls):
     wall_rects = [rect(objects[n]['caixa_global']) for n in walls if objects[n]['caixa_global'][2] < 80]
     xs = {v for boxes in [wall_rects, *floors.values()] for b in boxes for v in (b[0], b[2])}
     ys = {v for boxes in [wall_rects, *floors.values()] for b in boxes for v in (b[1], b[3])}
+    xs.update(extra_x);ys.update(extra_y)
     grouped = defaultdict(list)
     for name in walls:
         box = objects[name]['caixa_global']
@@ -75,7 +77,7 @@ def wall_faces(objects, walls):
                 x, y = (fixed+sign*.01, (u+v)/2) if axis=='x' else ((u+v)/2, fixed+sign*.01)
                 if inside(x, y, wall_rects):
                     continue
-                room = next((room for room, boxes in floors.items() if inside(x, y, boxes)), None)
+                room = floor_probe(x,y) if floor_probe else next((room for room, boxes in floors.items() if inside(x, y, boxes)), None)
                 if room:
                     grouped[(room, name, axis, fixed, sign)].append((u, v))
     return [dict(room=key[0], wall=key[1], axis=key[2], fixed=key[3], sign=key[4], start=a, end=b)
@@ -185,7 +187,27 @@ def apply_finish(view):
     view.ShapeAppearance = materials
 
 
-def main():
+def parameters(doc):
+    """Parâmetros fora do grupo de trechos: elimina o ciclo grupo -> filho -> grupo."""
+    obj=doc.getObject('Rodape_Parametros')
+    if obj is None:
+        obj=doc.addObject('App::FeaturePython','Rodape_Parametros')
+        obj.Label='Rodapé · parâmetros nominais'
+        obj.addProperty('App::PropertyLength','Altura','Rodape');obj.Altura=80
+        obj.addProperty('App::PropertyLength','EspessuraNominal','Rodape');obj.EspessuraNominal=15
+        obj.setEditorMode('Altura',1)
+        doc.getObject('ControlesAtuaisR21').addObject(obj)
+    return obj
+
+
+def bind_dimensions(obj,axis,fixed,sign):
+    obj.setExpression('Height','Rodape_Parametros.Altura')
+    obj.setExpression('Length' if axis=='x' else 'Width','Rodape_Parametros.EspessuraNominal')
+    if sign<0:
+        obj.setExpression('Placement.Base.'+axis,str(fixed)+' mm - Rodape_Parametros.EspessuraNominal')
+
+
+def main(document=None):
     global OWN_DOCUMENT
     if OWNS_GUI:
         Gui.getMainWindow().hide()
@@ -193,22 +215,46 @@ def main():
         raise ValueError('O candidato deve ficar fora do repositório')
     OUT.mkdir(parents=True, exist_ok=True)
     source = ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'
-    candidate = OUT/'Guedala_Park_Rodape_8cm_candidato.FCStd'
+    candidate = Path(document.FileName).resolve() if document is not None else OUT/'Guedala_Park_Rodape_8cm_candidato.FCStd'
     marker = OUT/'Rodape.json'
-    ensure_destination(ROOT, OUT, candidate)
+    if document is None:ensure_destination(ROOT, OUT, candidate)
+    elif ROOT in candidate.parents or candidate==source:
+        raise ValueError('Composição somente em documento externo; preservar R54')
     release = json.loads((ROOT/'ferramentas/site/current_release.json').read_text(encoding='utf8'))
     if release['cadPath']!='02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd' or sha(source)!=release['cadSHA256']:
         raise ValueError('A fonte precisa ser a R54 original verificada; não usar candidato do piso ou de outra sessão')
     original_sha = sha(source)
-    copy_candidate(source, candidate)
-    doc = App.openDocument(str(candidate))
+    if document is None:copy_candidate(source, candidate)
+    input_sha=sha(candidate)
+    doc = document if document is not None else App.openDocument(str(candidate))
+    if doc.getObject('Rodape_8cm'):raise ValueError('Rodapé já existe; recusar aplicação duplicada')
     OWN_DOCUMENT = doc
     names = {o.Name for o in doc.Objects}
     before = {o.Name: signature(o) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
     expressions = {o.Name: str(o.ExpressionEngine) for o in doc.Objects if hasattr(o,'ExpressionEngine')}
     source_objects = {o.Name: dict(caixa_global=bbox(global_shape(o))) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
     walls = [o.Name for o in doc.getObject('ParedesInteiras').Group]
-    faces = wall_faces(source_objects, walls)
+    if document is None:
+        faces = wall_faces(source_objects, walls)
+    else:
+        # Consulta o BRep ativo corrigido, nunca o envelope do vinílico unificado.
+        floor_names={'Vinilico_continuo':None,'Lavanderia_Iseo_Marfim':'lavanderia',
+                     'Soleira_cozinha_lavanderia':'lavanderia',
+                     'Banheiro_Travertino_Reale_Greige':'banho','Soleira_banheiro':'banho'}
+        floor_shapes=[(global_shape(doc.getObject(n)),room) for n,room in floor_names.items()]
+        old_regions={room:[rect(source_objects[n]['caixa_global']) for n in ns]
+                     for room,ns in FLOORS.items() if room not in ('lavanderia','banho')}
+        def probe(x,y):
+            for shape,wet_room in floor_shapes:
+                if not shape.isInside(App.Vector(x,y,-25),1e-7,True):continue
+                if wet_room:return wet_room
+                room=next((r for r,rs in old_regions.items() if inside(x,y,rs)),None)
+                if room:return room
+                # Trecho recém-preenchido: ambiente seco cuja caixa nominal é mais próxima.
+                return min(old_regions,key=lambda r:min(max(a-x,0,x-c)**2+max(b-y,0,y-d)**2 for a,b,c,d in old_regions[r]))
+            return None
+        vertices=[v.Point for shape,_ in floor_shapes for v in shape.Vertexes]
+        faces=wall_faces(source_objects,walls,probe,[v.x for v in vertices],[v.y for v in vertices])
     active = []
     for obj in doc.Objects:
         if not getattr(obj,'Visibility',False) or obj.TypeId.startswith('App::'):
@@ -221,12 +267,16 @@ def main():
         if box[2] < 80 and box[5] > 0:
             active.append((obj, sh, box))
 
+    parameters(doc)
     group = doc.addObject('App::DocumentObjectGroup','Rodape_8cm')
     group.Label = 'Rodapé de parede 8 cm · 15 mm nominal, a confirmar · candidato'
     group.addProperty('App::PropertyLength','Altura','Rodape','Altura decidida: Elias, 30/10/2026')
     group.Altura = 80;group.setEditorMode('Altura',1)
     group.addProperty('App::PropertyLength','EspessuraNominal','Rodape','Hipótese de estudo; produto e espessura a confirmar')
     group.EspessuraNominal = 15
+    group.setExpression('Altura','Rodape_Parametros.Altura')
+    group.setExpression('EspessuraNominal','Rodape_Parametros.EspessuraNominal')
+    group.setEditorMode('EspessuraNominal',1)
     group.addProperty('App::PropertyString','Situacao','Rodape')
     group.Situacao = 'Candidato; espessura nominal, a confirmar. Alterar espessura exige refazer recortes e verificações.'
     group.addProperty('App::PropertyString','AreasMolhadas','Rodape')
@@ -283,14 +333,13 @@ def main():
             name = 'RodapeTrecho_'+str(len(pieces)+1).zfill(3)
             obj = doc.addObject('Part::Box',name)
             obj.Label = 'Rodapé · '+face['room']+' · '+face['wall']+' · 15 mm nominal, a confirmar'
-            obj.Height = 80;obj.setExpression('Height','Rodape_8cm.Altura')
+            obj.Height = 80
             obj.Placement.Base = App.Vector(*strip_box(face,a,b)[:3])
             if face['axis']=='x':
-                obj.Width = b-a;obj.setExpression('Length','Rodape_8cm.EspessuraNominal')
-                if face['sign']<0:obj.setExpression('Placement.Base.x',str(face['fixed'])+' mm - Rodape_8cm.EspessuraNominal')
+                obj.Width = b-a
             else:
-                obj.Length = b-a;obj.setExpression('Width','Rodape_8cm.EspessuraNominal')
-                if face['sign']<0:obj.setExpression('Placement.Base.y',str(face['fixed'])+' mm - Rodape_8cm.EspessuraNominal')
+                obj.Length = b-a
+            bind_dimensions(obj,face['axis'],face['fixed'],face['sign'])
             for prop,value in [('Ambiente',face['room']),('ParedeOrigem',face['wall']),('TipoPeca','Rodape de parede'),
                                ('MaterialReferencia','offwhite'),('Especificacao','Branco liso fosco, sem frisos; produto/espessura pendentes')]:
                 obj.addProperty('App::PropertyString',prop,'Rodape');setattr(obj,prop,value)
@@ -311,7 +360,7 @@ def main():
     doc.save()  # processo GUI: mantém GuiDocument.xml e os materiais
     signatures = OUT/'Assinaturas_geometricas.json'
     signatures.write_text(json.dumps(dict(antes=before,depois=after),ensure_ascii=False),encoding='utf8')
-    report = dict(aprovacao='PENDENTE',source_sha256=original_sha,candidate_sha256=sha(candidate),
+    report = dict(aprovacao='PENDENTE',source_sha256=original_sha,entrada_sha256=input_sha,candidate_sha256=sha(candidate),
                   fonte='Elias, 30/10/2026: rodapé de 8 cm em todo o projeto',altura_mm=80,
                   espessura_nominal_mm=15,espessura_situacao='nominal, a confirmar',
                   assinatura_completa_sha256=sha(signatures),objetos_anteriores=len(names),novos=sorted({o.Name for o in doc.Objects}-names),
@@ -326,7 +375,7 @@ def main():
     csv_write(OUT/'Trechos.csv',[{k:v for k,v in row.items() if k!='bbox'} for row in pieces])
     csv_write(OUT/'Colisoes_iniciais.csv',collisions)
     csv_write(OUT/'Encontros.csv',joins)
-    App.closeDocument(doc.Name)
+    if document is None:App.closeDocument(doc.Name)
     OWN_DOCUMENT = None
     assert sha(source)==original_sha
     (OUT/'modelagem_ok.txt').write_text('OK',encoding='utf8')

@@ -1,0 +1,81 @@
+"""GUI: uma cópia externa de R54, primeiro pisos e depois rodapé.
+
+GP_REPO e GP_COMPOSICAO_DIR obrigatórios. Recusa substituir candidato.
+Não incorpora o R55 verde; sua assinatura é protegida durante a execução.
+"""
+import FreeCAD as App, FreeCADGui as Gui
+from PySide import QtCore
+from pathlib import Path
+import ast, hashlib, json, os, shutil, traceback, zipfile
+
+ROOT=Path(os.environ['GP_REPO']).resolve()
+OUT=Path(os.environ['GP_COMPOSICAO_DIR']).resolve()
+DOC=None
+
+
+def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def load_macro(name):
+    path=ROOT/'ferramentas/estudos'/name
+    tree=ast.parse(path.read_text(encoding='utf8'))
+    assert isinstance(tree.body[-1],ast.Try)
+    tree.body.pop()  # somente o lançador; usa as funções originais de cada macro
+    namespace={'__file__':str(path)}
+    exec(compile(tree,str(path),'exec'),namespace)
+    return namespace
+
+
+def main():
+    global DOC
+    Gui.getMainWindow().hide()
+    assert ROOT!=OUT and ROOT not in OUT.parents
+    OUT.mkdir(parents=True,exist_ok=True)
+    candidate=OUT/'Guedala_Park_Piso_rodape_candidato.FCStd'
+    if candidate.exists():raise FileExistsError('Preservar candidato existente; escolher saída vazia')
+    release_path=ROOT/'ferramentas/site/current_release.json'
+    release=json.loads(release_path.read_text(encoding='utf8'))
+    source=ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'
+    assert release['cadPath']=='02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'
+    assert sha(source)==release['cadSHA256']
+    green=ROOT.parent/'outputs/R55_candidato/Guedala_Park_R55_candidato.FCStd'
+    protected={str(p):sha(p) for p in (source,release_path,ROOT/'02_Modelo_3D/Base_verificacao.json.gz',green)}
+    with source.open('rb') as original, candidate.open('xb') as target:shutil.copyfileobj(original,target)
+    DOC=App.openDocument(str(candidate))
+    assert not DOC.getObject('RevestJanelaBoxR55')
+    os.environ['GP_PISOS_DIR']=str(OUT/'Piso')
+    os.environ['GP_RODAPE_DIR']=str(OUT/'Rodape')
+    os.environ.pop('GP_PISOS_FONTE',None)
+    (OUT/'Progresso.txt').write_text('Aplicando pisos ao R54 original',encoding='utf8')
+    piso=load_macro('modelar_pisos.FCMacro');piso['main'](DOC)
+    piso_sha=sha(candidate)
+    (OUT/'Progresso.txt').write_text('Aplicando rodapé ao mesmo documento com piso corrigido',encoding='utf8')
+    rodape=load_macro('modelar_rodape.FCMacro');rodape['main'](DOC)
+    final_sha=sha(candidate)
+    assert 'GuiDocument.xml' in zipfile.ZipFile(candidate).namelist()
+    assert not DOC.getObject('RevestJanelaBoxR55')
+    metadata_path=OUT/'Piso/Pisos.json'
+    metadata=json.loads(metadata_path.read_text(encoding='utf8'))
+    metadata.update(etapa_piso_sha256=piso_sha,candidate_sha256=final_sha,rodape_presente=True,
+                    expressoes_finais_gui=sum(len(getattr(o,'ExpressionEngine',[]) or []) for o in DOC.Objects))
+    metadata_path.write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    result=dict(aprovacao='PENDENTE',candidato=str(candidate),candidate_sha256=final_sha,
+                source_sha256=protected[str(source)],etapa_piso_sha256=piso_sha,
+                ordem=['modelar_pisos.FCMacro','modelar_rodape.FCMacro'],
+                macros_sha256={n:sha(ROOT/'ferramentas/estudos'/n) for n in
+                               ('modelar_pisos.FCMacro','modelar_rodape.FCMacro','compor_piso_rodape.FCMacro')},
+                protegidos=protected,objetos=len(DOC.Objects),
+                expressoes_gui=sum(len(getattr(o,'ExpressionEngine',[]) or []) for o in DOC.Objects),
+                verde_incorporado=False)
+    App.closeDocument(DOC.Name);DOC=None
+    assert all(sha(Path(p))==h for p,h in protected.items())
+    (OUT/'Composicao.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    (OUT/'Progresso.txt').write_text('OK: composição salva pela GUI, R54/base/R55 preservados',encoding='utf8')
+
+
+try:main()
+except Exception:
+    OUT.mkdir(parents=True,exist_ok=True)
+    (OUT/'erro_composicao.txt').write_text(traceback.format_exc(),encoding='utf8')
+    if DOC is not None:App.closeDocument(DOC.Name)
+finally:QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

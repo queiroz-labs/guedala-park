@@ -111,16 +111,18 @@ def grid_acceptance(floors,walls):
                 area_piso_sob_parede_m2=round(overlap_area/1e6,8),sobreposicoes=overlaps)
 
 
-def main():
-    Gui.getMainWindow().hide()
+def main(document=None):
+    if document is None:Gui.getMainWindow().hide()
     assert ROOT not in OUT.parents and OUT!=ROOT
     source=Path(os.environ.get('GP_PISOS_FONTE',str(ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'))).resolve()
-    candidate=OUT/'Guedala_Park_Piso_candidato.FCStd'
+    candidate=Path(document.FileName).resolve() if document is not None else OUT/'Guedala_Park_Piso_candidato.FCStd'
     assert source.exists() and source!=candidate
+    assert ROOT not in candidate.parents
     OUT.mkdir(parents=True,exist_ok=True)
-    if candidate.exists():raise FileExistsError('Candidato já existe; não sobrescrever. Escolha outra saída externa.')
-    shutil.copy2(source,candidate)
-    doc=App.openDocument(str(candidate))
+    if document is None:
+        if candidate.exists():raise FileExistsError('Candidato já existe; não sobrescrever. Escolha outra saída externa.')
+        with source.open('rb') as original, candidate.open('xb') as target:shutil.copyfileobj(original,target)
+    doc=document if document is not None else App.openDocument(str(candidate))
     assert not doc.getObject('Piso_vinilico')
     guarded={str(p):sha(p) for p in (source,ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd',
                                     ROOT/'02_Modelo_3D/Base_verificacao.json.gz',ROOT/'ferramentas/site/current_release.json')}
@@ -200,7 +202,7 @@ def main():
                 verde_presente=bool(doc.getObject('RevestJanelaBoxR55')),
                 rodape_presente=bool(doc.getObject('Rodape_8cm')))
     (OUT/'Pisos.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    App.closeDocument(doc.Name)
+    if document is None:App.closeDocument(doc.Name)
     assert all(sha(Path(p))==h for p,h in guarded.items())
     (OUT/'modelagem_ok.txt').write_text('OK',encoding='utf8')
 
