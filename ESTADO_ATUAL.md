@@ -36,7 +36,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 **Acústica:** [piso, aparelhos e envoltória](03_Ambientes/Acustica/README.md); 29 faces/407 sensibilidades; isolamento real e custos pendentes.
 
-**Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box a compatibilizar.
+**Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box de correr até o teto (Elias, 30/10/2026).
 
 ## Onde estamos
 
