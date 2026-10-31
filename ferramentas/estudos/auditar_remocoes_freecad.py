@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter, defaultdict
 import csv
+import fnmatch
 import datetime as dt
 import gzip
 import hashlib
@@ -86,6 +87,11 @@ def main():
     ap.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[2])
     ap.add_argument('--preparar-limpeza-real', action='store_true',
                     help='Propoe exclusoes externas; base e regra historicos_ocultos ficam pendentes')
+    ap.add_argument('--liberar', action='append', default=[], metavar='NOME_OU_GLOB',
+                    help='Retira a protecao explicita de objetos aprovados por Elias (repetivel); '
+                         'nao afeta uso funcional, expressoes ou referencias')
+    ap.add_argument('--planilhas-arquivadas', type=Path,
+                    help='JSON externo {Name: {celulas}} que arquiva o conteudo das planilhas liberadas')
     args = ap.parse_args()
     repo, model, out = args.repo.resolve(), args.modelo.resolve(), args.saida.resolve()
     if model.is_relative_to(repo) or out.is_relative_to(repo):
@@ -242,6 +248,12 @@ def main():
                 'minifix' in (n + ' ' + o['label']).lower() or
                 n in ('QuadroAreas', 'Materiais_Nomeados')):
                 protected |= descendentes(objects, n)
+    liberados = {n for n in objects if any(fnmatch.fnmatchcase(n, g) for g in args.liberar)}
+    protected -= liberados
+    arquivadas = set()
+    if args.planilhas_arquivadas:
+        arq = json.loads(args.planilhas_arquivadas.read_text(encoding='utf-8'))
+        arquivadas = {n for n, v in arq.items() if v.get('celulas')}
     candidates, removal = [], []
     categories = ['expressoes', 'invariantes', 'movimentos', 'fichas_R15', 'planilhas',
                   'site_fontes', 'site_build_local', 'codigo_apoio', 'textos_nativos',
@@ -280,7 +292,7 @@ def main():
                 reasons.append(category + ': ' + str(counts[category][n]) + ' ocorrencia(s)')
         if own_expr[n]:
             reasons.append('possui ' + str(own_expr[n]) + ' expressoes proprias')
-        if sheet_cells[n]:
+        if sheet_cells[n] and not (n in liberados and n in arquivadas):
             reasons.append('planilha nativa com celulas/documentacao')
         reasons.extend(intrinsic[n])
         if o['membros'] and not args.preparar_limpeza_real:

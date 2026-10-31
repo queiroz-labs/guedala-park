@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
 
-**CAD externo:** [limpeza](02_Modelo_3D/README.md#auditoria-de-remocoes): 116 remoções/1789 mantidos; 6064 objetos. Completo OK/106; aprovação/revisão PENDENTES. R54/base/regras intactos.
+**CAD externo:** [limpeza](02_Modelo_3D/README.md#auditoria-de-remocoes): 116+36 remoções (lote 2 liberado por Elias, 31/10/2026); 6028 objetos. Completo OK/106; aprovação/revisão PENDENTES. R54/base/regras intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

@@ -109,9 +109,11 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 **Limpeza externa, aprovação/revisão PENDENTES.** Elias, 31/10/2026, nesta conversa: “1. limpeza real manda o prompt”, somente preparação antes de aprovar o relatório. Partida E auditada (6180 objetos); estudo salvo pela GUI/MCP em `%LOCALAPPDATA%/Temp/guedala_limpeza_real/Guedala_Park_Estudo_limpo.FCStd`.
 
-[Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): 1905 candidatos; **116 remoções / 1789 mantidos**, 6180→6064. `Plano_remocoes.json`/CSV externos: provas/motivos; `Relatorio_mudanca.md` externo lista todos os removidos e o comando de promoção **não executado**. Folhas antes dos contêineres, seis lotes; 8049 expressões preservadas. **Δ 0 novos/7 grupos alterados/116 removidos**; formas próprias/posições/aparência iguais. **Completo OK**, 106 cenários/1157 pares, sem falha.
+[Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): lote 1, 116 remoções/1789 mantidos, 6180→6064; plano, CSV e relatório externos; promoção **não executada**. **Δ 0 novos/7 grupos alterados/116 removidos**. **Completo OK**, 106 cenários/1157 pares.
 
-20 de `historicos_ocultos` usados/protegidos: **sem mudança de regra**. Origin/Point, 36 câmeras, QuadroAreas, materiais, BC43/banco/Minifix e operandos A/B preservados. R54/base/release/site e relatório oficial intactos. `--plano-remocoes <JSON externo>` só permite conferir exclusões previstas no candidato completo, com hashes/provas; proíbe atualizar base e dispensar movimentos. Sem plano, remoção continua erro. Promoção/revisão dependem de Elias; pacote futuro no relatório externo.
+**Lote 2 (Elias, 31/10/2026, nesta conversa: “Sim, liberar”):** `--liberar` retirou a proteção de `R45_*` (estudo Minifix) e de 5 planilhas históricas; conteúdo (454 células) em [Planilhas_removidas_limpeza.json](Historico/Planilhas_removidas_limpeza.json). **36 remoções, 6064→6028**, em cópia externa salva pela GUI ; 0 novos, geometria/visibilidade iguais. **Completo OK** em clone com a base do lote 1, 106 cenários. Seguem BC43, câmeras, Origin/Point, batentes, `*_Legados` e três `R45_*` em uso.
+
+20 `historicos_ocultos` usados/protegidos: **regra inalterada**. R54/base/release/site e relatório oficial intactos. `--plano-remocoes <JSON externo>` só permite conferir exclusões previstas, com hashes/provas; proíbe atualizar base e dispensar movimentos. Promoção/revisão dependem de Elias.
 
 CSV SHA256: `85cb66bd36f064432534814e45e2a6a13c6b1a12aa36ee5e7c22e0c8ac3ff85f`.
 
