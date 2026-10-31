@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
+import posixpath
 
 HERE = Path(__file__).resolve().parent
 VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'wbr'}
@@ -26,8 +27,14 @@ READ_STYLE = '''
 .public-document table{font-size:16px;max-width:100%}
 .public-document img,.public-document svg{max-width:100%;height:auto}
 .public-document a:focus-visible,.public-document summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}
+.document-bar{display:flex;align-items:center;gap:16px;background:#faf9f5;border-bottom:1px solid #d8dfd8;padding:8px 16px;font:16px/1.5 system-ui,sans-serif}
+.document-bar a{color:#336d57;min-height:44px;display:inline-flex;align-items:center;flex:none}
+.document-bar span{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.public-document .doc-crumbs{font-size:14px;margin:16px 0;text-align:left}
 @media(max-width:600px){
 body:has(.public-document){padding:20px 16px}
+body:has(.document-bar){padding-top:88px}
+.document-bar{position:fixed;inset:0 0 auto;z-index:20;min-height:60px;box-sizing:border-box}
 .public-document h1{font-size:28px}.public-document h2{font-size:23px}
 .public-document .tbl{overflow:visible}
 .public-document table[data-mobile-cards],.public-document table[data-mobile-cards] tbody{display:block;width:100%}
@@ -36,6 +43,7 @@ body:has(.public-document){padding:20px 16px}
 .public-document table[data-mobile-cards] td{display:grid;grid-template-columns:minmax(0,1fr);width:auto;max-width:100%;padding:8px;border:0;font-size:16px;white-space:normal}
 .public-document table[data-mobile-cards] td::before{content:attr(data-label);font-weight:600;font-size:14px;color:#607066}
 }
+@media print{.document-bar,.reading-summary,.related-links,.source-codes,.reading-details>summary{display:none}.reading-details::details-content{display:contents}.public-document{max-width:none}}
 '''
 
 
@@ -251,7 +259,12 @@ def related_links(main, settings):
 def public_html(content, path, title=None):
     """Limpa só a cópia publicada; atributos/URLs conservam destinos e âncoras."""
     tree = Tree(content).root
-    main = next(tree.find('main'), None) or next(tree.find('body'), tree)
+    main = next(tree.find('main'), None) or next(tree.find('body'), None)
+    if main is None:
+        parent = next(tree.find('html'), tree)
+        meta = [n for n in parent.children if isinstance(n, Node) and n.tag in {'head', 'meta', 'title', 'style', 'link'}]
+        main = Node('main', {}, [n for n in parent.children if n not in meta])
+        parent.children = meta+[main]
     settings = config()
     entry = policy(path)
     title = entry.get('titulo_simples') or title
@@ -276,6 +289,8 @@ def public_html(content, path, title=None):
                 children.append(prose(child))
                 continue
             if child.tag in {'script', 'pre'}:
+                continue
+            if 'crumb' in child.attrs.get('class', ''):
                 continue
             if child.tag == 'style':
                 children.append(child)
@@ -323,4 +338,11 @@ def public_html(content, path, title=None):
         if extra_links:
             source.append(extra_links)
         main.children.append(Node('details', {'class': 'source-codes'}, source))
+    if settings['recursos']['navegacao']:
+        # O mesmo caminho é reescrito pelo pacote para o HTML autônomo.
+        home = posixpath.relpath('index.html', posixpath.dirname('docs/'+path))
+        section = 'Para ler' if entry['publico']=='leitura' else 'Arquivo técnico'
+        main.children.insert(0, Node('p', {'class': 'doc-crumbs'}, [Node('a', {'href': home+'?aba=documentos'}, ['Documentos']), ' › '+section]))
+        bar = Node('nav', {'class': 'document-bar', 'aria-label': 'Voltar'}, [Node('a', {'href': home}, ['← Voltar ao site']), Node('span', {}, [section])])
+        main.children.insert(0, bar)
     return '<!doctype html>'+tree.html()

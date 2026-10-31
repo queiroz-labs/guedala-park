@@ -64,7 +64,7 @@ class DocumentLibraryTests(unittest.TestCase):
                 links=Links();links.feed(content)
                 for href in links.links:
                     parsed=urlsplit(unquote(href))
-                    if href==HOME or not parsed.path:continue
+                    if href in {HOME,HOME.split('?')[0]} or not parsed.path:continue
                     file=target/posixpath.normpath(posixpath.join(posixpath.dirname(source),parsed.path))
                     self.assertTrue(file.is_file(),(source,href))
             sala=(target/'biblioteca/sala.html').read_text(encoding='utf-8')

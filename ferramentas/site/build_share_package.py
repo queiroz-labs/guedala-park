@@ -50,6 +50,8 @@ def package_payload(release):
  def html_links(src,content):
   def link(m):
    attr,delimiter,url=m.group(1,2,3);parsed=urlsplit(unquote(url))
+   if attr=='href' and parsed.path==posixpath.relpath('index.html',posixpath.dirname('docs/'+src)):
+    return attr+'='+delimiter+quote(posixpath.relpath(SITE,posixpath.dirname(src)),safe='/')+('?'+parsed.query if parsed.query else '')+delimiter
    if src in docs.GENERATED_PAGES and url==LIBRARY_HOME:
     return attr+'='+delimiter+quote(posixpath.relpath(SITE,posixpath.dirname(src)),safe='/')+'?aba=documentos'+delimiter
    if parsed.scheme in ['data','mailto','tel']or url.startswith('#')or not url:return m[0]
@@ -68,6 +70,8 @@ def package_payload(release):
  for p in list(payload):
   if p.endswith('.html'):
    content=payload[p].decode('utf-8-sig')
+   if p!=SITE and not p.endswith('.md.html'):
+    content=public_html(content,p)
    if p==SITE:
     info=dict(root='../../',contentFiles=list(payload),files=list(payload)+['COMECE_AQUI.html','manifest.json'],fileCount=len(payload)+2,cadPath=release['cadPath'],packageRevision=release['packageRevision'])
     content=content.replace('<head>','<head><script>globalThis.GUEDALA_PACKAGE='+json.dumps(info,ensure_ascii=False,separators=(',',':'))+';</script>',1)

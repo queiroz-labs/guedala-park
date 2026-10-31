@@ -330,8 +330,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
             if document and not src.startswith('06_Entregas/'):
                 content = document_intro(content, document)
             content=plain_html(content)
-            if source.suffix=='.md' or not src.startswith('06_Entregas/'):
-                content=public_html(content,src)
+            content=public_html(content,src)
             dest.write_text(content,encoding='utf-8')
         else: shutil.copyfile(source,dest)
         published.append(dst)

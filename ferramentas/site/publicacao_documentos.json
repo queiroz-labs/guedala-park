@@ -11,7 +11,7 @@
     "resumo": true,
     "recolher": true,
     "relacionados": true,
-    "navegacao": false
+    "navegacao": true
   },
   "moveis": {
     "P01": "Guarda-roupa",
