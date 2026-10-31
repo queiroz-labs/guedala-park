@@ -7,9 +7,10 @@ import re
 from collections import defaultdict
 from html import escape
 from urllib.parse import quote
+from publication import config as publication_config, policy
 
 HOME='../../index.html?aba=documentos'
-PUBLIC_IMOVEL={'07_Imovel/Medidas_e_impactos.csv','07_Imovel/Roteiro_dia_das_chaves_R01.md','07_Imovel/Checklist_vistoria_dia_das_chaves.md'}
+PUBLIC_IMOVEL={'07_Imovel/README.md','07_Imovel/Medidas_e_impactos.csv','07_Imovel/Roteiro_dia_das_chaves_R01.md','07_Imovel/Checklist_vistoria_dia_das_chaves.md'}
 STYLE='''.doc-library{max-width:960px}.doc-library h1{font:38px/1.15 Georgia,serif;text-wrap:balance}.doc-library h2{font:25px/1.2 Georgia,serif}.doc-library .eyebrow{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#66726c}.doc-library nav{display:flex;flex-wrap:wrap;gap:8px}.doc-library nav a{padding:9px 13px;border:1px solid #d8dfd8;border-radius:8px}.doc-library .doc-links{list-style:none;padding:0}.doc-library .doc-links li{padding:12px 0;border-bottom:1px solid #d8dfd8}.doc-library a{overflow-wrap:anywhere;text-underline-offset:4px}.doc-library details>summary{cursor:pointer;padding:12px 0;min-height:24px}.doc-library a:focus-visible,.doc-library summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}.doc-library .doc-status{display:inline-block;font-size:12px;background:#edf1e9;padding:4px 10px;border-radius:20px}.doc-library section{scroll-margin-top:20px}.doc-library .doc-crumbs{font-size:14px;color:#66726c;margin-bottom:18px}@media(max-width:600px){body{padding:24px 18px}.doc-library h1{font-size:30px}}'''
 
 
@@ -38,8 +39,7 @@ def selected_sources(release,study):
     """A mesma seleção alimenta o pacote offline, sem incluir pastas por recursão."""
     text=(study/'src/workshop-docs.js').read_text(encoding='utf-8')
     docs=json.loads(re.search(r'const WORKSHOP_DOCS = (.*);\n',text)[1])
-    selected=selected_ids(release)
-    return list(dict.fromkeys(d['path'] for d in docs if d['id'] in selected and d['id']!='pacote-compartilhar' and d.get('path') and not d.get('generated')))
+    return list(dict.fromkeys(d['path'] for d in docs if not d.get('internal') and d['id']!='pacote-compartilhar' and d.get('available') and d.get('path') and not d.get('generated')))
 
 
 def configure(catalog,release,fabrication,root,page):
@@ -104,6 +104,23 @@ def configure(catalog,release,fabrication,root,page):
             if card.get('modules'):terms.extend(f['name']+' '+code for code,f in fabrication.items());terms.extend(byid[d]['title']+' '+d for ds in config['moduleStudies'].values() for d in ds)
             public['searchTerms']=' '.join(terms)
         catalog.append(public)
+    # A curadoria é dado, não uma nova cópia dos documentos de origem.
+    bypath={d.get('path'):d for d in catalog}
+    for index,entry in enumerate(publication_config()['documentos']):
+        path=entry['path']
+        if path not in bypath and entry['publico']!='oculto' and (root/path).is_file():
+            d=dict(id='leitura-'+str(index),path=path,title=entry['titulo_simples'],summary='Consulte as escolhas e as conferências deste assunto.',category='Consulta',rooms=['all'],status='Atual',available=True)
+            catalog.append(d);bypath[path]=d
+    seen=set()
+    for d in catalog:
+        path=d.get('path');entry=policy(path)
+        hidden_doc=d['id'] in hidden or d['id']=='pacote-compartilhar' or entry['publico']=='oculto' or not path
+        # IDs antigos continuam válidos; um destino aparece uma vez na lista.
+        d['publicSection']='oculto' if hidden_doc or path in seen else entry['publico']
+        d['internal']=d['publicSection']=='oculto'
+        if not d['internal']:
+            seen.add(path)
+            if entry.get('titulo_simples'):d['title']=entry['titulo_simples']
     rows=[]
     for d in original:
         did=d['id']

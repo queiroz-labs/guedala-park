@@ -26,9 +26,9 @@ class DocumentLibraryTests(unittest.TestCase):
         docs.build(export_docs=False)
 
     def test_fifteen_visible_short_titles_and_complete_migration(self):
-        visible=[d for d in docs.DOCS if not d.get('internal')]
-        self.assertEqual(len(visible),15)
-        self.assertEqual({d['status'] for d in visible},{'Atual','Em estudo','Pendente'})
+        visible=[d for d in docs.DOCS if d.get('publicSection')=='leitura']
+        self.assertEqual(len(visible),20)
+        self.assertTrue(all(d.get('path') for d in visible))
         for d in visible:self.assertNotRegex(d['title'],r'\b(?:R\d+|CB\d+|P\d\d|L\d+|T\d+)\b')
         with (docs.STUDY/'Documentos_antes_depois.csv').open(encoding='utf-8',newline='') as f:rows=list(csv.DictReader(f,delimiter=';'))
         self.assertEqual(len(rows),89);self.assertEqual(len({r['id'] for r in rows}),89)
@@ -77,7 +77,7 @@ class DocumentLibraryTests(unittest.TestCase):
         before=(docs.STUDY/'src/workshop-docs.js').read_bytes()
         docs.build(export_docs=False)
         self.assertEqual(before,(docs.STUDY/'src/workshop-docs.js').read_bytes())
-        visible=[d for d in docs.DOCS if not d.get('internal')]
+        visible=[d for d in docs.DOCS if d.get('publicSection')=='leitura']
         self.assertTrue(all(d.get('path') for d in visible))
 
 

@@ -6,6 +6,7 @@ import hashlib,io,json,posixpath,re,zipfile
 from current_release import ROOT,STUDY,load_release,validate_sources,normalized_payload,canonical_source
 from plain_language import plain_html
 from document_library import selected_sources,PUBLIC_IMOVEL,HOME as LIBRARY_HOME
+from publication import clean_markdown,public_html,policy
 FBASE='06_Entregas/Fichas_fabricacao/'
 PBASE='06_Entregas/Planta_cotada/'
 BATH='03_Ambientes/Banheiro/Fechamento_pre_entrega/'
@@ -40,9 +41,9 @@ def package_payload(release):
  docs.build(export_docs=False)
  paths=source_paths(release);raw={p:(ROOT/p).read_bytes()for p in paths};payload={p:normalized_payload(p,b)for p,b in raw.items()};source_hash={p:hashlib.sha256(b).hexdigest()for p,b in raw.items()};canonical_hash={p:hashlib.sha256(canonical_source(p,b)).hexdigest()for p,b in raw.items()};source_path={p:p for p in paths}
  for p in paths:
-  if p.endswith('.md'):
-   payload[p+'.html']=page(Path(p).stem,markdown(payload[p].decode('utf-8-sig'))).encode('utf8');source_path[p+'.html']=p
- mapping={p:p+'.html'if p.endswith('.md')else p for p in paths}
+  if p.endswith('.md') and policy(p)['publico']!='oculto':
+   payload[p+'.html']=public_html(page(Path(p).stem,markdown(clean_markdown(payload[p].decode('utf-8-sig')))),p).encode('utf8');source_path[p+'.html']=p
+ mapping={p:p+'.html'if p.endswith('.md') and policy(p)['publico']!='oculto' else p for p in paths}
  payload.update({p:content.encode('utf8') for p,content in docs.GENERATED_PAGES.items()})
  mapping.update({p:p for p in docs.GENERATED_PAGES})
  omissions=[];local_links=[];external_links=[]
