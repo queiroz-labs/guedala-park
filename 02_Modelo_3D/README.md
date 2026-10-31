@@ -89,7 +89,7 @@ R52, base e estudo R02 ficaram com os mesmos hashes. A verificação completa re
 
 ## Abrir e salvar com segurança
 
-- Abrir: `powershell -File 02_Modelo_3D/Abrir_no_FreeCAD.ps1`; detecta a versão instalada mais recente.
+- Abrir: `powershell -File 02_Modelo_3D/Abrir_no_FreeCAD.ps1`: candidato piso/rodapé, se da base vigente; `-Vigente`: oficial. FreeCAD mais novo instalado.
 - **Salvar só pela interface gráfica.** O `FreeCADCmd` perde o `GuiDocument.xml`, onde ficam cores e visibilidade (o verificador acusa).
 - Para estudar uma alteração, grave **outro arquivo fora do projeto** e só traga para cá o que Elias aprovar. Não sobrescreva o vigente para consultar.
 - Prove que nada mudou sem querer comparando assinatura geométrica (volume, área, faces, vértices, caixa, centro de massa, posição) e não `Shape.hashCode()`, que muda a cada recálculo.

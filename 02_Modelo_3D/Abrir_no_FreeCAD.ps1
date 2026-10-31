@@ -1,3 +1,5 @@
+param([switch]$Vigente)
+
 $ErrorActionPreference = 'Stop'
 # Compara versões numericamente: 1.1.10 é mais nova que 1.1.4.
 $locais = @(
@@ -23,11 +25,32 @@ $exePath = $instalacao.Executavel
 
 # Pasta do script; se as linhas forem coladas no console ($PSScriptRoot vazio), usa o caminho do projeto.
 $raiz = if ($PSScriptRoot) { $PSScriptRoot } else { 'C:\Users\Elias\Documents\PROJETOS\Guedala park\guedala-park\02_Modelo_3D' }
-# Modelo vigente: R54, ao lado deste script. Alterações e condições em README.md desta pasta.
-$modeloPath = Join-Path $raiz 'Guedala_Park_R54_Berlin.FCStd'
-if (-not (Test-Path -LiteralPath $modeloPath)) { throw 'Modelo R54 não encontrado. Consulte o menu README.md para localizar a versão atual.' }
+$repositorio = Split-Path -Parent $raiz
+$releasePath = Join-Path $repositorio 'ferramentas\site\current_release.json'
+$release = Get-Content -LiteralPath $releasePath -Raw -Encoding UTF8 | ConvertFrom-Json
+$modeloPath = Join-Path $repositorio $release.cadPath
+$rotulo = "Vigente $($release.cadRevision)"
+
+# Candidato conhecido para revisão; nunca escolhe outro FCStd apenas pela data.
+$pastaCandidato = Join-Path (Split-Path -Parent $repositorio) 'outputs\Piso_rodape_candidato'
+$candidatoPath = Join-Path $pastaCandidato 'Guedala_Park_Piso_rodape_candidato.FCStd'
+$composicaoPath = Join-Path $pastaCandidato 'Composicao.json'
+if (-not $Vigente) {
+    if ((Test-Path -LiteralPath $candidatoPath -PathType Leaf) -and (Test-Path -LiteralPath $composicaoPath -PathType Leaf)) {
+        $composicao = Get-Content -LiteralPath $composicaoPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        if ($composicao.source_sha256 -eq $release.cadSHA256) {
+            $modeloPath = $candidatoPath
+            $rotulo = 'Candidato piso e rodape - aprovacao pendente'
+        } else {
+            Write-Warning 'Candidato de uma base anterior; abrindo o modelo vigente.'
+        }
+    } else {
+        Write-Warning 'Candidato piso/rodape indisponivel; abrindo o modelo vigente.'
+    }
+}
+if (-not (Test-Path -LiteralPath $modeloPath -PathType Leaf)) { throw "Modelo nao encontrado: $modeloPath" }
 $modelo = Get-Item -LiteralPath $modeloPath
 
-Write-Host "Abrindo $($modelo.FullName)"
+Write-Host "Abrindo ${rotulo}: $($modelo.FullName)"
 Write-Host "FreeCAD $($instalacao.Versao): $exePath"
 Start-Process -FilePath $exePath -WorkingDirectory (Split-Path -Parent $exePath) -WindowStyle Normal -ArgumentList ('"' + $modelo.FullName + '"')
