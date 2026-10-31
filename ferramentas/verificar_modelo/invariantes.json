@@ -1,11 +1,11 @@
 {
  "_leia_me": "Invariantes do modelo FreeCAD: fatos documentados que nenhuma alteracao pode quebrar. Conferidas por verificar_modelo.py --completo em coordenadas GLOBAIS (mm). Mudar uma regra so com decisao de Elias, no mesmo commit que o modelo e o relatorio de mudanca.",
  "envelope": {
-  "descricao": "Apartamento: caixa das paredes inteiras (ParedesInteiras). Nenhum objeto visivel novo pode ficar fora dela.",
+  "descricao": "Apartamento: caixa das paredes inteiras (ParedesInteiras), mais a laje de piso de 50 mm abaixo de Z=0 (Elias, 30/10/2026: ajustar a regra para os pisos novos). Nenhum objeto visivel novo pode ficar fora dela.",
   "caixa": [
    -100,
    -100,
-   0,
+   -50,
    7500,
    7100,
    2570

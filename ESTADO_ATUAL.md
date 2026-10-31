@@ -108,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Piso/rodapé:** [candidato externo](02_Modelo_3D/README.md#candidato-piso-e-rodapé): 3 pisos, rodapé 80/15 mm nominal; 106 cenários; bloqueado pelo envelope Z. R54/base intactos.
+**Piso/rodapé:** [candidato externo](02_Modelo_3D/README.md#candidato-piso-e-rodapé): 3 pisos, rodapé 80/15 mm nominal; 106 cenários; completo OK; aprovação pendente. R54/base intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

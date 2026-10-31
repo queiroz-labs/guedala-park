@@ -1,10 +1,8 @@
 # Relatório de mudança do modelo
 
-Gerado por `verificar_modelo.py` em 30/10/2026 23:41. Revisão `Candidato externo: Guedala_Park_Piso_rodape_candidato`. SHA256 `4a2996ee63dd` → `4800ce62941b`.
+Gerado por `verificar_modelo.py` em 31/10/2026 00:23. Revisão `Candidato externo: Guedala_Park_Piso_rodape_candidato`. SHA256 `4a2996ee63dd` → `4800ce62941b`.
 
 **Aprovação de Elias:** PENDENTE: nada daqui vale sem a decisão de Elias
-
-**Resultado completo: REPROVADO.** Único erro: cinco pisos novos em Z −50..0 mm fora do envelope iniciado em Z=0, tolerância 1 mm. A base já registra os pisos antigos nessa mesma faixa negativa; a guarda admite somente os nomes anteriormente fora. Não houve alteração de regra/base ou promoção do candidato.
 
 ## Resumo
 
@@ -96,38 +94,8 @@ Gerado por `verificar_modelo.py` em 30/10/2026 23:41. Revisão `Candidato extern
 - `Peca007`: visível → oculto
 - `Peca008`: visível → oculto
 
-## Objetos visíveis novos fora do apartamento (5)
-
-- `Banheiro_Travertino_Reale_Greige`
-- `Lavanderia_Iseo_Marfim`
-- `Soleira_banheiro`
-- `Soleira_cozinha_lavanderia`
-- `Vinilico_continuo`
-
 ## Como usar
 
 1. Leia as seções acima. Cada mudança listada foi pedida e é a esperada?
 2. Só com a aprovação dele: `python ferramentas/verificar_modelo/verificar_modelo.py --completo --atualizar-base --aprovado-por "Elias, dd/mm/aaaa: o que aprovou"`.
 3. Commite a base, este relatório, `current_release.json` (SHA) e o `ESTADO_ATUAL.md` juntos.
-
-## Escopo, preservação e aceite do candidato
-
-Arquivo externo: `../outputs/Piso_rodape_candidato/Guedala_Park_Piso_rodape_candidato.FCStd`. SHA256 `4800ce62941b35463054d5a49fea19a4348280d93101258b8049ba241b863b33`. Composição na GUI: R54 original → `modelar_pisos.FCMacro` → `modelar_rodape.FCMacro`; um arquivo, sem R55 verde. R54, base, release e R55 conservam os hashes registrados em `Composicao.json`, junto ao candidato.
-
-Pisos: nove antigos ocultos; cinco novos sólidos válidos (vinílico único, lavanderia, banheiro e duas soleiras), Z −50..0 mm. Grade 25 mm: **59.104 células; lista de células sem piso nem parede = []; sobreposições volumétricas = []**. Contatos das soleiras: 80.500/35.000 mm² por face, volume compartilhado zero. Reabertura nativa: 7839 expressões, iguais à GUI.
-
-Rodapé: 54 trechos, 35,41680 m, altura 80 mm; 15 mm nominal. Parâmetros independentes do grupo para preservar as expressões na reabertura. As 1.489 geometrias próprias R54 foram preservadas na etapa do piso; as 1.494 anteriores ao rodapé também. Sem movimento de objeto anterior. GuiDocument.xml presente. Os 12 agregados inválidos continuam informativos; nenhuma peça própria inválida. Os 106 cenários passaram, com restauração, e os quatro pares de pisos/soleiras refinados têm interseção volumétrica zero. Isso não elimina o bloqueio do envelope.
-
-Evidências externas: `Piso/Aceite_pisos.json`, `Piso/Assinaturas_geometricas.json`, `Rodape/Rodape.json`, `Rodape/Assinaturas_geometricas.json` e o retrato integral. Hash do aceite: `725d57e984dc2dfb070204a03c45bf98750cfb61b4bba734be17d2c951c7ab02`. Quantidades do site/orçamento e corte de paredes do site preservados. Dimensões e compras continuam nominais.
-
-## Perguntas para Elias
-
-1. Qual material ficará sob a folha do banheiro? O vinílico é hipótese visual.
-2. Qual produto/perfil e espessura de junta serão usados nas duas soleiras?
-3. Qual produto/espessura final do rodapé, e qual solução no banheiro, lavanderia e dentro do box? Os 15 mm e a referência branca são nominais.
-4. Como compatibilizar a exigência de sólidos entre Z −50 e 0 mm com o envelope iniciado em Z=0? Nenhum ajuste de geometria, identidade de objetos, regra ou base foi feito para contornar o bloqueio. É necessária uma decisão explícita antes de continuar o modelo.
-5. Após resolver o bloqueio e revisar o candidato, qual será a decisão sobre promoção e base, com citação datada para `--aprovado-por`? A base não foi alterada; o modo externo não permite atualizá-la.
-
-## Proposta separada de revisão conjunta
-
-R55 verde permanece inalterado, SHA256 `d1f74ac0dbd06f367360f086fe9ddcfa8f7b479b7fde18d1aae6ba0acabf298a`. Propor outra revisão, sem número reservado: reconstruir R54 → verde na janela → pisos → rodapé, compatibilizar a camada verde com os encontros e repetir o aceite e a inspeção completa. Essa composição adicional não foi executada nem promovida.
