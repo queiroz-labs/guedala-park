@@ -1,12 +1,12 @@
 # Modelo 3D (FreeCAD)
 
-Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base e arquivo vigente preservados; o relatório abaixo confere o candidato externo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
+Vigente: **R54**, [FCStd](Guedala_Park_R54_Berlin.FCStd), único permitido nesta pasta. Base/vigente preservados; estudos externos pendentes. [SHA/release](../ferramentas/site/current_release.json).
 
 ## Estudo de nível e vãos
 
-**Aprovação PENDENTE.** Pedido de Elias, 31/10/2026, nesta conversa: nível Z=0, altura nominal **2570 mm**, vãos por `Part::Cut`, somente em estudo externo. Esse parâmetro não substitui as alturas vigentes de 2600/2500 mm. Partida: cópia do **candidato de piso/rodapé da base atual**, preservando seus pisos e 54 trechos de rodapé. Verde da janela continua separado.
+**PENDENTE.** Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut` no estudo externo. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
 
-Arquivo salvo pelo comando de documento do FreeCAD MCP na instância gráfica: `%LOCALAPPDATA%/Temp/guedala_vaos_estudo/Composicao/Guedala_Park_Estudo_vaos.FCStd`. Evidências e script de reprodução ficam nessa pasta temporária; não são arquivos publicados.
+Salvo pela GUI/MCP: `%LOCALAPPDATA%/Temp/guedala_vaos_estudo/Composicao/Guedala_Park_Estudo_vaos.FCStd`. Evidências/script externos, sem publicação.
 
 ### Tabela dos envelopes nominais de corte
 
@@ -56,7 +56,7 @@ Cada vão tem um `App::Part`; cotas externas na tabela A. Prefixo das fontes ant
 
 Janelas brancas com vidro/peitoril. Quarto: persiana integrada, sem cortina externa ([Registro de 21/09/2026](../01_Programa_e_decisoes/Registro_de_decisoes.md), seção “Quarto — janela, madeira e cabeceira definidos”). Elias, 31/10/2026: “deixa a janela do quarto com a persiana 30% fechada”; 300/1000 mm de curso gráfico. Escritório: mesma persiana, [fonte do ambiente](../03_Ambientes/Escritorio/README.md) e confirmação de Elias, 31/10/2026; também 30%. Portas: batente/folha/soleira, controles preservados.
 
-**Nominal:** perfis 20 mm/vidro 6 mm gráficos; folhas derivadas do quadro, cores herdadas. Fabricante/material/perfis/mecanismo/arremates PENDENTES. Batentes banheiro/escritório recortados contra quatro pontas do rodapé; não detalham guarnição.
+**Nominal:** perfis 20 mm/vidro 6 mm, folhas do quadro/cores herdadas; especificação comercial PENDENTE. Batentes banheiro/escritório cortados contra quatro pontas do rodapé; sem guarnição.
 
 Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo` sem perda/sobreposição; banheiro reutilizado. Entrada +0,075 m² nominal; material/implantação e divergência 750/850 mm pendentes. Pisos/rodapés preservados. Suportes/corte intermediário ocultos e resultados com Olmo eliminam a sobreposição cinza ao navegar.
 
@@ -68,7 +68,7 @@ Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo`
 
 **D, aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia B: `%LOCALAPPDATA%/Temp/guedala_quadro_estudo/Guedala_Park_Estudo_quadro.FCStd`. **C adiada, sem forro.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Regenerar contornos se o piso mudar. Perímetro inclui passagens; não é rodapé.
 
-Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. O quadro não traz perímetro equivalente; a área privativa oficial usa outro critério.
+Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. Sem perímetro documental equivalente; área privativa usa outro critério.
 
 | Ambiente | CAD m² | Documento m² | Δ m² | Perímetro m |
 |---|---:|---:|---:|---:|
@@ -85,7 +85,7 @@ Critério: piso final intersectado pelas nove máscaras antigas; sobreposição 
 
 **Altura geométrica parede−piso: 2570 mm nos sete ambientes**, calculada do topo das paredes e Z do piso. É nominal da envoltória, sem teto acabado: documento 2600 mm (Δ−30); banheiro 2500 mm (Δ+70). Pé-direito real/forro continuam pendentes.
 
-Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Paredes, Esquadrias, Vidro, Portas, Peitoris e Rodape. Vínculo `Material_Quadro` nas peças; paleta RGB/transparências existentes registrada, sem aplicar novo acabamento. Materiais físicos/fabricantes pendentes; soleiras mantêm a aparência herdada.
+Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Paredes, Esquadrias, Vidro, Portas, Peitoris e Rodape. Vínculo `Material_Quadro` nas peças; paleta RGB/transparências existentes registrada, sem aplicar novo acabamento. Materiais/fabricantes pendentes; soleiras preservadas.
 
 | Ambiente (`Camera_<ambiente>_`) | Vistas salvas |
 |---|---|
@@ -97,7 +97,7 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 | Lavanderia | Planta, Canto_1..4 |
 | Banheiro | Planta, Canto_1..4 |
 
-36 registros em `Cameras_Ambientes`, com câmera Coin nativa, posição/alvo. Selecionar um registro e executar `Aplicar_camera.FCMacro`, junto ao estudo; apenas restaura a vista. Cantos 1..4: mínimo X/Y, máximo X/mínimo Y, máximo X/Y, mínimo X/máximo Y; posição livre mais próxima na região.
+36 câmeras Coin em `Cameras_Ambientes`: selecionar registro e executar `Aplicar_camera.FCMacro` externo. Cantos 1..4: minX/minY, maxX/minY, maxX/maxY, minX/maxY, posição livre próxima.
 
 **Completo OK:** 106 cenários/1157 pares, sem falha/colisão nova. Aparência preservada, render idêntico; 8049 expressões reabertas. **Δ sobre B: 57 novos / 189 alterados / 0 removidos**: 160 vínculos e 38 normalizações (9 em comum), incluindo um agregado BIM recalculado; nenhuma forma própria mudou. Detalhe externo: `Relatorio_quadro.md`.
 
@@ -107,9 +107,13 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 ## Auditoria de remocoes
 
-**PENDENTE.** Cópia E: `Guedala_Park_Estudo_auditado.FCStd` em `%LOCALAPPDATA%/Temp/guedala_limpeza_estudo/`, salva na GUI/MCP. Inventário prévio: **1905 candidatos, todos mantidos; 6180→6180, zero exclusões**. [Script](../ferramentas/estudos/auditar_remocoes_freecad.py): dependências, expressões, 41 planilhas, invariantes, movimentos, fichas R15 e site local; 771 arquivos/SHA.
+**Limpeza externa, aprovação/revisão PENDENTES.** Elias, 31/10/2026, nesta conversa: “1. limpeza real manda o prompt”, somente preparação antes de aprovar o relatório. Partida E auditada (6180 objetos); estudo salvo pela GUI/MCP em `%LOCALAPPDATA%/Temp/guedala_limpeza_real/Guedala_Park_Estudo_limpo.FCStd`.
 
-1775 candidatos constam da base; 20 protegidos por regras `oculto`/`existe`. 946 Origin têm vínculos nativos; 36 câmeras e o histórico continuam em uso. Categorias sobrepostas. Motivos/evidências: `Inventario_candidatos.csv`/`Inventario_antes.json`; `Relatorio_limpeza.md` externo. **Completo OK**, 106 cenários; R54/base/regras preservados.
+[Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): 1905 candidatos; **116 remoções / 1789 mantidos**, 6180→6064. `Plano_remocoes.json`/CSV externos: provas/motivos; `Relatorio_mudanca.md` externo lista todos os removidos e o comando de promoção **não executado**. Folhas antes dos contêineres, seis lotes; 8049 expressões preservadas. **Δ 0 novos/7 grupos alterados/116 removidos**; formas próprias/posições/aparência iguais. **Completo OK**, 106 cenários/1157 pares, sem falha.
+
+20 de `historicos_ocultos` usados/protegidos: **sem mudança de regra**. Origin/Point, 36 câmeras, QuadroAreas, materiais, BC43/banco/Minifix e operandos A/B preservados. R54/base/release/site e relatório oficial intactos. `--plano-remocoes <JSON externo>` só permite conferir exclusões previstas no candidato completo, com hashes/provas; proíbe atualizar base e dispensar movimentos. Sem plano, remoção continua erro. Promoção/revisão dependem de Elias; pacote futuro no relatório externo.
+
+CSV SHA256: `85cb66bd36f064432534814e45e2a6a13c6b1a12aa36ee5e7c22e0c8ac3ff85f`.
 
 ## Candidato piso e rodapé
 
@@ -121,7 +125,7 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 Reproduzir com `ferramentas/estudos/compor_piso_rodape.FCMacro` (`GP_REPO`, `GP_COMPOSICAO_DIR` externo vazio). Verificar com `--completo --relatorio --candidato <FCStd externo>`; esse modo não atualiza a base. Evidências completas junto ao candidato.
 
-**Proposta separada, sem número:** R54 → verde da janela → pisos → rodapé; compatibilizar encontros e repetir aceite/completo. O R55 verde permanece separado, inalterado e pendente.
+**Proposta separada, sem número:** R54 → verde da janela → pisos → rodapé; compatibilizar encontros e repetir aceite/completo. R55 verde separado/pendente.
 
 ## Histórico R53/R54 — 27/10/2026
 
@@ -159,14 +163,14 @@ Rápido: arquivo/cores/SHA/backups. Completo: [invariantes](../ferramentas/verif
 
 ## Movimentos e operação
 
-106 cenários de movimento conferidos (gavetas até 400/500, portas 45/86°, correr do banheiro, canto, cesto, banco, varal): [resumo](Verificacao_movimentos_R52.json) · [casos](Movimentos_R52.json) · [condições](Condicoes_operacao_R52.json). Abrir a gaveta do roupeiro com a folha fechada, ou o banco com as almofadas presentes, é contato esperado; faz parte da sequência de uso. Para portas e gavetas sem abrir o CAD, use `ferramentas/cinematica/consultar.py`.
+106 cenários de movimento conferidos (gavetas até 400/500, portas 45/86°, correr do banheiro, canto, cesto, banco, varal): [resumo](Verificacao_movimentos_R52.json) · [casos](Movimentos_R52.json) · [condições](Condicoes_operacao_R52.json). Abrir a gaveta do roupeiro com a folha fechada, ou o banco com as almofadas presentes, é contato esperado; faz parte da sequência de uso. Consulta sem abrir CAD: `ferramentas/cinematica/consultar.py`.
 
 ## Pendências técnicas
 
 Formato do fundo P01, divergência 100/300 mm do micro-ondas, interface guia–fundo P16, ferragens reais, ligações, suspensão, massa e estabilidade dos apoios e capacidade do banco. Os estudos ficam em [04_Moveis](../04_Moveis/README.md) e não estão incorporados ao modelo.
 
-As evidências citadas estão em [Componentes por assunto](Componentes/README.md). Scripts de origem ficam em `ferramentas/componentes/`. Material sem uso vigente é recuperável no Git e na tag `antes-reorganizacao`; estudos históricos não substituem o modelo vigente.
+As evidências citadas estão em [Componentes por assunto](Componentes/README.md). Scripts de origem ficam em `ferramentas/componentes/`. Acervo no Git/tag `antes-reorganizacao`; estudos não substituem o vigente.
 
 ## Arquivos desta pasta
 
-R52 e `Historico/` são evidências antigas; binários R45/R48 e contadores R50/R51 no Git. `Componentes/`: evidências por tema; scripts em `ferramentas/componentes/`.
+R52/`Historico/`: evidências; R45/R48/R50/R51 no Git. `Componentes/`: temas; scripts em `ferramentas/componentes/`.

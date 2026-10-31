@@ -209,7 +209,7 @@ def fora_do_envelope(retrato, env):
 
 # ---------------------------------------------------------------- comparacao
 
-def comparar(base, atual, inv):
+def comparar(base, atual, inv, remocoes_planejadas=frozenset()):
     """Compara retratos. Registra erros/avisos e devolve o detalhe das diferencas (para o relatorio)."""
     bo, ao = base['objetos'], atual['objetos']
     dif = {'removidos': sorted(set(bo) - set(ao)), 'novos': sorted(set(ao) - set(bo)),
@@ -230,8 +230,11 @@ def comparar(base, atual, inv):
         for n in sorted(set(ba) & set(aa)):
             if ba[n]['h'] != aa[n]['h']:
                 dif['aparencia'].append((n, ba[n], aa[n]))
-    if dif['removidos']:
-        erros.append('%d objetos removidos: %s' % (len(dif['removidos']), ', '.join(dif['removidos'][:15])))
+    inesperados = sorted(set(dif['removidos']) - remocoes_planejadas)
+    if inesperados:
+        erros.append('%d objetos removidos sem plano: %s' % (len(inesperados), ', '.join(inesperados[:15])))
+    if remocoes_planejadas:
+        avisos.append('%d exclusoes conferidas no plano externo; promocao/aprovacao PENDENTE' % len(remocoes_planejadas))
     if dif['novos']:
         avisos.append('%d objetos novos: %s' % (len(dif['novos']), ', '.join(dif['novos'][:15])))
     for rotulo, chave in (('geometria alterada', 'geometria'), ('posicao alterada', 'posicao'), ('visibilidade alterada', 'visibilidade'),
@@ -382,10 +385,66 @@ def validar_candidato(caminho, completo, atualizar):
     return cad
 
 
+def conferir_plano(caminho, cad, inv):
+    """Excecao de comparacao EXCLUSIVA do candidato; nunca autoriza gravar base.
+
+    Confere as provas congeladas, corpus, runtime, origem e conjunto exato dos IDs.
+    Nenhuma invariante e relaxada. Sem esta opcao, exclusoes continuam erro.
+    """
+    path = Path(caminho).resolve()
+    if path.is_relative_to(RAIZ):
+        raise ValueError('Plano deve ficar fora do repositorio')
+    plan = json.loads(path.read_text(encoding='utf-8'))
+    folder = path.parent
+    for filename, field in [('Inventario_antes.json', 'inventario_sha256'),
+                            ('Inventario_candidatos.csv', 'inventario_csv_sha256'),
+                            ('Corpus_conferido.json', 'corpus_sha256'),
+                            ('Dependencias_runtime.json', 'runtime_sha256')]:
+        if sha(folder / filename) != plan.get(field):
+            raise ValueError('Prova do plano mudou: ' + filename)
+    auditor = RAIZ / 'ferramentas/estudos/auditar_remocoes_freecad.py'
+    if sha(auditor) != plan.get('script_sha256'):
+        raise ValueError('Script auditor diverge do plano')
+    origem = Path(plan['modelo_origem']).resolve()
+    if origem == cad or origem.is_relative_to(RAIZ) or sha(origem) != plan['modelo_sha256']:
+        raise ValueError('Origem externa ausente, alterada ou igual ao destino')
+    corpus = json.loads((folder / 'Corpus_conferido.json').read_text(encoding='utf-8'))
+    root = Path(plan['repositorio_auditado'])
+    for row in corpus:
+        p = Path(row['arquivo'])
+        if p.is_absolute() or '..' in p.parts or sha(root / p) != row['sha256']:
+            raise ValueError('Corpus da prova mudou: ' + str(p))
+    inventory = json.loads((folder / 'Inventario_antes.json').read_text(encoding='utf-8'))
+    expected = plan['remover']
+    if (plan.get('schema') != 2 or not expected or len(set(expected)) != len(expected)
+            or inventory['erros_cobertura'] or expected != inventory['remocoes_provadas']):
+        raise ValueError('Plano vazio, duplicado, incompleto ou divergente do inventario')
+    proofs = {v['Name']: v for v in plan['provas']}
+    if set(proofs) != set(expected):
+        raise ValueError('Faltam provas individuais')
+    for n, row in proofs.items():
+        if (row['decisao'] != 'remocao_provada' or row['expressoes_proprias']
+                or row['uso_intrinseco'] or not row['aliases_verificados_para_exclusao']
+                or any(v['contagem'] for v in row['referencias'].values())):
+            raise ValueError('Objeto ainda em uso: ' + n)
+    def ids(fcstd):
+        import xml.etree.ElementTree as ET
+        with zipfile.ZipFile(fcstd) as z:
+            return {o.get('name') for o in ET.fromstring(z.read('Document.xml')).findall('./Objects/Object')}
+    before, after = ids(origem), ids(cad)
+    if before - after != set(expected) or after - before:
+        raise ValueError('Exclusoes efetivas diferem do plano ou ha objetos novos')
+    # As regras oficiais sao avaliadas integralmente. Propostas ficam separadas.
+    return frozenset(expected)
+
+
 def main():
     completo = '--completo' in sys.argv
     atualizar = '--atualizar-base' in sys.argv
     aprovacao = valor_arg('--aprovado-por')
+    if '--plano-remocoes' in sys.argv and ('--candidato' not in sys.argv or atualizar or not completo
+                                          or '--sem-movimentos' in sys.argv):
+        print('ERRO: --plano-remocoes exige candidato completo com movimentos e proibe atualizar base');sys.exit(1)
     rel, cad = rapido()
     protegidos={}
     if '--candidato' in sys.argv:
@@ -401,6 +460,12 @@ def main():
         rel=dict(rel,cadRevision='Candidato externo: '+cad.stem)
     if completo and cad.exists():
         inv = json.loads(INVARIANTES.read_text(encoding='utf-8'))
+        remocoes_planejadas = frozenset()
+        if '--plano-remocoes' in sys.argv:
+            try:
+                remocoes_planejadas = conferir_plano(valor_arg('--plano-remocoes'), cad, inv)
+            except (ValueError, OSError, KeyError, TypeError) as exc:
+                print('ERRO: plano de remocoes:', exc);sys.exit(1)
         casos = None if '--sem-movimentos' in sys.argv else json.loads(MOVIMENTOS.read_text(encoding='utf-8'))
         cache = Path(tempfile.gettempdir()) / 'gp_retrato_ultimo.json'
         retrato = None
@@ -423,7 +488,7 @@ def main():
             mudou_metodo = bool(base) and base.get('schema') != SCHEMA
             dif, batidas = None, []
             if base and not mudou_metodo:
-                dif = comparar(base, retrato, inv)
+                dif = comparar(base, retrato, inv, remocoes_planejadas)
                 batidas = refinar_colisoes(cad, dif)
             elif mudou_metodo:
                 avisos.append('A base e de um formato antigo (schema %s); sem comparacao detalhada. Rode --atualizar-base para migrar.' % base.get('schema', 1))

@@ -84,6 +84,8 @@ def main():
                     help='Dependencias exportadas pela instancia grafica, somente leitura')
     ap.add_argument('--saida', type=Path, required=True)
     ap.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[2])
+    ap.add_argument('--preparar-limpeza-real', action='store_true',
+                    help='Propoe exclusoes externas; base e regra historicos_ocultos ficam pendentes')
     args = ap.parse_args()
     repo, model, out = args.repo.resolve(), args.modelo.resolve(), args.saida.resolve()
     if model.is_relative_to(repo) or out.is_relative_to(repo):
@@ -102,7 +104,7 @@ def main():
         raise ValueError('Tipos do runtime divergem do arquivo salvo')
     references = defaultdict(lambda: defaultdict(list))
     counts = defaultdict(Counter)
-    manifest, coverage_errors = [], []
+    manifest, coverage_errors, corpus_text = [], [], {}
     labels = defaultdict(set)
     for n, o in objects.items():
         labels[o['label']].add(n)
@@ -174,7 +176,11 @@ def main():
     base_path = repo / '02_Modelo_3D/Base_verificacao.json.gz'
     rules = json.loads(inv_path.read_text(encoding='utf-8'))
     protected_rules = defaultdict(list)
+    proposed_historic = set()
     for i, rule in enumerate(rules['regras']):
+        if args.preparar_limpeza_real and rule.get('id') == 'historicos_ocultos' and rule.get('tipo') == 'oculto':
+            proposed_historic.update(rule['objetos'])
+            continue  # unica regra cuja lista pode ser proposta para reducao, sem gravar o oficial
         for path, value in valores_json(rule):
             scan(value, 'invariantes', {'arquivo': str(inv_path.relative_to(repo)),
                                       'regra': rule.get('id', i), 'campo': path})
@@ -214,6 +220,7 @@ def main():
             except UnicodeDecodeError:
                 text, encoding = raw.decode('cp1252'), 'cp1252'
             evidence = {'arquivo': str(p.relative_to(repo))}
+            corpus_text[p] = html.unescape(text)
             scan(text, category, evidence)
             if p.suffix.lower() == '.json':
                 # Decodes JSON escaping too; retains location evidence for IDs/labels.
@@ -227,6 +234,14 @@ def main():
 
     historical = descendentes(objects, 'Historico_Oculto')
     superseded = descendentes(objects, 'Legados_Etapas_A_B')
+    protected = set()
+    if args.preparar_limpeza_real:
+        for n, o in objects.items():
+            if (o['tipo'] in ('App::Origin', 'App::Point', 'App::Part') or
+                n.startswith(('Camera_', 'BC43_', 'BancoDuasTampasR43', 'BanheiroCorrerR43')) or
+                'minifix' in (n + ' ' + o['label']).lower() or
+                n in ('QuadroAreas', 'Materiais_Nomeados')):
+                protected |= descendentes(objects, n)
     candidates, removal = [], []
     categories = ['expressoes', 'invariantes', 'movimentos', 'fichas_R15', 'planilhas',
                   'site_fontes', 'site_build_local', 'codigo_apoio', 'textos_nativos',
@@ -250,8 +265,16 @@ def main():
             reasons.append('Name fora do alfabeto de identificadores auditado; exclusao nao provada')
         if protected_rules[n]:
             reasons.append('invariante oculto/existe: exige proposta de regra e aprovacao, inexistentes')
-        if n in base_names:
+        if n in base_names and not args.preparar_limpeza_real:
             reasons.append('ID consta da base; exclusao reprovaria --completo sem decisao sobre a base')
+        if n in protected:
+            reasons.append('protecao explicita: montagem/origem/camera/quadro/material/BC43/banco/Minifix')
+        if args.preparar_limpeza_real:
+            if o['visivel'] and 'Shape' in o['props']:
+                reasons.append('geometria visivel: remocao proibida')
+            functional_out = [v for v in runtime[n]['dependencias'] if v not in o['membros']]
+            if functional_out:
+                reasons.append('dependencias funcionais de saida: ' + ', '.join(functional_out))
         for category in categories:
             if counts[category][n]:
                 reasons.append(category + ': ' + str(counts[category][n]) + ' ocorrencia(s)')
@@ -260,7 +283,7 @@ def main():
         if sheet_cells[n]:
             reasons.append('planilha nativa com celulas/documentacao')
         reasons.extend(intrinsic[n])
-        if o['membros']:
+        if o['membros'] and not args.preparar_limpeza_real:
             reasons.append('container organiza ' + str(len(o['membros'])) + ' objetos; conteudo nao pode ser descartado')
         if coverage_errors:
             reasons.append('cobertura incompleta: nenhuma exclusao permitida')
@@ -270,7 +293,7 @@ def main():
             alias_checked = True
             alias = o['label']
             for p, category in corpus.items():
-                text = html.unescape(p.read_text(encoding='utf-8-sig', errors='replace'))
+                text = corpus_text.get(p, '')
                 if alias and alias != n and alias in text:
                     hit(category, n, {'arquivo': str(p.relative_to(repo)), 'referencia_label': alias})
                     reasons.append('referencia pelo Label em ' + str(p.relative_to(repo)))
@@ -280,13 +303,42 @@ def main():
         row = {'Name': n, 'Label': o['label'], 'tipo': o['tipo'], 'categorias': kinds,
                'visivel_salvo': o['visivel'], 'grupos_estruturais': structural[n],
                'vinculos_da_origem': origin_owners,
-               'base_protege': n in base_names, 'regras_oculto_existe': protected_rules[n],
+               'base_protege': n in base_names, 'regras_oculto_existe': protected_rules[n] +
+                    ([{'id': 'historicos_ocultos', 'tipo': 'oculto', 'proposta_permitida': True}]
+                     if n in proposed_historic else []),
                'expressoes_proprias': own_expr[n], 'uso_intrinseco': intrinsic[n],
                'referencias': {c: {'contagem': counts[c][n], 'amostras': references[c][n]}
                                for c in categories}, 'aliases_verificados_para_exclusao': alias_checked,
                'decisao': 'mantido' if reasons else 'remocao_provada',
-               'motivos': reasons or ['nenhuma referencia no corpus auditado; sem conteudo ou uso intrinseco']}
+               'motivos': reasons or ['nenhuma referencia funcional no corpus auditado; sem uso intrinseco; '
+                                      'membros de Group comum, se houver, tambem passam no plano']}
+        row['membros'] = o['membros']
+        row['InList'] = runtime[n]['dependentes']
+        row['OutList'] = runtime[n]['dependencias']
         candidates.append(row)
+
+    if args.preparar_limpeza_real:
+        # Uma lista Group comum pode perder apenas membros tambem aprovados.
+        # Ponto fixo preserva qualquer container com descendente mantido.
+        allowed = set(removal)
+        while True:
+            blocked = {v['Name'] for v in candidates if v['Name'] in allowed
+                       and any(n not in allowed for n in v['membros'])}
+            if not blocked:
+                break
+            allowed -= blocked
+        rows = {v['Name']: v for v in candidates}
+        for n in set(removal) - allowed:
+            rows[n]['decisao'] = 'mantido'
+            rows[n]['motivos'] = ['container ainda organiza objetos mantidos']
+        # Folhas antes dos pais. Nao ha dependencia funcional em nenhum aprovado.
+        removal = []
+        while allowed:
+            batch = sorted(n for n in allowed if not set(objects[n]['membros']) & allowed)
+            if not batch:
+                raise ValueError('Ciclo de containers no plano')
+            removal.extend(batch)
+            allowed -= set(batch)
 
     summary = {'schema': 1, 'gerado_utc': dt.datetime.now(dt.timezone.utc).isoformat(),
                'modelo_sha256': original_sha, 'objetos_antes': len(objects),
@@ -315,11 +367,28 @@ def main():
         raise RuntimeError('O modelo mudou durante a auditoria; inventario invalidado')
     gravar(out / 'Inventario_antes.json', summary)
     gravar(out / 'Corpus_conferido.json', manifest)
-    gravar(out / 'Plano_remocoes.json', {'modelo_sha256': original_sha, 'remover': removal,
-                                        'mudar_invariantes': False, 'mudar_base': False})
+    trimmed = json.loads(json.dumps(rules))
+    for rule in trimmed['regras']:
+        if rule.get('id') == 'historicos_ocultos' and rule.get('tipo') == 'oculto':
+            for key in ('objetos', 'nomes'):
+                if isinstance(rule.get(key), list):
+                    rule[key] = [n for n in rule[key] if n not in removal]
+    gravar(out / 'Invariantes_propostas.json', trimmed)
+    gravar(out / 'Plano_remocoes.json', {'schema': 2, 'modelo_sha256': original_sha,
+        'modelo_origem': str(model), 'repositorio_auditado': str(repo),
+        'inventario_sha256': sha(out / 'Inventario_antes.json'),
+        'inventario_csv_sha256': sha(out / 'Inventario_candidatos.csv') if (out / 'Inventario_candidatos.csv').exists() else None,
+        'script_sha256': sha(Path(__file__)), 'remover': removal,
+        'provas': [v for v in candidates if v['Name'] in removal],
+        'mantidos': [v for v in candidates if v['Name'] not in removal],
+        'aprovacao': 'PENDENTE', 'revisao': 'PENDENTE',
+        'mudar_invariantes': trimmed != rules, 'mudar_base': False})
     gravar(out / 'Invariantes_protegidas.json', {
-        'propostas_aplicadas': [], 'aprovacao_para_excluir': 'NAO SOLICITADA',
-        'objetos_mantidos': {n: rows for n, rows in protected_rules.items() if rows},
+        'propostas_aplicadas': [], 'aprovacao_para_excluir':
+            'PENDENTE para oficial; preparacao externa autorizada na conversa, 31/10/2026'
+            if args.preparar_limpeza_real else 'NAO SOLICITADA',
+        'objetos_mantidos': {v['Name']: v['regras_oculto_existe'] for v in candidates
+                            if v['regras_oculto_existe'] and v['Name'] not in removal},
         'criterio': 'Nenhuma regra alterada; candidatos protegidos permanecem no modelo.'})
     with (out / 'Inventario_candidatos.csv').open('w', encoding='utf-8-sig', newline='') as f:
         fields = ['Name', 'Label', 'tipo', 'categorias', 'decisao', 'motivos', 'base_protege',
@@ -329,6 +398,12 @@ def main():
         for v in candidates:
             w.writerow({k: json.dumps(v[k], ensure_ascii=False) if isinstance(v[k], (dict, list))
                         else v[k] for k in fields})
+    plan_path = out / 'Plano_remocoes.json'
+    plan = json.loads(plan_path.read_text(encoding='utf-8'))
+    plan['inventario_csv_sha256'] = sha(out / 'Inventario_candidatos.csv')
+    plan['corpus_sha256'] = sha(out / 'Corpus_conferido.json')
+    plan['runtime_sha256'] = sha(args.runtime)
+    gravar(plan_path, plan)
     printable = {k: v for k, v in summary.items() if k not in ('candidatos_detalhados', 'limites')}
     print(json.dumps(printable, ensure_ascii=True))
     return 1 if coverage_errors else 0
