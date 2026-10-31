@@ -191,7 +191,41 @@ const PROJECT={
         "banho"
       ],
       "status": "Escolhido",
-      "note": "Pedra natural. Padrão e cor variam por lote."
+      "note": "Pedra natural. Padrão e cor variam por lote.",
+      "measures": [
+        [
+          "Altura do topo (cozinha e lavanderia)",
+          "92 cm do piso · escolhida por Elias em 31/10/2026"
+        ],
+        [
+          "Espessura da pedra",
+          "2 cm · hipótese de estudo, ainda não escolhida"
+        ],
+        [
+          "Bancada da cozinha",
+          "186,9 × 63 cm (comprimento × profundidade)"
+        ],
+        [
+          "Bancada da lavanderia",
+          "133 × 75 cm (comprimento × profundidade)"
+        ],
+        [
+          "Tanque integrado",
+          "38 × 35 × 20 cm úteis"
+        ],
+        [
+          "Faixa na parede",
+          "10 cm acima do topo · referência visual"
+        ],
+        [
+          "Lavatório do banheiro",
+          "60 × 45 cm · topo a 76,5 cm (borda da cuba a 90 cm)"
+        ],
+        [
+          "Prateleira do box",
+          "28 × 10 × 2 cm · a 115 cm do piso"
+        ]
+      ]
     },
     {
       "id": "paint",
@@ -288,7 +322,13 @@ const PROJECT={
         "banho"
       ],
       "status": "Escolhido",
-      "note": "Biancogres PB-01 Satin 90 × 90 cm. PB-01B EXT no box."
+      "note": "Biancogres PB-01 Satin 90 × 90 cm. PB-01B EXT no box.",
+      "measures": [
+        [
+          "Peça PB-01 (piso)",
+          "90 × 90 cm"
+        ]
+      ]
     },
     {
       "id": "ivory",
@@ -299,7 +339,13 @@ const PROJECT={
         "lavanderia"
       ],
       "status": "Escolhido",
-      "note": "PL-01 · 90 × 90 cm. Entrega cerâmica. Este é acabamento de reforma."
+      "note": "PL-01 · 90 × 90 cm. Entrega cerâmica. Este é acabamento de reforma.",
+      "measures": [
+        [
+          "Peça PL-01 (piso)",
+          "90 × 90 cm"
+        ]
+      ]
     },
     {
       "id": "black",
@@ -814,7 +860,7 @@ const ITEMS=[
     "room": "lavanderia",
     "name": "Tanque integrado à pedra contínua",
     "kind": "kitchen",
-    "dimensions": "38 × 35 × 20 cm internos · bancada 75 cm P",
+    "dimensions": "38 × 35 × 20 cm internos · bancada 75 cm P e 92 cm A",
     "choice": "Aprovado para desenvolver",
     "measure": "Hidráulica e apoios em estudo",
     "material": "stone",

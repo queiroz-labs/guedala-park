@@ -35,7 +35,7 @@ Sentido de leitura: da geladeira para a lavanderia. Para os detalhes da bancada,
 
 Não sobra margem nesta soma para novas laterais externas ou ajustes. As reservas dos aparelhos não podem absorver painéis. A mudança para inox exige verificar a correspondência dos manuais com os códigos finais antes de executar.
 
-**Hipóteses de detalhamento:** pedra a 92 cm, profundidade de bancada de 61 cm e chapas de 18 mm. Apenas para estudar o corte, pedra de 2 cm e reserva inferior de 18 cm para gaveta baixa + estrutura. Espessura da pedra, estrutura, recuo para os pés e ferragens não estão escolhidos.
+**Hipóteses de detalhamento:** pedra a 92 cm (altura escolhida por Elias em 31/10/2026; [README](README.md)), profundidade de bancada de 61 cm e chapas de 18 mm. Apenas para estudar o corte, pedra de 2 cm e reserva inferior de 18 cm para gaveta baixa + estrutura. Espessura da pedra, estrutura, recuo para os pés e ferragens não estão escolhidos.
 
 Com duas laterais próprias de 18 mm em cada gabinete: gaveteiro com 58,3 cm entre laterais e pia com 56,4 cm. Dobradiças, corrediças e obstáculos reduzem o espaço de uso. Os 56,4 cm não são a passagem livre por uma única porta.
 

@@ -14,7 +14,7 @@ A redução da zona da pia de 75 para 60 cm só é promissora se o PE11X sair do
 
 ## Evidências e cálculos
 
-- Base: 352 cm longitudinais e 155 cm transversais da cozinha, conforme P01 e estudos anteriores. Bancada de 61 cm e reserva de entrada de 85 cm são hipóteses. Altura de pedra 92 cm provisória.
+- Base: 352 cm longitudinais e 155 cm transversais da cozinha, conforme P01 e estudos anteriores. Bancada de 61 cm e reserva de entrada de 85 cm são hipóteses. Altura de pedra 92 cm, escolhida por Elias em 31/10/2026 ([README da cozinha](README.md)).
 - Dora: desenho oficial consultado visualmente, página 2 da ficha da família 94017112FIP001, incluindo referência /113. Recorte indicado 39 × 33 cm, R5,5 cm. Envelope usado 43 × 37 cm inferido de dimensão nominal 40 × 34 e bordas de 1,5 cm; conferir gabarito atual antes de executar.
 - PE11X: 25 × 28,4 × 33 cm (largura × profundidade × altura), corpo sem folgas adicionais. Fabricante informa suportes para fixação em parede.
 - Lado a lado, os envelopes da cuba e PE11X somam 68 cm. Não cabem em 60 cm; em 75 sobram apenas 7 cm para margens e separação, ainda sem folgas validadas.

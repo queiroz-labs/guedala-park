@@ -67,7 +67,7 @@ Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.
 - **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
-- **Cozinha:** forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
+- **Cozinha:** pedra a 92 cm (Elias, 31/10/2026), forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
 - **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box ([R55 pendente](02_Modelo_3D/Verde_box_candidato.md)); teto/indireta 3000 K, espelho 4000 K, 3 comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 

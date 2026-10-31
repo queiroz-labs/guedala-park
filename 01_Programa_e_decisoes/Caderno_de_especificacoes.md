@@ -104,7 +104,7 @@ Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natur
 | Philips Walita RI9252/91 | Aprovado | 26,4 × 36 × 29,5 cm · referência | Permanece desligada sobre a pedra da lavanderia. |
 | Cafeteira Mondial existente | Existente | Modelo e dimensões adiados | Faz café por caneca, duas por vez. Será usada na lavanderia quando o varal estiver sem roupas. O desenho não reserva espaço para ela: modelo e medidas ficam para depois. Não usar junto com a air fryer. |
 | LG VC4 CV5012PC4 Inox Look | Aprovado | 60 × 62 × 85 cm até porta fechada | 127 V. Reserva mínima de 64 cm de largura e 85,5 cm de altura, mais nivelamento. |
-| Tanque integrado à pedra contínua | Aprovado para desenvolver | 38 × 35 × 20 cm internos · bancada 75 cm P | Pedra Branco Itaúnas contínua com a cozinha, com faixa de 10 cm na parede e arestas suavizadas. |
+| Tanque integrado à pedra contínua | Aprovado para desenvolver | 38 × 35 × 20 cm internos · bancada 75 cm P e 92 cm A | Pedra Branco Itaúnas contínua com a cozinha, com faixa de 10 cm na parede e arestas suavizadas. |
 | Superiores da lavanderia em Arenza | Aprovado | Faixa de 133 cm · módulos e alturas em estudo | Transição após o cooktop. |
 | Rinnai E21 GN REU-E211 FEH | Aprovado | 35 × 15,7 × 53 cm · referência a conferir | Gás natural. Aparelho e exaustão ainda a conferir. |
 | Varal vertical · quadro inteiro manual | Aprovado para desenvolver | Grelha 100 × 50 cm | Varal que sobe e desce por manivela, sem caixa fechada. |

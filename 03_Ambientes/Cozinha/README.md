@@ -31,6 +31,7 @@ O antigo `Fechamento/README.md` foi consolidado aqui. Comparações de aparelhos
 
 - **Ordem dos módulos:** [Ordem dos móveis](Ordem_dos_moveis.md). Profundidade de estudo 63 cm (2 cm de avanço, 61 cm livres para o forno); passagem nominal 92 cm. Gaveteiro 61,9 + pia 65 + cocção 60.
 - **Pia:** cuba Dora 40 BL R6 94017/113 e torneira Pingoo Apurema preta **atrás da cuba** (diretriz de 23/10). Faixa posterior de 110 mm. [Cuba, torneira e tábua](Cuba_torneira_e_tabua.md) · [conferência das torneiras](Conferencia_torneiras/Conferencia.md) · [layout da pia](Layout_da_pia_R02.md). Teto do conjunto R$ 1.500.
+- **Altura da pedra: 92 cm** (cozinha e lavanderia). Elias, 31/10/2026, nesta conversa: escolheu "92 cm", entre 92, 90 e 85 cm; coerente com a regra ergonômica de ~metade da altura do usuário + 5 cm (1,75 m → ~92 cm). Não há norma que fixe a altura de bancada em cozinha residencial; a NBR 9050 (75–85 cm) vale só para superfícies acessíveis. Espessura (2 cm de ensaio), forno, cooktop e torneira seguem pendentes de conferência.
 - **Pedra e parede:** Branco Itaúnas, faixa de 10 cm na parede até a lavanderia, borda reta com arestas suavizadas. Acima, pintura **Algodão Egípcio fosco** (também na lavanderia).
 - **Barra discreta** para o pano em uso perto da pia (aprovada se for discreta); panos limpos em caixa no C3.
 - **Escorredor:** Tramontina Mini Plurale Grafite 61537000 (27,8 × 19,9 × 12,6), usado junto à cuba e guardado seco no gabinete da pia.
