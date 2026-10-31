@@ -1,6 +1,6 @@
 # Gerador de pranchas
 
-**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+**Fonte vigente R55 (Elias, 31/10/2026, “ok eu aprovo”):** SHA e caminho de `Geometria.json`/`regras.json` re-fixados; envelopes não reexportados, pois o verificador do modelo acusou zero mudança de forma, posição e visibilidade. `exportar.py` ainda lê a árvore antiga (ambiente → módulo) e, na árvore `Moveis/Pxx`, daria 1035 envelopes em vez de 981: adaptar antes de reexportar.
 
 Fonte de campo: `07_Imovel/Medidas_e_impactos.csv`. Topologia e vínculos: `06_Entregas/Planta_cotada/Cotas.json`. O campo `valor_medido` vence o nominal; números exigem unidade. Vazio significa pendência, nunca zero.
 

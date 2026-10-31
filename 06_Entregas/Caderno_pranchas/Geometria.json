@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "units": "mm",
-  "cad_path": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
-  "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+  "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
+  "cad_sha256": "d5ed97df437b24c782f3b052739604d86e0cca3d14266d7fe396123c51058297",
   "method": "FreeCAD: envelopes globais de objetos visíveis; sem recálculo/gravação",
   "objects": [
     {

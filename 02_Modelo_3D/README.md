@@ -1,12 +1,10 @@
 # Modelo 3D (FreeCAD)
 
-Vigente: **R54**, [FCStd](Guedala_Park_R54_Berlin.FCStd), único permitido nesta pasta. Base/vigente preservados; estudos externos pendentes. [SHA/release](../ferramentas/site/current_release.json).
+Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd), único permitido nesta pasta. Elias, 31/10/2026, nesta conversa: “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”: limpeza (6028 objetos), árvore organizada, quadro de áreas, nível 2570 mm nominal e vãos. Pé-direito 2600/2500 mm continua o vigente do projeto. [Relatório](Relatorio_mudanca.md); geometria das 395 peças do site igual à do R54. [SHA/release](../ferramentas/site/current_release.json).
 
 ## Estudo de nível e vãos
 
-**PENDENTE.** Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut` no estudo externo. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
-
-Salvo pela GUI/MCP: `%LOCALAPPDATA%/Temp/guedala_vaos_estudo/Composicao/Guedala_Park_Estudo_vaos.FCStd`. Evidências/script externos, sem publicação.
+Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
 
 ### Tabela dos envelopes nominais de corte
 
@@ -107,7 +105,7 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 ## Auditoria de remocoes
 
-**Limpeza externa, aprovação/revisão PENDENTES.** Elias, 31/10/2026, nesta conversa: “1. limpeza real manda o prompt”, somente preparação antes de aprovar o relatório. Partida E auditada (6180 objetos); estudo salvo pela GUI/MCP em `%LOCALAPPDATA%/Temp/guedala_limpeza_real/Guedala_Park_Estudo_limpo.FCStd`.
+**Limpeza aprovada e promovida ao R55.** Elias, 31/10/2026, nesta conversa: “1. limpeza real manda o prompt”, somente preparação antes de aprovar o relatório. Partida E auditada (6180 objetos); estudo salvo pela GUI/MCP em `%LOCALAPPDATA%/Temp/guedala_limpeza_real/Guedala_Park_Estudo_limpo.FCStd`.
 
 [Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): lote 1, 116 remoções/1789 mantidos, 6180→6064; plano, CSV e relatório externos; promoção **não executada**. **Δ 0 novos/7 grupos alterados/116 removidos**. **Completo OK**, 106 cenários/1157 pares.
 

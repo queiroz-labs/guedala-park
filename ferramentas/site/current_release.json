@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "releaseDate": "2026-10-31",
-  "projectRevision": "Consulta de marcenaria · FreeCAD R54 · iluminação CB02",
+  "projectRevision": "Consulta de marcenaria · FreeCAD R55 · iluminação CB02",
   "projectDate": "27 outubro 2026",
-  "cadRevision": "R54",
-  "cadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
-  "cadSHA256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+  "cadRevision": "R55",
+  "cadPath": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
+  "cadSHA256": "d5ed97df437b24c782f3b052739604d86e0cca3d14266d7fe396123c51058297",
   "cadReadme": "02_Modelo_3D/README.md",
   "cadEvidence": [
     "Alteracoes_R53.json",

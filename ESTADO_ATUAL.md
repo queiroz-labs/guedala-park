@@ -16,7 +16,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | R54: pedestal Berlin; cadeira lateral +15 mm | [Modelo](02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
+| Modelo 3D | R55 (aprovado: Elias, 31/10/2026, “ok eu aprovo”): limpeza, árvore, nível e vãos; pedestal Berlin | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
 | Triagem geométrica | 0 inválidas/1.449 próprias (25/10); 12 contêineres | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
@@ -28,7 +28,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R54/R30; 3D segue R54 até aprovar vãos; banheiro atual na galeria de luz; pub. autorizada: Elias,31/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
+| Site/pacote do montador | R55/R30; 3D do site com medidas das pedras ao clicar; banheiro atual na galeria de luz; pub. autorizada: Elias,31/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
 
-**CAD externo:** [limpeza](02_Modelo_3D/README.md#auditoria-de-remocoes): 116+36 remoções (lote 2 liberado por Elias, 31/10/2026); 6028 objetos. Completo OK/106; aprovação/revisão PENDENTES. R54/base/regras intactos.
+**CAD:** R55 promovido (Elias, 31/10/2026, “ok eu aprovo”): [limpeza](02_Modelo_3D/README.md#auditoria-de-remocoes) 152 remoções, 6028 objetos; completo OK/106. Site local regenerado; publicação pendente de push.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
