@@ -37,7 +37,7 @@ T05, 26/10: [acesso de manutenção BC43](Conferencia_bancada_porta.md#t05--manu
 | Parede verde | **Duas paredes do box: fundo/chuveiro e janela** (Elias, 30/10/2026); Portobello Vivant Sauge Mate 7 ×24,4 | Amostra, paginação com a janela, quantidade e luz; a outra parede interna não fica verde |
 | Piso | **Biancogres Travertino Reale Greige**, referência 90 ×90; Satin fora e EXT dentro do box nos registros MAT-007/008 | Adequação técnica a cada área, amostras, paginação, caimentos, rejunte e quantidades |
 | Teto | **Branco** | Produto e código; forro é previsto na entrega, espaço interno/altura ainda não conferidos |
-| Box | **Vidro transparente, perfis pretos finos; de correr (1 folha fixa + 1 móvel), do piso ao teto (~2,50 m)** (Elias, 30/10/2026, no chat: “Correr, 1 folha fixa + 1 móvel” e “Do piso ao teto (~2,50 m)”) | Lado da folha, pé-direito real, vidro, ferragens, trilho, fixação no teto, vedação e RT |
+| Box | **Vidro transparente, perfis pretos finos; de correr (1 folha fixa + 1 móvel), do piso ao teto (~2,50 m)** (Elias, 30/10/2026, no chat: “Correr, 1 folha fixa + 1 móvel” e “Do piso ao teto (~2,50 m)”) | Folha móvel no lado do corredor, à frente do vaso (Elias, 30/10/2026). Falta pé-direito real (sem medida), vidro, ferragens, trilho, fixação no teto, vedação e RT |
 | Apoio no box | **Prateleira compacta em Branco Itaúnas**, sem nicho embutido | Quantidade, tamanho, altura, borda e fixação |
 | Vaso | **Celite VIP branco, kit 1977230012300**, caixa acoplada e assento PP com queda amortecida; nominal 59 P ×37,5 L ×80 A cm | Eixo do esgoto, afastamento real, conforto e instalação; substitui Elite |
 | Chuveiro | **Addra Livo Black Matte**, de parede, com desviador e duchinha de mão; BRS2003-BK / SKU 2193038; espalhador redondo 13,2 cm registrado anteriormente | Vazão/pressão e compatibilidade da instalação; modelo já escolhido em 09/09, não reabrir pesquisa sem pedido |
@@ -106,7 +106,7 @@ Mudanças que prevalecem: VIP substituiu Elite; duas paredes verdes (fundo e jan
 2. **Ducha higiênica e registros:** modelos/compatibilidade das bases, cotas de instalação e custo; lado esquerdo definido em 28/10/2026.
 3. **Medidas acabadas:** porta, enchimento, janela, esgoto, pontos e giro de uso. Dados indisponíveis ficam para vistoria/documentação técnica.
 4. **Pia:** desenho da Arion, compatibilidade com Slim/bancada/armário e teste de conforto das alturas.
-5. **Box:** de correr, piso ao teto (decidido); falta lado da folha, fixação no teto e instalação; prateleira.
+5. **Box:** de correr, piso ao teto (decidido); falta pé-direito real, fixação no teto e instalação; prateleira.
 6. **Marcenaria:** divisão interna, portas/gavetas, acesso hidráulico, materiais e medidas finais.
 7. **Luz e acabamentos:** projeto de maquiagem/ambiente, parede clara do box, rejunte, tinta e acessórios exatos.
 8. **Revisão visual e orçamento:** atualizar imagem realista, avaliar mudanças e cotar o conjunto. Não foi realizada compra ou publicação externa nesta consolidação.

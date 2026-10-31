@@ -3148,6 +3148,6 @@ Na sequência, Elias pediu estender o divisor e as prateleiras até o fundo e at
 
 **30/10/2026 — parede da janela do box também em verde:** Elias: “eu mudei minha opiniao sobre o azulejo verde no banheiro, ele esta só em uma parede da area do chuveiro, quero que esteja na parede da janela tbm, entendo q fica mais bonito”. Passam a ser **duas paredes verdes** no box (fundo/chuveiro e janela), em Portobello Vivant Sauge Mate; substitui a decisão de 18/09/2026, em que a parede da janela era clara. A outra parede interna do box segue clara. Pendências: paginação e recorte da janela, quantidade, orçamento e iluminação.
 
-**30/10/2026 — rodapé de 8 cm em todo o projeto:** Elias, 30/10/2026: “deixe o rodapé de todo meu projeto em 8cm”, “a medida real decidida por mim”. Substitui a referência de 7 cm. Pendências: produto, preço, espessura e modelo FreeCAD.
+**30/10/2026 — rodapé de 8 cm em todo o projeto:** Elias, 30/10/2026: “deixe o rodapé de todo meu projeto em 8cm”. Substitui a referência de 7 cm. Pendências: produto, preço, espessura e modelo FreeCAD.
 
-**30/10/2026 — box do banheiro de correr, do piso ao teto:** Elias, 30/10/2026, no chat: “Correr, 1 folha fixa + 1 móvel” e “Do piso ao teto (~2,50 m)”. A folha móvel não varre espaço; abertura útil ~50%. Pendências: lado da folha, pé-direito, fixação, ferragens e RT.
+**30/10/2026 — box do banheiro de correr, do piso ao teto:** Elias, 30/10/2026, no chat: “Correr, 1 folha fixa + 1 móvel” e “Do piso ao teto (~2,50 m)”. A folha móvel não varre espaço; abertura útil ~50%. Folha móvel no lado do corredor, à frente do vaso (Elias, 30/10/2026). Pendências: pé-direito (sem medida), fixação, ferragens e RT.
