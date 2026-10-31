@@ -29,14 +29,14 @@
   ],
   "globalNotice":"Tudo aqui é de projeto; medidas reais só depois das chaves",
   "tabDescriptions": {
-    "architect":"Resumo, etapas e responsáveis para revisão.",
+    "architect":"Resumo do projeto e atalhos para começar.",
     "model":"Desenho e fichas; movimentos simulados.",
     "mood":"Projeto por ambiente; conferir amostras.",
     "decisions":"Escolhas a conferir.",
-    "documents":"Fontes e fichas.",
+    "documents":"Documentos para ler e baixar.",
     "chaves":"Registro local das medidas de campo.",
     "obra":"Etapas e dependências da obra.",
-    "floorplan":"Cotas oficiais e reconstruções identificadas."
+    "floorplan":"Medidas do apartamento, cômodo por cômodo."
   },
   "disciplines": [
     {"id":"eletrica","title":"Elétrica · NBR 5410","text":"Pontos e cargas parciais registrados; circuitos, proteções e posições reais dependem do RT.","path":"03_Ambientes/Planta_pontos/README.md","owners":["RT"],"ownerSource":"03_Ambientes/Planta_pontos/README.md","ownerQuote":"RT confere pontos da construtora, quadro, circuitos","measurement":true},
@@ -401,31 +401,11 @@
       "target": "downloads-architect"
     }
   ],
-  "entryQuestions": [
-    {
-      "id": "comodos",
-      "title": "Onde vejo cada cômodo?",
-      "description": "Escolha o cômodo e veja os móveis em 3D.",
-      "shortcut": "Ver cômodos",
-      "tab": "model",
-      "room": "all",
-      "target": "scene"
-    },
-    {
-      "id": "pendencias",
-      "title": "Como sei o que ainda falta?",
-      "description": "Veja as escolhas que ainda faltam conferir.",
-      "shortcut": "Ver pendências",
-      "tab": "decisions",
-      "target": "decisions"
-    },
-    {
-      "id": "planta",
-      "title": "Onde está a planta com medidas?",
-      "description": "Abra a planta cotada.",
-      "shortcut": "Ver planta com medidas",
-      "tab": "floorplan",
-      "target": "floorplan"
-    }
-  ]
+  "entryPlan": {
+    "id": "planta",
+    "title": "Ver a planta com medidas",
+    "description": "Clique em um cômodo e veja as medidas.",
+    "tab": "floorplan",
+    "target": "floorplan"
+  }
 }

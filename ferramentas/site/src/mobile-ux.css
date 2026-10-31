@@ -58,7 +58,7 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 @media(max-width:760px){.room-quick{position:sticky;top:var(--mast-h,98px);z-index:5;background:var(--paper);padding-top:6px}}
 
 /* "Quem decide" fica fora do site por enquanto (dados e testes continuam no projeto). */
-.owner-badges,.status-owner-note,.arch-disciplines{display:none!important}
+.owner-badges,.status-owner-note,.arch-disciplines,.arch-page details.entry-more:not(.arch-progress){display:none!important}
 
 /* Lista de decisões em Cômodos: uma linha por item, nome à esquerda e situação à direita. */
 .mood-room ul.room-items>li{display:flex;align-items:center;gap:8px;padding:0 2px}
@@ -89,3 +89,9 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 @media(min-width:761px){.workspace{position:static}}
 /* Os blocos grudados (lista de ambientes) passam por trás do texto de rodapé em vez de por cima. */
 @media(min-width:761px){#model.active>.welcome{position:relative;z-index:3;background:var(--paper)}}
+
+/* Planta com medidas: botão de destaque na capa e dentro do 3D. */
+.entry-route.entry-plan{margin-top:12px;min-height:72px;background:#edf1e9}
+.viewbar .viewtools [data-tab="floorplan"]{background:var(--green);border-color:var(--green);color:#fff;font-weight:600;min-height:44px}
+.viewbar .viewtools [data-tab="floorplan"]:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.arch-page .entry-paths{margin-bottom:28px}

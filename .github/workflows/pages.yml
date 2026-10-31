@@ -44,6 +44,7 @@ jobs:
           GUEDALA_DOWNLOADS_SITE: ${{ runner.temp }}/guedala-pages
         run: |
           node ferramentas/site/test_architect_entry.cjs
+          node ferramentas/site/test_entry_targets.cjs
           node ferramentas/site/test_search.cjs
           node ferramentas/site/test_mobile_ux.cjs
           node ferramentas/site/test_navigation.cjs

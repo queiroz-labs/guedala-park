@@ -9,7 +9,7 @@
  }
  function render(where){
   let section=document.getElementById('downloads-'+where);
-  if(!section){section=document.createElement('details');section.id='downloads-'+where;section.className='downloads-centre';section.setAttribute('aria-labelledby','downloads-title-'+where);const before=document.querySelector(where==='architect'?'.arch-start':'.work-filters');before.before(section);}
+  if(!section){section=document.createElement('details');section.id='downloads-'+where;section.className='downloads-centre';section.setAttribute('aria-labelledby','downloads-title-'+where);const before=document.querySelector(where==='architect'?'.arch-progress':'.work-filters');before.before(section);}
   const all=expanded.has(where);
   const moreButton=rows.length>4?`<button type="button" class="downloads-more" aria-expanded="${all}" aria-controls="downloads-list-${where}">${all?'Mostrar menos':'Ver todos os '+rows.length+' arquivos'}</button>`:'';
   const content=globalThis.GUEDALA_PACKAGE?`<p>Esta cópia contém uma seleção. <a href="${e(GUEDALA_PACKAGE.root+'COMECE_AQUI.html')}">Abrir índice dos arquivos incluídos →</a></p>`:`<ul class="downloads-list">${rows.map((r,i)=>item(r,i,where,all)).join('')}</ul>${moreButton}`;

@@ -928,7 +928,7 @@ const ITEMS=[
     "measure": "Box e instalações em estudo",
     "material": "sage",
     "source": "BAN-003 / 18/09/2026",
-    "notes": "Ducha Livo BRS2003-BK / SKU2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. Uma única parede verde: fundo/chuveiro. Parede da janela clara. Vidro transparente com perfis pretos finos. Abertura, altura e medidas do box pendentes.",
+    "notes": "Ducha Livo BRS2003-BK / SKU2193038 escolhida, redonda de 13,2 cm, com desviador e duchinha. Duas paredes verdes no box: fundo/chuveiro e janela. Box de correr (uma folha fixa e uma móvel, do lado do corredor), do piso ao teto, vidro transparente com perfis pretos finos. Pé-direito real, fixação e ferragens pendentes.",
     "budget": "Teto do conjunto Livo: R$ 850, sem registros/instalação"
   },
   {
