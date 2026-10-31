@@ -118,6 +118,7 @@ def configure(catalog,release,fabrication,root,page):
         # IDs antigos continuam válidos; um destino aparece uma vez na lista.
         d['publicSection']='oculto' if hidden_doc or path in seen else entry['publico']
         d['internal']=d['publicSection']=='oculto'
+        d['readingOrder']=entry.get('ordem',999)
         if not d['internal']:
             seen.add(path)
             if entry.get('titulo_simples'):d['title']=entry['titulo_simples']

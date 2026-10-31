@@ -222,6 +222,32 @@ def fold_sections(main, limits):
     fold(main)
 
 
+def related_links(main, settings):
+    links = {}
+    def extract(node):
+        children = []
+        for child in node.children:
+            if isinstance(child, Node):
+                if child.tag == 'a' and child.attrs.get('href'):
+                    links.setdefault(child.attrs['href'], child.text().strip() or 'Documento relacionado')
+                    children.extend(child.children)
+                    continue
+                extract(child)
+            children.append(child)
+        node.children = children
+    extract(main)
+    readings = [d['path'] for d in settings['documentos'] if d['publico']=='leitura']
+    def priority(item):
+        url = item[0]
+        return 0 if any(url.endswith(p) or url.endswith(p+'.html') for p in readings) else 2 if url.startswith('http') else 1
+    rows = sorted(links.items(), key=priority)
+    def items(rows):
+        return Node('ul', {}, [Node('li', {}, [Node('a', {'href': href}, [label])]) for href, label in rows])
+    if rows:
+        main.children.append(Node('section', {'class': 'related-links'}, [Node('h2', {}, ['Relacionados']), items(rows[:5])]))
+    return items(rows[5:]) if len(rows)>5 else None
+
+
 def public_html(content, path, title=None):
     """Limpa só a cópia publicada; atributos/URLs conservam destinos e âncoras."""
     tree = Tree(content).root
@@ -271,6 +297,7 @@ def public_html(content, path, title=None):
         node.children = children
 
     clean(main)
+    extra_links = related_links(main, settings) if settings['recursos']['relacionados'] else None
     if title:
         h1 = next(main.find('h1'), None)
         if h1:
@@ -289,6 +316,11 @@ def public_html(content, path, title=None):
             style.children.append(READ_STYLE)
     if settings['recursos']['recolher']:
         fold_sections(main, settings['limites'])
-    if codes:
-        main.children.append(Node('details', {'class': 'source-codes'}, [Node('summary', {}, ['Fonte e códigos']), Node('p', {}, ['Códigos de referência do documento: '+', '.join(codes)+'.'])]))
+    if codes or extra_links:
+        source = [Node('summary', {}, ['Fonte e códigos'])]
+        if codes:
+            source.append(Node('ul', {}, [Node('li', {}, [code]) for code in codes]))
+        if extra_links:
+            source.append(extra_links)
+        main.children.append(Node('details', {'class': 'source-codes'}, source))
     return '<!doctype html>'+tree.html()

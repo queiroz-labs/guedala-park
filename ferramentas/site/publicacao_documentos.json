@@ -10,7 +10,7 @@
   "recursos": {
     "resumo": true,
     "recolher": true,
-    "relacionados": false,
+    "relacionados": true,
     "navegacao": false
   },
   "moveis": {
@@ -40,13 +40,15 @@
       "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
       "publico": "leitura",
       "titulo_simples": "Materiais e equipamentos",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 10
     },
     {
       "path": "01_Programa_e_decisoes/Perguntas_em_aberto/README.md",
       "publico": "leitura",
       "titulo_simples": "Perguntas que faltam responder",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 11
     },
     {
       "path": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
@@ -58,13 +60,15 @@
       "path": "01_Programa_e_decisoes/Pisos_e_rodapes.md",
       "publico": "leitura",
       "titulo_simples": "Pisos e rodapés",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 13
     },
     {
       "path": "01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md",
       "publico": "leitura",
       "titulo_simples": "Plano de reforma e responsável técnico",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 14
     },
     {
       "path": "01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md",
@@ -100,7 +104,8 @@
       "path": "03_Ambientes/Acabamentos/README.md",
       "publico": "leitura",
       "titulo_simples": "Acabamentos e quantidades",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 20
     },
     {
       "path": "03_Ambientes/Acustica/README.md",
@@ -142,7 +147,8 @@
       "path": "03_Ambientes/Banheiro/README.md",
       "publico": "leitura",
       "titulo_simples": "Banheiro",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 1
     },
     {
       "path": "03_Ambientes/Cozinha/Conferencia_torneiras/Conferencia.html",
@@ -172,7 +178,8 @@
       "path": "03_Ambientes/Cozinha/README.md",
       "publico": "leitura",
       "titulo_simples": "Cozinha",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 2
     },
     {
       "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
@@ -214,13 +221,15 @@
       "path": "03_Ambientes/Iluminacao/README.md",
       "publico": "leitura",
       "titulo_simples": "Iluminação do apartamento",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 39
     },
     {
       "path": "03_Ambientes/Lavanderia/README.md",
       "publico": "leitura",
       "titulo_simples": "Lavanderia",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 40
     },
     {
       "path": "03_Ambientes/Lavanderia/Varal.md",
@@ -232,7 +241,8 @@
       "path": "03_Ambientes/Planta_mobiliada/README.md",
       "publico": "leitura",
       "titulo_simples": "Planta mobiliada e vistas",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 42
     },
     {
       "path": "03_Ambientes/Planta_pontos/Quadro_cargas.md",
@@ -244,7 +254,8 @@
       "path": "03_Ambientes/Planta_pontos/README.md",
       "publico": "leitura",
       "titulo_simples": "Tomadas, água e gás",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 44
     },
     {
       "path": "03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md",
@@ -268,13 +279,15 @@
       "path": "03_Ambientes/Quarto_e_portas/README.md",
       "publico": "leitura",
       "titulo_simples": "Quarto",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 48
     },
     {
       "path": "03_Ambientes/Sala_e_jantar/README.md",
       "publico": "leitura",
       "titulo_simples": "Sala e jantar",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 49
     },
     {
       "path": "04_Moveis/Aereos_suspensao/README.md",
@@ -484,13 +497,15 @@
       "path": "05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md",
       "publico": "leitura",
       "titulo_simples": "Etapas da obra e compras",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 84
     },
     {
       "path": "05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md",
       "publico": "leitura",
       "titulo_simples": "Orçamento e cotações",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 4
     },
     {
       "path": "05_Orcamento_e_cronograma/Orcamento/Obra_e_pintura/Analise_obra.md",
@@ -526,7 +541,8 @@
       "path": "06_Entregas/Caderno_pranchas/index.html",
       "publico": "leitura",
       "titulo_simples": "Plantas e elevações em escala",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 91
     },
     {
       "path": "06_Entregas/Cotacao/README.md",
@@ -688,13 +704,15 @@
       "path": "06_Entregas/Planta_cotada/index.html",
       "publico": "leitura",
       "titulo_simples": "Planta com medidas",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 118
     },
     {
       "path": "07_Imovel/Checklist_vistoria_dia_das_chaves.md",
       "publico": "leitura",
       "titulo_simples": "Vistoria no dia das chaves",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 3
     },
     {
       "path": "07_Imovel/README.md",
@@ -706,7 +724,8 @@
       "path": "07_Imovel/Roteiro_dia_das_chaves_R01.md",
       "publico": "leitura",
       "titulo_simples": "O que medir no apartamento",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 121
     },
     {
       "path": "09_Referencias/Cortinas_estofados/Codigos_comerciais_2026-10-24.md",
@@ -742,7 +761,8 @@
       "path": "ESTADO_ATUAL.md",
       "publico": "leitura",
       "titulo_simples": "Visão geral do projeto",
-      "motivo": "Leitura inicial para conhecer o apartamento."
+      "motivo": "Leitura inicial para conhecer o apartamento.",
+      "ordem": 0
     },
     {
       "path": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",

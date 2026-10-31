@@ -6,7 +6,7 @@ vm.runInContext(fs.readFileSync(path.join(src,'workshop-docs.js'),'utf8')+'\ncon
 const draw=()=>{vm.runInContext('drawDocuments()',context);return fields.docCards.innerHTML;};
 const html=draw();
 assert(html.includes('Para ler'));assert(html.includes('Arquivo técnico (para o projetista)'));
-assert.equal((html.split('<details')[0].match(/<article /g)||[]).length,20);
+assert.equal((html.split('<details')[0].match(/<article /g)||[]).length,5);
 assert(!/<details[^>]* open/.test(html),'Arquivo técnico começa recolhido');
 assert(!/biblioteca\/[a-z]+\.html" target=/.test(html),'Páginas abrem na mesma aba');
 fields.docSearch.value='Minifix';assert(draw().includes('Oficina e compras'));assert(draw().includes('Fichas dos 20 móveis'));

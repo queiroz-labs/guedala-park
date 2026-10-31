@@ -6,7 +6,7 @@
  const input=document.getElementById('globalSearch'),results=document.getElementById('globalSearchResults'),clear=document.getElementById('globalSearchClear');
  const types={pending:'Pendência',choice:'Escolha',room:'Cômodo',module:'Móvel / ficha',document:'Documento',glossary:'Glossário',download:'Download'};
  const tabs={architect:'Comece aqui',model:'Apartamento',decisions:'Escolhas',documents:'Documentos'};
- function focus(id){const el=document.getElementById(id);if(!el)return;el.tabIndex=-1;el.scrollIntoView({block:'center'});el.focus({preventScroll:true});}
+ function focus(id){const el=document.getElementById(id);if(!el)return;for(let parent=el.parentElement;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;el.tabIndex=-1;el.scrollIntoView({block:'center'});el.focus({preventScroll:true});}
  function choose(r){
   results.hidden=true;input.setAttribute('aria-expanded','false');
   api.navigate(r,{tab,
