@@ -108,6 +108,8 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
+**Rodapé:** 8 cm em todo o projeto (Elias, 30/10/2026); sem rodapé no CAD R54, pendente.
+
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
 ## Como trabalhar nesta pasta

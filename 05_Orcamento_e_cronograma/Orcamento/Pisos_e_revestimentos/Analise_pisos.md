@@ -25,7 +25,7 @@ O custo anterior também era estimativa. Parte da redução vem de corrigir quan
 - **Sala, circulação, quarto, escritório e cozinha:** Tarkett Ambienta Design Olmo 24192727, vinílico colado de 3 mm. Mantida a retirada do laminado nos quartos no grupo de obra. Sem troca automática por LVT mais fino, laminado, autocolante ou padrão amadeirado semelhante.
 - **Lavanderia:** Eliane Iseo Marfim AC 90 ×90, acetinado, claro/bege. A economia proposta é de quantidade, não de cor ou acabamento.
 - **Banheiro:** Biancogres Travertino Reale Greige Satin fora do box e EXT dentro; não misturar os acabamentos para aproveitar uma caixa. Uma parede focal Portobello Vivant Sauge Mate 204214E, como já decidido; outras paredes internas claras/bege, com produto ainda a escolher. Fora do box, Algodão Egípcio; teto branco.
-- **Rodapé:** branco, liso, fosco e sem frisos, com altura de referência de 7 cm. Material e produto exatos ainda não definidos. O anúncio barato PX 5189 tem indicação de brilho/acetinado em outro varejista; não foi adotado como equivalente ao fosco.
+- **Rodapé:** branco, liso, fosco e sem frisos, com altura de **8 cm em todo o projeto** (Elias, 30/10/2026: “deixe o rodapé de todo meu projeto em 8cm”, “a medida real decidida por mim”; antes: referência de 7 cm). Conferir o preço do rodapé de 8 cm. Material e produto exatos ainda não definidos. O anúncio barato PX 5189 tem indicação de brilho/acetinado em outro varejista; não foi adotado como equivalente ao fosco.
 - **Cozinha/lavanderia:** faixa de Branco Itaúnas de 10 cm como referência visual, com Algodão Egípcio fosco acima, conforme decisão de 27/09. Não substituir por revestimento branco brilhante ou revestir mais paredes para aproveitar promoção.
 
 ## Preços e quantidades

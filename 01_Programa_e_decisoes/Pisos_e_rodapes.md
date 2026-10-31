@@ -1,5 +1,7 @@
 # Pisos e rodapés
 
+**Rodapé de 8 cm em todo o projeto — 30/10/2026:** Elias, 30/10/2026: “deixe o rodapé de todo meu projeto em 8cm”, “a medida real decidida por mim”. Substitui a altura de referência de 7 cm. Pendências: produto e material, preço, espessura nominal, modelo FreeCAD (sem rodapé até a R54) e conferência de encontros com móveis, portas e vãos.
+
 **Rodízios da gaveta baixa — 24/10/2026:** selecionados seis fixos Leão Aço com banda de PU declarada pelo vendedor, altura 38 mm + espaçador metálico de 1 mm = 39 mm. [Produto, compra e conferências](../03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md).
 
 **Orçamento — conferência de 22/10/2026:** dez caixas de Olmo (140 réguas) atendem ao [ensaio nominal de cortes](../05_Orcamento_e_cronograma/Orcamento/Pisos_e_revestimentos/Conferencia_dez_caixas.html), com 136 usadas e quatro inteiras de sobra. Contadas sobreposição de 0,49 m² e reserva de 0,48 m² para passagens, sem descontar móveis. Orçamento de pisos/revestimentos em R$16.998,13 após conciliar a parede da cozinha, mantendo R$440 de serviço. Medidas acabadas, encontros, lote e paginação executiva ainda precisam ser conferidos antes da compra. Nenhum acabamento ou CAD alterado. [Conferência completa](../05_Orcamento_e_cronograma/Orcamento/Pisos_e_revestimentos/Conferencia_caixa_cozinha.md).

@@ -5,7 +5,7 @@ Bloco 4, conferência de 29/10/2026. Base: representação atual da planta no si
 ## Resultados que afetam a cotação
 
 - Piso vinílico: **30,8101 m² líquidos**, sem sobreposições. O orçamento contém **35,80 m² / dez caixas**, e 34 m² de preparação/instalação. Não há demonstração de que nove caixas atendam: este bloco não refaz a paginação das 140 réguas nem muda o ensaio vigente de dez caixas.
-- Rodapé das áreas vinílicas: **37,03 m**, antes de móveis, perdas e transições, versus verba de **35 m incluindo transições**. Não concluir falta de 2,03 m: a extensão omitida atrás de móveis ainda depende do escopo contratado.
+- Rodapé de **8 cm** em todo o projeto ([decisão de 30/10/2026](../../01_Programa_e_decisoes/Pisos_e_rodapes.md)). Áreas vinílicas: **37,03 m**, antes de móveis, perdas e transições, versus verba de **35 m incluindo transições**. Não concluir falta de 2,03 m: a extensão omitida atrás de móveis ainda depende do escopo contratado.
 - Verde do box em duas paredes: chuveiro e janela (Elias, 30/10/2026). H05A gráfico: 4,15 m² verdes/1,80 m² claros; H05B até 2,50 m: 4,66/2,00 m². H05C usa fundo 1,24×2,47 mais hipótese adicional de janela 0,80×2,47, sem descontar abertura: 5,0388 m² verdes/1,976 m² claros. Compra histórica R44 de 3,74 m²/11 caixas permanece; paginação, alturas e abertura dependem de levantamento.
 - Pintura completa antes dos móveis, cenário do box desenhado: **112,6626 m² de paredes + 35,4583 m² de teto**. Referências de rendimento acabado e reserva de 20% resultam em **16,22 L de parede e 6,38 L de teto**, ante cesta orçamentária de 21,6 L + 7,2 L. Produto final, absorção, recortes e retoques podem impedir redução; não alterar as verbas por esta estimativa.
 
