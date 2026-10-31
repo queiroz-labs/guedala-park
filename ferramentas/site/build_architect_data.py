@@ -88,17 +88,19 @@ if __name__=='__main__':build()
 def publish_docs(target):
     """Fontes explícitas da entrada; não amplia o pacote selado ou varre pastas."""
     from build_workshop_docs import markdown,page
+    from publication import clean_markdown,public_html,policy
     data=build();target=Path(target)
     paths={'ESTADO_ATUAL.md','01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md','01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md','07_Imovel/Medidas_e_impactos.csv'}
     for item in data['shortcuts']+data['disciplines']:
         paths.update(item[k] for k in ('path','ownerSource') if item.get(k))
     paths.update(g['path'] for g in data.get('glossary',[]))
     for name in paths:
+        if policy(name)['publico']=='oculto':continue
         source=ROOT/name;dest=target/(name+'.html' if source.suffix=='.md' else name)
         if dest.exists():continue
         dest.parent.mkdir(parents=True,exist_ok=True)
         if source.suffix!='.md':shutil.copyfile(source,dest);continue
-        html=page(source.stem,markdown(source.read_text(encoding='utf-8')))
+        html=page(source.stem,markdown(clean_markdown(source.read_text(encoding='utf-8'))))
         def link(m):
             attr,delimiter,url=m.group(1,2,3);parsed=urlsplit(unquote(url))
             if parsed.scheme or url.startswith('#'):return m[0]
@@ -108,5 +110,5 @@ def publish_docs(target):
                 return attr+'='+delimiter+quote(posixpath.relpath(final,posixpath.dirname(name)),safe='/')+('#'+parsed.fragment if parsed.fragment else '')+delimiter
             return 'data-unpublished-reference='+delimiter+url+delimiter
         html=re.sub(r'\b(href|src)\s*=\s*([\"\'])(.*?)\2',link,html)
-        dest.write_text(html,encoding='utf-8')
+        dest.write_text(public_html(html,name),encoding='utf-8')
     (target/'architect-sources.json').write_text(json.dumps(sorted(paths),ensure_ascii=False),encoding='utf-8')

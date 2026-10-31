@@ -30,7 +30,8 @@ def publish(target,write_source=False):
         if dest.exists() and source.suffix!='.md':continue
         dest.parent.mkdir(parents=True,exist_ok=True)
         if source.suffix!='.md':shutil.copyfile(source,dest);continue
-        content=page(source.stem,markdown(source.read_text(encoding='utf-8')))
+        from publication import clean_markdown,public_html
+        content=page(source.stem,markdown(clean_markdown(source.read_text(encoding='utf-8'))))
         def link(m):
             attr,delimiter,url=m.group(1,2,3);parsed=urlsplit(unquote(url))
             if parsed.scheme or url.startswith('#'):return m[0]
@@ -41,7 +42,7 @@ def publish(target,write_source=False):
                 return attr+'='+delimiter+rel+('#'+parsed.fragment if parsed.fragment else '')+delimiter
             return 'data-unpublished-reference='+delimiter+escape(url,quote=True)+delimiter
         content=re.sub(r'\b(href|src)\s*=\s*([\"\'])(.*?)\2',link,content)
-        dest.write_text(content,encoding='utf-8',newline='\n')
+        dest.write_text(public_html(content,name),encoding='utf-8',newline='\n')
     return build(target,write_source)
 
 

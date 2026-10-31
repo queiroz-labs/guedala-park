@@ -1,0 +1,808 @@
+{
+  "versao": 1,
+  "limites": {
+    "links_corpo": 8,
+    "palavras_secao": 150,
+    "caracteres_paragrafo": 700,
+    "palavras_recolher": 120,
+    "itens_lista": 6
+  },
+  "recursos": {
+    "resumo": false,
+    "recolher": false,
+    "relacionados": false,
+    "navegacao": false
+  },
+  "moveis": {
+    "P01": "Guarda-roupa",
+    "P02": "Armário de canto do quarto",
+    "P03": "Armário sobre o guarda-roupa",
+    "P04": "Armário sobre a cabeceira",
+    "P05": "Gabinete da pia",
+    "P06": "Três gavetas da cozinha",
+    "P07": "Móvel do forno e cooktop",
+    "P08": "Gaveta de limpeza",
+    "P09": "Armário superior D · depurador",
+    "P10": "Armário superior C · pia",
+    "P11": "Armário superior B · micro-ondas",
+    "P12": "Armário superior A · geladeira",
+    "P13": "Prateleira do micro-ondas",
+    "P14": "Tanque e cesto de roupas",
+    "P15": "Armário superior da lavanderia",
+    "P16": "Gavetas do escritório",
+    "P17": "Armário superior do escritório",
+    "P18": "Gabinete do banheiro",
+    "P19": "Armário com espelho",
+    "P20": "Banco com baú"
+  },
+  "documentos": [
+    {
+      "path": "01_Programa_e_decisoes/Caderno_de_especificacoes.md",
+      "publico": "leitura",
+      "titulo_simples": "Materiais e equipamentos",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Perguntas que faltam responder",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
+      "publico": "tecnico",
+      "titulo_simples": "Pesquisa do pé-direito",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Pisos_e_rodapes.md",
+      "publico": "leitura",
+      "titulo_simples": "Pisos e rodapés",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md",
+      "publico": "leitura",
+      "titulo_simples": "Plano de reforma e responsável técnico",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md",
+      "publico": "tecnico",
+      "titulo_simples": "Roteiro para projeto oficial de arquitetura de interiores",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Cores/README.md",
+      "publico": "oculto",
+      "titulo_simples": "Cores do modelo 3D",
+      "motivo": "Registro de revisão anterior já fora da biblioteca vigente; preservado no repositório."
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Depurador_sem_canal/README.md",
+      "publico": "oculto",
+      "titulo_simples": "FreeCAD — depurador sem canal de duto",
+      "motivo": "Registro de revisão anterior já fora da biblioteca vigente; preservado no repositório."
+    },
+    {
+      "path": "02_Modelo_3D/Historico/Gavetas_escritorio/README.md",
+      "publico": "oculto",
+      "titulo_simples": "FreeCAD — gavetas do escritório",
+      "motivo": "Registro de revisão anterior já fora da biblioteca vigente; preservado no repositório."
+    },
+    {
+      "path": "02_Modelo_3D/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Modelo 3D (FreeCAD)",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Acabamentos/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Acabamentos e quantidades",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Acustica/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Acústica — índice dos estudos nominais",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md",
+      "publico": "tecnico",
+      "titulo_simples": "Água quente do banheiro — 13 opções em três famílias",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Conferencia_bancada_porta.md",
+      "publico": "tecnico",
+      "titulo_simples": "Conferência da bancada, torneira e porta",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html",
+      "publico": "tecnico",
+      "titulo_simples": "Escolhas do banheiro",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L01.html",
+      "publico": "tecnico",
+      "titulo_simples": "Luminárias do banheiro",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html",
+      "publico": "tecnico",
+      "titulo_simples": "Luzes do banheiro e preços",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Banheiro/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Banheiro",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Conferencia_torneiras/Conferencia.html",
+      "publico": "tecnico",
+      "titulo_simples": "Torneiras: encaixe e acesso",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md",
+      "publico": "tecnico",
+      "titulo_simples": "Torneira Purangi · opção em estudo",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Encaixe_lixeiras.md",
+      "publico": "tecnico",
+      "titulo_simples": "Lixeiras — proposta de encaixe sem alterar o FreeCAD",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Apoios e ventilação do forno",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Cozinha",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md",
+      "publico": "tecnico",
+      "titulo_simples": "Rodas da gaveta de limpeza",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Equipamentos/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Equipamentos",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Gas_natural/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Gás natural — rede, ventilação e exaustão (triagem nominal)",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Estudo_fotometrico.md",
+      "publico": "tecnico",
+      "titulo_simples": "Estudo fotométrico do apartamento",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md",
+      "publico": "tecnico",
+      "titulo_simples": "Luzes do quarto · opção econômica",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Selecao_CB01.md",
+      "publico": "tecnico",
+      "titulo_simples": "Iluminação — proposta de custo-benefício CB01",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Iluminacao/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Iluminação do apartamento",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Lavanderia/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Lavanderia",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Lavanderia/Varal.md",
+      "publico": "tecnico",
+      "titulo_simples": "Varal — especificação consolidada sem placa de ocultação",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Planta_mobiliada/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Planta mobiliada e vistas",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Planta_pontos/Quadro_cargas.md",
+      "publico": "tecnico",
+      "titulo_simples": "Quadro de cargas — cenário nominal 127 V para RT",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Planta_pontos/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Tomadas, água e gás",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md",
+      "publico": "tecnico",
+      "titulo_simples": "Alteração vigente — 22/10/2026",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Quarto_e_portas/Guarda_roupa_interior.md",
+      "publico": "tecnico",
+      "titulo_simples": "Guarda-roupa — organização interna",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Quarto_e_portas/Iluminacao.md",
+      "publico": "tecnico",
+      "titulo_simples": "Luzes do quarto",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "03_Ambientes/Quarto_e_portas/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Quarto",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "03_Ambientes/Sala_e_jantar/README.md",
+      "publico": "leitura",
+      "titulo_simples": "Sala e jantar",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "04_Moveis/Aereos_suspensao/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Ligações e suspensão dos aéreos",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Banco_e_cesto/Fixacao_Southco/Batente_estudo.md",
+      "publico": "tecnico",
+      "titulo_simples": "Limite de abertura do banco",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Banco_e_cesto/Fixacao_Southco/Relatorio.html",
+      "publico": "tecnico",
+      "titulo_simples": "Southco no banco: fixação proposta e limites",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md",
+      "publico": "tecnico",
+      "titulo_simples": "Matriz dos 20 moveis — consolidacao em 27/10/2026",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Dependencias/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Medidas, dependências e roteiro de campo",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Furacao/index.html",
+      "publico": "tecnico",
+      "titulo_simples": "Furos previstos no projeto por peça",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Furacao/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Furação relativa às peças — nominal/proposta",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Banco_estrutura/Resultado.html",
+      "publico": "tecnico",
+      "titulo_simples": "Banco: medidas e estudo histórico de apoios",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
+      "publico": "tecnico",
+      "titulo_simples": "Escritório: MOVENTO400 preserva a profundidade útil",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
+      "publico": "tecnico",
+      "titulo_simples": "Gavetas — conferência dimensional",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Bancada.md",
+      "publico": "tecnico",
+      "titulo_simples": "Apoios da bancada do escritório",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md",
+      "publico": "tecnico",
+      "titulo_simples": "Reconciliação dimensional →",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Espelheiro.md",
+      "publico": "tecnico",
+      "titulo_simples": "Prateleiras do armário com espelho",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md",
+      "publico": "tecnico",
+      "titulo_simples": "Conectores e suportes dos armários",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md",
+      "publico": "tecnico",
+      "titulo_simples": "Como unir as peças",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md",
+      "publico": "tecnico",
+      "titulo_simples": "Medidas dos 20 móveis",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Minifix_C.md",
+      "publico": "tecnico",
+      "titulo_simples": "Conectores do armário sobre a pia",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Inventario/Varoes.md",
+      "publico": "tecnico",
+      "titulo_simples": "Cabideiros do guarda-roupa",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md",
+      "publico": "tecnico",
+      "titulo_simples": "Abertura do cesto de roupas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md",
+      "publico": "tecnico",
+      "titulo_simples": "Mesa Berlin e varal — validação dimensional",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
+      "publico": "tecnico",
+      "titulo_simples": "Portas e articulações",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P03/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "armário sobre o guarda-roupa para duas malas de bordo",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P04/Suspensao_P04_P15/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "/ — suspensão da caixa inteira e portas abertas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P12/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "caixa e fixação na parede acima da geladeira",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P17/Base_fundo_ligacoes/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "base, fundo e ligações de marcenaria",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P20/Assento_fechado/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Banco com baú: assento e apoios",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md",
+      "publico": "tecnico",
+      "titulo_simples": "Banco e cesto — roteiro do protótipo",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Forma de abertura — interferências e mínimos amostrados",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Corte guilhotinado nominal para cotação — / fichas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Instalação ME23P e limite da conferência",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/P01_P03/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "/ — equilíbrio da caixa completa e ligações compartilhadas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Proximas_decisoes/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Pendências e avanços depois da",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/Quantitativos/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Quantitativos separados das propostas de marcenaria",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "04_Moveis/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Móveis — cálculos, ligações e estudos",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md",
+      "publico": "leitura",
+      "titulo_simples": "Etapas da obra e compras",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md",
+      "publico": "leitura",
+      "titulo_simples": "Orçamento e cotações",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Orcamento/Obra_e_pintura/Analise_obra.md",
+      "publico": "tecnico",
+      "titulo_simples": "Obra e pintura — análise para redução",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md",
+      "publico": "tecnico",
+      "titulo_simples": "Pedras e box — economia preservando o visual",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md",
+      "publico": "tecnico",
+      "titulo_simples": "Plano de execução do Guedala Park até 31 de outubro de 2026",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "05_Orcamento_e_cronograma/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Orçamento e cronograma",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Caderno_pranchas/Impacto.html",
+      "publico": "tecnico",
+      "titulo_simples": "Impacto da última geração",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Caderno_pranchas/index.html",
+      "publico": "leitura",
+      "titulo_simples": "Plantas e elevações em escala",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "06_Entregas/Cotacao/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Cotação — conferência independente das quantidades",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Dossie_marcenaria_R45.html",
+      "publico": "tecnico",
+      "titulo_simples": "Guia do montador.",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Ensaios_oficina/index.html",
+      "publico": "tecnico",
+      "titulo_simples": "Ensaios de oficina",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/index.html",
+      "publico": "tecnico",
+      "titulo_simples": "Fichas dos móveis.",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/Levantamento.html",
+      "publico": "tecnico",
+      "titulo_simples": "O que medir no apartamento.",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P01.html",
+      "publico": "tecnico",
+      "titulo_simples": "Guarda-roupa",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P02.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário de canto do quarto",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P03.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário sobre o guarda-roupa",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P04.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário sobre a cabeceira",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P05.html",
+      "publico": "tecnico",
+      "titulo_simples": "Gabinete da pia",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P06.html",
+      "publico": "tecnico",
+      "titulo_simples": "Três gavetas da cozinha",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P07.html",
+      "publico": "tecnico",
+      "titulo_simples": "Móvel do forno e cooktop",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P08.html",
+      "publico": "tecnico",
+      "titulo_simples": "Gaveta de limpeza",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P09.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior D · depurador",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P10.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior C · pia",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P11.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior B · micro-ondas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P12.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior A · geladeira",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P13.html",
+      "publico": "tecnico",
+      "titulo_simples": "Prateleira do micro-ondas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P14.html",
+      "publico": "tecnico",
+      "titulo_simples": "Tanque e cesto de roupas",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P15.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior da lavanderia",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P16.html",
+      "publico": "tecnico",
+      "titulo_simples": "Gavetas do escritório",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P17.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário superior do escritório",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P18.html",
+      "publico": "tecnico",
+      "titulo_simples": "Gabinete do banheiro",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P19.html",
+      "publico": "tecnico",
+      "titulo_simples": "Armário com espelho",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/P20.html",
+      "publico": "tecnico",
+      "titulo_simples": "Banco com baú",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Fichas_fabricacao/Pendencias.html",
+      "publico": "tecnico",
+      "titulo_simples": "O que falta conferir.",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "06_Entregas/Planta_cotada/index.html",
+      "publico": "leitura",
+      "titulo_simples": "Planta com medidas",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "07_Imovel/Checklist_vistoria_dia_das_chaves.md",
+      "publico": "leitura",
+      "titulo_simples": "Vistoria no dia das chaves",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "07_Imovel/README.md",
+      "publico": "tecnico",
+      "titulo_simples": "Visita ao apartamento — fotos e relatórios",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "07_Imovel/Roteiro_dia_das_chaves_R01.md",
+      "publico": "leitura",
+      "titulo_simples": "O que medir no apartamento",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "09_Referencias/Cortinas_estofados/Codigos_comerciais_2026-10-24.md",
+      "publico": "tecnico",
+      "titulo_simples": "Códigos comerciais — cortina C2 e estofado E2",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "09_Referencias/Cortinas_estofados/LEIA-ME.md",
+      "publico": "tecnico",
+      "titulo_simples": "Cortinas e estofados — rodada visual",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "09_Referencias/Iluminacao_CB02/Galeria.md",
+      "publico": "tecnico",
+      "titulo_simples": "Luminárias nos ambientes",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "09_Referencias/Tons_marcenaria/Escolha_aprovada_R02.md",
+      "publico": "tecnico",
+      "titulo_simples": "Escolha de tons da marcenaria",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "09_Referencias/Tons_marcenaria/Pesquisa_Marfim_comercial_2026-10-24.md",
+      "publico": "tecnico",
+      "titulo_simples": "Pesquisa comercial do O2 Marfim — escritório",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "ESTADO_ATUAL.md",
+      "publico": "leitura",
+      "titulo_simples": "Visão geral do projeto",
+      "motivo": "Leitura inicial para conhecer o apartamento."
+    },
+    {
+      "path": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md",
+      "publico": "tecnico",
+      "titulo_simples": "Acabamento interno dos armários",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
+    },
+    {
+      "path": "ferramentas/site/README.md",
+      "publico": "oculto",
+      "titulo_simples": "Apartamento interativo — e pacote",
+      "motivo": "Manutenção do gerador; a ajuda de uso está no próprio site."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/elias.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para elias",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/rt.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para rt",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/construtora.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para construtora",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/condominio_administracao.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para condominio administracao",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/oficina_marceneiro.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para oficina marceneiro",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/fornecedor.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para fornecedor",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/concessionaria_de_gas.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para concessionaria de gas",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    },
+    {
+      "path": "01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/outro.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para outro",
+      "motivo": "Modelo de consulta; envio ainda pendente."
+    }
+  ]
+}

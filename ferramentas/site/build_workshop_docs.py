@@ -10,6 +10,7 @@ import json, re, shutil, posixpath, runpy, copy
 from document_library import configure as configure_library, HOME as LIBRARY_HOME
 from current_release import load_release
 from build_work_data import document_paths as work_document_paths
+from publication import clean_markdown, public_html, policy
 RELEASE = load_release()
 
 STUDY = Path(__file__).resolve().parent
@@ -291,12 +292,13 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
     write_if_changed(STUDY/'Documentos_antes_depois.csv',migration)
     write_sources()
     if not export_docs:return dict(modules=20,documents=len(DOCS),exported=False)
-    mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path'] and not d.get('generated')}
+    mapping={d['path']:d['path']+('.html' if d['path'].endswith('.md') else '') for d in DOCS if d['path'] and not d.get('generated') and policy(d['path'])['publico']!='oculto'}
     mapping.update({p:p for p in ASSETS})
     mapping.update({p:p+'.html' for p in work_document_paths()})
     missing_sources=[src for src in mapping if not(ROOT/src).is_file()]
     mapping={src:dst for src,dst in mapping.items()if(ROOT/src).is_file()}
     mapping.update({p:p for p in GENERATED_PAGES})
+    mapping={src:dst for src,dst in mapping.items() if policy(src)['publico']!='oculto'}
     materialized=set(mapping.values())
     document_by_path = {d['path']:d for d in DOCS if d.get('path')}
     target=Path(target)if target else ROOT/'.site/docs'
@@ -309,7 +311,7 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
         dest=target/dst; dest.parent.mkdir(parents=True,exist_ok=True)
         if source.suffix.lower() in ['.md','.html']:
             content=GENERATED_PAGES[src] if src in GENERATED_PAGES else source.read_text(encoding='utf-8')
-            if source.suffix=='.md': content=page(source.stem,markdown(content))
+            if source.suffix=='.md': content=page(source.stem,markdown(clean_markdown(content)))
             def local_link(m):
                 attr,delimiter,url=m.group(1,2,3)
                 parsed=urlsplit(unquote(url))
@@ -327,7 +329,10 @@ def build(target=None, regenerate=False, build_package=False, export_docs=True):
             document = document_by_path.get(src)
             if document and not src.startswith('06_Entregas/'):
                 content = document_intro(content, document)
-            dest.write_text(plain_html(content),encoding='utf-8')
+            content=plain_html(content)
+            if source.suffix=='.md' or (not src.startswith('06_Entregas/') and src not in GENERATED_PAGES):
+                content=public_html(content,src)
+            dest.write_text(content,encoding='utf-8')
         else: shutil.copyfile(source,dest)
         published.append(dst)
     (target/'manifest.json').write_text(json.dumps(dict(files=published,unpublishedReferences=omitted,policy='Explicit technical allowlist only; no recursive inclusion.'),ensure_ascii=False,indent=2),encoding='utf-8')

@@ -102,20 +102,7 @@ esbuild existente compacta scripts sem mudar nomes globais. Teste `test_architec
 Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
 Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nominal; aviso global e glossário pelo “?” (43 entradas com fonte; P01–P20, T0 e T01–T09), também pesquisável. Ids preservados; Ferramentas ao fim para todos; `#chaves`/`#obra` agora abrem as telas, preservando `data-tab`/`?aba=`. Resumos de etapas: ESTADO_ATUAL; normas/siglas: fontes no glossário, sem interpretação normativa nova.
 
-**15 cartões** em `current_release.json → documentLibrary`; a grade inicial mostra 10 e os 5 de cômodo viram atalhos (busca e filtro ainda os listam). Páginas de agrupamento abrem na mesma aba, com trilha de volta; relatórios em `.md` abrem com os detalhes técnicos visíveis.
-
-[Mapa das88 entradas anteriores](Documentos_antes_depois.csv):65 públicas/23 internas;3 ausentes viraram pendências e9 históricas saíram da lista pública, preservadas no git/vínculos. Catálogo técnico separado, sem mover/apagar documentos.
-
-`document_library.py`:14 grupos/ZIP,20 móveis/estudos/furação; fichas intactas. Busca inclui subitens; no pacote, ZIP abre o índice.
-
-Mesmas fontes em docs/ e pacote offline; .site é gerada. Regerar `build_workshop_docs.py --sources-only` e `construir.py`. `test_document_library.py/.cjs` e `verificar_site.py` conferem88 destinos,15 cartões,20 móveis, links/busca/filtros/offline; reconstrução temporária preserva ZIP selado. Sem autorização nova de publicação.
-
-**Reconciliação pendente; fontes preservadas:**
-
-- Manter Dossie R45 como atalho às fichas atuais?
-- Manter CB01 como comparação com a opção econômica ou mostrar só a seleção atual?
-- Manter estudo de movimentos R52 como referência numérica separada, com o modelo R54?
-- L02 histórica ainda é referência de componentes/preços do banheiro ou há outra composição vigente?
+A publicação usa `publicacao_documentos.json`: leitura inicial, arquivo técnico e páginas ocultas, cada uma com motivo. `publication.py` remove comandos, blocos de código e caminhos do corpo; nomes dos móveis substituem códigos, reunidos em “Fonte e códigos”. Fontes de trabalho e entregas permanecem completas. A mesma política atende biblioteca, entrada e downloads; links relativos preservam a consulta offline. Alteração local, sem push.
 
 ## Dia das chaves — local, sem publicação
 
