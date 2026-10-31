@@ -115,6 +115,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 ## Como trabalhar nesta pasta
 
 - [AGENTS](AGENTS.md): status/README/busca no Registro. [Mapa](README.md).
+- Abertura do modelo: PS1 escolhe a maior versão FreeCAD instalada.
 - [Verificações](ferramentas/README.md): geral pré-commit; completo após abrir CAD; clone limpo `--ci` pré-push; commit por assunto.
 - Não salvar/fechar CAD por macro nem sobrescrevê-lo em consulta; pendências de campo/oficina: registrar e seguir.
 - R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
