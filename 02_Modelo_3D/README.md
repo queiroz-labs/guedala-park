@@ -28,13 +28,13 @@ Fontes: [P01 oficial, página única](../09_Referencias/Plantas_e_manuais/Planta
 
 ### Construção e pendências
 
-As 27 caixas já deixam lacunas em planta; cortar diretamente nelas removeria zero material. No estudo, continuam referenciadas e ocultas, com geometria, posição e expressões preservadas. Uma união paramétrica acrescenta nove recomposições e 23 prolongamentos até Z=2570; nove `Part::Cut` encadeados abrem os envelopes da tabela. A representação baixa `ParedesCortadas` também fica oculta para evitar duplicação. Pavimento BIM `BuildingPart`, `IfcType=Building Storey`, Z=0, altura 2570 nominal.
+As 27 caixas já deixam lacunas em planta; cortes diretos removeriam zero material. Permanecem ocultas/referenciadas, com formas, posições e expressões preservadas. Nove recomposições + 23 prolongamentos até Z=2570 formam a união; nove `Part::Cut` abrem os vãos. `ParedesCortadas` oculta. Nível BIM `BuildingPart`, Z=0/2570 nominal.
 
 Pendências, sem refinamento: qual o vão bruto acabado e as folgas de marco de cada abertura? A entrada tem lacuna CAD de **750 mm** e folha 076 de **850 mm**; qual largura/posição é correta no levantamento? Confirmar peitoris, alturas, espessuras e interface com teto/RT antes de incorporar. O estudo conserva a lacuna existente, sem resolver essa divergência por hipótese.
 
 **Completo OK:** `--completo --relatorio --candidato` no clone local; 106 cenários, nenhuma invariante/cenário falhou e nenhuma colisão nova. Os 1129 pares de caixas novas/maiores passaram na interseção exata. R54, base, regras e relatório de piso/rodapé preservados. Aprovação **PENDENTE**.
 
-**Δ sobre piso/rodapé:** 5905→5958 objetos, **53 novos / 57 alterados / 0 removidos**. Alterados: 54 visibilidades + três agregados (a associação do nível está em `ApartamentoR34`); nenhuma forma própria, posição ou expressão original mudou. As **67 representações de pisos/soleiras/rodapés** (inclui agregados) coincidem em volume, área, caixa, faces e sólidos com o retrato da origem. Relatório externo: `Relatorio_estudo_vaos.md`; Δ completo em `Delta_geometrico.json`, junto ao estudo.
+**Δ sobre piso/rodapé:** 5905→5958; **53 novos / 57 alterados / 0 removidos** (54 visibilidades + três agregados). Nenhuma forma própria/posição/expressão original mudou. As 67 representações de pisos/soleiras/rodapés coincidem com a origem. `Relatorio_estudo_vaos.md` e `Delta_geometrico.json` externos, junto ao estudo.
 
 ## Esquadrias no estudo
 
@@ -64,6 +64,43 @@ Altura independente em `Nivel_Parametros`: 32 relações da etapa A recuperadas 
 
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
+## Quadro de áreas, materiais e câmeras
+
+**Etapa D, aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia da etapa B em `%LOCALAPPDATA%/Temp/guedala_quadro_estudo/Guedala_Park_Estudo_quadro.FCStd`. **Etapa C adiada; nenhum forro.** Planilha nativa `QuadroAreas`, com fórmulas de área/perímetro das sete regiões planas ocultas `Area_*`, extraídas do piso em Z=0. Regenerar esses contornos se o piso mudar. Perímetro é o contorno completo, incluindo passagens; não é quantitativo de rodapé.
+
+Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. O quadro não traz perímetro equivalente; a área privativa oficial usa outro critério.
+
+| Ambiente | CAD m² | Documento m² | Δ m² | Perímetro m |
+|---|---:|---:|---:|---:|
+| Quarto | 8,3925 | 8,3825 | +0,0100 | 13,40 |
+| Escritório | 6,8600 | 6,7850 | +0,0750 | 10,70 |
+| Sala | 9,1194 | 9,1800 | −0,0606 | 12,70 |
+| Circulação | 1,1010 | 0,9450 | +0,1560 | 4,40 |
+| Cozinha | 5,5772 | 5,5176 | +0,0596 | 10,46 |
+| Lavanderia | 2,1413 | 1,9866 | +0,1547 | 5,88 |
+| Banheiro | 2,6616 | 2,6616 | 0 | 6,86 |
+| **Total** | **35,8530** | **35,4583** | **+0,3947** | — |
+
+Critério: piso final intersectado pelas nove máscaras antigas; sobreposição sala/cozinha atribuída à cozinha. Soleiras de portas pertencem ao ambiente servido; entrada à cozinha, transição à lavanderia. Pontes CAD fora das máscaras: 0,0100 m² quarto, 0,0210 circulação, 0,0462 cozinha. Lavanderia CAD 1,29×1,61 m versus documento 1,29×1,54 m, mais transição 0,0644 m². União dos sete contornos cobre o piso, sem lacuna/sobreposição. Divergências completas em `QuadroAreas` e `Quadro_geometrico.json` externo.
+
+**Altura geométrica parede−piso: 2570 mm nos sete ambientes**, calculada do topo das paredes e Z do piso. É nominal da envoltória, sem teto acabado: documento 2600 mm (Δ−30); banheiro 2500 mm (Δ+70). Pé-direito real/forro continuam pendentes.
+
+Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Paredes, Esquadrias, Vidro, Portas, Peitoris e Rodape. Vínculo `Material_Quadro` nas peças; paleta RGB/transparências existentes registrada, sem aplicar novo acabamento. Materiais físicos/fabricantes pendentes; soleiras mantêm a aparência herdada.
+
+| Ambiente (`Camera_<ambiente>_`) | Vistas salvas |
+|---|---|
+| Quarto | Planta, Canto_1..4 |
+| Escritorio | Planta, Canto_1..4 |
+| Sala | Planta, Canto_1..4 |
+| Circulacao | Planta, Canto_1..4 |
+| Cozinha | Planta, Canto_1..4, Eixo (+Y, bancada) |
+| Lavanderia | Planta, Canto_1..4 |
+| Banheiro | Planta, Canto_1..4 |
+
+36 registros em `Cameras_Ambientes`, com câmera Coin nativa, posição/alvo. Selecionar um registro e executar `Aplicar_camera.FCMacro`, junto ao estudo; apenas restaura a vista. Cantos 1..4: mínimo X/Y, máximo X/mínimo Y, máximo X/Y, mínimo X/máximo Y; posição livre mais próxima na região.
+
+**Completo OK:** 106 cenários/1157 pares, sem falha/colisão nova. Aparência preservada, render idêntico; 8049 expressões reabertas. **Δ sobre B: 57 novos / 189 alterados / 0 removidos**: 160 vínculos e 38 normalizações (9 em comum), incluindo um agregado BIM recalculado; nenhuma forma própria mudou. Detalhe externo: `Relatorio_quadro.md`.
+
 ## Candidato piso e rodapé
 
 **Aprovação PENDENTE.** Elias, 30/10/2026: pisos → rodapé em cópia do R54 original. Um FCStd externo, salvo na GUI: `../outputs/Piso_rodape_candidato/Guedala_Park_Piso_rodape_candidato.FCStd`. R54, base e release preservados. [Relatório, hashes e perguntas](Relatorio_mudanca.md).
@@ -80,28 +117,22 @@ Reproduzir com `ferramentas/estudos/compor_piso_rodape.FCMacro` (`GP_REPO`, `GP_
 
 **R54:** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias, 27/10/2026: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
 
-**R53:** pedido de Elias, 27/10/2026, “Aplicar à R52 e às fichas as decisões já tomadas” e “crie um R53”. Incorporou P02 U1–U4=A (requisito10kg, sem capacidade demonstrada), Arenza liso nas duas faces da P13/Peca350 (18mm), TV mantida e lixeiras LIX=A (Biovis +70mm em X, Loop +60mm em Y). Preservou expressões, implantação nominal e pendências de passagem/pedal/tampa. Links das 20 fichas R15 corrigidos; armários até o teto e alternativas P03/gavetas separados. [Dados históricos R53](Alteracoes_R53.json); 5.832 objetos/7.702 expressões/106 cenários. Gravação pela GUI.
+**R53:** [dados históricos](Alteracoes_R53.json); 5.832 objetos/7.702 expressões/106 cenários.
 
 ## Triagem das formas inválidas — 25/10/2026
 
-Zero peças inválidas nas 1.449 formas próprias conferidas por Elias (25/10/2026, comunicação nesta revisão); 12 contêineres com representação montada inválida, informativos. Desde `3cdf795`, o verificador separa formas próprias de agregados. [Objetos, contagens e rastreio](Triagem_geometria.json) · [script](../ferramentas/verificar_modelo/triar_geometria.py). Não usar volumes agregados como prova de madeira, integridade ou recortes. As 85 fontes P01/P02/P06/P07 são válidas; dos 32 testes BOP de P06/P07, 26 passaram. Envelopes locais coincidem com fichas em 0,02 mm, sem validar usinagem.
+Zero inválidas/1.449 formas próprias, conferidas por Elias, 25/10/2026; 12 agregados inválidos informativos. [Rastreio](Triagem_geometria.json) · [script](../ferramentas/verificar_modelo/triar_geometria.py). Não usar volumes agregados como prova de madeira/integridade. Fontes P01/P02/P06/P07 válidas; 26/32 testes BOP passaram; envelopes coincidem com fichas em 0,02 mm, sem validar usinagem.
 
 ## Análise dos alertas BOP — 25/10/2026
 
-Escopo: operações e peças próprias; arquivos STEP e ferragens recebidas preservados. [Ensaios, parâmetros e ressalvas](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py).
-
-- OCCT 7.8.1: `GeomAbs_C0` consulta continuidade do suporte, sem provar defeito físico. [Código oficial](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_8_1/src/BOPAlgo/BOPAlgo_ArgumentAnalyzer.cxx#L775).
-- Quatro réguas e grelha P07: `transformGeometry()` reproduziu C0 em B-splines; `transformShape()` preservou formas analíticas. Diferenças bidirecionais de volume zero; variações brutas até 4,965/0,754 mm³ não são material removido. [Objetos e testes](Analise_bop.json).
-- `MontagemG2R019` (fundo): C0, três cortes válidos. `MontagemG2R020` (frente): C0 + `InvalidCurveOnSurface`; desvio amostrado até ~1,013 × 10⁻⁷ mm, dentro das tolerâncias amostradas, sem certificar máximo contínuo. Três cortes válidos; ressalva para novas booleanas preservada.
-- 18 cortes sintéticos passaram; resíduos até 5,523 mm³/0,002651%, sem prova de usinagem. `fix`/`removeSplitter` conservaram alertas.
-- [Consolidador candidato](../ferramentas/componentes/Consolidacao/consolidar_r31.py): isometrias analíticas; não generalizar para escala não uniforme nem executar o antigo sobre R52. Ensaios históricos nos JSONs; nenhum reparo gravado.
+[Ensaios e ressalvas](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py). C0 não prova defeito físico; `InvalidCurveOnSurface` da frente permanece. Os 18 cortes sintéticos passaram, sem comprovar usinagem; nenhum reparo gravado. [Consolidador candidato](../ferramentas/componentes/Consolidacao/consolidar_r31.py): só isometrias analíticas; não executar o antigo sobre R52.
 
 ## Abrir e salvar com segurança
 
 - Abrir: `powershell -File 02_Modelo_3D/Abrir_no_FreeCAD.ps1`: candidato piso/rodapé, se da base vigente; `-Vigente`: oficial. FreeCAD mais novo instalado.
 - **Salvar só pela interface gráfica.** O `FreeCADCmd` perde o `GuiDocument.xml`, onde ficam cores e visibilidade (o verificador acusa).
 - Para estudar uma alteração, grave **outro arquivo fora do projeto** e só traga para cá o que Elias aprovar. Não sobrescreva o vigente para consultar.
-- Prove que nada mudou sem querer comparando assinatura geométrica (volume, área, faces, vértices, caixa, centro de massa, posição) e não `Shape.hashCode()`, que muda a cada recálculo.
+- Comparar assinaturas geométricas; `Shape.hashCode()` muda ao recalcular e não prova preservação.
 - Backups `.FCBak` e cópias não ficam na pasta do projeto.
 
 ## Verificar
@@ -112,9 +143,9 @@ python ferramentas/verificar_modelo/verificar_modelo.py --completo
 python ferramentas/verificar_modelo/verificar_modelo.py --completo --relatorio --candidato <FCStd externo>
 ```
 
-Rápido: arquivo, cores GUI, SHA e backups. Completo: [invariantes](../ferramentas/verificar_modelo/invariantes.json), envelope global, aparência, [106 movimentos](../ferramentas/verificar_modelo/movimentos.json), retorno ao estado inicial, objetos removidos, formas inválidas, expressões perdidas e colisões novas por interseção exata. [Base compactada](Base_verificacao.json.gz): não ler inteira nem atualizar para esconder falha. Relatório gerado com aprovação PENDENTE; candidato não atualiza base/release. Regras e comandos de aprovação: [AGENTS](../AGENTS.md#10-verificações-obrigatórias).
+Rápido: arquivo/cores/SHA/backups. Completo: [invariantes](../ferramentas/verificar_modelo/invariantes.json), envelope, aparência, [106 movimentos](../ferramentas/verificar_modelo/movimentos.json), retorno inicial, objetos/formas/expressões e interseções exatas. Relatório PENDENTE; candidato não atualiza [base](Base_verificacao.json.gz)/release. [Regras](../AGENTS.md#10-verificações-obrigatórias).
 
-**R52, histórico:** TV a50mm da porta/Peca131.LocalY1180; tanques/frentes500 e móveis antigos ocultos; Berlin110/170; controles BC43; Gaveta009 53→47mm; ferragens declaradas; seis atalhos externos removidos. [Dados R52](Alteracoes_R52.json) · [diferenças R51–R52](Diferencas_R51_R52.json).
+**R52, histórico:** [alterações](Alteracoes_R52.json) · [diferenças R51–R52](Diferencas_R51_R52.json).
 
 ## Movimentos e operação
 
@@ -128,6 +159,4 @@ As evidências citadas estão em [Componentes por assunto](Componentes/README.md
 
 ## Arquivos desta pasta
 
-Evidências históricas R52: `Verificacao_R52.json`, `Verificacao_posicoes_R52.json`, `Auditoria_estatica_R52.json`, `Comparacao_colisoes_R51_R52.json`, `Preservacao_originais.json` e `Registro_entrega_R52.json`. Não são nova inspeção do candidato.
-
-`Historico/` conserva estudos R46–R49 citados; binários R45/R48 no Git. `Componentes/` organiza evidências por tema; scripts em `ferramentas/componentes/`. Contadores R50/R51 e registros de continuidade estão no Git; os contadores atuais estão no relatório da composição.
+R52 e `Historico/` são evidências antigas; binários R45/R48 e contadores R50/R51 no Git. `Componentes/`: evidências por tema; scripts em `ferramentas/componentes/`.
