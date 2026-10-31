@@ -29,6 +29,7 @@ READ_STYLE = '''
 .public-document .reading-summary{padding:16px 20px;background:#edf1e9;border-radius:10px;margin:24px 0}
 .public-document .reading-summary h2{margin:0;font-size:20px}
 .public-document .reading-summary p{margin:8px 0;text-align:left}
+.public-document .long-text{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
 .public-document table{font-size:16px;max-width:100%}
 .public-document img,.public-document svg{max-width:100%;height:auto}
 .public-document a:focus-visible,.public-document summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}
@@ -48,7 +49,7 @@ body:has(.document-bar){padding-top:88px}
 .public-document table[data-mobile-cards] td{display:grid;grid-template-columns:minmax(0,1fr);width:auto;max-width:100%;padding:8px;border:0;font-size:16px;white-space:normal}
 .public-document table[data-mobile-cards] td::before{content:attr(data-label);font-weight:600;font-size:14px;color:#607066}
 }
-@media print{.document-bar,.reading-summary,.related-links,.source-codes,.reading-details>summary{display:none}.reading-details::details-content{display:contents}.public-document{max-width:none}}
+@media print{.document-bar,.related-links,.source-codes,.reading-details>summary{display:none}.reading-details::details-content{display:contents}.public-document{max-width:none}}
 '''
 
 
@@ -207,6 +208,39 @@ def add_summary(main):
     summary = Node('aside', {'class': 'reading-summary', 'aria-label': 'Em resumo'}, [Node('h2', {}, ['Em resumo']), Node('p', {}, [' '.join(selected)])])
     index = next((i+1 for i, c in enumerate(main.children) if isinstance(c, Node) and c.tag == 'h1'), 0)
     main.children.insert(index, summary)
+    drop_summarized(main, selected)
+
+
+def drop_summarized(main, selected):
+    """O resumo é extração literal; tira do corpo as frases iniciais já mostradas nele."""
+    def walk(node):
+        for child in list(node.children):
+            if not isinstance(child, Node) or child.attrs.get('class') == 'reading-summary':
+                continue
+            if child.tag == 'p' and all(isinstance(c, str) for c in child.children):
+                text = ''.join(child.children).strip()
+                rest = text
+                for sentence in selected:
+                    if rest.startswith(sentence):
+                        rest = rest[len(sentence):].lstrip()
+                if rest != text:
+                    if rest:
+                        child.children = [rest]
+                    else:
+                        node.children.remove(child)
+                    return True
+            elif walk(child):
+                return True
+        return False
+    walk(main)
+
+
+def mark_long(main, minimum=180):
+    """Só textos longos recebem justificação; os curtos ficam alinhados à esquerda."""
+    for tag in ('p', 'li'):
+        for node in main.find(tag):
+            if len(node.text().strip()) >= minimum:
+                node.attrs['class'] = (node.attrs.get('class', '')+' long-text').strip()
 
 
 def fold_sections(main, limits):
@@ -297,6 +331,7 @@ def public_html(content, path, title=None):
 
     def prose(text):
         text = text.replace('`', '')
+        text = re.sub(r'FreeCADCmd', 'FreeCAD em modo texto', text)
         text = PATH.sub('', text)
         def replace(m):
             if m[0] not in codes:
@@ -351,6 +386,7 @@ def public_html(content, path, title=None):
     if settings['recursos']['resumo']:
         short_paragraphs(main)
         add_summary(main)
+        mark_long(main)
         mobile_tables(main)
         parent = next(tree.find('head'), None) or next(tree.find('html'), tree)
         parent.children.insert(0, Node('link', {'rel': 'stylesheet', 'href': posixpath.relpath('leitura.css', posixpath.dirname(path))}))

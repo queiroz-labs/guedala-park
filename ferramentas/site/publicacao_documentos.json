@@ -977,7 +977,7 @@
   ],
   "padroes": {
     "codigos": "\\b(?:R\\d{2,3}|P\\d{2}|F\\d{2,4}|SHA(?:256)?|[a-fA-F0-9]{40,64})\\b",
-    "caminhos": "(?:[A-Za-z]:[\\\\/][^\\s<>\";,)]+|(?:\\.{1,2}/)*(?:0[1-9]_[\\w-]+|ferramentas|src)/[^\\s<>\";,)]+|[\\w.*-]+\\.(?:py|cjs|mjs|ps1|FCStd|json)(?:\\b))",
+    "caminhos": "(?:[A-Za-z]:[\\\\/][^\\s<>\";,)]+|(?:\\.{1,2}/)*(?:(?:0[1-9]|99)_[\\w-]+|ferramentas|src)/[^\\s<>\";,)]+|[\\w.*-]+\\.(?:py|cjs|mjs|ps1|FCStd|json)(?:\\b))",
     "comandos": "(?:\\b(?:python(?:3)?|node|npm|git|powershell|pwsh|FreeCADCmd)(?:\\.exe)?\\s+(?:-\\S+|[\\w./\\\\]+\\.(?:py|cjs|mjs|ps1)|status\\b|clone\\b|add\\b|commit\\b|push\\b|ci\\b|run\\b|install\\b)|\\s--[a-z][a-z-]*(?:\\b)|[\\w./\\\\-]+\\.ps1\\b)"
   },
   "excecoes": [],
