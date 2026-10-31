@@ -11,6 +11,32 @@ VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'met
 CODE = re.compile(r'\b(?:R\d{2,3}|P\d{2}|F\d{2,4}|SHA(?:256)?|[a-fA-F0-9]{40,64})\b')
 PATH = re.compile(r'(?:[A-Za-z]:[\\/][^\s<>";,)]+|(?:\.{1,2}/)*(?:0[1-9]_[\w-]+|ferramentas|src)/[^\s<>";,)]+|[\w.-]+\.(?:py|cjs|mjs|ps1|FCStd|json)(?:\b))', re.I)
 COMMAND = re.compile(r'(?:\b(?:python(?:3)?|node|npm|git|powershell|pwsh|FreeCADCmd)(?:\.exe)?\s+(?:-\S+|[\w./\\]+\.(?:py|cjs|mjs|ps1)|status\b|clone\b|add\b|commit\b|push\b|ci\b|run\b|install\b)|\s--[a-z][a-z-]*(?:\b)|[\w./\\-]+\.ps1\b)', re.I)
+READ_STYLE = '''
+.public-document{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:auto;overflow-wrap:anywhere}
+.public-document h1{font-size:32px;line-height:1.2;text-wrap:balance}
+.public-document h2{font-size:24px;line-height:1.3;margin:28px 0 12px}
+.public-document h3{font-size:20px;line-height:1.4}
+.public-document p{max-width:65ch;margin:12px 0}
+.public-document details{border-bottom:1px solid #d8dfd8;margin:16px 0;padding:0 0 8px}
+.public-document summary{cursor:pointer;min-height:44px;box-sizing:border-box;padding:12px 0;line-height:1.5}
+.public-document a{overflow-wrap:anywhere;min-height:44px;display:inline-flex;align-items:center}
+.public-document .reading-summary{padding:16px 20px;background:#edf1e9;border-radius:10px;margin:24px 0}
+.public-document .reading-summary h2{margin:0;font-size:20px}
+.public-document .reading-summary p{margin:8px 0;text-align:left}
+.public-document table{font-size:16px;max-width:100%}
+.public-document img,.public-document svg{max-width:100%;height:auto}
+.public-document a:focus-visible,.public-document summary:focus-visible{outline:2px solid #336d57;outline-offset:4px}
+@media(max-width:600px){
+body:has(.public-document){padding:20px 16px}
+.public-document h1{font-size:28px}.public-document h2{font-size:23px}
+.public-document .tbl{overflow:visible}
+.public-document table[data-mobile-cards],.public-document table[data-mobile-cards] tbody{display:block;width:100%}
+.public-document table[data-mobile-cards] tr{display:block;border:1px solid #d8dfd8;border-radius:8px;margin:12px 0;padding:8px;max-width:100%}
+.public-document table[data-mobile-cards] .table-head{display:none}
+.public-document table[data-mobile-cards] td{display:grid;grid-template-columns:minmax(0,1fr);width:auto;max-width:100%;padding:8px;border:0;font-size:16px;white-space:normal}
+.public-document table[data-mobile-cards] td::before{content:attr(data-label);font-weight:600;font-size:14px;color:#607066}
+}
+'''
 
 
 def config():
@@ -76,6 +102,7 @@ class Tree(HTMLParser):
 
 def clean_markdown(text):
     """Retira cercas antes do conversor simples, inclusive cercas sem fechamento."""
+    text = re.sub(r'<(?:pre|code)\b[^>]*>.*?</(?:pre|code)>', '', text, flags=re.S|re.I)
     out = []
     fence = None
     for line in text.splitlines():
@@ -90,6 +117,109 @@ def clean_markdown(text):
             continue
         out.append(line)
     return '\n'.join(out)
+
+
+def slice_node(node, start, end):
+    """Découpe par texte, en conservant liens, emphase et cases à cocher."""
+    result = Node(node.tag, dict(node.attrs))
+    offset = 0
+    for child in node.children:
+        length = len(child.text() if isinstance(child, Node) else child)
+        if offset < end and offset+length > start:
+            lo, hi = max(0, start-offset), min(length, end-offset)
+            result.children.append(slice_node(child, lo, hi) if isinstance(child, Node) else child[lo:hi])
+        offset += length
+    return result
+
+
+def short_paragraphs(node):
+    children = []
+    for child in node.children:
+        if not isinstance(child, Node):
+            children.append(child)
+            continue
+        if child.tag != 'p':
+            short_paragraphs(child)
+            children.append(child)
+            continue
+        text = child.text()
+        starts = [0]+[m.end() for m in re.finditer(r'(?<=[.!?])\s+(?=[A-ZÀ-Ý0-9])', text)]+[len(text)]
+        start = starts[0]
+        for i in range(1, len(starts)):
+            if i == len(starts)-1 or starts[i+1]-start > 230:
+                children.append(slice_node(child, start, starts[i]))
+                start = starts[i]
+    node.children = children
+
+
+def mobile_tables(main):
+    for table in main.find('table'):
+        table.attrs['data-mobile-cards'] = ''
+        rows = list(table.find('tr'))
+        if not rows:
+            continue
+        headers = [c.text().strip() for c in rows[0].children if isinstance(c, Node) and c.tag in {'td', 'th'}]
+        rows[0].attrs['class'] = 'table-head'
+        for row in rows[1:]:
+            cells = [c for c in row.children if isinstance(c, Node) and c.tag in {'td', 'th'}]
+            for i, cell in enumerate(cells):
+                cell.attrs['data-label'] = headers[i] if i < len(headers) else 'Informação'
+
+
+def add_summary(main):
+    paragraphs = [p.text().strip() for p in main.find('p') if p.text().strip() and 'crumb' not in p.attrs.get('class', '')]
+    # Extração literal: não há inferência de valores ou de decisões.
+    sentences = [s.strip() for p in paragraphs for s in re.split(r'(?<=[.!?])\s+', p) if s.strip()]
+    selected = []
+    for sentence in sentences:
+        if len(sentence) <= 280 and sentence not in selected:
+            if selected and len(' '.join(selected+[sentence])) > 360:
+                break
+            selected.append(sentence)
+            if len(selected) == 3:
+                break
+    if not selected:
+        cells = [c.text().strip() for c in main.find('td') if c.text().strip()]
+        selected = cells[:3]
+    summary = Node('aside', {'class': 'reading-summary', 'aria-label': 'Em resumo'}, [Node('h2', {}, ['Em resumo'])]+[Node('p', {}, [s]) for s in selected])
+    index = next((i+1 for i, c in enumerate(main.children) if isinstance(c, Node) and c.tag == 'h1'), 0)
+    main.children.insert(index, summary)
+
+
+def fold_sections(main, limits):
+    """Agrupa por título; preserva a hierarquia e todos os valores do conteúdo."""
+    first = True
+    def fold(container):
+        nonlocal first
+        for node in container.children:
+            if isinstance(node, Node) and node.tag in {'section', 'div', 'article'}:
+                fold(node)
+        groups = []
+        group = []
+        for node in container.children:
+            if isinstance(node, Node) and node.tag in {'h2', 'h3'} and group:
+                groups.append(group)
+                group = []
+            group.append(node)
+        if group:
+            groups.append(group)
+        result = []
+        for group in groups:
+            nodes = [n for n in group if isinstance(n, Node)]
+            words = sum(len(n.text().split()) for n in nodes if n.tag not in {'h1', 'h2', 'h3', 'aside', 'details', 'section', 'div', 'nav'})
+            large_list = any(len(list(n.find('li'))) > limits['itens_lista'] for n in nodes if n.tag in {'ul', 'ol'})
+            if words > limits['palavras_recolher'] or large_list:
+                fixed = [n for n in group if isinstance(n, Node) and n.tag in {'h1', 'h2', 'h3', 'aside', 'nav'}]
+                body = [n for n in group if n not in fixed]
+                attrs = {'class': 'reading-details'}
+                if first:
+                    attrs['open'] = None
+                    first = False
+                result.extend(fixed+[Node('details', attrs, [Node('summary', {}, ['Ver detalhes'])]+body)])
+            else:
+                result.extend(group)
+        container.children = result
+    fold(main)
 
 
 def public_html(content, path, title=None):
@@ -149,6 +279,16 @@ def public_html(content, path, title=None):
         if page_title:
             page_title.children = [prose(title)]
     main.attrs['data-public-document'] = path
+    main.attrs['class'] = (main.attrs.get('class', '')+' public-document').strip()
+    if settings['recursos']['resumo']:
+        short_paragraphs(main)
+        add_summary(main)
+        mobile_tables(main)
+        style = next(tree.find('style'), None)
+        if style:
+            style.children.append(READ_STYLE)
+    if settings['recursos']['recolher']:
+        fold_sections(main, settings['limites'])
     if codes:
         main.children.append(Node('details', {'class': 'source-codes'}, [Node('summary', {}, ['Fonte e códigos']), Node('p', {}, ['Códigos de referência do documento: '+', '.join(codes)+'.'])]))
     return '<!doctype html>'+tree.html()

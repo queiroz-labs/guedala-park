@@ -8,8 +8,8 @@
     "itens_lista": 6
   },
   "recursos": {
-    "resumo": false,
-    "recolher": false,
+    "resumo": true,
+    "recolher": true,
     "relacionados": false,
     "navegacao": false
   },
