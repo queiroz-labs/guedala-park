@@ -36,6 +36,32 @@ Pendências, sem refinamento: qual o vão bruto acabado e as folgas de marco de 
 
 **Δ sobre piso/rodapé:** 5905→5958 objetos, **53 novos / 57 alterados / 0 removidos**. Alterados: 54 visibilidades + três agregados (a associação do nível está em `ApartamentoR34`); nenhuma forma própria, posição ou expressão original mudou. As **67 representações de pisos/soleiras/rodapés** (inclui agregados) coincidem em volume, área, caixa, faces e sólidos com o retrato da origem. Relatório externo: `Relatorio_estudo_vaos.md`; Δ completo em `Delta_geometrico.json`, junto ao estudo.
 
+## Esquadrias no estudo
+
+**Aprovação PENDENTE.** Etapa B solicitada por Elias, 31/10/2026, nesta conversa; cópia da etapa A com pisos/rodapé. Arquivo externo, salvo pelo FreeCAD MCP na instância gráfica: `%LOCALAPPDATA%/Temp/guedala_esquadrias_estudo/Guedala_Park_Estudo_esquadrias.FCStd`.
+
+Cada vão tem um `App::Part`; cotas externas na tabela A. Prefixo das fontes antigas: `Peca`. Todas foram mantidas e ocultadas, com geometria, posição e expressões preservadas.
+
+| Vão | Antigo | Novo `App::Part` |
+|---|---|---|
+| JQ | 063/064 | `Janela_Quarto` |
+| JE | 065/066 | `Janela_Escritorio` |
+| JS | 067/068 | `Janela_Sala` |
+| JL | 069/070 | `Janela_Lavanderia` |
+| JB | 071/072 | `Janela_Banheiro` |
+| PQ | 074 | `Porta_Quarto` |
+| PE | 073 | `Porta_Escritorio` |
+| PB | 075 | `Porta_Banheiro` |
+| PI | 076 | `Porta_Entrada` |
+
+Janelas: caixilho branco, folha de vidro e peitoril. Quarto: persiana integrada, sem cortina/blackout externo ([Registro de 21/09/2026](../01_Programa_e_decisoes/Registro_de_decisoes.md), seção “Quarto — janela, madeira e cabeceira definidos”). Elias, 31/10/2026, nesta conversa: “deixa a janela do quarto com a persiana 30% fechada”; **300 mm dos 1000 mm do curso gráfico**, faixa superior. Escritório: mesma persiana integrada, conforme [registro do ambiente](../03_Ambientes/Escritorio/README.md) e confirmação de Elias, 31/10/2026 nesta conversa; cena também em 30%. Portas: batente, folha e soleira; controles legados preservados.
+
+**Só representação nominal:** perfis de 20 mm e vidro de 6 mm são gráficos; não especificam produto. Folhas úteis derivadas desse quadro, cores das portas herdadas; fabricante, material, número de folhas, perfis, mecanismo e arremates reais PENDENTES. Envelopes dos batentes do banheiro/escritório recortados contra quatro pontas do rodapé; não é detalhamento de guarnição.
+
+Soleiras Z−50..0: quarto/escritório: `Soleira_Quarto`/`Soleira_Escritorio` + `Vinilico_Sem_Soleira_Escritorio` repartem `Vinilico_continuo` sem perda/sobreposição; `Soleira_banheiro` reutilizada. Entrada acrescenta **0,075 m² nominal** onde não havia piso; material/implantação pendentes, inclusive divergência 750/850 mm da etapa A. Demais pisos/rodapés preservados. Grupo de suportes e corte intermediário do piso ocultos; acabamento Olmo aplicado aos resultados para evitar sobreposição cinza após navegar na vista.
+
+Altura independente em `Nivel_Parametros`: 32 relações da etapa A recuperadas sem ciclo; 8042 expressões preservadas na reabertura. **Completo OK**, 106 cenários e 1157 pares sem colisão nova. Δ sobre A: **130 novos / 63 alterados / 0 removidos** (5958→6088), incluindo auxiliares nativos. R54/base preservados. Relatório externo `Relatorio_esquadrias.md` e `Delta_geometrico.json`, junto ao estudo.
+
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
 ## Candidato piso e rodapé
@@ -50,50 +76,25 @@ Reproduzir com `ferramentas/estudos/compor_piso_rodape.FCMacro` (`GP_REPO`, `GP_
 
 **Proposta separada, sem número:** R54 → verde da janela → pisos → rodapé; compatibilizar encontros e repetir aceite/completo. O R55 verde permanece separado, inalterado e pendente.
 
-## Decisões incorporadas na R53 — 27/10/2026
+## Histórico R53/R54 — 27/10/2026
 
-**R54 (27/10):** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
+**R54:** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias, 27/10/2026: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
 
-Fonte: Elias,27/10/2026: “Aplicar à R52 e às fichas as decisões já tomadas” e “crie um R53”, nesta conversa. Escopo desta revisão: P02 U1–U4=A, P13 F13=A, TV R44=A e lixeiras LIX=A.
-
-- P02: requisito10kg de conteúdo leve ocasional, organização por zonas e preservação de vãos/aparência registrados; sem reforço ou capacidade demonstrada.
-- P13/Peca350: Arenza liso nas duas faces,18mm; cor de referência já existente preservada, especificação documental nas fichas R15.
-- TV: mantida nesta etapa, sem alteração geométrica ou compra.
-- Lixeiras: três peças Biovis com LocalX+70mm e três Loop com LocalY+60mm. Expressões do controle de manutenção preservadas. Posições nominais, sem prova física de passagem, tampa/pedal ou destino temporário.
-- Links das20 fichas corrigidos para a pasta vigente, com revisão R15 identificada no CAD.
-
-[Alterações históricas da R53](Alteracoes_R53.json); o relatório atual trata do candidato acima. Gravação pela GUI; armários até o teto e alternativas P03/gavetas continuaram separados.
-
-**Histórico R53:** 5.832 objetos, 7.702 expressões e 106 cenários; seis posições de lixeiras e duas formas agregadas. As seções R52 abaixo são históricas.
+**R53:** pedido de Elias, 27/10/2026, “Aplicar à R52 e às fichas as decisões já tomadas” e “crie um R53”. Incorporou P02 U1–U4=A (requisito10kg, sem capacidade demonstrada), Arenza liso nas duas faces da P13/Peca350 (18mm), TV mantida e lixeiras LIX=A (Biovis +70mm em X, Loop +60mm em Y). Preservou expressões, implantação nominal e pendências de passagem/pedal/tampa. Links das 20 fichas R15 corrigidos; armários até o teto e alternativas P03/gavetas separados. [Dados históricos R53](Alteracoes_R53.json); 5.832 objetos/7.702 expressões/106 cenários. Gravação pela GUI.
 
 ## Triagem das formas inválidas — 25/10/2026
 
-**Zero peças inválidas nas 1.449 formas próprias conferidas por Elias (25/10/2026, comunicação nesta revisão).** Doze contêineres têm representação montada inválida, sem evidência de peça fisicamente defeituosa. Desde `3cdf795`, o verificador separa `Part::Feature` (próprias) de contêineres informativos; contagens montadas se sobrepõem na hierarquia. [Dados e rastreio completos](Triagem_geometria.json) · [triagem](../ferramentas/verificar_modelo/triar_geometria.py).
-
-| Contêiner | Sólidos inválidos montados | Origem |
-|---|---:|---|
-| `Ambiente_quarto` | 6 | P01/P02 |
-| `Ambiente_cozinha` | 7 | P06/P07 |
-| `ApartamentoR34` | 13 | Agregação dos ambientes |
-| `Modulo` | 2 | Travas T51.7601 do roupeiro |
-| `Modulo001` | 4 | Corpos das dobradiças do canto |
-| `CantoSimplesR04` | 8 | Dobradiças agregadas |
-| `Modulo005` | 6 | Travas/acoplamentos das gavetas |
-| `Modulo006` | 1 | Grelha inferior |
-| `DobradicaSimplesR04`, `DobradicaSimplesR001` | 1 cada | Corpo 71B3550, porta A, níveis 51/255 |
-| `DobradicaSimplesR002`, `DobradicaSimplesR003` | 3 cada | Corpo 71B3550, porta B, níveis 51/255 |
-
-As fontes individuais passam em `isValid()`, mas algumas têm alertas em `check(True)`. A validade varia com representação/transformação, mesmo com determinante 1; não usar volumes agregados para provar madeira, integridade ou recortes. As 85 fontes de painéis P01/P02/P06/P07 são válidas; de 32 fontes P06/P07 testadas em BOP, 26 passaram. Envelopes locais coincidem com as fichas dentro de 0,02 mm; isso não valida usinagem.
+Zero peças inválidas nas 1.449 formas próprias conferidas por Elias (25/10/2026, comunicação nesta revisão); 12 contêineres com representação montada inválida, informativos. Desde `3cdf795`, o verificador separa formas próprias de agregados. [Objetos, contagens e rastreio](Triagem_geometria.json) · [script](../ferramentas/verificar_modelo/triar_geometria.py). Não usar volumes agregados como prova de madeira, integridade ou recortes. As 85 fontes P01/P02/P06/P07 são válidas; dos 32 testes BOP de P06/P07, 26 passaram. Envelopes locais coincidem com fichas em 0,02 mm, sem validar usinagem.
 
 ## Análise dos alertas BOP — 25/10/2026
 
 Escopo: operações e peças próprias; arquivos STEP e ferragens recebidas preservados. [Ensaios, parâmetros e ressalvas](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py).
 
 - OCCT 7.8.1: `GeomAbs_C0` consulta continuidade do suporte, sem provar defeito físico. [Código oficial](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_8_1/src/BOPAlgo/BOPAlgo_ArgumentAnalyzer.cxx#L775).
-- `ReguaInferiorBaixaR31`, `ReguaInferiorAltaR31`, `ReguaSuperiorBaixaR31`, `ReguaSuperiorAltaR31` e `GrelhaInferiorR31`: `transformGeometry()` reproduziu C0 ao converter em B-splines; `transformShape()` preservou formas analíticas válidas. Diferenças bidirecionais de volume zero nos cinco espelhos; diferenças brutas até 4,965/0,754 mm³ não equivalem a material removido.
+- Quatro réguas e grelha P07: `transformGeometry()` reproduziu C0 em B-splines; `transformShape()` preservou formas analíticas. Diferenças bidirecionais de volume zero; variações brutas até 4,965/0,754 mm³ não são material removido. [Objetos e testes](Analise_bop.json).
 - `MontagemG2R019` (fundo): C0, três cortes válidos. `MontagemG2R020` (frente): C0 + `InvalidCurveOnSurface`; desvio amostrado até ~1,013 × 10⁻⁷ mm, dentro das tolerâncias amostradas, sem certificar máximo contínuo. Três cortes válidos; ressalva para novas booleanas preservada.
 - 18 cortes sintéticos passaram; resíduos até 5,523 mm³/0,002651%, sem prova de usinagem. `fix`/`removeSplitter` conservaram alertas.
-- [Consolidador candidato](../ferramentas/componentes/Consolidacao/consolidar_r31.py): preservar geometria analítica nas isometrias; não generalizar a escalas não uniformes nem executar o consolidador antigo sobre R52. R52/base/estudo R02 preservados; completo histórico OK, 106 cenários. Nenhum reparo gravado.
+- [Consolidador candidato](../ferramentas/componentes/Consolidacao/consolidar_r31.py): isometrias analíticas; não generalizar para escala não uniforme nem executar o antigo sobre R52. Ensaios históricos nos JSONs; nenhum reparo gravado.
 
 ## Abrir e salvar com segurança
 
@@ -106,26 +107,14 @@ Escopo: operações e peças próprias; arquivos STEP e ferragens recebidas pres
 ## Verificar
 
 ```
-python ferramentas/verificar_modelo/verificar_modelo.py                         # segundos: arquivo, cores (GuiDocument.xml), SHA, backups esquecidos
-python ferramentas/verificar_modelo/verificar_modelo.py --completo              # ~8 min: abre sem salvar e confere tudo abaixo
-python ferramentas/verificar_modelo/verificar_modelo.py --completo --relatorio  # idem + escreve Relatorio_mudanca.md (aprovação PENDENTE)
+python ferramentas/verificar_modelo/verificar_modelo.py
+python ferramentas/verificar_modelo/verificar_modelo.py --completo
+python ferramentas/verificar_modelo/verificar_modelo.py --completo --relatorio --candidato <FCStd externo>
 ```
 
-O modo completo confere, nesta ordem:
+Rápido: arquivo, cores GUI, SHA e backups. Completo: [invariantes](../ferramentas/verificar_modelo/invariantes.json), envelope global, aparência, [106 movimentos](../ferramentas/verificar_modelo/movimentos.json), retorno ao estado inicial, objetos removidos, formas inválidas, expressões perdidas e colisões novas por interseção exata. [Base compactada](Base_verificacao.json.gz): não ler inteira nem atualizar para esconder falha. Relatório gerado com aprovação PENDENTE; candidato não atualiza base/release. Regras e comandos de aprovação: [AGENTS](../AGENTS.md#10-verificações-obrigatórias).
 
-| Trava | O que acusa |
-|---|---|
-| **Invariantes** (`ferramentas/verificar_modelo/invariantes.json`) | Fatos documentados quebrados: TV a 50 mm da porta, bancada 2000×700×30 com topo a 750, `Peca131.LocalY = 1180`, históricos que devem ficar ocultos, controles que devem existir |
-| **Nada novo fora do apartamento** | Objeto visível que passa a ficar fora da caixa das paredes (coordenadas **globais**; peças dentro de contêineres têm coordenadas locais) |
-| **Aparência por objeto** | Cor, transparência ou visibilidade trocadas em qualquer dos 5.832 objetos (lê o `GuiDocument.xml` e os materiais) |
-| **106 cenários de movimento** (`movimentos.json`) | Aplica cada controle em memória (portas 45/86°, gavetas 400/500, banco, cesto, varal, forno…), recalcula, mede os contatos novos entre peças, restaura e confere que o modelo voltou ao estado inicial. Contato novo = erro. Reproduz exatamente os contatos que a R52 registrou |
-| **Objetos removidos, formas inválidas, expressões perdidas, colisões novas** | Como antes; colisões por caixas globais e, nos pares suspeitos, interseção exata |
-
-A base ([Base_verificacao.json.gz](Base_verificacao.json.gz), compactada, não se lê) guarda o retrato aprovado, incluindo os contatos que já existem de propósito (fixadores, reservas, marcadores, e as operações incompatíveis que a R52 já documenta, como abrir a gaveta com a porta fechada). Para ensinar uma regra nova, adicione em `invariantes.json` (tipos: `caixa_global`, `folga_minima`, `propriedade`, `oculto`, `existe`).
-
-## O que o R52 corrigiu em relação à R51
-
-TV do escritório: `Peca131.LocalY` 1280 → 1180, folga de 50 mm da porta. Tanque/frentes 500 e móveis antigos ocultos; Berlin 110/170; controles históricos BC43; `Gaveta009` 53 → 47 mm; ferragens declaradas nas gavetas e banco; seis atalhos fora do apartamento removidos. Evidência histórica: [alterações R52](Alteracoes_R52.json) · [diferenças R51–R52](Diferencas_R51_R52.json).
+**R52, histórico:** TV a50mm da porta/Peca131.LocalY1180; tanques/frentes500 e móveis antigos ocultos; Berlin110/170; controles BC43; Gaveta009 53→47mm; ferragens declaradas; seis atalhos externos removidos. [Dados R52](Alteracoes_R52.json) · [diferenças R51–R52](Diferencas_R51_R52.json).
 
 ## Movimentos e operação
 

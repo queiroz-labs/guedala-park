@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
 
-**Nível/vãos:** [estudo](02_Modelo_3D/README.md#estudo-de-nível-e-vãos), Z0/2570 nominal, nove cortes; completo OK, pendente. R54/base intactos.
+**CAD externo:** [nível/vãos/esquadrias](02_Modelo_3D/README.md#esquadrias-no-estudo), persianas 30%; completo OK, pendente. R54/base intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

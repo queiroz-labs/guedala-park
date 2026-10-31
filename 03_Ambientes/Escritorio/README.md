@@ -6,6 +6,8 @@ Estado atual do escritório (dormitório 02, 2,30 × 2,95 m). Prioridade: confor
 
 ## Decisões mais recentes
 
+- **Janela:** esquadria branca com persiana integrada igual à do quarto. Fonte: Elias, 31/10/2026, nesta conversa: “no escritorio tbm tem essa persiana embutrida igual ao quarto”. Já havia registro de blackout incorporado à janela; esta confirmação explicita o tipo. [Estudo FreeCAD externo](../../02_Modelo_3D/README.md#esquadrias-no-estudo): cena nominal com persiana 30% fechada; perfis, acionamento, curso real e fabricante pendentes.
+
 - **Aéreos:** armário principal sobre o sofá 200 × 55 × 35 cm (L × A × P) e área aberta sobre a prateleira dos consoles, topo a 195 cm. **Módulo dedicado à caixa do gabinete foi retirado** (Elias guarda a caixa por conta própria, possivelmente no baú da queen). [Aéreos](Aereos.md).
 - **Ciclismo:** capacete, sapatilha e kit de ferramentas num setor do armário principal, com prateleiras reguláveis (17/10).
 - **Consoles:** PS5 utilizável na sala e no escritório (um console que circula); prateleira aberta 110 × 35 a 195 cm com reserva para um Xbox. [TV e consoles](TV_e_consoles.md).
@@ -59,7 +61,7 @@ Um apoio do PS5 com 30 cm de profundidade, apenas como exemplo, reduziria a faix
 
 Altura final de **2,47 m aceita como cenário de projeto**, supondo 2,57 m antes do novo forro e 10 cm totais de rebaixo. Gesso acartonado e lã de rocha em estudo para conforto acústico e térmico. Altura entregue e montagem do sistema ainda por validar. A base de um corpo de 40 cm fica a 207 cm menos a folga técnica superior; a de um corpo de 60 cm, a 187 cm menos essa folga.
 
-Bancada e prateleiras em **Arenza**; aéreos **off-white fosco**; detalhes decorativos azul-petróleo. Sofá Daiane **cinza-claro**, escolhido para reforçar a identidade gamer do escritório. Cortina clara para suavizar a luz; blackout já incorporado à janela segundo Elias.
+Bancada e prateleiras em **Arenza**; aéreos **off-white fosco**; detalhes decorativos azul-petróleo. Sofá Daiane **cinza-claro**, escolhido para reforçar a identidade gamer do escritório. Cortina clara para suavizar a luz; persiana integrada incorporada à janela, conforme a confirmação acima.
 
 Iluminação inteligente com cores e ajuste de branco, compatível com Alexa: luz geral no teto, indireta atrás da TV e sob as prateleiras, com controles separados. Equipamentos, cabeamento e instalação ainda em estudo. Marcenaria com foco em custo-benefício, sem teto monetário definido.
 
