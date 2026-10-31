@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
 
-**CAD externo:** [árvore após D](02_Modelo_3D/README.md#organizacao-da-arvore): 328 Labels/239 agrupamentos; peças intactas. Completo OK; PENDENTE. Sem forro; R54/base intactos.
+**CAD externo:** [auditoria após E](02_Modelo_3D/README.md#auditoria-de-remocoes): 1905 mantidos/0 exclusões. Completo OK; PENDENTE. R54/base/regras intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

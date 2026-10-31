@@ -103,13 +103,13 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 ## Organizacao da arvore
 
-**Aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia da etapa D em `%LOCALAPPDATA%/Temp/guedala_organizacao_estudo/Guedala_Park_Estudo_organizado.FCStd`, salva pela GUI/MCP. Cinco raízes: documentação, controles, apartamento, `Moveis/P01..P20` e `Historico_Oculto`. Grupos comuns, sem mudar sistemas locais; todos os Names preservados.
+**E, PENDENTE.** Cópia D: `Guedala_Park_Estudo_organizado.FCStd` em `%LOCALAPPDATA%/Temp/guedala_organizacao_estudo/`. `Moveis/P01..P20`, apartamento e histórico; BC43/banco/Minifix e operandos atuais preservados. Names/sistemas locais intactos. CSVs `Mapa_labels` (328), `Mapa_grupos` (239), `Mapa_objetos` (6145). Δ **35 novos / 415 alterados / 0 removidos** (6180 totais); zero formas próprias alteradas, oito agregados por filiação. **Completo OK**, 106 cenários/1157 pares; 8049 expressões. Detalhes: `Relatorio_organizacao.md` externo.
 
-**CSV externos:** `Mapa_labels.csv` (328 Labels), `Mapa_grupos.csv` (239 reagrupamentos), `Mapa_objetos.csv` (6145 originais). A origem D tinha 22 raízes; 1571 não é sua contagem de órfãos. Auxiliares nativos preservados.
+## Auditoria de remocoes
 
-Estudos R39–R52, auditorias e legados ocultos A/B no histórico. BC43/banco R43/Minifix ativos nos Pxx; operandos ocultos em `Suportes_Ativos`. Oculto não significa superado. Montagens/controles preservados.
+**PENDENTE.** Cópia E: `Guedala_Park_Estudo_auditado.FCStd` em `%LOCALAPPDATA%/Temp/guedala_limpeza_estudo/`, salva na GUI/MCP. Inventário prévio: **1905 candidatos, todos mantidos; 6180→6180, zero exclusões**. [Script](../ferramentas/estudos/auditar_remocoes_freecad.py): dependências, expressões, 41 planilhas, invariantes, movimentos, fichas R15 e site local; 771 arquivos/SHA.
 
-**Comparação com D:** zero formas próprias/posições/expressões/aparências alteradas; render idêntico. Oito agregados refletem a nova filiação; 8049 expressões preservadas. Δ **35 novos grupos / 415 alterados / 0 removidos** (6145→6180). **Completo OK**, 106 cenários/1157 pares sem falha/colisão nova; `Relatorio_organizacao.md` externo. Relatório automático contra R54 inclui A/B/D; base intacta.
+1775 candidatos constam da base; 20 protegidos por regras `oculto`/`existe`. 946 Origin têm vínculos nativos; 36 câmeras e o histórico continuam em uso. Categorias sobrepostas. Motivos/evidências: `Inventario_candidatos.csv`/`Inventario_antes.json`; `Relatorio_limpeza.md` externo. **Completo OK**, 106 cenários; R54/base/regras preservados.
 
 ## Candidato piso e rodapé
 
