@@ -1,0 +1,344 @@
+"""GUI: rodapé de parede 80 mm em candidato externo, sem promover R54/base.
+
+GP_REPO e GP_RODAPE_DIR são obrigatórios. Recusa qualquer candidato existente.
+Não importa nem executa a macro de piso; usa os contornos da R54 original.
+GP_RODAPE_CLOSE_GUI=1 fecha apenas uma instância iniciada sem documentos.
+"""
+import FreeCAD as App, FreeCADGui as Gui, Part
+from PySide import QtCore
+from pathlib import Path
+import csv, gzip, hashlib, json, os, shutil, traceback
+
+ROOT = Path(os.environ['GP_REPO']).resolve()
+OUT = Path(os.environ['GP_RODAPE_DIR']).resolve()
+from collections import defaultdict
+
+EPS = 1e-6
+FLOORS = {'quarto': ['Peca', 'Peca001'], 'escritorio': ['Peca002'],
+          'sala': ['Peca003', 'Peca004'], 'circulacao': ['Peca005'],
+          'cozinha': ['Peca006'], 'lavanderia': ['Peca007'], 'banho': ['Peca008']}
+
+
+def inside(x, y, rectangles):
+    return any(a-EPS < x < c+EPS and b-EPS < y < d+EPS for a, b, c, d in rectangles)
+
+
+def merge(intervals):
+    result = []
+    for a, b in sorted(intervals):
+        if b-a <= EPS:
+            continue
+        if result and a <= result[-1][1]+EPS:
+            result[-1] = (result[-1][0], max(b, result[-1][1]))
+        else:
+            result.append((a, b))
+    return result
+
+
+def subtract(intervals, cuts):
+    result = merge(intervals)
+    for c, d in merge(cuts):
+        next_result = []
+        for a, b in result:
+            if c > a+EPS:
+                next_result.append((a, min(b, c)))
+            if d < b-EPS:
+                next_result.append((max(a, d), b))
+        result = merge(next_result)
+    return result
+
+
+def rect(box):
+    return box[0], box[1], box[3], box[4]
+
+
+def wall_faces(objects, walls):
+    """Faces que tocam piso interno; sem parede virtual em portas ou janelas.
+
+    O CAD e o desenho do site têm contornos distintos. Não corrige esses
+    contornos nem transfere a estimativa de 37,03 m para o arquivo nativo.
+    """
+    floors = {room: [rect(objects[n]['caixa_global']) for n in names] for room, names in FLOORS.items()}
+    wall_rects = [rect(objects[n]['caixa_global']) for n in walls if objects[n]['caixa_global'][2] < 80]
+    xs = {v for boxes in [wall_rects, *floors.values()] for b in boxes for v in (b[0], b[2])}
+    ys = {v for boxes in [wall_rects, *floors.values()] for b in boxes for v in (b[1], b[3])}
+    grouped = defaultdict(list)
+    for name in walls:
+        box = objects[name]['caixa_global']
+        if box[2] > EPS or box[5] < 80-EPS:
+            continue  # verga: não inventa rodapé sob o vão
+        a, b, c, d = rect(box)
+        for axis, fixed, lo, hi, sign in [('x', a, b, d, -1), ('x', c, b, d, 1),
+                                          ('y', b, a, c, -1), ('y', d, a, c, 1)]:
+            split = sorted({lo, hi}|{u for u in (ys if axis=='x' else xs) if lo < u < hi})
+            for u, v in zip(split, split[1:]):
+                x, y = (fixed+sign*.01, (u+v)/2) if axis=='x' else ((u+v)/2, fixed+sign*.01)
+                if inside(x, y, wall_rects):
+                    continue
+                room = next((room for room, boxes in floors.items() if inside(x, y, boxes)), None)
+                if room:
+                    grouped[(room, name, axis, fixed, sign)].append((u, v))
+    return [dict(room=key[0], wall=key[1], axis=key[2], fixed=key[3], sign=key[4], start=a, end=b)
+            for key, intervals in sorted(grouped.items()) for a, b in merge(intervals)]
+
+
+def strip_box(face, start, end, thickness=15, height=80):
+    fixed = face['fixed']
+    normal = fixed if face['sign'] > 0 else fixed-thickness
+    if face['axis']=='x':
+        return [normal, start, 0, normal+thickness, end, height]
+    return [start, normal, 0, end, normal+thickness, height]
+
+
+OWN_DOCUMENT = None
+OWNS_GUI = os.environ.get('GP_RODAPE_CLOSE_GUI')=='1' and not App.listDocuments()
+
+
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def global_shape(obj):
+    shape = obj.Shape.copy()
+    shape.Placement = obj.getGlobalPlacement().multiply(obj.Placement.inverse()).multiply(shape.Placement)
+    return shape
+
+
+def bbox(shape):
+    b = shape.BoundBox
+    return [b.XMin, b.YMin, b.ZMin, b.XMax, b.YMax, b.ZMax]
+
+
+def signature(obj):
+    s = global_shape(obj)
+    b = bbox(s)
+    volume = sum(q.Volume for q in s.Solids)
+    if abs(volume)>1e-9:
+        center = sum((q.CenterOfMass*q.Volume for q in s.Solids),App.Vector())/volume
+    elif s.Faces and s.Area>0:
+        center = sum((q.CenterOfMass*q.Area for q in s.Faces),App.Vector())/s.Area
+    else:
+        center = s.BoundBox.Center
+    # Não usa Shape.hashCode(), que não é uma assinatura estável entre processos.
+    return dict(volume=round(s.Volume, 8), area=round(s.Area, 8), faces=len(s.Faces),
+                vertices=len(s.Vertexes), bbox=[round(v, 8) for v in b],
+                centro=[round(v, 8) for v in (center.x,center.y,center.z)],
+                placement=[round(v, 9) for v in obj.getGlobalPlacement().toMatrix().A])
+
+
+def solid(box):
+    return Part.makeBox(box[3]-box[0], box[4]-box[1], box[5]-box[2], App.Vector(*box[:3]))
+
+
+def intersects(a, b):
+    return all(min(a[i+3], b[i+3])-max(a[i], b[i]) > 1e-7 for i in range(3))
+
+
+def module_of(obj, seen=()):
+    if obj.Name in seen:
+        return ''
+    if obj.Name in {'Modulo','Peca249'}:
+        return 'P01'
+    if obj.Name.startswith('Modulo') and obj.Name[6:].isdigit():
+        return 'P'+str(int(obj.Name[6:])+1).zfill(2)
+    for parent in obj.InList:
+        result = module_of(parent, seen+(obj.Name,))
+        if result:
+            return result
+    return ''
+
+
+def csv_write(path, rows):
+    if not rows:
+        return
+    with path.open('w', encoding='utf8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader();w.writerows(rows)
+
+
+def ensure_destination(root, out, candidate):
+    root, out, candidate = Path(root).resolve(), Path(out).resolve(), Path(candidate).resolve()
+    if out==root or root in out.parents or candidate.parent!=out:
+        raise ValueError('A saída precisa ficar fora do repositório')
+    if candidate.exists():
+        raise FileExistsError('Candidato existente preservado; use uma pasta externa vazia')
+
+
+def copy_candidate(source, candidate):
+    # Modo exclusivo também protege contra outra sessão que crie o arquivo
+    # entre a conferência de existência e a cópia.
+    with Path(source).open('rb') as original:
+        with Path(candidate).open('xb') as target:
+            shutil.copyfileobj(original,target)
+    shutil.copystat(source,candidate)
+
+
+def apply_finish(view):
+    view.ShapeColor = (238/255,234/255,225/255)
+    view.LineColor = (.55,.55,.52)
+    view.Transparency = 0
+    materials = list(view.ShapeAppearance)
+    for material in materials:
+        material.Shininess = 5
+        material.SpecularColor = (0.0,0.0,0.0)
+    # O getter devolve cópias: atribuir a lista novamente para persistir o fosco.
+    view.ShapeAppearance = materials
+
+
+def main():
+    global OWN_DOCUMENT
+    if OWNS_GUI:
+        Gui.getMainWindow().hide()
+    if ROOT==OUT or ROOT in OUT.parents:
+        raise ValueError('O candidato deve ficar fora do repositório')
+    OUT.mkdir(parents=True, exist_ok=True)
+    source = ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'
+    candidate = OUT/'Guedala_Park_Rodape_8cm_candidato.FCStd'
+    marker = OUT/'Rodape.json'
+    ensure_destination(ROOT, OUT, candidate)
+    release = json.loads((ROOT/'ferramentas/site/current_release.json').read_text(encoding='utf8'))
+    if release['cadPath']!='02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd' or sha(source)!=release['cadSHA256']:
+        raise ValueError('A fonte precisa ser a R54 original verificada; não usar candidato do piso ou de outra sessão')
+    original_sha = sha(source)
+    copy_candidate(source, candidate)
+    doc = App.openDocument(str(candidate))
+    OWN_DOCUMENT = doc
+    names = {o.Name for o in doc.Objects}
+    before = {o.Name: signature(o) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
+    expressions = {o.Name: str(o.ExpressionEngine) for o in doc.Objects if hasattr(o,'ExpressionEngine')}
+    source_objects = {o.Name: dict(caixa_global=bbox(global_shape(o))) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
+    walls = [o.Name for o in doc.getObject('ParedesInteiras').Group]
+    faces = wall_faces(source_objects, walls)
+    active = []
+    for obj in doc.Objects:
+        if not getattr(obj,'Visibility',False) or obj.TypeId.startswith('App::'):
+            continue
+        if not hasattr(obj,'Shape') or obj.Shape.isNull() or not obj.Shape.Solids or obj.Shape.Volume<=.01:
+            continue
+        if any(p.TypeId.startswith('Part::') and getattr(p,'Visibility',False) for p in obj.InList):
+            continue  # mesmo critério de peça ativa do inspetor oficial
+        sh = global_shape(obj);box = bbox(sh)
+        if box[2] < 80 and box[5] > 0:
+            active.append((obj, sh, box))
+
+    group = doc.addObject('App::DocumentObjectGroup','Rodape_8cm')
+    group.Label = 'Rodapé de parede 8 cm · 15 mm nominal, a confirmar · candidato'
+    group.addProperty('App::PropertyLength','Altura','Rodape','Altura decidida: Elias, 30/10/2026')
+    group.Altura = 80;group.setEditorMode('Altura',1)
+    group.addProperty('App::PropertyLength','EspessuraNominal','Rodape','Hipótese de estudo; produto e espessura a confirmar')
+    group.EspessuraNominal = 15
+    group.addProperty('App::PropertyString','Situacao','Rodape')
+    group.Situacao = 'Candidato; espessura nominal, a confirmar. Alterar espessura exige refazer recortes e verificações.'
+    group.addProperty('App::PropertyString','AreasMolhadas','Rodape')
+    group.AreasMolhadas = 'Banheiro/lavanderia incluídos em todo o projeto; acabamento e solução de borda pendentes.'
+    room_groups = {}
+    for room in FLOORS:
+        child = doc.addObject('App::DocumentObjectGroup','Rodape_'+room)
+        child.Label = 'Rodapé · '+room+' · candidato'
+        group.addObject(child);room_groups[room] = child
+
+    collisions, joins, pieces = [], [], []
+    totals = {room: dict(sem_recortes_mm=0, apos_interferencias_mm=0, modelado_mm=0) for room in FLOORS}
+    for index, face in enumerate(faces,1):
+        face_id = 'Face_'+str(index).zfill(3)
+        normal = 0 if face['axis']=='x' else 1
+        along = 1-normal
+        box = strip_box(face,face['start'],face['end'])
+        shape = solid(box);cuts = []
+        totals[face['room']]['sem_recortes_mm'] += face['end']-face['start']
+        for obj, other, obox in active:
+            if not intersects(box,obox):
+                continue
+            common = shape.common(other)
+            if common.Volume<=.01:
+                continue
+            cb = bbox(common);lo = max(face['start'],cb[along]-.01);hi = min(face['end'],cb[along+3]+.01)
+            cuts.append((lo,hi))
+            collisions.append(dict(face=face_id,ambiente=face['room'],parede=face['wall'],objeto=obj.Name,
+                                   rotulo=obj.Label,movel=module_of(obj),
+                                   # Faces B-spline podem conservar caixa de suporte
+                                   # maior que o recorte. A interseção fica na faixa.
+                                   penetracao_normal_mm=round(min(cb[normal+3],box[normal+3])-max(cb[normal],box[normal]),6),
+                                   volume_inicial_mm3=round(common.Volume,6),inicio_recorte_mm=round(lo,6),fim_recorte_mm=round(hi,6),
+                                   regra='interromper altura inteira; não alterar objeto existente'))
+        spans = subtract([(face['start'],face['end'])],cuts)
+        totals[face['room']]['apos_interferencias_mm'] += sum(b-a for a,b in spans)
+        # Junta de topo nos cantos: a segunda faixa termina na primeira,
+        # sem dois sólidos ocuparem o mesmo cubo 15×15×80.
+        corner_cuts = []
+        for a,b in spans:
+            sb = strip_box(face,a,b)
+            for previous in pieces:
+                if not intersects(sb,previous['bbox']):
+                    continue
+                lo = max(sb[along],previous['bbox'][along])
+                hi = min(sb[along+3],previous['bbox'][along+3])
+                corner_cuts.append((lo,hi))
+                joins.append(dict(face=face_id,ambiente=face['room'],parede=face['wall'],trecho_anterior=previous['objeto'],
+                                  inicio_mm=round(lo,6),fim_mm=round(hi,6),regra='junta de topo, sem sobreposição'))
+        spans = subtract(spans,corner_cuts)
+        for a,b in spans:
+            if b-a<.1:
+                continue
+            name = 'RodapeTrecho_'+str(len(pieces)+1).zfill(3)
+            obj = doc.addObject('Part::Box',name)
+            obj.Label = 'Rodapé · '+face['room']+' · '+face['wall']+' · 15 mm nominal, a confirmar'
+            obj.Height = 80;obj.setExpression('Height','Rodape_8cm.Altura')
+            obj.Placement.Base = App.Vector(*strip_box(face,a,b)[:3])
+            if face['axis']=='x':
+                obj.Width = b-a;obj.setExpression('Length','Rodape_8cm.EspessuraNominal')
+                if face['sign']<0:obj.setExpression('Placement.Base.x',str(face['fixed'])+' mm - Rodape_8cm.EspessuraNominal')
+            else:
+                obj.Length = b-a;obj.setExpression('Width','Rodape_8cm.EspessuraNominal')
+                if face['sign']<0:obj.setExpression('Placement.Base.y',str(face['fixed'])+' mm - Rodape_8cm.EspessuraNominal')
+            for prop,value in [('Ambiente',face['room']),('ParedeOrigem',face['wall']),('TipoPeca','Rodape de parede'),
+                               ('MaterialReferencia','offwhite'),('Especificacao','Branco liso fosco, sem frisos; produto/espessura pendentes')]:
+                obj.addProperty('App::PropertyString',prop,'Rodape');setattr(obj,prop,value)
+            apply_finish(obj.ViewObject)
+            room_groups[face['room']].addObject(obj)
+            piece = dict(objeto=name,face=face_id,ambiente=face['room'],parede=face['wall'],axis=face['axis'],
+                         inicio_mm=round(a,6),fim_mm=round(b,6),comprimento_mm=round(b-a,6),bbox=strip_box(face,a,b),
+                         altura_mm=80,espessura_nominal_mm=15,acabamento='branco liso fosco; nominal, a confirmar')
+            pieces.append(piece);totals[face['room']]['modelado_mm']+=b-a
+    doc.recompute()
+    for piece in pieces:
+        obj = doc.getObject(piece['objeto']);assert obj.Shape.isValid() and abs(obj.Height.Value-80)<1e-7
+        assert abs(obj.Shape.Volume-piece['comprimento_mm']*15*80)<.01
+    after = {n:signature(doc.getObject(n)) for n in before}
+    changed = [n for n in before if before[n]!=after[n]]
+    assert not changed,changed
+    assert expressions=={o.Name:str(o.ExpressionEngine) for o in doc.Objects if o.Name in names and hasattr(o,'ExpressionEngine')}
+    doc.save()  # processo GUI: mantém GuiDocument.xml e os materiais
+    signatures = OUT/'Assinaturas_geometricas.json'
+    signatures.write_text(json.dumps(dict(antes=before,depois=after),ensure_ascii=False),encoding='utf8')
+    report = dict(aprovacao='PENDENTE',source_sha256=original_sha,candidate_sha256=sha(candidate),
+                  fonte='Elias, 30/10/2026: rodapé de 8 cm em todo o projeto',altura_mm=80,
+                  espessura_nominal_mm=15,espessura_situacao='nominal, a confirmar',
+                  assinatura_completa_sha256=sha(signatures),objetos_anteriores=len(names),novos=sorted({o.Name for o in doc.Objects}-names),
+                  geometrias_proprias_preservadas=len(before),alterados=changed,expressoes_anteriores_preservadas=True,
+                  totais=totals,trechos=pieces,colisoes_iniciais=collisions,encontros_recortados=joins,
+                  regras=['Faces internas das paredes inteiras do CAD adjacentes aos pisos existentes.',
+                          'Sem parede virtual sob janelas, portas ou vergas. Sem perímetros de móveis como se fossem paredes.',
+                          'Interromper projeção de qualquer interseção exata, em toda a altura; margem computacional de 0,01 mm.',
+                          'Fechamento posterior P01/Peca249 e demais objetos existentes não são deslocados ou recortados.',
+                          'Juntas de topo nos cantos; banheiro/lavanderia com solução de borda e acabamento pendentes.'])
+    marker.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    csv_write(OUT/'Trechos.csv',[{k:v for k,v in row.items() if k!='bbox'} for row in pieces])
+    csv_write(OUT/'Colisoes_iniciais.csv',collisions)
+    csv_write(OUT/'Encontros.csv',joins)
+    App.closeDocument(doc.Name)
+    OWN_DOCUMENT = None
+    assert sha(source)==original_sha
+    (OUT/'modelagem_ok.txt').write_text('OK',encoding='utf8')
+
+
+try:
+    main()
+except Exception:
+    OUT.mkdir(parents=True,exist_ok=True)
+    (OUT/'erro_modelagem.txt').write_text(traceback.format_exc(),encoding='utf8')
+    if OWN_DOCUMENT is not None and OWN_DOCUMENT.Name in App.listDocuments():
+        App.closeDocument(OWN_DOCUMENT.Name)
+finally:
+    if OWNS_GUI:
+        QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)
