@@ -2,7 +2,6 @@
 ;(function(root){
  function headerState(compact,{width,y,delta,searchFocused}){
   if(y<=24||searchFocused)return false;
-  if(delta<0)return false;
   if(delta>0&&y>80)return true;
   return compact;
  }

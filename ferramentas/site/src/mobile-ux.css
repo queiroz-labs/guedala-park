@@ -16,7 +16,6 @@
 .mast-tab-strip.has-more-left::before,.mast-tab-strip.has-more-right::after{opacity:1}
 @media(max-width:760px){
 .mast.mast-compact{padding:3px 12px;gap:3px;min-height:0}
-.mast-compact .brand,.mast-compact #helpButton,.mast-compact #glossaryButton,.mast-compact .global-project-notice{display:none}
 .mast-compact .global-search-input{height:44px}
 .mast-compact .global-search input{height:42px;padding:8px 10px}
 .mast-compact nav{min-height:44px}
@@ -42,7 +41,8 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 
 /* Computador: ao rolar, o cabeçalho vira uma faixa só (abas + busca). */
 .mast.mast-compact{padding-block:6px;gap:10px;min-height:0;flex-wrap:nowrap;align-items:center}
-.mast-compact .brand small,.mast-compact #helpButton,.mast-compact #glossaryButton,.mast-compact .global-project-notice{display:none}
+@media(min-width:761px){.mast-compact .brand small,.mast-compact #helpButton,.mast-compact #glossaryButton,.mast-compact .global-project-notice{display:none}}
+.mast-compact .brand small{display:none}
 .mast-compact .mast-tab-strip{order:2;flex:1 1 0;width:auto}
 .mast-compact .global-search{order:3;flex:0 0 min(300px,28vw);width:auto}
 @media(min-width:761px) and (max-width:1099px){.mast-compact .brand{display:none}}
@@ -71,3 +71,16 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 .document-sections .more-reading{grid-column:1/-1}
 .document-sections #technicalArchive{margin-top:24px;border-top:1px solid var(--line,#d8dfd8)}
 .downloads-centre:not([open]){padding-bottom:0}
+
+/* Celular: marca, ajuda e aviso recolhem com transição suave; só voltam no topo da página. */
+@media(max-width:760px){
+.mast{transition:padding .3s ease,gap .3s ease}
+.mast .brand,.mast #helpButton,.mast #glossaryButton,.mast .global-project-notice{overflow:hidden;visibility:visible;transition:max-height .3s ease,opacity .22s ease,margin .3s ease,padding .3s ease,visibility 0s}
+.mast .brand{max-height:64px}
+.mast #helpButton,.mast #glossaryButton{max-height:48px}
+.mast .global-project-notice{max-height:44px}
+.mast.mast-compact{gap:0 8px;padding:3px 12px}
+.mast.mast-compact .mast-tab-strip{margin-top:4px}
+.mast.mast-compact .brand,.mast.mast-compact #helpButton,.mast.mast-compact #glossaryButton,.mast.mast-compact .global-project-notice{max-height:0;min-height:0!important;opacity:0;margin-block:0;padding-block:0;border-width:0;pointer-events:none;visibility:hidden;transition:max-height .3s ease,opacity .22s ease,margin .3s ease,padding .3s ease,visibility 0s .3s}
+}
+@media(prefers-reduced-motion:reduce){.mast,.mast .brand,.mast #helpButton,.mast #glossaryButton,.mast .global-project-notice{transition:none!important}}
