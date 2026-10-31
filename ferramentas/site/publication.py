@@ -158,7 +158,7 @@ def short_paragraphs(node):
         if not isinstance(child, Node):
             children.append(child)
             continue
-        if child.tag != 'p':
+        if child.tag != 'p' or list(child.find('img')):
             short_paragraphs(child)
             children.append(child)
             continue

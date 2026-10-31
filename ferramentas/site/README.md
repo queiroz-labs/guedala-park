@@ -90,6 +90,8 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 [Seis pares e PDFs](../../09_Referencias/README.md): galeria e Dia/Noite nos cartões de Cômodos (`app.js → DAY_NIGHT`). Botões, arraste e alternância para 3D; sem rede, aviso na foto.
 
+Iluminação → Luminárias nos ambientes usa `09_Referencias/Banheiro_noite.png`, com duas paredes verdes e gabinete atual; incluída nos documentos offline. O gerador preserva imagens ao dividir parágrafos. Demais imagens e seleção de luz preservadas; sem publicação.
+
 ## Navegação e documentos
 
 Downloads: `downloads-source.json` seleciona itens; `build_downloads_data.py` mede os bytes e publica em `docs/`. Catálogo fora do HTML evita autorreferência do ZIP. Entrada/Documentos usam o mesmo componente, com busca, revisão, formato, tamanho e situação. Pacotes têm escopos distintos; `downloads-manifest.json` lista destinos. `test_downloads.cjs` confere fontes, bytes, links e 8 imagens R03/SHA no CI.

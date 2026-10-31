@@ -50,7 +50,7 @@ Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos conven
 
 Nas gerais WiZ, o controle proposto permite apagar. No Elgin do quarto, o comando físico ainda depende da IL09. Cortar energia no interruptor convencional também apaga, mas impede religamento por Alexa/celular até restabelecer energia. Prever comando físico acessível; testar configuração e retorno de energia. Cozinha, lavanderia e banheiro mantêm liga/desliga comum.
 
-Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md), ilustrativa e anterior à mudança smart do quarto. [Estudo integrado](Estudo_integrado.md). CAD e site publicado preservados.
+Simulações visuais: [galeria](../../09_Referencias/Iluminacao_CB02/Galeria.md), ilustrativa; banheiro usa a imagem noturna atual, com duas paredes verdes e gabinete de 60 cm. Demais pranchas são anteriores à mudança smart do quarto. [Estudo integrado](Estudo_integrado.md). Atualização local, sem publicação.
 
 **Decisão comercial pendente para Elias:** após respostas IL02–IL09, A — manter os candidatos que cumprirem os requisitos e cotar o conjunto completo; B — solicitar substituição somente dos candidatos cuja compatibilidade/preço não fechar, preservando smart e comandos já definidos. Nenhuma seleção de produto inferida; antes das respostas, a ação é fechar dados, não repetir comparação nominal.
 

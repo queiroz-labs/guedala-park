@@ -137,6 +137,16 @@ def scan(folder, baseline=False):
 
 
 class GuardTests(unittest.TestCase):
+    def test_publisher_keeps_gallery_images_on_repeated_publication(self):
+        from publication import public_html
+        source = '<html><main><h1>Banheiro</h1><p><img src="../Banheiro_noite.png" alt="Banheiro atual"></p><p>Referência: <img src="outra.png" alt="Outra vista"> com luz acesa.</p></main></html>'
+        for _ in range(2):
+            source = public_html(source, '09_Referencias/Iluminacao_CB02/Galeria.md')
+            self.assertEqual(source.count('<img '), 2)
+            self.assertIn('src="../Banheiro_noite.png"', source)
+            self.assertIn('alt="Banheiro atual"', source)
+            self.assertIn('com luz acesa.', source)
+
     def test_adversarial_generated_html_is_rejected(self):
         bad = '<main><pre>python ferramentas/test.py --ci</pre><p>'+('palavra '*110)+'</p><section>'+('texto '*160)+'</section>'+('<a href="x">x</a>'*10)+'<table><tr><td>x</td></tr></table></main>'
         self.assertTrue({'codigo', 'comandos', 'caminhos', 'paragrafo', 'secao', 'links', 'tabela'} <= Audit(bad).errors)

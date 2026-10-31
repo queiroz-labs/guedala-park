@@ -126,6 +126,7 @@ ASSETS = [
     '03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/Grelhas_manutencao.svg',
 ]
 ASSETS += [LIGHT_IMAGES+name for name in ['01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
+ASSETS += ['09_Referencias/Banheiro_noite.png']
 ASSETS += [FABRICS+name for name in ['01_Cortinas_C1_C2_C3.png','02_Estofados_E1_E2_E3.png']]
 ASSETS += [FINISHES+name for name in ['04_R02_Banheiro_frentes.png','05_R02_Offwhite.png','06_R02_Madeiras.png']]
 ASSETS += [p for item in RELEASE.get('technicalDocuments',[])for p in item.get('files',[])]

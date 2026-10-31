@@ -25,6 +25,7 @@ def source_paths(release):
  paths += [CASTERS+n for n in ['Selecao.md','Selecao.json','Verificacao_CAD.json']]
  paths += [BATH+n for n in ['Fechamento.html','Escolhas.json','Situacao.json','Iluminacao_e_materiais.json','Luminarias_selecao_L02.html','Luminarias_selecao_L02.json','Verificacao_luminarias_L02.json','Hidraulica_cenarios.json','Verificacao_unioes_P19.json','P19_Unioes_nominais.csv','Espelheiro_P19_Unioes_NOMINAIS.FCStd']]
  paths += [LIGHT+n for n in ['Revisao_quarto_CB02.md','Composicao_CB02.json']]+[VISUAL+n for n in ['Galeria.md','01_Quarto_economico.png','02_Cozinha_lavanderia.png','03_Sala_escritorio.png','04_Banheiro_L02.png']]
+ paths += ['09_Referencias/Banheiro_noite.png']
  paths += [p for item in release.get('technicalDocuments',[])for p in [item['path']]+item.get('files',[])]
  paths += selected_sources(release,STUDY)
  paths=list(dict.fromkeys(paths))

@@ -122,7 +122,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum, 34 folgas ≤15 mm; proposta 10 mm sem mudar caixas; datum físico pendente.
 
-**Moodboard:** [moodboard de 28/10/2026](09_Referencias/README.md); painéis 4K, A3, galeria Dia/Noite. Lavanderia e banheiro corrigidos por medida (Elias, 29/10/2026: “Aprovo a segunda”).
+**Moodboard:** [painéis 4K, A3 e Dia/Noite](09_Referencias/README.md). Lavanderia/banheiro corrigidos por medida (Elias,29/10/2026: “Aprovo a segunda”); galeria de iluminação usa o banheiro noturno atual, local.
 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 

@@ -22,10 +22,8 @@ Sala com luz geral, pendente âmbar e LED quente acima da prateleira da TV. Escr
 
 ## Banheiro
 
-**Desatualizada em 30/10/2026:** a parede da janela ainda está clara; gabinete e papeleira também são anteriores. Usar apenas como comparação histórica de iluminação. [Imagens atuais e prompts](../../ferramentas/moodboard/README.md).
+Referência noturna atual: Sauge no fundo do box e na parede da janela, gabinete de 60 cm e papeleira à esquerda do gabinete. Teto e indireta3000K; espelho4000K, com três comandos separados. A disposição das luzes na imagem é ilustrativa; orientação das barras e montagem continuam em estudo.
 
-Firefly9605 redondo no teto; duas barras horizontais4000K no espelho. Teto e indireta3000K. Posição da barra inferior depende da torneira e da montagem real.
-
-![Banheiro com plafon redondo e duas barras horizontais no espelho](04_Banheiro_L02.png)
+![Banheiro atual à noite, com duas paredes verdes no box e gabinete atualizado](../Banheiro_noite.png)
 
 Os móveis e eletros secundários dos renders anteriores podem diferir do CAD atual. As imagens não alteram o projeto técnico. [Revisão econômica CB02](../../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md) · [Composição de componentes](../../03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Composicao_CB02.json).
