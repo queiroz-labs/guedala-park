@@ -1,0 +1,216 @@
+"""GUI: três pisos e duas transições em candidato externo, sem promover R54.
+
+GP_PISOS_DIR aponta à saída externa; GP_REPO ao repositório. A fonte padrão
+é o R54 original. GP_PISOS_FONTE permite encadear macros em outra cópia externa.
+O contorno é o envelope interno nativo, não a matriz gráfica do site.
+"""
+import FreeCAD as App, FreeCADGui as Gui, Part
+from PySide import QtCore
+from pathlib import Path
+import hashlib, itertools, json, os, shutil, traceback, zipfile
+
+ROOT=Path(os.environ['GP_REPO']).resolve()
+OUT=Path(os.environ['GP_PISOS_DIR']).resolve()
+OLD=['Peca']+[f'Peca{i:03d}' for i in range(1,9)]
+# Faces internas externas nativas; inclui paredes internas, exclui faixas de fachada.
+# Fonte independente dos pisos novos: cotas de ParedesInteiras e nove pisos R54.
+CONTOUR=[(2450,0),(4850,0),(4850,1000),(7400,1000),(7400,3950),
+         (4850,3950),(4850,7000),(0,7000),(0,1850),(2450,1850)]
+
+
+def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def global_shape(o):
+    s=o.Shape.copy()
+    s.Placement=o.getGlobalPlacement().multiply(o.Placement.inverse()).multiply(s.Placement)
+    return s
+
+
+def signature(o):
+    s=global_shape(o);b=s.BoundBox
+    volume=sum(q.Volume for q in s.Solids)
+    if abs(volume)>1e-9:
+        center=sum((q.CenterOfMass*q.Volume for q in s.Solids),App.Vector())/volume
+    elif s.Faces and s.Area>0:
+        center=sum((q.CenterOfMass*q.Area for q in s.Faces),App.Vector())/s.Area
+    else:center=b.Center
+    return dict(volume=round(s.Volume,6),area=round(s.Area,6),faces=len(s.Faces),
+                vertices=len(s.Vertexes),solidos=len(s.Solids),valida=s.isValid(),
+                caixa=[round(v,6) for v in (b.XMin,b.YMin,b.ZMin,b.XMax,b.YMax,b.ZMax)],
+                centro=[round(v,6) for v in (center.x,center.y,center.z)],
+                placement=[round(v,9) for v in o.getGlobalPlacement().Matrix.A])
+
+
+def appearance(o):
+    v=o.ViewObject
+    return dict(visivel=v.Visibility,cor=list(v.ShapeColor) if hasattr(v,'ShapeColor') else None,
+                transparencia=v.Transparency if hasattr(v,'Transparency') else None)
+
+
+def prism(rect):
+    x,y,w,d=rect
+    return Part.makeBox(w,d,50,App.Vector(x,y,-50))
+
+
+def fuse(shapes):
+    shapes=list(shapes)
+    return shapes[0].multiFuse(shapes[1:]).removeSplitter() if len(shapes)>1 else shapes[0]
+
+
+def in_polygon(x,y):
+    inside=False
+    for (a,b),(c,d) in zip(CONTOUR,CONTOUR[1:]+CONTOUR[:1]):
+        if (b>y)!=(d>y) and x<(c-a)*(y-b)/(d-b)+a:inside=not inside
+    return inside
+
+
+def grid_acceptance(floors,walls):
+    """Cada célula de 25 mm é subdividida em TODAS as arestas do BRep.
+
+    Como os pisos e as paredes térreas são ortogonais, a ocupação é constante
+    em cada subcélula. Detecta até frestas de 1 mm; não só o centro da malha.
+    Domínio CONTOUR fixo; nenhum polígono de piso candidato define o interior.
+    """
+    for shape in [*floors,*walls]:
+        for e in shape.Edges:
+            p,q=e.Vertexes[0].Point,e.Vertexes[-1].Point
+            assert sum(abs(v)>1e-6 for v in (p.x-q.x,p.y-q.y,p.z-q.z))<=1, 'Geometria não ortogonal'
+    xs=set(range(0,7401,25));ys=set(range(0,7001,25))
+    for shape in [*floors,*walls]:
+        for v in shape.Vertexes:
+            if 0<=v.Point.x<=7400:xs.add(round(v.Point.x,6))
+            if 0<=v.Point.y<=7000:ys.add(round(v.Point.y,6))
+    xs.update(p[0] for p in CONTOUR);ys.update(p[1] for p in CONTOUR)
+    xs=sorted(xs);ys=sorted(ys)
+    boxes=[s.BoundBox for s in floors];wb=[s.BoundBox for s in walls]
+    def contains(s,b,x,y,z):
+        return b.XMin-1e-6<=x<=b.XMax+1e-6 and b.YMin-1e-6<=y<=b.YMax+1e-6 and s.isInside(App.Vector(x,y,z),1e-7,True)
+    missing={};cells=set();covered=0.;wall_area=0.;overlap_area=0.
+    for x0,x1 in zip(xs,xs[1:]):
+        x=(x0+x1)/2
+        for y0,y1 in zip(ys,ys[1:]):
+            y=(y0+y1)/2
+            if not in_polygon(x,y):continue
+            key=(int(x//25)*25,int(y//25)*25);cells.add(key);area=(x1-x0)*(y1-y0)
+            nf=sum(contains(s,b,x,y,-25) for s,b in zip(floors,boxes))
+            nw=any(contains(s,b,x,y,1) for s,b in zip(walls,wb))
+            if not nf and not nw:missing[key]=missing.get(key,0)+area
+            if nf:covered+=area
+            if nw:wall_area+=area
+            if nf and nw:overlap_area+=area
+    overlaps=[]
+    for i,j in itertools.combinations(range(len(floors)),2):
+        volume=floors[i].common(floors[j]).Volume
+        if volume>.01:overlaps.append(dict(a=i,b=j,volume_mm3=round(volume,6)))
+    return dict(passo_mm=25,metodo='subcélulas exatas nas arestas ortogonais do BRep',
+                contorno_mm=CONTOUR,celulas_interiores=len(cells),
+                celulas_sem_piso_nem_parede=[dict(x_mm=x,y_mm=y,area_sem_cobertura_mm2=round(a,6)) for (x,y),a in sorted(missing.items())],
+                area_sem_cobertura_m2=round(sum(missing.values())/1e6,8),
+                area_piso_m2=round(covered/1e6,8),area_parede_m2=round(wall_area/1e6,8),
+                area_piso_sob_parede_m2=round(overlap_area/1e6,8),sobreposicoes=overlaps)
+
+
+def main():
+    Gui.getMainWindow().hide()
+    assert ROOT not in OUT.parents and OUT!=ROOT
+    source=Path(os.environ.get('GP_PISOS_FONTE',str(ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd'))).resolve()
+    candidate=OUT/'Guedala_Park_Piso_candidato.FCStd'
+    assert source.exists() and source!=candidate
+    OUT.mkdir(parents=True,exist_ok=True)
+    if candidate.exists():raise FileExistsError('Candidato já existe; não sobrescrever. Escolha outra saída externa.')
+    shutil.copy2(source,candidate)
+    doc=App.openDocument(str(candidate))
+    assert not doc.getObject('Piso_vinilico')
+    guarded={str(p):sha(p) for p in (source,ROOT/'02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd',
+                                    ROOT/'02_Modelo_3D/Base_verificacao.json.gz',ROOT/'ferramentas/site/current_release.json')}
+    before={o.Name:signature(o) for o in doc.Objects if o.isDerivedFrom('Part::Feature') and not o.Shape.isNull()}
+    appearances={o.Name:appearance(o) for o in doc.Objects}
+    expressions={o.Name:str(o.ExpressionEngine) for o in doc.Objects if hasattr(o,'ExpressionEngine')}
+    positions={o.Name:list(o.getGlobalPlacement().Matrix.A) for o in doc.Objects if hasattr(o,'getGlobalPlacement')}
+    names={o.Name for o in doc.Objects}
+    originals=[global_shape(doc.getObject(n)) for n in OLD]
+    walls=[global_shape(o) for o in doc.getObject('ParedesInteiras').Group if o.Shape.BoundBox.ZMin<1e-6]
+    # Todas essas fontes são caixas sem recortes na faixa de 0..80 mm.
+    assert all(s.isValid() and len(s.Solids)==1 and abs(s.Volume-s.BoundBox.XLength*s.BoundBox.YLength*s.BoundBox.ZLength)<.01 for s in walls)
+    projected=[prism((b.XMin,b.YMin,b.XLength,b.YLength)) for b in [s.BoundBox for s in walls]]
+    points=[App.Vector(x,y,-50) for x,y in CONTOUR]
+    domain=Part.Face(Part.makePolygon(points+[points[0]])).extrude(App.Vector(0,0,50))
+    usable=domain.cut(fuse(projected)).removeSplitter()
+    bath=prism((2760,4050,2090,1240))
+    laundry=prism((3560,5390,1290,1610))
+    transition_laundry=prism((3520,5390,40,1610))
+    transition_bath=prism((2850,3950,700,100))
+    vinyl=usable.cut(fuse([bath,laundry,transition_laundry,transition_bath])).removeSplitter()
+    shapes=[vinyl,laundry,bath,transition_laundry,transition_bath]
+    assert all(s.isValid() and len(s.Solids)==1 and s.isClosed() for s in shapes)
+    assert all(abs(s.BoundBox.ZMin+50)<1e-7 and abs(s.BoundBox.ZMax)<1e-7 for s in shapes)
+    assert abs(usable.Volume-sum(s.Volume for s in shapes))<.01
+    acceptance=grid_acceptance(shapes,walls)
+    assert not acceptance['celulas_sem_piso_nem_parede'],acceptance
+    assert not acceptance['sobreposicoes'] and acceptance['area_piso_sob_parede_m2']==0,acceptance
+    negative=grid_acceptance(originals,walls)
+    assert negative['celulas_sem_piso_nem_parede'] and negative['sobreposicoes']
+    # Controles negativos da prova: vão de 1 mm e penetração de 1 mm.
+    slit=vinyl.cut(prism((1000,3000,1,100))).removeSplitter()
+    slit_test=grid_acceptance([slit,*shapes[1:]],walls)
+    assert slit_test['area_sem_cobertura_m2']>=.0001-1e-9
+    small_overlap=vinyl.common(prism((1000,3000,1,100)))
+    assert small_overlap.Volume>4999.99
+    groups={}
+    for name in ('Piso_vinilico','Piso_lavanderia','Piso_banheiro'):
+        groups[name]=doc.addObject('App::DocumentObjectGroup',name)
+        doc.getObject('ApartamentoR34').addObject(groups[name])
+    specs=[('Piso_vinilico','Vinilico_continuo','vinyl','Vinílico Olmo · contínuo',originals[0]),
+           ('Piso_lavanderia','Lavanderia_Iseo_Marfim','ivory','Eliane Iseo Marfim · área molhada',originals[7]),
+           ('Piso_banheiro','Banheiro_Travertino_Reale_Greige','greige','Porcelanato Travertino Reale Greige',originals[8]),
+           ('Piso_lavanderia','Soleira_cozinha_lavanderia','ivory','Transição nominal · produto/perfil/junta pendentes',None),
+           ('Piso_banheiro','Soleira_banheiro','vinyl','Sob folha: vinílico como hipótese visual; decisão pendente',None)]
+    colors={'vinyl':(.788235,.72549,.615686),'ivory':(.862745,.831373,.764706),'greige':(.776471,.737255,.666667)}
+    added=[]
+    for shape,(group,name,material,label,_) in zip(shapes,specs):
+        o=doc.addObject('Part::Feature',name);o.Label=label;o.Shape=shape
+        for prop,value in [('MaterialReferencia',material),('TipoPeca','Piso nominal'),('Especificacao',label),
+                           ('Situacao','Candidato; produto/perfil/espessura de junta pendentes')]:
+            o.addProperty('App::PropertyString',prop,'Pisos');setattr(o,prop,value)
+        o.ViewObject.ShapeColor=colors[material];o.ViewObject.LineColor=(.45,.42,.36)
+        o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.Transparency=0
+        groups[group].addObject(o);added.append(o)
+    for n in OLD:doc.getObject(n).ViewObject.Visibility=False
+    doc.recompute()
+    changed=[n for n in before if before[n]!=signature(doc.getObject(n))]
+    assert not changed,changed
+    assert expressions=={o.Name:str(o.ExpressionEngine) for o in doc.Objects if o.Name in names and hasattr(o,'ExpressionEngine')}
+    assert positions=={o.Name:list(o.getGlobalPlacement().Matrix.A) for o in doc.Objects if o.Name in names and hasattr(o,'getGlobalPlacement')}
+    unexpected=[n for n in names if appearance(doc.getObject(n))!={**appearances[n],**({'visivel':False} if n in OLD else {})}]
+    assert not unexpected,unexpected
+    App.setActiveDocument(doc.Name);doc.save()  # GUI, nunca FreeCADCmd
+    assert 'GuiDocument.xml' in zipfile.ZipFile(candidate).namelist()
+    complete=OUT/'Assinaturas_geometricas.json'
+    complete.write_text(json.dumps(dict(antes=before,depois={n:signature(doc.getObject(n)) for n in before}),ensure_ascii=False),encoding='utf8')
+    result=dict(aprovacao='PENDENTE',candidato=str(candidate),source=str(source),
+                source_sha256=guarded[str(source)],candidate_sha256=sha(candidate),
+                guardados=guarded,geometrias_proprias_preservadas=len(before),posicoes_anteriores_preservadas=True,
+                expressoes_anteriores_preservadas=True,aparencia_anterior_alterada_somente_visibilidade=OLD,
+                assinatura_completa_sha256=sha(complete),removidos=[],antigos_ocultos=OLD,
+                novos=sorted({o.Name for o in doc.Objects}-names),
+                pisos=[dict(objeto=o.Name,grupo=spec[0],material=spec[2],area_m2=round(o.Shape.Volume/50/1e6,8),**signature(o)) for o,spec in zip(added,specs)],
+                aceite=acceptance,antes=negative,controle_negativo_fresta_1mm=slit_test['area_sem_cobertura_m2'],
+                controle_negativo_penetracao_1mm_mm3=small_overlap.Volume,
+                verde_presente=bool(doc.getObject('RevestJanelaBoxR55')),
+                rodape_presente=bool(doc.getObject('Rodape_8cm')))
+    (OUT/'Pisos.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    App.closeDocument(doc.Name)
+    assert all(sha(Path(p))==h for p,h in guarded.items())
+    (OUT/'modelagem_ok.txt').write_text('OK',encoding='utf8')
+
+
+try:main()
+except Exception:
+    OUT.mkdir(parents=True,exist_ok=True)
+    (OUT/'erro_modelagem.txt').write_text(traceback.format_exc(),encoding='utf8')
+    # Fecha só a cópia desta execução, sem diálogo de salvar após uma falha.
+    for document in list(App.listDocuments().values()):
+        if Path(document.FileName).resolve()==OUT/'Guedala_Park_Piso_candidato.FCStd':
+            App.closeDocument(document.Name)
+finally:QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)
