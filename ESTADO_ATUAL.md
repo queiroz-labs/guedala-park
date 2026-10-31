@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 30/10/2026; READMEs.
+Vigente 31/10/2026; READMEs.
 
 ## O projeto
 
@@ -108,17 +108,18 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Piso/rodapé:** [candidato externo](02_Modelo_3D/README.md#candidato-piso-e-rodapé): 3 pisos, rodapé 80/15 mm nominal; 106 cenários; completo OK; aprovação pendente. R54/base intactos.
+**Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
+
+**Nível/vãos:** [estudo](02_Modelo_3D/README.md#estudo-de-nível-e-vãos), Z0/2570 nominal, nove cortes; completo OK, pendente. R54/base intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
 ## Como trabalhar nesta pasta
 
-- [AGENTS](AGENTS.md): status/README/busca no Registro. [Mapa](README.md).
-- Abertura: PS1 prefere candidato piso/rodapé da base atual; `-Vigente` abre oficial. Usa o FreeCAD mais novo instalado.
-- [Verificações](ferramentas/README.md): geral pré-commit; completo após abrir CAD; clone limpo `--ci` pré-push; commit por assunto.
-- Não salvar/fechar CAD por macro nem sobrescrevê-lo em consulta; pendências de campo/oficina: registrar e seguir.
-- R45–R51 e compatibilizações: git, tag `antes-reorganizacao`.
+- [Regras](AGENTS.md) · [verificações](ferramentas/README.md) · [mapa](README.md).
+- PS1 abre candidato piso/rodapé da base atual; `-Vigente` abre o oficial no FreeCAD mais recente.
+- CAD: não salvar/fechar por macro nem sobrescrever em consulta. Campo/oficina: registrar pendências e seguir.
+- Histórico R45–R51: Git, tag `antes-reorganizacao`.
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum, 34 folgas ≤15 mm; proposta 10 mm sem mudar caixas; datum físico pendente.
 

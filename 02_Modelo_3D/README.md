@@ -2,6 +2,40 @@
 
 Modelo vigente: **R54**, [Guedala_Park_R54_Berlin.FCStd](Guedala_Park_R54_Berlin.FCStd). Base e arquivo vigente preservados; o relatório abaixo confere o candidato externo. SHA256 em [ferramentas/site/current_release.json](../ferramentas/site/current_release.json). É o único `.FCStd` permitido nesta pasta.
 
+## Estudo de nível e vãos
+
+**Aprovação PENDENTE.** Pedido de Elias, 31/10/2026, nesta conversa: nível Z=0, altura nominal **2570 mm**, vãos por `Part::Cut`, somente em estudo externo. Esse parâmetro não substitui as alturas vigentes de 2600/2500 mm. Partida: cópia do **candidato de piso/rodapé da base atual**, preservando seus pisos e 54 trechos de rodapé. Verde da janela continua separado.
+
+Arquivo salvo pelo comando de documento do FreeCAD MCP na instância gráfica: `%LOCALAPPDATA%/Temp/guedala_vaos_estudo/Composicao/Guedala_Park_Estudo_vaos.FCStd`. Evidências e script de reprodução ficam nessa pasta temporária; não são arquivos publicados.
+
+### Tabela dos envelopes nominais de corte
+
+Fontes: [P01 oficial, página única](../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), para localização dos nove vãos; [planta mobiliada](../03_Ambientes/Planta_mobiliada/README.md), para contexto. **Nenhuma cota de vão abaixo está explícita no PDF.** Números extraídos do R54, não medidos na imagem nem no imóvel. X/Y em mm globais do CAD, canto mínimo; largura acompanha o eixo indicado. Parede = caixas originais limítrofes.
+
+| ID/ambiente | Parede (`Peca…`) | X/Y mm | Eixo/largura mm | Altura mm | Peitoril mm | Fonte R54 (`Peca…`) |
+|---|---|---:|---:|---:|---:|---|
+| JQ Quarto | 009/011 | 5600/900 | X/1200 | 1130 | 920 | 063+064 |
+| JE Escritório | 019/021 | 3100/−100 | X/1150 | 1130 | 920 | 065+066 |
+| JS Sala | 031/033 | 680/1750 | X/1390 | 1130 | 920 | 067+068 |
+| JL Lavanderia | 041/043 | 4850/5690 | Y/1060 | 1130 | 920 | 069+070 |
+| JB Banheiro | 045/047 | 4850/4350 | Y/400 | 1130 | 920 | 071+072 |
+| PQ Quarto | 057/059/061 | 3650/3150 | Y/750 | 2050 | 0 | lacuna + folha 074 |
+| PE Escritório | 027/029 | 2650/2950 | X/750 | 2050 | 0 | lacuna + folha 073 |
+| PB Banheiro | 053/055 | 2850/3950 | X/700 | 2050 | 0 | lacuna + folha 075 |
+| PI Entrada/cozinha | 035/037 | −100/6150 | Y/750 | 2050 | 0 | lacuna + folha 076 |
+
+**Todos nominais.** Nas janelas, o corte inclui vidro de 1100 mm (Z=950..2050) e soleira CAD de 30 mm (Z=920..950); 920/1130 descrevem essa envoltória, sem definir vão bruto ou esquadria. Espessura atravessada: 100 mm nominal. Portas: largura da lacuna, altura da folha; folgas/batentes não acrescentados.
+
+### Construção e pendências
+
+As 27 caixas já deixam lacunas em planta; cortar diretamente nelas removeria zero material. No estudo, continuam referenciadas e ocultas, com geometria, posição e expressões preservadas. Uma união paramétrica acrescenta nove recomposições e 23 prolongamentos até Z=2570; nove `Part::Cut` encadeados abrem os envelopes da tabela. A representação baixa `ParedesCortadas` também fica oculta para evitar duplicação. Pavimento BIM `BuildingPart`, `IfcType=Building Storey`, Z=0, altura 2570 nominal.
+
+Pendências, sem refinamento: qual o vão bruto acabado e as folgas de marco de cada abertura? A entrada tem lacuna CAD de **750 mm** e folha 076 de **850 mm**; qual largura/posição é correta no levantamento? Confirmar peitoris, alturas, espessuras e interface com teto/RT antes de incorporar. O estudo conserva a lacuna existente, sem resolver essa divergência por hipótese.
+
+**Completo OK:** `--completo --relatorio --candidato` no clone local; 106 cenários, nenhuma invariante/cenário falhou e nenhuma colisão nova. Os 1129 pares de caixas novas/maiores passaram na interseção exata. R54, base, regras e relatório de piso/rodapé preservados. Aprovação **PENDENTE**.
+
+**Δ sobre piso/rodapé:** 5905→5958 objetos, **53 novos / 57 alterados / 0 removidos**. Alterados: 54 visibilidades + três agregados (a associação do nível está em `ApartamentoR34`); nenhuma forma própria, posição ou expressão original mudou. As **67 representações de pisos/soleiras/rodapés** (inclui agregados) coincidem em volume, área, caixa, faces e sólidos com o retrato da origem. Relatório externo: `Relatorio_estudo_vaos.md`; Δ completo em `Delta_geometrico.json`, junto ao estudo.
+
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
 ## Candidato piso e rodapé
@@ -34,58 +68,32 @@ Fonte: Elias,27/10/2026: “Aplicar à R52 e às fichas as decisões já tomadas
 
 ## Triagem das formas inválidas — 25/10/2026
 
-**Geometria própria válida: zero peças inválidas nas 1.449 conferidas por Elias em uma cópia do modelo (25/10/2026, comunicação nesta revisão).** Os 12 casos são contêineres (`App::Part` e grupos), sem forma própria gravada; o FreeCAD monta suas formas a partir dos filhos. Ferragens B-spline de fabricante, como travas e corpos de dobradiça, podem ficar inválidas nessa transformação, mesmo com determinante 1. São formas montadas inválidas, informativas, sem evidência de peças defeituosas. [Dados por objeto, fonte e ficha](Triagem_geometria.json) · [script de leitura](../ferramentas/verificar_modelo/triar_geometria.py).
+**Zero peças inválidas nas 1.449 formas próprias conferidas por Elias (25/10/2026, comunicação nesta revisão).** Doze contêineres têm representação montada inválida, sem evidência de peça fisicamente defeituosa. Desde `3cdf795`, o verificador separa `Part::Feature` (próprias) de contêineres informativos; contagens montadas se sobrepõem na hierarquia. [Dados e rastreio completos](Triagem_geometria.json) · [triagem](../ferramentas/verificar_modelo/triar_geometria.py).
 
-Desde o commit `3cdf795`, o verificador só reprova validade geométrica de peças com geometria própria (`Part::Feature`, incluindo tipos derivados). Os 12 contêineres ficam em `agregados_invalidos`; não entram em `invalidos` ou `invalidos_novos`. A tabela registra sólidos da representação montada, com sobreposição entre níveis da hierarquia; seus números não contam peças defeituosas.
-
-| Objeto | Sólidos com `isValid() == False` no agregado | Rastreio |
+| Contêiner | Sólidos inválidos montados | Origem |
 |---|---:|---|
-| `Ambiente_quarto` | 6 | Agregado do quarto; consultar P01/P02 abaixo |
-| `Ambiente_cozinha` | 7 | Agregado da cozinha; consultar P06/P07 abaixo |
-| `ApartamentoR34` | 13 | Agregado do apartamento; incorpora os anteriores |
-| `Modulo` | 2 | Duas travas T51.7601 do guarda-roupa |
-| `Modulo001` | 4 | Quatro corpos das dobradiças do canto |
-| `CantoSimplesR04` | 8 | Oito corpos das dobradiças do canto |
-| `Modulo005` | 6 | Seis travas/acoplamentos T51.7601 das três gavetas |
-| `Modulo006` | 1 | GrelhaInferiorR31 |
-| `DobradicaSimplesR04` | 1 | Corpo da 71B3550, porta A, nível 51 |
-| `DobradicaSimplesR001` | 1 | Corpo da 71B3550, porta A, nível 255 |
-| `DobradicaSimplesR002` | 3 | Três corpos da 71B3550, porta B, nível 51 |
-| `DobradicaSimplesR003` | 3 | Três corpos da 71B3550, porta B, nível 255 |
+| `Ambiente_quarto` | 6 | P01/P02 |
+| `Ambiente_cozinha` | 7 | P06/P07 |
+| `ApartamentoR34` | 13 | Agregação dos ambientes |
+| `Modulo` | 2 | Travas T51.7601 do roupeiro |
+| `Modulo001` | 4 | Corpos das dobradiças do canto |
+| `CantoSimplesR04` | 8 | Dobradiças agregadas |
+| `Modulo005` | 6 | Travas/acoplamentos das gavetas |
+| `Modulo006` | 1 | Grelha inferior |
+| `DobradicaSimplesR04`, `DobradicaSimplesR001` | 1 cada | Corpo 71B3550, porta A, níveis 51/255 |
+| `DobradicaSimplesR002`, `DobradicaSimplesR003` | 3 cada | Corpo 71B3550, porta B, níveis 51/255 |
 
-As fontes individuais rastreadas passam em `isValid()`, mas apresentam alertas em `check(True)`. A validade muda conforme a representação/transformação: por exemplo, o contêiner do canto tem oito sólidos inválidos em sua forma montada, quatro ao ser agregado em `Modulo001`. Esses resultados descrevem a representação montada e não defeitos das fontes gravadas. O JSON mantém os contextos distintos e o rastreio hierárquico pelo módulo quando necessário. Não usar o volume do contêiner como comprovação de volume de madeira, integridade de recortes ou resultado de booleanas.
-
-**Impacto nas fichas:** 85 fontes de painéis de P01/P02/P06/P07 existem e têm `isValid() == True`. A checagem BOP foi aplicada às 32 fontes de P06/P07; 26 passaram e seis têm os alertas abaixo. As três dimensões dos 32 envelopes locais coincidem com as fichas dentro de 0,02 mm. Essa coincidência não valida recortes ou usinagem.
-
-| Prioridade | Fonte da peça | Resultado ampliado |
-|---|---|---|
-| Pcurva | `MontagemG2R020`, frente da G2 | `GeomAbs_C0` e `InvalidCurveOnSurface`; ver quantificação e limites na análise abaixo |
-| Conferência | `MontagemG2R019`, fundo da G2 | `GeomAbs_C0`; conferir o BRep antes de operações geométricas |
-| Conferência | `ReguaInferiorBaixaR31`, `ReguaInferiorAltaR31`, `ReguaSuperiorBaixaR31`, `ReguaSuperiorAltaR31` | `GeomAbs_C0`; conferir as quatro réguas antes de operações geométricas |
-
-`GeomAbs_C0` sozinho é um alerta de continuidade para o algoritmo BOP, não prova de chapa fisicamente defeituosa. `InvalidCurveOnSurface` é uma pendência geométrica adicional. Travas, corpos de dobradiças e a grelha inferior também apresentam alertas BOP; não foram confundidos com os painéis de corte. A triagem não repara ou libera fabricação.
-
-A verificação completa registrada passou com 5.832 objetos e 106 cenários de movimento. A base vigente registra zero peças inválidas e 12 contêineres informativos; isso não equivale a aprovação BOP. A triagem não recalculou nem salvou; o verificador completo aplicou e restaurou os movimentos apenas em memória. Esta correção documental não abriu nem alterou o `.FCStd` e não atualizou a base.
+As fontes individuais passam em `isValid()`, mas algumas têm alertas em `check(True)`. A validade varia com representação/transformação, mesmo com determinante 1; não usar volumes agregados para provar madeira, integridade ou recortes. As 85 fontes de painéis P01/P02/P06/P07 são válidas; de 32 fontes P06/P07 testadas em BOP, 26 passaram. Envelopes locais coincidem com as fichas dentro de 0,02 mm; isso não valida usinagem.
 
 ## Análise dos alertas BOP — 25/10/2026
 
-Escopo: operações e peças do projeto. **Os arquivos STEP recebidos e os corpos de ferragens fornecidos ficaram fora deste aprofundamento.** G2 foi checada somente na representação já incorporada ao CAD, sem abrir ou alterar sua fonte STEP. [Ensaios detalhados](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py).
+Escopo: operações e peças próprias; arquivos STEP e ferragens recebidas preservados. [Ensaios, parâmetros e ressalvas](Analise_bop.json) · [script](../ferramentas/verificar_modelo/analisar_bop.py).
 
-No OCCT 7.8.1 local, `GeomAbs_C0` consulta a continuidade da curva/superfície de suporte; não significa simplesmente um encontro de faces a 90°. `InvalidCurveOnSurface` compara a curva 3D com a curva na superfície e acusa diferença maior que a tolerância da aresta. [Código oficial, testes de continuidade e de pcurva](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_8_1/src/BOPAlgo/BOPAlgo_ArgumentAnalyzer.cxx#L775).
-
-| Caso | Evidência | Interpretação e encaminhamento |
-|---|---|---|
-| Quatro réguas P07 e `GrelhaInferiorR31` | As cinco peças do estudo R02 passam no BOP, com planos/cilindros e linhas/círculos. Espelhar a cópia com `transformGeometry()` converte tudo em B-splines e reproduz C0; com `transformShape()` a cópia continua analítica e passa | Causa reproduzida no fluxo do projeto; não há evidência de peça fisicamente defeituosa por esse C0. Preservar a geometria analítica nas isometrias |
-| `MontagemG2R019`, fundo | Apenas C0; três cortes centrais válidos, sem sobreposição dos resultados | Alerta de representação, sem falha operacional nos controles feitos; conservar a fonte recebida |
-| `MontagemG2R020`, frente | C0 e `InvalidCurveOnSurface` persistem. Na amostragem das duas representações por aresta, o maior desvio foi cerca de **1,013 × 10⁻⁷ mm**, sem ultrapassar a tolerância da respectiva aresta nos pontos amostrados. Os três cortes centrais produziram formas válidas | A amostragem não reproduziu a excedência acusada pelo teste BOP e não certifica o máximo contínuo. Manter a ressalva técnica para novas booleanas; não foi demonstrado defeito dimensional de fabricação nem há fundamento aqui para mudar medidas |
-
-Nas cinco peças P07 comparadas, fonte e representação atual, alinhadas por translação no ensaio, deram volume zero nas diferenças em ambos os sentidos. As peças são simétricas no espelhamento testado. Isso não é uma certificação geral de equivalência ou uma correção já aplicada ao CAD. A diferença do valor bruto de `Volume` foi de até **4,965 mm³** nas réguas e **0,754 mm³** na grelha; não confundir essa diferença numérica da representação com material realmente removido.
-
-Os **18 cortes sintéticos** passaram; resíduos máximos **5,523 mm³/0,002651%**, sem prova de usinagem. `fix` e `removeSplitter` conservaram volumes e alertas. [Planos, parâmetros e resultados](Analise_bop.json).
-
-A correção candidata para o fluxo próprio está nas cópias isométricas de [consolidar_r31.py](../ferramentas/componentes/Consolidacao/consolidar_r31.py): preservar `Placement` ou usar `transformShape()` para translações, rotações e espelhamentos, em vez da conversão geral de geometria. O ensaio isolado com o espelho passou nas cinco fontes analíticas. Isso não autoriza substituir chamadas que realmente precisem de escala não uniforme, nem executar o consolidador antigo sobre a R52.
-
-R52, base e estudo R02 ficaram com os mesmos hashes. A verificação completa repetida passou com os 106 cenários. Nenhum reparo foi gravado no modelo.
+- OCCT 7.8.1: `GeomAbs_C0` consulta continuidade do suporte, sem provar defeito físico. [Código oficial](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_8_1/src/BOPAlgo/BOPAlgo_ArgumentAnalyzer.cxx#L775).
+- `ReguaInferiorBaixaR31`, `ReguaInferiorAltaR31`, `ReguaSuperiorBaixaR31`, `ReguaSuperiorAltaR31` e `GrelhaInferiorR31`: `transformGeometry()` reproduziu C0 ao converter em B-splines; `transformShape()` preservou formas analíticas válidas. Diferenças bidirecionais de volume zero nos cinco espelhos; diferenças brutas até 4,965/0,754 mm³ não equivalem a material removido.
+- `MontagemG2R019` (fundo): C0, três cortes válidos. `MontagemG2R020` (frente): C0 + `InvalidCurveOnSurface`; desvio amostrado até ~1,013 × 10⁻⁷ mm, dentro das tolerâncias amostradas, sem certificar máximo contínuo. Três cortes válidos; ressalva para novas booleanas preservada.
+- 18 cortes sintéticos passaram; resíduos até 5,523 mm³/0,002651%, sem prova de usinagem. `fix`/`removeSplitter` conservaram alertas.
+- [Consolidador candidato](../ferramentas/componentes/Consolidacao/consolidar_r31.py): preservar geometria analítica nas isometrias; não generalizar a escalas não uniformes nem executar o consolidador antigo sobre R52. R52/base/estudo R02 preservados; completo histórico OK, 106 cenários. Nenhum reparo gravado.
 
 ## Abrir e salvar com segurança
 
