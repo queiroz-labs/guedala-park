@@ -331,7 +331,7 @@ def public_html(content, path, title=None):
 
     def prose(text):
         text = text.replace('`', '')
-        text = re.sub(r'FreeCADCmd', 'FreeCAD em modo texto', text)
+        text = text.replace('FreeCADCmd', 'FreeCAD em modo texto')
         text = PATH.sub('', text)
         def replace(m):
             if m[0] not in codes:
