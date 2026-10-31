@@ -7,6 +7,7 @@ const state={lighting:'after',room:'all',view:'iso',angle:3.4,tilt:.92,side:'eas
 function diningClearance(st=state){const length=st.table==='compact'?110:170,end=465+length/2,centerProjection=st.table==='compact'?22.5:st.dining==='use'?55:21;return {length,start:465-length/2,end,tableToFridge:615.25-end,entryWidth:85,centerProjection,lateralGap:117.5-centerProjection};}
 const cm=n=>String(Math.round(n*100)/100).replace('.',',');
 let nodes=[],hitFaces=[],lastProject=null,renderQueued=false,renderDirty=false,nodeSequence={},motion=null;
+const dragSign={h:1,v:1};try{const m=JSON.parse(localStorage.getItem('guedalaDrag')||'{}');dragSign.h=m.h===-1?-1:1;dragSign.v=m.v===-1?-1:1;}catch(_){}
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
 const WORLD_SCENES=new WeakMap();
 function moveCamera(){cameraMoving=true;clearTimeout(cameraSettleTimer);cameraSettleTimer=setTimeout(()=>{cameraMoving=false;requestRender();},180);}
@@ -476,7 +477,7 @@ function saveHTML(){if(window.GUEDALA_WEB){const a=document.createElement('a');a
 // Pointer gestures: drag orbit, shift/right-drag pan, pinch zoom, keyboard alternatives.
 const canvas=$('scene'),pointers=new Map();let lastPoint=null,down=null,pinchDistance=0;
 canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});lastPoint={x:e.clientX,y:e.clientY};down={x:e.clientX,y:e.clientY,moved:false};if(pointers.size===2){let p=[...pointers.values()];pinchDistance=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);}});
-canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=lastPoint;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size>=2){let p=[...pointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);if(pinchDistance>1)state.zoom=Math.max(.45,Math.min(5,state.zoom*dist/pinchDistance));pinchDistance=dist;if(down)down.moved=true;}else if(prev){let dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)down.moved=true;if(state.view==='iso'&&!e.shiftKey&&e.buttons!==2){state.angle+=dx*.008;state.tilt=Math.max(.16,Math.min(1.42,state.tilt-dy*.006));}else{state.pan[0]+=dx;state.pan[1]+=dy;}}lastPoint={x:e.clientX,y:e.clientY};moveCamera();requestRender();});
+canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=lastPoint;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size>=2){let p=[...pointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);if(pinchDistance>1)state.zoom=Math.max(.45,Math.min(5,state.zoom*dist/pinchDistance));pinchDistance=dist;if(down)down.moved=true;}else if(prev){let dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>5)down.moved=true;if(state.view==='iso'&&!e.shiftKey&&e.buttons!==2){state.angle+=dx*.008*dragSign.h;state.tilt=Math.max(.16,Math.min(1.42,state.tilt+dy*.006*dragSign.v));}else{state.pan[0]+=dx;state.pan[1]+=dy;}}lastPoint={x:e.clientX,y:e.clientY};moveCamera();requestRender();});
 function pickFace(x,y,faces){
  let best=null,depth=-Infinity,candidates=faces;
  // Project only on a click. Conservative projected group bounds skip unrelated
@@ -511,6 +512,7 @@ function init(){
   for(const[id,key]of [['sofaGap','sofaGap'],['rackDepth','rackDepth'],['headDepth','headDepth']])$(id).oninput=e=>{state[key]=Number(e.target.value);updateMetrics();requestRender();};
   for(const[id,key]of [['measureToggle','measures'],['upperToggle','upper'],['wallToggle','walls'],['insideToggle','inside']])$(id).onchange=e=>{state[key]=e.target.checked;requestRender();};
   $('zoomIn').onclick=()=>{moveCamera();state.zoom=Math.min(5,state.zoom*1.2);requestRender();};$('zoomOut').onclick=()=>{moveCamera();state.zoom=Math.max(.45,state.zoom/1.2);requestRender();};$('fit').onclick=()=>{moveCamera();state.zoom=1;state.pan=[0,0];state.angle=({quarto:-2.4,cozinha:2.8,lavanderia:2.5,banho:2.8})[state.room]??3.4;state.tilt=.92;requestRender();};
+  [['invertH','h'],['invertV','v']].forEach(([id,k])=>{const box=$(id);if(!box)return;box.checked=dragSign[k]===-1;box.addEventListener('change',()=>{dragSign[k]=box.checked?-1:1;try{localStorage.setItem('guedalaDrag',JSON.stringify(dragSign));}catch(_){}});});
   $('rotateLeft').onclick=()=>{moveCamera();state.angle-=Math.PI/6;requestRender();};$('rotateRight').onclick=()=>{moveCamera();state.angle+=Math.PI/6;requestRender();};
   $('closeInfo').onclick=closeInspector;$('mobileItems').onclick=()=>{$('inlineItems').hidden=!$('inlineItems').hidden;$('mobileItems').setAttribute('aria-expanded',String(!$('inlineItems').hidden));};
   $('snapshot').onclick=async()=>{buildScene();await render(canvas);canvas.toBlob(b=>download(b,'Guedala_'+state.room+'_'+state.view+'.png'));};$('downloadHTML').onclick=saveHTML;$('downloadHTML2').onclick=saveHTML;
