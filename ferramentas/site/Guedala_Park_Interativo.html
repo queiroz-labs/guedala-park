@@ -278,6 +278,11 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 }
 @media(prefers-reduced-motion:reduce){.mast,.mast .brand,.mast #helpButton,.mast #glossaryButton,.mast .global-project-notice{transition:none!important}}
 
+/* Computador: o bloco do 3D tem mais de uma tela de altura; grudado, ele descia por cima do texto de baixo. */
+@media(min-width:761px){.workspace{position:static}}
+/* Os blocos grudados (lista de ambientes) passam por trás do texto de rodapé em vez de por cima. */
+@media(min-width:761px){#model.active>.welcome{position:relative;z-index:3;background:var(--paper)}}
+
 </style></head>
 <body>
 <a class="skip-link" href="#scene">Ir para o apartamento</a>

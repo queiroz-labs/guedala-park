@@ -84,3 +84,8 @@ button,select,summary,.mast .quiet,.storage-link,.doc-title>button{min-height:44
 .mast.mast-compact .brand,.mast.mast-compact #helpButton,.mast.mast-compact #glossaryButton,.mast.mast-compact .global-project-notice{max-height:0;min-height:0!important;opacity:0;margin-block:0;padding-block:0;border-width:0;pointer-events:none;visibility:hidden;transition:max-height .3s ease,opacity .22s ease,margin .3s ease,padding .3s ease,visibility 0s .3s}
 }
 @media(prefers-reduced-motion:reduce){.mast,.mast .brand,.mast #helpButton,.mast #glossaryButton,.mast .global-project-notice{transition:none!important}}
+
+/* Computador: o bloco do 3D tem mais de uma tela de altura; grudado, ele descia por cima do texto de baixo. */
+@media(min-width:761px){.workspace{position:static}}
+/* Os blocos grudados (lista de ambientes) passam por trás do texto de rodapé em vez de por cima. */
+@media(min-width:761px){#model.active>.welcome{position:relative;z-index:3;background:var(--paper)}}
