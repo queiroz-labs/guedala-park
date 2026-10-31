@@ -112,6 +112,8 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **CAD externo:** [etapas A/B/D](02_Modelo_3D/README.md#quadro-de-áreas-materiais-e-câmeras): áreas, materiais e 36 câmeras; C/forro adiada. Completo OK, PENDENTE; R54/base intactos.
 
+**Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
+
 **Responsáveis:** projeto: interfaces; oficina: ferragens/ensaios; RT: campo/piso; Elias: aparência.
 
 ## Como trabalhar nesta pasta
