@@ -28,7 +28,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R54/R29; 20 leituras e trava textual/CI; local; pub.: Elias,28/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador do site](ferramentas/site/README.md) · [evidência e limites](06_Entregas/README.md) |
+| Site/pacote do montador | R54/R30; banheiro atual na galeria de luz; pub. autorizada: Elias,31/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
@@ -122,7 +122,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Medidas → derivados (28/10):** [paredes, folgas e campo](04_Moveis/Dependencias/README.md): datum comum, 34 folgas ≤15 mm; proposta 10 mm sem mudar caixas; datum físico pendente.
 
-**Moodboard:** [painéis 4K, A3 e Dia/Noite](09_Referencias/README.md). Lavanderia/banheiro corrigidos por medida (Elias,29/10/2026: “Aprovo a segunda”); galeria de iluminação usa o banheiro noturno atual, local.
+**Moodboard:** [painéis 4K, A3 e Dia/Noite](09_Referencias/README.md). Lavanderia/banheiro corrigidos por medida (Elias,29/10/2026: “Aprovo a segunda”); galeria de iluminação usa o banheiro noturno atual.
 
 **Furação (28/10):** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 

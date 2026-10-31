@@ -1,4 +1,4 @@
-# Apartamento interativo — R54 e pacote R29
+# Apartamento interativo — R54 e pacote R30
 
 **Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
@@ -12,7 +12,7 @@
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-`current_release.json` conserva CAD R54, pacote R29, fichas R15 e iluminação CB02. [Histórico de publicação e ZIPs](../../06_Entregas/README.md). Estudos separados não alteram geometria automaticamente.
+`current_release.json`: CAD R54, pacote R30, fichas R15 e iluminação CB02. R30 atualiza a imagem do banheiro na galeria de iluminação e preserva imagens nos documentos offline; R29 anterior preservado. Publicação autorizada por Elias,31/10/2026: “pode dar push e atualiza ro site”. [Histórico](../../06_Entregas/README.md).
 
 Entradas antigas encaminham às fichas e ao estado atual; [referências divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09).
 
@@ -90,7 +90,7 @@ Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
 
 [Seis pares e PDFs](../../09_Referencias/README.md): galeria e Dia/Noite nos cartões de Cômodos (`app.js → DAY_NIGHT`). Botões, arraste e alternância para 3D; sem rede, aviso na foto.
 
-Iluminação → Luminárias nos ambientes usa `09_Referencias/Banheiro_noite.png`, com duas paredes verdes e gabinete atual; incluída nos documentos offline. O gerador preserva imagens ao dividir parágrafos. Demais imagens e seleção de luz preservadas; sem publicação.
+Iluminação → Luminárias nos ambientes usa `09_Referencias/Banheiro_noite.png`, com duas paredes verdes e gabinete atual; incluída nos documentos offline. O gerador preserva imagens ao dividir parágrafos. Demais imagens e seleção de luz preservadas.
 
 ## Navegação e documentos
 

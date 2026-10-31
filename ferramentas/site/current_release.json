@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-28",
+  "releaseDate": "2026-10-31",
   "projectRevision": "Consulta de marcenaria · FreeCAD R54 · iluminação CB02",
   "projectDate": "27 outubro 2026",
   "cadRevision": "R54",
@@ -11,18 +11,18 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R29",
+  "packageRevision": "R30",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R29.zip",
-  "archiveRoot": "Guedala_Park_R29",
+  "packageFile": "Guedala_Park_R30.zip",
+  "archiveRoot": "Guedala_Park_R30",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",
   "lightingRevision": "CB02",
   "publicationStatus": "publication_authorized",
   "lastPublishedCadRevision": "R54",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
-  "lastPublishedPackageRevision": "R26",
-  "notes": "Pacote R29: navegação em quatro abas por cômodo, selo único de situação, biblioteca com 15 acessos e furação por peça (nominal). CAD R54 preservado. Elias, 28/10/2026, nesta conversa: \"Sim, publicar\".",
+  "lastPublishedPackageRevision": "R29",
+  "notes": "Pacote R30: imagem atual do banheiro na galeria de iluminação e imagens preservadas nos documentos offline. CAD R54 preservado. Publicação autorizada por Elias, 31/10/2026, nesta conversa: \"pode dar push e atualiza ro site\".",
   "technicalDocuments": [
     {
       "id": "pe-direito",
