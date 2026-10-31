@@ -403,21 +403,21 @@
   ],
   "entryQuestions": [
     {
-      "id": "banheiro",
-      "title": "Onde vejo o banheiro?",
-      "description": "Abra o banheiro no 3D.",
-      "shortcut": "Ver banheiro",
+      "id": "comodos",
+      "title": "Onde vejo cada cômodo?",
+      "description": "Escolha o cômodo e veja os móveis em 3D.",
+      "shortcut": "Ver cômodos",
       "tab": "model",
-      "room": "banho",
+      "room": "all",
       "target": "scene"
     },
     {
       "id": "pendencias",
       "title": "Como sei o que ainda falta?",
-      "description": "Veja as pendências do projeto.",
+      "description": "Veja as escolhas que ainda faltam conferir.",
       "shortcut": "Ver pendências",
-      "tab": "architect",
-      "target": "entry-responsibilities"
+      "tab": "decisions",
+      "target": "decisions"
     },
     {
       "id": "planta",
