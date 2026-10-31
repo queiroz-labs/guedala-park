@@ -10,7 +10,7 @@ Arquivo salvo pelo comando de documento do FreeCAD MCP na instância gráfica: `
 
 ### Tabela dos envelopes nominais de corte
 
-Fontes: [P01 oficial, página única](../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), para localização dos nove vãos; [planta mobiliada](../03_Ambientes/Planta_mobiliada/README.md), para contexto. **Nenhuma cota de vão abaixo está explícita no PDF.** Números extraídos do R54, não medidos na imagem nem no imóvel. X/Y em mm globais do CAD, canto mínimo; largura acompanha o eixo indicado. Parede = caixas originais limítrofes.
+Fontes: [P01 oficial](../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), localização; [planta mobiliada](../03_Ambientes/Planta_mobiliada/README.md), contexto. **Cotas não explícitas no PDF:** extraídas do R54, sem medição real. X/Y mm globais, canto mínimo; largura no eixo indicado. Parede = caixas limítrofes.
 
 | ID/ambiente | Parede (`Peca…`) | X/Y mm | Eixo/largura mm | Altura mm | Peitoril mm | Fonte R54 (`Peca…`) |
 |---|---|---:|---:|---:|---:|---|
@@ -24,15 +24,15 @@ Fontes: [P01 oficial, página única](../09_Referencias/Plantas_e_manuais/Planta
 | PB Banheiro | 053/055 | 2850/3950 | X/700 | 2050 | 0 | lacuna + folha 075 |
 | PI Entrada/cozinha | 035/037 | −100/6150 | Y/750 | 2050 | 0 | lacuna + folha 076 |
 
-**Todos nominais.** Nas janelas, o corte inclui vidro de 1100 mm (Z=950..2050) e soleira CAD de 30 mm (Z=920..950); 920/1130 descrevem essa envoltória, sem definir vão bruto ou esquadria. Espessura atravessada: 100 mm nominal. Portas: largura da lacuna, altura da folha; folgas/batentes não acrescentados.
+**Nominais:** janela inclui vidro 1100 mm (Z950..2050) + soleira 30 mm (Z920..950); 920/1130 é envoltória, não vão bruto. Parede 100 mm nominal. Porta: largura da lacuna/altura da folha, sem folgas ou batentes adicionais.
 
 ### Construção e pendências
 
-As 27 caixas já deixam lacunas em planta; cortes diretos removeriam zero material. Permanecem ocultas/referenciadas, com formas, posições e expressões preservadas. Nove recomposições + 23 prolongamentos até Z=2570 formam a união; nove `Part::Cut` abrem os vãos. `ParedesCortadas` oculta. Nível BIM `BuildingPart`, Z=0/2570 nominal.
+As 27 caixas já deixam lacunas: cortes diretos removeriam zero. Originais ocultos/referenciados, preservados. União: nove recomposições + 23 prolongamentos; nove `Part::Cut`. `ParedesCortadas` oculta; nível BIM `BuildingPart`, Z0/2570 nominal.
 
-Pendências, sem refinamento: qual o vão bruto acabado e as folgas de marco de cada abertura? A entrada tem lacuna CAD de **750 mm** e folha 076 de **850 mm**; qual largura/posição é correta no levantamento? Confirmar peitoris, alturas, espessuras e interface com teto/RT antes de incorporar. O estudo conserva a lacuna existente, sem resolver essa divergência por hipótese.
+Pendências: vão bruto/folgas, peitoris, alturas, espessuras e teto/RT. Entrada: lacuna CAD **750 mm** versus folha 076 **850 mm**; confirmar largura/posição no levantamento. Estudo preserva a lacuna, sem resolver por hipótese.
 
-**Completo OK:** `--completo --relatorio --candidato` no clone local; 106 cenários, nenhuma invariante/cenário falhou e nenhuma colisão nova. Os 1129 pares de caixas novas/maiores passaram na interseção exata. R54, base, regras e relatório de piso/rodapé preservados. Aprovação **PENDENTE**.
+**Completo OK:** candidato no clone local; 106 cenários/1129 pares, sem falha/colisão nova. R54/base/regras/relatório de piso preservados. **PENDENTE**.
 
 **Δ sobre piso/rodapé:** 5905→5958; **53 novos / 57 alterados / 0 removidos** (54 visibilidades + três agregados). Nenhuma forma própria/posição/expressão original mudou. As 67 representações de pisos/soleiras/rodapés coincidem com a origem. `Relatorio_estudo_vaos.md` e `Delta_geometrico.json` externos, junto ao estudo.
 
@@ -54,19 +54,19 @@ Cada vão tem um `App::Part`; cotas externas na tabela A. Prefixo das fontes ant
 | PB | 075 | `Porta_Banheiro` |
 | PI | 076 | `Porta_Entrada` |
 
-Janelas: caixilho branco, folha de vidro e peitoril. Quarto: persiana integrada, sem cortina/blackout externo ([Registro de 21/09/2026](../01_Programa_e_decisoes/Registro_de_decisoes.md), seção “Quarto — janela, madeira e cabeceira definidos”). Elias, 31/10/2026, nesta conversa: “deixa a janela do quarto com a persiana 30% fechada”; **300 mm dos 1000 mm do curso gráfico**, faixa superior. Escritório: mesma persiana integrada, conforme [registro do ambiente](../03_Ambientes/Escritorio/README.md) e confirmação de Elias, 31/10/2026 nesta conversa; cena também em 30%. Portas: batente, folha e soleira; controles legados preservados.
+Janelas brancas com vidro/peitoril. Quarto: persiana integrada, sem cortina externa ([Registro de 21/09/2026](../01_Programa_e_decisoes/Registro_de_decisoes.md), seção “Quarto — janela, madeira e cabeceira definidos”). Elias, 31/10/2026: “deixa a janela do quarto com a persiana 30% fechada”; 300/1000 mm de curso gráfico. Escritório: mesma persiana, [fonte do ambiente](../03_Ambientes/Escritorio/README.md) e confirmação de Elias, 31/10/2026; também 30%. Portas: batente/folha/soleira, controles preservados.
 
-**Só representação nominal:** perfis de 20 mm e vidro de 6 mm são gráficos; não especificam produto. Folhas úteis derivadas desse quadro, cores das portas herdadas; fabricante, material, número de folhas, perfis, mecanismo e arremates reais PENDENTES. Envelopes dos batentes do banheiro/escritório recortados contra quatro pontas do rodapé; não é detalhamento de guarnição.
+**Nominal:** perfis 20 mm/vidro 6 mm gráficos; folhas derivadas do quadro, cores herdadas. Fabricante/material/perfis/mecanismo/arremates PENDENTES. Batentes banheiro/escritório recortados contra quatro pontas do rodapé; não detalham guarnição.
 
-Soleiras Z−50..0: quarto/escritório: `Soleira_Quarto`/`Soleira_Escritorio` + `Vinilico_Sem_Soleira_Escritorio` repartem `Vinilico_continuo` sem perda/sobreposição; `Soleira_banheiro` reutilizada. Entrada acrescenta **0,075 m² nominal** onde não havia piso; material/implantação pendentes, inclusive divergência 750/850 mm da etapa A. Demais pisos/rodapés preservados. Grupo de suportes e corte intermediário do piso ocultos; acabamento Olmo aplicado aos resultados para evitar sobreposição cinza após navegar na vista.
+Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo` sem perda/sobreposição; banheiro reutilizado. Entrada +0,075 m² nominal; material/implantação e divergência 750/850 mm pendentes. Pisos/rodapés preservados. Suportes/corte intermediário ocultos e resultados com Olmo eliminam a sobreposição cinza ao navegar.
 
-Altura independente em `Nivel_Parametros`: 32 relações da etapa A recuperadas sem ciclo; 8042 expressões preservadas na reabertura. **Completo OK**, 106 cenários e 1157 pares sem colisão nova. Δ sobre A: **130 novos / 63 alterados / 0 removidos** (5958→6088), incluindo auxiliares nativos. R54/base preservados. Relatório externo `Relatorio_esquadrias.md` e `Delta_geometrico.json`, junto ao estudo.
+`Nivel_Parametros`: 32 relações recuperadas sem ciclo; 8042 expressões reabertas. **Completo OK**, 106 cenários/1157 pares sem colisão nova. Δ sobre A: **130 novos / 63 alterados / 0 removidos** (5958→6088), com auxiliares. R54/base preservados. `Relatorio_esquadrias.md`/`Delta_geometrico.json` externos.
 
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
 ## Quadro de áreas, materiais e câmeras
 
-**Etapa D, aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia da etapa B em `%LOCALAPPDATA%/Temp/guedala_quadro_estudo/Guedala_Park_Estudo_quadro.FCStd`. **Etapa C adiada; nenhum forro.** Planilha nativa `QuadroAreas`, com fórmulas de área/perímetro das sete regiões planas ocultas `Area_*`, extraídas do piso em Z=0. Regenerar esses contornos se o piso mudar. Perímetro é o contorno completo, incluindo passagens; não é quantitativo de rodapé.
+**D, aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia B: `%LOCALAPPDATA%/Temp/guedala_quadro_estudo/Guedala_Park_Estudo_quadro.FCStd`. **C adiada, sem forro.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Regenerar contornos se o piso mudar. Perímetro inclui passagens; não é rodapé.
 
 Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. O quadro não traz perímetro equivalente; a área privativa oficial usa outro critério.
 
@@ -100,6 +100,16 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 36 registros em `Cameras_Ambientes`, com câmera Coin nativa, posição/alvo. Selecionar um registro e executar `Aplicar_camera.FCMacro`, junto ao estudo; apenas restaura a vista. Cantos 1..4: mínimo X/Y, máximo X/mínimo Y, máximo X/Y, mínimo X/máximo Y; posição livre mais próxima na região.
 
 **Completo OK:** 106 cenários/1157 pares, sem falha/colisão nova. Aparência preservada, render idêntico; 8049 expressões reabertas. **Δ sobre B: 57 novos / 189 alterados / 0 removidos**: 160 vínculos e 38 normalizações (9 em comum), incluindo um agregado BIM recalculado; nenhuma forma própria mudou. Detalhe externo: `Relatorio_quadro.md`.
+
+## Organizacao da arvore
+
+**Aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia da etapa D em `%LOCALAPPDATA%/Temp/guedala_organizacao_estudo/Guedala_Park_Estudo_organizado.FCStd`, salva pela GUI/MCP. Cinco raízes: documentação, controles, apartamento, `Moveis/P01..P20` e `Historico_Oculto`. Grupos comuns, sem mudar sistemas locais; todos os Names preservados.
+
+**CSV externos:** `Mapa_labels.csv` (328 Labels), `Mapa_grupos.csv` (239 reagrupamentos), `Mapa_objetos.csv` (6145 originais). A origem D tinha 22 raízes; 1571 não é sua contagem de órfãos. Auxiliares nativos preservados.
+
+Estudos R39–R52, auditorias e legados ocultos A/B no histórico. BC43/banco R43/Minifix ativos nos Pxx; operandos ocultos em `Suportes_Ativos`. Oculto não significa superado. Montagens/controles preservados.
+
+**Comparação com D:** zero formas próprias/posições/expressões/aparências alteradas; render idêntico. Oito agregados refletem a nova filiação; 8049 expressões preservadas. Δ **35 novos grupos / 415 alterados / 0 removidos** (6145→6180). **Completo OK**, 106 cenários/1157 pares sem falha/colisão nova; `Relatorio_organizacao.md` externo. Relatório automático contra R54 inclui A/B/D; base intacta.
 
 ## Candidato piso e rodapé
 

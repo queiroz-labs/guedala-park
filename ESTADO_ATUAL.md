@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
 
-**CAD externo:** [etapas A/B/D](02_Modelo_3D/README.md#quadro-de-áreas-materiais-e-câmeras): áreas, materiais e 36 câmeras; C/forro adiada. Completo OK, PENDENTE; R54/base intactos.
+**CAD externo:** [árvore após D](02_Modelo_3D/README.md#organizacao-da-arvore): 328 Labels/239 agrupamentos; peças intactas. Completo OK; PENDENTE. Sem forro; R54/base intactos.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
@@ -128,8 +128,8 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Furação:** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 
-**Dimensões (28/10):** [R44 → R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md):380 IDs/37 vãos; P09 +194 mm, P16 superior −6 mm; histórico separado.
+**Dimensões:** [R44 → R54, 380 IDs/37 vãos](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md); P09 +194 mm/P16 −6 mm.
 
-**Movimentos (29/10):** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md): 1.528 mínimos/277 intervalos; oito choques com portas P01 fechadas; sem garantia contínua ou folga real.
+**Movimentos:** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md); oito choques com P01 fechado; sem garantia contínua/folga real.
 
 **Risco:** [hipóteses](05_Orcamento_e_cronograma/Risco/README.md).
