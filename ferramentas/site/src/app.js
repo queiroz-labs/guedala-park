@@ -60,7 +60,7 @@ function buildScene(){nodes=[];nodeSequence={};
   for(const [r,x,z,w,d,m]of floors)add(null,r,x,z,w,d,-5,5,m,'floor');
   const H=state.walls?PROJECT.ceiling:32;
   const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,145,10,['quarto']],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,430],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,546,10,23],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,71],['banho',255,529,225,17],['banho',464,395,16,151],['banho',255,395,130,10,['quarto']],['banho',455,395,25,10],['quarto',365,305,10,10],['quarto',365,390,10,5]];
-  for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,state.walls?PROJECT.ceilingByRoom[r]:32,'#e4dfd2','wall',{sharedRooms});
+  for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,state.walls?PROJECT.ceilingByRoom[r]:8,'#e4dfd2','wall',{sharedRooms});
   // P01 / F120: continuous bathroom partition, separate bedroom access on its east side.
   // Opening and leaf dimensions remain graphic estimates, not construction measurements.
   if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
