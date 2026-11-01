@@ -28,7 +28,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R55/R30; 3D do site com medidas das pedras ao clicar; banheiro atual na galeria de luz; pub. autorizada: Elias,31/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
+| Site/pacote do montador | R55/R30; 3D do site: rodapé, persiana 30% e pedras; banheiro atual na galeria de luz; pub. autorizada: Elias,31/10/26 | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
