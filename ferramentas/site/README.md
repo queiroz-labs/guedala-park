@@ -40,7 +40,7 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
-**Capa:** `src/capa_sala.webp`, miniatura ilustrativa da sala, não técnica; embutida offline, asset separado na web. “Explorar o apartamento” abre o 3D. Cabeçalho estável; ficha primeiro, medidas em “Mais detalhes do projeto”.
+**Capa:** `src/capa_sala.webp`, miniatura ilustrativa da sala, não técnica; embutida offline, asset separado na web. “Explorar o apartamento” abre o 3D. Aba Cômodos no topo; ficha primeiro, medidas em “Mais detalhes do projeto”.
 
 **Medidas por objeto:** ficha ilustrada à vista; medidas em cm em “Mais detalhes do projeto”; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela; “Objetos do cômodo” busca por nome/referência, filtra categoria/cômodo e sincroniza seleção com o 3D. CSV dos resultados em cm: L/P/A, x/y/z, selos e referência; gerado por `src/object-list.js`, sem arquivo manual. Sofás usam envelope gráfico do conjunto no estado atual. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
 

@@ -112,7 +112,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **CAD:** [R55](02_Modelo_3D/README.md#auditoria-de-remocoes), Elias, 31/10/2026, “ok eu aprovo”: 152 remoções/6028 objetos; completo OK/106. Site regenerado; push pendente.
 
-**Site:** [capa ilustrativa e medidas](ferramentas/site/README.md#como-usar).
+**Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

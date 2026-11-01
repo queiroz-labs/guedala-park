@@ -3,7 +3,7 @@
  const header=document.querySelector('.mast'),nav=header?.querySelector('nav');if(!nav)return;
  const brand=header.querySelector('.brand');brand.setAttribute('role','link');brand.setAttribute('tabindex','0');brand.setAttribute('aria-label','Comece aqui');
  const home=()=>tab('architect');brand.addEventListener('click',home);brand.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();home();}});
- const menu=document.createElement('details');menu.className='nav-more';menu.innerHTML='<summary>Mais</summary><div class="nav-more-content"><button type="button" data-destination="mood">Imagens e materiais</button><button type="button" data-destination="chaves">Dia das chaves</button><button type="button" data-destination="architect">Comece aqui</button></div>';
+ const menu=document.createElement('details');menu.className='nav-more';menu.innerHTML='<summary>Mais</summary><div class="nav-more-content"><button type="button" data-destination="chaves">Dia das chaves</button><button type="button" data-destination="architect">Comece aqui</button></div>';
  nav.append(menu);menu.querySelectorAll('[data-destination]').forEach(b=>b.onclick=()=>{tab(b.dataset.destination);menu.open=false;});
  const help=document.getElementById('helpButton'),gloss=document.getElementById('glossaryButton');help.textContent='Ajuda';
  if(gloss){gloss.remove();const link=document.createElement('button');link.type='button';link.textContent='Códigos do projeto';link.onclick=()=>GuedalaGlossary.open();document.getElementById('helpDialog')?.querySelector('.help-footer')?.append(link);}
