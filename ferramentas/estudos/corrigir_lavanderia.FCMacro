@@ -1,0 +1,46 @@
+"""GUI: candidato externo, lavanderia 1290 x 1540; parede 170 nominal.
+Não substitui o vigente nem atualiza base. GP_LAV_OUT é obrigatório.
+"""
+import FreeCAD as App, FreeCADGui as Gui, Part, os, json
+from pathlib import Path
+out=Path(os.environ['GP_LAV_OUT']).resolve()
+out.mkdir(parents=True,exist_ok=True)
+doc=App.ActiveDocument
+assert doc and doc.getObject('Peca049')
+assert abs(doc.Peca049.Width.Value-100)<.001
+candidate=out/'Guedala_Park_Lavanderia_candidato.FCStd'
+assert not candidate.exists()
+# Face interna do banheiro y=5290 preservada; face lavanderia 5390 -> 5460.
+doc.Peca049.Width=170
+doc.Peca050.Width=170
+doc.recompute()
+strip=Part.makeBox(2190,70,3100,App.Vector(2660,5390,-50))
+changed=[]
+for name in ['Lavanderia_Iseo_Marfim','Soleira_cozinha_lavanderia','Area_Lavanderia']:
+ o=doc.getObject(name)
+ assert o and hasattr(o,'Shape')
+ shape=o.Shape.cut(strip).removeSplitter()
+ assert shape.isValid()
+ o.Shape=shape
+ changed.append(name)
+for o in doc.Objects:
+ if not o.Name.startswith('RodapeTrecho_'):continue
+ b=o.Shape.BoundBox
+ if abs(b.YMin-5390)<.01 and b.XMin>=2660-.01 and b.XMax<=4850.01:
+  assert not any('Placement.Base.y' in str(e[0]) for e in o.ExpressionEngine)
+  o.Placement.Base.y+=70
+  changed.append(o.Name)
+ elif o.Name=='RodapeTrecho_052':
+  o.Width=170
+  changed.append(o.Name)
+doc.Area_Lavanderia.Criterio="CAD 1,29 x 1,54 m; parede banheiro/lavanderia 170 mm nominal. Transicao lateral 40 mm mantida; conferir no imovel."
+doc.recompute()
+b=doc.Lavanderia_Iseo_Marfim.Shape.BoundBox
+assert abs(b.YLength-1540)<.001 and abs(b.XLength-1290)<.001
+assert abs(doc.Peca049.Shape.BoundBox.YLength-170)<.001
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+doc.recompute()
+doc.saveAs(str(candidate))
+(out/'resultado_lavanderia.json').write_text(json.dumps({'candidate':str(candidate),'changed':changed,'laundry_mm':[b.XLength,b.YLength],'wall_mm':170},indent=2),encoding='utf8')
+Gui.activeDocument().activeView().saveImage(str(out/'lavanderia_candidato.png'),1600,1000,'Current')

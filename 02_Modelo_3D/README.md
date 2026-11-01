@@ -4,7 +4,7 @@ Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd), único permitido nesta
 
 ## Referência para revisão do arquiteto
 
-Conferência documental de 01/11/2026: SHA do FCStd igual ao release; 6028 objetos no XML, sem abrir, recalcular ou salvar no FreeCAD. O relatório de 31/10 é a evidência da verificação completa; esta consulta não a repetiu.
+Conferência documental 01/11/2026: SHA igual ao release; 6028 objetos. Verificação histórica no relatório.
 
 | Item | Situação e uso |
 |---|---|
@@ -20,7 +20,9 @@ As seções abaixo descrevem a formação do vigente; caminhos externos são evi
 
 Grupos 1 e 2, 01/11/2026: referência consolidada e revisão documental concluída. [13 divergências/interfaces](Revisao_base_arquitetonica.csv), com fonte, impacto, pergunta, responsável e critério de encerramento. Ordem: níveis → paredes/vãos → áreas → folgas/datum. Nenhuma cota física resolvida por hipótese.
 
-Conferidos: 532 registros de campo, todos sem valor medido; sete alturas; critérios do QuadroAreas; 34 folgas (4 negativas sem parede identificada, 24 nulas, 6 de 10 mm). Fonte das folgas continua anterior ao R55. O CSV distingue pendência física de revisão documental concluída. CAD/base/release preservados; reexportação das pranchas é etapa posterior.
+**Correção solicitada:** Elias,01/11/2026, “corrigir a lavanderia deixando a parede do banheiro mais grossa”. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro): candidato 1290×1540 mm, parede 100→170 mm para a lavanderia; banheiro 2090×1240 preservado. Vigente/base intactos; incorporação pendente.
+
+**Porta/MCMV:** [Ministério das Cidades, Portaria 725, anexo III, V.b.vii](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/portarias/PORTARIAN.725VERSAOCOMPILADA.pdf): vão livre entre batentes 800×2100 mm para FAR/FDS. Folha/vão bruto e aplicabilidade ao empreendimento pendentes; porta CAD preservada.
 
 ## Estudo de nível e vãos
 

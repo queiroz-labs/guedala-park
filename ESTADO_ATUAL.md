@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
-**CAD:** [R55](02_Modelo_3D/README.md#auditoria-de-remocoes), Elias, 31/10/2026, “ok eu aprovo”: 152 remoções/6028 objetos; completo OK/106. Site regenerado; push pendente.
+**CAD:** R55 vigente; [candidato de correção da lavanderia e pesquisa da porta](02_Modelo_3D/README.md#revisão-da-base-arquitetônica), incorporação pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 
