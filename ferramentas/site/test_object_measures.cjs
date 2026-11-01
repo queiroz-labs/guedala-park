@@ -3,7 +3,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict'),{pathToFileURL}=require('node:url');
 const src=path.join(__dirname,'src'),read=n=>fs.readFileSync(path.join(src,n),'utf8'),app=read('app.js'),measure=read('object-measures.js');
 const ctx=vm.createContext({console,matchMedia:()=>({matches:true})});
-vm.runInContext(['data.js','cad-data.js','visual-finishes.js','site-copy.js','cad-sync.js'].map(read).join('\n')+'\n'+app.slice(0,app.indexOf("const canvas=$('scene')"))+'\n'+app.slice(app.indexOf('const STONE_PARTS='),app.indexOf('function hideStoneTip'))+'\n'+measure.slice(0,measure.lastIndexOf('initializeObjectMeasures();')),ctx);
+vm.runInContext(['data.js','cad-data.js','visual-finishes.js','site-copy.js','cad-sync.js'].map(read).join('\n')+'\n'+app.slice(0,app.indexOf("const canvas=$('scene')"))+'\n'+app.slice(app.indexOf('const STONE_PARTS='),app.indexOf('function hideStoneTip'))+'\nbuildScene();\n'+measure.slice(0,measure.lastIndexOf('initializeObjectMeasures();')),ctx);
 const run=s=>vm.runInContext(s,ctx),get=s=>JSON.parse(run('JSON.stringify('+s+')'));
 run('state.walls=true;buildScene()');
 const record=filter=>get(`objectRecord(nodes.find(n=>${filter}))`);
@@ -21,6 +21,13 @@ assert.equal(pending.box,null);assert.equal(pending.reliability,'pendente');
 assert(!run("objectCopy(objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})).includes('99')"));
 run('state.walls=false;buildScene()');assert.equal(record("n.kind==='door'").box.h,205);assert.equal(record("!n.id&&n.kind==='glass'").box.h,110);
 assert.equal(new Set(get('objectRecords().map(r=>r.key)')).size,get('objectRecords().length'));
+assert.equal(get("objectRecords().filter(r=>r.id==='bed').length"),1);
+assert.equal(record("n.id==='bonnie'").reliability,'estimativa gráfica');
+assert.equal(record("n.id==='daiane'").box.w,90);assert.equal(record("n.id==='daiane'").box.d,140);
+const listSource=read('object-list.js');vm.runInContext(listSource.slice(0,listSource.indexOf('function initializeObjectList(')),ctx);
+const csv=run('objectCSV(objectRecords())');assert(csv.includes('confiabilidade da posição'));assert(csv.includes('pending/coffeemaker'));assert(!csv.includes('undefined'));
+run("state.moduleFilter='P01';buildScene()");assert(get('nodes').every(n=>n.module==='P01'));assert(get("objectRecords().find(r=>r.id==='washer').box"));assert(!run("objectRecords().find(r=>r.id==='washer').node.pending"));run('state.moduleFilter=null;buildScene()');
+assert(run("objectCopy(objectRecord(nodes.find(n=>n.id==='washer'))).includes('60 × 62 × 85 cm [projeto/nominal]')"));
 const mode=read('object-measure-mode.js');vm.runInContext(mode.slice(0,mode.indexOf("$('stage')")),ctx);
 run("objectSelected=objectKey(nodes.find(n=>n.id==='washer'));objectMeasuring=true;globalThis.cotas=[];dimension=(ctx,pr,a,b,text)=>cotas.push({a,b,text});drawObjectMeasure({save(){},restore(){},beginPath(){},moveTo(){},lineTo(){},stroke(){}},p=>p,state)");
 assert.deepEqual(get('cotas.map(c=>c.text)'),['60 cm','62 cm','85 cm']);
@@ -38,10 +45,16 @@ console.log('Medidas: portas, janelas, aparelho, cama e pedra; selos por campo; 
 if(process.argv.includes('--browser'))browserTest().catch(e=>{console.error(e);process.exitCode=1;});
 async function browserTest(){
  const {chromium}=require('playwright'),idx=process.argv.indexOf('--browser'),html=path.resolve(process.argv[idx+1]),out=path.resolve(process.argv[idx+2]);fs.mkdirSync(out,{recursive:true});
+ const root=path.dirname(html),http=require('node:http'),server=http.createServer((req,res)=>{
+  const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
+  if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);res.end();return;}
+  res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.css':'text/css'})[path.extname(file)]||'application/octet-stream');fs.createReadStream(file).pipe(res);
+ });await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  const browser=await chromium.launch({headless:true,executablePath:process.env.GUEDALA_BROWSER_EXECUTABLE||undefined});
  try{for(const viewport of [{width:1280,height:900},{width:375,height:812}]){
   const page=await browser.newPage({viewport,hasTouch:true,isMobile:viewport.width===375}),errors=[];page.setDefaultTimeout(12000);page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(pathToFileURL(html).href+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered);
+  await page.context().grantPermissions(['clipboard-read','clipboard-write']);
+  await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html))+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered).catch(async error=>{console.error('Erros da página:',errors);console.error((await page.locator('body').innerText()).slice(-700));throw error;});
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
    ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','2 × 75 × 205 cm','estimativa gráfica'],
@@ -69,6 +82,8 @@ async function browserTest(){
     assert(point,'Objeto visível para clique: '+name);console.log('Clique '+viewport.width+' '+name+' '+JSON.stringify(point));if(viewport.width===375)await page.touchscreen.tap(point.x,point.y);else await page.mouse.click(point.x,point.y);
     const summary=page.locator('.object-measure-summary:visible').first();await summary.waitFor();await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
     const text=await summary.innerText();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
+    if(await page.locator('#objectMeasureList').count())assert.equal(await page.locator('#objectMeasureRows tr[aria-selected=true]').getAttribute('data-object-row'),target.key,'Clique leva à linha');
+    if(name==='eletrodomestico'){await summary.locator('[data-copy-object=text]').click();await page.waitForFunction(()=>[...document.querySelectorAll('.object-copy-status')].some(e=>e.textContent==='Medidas copiadas.'));assert((await page.evaluate(()=>navigator.clipboard.readText())).includes('60 × 62 × 85 cm'));}
     if(name==='porta'||name==='eletrodomestico'){
      await summary.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,name+'-'+viewport.width+'.png'),fullPage:false});
     }
@@ -94,7 +109,14 @@ async function browserTest(){
   await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:px-20,y:py,id:1},{x:px+20,y:py,id:2}]});
   await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:px-45,y:py,id:1},{x:px+45,y:py,id:2}]});
   await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert((await page.evaluate(()=>state.zoom))>zoom,'Pinça aproxima');
-  if(await page.locator('#objectMeasureList').count())await page.locator('#objectMeasureList').evaluate(e=>e.open=true);if(await page.locator('#objectMeasureList').count()){await page.locator('#objectRoom').selectOption('all');await page.locator('#objectSearch').fill('cafeteira');assert((await page.locator('#objectMeasureRows').innerText()).includes('pendente'));}
+  if(await page.locator('#objectMeasureList').count()){
+   await page.locator('#objectMeasureList').evaluate(e=>e.open=true);await page.locator('#objectRoom').selectOption('all');await page.locator('#objectSearch').fill('cafeteira');assert((await page.locator('#objectMeasureRows').innerText()).includes('pendente'));
+   await page.locator('#objectMeasureRows button').click();assert((await page.locator('#objectMeasureCard').innerText()).includes('Sem medida definida'));
+   await page.locator('#objectRoom').selectOption('all');await page.locator('#objectCategory').selectOption('eletrodoméstico');await page.locator('#objectSearch').fill('Lava e seca');assert.equal(await page.locator('#objectMeasureRows tr').count(),1);
+   const [csvDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#objectCSV').click()]);const data=fs.readFileSync(await csvDownload.path(),'utf8');assert(data.includes('"60";"62";"85"'));assert.equal(data.split('\r\n').length,2);
+   await page.locator('#objectMeasureRows button').click();assert.equal(await page.evaluate(()=>GuedalaStudy.getSelectedObject()),'washer/washer/1');
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Sem overflow na página');
+  }
   assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 5 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
- }}finally{await browser.close();}
+ }}finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
 }

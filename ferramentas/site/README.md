@@ -40,7 +40,7 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
-**Medidas por objeto:** ficha existente com medidas em cm no topo; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
+**Medidas por objeto:** ficha existente com medidas em cm no topo; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela; “Objetos do cômodo” busca por nome/referência, filtra categoria/cômodo e sincroniza seleção com o 3D. CSV dos resultados em cm: L/P/A, x/y/z, selos e referência; gerado por `src/object-list.js`, sem arquivo manual. Sofás usam envelope gráfico do conjunto no estado atual. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
 
 Fontes `src/object-measures.js`/CSS; integração `app.js`/`construir.py`. Teste `test_object_measures.cjs` na cena/CI; `--browser <HTML> <capturas>` usa Playwright existente via NODE_PATH; build aceita esbuild externo.
 
@@ -58,9 +58,7 @@ HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar ima
 
 ## No S24 Plus
 
-Salve **Guedala_Park_Interativo.html** e abra em navegador com suporte a HTML local. “Salvar cópia” embute o catálogo; a fonte usa `src/downloads-data.js`. Desenhos/interações funcionam sem rede; arquivos vinculados exigem rede ou cópia local.
-
-Conferências anteriores não equivalem ao aparelho real.
+Abra o HTML completo em navegador com suporte a arquivo local. “Salvar cópia” embute `src/downloads-data.js`; desenhos/interações funcionam offline. Vínculos exigem rede ou cópia local. Conferências anteriores não equivalem ao aparelho real.
 
 ## O que o modelo representa
 

@@ -226,7 +226,7 @@ function buildScene(){nodes=[];nodeSequence={};
   // Elias, 28/10/2026: between shower enclosure and toilet; installation heights remain nominal.
   add('hygiene','banho',346,524,2,2,60,13,'black');
   for(let i=0;i<14;i++){let a=i/13*Math.PI;add('hygiene','banho',342+6*Math.cos(a),524,1,1,53-17*Math.sin(a),2,'black');}
-  if(typeof applyCadSync==='function')nodes=applyCadSync(nodes,state);
+  if(typeof applyCadSync==='function'){if(typeof collectObjectScene==='function')collectObjectScene(applyCadSync(nodes,{...state,moduleFilter:null,focusPart:null}));nodes=applyCadSync(nodes,state);}
   return nodes;
 }
 

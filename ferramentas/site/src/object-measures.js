@@ -2,8 +2,10 @@
 const OBJECT_GRAPHIC='estimativa gráfica',OBJECT_NOMINAL='projeto/nominal';
 const OBJECT_PRODUCTS=new Set(['bed','bonnie','daiane','officechair','tv50','tv43','soundbar','ps5','fridge','cooktop','oven','microwave','hood','filter','washer','airfryer','heater','toilet','basin','dishrack','trash','recycling','table','diningchairs']);
 const OBJECT_PENDING=new Set(['coffeemaker','hotwater','bathfinish','tower','counterlight','laundrypower','laundrylight']);
-let objectSelected=null,objectReturn=null;
-function objectKey(n){return n.source?'cad/'+n.source:n.key;}
+let objectSelected=null,objectReturn=null,objectScene=null;
+// Activate only after state initialization: the web build joins the scripts.
+var collectObjectScene=scene=>{objectScene=scene;};
+function objectKey(n){return ['bed','bonnie','daiane'].includes(n.id)?'item/'+n.id:n.source?'cad/'+n.source:n.key;}
 function objectCategory(n){
  if(!n.id)return ({door:'porta',glass:'janela',wall:'parede',floor:'piso'})[n.kind]||'acabamento';
  if(n.mat==='stone')return 'pedra';
@@ -16,22 +18,26 @@ function objectCategory(n){
 function objectName(n){
  if(n.source){if(STONE_PARTS[n.id]&&n.mat==='stone')return STONE_PARTS[n.id][0];return (n.label||ITEMS.find(i=>i.id===n.id)?.name||n.source).replaceAll('_',' ').replace(/\bR\d{2,3}\b/g,'').replace(/\s+\d+$/,'').replace(/\s+/g,' ').trim();}
  if(n.id==='decor')return 'Vaso decorativo';
- if(n.id)return STONE_PARTS[n.id]&&n.mat==='stone'?STONE_PARTS[n.id][0]:ITEMS.find(i=>i.id===n.id)?.name||n.id;
+ if(n.id){const name=STONE_PARTS[n.id]&&n.mat==='stone'?STONE_PARTS[n.id][0]:ITEMS.find(i=>i.id===n.id)?.name||n.id;if(['bed','bonnie','daiane'].includes(n.id))return name;return name+((objectScene||nodes).filter(q=>q.id===n.id).length>1?' · componente '+n.key.split('/').pop():'');}
  const room=PROJECT.rooms.find(r=>r.id===n.room)?.name||n.room;
  const finish=n.h===3?'Peitoril':n.h===33?'Persiana':n.h===8&&(n.w===1.5||n.d===1.5)?'Rodapé':'Peça de acabamento';
  return (({door:'Porta',glass:'Janela',wall:'Trecho de parede',floor:'Trecho de piso'})[n.kind]||finish)+' · '+room+' · '+n.key.split('/').pop();
 }
-function objectRecord(n,scene=nodes){
+function objectRecord(n,scene=objectScene||nodes){
  const pending=n.pending||OBJECT_PENDING.has(n.id),category=objectCategory(n),room=PROJECT.rooms.find(r=>r.id===n.room)?.name||n.room;
  let box={x:n.x,y:n.y,z:n.z,w:n.w,d:n.d,h:n.h};
  // The bed body is explicitly 188 × 128 × 64; pillows are not the product height.
  if(n.id==='bed')box={x:state.headDepth,y:0,z:136,w:188,d:128,h:64};
+ if(['bonnie','daiane'].includes(n.id)){
+  const points=scene.filter(q=>q.id===n.id&&(q.opacity??1)>.01).flatMap(q=>mesh(q).flatMap(f=>f.p));
+  if(points.length){const lo=[0,1,2].map(k=>Math.min(...points.map(p=>p[k]))),hi=[0,1,2].map(k=>Math.max(...points.map(p=>p[k])));box={x:lo[0],y:lo[1],z:lo[2],w:hi[0]-lo[0],h:hi[1]-lo[1],d:hi[2]-lo[2]};}
+ }
  // Full-height architectural data, independent of the cutaway display height.
  if(!n.id&&n.kind==='door')box.h=205;
  if(!n.id&&n.kind==='glass')box.h=110;
  if(!n.id&&n.kind==='wall')box.h=n.underWindow?92:n.y>0?PROJECT.ceilingByRoom[n.room]-n.y:PROJECT.ceilingByRoom[n.room];
  const finite=!pending&&['x','y','z','w','d','h'].every(k=>Number.isFinite(box[k]));
- const reliability=finite?(n.source||OBJECT_PRODUCTS.has(n.id)?OBJECT_NOMINAL:OBJECT_GRAPHIC):'pendente';
+ const reliability=finite?(['bonnie','daiane'].includes(n.id)?OBJECT_GRAPHIC:n.source||OBJECT_PRODUCTS.has(n.id)?OBJECT_NOMINAL:OBJECT_GRAPHIC):'pendente';
  let reference=n.source?'Modelo · '+n.source:'Desenho do site · '+(n.id||n.key);
  const fields=[],add=(name,value,confidence)=>fields.push({name,value,confidence});
  const num=v=>cmTxt(v)+' cm';
@@ -42,7 +48,7 @@ function objectRecord(n,scene=nodes){
   if(!n.id&&['door','glass'].includes(n.kind)){
    add('Vão (largura × altura)',cmTxt(Math.max(box.w,box.d))+' × '+(n.kind==='door'?'205':'113')+' cm',OBJECT_GRAPHIC);
    if(n.kind==='glass')add('Peitoril',num(92),OBJECT_GRAPHIC);
-   add('Sentido de abertura','A conferir', 'pendente');
+   add('Sentido de abertura',n.kind==='door'?'Para dentro no giro ilustrado; mão a conferir':'A conferir',n.kind==='door'?OBJECT_GRAPHIC:'pendente');
   }
   // Shared boundaries are tagged to one room only in the drawing. Search all
   // wall segments and merge collinear pieces before choosing the closest two.
@@ -55,8 +61,8 @@ function objectRecord(n,scene=nodes){
  return {key:objectKey(n),id:n.id,module:n.module,name:objectName(n),room,roomId:n.room,category,box:finite?box:null,reliability,reference,fields,node:n};
 }
 function objectRecords(){
- const list=nodes.map(n=>objectRecord(n));
- for(const it of ITEMS.filter(i=>!nodes.some(n=>n.id===i.id)))list.push(objectRecord({id:it.id,key:'pending/'+it.id,room:activeRoom(it),pending:true}));
+ const scene=objectScene||nodes,seen=new Set(),list=scene.filter(n=>{const key=objectKey(n);if(seen.has(key))return false;seen.add(key);return true;}).map(n=>objectRecord(n,scene));
+ for(const it of ITEMS.filter(i=>!scene.some(n=>n.id===i.id)))list.push(objectRecord({id:it.id,key:'pending/'+it.id,room:activeRoom(it),pending:true}));
  return list;
 }
 function objectFieldsHTML(r){return `<div class="object-measure-summary" data-object-key="${esc(r.key)}"><strong>${esc(r.name)}</strong><p>${esc(r.room)} · ${esc(r.category)}</p><dl>${r.fields.map(f=>`<dt>${esc(f.name)}</dt><dd>${esc(f.value)} <span class="measure-confidence">${esc(f.confidence)}</span></dd>`).join('')}</dl><details><summary>Referência e eixos</summary><p>${esc(r.reference)}. Largura no eixo x; profundidade no eixo z; altura no eixo y. Posição pelo canto inferior do volume, no zero do desenho. Distâncias em planta até os trechos de parede representados; confira no imóvel. O volume não inclui todas as folgas de instalação.</p></details><div class="object-actions"><button type="button" data-copy-object="text">Copiar medidas</button><button type="button" data-copy-object="table">Copiar como tabela</button></div><p class="object-copy-status" role="status"></p></div>`;}
@@ -80,11 +86,12 @@ function showObjectCard(r){
 function objectHighlight(r){
  objectSelected=r.key;state.selected=r.id||null;
  // Stable per-node outline, including anonymous architecture and individual CAD pieces.
- requestRender();if(typeof drawObjectList==='function')drawObjectList();
+ requestRender();if(typeof revealObjectRow==='function')revealObjectRow(r);
 }
 async function inspectObject(n,forceFicha=false){
  if(n.room!==state.room&&(state.room!=='all'||n.module))setRoom(n.room);
- const r=objectRecord(nodes.find(q=>objectKey(q)===objectKey(n))||n);objectReturn=document.activeElement;objectHighlight(r);closeObjectCard();
+ if(state.moduleFilter&&state.moduleFilter!==n.module){state.moduleFilter=null;state.focusPart=null;buildScene();}
+ const r=objectRecord((objectScene||nodes).find(q=>objectKey(q)===objectKey(n))||n);objectReturn=document.activeElement;objectHighlight(r);closeObjectCard();
  if(r.module&&CAD_DATA.modules.some(m=>m.code===r.module))await showModule(r.module);
  else if(ITEMS.some(i=>i.id===r.id)&&(!n.pending||forceFicha))work.previousSelect(r.id,false);
  else {showObjectCard(r);return;}
