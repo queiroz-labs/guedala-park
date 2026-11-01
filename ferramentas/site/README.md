@@ -40,7 +40,7 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
-**Medidas por objeto:** ficha existente com medidas em cm no topo; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
+**Medidas por objeto:** ficha existente com medidas em cm no topo; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
 
 Fontes `src/object-measures.js`/CSS; integração `app.js`/`construir.py`. Teste `test_object_measures.cjs` na cena/CI; `--browser <HTML> <capturas>` usa Playwright existente via NODE_PATH; build aceita esbuild externo.
 

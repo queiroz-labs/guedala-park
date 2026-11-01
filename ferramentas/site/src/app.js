@@ -351,7 +351,7 @@ async function render(canvas,st=state,mini=false,selectionOnly=null,sceneNodes=n
     }
     ctx.restore();
   }
-  if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);}
+  if(!mini&&!selectionOnly){drawAnnotations(ctx,project,cam,w,h,st);if(typeof drawObjectMeasure==='function')drawObjectMeasure(ctx,project,st);}
   if(main){if(!canvas.dataset.rendered)performance.mark('guedala-model-ready');canvas.dataset.rendered='true';document.getElementById('sceneLoading')?.setAttribute('hidden','');}
 }
 function label(ctx,x,y,text,fill='#203d3b',size=11,bg=true){ctx.font=`600 ${size}px Segoe UI,Arial`;let m=ctx.measureText(text);if(bg){ctx.fillStyle='#fffff3ed';ctx.fillRect(x-m.width/2-5,y-size-3,m.width+10,size+8);}ctx.fillStyle=fill;ctx.textAlign='center';ctx.fillText(text,x,y);}

@@ -21,6 +21,10 @@ assert.equal(pending.box,null);assert.equal(pending.reliability,'pendente');
 assert(!run("objectCopy(objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})).includes('99')"));
 run('state.walls=false;buildScene()');assert.equal(record("n.kind==='door'").box.h,205);assert.equal(record("!n.id&&n.kind==='glass'").box.h,110);
 assert.equal(new Set(get('objectRecords().map(r=>r.key)')).size,get('objectRecords().length'));
+const mode=read('object-measure-mode.js');vm.runInContext(mode.slice(0,mode.indexOf("$('stage')")),ctx);
+run("objectSelected=objectKey(nodes.find(n=>n.id==='washer'));objectMeasuring=true;globalThis.cotas=[];dimension=(ctx,pr,a,b,text)=>cotas.push({a,b,text});drawObjectMeasure({save(){},restore(){},beginPath(){},moveTo(){},lineTo(){},stroke(){}},p=>p,state)");
+assert.deepEqual(get('cotas.map(c=>c.text)'),['60 cm','62 cm','85 cm']);
+run('objectMeasuring=false;cotas=[];drawObjectMeasure({save(){},restore(){},beginPath(){},moveTo(){},lineTo(){},stroke(){}},p=>p,state)');assert.equal(run('cotas.length'),0);
 // Exact triangle picking at screen coordinates, including transparent window faces.
 const pick=app.slice(app.indexOf('function pickFace('),app.indexOf('// Pedras ('));
 vm.runInContext(pick,ctx);
@@ -76,15 +80,19 @@ async function browserTest(){
   await page.evaluate(async()=>{setRoom('all');buildScene();const n=nodes.find(n=>n.module==='P01');await inspectObject(n);if(!document.querySelector('#selectedInfo .object-measure-summary'))throw Error('Ficha do módulo deve preservar medidas após mudar de cômodo');});
   await page.evaluate(()=>{setView('iso');canvas.scrollIntoView({block:'center',behavior:'instant'});});await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));const box=await page.locator('#scene').boundingBox(),before=await page.evaluate(()=>state.angle);
   const cdp=await page.context().newCDPSession(page),cx=box.x+box.width/2,cy=box.y+box.height/2;
-  console.log('Gesto '+viewport.width,await page.evaluate(({cx,cy})=>({view:state.view,point:[cx,cy],surface:document.elementFromPoint(cx,cy)?.outerHTML.slice(0,120),pointers:pointers.size}),{cx,cy}));
+  assert.equal(await page.evaluate(({cx,cy})=>document.elementFromPoint(cx,cy)?.id,{cx,cy}),'scene','Ficha não bloqueia os gestos');
   if(viewport.width===375){await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx,y:cy,id:1}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx+35,y:cy+15,id:1}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}
   else{await page.mouse.move(cx,cy);await page.mouse.down();await page.mouse.move(cx+35,cy+15,{steps:4});await page.mouse.up();}
   assert.notEqual(await page.evaluate(()=>state.angle),before,'Arraste gira o modelo');
+  if(await page.locator('#objectMeasureToggle').count()){
+   await page.locator('#objectMeasureToggle').click();assert.equal(await page.locator('#objectMeasureToggle').getAttribute('aria-pressed'),'true');
+   const count=await page.evaluate(async()=>{const before=dimension,calls=[];dimension=(...args)=>{calls.push(args[4]);before(...args);};try{await render(canvas);return calls.length;}finally{dimension=before;}});assert(count>=3,'Cotas do objeto no canvas');
+  }
   const zoom=await page.evaluate(()=>state.zoom);
   // Real touch events through CDP generate native pointer events and pinch handling.
-  await page.evaluate(()=>{pointers.clear();down=null;});
-  await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx-20,y:cy,id:1},{x:cx+20,y:cy,id:2}]});
-  await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx-45,y:cy,id:1},{x:cx+45,y:cy,id:2}]});
+  await page.evaluate(()=>{canvas.scrollIntoView({block:'center',behavior:'instant'});});const pinch=await page.locator('#scene').boundingBox(),px=pinch.x+pinch.width/2,py=pinch.y+pinch.height/2;
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:px-20,y:py,id:1},{x:px+20,y:py,id:2}]});
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:px-45,y:py,id:1},{x:px+45,y:py,id:2}]});
   await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert((await page.evaluate(()=>state.zoom))>zoom,'Pinça aproxima');
   if(await page.locator('#objectMeasureList').count())await page.locator('#objectMeasureList').evaluate(e=>e.open=true);if(await page.locator('#objectMeasureList').count()){await page.locator('#objectRoom').selectOption('all');await page.locator('#objectSearch').fill('cafeteira');assert((await page.locator('#objectMeasureRows').innerText()).includes('pendente'));}
   assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 5 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
