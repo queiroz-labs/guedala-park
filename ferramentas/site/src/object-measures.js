@@ -80,8 +80,10 @@ function collapseFurnitureSheet(host){
  if(sheet){const content=sheet.querySelector('.furniture-sheet-content');sheet.replaceWith(...[...content.childNodes]);}
  const measure=host.querySelector(':scope > .object-measure-summary');
  if(!measure||host.querySelector(':scope > .project-measures')||!host.querySelector('.item-preview,.work-measures'))return;
- const details=document.createElement('details');details.className='project-measures';
- const toggle=document.createElement('summary');toggle.textContent='Mais detalhes do projeto';details.append(toggle,measure);host.append(details);
+ const details=host.querySelector('details.ward-detail')||document.createElement('details');
+ details.classList.add('project-measures');details.open=false;
+ if(!details.querySelector(':scope > summary')){const toggle=document.createElement('summary');toggle.textContent='Mais detalhes do projeto';details.append(toggle);}
+ details.append(measure);host.append(details);
 }
 function closeObjectCard(){const card=$('objectMeasureCard');if(card)card.hidden=true;if(objectReturn?.isConnected)objectReturn.focus({preventScroll:true});}
 function showObjectCard(r){

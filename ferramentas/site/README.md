@@ -40,7 +40,7 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
-**Navegação:** quatro áreas e Mais. O 3D usa um seletor de cômodo; Visualização guarda opções secundárias. Documentos tem Leituras, Downloads e Arquivo técnico. Cabeçalho estável; lista lateral sem sobreposição. Ficha ilustrada primeiro; posição e medidas em “Mais detalhes do projeto”. Unidades: cm no 3D, mm nas fichas.
+**Navegação:** quatro áreas e Mais; setas percorrem só abas visíveis. O 3D usa um seletor de cômodo. Cabeçalho estável; lista lateral sem sobreposição. Ficha ilustrada primeiro; notas, posição e medidas reunidas em um único “Mais detalhes do projeto”. Unidades: cm no 3D, mm nas fichas.
 
 **Medidas por objeto:** medidas em cm à vista; ficha recolhida em “Ver mais”; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela; “Objetos do cômodo” busca por nome/referência, filtra categoria/cômodo e sincroniza seleção com o 3D. CSV dos resultados em cm: L/P/A, x/y/z, selos e referência; gerado por `src/object-list.js`, sem arquivo manual. Sofás usam envelope gráfico do conjunto no estado atual. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
 

@@ -13,7 +13,7 @@
  nav.addEventListener('focusin',event=>{const b=event.target.closest('[data-tab]');if(b)reveal(b);});
  nav.addEventListener('keydown',event=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)||event.altKey||event.ctrlKey||event.metaKey)return;
-  const buttons=[...nav.querySelectorAll('button[data-tab]')],current=buttons.indexOf(event.target);if(current<0)return;
+  const buttons=[...nav.querySelectorAll('button[data-tab]')].filter(b=>b.getClientRects().length>0),current=buttons.indexOf(event.target);if(current<0)return;
   event.preventDefault();let index=event.key==='Home'?0:event.key==='End'?buttons.length-1:(current+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length;
   const button=buttons[index];button.click();button.focus({preventScroll:true});reveal(button);
  });

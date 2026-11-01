@@ -57,6 +57,7 @@ async function browserTest(){
   await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html))+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered).catch(async error=>{console.error('Erros da página:',errors);console.error((await page.locator('body').innerText()).slice(-700));throw error;});
   if(viewport.width===1280){const layout=await page.evaluate(()=>{const side=document.querySelector('#model .sidebar').getBoundingClientRect(),work=document.querySelector('#model .workspace').getBoundingClientRect();return {sideRight:side.right,workLeft:work.left};});assert(layout.sideRight<=layout.workLeft+1,'Lista de cômodos não pode cobrir o desenho');}
   else{const scroll=await page.evaluate(async()=>{window.scrollTo(0,800);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const height=document.querySelector('.mast').getBoundingClientRect().height;window.scrollBy(0,-150);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));return {y:window.scrollY,height,afterHeight:document.querySelector('.mast').getBoundingClientRect().height};});assert(scroll.y<800,'Rolagem para cima deve subir');assert(Math.abs(scroll.height-scroll.afterHeight)<1,'Cabeçalho não deve mudar de altura ao rolar');}
+  const modelTab=page.locator('.mast nav [data-tab="model"]');await modelTab.focus();await modelTab.press('ArrowLeft');assert(await page.locator('#obra').evaluate(e=>e.classList.contains('active')),'Seta deve pular abas ocultas');await page.locator('.mast nav [data-tab="obra"]').press('ArrowRight');assert(await page.locator('#model').evaluate(e=>e.classList.contains('active')));
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
    ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','2 × 75 × 205 cm','estimativa gráfica'],
@@ -86,6 +87,7 @@ async function browserTest(){
     const text=await summary.textContent();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
     if(!['porta','janela'].includes(name)){
      const details=page.locator('#selectedInfo > .project-measures'),toggle=details.locator(':scope > summary');
+     assert.equal(await page.locator('#selectedInfo summary').filter({hasText:'Mais detalhes do projeto'}).count(),1,'Um único bloco reúne notas e medidas');
      assert.equal(await details.evaluate(e=>e.open),false,'Detalhes do projeto começam recolhidos');assert.equal(await summary.isVisible(),false);
      assert(await page.locator('#selectedInfo .item-preview,#selectedInfo .work-measures').first().isVisible(),'Ficha ilustrada aparece primeiro');
      await toggle.focus();await toggle.press('Enter');assert(await summary.isVisible(),'Medidas aparecem no drill down');
