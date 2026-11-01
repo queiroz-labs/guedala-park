@@ -75,6 +75,15 @@ async function copyObjectText(text,host){
  catch{const input=document.createElement('textarea');input.readOnly=true;input.value=text;input.setAttribute('aria-label','Medidas para copiar');host.appendChild(input);input.focus();input.select();host.querySelector('.object-copy-status').textContent='Selecione o texto e copie.';}
 }
 function bindObjectCopy(host,r){host.querySelectorAll('[data-copy-object]').forEach(b=>b.onclick=()=>copyObjectText(objectCopy(r,b.dataset.copyObject==='table'),host));}
+function collapseFurnitureSheet(host){
+ if(host.querySelector(':scope > .furniture-sheet')||!host.querySelector('.item-preview,.work-measures'))return;
+ const sheet=document.createElement('details');sheet.className='furniture-sheet';
+ const toggle=document.createElement('summary');toggle.innerHTML='<span class="sheet-more">Ver mais · ficha do móvel</span><span class="sheet-less">Ver menos · ficha do móvel</span>';sheet.appendChild(toggle);
+ const content=document.createElement('div');content.className='furniture-sheet-content';
+ // Move the existing nodes so bindings for pieces, CSV and isolation are preserved.
+ for(const node of [...host.childNodes])if(!node.classList?.contains('object-measure-summary'))content.appendChild(node);
+ sheet.appendChild(content);host.appendChild(sheet);
+}
 function closeObjectCard(){const card=$('objectMeasureCard');if(card)card.hidden=true;if(objectReturn?.isConnected)objectReturn.focus({preventScroll:true});}
 function showObjectCard(r){
  let card=$('objectMeasureCard');if(!card){card=document.createElement('section');card.id='objectMeasureCard';card.className='object-measure-card';card.setAttribute('aria-label','Medidas do objeto');$('stage').insertAdjacentElement('afterend',card);}
@@ -97,12 +106,16 @@ async function inspectObject(n,forceFicha=false){
  else {showObjectCard(r);return;}
  if(objectSelected!==r.key)return;
  const host=$('selectedInfo');host.insertAdjacentHTML('afterbegin',objectFieldsHTML(r));bindObjectCopy(host,r);
+ collapseFurnitureSheet(host);
  $('inspector').classList.add('open');$('inspector').removeAttribute('aria-modal');$('inspector').removeAttribute('role');
  // Keep the model visible on touch screens: the sheet occupies normal document flow.
  if(matchMedia('(max-width:1150px)').matches)$('inspector').classList.add('object-inspector');
  requestRender();
 }
 function initializeObjectMeasures(){
+ const host=$('selectedInfo');
+ new MutationObserver(()=>collapseFurnitureSheet(host)).observe(host,{childList:true});
+ collapseFurnitureSheet(host);
  const beforeRoom=setRoom;setRoom=function(id){closeObjectCard();objectSelected=null;beforeRoom(id);if(typeof syncObjectList==='function')syncObjectList(id);};
  const beforeTransition=transitionState;transitionState=function(...args){closeObjectCard();beforeTransition(...args);};
  Object.assign(window.GuedalaStudy,{objectRecords,objectRecord,objectCopy,inspectObject,setRoom,transitionState,getSelectedObject:()=>objectSelected});

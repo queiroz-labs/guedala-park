@@ -82,6 +82,12 @@ async function browserTest(){
     assert(point,'Objeto visível para clique: '+name);console.log('Clique '+viewport.width+' '+name+' '+JSON.stringify(point));if(viewport.width===375)await page.touchscreen.tap(point.x,point.y);else await page.mouse.click(point.x,point.y);
     const summary=page.locator('.object-measure-summary:visible').first();await summary.waitFor();await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
     const text=await summary.innerText();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
+    if(!['porta','janela'].includes(name)){
+     const sheet=page.locator('#selectedInfo > .furniture-sheet'),toggle=sheet.locator(':scope > summary');
+     assert.equal(await sheet.evaluate(e=>e.open),false,'Ficha começa recolhida');assert.equal(await sheet.locator('.furniture-sheet-content').isVisible(),false);
+     await toggle.focus();await toggle.press('Enter');assert.equal(await sheet.locator('.furniture-sheet-content').isVisible(),true);
+     await toggle.press('Enter');assert.equal(await sheet.evaluate(e=>e.open),false);assert(await summary.isVisible(),'Medidas continuam visíveis');
+    }
     if(await page.locator('#objectMeasureList').count())assert.equal(await page.locator('#objectMeasureRows tr[aria-selected=true]').getAttribute('data-object-row'),target.key,'Clique leva à linha');
     if(name==='eletrodomestico'){await summary.locator('[data-copy-object=text]').click();await page.waitForFunction(()=>[...document.querySelectorAll('.object-copy-status')].some(e=>e.textContent==='Medidas copiadas.'));assert((await page.evaluate(()=>navigator.clipboard.readText())).includes('60 × 62 × 85 cm'));}
     if(name==='porta'||name==='eletrodomestico'){
@@ -93,6 +99,9 @@ async function browserTest(){
     }
   }
   await page.evaluate(async()=>{setRoom('all');buildScene();const n=nodes.find(n=>n.module==='P01');await inspectObject(n);if(!document.querySelector('#selectedInfo .object-measure-summary'))throw Error('Ficha do módulo deve preservar medidas após mudar de cômodo');});
+  const moduleSheet=page.locator('#selectedInfo > .furniture-sheet');assert.equal(await moduleSheet.evaluate(e=>e.open),false);
+  await moduleSheet.locator(':scope > summary').click();await page.locator('#isolateModule').click();assert.equal(await page.evaluate(()=>state.moduleFilter),'P01','Controles da ficha mantêm funcionamento');await page.locator('#isolateModule').click();
+  await page.evaluate(async()=>showModule('P01'));assert.equal(await moduleSheet.evaluate(e=>e.open),false,'Consulta direta também começa recolhida');
   await page.evaluate(()=>{setView('iso');canvas.scrollIntoView({block:'center',behavior:'instant'});});await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));const box=await page.locator('#scene').boundingBox(),before=await page.evaluate(()=>state.angle);
   const cdp=await page.context().newCDPSession(page),cx=box.x+box.width/2,cy=box.y+box.height/2;
   assert.equal(await page.evaluate(({cx,cy})=>document.elementFromPoint(cx,cy)?.id,{cx,cy}),'scene','Ficha não bloqueia os gestos');
