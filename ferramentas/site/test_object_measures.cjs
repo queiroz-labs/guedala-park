@@ -55,6 +55,8 @@ async function browserTest(){
   const page=await browser.newPage({viewport,hasTouch:true,isMobile:viewport.width===375}),errors=[];page.setDefaultTimeout(12000);page.on('pageerror',e=>errors.push(e.message));
   await page.context().grantPermissions(['clipboard-read','clipboard-write']);
   await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html))+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered).catch(async error=>{console.error('Erros da página:',errors);console.error((await page.locator('body').innerText()).slice(-700));throw error;});
+  if(viewport.width===1280){const layout=await page.evaluate(()=>{const side=document.querySelector('#model .sidebar').getBoundingClientRect(),work=document.querySelector('#model .workspace').getBoundingClientRect();return {sideRight:side.right,workLeft:work.left};});assert(layout.sideRight<=layout.workLeft+1,'Lista de cômodos não pode cobrir o desenho');}
+  else{const scroll=await page.evaluate(async()=>{window.scrollTo(0,800);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const height=document.querySelector('.mast').getBoundingClientRect().height;window.scrollBy(0,-150);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));return {y:window.scrollY,height,afterHeight:document.querySelector('.mast').getBoundingClientRect().height};});assert(scroll.y<800,'Rolagem para cima deve subir');assert(Math.abs(scroll.height-scroll.afterHeight)<1,'Cabeçalho não deve mudar de altura ao rolar');}
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
    ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','2 × 75 × 205 cm','estimativa gráfica'],
@@ -80,16 +82,17 @@ async function browserTest(){
      },{key:target.key,view,angle});
     }
     assert(point,'Objeto visível para clique: '+name);console.log('Clique '+viewport.width+' '+name+' '+JSON.stringify(point));if(viewport.width===375)await page.touchscreen.tap(point.x,point.y);else await page.mouse.click(point.x,point.y);
-    const summary=page.locator('.object-measure-summary:visible').first();await summary.waitFor();await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
-    const text=await summary.innerText();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
+    const summary=page.locator(['porta','janela'].includes(name)?'#objectMeasureCard .object-measure-summary':'#selectedInfo .object-measure-summary');await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
+    const text=await summary.textContent();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
     if(!['porta','janela'].includes(name)){
-     const sheet=page.locator('#selectedInfo > .furniture-sheet'),toggle=sheet.locator(':scope > summary');
-     assert.equal(await sheet.evaluate(e=>e.open),false,'Ficha começa recolhida');assert.equal(await sheet.locator('.furniture-sheet-content').isVisible(),false);
-     await toggle.focus();await toggle.press('Enter');assert.equal(await sheet.locator('.furniture-sheet-content').isVisible(),true);
-     await toggle.press('Enter');assert.equal(await sheet.evaluate(e=>e.open),false);assert(await summary.isVisible(),'Medidas continuam visíveis');
+     const details=page.locator('#selectedInfo > .project-measures'),toggle=details.locator(':scope > summary');
+     assert.equal(await details.evaluate(e=>e.open),false,'Detalhes do projeto começam recolhidos');assert.equal(await summary.isVisible(),false);
+     assert(await page.locator('#selectedInfo .item-preview,#selectedInfo .work-measures').first().isVisible(),'Ficha ilustrada aparece primeiro');
+     await toggle.focus();await toggle.press('Enter');assert(await summary.isVisible(),'Medidas aparecem no drill down');
+     await toggle.press('Enter');assert.equal(await details.evaluate(e=>e.open),false);
     }
     if(await page.locator('#objectMeasureList').count())assert.equal(await page.locator('#objectMeasureRows tr[aria-selected=true]').getAttribute('data-object-row'),target.key,'Clique leva à linha');
-    if(name==='eletrodomestico'){await summary.locator('[data-copy-object=text]').click();await page.waitForFunction(()=>[...document.querySelectorAll('.object-copy-status')].some(e=>e.textContent==='Medidas copiadas.'));assert((await page.evaluate(()=>navigator.clipboard.readText())).includes('60 × 62 × 85 cm'));}
+    if(name==='eletrodomestico'){await page.locator('#selectedInfo > .project-measures > summary').click();await summary.locator('[data-copy-object=text]').click();await page.waitForFunction(()=>[...document.querySelectorAll('.object-copy-status')].some(e=>e.textContent==='Medidas copiadas.'));assert((await page.evaluate(()=>navigator.clipboard.readText())).includes('60 × 62 × 85 cm'));}
     if(name==='porta'||name==='eletrodomestico'){
      await summary.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,name+'-'+viewport.width+'.png'),fullPage:false});
     }
@@ -99,9 +102,10 @@ async function browserTest(){
     }
   }
   await page.evaluate(async()=>{setRoom('all');buildScene();const n=nodes.find(n=>n.module==='P01');await inspectObject(n);if(!document.querySelector('#selectedInfo .object-measure-summary'))throw Error('Ficha do módulo deve preservar medidas após mudar de cômodo');});
-  const moduleSheet=page.locator('#selectedInfo > .furniture-sheet');assert.equal(await moduleSheet.evaluate(e=>e.open),false);
-  await moduleSheet.locator(':scope > summary').click();await page.locator('#isolateModule').click();assert.equal(await page.evaluate(()=>state.moduleFilter),'P01','Controles da ficha mantêm funcionamento');await page.locator('#isolateModule').click();
-  await page.evaluate(async()=>showModule('P01'));assert.equal(await moduleSheet.evaluate(e=>e.open),false,'Consulta direta também começa recolhida');
+  const moduleDetails=page.locator('#selectedInfo > .project-measures');assert.equal(await moduleDetails.evaluate(e=>e.open),false);
+  assert(await page.locator('#selectedInfo .work-measures').first().isVisible(),'Ficha do módulo visível');
+  await page.locator('#isolateModule').click();assert.equal(await page.evaluate(()=>state.moduleFilter),'P01','Controles da ficha mantêm funcionamento');await page.locator('#isolateModule').click();
+  await page.evaluate(async()=>showModule('P01'));assert(await page.locator('#selectedInfo .work-measures').first().isVisible(),'Consulta direta mostra ficha');
   await page.evaluate(()=>{setView('iso');canvas.scrollIntoView({block:'center',behavior:'instant'});});await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));const box=await page.locator('#scene').boundingBox(),before=await page.evaluate(()=>state.angle);
   const cdp=await page.context().newCDPSession(page),cx=box.x+box.width/2,cy=box.y+box.height/2;
   assert.equal(await page.evaluate(({cx,cy})=>document.elementFromPoint(cx,cy)?.id,{cx,cy}),'scene','Ficha não bloqueia os gestos');

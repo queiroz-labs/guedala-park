@@ -9,7 +9,12 @@
   document.documentElement.style.setProperty('--mast-h',h+'px');
   spacer.style.height=Math.max(0,fullHeight-h)+'px';
  }
- function apply(next){compact=next;mast.classList.toggle('mast-compact',next);measure();}
+ function apply(next){
+  // A barra curta já cabe no celular. Mudar sua altura durante o scroll cria
+  // realimentação com o espaçador e faz a página saltar ao rolar para cima.
+  compact=media.matches?false:next;
+  mast.classList.toggle('mast-compact',compact);measure();
+ }
  function scroll(){
   pending=false;const y=window.scrollY,delta=y-lastY;lastY=y;
   apply(GuedalaMobileUX.headerState(compact,{width:innerWidth,y,delta,searchFocused:!!document.activeElement?.closest('.global-search')}));

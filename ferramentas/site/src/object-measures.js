@@ -76,13 +76,12 @@ async function copyObjectText(text,host){
 }
 function bindObjectCopy(host,r){host.querySelectorAll('[data-copy-object]').forEach(b=>b.onclick=()=>copyObjectText(objectCopy(r,b.dataset.copyObject==='table'),host));}
 function collapseFurnitureSheet(host){
- if(host.querySelector(':scope > .furniture-sheet')||!host.querySelector('.item-preview,.work-measures'))return;
- const sheet=document.createElement('details');sheet.className='furniture-sheet';
- const toggle=document.createElement('summary');toggle.innerHTML='<span class="sheet-more">Ver mais · ficha do móvel</span><span class="sheet-less">Ver menos · ficha do móvel</span>';sheet.appendChild(toggle);
- const content=document.createElement('div');content.className='furniture-sheet-content';
- // Move the existing nodes so bindings for pieces, CSV and isolation are preserved.
- for(const node of [...host.childNodes])if(!node.classList?.contains('object-measure-summary'))content.appendChild(node);
- sheet.appendChild(content);host.appendChild(sheet);
+ const sheet=host.querySelector(':scope > .furniture-sheet');
+ if(sheet){const content=sheet.querySelector('.furniture-sheet-content');sheet.replaceWith(...[...content.childNodes]);}
+ const measure=host.querySelector(':scope > .object-measure-summary');
+ if(!measure||host.querySelector(':scope > .project-measures')||!host.querySelector('.item-preview,.work-measures'))return;
+ const details=document.createElement('details');details.className='project-measures';
+ const toggle=document.createElement('summary');toggle.textContent='Mais detalhes do projeto';details.append(toggle,measure);host.append(details);
 }
 function closeObjectCard(){const card=$('objectMeasureCard');if(card)card.hidden=true;if(objectReturn?.isConnected)objectReturn.focus({preventScroll:true});}
 function showObjectCard(r){
