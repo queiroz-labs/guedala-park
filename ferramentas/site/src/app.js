@@ -65,12 +65,13 @@ function buildScene(){nodes=[];nodeSequence={};
   // P01 / F120: continuous bathroom partition, separate bedroom access on its east side.
   // Opening and leaf dimensions remain graphic estimates, not construction measurements.
   if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
-  for(const[r,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]]){add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
+  const windows=[['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]];
+  for(const[r,x,z,w,d]of windows){add(null,r,x,z,w,d,0,state.walls?92:8,'#e4dfd2','wall',{underWindow:true});if(state.walls)add(null,r,x,z,w,d,205,PROJECT.ceilingByRoom[r]-205,'#e4dfd2','wall');add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
   // R55 nominal additions (not measured): persiana 30% closed (Elias, 31/10/2026) on the bedroom and office windows,
   // and baseboard 80 x 15 mm along both faces of wall segments. Baseboard product and wet areas stay pending.
   if(state.walls){
     for(const[r,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10]])add(null,r,x-.5,z-.5,w+1,d+1,H>205?172:95,33,'#d8d4c8','box');
-    for(const[r,x,z,w,d,sharedRooms]of walls){
+    for(const[r,x,z,w,d,sharedRooms]of [...walls,...windows]){
       if(w<=20&&d<=20)continue;
       if(w>d){add(null,r,x,z-1.5,w,1.5,0,8,'#f1eee6','box',{sharedRooms});add(null,r,x,z+d,w,1.5,0,8,'#f1eee6','box',{sharedRooms});}
       else{add(null,r,x-1.5,z,1.5,d,0,8,'#f1eee6','box',{sharedRooms});add(null,r,x+w,z,1.5,d,0,8,'#f1eee6','box',{sharedRooms});}

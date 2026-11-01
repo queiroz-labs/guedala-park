@@ -70,7 +70,7 @@ assert.equal(run('PROJECT.ceilingByRoom.banho'),250);
 assert.match(shell,/\{\{HEIGHT_STUDY\}\}/);
 assert.match(run('PROJECT.heightStudy'),/medida a confirmar/);
 assert.match(run('PROJECT.heightStudy'),/não fabricação/);
-const tallWalls=scene({walls:true}).filter(n=>n.kind==='wall'&&n.y===0);
+const tallWalls=scene({walls:true}).filter(n=>n.kind==='wall'&&n.y===0&&!n.underWindow);
 assert(tallWalls.some(n=>n.room==='escritorio'));
 for(const n of tallWalls)assert.equal(n.h,n.room==='banho'?250:260);
 console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:260,bathroomCeilingStudyCm:250,measured:false,manufacturing:false}));
