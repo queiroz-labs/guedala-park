@@ -56,6 +56,7 @@ for key,path in [('oven',root.parent.parent/'03_Ambientes/Cozinha/Fischer_Grill/
         raise ValueError('A imagem de consulta precisa preservar os pixels')
     details[key]='data:image/webp;base64,'+base64.b64encode(buffer.getvalue()).decode('ascii')
 html=html.replace('/*DETAILS_IMAGES*/','globalThis.GUEDALA_DETAILS='+__import__('json').dumps(details)+';')
+html=html.replace('{{COVER_IMAGE}}','data:image/webp;base64,'+base64.b64encode((src/'capa_sala.webp').read_bytes()).decode('ascii'))
 html=subprocess.run([shutil.which('node') or 'node',str(root/'compact_inline.cjs')],input=html,text=True,encoding='utf-8',capture_output=True,check=True).stdout
 (root/'Guedala_Park_Interativo.html').write_text(html,encoding='utf-8')
 # Same self-contained artifact with the moodboard active after initialization.

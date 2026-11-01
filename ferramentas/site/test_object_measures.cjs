@@ -54,6 +54,15 @@ async function browserTest(){
  try{for(const viewport of [{width:1280,height:900},{width:375,height:812}]){
   const page=await browser.newPage({viewport,hasTouch:true,isMobile:viewport.width===375}),errors=[];page.setDefaultTimeout(12000);page.on('pageerror',e=>errors.push(e.message));
   await page.context().grantPermissions(['clipboard-read','clipboard-write']);
+  await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html)));
+  await page.waitForSelector('#architect.active .entry-hero');
+  const cover=page.locator('.entry-hero img');await cover.evaluate(img=>img.decode());
+  assert(await cover.evaluate(img=>img.naturalWidth>0),'Capa deve carregar');
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Capa não pode causar rolagem horizontal');
+  assert(await page.locator('.entry-hero').evaluate(el=>el.getBoundingClientRect().top<innerHeight),'Capa deve estar na primeira tela');
+  await page.screenshot({path:path.join(out,'capa-'+viewport.width+'.png')});
+  await page.locator('.entry-hero-button').focus();await page.locator('.entry-hero-button').press('Enter');
+  await page.waitForSelector('#model.active');
   await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html))+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered).catch(async error=>{console.error('Erros da página:',errors);console.error((await page.locator('body').innerText()).slice(-700));throw error;});
   if(viewport.width===1280){const layout=await page.evaluate(()=>{const side=document.querySelector('#model .sidebar').getBoundingClientRect(),work=document.querySelector('#model .workspace').getBoundingClientRect();return {sideRight:side.right,workLeft:work.left};});assert(layout.sideRight<=layout.workLeft+1,'Lista de cômodos não pode cobrir o desenho');}
   else{const scroll=await page.evaluate(async()=>{window.scrollTo(0,800);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const height=document.querySelector('.mast').getBoundingClientRect().height;window.scrollBy(0,-150);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));return {y:window.scrollY,height,afterHeight:document.querySelector('.mast').getBoundingClientRect().height};});assert(scroll.y<800,'Rolagem para cima deve subir');assert(Math.abs(scroll.height-scroll.afterHeight)<1,'Cabeçalho não deve mudar de altura ao rolar');}
