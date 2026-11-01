@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
-**CAD:** R55: [lavanderia 129×154 cm, parede 17 cm e Loop +1,5 cm](02_Modelo_3D/README.md#revisão-da-base-arquitetônica), Elias,01/11/2026, “Sim, incorporar essa correção”.
+**CAD:** R55 corrigido; [conferência de portas, circulação, banheiro/cozinha e alturas/conforto](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 

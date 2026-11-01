@@ -21,7 +21,7 @@ São **532 registros** no índice atual de levantamento, incluindo verificaçõe
 
 O CSV vincula código, ambiente, fonte, tolerância, móveis e arquivos a revisar; caminhos relativos à raiz, `|` separa vínculos. “a definir” não é zero. Papéis de RT/oficina não indicam contratação. Campos reais continuam vazios.
 
-**Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Pé-direito 2600 mm é hipótese vigente, não cota oficial; 2470 mm do escritório é cenário separado. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. A lavanderia tem cota oficial 1540 mm, divergente do desenho histórico 1610 mm; conferir no local.
+**Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Alturas de projeto 2600/2500 mm são hipóteses; 2470 mm do escritório é histórico substituído. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. Lavanderia CAD corrigida para 1540 mm; confirmar no local.
 
 Os arquivos indicados são **alvos de revisão após validar o levantamento**, não mudanças já executadas. Alterar fontes e regenerar fichas/pranchas; não editar HTML/PDF à mão. O custo só muda após demonstrar efeito no escopo; reserva permanece separada.
 
