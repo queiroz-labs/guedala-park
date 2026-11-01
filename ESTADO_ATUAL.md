@@ -112,7 +112,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **CAD:** [R55](02_Modelo_3D/README.md#auditoria-de-remocoes), Elias, 31/10/2026, “ok eu aprovo”: 152 remoções/6028 objetos; completo OK/106. Site regenerado; push pendente.
 
-**3D:** medidas/CSV e ficha em “Ver mais”; [site](ferramentas/site/README.md#como-usar). Publicar: Elias,01/11/2026.
+**Site:** medidas/CSV e menu compacto; [uso](ferramentas/site/README.md#como-usar). Publicação anterior: Elias,01/11/2026.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
@@ -128,8 +128,8 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Furação:** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 
-**Dimensões:** [R44 → R54, 380 IDs/37 vãos](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md); P09 +194 mm/P16 −6 mm.
+**Dimensões:** [comparação R44–R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md).
 
-**Movimentos:** [R54 e limites](04_Moveis/Proximas_decisoes/Cinematica/README.md); oito choques com P01 fechado; sem garantia contínua/folga real.
+**Movimentos:** [limites](04_Moveis/Proximas_decisoes/Cinematica/README.md); folga real pendente.
 
 **Risco:** [hipóteses](05_Orcamento_e_cronograma/Risco/README.md).

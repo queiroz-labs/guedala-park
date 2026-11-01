@@ -40,9 +40,10 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
+**Navegação:** menu Apartamento, Escolhas, Documentos, Obra e Mais. Logo abre a apresentação; Mais guarda imagens/materiais e Dia das chaves. O 3D usa um seletor de cômodo. Ajuda reúne instruções e códigos; endereços antigos continuam. Medidas em cm no 3D e mm nas fichas.
+
 **Medidas por objeto:** medidas em cm à vista; ficha recolhida em “Ver mais”; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela; “Objetos do cômodo” busca por nome/referência, filtra categoria/cômodo e sincroniza seleção com o 3D. CSV dos resultados em cm: L/P/A, x/y/z, selos e referência; gerado por `src/object-list.js`, sem arquivo manual. Sofás usam envelope gráfico do conjunto no estado atual. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
 
-Fontes `src/object-measures.js`/CSS; integração `app.js`/`construir.py`. Teste `test_object_measures.cjs` na cena/CI; `--browser <HTML> <capturas>` usa Playwright existente via NODE_PATH; build aceita esbuild externo.
 
 **Lacunas Promob:** portas/janelas gráficas, sem perfis ou sentido documentado; vão/peitoril estimados. Cafeteira sem volume/dimensões; torre/tomada sem dimensão/posição; luz da bancada sem comprimento; luz da lavanderia sem produto/posição. Água quente/acabamento são registros sem objeto individual. Panela sem volume, com medidas documentais parciais. Sem caixa presumida para esses itens. Cama: corpo/colchão 188 × 128 × 64 cm nos eixos da cena, sem travesseiros. Outros componentes: volume próprio, sem equivaler a corte/folga.
 
