@@ -1,5 +1,7 @@
 # Ferramentas
 
+Arquiteto: executar ferramentas/estudos/pacote_arquiteto.py com --zip CAMINHO_EXTERNO_NOVO.zip (ReportLab/pypdf). [Conteúdo e limites](../06_Entregas/Arquiteto/README.md); CAD não aberto/alterado, sem envio.
+
 Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).
 
 O verificador bloqueia pastas datadas fora de `06_Entregas/` e `02_Modelo_3D/Historico/`, inclusive em Componentes e no site. Teste de regressão em 27/10/2026: três pastas temporárias com arquivo (Componentes, site e Inventario_dimensional) reprovaram com saída 1; removidas, a verificação passou. Não há exceção ampla para Componentes ou site.

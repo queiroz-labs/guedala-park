@@ -108,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Arquiteto:** [R55 e revisão: 13 pendências](02_Modelo_3D/README.md#revisão-da-base-arquitetônica).
+**Arquiteto:** [pacote de revisão](06_Entregas/Arquiteto/README.md); preparado, não enviado.
 
 **CAD:** [R55](02_Modelo_3D/README.md#auditoria-de-remocoes), Elias, 31/10/2026, “ok eu aprovo”: 152 remoções/6028 objetos; completo OK/106. Site regenerado; push pendente.
 

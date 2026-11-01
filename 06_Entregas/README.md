@@ -1,5 +1,7 @@
 # Entregas — manifesto e versões
 
+**Arquiteto, 01/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R54 identificadas, materiais, 23 pendências e levantamento. Preparado, não enviado; sem nova exportação arquitetônica.
+
 **Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R54, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
 
 **Ensaios de oficina, 28/10/2026:** [PDF e ZIP](Ensaios_oficina/README.md) com caderno, CSV vazio, verificador e fontes selecionadas. Todos pendentes de execução. Publicação no site autorizada por Elias nesta conversa: “pode fazer o push e atualizar o site com essas infos”.
