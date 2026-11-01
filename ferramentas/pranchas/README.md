@@ -1,6 +1,6 @@
 # Gerador de pranchas
 
-**Fonte vigente R55 (Elias, 31/10/2026, “ok eu aprovo”):** SHA e caminho de `Geometria.json`/`regras.json` re-fixados; envelopes não reexportados, pois o verificador do modelo acusou zero mudança de forma, posição e visibilidade. `exportar.py` ainda lê a árvore antiga (ambiente → módulo) e, na árvore `Moveis/Pxx`, daria 1035 envelopes em vez de 981: adaptar antes de reexportar.
+**Metadados vinculados ao R55 (Elias, 31/10/2026, “ok eu aprovo”):** SHA e caminho de `Geometria.json`/`regras.json` atualizados, com envelopes anteriores mantidos. Isso não comprova equivalência da arquitetura: o R55 incorpora paredes/vãos, pisos e esquadrias e altera visibilidades ([relatório](../../02_Modelo_3D/Relatorio_mudanca.md)). As folhas R02 continuam com referência R54; nova exportação e compatibilização arquitetônica pendentes. `exportar.py` ainda lê a árvore antiga (ambiente → módulo) e, na árvore `Moveis/Pxx`, daria 1035 envelopes em vez de 981: adaptar antes de reexportar.
 
 Fonte de campo: `07_Imovel/Medidas_e_impactos.csv`. Topologia e vínculos: `06_Entregas/Planta_cotada/Cotas.json`. O campo `valor_medido` vence o nominal; números exigem unidade. Vazio significa pendência, nunca zero.
 

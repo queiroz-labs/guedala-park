@@ -2,6 +2,20 @@
 
 Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd), único permitido nesta pasta. Elias, 31/10/2026, nesta conversa: “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”: limpeza (6028 objetos), árvore organizada, quadro de áreas, nível 2570 mm nominal e vãos. Pé-direito 2600/2500 mm continua o vigente do projeto. [Relatório](Relatorio_mudanca.md); geometria das 395 peças do site igual à do R54. [SHA/release](../ferramentas/site/current_release.json).
 
+## Referência para revisão do arquiteto
+
+Conferência documental de 01/11/2026: SHA do FCStd igual ao release; 6028 objetos no XML, sem abrir, recalcular ou salvar no FreeCAD. O relatório de 31/10 é a evidência da verificação completa; esta consulta não a repetiu.
+
+| Item | Situação e uso |
+|---|---|
+| R55 vigente | Nível/vãos, pisos/rodapés, esquadrias, quadro de áreas, materiais, câmeras e árvore incorporados. Aprovação: Elias, 31/10/2026, “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”, no [relatório](Relatorio_mudanca.md). |
+| Pranchas A3 R02 | [Caderno](../06_Entregas/Caderno_pranchas/README.md): desenhos ainda referenciam R54. Metadados de Geometria.json/regras.json apontam R55, mas envelopes foram mantidos da exportação anterior. Não representam reexportação arquitetônica do R55. |
+| Planta mobiliada R03 | [Capturas da R54](../03_Ambientes/Planta_mobiliada/README.md); preservar identificação até produzir vistas novas. |
+| Verde na janela do box | [Candidato separado](Verde_box_candidato.md), não incorporado: objeto RevestJanelaBoxR55 ausente no XML do vigente. |
+| Campo e executivo | Sem medida real; revisão do arquiteto, levantamento e detalhamento continuam pendentes. |
+
+As seções abaixo descrevem a formação do vigente; caminhos externos são evidências históricas, não arquivos alternativos de entrega. O modelo oficial é o FCStd indicado no topo. Para consulta, usar o abridor com `-Vigente`.
+
 ## Estudo de nível e vãos
 
 Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
@@ -30,13 +44,12 @@ As 27 caixas já deixam lacunas: cortes diretos removeriam zero. Originais ocult
 
 Pendências: vão bruto/folgas, peitoris, alturas, espessuras e teto/RT. Entrada: lacuna CAD **750 mm** versus folha 076 **850 mm**; confirmar largura/posição no levantamento. Estudo preserva a lacuna, sem resolver por hipótese.
 
-**Completo OK:** candidato no clone local; 106 cenários/1129 pares, sem falha/colisão nova. R54/base/regras/relatório de piso preservados. **PENDENTE**.
+**Verificação histórica da etapa:** 106 cenários/1129 pares, sem falha/colisão nova. Etapa incorporada ao R55; aceite consolidado no relatório do vigente.
 
-**Δ sobre piso/rodapé:** 5905→5958; **53 novos / 57 alterados / 0 removidos** (54 visibilidades + três agregados). Nenhuma forma própria/posição/expressão original mudou. As 67 representações de pisos/soleiras/rodapés coincidem com a origem. `Relatorio_estudo_vaos.md` e `Delta_geometrico.json` externos, junto ao estudo.
 
 ## Esquadrias no estudo
 
-**Aprovação PENDENTE.** Etapa B solicitada por Elias, 31/10/2026, nesta conversa; cópia da etapa A com pisos/rodapé. Arquivo externo, salvo pelo FreeCAD MCP na instância gráfica: `%LOCALAPPDATA%/Temp/guedala_esquadrias_estudo/Guedala_Park_Estudo_esquadrias.FCStd`.
+**Incorporadas ao R55.** Etapa B solicitada por Elias, 31/10/2026; origem em cópia gráfica da etapa A. Produtos, perfis e dimensões reais permanecem nominais, apesar da incorporação do estudo.
 
 Cada vão tem um `App::Part`; cotas externas na tabela A. Prefixo das fontes antigas: `Peca`. Todas foram mantidas e ocultadas, com geometria, posição e expressões preservadas.
 
@@ -58,13 +71,12 @@ Janelas brancas com vidro/peitoril. Quarto: persiana integrada, sem cortina exte
 
 Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo` sem perda/sobreposição; banheiro reutilizado. Entrada +0,075 m² nominal; material/implantação e divergência 750/850 mm pendentes. Pisos/rodapés preservados. Suportes/corte intermediário ocultos e resultados com Olmo eliminam a sobreposição cinza ao navegar.
 
-`Nivel_Parametros`: 32 relações recuperadas sem ciclo; 8042 expressões reabertas. **Completo OK**, 106 cenários/1157 pares sem colisão nova. Δ sobre A: **130 novos / 63 alterados / 0 removidos** (5958→6088), com auxiliares. R54/base preservados. `Relatorio_esquadrias.md`/`Delta_geometrico.json` externos.
 
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
 ## Quadro de áreas, materiais e câmeras
 
-**D, aprovação PENDENTE.** Pedido de Elias, 31/10/2026; cópia B: `%LOCALAPPDATA%/Temp/guedala_quadro_estudo/Guedala_Park_Estudo_quadro.FCStd`. **C adiada, sem forro.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Regenerar contornos se o piso mudar. Perímetro inclui passagens; não é rodapé.
+**Incorporados ao R55.** Etapa D solicitada por Elias, 31/10/2026. **Forro adiado, não modelado.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Regenerar contornos se o piso mudar. Perímetro inclui passagens; não é rodapé.
 
 Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. Sem perímetro documental equivalente; área privativa usa outro critério.
 
@@ -97,35 +109,28 @@ Catálogo `Materiais_Nomeados`: Olmo, Iseo Marfim, Travertino Reale Greige, Pare
 
 36 câmeras Coin em `Cameras_Ambientes`: selecionar registro e executar `Aplicar_camera.FCMacro` externo. Cantos 1..4: minX/minY, maxX/minY, maxX/maxY, minX/maxY, posição livre próxima.
 
-**Completo OK:** 106 cenários/1157 pares, sem falha/colisão nova. Aparência preservada, render idêntico; 8049 expressões reabertas. **Δ sobre B: 57 novos / 189 alterados / 0 removidos**: 160 vínculos e 38 normalizações (9 em comum), incluindo um agregado BIM recalculado; nenhuma forma própria mudou. Detalhe externo: `Relatorio_quadro.md`.
 
 ## Organizacao da arvore
 
-**E, PENDENTE.** Cópia D: `Guedala_Park_Estudo_organizado.FCStd` em `%LOCALAPPDATA%/Temp/guedala_organizacao_estudo/`. `Moveis/P01..P20`, apartamento e histórico; BC43/banco/Minifix e operandos atuais preservados. Names/sistemas locais intactos. CSVs `Mapa_labels` (328), `Mapa_grupos` (239), `Mapa_objetos` (6145). Δ **35 novos / 415 alterados / 0 removidos** (6180 totais); zero formas próprias alteradas, oito agregados por filiação. **Completo OK**, 106 cenários/1157 pares; 8049 expressões. Detalhes: `Relatorio_organizacao.md` externo.
+**Incorporada ao R55.** `Moveis/P01..P20`, apartamento e histórico organizados antes da limpeza. BC43/banco/Minifix, operandos e sistemas locais preservados. Evidência consolidada no relatório do vigente.
 
 ## Auditoria de remocoes
 
-**Limpeza aprovada e promovida ao R55.** Elias, 31/10/2026, nesta conversa: “1. limpeza real manda o prompt”, somente preparação antes de aprovar o relatório. Partida E auditada (6180 objetos); estudo salvo pela GUI/MCP em `%LOCALAPPDATA%/Temp/guedala_limpeza_real/Guedala_Park_Estudo_limpo.FCStd`.
+**Limpeza incorporada ao R55:** Elias, 31/10/2026, “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”; [relatório consolidado](Relatorio_mudanca.md).
 
-[Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): lote 1, 116 remoções/1789 mantidos, 6180→6064; plano, CSV e relatório externos; promoção **não executada**. **Δ 0 novos/7 grupos alterados/116 removidos**. **Completo OK**, 106 cenários/1157 pares.
+[Auditor](../ferramentas/estudos/auditar_remocoes_freecad.py): 116 remoções no lote 1 e 36 no lote 2, 6180→6028 objetos. Lote 2 autorizado por Elias, 31/10/2026, “Sim, liberar”. As cinco planilhas históricas removidas estão preservadas em [conteúdo extraído](Historico/Planilhas_removidas_limpeza.json). Permanecem BC43, câmeras, Origin/Point, batentes, `*_Legados` e três `R45_*` em uso.
 
-**Lote 2 (Elias, 31/10/2026, nesta conversa: “Sim, liberar”):** `--liberar` retirou a proteção de `R45_*` (estudo Minifix) e de 5 planilhas históricas; conteúdo (454 células) em [Planilhas_removidas_limpeza.json](Historico/Planilhas_removidas_limpeza.json). **36 remoções, 6064→6028**, em cópia externa salva pela GUI ; 0 novos, geometria/visibilidade iguais. **Completo OK** em clone com a base do lote 1, 106 cenários. Seguem BC43, câmeras, Origin/Point, batentes, `*_Legados` e três `R45_*` em uso.
-
-20 `historicos_ocultos` usados/protegidos: **regra inalterada**. R54/base/release/site e relatório oficial intactos. `--plano-remocoes <JSON externo>` só permite conferir exclusões previstas, com hashes/provas; proíbe atualizar base e dispensar movimentos. Promoção/revisão dependem de Elias.
-
-CSV SHA256: `85cb66bd36f064432534814e45e2a6a13c6b1a12aa36ee5e7c22e0c8ac3ff85f`.
+As bases intermediárias e cópias externas descrevem a preparação histórica; a base vigente corresponde ao R55. Regras/invariantes não foram dispensadas pela limpeza. CSV da auditoria SHA256: `85cb66bd36f064432534814e45e2a6a13c6b1a12aa36ee5e7c22e0c8ac3ff85f`.
 
 ## Candidato piso e rodapé
 
-**Aprovação PENDENTE.** Elias, 30/10/2026: pisos → rodapé em cópia do R54 original. Um FCStd externo, salvo na GUI: `../outputs/Piso_rodape_candidato/Guedala_Park_Piso_rodape_candidato.FCStd`. R54, base e release preservados. [Relatório, hashes e perguntas](Relatorio_mudanca.md).
+**Conteúdo incorporado ao R55; título preservado para os links existentes.** Estudo iniciado em 30/10/2026 sobre o R54, incorporado no aceite consolidado de Elias, 31/10/2026, “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”. Produto e interfaces continuam pendentes.
 
-- Vinílico Olmo em um sólido; lavanderia Iseo Marfim e banheiro Travertino Reale Greige separados, mais duas soleiras. Z −50..0 mm. Nove pisos antigos ocultos. Sob a folha do banheiro: vinílico como hipótese visual.
-- Rodapé 80 mm/15 mm nominal: **54 trechos / 35,41680 m**. Recortado contra interferências; piso corrigido define adjacências. `Rodape_Parametros` fora do grupo evita ciclo de expressões. Produto e áreas molhadas pendentes.
-- Aceite: **59.104 células**, zero lacunas/sobreposições; soleiras em contato exato. **7839 expressões** e **106 cenários**, sem peça inválida/colisão nova. **Completo OK** após Elias, 30/10/2026, mandar ajustar a regra: o envelope passa a incluir a laje de piso (Z −50..0). Base intacta; aprovação PENDENTE.
+- Vinílico Olmo em um sólido; lavanderia Iseo Marfim e banheiro Travertino Reale Greige separados. Z −50..0 mm. Nove pisos antigos ocultos. Sob a folha do banheiro: vinílico como hipótese visual.
+- Rodapé 80 mm/15 mm nominal: **54 trechos / 35,41680 m** na etapa de origem; recortado contra interferências e, depois, batentes. Não é quantitativo comercial final. Rodape_Parametros evita ciclo de expressões.
+- Verificação histórica da composição: 59.104 células sem lacuna/sobreposição, soleiras em contato e 106 cenários sem colisão nova. Aceite do conjunto vigente no [relatório](Relatorio_mudanca.md).
 
-Reproduzir com `ferramentas/estudos/compor_piso_rodape.FCMacro` (`GP_REPO`, `GP_COMPOSICAO_DIR` externo vazio). Verificar com `--completo --relatorio --candidato <FCStd externo>`; esse modo não atualiza a base. Evidências completas junto ao candidato.
-
-**Proposta separada, sem número:** R54 → verde da janela → pisos → rodapé; compatibilizar encontros e repetir aceite/completo. R55 verde separado/pendente.
+Macro de origem: `ferramentas/estudos/compor_piso_rodape.FCMacro`. Não executar sobre o vigente para reconstruir uma etapa já incorporada. A integração do verde da janela continua separada e pendente.
 
 ## Histórico R53/R54 — 27/10/2026
 

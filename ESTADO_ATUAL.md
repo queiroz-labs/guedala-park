@@ -108,9 +108,9 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Piso/rodapé:** [candidato](02_Modelo_3D/README.md#candidato-piso-e-rodapé), completo OK; pendente.
+**Arquiteto:** [referência R55 e limites](02_Modelo_3D/README.md#referência-para-revisão-do-arquiteto).
 
-**CAD:** R55 promovido (Elias, 31/10/2026, “ok eu aprovo”): [limpeza](02_Modelo_3D/README.md#auditoria-de-remocoes) 152 remoções, 6028 objetos; completo OK/106. Site local regenerado; publicação pendente de push.
+**CAD:** [R55](02_Modelo_3D/README.md#auditoria-de-remocoes), Elias, 31/10/2026, “ok eu aprovo”: 152 remoções/6028 objetos; completo OK/106. Site regenerado; push pendente.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 

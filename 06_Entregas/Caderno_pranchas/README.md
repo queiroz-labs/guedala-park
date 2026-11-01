@@ -1,6 +1,6 @@
 # Caderno formal A3 — R02
 
-**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+**Referência dos desenhos: R54, 27/10/2026.** Em 31/10, caminho/SHA de Geometria.json e regras.json foram vinculados ao R55, mantendo os envelopes anteriores ([limite do exportador](../../ferramentas/pranchas/README.md)). Isso não reexporta paredes, vãos, pisos e esquadrias do R55 nem atualiza as folhas. Antes da entrega arquitetônica, compatibilizar essas fontes e gerar/conferir novas pranchas. O pedestal Berlin e os 24 envelopes dimensionais pertencem à atualização R54.
 
 [Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 removido da pasta (histórico no git); R02 incluído no pacote R26.
 
