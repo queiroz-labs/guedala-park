@@ -1,4 +1,4 @@
-# Apartamento interativo — R54 e pacote R30
+# Apartamento interativo — R55 e pacote R30
 
 **Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Publicação R29 (navegação por cômodo) autorizada por Elias em 28/10/2026: “Sim, publicar”. R28: “pode fazer o push e atualizar o site com essas infos”.
 
@@ -12,7 +12,7 @@
 
 Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-`current_release.json`: CAD R54, pacote R30, fichas R15 e iluminação CB02. R30 atualiza a imagem do banheiro na galeria de iluminação e preserva imagens nos documentos offline; R29 anterior preservado. Publicação autorizada por Elias,31/10/2026: “pode dar push e atualiza ro site”. [Histórico](../../06_Entregas/README.md).
+`current_release.json`: CAD R55, pacote R30, fichas R15 e iluminação CB02; medidas por objeto, cotas, lista/CSV e ficha em “Ver mais”. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
 
 [Divergências e limpeza R14/R16](../../06_Entregas/README.md).
 
