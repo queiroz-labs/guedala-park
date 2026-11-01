@@ -16,6 +16,12 @@ Conferência documental de 01/11/2026: SHA do FCStd igual ao release; 6028 objet
 
 As seções abaixo descrevem a formação do vigente; caminhos externos são evidências históricas, não arquivos alternativos de entrega. O modelo oficial é o FCStd indicado no topo. Para consulta, usar o abridor com `-Vigente`.
 
+## Revisão da base arquitetônica
+
+Grupos 1 e 2, 01/11/2026: referência consolidada e revisão documental concluída. [13 divergências/interfaces](Revisao_base_arquitetonica.csv), com fonte, impacto, pergunta, responsável e critério de encerramento. Ordem: níveis → paredes/vãos → áreas → folgas/datum. Nenhuma cota física resolvida por hipótese.
+
+Conferidos: 532 registros de campo, todos sem valor medido; sete alturas; critérios do QuadroAreas; 34 folgas (4 negativas sem parede identificada, 24 nulas, 6 de 10 mm). Fonte das folgas continua anterior ao R55. O CSV distingue pendência física de revisão documental concluída. CAD/base/release preservados; reexportação das pranchas é etapa posterior.
+
 ## Estudo de nível e vãos
 
 Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
