@@ -14,7 +14,7 @@ Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechament
 
 `current_release.json`: CAD R54, pacote R30, fichas R15 e iluminação CB02. R30 atualiza a imagem do banheiro na galeria de iluminação e preserva imagens nos documentos offline; R29 anterior preservado. Publicação autorizada por Elias,31/10/2026: “pode dar push e atualiza ro site”. [Histórico](../../06_Entregas/README.md).
 
-Entradas antigas encaminham às fichas e ao estado atual; [referências divergentes](../../06_Entregas/README.md#referências-antigas--triagem-t09).
+[Divergências e limpeza R14/R16](../../06_Entregas/README.md).
 
 Para gerar uma cópia autorizada, sem alterar a `.site` anterior:
 

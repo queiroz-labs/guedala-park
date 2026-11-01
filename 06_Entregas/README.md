@@ -20,6 +20,14 @@
 
 **Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce 273ee 835081919acefb 805f 637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal.
 
+## Limpeza confirmada
+
+Elias, 01/11/2026, nesta conversa: “confirmo”, para remover somente o alias R14 (ZIP/manifesto) e cinco caches Python, corrigindo referências. Cópia histórica R16 preservada; pacotes vigentes e demais entregas mantidos.
+
+ZIP R14 = R16: 29.573.362 bytes, SHA256 c2d24a07ec8c…; manifestos iguais: 8.134 bytes, SHA256 e2ff39921d9a…. Provas completas no commit desta limpeza. Nenhum conteúdo exclusivo. ZIP R16 mantido byte a byte; no manifesto externo, retirado só o anúncio do alias. O gerador deixa de publicá-lo; site remoto não alterado.
+
+Cinco .pyc removidos: caches gerados pelo Python, sem decisões próprias. Outros candidatos do inventário continuam aguardando confirmação.
+
 ## Manifesto de versões — conferência T09 em 26/10/2026
 
 | Item | Versão conferida | Evidência e limite |

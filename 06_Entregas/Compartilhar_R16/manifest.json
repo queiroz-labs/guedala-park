@@ -6,9 +6,7 @@
   "lightingRevision": "CB02",
   "cadPath": "02_Modelo_3D/Historico/Gavetas_escritorio/Guedala_Park_R49_Gavetas_escritorio.FCStd",
   "cadSHA256": "0d34ab3de1dc273e2db9d5483d7d5bb79352ebec01200540485d68c9e2b8f41e",
-  "legacyAliases": [
-    "06_Entregas/Compartilhar_R14/Guedala_Park_R14.zip"
-  ],
+  "legacyAliases": [],
   "files": [
     "COMECE_AQUI.html",
     "manifest.json",

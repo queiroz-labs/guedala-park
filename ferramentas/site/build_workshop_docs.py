@@ -108,9 +108,6 @@ ASSETS = [
     CAD_COLORS+'Verificacao_cores.json',
     CAD_COLORS+'Verificacao_geometria.json',
     '06_Entregas/Compartilhar_R16/manifest.json',
-    # Compatibility aliases: previously shared R14 URL serves the current R16 ZIP.
-    '06_Entregas/Compartilhar_R14/Guedala_Park_R14.zip',
-    '06_Entregas/Compartilhar_R14/manifest.json',
     R45+'Guedala_Park_R45_Consolidado.FCStd',
     '06_Entregas/Planta_cotada/Planta_cotada.svg',
     '06_Entregas/Planta_cotada/Planta_oficial.png',
