@@ -105,7 +105,7 @@ function initializeExperience(){
   $('inspector').insertAdjacentHTML('beforebegin','<button id="inspectorBackdrop" class="inspector-backdrop" aria-label="Fechar detalhes do móvel" tabindex="-1"></button>');
   $('inspectorBackdrop').onclick=closeInspector;
   document.addEventListener('keydown',e=>{
-    if(!$('inspector').classList.contains('open')||!matchMedia('(max-width:1150px)').matches)return;
+    if(!$('inspector').classList.contains('open')||$('inspector').classList.contains('object-inspector')||!matchMedia('(max-width:1150px)').matches)return;
     if(e.key==='Escape'){e.preventDefault();closeInspector();}
     if(e.key==='Tab'){
       const focusable=[...$('inspector').querySelectorAll('button,a[href],summary,[tabindex="0"]')].filter(el=>el.getClientRects().length);

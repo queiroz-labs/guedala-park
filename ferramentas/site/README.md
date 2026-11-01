@@ -40,13 +40,19 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 ## Como usar
 
-1. Escolha o ambiente e a vista: superior, 3D ou lateral. A vista lateral tem quatro direções e pode ocultar a metade oposta do ambiente para facilitar a leitura.
-2. Arraste para girar o 3D; use a roda do mouse ou pinça com dois dedos para aproximar. Nas vistas superior/lateral, arrastar desloca o desenho. “Enquadrar” restaura a câmera.
-3. Toque ou clique em um móvel para abrir sua ficha, com dimensões, material, origem da decisão e o que falta conferir. No celular, também existe “Ver móveis deste ambiente”.
-4. “Mesa extensível”, Bonnie, escritório, cadeiras, PS5 e varal alternam cenas conceituais; dimensões correntes nos dados/fichas, mecanismos pendentes.
-5. Consulte passagens e simule afastamento do sofá, apoio da TV e espessura da cabeceira; recarregar restaura os dados do projeto.
-6. Use “Interiores em corte” para retirar as frentes dos armários detalhados. Em “Organização dos armários”, consulte desenhos e conteúdo de guarda; as fichas também têm acesso direto. Divisões ainda não escolhidas aparecem como pendentes.
-7. Em “Cômodos”, consulte paletas/móveis; em “Escolhas”, decisões e conferências. Esquema interno R02 na ficha do guarda-roupa.
+**Medidas por objeto:** ficha existente com medidas em cm no topo; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
+
+Fontes `src/object-measures.js`/CSS; integração `app.js`/`construir.py`. Teste `test_object_measures.cjs` na cena/CI; `--browser <HTML> <capturas>` usa Playwright existente via NODE_PATH; build aceita esbuild externo.
+
+**Lacunas Promob:** portas/janelas gráficas, sem perfis ou sentido documentado; vão/peitoril estimados. Cafeteira sem volume/dimensões; torre/tomada sem dimensão/posição; luz da bancada sem comprimento; luz da lavanderia sem produto/posição. Água quente/acabamento são registros sem objeto individual. Panela sem volume, com medidas documentais parciais. Sem caixa presumida para esses itens. Cama: corpo/colchão 188 × 128 × 64 cm nos eixos da cena, sem travesseiros. Outros componentes: volume próprio, sem equivaler a corte/folga.
+
+1. Escolha ambiente e vista: planta, 3D ou lateral. Lateral: quatro direções e corte da metade oposta.
+2. Arraste para girar; roda/pinça aproxima. Em planta/lateral, arraste desloca. “Centralizar” restaura a câmera.
+3. Clique/toque para consultar medidas, material, origem e pendências. No celular há lista de móveis.
+4. Mesa, Bonnie, escritório, cadeiras, PS5 e varal alternam cenas conceituais; medidas nos dados/fichas, mecanismos pendentes.
+5. Simule passagens, afastamento do sofá, apoio da TV e cabeceira; recarregar restaura os valores.
+6. “Ver dentro dos armários” retira frentes; “Organização dos armários” abre desenhos/conteúdo, também pelas fichas. Divisões não escolhidas ficam pendentes.
+7. Cômodos: paletas/móveis. Escolhas: decisões/conferências. Interior do guarda-roupa na ficha.
 
 HTML: salvar cópia completa, exportar escolhas, imprimir moodboard e salvar imagem da vista no computador.
 
@@ -80,8 +86,6 @@ Pages usa o workflow após push autorizado; `preparar_pages.py` gera apenas arte
 
 
 
-
-
 ## Organização das fontes
 
 Componentes por tema; consulta em `fabrication/Consulta`. Histórico no git.
@@ -98,28 +102,28 @@ Downloads: `downloads-source.json` seleciona itens; `build_downloads_data.py` me
 
 Navegação: Apartamento, Cômodos, Escolhas e Documentos; planta cotada na barra do 3D. Aliases `?aba=materiais|planta|ambientes` preservados. Selos em `STATUS_GROUPS`: Decidido, Em estudo, Futuro; “A conferir” mantém medidas pendentes. Mapeamento: Elias, 28/10/2026, “Confirmo”; teste `test_navigation.cjs`.
 
-**Comece aqui:** entrada padrão para qualquer visitante; `?perfil=arquiteto` e ids preservados. `?aba=`/hash reconhecidos têm prioridade; o endereço antigo do moodboard mantém Cômodos. “Como explorar” abre ajuda e leva ao 3D/visita. `build_architect_data.py` extrai resumo/9 etapas de ESTADO_ATUAL e revisão do release. `architect-source.json`: 3 caminhos iniciais (botões ≥56 px), 3 perguntas/atalhos e 8 disciplinas/6 documentos com fontes; UI em `src/architect-*`. Planta mobiliada R03: cena R54 e sete vistas recapturadas. Tokens do site/Refero.
-esbuild existente compacta scripts sem mudar nomes globais. Teste `test_architect_entry.cjs` no verificador/CI.
-“Quem decide” filtra disciplinas e conferências dos 65 itens. Papéis por móvel vêm de `quem_valida`, ligados por módulo no CSV de medidas; “Elias registra/identifica” não vira decisão técnica. Sem vínculo, “a definir”; selos também nas escolhas/cômodos. Fonte e medidas reais explícitas em cada registro.
-Busca global: índice por palavras únicas em `build_search_index.py`, sem biblioteca nova. Pendências/papéis, escolhas, cômodos, P01–P20 e documentos; resultado abre aba/registro, `/` foca e Esc limpa. `test_search.cjs` no CI. [53 vínculos sem responsável](Responsaveis_pendentes.csv), sem atribuição presumida.
-Faixas de até 2 linhas nas 7 abas e na planta explicam uso/revisão/limite nominal; aviso global e glossário pelo “?” (43 entradas com fonte; P01–P20, T0 e T01–T09), também pesquisável. Ids preservados; Ferramentas ao fim para todos; `#chaves`/`#obra` agora abrem as telas, preservando `data-tab`/`?aba=`. Resumos de etapas: ESTADO_ATUAL; normas/siglas: fontes no glossário, sem interpretação normativa nova.
+**Comece aqui:** entrada padrão; `?perfil=arquiteto`/ids preservados. `?aba=`/hash têm prioridade; moodboard antigo mantém Cômodos. Ajuda leva ao 3D/visita. `build_architect_data.py`: resumo/9 etapas do ESTADO_ATUAL/release. `architect-source.json`: 3 caminhos (alvos ≥56 px), 3 perguntas, 8 disciplinas/6 documentos. UI `src/architect-*`; planta R03/cena R54/sete vistas; tokens site/Refero. esbuild compacta sem renomear globais; `test_architect_entry.cjs` no CI/verificador.
+“Quem decide”: 65 itens; papéis de `quem_valida` ligados por módulo no CSV, com fonte e limites. Registrar/identificar não equivale a decisão técnica; sem vínculo, “a definir”. Selos nas escolhas/cômodos.
+Busca: índice em `build_search_index.py`, sem biblioteca nova; pendências/papéis, escolhas, cômodos, P01–P20/documentos. Abre aba/registro; `/` foca, Esc limpa. `test_search.cjs` no CI; [vínculos pendentes](Responsaveis_pendentes.csv), sem responsável presumido.
+Faixas explicam uso/revisão/limite nas sete abas/planta; “?” abre aviso/glossário pesquisável (43 entradas com fontes; P01–P20/T0/T01–T09). Ferramentas ao fim; ids/data-tab/endereços preservados, `#chaves`/`#obra` abrem telas. Etapas: ESTADO_ATUAL; normas/siglas: fontes, sem interpretação nova.
 
 A publicação usa `publicacao_documentos.json`: 20 leituras, arquivo técnico e históricos ocultos, com motivos. Cinco leituras aparecem primeiro, outras quinze em “Mais para ler”; busca e atalhos abrem resultados recolhidos. Downloads e outros caminhos ficam em “Mais”.
 
 `publication.py` limpa comandos, blocos de código e caminhos na cópia pública. Códigos e links excedentes ficam em “Fonte e códigos”; até cinco links em “Relacionados”. Fontes e entregas permanecem completas. “Em resumo” extrai frases; seções longas viram detalhes, a primeira aberta. Texto 17 px/1,6; tabelas em cartões até 600 px. Barra de retorno com compensação; CSS compartilhado e URLs relativos também no pacote offline.
 
-`test_public_readability.py` audita os HTMLs gerados no verificador/CI: comandos, caminhos, códigos, parágrafos, seções, links, tabelas e classificação. Limites/padrões/exceções no JSON, sem exceções de regras. SVG conserva rótulos e escala; prosa HTML é auditada. O teste local opcional `test_public_readability_local.cjs <site> <relatorio>` usa Playwright existente via NODE_PATH; GUEDALA_BROWSER_EXECUTABLE permite Chrome/Edge instalado. Seis páginas × 360/375/412 px; mede overflow, fonte, alvos, palavras na primeira tela e altura aberta. Sem dependência nova ou push. Medição: páginas com código/comando/caminho 88→0; HTML >16 KB 54→57; links no corpo (média/máximo) 15,76/431→5,63/7. Primeira tela a 412 px: 208→136 palavras em média nas seis páginas. As 18 combinações móveis passaram.
+`test_public_readability.py` audita comandos, caminhos, códigos, prosa, seções, links, tabelas e classificação no verificador/CI. Regras em `publicacao_documentos.json`, sem exceções de segurança; SVG mantém rótulos/escala. Teste opcional `test_public_readability_local.cjs <site> <relatorio>` usa Playwright existente via NODE_PATH e GUEDALA_BROWSER_EXECUTABLE: seis páginas × 360/375/412 px; overflow, fontes, alvos, palavras iniciais e altura. Fontes completas; sem dependência nova.
 
 ## Dia das chaves — local, sem publicação
 
-Guia por cômodo: toque na planta ou escolha na lista; uma medida por vez, mini-planta, instruções, foto disponível, valor do projeto e campo grande; Pular/Voltar/Próxima e revisão final. “Ver todos” mantém a lista.
-156 itens/162 campos do CSV, sem medidas novas; DIM conserva `/0`/`/1`. Guia e lista usam `guedala:medidas:v1` e o mesmo JSON v1/CSV; fallback, importação atômica e exportação continuam. Sem tolerância presumida. Textos dos 162 guias têm frases de até 20 palavras, sem jargão; códigos/fontes ficam em “Código e referência”.
-[Guias por código](guias_campo.json): rascunho externo por `estudos/rascunhar_guias_campo.py`, seguido de edição dos textos. [Cobertura](Cobertura_guias.csv): 78 códigos só com cômodo; 128 sem foto. Alvos nominais vêm de Cotas.pranchas; descrição pendente remete ao protocolo proposto, disponível offline.
-“Ponto de partida conferido” mantém a trava PR/datum por seção; sem confirmação, só evidência. A “Folha de início” explica a proposta; o protocolo técnico fica recolhido. Pontos/panos ficam recolhidos e opcionais no guia; MOV/ANC/PISO/COMP continuam anotações.
-34 guias usam 14 quadros inspecionados: seis associações trocadas, 23 adicionadas. A cobertura descreve `foto_confere` e origem; sem marcas/reflexos ou cortes inadequados. JPEG 480 px; legendas distinguem unidade espelhada/Mobiliado. Associação dos dormitórios estimada no Complemento R02.
-Cinco ícones ilustram altura/largura/distância/nível/prumo. Setas mostram direita/baixo e “Início (0)” sugerido junto à entrada, sem equiparar ao zero do projeto. O cartão “Antes de começar” lembra a dispensa em `guedala:guia:inicio:v1`, com fallback; não altera medidas.
-[Guia leve offline](Dia_das_chaves.html) <1 MB, com fotos/planta/protocolo sem rede. HTML completo conserva CAD/dossiês e teto anterior (>5 MB); deduplicação e WebP sem perda reduzem tamanho. Sem capturas no git.
-Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; regerar via `construir.py`. Testes `test_field*.cjs`/importador em `verificar_site.py`; Playwright: 162 passos, 375/1280 px, sem overflow, botões ≥44 px, campos ≥16 px; persistência/exportação entre modos.
+Guia por cômodo: planta/lista, uma medida por vez, mini-planta, instruções, foto, valor de projeto e campo grande. Pular/Voltar/Próxima, revisão e “Ver todos”. 156 itens/162 campos do CSV; DIM conserva `/0`/`/1`. Guia/lista compartilham `guedala:medidas:v1`, JSON v1/CSV, fallback, importação atômica e exportação; sem medida ou tolerância nova.
+
+[Guias por código](guias_campo.json): textos editados após `estudos/rascunhar_guias_campo.py`; frases ≤20 palavras. [Cobertura](Cobertura_guias.csv): 78 códigos só com cômodo, 128 sem foto; registra `foto_confere`/origem. Alvos nominais de Cotas.pranchas; descrição ausente remete ao protocolo proposto offline. Código/fonte em detalhes.
+
+“Ponto de partida conferido” mantém trava PR/datum por seção; sem confirmação, só evidência. Folha de início/protocolo continuam propostos. Pontos/panos opcionais; MOV/ANC/PISO/COMP são anotações. Ícones indicam altura/largura/distância/nível/prumo. Setas e início sugerido junto à entrada não equivalem ao zero do projeto. Aviso inicial usa `guedala:guia:inicio:v1` com fallback, sem alterar medidas.
+
+34 guias usam 14 quadros inspecionados, JPEG 480 px; legendas distinguem unidade espelhada/Mobiliado, com associação estimada dos dormitórios no Complemento R02. Sem marcas/reflexos/cortes inadequados.
+
+[Guia offline](Dia_das_chaves.html) <1 MB, com fotos/planta/protocolo. Completo conserva CAD/dossiês e teto anterior (>5 MB); deduplicação/WebP preservam pixels. Fontes `build_field_data.py`, `build_field_guide.py`, `src/field-*`; gerar por `construir.py`. Testes `test_field*.cjs`/importador no verificador/CI; Playwright: 162 passos, 375/1280 px, sem overflow, botões ≥44 px/campos ≥16 px, persistência/exportação entre modos.
 
 ## Obra — local
 

@@ -1,0 +1,92 @@
+/* node test_object_measures.cjs [--browser <HTML> <pasta-de-capturas>]
+   Playwright existente via NODE_PATH; saídas sempre fora do repositório. */
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict'),{pathToFileURL}=require('node:url');
+const src=path.join(__dirname,'src'),read=n=>fs.readFileSync(path.join(src,n),'utf8'),app=read('app.js'),measure=read('object-measures.js');
+const ctx=vm.createContext({console,matchMedia:()=>({matches:true})});
+vm.runInContext(['data.js','cad-data.js','visual-finishes.js','site-copy.js','cad-sync.js'].map(read).join('\n')+'\n'+app.slice(0,app.indexOf("const canvas=$('scene')"))+'\n'+app.slice(app.indexOf('const STONE_PARTS='),app.indexOf('function hideStoneTip'))+'\n'+measure.slice(0,measure.lastIndexOf('initializeObjectMeasures();')),ctx);
+const run=s=>vm.runInContext(s,ctx),get=s=>JSON.parse(run('JSON.stringify('+s+')'));
+run('state.walls=true;buildScene()');
+const record=filter=>get(`objectRecord(nodes.find(n=>${filter}))`);
+assert.deepEqual(record("n.kind==='door'&&n.room==='escritorio'").box,{x:474,y:0,z:220,w:2,d:75,h:205});
+assert.deepEqual(record("!n.id&&n.kind==='glass'&&n.room==='quarto'").box,{x:60,y:95,z:90,w:120,d:10,h:110});
+assert.equal(record("n.kind==='door'").reliability,'estimativa gráfica');
+assert.deepEqual(record("n.id==='washer'").box,{x:320,y:0,z:628,w:60,d:62,h:85});
+assert.equal(record("n.id==='washer'").reliability,'projeto/nominal');
+assert.deepEqual(record("n.id==='washer'").fields.filter(f=>f.name.startsWith('Parede próxima')).map(f=>f.value),['10 cm','65 cm']);
+assert.deepEqual(record("n.id==='bed'").box,{x:5,y:0,z:136,w:188,d:128,h:64});
+const stone=record("n.source==='Peca308'");assert.equal(stone.reliability,'projeto/nominal');assert.equal(stone.box.h,2);
+assert(record("n.kind==='door'").fields.filter(f=>/Base|Topo|Parede|Posição/.test(f.name)).every(f=>f.confidence==='estimativa gráfica'));
+const pending=get("objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})");
+assert.equal(pending.box,null);assert.equal(pending.reliability,'pendente');
+assert(!run("objectCopy(objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})).includes('99')"));
+run('state.walls=false;buildScene()');assert.equal(record("n.kind==='door'").box.h,205);assert.equal(record("!n.id&&n.kind==='glass'").box.h,110);
+assert.equal(new Set(get('objectRecords().map(r=>r.key)')).size,get('objectRecords().length'));
+// Exact triangle picking at screen coordinates, including transparent window faces.
+const pick=app.slice(app.indexOf('function pickFace('),app.indexOf('// Pedras ('));
+vm.runInContext(pick,ctx);
+for(const [filter,expected]of [["n.kind==='door'",'porta'],["!n.id&&n.kind==='glass'",'janela'],["n.id==='washer'",'eletrodoméstico'],["n.id==='bed'",'móvel'],["n.source==='Peca308'",'pedra']]){
+ run(`globalThis.target=nodes.find(n=>${filter});globalThis.faces=mesh(target).map(f=>({...f,points:f.p.map(p=>[p[0]+p[2]*.4,p[1]+p[2]*.2,p[2]-p[0]*.2])}));`);
+ const category=run(`(()=>{for(const f of faces){const p=f.points.slice(0,3),x=p.reduce((s,p)=>s+p[0],0)/3,y=p.reduce((s,p)=>s+p[1],0)/3,hit=pickFace(x,y,faces);if(hit)return objectRecord(hit.node).category;}return null;})()`);
+ assert.equal(category,expected);
+}
+console.log('Medidas: portas, janelas, aparelho, cama e pedra; selos por campo; corte sem reduzir altura; pendentes sem números; seleção por coordenadas OK.');
+
+if(process.argv.includes('--browser'))browserTest().catch(e=>{console.error(e);process.exitCode=1;});
+async function browserTest(){
+ const {chromium}=require('playwright'),idx=process.argv.indexOf('--browser'),html=path.resolve(process.argv[idx+1]),out=path.resolve(process.argv[idx+2]);fs.mkdirSync(out,{recursive:true});
+ const browser=await chromium.launch({headless:true,executablePath:process.env.GUEDALA_BROWSER_EXECUTABLE||undefined});
+ try{for(const viewport of [{width:1280,height:900},{width:375,height:812}]){
+  const page=await browser.newPage({viewport,hasTouch:true,isMobile:viewport.width===375}),errors=[];page.setDefaultTimeout(12000);page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(pathToFileURL(html).href+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered);
+  // Test the existing pointer handler against the fully loaded, occluding scene.
+  for(const [name,filter,room,expected,confidence]of [
+   ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','2 × 75 × 205 cm','estimativa gráfica'],
+   ['janela',"!n.id&&n.kind==='glass'&&n.room==='quarto'",'quarto','120 × 10 × 110 cm','estimativa gráfica'],
+   ['eletrodomestico',"n.id==='washer'",'lavanderia','60 × 62 × 85 cm','projeto/nominal'],
+   ['cama',"n.id==='bed'",'quarto','188 × 128 × 64 cm','projeto/nominal'],
+   ['bancada',"n.source==='Peca308'",'cozinha','186,9 × 63 × 2 cm','projeto/nominal']]){
+    const target=await page.evaluate(async({filter,room})=>{
+     setRoom(room);state.walls=true;state.upper=false;state.sideCut=false;setView('iso');state.angle=-.7;state.tilt=.92;buildScene();await render(canvas);
+     const n=nodes.find(new Function('n','return '+filter)),r=objectRecord(n);return {key:r.key,expected:r.fields[0].value};
+    },{filter,room});
+    await page.locator('#scene').scrollIntoViewIfNeeded();
+    let point=null;
+    for(const view of ['iso','top','side'])for(const angle of [-.7,1,2.8,4.3]){
+     if(point)break;
+     point=await page.evaluate(async({key,view,angle})=>{
+      state.view=view;state.angle=angle;state.side='east';await render(canvas);const n=nodes.find(n=>objectKey(n)===key),faces=mesh(n),rect=canvas.getBoundingClientRect();
+      for(const f of faces){const p=f.p.map(lastProject.project);for(let i=1;i<p.length-1;i++){
+       const tri=[p[0],p[i],p[i+1]],x=tri.reduce((s,p)=>s+p[0],0)/3,y=tri.reduce((s,p)=>s+p[1],0)/3;
+       if(x<4||x>rect.width-4||y<4||y>rect.height-4)continue;
+       const hit=pickFace(x,y,hitFaces);if(hit&&objectKey(hit.node)===key)return {x:rect.left+x,y:rect.top+y};
+      }}return null;
+     },{key:target.key,view,angle});
+    }
+    assert(point,'Objeto visível para clique: '+name);console.log('Clique '+viewport.width+' '+name+' '+JSON.stringify(point));if(viewport.width===375)await page.touchscreen.tap(point.x,point.y);else await page.mouse.click(point.x,point.y);
+    const summary=page.locator('.object-measure-summary:visible').first();await summary.waitFor();await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
+    const text=await summary.innerText();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
+    if(name==='porta'||name==='eletrodomestico'){
+     await summary.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,name+'-'+viewport.width+'.png'),fullPage:false});
+    }
+    if(name==='porta'){
+     const card=page.locator('#objectMeasureCard'),close=card.locator('button').first(),box=await close.boundingBox();assert(box.width>=44&&box.height>=44);
+     const a=await card.boundingBox(),b=await page.locator('#scene').boundingBox();assert(a.y>=b.y+b.height,'Cartão fora da área do objeto');
+    }
+  }
+  await page.evaluate(async()=>{setRoom('all');buildScene();const n=nodes.find(n=>n.module==='P01');await inspectObject(n);if(!document.querySelector('#selectedInfo .object-measure-summary'))throw Error('Ficha do módulo deve preservar medidas após mudar de cômodo');});
+  await page.evaluate(()=>{setView('iso');canvas.scrollIntoView({block:'center',behavior:'instant'});});await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));const box=await page.locator('#scene').boundingBox(),before=await page.evaluate(()=>state.angle);
+  const cdp=await page.context().newCDPSession(page),cx=box.x+box.width/2,cy=box.y+box.height/2;
+  console.log('Gesto '+viewport.width,await page.evaluate(({cx,cy})=>({view:state.view,point:[cx,cy],surface:document.elementFromPoint(cx,cy)?.outerHTML.slice(0,120),pointers:pointers.size}),{cx,cy}));
+  if(viewport.width===375){await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx,y:cy,id:1}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx+35,y:cy+15,id:1}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}
+  else{await page.mouse.move(cx,cy);await page.mouse.down();await page.mouse.move(cx+35,cy+15,{steps:4});await page.mouse.up();}
+  assert.notEqual(await page.evaluate(()=>state.angle),before,'Arraste gira o modelo');
+  const zoom=await page.evaluate(()=>state.zoom);
+  // Real touch events through CDP generate native pointer events and pinch handling.
+  await page.evaluate(()=>{pointers.clear();down=null;});
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx-20,y:cy,id:1},{x:cx+20,y:cy,id:2}]});
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx-45,y:cy,id:1},{x:cx+45,y:cy,id:2}]});
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert((await page.evaluate(()=>state.zoom))>zoom,'Pinça aproxima');
+  if(await page.locator('#objectMeasureList').count())await page.locator('#objectMeasureList').evaluate(e=>e.open=true);if(await page.locator('#objectMeasureList').count()){await page.locator('#objectRoom').selectOption('all');await page.locator('#objectSearch').fill('cafeteira');assert((await page.locator('#objectMeasureRows').innerText()).includes('pendente'));}
+  assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 5 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
+ }}finally{await browser.close();}
+}

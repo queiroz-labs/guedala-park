@@ -1,4 +1,5 @@
 // Regression checks for the R52 scene; no document or source mutations.
+require('./test_object_measures.cjs');
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
 const src=path.join(__dirname,'src'),app=fs.readFileSync(path.join(src,'app.js'),'utf8'),shell=fs.readFileSync(path.join(src,'shell.html'),'utf8');
 const ctx=vm.createContext({console,matchMedia:()=>({matches:true})});

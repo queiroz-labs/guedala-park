@@ -42,8 +42,8 @@ def pacote_local_ignorado():
 
 
 def main():
-    if not NODE or not (SITE / 'node_modules').exists():
-        print('AVISO: Node ou ferramentas/site/node_modules ausentes; testes do site pulados (o CI roda).')
+    if not NODE:
+        print('AVISO: Node ausente; testes do site pulados (o CI roda).')
         return 0
     ok = True
     for t in TESTES_NODE:
