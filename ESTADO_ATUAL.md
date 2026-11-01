@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
-**CAD:** R55 vigente; [candidato de correção da lavanderia e pesquisa da porta](02_Modelo_3D/README.md#revisão-da-base-arquitetônica), incorporação pendente.
+**CAD:** R55 vigente; [candidato da lavanderia/Loop e pesquisa da porta](02_Modelo_3D/README.md#revisão-da-base-arquitetônica), incorporação pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 

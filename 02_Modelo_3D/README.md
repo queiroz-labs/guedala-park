@@ -20,7 +20,7 @@ As seções abaixo descrevem a formação do vigente; caminhos externos são evi
 
 Grupos 1 e 2, 01/11/2026: referência consolidada e revisão documental concluída. [13 divergências/interfaces](Revisao_base_arquitetonica.csv), com fonte, impacto, pergunta, responsável e critério de encerramento. Ordem: níveis → paredes/vãos → áreas → folgas/datum. Nenhuma cota física resolvida por hipótese.
 
-**Correção solicitada:** Elias,01/11/2026, “corrigir a lavanderia deixando a parede do banheiro mais grossa”. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro): candidato 1290×1540 mm, parede 100→170 mm para a lavanderia; banheiro 2090×1240 preservado. Vigente/base intactos; incorporação pendente.
+**Correção solicitada:** Elias,01/11/2026, “corrigir a lavanderia deixando a parede do banheiro mais grossa”. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro): candidato 1290×1540 mm, parede 100→170 mm para a lavanderia; banheiro 2090×1240 preservado. Loop +15 mm (Elias,01/11); incorporação pendente.
 
 **Porta/MCMV:** [Ministério das Cidades, Portaria 725, anexo III, V.b.vii](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/portarias/PORTARIAN.725VERSAOCOMPILADA.pdf): vão livre entre batentes 800×2100 mm para FAR/FDS. Folha/vão bruto e aplicabilidade ao empreendimento pendentes; porta CAD preservada.
 

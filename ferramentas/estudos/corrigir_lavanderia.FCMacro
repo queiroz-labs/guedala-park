@@ -33,6 +33,12 @@ for o in doc.Objects:
  elif o.Name=='RodapeTrecho_052':
   o.Width=170
   changed.append(o.Name)
+# Elias, 01/11/2026: afastar o conjunto Loop 15 mm; folga ao rodape 10 mm.
+for name in ['Peca147','Peca148','Peca149']:
+ o=doc.getObject(name)
+ assert not any(e[0]=='LocalY' for e in o.ExpressionEngine)
+ o.LocalY=o.LocalY.Value+15
+ changed.append(name)
 doc.Area_Lavanderia.Criterio="CAD 1,29 x 1,54 m; parede banheiro/lavanderia 170 mm nominal. Transicao lateral 40 mm mantida; conferir no imovel."
 doc.recompute()
 b=doc.Lavanderia_Iseo_Marfim.Shape.BoundBox
