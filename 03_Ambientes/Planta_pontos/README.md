@@ -6,6 +6,12 @@
 
 [Desenho SVG](Planta_pontos_R00.svg) · [gerador](gerar_planta_pontos.py). Rodar `python -B 03_Ambientes/Planta_pontos/gerar_planta_pontos.py` na raiz. A tabela após o marcador é gerada; a auditoria abaixo é manual.
 
+## Interfaces prioritárias — grupo 3
+
+Revisão documental de 01/11/2026: [10 interfaces com encaminhamento, fontes e aceite](Interfaces_prioritarias.csv). Ordem: cocção/máquina e micro-ondas → E21/varal e água quente → manutenção/banheiro → luz e elétrica. Cada linha vincula os códigos R01 ao resultado a produzir pelo arquiteto/RT/oficina.
+
+Correção documental: pedra da cozinha/lavanderia a **92 cm** (Elias, 31/10/2026; [fonte](../Cozinha/README.md)); referência anterior de 75 cm da lavanderia superada. Implantação CAD permanece a conferir. As demais interfaces continuam condicionadas a campo/produtos/RT; sem rotas, coordenadas, circuitos ou compatibilidade física inventados. R01 mantém 53 funções, com E06 adiada. Modelo e pranchas preservados; consultas não enviadas.
+
 ## Quadro elétrico nominal — 29/10
 
 [Estudo 127 V para RT](Quadro_cargas.md): 36 linhas, 13 potências ausentes; subtotal de referências 6.740 W, **não demanda dimensionante**. [Circuitos como opção](Circuitos_cenario.csv), sem seção/disjuntor final ou queda por falta de quadro, FP e trajetos. AC 220 V fica separado; oferta do prédio não confirmada.

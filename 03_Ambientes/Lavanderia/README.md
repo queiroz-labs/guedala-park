@@ -20,7 +20,7 @@ Estado atual da lavanderia. Nada aqui libera fabricação, compra ou instalaçã
 - **Escoamento:** tampão removível para molho, retentor de fiapos removível, acabamento baixo; saída posterior. [Posição e alcance](Escoamento.md).
 - **Torneira:** Telca Flex preta, ducha extraível, quente/fria. Mangueira e contrapeso livres do sifão e do cesto. [Escolha](Torneira.md).
 - **Cesto basculante P14:** envelope de referência do cesto/armação **45 × 25 × 45 cm**, distinto da frente 550×521×18 mm e do saco **400×200×400 mm**; abertura nominal 55°; **8 kg** é conteúdo de estudo, não capacidade demonstrada. Diretriz manual com dois pivôs, limitadores e retenção; produtos completos e montagem ainda condicionados. [Estado técnico vigente](../../04_Moveis/P14/Reacoes_e_operacao/README.md) · [kit de oficina e ensaio vazio](../../04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md). O envelope 45×25×45 inclui armação/alças/recipiente, não é molde do saco; mecanismos BV0/Southco anteriores não são a direção vigente. Preservar retirada do saco/armação e acesso ao sifão.
-- Bancada a 75 cm no modelo. Hidráulica até 28 cm da parede.
+- **Diretriz de nível da pedra: 92 cm**, cozinha e lavanderia (Elias, 31/10/2026; [fonte](../Cozinha/README.md)). Referência anterior de 75 cm superada; implantação CAD e faixa hidráulica nominal de 28 cm a conferir com tanque, sifão e cesto. [Interfaces INT-03–05/08](../Planta_pontos/Interfaces_prioritarias.csv).
 
 ## Varal
 
