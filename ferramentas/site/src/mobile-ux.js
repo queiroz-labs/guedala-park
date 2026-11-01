@@ -1,27 +1,11 @@
-/* Busca sempre alcançável; compensação conserva o fluxo quando a marca recolhe. */
+/* O cabeçalho mantém a altura durante a rolagem, sem compensação de layout. */
 ;(function(){
- const mast=document.querySelector('.mast'),media=matchMedia('(max-width:760px)');
+ const mast=document.querySelector('.mast');
  document.querySelectorAll('.mast-compensation').forEach(n=>n.remove());mast.classList.remove('mast-compact');
- let compact=false,fullHeight=mast.getBoundingClientRect().height,lastY=scrollY,pending=false;
- const spacer=document.createElement('div');spacer.className='mast-compensation';spacer.setAttribute('aria-hidden','true');mast.after(spacer);
  function measure(){
-  const h=mast.getBoundingClientRect().height;if(!compact)fullHeight=h;
+  const h=mast.getBoundingClientRect().height;
   document.documentElement.style.setProperty('--mast-h',h+'px');
-  spacer.style.height=Math.max(0,fullHeight-h)+'px';
  }
- function apply(next){
-  // A barra curta já cabe no celular. Mudar sua altura durante o scroll cria
-  // realimentação com o espaçador e faz a página saltar ao rolar para cima.
-  compact=media.matches?false:next;
-  mast.classList.toggle('mast-compact',compact);measure();
- }
- function scroll(){
-  pending=false;const y=window.scrollY,delta=y-lastY;lastY=y;
-  apply(GuedalaMobileUX.headerState(compact,{width:innerWidth,y,delta,searchFocused:!!document.activeElement?.closest('.global-search')}));
- }
- window.addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(scroll);}},{passive:true});
- mast.addEventListener('focusin',event=>{if(event.target.closest('.global-search'))apply(false);});
- function resize(){const previous=compact;mast.classList.remove('mast-compact');fullHeight=mast.getBoundingClientRect().height;apply(previous);}
- window.addEventListener('resize',resize);new ResizeObserver(measure).observe(mast);measure();
- globalThis.GuedalaMobileHeader={expand:()=>apply(false),measure,get compact(){return compact;}};
+ window.addEventListener('resize',measure);new ResizeObserver(measure).observe(mast);measure();
+ globalThis.GuedalaMobileHeader={expand:measure,measure,get compact(){return false;}};
 })();

@@ -8,9 +8,14 @@ assert.equal(headerState(true,{width:375,y:20,delta:0,searchFocused:false}),fals
 assert.equal(headerState(true,{width:375,y:600,delta:0,searchFocused:true}),false);
 assert.equal(headerState(false,{width:1280,y:600,delta:100,searchFocused:false}),true);
 assert.equal(headerState(true,{width:375,y:600,delta:1,searchFocused:false}),true);
-assert(read('src/mobile-ux.js').includes('mast-compensation'));assert(read('src/mobile-ux.js').includes("addEventListener('focusin'"));
+const events=[],heights=[];
+let mastHeight=144;
+const headerContext=vm.createContext({document:{querySelector:()=>({classList:{remove(){}},getBoundingClientRect:()=>({height:mastHeight})}),querySelectorAll:()=>[],documentElement:{style:{setProperty:(_key,value)=>heights.push(value)}}},window:{addEventListener:(name,fn)=>events.push({name,fn})},ResizeObserver:class{observe(){}}});
+vm.runInContext(read('src/mobile-ux.js'),headerContext);
+assert.equal(events.some(e=>e.name==='scroll'),false,'Rolagem não deve mudar a altura do cabeçalho');
+assert.equal(heights.at(-1),'144px');mastHeight=180;events.find(e=>e.name==='resize').fn();assert.equal(heights.at(-1),'180px');
 assert(read('construir.py').includes("'mobile-ux.css'"));
-console.log('UX móvel: recolher ao descer, reabrir ao subir/topo/foco; desktop preservado e fluxo compensado');
+console.log('Cabeçalho: altura estável ao rolar; referências de posição atualizadas ao redimensionar');
 
 const {tabScroll,tabEdges}=vm.runInContext('GuedalaMobileUX',ctx);
 assert.equal(tabScroll({left:260,right:350,viewLeft:0,viewRight:300,scrollLeft:0}),74);

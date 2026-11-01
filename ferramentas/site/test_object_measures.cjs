@@ -57,6 +57,21 @@ async function browserTest(){
   await page.goto('http://127.0.0.1:'+server.address().port+'/'+encodeURIComponent(path.basename(html))+'?aba=model');await page.waitForFunction(()=>window.GuedalaStudy&&document.querySelector('#scene')?.dataset.rendered).catch(async error=>{console.error('Erros da página:',errors);console.error((await page.locator('body').innerText()).slice(-700));throw error;});
   if(viewport.width===1280){const layout=await page.evaluate(()=>{const side=document.querySelector('#model .sidebar').getBoundingClientRect(),work=document.querySelector('#model .workspace').getBoundingClientRect();return {sideRight:side.right,workLeft:work.left};});assert(layout.sideRight<=layout.workLeft+1,'Lista de cômodos não pode cobrir o desenho');}
   else{const scroll=await page.evaluate(async()=>{window.scrollTo(0,800);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const height=document.querySelector('.mast').getBoundingClientRect().height;window.scrollBy(0,-150);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));return {y:window.scrollY,height,afterHeight:document.querySelector('.mast').getBoundingClientRect().height};});assert(scroll.y<800,'Rolagem para cima deve subir');assert(Math.abs(scroll.height-scroll.afterHeight)<1,'Cabeçalho não deve mudar de altura ao rolar');}
+  // Roda do mouse fora do canvas: atravessar o antigo limite de recolhimento sem saltar.
+  await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(400);
+  const headerHeight=await page.locator('.mast').evaluate(e=>e.getBoundingClientRect().height);
+  await page.mouse.move(5,viewport.height-20);
+  for(let cycle=0;cycle<2;cycle++){
+   await page.mouse.wheel(0,600);await page.waitForTimeout(400);
+   let previous=await page.evaluate(()=>scrollY);assert(previous>80,'Teste precisa sair do topo');
+   for(let step=0;step<30&&previous>0;step++){
+    await page.mouse.wheel(0,-60);await page.waitForTimeout(100);
+    const current=await page.evaluate(()=>scrollY);assert(current<previous,`Scroll para cima deve subir: ${previous} → ${current}`);previous=current;
+    assert(Math.abs(await page.locator('.mast').evaluate(e=>e.getBoundingClientRect().height)-headerHeight)<1,'Cabeçalho não deve variar ao rolar');
+   }
+   assert.equal(previous,0,'Deve ser possível voltar ao topo');
+   assert(await page.locator('.mast .brand').isVisible(),'Marca reaparece no topo');
+  }
   const modelTab=page.locator('.mast nav [data-tab="model"]');await modelTab.focus();await modelTab.press('ArrowLeft');assert(await page.locator('#obra').evaluate(e=>e.classList.contains('active')),'Seta deve pular abas ocultas');await page.locator('.mast nav [data-tab="obra"]').press('ArrowRight');assert(await page.locator('#model').evaluate(e=>e.classList.contains('active')));
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
