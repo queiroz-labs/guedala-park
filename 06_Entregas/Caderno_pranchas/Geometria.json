@@ -2,8 +2,8 @@
   "schema": 1,
   "units": "mm",
   "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cad_sha256": "b23705247989a99f3ab568843e2a378e3ba4ad599c3656cadf354d0294e75d3e",
-  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: Peca147, Peca148, Peca149. Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
+  "cad_sha256": "abf6c2eb22f4cf1a2693470c3d94619e5adcb525c599ab0b513a75086d3d3445",
+  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: . Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
   "objects": [
     {
       "id": "Peca",
@@ -13741,13 +13741,13 @@
     }
   ],
   "ceilings_at_export": {
-    "quarto": 2600.0,
-    "cozinha": 2600.0,
-    "lavanderia": 2600.0,
-    "escritorio": 2600.0,
-    "banho": 2500.0,
-    "sala": 2600.0,
-    "circulacao": 2600.0
+    "quarto": 2550.0,
+    "cozinha": 2550.0,
+    "lavanderia": 2550.0,
+    "escritorio": 2550.0,
+    "banho": 2300.0,
+    "sala": 2550.0,
+    "circulacao": 2550.0
   },
   "modules": {
     "P01": {
@@ -13770,7 +13770,7 @@
         2132.0
       ],
       "ceiling_ref": "PD-QUA",
-      "clearance_at_export": 468.0
+      "clearance_at_export": 418.0
     },
     "P02": {
       "box": [
@@ -13792,7 +13792,7 @@
         308.0
       ],
       "ceiling_ref": "PD-QUA",
-      "clearance_at_export": 160.0
+      "clearance_at_export": 110.0
     },
     "P03": {
       "box": [
@@ -13814,7 +13814,7 @@
         308.0
       ],
       "ceiling_ref": "PD-QUA",
-      "clearance_at_export": 160.0
+      "clearance_at_export": 110.0
     },
     "P04": {
       "box": [
@@ -13836,7 +13836,7 @@
         308.0
       ],
       "ceiling_ref": "PD-QUA",
-      "clearance_at_export": 160.0
+      "clearance_at_export": 110.0
     },
     "P05": {
       "box": [
@@ -13858,7 +13858,7 @@
         720.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 1700.0
+      "clearance_at_export": 1650.0
     },
     "P06": {
       "box": [
@@ -13880,7 +13880,7 @@
         720.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 1700.0
+      "clearance_at_export": 1650.0
     },
     "P07": {
       "box": [
@@ -13902,7 +13902,7 @@
         900.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 1700.0
+      "clearance_at_export": 1650.0
     },
     "P08": {
       "box": [
@@ -13924,7 +13924,7 @@
         180.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 2420.0
+      "clearance_at_export": 2370.0
     },
     "P09": {
       "box": [
@@ -13946,7 +13946,7 @@
         592.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 50.0
+      "clearance_at_export": 0.0
     },
     "P10": {
       "box": [
@@ -13968,7 +13968,7 @@
         1018.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 50.0
+      "clearance_at_export": 0.0
     },
     "P11": {
       "box": [
@@ -13990,7 +13990,7 @@
         610.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 50.0
+      "clearance_at_export": 0.0
     },
     "P12": {
       "box": [
@@ -14012,7 +14012,7 @@
         584.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 50.0
+      "clearance_at_export": 0.0
     },
     "P13": {
       "box": [
@@ -14034,7 +14034,7 @@
         18.0
       ],
       "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 1050.0
+      "clearance_at_export": 1000.0
     },
     "P14": {
       "box": [
@@ -14056,7 +14056,7 @@
         920.0
       ],
       "ceiling_ref": "PD-LAV",
-      "clearance_at_export": 1680.0
+      "clearance_at_export": 1630.0
     },
     "P15": {
       "box": [
@@ -14078,7 +14078,7 @@
         580.0
       ],
       "ceiling_ref": "PD-LAV",
-      "clearance_at_export": 370.0
+      "clearance_at_export": 320.0
     },
     "P16": {
       "box": [
@@ -14100,7 +14100,7 @@
         240.0
       ],
       "ceiling_ref": "PD-ESC",
-      "clearance_at_export": 1880.0
+      "clearance_at_export": 1830.0
     },
     "P17": {
       "box": [
@@ -14122,7 +14122,7 @@
         550.0
       ],
       "ceiling_ref": "PD-ESC",
-      "clearance_at_export": 150.0
+      "clearance_at_export": 100.0
     },
     "P18": {
       "box": [
@@ -14144,7 +14144,7 @@
         545.0
       ],
       "ceiling_ref": "PD-BAN",
-      "clearance_at_export": 1755.0
+      "clearance_at_export": 1555.0
     },
     "P19": {
       "box": [
@@ -14166,7 +14166,7 @@
         750.0
       ],
       "ceiling_ref": "PD-BAN",
-      "clearance_at_export": 600.0
+      "clearance_at_export": 400.0
     },
     "P20": {
       "box": [
@@ -14188,7 +14188,7 @@
         400.0
       ],
       "ceiling_ref": "PD-SAL",
-      "clearance_at_export": 2200.0
+      "clearance_at_export": 2150.0
     }
   }
 }

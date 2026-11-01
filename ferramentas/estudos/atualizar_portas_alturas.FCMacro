@@ -1,0 +1,125 @@
+"""GUI: candidato externo de portas/alturas; não substitui o vigente/base.
+
+Elias, 01/11/2026: passagem entre batentes 800 x 2100, banheiro 700 x 2100;
+alturas acabadas nominais 2550/2300. Bancada/gabinete preservados.
+GP_PORTAS_OUT aponta para uma pasta externa. Executar sobre o vigente intacto.
+"""
+import FreeCAD as App, FreeCADGui as Gui, Part, os, json
+from pathlib import Path
+
+out = Path(os.environ['GP_PORTAS_OUT']).resolve()
+out.mkdir(parents=True, exist_ok=True)
+candidate = out/'Guedala_Park_Portas_alturas_candidato.FCStd'
+assert not candidate.exists(), 'Candidato existente: revisar antes de repetir'
+doc = App.ActiveDocument
+assert doc and abs(doc.Nivel_Parametros.Altura_Nominal.Value-2570)<.001
+
+def length(obj, name, value):
+    if name not in obj.PropertiesList:
+        obj.addProperty('App::PropertyLength', name, 'Projeto nominal')
+    setattr(obj, name, value)
+
+doc.Nivel_Parametros.Altura_Nominal = 2550
+for name in ['Peca037','Peca039','Peca041','Peca043']:
+    doc.getObject(name).setExpression('Height','Nivel_Parametros.Altura_Nominal')
+length(doc.Nivel_Parametros, 'Altura_Acabada_Banheiro', 2300)
+doc.Nivel_Parametros.Ressalva = 'Alturas acabadas nominais 2550/2300 mm; conferir piso, laje, forro e instalacoes. Nao representam levantamento.'
+for obj in doc.Objects:
+    if obj.Name.startswith('Area_') and 'Altura_Envoltoria' in obj.PropertiesList:
+        length(obj, 'Altura_Acabada', 2300 if obj.Name=='Area_Banheiro' else 2550)
+        obj.setExpression('Altura_Acabada', 'Nivel_Parametros.'+('Altura_Acabada_Banheiro' if obj.Name=='Area_Banheiro' else 'Altura_Nominal'))
+# Referência sem espessura: não inventar estrutura/plenum de forro.
+teto = doc.addObject('Part::Feature', 'Teto_Banheiro_Referencia')
+teto.Label = 'Teto acabado do banheiro - referencia nominal 2300 mm'
+doc.Documentacao.addObject(teto)
+teto.Shape = Part.Face(Part.makePolygon([App.Vector(x,y,2300) for x,y in [(2760,4050),(4850,4050),(4850,5290),(2760,5290),(2760,4050)]]))
+teto.ViewObject.Visibility = False
+
+# Perfil gráfico existente de 20 mm; bruto 840/740 x 2120, livre 800/700 x 2100.
+# Preservar o lado da dobradiça do quarto/entrada ao ampliar o recorte.
+doors = [('Quarto','PQ',3650,3060,'y'), ('Escritorio','PE',2650,2950,'x'),
+         ('Banheiro','PB',2850,3950,'x'), ('Entrada','PI',-100,6060,'y')]
+params = doc.addObject('App::FeaturePython','Portas_Parametros')
+doc.Documentacao.addObject(params)
+for key,value in [('Largura_Livre',800),('Largura_Livre_Banheiro',700),('Altura_Livre',2100),('Largura_Vao',840),('Largura_Vao_Banheiro',740),('Altura_Vao',2120)]:
+    length(params,key,value)
+for name, code, x, y, axis in doors:
+    group = doc.getObject('Porta_'+name)
+    free = 700 if name=='Banheiro' else 800
+    rough = free+40
+    length(group,'Largura_Livre',free)
+    length(group,'Altura_Livre',2100)
+    group.Largura_Vao = rough
+    group.Altura_Vao = 2120
+    group.Perfil_Grafico = 20
+    tool = doc.getObject('VaosFerramenta_'+code)
+    tool.setExpression('Height', None)
+    tool.Length, tool.Width = (rough,100) if axis=='x' else (100,rough)
+    tool.Height = 2120
+    tool.Placement.Base = App.Vector(x,y,0)
+    tool.setExpression('Height', 'Portas_Parametros.Altura_Vao')
+    tool.setExpression('Length' if axis=='x' else 'Width','Portas_Parametros.'+('Largura_Vao_Banheiro' if name=='Banheiro' else 'Largura_Vao'))
+    b = lambda xx,yy,zz,w,d,h: Part.makeBox(w,d,h,App.Vector(xx,yy,zz))
+    if axis=='x':
+        posts=[b(x,y,0,20,100,2100),b(x+rough-20,y,0,20,100,2100),b(x,y,2100,rough,100,20)]
+    else:
+        posts=[b(x,y,0,100,20,2100),b(x,y+rough-20,0,100,20,2100),b(x,y,2100,100,rough,20)]
+    doc.getObject('Batente_'+name).Shape = posts[0].fuse(posts[1:]).removeSplitter()
+    soleira = doc.getObject('Soleira_'+name)
+    if soleira:
+        soleira.Shape = b(x,y,-50,rough if axis=='x' else 100,100 if axis=='x' else rough,50)
+
+# Folhas de 20 mm ilustrativas; produto, ferragem e guarnição por especificar.
+for name, p in [('Quarto',(3750,3880,0)),('Escritorio',(2640,2150,0)),('Entrada',(0,6880,0))]:
+    o = doc.getObject('Folha_'+name)
+    for key, expr in list(o.ExpressionEngine):
+        o.setExpression(key,None)
+    o.Length, o.Width, o.Height = (20,800,2100) if name=='Escritorio' else (800,20,2100)
+    o.Placement = App.Placement(App.Vector(*p),App.Rotation())
+    # Preservar controle por expressão, independente do App::Part pai.
+    for axis, value in zip('xyz',p):
+        key = name+'_'+axis
+        length(params,key,value)
+        o.setExpression('Placement.Base.'+axis,'Portas_Parametros.'+key)
+    o.setExpression('Placement.Rotation.Angle','0 deg')
+    o.setExpression('Height','Portas_Parametros.Altura_Livre')
+    o.setExpression('Width' if name=='Escritorio' else 'Length','Portas_Parametros.Largura_Livre')
+
+ctrl = doc.PortaEntradaBanheiroR12
+ctrl.LocalX = 4530  # x global 2870: face interna do batente esquerdo.
+ctrl.setExpression('GiroLocal','-90 deg + min(90 deg; max(0 deg; Abertura))')
+ctrl.Status = 'Escolha nominal 700 x 2100 livres; giro interno 0 fechado/90 aberto. Eixo, ferragem, macaneta e folgas reais pendentes.'
+leaf = doc.Folha_Banheiro
+leaf.Width, leaf.Height = 700,2100
+leaf.setExpression('Width','Portas_Parametros.Largura_Livre_Banheiro')
+leaf.setExpression('Height','Portas_Parametros.Altura_Livre')
+
+doc.recompute()
+# Rodapés existentes que atravessam a ampliação: recorte, sem movê-los.
+cuts = Part.makeCompound([doc.getObject('VaosFerramenta_'+code).Shape for _,code,_,_,_ in doors])
+for o in list(doc.Objects):
+    if not o.Name.startswith('RodapeTrecho_') or not hasattr(o,'Shape'): continue
+    if o.Shape.common(cuts).Volume < .01: continue
+    tool = doc.addObject('Part::Feature','RecortePortas_'+o.Name)
+    tool.Shape = cuts
+    tool.ViewObject.Visibility = False
+    cut = doc.addObject('Part::Cut','RodapePortas_'+o.Name)
+    cut.Base,cut.Tool,cut.Refine = o,tool,True
+    cut.ViewObject.ShapeColor = o.ViewObject.ShapeColor
+    parent = o.getParentGeoFeatureGroup()
+    if parent: parent.addObject(cut)
+    o.ViewObject.Visibility = False
+doc.recompute()
+assert abs(doc.VaosCorte_PI.Shape.BoundBox.ZMax-2550)<.001
+assert abs(doc.Area_Banheiro.Altura_Acabada.Value-2300)<.001
+assert abs(doc.BC43_Madeira.Shape.BoundBox.YMax-5290)<.001
+assert abs(doc.Peca399.Shape.BoundBox.YMin-4840)<.001
+for name,code,x,y,axis in doors:
+    free = 700 if name=='Banheiro' else 800
+    gauge = Part.makeBox(free if axis=='x' else 100,100 if axis=='x' else free,2100,
+                         App.Vector(x+20 if axis=='x' else x,y+20 if axis=='y' else y,0))
+    for obstacle in [doc.VaosCorte_PI,doc.getObject('Batente_'+name)]:
+        assert gauge.common(obstacle.Shape).Volume<.01, 'Passagem obstruida: '+name+' / '+obstacle.Name
+doc.recompute()
+doc.saveAs(str(candidate))
+(out/'parametros.json').write_text(json.dumps(dict(candidate=str(candidate),livre_mm=[800,2100],livre_banheiro_mm=[700,2100],bruto_grafico_mm=[840,2120],bruto_banheiro_grafico_mm=[740,2120],alturas_mm=[2550,2300],bancada_gabinete='preservados'),indent=2),encoding='utf8')

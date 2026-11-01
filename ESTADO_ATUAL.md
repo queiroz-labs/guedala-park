@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 31/10/2026.
+Vigente 01/11/2026.
 
 ## O projeto
 
@@ -16,7 +16,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | R55 (aprovado: Elias, 31/10/2026, “ok eu aprovo”): limpeza, árvore, nível e vãos; pedestal Berlin | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
+| Modelo 3D | R55: portas 80/70×210 cm; alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”) | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
 | Triagem geométrica | 0 inválidas/1.449 próprias (25/10); 12 contêineres | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
@@ -51,8 +51,6 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R54, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [Registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
-
-Detalhes: [roteiro oficial](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md).
 
 ## Decisões
 
@@ -110,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
-**CAD:** portas/alturas em candidato externo; R55 preservado; [conferência de portas, circulação, banheiro/cozinha e alturas/conforto](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
+**CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 

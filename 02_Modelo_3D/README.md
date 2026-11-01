@@ -1,20 +1,20 @@
 # Modelo 3D (FreeCAD)
 
-Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd), único permitido nesta pasta. Elias, 31/10/2026, nesta conversa: “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”: limpeza (6028 objetos), árvore organizada, quadro de áreas, nível 2570 mm nominal e vãos. Pé-direito 2600/2500 mm continua o vigente do projeto. [Relatório](Relatorio_mudanca.md); geometria das 395 peças do site igual à do R54. [SHA/release](../ferramentas/site/current_release.json).
+Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd). Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”: portas livres 800×2100 mm, banheiro 700×2100 mm; alturas acabadas 2550/2300 mm. Bancada/gabinete preservados. [Relatório](Relatorio_mudanca.md) · [SHA/release](../ferramentas/site/current_release.json).
 
 ## Referência para revisão do arquiteto
 
-Conferência documental 01/11/2026: SHA igual ao release; 6028 objetos. Verificação histórica no relatório.
+6038 objetos; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
 
 | Item | Situação e uso |
 |---|---|
-| R55 vigente | Nível/vãos, pisos/rodapés, esquadrias, quadro de áreas, materiais, câmeras e árvore incorporados. Aprovação: Elias, 31/10/2026, “ok eu aprovo”, escopo “Tudo do estudo limpo (R55)”, no [relatório](Relatorio_mudanca.md). |
+| R55 vigente | Portas/alturas incorporadas: Elias,01/11/2026, “Sim, incorporar o candidato e atualizar a base”. Histórico de limpeza/nível no git. |
 | Pranchas A3 R02 | [Caderno](../06_Entregas/Caderno_pranchas/README.md): desenhos ainda referenciam R54. Metadados de Geometria.json/regras.json apontam R55, mas envelopes foram mantidos da exportação anterior. Não representam reexportação arquitetônica do R55. |
 | Planta mobiliada R03 | [Capturas da R54](../03_Ambientes/Planta_mobiliada/README.md); preservar identificação até produzir vistas novas. |
 | Verde na janela do box | [Candidato separado](Verde_box_candidato.md), não incorporado: objeto RevestJanelaBoxR55 ausente no XML do vigente. |
 | Campo e executivo | Sem medida real; revisão do arquiteto, levantamento e detalhamento continuam pendentes. |
 
-As seções abaixo descrevem a formação do vigente; caminhos externos são evidências históricas, não arquivos alternativos de entrega. O modelo oficial é o FCStd indicado no topo. Para consulta, usar o abridor com `-Vigente`.
+Histórico de formação abaixo; caminhos externos não são modelos vigentes. Abridor: `-Vigente`.
 
 ## Revisão da base arquitetônica
 
@@ -22,13 +22,13 @@ As seções abaixo descrevem a formação do vigente; caminhos externos são evi
 
 **Lavanderia corrigida:** Elias,01/11/2026, “Sim, incorporar essa correção”: 1290×1540 mm; parede 100→170 mm, banheiro 2090×1240 preservado; Loop +15 mm, folga 10 mm. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro) recorta pisos/contornos e ajusta rodapés; [relatório](Relatorio_mudanca.md).
 
-**Porta/MCMV:** [Ministério das Cidades, Portaria 725, anexo III, V.b.vii](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/portarias/PORTARIAN.725VERSAOCOMPILADA.pdf): vão livre entre batentes 800×2100 mm para FAR/FDS. Folha/vão bruto e aplicabilidade ao empreendimento pendentes; porta CAD preservada.
+**Porta/MCMV:** [Ministério das Cidades, Portaria 725, anexo III, V.b.vii](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/portarias/PORTARIAN.725VERSAOCOMPILADA.pdf): vão livre entre batentes 800×2100 mm para FAR/FDS. Não comprova obrigação para outras linhas. Elias,01/11/2026: livres 800×2100 mm; banheiro 700×2100 mm. Incorporado; bancada/gabinete preservados.
 
 ## Estudo de nível e vãos
 
-Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Não substitui 2600/2500 mm vigentes; verde separado.
+Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Histórico: projeto nominal agora 2550/2300 mm; verde separado.
 
-### Tabela dos envelopes nominais de corte
+### Envelopes anteriores dos cortes — histórico
 
 Fontes: [P01 oficial](../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), localização; [planta mobiliada](../03_Ambientes/Planta_mobiliada/README.md), contexto. **Cotas não explícitas no PDF:** extraídas do R54, sem medição real. X/Y mm globais, canto mínimo; largura no eixo indicado. Parede = caixas limítrofes.
 
@@ -82,9 +82,9 @@ Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo`
 
 **Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
-## Quadro de áreas, materiais e câmeras
+## Quadro de áreas anterior às novas portas, materiais e câmeras
 
-**Incorporados ao R55.** Etapa D solicitada por Elias, 31/10/2026. **Forro adiado, não modelado.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Regenerar contornos se o piso mudar. Perímetro inclui passagens; não é rodapé.
+**Incorporados ao R55.** Etapa D solicitada por Elias, 31/10/2026. **Sistema de forro pendente; referência de teto do banheiro a 2300 mm sem espessura.** `QuadroAreas`: área/perímetro das sete faces ocultas `Area_*`, piso Z=0. Contornos anteriores à ampliação das soleiras; regenerar antes de quantitativos. Perímetro inclui passagens; não é rodapé.
 
 Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Quantidades_por_ambiente.csv), sem ajustar a geometria. Sem perímetro documental equivalente; área privativa usa outro critério.
 

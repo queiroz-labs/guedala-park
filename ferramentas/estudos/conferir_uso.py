@@ -48,16 +48,16 @@ process.stdout.write(vm.runInContext('JSON.stringify({cases:conferencia,heights:
     kitchen = '03_Ambientes/Cozinha/Medidas_e_folgas.md'
     for code,room,name in [('PE','entrada','Porta_Entrada'),('PB','banho','Porta_Banheiro'),
                            ('PQ','quarto','Porta_Quarto'),('PO','escritorio','Porta_Escritorio')]:
-        width,height = prop(name,'Largura_Vao'),prop(name,'Altura_Vao')
-        add(code,'portas e circulacao',room,'Envelope do vão no CAD',f'{width:g} x {height:g}','mm',
-            'estimativa gráfica','campo/documento',
-            'Envelope nominal; não equivale a folha, vão bruto ou passagem livre após batente.',
+        width,height = prop(name,'Largura_Livre'),prop(name,'Altura_Livre')
+        add(code,'portas e circulacao',room,'Vão livre entre batentes no CAD',f'{width:g} x {height:g}','mm',
+            'projeto/nominal','campo/documento',
+            'Escolha nominal de projeto; perfis e espessura da folha continuam gráficos, sem produto especificado.',
             'Conferir folha, eixo, batente, guarnição, maçaneta, sentido e passagem útil no quadro de esquadrias ou na vistoria.',model_readme)
     old_leaf = base['objetos']['Peca076']['caixa_global']
     leaf = max(old_leaf[3]-old_leaf[0],old_leaf[4]-old_leaf[1])
-    add('PE-D','portas e circulacao','entrada','Folha antiga versus lacuna',f'{leaf:g} / {prop("Porta_Entrada","Largura_Vao"):g}','mm',
-        'estimativa gráfica','divergencia','Grandezas e implantação divergentes; nenhuma das duas comprova a porta entregue.',
-        'Obter a especificação da entrada; não adotar uma folha de 800 ou 850 mm por dedução.',model_readme)
+    add('PE-D','portas e circulacao','entrada','Folha antiga oculta / passagem nominal',f'{leaf:g} / {prop("Porta_Entrada","Largura_Livre"):g}','mm',
+        'histórico / projeto nominal','campo/documento','A folha antiga oculta é referência histórica; não dimensiona a porta vigente.',
+        'Obter quadro de portas e especificação do produto; conferir os 800 mm livres no local.',model_readme)
     for case in scene['cases']:
         label = ('fechada' if case['table']=='compact' else 'aberta')+'; cadeiras '+('guardadas' if case['dining']=='stored' else 'em uso')
         for suffix,key,check in [('F','tableToFridge','Mesa até frente fechada da geladeira'),('L','lateralGap','Faixa lateral nominal junto às cadeiras')]:
@@ -105,10 +105,11 @@ process.stdout.write(vm.runInContext('JSON.stringify({cases:conferencia,heights:
         add(id,'banheiro e cozinha',room,check,value,unit,'documental/manual',status,reading,action,source)
     cad_height = prop('Nivel_Parametros','Altura_Nominal')
     for room in ['quarto','escritorio','sala','cozinha','lavanderia','banho','circulacao']:
-        planned = float(scene['heights'].get(room,260))*10
-        add('H-'+room,'pe-direito e conforto',room,'Envoltória CAD / altura final de projeto',
-            f'{cad_height:g} / {planned:g}','mm','projeto/nominal','divergencia',
-            f'Delta da envoltória CAD para o projeto: {cad_height-planned:+g} mm. Nenhum valor é medida acabada do imóvel; forro não modelado.',
+        planned = float(scene['heights'][room])*10
+        finished = prop('Area_Banheiro','Altura_Acabada') if room=='banho' else cad_height
+        add('H-'+room,'pe-direito e conforto',room,'Altura acabada CAD / altura final de projeto',
+            f'{finished:g} / {planned:g}','mm','projeto/nominal','campo/documento' if finished==planned else 'divergencia',
+            f'Delta CAD/projeto: {finished-planned:+g} mm. Referência nominal; teto do banheiro representado por face sem espessura, sem definir sistema ou plenum.',
             'Conferir laje, piso acabado, teto acabado e rebaixos por trecho. Não deduzir espessura de forro nem ajustar armários até o teto sem essa distinção.',height_source+'|'+model_readme)
     add('H-T','pe-direito e conforto','todos','Armários e box até o teto','pendente','','projeto/nominal','campo/RT/oficina',
         'A diretriz de chegar ao teto não define arremate, tolerância de montagem ou espaço de instalações.',

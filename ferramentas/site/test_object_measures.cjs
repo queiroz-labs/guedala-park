@@ -91,6 +91,7 @@ async function browserTest(){
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
    ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','80 × 210 cm','projeto/nominal'],
+   ['porta_banheiro',"!n.id&&n.kind==='door'&&n.room==='banho'",'banho','70 × 210 cm','projeto/nominal'],
    ['janela',"!n.id&&n.kind==='glass'&&n.room==='quarto'",'quarto','120 × 10 × 110 cm','estimativa gráfica'],
    ['eletrodomestico',"n.id==='washer'",'lavanderia','60 × 62 × 85 cm','projeto/nominal'],
    ['cama',"n.id==='bed'",'quarto','188 × 128 × 64 cm','projeto/nominal'],
@@ -113,9 +114,10 @@ async function browserTest(){
      },{key:target.key,view,angle});
     }
     assert(point,'Objeto visível para clique: '+name);console.log('Clique '+viewport.width+' '+name+' '+JSON.stringify(point));if(viewport.width===375)await page.touchscreen.tap(point.x,point.y);else await page.mouse.click(point.x,point.y);
-    const summary=page.locator(['porta','janela'].includes(name)?'#objectMeasureCard .object-measure-summary':'#selectedInfo .object-measure-summary');await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
+    const architectural=name.startsWith('porta')||name==='janela';
+    const summary=page.locator(architectural?'#objectMeasureCard .object-measure-summary':'#selectedInfo .object-measure-summary');await page.waitForFunction(key=>document.querySelector('.object-measure-summary[data-object-key="'+CSS.escape(key)+'"]'),target.key);
     const text=await summary.textContent();assert(text.includes(expected||target.expected),name+': '+text);assert(text.includes(confidence));
-    if(!['porta','janela'].includes(name)){
+    if(!architectural){
      const details=page.locator('#selectedInfo > .project-measures'),toggle=details.locator(':scope > summary');
      assert.equal(await page.locator('#selectedInfo summary').filter({hasText:'Mais detalhes do projeto'}).count(),1,'Um único bloco reúne notas e medidas');
      assert.equal(await details.evaluate(e=>e.open),false,'Detalhes do projeto começam recolhidos');assert.equal(await summary.isVisible(),false);
@@ -125,10 +127,10 @@ async function browserTest(){
     }
     if(await page.locator('#objectMeasureList').count())assert.equal(await page.locator('#objectMeasureRows tr[aria-selected=true]').getAttribute('data-object-row'),target.key,'Clique leva à linha');
     if(name==='eletrodomestico'){await page.locator('#selectedInfo > .project-measures > summary').click();await summary.locator('[data-copy-object=text]').click();await page.waitForFunction(()=>[...document.querySelectorAll('.object-copy-status')].some(e=>e.textContent==='Medidas copiadas.'));assert((await page.evaluate(()=>navigator.clipboard.readText())).includes('60 × 62 × 85 cm'));}
-    if(name==='porta'||name==='eletrodomestico'){
+    if(name.startsWith('porta')||name==='eletrodomestico'){
      await summary.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,name+'-'+viewport.width+'.png'),fullPage:false});
     }
-    if(name==='porta'){
+    if(name.startsWith('porta')){
      const card=page.locator('#objectMeasureCard'),close=card.locator('button').first(),box=await close.boundingBox();assert(box.width>=44&&box.height>=44);
      const a=await card.boundingBox(),b=await page.locator('#scene').boundingBox();assert(a.y>=b.y+b.height,'Cartão fora da área do objeto');
     }
@@ -162,6 +164,6 @@ async function browserTest(){
    await page.locator('#objectMeasureRows button').click();assert.equal(await page.evaluate(()=>GuedalaStudy.getSelectedObject()),'washer/washer/1');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Sem overflow na página');
   }
-  assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 5 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
+  assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 6 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
  }}finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
 }
