@@ -1,6 +1,6 @@
 # Gerador de pranchas
 
-**Metadados vinculados ao R55 (Elias, 31/10/2026, “ok eu aprovo”):** SHA e caminho de `Geometria.json`/`regras.json` atualizados, com envelopes anteriores mantidos. Isso não comprova equivalência da arquitetura: o R55 incorpora paredes/vãos, pisos e esquadrias e altera visibilidades ([relatório](../../02_Modelo_3D/Relatorio_mudanca.md)). As folhas R02 continuam com referência R54; nova exportação e compatibilização arquitetônica pendentes. `exportar.py` ainda lê a árvore antiga (ambiente → módulo) e, na árvore `Moveis/Pxx`, daria 1035 envelopes em vez de 981: adaptar antes de reexportar.
+**R55 corrigido:** `atualizar_selecao(ids_atualizar)` de `exportar.py`, executada na GUI com o vigente aberto, relê a seleção histórica e só sincroniza regras/SHA se os 24 alvos dimensionais permanecerem iguais. Atualiza somente os IDs explícitos: Peca147/148/149 nesta correção. Isso não inclui os novos objetos arquitetônicos da R55. As folhas R02 continuam históricas; nova compatibilização arquitetônica pendente. Correção da lavanderia/Loop: Elias,01/11/2026, “Sim, incorporar essa correção”.
 
 Fonte de campo: `07_Imovel/Medidas_e_impactos.csv`. Topologia e vínculos: `06_Entregas/Planta_cotada/Cotas.json`. O campo `valor_medido` vence o nominal; números exigem unidade. Vazio significa pendência, nunca zero.
 

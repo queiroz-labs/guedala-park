@@ -1,6 +1,6 @@
 # Recálculo dimensional
 
-**Fonte vigente R54, 27/10/2026:** SHA e caminho sincronizados com o pedestal Berlin e afastamento de 15 mm da cadeira lateral. Os 24 envelopes usados no recálculo dimensional permanecem iguais; fórmulas e medidas nominais preservadas.
+**Fonte vinculada ao R55 corrigido:** 24 alvos conferidos no CAD; os envelopes do recálculo continuam iguais, com fórmulas preservadas. Parede/lavanderia e Loop incorporadas: Elias,01/11/2026, “Sim, incorporar essa correção”. Pranchas R02 seguem históricas; a seleção não inclui os novos objetos arquitetônicos.
 
 `python ferramentas/medidas/recalcular.py` lê o CSV efetivo e aplica [regras](../../04_Moveis/Dependencias/regras.json). Somente resultado nominal vai para Dependencias/Impacto.md e Impacto.json. Se houver valor medido ou cenário, a saída padrão é temporária fora do repositório; o comando imprime o caminho. `--nominal` ignora medidos explicitamente e serve à reprodução da base.
 

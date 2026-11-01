@@ -5,7 +5,7 @@
   "projectDate": "27 outubro 2026",
   "cadRevision": "R55",
   "cadPath": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cadSHA256": "d5ed97df437b24c782f3b052739604d86e0cca3d14266d7fe396123c51058297",
+  "cadSHA256": "b23705247989a99f3ab568843e2a378e3ba4ad599c3656cadf354d0294e75d3e",
   "cadReadme": "02_Modelo_3D/README.md",
   "cadEvidence": [
     "Alteracoes_R53.json",
@@ -22,7 +22,7 @@
   "lastPublishedCadRevision": "R54",
   "lastPublishedCadPath": "02_Modelo_3D/Guedala_Park_R54_Berlin.FCStd",
   "lastPublishedPackageRevision": "R29",
-  "notes": "Pacote R30: banheiro atual na galeria e imagens offline; CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\".",
+  "notes": "Pacote R30: banheiro atual na galeria e imagens offline; CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\". Correção da lavanderia 1290x1540 mm, parede 170 mm e Loop +15 mm incorporada: Elias, 01/11/2026, \"Sim, incorporar essa correção\".",
   "technicalDocuments": [
     {
       "id": "pe-direito",

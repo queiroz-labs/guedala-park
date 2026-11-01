@@ -16,7 +16,7 @@ doc.Peca050.Width=170
 doc.recompute()
 strip=Part.makeBox(2190,70,3100,App.Vector(2660,5390,-50))
 changed=[]
-for name in ['Lavanderia_Iseo_Marfim','Soleira_cozinha_lavanderia','Area_Lavanderia']:
+for name in ['Vinilico_continuo','Lavanderia_Iseo_Marfim','Soleira_cozinha_lavanderia','Area_Lavanderia','Area_Cozinha']:
  o=doc.getObject(name)
  assert o and hasattr(o,'Shape')
  shape=o.Shape.cut(strip).removeSplitter()
@@ -42,6 +42,7 @@ for name in ['Peca147','Peca148','Peca149']:
 doc.Area_Lavanderia.Criterio="CAD 1,29 x 1,54 m; parede banheiro/lavanderia 170 mm nominal. Transicao lateral 40 mm mantida; conferir no imovel."
 doc.recompute()
 b=doc.Lavanderia_Iseo_Marfim.Shape.BoundBox
+assert doc.Vinilico_Sem_Soleira_Escritorio.Shape.common(strip).Volume<.01
 assert abs(b.YLength-1540)<.001 and abs(b.XLength-1290)<.001
 assert abs(doc.Peca049.Shape.BoundBox.YLength-170)<.001
 Gui.activeDocument().activeView().viewAxonometric()

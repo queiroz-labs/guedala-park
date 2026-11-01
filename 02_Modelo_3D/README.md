@@ -20,7 +20,7 @@ As seções abaixo descrevem a formação do vigente; caminhos externos são evi
 
 Grupos 1 e 2, 01/11/2026: referência consolidada e revisão documental concluída. [13 divergências/interfaces](Revisao_base_arquitetonica.csv), com fonte, impacto, pergunta, responsável e critério de encerramento. Ordem: níveis → paredes/vãos → áreas → folgas/datum. Nenhuma cota física resolvida por hipótese.
 
-**Correção solicitada:** Elias,01/11/2026, “corrigir a lavanderia deixando a parede do banheiro mais grossa”. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro): candidato 1290×1540 mm, parede 100→170 mm para a lavanderia; banheiro 2090×1240 preservado. Loop +15 mm (Elias,01/11); incorporação pendente.
+**Lavanderia corrigida:** Elias,01/11/2026, “Sim, incorporar essa correção”: 1290×1540 mm; parede 100→170 mm, banheiro 2090×1240 preservado; Loop +15 mm, folga 10 mm. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro) recorta pisos/contornos e ajusta rodapés; [relatório](Relatorio_mudanca.md).
 
 **Porta/MCMV:** [Ministério das Cidades, Portaria 725, anexo III, V.b.vii](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/portarias/PORTARIAN.725VERSAOCOMPILADA.pdf): vão livre entre batentes 800×2100 mm para FAR/FDS. Folha/vão bruto e aplicabilidade ao empreendimento pendentes; porta CAD preservada.
 
@@ -94,12 +94,12 @@ Comparação com [quadro nominal documental H01](../03_Ambientes/Acabamentos/Qua
 | Escritório | 6,8600 | 6,7850 | +0,0750 | 10,70 |
 | Sala | 9,1194 | 9,1800 | −0,0606 | 12,70 |
 | Circulação | 1,1010 | 0,9450 | +0,1560 | 4,40 |
-| Cozinha | 5,5772 | 5,5176 | +0,0596 | 10,46 |
-| Lavanderia | 2,1413 | 1,9866 | +0,1547 | 5,88 |
+| Cozinha | 5,5224 | 5,5176 | +0,0048 | 10,34 |
+| Lavanderia | 2,0482 | 1,9866 | +0,0616 | 5,74 |
 | Banheiro | 2,6616 | 2,6616 | 0 | 6,86 |
-| **Total** | **35,8530** | **35,4583** | **+0,3947** | — |
+| **Total** | **35,7051** | **35,4583** | **+0,2468** | — |
 
-Critério: piso final intersectado pelas nove máscaras antigas; sobreposição sala/cozinha atribuída à cozinha. Soleiras de portas pertencem ao ambiente servido; entrada à cozinha, transição à lavanderia. Pontes CAD fora das máscaras: 0,0100 m² quarto, 0,0210 circulação, 0,0462 cozinha. Lavanderia CAD 1,29×1,61 m versus documento 1,29×1,54 m, mais transição 0,0644 m². União dos sete contornos cobre o piso, sem lacuna/sobreposição. Divergências completas em `QuadroAreas` e `Quadro_geometrico.json` externo.
+Critério: piso final intersectado pelas nove máscaras antigas; sobreposição sala/cozinha atribuída à cozinha. Soleiras de portas pertencem ao ambiente servido; entrada à cozinha, transição à lavanderia. Pontes CAD fora das máscaras: 0,0100 m² quarto, 0,0210 circulação, 0,0462 cozinha. Lavanderia CAD/documento 1,29×1,54 m; transição lateral CAD 0,0616 m². União dos sete contornos cobre o piso, sem lacuna/sobreposição. Divergências completas em `QuadroAreas` e `Quadro_geometrico.json` externo.
 
 **Altura geométrica parede−piso: 2570 mm nos sete ambientes**, calculada do topo das paredes e Z do piso. É nominal da envoltória, sem teto acabado: documento 2600 mm (Δ−30); banheiro 2500 mm (Δ+70). Pé-direito real/forro continuam pendentes.
 

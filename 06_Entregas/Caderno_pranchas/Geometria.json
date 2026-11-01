@@ -2,8 +2,8 @@
   "schema": 1,
   "units": "mm",
   "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cad_sha256": "d5ed97df437b24c782f3b052739604d86e0cca3d14266d7fe396123c51058297",
-  "method": "FreeCAD: envelopes globais de objetos visíveis; sem recálculo/gravação",
+  "cad_sha256": "b23705247989a99f3ab568843e2a378e3ba4ad599c3656cadf354d0294e75d3e",
+  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: Peca147, Peca148, Peca149. Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
   "objects": [
     {
       "id": "Peca",
@@ -1076,10 +1076,10 @@
       "module": null,
       "box": [
         4540.0,
-        5470.0,
+        5485.0,
         0.0,
         4830.0,
-        5760.0,
+        5775.0,
         420.0
       ]
     },
@@ -1090,10 +1090,10 @@
       "module": null,
       "box": [
         4540.0,
-        5470.0,
+        5485.0,
         420.0,
         4830.0,
-        5760.0,
+        5775.0,
         437.0
       ]
     },
@@ -1104,10 +1104,10 @@
       "module": null,
       "box": [
         4640.0,
-        5740.0,
+        5755.0,
         10.0,
         4730.0,
-        5790.0,
+        5805.0,
         30.0
       ]
     },

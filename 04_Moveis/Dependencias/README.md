@@ -1,6 +1,6 @@
 # Medidas, dependências e roteiro de campo
 
-Base nominal R54: [469 regras](regras.json), 72 dimensões fixas de 20 módulos e 4 bancadas. Referências variáveis e nove fechamentos não são peças de corte. FCStd preservado; a cadeia usa somente exportações existentes.
+Base nominal vinculada ao R55 corrigido: [469 regras](regras.json), 72 dimensões fixas de 20 módulos e 4 bancadas. Referências variáveis e nove fechamentos não são peças de corte. 24 alvos preservados na releitura da seleção histórica; arquitetura nova fora da cadeia.
 
 | Consulta | Arquivo |
 |---|---|

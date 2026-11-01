@@ -76,6 +76,51 @@ def exportar():
     print(f'Exportados {len(records)} envelopes; SHA preservado: {before}')
 
 
+def atualizar_selecao(ids_atualizar):
+    """Relê os objetos selecionados para R02, sem reinterpretar a árvore R55."""
+    import FreeCAD as App
+    release = json.loads((ROOT/'ferramentas/site/current_release.json').read_text(encoding='utf-8'))
+    path = ROOT/release['cadPath']
+    before = hashlib.sha256(path.read_bytes()).hexdigest()
+    assert before == release['cadSHA256']
+    doc = App.ActiveDocument
+    assert doc and Path(doc.FileName).resolve() == path.resolve()
+    payload = json.loads(OUT.read_text(encoding='utf-8'))
+    anteriores = {o['id']:list(o['box']) for o in payload['objects']}
+    if set(ids_atualizar)-set(anteriores):
+        raise ValueError('Objeto fora da seleção histórica')
+    for record in payload['objects']:
+        obj = doc.getObject(record['id'])
+        if obj is None or not hasattr(obj, 'Shape') or obj.Shape.isNull():
+            raise ValueError('Objeto da seleção anterior ausente: '+record['id'])
+        box = obj.Shape.BoundBox
+        parent = obj.getParentGeoFeatureGroup()
+        matrix = parent.getGlobalPlacement().toMatrix() if parent else App.Matrix()
+        pts = [matrix.multVec(App.Vector(x,y,z)) for x in (box.XMin,box.XMax)
+               for y in (box.YMin,box.YMax) for z in (box.ZMin,box.ZMax)]
+        record['box'] = [round(fn(getattr(p,a) for p in pts),3)
+                         for fn in (min,max) for a in ('x','y','z')]
+    payload.update(cad_path=release['cadPath'],cad_sha256=before,
+                   method='Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: '+', '.join(ids_atualizar)+'. Demais envelopes históricos preservados; arquitetura R55 não reexportada.')
+    payload = complementar(payload)
+    # As fórmulas dimensionais só são preservadas se seus 24 alvos continuarem iguais.
+    rules_path = ROOT/'04_Moveis/Dependencias/regras.json'
+    rules = json.loads(rules_path.read_text(encoding='utf-8'))
+    objects = {o['id']:o for o in payload['objects']}
+    for name,target in rules['alvos'].items():
+        actual = payload['modules'][name] if target['tipo']=='modulo' else objects[name]
+        if actual['box'] != target['box']:
+            raise ValueError('Alvo dimensional mudou; revisar fórmulas: '+name)
+    for record in payload['objects']:
+        if record['id'] not in ids_atualizar:
+            record['box'] = anteriores[record['id']]
+    payload = complementar(payload)
+    rules['cad_sha256'] = before
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == before
+    OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    rules_path.write_text(json.dumps(rules,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+
 if os.environ.get('GP_PRANCHAS_FREECAD') == '1':
     exportar()
 elif __name__ == '__main__':

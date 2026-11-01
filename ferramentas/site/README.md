@@ -10,7 +10,7 @@
 
 **Pé-direito nominal:**2,60m nos cômodos/2,50m no banheiro, Elias27/10/2026; [fonte e precedência do medido](../../07_Imovel/README.md). Forros/instalações/móveis condicionados ao levantamento; não alterar o FCStd automaticamente.
 
-Planta R23: lavanderia 1,29 × 1,54 m e circulação compatibilizadas; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
+CAD/site: lavanderia 1,29 × 1,54 m; Loop +1,5 cm; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
 `current_release.json`: CAD R55, pacote R30, fichas R15 e iluminação CB02; medidas, cotas, lista/CSV e ficha ilustrada. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
 

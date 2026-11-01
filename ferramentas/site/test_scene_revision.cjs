@@ -85,4 +85,4 @@ assert(greenWindow.every(n=>n.room==='banho'&&n.mat==='sage'&&n.w===2&&!overlap(
 assert.equal(greenWindow.reduce((a,n)=>a+n.d*n.h,0),124*225-40*110);
 assert(bins.some(n=>n.room==='banho'&&n.mat==='sage'&&n.z===527&&n.w===80));
 assert.deepEqual(bins.filter(n=>n.id==='trash').map(n=>n.x),[481,481,512]);
-assert.deepEqual(bins.filter(n=>n.id==='recycling').map(n=>n.z),[547,547,574]);
+assert.deepEqual(bins.filter(n=>n.id==='recycling').map(n=>n.z),[548.5,548.5,575.5]);

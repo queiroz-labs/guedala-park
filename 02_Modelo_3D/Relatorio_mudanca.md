@@ -1,211 +1,70 @@
 # Relatório de mudança do modelo
 
-Gerado por `verificar_modelo.py` em 31/10/2026 18:36. Revisão `R55`. SHA256 `4a2996ee63dd` → `d5ed97df437b`.
+Gerado por `verificar_modelo.py` em 01/11/2026 16:47. Revisão `R55`. SHA256 `d5ed97df437b` → `b23705247989`.
 
-**Aprovação de Elias:** Elias, 31/10/2026, nesta conversa: “ok eu aprovo” (limpeza), escopo “Tudo do estudo limpo (R55)”; atualizar o modelo 3D do site
+**Aprovação de Elias:** Elias, 01/11/2026: Sim, incorporar essa correção; lavanderia 1290x1540 mm, parede 170 mm, pisos e rodapés compatibilizados, Loop +15 mm; 106 cenários sem colisão nova.
 
 ## Resumo
 
 | | Base anterior | Agora |
 |---|---:|---:|
-| Objetos | 5834 | 6028 |
-| Expressões | 7702 | 8049 |
-| Formas ativas | 1134 | 1147 |
+| Objetos | 6028 | 6028 |
+| Expressões | 8049 | 8049 |
+| Formas ativas | 1147 | 1147 |
 | Peças com geometria própria inválida | 0 | 0 |
-| Contêineres com forma montada inválida (informativo) | 12 | 14 |
+| Contêineres com forma montada inválida (informativo) | 14 | 14 |
 | Cenários de movimento | 106 | 106 |
 
-## Objetos removidos (152)
+## Posição alterada (7)
 
-- `Aberta_170`
-- `Aberta_170Lateral`
-- `Aberta_170Ponta_cozinha`
-- `Aberta_170Ponta_sofa`
-- `Aberta_170Sapata`
-- `Aberta_170Tampo`
-- `AuditoriaDimensionalR32`
-- `ComparacaoFrente500R41`
-- `ConclusaoFrente500R41`
-- `ConferenciaR32`
-- `ConferenciaR33`
-- `ConsolidacaoR42`
-- `ConsolidacaoR52`
-- `DocumentacaoProjetoR41`
-- `EsforcosCestoR41`
-- `FGVTN_R42`
-- `FGVTN_R42_Dobradicas`
-- `FGVTN_R42_Gaveta`
-- `FGVTN_R42_Gaveta001`
-- `FGVTN_R42_Gaveta002`
-- `FGVTN_R42_Gaveta003`
-- `FGVTN_R42_Gaveta004`
-- `FGVTN_R42_Gaveta005`
-- `FGVTN_R42_Gaveta006`
-- `FGVTN_R42_Gaveta008`
-- `FGVTN_R42_Gaveta009`
-- `FGVTN_R44_ABERTA`
-- `FGVTN_R44_ABERTA_Part__Feature`
-- `FGVTN_R44_ABERTA_Part__Feature001`
-- `FGVTN_R44_ABERTA_Part__Feature002`
-- `FGVTN_R44_ABERTA_Part__Feature003`
-- `FGVTN_R44_ABERTA_Part__Feature004`
-- `FGVTN_R44_ABERTA_Part__Feature005`
-- `FGVTN_R44_FECHADA`
-- `FGVTN_R44_FECHADA_Part__Feature`
-- `FGVTN_R44_FECHADA_Part__Feature001`
-- `FGVTN_R44_FECHADA_Part__Feature002`
-- `FGVTN_R44_FECHADA_Part__Feature003`
-- `FGVTN_R44_FECHADA_Part__Feature004`
-- `FGVTN_R44_FECHADA_Part__Feature005`
-- … e mais 112
+- `Peca147`: (4540, 5470, 0) → (4540, 5485, 0) (Δ 15.0 mm)
+- `Peca148`: (4540, 5470, 420) → (4540, 5485, 420) (Δ 15.0 mm)
+- `Peca149`: (4640, 5740, 10) → (4640, 5755, 10) (Δ 15.0 mm)
+- `RodapeTrecho_021`: (2850, 5390, 0) → (2850, 5460, 0) (Δ 70.0 mm)
+- `RodapeTrecho_034`: (4835, 5390, 0) → (4835, 5460, 0) (Δ 70.0 mm)
+- `RodapeTrecho_035`: (3520, 5390, 0) → (3520, 5460, 0) (Δ 70.0 mm)
+- `RodapeTrecho_053`: (2660, 5390, 0) → (2660, 5460, 0) (Δ 70.0 mm)
 
-## Objetos novos (346)
+## Geometria alterada (38)
 
-- `Area_Banheiro` Area_Banheiro
-- `Area_Circulacao` Area_Circulacao
-- `Area_Cozinha` Area_Cozinha
-- `Area_Escritorio` Area_Escritorio
-- `Area_Lavanderia` Area_Lavanderia
-- `Area_Quarto` Area_Quarto
-- `Area_Sala` Area_Sala
-- `Areas_Geometricas` Areas_Geometricas
-- `Auditorias_Legadas` Auditorias_Legadas
-- `Banheiro_Travertino_Reale_Greige` Porcelanato Travertino Reale Greige
-- `Batente_Banheiro` Envelope_grafico_Batente_Banheiro
-- `Batente_Banheiro_Compatibilizado` Batente_Banheiro_Compatibilizado
-- `Batente_Entrada` Batente_Entrada
-- `Batente_Escritorio` Envelope_grafico_Batente_Escritorio
-- `Batente_Escritorio_Compatibilizado` Batente_Escritorio_Compatibilizado
-- `Batente_Quarto` Batente_Quarto
-- `BuildingPart` Nivel de estudo - Z0 / 2570 mm nominal - PENDENTE
-- `Cabeceira_Estofada` Cabeceira_Estofada
-- `Caixa_Persiana_Escritorio` Caixa_Persiana_Escritorio
-- `Caixa_Persiana_Quarto` Caixa_Persiana_Quarto
-- `Caixilho_Banheiro` Caixilho_Banheiro
-- `Caixilho_Escritorio` Caixilho_Escritorio
-- `Caixilho_Lavanderia` Caixilho_Lavanderia
-- `Caixilho_Quarto` Caixilho_Quarto
-- `Caixilho_Sala` Caixilho_Sala
-- `Camera_Banheiro_Canto_1` Camera_Banheiro_Canto_1
-- `Camera_Banheiro_Canto_2` Camera_Banheiro_Canto_2
-- `Camera_Banheiro_Canto_3` Camera_Banheiro_Canto_3
-- `Camera_Banheiro_Canto_4` Camera_Banheiro_Canto_4
-- `Camera_Banheiro_Planta` Camera_Banheiro_Planta
-- `Camera_Circulacao_Canto_1` Camera_Circulacao_Canto_1
-- `Camera_Circulacao_Canto_2` Camera_Circulacao_Canto_2
-- `Camera_Circulacao_Canto_3` Camera_Circulacao_Canto_3
-- `Camera_Circulacao_Canto_4` Camera_Circulacao_Canto_4
-- `Camera_Circulacao_Planta` Camera_Circulacao_Planta
-- `Camera_Cozinha_Canto_1` Camera_Cozinha_Canto_1
-- `Camera_Cozinha_Canto_2` Camera_Cozinha_Canto_2
-- `Camera_Cozinha_Canto_3` Camera_Cozinha_Canto_3
-- `Camera_Cozinha_Canto_4` Camera_Cozinha_Canto_4
-- `Camera_Cozinha_Eixo` Camera_Cozinha_Eixo
-- … e mais 306
-
-## Geometria alterada (13)
-
-- `AcessoControleR34`: volume 28700000.0 → - mm³
-- `Ambiente_banho`: volume 560377005.822 → 326872280.0 mm³
-- `Ambiente_circulacao`: volume 58500000.0 → - mm³
-- `Ambiente_cozinha`: volume 1797411572.831 → 1157152045.0 mm³
-- `Ambiente_escritorio`: volume 1427115888.015 → 828710874.702 mm³
-- `Ambiente_lavanderia`: volume 891838849.651 → 450052000.0 mm³
-- `Ambiente_quarto`: volume 3183732016.335 → 2140748000.0 mm³
-- `Ambiente_sala`: volume 2119988599.178 → 1508002041.769 mm³
-- `ApartamentoR34`: volume 19475644127.477 → 17794985583.922 mm³
-- `MinifixR14`: volume 128648.219 → - mm³
-- `ParedesCortadas`: volume 1093440000.0 → - mm³
-- `ParedesInteiras`: volume 8343240000.0 → - mm³
-- `PortaEntradaBanheiroR12`: volume 28700000.0 → - mm³
-
-## Aparência alterada (77)
-
-- `Peca`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca001`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca002`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca003`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca004`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca005`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca006`: cor 9DB9C9 → 9DB9C9, transparência 0 → 0%
-- `Peca007`: cor C3D4DC → C3D4DC, transparência 0 → 0%
-- `Peca008`: cor AABCC6 → AABCC6, transparência 0 → 0%
-- `Peca009`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca010`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca011`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca012`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca013`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca014`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca015`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca016`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca017`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca018`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca019`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca020`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca021`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca022`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca023`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca024`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca025`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca026`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca027`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca028`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca029`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca030`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca031`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca032`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca033`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca034`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca035`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca036`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca037`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca038`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- `Peca039`: cor D2DFE4 → D2DFE4, transparência 0 → 0%
-- … e mais 37
-
-## Visibilidade alterada (77)
-
-- `Peca`: visível → oculto
-- `Peca001`: visível → oculto
-- `Peca002`: visível → oculto
-- `Peca003`: visível → oculto
-- `Peca004`: visível → oculto
-- `Peca005`: visível → oculto
-- `Peca006`: visível → oculto
-- `Peca007`: visível → oculto
-- `Peca008`: visível → oculto
-- `Peca009`: visível → oculto
-- `Peca010`: visível → oculto
-- `Peca011`: visível → oculto
-- `Peca012`: visível → oculto
-- `Peca013`: visível → oculto
-- `Peca014`: visível → oculto
-- `Peca015`: visível → oculto
-- `Peca016`: visível → oculto
-- `Peca017`: visível → oculto
-- `Peca018`: visível → oculto
-- `Peca019`: visível → oculto
-- `Peca020`: visível → oculto
-- `Peca021`: visível → oculto
-- `Peca022`: visível → oculto
-- `Peca023`: visível → oculto
-- `Peca024`: visível → oculto
-- `Peca025`: visível → oculto
-- `Peca026`: visível → oculto
-- `Peca027`: visível → oculto
-- `Peca028`: visível → oculto
-- `Peca029`: visível → oculto
-- `Peca030`: visível → oculto
-- `Peca031`: visível → oculto
-- `Peca032`: visível → oculto
-- `Peca033`: visível → oculto
-- `Peca034`: visível → oculto
-- `Peca035`: visível → oculto
-- `Peca036`: visível → oculto
-- `Peca037`: visível → oculto
-- `Peca038`: visível → oculto
-- `Peca039`: visível → oculto
-- … e mais 37
+- `Ambiente_lavanderia`: volume 450052000.0 → 450052000.0 mm³
+- `ApartamentoR34`: volume 17794985583.922 → 18181385583.922 mm³
+- `Area_Cozinha`: volume 0.0 → 0.0 mm³
+- `Area_Lavanderia`: volume 0.0 → 0.0 mm³
+- `BuildingPart`: volume 9624436800.0 → 10018417800.0 mm³
+- `Elementos_Lavanderia`: volume 450052000.0 → 450052000.0 mm³
+- `Lavanderia_Iseo_Marfim`: volume 103845000.0 → 99330000.0 mm³
+- `Peca049`: volume 540930000.0 → 919581000.0 mm³
+- `Peca050`: volume 70080000.0 → 119136000.0 mm³
+- `Peca147`: volume 35322000.0 → 35322000.0 mm³
+- `Peca148`: volume 1429700.0 → 1429700.0 mm³
+- `Peca149`: volume 90000.0 → 90000.0 mm³
+- `Piso_lavanderia`: volume 107065000.0 → 102410000.0 mm³
+- `Piso_vinilico`: volume 1541255000.0 → 1538245000.0 mm³
+- `RodapeTrecho_021`: volume 804000.0 → 804000.0 mm³
+- `RodapeTrecho_034`: volume 360000.0 → 360000.0 mm³
+- `RodapeTrecho_035`: volume 1578000.0 → 1578000.0 mm³
+- `RodapeTrecho_052`: volume 120000.0 → 204000.0 mm³
+- `RodapeTrecho_053`: volume 228000.0 → 228000.0 mm³
+- `Rodape_8cm`: volume 42500160.0 → 42584160.0 mm³
+- `Rodape_cozinha`: volume 4633116.0 → 4633116.0 mm³
+- `Rodape_lavanderia`: volume 3475152.0 → 3475152.0 mm³
+- `Rodape_sala`: volume 9192000.0 → 9276000.0 mm³
+- `Soleira_cozinha_lavanderia`: volume 3220000.0 → 3080000.0 mm³
+- `VaosBase`: volume 10554990000.0 → 10948971000.0 mm³
+- `VaosCorte_JB`: volume 9967390000.0 → 10361371000.0 mm³
+- `VaosCorte_JE`: volume 10289440000.0 → 10683421000.0 mm³
+- `VaosCorte_JL`: volume 10012590000.0 → 10406571000.0 mm³
+- `VaosCorte_JQ`: volume 10419390000.0 → 10813371000.0 mm³
+- `VaosCorte_JS`: volume 10132370000.0 → 10526351000.0 mm³
+- `VaosCorte_PB`: volume 9516390000.0 → 9910371000.0 mm³
+- `VaosCorte_PE`: volume 9659890000.0 → 10053871000.0 mm³
+- `VaosCorte_PI`: volume 9362640000.0 → 9756621000.0 mm³
+- `VaosCorte_PQ`: volume 9813640000.0 → 10207621000.0 mm³
+- `VaosTopo_Peca049`: volume 21900000.0 → 37230000.0 mm³
+- `Vinilico_Sem_Soleira_Escritorio`: volume 1541255000.0 → 1538245000.0 mm³
+- `Vinilico_Sem_Soleira_Quarto`: volume 1545005000.0 → 1541995000.0 mm³
+- `Vinilico_continuo`: volume 1548755000.0 → 1545745000.0 mm³
 
 ## Como usar
 
