@@ -1,6 +1,6 @@
 # Cozinha e lavanderia — primeiro detalhamento dimensional
 
-**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
+**Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 **Compatibilização posterior — 28/09/2026:** a cena de bancada atualizada retoma o arranjo da seção 4, com pia agora de 65 cm e cocção de 60 cm conforme R03. Mantém vão de 10 cm entre PE12G/air fryer; a margem entre reserva lateral da air fryer e envelope da cuba sobe de 3 para 5,5 cm. Escorredor guardado nessa cena. Torre, gavetas e iluminação C2 também conferidas no caderno; cotas e funcionamento executivo seguem condicionais.
 

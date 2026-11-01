@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "cad_sha256": "4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528",
+  "cad_sha256": "b23705247989a99f3ab568843e2a378e3ba4ad599c3656cadf354d0294e75d3e",
   "resultados": [
     {
       "movel": "P01",
@@ -82,7 +82,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 2132.0,
       "folgas_mm": {
-        "topo": 468.0
+        "topo": 418.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -90,7 +90,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -195,10 +195,10 @@
     {
       "movel": "P01",
       "cota": "porta-2_x",
-      "antes_mm": 2890.0,
-      "depois_mm": 2890.0,
+      "antes_mm": 2840.0,
+      "depois_mm": 2840.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2890.0,
+      "candidato_formula_mm": 2840.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -206,7 +206,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-2-X": {
-          "mm": 2900.0,
+          "mm": 2850.0,
           "origem": "nominal"
         }
       },
@@ -359,7 +359,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 308.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -367,7 +367,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -385,12 +385,12 @@
     {
       "movel": "P02",
       "cota": "fechamento_teto",
-      "antes_mm": 160.0,
-      "depois_mm": 160.0,
+      "antes_mm": 110.0,
+      "depois_mm": 110.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 160.0,
+      "candidato_formula_mm": 110.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -398,7 +398,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -503,10 +503,10 @@
     {
       "movel": "P02",
       "cota": "porta-2_x",
-      "antes_mm": 2890.0,
-      "depois_mm": 2890.0,
+      "antes_mm": 2840.0,
+      "depois_mm": 2840.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2890.0,
+      "candidato_formula_mm": 2840.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -514,7 +514,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-2-X": {
-          "mm": 2900.0,
+          "mm": 2850.0,
           "origem": "nominal"
         }
       },
@@ -667,7 +667,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 308.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -675,7 +675,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -693,12 +693,12 @@
     {
       "movel": "P03",
       "cota": "fechamento_teto",
-      "antes_mm": 160.0,
-      "depois_mm": 160.0,
+      "antes_mm": 110.0,
+      "depois_mm": 110.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 160.0,
+      "candidato_formula_mm": 110.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -706,7 +706,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -811,10 +811,10 @@
     {
       "movel": "P03",
       "cota": "porta-2_x",
-      "antes_mm": 2240.0,
-      "depois_mm": 2240.0,
+      "antes_mm": 2190.0,
+      "depois_mm": 2190.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2240.0,
+      "candidato_formula_mm": 2190.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -822,7 +822,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-2-X": {
-          "mm": 2900.0,
+          "mm": 2850.0,
           "origem": "nominal"
         }
       },
@@ -975,7 +975,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 308.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -983,7 +983,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -1001,12 +1001,12 @@
     {
       "movel": "P04",
       "cota": "fechamento_teto",
-      "antes_mm": 160.0,
-      "depois_mm": 160.0,
+      "antes_mm": 110.0,
+      "depois_mm": 110.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 160.0,
+      "candidato_formula_mm": 110.0,
       "folgas_mm": {
-        "topo": 160.0
+        "topo": 110.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -1014,7 +1014,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-QUA": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -1119,10 +1119,10 @@
     {
       "movel": "P04",
       "cota": "porta-2_x",
-      "antes_mm": 2890.0,
-      "depois_mm": 2890.0,
+      "antes_mm": 2840.0,
+      "depois_mm": 2840.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2890.0,
+      "candidato_formula_mm": 2840.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -1130,7 +1130,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-2-X": {
-          "mm": 2900.0,
+          "mm": 2850.0,
           "origem": "nominal"
         }
       },
@@ -1283,7 +1283,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 720.0,
       "folgas_mm": {
-        "topo": 1700.0
+        "topo": 1650.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -1291,7 +1291,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -1307,10 +1307,10 @@
     {
       "movel": "P05",
       "cota": "porta-4_x",
-      "antes_mm": 2170.0,
-      "depois_mm": 2170.0,
+      "antes_mm": 2120.0,
+      "depois_mm": 2120.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2170.0,
+      "candidato_formula_mm": 2120.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -1318,7 +1318,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -1870,7 +1870,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 720.0,
       "folgas_mm": {
-        "topo": 1700.0
+        "topo": 1650.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -1878,7 +1878,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -1894,10 +1894,10 @@
     {
       "movel": "P06",
       "cota": "porta-4_x",
-      "antes_mm": 1520.0,
-      "depois_mm": 1520.0,
+      "antes_mm": 1470.0,
+      "depois_mm": 1470.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 1520.0,
+      "candidato_formula_mm": 1470.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -1905,7 +1905,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -2457,7 +2457,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 900.0,
       "folgas_mm": {
-        "topo": 1700.0
+        "topo": 1650.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -2465,7 +2465,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -2481,10 +2481,10 @@
     {
       "movel": "P07",
       "cota": "porta-4_x",
-      "antes_mm": 2783.0,
-      "depois_mm": 2783.0,
+      "antes_mm": 2733.0,
+      "depois_mm": 2733.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2783.0,
+      "candidato_formula_mm": 2733.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -2492,7 +2492,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -3044,7 +3044,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 180.0,
       "folgas_mm": {
-        "topo": 2420.0
+        "topo": 2370.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -3052,7 +3052,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -3068,10 +3068,10 @@
     {
       "movel": "P08",
       "cota": "porta-4_x",
-      "antes_mm": 2170.0,
-      "depois_mm": 2170.0,
+      "antes_mm": 2120.0,
+      "depois_mm": 2120.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2170.0,
+      "candidato_formula_mm": 2120.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -3079,7 +3079,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -3631,7 +3631,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 592.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -3639,7 +3639,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -3655,12 +3655,12 @@
     {
       "movel": "P09",
       "cota": "fechamento_teto",
-      "antes_mm": 50.0,
-      "depois_mm": 50.0,
+      "antes_mm": 0.0,
+      "depois_mm": 0.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 50.0,
+      "candidato_formula_mm": 0.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -3668,7 +3668,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -3684,10 +3684,10 @@
     {
       "movel": "P09",
       "cota": "porta-4_x",
-      "antes_mm": 2795.0,
-      "depois_mm": 2795.0,
+      "antes_mm": 2745.0,
+      "depois_mm": 2745.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2795.0,
+      "candidato_formula_mm": 2745.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -3695,7 +3695,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -4247,7 +4247,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 1018.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -4255,7 +4255,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -4271,12 +4271,12 @@
     {
       "movel": "P10",
       "cota": "fechamento_teto",
-      "antes_mm": 50.0,
-      "depois_mm": 50.0,
+      "antes_mm": 0.0,
+      "depois_mm": 0.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 50.0,
+      "candidato_formula_mm": 0.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -4284,7 +4284,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -4300,10 +4300,10 @@
     {
       "movel": "P10",
       "cota": "porta-4_x",
-      "antes_mm": 2145.0,
-      "depois_mm": 2145.0,
+      "antes_mm": 2095.0,
+      "depois_mm": 2095.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2145.0,
+      "candidato_formula_mm": 2095.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -4311,7 +4311,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -4863,7 +4863,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 610.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -4871,7 +4871,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -4887,12 +4887,12 @@
     {
       "movel": "P11",
       "cota": "fechamento_teto",
-      "antes_mm": 50.0,
-      "depois_mm": 50.0,
+      "antes_mm": 0.0,
+      "depois_mm": 0.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 50.0,
+      "candidato_formula_mm": 0.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -4900,7 +4900,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -4916,10 +4916,10 @@
     {
       "movel": "P11",
       "cota": "porta-4_x",
-      "antes_mm": 1598.0,
-      "depois_mm": 1598.0,
+      "antes_mm": 1548.0,
+      "depois_mm": 1548.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 1598.0,
+      "candidato_formula_mm": 1548.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -4927,7 +4927,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -5479,7 +5479,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 584.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -5487,7 +5487,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -5503,12 +5503,12 @@
     {
       "movel": "P12",
       "cota": "fechamento_teto",
-      "antes_mm": 50.0,
-      "depois_mm": 50.0,
+      "antes_mm": 0.0,
+      "depois_mm": 0.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 50.0,
+      "candidato_formula_mm": 0.0,
       "folgas_mm": {
-        "topo": 50.0
+        "topo": 0.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -5516,7 +5516,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -5532,10 +5532,10 @@
     {
       "movel": "P12",
       "cota": "porta-4_x",
-      "antes_mm": 901.0,
-      "depois_mm": 901.0,
+      "antes_mm": 851.0,
+      "depois_mm": 851.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 901.0,
+      "candidato_formula_mm": 851.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -5543,7 +5543,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -6095,7 +6095,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 18.0,
       "folgas_mm": {
-        "topo": 1050.0
+        "topo": 1000.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -6103,7 +6103,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -6119,10 +6119,10 @@
     {
       "movel": "P13",
       "cota": "porta-4_x",
-      "antes_mm": 1598.0,
-      "depois_mm": 1598.0,
+      "antes_mm": 1548.0,
+      "depois_mm": 1548.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 1598.0,
+      "candidato_formula_mm": 1548.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -6130,7 +6130,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -6678,7 +6678,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 920.0,
       "folgas_mm": {
-        "topo": 1680.0
+        "topo": 1630.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -6686,7 +6686,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-LAV": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -7342,7 +7342,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 580.0,
       "folgas_mm": {
-        "topo": 370.0
+        "topo": 320.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -7350,7 +7350,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-LAV": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -7366,12 +7366,12 @@
     {
       "movel": "P15",
       "cota": "fechamento_teto",
-      "antes_mm": 370.0,
-      "depois_mm": 370.0,
+      "antes_mm": 320.0,
+      "depois_mm": 320.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 370.0,
+      "candidato_formula_mm": 320.0,
       "folgas_mm": {
-        "topo": 370.0
+        "topo": 320.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -7379,7 +7379,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-LAV": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -8039,7 +8039,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 240.0,
       "folgas_mm": {
-        "topo": 1880.0
+        "topo": 1830.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -8047,7 +8047,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-ESC": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -8181,10 +8181,10 @@
     {
       "movel": "P16",
       "cota": "porta-1_y",
-      "antes_mm": 1950.0,
-      "depois_mm": 1950.0,
+      "antes_mm": 1900.0,
+      "depois_mm": 1900.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 1950.0,
+      "candidato_formula_mm": 1900.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -8192,7 +8192,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-1-Y": {
-          "mm": 2200.0,
+          "mm": 2150.0,
           "origem": "nominal"
         }
       },
@@ -8316,7 +8316,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 550.0,
       "folgas_mm": {
-        "topo": 150.0
+        "topo": 100.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -8324,7 +8324,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-ESC": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -8342,12 +8342,12 @@
     {
       "movel": "P17",
       "cota": "fechamento_teto",
-      "antes_mm": 150.0,
-      "depois_mm": 150.0,
+      "antes_mm": 100.0,
+      "depois_mm": 100.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 150.0,
+      "candidato_formula_mm": 100.0,
       "folgas_mm": {
-        "topo": 150.0
+        "topo": 100.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -8355,7 +8355,7 @@
       "tipo": "fechamento",
       "medidas": {
         "PD-ESC": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -8489,10 +8489,10 @@
     {
       "movel": "P17",
       "cota": "porta-1_y",
-      "antes_mm": 1300.0,
-      "depois_mm": 1300.0,
+      "antes_mm": 1250.0,
+      "depois_mm": 1250.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 1300.0,
+      "candidato_formula_mm": 1250.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -8500,7 +8500,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-1-Y": {
-          "mm": 2200.0,
+          "mm": 2150.0,
           "origem": "nominal"
         }
       },
@@ -8620,7 +8620,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 545.0,
       "folgas_mm": {
-        "topo": 1755.0
+        "topo": 1555.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -8628,7 +8628,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-BAN": {
-          "mm": 2500.0,
+          "mm": 2300.0,
           "origem": "nominal"
         }
       },
@@ -8725,10 +8725,10 @@
     {
       "movel": "P18",
       "cota": "porta-3_x",
-      "antes_mm": 500.0,
-      "depois_mm": 500.0,
+      "antes_mm": 490.0,
+      "depois_mm": 490.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 500.0,
+      "candidato_formula_mm": 490.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -8736,7 +8736,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-3-X": {
-          "mm": 4540.0,
+          "mm": 4530.0,
           "origem": "nominal"
         }
       },
@@ -9527,7 +9527,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 750.0,
       "folgas_mm": {
-        "topo": 600.0
+        "topo": 400.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -9535,7 +9535,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-BAN": {
-          "mm": 2500.0,
+          "mm": 2300.0,
           "origem": "nominal"
         }
       },
@@ -9632,10 +9632,10 @@
     {
       "movel": "P19",
       "cota": "porta-3_x",
-      "antes_mm": 500.0,
-      "depois_mm": 500.0,
+      "antes_mm": 490.0,
+      "depois_mm": 490.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 500.0,
+      "candidato_formula_mm": 490.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -9643,7 +9643,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-3-X": {
-          "mm": 4540.0,
+          "mm": 4530.0,
           "origem": "nominal"
         }
       },
@@ -10436,7 +10436,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 400.0,
       "folgas_mm": {
-        "topo": 2200.0
+        "topo": 2150.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -10444,7 +10444,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-SAL": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -10618,7 +10618,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 30.0,
       "folgas_mm": {
-        "topo": 1850.0
+        "topo": 1800.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -10626,7 +10626,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-ESC": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -10750,10 +10750,10 @@
     {
       "movel": "Peca110",
       "cota": "porta-1_y",
-      "antes_mm": 2200.0,
-      "depois_mm": 2200.0,
+      "antes_mm": 2150.0,
+      "depois_mm": 2150.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2200.0,
+      "candidato_formula_mm": 2150.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -10761,7 +10761,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-1-Y": {
-          "mm": 2200.0,
+          "mm": 2150.0,
           "origem": "nominal"
         }
       },
@@ -10877,7 +10877,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 20.0,
       "folgas_mm": {
-        "topo": 1680.0
+        "topo": 1630.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -10885,7 +10885,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-COZ": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -10899,10 +10899,10 @@
     {
       "movel": "Peca308",
       "cota": "porta-4_x",
-      "antes_mm": 2770.0,
-      "depois_mm": 2770.0,
+      "antes_mm": 2720.0,
+      "depois_mm": 2720.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 2770.0,
+      "candidato_formula_mm": 2720.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -10910,7 +10910,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-4-X": {
-          "mm": 6650.0,
+          "mm": 6600.0,
           "origem": "nominal"
         }
       },
@@ -11418,7 +11418,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 20.0,
       "folgas_mm": {
-        "topo": 1680.0
+        "topo": 1630.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -11426,7 +11426,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-LAV": {
-          "mm": 2600.0,
+          "mm": 2550.0,
           "origem": "nominal"
         }
       },
@@ -12034,7 +12034,7 @@
       "delta_mm": 0.0,
       "candidato_formula_mm": 20.0,
       "folgas_mm": {
-        "topo": 1735.0
+        "topo": 1535.0
       },
       "status": "OK",
       "fora_do_limite": false,
@@ -12042,7 +12042,7 @@
       "tipo": "envelope",
       "medidas": {
         "PD-BAN": {
-          "mm": 2500.0,
+          "mm": 2300.0,
           "origem": "nominal"
         }
       },
@@ -12131,10 +12131,10 @@
     {
       "movel": "Peca399",
       "cota": "porta-3_x",
-      "antes_mm": 500.0,
-      "depois_mm": 500.0,
+      "antes_mm": 490.0,
+      "depois_mm": 490.0,
       "delta_mm": 0.0,
-      "candidato_formula_mm": 500.0,
+      "candidato_formula_mm": 490.0,
       "folgas_mm": {},
       "status": "OK",
       "fora_do_limite": false,
@@ -12142,7 +12142,7 @@
       "tipo": "referencia",
       "medidas": {
         "PR-PORTA-3-X": {
-          "mm": 4540.0,
+          "mm": 4530.0,
           "origem": "nominal"
         }
       },

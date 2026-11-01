@@ -1,6 +1,6 @@
 # Visita ao apartamento — fotos e relatórios
 
-**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
+**Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 ## Levantamento e impactos — T08, 26/10/2026
 
@@ -21,7 +21,7 @@ São **532 registros** no índice atual de levantamento, incluindo verificaçõe
 
 O CSV vincula código, ambiente, fonte, tolerância, móveis e arquivos a revisar; caminhos relativos à raiz, `|` separa vínculos. “a definir” não é zero. Papéis de RT/oficina não indicam contratação. Campos reais continuam vazios.
 
-**Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Alturas de projeto 2600/2500 mm são hipóteses; 2470 mm do escritório é histórico substituído. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. Lavanderia CAD corrigida para 1540 mm; confirmar no local.
+**Origens e limites:** cotas oficiais em [Cotas.json](../06_Entregas/Planta_cotada/Cotas.json) e [Medidas](../03_Ambientes/Medidas/README.md). Alturas de projeto 2550/2300 mm são hipóteses; 2470 mm do escritório é histórico substituído. Roteiros R30/R41/R42 e planta de pontos baseada na R45 são referências históricas; não preencher medidas R52 a partir deles. Sensibilidade gráfica, folga nominal e resultados de estudo não viram tolerância. Lavanderia CAD corrigida para 1540 mm; confirmar no local.
 
 Os arquivos indicados são **alvos de revisão após validar o levantamento**, não mudanças já executadas. Alterar fontes e regenerar fichas/pranchas; não editar HTML/PDF à mão. O custo só muda após demonstrar efeito no escopo; reserva permanece separada.
 
@@ -81,7 +81,7 @@ PR/PAREDE sem `--datum arquivo_externo.txt` só têm diferença bruta e alerta; 
 ### Resultados e limites
 
 - `Relatorio_medidas.md`: semáforo por ambiente, o que muda em obra/marcenaria/compra, perguntas e códigos sem medida. `Relatorio_medidas_celular.md`: consulta compacta de uma página, com remissão ao detalhe.
-- `Impactos_medidas.csv`: delta em mm/grau, classificação, móveis/fichas/pranchas, origem, evidência e responsável a consultar. Sem nominal numérico fica atenção. BOX-VERDE compara 800×2250 mm e registra também delta contra 1240×2470 mm; calcula área do retângulo, sem escolher parede, altura ou descontar a compra. O teto vigente do banheiro continua 2500 mm.
+- `Impactos_medidas.csv`: delta em mm/grau, classificação, móveis/fichas/pranchas, origem, evidência e responsável a consultar. Sem nominal numérico fica atenção. BOX-VERDE compara 800×2250 mm e registra também delta contra 1240×2470 mm; calcula área do retângulo, sem escolher parede, altura ou descontar a compra. O teto nominal do banheiro é 2300 mm.
 - `Impactos_geometria.json`: reaproveita `04_Moveis/Dependencias/orquestrar.py` e `ferramentas/medidas/recalcular.py`. Só lista relações tocadas pelas entradas; mostra folgas remanescentes e quais bases continuam nominais. Caixas fixas permanecem fixas; referências e nove fechamentos não são peças de corte. Conflito geométrico agrava o semáforo para revisar, inclusive se uma base nominal participar. Ausência de conflito não comprova tolerância nem carga.
 - `Pecas_afetadas.csv`: lista somente painéis dos móveis atingidos por diferença numérica, com C/L atuais, C/L revisados vazios e indicação **reabrir corte do móvel Pxx**. Falta vínculo executivo medida→eixo/ID para deduzir novo blank: não inventar dimensões nem regenerar plano vigente. Juntas, ferragens, recortes, fitas e compras continuam sujeitos à revisão indicada.
 - `Linhas_dependentes_medidas.csv`: cruzamento das 101 linhas da cotação com móveis e códigos de medida. Usa inventários de painéis, fita e ferragens para agregados; quando o vínculo não é suficiente, marca precaução sem ratear preço. **42.469 vínculos** externos não significam 42.469 compras ou novas medidas. Campos logísticos/pós-visita não entram. Condiciona preço à medida real, sem alterar orçamento.

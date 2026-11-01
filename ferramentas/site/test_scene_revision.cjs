@@ -65,16 +65,16 @@ const release=JSON.parse(fs.readFileSync(path.join(__dirname,'current_release.js
 assert.equal(run('PROJECT.revision'),release.projectRevision);assert.equal(run('PROJECT.date'),release.projectDate);assert.match(run('CAD_DATA.current_source_sha256'),/^[a-f0-9]{64}$/);
 console.log(JSON.stringify({revision:release.cadRevision,sourceSha256:run('CAD_DATA.current_source_sha256'),projectRevision:run('PROJECT.revision'),projectDate:run('PROJECT.date'),cases,chairsPresentInAllCases:true,chairMeshTableSectionsClear:true,chairSofaEnvelopesClear:true,openUseShiftCm:34,compactUseReset:true,dryStates:3,canceledBenchControlRemoved:true,coffeemakerUnmeasuredExplicit:true,tv43ZCm:118,manufacturingOrComfortCertified:false}));
 // Height study is separate from confirmed site measurements and furniture geometry.
-assert.equal(run('PROJECT.ceiling'),260);
-assert.equal(run('PROJECT.ceilingByRoom.escritorio'),260);
-assert.equal(run('PROJECT.ceilingByRoom.banho'),250);
+assert.equal(run('PROJECT.ceiling'),255);
+assert.equal(run('PROJECT.ceilingByRoom.escritorio'),255);
+assert.equal(run('PROJECT.ceilingByRoom.banho'),230);
 assert.match(shell,/\{\{HEIGHT_STUDY\}\}/);
 assert.match(run('PROJECT.heightStudy'),/medida a confirmar/);
 assert.match(run('PROJECT.heightStudy'),/não fabricação/);
 const tallWalls=scene({walls:true}).filter(n=>n.kind==='wall'&&n.y===0&&!n.underWindow);
 assert(tallWalls.some(n=>n.room==='escritorio'));
-for(const n of tallWalls)assert.equal(n.h,n.room==='banho'?250:260);
-console.log(JSON.stringify({heightStudyCm:260,officeCeilingStudyCm:260,bathroomCeilingStudyCm:250,measured:false,manufacturing:false}));
+for(const n of tallWalls)assert.equal(n.h,n.room==='banho'?230:255);
+console.log(JSON.stringify({heightStudyCm:255,officeCeilingStudyCm:255,bathroomCeilingStudyCm:230,measured:false,manufacturing:false}));
 
 // LIX=A: all bodies/lids/pedals move together; units in centimetres.
 const bins=scene({});

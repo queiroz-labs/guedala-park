@@ -10,7 +10,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
 - **Regra de Elias:** nenhum tubo ou quadro metálico substituto para sustentar chapas de madeira sem sua autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
 - **Chapas/cores:** faces iguais por chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria/ligações/cargas; caixa dupla/15 mm não automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
-- **Pé-direito:** 2,60 m = 260 cm = 2600 mm em todos os cômodos; banheiro: **2,50 m = 250 cm = 2500 mm**, medida a confirmar (Elias, 27/10/2026). Escritório 2,47 m substituído. [Fonte e limites](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
+- **Pé-direito:** 2,55 m = 255 cm = 2550 mm; banheiro: **2,30 m = 230 cm = 2300 mm**, medida a confirmar (Elias,01/11/2026). Portas livres 80×210 cm; banheiro 70×210 cm. [Fonte](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
 ## Versões vigentes
 
@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
-**CAD:** R55 corrigido; [conferência de portas, circulação, banheiro/cozinha e alturas/conforto](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
+**CAD:** portas/alturas em candidato externo; R55 preservado; [conferência de portas, circulação, banheiro/cozinha e alturas/conforto](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 

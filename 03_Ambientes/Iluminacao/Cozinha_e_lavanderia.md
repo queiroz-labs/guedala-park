@@ -2,7 +2,7 @@
 
 **Consulta histórica de 27–28/09:** a proposta comercial vigente é EVO na cozinha e Firefly 9608 na lavanderia, ambos com interruptor comum; bancada com COB/Opus/Shelly/pulsador, ainda condicionada. [README e preços vigentes](README.md). Decorlux e afirmações de ausência de candidato nesta memória não são pendências atuais de seleção de família. Cálculos abaixo preservam hipóteses originais e não devem ser repetidos para contornar dados de produto/instalação ausentes.
 
-**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
+**Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 **Continuidade C2 — 28/09/2026:** apoio e fotometria com obstáculos. Proposta de eixos B/C a 42/30 cm da parede, perfis de 65,7/50,7 cm e fita ativa de teste 62,5/47,5 cm após reservas para terminais. Com 800 lm/m úteis e pessoa, médias diretas aproximadas de 513 lx no preparo prioritário e 522 lx sobre pia; geometria/áreas e limitações na memória. Novo ensaio incorpora apoio, filtro e air fryer; não equiparar números diretamente à primeira malha. Nenhum conjunto comercial selecionado.
 

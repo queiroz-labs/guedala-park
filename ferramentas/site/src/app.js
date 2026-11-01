@@ -57,14 +57,23 @@ function buildScene(){nodes=[];nodeSequence={};
   // Official interior spans reconciled on the existing graphic anchors (cm).
   // Bathroom closing walls 16/17 are derived drawing hypotheses, not measured thicknesses.
   // Separate threshold/connection patches do not add official dimensions or move furniture.
-  const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['quarto',365,315,10,75,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',480,395,15,151,'vinyl'],['sala',480,305,15,90,'vinyl'],['circulacao',375,305,105,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['cozinha',384,546,4,154,'vinyl'],['lavanderia',255,546,129,154,'ivory'],['banho',255,405,209,124,'greige'],['banho',385,395,70,10,'greige']];
+  const floors=[['quarto',0,100,245,295,'vinyl'],['quarto',245,305,120,90,'vinyl'],['quarto',365,306,10,84,'vinyl'],['escritorio',255,0,230,295,'vinyl'],['sala',495,185,245,380,'vinyl'],['sala',480,395,15,151,'vinyl'],['sala',480,305,15,90,'vinyl'],['circulacao',375,305,105,90,'vinyl'],['cozinha',388,545,352,155,'vinyl'],['cozinha',384,546,4,154,'vinyl'],['lavanderia',255,546,129,154,'ivory'],['banho',255,405,209,124,'greige'],['banho',381,395,74,10,'greige']];
   for(const [r,x,z,w,d,m]of floors)add(null,r,x,z,w,d,-5,5,m,'floor');
   const H=state.walls?PROJECT.ceiling:32;
-  const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,145,10,['quarto']],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,430],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,546,10,23],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,71],['banho',255,529,225,17],['banho',464,395,16,151],['banho',255,395,130,10,['quarto']],['banho',455,395,25,10],['quarto',365,305,10,10],['quarto',365,390,10,5]];
+  const walls=[['quarto',-10,90,70,10],['quarto',180,90,75,10],['quarto',-10,100,10,295],['quarto',-10,395,265,10],['quarto',245,100,10,195],['escritorio',245,-10,70,10],['escritorio',430,-10,65,10],['escritorio',245,0,10,100],['escritorio',485,-10,10,315],['escritorio',255,295,136,10,['quarto']],['escritorio',475,295,20,10],['sala',495,175,38,10],['sala',672,175,78,10],['sala',740,185,10,421],['cozinha',740,690,10,20],['cozinha',255,700,495,10],['lavanderia',245,546,10,23],['lavanderia',245,675,10,25],['banho',245,405,10,30],['banho',245,475,10,71],['banho',255,529,225,17],['banho',464,395,16,151],['banho',255,395,126,10,['quarto']],['banho',455,395,25,10],['quarto',365,305,10,1],['quarto',365,390,10,5]];
   for(const [r,x,z,w,d,sharedRooms]of walls)add(null,r,x,z,w,d,0,state.walls?PROJECT.ceilingByRoom[r]:8,'#e4dfd2','wall',{sharedRooms});
   // P01 / F120: continuous bathroom partition, separate bedroom access on its east side.
-  // Opening and leaf dimensions remain graphic estimates, not construction measurements.
-  if(state.walls)add(null,'quarto',365,315,10,75,205,H-205,'#e4dfd2','wall');
+  // Approved nominal clearances; 2 cm frame/leaf profiles remain graphic hypotheses.
+  const openings=[['quarto',365,306,10,84],['escritorio',391,295,84,10],['banho',381,395,74,10],['cozinha',740,606,10,84]];
+  for(const [r,x,z,w,d]of openings){
+    const clearHeight=PROJECT.doorClearance.height,profile=PROJECT.doorClearance.profileGraphic;
+    if(state.walls){
+      add(null,r,x,z,w,d,clearHeight+profile,PROJECT.ceilingByRoom[r]-clearHeight-profile,'#e4dfd2','wall');
+      add(null,r,x,z,w,d,clearHeight,profile,'#b39c7b','box',{doorFrame:true});
+    }
+    for(const [xx,zz,ww,dd]of w>d?[[x,z,profile,d],[x+w-profile,z,profile,d]]:[[x,z,w,profile],[x,z+d-profile,w,profile]])
+      add(null,r,xx,zz,ww,dd,0,state.walls?clearHeight:5,'#b39c7b','box',{doorFrame:true});
+  }
   const windows=[['quarto',60,90,120,10],['escritorio',315,-10,115,10],['sala',533,175,139,10],['lavanderia',245,569,10,106],['banho',245,435,10,40]];
   for(const[r,x,z,w,d]of windows){add(null,r,x,z,w,d,0,state.walls?92:8,'#e4dfd2','wall',{underWindow:true});if(state.walls)add(null,r,x,z,w,d,205,PROJECT.ceilingByRoom[r]-205,'#e4dfd2','wall');add(null,r,x,z,w,d,95,state.walls?110:6,'#aabeb5','glass');add(null,r,x,z,w,d,92,3,'offwhite');}
   // R55 nominal additions (not measured): persiana 30% closed (Elias, 31/10/2026) on the bedroom and office windows,
@@ -77,9 +86,8 @@ function buildScene(){nodes=[];nodeSequence={};
       else{add(null,r,x-1.5,z,1.5,d,0,8,'#f1eee6','box',{sharedRooms});add(null,r,x+w,z,1.5,d,0,8,'#f1eee6','box',{sharedRooms});}
     }
   }
-  // Original doors, graphic envelopes only. Cutaway leaves keep furniture visible.
-  // Entrance leaf matches the reconstructed right-wall opening z=615..690; not an official width.
-  for(const [r,x,z,w,d]of [['escritorio',474,220,2,75],['quarto',290,388,75,2],['banho',454,405,2,70],['cozinha',665,688,75,2]])add(null,r,x,z,w,d,0,state.walls?205:5,'#b39c7b','door');
+  // Cutaway leaves preserve the full nominal dimensions in the measurement card.
+  for(const [r,x,z,w,d]of [['escritorio',474,215,2,80],['quarto',285,388,80,2],['banho',453,405,2,70],['cozinha',660,688,80,2]])add(null,r,x,z,w,d,0,state.walls?PROJECT.doorClearance.height:5,'#b39c7b','door');
   // Sala: narrow TV wall, current Bonnie, no obsolete detachable chaise.
   const open=state.sofa!=='closed',sd=open?136:110,sx=740-state.sofaGap-sd;
   slab('bonnie','sala',sx,185,sd,180,9,29,'beige',5);

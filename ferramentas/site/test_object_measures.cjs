@@ -7,7 +7,13 @@ vm.runInContext(['data.js','cad-data.js','visual-finishes.js','site-copy.js','ca
 const run=s=>vm.runInContext(s,ctx),get=s=>JSON.parse(run('JSON.stringify('+s+')'));
 run('state.walls=true;buildScene()');
 const record=filter=>get(`objectRecord(nodes.find(n=>${filter}))`);
-assert.deepEqual(record("n.kind==='door'&&n.room==='escritorio'").box,{x:474,y:0,z:220,w:2,d:75,h:205});
+assert.deepEqual(record("n.kind==='door'&&n.room==='escritorio'").box,{x:474,y:0,z:215,w:2,d:80,h:210});
+for(const room of ['escritorio','quarto','cozinha','banho']){
+ const r=record("n.kind==='door'&&n.room==='"+room+"'");
+ const field=r.fields.find(f=>f.name.startsWith('Vão livre'));
+ assert.equal(field.value,(room==='banho'?'70':'80')+' × 210 cm');
+ assert.equal(field.confidence,'projeto/nominal');
+}
 assert.deepEqual(record("!n.id&&n.kind==='glass'&&n.room==='quarto'").box,{x:60,y:95,z:90,w:120,d:10,h:110});
 assert.equal(record("n.kind==='door'").reliability,'estimativa gráfica');
 assert.deepEqual(record("n.id==='washer'").box,{x:320,y:0,z:628,w:60,d:62,h:85});
@@ -19,7 +25,7 @@ assert(record("n.kind==='door'").fields.filter(f=>/Base|Topo|Parede|Posição/.t
 const pending=get("objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})");
 assert.equal(pending.box,null);assert.equal(pending.reliability,'pendente');
 assert(!run("objectCopy(objectRecord({id:'coffeemaker',key:'pending/coffeemaker',room:'lavanderia',w:99,d:99,h:99,x:0,y:0,z:0})).includes('99')"));
-run('state.walls=false;buildScene()');assert.equal(record("n.kind==='door'").box.h,205);assert.equal(record("!n.id&&n.kind==='glass'").box.h,110);
+run('state.walls=false;buildScene()');assert.equal(record("n.kind==='door'").box.h,210);assert.equal(record("!n.id&&n.kind==='glass'").box.h,110);
 assert.equal(new Set(get('objectRecords().map(r=>r.key)')).size,get('objectRecords().length'));
 assert.equal(get("objectRecords().filter(r=>r.id==='bed').length"),1);
 assert.equal(record("n.id==='bonnie'").reliability,'estimativa gráfica');
@@ -84,7 +90,7 @@ async function browserTest(){
   const modelTab=page.locator('.mast nav [data-tab="model"]');await modelTab.focus();await modelTab.press('ArrowLeft');assert(await page.locator('#obra').evaluate(e=>e.classList.contains('active')),'Seta deve pular abas ocultas');await page.locator('.mast nav [data-tab="obra"]').press('ArrowRight');assert(await page.locator('#model').evaluate(e=>e.classList.contains('active')));
   // Test the existing pointer handler against the fully loaded, occluding scene.
   for(const [name,filter,room,expected,confidence]of [
-   ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','2 × 75 × 205 cm','estimativa gráfica'],
+   ['porta',"!n.id&&n.kind==='door'&&n.room==='escritorio'",'escritorio','80 × 210 cm','projeto/nominal'],
    ['janela',"!n.id&&n.kind==='glass'&&n.room==='quarto'",'quarto','120 × 10 × 110 cm','estimativa gráfica'],
    ['eletrodomestico',"n.id==='washer'",'lavanderia','60 × 62 × 85 cm','projeto/nominal'],
    ['cama',"n.id==='bed'",'quarto','188 × 128 × 64 cm','projeto/nominal'],

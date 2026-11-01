@@ -1,8 +1,8 @@
 # Pesquisa do pé-direito — R01
 
-**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
+**Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
-A decisão atual substitui os cenários gerais de 2,57 m e de 2,47 m após forro no escritório. O banheiro passa a 2,50 m por decisão de projeto, sem deduzir espessura de forro. As pesquisas e cálculos abaixo permanecem históricos; não são os valores vigentes. DIM-001 continua pendente de comprovação documental ou medição.
+A decisão vigente substitui os cenários gerais anteriores. As pesquisas e cálculos abaixo são históricos; DIM-001 continua pendente de documento ou medição.
 
 ## Pesquisa e cenários anteriores — preservados como histórico
 

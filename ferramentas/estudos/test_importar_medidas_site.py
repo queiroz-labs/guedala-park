@@ -47,7 +47,7 @@ class ImportTests(unittest.TestCase):
         self.assertEqual(resolver(values,'PD-QUA').mm,2584)
         self.assertEqual(resolver(values,'DIM-01/1').mm,2946)
         self.assertEqual(resolver(values,'PD-QUA').origem,'medido')
-        report=self.report.read_text(encoding='utf-8');self.assertIn('-16 mm',report);self.assertIn('P01|P02|P03|P04'.replace('|','\\|'),report)
+        report=self.report.read_text(encoding='utf-8');self.assertIn('+34 mm',report);self.assertIn('P01|P02|P03|P04'.replace('|','\\|'),report)
         self.assertIn('arquivos',report.lower());self.assertIn('04_Moveis',report)
         self.assertEqual(real_hash,hashlib.sha256(DEFAULT_CSV.read_bytes()).hexdigest())
 

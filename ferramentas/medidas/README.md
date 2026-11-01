@@ -1,5 +1,7 @@
 # Recálculo dimensional
 
+Alturas nominais 2550/2300 mm e portas 800/700×2100 mm: Elias,01/11/2026, nesta conversa. Caixas preservadas; folgas ao teto e distâncias aos vãos recalculadas nas 469 regras. Nenhuma medida de campo preenchida.
+
 **Fonte vinculada ao R55 corrigido:** 24 alvos conferidos no CAD; os envelopes do recálculo continuam iguais, com fórmulas preservadas. Parede/lavanderia e Loop incorporadas: Elias,01/11/2026, “Sim, incorporar essa correção”. Pranchas R02 seguem históricas; a seleção não inclui os novos objetos arquitetônicos.
 
 `python ferramentas/medidas/recalcular.py` lê o CSV efetivo e aplica [regras](../../04_Moveis/Dependencias/regras.json). Somente resultado nominal vai para Dependencias/Impacto.md e Impacto.json. Se houver valor medido ou cenário, a saída padrão é temporária fora do repositório; o comando imprime o caminho. `--nominal` ignora medidos explicitamente e serve à reprodução da base.

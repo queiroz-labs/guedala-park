@@ -246,11 +246,11 @@
     },
     {
       "id": "pe_direito_estudo",
-      "descricao": "Elias, 27/10/2026: 2,60 m em todos os cômodos, inclusive escritório e circulação; banheiro 2,50 m. Medidas de projeto a confirmar.",
+      "descricao": "Elias, 01/11/2026: 2,55 m nos cômodos; banheiro 2,30 m. Medidas nominais a confirmar.",
       "exigir": [
         {
           "arquivo": "ESTADO_ATUAL.md",
-          "regex": "2,60 m = 260 cm = 2600 mm"
+          "regex": "2,55 m = 255 cm = 2550 mm"
         },
         {
           "arquivo": "01_Programa_e_decisoes/Pesquisa_pe_direito.md",
@@ -258,19 +258,19 @@
         },
         {
           "arquivo": "ferramentas/site/src/data.js",
-          "regex": "\"ceiling\": 260"
+          "regex": "\"ceiling\": 255"
         },
         {
           "arquivo": "ESTADO_ATUAL.md",
-          "regex": "2,50 m = 250 cm = 2500 mm"
+          "regex": "2,30 m = 230 cm = 2300 mm"
         },
         {
           "arquivo": "ferramentas/site/src/data.js",
-          "regex": "\"banho\": 250"
+          "regex": "\"banho\": 230"
         },
         {
           "arquivo": "ferramentas/site/src/data.js",
-          "regex": "\"escritorio\": 260"
+          "regex": "\"escritorio\": 255"
         }
       ]
     }

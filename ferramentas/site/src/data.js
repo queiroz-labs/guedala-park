@@ -6,8 +6,8 @@ const PROJECT={
   "name": "Guedala Park",
   "area": "40,18 m²",
   "unit": "Torre 2 · final 06",
-  "ceiling": 260.0,
-  "heightStudy": "Pé-direito: 2,60 m nos cômodos e 2,50 m no banheiro, medida a confirmar no imóvel. Valores para estudo, não fabricação.",
+  "ceiling": 255.0,
+  "heightStudy": "Pé-direito: 2,55 m nos cômodos e 2,30 m no banheiro, medida a confirmar no imóvel. Valores para estudo, não fabricação.",
   "note": "Projeto completo do apartamento, para ficar pronto antes da mudança. Medidas, produtos e detalhes de fabricação ainda serão conferidos.",
   "rooms": [
     {
@@ -396,13 +396,19 @@ const PROJECT={
     }
   ],
   "ceilingByRoom": {
-    "quarto": 260.0,
-    "cozinha": 260.0,
-    "lavanderia": 260.0,
-    "escritorio": 260.0,
-    "banho": 250.0,
-    "sala": 260.0,
-    "circulacao": 260.0
+    "quarto": 255.0,
+    "cozinha": 255.0,
+    "lavanderia": 255.0,
+    "escritorio": 255.0,
+    "banho": 230.0,
+    "sala": 255.0,
+    "circulacao": 255.0
+  },
+  "doorClearance": {
+    "width": 80,
+    "bathroomWidth": 70,
+    "height": 210,
+    "profileGraphic": 2
   }
 };
 const ITEMS=[

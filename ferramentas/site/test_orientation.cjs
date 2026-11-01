@@ -26,9 +26,10 @@ for(const [room,x,z,w,d]of [['quarto',60,90,120,10],['escritorio',315,-10,115,10
  const n=windows.find(n=>n.room===room);assert.deepEqual([n.x,n.z,n.w,n.d],[x,z,w,d]);
 }
 const doors=nodes.filter(n=>n.kind==='door');assert.equal(doors.length,4);
-// Hinges and closed leaves coincide with the four reconstructed wall openings.
-const openings=[['quarto',[365,315],[365,390]],['escritorio',[400,295],[475,295]],['banho',[385,405],[455,405]],['cozinha',[740,615],[740,690]]];
+// Free passage between the two graphic jambs, distinct from the rough opening.
+const openings=[['quarto',[365,308],[365,388]],['escritorio',[393,295],[473,295]],['banho',[383,405],[453,405]],['cozinha',[740,608],[740,688]]];
 for(const [room,a,b]of openings){const door=doors.find(n=>n.room===room),length=Math.hypot(b[0]-a[0],b[1]-a[1]);assert.equal(Math.max(door.w,door.d),length);}
+assert.equal(nodes.filter(n=>n.doorFrame).length,8,'Two jambs for each cutaway doorway');
 const entrance=doors.find(n=>n.room==='cozinha');assert.equal(entrance.x+entrance.w,740);assert.equal(entrance.z+entrance.d,690);
 const mean=id=>{const ns=nodes.filter(n=>n.id===id);assert(ns.length,id);return [ns.reduce((s,n)=>s+n.x+n.w/2,0)/ns.length,ns.reduce((s,n)=>s+n.z+n.d/2,0)/ns.length];};
 // Fixed fixtures from the official plan: shower / WC / basin, tank left of kitchen sink.
@@ -62,8 +63,8 @@ for(let x=300;x<=450;x+=.5)assert(covered(x,620),'laundry/kitchen floor continui
 const plan=JSON.parse(fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/Cotas.json'),'utf8'));
 assert.deepEqual(plan.cotas.find(r=>r.id==='lavanderia').mm,[1290,1540]);
 assert.deepEqual(plan.cotas.find(r=>r.id==='circulacao').mm,[900,1050]);
-for(const [room,value]of Object.entries(plan.heightStudy.byRoom))assert.equal(value.mm,room==='banho'?2500:2600);
+for(const [room,value]of Object.entries(plan.heightStudy.byRoom))assert.equal(value.mm,room==='banho'?2300:2550);
 assert.equal(plan.pranchas.ceiling.banho,'PD-BAN');assert.equal(plan.pranchas.ceiling.circulacao,'PD-CIR');
 const guide=fs.readFileSync(path.join(__dirname,'../../06_Entregas/Planta_cotada/index.html'),'utf8').split('<script>')[0];
 assert(guide.includes('id="planta-pe-direito"'));assert(guide.includes('medida a confirmar'));assert(guide.includes('não fabricação'));
-console.log(JSON.stringify({officialLaundryCm:[129,154],circulationSpansCm:[90,105],floorConnections:true,heightStudyMm:2600,measured:false}));
+console.log(JSON.stringify({officialLaundryCm:[129,154],circulationSpansCm:[90,105],floorConnections:true,heightStudyMm:2550,measured:false}));

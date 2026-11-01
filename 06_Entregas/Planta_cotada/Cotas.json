@@ -98,43 +98,43 @@
   "heightStudy": {
     "byRoom": {
       "quarto": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-QUA"
       },
       "cozinha": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-COZ"
       },
       "lavanderia": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-LAV"
       },
       "escritorio": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-ESC"
       },
       "banho": {
-        "mm": 2500.0,
+        "mm": 2300.0,
         "origem": "nominal",
         "codigo": "PD-BAN"
       },
       "sala": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-SAL"
       },
       "circulacao": {
-        "mm": 2600.0,
+        "mm": 2550.0,
         "origem": "nominal",
         "codigo": "PD-CIR"
       }
     },
     "status": "nominal/planta, medida a confirmar",
-    "source": "07_Imovel/Medidas_e_impactos.csv; Elias, 27/10/2026"
+    "source": "07_Imovel/Medidas_e_impactos.csv; Elias, 01/11/2026"
   },
   "graphicClosure": {
     "units": "cm",

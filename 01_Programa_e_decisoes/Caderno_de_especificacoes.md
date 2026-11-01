@@ -1,12 +1,12 @@
 # Caderno de especificações — R01
 
-Gerado em 2026-10-31 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R55). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
+Gerado em 2026-11-01 por `ferramentas/site/gerar_caderno.cjs`, a partir dos mesmos dados do site interativo (geometria R55). Para atualizar, corrija `src/data.js` e rode o script de novo; a seção comercial preservada abaixo é mantida documentalmente e não é gerada pelo site.
 
 **Como ler a coluna "Situação":** *Escolhido/Aprovado* = decisão tomada; *Aprovado para desenvolver/Direção aprovada* = o quê está decidido e o como segue nas [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); *Parcial/Em estudo/Futuro/Existente* = ainda aberto, adiado ou bem já existente. Medidas são de referência, não executivas. Nenhum item está comprado.
 
 Unidade: Guedala Park · Torre 2 · final 06 · 40,18 m² · 127 V · gás natural. Programa: [Programa de necessidades R01](Programa_de_necessidades.md).
 
-**Pé-direito:** Pé-direito: 2,60 m nos cômodos e 2,50 m no banheiro, medida a confirmar no imóvel. Valores para estudo, não fabricação. As dimensões dos móveis permanecem estudos condicionados.
+**Pé-direito:** Pé-direito: 2,55 m nos cômodos e 2,30 m no banheiro, medida a confirmar no imóvel. Valores para estudo, não fabricação. As dimensões dos móveis permanecem estudos condicionados.
 
 ## 1. Materiais e acabamentos
 

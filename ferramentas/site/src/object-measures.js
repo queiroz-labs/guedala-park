@@ -7,6 +7,7 @@ let objectSelected=null,objectReturn=null,objectScene=null;
 var collectObjectScene=scene=>{objectScene=scene;};
 function objectKey(n){return ['bed','bonnie','daiane'].includes(n.id)?'item/'+n.id:n.source?'cad/'+n.source:n.key;}
 function objectCategory(n){
+ if(n.doorFrame)return 'esquadria';
  if(!n.id)return ({door:'porta',glass:'janela',wall:'parede',floor:'piso'})[n.kind]||'acabamento';
  if(n.mat==='stone')return 'pedra';
  if(['oven','microwave','fridge','cooktop','hood','filter','washer','airfryer','heater','coffeemaker'].includes(n.id))return 'eletrodoméstico';
@@ -16,6 +17,7 @@ function objectCategory(n){
  return 'móvel';
 }
 function objectName(n){
+ if(n.doorFrame)return 'Batente · '+(PROJECT.rooms.find(r=>r.id===n.room)?.name||n.room)+' · '+n.key.split('/').pop();
  if(n.source){if(STONE_PARTS[n.id]&&n.mat==='stone')return STONE_PARTS[n.id][0];return (n.label||ITEMS.find(i=>i.id===n.id)?.name||n.source).replaceAll('_',' ').replace(/\bR\d{2,3}\b/g,'').replace(/\s+\d+$/,'').replace(/\s+/g,' ').trim();}
  if(n.id==='decor')return 'Vaso decorativo';
  if(n.id){const name=STONE_PARTS[n.id]&&n.mat==='stone'?STONE_PARTS[n.id][0]:ITEMS.find(i=>i.id===n.id)?.name||n.id;if(['bed','bonnie','daiane'].includes(n.id))return name;return name+((objectScene||nodes).filter(q=>q.id===n.id).length>1?' · componente '+n.key.split('/').pop():'');}
@@ -33,7 +35,7 @@ function objectRecord(n,scene=objectScene||nodes){
   if(points.length){const lo=[0,1,2].map(k=>Math.min(...points.map(p=>p[k]))),hi=[0,1,2].map(k=>Math.max(...points.map(p=>p[k])));box={x:lo[0],y:lo[1],z:lo[2],w:hi[0]-lo[0],h:hi[1]-lo[1],d:hi[2]-lo[2]};}
  }
  // Full-height architectural data, independent of the cutaway display height.
- if(!n.id&&n.kind==='door')box.h=205;
+ if(!n.id&&n.kind==='door')box.h=PROJECT.doorClearance.height;
  if(!n.id&&n.kind==='glass')box.h=110;
  if(!n.id&&n.kind==='wall')box.h=n.underWindow?92:n.y>0?PROJECT.ceilingByRoom[n.room]-n.y:PROJECT.ceilingByRoom[n.room];
  const finite=!pending&&['x','y','z','w','d','h'].every(k=>Number.isFinite(box[k]));
@@ -46,7 +48,9 @@ function objectRecord(n,scene=objectScene||nodes){
   add('Posição x / y / z',[box.x,box.y,box.z].map(cmTxt).join(' / ')+' cm',OBJECT_GRAPHIC);
   add('Base a partir do piso',num(box.y),OBJECT_GRAPHIC);add('Topo a partir do piso',num(box.y+box.h),OBJECT_GRAPHIC);
   if(!n.id&&['door','glass'].includes(n.kind)){
-   add('Vão (largura × altura)',cmTxt(Math.max(box.w,box.d))+' × '+(n.kind==='door'?'205':'113')+' cm',OBJECT_GRAPHIC);
+   if(n.kind==='door')add('Vão livre entre batentes (largura × altura)',cmTxt(n.room==='banho'?PROJECT.doorClearance.bathroomWidth:PROJECT.doorClearance.width)+' × '+cmTxt(PROJECT.doorClearance.height)+' cm',OBJECT_NOMINAL);
+   else add('Vão (largura × altura)',cmTxt(Math.max(box.w,box.d))+' × 113 cm',OBJECT_GRAPHIC);
+   if(n.kind==='door')reference+=' · passagem nominal de projeto; espessura da folha e perfil do batente ilustrativos, produto a especificar';
    if(n.kind==='glass')add('Peitoril',num(92),OBJECT_GRAPHIC);
    add('Sentido de abertura',n.kind==='door'?'Para dentro no giro ilustrado; mão a conferir':'A conferir',n.kind==='door'?OBJECT_GRAPHIC:'pendente');
   }

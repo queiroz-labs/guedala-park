@@ -1,5 +1,7 @@
 # Medidas, dependências e roteiro de campo
 
+Alturas nominais 2550/2300 mm e portas 800/700×2100 mm: Elias,01/11/2026, nesta conversa. Caixas preservadas; folgas ao teto e distâncias aos vãos recalculadas nas 469 regras. Nenhuma medida de campo preenchida.
+
 Base nominal vinculada ao R55 corrigido: [469 regras](regras.json), 72 dimensões fixas de 20 módulos e 4 bancadas. Referências variáveis e nove fechamentos não são peças de corte. 24 alvos preservados na releitura da seleção histórica; arquitetura nova fora da cadeia.
 
 | Consulta | Arquivo |

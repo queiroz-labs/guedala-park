@@ -52,7 +52,7 @@ class Dependencias(unittest.TestCase):
         self.assertEqual(height['status'], 'NÃO CABE')
         self.assertEqual(height['folgas_mm']['topo'], -40)
         closure = next(r for r in results if (r['movel'],r['cota']) == ('P03','fechamento_teto'))
-        self.assertEqual(closure['delta_mm'], -200)
+        self.assertEqual(closure['delta_mm'], -150)
 
     def test_segue_parede_muda_envelope_sem_esticar_paineis(self):
         doc = copy.deepcopy(self.doc)
@@ -60,7 +60,7 @@ class Dependencias(unittest.TestCase):
         rule['modo'] = 'segue_parede'  # Exclusivo do teste, não decisão do projeto.
         rule['limites']['min'] = 200
         rows = copy.deepcopy(self.nominal)
-        rows['PD-QUA']['valor_medido'] = '2470 mm'
+        rows['PD-QUA']['valor_medido'] = '2420 mm'  # 130 mm abaixo do novo nominal.
         report = calcular(rows, doc)
         height = next(r for r in report['resultados'] if (r['movel'],r['cota']) == ('P03','altura'))
         self.assertEqual(height['depois_mm'], 178)

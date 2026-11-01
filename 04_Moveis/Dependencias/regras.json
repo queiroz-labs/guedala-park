@@ -578,7 +578,7 @@
       ],
       "folgas": {
         "base": 0.0,
-        "folga_topo": 468.0
+        "folga_topo": 418.0
       },
       "limites": {
         "min": null,
@@ -712,7 +712,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2890.0,
+      "atual_mm": 2840.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P01.html"
@@ -867,7 +867,7 @@
       ],
       "folgas": {
         "base": 2132.0,
-        "folga_topo": 160.0
+        "folga_topo": 110.0
       },
       "limites": {
         "min": null,
@@ -908,7 +908,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 160.0,
+      "atual_mm": 110.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P02.html"
@@ -1032,7 +1032,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2890.0,
+      "atual_mm": 2840.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P02.html"
@@ -1187,7 +1187,7 @@
       ],
       "folgas": {
         "base": 2132.0,
-        "folga_topo": 160.0
+        "folga_topo": 110.0
       },
       "limites": {
         "min": null,
@@ -1228,7 +1228,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 160.0,
+      "atual_mm": 110.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P03.html"
@@ -1352,7 +1352,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2240.0,
+      "atual_mm": 2190.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P03.html"
@@ -1507,7 +1507,7 @@
       ],
       "folgas": {
         "base": 2132.0,
-        "folga_topo": 160.0
+        "folga_topo": 110.0
       },
       "limites": {
         "min": null,
@@ -1548,7 +1548,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 160.0,
+      "atual_mm": 110.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P04.html"
@@ -1672,7 +1672,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2890.0,
+      "atual_mm": 2840.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P04.html"
@@ -1825,7 +1825,7 @@
       ],
       "folgas": {
         "base": 180.0,
-        "folga_topo": 1700.0
+        "folga_topo": 1650.0
       },
       "limites": {
         "min": null,
@@ -1864,7 +1864,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2170.0,
+      "atual_mm": 2120.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P05.html"
@@ -2446,7 +2446,7 @@
       ],
       "folgas": {
         "base": 180.0,
-        "folga_topo": 1700.0
+        "folga_topo": 1650.0
       },
       "limites": {
         "min": null,
@@ -2485,7 +2485,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 1520.0,
+      "atual_mm": 1470.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P06.html"
@@ -3067,7 +3067,7 @@
       ],
       "folgas": {
         "base": 0.0,
-        "folga_topo": 1700.0
+        "folga_topo": 1650.0
       },
       "limites": {
         "min": null,
@@ -3106,7 +3106,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2783.0,
+      "atual_mm": 2733.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P07.html"
@@ -3688,7 +3688,7 @@
       ],
       "folgas": {
         "base": 0.0,
-        "folga_topo": 2420.0
+        "folga_topo": 2370.0
       },
       "limites": {
         "min": null,
@@ -3727,7 +3727,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2170.0,
+      "atual_mm": 2120.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P08.html"
@@ -4309,7 +4309,7 @@
       ],
       "folgas": {
         "base": 1958.0,
-        "folga_topo": 50.0
+        "folga_topo": 0.0
       },
       "limites": {
         "min": null,
@@ -4348,7 +4348,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 50.0,
+      "atual_mm": 0.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P09.html"
@@ -4377,7 +4377,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2795.0,
+      "atual_mm": 2745.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P09.html"
@@ -4959,7 +4959,7 @@
       ],
       "folgas": {
         "base": 1532.0,
-        "folga_topo": 50.0
+        "folga_topo": 0.0
       },
       "limites": {
         "min": null,
@@ -4998,7 +4998,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 50.0,
+      "atual_mm": 0.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P10.html"
@@ -5027,7 +5027,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2145.0,
+      "atual_mm": 2095.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P10.html"
@@ -5609,7 +5609,7 @@
       ],
       "folgas": {
         "base": 1940.0,
-        "folga_topo": 50.0
+        "folga_topo": 0.0
       },
       "limites": {
         "min": null,
@@ -5648,7 +5648,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 50.0,
+      "atual_mm": 0.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P11.html"
@@ -5677,7 +5677,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 1598.0,
+      "atual_mm": 1548.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P11.html"
@@ -6259,7 +6259,7 @@
       ],
       "folgas": {
         "base": 1966.0,
-        "folga_topo": 50.0
+        "folga_topo": 0.0
       },
       "limites": {
         "min": null,
@@ -6298,7 +6298,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 50.0,
+      "atual_mm": 0.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P12.html"
@@ -6327,7 +6327,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 901.0,
+      "atual_mm": 851.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P12.html"
@@ -6909,7 +6909,7 @@
       ],
       "folgas": {
         "base": 1532.0,
-        "folga_topo": 1050.0
+        "folga_topo": 1000.0
       },
       "limites": {
         "min": null,
@@ -6948,7 +6948,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 1598.0,
+      "atual_mm": 1548.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P13.html"
@@ -7528,7 +7528,7 @@
       ],
       "folgas": {
         "base": 0.0,
-        "folga_topo": 1680.0
+        "folga_topo": 1630.0
       },
       "limites": {
         "min": null,
@@ -8234,7 +8234,7 @@
       ],
       "folgas": {
         "base": 1650.0,
-        "folga_topo": 370.0
+        "folga_topo": 320.0
       },
       "limites": {
         "min": null,
@@ -8273,7 +8273,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 370.0,
+      "atual_mm": 320.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P15.html"
@@ -8973,7 +8973,7 @@
       ],
       "folgas": {
         "base": 480.0,
-        "folga_topo": 1880.0
+        "folga_topo": 1830.0
       },
       "limites": {
         "min": null,
@@ -9138,7 +9138,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 1950.0,
+      "atual_mm": 1900.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P16.html"
@@ -9262,7 +9262,7 @@
       ],
       "folgas": {
         "base": 1900.0,
-        "folga_topo": 150.0
+        "folga_topo": 100.0
       },
       "limites": {
         "min": null,
@@ -9303,7 +9303,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 150.0,
+      "atual_mm": 100.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P17.html"
@@ -9458,7 +9458,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 1300.0,
+      "atual_mm": 1250.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P17.html"
@@ -9578,7 +9578,7 @@
       ],
       "folgas": {
         "base": 200.0,
-        "folga_topo": 1755.0
+        "folga_topo": 1555.0
       },
       "limites": {
         "min": null,
@@ -9704,7 +9704,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 500.0,
+      "atual_mm": 490.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P18.html"
@@ -10545,7 +10545,7 @@
       ],
       "folgas": {
         "base": 1150.0,
-        "folga_topo": 600.0
+        "folga_topo": 400.0
       },
       "limites": {
         "min": null,
@@ -10671,7 +10671,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 500.0,
+      "atual_mm": 490.0,
       "tipo": "interface",
       "fichas": [
         "06_Entregas/Fichas_fabricacao/P19.html"
@@ -11514,7 +11514,7 @@
       ],
       "folgas": {
         "base": 0.0,
-        "folga_topo": 2200.0
+        "folga_topo": 2150.0
       },
       "limites": {
         "min": null,
@@ -11702,7 +11702,7 @@
       ],
       "folgas": {
         "base": 720.0,
-        "folga_topo": 1850.0
+        "folga_topo": 1800.0
       },
       "limites": {
         "min": null,
@@ -11857,7 +11857,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2200.0,
+      "atual_mm": 2150.0,
       "tipo": "interface",
       "fichas": [],
       "pranchas": [
@@ -11971,7 +11971,7 @@
       ],
       "folgas": {
         "base": 900.0,
-        "folga_topo": 1680.0
+        "folga_topo": 1630.0
       },
       "limites": {
         "min": null,
@@ -12008,7 +12008,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 2770.0,
+      "atual_mm": 2720.0,
       "tipo": "interface",
       "fichas": [],
       "pranchas": [
@@ -12548,7 +12548,7 @@
       ],
       "folgas": {
         "base": 900.0,
-        "folga_topo": 1680.0
+        "folga_topo": 1630.0
       },
       "limites": {
         "min": null,
@@ -13206,7 +13206,7 @@
       ],
       "folgas": {
         "base": 745.0,
-        "folga_topo": 1735.0
+        "folga_topo": 1535.0
       },
       "limites": {
         "min": null,
@@ -13324,7 +13324,7 @@
       },
       "modo": "segue_parede",
       "fonte": "06_Entregas/Caderno_pranchas/Geometria.json; 04_Moveis/README.md (fechamento ao teto); fichas R15",
-      "atual_mm": 500.0,
+      "atual_mm": 490.0,
       "tipo": "interface",
       "fichas": [],
       "pranchas": [

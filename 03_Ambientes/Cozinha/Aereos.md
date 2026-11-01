@@ -1,6 +1,6 @@
 # Armários superiores — detalhamento R00
 
-**Pé-direito de projeto: 2,60 m = 260 cm = 2600 mm em todos os cômodos, incluindo escritório e circulação; banheiro: 2,50 m = 250 cm = 2500 mm. Medida a confirmar.** Elias, 27/10/2026, nesta conversa: “altera a altura de todos os comodos para 2,6 e o banheiro para 2,5”. Substitui o cenário anterior de 2,47 m do escritório. Alturas nominais acabadas; levantamento, forros e instalações continuam a conferir. Não autoriza fabricação nem altera automaticamente as dimensões dos móveis.
+**Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 **Apoio e luz — 28/09/2026:** desenvolvimento Micro/C2 propõe apoio aberto de 69,7 × 47 cm, topo 155, sem prolongar laterais de B pelo nicho do aparelho. Mantidos planos/alinhamento da guarda B/C e os 10 cm superiores escolhidos, com a divergência documental preservada. Estrutura e aparelho instalado não validados; medidas de estudo.
 

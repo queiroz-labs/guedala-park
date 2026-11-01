@@ -8,7 +8,7 @@
 
 **Box verde:** duas paredes, chuveiro e janela; outra interna clara (Elias, 30/10/2026: “quero que esteja na parede da janela tbm”). Quantidades são hipóteses; R44 intacto. Estado/README de referências reservados ao commit do Elias.
 
-**Pé-direito nominal:**2,60m nos cômodos/2,50m no banheiro, Elias27/10/2026; [fonte e precedência do medido](../../07_Imovel/README.md). Forros/instalações/móveis condicionados ao levantamento; não alterar o FCStd automaticamente.
+**Nominais:** alturas 255/230 cm (banheiro); portas livres 80×210 cm, banheiro 70×210 cm. Fonte: Elias,01/11/2026, nesta conversa. Posições, perfis de 2 cm e espessuras das folhas continuam gráficos; conferir produto/campo.
 
 CAD/site: lavanderia 1,29 × 1,54 m; Loop +1,5 cm; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 

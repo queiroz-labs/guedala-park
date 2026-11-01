@@ -128,7 +128,7 @@ def build():
  if SCREEN.resolve() != (OUT/'Planta_oficial.png').resolve():
   shutil.copyfile(SCREEN,OUT/'Planta_oficial.png')
  (OUT/'Planta_cotada.svg').write_text(svg,encoding='utf-8')
- data={'source':{'path':PDF,'page':1,'method':'Cotas escritas conferidas visualmente na página integral.'},'units':'mm in arrays; displayed in metres','cotas':COTAS,'reconstructionSource':'ferramentas/site/src/app.js: floors/walls','note':NOTE,'heightStudy':{'byRoom':HEIGHT_VALUES,'status':'nominal/planta, medida a confirmar','source':'07_Imovel/Medidas_e_impactos.csv; Elias, 27/10/2026'},'graphicClosure':{'units':'cm','bathroomEastWall':16,'bathroomSouthWall':17,'status':'Derivadas dos alinhamentos gráficos existentes e das cotas internas; não são cotas oficiais.'}}
+ data={'source':{'path':PDF,'page':1,'method':'Cotas escritas conferidas visualmente na página integral.'},'units':'mm in arrays; displayed in metres','cotas':COTAS,'reconstructionSource':'ferramentas/site/src/app.js: floors/walls','note':NOTE,'heightStudy':{'byRoom':HEIGHT_VALUES,'status':'nominal/planta, medida a confirmar','source':'07_Imovel/Medidas_e_impactos.csv; Elias, 01/11/2026'},'graphicClosure':{'units':'cm','bathroomEastWall':16,'bathroomSouthWall':17,'status':'Derivadas dos alinhamentos gráficos existentes e das cotas internas; não são cotas oficiais.'}}
  # Preserve parameter bindings used by the A3 generator.
  data['pranchas']=json.loads((OUT/'Cotas.json').read_text(encoding='utf8'))['pranchas']
  (OUT/'Cotas.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
