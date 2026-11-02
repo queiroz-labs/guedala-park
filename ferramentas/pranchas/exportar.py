@@ -54,6 +54,8 @@ def atualizar_selecao(ids_atualizar):
     doc = App.ActiveDocument
     assert doc and Path(doc.FileName).resolve() == path.resolve()
     payload = json.loads(OUT.read_text(encoding='utf-8'))
+    if payload.get('schema',1)>=2:
+        raise ValueError('Usar exportação ativa completa: schema2 distingue caixa e conjunto')
     anteriores = {o['id']:list(o['box']) for o in payload['objects']}
     if set(ids_atualizar)-set(anteriores):
         raise ValueError('Objeto fora da seleção histórica')
@@ -134,12 +136,23 @@ def exportar_documento_gui(doc, destino, oficial=False):
         cad_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
         method='Seleção ativa do visualizador relida no candidato GUI; paredes em corte Z1000 mm',
         objects=records,architecture=dict(source=wall.Name,height=1000,wires=wires)))
+    payload['parametric_modules']=historical.get('parametric_modules',{})
     payload['openings']={}
     for i,name,axis in [(1,'Batente_Escritorio_Compatibilizado','x'),(2,'Batente_Quarto','y'),(3,'Batente_Banheiro_Compatibilizado','x'),(4,'Batente_Entrada','y')]:
         obj=doc.getObject(name);b=obj.Shape.BoundBox
         lo=[b.XMin,b.YMin];hi=[b.XMax,b.YMax];k=0 if axis=='x' else 1
         lo[k]+=20;hi[k]-=20
         payload['openings']['porta-'+str(i)]=dict(source=name,values=[7400-hi[0],lo[1],hi[0]-lo[0],hi[1]-lo[1],0,2100])
+    for i,room in enumerate(['Quarto','Escritorio','Sala','Lavanderia','Banheiro'],1):
+        obj=doc.getObject('Janela_'+room);frame=doc.getObject('Caixilho_'+room)
+        shape=frame.Shape.copy();parent=frame.getParentGeoFeatureGroup()
+        if parent:shape.Placement=parent.getGlobalPlacement().multiply(shape.Placement)
+        b=shape.BoundBox
+        payload['openings']['janela-'+str(i)]=dict(source=obj.Name,values=[7400-b.XMax,b.YMin,b.XLength,b.YLength,obj.Peitoril.Value,obj.Altura_Vao.Value])
+    payload['architecture']['floors']=[]
+    for obj in doc.Objects:
+        if obj.Name.startswith('Area_'):
+            payload['architecture']['floors'].extend([[[round(p.x,3),round(p.y,3)] for p in wire.discretize(Deflection=0.5)] for wire in obj.Shape.Wires])
     destino.parent.mkdir(parents=True,exist_ok=True)
     destino.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     return dict(objects=len(records),wires=len(wires),sha=payload['cad_sha256'])

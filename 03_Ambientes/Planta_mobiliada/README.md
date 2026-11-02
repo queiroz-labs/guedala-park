@@ -1,8 +1,8 @@
 # Planta mobiliada geral
 
-## R03 — vigente · 30/10/2026
+## R03 — vigente · 02/11/2026
 
-Capturada do estudo interativo com a **geometria FreeCAD R54** e a apresentação atual das cores R16/acabamentos do site, incluindo Sauge na parede da janela do box. Nenhum FCStd, orçamento ou decisão foi alterado. A imagem e as sete vistas substituem as capturas R02 da R45; o histórico fica no git.
+Capturada do estudo interativo com a **geometria FreeCAD R55** e a apresentação atual das cores R16/acabamentos do site, incluindo Sauge na parede da janela do box. FCStd preservado; PE12G vigente confirmado em02/11/2026. A imagem e as sete vistas substituem as capturas R02 da R45; o histórico fica no git.
 
 - [Planta mobiliada R03 (vista superior)](Planta_mobiliada_R03.png)
 - Vistas 3D por ambiente: [apartamento](Vistas/00_Apartamento.png) · [sala e jantar](Vistas/01_Sala_e_jantar.png) · [quarto](Vistas/02_Quarto.png) · [escritório](Vistas/03_Escritorio.png) · [cozinha](Vistas/04_Cozinha.png) · [lavanderia](Vistas/05_Lavanderia.png) · [banheiro](Vistas/06_Banheiro.png)
@@ -15,7 +15,7 @@ Comparação lado a lado das oito imagens, com o mesmo quadro de 1005 × 649 px,
 
 | Vista | O que mudou na imagem |
 |---|---|
-| Planta superior | Pedestal Berlin indicado pela projeção tracejada sob o tampo; cadeira lateral na posição R54 (+15 mm); cama viúva atual menor que a reserva queen; lixeiras nas posições atuais; topos brancos visíveis. |
+| Planta superior | Pedestal Berlin indicado pela projeção tracejada sob o tampo; cadeira lateral na posição R55 (+15 mm); cama viúva atual menor que a reserva queen; lixeiras nas posições atuais; topos brancos visíveis. |
 | Apartamento | Reúne essas mudanças, a parede verde da janela do box e a apresentação atual das chapas. |
 | Sala e jantar | Cadeira lateral +15 mm e envelope atual da soundbar Philips TAB4000; o tampo oculta grande parte do pedestal nesta direção. |
 | Quarto | Cama viúva atual no cotidiano, em vez da antiga representação da queen; topos/fechamentos brancos da extração atual. Queen permanece reserva futura nos dados. |
@@ -24,7 +24,7 @@ Comparação lado a lado das oito imagens, com o mesmo quadro de 1005 × 649 px,
 | Lavanderia | Loop deslocada +6 cm no eixo da cena; topo branco do aéreo. Varal continua recolhido. |
 | Banheiro | Sauge também no pano da janela; ducha higiênica entre box e vaso; topo branco do espelheiro. |
 
-Todas as oito vistas foram refeitas; nenhuma ficou marcada como desatualizada. Chapas, acessórios e pisos continuam simplificados pelo renderizador. Conferência de enquadramento não demonstra medidas, montagem, resistência ou conformidade. A aparência verde vem do site; não se atribui alteração ao arquivo CAD R54.
+Todas as oito vistas foram refeitas; nenhuma ficou marcada como desatualizada. Chapas, acessórios e pisos continuam simplificados pelo renderizador. Conferência de enquadramento não demonstra medidas, montagem, resistência ou conformidade. A aparência verde vem do site; não se atribui alteração ao arquivo CAD R55.
 
 Seleção do build web: os oito PNGs, este README e os metadados são copiados para `docs/03_Ambientes/Planta_mobiliada/`. O teste de downloads confere dimensões, revisão e SHA dos PNGs e exige os oito links ativos no artefato; capturar não faz publicação.
 

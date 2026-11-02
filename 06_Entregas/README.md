@@ -1,8 +1,10 @@
 # Entregas — manifesto e versões
 
-**Arquiteto, 01/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R54 identificadas, materiais, 23 pendências e levantamento. Preparado, não enviado; sem nova exportação arquitetônica.
+**Revisão02/11/2026:** pranchas R02/R55, alturas2550/2300mm; oito vistas R55; PE12G vigente; P07/P16/P20 distinguem caixa e envelope completo. CAD e base preservados. Pacote R31. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
-**Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R54, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
+**Arquiteto, 01/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R55 identificadas, materiais, 23 pendências e levantamento. Preparado, não enviado; com exportação arquitetônica R55.
+
+**Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R55, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
 
 **Ensaios de oficina, 28/10/2026:** [PDF e ZIP](Ensaios_oficina/README.md) com caderno, CSV vazio, verificador e fontes selecionadas. Todos pendentes de execução. Publicação no site autorizada por Elias nesta conversa: “pode fazer o push e atualizar o site com essas infos”.
 

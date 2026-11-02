@@ -66,7 +66,7 @@
 <text x="15" y="131" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C13 / L</text>
 <text x="48" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5210 N</text>
 <text x="78" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5910 N</text>
-<text x="108" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Stella EVO STH21967/30, quadrado 3000 K</text>
 <text x="15" y="138" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">C14 / A</text>
 <text x="48" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5150 N</text>
@@ -126,7 +126,7 @@
 <text x="15" y="215" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">L11 / L</text>
 <text x="48" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3200 N</text>
 <text x="78" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5950 N</text>
-<text x="108" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="215" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Firefly 9608 quadrado 3000 K</text>
 <text x="15" y="222" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">B01 / AF</text>
 <text x="48" y="222" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4260 N</text>
@@ -147,5 +147,5 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | PT1 | 20 folhas | Sem escala</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">81 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 0d9e16fc47ff93ca5122d72f...</text>
 </svg>

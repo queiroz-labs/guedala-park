@@ -1,7 +1,7 @@
 {
   "revision": "R55",
-  "sourceHTMLSHA256": "85379a0cc9658792fe67bf1d5bf82f42904a686f40cc9db4ca480f89410512fa",
-  "browser": "156.0.4314.50",
+  "sourceHTMLSHA256": "7b2a191aa1da8a68d9d85875029ca4145fa04076f0ff6a31f090cc1069e353a8",
+  "browser": "156.0.8078.76",
   "imageSize": [
     1005,
     649
@@ -34,8 +34,8 @@
         767.1805555555555,
         587.8194444444445
       ],
-      "bytes": 87280,
-      "sha256": "b0079d433ee5bec01de875cdab744af60e1f2aab292ceb437197fcf132f489a6"
+      "bytes": 87290,
+      "sha256": "c7ce5bfc75084d89e1f4f02dea02d21230f047f263374980b171ff3f9273ea94"
     },
     {
       "file": "Vistas/00_Apartamento.png",
@@ -60,10 +60,10 @@
         327.2995383088696,
         122.87900166008077,
         713.0833477957807,
-        561.8794967129561
+        562.1314440327278
       ],
-      "bytes": 118099,
-      "sha256": "7eb3a8acd3ed6f6cc32da62ba20cde3b6bc951d44640daba0f0df0b4a1028d47"
+      "bytes": 120506,
+      "sha256": "f5f6b1c1dbad7771312b2676cf1decae2b3e9fab3c84bc55d32ceb08c4873b75"
     },
     {
       "file": "Vistas/01_Sala_e_jantar.png",
@@ -90,8 +90,8 @@
         704.4937576413496,
         579.5092470052757
       ],
-      "bytes": 85644,
-      "sha256": "3f26b77226cff003ea42a4d0e6807a9a614dc3424997aad3c917f39aec988464"
+      "bytes": 88212,
+      "sha256": "4fa1c4b644f2664b016068872d99841f0b3daf3679f6984de8a96cea7a7007e0"
     },
     {
       "file": "Vistas/02_Quarto.png",
@@ -118,8 +118,8 @@
         718.6654557794394,
         490.9405602176952
       ],
-      "bytes": 78541,
-      "sha256": "ed54613e824b552bb9b008c9369399b822bd6f9981a6d001b74dadf18cbec0d1"
+      "bytes": 81254,
+      "sha256": "257a66a09a2c5947391be538e01a9343a6bfa1e807a91435f7b3460d048557e4"
     },
     {
       "file": "Vistas/03_Escritorio.png",
@@ -146,8 +146,8 @@
         685.1873928696596,
         503.95458227292386
       ],
-      "bytes": 81844,
-      "sha256": "e3b6c2e4b8aa24c1b0e791c84585137cf280697516bea8e680f109a15fb07ab1"
+      "bytes": 87995,
+      "sha256": "16d8db7049ad36eb64c1dd0041165f9dcd0ccac33f29bd3172b0b2edc016e8ea"
     },
     {
       "file": "Vistas/04_Cozinha.png",
@@ -169,13 +169,13 @@
         "ymax": 247
       },
       "projectedBounds": [
-        397.42554614108406,
+        397.8496892771527,
         115.73633786048993,
         765.8508877829764,
         580.0386683803065
       ],
-      "bytes": 96291,
-      "sha256": "93943e41c119ff307f3fe8948b4b25a5ce2add63e7310d56ba98f36b4fa25568"
+      "bytes": 96227,
+      "sha256": "eafec981dc2f8bd0aa3ed3263ad8a411eecb0d1569bd251f6bb0e83536464a72"
     },
     {
       "file": "Vistas/05_Lavanderia.png",
@@ -200,10 +200,10 @@
         385.85977392500416,
         113.75211987261508,
         653.3847725513275,
-        562.1875701356397
+        560.7050164622977
       ],
-      "bytes": 54962,
-      "sha256": "9dbe516b5f612903be056498a24fea6bbb530dc5260b944e06a74f0b47cfa37f"
+      "bytes": 57321,
+      "sha256": "4e29b74f26e6545b1e047d642a5123a02110ba240c44216fa018c8993722ae99"
     },
     {
       "file": "Vistas/06_Banheiro.png",
@@ -230,8 +230,8 @@
         694.8454307345074,
         578.5639846604079
       ],
-      "bytes": 62237,
-      "sha256": "084a76cf1e40b0fc939b46ec7c5195a9fc4ae2558cd9c6efc657f0c5783dd937"
+      "bytes": 66566,
+      "sha256": "517cca6100d5acff7fe3cd7fd095a502d02e9df9c73b79b9f43596ef93092b36"
     }
   ]
 }

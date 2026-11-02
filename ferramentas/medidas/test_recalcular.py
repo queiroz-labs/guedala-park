@@ -31,7 +31,7 @@ class Dependencias(unittest.TestCase):
                 self.assertAlmostEqual(value, rule['atual_mm'], places=6)
                 self.assertEqual(result['delta_mm'], 0)
                 name = rule['movel']
-                b = (geo['modules'][name] if name in geo['modules'] else objects[name])['box']
+                b = (geo.get('parametric_modules',{}).get(name,geo['modules'].get(name)) if name in geo['modules'] else objects[name])['box']
                 b = [mirror-b[3], b[1], b[2], mirror-b[0], b[4], b[5]]
                 self.assertEqual(b, self.doc['alvos'][name]['box_planta'])
                 if 'eixo' in rule:
@@ -42,6 +42,14 @@ class Dependencias(unittest.TestCase):
                 elif 'referencia' in rule['folgas']:
                     axis = 0 if rule['cota'].endswith('_x') else 1 if rule['cota'].endswith('_y') else 2
                     self.assertAlmostEqual(rule['folgas']['referencia'], b[axis])
+
+    def test_caixa_e_envelope_completo_sao_distintos(self):
+        geo=json.loads((ROOT/self.doc['exportacao']).read_text(encoding='utf-8'))
+        for name,axis,delta in [('P07',1,12.5),('P16',4,20),('P20',5,70)]:
+            reference=geo['parametric_modules'][name]['box']
+            full=geo['modules'][name]['box']
+            self.assertEqual(abs(full[axis]-reference[axis]),delta)
+            self.assertEqual(reference,self.doc['alvos'][name]['box'])
 
     def test_fixo_muda_folga_e_detecta_nao_cabe(self):
         rows = copy.deepcopy(self.nominal)

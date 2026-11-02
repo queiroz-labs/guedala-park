@@ -1,4 +1,6 @@
-# Apartamento interativo — R55 e pacote R30
+# Apartamento interativo — R55 e pacote R31
+
+**Pranchas R55:** alturas2550/2300mm, PE12G e referências de caixa/conjunto conciliadas; CAD intacto. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
 **Navegação:** Obra fica em Mais; geladeira fechada no site, com painel e pega transformados juntos, sem mudar o CAD. Pedido: Elias,02/11/2026.
 
@@ -18,7 +20,7 @@
 
 CAD/site: lavanderia 1,29 × 1,54 m; Loop +1,5 cm; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-`current_release.json`: CAD R55, pacote R30, fichas R15 e iluminação CB02; medidas, cotas, lista/CSV e ficha ilustrada. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
+`current_release.json`: CAD R55, pacote R31, fichas R15 e iluminação CB02; medidas, cotas, lista/CSV e ficha ilustrada. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
 
 [Divergências e limpeza R14/R16](../../06_Entregas/README.md).
 

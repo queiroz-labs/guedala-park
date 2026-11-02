@@ -1,6 +1,6 @@
 # Caderno formal A3 — R02
 
-**Referência dos desenhos: R54, 27/10/2026.** Em 31/10, caminho/SHA de Geometria.json e regras.json foram vinculados ao R55, mantendo os envelopes anteriores ([limite do exportador](../../ferramentas/pranchas/README.md)). Isso não reexporta paredes, vãos, pisos e esquadrias do R55 nem atualiza as folhas. Antes da entrega arquitetônica, compatibilizar essas fontes e gerar/conferir novas pranchas. O pedestal Berlin e os 24 envelopes dimensionais pertencem à atualização R54.
+**Referência dos desenhos: R55,02/11/2026.** Paredes em corte a1000mm, pisos, vãos e aparelhos relidos da geometria vigente; alturas nominais2550/2300mm. Nenhum CAD alterado. P07/P16/P20 mostram envelope completo; a cadeia dimensional conserva separadamente a referência da caixa. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
 [Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 removido da pasta (histórico no git); R02 incluído no pacote R26.
 
@@ -25,7 +25,7 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 | Folhas | Conteúdo |
 |---|---|
 | 00 | Índice, fontes e critérios |
-| PL1–PL3 | Paredes/aberturas; layout R54; pontos R01 |
+| PL1–PL3 | Paredes/aberturas; layout R55; pontos R01 |
 | PT1–PT2 | Os 53 códigos R01: coordenadas, alturas e funções |
 | E01–E02 | Cozinha: bancada/aéreos e face oposta da lixeira |
 | E03–E04 | Lavanderia e banheiro |
@@ -37,13 +37,13 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 
 ## Alturas nominais vigentes
 
-2550 mm nos cômodos; banheiro2300 mm. Fonte: Elias,01/11/2026, decisão registrada em `ESTADO_ATUAL.md`. CSV já contém essas alturas; folhas R02 antigas ainda precisam de regeneração. Nenhuma medição fictícia foi preenchida. Na revisão em preparação,87 cotas mudam apenas com as alturas; coordenadas dos vãos e geometria ativa exigem conferência adicional.
+2550 mm nos cômodos; banheiro2300 mm. Fonte: Elias,01/11/2026, decisão registrada em `ESTADO_ATUAL.md`. CSV e folhas R02/R55 usam essas alturas. Nenhuma medição fictícia foi preenchida. A revisão completa registra152 alterações de cotas; vãos e arquitetura são lidos da geometria vigente. Referências históricas PR permanecem identificadas à parte.
 
 ## Origem e parametrização
 
 - N em ocre e linha de cota tracejada: nominal/planta, incluindo CAD. M em verde e linha contínua: medido. Cota derivada só é M quando todas as parcelas forem medidas. O carimbo conta os registros de cota nominal da folha; repetições do mesmo identificador contam uma vez. RT permanece em branco. Todas as folhas: **ESTUDO — NÃO EXECUTAR**.
 - Geometria.json contém envelopes de objetos visíveis e módulos P01–P20, posições, tamanhos e folgas nominais na exportação, com SHA256 do FCStd. Coordenadas globais FreeCAD são espelhadas em X para a planta. Não substitui contornos de usinagem; peças internas aparecem como referência geométrica, sem cálculo de carga/ligação.
-- FCStd R53 preservado: SHA256 `fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f`. Verificação completa: 5.832 objetos, 1.133 formas ativas, 1.362 pares de caixas, 106 cenários; Modelo OK. A exportação abriu oculto, não recalculou nem salvou. `python ferramentas/pranchas/exportar.py` só é necessário quando houver outra revisão CAD autorizada; depois executar a verificação completa.
+- CAD R55 preservado: SHA256 `0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3`; verificação completa da cópia:6149objetos,1199formas ativas,106cenários, Modelo OK. Não houve gravação do modelo nesta revisão.
 - Caixas cinza preservam a geometria CAD. Traço azul é estudo: topo = pé-direito atual − folga nominal da exportação; altura do aéreo/maleiro = topo − base CAD. DT1 usa fechamento = pé-direito atual − topo CAD. Resultado negativo gera aviso e não vira retângulo negativo. Peça fixa que ultrapassa o teto é denunciada, mesmo quando existe alternativa paramétrica.
 - Ultima_geracao.json guarda cotas/fontes da geração anterior. Impacto.json e Impacto.html comparam valor, origem, prancha e móvel: antes → depois. A primeira geração registra inclusões. Nova execução sem mudanças produz zero alterações; os avisos persistem. Não apagar o retrato para esconder diferenças.
 
@@ -57,7 +57,7 @@ NC1 é triagem por envelopes de planos horizontais: não certifica vãos úteis 
 
 ## Verificações
 
-**Teste externo 2,60 → 2,47 m, 27/10/2026: passou.** Cópia mínima descartável fora do repositório; seis registros PD receberam `valor_medido = 2470 mm`. As 12 elevações e DT1 mudaram; 99 cotas alteradas com antes/depois, prancha e móvel. P09–P12: folga de +50 para −80 mm, quatro avisos de ultrapassagem do teto. Suas alturas de estudo diminuíram 130 mm; as caixas R53 ficaram explícitas. Fechamento P03: 160 → 30 mm. Cópia apagada; CSV, FCStd e fatos originais conferidos por SHA.
+**Teste externo atualizado,02/11/2026:** sete registros PD recebem2470mm somente na cópia de teste. As12 elevações eDT1 respondem;99 cotas mudam, quatro conflitos P09–P12 de80mm são detectados. As alturas de estudo dos aéreos diminuem80mm frente ao nominal2550; fechamento P03:110→30mm. Originais preservados; nenhuma medição fictícia incorporada.
 
 Repetição sem mudanças: zero alterações e PDF binariamente idêntico. Entrada de pé-direito negativo foi recusada sem substituir PDF/retrato anterior. Conversões m/cm/mm, zero versus vazio, precedência do medido e origem nominal das derivadas mistas conferidas. A linha de 2470 mm na elevação mede exatamente 98,8 mm no SVG 1:25.
 

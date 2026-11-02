@@ -5,7 +5,7 @@
       "mm": 1200.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-1-W"
+        "CAD:Janela_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
@@ -14,7 +14,7 @@
       "mm": 1150.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-2-W"
+        "CAD:Janela_Escritorio"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
@@ -23,7 +23,7 @@
       "mm": 1390.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-3-W"
+        "CAD:Janela_Sala"
       ],
       "movel": "sala",
       "prancha": "PL1"
@@ -32,7 +32,7 @@
       "mm": 1060.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-4-D"
+        "CAD:Janela_Lavanderia"
       ],
       "movel": "lavanderia",
       "prancha": "PL1"
@@ -41,25 +41,25 @@
       "mm": 400.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-5-D"
+        "CAD:Janela_Banheiro"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-1-vao": {
-      "mm": 750.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-1-D"
+        "CAD:Batente_Escritorio_Compatibilizado"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:porta-2-vao": {
-      "mm": 750.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-2-W"
+        "CAD:Batente_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
@@ -68,16 +68,16 @@
       "mm": 700.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-3-D"
+        "CAD:Batente_Banheiro_Compatibilizado"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-4-vao": {
-      "mm": 750.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-4-W"
+        "CAD:Batente_Entrada"
       ],
       "movel": "cozinha",
       "prancha": "PL1"
@@ -212,7 +212,7 @@
       "mm": 1200.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-1-W"
+        "CAD:Janela_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
@@ -221,25 +221,25 @@
       "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-1-D"
+        "CAD:Janela_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:janela-1-peitoril": {
-      "mm": 950.0,
+      "mm": 920.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-1-Z"
+        "CAD:Janela_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:janela-1-H": {
-      "mm": 1100.0,
+      "mm": 1130.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-1-H"
+        "CAD:Janela_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
@@ -248,7 +248,7 @@
       "mm": 1150.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-2-W"
+        "CAD:Janela_Escritorio"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
@@ -257,25 +257,25 @@
       "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-2-D"
+        "CAD:Janela_Escritorio"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:janela-2-peitoril": {
-      "mm": 950.0,
+      "mm": 920.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-2-Z"
+        "CAD:Janela_Escritorio"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:janela-2-H": {
-      "mm": 1100.0,
+      "mm": 1130.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-2-H"
+        "CAD:Janela_Escritorio"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
@@ -284,7 +284,7 @@
       "mm": 1390.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-3-W"
+        "CAD:Janela_Sala"
       ],
       "movel": "sala",
       "prancha": "PL1"
@@ -293,25 +293,25 @@
       "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-3-D"
+        "CAD:Janela_Sala"
       ],
       "movel": "sala",
       "prancha": "PL1"
     },
     "PL1:janela-3-peitoril": {
-      "mm": 950.0,
+      "mm": 920.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-3-Z"
+        "CAD:Janela_Sala"
       ],
       "movel": "sala",
       "prancha": "PL1"
     },
     "PL1:janela-3-H": {
-      "mm": 1100.0,
+      "mm": 1130.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-3-H"
+        "CAD:Janela_Sala"
       ],
       "movel": "sala",
       "prancha": "PL1"
@@ -320,7 +320,7 @@
       "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-4-W"
+        "CAD:Janela_Lavanderia"
       ],
       "movel": "lavanderia",
       "prancha": "PL1"
@@ -329,25 +329,25 @@
       "mm": 1060.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-4-D"
+        "CAD:Janela_Lavanderia"
       ],
       "movel": "lavanderia",
       "prancha": "PL1"
     },
     "PL1:janela-4-peitoril": {
-      "mm": 950.0,
+      "mm": 920.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-4-Z"
+        "CAD:Janela_Lavanderia"
       ],
       "movel": "lavanderia",
       "prancha": "PL1"
     },
     "PL1:janela-4-H": {
-      "mm": 1100.0,
+      "mm": 1130.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-4-H"
+        "CAD:Janela_Lavanderia"
       ],
       "movel": "lavanderia",
       "prancha": "PL1"
@@ -356,7 +356,7 @@
       "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-5-W"
+        "CAD:Janela_Banheiro"
       ],
       "movel": "banho",
       "prancha": "PL1"
@@ -365,169 +365,169 @@
       "mm": 400.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-5-D"
+        "CAD:Janela_Banheiro"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:janela-5-peitoril": {
-      "mm": 950.0,
+      "mm": 920.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-5-Z"
+        "CAD:Janela_Banheiro"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:janela-5-H": {
-      "mm": 1100.0,
+      "mm": 1130.0,
       "origem": "nominal",
       "fontes": [
-        "PR-JANELA-5-H"
+        "CAD:Janela_Banheiro"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-1-L": {
-      "mm": 20.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-1-W"
+        "CAD:Batente_Escritorio_Compatibilizado"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:porta-1-P": {
-      "mm": 750.0,
+      "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-1-D"
+        "CAD:Batente_Escritorio_Compatibilizado"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:porta-1-peitoril": {
-      "mm": 0.0,
+      "mm": 0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-1-Z"
+        "CAD:Batente_Escritorio_Compatibilizado"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:porta-1-H": {
-      "mm": 2050.0,
+      "mm": 2100,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-1-H"
+        "CAD:Batente_Escritorio_Compatibilizado"
       ],
       "movel": "escritorio",
       "prancha": "PL1"
     },
     "PL1:porta-2-L": {
-      "mm": 750.0,
+      "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-2-W"
+        "CAD:Batente_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:porta-2-P": {
-      "mm": 20.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-2-D"
+        "CAD:Batente_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:porta-2-peitoril": {
-      "mm": 0.0,
+      "mm": 0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-2-Z"
+        "CAD:Batente_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:porta-2-H": {
-      "mm": 2050.0,
+      "mm": 2100,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-2-H"
+        "CAD:Batente_Quarto"
       ],
       "movel": "quarto",
       "prancha": "PL1"
     },
     "PL1:porta-3-L": {
-      "mm": 20.0,
+      "mm": 700.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-3-W"
+        "CAD:Batente_Banheiro_Compatibilizado"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-3-P": {
-      "mm": 700.0,
+      "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-3-D"
+        "CAD:Batente_Banheiro_Compatibilizado"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-3-peitoril": {
-      "mm": 0.0,
+      "mm": 0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-3-Z"
+        "CAD:Batente_Banheiro_Compatibilizado"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-3-H": {
-      "mm": 2050.0,
+      "mm": 2100,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-3-H"
+        "CAD:Batente_Banheiro_Compatibilizado"
       ],
       "movel": "banho",
       "prancha": "PL1"
     },
     "PL1:porta-4-L": {
-      "mm": 750.0,
+      "mm": 100.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-4-W"
+        "CAD:Batente_Entrada"
       ],
       "movel": "cozinha",
       "prancha": "PL1"
     },
     "PL1:porta-4-P": {
-      "mm": 20.0,
+      "mm": 800.0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-4-D"
+        "CAD:Batente_Entrada"
       ],
       "movel": "cozinha",
       "prancha": "PL1"
     },
     "PL1:porta-4-peitoril": {
-      "mm": 0.0,
+      "mm": 0,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-4-Z"
+        "CAD:Batente_Entrada"
       ],
       "movel": "cozinha",
       "prancha": "PL1"
     },
     "PL1:porta-4-H": {
-      "mm": 2050.0,
+      "mm": 2100,
       "origem": "nominal",
       "fontes": [
-        "PR-PORTA-4-H"
+        "CAD:Batente_Entrada"
       ],
       "movel": "cozinha",
       "prancha": "PL1"
@@ -704,7 +704,7 @@
       "prancha": "PL2"
     },
     "PL2:P07-P": {
-      "mm": 597.5,
+      "mm": 610.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P07"
@@ -947,7 +947,7 @@
       "prancha": "PL2"
     },
     "PL2:P16-P": {
-      "mm": 430.0,
+      "mm": 450.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P16"
@@ -1064,7 +1064,7 @@
       "prancha": "PL2"
     },
     "PL2:P20-H": {
-      "mm": 400.0,
+      "mm": 470.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P20"
@@ -2297,7 +2297,7 @@
       "prancha": "PT1"
     },
     "PT1:C13-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ"
@@ -2621,7 +2621,7 @@
       "prancha": "PT1"
     },
     "PT1:L11-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV"
@@ -2918,7 +2918,7 @@
       "prancha": "PT2"
     },
     "PT2:B11-Z": {
-      "mm": 2500.0,
+      "mm": 2300.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"
@@ -2999,7 +2999,7 @@
       "prancha": "PT2"
     },
     "PT2:S03-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -3026,7 +3026,7 @@
       "prancha": "PT2"
     },
     "PT2:S04-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -3134,7 +3134,7 @@
       "prancha": "PT2"
     },
     "PT2:E04-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -3269,7 +3269,7 @@
       "prancha": "PT2"
     },
     "PT2:Q05-Z": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -3386,7 +3386,7 @@
       "prancha": "PT2"
     },
     "E01:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ"
@@ -3422,7 +3422,7 @@
       "prancha": "E01"
     },
     "E01:P05-folga": {
-      "mm": 1700.0,
+      "mm": 1650.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3468,7 +3468,7 @@
       "prancha": "E01"
     },
     "E01:P06-folga": {
-      "mm": 1700.0,
+      "mm": 1650.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3514,7 +3514,7 @@
       "prancha": "E01"
     },
     "E01:P07-folga": {
-      "mm": 1700.0,
+      "mm": 1650.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3560,7 +3560,7 @@
       "prancha": "E01"
     },
     "E01:P08-folga": {
-      "mm": 2420.0,
+      "mm": 2370.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3606,7 +3606,7 @@
       "prancha": "E01"
     },
     "E01:P09-folga": {
-      "mm": 50.0,
+      "mm": 0.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3673,7 +3673,7 @@
       "prancha": "E01"
     },
     "E01:P10-folga": {
-      "mm": 50.0,
+      "mm": 0.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3740,7 +3740,7 @@
       "prancha": "E01"
     },
     "E01:P11-folga": {
-      "mm": 50.0,
+      "mm": 0.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3807,7 +3807,7 @@
       "prancha": "E01"
     },
     "E01:P12-folga": {
-      "mm": 50.0,
+      "mm": 0.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3874,7 +3874,7 @@
       "prancha": "E01"
     },
     "E01:P13-folga": {
-      "mm": 1050.0,
+      "mm": 1000.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -3892,78 +3892,78 @@
       "movel": "P13",
       "prancha": "E01"
     },
-    "E01:Peca138-L": {
+    "E01:IB6S_Visual-L": {
       "mm": 601.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca138"
+        "CAD:IB6S_Visual"
       ],
-      "movel": "Peca138",
+      "movel": "IB6S_Visual",
       "prancha": "E01"
     },
-    "E01:Peca138-base": {
+    "E01:IB6S_Visual-base": {
       "mm": 0.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca138"
+        "CAD:IB6S_Visual"
       ],
-      "movel": "Peca138",
+      "movel": "IB6S_Visual",
       "prancha": "E01"
     },
-    "E01:Peca138-topo": {
+    "E01:IB6S_Visual-topo": {
       "mm": 1866.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca138"
+        "CAD:IB6S_Visual"
       ],
-      "movel": "Peca138",
+      "movel": "IB6S_Visual",
       "prancha": "E01"
     },
-    "E01:Peca138-folga": {
-      "mm": 734.0,
+    "E01:IB6S_Visual-folga": {
+      "mm": 684.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
-        "CAD:Peca138"
+        "CAD:IB6S_Visual"
       ],
-      "movel": "Peca138",
+      "movel": "IB6S_Visual",
       "prancha": "E01"
     },
-    "E01:Peca351-L": {
+    "E01:ME23P_Visual-L": {
       "mm": 461.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca351"
+        "CAD:ME23P_Visual"
       ],
-      "movel": "Peca351",
+      "movel": "ME23P_Visual",
       "prancha": "E01"
     },
-    "E01:Peca351-base": {
+    "E01:ME23P_Visual-base": {
       "mm": 1550.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca351"
+        "CAD:ME23P_Visual"
       ],
-      "movel": "Peca351",
+      "movel": "ME23P_Visual",
       "prancha": "E01"
     },
-    "E01:Peca351-topo": {
+    "E01:ME23P_Visual-topo": {
       "mm": 1840.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca351"
+        "CAD:ME23P_Visual"
       ],
-      "movel": "Peca351",
+      "movel": "ME23P_Visual",
       "prancha": "E01"
     },
-    "E01:Peca351-folga": {
-      "mm": 760.0,
+    "E01:ME23P_Visual-folga": {
+      "mm": 710.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
-        "CAD:Peca351"
+        "CAD:ME23P_Visual"
       ],
-      "movel": "Peca351",
+      "movel": "ME23P_Visual",
       "prancha": "E01"
     },
     "E01:Peca134-L": {
@@ -3994,7 +3994,7 @@
       "prancha": "E01"
     },
     "E01:Peca134-folga": {
-      "mm": 1665.0,
+      "mm": 1615.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4031,7 +4031,7 @@
       "prancha": "E01"
     },
     "E01:Peca139-folga": {
-      "mm": 684.0,
+      "mm": 634.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4068,7 +4068,7 @@
       "prancha": "E01"
     },
     "E01:Peca308-folga": {
-      "mm": 1680.0,
+      "mm": 1630.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4105,7 +4105,7 @@
       "prancha": "E01"
     },
     "E01:FischerFrenteR31-folga": {
-      "mm": 2030.0,
+      "mm": 1980.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4331,7 +4331,7 @@
       "prancha": "E01"
     },
     "E01:C13-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ"
@@ -4367,7 +4367,7 @@
       "prancha": "E01"
     },
     "E02:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ"
@@ -4403,7 +4403,7 @@
       "prancha": "E02"
     },
     "E02:Peca144-folga": {
-      "mm": 2150.0,
+      "mm": 2100.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4440,7 +4440,7 @@
       "prancha": "E02"
     },
     "E02:Peca145-folga": {
-      "mm": 2130.0,
+      "mm": 2080.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ",
@@ -4666,7 +4666,7 @@
       "prancha": "E02"
     },
     "E02:C13-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-COZ"
@@ -4702,7 +4702,7 @@
       "prancha": "E02"
     },
     "E03:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV"
@@ -4738,7 +4738,7 @@
       "prancha": "E03"
     },
     "E03:P14-folga": {
-      "mm": 1680.0,
+      "mm": 1630.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV",
@@ -4784,7 +4784,7 @@
       "prancha": "E03"
     },
     "E03:P15-folga": {
-      "mm": 370.0,
+      "mm": 320.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV",
@@ -4823,41 +4823,41 @@
       "movel": "P15",
       "prancha": "E03"
     },
-    "E03:Peca152-L": {
+    "E03:LGVC4_Visual-L": {
       "mm": 600.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca152"
+        "CAD:LGVC4_Visual"
       ],
-      "movel": "Peca152",
+      "movel": "LGVC4_Visual",
       "prancha": "E03"
     },
-    "E03:Peca152-base": {
+    "E03:LGVC4_Visual-base": {
       "mm": 0.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca152"
+        "CAD:LGVC4_Visual"
       ],
-      "movel": "Peca152",
+      "movel": "LGVC4_Visual",
       "prancha": "E03"
     },
-    "E03:Peca152-topo": {
+    "E03:LGVC4_Visual-topo": {
       "mm": 850.0,
       "origem": "nominal",
       "fontes": [
-        "CAD:Peca152"
+        "CAD:LGVC4_Visual"
       ],
-      "movel": "Peca152",
+      "movel": "LGVC4_Visual",
       "prancha": "E03"
     },
-    "E03:Peca152-folga": {
-      "mm": 1750.0,
+    "E03:LGVC4_Visual-folga": {
+      "mm": 1700.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV",
-        "CAD:Peca152"
+        "CAD:LGVC4_Visual"
       ],
-      "movel": "Peca152",
+      "movel": "LGVC4_Visual",
       "prancha": "E03"
     },
     "E03:Peca357-L": {
@@ -4888,7 +4888,7 @@
       "prancha": "E03"
     },
     "E03:Peca357-folga": {
-      "mm": 1680.0,
+      "mm": 1630.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV",
@@ -4925,7 +4925,7 @@
       "prancha": "E03"
     },
     "E03:Peca155-folga": {
-      "mm": 500.0,
+      "mm": 450.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV",
@@ -5115,7 +5115,7 @@
       "prancha": "E03"
     },
     "E03:L11-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-LAV"
@@ -5133,7 +5133,7 @@
       "prancha": "E03"
     },
     "E04:pe-direito": {
-      "mm": 2500.0,
+      "mm": 2300.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"
@@ -5169,7 +5169,7 @@
       "prancha": "E04"
     },
     "E04:P18-folga": {
-      "mm": 1755.0,
+      "mm": 1555.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5215,7 +5215,7 @@
       "prancha": "E04"
     },
     "E04:P19-folga": {
-      "mm": 600.0,
+      "mm": 400.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5282,7 +5282,7 @@
       "prancha": "E04"
     },
     "E04:Peca399-folga": {
-      "mm": 1735.0,
+      "mm": 1535.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5319,7 +5319,7 @@
       "prancha": "E04"
     },
     "E04:Peca185-folga": {
-      "mm": 1600.0,
+      "mm": 1400.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN",
@@ -5509,7 +5509,7 @@
       "prancha": "E04"
     },
     "E04:B11-altura": {
-      "mm": 2500.0,
+      "mm": 2300.0,
       "origem": "nominal",
       "fontes": [
         "PD-BAN"
@@ -5527,7 +5527,7 @@
       "prancha": "E04"
     },
     "E05:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -5563,7 +5563,7 @@
       "prancha": "E05"
     },
     "E05:P01-folga": {
-      "mm": 468.0,
+      "mm": 418.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -5609,7 +5609,7 @@
       "prancha": "E05"
     },
     "E05:P02-folga": {
-      "mm": 160.0,
+      "mm": 110.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -5676,7 +5676,7 @@
       "prancha": "E05"
     },
     "E05:P03-folga": {
-      "mm": 160.0,
+      "mm": 110.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -5788,7 +5788,7 @@
       "prancha": "E05"
     },
     "E05:Q05-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -5824,7 +5824,7 @@
       "prancha": "E05"
     },
     "E06:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -5860,7 +5860,7 @@
       "prancha": "E06"
     },
     "E06:P02-folga": {
-      "mm": 160.0,
+      "mm": 110.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -5972,7 +5972,7 @@
       "prancha": "E06"
     },
     "E06:Q05-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -6008,7 +6008,7 @@
       "prancha": "E06"
     },
     "E07:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -6044,7 +6044,7 @@
       "prancha": "E07"
     },
     "E07:P04-folga": {
-      "mm": 160.0,
+      "mm": 110.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -6111,7 +6111,7 @@
       "prancha": "E07"
     },
     "E07:CabeceiraDoisPaineisR25-folga": {
-      "mm": 1450.0,
+      "mm": 1400.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",
@@ -6193,7 +6193,7 @@
       "prancha": "E07"
     },
     "E07:Q05-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -6229,7 +6229,7 @@
       "prancha": "E07"
     },
     "E08:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6265,7 +6265,7 @@
       "prancha": "E08"
     },
     "E08:P16-folga": {
-      "mm": 1880.0,
+      "mm": 1830.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC",
@@ -6311,7 +6311,7 @@
       "prancha": "E08"
     },
     "E08:Peca110-folga": {
-      "mm": 1850.0,
+      "mm": 1800.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC",
@@ -6375,7 +6375,7 @@
       "prancha": "E08"
     },
     "E08:E04-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6429,7 +6429,7 @@
       "prancha": "E08"
     },
     "E09:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6465,7 +6465,7 @@
       "prancha": "E09"
     },
     "E09:P17-folga": {
-      "mm": 150.0,
+      "mm": 100.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC",
@@ -6559,7 +6559,7 @@
       "prancha": "E09"
     },
     "E09:E04-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6613,7 +6613,7 @@
       "prancha": "E09"
     },
     "E10:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6649,7 +6649,7 @@
       "prancha": "E10"
     },
     "E10:Peca130-folga": {
-      "mm": 650.0,
+      "mm": 600.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC",
@@ -6686,7 +6686,7 @@
       "prancha": "E10"
     },
     "E10:Peca131-folga": {
-      "mm": 1220.0,
+      "mm": 1170.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC",
@@ -6750,7 +6750,7 @@
       "prancha": "E10"
     },
     "E10:E04-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-ESC"
@@ -6804,7 +6804,7 @@
       "prancha": "E10"
     },
     "E11:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -6840,7 +6840,7 @@
       "prancha": "E11"
     },
     "E11:Peca084-folga": {
-      "mm": 700.0,
+      "mm": 650.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL",
@@ -6877,7 +6877,7 @@
       "prancha": "E11"
     },
     "E11:Peca085-folga": {
-      "mm": 2250.0,
+      "mm": 2200.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL",
@@ -6914,7 +6914,7 @@
       "prancha": "E11"
     },
     "E11:Peca086-folga": {
-      "mm": 950.0,
+      "mm": 900.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL",
@@ -6951,7 +6951,7 @@
       "prancha": "E11"
     },
     "E11:Peca088-folga": {
-      "mm": 1181.0,
+      "mm": 1131.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL",
@@ -6997,7 +6997,7 @@
       "prancha": "E11"
     },
     "E11:S03-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -7015,7 +7015,7 @@
       "prancha": "E11"
     },
     "E11:S04-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -7051,7 +7051,7 @@
       "prancha": "E11"
     },
     "E12:pe-direito": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -7078,7 +7078,7 @@
       "prancha": "E12"
     },
     "E12:P20-topo": {
-      "mm": 400.0,
+      "mm": 470.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P20"
@@ -7087,7 +7087,7 @@
       "prancha": "E12"
     },
     "E12:P20-folga": {
-      "mm": 2200.0,
+      "mm": 2080.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL",
@@ -7142,7 +7142,7 @@
       "prancha": "E12"
     },
     "E12:S03-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -7160,7 +7160,7 @@
       "prancha": "E12"
     },
     "E12:S04-altura": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-SAL"
@@ -7242,6 +7242,15 @@
     },
     "NC1:P06-vao-1": {
       "mm": 369.0,
+      "origem": "nominal",
+      "fontes": [
+        "CAD:P06"
+      ],
+      "movel": "P06",
+      "prancha": "NC1"
+    },
+    "NC1:P06-vao-2": {
+      "mm": 141.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P06"
@@ -7340,7 +7349,25 @@
       "prancha": "NC1"
     },
     "NC1:P16-vao-0": {
-      "mm": 204.0,
+      "mm": 31.0,
+      "origem": "nominal",
+      "fontes": [
+        "CAD:P16"
+      ],
+      "movel": "P16",
+      "prancha": "NC1"
+    },
+    "NC1:P16-vao-1": {
+      "mm": 89.0,
+      "origem": "nominal",
+      "fontes": [
+        "CAD:P16"
+      ],
+      "movel": "P16",
+      "prancha": "NC1"
+    },
+    "NC1:P16-vao-2": {
+      "mm": 54.0,
       "origem": "nominal",
       "fontes": [
         "CAD:P16"
@@ -7384,8 +7411,17 @@
       "movel": "P19",
       "prancha": "NC1"
     },
+    "NC1:P20-vao-0": {
+      "mm": 300.0,
+      "origem": "nominal",
+      "fontes": [
+        "CAD:P20"
+      ],
+      "movel": "P20",
+      "prancha": "NC1"
+    },
     "DT1:PD": {
-      "mm": 2600.0,
+      "mm": 2550.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA"
@@ -7394,7 +7430,7 @@
       "prancha": "DT1"
     },
     "DT1:fechamento": {
-      "mm": 160.0,
+      "mm": 110.0,
       "origem": "nominal",
       "fontes": [
         "PD-QUA",

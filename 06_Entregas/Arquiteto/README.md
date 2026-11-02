@@ -4,7 +4,7 @@ Preparado em 01/11/2026; **não enviado**. Anteprojeto nominal, com levantamento
 
 | Abrir | Conteúdo e limite |
 |---|---|
-| [Caderno do arquiteto](Caderno_arquiteto.pdf) | Revisão, layout R03/cena R54, comparação de níveis, materiais, 13 questões de arquitetura, 10 interfaces, roteiro de campo e 20 pranchas A3 originais R02/R54. |
+| [Caderno do arquiteto](Caderno_arquiteto.pdf) | Revisão, layout R03/cena R55, comparação de níveis, materiais, 13 questões de arquitetura, 10 interfaces, roteiro de campo e 20 pranchas A3 originais R02/R55. |
 | [Manifesto](Manifesto.csv) | Caminhos, bytes, SHA256 e limites dos 17 arquivos de conteúdo incluídos no ZIP. |
 | [CAD nativo](../../02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) | R55 vigente; o ZIP inclui os mesmos bytes. Não convertido ou alterado. |
 | [Pontos R01](../../03_Ambientes/Planta_pontos/README.md) | 53 funções/E06 adiada; SVG e fontes incluídos. |
@@ -13,7 +13,7 @@ Preparado em 01/11/2026; **não enviado**. Anteprojeto nominal, com levantamento
 
 ZIP local fora do Git: ../../../outputs/Arquiteto/Guedala_Park_Arquiteto.zip. Extrair inteiro e ler LEIA_PRIMEIRO.txt; inclui 19 arquivos, sendo 17 conteúdos, manifesto e instruções. Os documentos-fonte mantêm referências ao repositório completo; o recorte não inclui todo estudo citado.
 
-O FCStd é R55, mas as pranchas anexas mantêm a referência R54. A composição não reexporta paredes, vãos, pisos ou esquadrias nem altera escala: anexos A3 a 100%, barra de 50 mm. O quadro de níveis é comparativo, não corte construtivo. Não representa pacote executivo compatibilizado. IFC/DWG/DXF/STEP dependem de formato/finalidade definidos com o destinatário; não foram gerados.
+O FCStd é R55, mas as pranchas anexas mantêm a referência R55. A composição usa paredes, vãos e pisos reexportados da R55 nem altera escala: anexos A3 a 100%, barra de 50 mm. O quadro de níveis é comparativo, não corte construtivo. Não representa pacote executivo compatibilizado. IFC/DWG/DXF/STEP dependem de formato/finalidade definidos com o destinatário; não foram gerados.
 
 ## Regenerar
 

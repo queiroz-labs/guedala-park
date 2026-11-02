@@ -24,8 +24,8 @@ Fontes oficiais: [PE12G](https://loja.electrolux.com.br/pe12g-pe12g-purif-agua-p
 | Item | Situação e uso |
 |---|---|
 | R55 vigente | Portas/alturas incorporadas: Elias,01/11/2026, “Sim, incorporar o candidato e atualizar a base”. Histórico de limpeza/nível no git. |
-| Pranchas A3 R02 | [Caderno](../06_Entregas/Caderno_pranchas/README.md): desenhos ainda referenciam R54. Metadados de Geometria.json/regras.json apontam R55, mas envelopes foram mantidos da exportação anterior. Não representam reexportação arquitetônica do R55. |
-| Planta mobiliada R03 | [Capturas da R54](../03_Ambientes/Planta_mobiliada/README.md); preservar identificação até produzir vistas novas. |
+| Pranchas A3 R02 | [Caderno R55](../06_Entregas/Caderno_pranchas/README.md): arquitetura e aparelhos reexportados; nominais2550/2300mm, sem alterar CAD. |
+| Planta mobiliada R03 | [Capturas R55](../03_Ambientes/Planta_mobiliada/README.md), oito vistas com SHA. |
 | Verde na janela do box | Incorporado: `RevestJanelaBoxR55`; parede do chuveiro preservada, outra interna clara. |
 | Campo e executivo | Sem medida real; revisão do arquiteto, levantamento e detalhamento continuam pendentes. |
 
@@ -72,7 +72,7 @@ Janelas brancas com vidro/peitoril. Quarto: persiana integrada, sem cortina exte
 Soleiras Z−50..0: quarto/escritório + piso final repartem `Vinilico_continuo` sem perda/sobreposição; banheiro reutilizado. Entrada +0,075 m² nominal; material/implantação e divergência 750/850 mm pendentes. Pisos/rodapés preservados. Suportes/corte intermediário ocultos e resultados com Olmo eliminam a sobreposição cinza ao navegar.
 
 
-**Verde na janela (pedido de Elias, 30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com aprovação PENDENTE; R54/base intactas. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
+**Histórico do estudo verde, incorporado conforme o topo deste README (pedido de Elias,30/10/2026):** [candidato externo e limites](Verde_box_candidato.md), com situação histórica PENDENTE daquela etapa; incorporação vigente registrada no topo. Macro GUI `ferramentas/estudos/aplicar_verde_janela_box.FCMacro`; cópia em `../outputs/R55_candidato/`, sem FCStd no git. Assinaturas e verificação completa separadas do relatório do vigente.
 
 ## Quadro de áreas anterior às novas portas, materiais e câmeras
 

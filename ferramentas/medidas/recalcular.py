@@ -90,7 +90,13 @@ def base(root=ROOT):
         raise ValueError('Exportação CAD desatualizada')
     objects = {o['id']: o for o in geo['objects']}
     for name, target in doc['alvos'].items():
-        actual = geo['modules'][name] if target['tipo'] == 'modulo' else objects[name]
+        actual = geo.get('parametric_modules',{}).get(name,geo['modules'].get(name)) if target['tipo'] == 'modulo' else objects[name]
+        if name in geo.get('parametric_modules',{}):
+            full=geo['modules'][name]['box']; ref=actual['box']
+            if any(full[i]>ref[i] or full[i+3]<ref[i+3] for i in range(3)):
+                raise ValueError('Envelope completo não contém a referência: '+name)
+            if not all(n in objects for n in actual['additional_components']):
+                raise ValueError('Componentes da conciliação ausentes: '+name)
         if actual['box'] != target['box']:
             raise ValueError('Envelope não reproduz a exportação CAD: ' + name)
     return doc

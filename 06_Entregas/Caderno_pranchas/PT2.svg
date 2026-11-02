@@ -46,7 +46,7 @@
 <text x="15" y="103" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">B11 / L</text>
 <text x="48" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3950 N</text>
 <text x="78" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4500 N</text>
-<text x="108" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2500 N</text>
+<text x="108" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2300 N</text>
 <text x="145" y="103" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Teto 3000 K: Galaxy Firefly 9605 /25 W /IP44</text>
 <text x="15" y="110" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">S01 / T</text>
 <text x="48" y="110" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">5050 N</text>
@@ -61,12 +61,12 @@
 <text x="15" y="124" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">S03 / L</text>
 <text x="48" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6170 N</text>
 <text x="78" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3750 N</text>
-<text x="108" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="124" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Geral smart: Jurerê +2 WiZ +WiZmote, candidata</text>
 <text x="15" y="131" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">S04 / L</text>
 <text x="48" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">6600 N</text>
 <text x="78" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">4550 N</text>
-<text x="108" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="131" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Jabuticaba triplo +3Brilia 314450 +D1/RM433</text>
 <text x="15" y="138" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">E01 / T</text>
 <text x="48" y="138" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3000 N</text>
@@ -86,7 +86,7 @@
 <text x="15" y="159" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">E04 / L</text>
 <text x="48" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">3700 N</text>
 <text x="78" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1500 N</text>
-<text x="108" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="159" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Geral smart: Jurerê +2 WiZ +WiZmote, candidata</text>
 <text x="15" y="166" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">Q01 / A</text>
 <text x="48" y="166" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">50 N</text>
@@ -111,7 +111,7 @@
 <text x="15" y="194" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">Q05 / L</text>
 <text x="48" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1220 N</text>
 <text x="78" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2480 N</text>
-<text x="108" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
+<text x="108" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
 <text x="145" y="194" font-family="Arial, sans-serif" font-size="2.5" fill="#263238">Geral smart Elgin 48D18WSRWIFI: brilho, Alexa/celular</text>
 <text x="15" y="201" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">Q06 / A</text>
 <text x="48" y="201" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">PENDENTE</text>
@@ -147,5 +147,5 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | PT2 | 20 folhas | Sem escala</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">66 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 0d9e16fc47ff93ca5122d72f...</text>
 </svg>

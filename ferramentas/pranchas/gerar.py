@@ -39,13 +39,13 @@ def valor(f, key, medida, movel='', mostrar=True):
     return f'{medida.mm:g} '+('M' if medida.origem == 'medido' else 'N')
 
 
-def cota(f, key, medida, x, y, xx, yy, movel=''):
+def cota(f, key, medida, x, y, xx, yy, movel='', deslocamento=(1,-1)):
     txt = valor(f, key, medida, movel)
     color = MEDIDO if medida.origem == 'medido' else NOMINAL
     f.linha(x,y,xx,yy,color, .18, medida.origem != 'medido')
     for a,b in ((x,y),(xx,yy)):
         f.linha(a-1,b+1,a+1,b-1,color)
-    f.texto((x+xx)/2+1,(y+yy)/2-1,txt,2.5,color)
+    f.texto((x+xx)/2+deslocamento[0],(y+yy)/2+deslocamento[1],txt,2.5,color)
 
 
 def chamada(f, x, y, text, occupied, color='#263238'):
@@ -121,11 +121,17 @@ class Projeto:
             f.avisos.append('Vãos: coordenadas nominais lidas do CAD; referências históricas PR ainda por conciliar, sem alterar regras dimensionais.')
         def rect(b, color, fill=None):
             f.caixa(ox+b[0]/50,oy+b[1]/50,b[2]/50,b[3]/50,color,fill)
-        for record in self.data['floors']:
-            ms=self.refs(record); b=[m.mm for m in ms]
-            if None in b:
-                f.avisos.append('Piso incompleto: '+record['room']);continue
-            rect(b,'#d9dfe0','#f5f6f3')
+        if self.geo.get('architecture',{}).get('floors') and not self.recalculo:
+            mirror=self.m(self.data['mirror']).mm
+            for wire in self.geo['architecture']['floors']:
+                for a,b in zip(wire,wire[1:]):
+                    f.linha(ox+(mirror-a[0])/50,oy+a[1]/50,ox+(mirror-b[0])/50,oy+b[1]/50,'#d9dfe0',.2)
+        else:
+            for record in self.data['floors']:
+                ms=self.refs(record); b=[m.mm for m in ms]
+                if None in b:
+                    f.avisos.append('Piso incompleto: '+record['room']);continue
+                rect(b,'#d9dfe0','#f5f6f3')
         if self.geo.get('architecture') and not self.recalculo:
             mirror = self.m(self.data['mirror']).mm
             for wire in self.geo['architecture']['wires']:
@@ -171,7 +177,7 @@ class Projeto:
                 if room in seen:continue
                 seen.add(room);ms=self.refs(record);x,y,w,h=[m.mm for m in ms]
                 cota(f,room+'-largura',ms[2],ox+x/50,oy+(y+h/2)/50,ox+(x+w)/50,oy+(y+h/2)/50,room)
-                cota(f,room+'-profundidade',ms[3],ox+(x+w/2)/50,oy+y/50,ox+(x+w/2)/50,oy+(y+h)/50,room)
+                cota(f,room+'-profundidade',ms[3],ox+(x+w/2)/50,oy+y/50,ox+(x+w/2)/50,oy+(y+h)/50,room,(-9,3))
             f.texto(210,43,'ABERTURAS - dimensões em mm',3.5)
             for i,r in enumerate(self.data['openings']):
                 ms=self.refs(r); y=54+i*13
@@ -399,7 +405,9 @@ def gerar(cenario=None, geometria=None):
     pages.append(p.nichos())
     pages.append(p.detalhe())
     cover=Folha('00','Índice e critérios de leitura',None)
-    cover.texto(20,43,'CADERNO A3  |  R02',7)
+    cover.texto(20,43,'CADERNO A3  |  R02 / CAD R55',7)
+    cover.texto(240,145,'P07/P16/P20: caixa e envelope completo distintos.',2.6)
+    cover.texto(240,152,'Pranchas mostram conjunto; regras preservam a caixa.',2.6)
     for i,f in enumerate(pages):cover.texto(20,55+i*7,f.codigo+'   '+f.titulo,3.2)
     for i,line in enumerate(['Plantas 1:50; elevações e detalhe 1:25.',
                              'Imprimir sem ajustar à página; conferir barra de 50 mm.',
@@ -407,7 +415,7 @@ def gerar(cenario=None, geometria=None):
                              'Fontes: CSV de medidas + Cotas.json + exportação CAD.',
                              'Campo medido vence nominal. Branco = pendência.',
                              'Ajustes ao teto são estudos separados da CAD.',
-                             'R00 preservado; esta revisão não foi publicada.',
+                             'Geometria R55; cotas nominais, levantamento pendente.',
                              'Ver Impacto.json: alterações, fontes e conflitos.']):cover.texto(240,60+i*10,line,3)
     pages.insert(0,cover)
     if p.recalculo:

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
 <rect width="420" height="297" fill="white"/>
 <line x1="25" y1="180" x2="95.2" y2="180" stroke="#263238" stroke-width="0.5"/>
-<line x1="25" y1="76.0" x2="95.2" y2="76.0" stroke="#94621c" stroke-width="0.4"/>
-<line x1="17" y1="180" x2="17" y2="76.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
+<line x1="25" y1="78.0" x2="95.2" y2="78.0" stroke="#94621c" stroke-width="0.4"/>
+<line x1="17" y1="180" x2="17" y2="78.0" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="16" y1="181" x2="18" y2="179" stroke="#94621c" stroke-width="0.2"/>
-<line x1="16" y1="77.0" x2="18" y2="75.0" stroke="#94621c" stroke-width="0.2"/>
-<text x="18.0" y="127.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2600 N</text>
-<text x="25" y="71.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
+<line x1="16" y1="79.0" x2="18" y2="77.0" stroke="#94621c" stroke-width="0.2"/>
+<text x="18.0" y="128.0" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2550 N</text>
+<text x="25" y="73.0" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">TETO ACABADO</text>
 <text x="213" y="40" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">MÓDULO / L / BASE / TOPO CAD / FOLGA TETO</text>
 <rect x="32.0" y="143.2" width="23.6" height="36.8" stroke="#405863" fill="none" stroke-width="0.35"/>
 <rect x="32.0" y="144.0" width="0.72" height="32.08" stroke="#a2aaac" fill="none" stroke-width="0.1"/>
@@ -46,7 +46,7 @@
 <text x="247" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">590 N</text>
 <text x="282" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">0 N</text>
 <text x="321" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">920 N</text>
-<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1680 N</text>
+<text x="365" y="48" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1630 N</text>
 <line x1="32.0" y1="188" x2="55.6" y2="188" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="31.0" y1="189" x2="33.0" y2="187" stroke="#94621c" stroke-width="0.2"/>
 <line x1="54.6" y1="189" x2="56.6" y2="187" stroke="#94621c" stroke-width="0.2"/>
@@ -88,7 +88,7 @@
 <text x="247" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">835 N</text>
 <text x="282" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1650 N</text>
 <text x="321" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2230 N</text>
-<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">370 N</text>
+<text x="365" y="53" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">320 N</text>
 <line x1="50.8" y1="195" x2="84.2" y2="195" stroke="#94621c" stroke-width="0.18" stroke-dasharray="1.5 1"/>
 <line x1="49.8" y1="196" x2="51.8" y2="194" stroke="#94621c" stroke-width="0.2"/>
 <line x1="83.2" y1="196" x2="85.2" y2="194" stroke="#94621c" stroke-width="0.2"/>
@@ -101,25 +101,25 @@
 <text x="247" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">600 N</text>
 <text x="282" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">0 N</text>
 <text x="321" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">850 N</text>
-<text x="365" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1750 N</text>
+<text x="365" y="58" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1700 N</text>
 <rect x="32.0" y="143.2" width="53.2" height="0.8" stroke="#405863" fill="none" stroke-width="0.35"/>
 <text x="213" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A2</text>
 <text x="247" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1330 N</text>
 <text x="282" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">900 N</text>
 <text x="321" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">920 N</text>
-<text x="365" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1680 N</text>
+<text x="365" y="63" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1630 N</text>
 <rect x="34.8" y="96.0" width="14.0" height="21.2" stroke="#405863" fill="none" stroke-width="0.35"/>
 <text x="35.8" y="114.2" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">A3</text>
 <text x="213" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">A3</text>
 <text x="247" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">350 N</text>
 <text x="282" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">1570 N</text>
 <text x="321" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">2100 N</text>
-<text x="365" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">500 N</text>
+<text x="365" y="68" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">450 N</text>
 <text x="25" y="217" font-family="Arial, sans-serif" font-size="3" fill="#263238">Traço azul: topo paramétrico; caixas cinza: CAD fixa.</text>
 <text x="25" y="223" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajuste dimensional não define corte, fixação ou montagem.</text>
-<text x="213" y="158.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A1: LG VC4 CV5012PC4 Inox Look</text>
-<text x="213" y="162.5" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A2: Bancada lavanderia · tanque a recortar</text>
-<text x="213" y="167.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A3: Rinnai E21 GN REU-E211 FEH</text>
+<text x="213" y="158.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A1: Lava e seca LG VC4 — aparencia e porta</text>
+<text x="213" y="162.5" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A2: Lavanderia_Bancada_lavanderia_tanque_a_recortar_357</text>
+<text x="213" y="167.0" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">A3: Lavanderia_Rinnai_E21_GN_REU_E211_FEH_155</text>
 <text x="213" y="185" font-family="Arial, sans-serif" font-size="2.7" fill="#263238">PONTOS DO AMBIENTE: altura / ver PT1-PT2</text>
 <text x="213" y="193" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">L01 1100 N</text>
 <rect x="69.0" y="135.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
@@ -161,10 +161,10 @@
 <rect x="51.0" y="139.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
 <line x1="52.0" y1="140.0" x2="56.0" y2="136.0" stroke="#94621c" stroke-width="0.1"/>
 <text x="56.0" y="137.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">L10</text>
-<text x="275" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">L11 2600 N</text>
-<rect x="57.0" y="75.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
-<line x1="58.0" y1="76.0" x2="62.0" y2="72.0" stroke="#94621c" stroke-width="0.1"/>
-<text x="62.0" y="73.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">L11</text>
+<text x="275" y="208" font-family="Arial, sans-serif" font-size="2.5" fill="#94621c">L11 2550 N</text>
+<rect x="57.0" y="77.0" width="2" height="2" stroke="#94621c" fill="#ffffff" stroke-width="0.2"/>
+<line x1="58.0" y1="78.0" x2="62.0" y2="74.0" stroke="#94621c" stroke-width="0.1"/>
+<text x="62.0" y="75.0" font-family="Arial, sans-serif" font-size="2.4" fill="#94621c">L11</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
 <text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">E03 | Lavanderia - tanque, cesto e aéreo</text>
 <text x="15" y="28" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">GUEDALA PARK  /  CADERNO R02  /  GEOMETRIA E COTAS</text>
@@ -174,7 +174,7 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | E03 | 20 folhas | A3 / 1:25</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">47 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 0d9e16fc47ff93ca5122d72f...</text>
 <line x1="335" y1="282" x2="385" y2="282" stroke="#263238" stroke-width="0.5"/>
 <text x="335" y="287" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">50 mm no papel = 1250 mm reais</text>
 </svg>

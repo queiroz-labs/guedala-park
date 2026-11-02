@@ -1,321 +1,13 @@
 {
-  "schema": 1,
+  "schema": 2,
   "units": "mm",
   "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
   "cad_sha256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
-  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: Peca136, Peca137. Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
+  "method": "Seleção ativa do visualizador relida no candidato GUI; paredes em corte Z1000 mm",
   "objects": [
     {
-      "id": "Peca",
-      "label": "floor",
-      "room": "quarto",
-      "module": null,
-      "box": [
-        4950.0,
-        1000.0,
-        -50.0,
-        7400.0,
-        3950.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca001",
-      "label": "floor001",
-      "room": "quarto",
-      "module": null,
-      "box": [
-        3750.0,
-        3050.0,
-        -50.0,
-        4950.0,
-        3950.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca002",
-      "label": "floor002",
-      "room": "escritorio",
-      "module": null,
-      "box": [
-        2550.0,
-        0.0,
-        -50.0,
-        4850.0,
-        2950.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca003",
-      "label": "floor003",
-      "room": "sala",
-      "module": null,
-      "box": [
-        0.0,
-        1850.0,
-        -50.0,
-        2450.0,
-        5650.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca004",
-      "label": "floor004",
-      "room": "sala",
-      "module": null,
-      "box": [
-        2450.0,
-        4050.0,
-        -50.0,
-        2750.0,
-        5450.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca005",
-      "label": "floor005",
-      "room": "circulacao",
-      "module": null,
-      "box": [
-        2450.0,
-        3050.0,
-        -50.0,
-        3750.0,
-        3950.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca006",
-      "label": "floor006",
-      "room": "cozinha",
-      "module": null,
-      "box": [
-        0.0,
-        5450.0,
-        -50.0,
-        3520.0,
-        7000.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca007",
-      "label": "floor007",
-      "room": "lavanderia",
-      "module": null,
-      "box": [
-        3560.0,
-        5390.0,
-        -50.0,
-        4850.0,
-        7000.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca008",
-      "label": "floor008",
-      "room": "banho",
-      "module": null,
-      "box": [
-        2760.0,
-        4050.0,
-        -50.0,
-        4850.0,
-        5290.0,
-        0.0
-      ]
-    },
-    {
-      "id": "Peca063",
-      "label": "glass",
-      "room": "quarto",
-      "module": null,
-      "box": [
-        5600.0,
-        900.0,
-        950.0,
-        6800.0,
-        1000.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca064",
-      "label": "box",
-      "room": "quarto",
-      "module": null,
-      "box": [
-        5600.0,
-        900.0,
-        920.0,
-        6800.0,
-        1000.0,
-        950.0
-      ]
-    },
-    {
-      "id": "Peca065",
-      "label": "glass001",
-      "room": "escritorio",
-      "module": null,
-      "box": [
-        3100.0,
-        -100.0,
-        950.0,
-        4250.0,
-        0.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca066",
-      "label": "box001",
-      "room": "escritorio",
-      "module": null,
-      "box": [
-        3100.0,
-        -100.0,
-        920.0,
-        4250.0,
-        0.0,
-        950.0
-      ]
-    },
-    {
-      "id": "Peca067",
-      "label": "glass002",
-      "room": "sala",
-      "module": null,
-      "box": [
-        680.0,
-        1750.0,
-        950.0,
-        2070.0,
-        1850.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca068",
-      "label": "box002",
-      "room": "sala",
-      "module": null,
-      "box": [
-        680.0,
-        1750.0,
-        920.0,
-        2070.0,
-        1850.0,
-        950.0
-      ]
-    },
-    {
-      "id": "Peca069",
-      "label": "glass003",
-      "room": "lavanderia",
-      "module": null,
-      "box": [
-        4850.0,
-        5690.0,
-        950.0,
-        4950.0,
-        6750.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca070",
-      "label": "box003",
-      "room": "lavanderia",
-      "module": null,
-      "box": [
-        4850.0,
-        5690.0,
-        920.0,
-        4950.0,
-        6750.0,
-        950.0
-      ]
-    },
-    {
-      "id": "Peca071",
-      "label": "glass004",
-      "room": "banho",
-      "module": null,
-      "box": [
-        4850.0,
-        4350.0,
-        950.0,
-        4950.0,
-        4750.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca072",
-      "label": "box004",
-      "room": "banho",
-      "module": null,
-      "box": [
-        4850.0,
-        4350.0,
-        920.0,
-        4950.0,
-        4750.0,
-        950.0
-      ]
-    },
-    {
-      "id": "Peca073",
-      "label": "door",
-      "room": "escritorio",
-      "module": null,
-      "box": [
-        2640.0,
-        2200.0,
-        0.0,
-        2660.0,
-        2950.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca074",
-      "label": "door001",
-      "room": "quarto",
-      "module": null,
-      "box": [
-        3750.0,
-        3880.0,
-        0.0,
-        4500.0,
-        3900.0,
-        2050.0
-      ]
-    },
-    {
-      "id": "Peca076",
-      "label": "door003",
-      "room": "cozinha",
-      "module": null,
-      "box": [
-        0.0,
-        6980.0,
-        0.0,
-        850.0,
-        7000.0,
-        2050.0
-      ]
-    },
-    {
       "id": "Peca077",
-      "label": "Sofá Bonnie SoftGel · Cama inBox",
+      "label": "Sala_Sofa_Bonnie_Componente_077",
       "room": "sala",
       "module": null,
       "box": [
@@ -329,7 +21,7 @@
     },
     {
       "id": "Peca078",
-      "label": "Sofá Bonnie SoftGel · Cama inBox001",
+      "label": "Sala_Sofa_Bonnie_Componente_078",
       "room": "sala",
       "module": null,
       "box": [
@@ -343,7 +35,7 @@
     },
     {
       "id": "Peca079",
-      "label": "Sofá Bonnie SoftGel · Cama inBox002",
+      "label": "Sala_Sofa_Bonnie_Componente_079",
       "room": "sala",
       "module": null,
       "box": [
@@ -357,7 +49,7 @@
     },
     {
       "id": "Peca080",
-      "label": "Sofá Bonnie SoftGel · Cama inBox003",
+      "label": "Sala_Sofa_Bonnie_Componente_080",
       "room": "sala",
       "module": null,
       "box": [
@@ -371,7 +63,7 @@
     },
     {
       "id": "Peca081",
-      "label": "Sofá Bonnie SoftGel · Cama inBox004",
+      "label": "Sala_Sofa_Bonnie_Componente_081",
       "room": "sala",
       "module": null,
       "box": [
@@ -385,7 +77,7 @@
     },
     {
       "id": "Peca082",
-      "label": "Sofá Bonnie SoftGel · Cama inBox005",
+      "label": "Sala_Sofa_Bonnie_Componente_082",
       "room": "sala",
       "module": null,
       "box": [
@@ -399,7 +91,7 @@
     },
     {
       "id": "Peca083",
-      "label": "Sofá Bonnie SoftGel · Cama inBox006",
+      "label": "Sala_Sofa_Bonnie_Componente_083",
       "room": "sala",
       "module": null,
       "box": [
@@ -413,7 +105,7 @@
     },
     {
       "id": "Peca084",
-      "label": "Painel liso da TV",
+      "label": "Sala_Painel_liso_da_TV_084",
       "room": "sala",
       "module": null,
       "box": [
@@ -427,7 +119,7 @@
     },
     {
       "id": "Peca085",
-      "label": "Uma prateleira acima e outra abaixo da TV",
+      "label": "Sala_Uma_prateleira_acima_e_outra_abaixo_da_TV_085",
       "room": "sala",
       "module": null,
       "box": [
@@ -441,7 +133,7 @@
     },
     {
       "id": "Peca086",
-      "label": "Uma prateleira acima e outra abaixo da TV001",
+      "label": "Sala_Uma_prateleira_acima_e_outra_abaixo_da_TV001_086",
       "room": "sala",
       "module": null,
       "box": [
@@ -455,7 +147,7 @@
     },
     {
       "id": "Peca087",
-      "label": "Compartimento da régua",
+      "label": "Sala_Compartimento_da_regua_087",
       "room": "sala",
       "module": null,
       "box": [
@@ -469,7 +161,7 @@
     },
     {
       "id": "Peca088",
-      "label": "TV 50″ · preferência Ambilight",
+      "label": "Sala_TV_50_preferencia_Ambilight_088",
       "room": "sala",
       "module": null,
       "box": [
@@ -483,7 +175,7 @@
     },
     {
       "id": "Peca089",
-      "label": "Soundbar futura",
+      "label": "Sala_Soundbar_futura_089",
       "room": "sala",
       "module": null,
       "box": [
@@ -497,7 +189,7 @@
     },
     {
       "id": "Peca090",
-      "label": "vase",
+      "label": "Sala_vase_090",
       "room": "sala",
       "module": null,
       "box": [
@@ -511,7 +203,7 @@
     },
     {
       "id": "Peca102",
-      "label": "Queen futura · envelope de estudo",
+      "label": "Quarto_Queen_futura_envelope_de_estudo_102",
       "room": "quarto",
       "module": null,
       "box": [
@@ -525,7 +217,7 @@
     },
     {
       "id": "Peca103",
-      "label": "Queen futura · envelope de estudo001",
+      "label": "Quarto_Queen_futura_envelope_de_estudo001_103",
       "room": "quarto",
       "module": null,
       "box": [
@@ -539,7 +231,7 @@
     },
     {
       "id": "Peca104",
-      "label": "Queen futura · envelope de estudo002",
+      "label": "Quarto_Queen_futura_envelope_de_estudo002_104",
       "room": "quarto",
       "module": null,
       "box": [
@@ -553,7 +245,7 @@
     },
     {
       "id": "Peca105",
-      "label": "Queen futura · envelope de estudo003",
+      "label": "Quarto_Queen_futura_envelope_de_estudo003_105",
       "room": "quarto",
       "module": null,
       "box": [
@@ -567,7 +259,7 @@
     },
     {
       "id": "Peca106",
-      "label": "Queen futura · envelope de estudo004",
+      "label": "Quarto_Queen_futura_envelope_de_estudo004_106",
       "room": "quarto",
       "module": null,
       "box": [
@@ -581,7 +273,7 @@
     },
     {
       "id": "Peca110",
-      "label": "Bancada de trabalho",
+      "label": "Escritorio_Bancada_de_trabalho_110",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -595,7 +287,7 @@
     },
     {
       "id": "Peca111",
-      "label": "Bancada de trabalho001",
+      "label": "Escritorio_Bancada_de_trabalho001_111",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -609,7 +301,7 @@
     },
     {
       "id": "Peca112",
-      "label": "Bancada de trabalho002",
+      "label": "Escritorio_Bancada_de_trabalho002_112",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -623,7 +315,7 @@
     },
     {
       "id": "Peca113",
-      "label": "Notebook + dois monitores + CH360",
+      "label": "Escritorio_Notebook_dois_monitores_CH360_113",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -637,7 +329,7 @@
     },
     {
       "id": "Peca114",
-      "label": "Notebook + dois monitores + CH361",
+      "label": "Escritorio_Notebook_dois_monitores_CH361_114",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -651,7 +343,7 @@
     },
     {
       "id": "Peca115",
-      "label": "Notebook + dois monitores + CH362",
+      "label": "Escritorio_Notebook_dois_monitores_CH362_115",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -665,7 +357,7 @@
     },
     {
       "id": "Peca116",
-      "label": "Notebook + dois monitores + CH363",
+      "label": "Escritorio_Notebook_dois_monitores_CH363_116",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -679,7 +371,7 @@
     },
     {
       "id": "Peca117",
-      "label": "Notebook + dois monitores + CH364",
+      "label": "Escritorio_Notebook_dois_monitores_CH364_117",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -693,7 +385,7 @@
     },
     {
       "id": "Peca118",
-      "label": "Notebook + dois monitores + CH365",
+      "label": "Escritorio_Notebook_dois_monitores_CH365_118",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -707,7 +399,7 @@
     },
     {
       "id": "Peca119",
-      "label": "Notebook + dois monitores + CH366",
+      "label": "Escritorio_Notebook_dois_monitores_CH366_119",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -721,7 +413,7 @@
     },
     {
       "id": "Peca120",
-      "label": "Notebook + dois monitores + CH367",
+      "label": "Escritorio_Notebook_dois_monitores_CH367_120",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -735,7 +427,7 @@
     },
     {
       "id": "Peca121",
-      "label": "Notebook + dois monitores + CH368",
+      "label": "Escritorio_Notebook_dois_monitores_CH368_121",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -749,7 +441,7 @@
     },
     {
       "id": "Peca122",
-      "label": "Sofá-cama Daiane cinza-claro",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro_122",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -763,7 +455,7 @@
     },
     {
       "id": "Peca123",
-      "label": "Sofá-cama Daiane cinza-claro001",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro001_123",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -777,7 +469,7 @@
     },
     {
       "id": "Peca124",
-      "label": "Sofá-cama Daiane cinza-claro002",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro002_124",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -791,7 +483,7 @@
     },
     {
       "id": "Peca125",
-      "label": "Sofá-cama Daiane cinza-claro003",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro003_125",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -805,7 +497,7 @@
     },
     {
       "id": "Peca126",
-      "label": "Sofá-cama Daiane cinza-claro004",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro004_126",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -819,7 +511,7 @@
     },
     {
       "id": "Peca127",
-      "label": "Sofá-cama Daiane cinza-claro005",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro005_127",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -833,7 +525,7 @@
     },
     {
       "id": "Peca128",
-      "label": "Sofá-cama Daiane cinza-claro006",
+      "label": "Escritorio_Sofa_cama_Daiane_cinza_claro006_128",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -847,7 +539,7 @@
     },
     {
       "id": "Peca130",
-      "label": "Prateleira alta dos consoles",
+      "label": "Escritorio_Prateleira_alta_dos_consoles_130",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -861,7 +553,7 @@
     },
     {
       "id": "Peca131",
-      "label": "Samsung 43″ existente",
+      "label": "Escritorio_Samsung_43_existente_131",
       "room": "escritorio",
       "module": null,
       "box": [
@@ -875,7 +567,7 @@
     },
     {
       "id": "Peca132",
-      "label": "PS5 Slim Digital · um aparelho",
+      "label": "Sala_PS5_Slim_Digital_um_aparelho_132",
       "room": "sala",
       "module": null,
       "box": [
@@ -889,7 +581,7 @@
     },
     {
       "id": "Peca134",
-      "label": "Cooktop Electrolux KE4GC",
+      "label": "Cozinha_Cooktop_Electrolux_KE4GC_134",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -903,7 +595,7 @@
     },
     {
       "id": "Peca135",
-      "label": "Cuba Dora + torneira Apurema",
+      "label": "Cozinha_Cuba_Dora_torneira_Apurema_135",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -917,7 +609,7 @@
     },
     {
       "id": "Peca136",
-      "label": "Cuba Dora + torneira Apurema001",
+      "label": "Cozinha_Cuba_Dora_torneira_Apurema001_136",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -931,7 +623,7 @@
     },
     {
       "id": "Peca137",
-      "label": "Cuba Dora + torneira Apurema002",
+      "label": "Cozinha_Cuba_Dora_torneira_Apurema002_137",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -944,22 +636,8 @@
       ]
     },
     {
-      "id": "Peca138",
-      "label": "Geladeira Electrolux IB6S Inox Look",
-      "room": "cozinha",
-      "module": null,
-      "box": [
-        950.0,
-        6152.5,
-        0.0,
-        1551.0,
-        6900.0,
-        1866.0
-      ]
-    },
-    {
       "id": "Peca139",
-      "label": "Depurador Suggar DE61IX",
+      "label": "Cozinha_Depurador_Suggar_DE61IX_139",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -972,22 +650,8 @@
       ]
     },
     {
-      "id": "Peca140",
-      "label": "Purificador Electrolux PE12G grafite",
-      "room": "cozinha",
-      "module": null,
-      "box": [
-        1720.0,
-        6460.0,
-        920.0,
-        1880.0,
-        6880.0,
-        1270.0
-      ]
-    },
-    {
       "id": "Peca141",
-      "label": "Pedra, pintura e pegas",
+      "label": "Cozinha_Pedra_pintura_e_pegas_141",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1001,7 +665,7 @@
     },
     {
       "id": "Peca142",
-      "label": "Plafon quadrado branco",
+      "label": "Cozinha_Plafon_quadrado_branco_142",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1015,7 +679,7 @@
     },
     {
       "id": "Peca143",
-      "label": "Plafon quadrado branco001",
+      "label": "Cozinha_Plafon_quadrado_branco001_143",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1029,7 +693,7 @@
     },
     {
       "id": "Peca144",
-      "label": "Lixeira comum Biovis Coleta 15 L",
+      "label": "Cozinha_Lixeira_comum_Biovis_Coleta_15_L_144",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1043,7 +707,7 @@
     },
     {
       "id": "Peca145",
-      "label": "Lixeira comum Biovis Coleta 15 L001",
+      "label": "Cozinha_Lixeira_comum_Biovis_Coleta_15_L001_145",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1057,7 +721,7 @@
     },
     {
       "id": "Peca146",
-      "label": "Lixeira comum Biovis Coleta 15 L002",
+      "label": "Cozinha_Lixeira_comum_Biovis_Coleta_15_L002_146",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1071,7 +735,7 @@
     },
     {
       "id": "Peca147",
-      "label": "Lixeira de recicláveis Tramontina Loop 20 L",
+      "label": "Lavanderia_Lixeira_de_reciclaveis_Tramontina_Loop_20_L_147",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1085,7 +749,7 @@
     },
     {
       "id": "Peca148",
-      "label": "Lixeira de recicláveis Tramontina Loop 20 L001",
+      "label": "Lavanderia_Lixeira_de_reciclaveis_Tramontina_Loop_20_L001_148",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1099,7 +763,7 @@
     },
     {
       "id": "Peca149",
-      "label": "Lixeira de recicláveis Tramontina Loop 20 L002",
+      "label": "Lavanderia_Lixeira_de_reciclaveis_Tramontina_Loop_20_L002_149",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1113,7 +777,7 @@
     },
     {
       "id": "Peca150",
-      "label": "Escorredor Tramontina Mini Plurale grafite",
+      "label": "Cozinha_Escorredor_Tramontina_Mini_Plurale_grafite_150",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1127,7 +791,7 @@
     },
     {
       "id": "Peca151",
-      "label": "Escorredor Tramontina Mini Plurale grafite001",
+      "label": "Cozinha_Escorredor_Tramontina_Mini_Plurale_grafite001_151",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -1140,22 +804,8 @@
       ]
     },
     {
-      "id": "Peca152",
-      "label": "LG VC4 CV5012PC4 Inox Look",
-      "room": "lavanderia",
-      "module": null,
-      "box": [
-        3600.0,
-        6280.0,
-        0.0,
-        4200.0,
-        6900.0,
-        850.0
-      ]
-    },
-    {
       "id": "Peca153",
-      "label": "Continuidade de pedra e pintura",
+      "label": "Lavanderia_Continuidade_de_pedra_e_pintura_153",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1168,22 +818,8 @@
       ]
     },
     {
-      "id": "Peca154",
-      "label": "Philips Walita RI9252/91",
-      "room": "lavanderia",
-      "module": null,
-      "box": [
-        3646.0,
-        6510.0,
-        920.0,
-        3910.0,
-        6870.0,
-        1215.0
-      ]
-    },
-    {
       "id": "Peca155",
-      "label": "Rinnai E21 GN REU-E211 FEH",
+      "label": "Lavanderia_Rinnai_E21_GN_REU_E211_FEH_155",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1197,7 +833,7 @@
     },
     {
       "id": "Peca156",
-      "label": "Rinnai E21 GN REU-E211 FEH001",
+      "label": "Lavanderia_Rinnai_E21_GN_REU_E211_FEH001_156",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1211,7 +847,7 @@
     },
     {
       "id": "Peca157",
-      "label": "Varal vertical com chapa de ocultação",
+      "label": "Lavanderia_Varal_vertical_com_chapa_de_ocultacao_157",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -1225,7 +861,7 @@
     },
     {
       "id": "Peca158",
-      "label": "Box transparente + Addra Livo Black Matte",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte_158",
       "room": "banho",
       "module": null,
       "box": [
@@ -1239,7 +875,7 @@
     },
     {
       "id": "Peca159",
-      "label": "Enchimento técnico existente",
+      "label": "Banho_Enchimento_tecnico_existente_159",
       "room": "banho",
       "module": null,
       "box": [
@@ -1253,7 +889,7 @@
     },
     {
       "id": "Peca160",
-      "label": "Box transparente + Addra Livo Black Matte001",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte001_160",
       "room": "banho",
       "module": null,
       "box": [
@@ -1267,7 +903,7 @@
     },
     {
       "id": "Peca161",
-      "label": "Box transparente + Addra Livo Black Matte002",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte002_161",
       "room": "banho",
       "module": null,
       "box": [
@@ -1281,7 +917,7 @@
     },
     {
       "id": "Peca162",
-      "label": "Box transparente + Addra Livo Black Matte003",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte003_162",
       "room": "banho",
       "module": null,
       "box": [
@@ -1295,7 +931,7 @@
     },
     {
       "id": "Peca163",
-      "label": "Box transparente + Addra Livo Black Matte004",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte004_163",
       "room": "banho",
       "module": null,
       "box": [
@@ -1309,7 +945,7 @@
     },
     {
       "id": "Peca164",
-      "label": "Box transparente + Addra Livo Black Matte005",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte005_164",
       "room": "banho",
       "module": null,
       "box": [
@@ -1323,7 +959,7 @@
     },
     {
       "id": "Peca165",
-      "label": "Box transparente + Addra Livo Black Matte006",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte006_165",
       "room": "banho",
       "module": null,
       "box": [
@@ -1337,7 +973,7 @@
     },
     {
       "id": "Peca166",
-      "label": "Box transparente + Addra Livo Black Matte007",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte007_166",
       "room": "banho",
       "module": null,
       "box": [
@@ -1351,7 +987,7 @@
     },
     {
       "id": "Peca167",
-      "label": "Box transparente + Addra Livo Black Matte008",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte008_167",
       "room": "banho",
       "module": null,
       "box": [
@@ -1365,7 +1001,7 @@
     },
     {
       "id": "Peca168",
-      "label": "Box transparente + Addra Livo Black Matte009",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte009_168",
       "room": "banho",
       "module": null,
       "box": [
@@ -1379,7 +1015,7 @@
     },
     {
       "id": "Peca169",
-      "label": "Box transparente + Addra Livo Black Matte010",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte010_169",
       "room": "banho",
       "module": null,
       "box": [
@@ -1393,7 +1029,7 @@
     },
     {
       "id": "Peca170",
-      "label": "Box transparente + Addra Livo Black Matte011",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte011_170",
       "room": "banho",
       "module": null,
       "box": [
@@ -1407,7 +1043,7 @@
     },
     {
       "id": "Peca171",
-      "label": "Box transparente + Addra Livo Black Matte012",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte012_171",
       "room": "banho",
       "module": null,
       "box": [
@@ -1421,7 +1057,7 @@
     },
     {
       "id": "Peca172",
-      "label": "Box transparente + Addra Livo Black Matte013",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte013_172",
       "room": "banho",
       "module": null,
       "box": [
@@ -1435,7 +1071,7 @@
     },
     {
       "id": "Peca173",
-      "label": "Box transparente + Addra Livo Black Matte014",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte014_173",
       "room": "banho",
       "module": null,
       "box": [
@@ -1449,7 +1085,7 @@
     },
     {
       "id": "Peca174",
-      "label": "Box transparente + Addra Livo Black Matte015",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte015_174",
       "room": "banho",
       "module": null,
       "box": [
@@ -1463,7 +1099,7 @@
     },
     {
       "id": "Peca175",
-      "label": "Box transparente + Addra Livo Black Matte016",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte016_175",
       "room": "banho",
       "module": null,
       "box": [
@@ -1477,7 +1113,7 @@
     },
     {
       "id": "Peca176",
-      "label": "Box transparente + Addra Livo Black Matte017",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte017_176",
       "room": "banho",
       "module": null,
       "box": [
@@ -1491,7 +1127,7 @@
     },
     {
       "id": "Peca177",
-      "label": "Box transparente + Addra Livo Black Matte018",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte018_177",
       "room": "banho",
       "module": null,
       "box": [
@@ -1505,7 +1141,7 @@
     },
     {
       "id": "Peca178",
-      "label": "Box transparente + Addra Livo Black Matte019",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte019_178",
       "room": "banho",
       "module": null,
       "box": [
@@ -1519,7 +1155,7 @@
     },
     {
       "id": "Peca179",
-      "label": "Box transparente + Addra Livo Black Matte020",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte020_179",
       "room": "banho",
       "module": null,
       "box": [
@@ -1533,7 +1169,7 @@
     },
     {
       "id": "Peca180",
-      "label": "Box transparente + Addra Livo Black Matte021",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte021_180",
       "room": "banho",
       "module": null,
       "box": [
@@ -1547,7 +1183,7 @@
     },
     {
       "id": "Peca181",
-      "label": "Box transparente + Addra Livo Black Matte022",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte022_181",
       "room": "banho",
       "module": null,
       "box": [
@@ -1561,7 +1197,7 @@
     },
     {
       "id": "Peca182",
-      "label": "Box transparente + Addra Livo Black Matte023",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte023_182",
       "room": "banho",
       "module": null,
       "box": [
@@ -1575,7 +1211,7 @@
     },
     {
       "id": "Peca183",
-      "label": "Box transparente + Addra Livo Black Matte024",
+      "label": "Banho_Box_transparente_Addra_Livo_Black_Matte024_183",
       "room": "banho",
       "module": null,
       "box": [
@@ -1589,7 +1225,7 @@
     },
     {
       "id": "Peca184",
-      "label": "Prateleira do box em Branco Itaúnas",
+      "label": "Banho_Prateleira_do_box_em_Branco_Itaunas_184",
       "room": "banho",
       "module": null,
       "box": [
@@ -1603,7 +1239,7 @@
     },
     {
       "id": "Peca185",
-      "label": "Cuba Deca Slim branca L.13040.17",
+      "label": "Banho_Cuba_Deca_Slim_branca_L_13040_17_185",
       "room": "banho",
       "module": null,
       "box": [
@@ -1617,7 +1253,7 @@
     },
     {
       "id": "Peca186",
-      "label": "Addra Arion Black · bica alta",
+      "label": "Banho_Addra_Arion_Black_bica_alta_186",
       "room": "banho",
       "module": null,
       "box": [
@@ -1631,7 +1267,7 @@
     },
     {
       "id": "Peca187",
-      "label": "Addra Arion Black · bica alta001",
+      "label": "Banho_Addra_Arion_Black_bica_alta001_187",
       "room": "banho",
       "module": null,
       "box": [
@@ -1645,7 +1281,7 @@
     },
     {
       "id": "Peca188",
-      "label": "Luz frontal fixa inferior - proposta",
+      "label": "Banho_Luz_frontal_fixa_inferior_proposta_188",
       "room": "banho",
       "module": null,
       "box": [
@@ -1659,7 +1295,7 @@
     },
     {
       "id": "Peca189",
-      "label": "Luz frontal fixa superior - proposta",
+      "label": "Banho_Luz_frontal_fixa_superior_proposta_189",
       "room": "banho",
       "module": null,
       "box": [
@@ -1672,22 +1308,8 @@
       ]
     },
     {
-      "id": "Peca190",
-      "label": "Celite VIP branco · kit 1977230012300",
-      "room": "banho",
-      "module": null,
-      "box": [
-        3517.5,
-        4700.0,
-        0.0,
-        3892.5,
-        5290.0,
-        800.0
-      ]
-    },
-    {
       "id": "Peca191",
-      "label": "Ducha higiênica preta quente e fria",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria_191",
       "room": "banho",
       "module": null,
       "box": [
@@ -1701,7 +1323,7 @@
     },
     {
       "id": "Peca192",
-      "label": "Ducha higiênica preta quente e fria001",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria001_192",
       "room": "banho",
       "module": null,
       "box": [
@@ -1715,7 +1337,7 @@
     },
     {
       "id": "Peca193",
-      "label": "Ducha higiênica preta quente e fria002",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria002_193",
       "room": "banho",
       "module": null,
       "box": [
@@ -1729,7 +1351,7 @@
     },
     {
       "id": "Peca194",
-      "label": "Ducha higiênica preta quente e fria003",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria003_194",
       "room": "banho",
       "module": null,
       "box": [
@@ -1743,7 +1365,7 @@
     },
     {
       "id": "Peca195",
-      "label": "Ducha higiênica preta quente e fria004",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria004_195",
       "room": "banho",
       "module": null,
       "box": [
@@ -1757,7 +1379,7 @@
     },
     {
       "id": "Peca196",
-      "label": "Ducha higiênica preta quente e fria005",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria005_196",
       "room": "banho",
       "module": null,
       "box": [
@@ -1771,7 +1393,7 @@
     },
     {
       "id": "Peca197",
-      "label": "Ducha higiênica preta quente e fria006",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria006_197",
       "room": "banho",
       "module": null,
       "box": [
@@ -1785,7 +1407,7 @@
     },
     {
       "id": "Peca198",
-      "label": "Ducha higiênica preta quente e fria007",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria007_198",
       "room": "banho",
       "module": null,
       "box": [
@@ -1799,7 +1421,7 @@
     },
     {
       "id": "Peca199",
-      "label": "Ducha higiênica preta quente e fria008",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria008_199",
       "room": "banho",
       "module": null,
       "box": [
@@ -1813,7 +1435,7 @@
     },
     {
       "id": "Peca200",
-      "label": "Ducha higiênica preta quente e fria009",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria009_200",
       "room": "banho",
       "module": null,
       "box": [
@@ -1827,7 +1449,7 @@
     },
     {
       "id": "Peca201",
-      "label": "Ducha higiênica preta quente e fria010",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria010_201",
       "room": "banho",
       "module": null,
       "box": [
@@ -1841,7 +1463,7 @@
     },
     {
       "id": "Peca202",
-      "label": "Ducha higiênica preta quente e fria011",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria011_202",
       "room": "banho",
       "module": null,
       "box": [
@@ -1855,7 +1477,7 @@
     },
     {
       "id": "Peca203",
-      "label": "Ducha higiênica preta quente e fria012",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria012_203",
       "room": "banho",
       "module": null,
       "box": [
@@ -1869,7 +1491,7 @@
     },
     {
       "id": "Peca204",
-      "label": "Ducha higiênica preta quente e fria013",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria013_204",
       "room": "banho",
       "module": null,
       "box": [
@@ -1883,7 +1505,7 @@
     },
     {
       "id": "Peca205",
-      "label": "Ducha higiênica preta quente e fria014",
+      "label": "Banho_Ducha_higienica_preta_quente_e_fria014_205",
       "room": "banho",
       "module": null,
       "box": [
@@ -1897,7 +1519,7 @@
     },
     {
       "id": "Peca206",
-      "label": "Lateral direita016",
+      "label": "P01_Lateral_direita016_206",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1911,7 +1533,7 @@
     },
     {
       "id": "Peca207",
-      "label": "Lateral esquerda",
+      "label": "P01_Lateral_esquerda_207",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1925,7 +1547,7 @@
     },
     {
       "id": "Peca208",
-      "label": "Fundo",
+      "label": "P01_Fundo_208",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1939,7 +1561,7 @@
     },
     {
       "id": "Peca209",
-      "label": "Base · topo 80 mm",
+      "label": "P01_Base_topo_80_mm_209",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1953,7 +1575,7 @@
     },
     {
       "id": "Peca210",
-      "label": "Divisória",
+      "label": "P01_Divisoria_210",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1967,7 +1589,7 @@
     },
     {
       "id": "Peca211",
-      "label": "Sapateira · três níveis",
+      "label": "P01_Sapateira_tres_niveis_211",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1981,7 +1603,7 @@
     },
     {
       "id": "Peca212",
-      "label": "Sapateira · três níveis001",
+      "label": "P01_Sapateira_tres_niveis001_212",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -1995,7 +1617,7 @@
     },
     {
       "id": "Peca213",
-      "label": "Sapateira · três níveis002",
+      "label": "P01_Sapateira_tres_niveis002_213",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2009,7 +1631,7 @@
     },
     {
       "id": "Peca226",
-      "label": "Sapateira · três níveis003",
+      "label": "P01_Sapateira_tres_niveis003_226",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2023,7 +1645,7 @@
     },
     {
       "id": "Peca227",
-      "label": "Sapateira · três níveis004",
+      "label": "P01_Sapateira_tres_niveis004_227",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2037,7 +1659,7 @@
     },
     {
       "id": "Peca228",
-      "label": "Sapateira · três níveis005",
+      "label": "P01_Sapateira_tres_niveis005_228",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2051,7 +1673,7 @@
     },
     {
       "id": "Peca241",
-      "label": "Divisória001",
+      "label": "P01_Divisoria001_241",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2065,7 +1687,7 @@
     },
     {
       "id": "Peca242",
-      "label": "Divisória002",
+      "label": "P01_Divisoria002_242",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2079,7 +1701,7 @@
     },
     {
       "id": "Peca243",
-      "label": "Divisória003",
+      "label": "P01_Divisoria003_243",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2093,7 +1715,7 @@
     },
     {
       "id": "Peca244",
-      "label": "Divisória004",
+      "label": "P01_Divisoria004_244",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2107,7 +1729,7 @@
     },
     {
       "id": "Peca245",
-      "label": "Prateleira curta · topo 1100",
+      "label": "P01_Prateleira_curta_topo_1100_245",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2121,7 +1743,7 @@
     },
     {
       "id": "Peca246",
-      "label": "Prateleira curta · topo 1101",
+      "label": "P01_Prateleira_curta_topo_1101_246",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2191,7 +1813,7 @@
     },
     {
       "id": "Peca247",
-      "label": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+      "label": "P01_Roupeiro_porta_direita_deslizar_para_esquerda_frente_proposta_247",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2205,7 +1827,7 @@
     },
     {
       "id": "Peca248",
-      "label": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+      "label": "P01_Roupeiro_porta_esquerda_deslizar_para_direita_frente_proposta_248",
       "room": "quarto",
       "module": "P01",
       "box": [
@@ -2219,7 +1841,7 @@
     },
     {
       "id": "Peca249",
-      "label": "Proteção posterior · 10 mm adicionais",
+      "label": "Quarto_Protecao_posterior_10_mm_adicionais_249",
       "room": "quarto",
       "module": null,
       "box": [
@@ -2261,7 +1883,7 @@
     },
     {
       "id": "Peca255",
-      "label": "Fundo do braço principal",
+      "label": "P02_Fundo_do_braco_principal_255",
       "room": "quarto",
       "module": "P02",
       "box": [
@@ -2275,7 +1897,7 @@
     },
     {
       "id": "Peca256",
-      "label": "Fundo do retorno",
+      "label": "P02_Fundo_do_retorno_256",
       "room": "quarto",
       "module": "P02",
       "box": [
@@ -2289,7 +1911,7 @@
     },
     {
       "id": "Peca259",
-      "label": "Lateral direita017",
+      "label": "P03_Lateral_direita017_259",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2303,7 +1925,7 @@
     },
     {
       "id": "Peca260",
-      "label": "Lateral esquerda001",
+      "label": "P03_Lateral_esquerda001_260",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2317,7 +1939,7 @@
     },
     {
       "id": "Peca261",
-      "label": "Fundo001",
+      "label": "P03_Fundo001_261",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2331,7 +1953,7 @@
     },
     {
       "id": "Peca262",
-      "label": "Base",
+      "label": "P03_Base_262",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2345,7 +1967,7 @@
     },
     {
       "id": "Peca263",
-      "label": "Tampo",
+      "label": "P03_Tampo_263",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2359,7 +1981,7 @@
     },
     {
       "id": "Peca264",
-      "label": "Maleiro — porta direita — deslizar para esquerda — frente proposta",
+      "label": "P03_Maleiro_porta_direita_deslizar_para_esquerda_frente_proposta_264",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2373,7 +1995,7 @@
     },
     {
       "id": "Peca265",
-      "label": "Maleiro — porta esquerda — deslizar para direita — frente proposta",
+      "label": "P03_Maleiro_porta_esquerda_deslizar_para_direita_frente_proposta_265",
       "room": "quarto",
       "module": "P03",
       "box": [
@@ -2387,7 +2009,7 @@
     },
     {
       "id": "Peca266",
-      "label": "Lateral direita018",
+      "label": "P04_Lateral_direita018_266",
       "room": "quarto",
       "module": "P04",
       "box": [
@@ -2401,7 +2023,7 @@
     },
     {
       "id": "Peca267",
-      "label": "Lateral esquerda002",
+      "label": "P04_Lateral_esquerda002_267",
       "room": "quarto",
       "module": "P04",
       "box": [
@@ -2415,7 +2037,7 @@
     },
     {
       "id": "Peca268",
-      "label": "Fundo002",
+      "label": "P04_Fundo002_268",
       "room": "quarto",
       "module": "P04",
       "box": [
@@ -2429,7 +2051,7 @@
     },
     {
       "id": "Peca269",
-      "label": "Base001",
+      "label": "P04_Base001_269",
       "room": "quarto",
       "module": "P04",
       "box": [
@@ -2443,7 +2065,7 @@
     },
     {
       "id": "Peca270",
-      "label": "Tampo001",
+      "label": "P04_Tampo001_270",
       "room": "quarto",
       "module": "P04",
       "box": [
@@ -2457,7 +2079,7 @@
     },
     {
       "id": "Peca275",
-      "label": "Espelho lateral · reserva",
+      "label": "Quarto_Espelho_lateral_reserva_275",
       "room": "quarto",
       "module": null,
       "box": [
@@ -2471,7 +2093,7 @@
     },
     {
       "id": "Peca276",
-      "label": "Lateral direita019",
+      "label": "P05_Lateral_direita019_276",
       "room": "cozinha",
       "module": "P05",
       "box": [
@@ -2485,7 +2107,7 @@
     },
     {
       "id": "Peca277",
-      "label": "Lateral esquerda003",
+      "label": "P05_Lateral_esquerda003_277",
       "room": "cozinha",
       "module": "P05",
       "box": [
@@ -2499,7 +2121,7 @@
     },
     {
       "id": "Peca278",
-      "label": "Fundo003",
+      "label": "P05_Fundo003_278",
       "room": "cozinha",
       "module": "P05",
       "box": [
@@ -2513,7 +2135,7 @@
     },
     {
       "id": "Peca279",
-      "label": "Base002",
+      "label": "P05_Base002_279",
       "room": "cozinha",
       "module": "P05",
       "box": [
@@ -2527,7 +2149,7 @@
     },
     {
       "id": "Peca280",
-      "label": "Prateleira de estudo · hidráulica a recortar",
+      "label": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280",
       "room": "cozinha",
       "module": "P05",
       "box": [
@@ -2541,7 +2163,7 @@
     },
     {
       "id": "Peca283",
-      "label": "Lateral direita020",
+      "label": "P06_Lateral_direita020_283",
       "room": "cozinha",
       "module": "P06",
       "box": [
@@ -2555,7 +2177,7 @@
     },
     {
       "id": "Peca284",
-      "label": "Lateral esquerda004",
+      "label": "P06_Lateral_esquerda004_284",
       "room": "cozinha",
       "module": "P06",
       "box": [
@@ -2569,7 +2191,7 @@
     },
     {
       "id": "Peca285",
-      "label": "Fundo004",
+      "label": "P06_Fundo004_285",
       "room": "cozinha",
       "module": "P06",
       "box": [
@@ -2583,7 +2205,7 @@
     },
     {
       "id": "Peca286",
-      "label": "Base003",
+      "label": "P06_Base003_286",
       "room": "cozinha",
       "module": "P06",
       "box": [
@@ -2597,7 +2219,7 @@
     },
     {
       "id": "Peca305",
-      "label": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+      "label": "P07_Lateral_direita_do_forno_R30_deslocada_13_mm_vao_577_305",
       "room": "cozinha",
       "module": "P07",
       "box": [
@@ -2611,7 +2233,7 @@
     },
     {
       "id": "Peca306",
-      "label": "Lateral esquerda do forno",
+      "label": "P07_Lateral_esquerda_do_forno_306",
       "room": "cozinha",
       "module": "P07",
       "box": [
@@ -2625,7 +2247,7 @@
     },
     {
       "id": "Peca307",
-      "label": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+      "label": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307",
       "room": "cozinha",
       "module": "P07",
       "box": [
@@ -2639,7 +2261,7 @@
     },
     {
       "id": "Peca308",
-      "label": "Bancada cozinha · reserva de recortes",
+      "label": "Cozinha_Bancada_cozinha_reserva_de_recortes_308",
       "room": "cozinha",
       "module": null,
       "box": [
@@ -2653,7 +2275,7 @@
     },
     {
       "id": "Peca315",
-      "label": "Lateral direita021",
+      "label": "P09_Lateral_direita021_315",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2667,7 +2289,7 @@
     },
     {
       "id": "Peca316",
-      "label": "Lateral esquerda005",
+      "label": "P09_Lateral_esquerda005_316",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2681,7 +2303,7 @@
     },
     {
       "id": "Peca317",
-      "label": "Fundo005",
+      "label": "P09_Fundo005_317",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2695,7 +2317,7 @@
     },
     {
       "id": "Peca318",
-      "label": "Base004",
+      "label": "P09_Base004_318",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2709,7 +2331,7 @@
     },
     {
       "id": "Peca319",
-      "label": "Tampo002",
+      "label": "P09_Tampo002_319",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2723,7 +2345,7 @@
     },
     {
       "id": "Peca320",
-      "label": "Divisória005",
+      "label": "P09_Divisoria005_320",
       "room": "cozinha",
       "module": "P09",
       "box": [
@@ -2737,7 +2359,7 @@
     },
     {
       "id": "Peca324",
-      "label": "Lateral direita022",
+      "label": "P10_Lateral_direita022_324",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2751,7 +2373,7 @@
     },
     {
       "id": "Peca325",
-      "label": "Lateral esquerda006",
+      "label": "P10_Lateral_esquerda006_325",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2765,7 +2387,7 @@
     },
     {
       "id": "Peca326",
-      "label": "Fundo006",
+      "label": "P10_Fundo006_326",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2779,7 +2401,7 @@
     },
     {
       "id": "Peca327",
-      "label": "Base005",
+      "label": "P10_Base005_327",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2793,7 +2415,7 @@
     },
     {
       "id": "Peca328",
-      "label": "Tampo003",
+      "label": "P10_Tampo003_328",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2807,7 +2429,7 @@
     },
     {
       "id": "Peca329",
-      "label": "Prateleira",
+      "label": "P10_Prateleira_329",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2821,7 +2443,7 @@
     },
     {
       "id": "Peca330",
-      "label": "Prateleira001",
+      "label": "P10_Prateleira001_330",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2835,7 +2457,7 @@
     },
     {
       "id": "Peca331",
-      "label": "Prateleira002",
+      "label": "P10_Prateleira002_331",
       "room": "cozinha",
       "module": "P10",
       "box": [
@@ -2849,7 +2471,7 @@
     },
     {
       "id": "Peca334",
-      "label": "Lateral direita023",
+      "label": "P11_Lateral_direita023_334",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2863,7 +2485,7 @@
     },
     {
       "id": "Peca335",
-      "label": "Lateral esquerda007",
+      "label": "P11_Lateral_esquerda007_335",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2877,7 +2499,7 @@
     },
     {
       "id": "Peca336",
-      "label": "Fundo007",
+      "label": "P11_Fundo007_336",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2891,7 +2513,7 @@
     },
     {
       "id": "Peca337",
-      "label": "Base006",
+      "label": "P11_Base006_337",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2905,7 +2527,7 @@
     },
     {
       "id": "Peca338",
-      "label": "Tampo004",
+      "label": "P11_Tampo004_338",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2919,7 +2541,7 @@
     },
     {
       "id": "Peca339",
-      "label": "Prateleira003",
+      "label": "P11_Prateleira003_339",
       "room": "cozinha",
       "module": "P11",
       "box": [
@@ -2933,7 +2555,7 @@
     },
     {
       "id": "Peca342",
-      "label": "Lateral direita024",
+      "label": "P12_Lateral_direita024_342",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -2947,7 +2569,7 @@
     },
     {
       "id": "Peca343",
-      "label": "Lateral esquerda008",
+      "label": "P12_Lateral_esquerda008_343",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -2961,7 +2583,7 @@
     },
     {
       "id": "Peca344",
-      "label": "Fundo008",
+      "label": "P12_Fundo008_344",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -2975,7 +2597,7 @@
     },
     {
       "id": "Peca345",
-      "label": "Base007",
+      "label": "P12_Base007_345",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -2989,7 +2611,7 @@
     },
     {
       "id": "Peca346",
-      "label": "Tampo005",
+      "label": "P12_Tampo005_346",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -3003,7 +2625,7 @@
     },
     {
       "id": "Peca347",
-      "label": "Divisória006",
+      "label": "P12_Divisoria006_347",
       "room": "cozinha",
       "module": "P12",
       "box": [
@@ -3017,7 +2639,7 @@
     },
     {
       "id": "Peca350",
-      "label": "Prateleira de apoio · topo 1550",
+      "label": "P13_Prateleira_de_apoio_topo_1550_350",
       "room": "cozinha",
       "module": "P13",
       "box": [
@@ -3030,22 +2652,8 @@
       ]
     },
     {
-      "id": "Peca351",
-      "label": "ME23P - corpo documental 461x352x290; folgas separadas R17",
-      "room": "cozinha",
-      "module": null,
-      "box": [
-        1774.0,
-        6548.0,
-        1550.0,
-        2235.0,
-        6900.0,
-        1840.0
-      ]
-    },
-    {
       "id": "Peca352",
-      "label": "Lateral direita025",
+      "label": "P14_Lateral_direita025_352",
       "room": "lavanderia",
       "module": "P14",
       "box": [
@@ -3059,7 +2667,7 @@
     },
     {
       "id": "Peca353",
-      "label": "Lateral esquerda009",
+      "label": "P14_Lateral_esquerda009_353",
       "room": "lavanderia",
       "module": "P14",
       "box": [
@@ -3073,7 +2681,7 @@
     },
     {
       "id": "Peca357",
-      "label": "Bancada lavanderia · tanque a recortar",
+      "label": "Lavanderia_Bancada_lavanderia_tanque_a_recortar_357",
       "room": "lavanderia",
       "module": null,
       "box": [
@@ -3087,7 +2695,7 @@
     },
     {
       "id": "Peca359",
-      "label": "Lateral direita026",
+      "label": "P15_Lateral_direita026_359",
       "room": "lavanderia",
       "module": "P15",
       "box": [
@@ -3101,7 +2709,7 @@
     },
     {
       "id": "Peca360",
-      "label": "Lateral esquerda010",
+      "label": "P15_Lateral_esquerda010_360",
       "room": "lavanderia",
       "module": "P15",
       "box": [
@@ -3115,7 +2723,7 @@
     },
     {
       "id": "Peca361",
-      "label": "Fundo010",
+      "label": "P15_Fundo010_361",
       "room": "lavanderia",
       "module": "P15",
       "box": [
@@ -3129,7 +2737,7 @@
     },
     {
       "id": "Peca362",
-      "label": "Base008",
+      "label": "P15_Base008_362",
       "room": "lavanderia",
       "module": "P15",
       "box": [
@@ -3143,7 +2751,7 @@
     },
     {
       "id": "Peca363",
-      "label": "Tampo006",
+      "label": "P15_Tampo006_363",
       "room": "lavanderia",
       "module": "P15",
       "box": [
@@ -3157,7 +2765,7 @@
     },
     {
       "id": "Peca367",
-      "label": "Lateral direita027",
+      "label": "P16_Lateral_direita027_367",
       "room": "escritorio",
       "module": "P16",
       "box": [
@@ -3171,7 +2779,7 @@
     },
     {
       "id": "Peca368",
-      "label": "Lateral esquerda011",
+      "label": "P16_Lateral_esquerda011_368",
       "room": "escritorio",
       "module": "P16",
       "box": [
@@ -3185,7 +2793,7 @@
     },
     {
       "id": "Peca369",
-      "label": "Fundo011",
+      "label": "P16_Fundo011_369",
       "room": "escritorio",
       "module": "P16",
       "box": [
@@ -3199,7 +2807,7 @@
     },
     {
       "id": "Peca370",
-      "label": "Base009",
+      "label": "P16_Base009_370",
       "room": "escritorio",
       "module": "P16",
       "box": [
@@ -3213,7 +2821,7 @@
     },
     {
       "id": "Peca371",
-      "label": "Tampo007",
+      "label": "P16_Tampo007_371",
       "room": "escritorio",
       "module": "P16",
       "box": [
@@ -3227,7 +2835,7 @@
     },
     {
       "id": "Peca384",
-      "label": "Lateral direita028",
+      "label": "P17_Lateral_direita028_384",
       "room": "escritorio",
       "module": "P17",
       "box": [
@@ -3241,7 +2849,7 @@
     },
     {
       "id": "Peca385",
-      "label": "Lateral esquerda012",
+      "label": "P17_Lateral_esquerda012_385",
       "room": "escritorio",
       "module": "P17",
       "box": [
@@ -3255,7 +2863,7 @@
     },
     {
       "id": "Peca386",
-      "label": "Fundo012",
+      "label": "P17_Fundo012_386",
       "room": "escritorio",
       "module": "P17",
       "box": [
@@ -3269,7 +2877,7 @@
     },
     {
       "id": "Peca387",
-      "label": "Base010",
+      "label": "P17_Base010_387",
       "room": "escritorio",
       "module": "P17",
       "box": [
@@ -3283,7 +2891,7 @@
     },
     {
       "id": "Peca388",
-      "label": "Tampo008",
+      "label": "P17_Tampo008_388",
       "room": "escritorio",
       "module": "P17",
       "box": [
@@ -3297,7 +2905,7 @@
     },
     {
       "id": "Peca396",
-      "label": "Fundo013",
+      "label": "P18_Fundo013_396",
       "room": "banho",
       "module": "P18",
       "box": [
@@ -3311,7 +2919,7 @@
     },
     {
       "id": "Peca399",
-      "label": "Bancada banheiro · cuba a recortar",
+      "label": "Banho_Bancada_banheiro_cuba_a_recortar_399",
       "room": "banho",
       "module": null,
       "box": [
@@ -3325,7 +2933,7 @@
     },
     {
       "id": "Peca400",
-      "label": "Lateral direita030",
+      "label": "P19_Lateral_direita030_400",
       "room": "banho",
       "module": "P19",
       "box": [
@@ -3339,7 +2947,7 @@
     },
     {
       "id": "Peca401",
-      "label": "Lateral esquerda014",
+      "label": "P19_Lateral_esquerda014_401",
       "room": "banho",
       "module": "P19",
       "box": [
@@ -3353,7 +2961,7 @@
     },
     {
       "id": "Peca402",
-      "label": "Fundo014",
+      "label": "P19_Fundo014_402",
       "room": "banho",
       "module": "P19",
       "box": [
@@ -3367,7 +2975,7 @@
     },
     {
       "id": "Peca403",
-      "label": "Base012",
+      "label": "P19_Base012_403",
       "room": "banho",
       "module": "P19",
       "box": [
@@ -3381,7 +2989,7 @@
     },
     {
       "id": "Peca404",
-      "label": "Tampo009",
+      "label": "P19_Tampo009_404",
       "room": "banho",
       "module": "P19",
       "box": [
@@ -3395,7 +3003,7 @@
     },
     {
       "id": "Peca407",
-      "label": "Lateral esquerda015",
+      "label": "P20_Lateral_esquerda015_407",
       "room": "sala",
       "module": "P20",
       "box": [
@@ -3409,7 +3017,7 @@
     },
     {
       "id": "Peca408",
-      "label": "Fundo015",
+      "label": "P20_Fundo015_408",
       "room": "sala",
       "module": "P20",
       "box": [
@@ -3423,7 +3031,7 @@
     },
     {
       "id": "Peca421",
-      "label": "Encosto do banco · reserva",
+      "label": "Sala_Encosto_do_banco_reserva_421",
       "room": "sala",
       "module": null,
       "box": [
@@ -13738,8 +13346,2444 @@
         4870.0,
         721.5
       ]
+    },
+    {
+      "id": "GavetaComumR060",
+      "label": "Lateral comum esquerda · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2231.0,
+        6408.0,
+        761.0,
+        2246.0,
+        6898.0,
+        841.0
+      ]
+    },
+    {
+      "id": "GavetaComumR061",
+      "label": "Lateral comum direita · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1675.0,
+        6408.0,
+        761.0,
+        1690.0,
+        6898.0,
+        841.0
+      ]
+    },
+    {
+      "id": "GavetaComumR062",
+      "label": "Fundo comum · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1685.0,
+        6408.0,
+        773.0,
+        2236.0,
+        6898.0,
+        788.0
+      ]
+    },
+    {
+      "id": "GavetaComumR063",
+      "label": "Traseira comum · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1690.0,
+        6883.0,
+        788.0,
+        2231.0,
+        6898.0,
+        841.0
+      ]
+    },
+    {
+      "id": "GavetaComumR064",
+      "label": "Dianteira comum16 · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1690.0,
+        6408.0,
+        788.0,
+        2231.0,
+        6424.0,
+        841.0
+      ]
+    },
+    {
+      "id": "GavetaComumR065",
+      "label": "Frente preservada · G1 · talheres - proposta R08",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1652.0,
+        6390.0,
+        741.0,
+        2269.0,
+        6408.0,
+        897.0
+      ]
+    },
+    {
+      "id": "P07_Faixa_Superior_Forno",
+      "label": "P07 — faixa frontal acima da grelha do forno",
+      "room": "cozinha",
+      "module": "P07",
+      "box": [
+        2938.0,
+        6390.0,
+        783.0,
+        3515.0,
+        6408.0,
+        898.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR13",
+      "label": "Frente baixa preservada1223x106 - recuo80",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1674.0,
+        6470.0,
+        39.0,
+        2897.0,
+        6488.0,
+        145.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR001",
+      "label": "Fundo18 sobre rodas - proposta",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1674.0,
+        6488.0,
+        39.0,
+        2897.0,
+        6930.0,
+        57.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR002",
+      "label": "Lateral18 baixa - proposta",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2879.0,
+        6506.0,
+        57.0,
+        2897.0,
+        6912.0,
+        145.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR003",
+      "label": "Lateral18 baixa - proposta001",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1674.0,
+        6506.0,
+        57.0,
+        1692.0,
+        6912.0,
+        145.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR004",
+      "label": "Parede frente/trás18 baixa - proposta",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1674.0,
+        6488.0,
+        57.0,
+        2897.0,
+        6506.0,
+        145.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR005",
+      "label": "Parede frente/trás18 baixa - proposta001",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1674.0,
+        6912.0,
+        57.0,
+        2897.0,
+        6930.0,
+        145.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR006",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6528.0,
+        36.0,
+        2857.0,
+        6566.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR007",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6522.0,
+        15.0,
+        2839.0,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR008",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas023",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2855.0,
+        6522.0,
+        15.0,
+        2857.0,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR009",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2834.5,
+        6525.0,
+        12.0,
+        2859.5,
+        6531.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR010",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2839.5,
+        6513.0,
+        0.0,
+        2854.5,
+        6543.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP08",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6528.0,
+        38.0,
+        2857.0,
+        6566.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR011",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação011",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6528.0,
+        36.0,
+        2295.5,
+        6566.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR012",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas024",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6522.0,
+        15.0,
+        2277.5,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR013",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas025",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2293.5,
+        6522.0,
+        15.0,
+        2295.5,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR014",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo011",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2273.0,
+        6525.0,
+        12.0,
+        2298.0,
+        6531.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR015",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor011",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2278.0,
+        6513.0,
+        0.0,
+        2293.0,
+        6543.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP001",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral001",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6528.0,
+        38.0,
+        2295.5,
+        6566.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR016",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação012",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6528.0,
+        36.0,
+        1734.0,
+        6566.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR017",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas026",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6522.0,
+        15.0,
+        1716.0,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR018",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas027",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1732.0,
+        6522.0,
+        15.0,
+        1734.0,
+        6534.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR019",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo012",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1711.5,
+        6525.0,
+        12.0,
+        1736.5,
+        6531.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR020",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor012",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1716.5,
+        6513.0,
+        0.0,
+        1731.5,
+        6543.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP002",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral002",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6528.0,
+        38.0,
+        1734.0,
+        6566.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR021",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação013",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6868.0,
+        36.0,
+        2857.0,
+        6906.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR022",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas028",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6862.0,
+        15.0,
+        2839.0,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR023",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas029",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2855.0,
+        6862.0,
+        15.0,
+        2857.0,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR024",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo013",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2834.5,
+        6865.0,
+        12.0,
+        2859.5,
+        6871.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR025",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor013",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2839.5,
+        6853.0,
+        0.0,
+        2854.5,
+        6883.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP003",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral003",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2837.0,
+        6868.0,
+        38.0,
+        2857.0,
+        6906.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR026",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação014",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6868.0,
+        36.0,
+        2295.5,
+        6906.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR027",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas030",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6862.0,
+        15.0,
+        2277.5,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR028",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas031",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2293.5,
+        6862.0,
+        15.0,
+        2295.5,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR029",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo014",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2273.0,
+        6865.0,
+        12.0,
+        2298.0,
+        6871.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR030",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor014",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2278.0,
+        6853.0,
+        0.0,
+        2293.0,
+        6883.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP004",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral004",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2275.5,
+        6868.0,
+        38.0,
+        2295.5,
+        6906.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR031",
+      "label": "Leão Aço: chapa38x20, altura rodízio38 — gabarito sem furação015",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6868.0,
+        36.0,
+        1734.0,
+        6906.0,
+        38.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR032",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas032",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6862.0,
+        15.0,
+        1716.0,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR033",
+      "label": "Garfo simplificado para roda38 — espessura e forma não executivas033",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1732.0,
+        6862.0,
+        15.0,
+        1734.0,
+        6874.0,
+        36.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR034",
+      "label": "Eixo Ø6 anunciado — comprimento ilustrativo015",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1711.5,
+        6865.0,
+        12.0,
+        1736.5,
+        6871.0,
+        18.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR035",
+      "label": "Roda Ø30x15 — PU sobre policarbonato conforme vendedor015",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1716.5,
+        6853.0,
+        0.0,
+        1731.5,
+        6883.0,
+        30.0
+      ]
+    },
+    {
+      "id": "EspacadorRodizioP005",
+      "label": "Espaçador metálico rígido38x20x1 — apoio integral005",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1714.0,
+        6868.0,
+        38.0,
+        1734.0,
+        6906.0,
+        39.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR040",
+      "label": "Cabo fixo1 - referência1125",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1723.0,
+        6536.0,
+        57.0,
+        2848.0,
+        6557.0,
+        78.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR041",
+      "label": "Cabo fixo2 - referência1125",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        1723.0,
+        6571.0,
+        57.0,
+        2848.0,
+        6592.0,
+        78.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR042",
+      "label": "Cabeça vassoura retirada - referência315x190x65",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2514.0,
+        6646.0,
+        57.0,
+        2829.0,
+        6836.0,
+        122.0
+      ]
+    },
+    {
+      "id": "PecaBaixaR043",
+      "label": "Cabeça rodo retirada - referência325x95x35",
+      "room": "cozinha",
+      "module": "P08",
+      "box": [
+        2124.0,
+        6676.0,
+        57.0,
+        2449.0,
+        6771.0,
+        92.0
+      ]
+    },
+    {
+      "id": "GavetaComumR072",
+      "label": "Lateral comum esquerda · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4324.0,
+        292.0,
+        517.0,
+        4339.0,
+        682.0,
+        597.0
+      ]
+    },
+    {
+      "id": "GavetaComumR073",
+      "label": "Lateral comum direita · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4661.0,
+        292.0,
+        517.0,
+        4676.0,
+        682.0,
+        597.0
+      ]
+    },
+    {
+      "id": "GavetaComumR074",
+      "label": "Fundo comum · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4334.0,
+        292.0,
+        529.0,
+        4666.0,
+        682.0,
+        544.0
+      ]
+    },
+    {
+      "id": "GavetaComumR075",
+      "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4339.0,
+        292.0,
+        544.0,
+        4661.0,
+        307.0,
+        597.0
+      ]
+    },
+    {
+      "id": "GavetaComumR076",
+      "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4339.0,
+        666.0,
+        544.0,
+        4661.0,
+        682.0,
+        597.0
+      ]
+    },
+    {
+      "id": "GavetaComumR077",
+      "label": "Frente preservada · Gaveta escritório 1 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4301.0,
+        682.0,
+        481.0,
+        4699.0,
+        700.0,
+        599.0
+      ]
+    },
+    {
+      "id": "GavetaComumR084",
+      "label": "Lateral comum esquerda · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4324.0,
+        292.0,
+        621.0,
+        4339.0,
+        682.0,
+        695.0
+      ]
+    },
+    {
+      "id": "GavetaComumR085",
+      "label": "Lateral comum direita · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4661.0,
+        292.0,
+        621.0,
+        4676.0,
+        682.0,
+        695.0
+      ]
+    },
+    {
+      "id": "GavetaComumR086",
+      "label": "Fundo comum · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4334.0,
+        292.0,
+        633.0,
+        4666.0,
+        682.0,
+        648.0
+      ]
+    },
+    {
+      "id": "GavetaComumR087",
+      "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4339.0,
+        292.0,
+        648.0,
+        4661.0,
+        307.0,
+        695.0
+      ]
+    },
+    {
+      "id": "GavetaComumR088",
+      "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4339.0,
+        666.0,
+        648.0,
+        4661.0,
+        682.0,
+        695.0
+      ]
+    },
+    {
+      "id": "GavetaComumR089",
+      "label": "Frente preservada · Gaveta escritório 2 - proposta R08",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4301.0,
+        682.0,
+        601.0,
+        4699.0,
+        700.0,
+        719.0
+      ]
+    },
+    {
+      "id": "BancoR43_Painel1",
+      "label": "BancoR43_Painel1",
+      "room": "sala",
+      "module": "P20",
+      "box": [
+        102.0,
+        3751.0,
+        400.0,
+        550.0,
+        4722.0,
+        420.0
+      ]
+    },
+    {
+      "id": "BancoR43_Almofada1",
+      "label": "Almofada 1 — retirar antes de abrir",
+      "room": "sala",
+      "module": "P20",
+      "box": [
+        100.0,
+        3750.0,
+        420.0,
+        550.0,
+        4722.0,
+        470.0
+      ]
+    },
+    {
+      "id": "BancoR43_Painel2",
+      "label": "BancoR43_Painel2",
+      "room": "sala",
+      "module": "P20",
+      "box": [
+        102.0,
+        4724.0,
+        400.0,
+        550.0,
+        5549.0,
+        420.0
+      ]
+    },
+    {
+      "id": "BancoR43_Almofada2",
+      "label": "Almofada 2 — retirar antes de abrir",
+      "room": "sala",
+      "module": "P20",
+      "box": [
+        100.0,
+        4724.0,
+        420.0,
+        550.0,
+        5550.0,
+        470.0
+      ]
+    },
+    {
+      "id": "IB6S_Corpo",
+      "label": "IB6S — corpo fixo",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        950.0,
+        6222.5,
+        0.0,
+        1551.0,
+        6900.0,
+        1866.0
+      ]
+    },
+    {
+      "id": "IB6S_Porta_Refrigerador",
+      "label": "IB6S — porta Refrigerador",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1482.0,
+        5551.5,
+        650.0,
+        1551.0,
+        6152.5,
+        1866.0
+      ]
+    },
+    {
+      "id": "IB6S_Pega_Refrigerador",
+      "label": "IB6S — pega embutida Refrigerador",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1543.0,
+        5563.5,
+        710.0,
+        1544.0,
+        5583.5,
+        1030.0
+      ]
+    },
+    {
+      "id": "IB6S_Porta_Freezer",
+      "label": "IB6S — porta Freezer",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        950.0,
+        6152.5,
+        -0.0,
+        1551.0,
+        6221.5,
+        645.0
+      ]
+    },
+    {
+      "id": "IB6S_Pega_Freezer",
+      "label": "IB6S — pega embutida Freezer",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        962.0,
+        6159.5,
+        60.0,
+        982.0,
+        6160.5,
+        380.0
+      ]
+    },
+    {
+      "id": "LGVC4_Corpo",
+      "label": "LG VC4 — corpo fixo com abertura",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3600.0,
+        6340.0,
+        0.0,
+        4200.0,
+        6900.0,
+        850.0
+      ]
+    },
+    {
+      "id": "LGVC4_GavetaSabao",
+      "label": "LG VC4 — frente do dispenser",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3625.0,
+        6340.0,
+        710.0,
+        3810.0,
+        6344.0,
+        795.0
+      ]
+    },
+    {
+      "id": "LGVC4_Painel",
+      "label": "LG VC4 — comandos",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3945.0,
+        6340.0,
+        710.0,
+        4175.0,
+        6344.0,
+        795.0
+      ]
+    },
+    {
+      "id": "LGVC4_Seletor",
+      "label": "LG VC4 — seletor",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3856.0,
+        6340.0,
+        723.0,
+        3914.0,
+        6344.0,
+        781.0
+      ]
+    },
+    {
+      "id": "LGVC4_Aro",
+      "label": "LG VC4 — aro da porta",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3660.0,
+        6280.0,
+        180.0,
+        4140.0,
+        6339.0,
+        660.0
+      ]
+    },
+    {
+      "id": "LGVC4_Vidro",
+      "label": "LG VC4 — vidro da porta",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3706.0,
+        6290.0,
+        226.0,
+        4094.0,
+        6298.0,
+        614.0
+      ]
+    },
+    {
+      "id": "PE12G_Corpo",
+      "label": "PE12G — corpo grafite e rebaixo",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1720.0,
+        6545.0,
+        920.0,
+        1880.0,
+        6880.0,
+        1270.0
+      ]
+    },
+    {
+      "id": "PE12G_Bandeja",
+      "label": "PE12G — bandeja removivel",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1725.0,
+        6460.0,
+        920.0,
+        1875.0,
+        6544.0,
+        932.0
+      ]
+    },
+    {
+      "id": "PE12G_Bica",
+      "label": "PE12G — bica",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1791.0,
+        6551.0,
+        1180.0,
+        1809.0,
+        6569.0,
+        1195.0
+      ]
+    },
+    {
+      "id": "PE12G_Comandos",
+      "label": "PE12G — painel frontal",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1735.0,
+        6527.0,
+        1205.0,
+        1865.0,
+        6544.0,
+        1253.0
+      ]
+    },
+    {
+      "id": "PE12G_Tecla0",
+      "label": "PE12G — selecao temperatura",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1750.0,
+        6526.0,
+        1235.0,
+        1772.0,
+        6527.0,
+        1240.0
+      ]
+    },
+    {
+      "id": "PE12G_Tecla1",
+      "label": "PE12G — selecao temperatura001",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1786.0,
+        6526.0,
+        1235.0,
+        1808.0,
+        6527.0,
+        1240.0
+      ]
+    },
+    {
+      "id": "PE12G_Tecla2",
+      "label": "PE12G — selecao temperatura002",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1822.0,
+        6526.0,
+        1235.0,
+        1844.0,
+        6527.0,
+        1240.0
+      ]
+    },
+    {
+      "id": "RI9252_Corpo",
+      "label": "RI9252 — corpo superior",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3646.0,
+        6545.0,
+        1072.0,
+        3910.0,
+        6870.0,
+        1215.0
+      ]
+    },
+    {
+      "id": "RI9252_Cesto",
+      "label": "RI9252 — cesto removivel",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3646.0,
+        6545.0,
+        920.0,
+        3910.0,
+        6870.0,
+        1070.0
+      ]
+    },
+    {
+      "id": "RI9252_Puxador",
+      "label": "RI9252 — puxador do cesto",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3759.0,
+        6510.0,
+        940.0,
+        3797.0,
+        6545.0,
+        1085.0
+      ]
+    },
+    {
+      "id": "RI9252_Painel",
+      "label": "RI9252 — painel touch",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3698.0,
+        6545.0,
+        1108.0,
+        3858.0,
+        6549.0,
+        1184.0
+      ]
+    },
+    {
+      "id": "RI9252_Icone0",
+      "label": "RI9252 — indicacao visual do painel",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3716.0,
+        6544.0,
+        1125.0,
+        3723.0,
+        6545.0,
+        1128.0
+      ]
+    },
+    {
+      "id": "RI9252_Icone1",
+      "label": "RI9252 — indicacao visual do painel001",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3742.0,
+        6544.0,
+        1125.0,
+        3749.0,
+        6545.0,
+        1128.0
+      ]
+    },
+    {
+      "id": "RI9252_Icone2",
+      "label": "RI9252 — indicacao visual do painel002",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3768.0,
+        6544.0,
+        1125.0,
+        3775.0,
+        6545.0,
+        1128.0
+      ]
+    },
+    {
+      "id": "RI9252_Icone3",
+      "label": "RI9252 — indicacao visual do painel003",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3794.0,
+        6544.0,
+        1125.0,
+        3801.0,
+        6545.0,
+        1128.0
+      ]
+    },
+    {
+      "id": "RI9252_Icone4",
+      "label": "RI9252 — indicacao visual do painel004",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3820.0,
+        6544.0,
+        1125.0,
+        3827.0,
+        6545.0,
+        1128.0
+      ]
+    },
+    {
+      "id": "ME23P_Corpo",
+      "label": "ME23P — corpo",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1774.0,
+        6573.0,
+        1550.0,
+        2235.0,
+        6900.0,
+        1840.0
+      ]
+    },
+    {
+      "id": "ME23P_Porta",
+      "label": "ME23P — moldura da porta",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1774.0,
+        6548.0,
+        1550.0,
+        2135.0,
+        6572.0,
+        1840.0
+      ]
+    },
+    {
+      "id": "ME23P_Vidro",
+      "label": "ME23P — vidro frontal",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1800.0,
+        6553.0,
+        1595.0,
+        2102.0,
+        6559.0,
+        1794.0
+      ]
+    },
+    {
+      "id": "ME23P_Comandos",
+      "label": "ME23P — coluna de comandos",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2137.0,
+        6548.0,
+        1550.0,
+        2235.0,
+        6572.0,
+        1840.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla00",
+      "label": "ME23P — tecla visual",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2152.0,
+        6548.0,
+        1610.0,
+        2162.0,
+        6548.7,
+        1617.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla01",
+      "label": "ME23P — tecla visual001",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2173.0,
+        6548.0,
+        1610.0,
+        2183.0,
+        6548.7,
+        1617.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla02",
+      "label": "ME23P — tecla visual002",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2194.0,
+        6548.0,
+        1610.0,
+        2204.0,
+        6548.7,
+        1617.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla10",
+      "label": "ME23P — tecla visual003",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2152.0,
+        6548.0,
+        1642.0,
+        2162.0,
+        6548.7,
+        1649.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla11",
+      "label": "ME23P — tecla visual004",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2173.0,
+        6548.0,
+        1642.0,
+        2183.0,
+        6548.7,
+        1649.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla12",
+      "label": "ME23P — tecla visual005",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2194.0,
+        6548.0,
+        1642.0,
+        2204.0,
+        6548.7,
+        1649.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla20",
+      "label": "ME23P — tecla visual006",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2152.0,
+        6548.0,
+        1674.0,
+        2162.0,
+        6548.7,
+        1681.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla21",
+      "label": "ME23P — tecla visual007",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2173.0,
+        6548.0,
+        1674.0,
+        2183.0,
+        6548.7,
+        1681.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla22",
+      "label": "ME23P — tecla visual008",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2194.0,
+        6548.0,
+        1674.0,
+        2204.0,
+        6548.7,
+        1681.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla30",
+      "label": "ME23P — tecla visual009",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2152.0,
+        6548.0,
+        1706.0,
+        2162.0,
+        6548.7,
+        1713.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla31",
+      "label": "ME23P — tecla visual010",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2173.0,
+        6548.0,
+        1706.0,
+        2183.0,
+        6548.7,
+        1713.0
+      ]
+    },
+    {
+      "id": "ME23P_Tecla32",
+      "label": "ME23P — tecla visual011",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        2194.0,
+        6548.0,
+        1706.0,
+        2204.0,
+        6548.7,
+        1713.0
+      ]
+    },
+    {
+      "id": "VIP_Base",
+      "label": "VIP - pedestal nominal",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3584.301,
+        4797.522,
+        0.0,
+        3825.699,
+        5169.921,
+        260.0
+      ]
+    },
+    {
+      "id": "VIP_Bacia",
+      "label": "VIP - bacia ilustrativa",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3498.069,
+        4700.0,
+        0.0,
+        3911.931,
+        5190.0,
+        430.0
+      ]
+    },
+    {
+      "id": "VIP_Assento",
+      "label": "VIP - assento fechado",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3500.541,
+        4700.0,
+        400.0,
+        3909.459,
+        5190.0,
+        425.0
+      ]
+    },
+    {
+      "id": "VIP_Tampa",
+      "label": "VIP - tampa do assento",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3500.12,
+        4699.601,
+        419.0,
+        3909.88,
+        5190.399,
+        435.0
+      ]
+    },
+    {
+      "id": "VIP_Caixa",
+      "label": "VIP - caixa acoplada nominal",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3517.5,
+        5135.0,
+        395.0,
+        3892.5,
+        5290.0,
+        785.0
+      ]
+    },
+    {
+      "id": "VIP_TampaCaixa",
+      "label": "VIP - tampa da caixa acoplada",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3517.5,
+        5135.0,
+        779.5,
+        3892.5,
+        5290.0,
+        800.0
+      ]
+    },
+    {
+      "id": "VIP_Acionamento",
+      "label": "VIP - acionamento ilustrativo",
+      "room": "banho",
+      "module": null,
+      "box": [
+        3690.0,
+        5197.0,
+        795.0,
+        3720.0,
+        5227.0,
+        797.0
+      ]
+    },
+    {
+      "id": "Fechada_110Tampo",
+      "label": "Berlin - superficie superior z790; espessura desconhecida",
+      "room": "sala",
+      "module": null,
+      "box": [
+        475.0,
+        4100.0,
+        790.0,
+        1275.0,
+        5200.0,
+        790.0
+      ]
+    },
+    {
+      "id": "Fechada_110Sapata",
+      "label": "Sapata - projecao hipotetica 330x500; orientacao por confirmar",
+      "room": "sala",
+      "module": null,
+      "box": [
+        710.0,
+        4400.0,
+        1.0,
+        1040.0,
+        4900.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Fechada_110Ponta_sofa",
+      "label": "Ponta_sofa - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "room": "sala",
+      "module": null,
+      "box": [
+        655.0,
+        3890.0,
+        0.0,
+        1095.0,
+        4360.0,
+        940.0
+      ]
+    },
+    {
+      "id": "Fechada_110Ponta_cozinha",
+      "label": "Ponta_cozinha - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "room": "sala",
+      "module": null,
+      "box": [
+        655.0,
+        4940.0,
+        0.0,
+        1095.0,
+        5410.0,
+        940.0
+      ]
+    },
+    {
+      "id": "Fechada_110Lateral",
+      "label": "Lateral - gabarito Lina R41, projecao externa hipotetica 210mm",
+      "room": "sala",
+      "module": null,
+      "box": [
+        1030.0,
+        4430.0,
+        0.0,
+        1500.0,
+        4870.0,
+        940.0
+      ]
+    },
+    {
+      "id": "Fechada_110Pedestal",
+      "label": "Berlin - pedestal preto; altura 750 mm e formato aproximados; sem desenho tecnico - fechada",
+      "room": "sala",
+      "module": null,
+      "box": [
+        710.0,
+        4400.0,
+        0.0,
+        1040.0,
+        4900.0,
+        750.0
+      ]
+    },
+    {
+      "id": "IB6S_Visual",
+      "label": "Geladeira IB6S — aparencia e portas",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        950.0,
+        5551.5,
+        0.0,
+        1551.0,
+        6900.0,
+        1866.0
+      ],
+      "aggregate": true
+    },
+    {
+      "id": "LGVC4_Visual",
+      "label": "Lava e seca LG VC4 — aparencia e porta",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3600.0,
+        6280.0,
+        0.0,
+        4200.0,
+        6900.0,
+        850.0
+      ],
+      "aggregate": true
+    },
+    {
+      "id": "ME23P_Visual",
+      "label": "Micro-ondas Electrolux ME23P",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1774.0,
+        6548.0,
+        1550.0,
+        2235.0,
+        6900.0,
+        1840.0
+      ],
+      "aggregate": true
+    },
+    {
+      "id": "PE12G_Visual",
+      "label": "Purificador Electrolux PE12G",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1720.0,
+        6460.0,
+        920.0,
+        1880.0,
+        6880.0,
+        1270.0
+      ],
+      "aggregate": true
     }
   ],
+  "architecture": {
+    "source": "VaosCorte_PI",
+    "height": 1000,
+    "wires": [
+      [
+        [
+          4950.0,
+          5690.0
+        ],
+        [
+          4850.0,
+          5690.0
+        ],
+        [
+          4850.0,
+          5460.0
+        ],
+        [
+          2660.0,
+          5460.0
+        ],
+        [
+          2660.0,
+          3950.0
+        ],
+        [
+          2850.0,
+          3950.0
+        ],
+        [
+          2850.0,
+          4050.0
+        ],
+        [
+          2760.0,
+          4050.0
+        ],
+        [
+          2760.0,
+          5290.0
+        ],
+        [
+          4850.0,
+          5290.0
+        ],
+        [
+          4850.0,
+          4750.0
+        ],
+        [
+          4950.0,
+          4750.0
+        ],
+        [
+          4950.0,
+          5690.0
+        ]
+      ],
+      [
+        [
+          7500.0,
+          900.0
+        ],
+        [
+          7500.0,
+          4050.0
+        ],
+        [
+          4950.0,
+          4050.0
+        ],
+        [
+          4950.0,
+          4350.0
+        ],
+        [
+          4850.0,
+          4350.0
+        ],
+        [
+          4850.0,
+          4050.0
+        ],
+        [
+          3590.0,
+          4050.0
+        ],
+        [
+          3590.0,
+          3950.0
+        ],
+        [
+          3650.0,
+          3950.0
+        ],
+        [
+          3650.0,
+          3900.0
+        ],
+        [
+          3750.0,
+          3900.0
+        ],
+        [
+          3750.0,
+          3950.0
+        ],
+        [
+          7400.0,
+          3950.0
+        ],
+        [
+          7400.0,
+          1000.0
+        ],
+        [
+          6800.0,
+          1000.0
+        ],
+        [
+          6800.0,
+          900.0
+        ],
+        [
+          7500.0,
+          900.0
+        ]
+      ],
+      [
+        [
+          4950.0,
+          6750.0
+        ],
+        [
+          4950.0,
+          7000.0
+        ],
+        [
+          4850.0,
+          7000.0
+        ],
+        [
+          4850.0,
+          6750.0
+        ],
+        [
+          4950.0,
+          6750.0
+        ]
+      ],
+      [
+        [
+          4250.0,
+          -100.0
+        ],
+        [
+          4950.0,
+          -100.0
+        ],
+        [
+          4950.0,
+          900.0
+        ],
+        [
+          5600.0,
+          900.0
+        ],
+        [
+          5600.0,
+          1000.0
+        ],
+        [
+          4950.0,
+          1000.0
+        ],
+        [
+          4950.0,
+          2950.0
+        ],
+        [
+          4850.0,
+          2950.0
+        ],
+        [
+          4850.0,
+          1000.0
+        ],
+        [
+          4850.0,
+          900.0
+        ],
+        [
+          4850.0,
+          0.0
+        ],
+        [
+          4250.0,
+          0.0
+        ],
+        [
+          4250.0,
+          -100.0
+        ]
+      ],
+      [
+        [
+          2070.0,
+          1750.0
+        ],
+        [
+          2450.0,
+          1750.0
+        ],
+        [
+          2450.0,
+          -100.0
+        ],
+        [
+          3100.0,
+          -100.0
+        ],
+        [
+          3100.0,
+          0.0
+        ],
+        [
+          2550.0,
+          0.0
+        ],
+        [
+          2550.0,
+          2950.0
+        ],
+        [
+          2650.0,
+          2950.0
+        ],
+        [
+          2650.0,
+          3050.0
+        ],
+        [
+          2450.0,
+          3050.0
+        ],
+        [
+          2450.0,
+          1850.0
+        ],
+        [
+          2070.0,
+          1850.0
+        ],
+        [
+          2070.0,
+          1750.0
+        ]
+      ],
+      [
+        [
+          -100.0,
+          6060.0
+        ],
+        [
+          -100.0,
+          1750.0
+        ],
+        [
+          680.0,
+          1750.0
+        ],
+        [
+          680.0,
+          1850.0
+        ],
+        [
+          0.0,
+          1850.0
+        ],
+        [
+          0.0,
+          6060.0
+        ],
+        [
+          -100.0,
+          6060.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          7000.0
+        ],
+        [
+          4850.0,
+          7000.0
+        ],
+        [
+          4850.0,
+          7100.0
+        ],
+        [
+          -100.0,
+          7100.0
+        ],
+        [
+          -100.0,
+          6900.0
+        ],
+        [
+          0.0,
+          6900.0
+        ],
+        [
+          0.0,
+          7000.0
+        ]
+      ],
+      [
+        [
+          3490.0,
+          2950.0
+        ],
+        [
+          4850.0,
+          2950.0
+        ],
+        [
+          4850.0,
+          3050.0
+        ],
+        [
+          3750.0,
+          3050.0
+        ],
+        [
+          3750.0,
+          3060.0
+        ],
+        [
+          3650.0,
+          3060.0
+        ],
+        [
+          3650.0,
+          3050.0
+        ],
+        [
+          3490.0,
+          3050.0
+        ],
+        [
+          3490.0,
+          2950.0
+        ]
+      ]
+    ],
+    "floors": [
+      [
+        [
+          3750.0,
+          3050.0
+        ],
+        [
+          4850.0,
+          3050.0
+        ],
+        [
+          4850.0,
+          2950.0
+        ],
+        [
+          4950.0,
+          2950.0
+        ],
+        [
+          4950.0,
+          1000.0
+        ],
+        [
+          7400.0,
+          1000.0
+        ],
+        [
+          7400.0,
+          3950.0
+        ],
+        [
+          3750.0,
+          3950.0
+        ],
+        [
+          3750.0,
+          3900.0
+        ],
+        [
+          3650.0,
+          3900.0
+        ],
+        [
+          3650.0,
+          3150.0
+        ],
+        [
+          3750.0,
+          3150.0
+        ],
+        [
+          3750.0,
+          3050.0
+        ]
+      ],
+      [
+        [
+          2550.0,
+          2950.0
+        ],
+        [
+          2550.0,
+          0.0
+        ],
+        [
+          4850.0,
+          0.0
+        ],
+        [
+          4850.0,
+          2950.0
+        ],
+        [
+          3400.0,
+          2950.0
+        ],
+        [
+          3400.0,
+          3050.0
+        ],
+        [
+          2650.0,
+          3050.0
+        ],
+        [
+          2650.0,
+          2950.0
+        ],
+        [
+          2550.0,
+          2950.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          1850.0
+        ],
+        [
+          2450.0,
+          1850.0
+        ],
+        [
+          2450.0,
+          4050.0
+        ],
+        [
+          2660.0,
+          4050.0
+        ],
+        [
+          2660.0,
+          5390.0
+        ],
+        [
+          2750.0,
+          5390.0
+        ],
+        [
+          2750.0,
+          5450.0
+        ],
+        [
+          0.0,
+          5450.0
+        ],
+        [
+          0.0,
+          1850.0
+        ]
+      ],
+      [
+        [
+          2450.0,
+          4050.0
+        ],
+        [
+          2450.0,
+          3050.0
+        ],
+        [
+          3650.0,
+          3050.0
+        ],
+        [
+          3650.0,
+          3950.0
+        ],
+        [
+          2660.0,
+          3950.0
+        ],
+        [
+          2660.0,
+          4050.0
+        ],
+        [
+          2450.0,
+          4050.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          6150.0
+        ],
+        [
+          0.0,
+          5450.0
+        ],
+        [
+          2660.0,
+          5450.0
+        ],
+        [
+          2660.0,
+          5460.0
+        ],
+        [
+          3520.0,
+          5460.0
+        ],
+        [
+          3520.0,
+          7000.0
+        ],
+        [
+          0.0,
+          7000.0
+        ],
+        [
+          0.0,
+          6900.0
+        ],
+        [
+          -100.0,
+          6900.0
+        ],
+        [
+          -100.0,
+          6150.0
+        ],
+        [
+          0.0,
+          6150.0
+        ]
+      ],
+      [
+        [
+          3520.0,
+          7000.0
+        ],
+        [
+          3520.0,
+          5460.0
+        ],
+        [
+          4850.0,
+          5460.0
+        ],
+        [
+          4850.0,
+          7000.0
+        ],
+        [
+          3520.0,
+          7000.0
+        ]
+      ],
+      [
+        [
+          2760.0,
+          4050.0
+        ],
+        [
+          2850.0,
+          4050.0
+        ],
+        [
+          2850.0,
+          3950.0
+        ],
+        [
+          3550.0,
+          3950.0
+        ],
+        [
+          3550.0,
+          4050.0
+        ],
+        [
+          4850.0,
+          4050.0
+        ],
+        [
+          4850.0,
+          5290.0
+        ],
+        [
+          2760.0,
+          5290.0
+        ],
+        [
+          2760.0,
+          4050.0
+        ]
+      ]
+    ]
+  },
   "ceilings_at_export": {
     "quarto": 2550.0,
     "cozinha": 2550.0,
@@ -13885,7 +15929,7 @@
     "P07": {
       "box": [
         2920.0,
-        6402.5,
+        6390.0,
         0.0,
         3533.0,
         7000.0,
@@ -13893,12 +15937,12 @@
       ],
       "position": [
         2920.0,
-        6402.5,
+        6390.0,
         0.0
       ],
       "size": [
         613.0,
-        597.5,
+        610.0,
         900.0
       ],
       "ceiling_ref": "PD-COZ",
@@ -14086,7 +16130,7 @@
         250.0,
         480.0,
         4700.0,
-        680.0,
+        700.0,
         720.0
       ],
       "position": [
@@ -14096,7 +16140,7 @@
       ],
       "size": [
         400.0,
-        430.0,
+        450.0,
         240.0
       ],
       "ceiling_ref": "PD-ESC",
@@ -14175,6 +16219,184 @@
         0.0,
         550.0,
         5550.0,
+        470.0
+      ],
+      "position": [
+        100.0,
+        3750.0,
+        0.0
+      ],
+      "size": [
+        450.0,
+        1800.0,
+        470.0
+      ],
+      "ceiling_ref": "PD-SAL",
+      "clearance_at_export": 2080.0
+    }
+  },
+  "openings": {
+    "porta-1": {
+      "source": "Batente_Escritorio_Compatibilizado",
+      "values": [
+        3930.0,
+        2950.0,
+        800.0,
+        100.0,
+        0,
+        2100
+      ]
+    },
+    "porta-2": {
+      "source": "Batente_Quarto",
+      "values": [
+        3650.0,
+        3080.0,
+        100.0,
+        800.0,
+        0,
+        2100
+      ]
+    },
+    "porta-3": {
+      "source": "Batente_Banheiro_Compatibilizado",
+      "values": [
+        3830.0,
+        3950.0,
+        700.0,
+        100.0,
+        0,
+        2100
+      ]
+    },
+    "porta-4": {
+      "source": "Batente_Entrada",
+      "values": [
+        7400.0,
+        6080.0,
+        100.0,
+        800.0,
+        0,
+        2100
+      ]
+    },
+    "janela-1": {
+      "source": "Janela_Quarto",
+      "values": [
+        600.0,
+        900.0,
+        1200.0,
+        100.0,
+        920.0,
+        1130.0
+      ]
+    },
+    "janela-2": {
+      "source": "Janela_Escritorio",
+      "values": [
+        3150.0,
+        -100.0,
+        1150.0,
+        100.0,
+        920.0,
+        1130.0
+      ]
+    },
+    "janela-3": {
+      "source": "Janela_Sala",
+      "values": [
+        5330.0,
+        1750.0,
+        1390.0,
+        100.0,
+        920.0,
+        1130.0
+      ]
+    },
+    "janela-4": {
+      "source": "Janela_Lavanderia",
+      "values": [
+        2450.0,
+        5690.0,
+        100.0,
+        1060.0,
+        920.0,
+        1130.0
+      ]
+    },
+    "janela-5": {
+      "source": "Janela_Banheiro",
+      "values": [
+        2450.0,
+        4350.0,
+        100.0,
+        400.0,
+        920.0,
+        1130.0
+      ]
+    }
+  },
+  "parametric_modules": {
+    "P07": {
+      "box": [
+        2920.0,
+        6402.5,
+        0.0,
+        3533.0,
+        7000.0,
+        900.0
+      ],
+      "position": [
+        2920.0,
+        6402.5,
+        0.0
+      ],
+      "size": [
+        613.0,
+        597.5,
+        900.0
+      ],
+      "ceiling_ref": "PD-COZ",
+      "clearance_at_export": 1650.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "P07_Faixa_Superior_Forno"
+      ]
+    },
+    "P16": {
+      "box": [
+        4300.0,
+        250.0,
+        480.0,
+        4700.0,
+        680.0,
+        720.0
+      ],
+      "position": [
+        4300.0,
+        250.0,
+        480.0
+      ],
+      "size": [
+        400.0,
+        430.0,
+        240.0
+      ],
+      "ceiling_ref": "PD-ESC",
+      "clearance_at_export": 1830.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "GavetaComumR077",
+        "GavetaComumR089"
+      ]
+    },
+    "P20": {
+      "box": [
+        100.0,
+        3750.0,
+        0.0,
+        550.0,
+        5550.0,
         400.0
       ],
       "position": [
@@ -14188,7 +16410,14 @@
         400.0
       ],
       "ceiling_ref": "PD-SAL",
-      "clearance_at_export": 2150.0
+      "clearance_at_export": 2150.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "BancoR43_Painel1",
+        "BancoR43_Painel2",
+        "BancoR43_Almofada1",
+        "BancoR43_Almofada2"
+      ]
     }
   }
 }

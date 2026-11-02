@@ -13,7 +13,7 @@
 <text x="15" y="81" font-family="Arial, sans-serif" font-size="3" fill="#263238">P05</text>
 <text x="45" y="81" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">284 N</text>
 <text x="15" y="89" font-family="Arial, sans-serif" font-size="3" fill="#263238">P06</text>
-<text x="45" y="89" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">31 N / 369 N</text>
+<text x="45" y="89" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">31 N / 369 N / 141 N</text>
 <text x="15" y="97" font-family="Arial, sans-serif" font-size="3" fill="#263238">P07</text>
 <text x="45" y="97" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
 <text x="15" y="105" font-family="Arial, sans-serif" font-size="3" fill="#263238">P08</text>
@@ -33,7 +33,7 @@
 <text x="15" y="161" font-family="Arial, sans-serif" font-size="3" fill="#263238">P15</text>
 <text x="45" y="161" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">544 N</text>
 <text x="15" y="169" font-family="Arial, sans-serif" font-size="3" fill="#263238">P16</text>
-<text x="45" y="169" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">204 N</text>
+<text x="45" y="169" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">31 N / 89 N / 54 N</text>
 <text x="15" y="177" font-family="Arial, sans-serif" font-size="3" fill="#263238">P17</text>
 <text x="45" y="177" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">514 N</text>
 <text x="15" y="185" font-family="Arial, sans-serif" font-size="3" fill="#263238">P18</text>
@@ -41,7 +41,7 @@
 <text x="15" y="193" font-family="Arial, sans-serif" font-size="3" fill="#263238">P19</text>
 <text x="45" y="193" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">226 N / 226 N / 226 N</text>
 <text x="15" y="201" font-family="Arial, sans-serif" font-size="3" fill="#263238">P20</text>
-<text x="45" y="201" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">Sem par de planos horizontais identificável no envelope.</text>
+<text x="45" y="201" font-family="Arial, sans-serif" font-size="2.7" fill="#94621c">300 N</text>
 <text x="15" y="218" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Triagem geométrica: planos que cobrem ao menos metade da largura e profundidade do módulo.</text>
 <text x="15" y="224" font-family="Arial, sans-serif" font-size="2.8" fill="#263238">Não confirma vão útil de porta, gaveta, recorte ou ferragem; conferir peça específica antes de executar.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
@@ -52,6 +52,6 @@
 <text x="15" y="269" font-family="Arial, sans-serif" font-size="2.6" fill="#006b60">M / contínuo: medido; derivada M somente quando todas as parcelas são medidas</text>
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | NC1 | 20 folhas | Sem escala</text>
-<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">21 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
+<text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">25 cotas nominais | RT: __________________________</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 0d9e16fc47ff93ca5122d72f...</text>
 </svg>

@@ -21,14 +21,14 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
-| Planta mobiliada e vistas | R03; cena R54, 8 PNGs/SHA | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
+| Planta mobiliada e vistas | R03; cena R55, 8 PNGs/SHA | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
 | Especificações/luz | R01; E5% e U0 separados | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
 | Pontos (elétrica, água, gás) | R01; 6.670 W parciais; mínimos: 16 TUG/5.300 VA | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
-| Pranchas A3 | R02: 20 folhas; 1:50/1:25; alturas 2,60/2,50 m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
-| Site/pacote do montador | R55/R30; Site: pia/PE12G, geladeira fechada; vãos internos e foco animado reversível nos móveis; Obra em Mais; banheiro atual na galeria de luz; pub. autorizada: Elias,02/11/26, “ok, pode publicar” | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
+| Pranchas A3 | R02: 20 folhas; 1:50/1:25; R55; alturas2,55/2,30m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
+| Site/pacote do montador | R55/R31; Site: pia/PE12G, geladeira fechada; vãos internos e foco animado reversível nos móveis; Obra em Mais; banheiro atual na galeria de luz; pub. autorizada: Elias,02/11/26, “ok, pode publicar” | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
@@ -48,7 +48,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Complementares | 35% | [Pontos R01 e grupo 3](03_Ambientes/Planta_pontos/README.md#interfaces-prioritárias--grupo-3): 10 interfaces revisadas; 53 funções/E06 adiada; implantação, rotas e acessos com RT/oficina |
 | Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias 27/10; SKUs e escolha final pendentes |
 | Orçamento | 60% | R44: R$ 137.748,11; luz 4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias 27/10: "C — cotar com aumento de verba". Referência 127.101,22, aporte 7.101,22, reserva 10.000 intacta; pacote 37.000 condicionado, sem contratar |
-| Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R54, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
+| Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R55, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [Registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |
 
@@ -108,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Purificador:** PE12G grafite; PE11X superado. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”;02/11/2026: “Manter PE12G e corrigir os documentos antigos”.
 
-**Revisão documental em preparação:** pranchas/alturas e produtos, com conferência externa; entregas publicadas ainda não substituídas. [Gerador](ferramentas/pranchas/README.md).
+**Revisão documental:** pranchas/vistas R55 e P07/P16/P20 conciliados; CAD intacto. [Critérios](04_Moveis/Dependencias/README.md).
 
 **CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 

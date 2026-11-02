@@ -1,10 +1,14 @@
 # Medidas, dependências e roteiro de campo
 
-CAD principal de 02/11/2026: seleção histórica relida, 24 alvos preservados; torneira Peca136/137 atualizada. SHA sincronizado sem mudar fórmulas nem reexportar arquitetura/pranchas. Fonte: Elias,02/11/2026: “aprovo deixa como documento principal”.
+**Conciliação R55 —02/11/2026:** 469 regras e24 alvos preservados, sem alteração do CAD. `Geometria.json/modules` contém o envelope visível completo; `parametric_modules` conserva a referência dimensional anterior de P07/P16/P20. Não confundir referência da caixa com conjunto acabado nem com medida de corte.
 
-Alturas nominais 2550/2300 mm e portas 800/700×2100 mm: Elias,01/11/2026, nesta conversa. Caixas preservadas; folgas ao teto e distâncias aos vãos recalculadas nas 469 regras. Nenhuma medida de campo preenchida.
+|Módulo|Complemento incluído no envelope completo|
+|---|---|
+|P07|Faixa superior do forno: frente12,5mm além da referência anterior|
+|P16|Frentes das gavetas: profundidade20mm maior|
+|P20|Tampas20mm e almofadas50mm: altura70mm maior|
 
-Base nominal vinculada ao R55 corrigido: [469 regras](regras.json), 72 dimensões fixas de 20 módulos e 4 bancadas. Referências variáveis e nove fechamentos não são peças de corte. 24 alvos preservados na releitura da seleção histórica; arquitetura nova fora da cadeia.
+O validador exige que o conjunto contenha a referência e que os componentes adicionais existam. As fórmulas, limites e cenários não foram afrouxados. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”. Alturas nominais2550/2300mm; medidas de campo vazias.
 
 | Consulta | Arquivo |
 |---|---|

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-11-01",
+  "releaseDate": "2026-11-02",
   "projectRevision": "Consulta de marcenaria · FreeCAD R55 · iluminação CB02",
   "projectDate": "27 outubro 2026",
   "cadRevision": "R55",
@@ -11,9 +11,9 @@
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R30",
+  "packageRevision": "R31",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R30.zip",
+  "packageFile": "Guedala_Park_R31.zip",
   "archiveRoot": "Guedala_Park_R30",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",

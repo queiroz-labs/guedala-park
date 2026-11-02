@@ -80,7 +80,7 @@ def make_pdf(destination, release):
     table([
         ["Componente", "Referência e limite"],
         ["Modelo FreeCAD", release["cadRevision"] + " vigente, arquivo incluído sem alteração."],
-        ["Pranchas no anexo", "R02, referência dos desenhos R54; 20 folhas A3 preservadas em tamanho original. Não são nova extração arquitetônica do R55."],
+        ["Pranchas no anexo", "R02, referência dos desenhos R55; 20 folhas A3 preservadas em tamanho original. Extração arquitetônica R55; referências da caixa e envelope completo distinguidas."],
         ["Pontos", "R01: 53 funções, E06 adiada; posições e circuitos por compatibilizar."],
         ["Materiais", "Caderno R01: intenções de projeto; amostras, SKUs e produtos pendentes."],
         ["Revisão", "13 questões da base arquitetônica + 10 interfaces prioritárias."],
@@ -94,7 +94,7 @@ def make_pdf(destination, release):
               PageBreak()]
 
     title("Layout de referência")
-    story.append(p("Planta mobiliada R03, cena R54; representação visual anterior ao R55. A vista inclui apresentações de acabamento do site, inclusive verde na janela do box, que segue candidato separado no CAD. Sem escala."))
+    story.append(p("Planta mobiliada R03, cena R55; representação visual da R55. A vista inclui apresentações de acabamento do site, inclusive verde na janela do box, incorporado no CAD vigente. Sem escala."))
     img = Image(str(ROOT / "03_Ambientes/Planta_mobiliada/Planta_mobiliada_R03.png"))
     img.drawWidth = 172 * mm
     img.drawHeight = img.imageHeight / img.imageWidth * img.drawWidth
@@ -104,7 +104,7 @@ def make_pdf(destination, release):
         ["Referência", "Demais ambientes", "Banheiro"],
         ["Piso no CAD", "Z = 0 mm", "Z = 0 mm"],
         ["Topo da envoltória R55", "2570 mm", "2570 mm"],
-        ["Teto acabado de projeto", "2600 mm nominal", "2500 mm nominal"],
+        ["Teto acabado de projeto", "2550 mm nominal", "2300 mm nominal"],
         ["Envoltória menos projeto", "-30 mm", "+70 mm"],
         ["Composição de piso no CAD", "Z -50 a 0 mm, representação nominal", "Z -50 a 0 mm, representação nominal"],
     ], [62 * mm, 55 * mm, 55 * mm])
@@ -153,10 +153,10 @@ def make_pdf(destination, release):
     table([["Ordem", "Face ou pendência de identificação", "Registro"]] + priorities,
           [13 * mm, 109 * mm, 50 * mm])
     story.append(PageBreak())
-    title("Pranchas de referência: R02 / desenhos R54")
+    title("Pranchas de referência: R02 / desenhos R55")
     story.append(p("As 20 folhas seguintes foram anexadas sem redimensionar. Plantas 1:50; elevações/detalhe 1:25. Imprimir A3 a 100%, sem ajustar ao papel; conferir a barra de 50 mm."))
     story.append(p("Incluem PL1-PL3 (paredes, layout e pontos), PT1-PT2 (pontos), E01-E12 (elevações), NC1 (triagem nominal de vãos) e DT1 (fechamento ao teto)."))
-    story.append(p("A atualização de caminho/SHA dos envelopes para R55 não reexportou a arquitetura. Paredes, vãos, pisos e esquadrias precisam ser reconciliados antes de uma emissão executiva. Não trocar o rótulo das folhas para sugerir atualização geométrica."))
+    story.append(p("As pranchas usam a geometria ativa R55: corte das paredes, pisos, vãos e aparelhos. As referências da caixa de P07/P16/P20 são distintas do envelope completo mostrado. Levantamento, instalações e revisão profissional permanecem pendentes antes de uma emissão executiva."))
     story.append(p("As 23 questões anteriores e as fontes no ZIP são o complemento da revisão. O pacote está preparado para consulta ao arquiteto; não foi enviado e não comprova compatibilização física."))
 
     def footer(c, doc):
@@ -176,11 +176,11 @@ def make_pdf(destination, release):
     for page in lead.pages:
         writer.add_page(page)
     writer.add_outline_item("Revisão, materiais e levantamento", 0)
-    writer.add_outline_item("Pranchas R02 / referência R54", len(lead.pages))
+    writer.add_outline_item("Pranchas R02 / referência R55", len(lead.pages))
     for page in PdfReader(ROOT / PLANCHES).pages:
         writer.add_page(page)
     writer.add_metadata({"/Title": "Guedala Park - Caderno para revisão do arquiteto",
-                         "/Subject": "Anteprojeto nominal; CAD R55 e pranchas R02/R54"})
+                         "/Subject": "Anteprojeto nominal; CAD R55 e pranchas R02/R55"})
     with destination.open("wb") as f:
         writer.write(f)
     return len(lead.pages)
@@ -206,13 +206,13 @@ def build(zip_path):
     OUT.mkdir(parents=True, exist_ok=True)
     pages = make_pdf(PDF, release)
     files = [
-        ("06_Entregas/Arquiteto/Caderno_arquiteto.pdf", "Caderno novo A4 + 20 pranchas A3 R02/R54"),
+        ("06_Entregas/Arquiteto/Caderno_arquiteto.pdf", "Caderno novo A4 + 20 pranchas A3 R02/R55"),
         (release["cadPath"], "Modelo nativo R55; sem conversão ou modificação"),
         ("02_Modelo_3D/README.md", "Referência do modelo e limites"),
         ("02_Modelo_3D/Relatorio_mudanca.md", "Verificação completa e aceite históricos"),
         (CAD_REVIEW, "13 pendências de arquitetura"),
         (INTERFACES, "10 interfaces prioritárias"),
-        (PLANCHES, "Pranchas originais R02/R54, sem redimensionar"),
+        (PLANCHES, "Pranchas originais R02/R55, sem redimensionar"),
         ("06_Entregas/Caderno_pranchas/README.md", "Origem e limites das pranchas"),
         ("03_Ambientes/Planta_pontos/Planta_pontos_R00.svg", "Desenho de pontos R01; nome legado R00"),
         ("03_Ambientes/Planta_pontos/README.md", "Funções de pontos e limites"),
@@ -222,7 +222,7 @@ def build(zip_path):
         (FIELD, "Roteiro completo de datum e prioridades"),
         ("07_Imovel/Medidas_e_impactos.csv", "Índice de campo vazio; não é levantamento"),
         ("04_Moveis/Dependencias/Folgas_ate_15.csv", "Folgas nominais da base anterior"),
-        ("03_Ambientes/Planta_mobiliada/Planta_mobiliada_R03.png", "Layout visual R03/cena R54"),
+        ("03_Ambientes/Planta_mobiliada/Planta_mobiliada_R03.png", "Layout visual R03/cena R55"),
     ]
     manifest = StringIO(newline="")
     w = csv.writer(manifest, delimiter=";")
@@ -244,7 +244,7 @@ Emissão 01/11/2026. Preparado; não enviado. ESTUDO - NÃO EXECUTAR.
 5. Confirme o formato editável necessário: IFC/DWG/DXF/STEP não incluídos.
 
 O caderno reúne revisão, quadro de materiais, layout e levantamento, seguidos
-das 20 pranchas A3 originais R02/referência R54. Não constitui reexportação
+das 20 pranchas A3 originais R02/referência R55. Não constitui reexportação
 arquitetônica do R55. Imprima os anexos A3 a 100%, sem ajustar ao papel.
 O nome Planta_pontos_R00.svg é legado; conteúdo documental R01.
 Os fontes Markdown preservam referências ao repositório completo; nem todos

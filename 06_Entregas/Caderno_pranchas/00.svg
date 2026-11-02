@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
 <rect width="420" height="297" fill="white"/>
-<text x="20" y="43" font-family="Arial, sans-serif" font-size="7" fill="#263238">CADERNO A3  |  R02</text>
+<text x="20" y="43" font-family="Arial, sans-serif" font-size="7" fill="#263238">CADERNO A3  |  R02 / CAD R55</text>
+<text x="240" y="145" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">P07/P16/P20: caixa e envelope completo distintos.</text>
+<text x="240" y="152" font-family="Arial, sans-serif" font-size="2.6" fill="#263238">Pranchas mostram conjunto; regras preservam a caixa.</text>
 <text x="20" y="55" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL1   Planta cotada - paredes e aberturas</text>
 <text x="20" y="62" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL2   Planta de layout - envelopes CAD</text>
 <text x="20" y="69" font-family="Arial, sans-serif" font-size="3.2" fill="#263238">PL3   Planta de pontos R01</text>
@@ -26,7 +28,7 @@
 <text x="240" y="90" font-family="Arial, sans-serif" font-size="3" fill="#263238">Fontes: CSV de medidas + Cotas.json + exportação CAD.</text>
 <text x="240" y="100" font-family="Arial, sans-serif" font-size="3" fill="#263238">Campo medido vence nominal. Branco = pendência.</text>
 <text x="240" y="110" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ajustes ao teto são estudos separados da CAD.</text>
-<text x="240" y="120" font-family="Arial, sans-serif" font-size="3" fill="#263238">R00 preservado; esta revisão não foi publicada.</text>
+<text x="240" y="120" font-family="Arial, sans-serif" font-size="3" fill="#263238">Geometria R55; cotas nominais, levantamento pendente.</text>
 <text x="240" y="130" font-family="Arial, sans-serif" font-size="3" fill="#263238">Ver Impacto.json: alterações, fontes e conflitos.</text>
 <rect x="8" y="8" width="404" height="281" stroke="#263238" fill="none" stroke-width="0.4"/>
 <text x="15" y="20" font-family="Arial, sans-serif" font-size="4.5" fill="#263238">00 | Índice e critérios de leitura</text>
@@ -37,5 +39,5 @@
 <text x="15" y="279" font-family="Arial, sans-serif" font-size="4" fill="#9d2925">ESTUDO — NÃO EXECUTAR</text>
 <text x="215" y="263" font-family="Arial, sans-serif" font-size="3" fill="#263238">R02 | 00 | 20 folhas | Sem escala</text>
 <text x="215" y="270" font-family="Arial, sans-serif" font-size="3" fill="#263238">0 cotas nominais | RT: __________________________</text>
-<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 4a2996ee63dd6f2f3dc30202...</text>
+<text x="215" y="277" font-family="Arial, sans-serif" font-size="2.4" fill="#263238">CAD SHA256: 0d9e16fc47ff93ca5122d72f...</text>
 </svg>
