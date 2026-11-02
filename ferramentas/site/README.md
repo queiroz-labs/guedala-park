@@ -38,11 +38,9 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 [Luz e contatos](Luz_e_contato/README.md): efeitos aproximados, controles e movimentos preservados. Prevalecem a configuração corrente e os limites atuais.
 
-## Referências da interface
+## Foco nos móveis
 
-[Verificação inicial](Verificacao_interface_R08.json) e limites nas fontes vigentes; histórico não autoriza publicação nova.
-
-[Apartamento](Guedala_Park_Interativo.html) · [Moodboard](../../09_Referencias/Moodboard_atualizado_R01.html) · [Estado atual](../../ESTADO_ATUAL.md).
+Seleção aproxima em 0,8 s; arraste/zoom interrompem. Ficha: interior, medidas e retorno; Esc restaura fora do diálogo. Respeita movimento reduzido. `src/module-focus.js`; reverter o commit restaura a seleção anterior. Pedido: Elias,02/11/2026, “vamos aplicar esse plano”.
 
 ## Como usar
 
@@ -63,9 +61,9 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 HTML: salvar cópia, escolhas, moodboard e imagem da vista.
 
-## No S24 Plus
+## Consulta offline
 
-Abra o HTML completo em navegador com suporte a arquivo local. “Salvar cópia” embute `src/downloads-data.js`; desenhos/interações funcionam offline. Vínculos exigem rede ou cópia local. Conferências anteriores não equivalem ao aparelho real.
+“Salvar cópia” inclui os dados; vínculos externos exigem rede.
 
 ## O que o modelo representa
 

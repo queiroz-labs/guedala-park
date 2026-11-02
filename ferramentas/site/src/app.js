@@ -11,7 +11,7 @@ const dragSign={h:1,v:1};try{const m=JSON.parse(localStorage.getItem('guedalaDra
 let cameraMoving=false,cameraSettleTimer=null,lastSceneState='';
 const WORLD_SCENES=new WeakMap();
 function moveCamera(){cameraMoving=true;clearTimeout(cameraSettleTimer);cameraSettleTimer=setTimeout(()=>{cameraMoving=false;requestRender();},180);}
-function sceneStateKey(){const {angle,tilt,zoom,pan,selected,measures,...geometry}=state;return JSON.stringify(geometry);}
+function sceneStateKey(){const {angle,tilt,zoom,pan,selected,measures,cameraBox,...geometry}=state;return JSON.stringify(geometry);}
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 function transitionState(key,value){
   const from=new Map(nodes.map(n=>[n.key,{...n}]));state[key]=value;
@@ -278,12 +278,12 @@ function mesh(n,interactive=false){if(n.kind==='cad')return cadMesh(n,interactiv
   if(kind==='chair'){const r=n.rot||0;for(const f of out){const [a,b,c]=f.normal;f.normal=[a*Math.cos(r)+c*Math.sin(r),b,-a*Math.sin(r)+c*Math.cos(r)];}}
   return out.map(f=>({...f,alpha:f.alpha*(n.opacity??1),id:n.id,room:n.room,node:n}));
 }
-function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=bounds;let a=st.angle,t=st.tilt;
+function camera(st,w,h,bounds){let [xmin,zmin,xmax,zmax]=st.cameraBox&&!st.moduleFilter?st.cameraBox:bounds;let a=st.angle,t=st.tilt;
   if(st.view==='top')t=Math.PI/2,a=0;
   if(st.view==='side'){t=0;a={east:-Math.PI/2,west:Math.PI/2,south:0,north:Math.PI}[st.side];}
   const ca=Math.cos(a),sa=Math.sin(a),ct=Math.cos(t),stilt=Math.sin(t),mx=(xmin+xmax)/2,mz=(zmin+zmax)/2,mirror=PROJECT.mirrored?-1:1;
   const raw=p=>{let X=(p[0]-mx)*mirror,Z=p[2]-mz,Y=p[1],u=X*ca+Z*sa,v=-X*sa+Z*ca;return[u,v*stilt-Y*ct,v*ct+Y*stilt];};
-  let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[0,st.view==='top'?0:(st.ymax||PROJECT.ceiling)])q.push(raw([x,y,z]));
+  let q=[];for(const x of[xmin,xmax])for(const z of[zmin,zmax])for(const y of[st.cameraBox&&!st.moduleFilter?st.cameraBox[4]:0,st.view==='top'?0:(st.cameraBox&&!st.moduleFilter?st.cameraBox[5]:(st.ymax||PROJECT.ceiling))])q.push(raw([x,y,z]));
   let minx=Math.min(...q.map(p=>p[0])),maxx=Math.max(...q.map(p=>p[0])),miny=Math.min(...q.map(p=>p[1])),maxy=Math.max(...q.map(p=>p[1]));
   let pad=w<500?28:45,spaceTop=st.mini?12:78,spaceBottom=st.mini?12:52;
   const scale=Math.min((w-pad*2)/(maxx-minx||1),(h-spaceTop-spaceBottom)/(maxy-miny||1))*st.zoom;

@@ -37,7 +37,7 @@ html=html.replace('</style>',(src/'navigation-clarity.css').read_text(encoding='
 html=html.replace('</body>', '<script>'+(src/'workshop-docs.js').read_text(encoding='utf-8')+'\n'+(src/'workshop.js').read_text(encoding='utf-8')+'\n'+(src/'fabrication-ui.js').read_text(encoding='utf-8')+'\n'+(src/'floorplan-ui.js').read_text(encoding='utf-8')+'</script></body>')
 frames=json.loads((root/'fabrication/module-frames.json').read_text(encoding='utf-8'))
 assert frames['sha256']==json.loads((root/'current_release.json').read_text(encoding='utf-8'))['cadSHA256']
-internal_js='const INTERNAL_FRAMES='+json.dumps(frames['frames'],separators=(',',':'))+';\n'+(src/'internal-measures-core.js').read_text(encoding='utf-8')+'\n'+(src/'internal-measures-ui.js').read_text(encoding='utf-8')
+internal_js='const INTERNAL_FRAMES='+json.dumps(frames['frames'],separators=(',',':'))+';\n'+(src/'internal-measures-core.js').read_text(encoding='utf-8')+'\n'+(src/'internal-measures-ui.js').read_text(encoding='utf-8')+'\n'+(src/'module-focus.js').read_text(encoding='utf-8')
 internal_js=subprocess.run(['node','-e',"process.stdout.write(require('esbuild').transformSync(require('fs').readFileSync(0,'utf8'),{loader:'js',minify:true,charset:'utf8'}).code)"],input=internal_js,text=True,encoding='utf-8',capture_output=True,check=True,cwd=root).stdout
 html=html.replace('</body>','<script>'+internal_js+'</script></body>')
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('field-data.js','field-guide-data.js','field-icons.js','field-core.js','field-ui.js'))+'</script></body>')
@@ -46,8 +46,10 @@ html=html.replace('</body>','<script data-downloads-loader>if(!globalThis.GUEDAL
 html=html.replace('</body>','<script>'+ '\n'.join((src/n).read_text(encoding='utf-8') for n in ('architect-data.js','architect-core.js','architect-ui.js','responsibility-ui.js','search-data.js','search-core.js','search-ui.js','context-ui.js','downloads-ui.js','status-help.js','mobile-ux-core.js','mobile-ux.js','tab-strip.js'))+'</script></body>')
 html=html.replace('</body>','<script>'+(src/'object-measures.js').read_text(encoding='utf-8')+'</script></body>')
 html=html.replace('</body>','<script>'+(src/'object-measure-mode.js').read_text(encoding='utf-8')+'</script></body>')
-html=html.replace('</body>','<script>'+(src/'object-list.js').read_text(encoding='utf-8')+'</script></body>')
-html=html.replace('</body>','<script>'+(src/'navigation-clarity.js').read_text(encoding='utf-8')+'</script></body>')
+list_js=subprocess.run(['node','-e',"process.stdout.write(require('esbuild').transformSync(require('fs').readFileSync(0,'utf8'),{minify:true,charset:'utf8'}).code)"],input=(src/'object-list.js').read_text(encoding='utf-8'),text=True,encoding='utf-8',capture_output=True,check=True,cwd=root).stdout
+html=html.replace('</body>','<script>'+list_js+'</script></body>')
+nav_js=subprocess.run(['node','-e',"process.stdout.write(require('esbuild').transformSync(require('fs').readFileSync(0,'utf8'),{minify:true,charset:'utf8'}).code)"],input=(src/'navigation-clarity.js').read_text(encoding='utf-8'),text=True,encoding='utf-8',capture_output=True,check=True,cwd=root).stdout
+html=html.replace('</body>','<script>'+nav_js+'</script></body>')
 for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('cad-data.js','/*CAD_DATA*/'),('cad-sync.js','/*CAD_SYNC*/'),('lighting.js','/*LIGHTING*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     content=(src/name).read_text(encoding='utf-8')
     if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+(src/'site-copy.js').read_text(encoding='utf-8')+'\n'+content
