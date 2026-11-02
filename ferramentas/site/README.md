@@ -4,7 +4,7 @@
 
 **Pia no site:** torneira atrás da cuba (Peca136/137); PE12G com rebaixo, bica, comandos e grelha mais legíveis, detalhes aproximados e envelope 16×42×35 cm preservado. Pedido: Elias,02/11/2026, nesta conversa.
 
-**CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Exportação estática local regenerada; publicação e integração dos controles novos no visualizador pendentes.
+**CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Publicação autorizada: Elias,02/11/2026: “ok, pode publicar”. Integração dos controles novos no visualizador pendente.
 
 **R55:** portas livres 80/70×210 cm e alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”); [106 cenários](../../02_Modelo_3D/Relatorio_mudanca.md); 3D: rodapé e persiana 30% (Elias, 31/10/2026) nominais.
 
