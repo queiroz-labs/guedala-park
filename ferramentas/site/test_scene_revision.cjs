@@ -86,3 +86,16 @@ assert.equal(greenWindow.reduce((a,n)=>a+n.d*n.h,0),124*225-40*110);
 assert(bins.some(n=>n.room==='banho'&&n.mat==='sage'&&n.z===527&&n.w===80));
 assert.deepEqual(bins.filter(n=>n.id==='trash').map(n=>n.x),[481,481,512]);
 assert.deepEqual(bins.filter(n=>n.id==='recycling').map(n=>n.z),[548.5,548.5,575.5]);
+
+// Kitchen tap must stay behind the bowl with its spout pointing over the bowl.
+const kitchen=scene({room:'cozinha'}),bowl=kitchen.find(n=>n.id==='sink'&&n.kind==='sink');
+const stalk=kitchen.find(n=>n.id==='sink'&&n.h===43),spout=kitchen.find(n=>n.id==='sink'&&n.y===133);
+assert(stalk.z>=bowl.z+bowl.d);
+assert.equal(stalk.x+stalk.w/2,bowl.x+bowl.w/2);
+assert.equal(spout.x,stalk.x);assert.equal(spout.z+spout.d,stalk.z);
+assert(spout.z<bowl.z+bowl.d&&spout.z>=bowl.z);
+const purifier=kitchen.filter(n=>n.id==='filter'),ribs=purifier.filter(n=>n.visualApproximation);
+assert.equal(ribs.length,8);
+assert(purifier.some(n=>n.source==='PE12G_Bica'));
+assert(purifier.some(n=>n.source==='PE12G_Comandos'));
+assert(ribs.every(n=>n.x>=552&&n.x+n.w<=568&&n.z>=646&&n.z+n.d<=688&&n.y>=92&&n.y+n.h<=127));

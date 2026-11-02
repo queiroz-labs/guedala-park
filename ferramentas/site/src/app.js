@@ -165,7 +165,8 @@ function buildScene(){nodes=[];nodeSequence={};
   add('oven','cozinha',392.15,637,51.7,61.5,5,61,'black','oven');
   add('cooktop','cozinha',388,646,60,45,92,1.5,'black','cooktop');
   add('sink','cozinha',459,650,43,37,90,2.6,'#959d97','sink');
-  add('sink','cozinha',502.5,678,2,2,92,43,'black');add('sink','cozinha',486.5,677,17,2,133,2,'black');
+  // Stalk behind the bowl; spout points forward over it (approved CAD Peca136/137).
+  add('sink','cozinha',479.5,689,2,2,92,43,'black');add('sink','cozinha',479.5,672,2,17,133,2,'black');
   add('fridge','cozinha',584.9,615.25,60.1,74.75,0,186.6,'inox','fridge');
   cabinet('kitchenupper','cozinha',385.5,665,65,35,197.6,57.4,'petrol',[],[417.1],{upper:true});
   cabinet('kitchenupper','cozinha',450.5,665,54.7,35,155,100,'petrol',[173,194,221.6],[],{upper:true});

@@ -39,6 +39,9 @@ function applyCadSync(scene,st){
   if(st.moduleFilter && part.module!==st.moduleFilter)continue;
   if(st.inside&&isInteriorCover(part))continue;
   const n={...part};
+  // Tonal separation makes the PE12G cup recess and controls readable.
+  const purifierColors={PE12G_Corpo:'#505659',PE12G_Bandeja:'#202729',PE12G_Comandos:'#181e21',PE12G_Bica:'#161b1d',PE12G_Tecla0:'#b5cbd4',PE12G_Tecla1:'#d8dddd',PE12G_Tecla2:'#91adbd'};
+  if(purifierColors[n.source])n.c=purifierColors[n.source];
   // Berlin: the native closed reference is 2+1; the open reference has
   // three chairs on the free side. Only the open use demonstration pulls out.
   if(n.id==='airfryer'&&st.dry!=='stored'){n.x+=171;n.room='cozinha';}
@@ -52,5 +55,7 @@ function applyCadSync(scene,st){
   if(Array.isArray(st.focusPart)?st.focusPart.includes(part.source):st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
   result.push(n);
  }
+ // Visual approximations only: shallow drip-tray ribs, inside the native envelope.
+ if(!st.moduleFilter)for(let i=0;i<8;i++)result.push({key:'visual/filter/grille/'+i,id:'filter',room:'cozinha',kind:'round',x:553.5,y:93.2,z:646.7+i*.85,w:13,d:.14,h:.05,r:.07,c:'#829094',visualApproximation:true});
  return st.moduleFilter?result.filter(n=>n.module===st.moduleFilter):result;
 }

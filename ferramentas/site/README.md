@@ -1,10 +1,12 @@
 # Apartamento interativo — R55 e pacote R30
 
+**Pia no site:** torneira atrás da cuba (Peca136/137); PE12G com rebaixo, bica, comandos e grelha mais legíveis, detalhes aproximados e envelope 16×42×35 cm preservado. Pedido: Elias,02/11/2026, nesta conversa.
+
 **CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Exportação estática local regenerada; publicação e integração dos controles novos no visualizador pendentes.
 
 **R55:** portas livres 80/70×210 cm e alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”); [106 cenários](../../02_Modelo_3D/Relatorio_mudanca.md); 3D: rodapé e persiana 30% (Elias, 31/10/2026) nominais.
 
-**Textos públicos:** estado atual, sem datas/revisões/atribuições. Fontes em `src/data.js`; registros internos preservados no git/fichas, retirados da biblioteca por `INTERNAL_DOCS` em `plain_language.py`.
+**Textos públicos:** estado atual em `src/data.js`; registros internos fora da biblioteca (`plain_language.py`).
 
 **Box verde:** duas paredes, chuveiro e janela; outra interna clara (Elias, 30/10/2026: “quero que esteja na parede da janela tbm”). Quantidades são hipóteses; R44 intacto. Estado/README de referências reservados ao commit do Elias.
 
@@ -69,7 +71,7 @@ As dimensões e pendências por ambiente ficam nas fontes vigentes: [sala/mesa/T
 
 Há um único PS5 representado, deslocado pelo seletor de ambiente. Não existe módulo para a caixa do gabinete, TV no quarto ou ar-condicionado. Estados de abertura do baú e varal são demonstrações conceituais. Alterações dos controles não aprovam novas medidas ou móveis.
 
-Portas, janelas, espessuras e trechos não cotados foram reconstruídos graficamente. Pé-direito nominal: 260 cm nos cômodos e 250 cm no banheiro, a confirmar (Elias, 27/10/2026). Forros e sancas não têm altura confirmada. Este é um estudo de layout, não desenho para fabricação. Piso vinílico definido, exceto banheiro/lavanderia; Olmo é a preferência, com Aveia/Bétula para comparar amostras. Cores digitais não substituem amostras físicas.
+Portas/janelas e espessuras gráficas dependem de campo/produto. Pé-direito nominal 255/230 cm; cores digitais dependem de amostra.
 
 ## Base documental e manutenção
 
