@@ -1,5 +1,7 @@
 # Apartamento interativo — R55 e pacote R30
 
+**Consulta interna:** na ficha de cada módulo, “Medidas internas no desenho” oferece frente/lateral/planta, posição do corte e duas linhas móveis. Cotas em cm vêm da interseção das malhas de chapas com o corte; recortes são respeitados. Frentes e ferragens não entram. Vão geométrico não comprova acesso, fabricação ou folgas de instalação. Pedido: Elias,02/11/2026, nesta conversa.
+
 **Pia no site:** torneira atrás da cuba (Peca136/137); PE12G com rebaixo, bica, comandos e grelha mais legíveis, detalhes aproximados e envelope 16×42×35 cm preservado. Pedido: Elias,02/11/2026, nesta conversa.
 
 **CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Exportação estática local regenerada; publicação e integração dos controles novos no visualizador pendentes.
@@ -8,9 +10,9 @@
 
 **Textos públicos:** estado atual em `src/data.js`; registros internos fora da biblioteca (`plain_language.py`).
 
-**Box verde:** duas paredes, chuveiro e janela; outra interna clara (Elias, 30/10/2026: “quero que esteja na parede da janela tbm”). Quantidades são hipóteses; R44 intacto. Estado/README de referências reservados ao commit do Elias.
+**Box verde:** chuveiro e janela verdes; outra interna clara (Elias,30/10/2026). Quantidades nominais.
 
-**Nominais:** alturas 255/230 cm (banheiro); portas livres 80×210 cm, banheiro 70×210 cm. Fonte: Elias,01/11/2026, nesta conversa. Posições, perfis de 2 cm e espessuras das folhas continuam gráficos; conferir produto/campo.
+**Nominais:** alturas 255/230 cm, vãos 80/70×210 cm (Elias,01/11/2026). Perfis e espessuras gráficos; conferir em campo.
 
 CAD/site: lavanderia 1,29 × 1,54 m; Loop +1,5 cm; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 

@@ -14,7 +14,7 @@ SITE = RAIZ / 'ferramentas/site'
 PY = sys.executable
 NODE = shutil.which('node')
 
-TESTES_NODE = ['test_orientation.cjs', 'test_scene_revision.cjs', 'test_lighting.cjs',
+TESTES_NODE = ['test_internal_measures.cjs', 'test_orientation.cjs', 'test_scene_revision.cjs', 'test_lighting.cjs',
                'test_part_groups_ui.cjs', 'test_storage.cjs', 'test_document_library.cjs',
                'test_navigation.cjs', 'test_architect_entry.cjs', 'test_entry_targets.cjs', 'test_search.cjs', 'test_mobile_ux.cjs', 'test_downloads.cjs', 'test_field.cjs', 'test_field_datum.cjs', 'test_field_guides.cjs', 'test_work.cjs']
 
