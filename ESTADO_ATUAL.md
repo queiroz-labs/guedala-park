@@ -106,6 +106,8 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
+**Revisão documental em preparação:** pranchas/alturas e produtos, com conferência externa; entregas publicadas ainda não substituídas. [Gerador](ferramentas/pranchas/README.md).
+
 **CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).

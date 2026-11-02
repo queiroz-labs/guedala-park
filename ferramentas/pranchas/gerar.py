@@ -63,7 +63,7 @@ def chamada(f, x, y, text, occupied, color='#263238'):
 
 
 class Projeto:
-    def __init__(self, cenario=None):
+    def __init__(self, cenario=None, geometria=None):
         self.rows = carregar(ROOT)
         self.recalculo = None
         if cenario:
@@ -73,7 +73,7 @@ class Projeto:
             self.recalculo = calcular(self.rows, base(ROOT))
         self.doc = json.loads((ROOT/'06_Entregas/Planta_cotada/Cotas.json').read_text(encoding='utf-8'))
         self.data = self.doc['pranchas']
-        self.geo = json.loads((ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))
+        self.geo = json.loads((geometria or ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))
         path = ROOT/self.geo['cad_path']
         if hashlib.sha256(path.read_bytes()).hexdigest() != self.geo['cad_sha256']:
             raise ValueError('Exportação desatualizada: executar exportar.py e verificação completa do modelo.')
@@ -104,7 +104,11 @@ class Projeto:
         return resolver(self.rows, code)
 
     def refs(self, record):
-        return [self.m(k) for k in record['refs']]
+        values=[self.m(k) for k in record['refs']]
+        actual=self.geo.get('openings',{}).get(record.get('id'))
+        if actual:
+            values=[m if m.origem=='medido' else cad(v,actual['source']) for m,v in zip(values,actual['values'])]
+        return values
 
     def pe(self, room):
         return self.m(self.data['ceiling'][room])
@@ -113,6 +117,8 @@ class Projeto:
         f=Folha(code,title,50)
         ox,oy=30,42
         labels=[]
+        if self.geo.get('openings'):
+            f.avisos.append('Vãos: coordenadas nominais lidas do CAD; referências históricas PR ainda por conciliar, sem alterar regras dimensionais.')
         def rect(b, color, fill=None):
             f.caixa(ox+b[0]/50,oy+b[1]/50,b[2]/50,b[3]/50,color,fill)
         for record in self.data['floors']:
@@ -120,11 +126,18 @@ class Projeto:
             if None in b:
                 f.avisos.append('Piso incompleto: '+record['room']);continue
             rect(b,'#d9dfe0','#f5f6f3')
-        for record in self.data['walls']:
-            ms=self.refs(record);b=[m.mm for m in ms]
-            if None in b:
-                raise ValueError('Parede sem dimensão: '+str(record['refs']))
-            rect(b,'#526269','#c4ccce')
+        if self.geo.get('architecture') and not self.recalculo:
+            mirror = self.m(self.data['mirror']).mm
+            for wire in self.geo['architecture']['wires']:
+                for a,b in zip(wire,wire[1:]):
+                    f.linha(ox+(mirror-a[0])/50,oy+a[1]/50,
+                            ox+(mirror-b[0])/50,oy+b[1]/50,'#526269',.35)
+        else:
+            for record in self.data['walls']:
+                ms=self.refs(record);b=[m.mm for m in ms]
+                if None in b:
+                    raise ValueError('Parede sem dimensão: '+str(record['refs']))
+                rect(b,'#526269','#c4ccce')
         for record in self.data['openings']:
             ms=self.refs(record); b=[m.mm for m in ms]
             if None in b[:4]:
@@ -210,6 +223,8 @@ class Projeto:
         code,title,room,axis,names,extras=spec
         f=Folha(code,title,25)
         a=0 if axis=='x' else 1
+        aliases={'Peca138':'IB6S_Visual','Peca152':'LGVC4_Visual','Peca351':'ME23P_Visual'} if self.geo.get('architecture') else {}
+        extras=[aliases.get(n,n) for n in extras]
         selected=[self.modules[n] for n in names]+[self.objects[n] for n in extras]
         if not selected:raise ValueError('Elevação vazia: '+code)
         lo=min(o['box'][a] for o in selected);hi=max(o['box'][a+3] for o in selected)
@@ -374,8 +389,8 @@ def finalizar(f, total, sha):
         f.texto(335,287,f'50 mm no papel = {50*f.escala:g} mm reais',2.4)
 
 
-def gerar(cenario=None):
-    p=Projeto(cenario)
+def gerar(cenario=None, geometria=None):
+    p=Projeto(cenario, geometria)
     pages=[p.plano('PL1','Planta cotada - paredes e aberturas','paredes'),
            p.plano('PL2','Planta de layout - envelopes CAD','layout'),
            p.plano('PL3','Planta de pontos R01','pontos')]
@@ -451,13 +466,14 @@ if __name__=='__main__':
         raise SystemExit(subprocess.call([str(runtime),'-B',str(Path(__file__).resolve()),*sys.argv[1:]],env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1')))
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cenario',type=Path)
+    parser.add_argument('--geometria',type=Path,help='Exportação externa de candidato; exige --saida')
     parser.add_argument('--saida',type=Path)
     args=parser.parse_args()
-    if args.cenario and not args.saida:
+    if (args.cenario or args.geometria) and not args.saida:
         parser.error('--cenario exige --saida fora do repositório')
     if args.saida:
         output=args.saida.resolve()
         if output==ROOT or ROOT in output.parents:
             parser.error('--saida deve ficar fora do repositório')
         OUT=output
-    gerar(args.cenario)
+    gerar(args.cenario, args.geometria)

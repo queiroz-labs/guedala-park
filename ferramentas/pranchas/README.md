@@ -1,5 +1,7 @@
 # Gerador de pranchas
 
+**Revisão integrada em preparação:** exportação relê aparelhos ativos, conserva classificações documentais e inclui corte real das paredes emZ1000mm. `exportar_documento_gui(doc, destino_externo)` permite conferir sem salvarCAD nem atualizar base/release. `gerar.py --geometria <json_externo> --saida <pasta_externa>` gera20 folhas de revisão. Não incorporar antes da conferência. Teste sintético2470mm preservado; expectativas nominais corrigidas para2550/2300mm. Pedido: Elias,02/11/2026, “execute”.
+
 CAD principal de 02/11/2026: seleção histórica relida, 24 alvos preservados; torneira Peca136/137 atualizada. SHA sincronizado sem mudar fórmulas nem reexportar arquitetura/pranchas. Fonte: Elias,02/11/2026: “aprovo deixa como documento principal”.
 
 **R55 corrigido:** `atualizar_selecao(ids_atualizar)` de `exportar.py`, executada na GUI com o vigente aberto, relê a seleção histórica e só sincroniza regras/SHA se os 24 alvos dimensionais permanecerem iguais. Atualiza somente os IDs explícitos: Peca147/148/149 nesta correção. Isso não inclui os novos objetos arquitetônicos da R55. As folhas R02 continuam históricas; nova compatibilização arquitetônica pendente. Correção da lavanderia/Loop: Elias,01/11/2026, “Sim, incorporar essa correção”.

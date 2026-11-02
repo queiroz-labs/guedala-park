@@ -55,7 +55,7 @@ def testar(parent):
         codes=[]
         for row in rows:
             if row['codigo_medida'].startswith('PD-'):
-                assert numero(row['valor_nominal_atual'],nominal=True)==(2500 if row['codigo_medida']=='PD-BAN' else 2600)
+                assert numero(row['valor_nominal_atual'],nominal=True)==(2300 if row['codigo_medida']=='PD-BAN' else 2550)
                 row['valor_medido']='2470 mm'
                 row['evidencia_campo']='TESTE TEMPORARIO; não representa medição real'
                 codes.append(row['codigo_medida'])
@@ -73,7 +73,7 @@ def testar(parent):
         assert conflicts and all(a['depois']['prancha'] and a['depois']['movel'] for a in changed_values)
         for name in ('P09','P10','P11','P12'):
             assert current['E01:'+name+'-folga']['mm']==-80
-            assert current['E01:'+name+'-altura-parametrica']['mm']==baseline['E01:'+name+'-altura-parametrica']['mm']-130
+            assert current['E01:'+name+'-altura-parametrica']['mm']==baseline['E01:'+name+'-altura-parametrica']['mm']-80
         assert current['E01:pe-direito']['origem']=='medido'
         assert current['E01:P09-folga']['origem']=='nominal'
         assert current['DT1:fechamento']['mm']==30
@@ -102,8 +102,8 @@ def testar(parent):
         assert failed.returncode!=0 and sha(out/'Ultima_geracao.json')==snapshot_hash
         assert sha(out/'Guedala_Park_Pranchas_R02.pdf')==stable_pdf
         assert all(sha(ROOT/name)==before[name] for name in source_files)
-        result=dict(pe_direito='2600 (banheiro 2500) -> 2470 mm',ambientes=len(codes),elevacoes_alteradas=len(changed_elevations),
-                    cotas_alteradas=len(changed_values),conflitos=conflicts,fechamento_P03='160 -> 30 mm',
+        result=dict(pe_direito='2550 (banheiro2300) -> 2470 mm',ambientes=len(codes),elevacoes_alteradas=len(changed_elevations),
+                    cotas_alteradas=len(changed_values),conflitos=conflicts,fechamento_P03='110 -> 30 mm',
                     repeticao_sem_mudancas=0,originais_preservados=True,folhas=20,
                     escala_vetorial_1_25=True,pdf_deterministico=True,entrada_invalida_preserva_saida=True)
         print(json.dumps(result,ensure_ascii=True,indent=2))

@@ -32,48 +32,16 @@ def complementar(payload):
 
 def exportar():
     import FreeCAD as App
-    release = json.loads((ROOT / 'ferramentas/site/current_release.json').read_text(encoding='utf-8'))
-    path = ROOT / release['cadPath']
-    before = hashlib.sha256(path.read_bytes()).hexdigest()
-    if before != release['cadSHA256']:
-        raise ValueError('SHA do modelo diverge do manifesto')
-    doc = App.openDocument(str(path), True)
-    records = []
-    modules = {('Modulo' + (f'{i:03}' if i else '')): f'P{i+1:02}' for i in range(20)}
-    parents = {child.Name: p for p in doc.Objects for child in getattr(p, 'Group', [])}
+    release=json.loads((ROOT/'ferramentas/site/current_release.json').read_text(encoding='utf-8'))
+    path=ROOT/release['cadPath']; before=hashlib.sha256(path.read_bytes()).hexdigest()
+    if before!=release['cadSHA256']:raise ValueError('SHA do modelo diverge do manifesto')
+    doc=App.openDocument(str(path),True)
     try:
-        for obj in doc.Objects:
-            shape = getattr(obj, 'Shape', None)
-            if shape is None or shape.isNull() or hasattr(obj, 'Group'):
-                continue
-            chain, parent = [obj], obj
-            while parent.Name in parents:
-                parent = parents[parent.Name]
-                chain.append(parent)
-            rooms = [p.Name.removeprefix('Ambiente_') for p in chain if p.Name.startswith('Ambiente_')]
-            bathroom = any(p.Name == 'BanheiroCorrerR43' for p in chain)
-            if bathroom:
-                rooms = ['banho']
-            if not rooms or any(hasattr(p, 'Visibility') and not p.Visibility for p in chain):
-                continue
-            # Shape inclui Placement próprio; aplica somente a transformação dos pais.
-            box = shape.BoundBox
-            parent = obj.getParentGeoFeatureGroup()
-            matrix = parent.getGlobalPlacement().toMatrix() if parent else App.Matrix()
-            pts = [matrix.multVec(App.Vector(x,y,z)) for x in (box.XMin,box.XMax)
-                   for y in (box.YMin,box.YMax) for z in (box.ZMin,box.ZMax)]
-            bounds = [min(getattr(p,a) for p in pts) for a in ('x','y','z')]
-            bounds += [max(getattr(p,a) for p in pts) for a in ('x','y','z')]
-            records.append(dict(id=obj.Name, label=obj.Label, room=rooms[0],
-                                module='P18' if bathroom else next((modules[p.Name] for p in chain if p.Name in modules), None),
-                                box=[round(v,3) for v in bounds]))
-        payload = dict(schema=1, units='mm', cad_path=release['cadPath'], cad_sha256=before,
-                       method='FreeCAD: envelopes globais de objetos visíveis; sem recálculo/gravação', objects=records)
-        OUT.write_text(json.dumps(complementar(payload), ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+        result=exportar_documento_gui(doc,OUT,oficial=True)
     finally:
         App.closeDocument(doc.Name)
-    assert hashlib.sha256(path.read_bytes()).hexdigest() == before, 'FCStd alterado'
-    print(f'Exportados {len(records)} envelopes; SHA preservado: {before}')
+    assert hashlib.sha256(path.read_bytes()).hexdigest()==before
+    print(result)
 
 
 def atualizar_selecao(ids_atualizar):
@@ -121,6 +89,62 @@ def atualizar_selecao(ids_atualizar):
     rules_path.write_text(json.dumps(rules,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
+def exportar_documento_gui(doc, destino, oficial=False):
+    """Candidato externo: seleção do site relida no CAD + corte arquitetônico real.
+
+    Não salva/recalcula o documento nem atualiza release, regras ou base.
+    """
+    import FreeCAD as App
+    path = Path(doc.FileName).resolve()
+    destino = Path(destino).resolve()
+    if destino.is_relative_to(ROOT) and not oficial:
+        raise ValueError('Conferência deve ficar fora do repositório')
+    raw = (ROOT/'ferramentas/site/src/cad-data.js').read_text(encoding='utf-8')
+    data = json.loads(raw[raw.index('{'):raw.rindex('}')+1])
+    records = []
+    historical=json.loads((ROOT/'06_Entregas/Caderno_pranchas/Geometria.json').read_text(encoding='utf-8'))
+    selected={p['id']:p for p in historical['objects']}
+    selected.update({p['source']:p for p in data['parts']})
+    for obj in doc.Objects:
+        if obj.Name.startswith('PE11X_') and hasattr(obj,'Shape'):
+            selected[obj.Name] = dict(room='cozinha',module=None)
+    for name, record in selected.items():
+        obj = doc.getObject(name)
+        if obj is None or not hasattr(obj,'Shape') or obj.Shape.isNull() or not obj.Visibility:
+            continue
+        parent = obj.getParentGeoFeatureGroup()
+        if parent and not parent.Visibility:
+            continue
+        shape = obj.Shape.copy()
+        if parent:shape.Placement = parent.getGlobalPlacement().multiply(shape.Placement)
+        b = shape.BoundBox
+        records.append(dict(id=name,label=obj.Label,room=record['room'],module=record.get('module'),
+                            box=[round(v,3) for v in (b.XMin,b.YMin,b.ZMin,b.XMax,b.YMax,b.ZMax)]))
+    for prefix,group,room in [('IB6S_','IB6S_Visual','cozinha'),('LGVC4_','LGVC4_Visual','lavanderia'),('ME23P_','ME23P_Visual','cozinha'),('PE12G_','PE12G_Visual','cozinha')]:
+        members=[r for r in records if r['id'].startswith(prefix)]
+        if not members:raise ValueError('Aparelho sem geometria: '+group)
+        bounds=[fn(r['box'][i] for r in members) for fn,indices in [(min,range(3)),(max,range(3,6))] for i in indices]
+        records.append(dict(id=group,label=doc.getObject(group).Label,room=room,module=None,box=bounds,aggregate=True))
+    wall = doc.getObject('VaosCorte_PI')
+    if wall is None:raise ValueError('Parede arquitetônica vigente ausente')
+    wires = [[[round(p.x,3),round(p.y,3)] for p in wire.discretize(Deflection=0.5)]
+             for wire in wall.Shape.slice(App.Vector(0,0,1),1000)]
+    if not wires:raise ValueError('Corte arquitetônico vazio')
+    payload = complementar(dict(schema=2,units='mm',cad_path=path.relative_to(ROOT).as_posix() if path.is_relative_to(ROOT) else str(path),
+        cad_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
+        method='Seleção ativa do visualizador relida no candidato GUI; paredes em corte Z1000 mm',
+        objects=records,architecture=dict(source=wall.Name,height=1000,wires=wires)))
+    payload['openings']={}
+    for i,name,axis in [(1,'Batente_Escritorio_Compatibilizado','x'),(2,'Batente_Quarto','y'),(3,'Batente_Banheiro_Compatibilizado','x'),(4,'Batente_Entrada','y')]:
+        obj=doc.getObject(name);b=obj.Shape.BoundBox
+        lo=[b.XMin,b.YMin];hi=[b.XMax,b.YMax];k=0 if axis=='x' else 1
+        lo[k]+=20;hi[k]-=20
+        payload['openings']['porta-'+str(i)]=dict(source=name,values=[7400-hi[0],lo[1],hi[0]-lo[0],hi[1]-lo[1],0,2100])
+    destino.parent.mkdir(parents=True,exist_ok=True)
+    destino.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    return dict(objects=len(records),wires=len(wires),sha=payload['cad_sha256'])
+
+
 if os.environ.get('GP_PRANCHAS_FREECAD') == '1':
     exportar()
 elif __name__ == '__main__':
@@ -132,3 +156,4 @@ elif __name__ == '__main__':
                    env=dict(os.environ, GP_PRANCHAS_FREECAD='1', PYTHONDONTWRITEBYTECODE='1'), check=True)
     if not OUT.exists() or OUT.stat().st_mtime_ns == previous_mtime:
         raise SystemExit('FreeCAD não produziu a exportação')
+

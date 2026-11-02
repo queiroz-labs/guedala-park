@@ -35,9 +35,9 @@ Produz 20 folhas SVG, HTML com páginas de 420 × 297 mm e PDF vetorial. Plantas
 | NC1 | Triagem de vãos entre planos horizontais dos módulos |
 | DT1 | Detalhe-tipo de fechamento ao teto |
 
-## Alturas vigentes — 27/10/2026
+## Alturas nominais vigentes
 
-Elias solicitou 2,60 m em todos os cômodos e 2,50 m no banheiro. CSV atualizado como nominal/planta, sem preencher medição fictícia. O cenário de 2,47 m do escritório foi substituído. Site e pranchas leem a mesma fonte; caixas R53 continuam como referência, e as cotas dependentes do teto são recalculadas.
+2550 mm nos cômodos; banheiro2300 mm. Fonte: Elias,01/11/2026, decisão registrada em `ESTADO_ATUAL.md`. CSV já contém essas alturas; folhas R02 antigas ainda precisam de regeneração. Nenhuma medição fictícia foi preenchida. Na revisão em preparação,87 cotas mudam apenas com as alturas; coordenadas dos vãos e geometria ativa exigem conferência adicional.
 
 ## Origem e parametrização
 

@@ -2,6 +2,8 @@
 
 **Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
+**Revisão de portas em preparação:** coordenadas históricas PR-PORTA-1…4 divergem dos batentes R55; conferência externa em02/11/2026. O CSV e as regras dimensionais permanecem preservados até conciliar as referências. Campo continua vazio.
+
 ## Levantamento e impactos — T08, 26/10/2026
 
 [Checklist de vistoria](Checklist_vistoria_dia_das_chaves.md) · [Folha de medidas](Roteiro_dia_das_chaves_R01.md) · [Medidas e arquivos afetados — CSV](Medidas_e_impactos.csv).
