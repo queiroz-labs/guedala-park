@@ -41,11 +41,13 @@ function applyCadSync(scene,st){
   const n={...part};
   // Berlin: the native closed reference is 2+1; the open reference has
   // three chairs on the free side. Only the open use demonstration pulls out.
+  if(n.id==='airfryer'&&st.dry!=='stored'){n.x+=171;n.room='cozinha';}
   if(n.id==='diningchairs'&&st.table==='extended'&&st.dining==='use')n.x-=34;
   n.visualFinish=VISUAL_FINISHES.parts[part.finishSource||part.source];
   // Só na visualização: onde a chapa seria Branco TX, o 3D usa a cor do próprio móvel (o acabamento real não muda).
   const code=(part.module||'').match(/P\d\d/)?.[0],look=VISUAL_FINISHES.modules[code];
   if(look&&look!=='mirror'&&look!=='whiteTX')n.look=look;
+  if(['P02','P17'].includes(code))n.look=null;
   if(n.visualFinish){n.mat=n.visualFinish.material==='whiteTX'&&n.look?n.look:n.visualFinish.material;n.c=color(n.mat);}
   if(Array.isArray(st.focusPart)?st.focusPart.includes(part.source):st.focusPart===part.source){n.c='#d49a51';n.finishHighlight=true;}
   result.push(n);

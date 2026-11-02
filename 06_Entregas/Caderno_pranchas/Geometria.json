@@ -2,8 +2,8 @@
   "schema": 1,
   "units": "mm",
   "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cad_sha256": "abf6c2eb22f4cf1a2693470c3d94619e5adcb525c599ab0b513a75086d3d3445",
-  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: . Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
+  "cad_sha256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
+  "method": "Seleção histórica R02; 24 alvos conferidos no CAD vigente. Envelopes atualizados explicitamente: Peca136, Peca137. Demais envelopes históricos preservados; arquitetura R55 não reexportada.",
   "objects": [
     {
       "id": "Peca",
@@ -921,11 +921,11 @@
       "room": "cozinha",
       "module": null,
       "box": [
-        2355.0,
-        6780.0,
+        2585.0,
+        6890.0,
         920.0,
-        2375.0,
-        6800.0,
+        2605.0,
+        6910.0,
         1350.0
       ]
     },
@@ -935,11 +935,11 @@
       "room": "cozinha",
       "module": null,
       "box": [
-        2365.0,
-        6770.0,
+        2585.0,
+        6720.0,
         1330.0,
-        2535.0,
-        6790.0,
+        2605.0,
+        6890.0,
         1350.0
       ]
     },

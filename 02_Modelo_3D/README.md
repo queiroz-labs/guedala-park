@@ -1,17 +1,32 @@
 # Modelo 3D (FreeCAD)
 
-Vigente: **R55**, [FCStd](Guedala_Park_R55_Berlin.FCStd). Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”: portas livres 800×2100 mm, banheiro 700×2100 mm; alturas acabadas 2550/2300 mm. Bancada/gabinete preservados. [Relatório](Relatorio_mudanca.md) · [SHA/release](../ferramentas/site/current_release.json).
+Vigente: **R55**, com correções incorporadas em 02/11/2026 (Elias: “aprovo deixa como documento principal”), [FCStd](Guedala_Park_R55_Berlin.FCStd). Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”: portas livres 800×2100 mm, banheiro 700×2100 mm; alturas acabadas 2550/2300 mm. Bancada/gabinete preservados. [Relatório](Relatorio_mudanca.md) · [SHA/release](../ferramentas/site/current_release.json).
+
+
+## Aparência e movimentos incorporados — 02/11/2026
+
+Elias, 02/11/2026, nesta conversa: “aprovo deixa como documento principal”, após o relatório do candidato `Aparencia_movimentos`. SHA e aprovação no relatório vigente.
+
+- Vaso sanitário reconhecível, folha do banheiro reposicionada, torneira atrás da cuba e faixa frontal acima da grelha do forno.
+- PE12G, RI9252/91 e ME23P com formas externas; IB6S e LG CV5012PC4 com portas móveis. Envelopes documentados preservados; detalhes, espessuras e eixos são aproximações visuais.
+- `IB6S_Controles`: refrigerador/freezer independentes, 0–90°. `LGVC4_Controles.Abertura`: 0–90°; profundidade gráfica aberta 1100 mm, mais reserva traseira de 100 mm.
+- `Persiana_Controle_Quarto/Escritorio.Fechamento`: 0–100%, inicial 30%; enrolamento gráfico sem inclinação de lâminas documentada.
+- `Porta_Controle_Entrada/Quarto/Escritorio.Abertura`: 0–90°, inicial 90°. Banheiro mantém `PortaEntradaBanheiroR12.Abertura`. Folha do escritório +10 mm em X para alinhar fechamento ao vão; demais mecanismos existentes preservados.
+- Porta B `FrenteSimplesR001` e faixa fixa `FaixaQuinaBR04`: Arenza em todas as faces; P17: lateral externa marfim, fundo/tampo internos Branco TX.
+- Verificação do candidato: 106 cenários existentes e 26 testes adicionais de posições, retorno, persianas e fixos; nenhuma colisão nova na comparação completa. Testes adicionais não demonstram limite mecânico real nem substituem conferência no produto.
+
+Fontes oficiais: [PE12G](https://loja.electrolux.com.br/pe12g-pe12g-purif-agua-pelt-bivolt/p), [RI9252](https://www.philips.com.br/c-p/RI9252_91/essential-airfryer), [ME23P](https://loja.electrolux.com.br/micro-ondas-electrolux-preto-23l-efficient-me23p/p), [LG](https://www.lg.com/br/lavanderia/lava-e-seca/cv5012pc4/). Dimensões e reservas: [conferência](../03_Ambientes/Equipamentos/Conferencia_127V_e_folgas.md). Cores: [regra por chapa](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 
 ## Referência para revisão do arquiteto
 
-6038 objetos; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
+6149 objetos; 8239 expressões; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
 
 | Item | Situação e uso |
 |---|---|
 | R55 vigente | Portas/alturas incorporadas: Elias,01/11/2026, “Sim, incorporar o candidato e atualizar a base”. Histórico de limpeza/nível no git. |
 | Pranchas A3 R02 | [Caderno](../06_Entregas/Caderno_pranchas/README.md): desenhos ainda referenciam R54. Metadados de Geometria.json/regras.json apontam R55, mas envelopes foram mantidos da exportação anterior. Não representam reexportação arquitetônica do R55. |
 | Planta mobiliada R03 | [Capturas da R54](../03_Ambientes/Planta_mobiliada/README.md); preservar identificação até produzir vistas novas. |
-| Verde na janela do box | [Candidato separado](Verde_box_candidato.md), não incorporado: objeto RevestJanelaBoxR55 ausente no XML do vigente. |
+| Verde na janela do box | Incorporado: `RevestJanelaBoxR55`; parede do chuveiro preservada, outra interna clara. |
 | Campo e executivo | Sem medida real; revisão do arquiteto, levantamento e detalhamento continuam pendentes. |
 
 Histórico de formação abaixo; caminhos externos não são modelos vigentes. Abridor: `-Vigente`.
@@ -28,32 +43,9 @@ Histórico de formação abaixo; caminhos externos não são modelos vigentes. A
 
 Elias, 31/10/2026: nível Z0/**2570 mm nominal** e vãos `Part::Cut`, hoje no R55. Partida: candidato piso/rodapé da base atual; pisos/54 rodapés preservados. Histórico: projeto nominal agora 2550/2300 mm; verde separado.
 
-### Envelopes anteriores dos cortes — histórico
+Envelopes históricos anteriores às portas atuais: consultar o histórico Git. Medidas vigentes e limites estão no topo e no relatório.
 
-Fontes: [P01 oficial](../09_Referencias/Plantas_e_manuais/Planta_oficial.pdf), localização; [planta mobiliada](../03_Ambientes/Planta_mobiliada/README.md), contexto. **Cotas não explícitas no PDF:** extraídas do R54, sem medição real. X/Y mm globais, canto mínimo; largura no eixo indicado. Parede = caixas limítrofes.
-
-| ID/ambiente | Parede (`Peca…`) | X/Y mm | Eixo/largura mm | Altura mm | Peitoril mm | Fonte R54 (`Peca…`) |
-|---|---|---:|---:|---:|---:|---|
-| JQ Quarto | 009/011 | 5600/900 | X/1200 | 1130 | 920 | 063+064 |
-| JE Escritório | 019/021 | 3100/−100 | X/1150 | 1130 | 920 | 065+066 |
-| JS Sala | 031/033 | 680/1750 | X/1390 | 1130 | 920 | 067+068 |
-| JL Lavanderia | 041/043 | 4850/5690 | Y/1060 | 1130 | 920 | 069+070 |
-| JB Banheiro | 045/047 | 4850/4350 | Y/400 | 1130 | 920 | 071+072 |
-| PQ Quarto | 057/059/061 | 3650/3150 | Y/750 | 2050 | 0 | lacuna + folha 074 |
-| PE Escritório | 027/029 | 2650/2950 | X/750 | 2050 | 0 | lacuna + folha 073 |
-| PB Banheiro | 053/055 | 2850/3950 | X/700 | 2050 | 0 | lacuna + folha 075 |
-| PI Entrada/cozinha | 035/037 | −100/6150 | Y/750 | 2050 | 0 | lacuna + folha 076 |
-
-**Nominais:** janela inclui vidro 1100 mm (Z950..2050) + soleira 30 mm (Z920..950); 920/1130 é envoltória, não vão bruto. Parede 100 mm nominal. Porta: largura da lacuna/altura da folha, sem folgas ou batentes adicionais.
-
-### Construção e pendências
-
-As 27 caixas já deixam lacunas: cortes diretos removeriam zero. Originais ocultos/referenciados, preservados. União: nove recomposições + 23 prolongamentos; nove `Part::Cut`. `ParedesCortadas` oculta; nível BIM `BuildingPart`, Z0/2570 nominal.
-
-Pendências: vão bruto/folgas, peitoris, alturas, espessuras e teto/RT. Entrada: lacuna CAD **750 mm** versus folha 076 **850 mm**; confirmar largura/posição no levantamento. Estudo preserva a lacuna, sem resolver por hipótese.
-
-**Verificação histórica da etapa:** 106 cenários/1129 pares, sem falha/colisão nova. Etapa incorporada ao R55; aceite consolidado no relatório do vigente.
-
+Construção anterior de nível/vãos preservada no histórico Git; portas e alturas correntes constam no relatório.
 
 ## Esquadrias no estudo
 
@@ -138,13 +130,7 @@ As bases intermediárias e cópias externas descrevem a preparação histórica;
 - Rodapé 80 mm/15 mm nominal: **54 trechos / 35,41680 m** na etapa de origem; recortado contra interferências e, depois, batentes. Não é quantitativo comercial final. Rodape_Parametros evita ciclo de expressões.
 - Verificação histórica da composição: 59.104 células sem lacuna/sobreposição, soleiras em contato e 106 cenários sem colisão nova. Aceite do conjunto vigente no [relatório](Relatorio_mudanca.md).
 
-Macro de origem: `ferramentas/estudos/compor_piso_rodape.FCMacro`. Não executar sobre o vigente para reconstruir uma etapa já incorporada. A integração do verde da janela continua separada e pendente.
-
-## Histórico R53/R54 — 27/10/2026
-
-**R54:** pedestais Berlin aproximados e cadeira lateral +15 mm em X, sem colisões novas nos 106 cenários. Elias, 27/10/2026: “Se passar sem colisões novas, pode salvar como R54, atualizar a base e publicar no site.” [Dimensões](../04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md).
-
-**R53:** [dados históricos](Alteracoes_R53.json); 5.832 objetos/7.702 expressões/106 cenários.
+Macro de origem: `ferramentas/estudos/compor_piso_rodape.FCMacro`. Não executar sobre o vigente para reconstruir uma etapa já incorporada. O verde da janela foi incorporado em 02/11/2026; ver seção de aparência vigente.
 
 ## Triagem das formas inválidas — 25/10/2026
 

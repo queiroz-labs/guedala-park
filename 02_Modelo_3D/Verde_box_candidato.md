@@ -1,6 +1,6 @@
-# Candidato: verde na janela do box
+# Verde na janela do box — incorporado
 
-**Aprovação: PENDENTE.** Pedido de Elias, 30/10/2026, para verde também na parede da janela.
+**Incorporado:** Elias, 02/11/2026, nesta conversa: “aprovo deixa como documento principal”. Aprovação e SHA atuais no [relatório](Relatorio_mudanca.md). Evidência histórica de preparação abaixo. Pedido de Elias, 30/10/2026, para verde também na parede da janela.
 
 Macro GUI executado na cópia externa `../outputs/R55_candidato/Guedala_Park_R55_candidato.FCStd`, sem substituir R54 nem base. A camada usa espessura/material do fundo e recorta a janela, piso, enchimento e encontro com o revestimento existente.
 
@@ -12,4 +12,4 @@ Camada: 20 mm, material/cor da Peca160, topo desenhado 2250 mm; não representa 
 
 A CLI oficial só seleciona o vigente. `ferramentas/estudos/verificar_candidato_verde_box.py --candidato <FCStd externo>` chama as mesmas funções oficiais de inspeção, invariantes, comparação e refinamento, sem mudar regras/base e sem executar a CLI. Usa FreeCADCmd somente para leitura; a gravação do candidato ocorreu na GUI. Definir LOCALAPPDATA para a instalação e TEMP externo.
 
-SHA256 candidato: `d1f74ac0dbd06f367360f086fe9ddcfa8f7b479b7fde18d1aae6ba0acabf298a`. R54: `4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528`. Aprovação continua PENDENTE.
+SHA256 candidato: `d1f74ac0dbd06f367360f086fe9ddcfa8f7b479b7fde18d1aae6ba0acabf298a`. R54: `4a2996ee63dd6f2f3dc302025a73fb65011b3339bae510130732859706049528`. Preparação histórica; incorporação consolidada no relatório vigente.

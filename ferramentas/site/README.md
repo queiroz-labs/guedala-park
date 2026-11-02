@@ -1,6 +1,6 @@
 # Apartamento interativo — R55 e pacote R30
 
-**Oficina:** [PDF e ZIP](../../06_Entregas/Ensaios_oficina/README.md), ensaios pendentes. Autorização de publicação abaixo.
+**CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Exportação estática local regenerada; publicação e integração dos controles novos no visualizador pendentes.
 
 **R55:** portas livres 80/70×210 cm e alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”); [106 cenários](../../02_Modelo_3D/Relatorio_mudanca.md); 3D: rodapé e persiana 30% (Elias, 31/10/2026) nominais.
 

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "unidade": "mm",
-  "cad_sha256": "abf6c2eb22f4cf1a2693470c3d94619e5adcb525c599ab0b513a75086d3d3445",
+  "cad_sha256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
   "exportacao": "06_Entregas/Caderno_pranchas/Geometria.json",
   "referencial": "X espelhado pela PR-EIXO-X nominal; Y da planta; Z vertical",
   "alvos": {

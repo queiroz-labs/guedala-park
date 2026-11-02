@@ -5,7 +5,7 @@ const OBJECT_PENDING=new Set(['coffeemaker','hotwater','bathfinish','tower','cou
 let objectSelected=null,objectReturn=null,objectScene=null;
 // Activate only after state initialization: the web build joins the scripts.
 var collectObjectScene=scene=>{objectScene=scene;};
-function objectKey(n){return ['bed','bonnie','daiane'].includes(n.id)?'item/'+n.id:n.source?'cad/'+n.source:n.key;}
+function objectKey(n){return ['bed','bonnie','daiane','fridge','washer','filter','airfryer','microwave','toilet'].includes(n.id)?'item/'+n.id:n.source?'cad/'+n.source:n.key;}
 function objectCategory(n){
  if(n.doorFrame)return 'esquadria';
  if(!n.id)return ({door:'porta',glass:'janela',wall:'parede',floor:'piso'})[n.kind]||'acabamento';
@@ -30,9 +30,9 @@ function objectRecord(n,scene=objectScene||nodes){
  let box={x:n.x,y:n.y,z:n.z,w:n.w,d:n.d,h:n.h};
  // The bed body is explicitly 188 × 128 × 64; pillows are not the product height.
  if(n.id==='bed')box={x:state.headDepth,y:0,z:136,w:188,d:128,h:64};
- if(['bonnie','daiane'].includes(n.id)){
+ if(['bonnie','daiane','fridge','washer','filter','airfryer','microwave','toilet'].includes(n.id)){
   const points=scene.filter(q=>q.id===n.id&&(q.opacity??1)>.01).flatMap(q=>mesh(q).flatMap(f=>f.p));
-  if(points.length){const lo=[0,1,2].map(k=>Math.min(...points.map(p=>p[k]))),hi=[0,1,2].map(k=>Math.max(...points.map(p=>p[k])));box={x:lo[0],y:lo[1],z:lo[2],w:hi[0]-lo[0],h:hi[1]-lo[1],d:hi[2]-lo[2]};}
+  if(points.length){const lo=[0,1,2].map(k=>points.reduce((m,p)=>Math.min(m,p[k]),Infinity)),hi=[0,1,2].map(k=>points.reduce((m,p)=>Math.max(m,p[k]),-Infinity));box={x:lo[0],y:lo[1],z:lo[2],w:hi[0]-lo[0],h:hi[1]-lo[1],d:hi[2]-lo[2]};}
  }
  // Full-height architectural data, independent of the cutaway display height.
  if(!n.id&&n.kind==='door')box.h=PROJECT.doorClearance.height;

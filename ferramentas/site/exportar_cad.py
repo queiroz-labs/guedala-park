@@ -74,7 +74,10 @@ def visit(o,item,room,module,anc=(),force=False):
  seen.add(o.Name)
  shape=o.Shape.copy();shape.Placement=o.getGlobalPlacement();b=shape.BoundBox
  if max(b.XLength,b.YLength,b.ZLength)>10000:return
- verts,tri=shape.tessellate(1.2)
+ if any(a.endswith('_Visual') for a in anc):
+  import MeshPart
+  verts,tri=MeshPart.meshFromShape(Shape=shape,LinearDeflection=12,AngularDeflection=1.2,Relative=False).Topology
+ else:verts,tri=shape.tessellate(1.2)
  if not tri:return
  # Viewer convention is the historical pre-R34 x axis; camera reflects it once.
  # R45 physical geometry stays unchanged. Reflect X and swap Y/Z => determinant +1.
@@ -83,6 +86,8 @@ def visit(o,item,room,module,anc=(),force=False):
  mat,mat_source=material_evidence(o)
  role=str(getattr(o,'TipoPeca',''))
  front=role in ['Porta','Frente','Tampa','Almofada'] or any(a.startswith(('Folha','Porta','Tampa','BancoR43_Tampa')) for a in anc) or o.Name.startswith(('BC43_Painel','BancoR43_Almofada'))
+ native_visual=any(a.endswith('_Visual') for a in anc)
+ if native_visual:mat='#'+''.join(f'{round(v*255):02x}' for v in o.ViewObject.ShapeColor[:3])
  material=palette.get(mat,mat if re.fullmatch(r'#[0-9a-fA-F]{6}',mat) else '#bbbdb7')
  item2='laundrybasket' if item=='laundrybase' and any(a.startswith('BasculanteCesto') for a in anc) else item
  p={'key':'cad/'+o.Name,'source':o.Name,'label':o.Label,'id':item2,'room':room,'module':module,'x':lo[0],'y':lo[1],'z':lo[2],'w':hi[0]-lo[0],'h':hi[1]-lo[1],'d':hi[2]-lo[2],'c':material,'mat':mat,'kind':'cad','upper':b.ZMin>=1300,'front':front,'opacity':1,'v':[[round(v[k]-lo[k],5) for k in range(3)] for v in vv],'t':[list(t) for t in tri]}
@@ -114,6 +119,8 @@ for i in range(20):
  mo=d.getObject(n)
  modules.append({'code':code,'name':names[i],'item':ids[i],'room':rooms[i],'dimensions':bb,'dimensionsLocal':local_envelope(ps,mo),'classifiedPanelsEnvelopeLocal':local_envelope(ps,mo,True),'dimensionsMeaning':'Envelope dos componentes visíveis, incluindo reservas; não dimensão de corte. dimensionsLocal usa eixo local do módulo; classifiedPanelsEnvelopeLocal cobre painéis reconhecidos pela função ou material, pode ser parcial.','parts':[p['source'] for p in ps],'source':n,'status':'Conferir antes de fabricar'})
 for n,it,room in [('Peca308','kitchenbase','cozinha'),('Peca357','laundrybase','lavanderia'),('Peca399','bathvanity','banho'),('Peca421','bench','sala'),('Peca275','mirror','quarto'),('FischerInfinityR31','oven','cozinha'),('Peca351','microwave','cozinha'),('CabeceiraDoisPaineisR25','headboard','quarto'),('Peca188','bathlight','banho'),('Peca189','bathlight','banho')]:visit(d.getObject(n),it,room,None)
+# Recognizable exteriors from the approved native model.
+for n,it,room in [('IB6S_Visual','fridge','cozinha'),('LGVC4_Visual','washer','lavanderia'),('PE12G_Visual','filter','cozinha'),('RI9252_Visual','airfryer','lavanderia'),('ME23P_Visual','microwave','cozinha'),('VasoVIP_Visual','toilet','banho')]:visit(d.getObject(n),it,room,None)
 # Berlin actual saved closed envelope and the documented alternative open scenario.
 for n in ['Fechada_110','Aberta_cadeira_lateral']:
  start=len(parts);visit(d.getObject(n),'table','sala',None,force=True)
@@ -122,6 +129,11 @@ for n in ['Fechada_110','Aberta_cadeira_lateral']:
 for p in parts:
  if p.get('scenario')=='extended':
   p['finishSource']=next(('Fechada_110'+suffix for suffix in ('Tampo','Sapata','Pedestal') if p['source'].endswith(suffix)), 'Fechada_110Lateral')
+# Omit repeated display-only descriptions; finish evidence remains at part level.
+for part in parts:
+ part.pop('classification',None)
+ if part.get('piece'):
+  for field in ('materialSource','panelEvidence','materialLabel','type'):part['piece'].pop(field,None)
 data={'current_revision':release['cadRevision'],'current_source_path':release['cadPath'],'current_source_sha256':before,'current_revision_note':'Extracao da revisao vigente; detalhes de furacao R14 conservam fontes historicas e condicoes.','revision':release['cadRevision'],'source_sha256':before,'coordinate_system':'R45 transformada apenas para o eixo histórico do visualizador; câmera faz reflexão única. Medidas documentais em mm.','parts':parts,'modules':modules,'replacements':sorted(set(p['id'] for p in parts))}
 assert len(parts)>200 and len(modules)==20
 (out/'cad-data.js').write_text('/* Geometria vigente de consulta; nao corte executivo. */\nconst CAD_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')

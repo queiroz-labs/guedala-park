@@ -1,5 +1,7 @@
 # Gerador de pranchas
 
+CAD principal de 02/11/2026: seleção histórica relida, 24 alvos preservados; torneira Peca136/137 atualizada. SHA sincronizado sem mudar fórmulas nem reexportar arquitetura/pranchas. Fonte: Elias,02/11/2026: “aprovo deixa como documento principal”.
+
 **R55 corrigido:** `atualizar_selecao(ids_atualizar)` de `exportar.py`, executada na GUI com o vigente aberto, relê a seleção histórica e só sincroniza regras/SHA se os 24 alvos dimensionais permanecerem iguais. Atualiza somente os IDs explícitos: Peca147/148/149 nesta correção. Isso não inclui os novos objetos arquitetônicos da R55. As folhas R02 continuam históricas; nova compatibilização arquitetônica pendente. Correção da lavanderia/Loop: Elias,01/11/2026, “Sim, incorporar essa correção”.
 
 Fonte de campo: `07_Imovel/Medidas_e_impactos.csv`. Topologia e vínculos: `06_Entregas/Planta_cotada/Cotas.json`. O campo `valor_medido` vence o nominal; números exigem unidade. Vazio significa pendência, nunca zero.

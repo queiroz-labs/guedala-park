@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 01/11/2026.
+Vigente 02/11/2026.
 
 ## O projeto
 
@@ -16,7 +16,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 | O quê | Versão | Abrir |
 |---|---|---|
-| Modelo 3D | R55: portas 80/70×210 cm; alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”) | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
+| Modelo 3D | R55: aparelhos, portas/persianas e banheiro corrigidos (Elias,02/11/2026: “aprovo deixa como documento principal”) | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
 | Triagem geométrica | 0 inválidas/1.449 próprias (25/10); 12 contêineres | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
 | Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
@@ -66,7 +66,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 - **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** pedra a 92 cm (Elias, 31/10/2026), forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
-- **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box ([R55 pendente](02_Modelo_3D/Verde_box_candidato.md)); teto/indireta 3000 K, espelho 4000 K, 3 comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
+- **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box ([R55 incorporado](02_Modelo_3D/README.md)); teto/indireta 3000 K, espelho 4000 K, 3 comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
 - **Ferragens:** dobradiças Blum, corrediças FGVTN 500 e MOVENTO 400 no escritório; 52 conjuntos Minifix (P10, P11, P15, P19).
 
 Histórico completo: [Registro de decisões](01_Programa_e_decisoes/Registro_de_decisoes.md) e [Painel de decisões](01_Programa_e_decisoes/Painel_de_decisoes.md).
@@ -96,8 +96,6 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia: 34 fotos/setas](ferramentas/site/Dia_das_chaves.html); sem medida real.
 
-**Perguntas:** [pacote não enviado](01_Programa_e_decisoes/Perguntas_em_aberto/README.md).
-
 **Gás:** [rede/ventilação nominal](03_Ambientes/Gas_natural/README.md).
 
 ## Próximos passos
@@ -126,8 +124,5 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Furação:** [sequência nominal](04_Moveis/Furacao/Sequencia_e_centros.md):37 restrições/0 ciclos; 2.286 centros preservados; novos dependem de datum/apoios.
 
-**Dimensões:** [comparação R44–R54](04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md).
-
 **Movimentos:** [limites](04_Moveis/Proximas_decisoes/Cinematica/README.md); folga real pendente.
 
-**Risco:** [hipóteses](05_Orcamento_e_cronograma/Risco/README.md).

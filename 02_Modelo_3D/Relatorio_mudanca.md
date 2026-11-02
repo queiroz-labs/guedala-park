@@ -1,122 +1,124 @@
 # Relatório de mudança do modelo
 
-Gerado por `verificar_modelo.py` em 01/11/2026 18:04. Revisão `R55`. SHA256 `b23705247989` → `abf6c2eb22f4`.
+Gerado por `verificar_modelo.py` em 02/11/2026 01:21. Revisão `R55`. SHA256 `abf6c2eb22f4` → `0d9e16fc47ff`.
 
-**Aprovação de Elias:** Elias, 01/11/2026: Sim, incorporar o candidato e atualizar a base; portas livres 800 x 2100 mm, banheiro 700 x 2100 mm; alturas 2550/2300 mm; bancada/gabinete preservados.
+**Aprovação de Elias:** Elias, 02/11/2026: aprovo deixa como documento principal
 
 ## Resumo
 
 | | Base anterior | Agora |
 |---|---:|---:|
-| Objetos | 6028 | 6038 |
-| Expressões | 8049 | 8072 |
-| Formas ativas | 1147 | 1143 |
+| Objetos | 6038 | 6149 |
+| Expressões | 8072 | 8239 |
+| Formas ativas | 1143 | 1199 |
 | Peças com geometria própria inválida | 0 | 0 |
 | Contêineres com forma montada inválida (informativo) | 14 | 14 |
 | Cenários de movimento | 106 | 106 |
 
-## Objetos novos (10)
+## Objetos novos (111)
 
-- `Portas_Parametros` Portas_Parametros
-- `RecortePortas_RodapeTrecho_004` RecortePortas_RodapeTrecho_004
-- `RecortePortas_RodapeTrecho_006` RecortePortas_RodapeTrecho_006
-- `RecortePortas_RodapeTrecho_028` RecortePortas_RodapeTrecho_028
-- `RecortePortas_RodapeTrecho_030` RecortePortas_RodapeTrecho_030
-- `RodapePortas_RodapeTrecho_004` RodapePortas_RodapeTrecho_004
-- `RodapePortas_RodapeTrecho_006` RodapePortas_RodapeTrecho_006
-- `RodapePortas_RodapeTrecho_028` RodapePortas_RodapeTrecho_028
-- `RodapePortas_RodapeTrecho_030` RodapePortas_RodapeTrecho_030
-- `Teto_Banheiro_Referencia` Teto acabado do banheiro - referencia nominal 2300 mm
+- `IB6S_Controles` Geladeira — abrir refrigerador / freezer
+- `IB6S_Corpo` IB6S — corpo fixo
+- `IB6S_Pega_Freezer` IB6S — pega embutida Freezer
+- `IB6S_Pega_Refrigerador` IB6S — pega embutida Refrigerador
+- `IB6S_Porta_Freezer` IB6S — porta Freezer
+- `IB6S_Porta_Refrigerador` IB6S — porta Refrigerador
+- `IB6S_Visual` Geladeira IB6S — aparencia e portas
+- `LGVC4_Aro` LG VC4 — aro da porta
+- `LGVC4_Controles` Lava e seca — abrir porta
+- `LGVC4_Corpo` LG VC4 — corpo fixo com abertura
+- `LGVC4_GavetaSabao` LG VC4 — frente do dispenser
+- `LGVC4_Painel` LG VC4 — comandos
+- `LGVC4_Seletor` LG VC4 — seletor
+- `LGVC4_Vidro` LG VC4 — vidro da porta
+- `LGVC4_Visual` Lava e seca LG VC4 — aparencia e porta
+- `ME23P_Comandos` ME23P — coluna de comandos
+- `ME23P_Corpo` ME23P — corpo
+- `ME23P_Porta` ME23P — moldura da porta
+- `ME23P_Tecla00` ME23P — tecla visual
+- `ME23P_Tecla01` ME23P — tecla visual001
+- `ME23P_Tecla02` ME23P — tecla visual002
+- `ME23P_Tecla10` ME23P — tecla visual003
+- `ME23P_Tecla11` ME23P — tecla visual004
+- `ME23P_Tecla12` ME23P — tecla visual005
+- `ME23P_Tecla20` ME23P — tecla visual006
+- `ME23P_Tecla21` ME23P — tecla visual007
+- `ME23P_Tecla22` ME23P — tecla visual008
+- `ME23P_Tecla30` ME23P — tecla visual009
+- `ME23P_Tecla31` ME23P — tecla visual010
+- `ME23P_Tecla32` ME23P — tecla visual011
+- `ME23P_Vidro` ME23P — vidro frontal
+- `ME23P_Visual` Micro-ondas Electrolux ME23P
+- `P07_Faixa_Superior_Forno` P07 — faixa frontal acima da grelha do forno
+- `PE12G_Bandeja` PE12G — bandeja removivel
+- `PE12G_Bica` PE12G — bica
+- `PE12G_Comandos` PE12G — painel frontal
+- `PE12G_Corpo` PE12G — corpo grafite e rebaixo
+- `PE12G_Tecla0` PE12G — selecao temperatura
+- `PE12G_Tecla1` PE12G — selecao temperatura001
+- `PE12G_Tecla2` PE12G — selecao temperatura002
+- … e mais 71
 
-## Posição alterada (6)
+## Posição alterada (4)
 
-- `Folha_Banheiro_Operacao`: (2860, 4050, 0) → (2870, 4050, 0) (Δ 10.0 mm)
-- `Folha_Entrada`: (0, 6980, 0) → (0, 6880, 0) (Δ 100.0 mm)
-- `Folha_Escritorio`: (2640, 2240, 0) → (2640, 2150, 0) (Δ 90.0 mm)
-- `PortaEntradaBanheiroR12`: (2860, 4050, 0) → (2870, 4050, 0) (Δ 10.0 mm)
-- `VaosFerramenta_PI`: (-100, 6150, 0) → (-100, 6060, 0) (Δ 90.0 mm)
-- `VaosFerramenta_PQ`: (3650, 3150, 0) → (3650, 3060, 0) (Δ 90.0 mm)
+- `Folha_Banheiro`: (-20, 0, 0) → (2850, 4050, 0) (Δ 4963.8 mm)
+- `Folha_Escritorio`: (2640, 2150, 0) → (2650, 2150, 0) (Δ 10.0 mm)
+- `Peca136`: (2355, 6780, 920) → (2585, 6890, 920) (Δ 255.0 mm)
+- `Peca137`: (2365, 6770, 1330) → (2585, 6720, 1330) (Δ 225.6 mm)
 
-## Geometria alterada (71)
+## Geometria alterada (17)
 
-- `ApartamentoR34`: volume 18181385583.922 → 18095522844.492 mm³
-- `Batente_Banheiro`: volume 9520000.0 → 9880000.0 mm³
-- `Batente_Banheiro_Compatibilizado`: volume 9280000.0 → 9760000.0 mm³
-- `Batente_Entrada`: volume 9620000.0 → 10080000.0 mm³
-- `Batente_Escritorio`: volume 9620000.0 → 10080000.0 mm³
-- `Batente_Escritorio_Compatibilizado`: volume 9380000.0 → 9960000.0 mm³
-- `Batente_Quarto`: volume 9620000.0 → 10080000.0 mm³
-- `BuildingPart`: volume 10018417800.0 → 9907821960.0 mm³
-- `Folha_Banheiro`: volume 26796000.0 → 29400000.0 mm³
-- `Folha_Banheiro_Operacao`: volume 26796000.0 → - mm³
-- `Folha_Entrada`: volume 28826000.0 → 33600000.0 mm³
-- `Folha_Escritorio`: volume 28826000.0 → 33600000.0 mm³
-- `Folha_Quarto`: volume 28826000.0 → 33600000.0 mm³
-- `Peca037`: volume 51400000.0 → 51000000.0 mm³
-- `Peca039`: volume 1272150000.0 → 1262250000.0 mm³
-- `Peca041`: volume 77100000.0 → 76500000.0 mm³
-- `Peca043`: volume 64250000.0 → 63750000.0 mm³
-- `Porta_Banheiro`: volume 39816000.0 → 215684160.0 mm³
-- `Porta_Entrada`: volume 42196000.0 → 4200000.0 mm³
-- `Porta_Escritorio`: volume 45946000.0 → 7500000.0 mm³
-- `Porta_Quarto`: volume 38446000.0 → - mm³
-- `Rodape_8cm`: volume 42584160.0 → 42104160.0 mm³
-- `Rodape_banho`: volume 3473940.0 → 3233940.0 mm³
-- `Rodape_escritorio`: volume 10475988.0 → 10235988.0 mm³
-- `Soleira_Entrada`: volume 3750000.0 → 4200000.0 mm³
-- `VaosBase`: volume 10948971000.0 → 10863765000.0 mm³
-- `VaosCorte_JB`: volume 10361371000.0 → 10276165000.0 mm³
-- `VaosCorte_JE`: volume 10683421000.0 → 10598215000.0 mm³
-- `VaosCorte_JL`: volume 10406571000.0 → 10321365000.0 mm³
-- `VaosCorte_JQ`: volume 10813371000.0 → 10728165000.0 mm³
-- `VaosCorte_JS`: volume 10526351000.0 → 10441145000.0 mm³
-- `VaosCorte_PB`: volume 9910371000.0 → 9763125000.0 mm³
-- `VaosCorte_PE`: volume 10053871000.0 → 9920005000.0 mm³
-- `VaosCorte_PI`: volume 9756621000.0 → 9585045000.0 mm³
-- `VaosCorte_PQ`: volume 10207621000.0 → 10098085000.0 mm³
-- `VaosFerramenta_PB`: volume 143500000.0 → 156880000.0 mm³
-- `VaosFerramenta_PE`: volume 153750000.0 → 178080000.0 mm³
-- `VaosFerramenta_PI`: volume 153750000.0 → 178080000.0 mm³
-- `VaosFerramenta_PQ`: volume 153750000.0 → 178080000.0 mm³
-- `VaosRecomposicao_JB`: volume 102800000.0 → 102000000.0 mm³
-- … e mais 31
+- `Ambiente_banho`: volume 326872280.0 → 240726643.642 mm³
+- `Ambiente_cozinha`: volume 1157152045.0 → 248277330.0 mm³
+- `Ambiente_lavanderia`: volume 450052000.0 → 105815200.0 mm³
+- `ApartamentoR34`: volume 18095522844.492 → 16767903527.229 mm³
+- `BuildingPart`: volume 9907821960.0 → 9905097960.0 mm³
+- `Elementos_Banho`: volume 326872280.0 → 240726643.642 mm³
+- `Elementos_Cozinha`: volume 1157152045.0 → 248277330.0 mm³
+- `Elementos_Lavanderia`: volume 450052000.0 → 105815200.0 mm³
+- `Folha_Banheiro`: volume 29400000.0 → 29400000.0 mm³
+- `Folha_Escritorio`: volume 33600000.0 → 33600000.0 mm³
+- `Janela_Escritorio`: volume 22280000.0 → 20948000.0 mm³
+- `Janela_Quarto`: volume 23080000.0 → 21688000.0 mm³
+- `Modulo006`: volume 33421181.734 → 34615562.539 mm³
+- `Moveis`: volume 1386425450.85 → 1387619840.884 mm³
+- `P07`: volume 33421181.734 → 34615562.539 mm³
+- `Peca136`: volume 172000.0 → 172000.0 mm³
+- `Peca137`: volume 68000.0 → 68000.0 mm³
 
-## Aparência alterada (4)
+## Aparência alterada (13)
 
-- `RodapeTrecho_004`: cor E1EAEE → E1EAEE, transparência 0 → 0%
-- `RodapeTrecho_006`: cor E1EAEE → E1EAEE, transparência 0 → 0%
-- `RodapeTrecho_028`: cor E1EAEE → E1EAEE, transparência 0 → 0%
-- `RodapeTrecho_030`: cor E1EAEE → E1EAEE, transparência 0 → 0%
+- `FaixaQuinaBR04`: cor EDF2F3 → 7BA2C4, transparência 0 → 0%
+- `FrenteSimplesR001`: cor EDF2F3 → 7BA2C4, transparência 0 → 0%
+- `Peca138`: cor B5B5AE → B5B5AE, transparência 0 → 0%
+- `Peca140`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
+- `Peca152`: cor B5B5AE → B5B5AE, transparência 0 → 0%
+- `Peca154`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
+- `Peca190`: cor E1EAEE → E1EAEE, transparência 0 → 0%
+- `Peca351`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
+- `Peca384`: cor EDF2F3 → E1EAEE, transparência 0 → 0%
+- `Peca386`: cor E1EAEE → EDF2F3, transparência 0 → 0%
+- `Peca388`: cor E1EAEE → EDF2F3, transparência 0 → 0%
+- `Persiana_Integrada_Escritorio`: cor E8EDF0 → E8EDF0, transparência 0 → 0%
+- `Persiana_Integrada_Quarto`: cor E8EDF0 → E8EDF0, transparência 0 → 0%
 
-## Visibilidade alterada (4)
+## Visibilidade alterada (8)
 
-- `RodapeTrecho_004`: visível → oculto
-- `RodapeTrecho_006`: visível → oculto
-- `RodapeTrecho_028`: visível → oculto
-- `RodapeTrecho_030`: visível → oculto
+- `Peca138`: visível → oculto
+- `Peca140`: visível → oculto
+- `Peca152`: visível → oculto
+- `Peca154`: visível → oculto
+- `Peca190`: visível → oculto
+- `Peca351`: visível → oculto
+- `Persiana_Integrada_Escritorio`: visível → oculto
+- `Persiana_Integrada_Quarto`: visível → oculto
 
-## Expressões alteradas (20)
+## Expressões alteradas (4)
 
-- `Area_Banheiro`: 1 → 2 expressões
-- `Area_Circulacao`: 1 → 2 expressões
-- `Area_Cozinha`: 1 → 2 expressões
-- `Area_Escritorio`: 1 → 2 expressões
-- `Area_Lavanderia`: 1 → 2 expressões
-- `Area_Quarto`: 1 → 2 expressões
-- `Area_Sala`: 1 → 2 expressões
-- `Folha_Banheiro`: 4 → 6 expressões
-- `Folha_Entrada`: 4 → 6 expressões
-- `Folha_Escritorio`: 4 → 6 expressões
-- `Folha_Quarto`: 4 → 6 expressões
-- `Peca037`: 4 → 5 expressões
-- `Peca039`: 4 → 5 expressões
-- `Peca041`: 4 → 5 expressões
-- `Peca043`: 4 → 5 expressões
-- `PortaEntradaBanheiroR12`: 5 → 5 expressões
-- `VaosFerramenta_PB`: 1 → 2 expressões
-- `VaosFerramenta_PE`: 1 → 2 expressões
-- `VaosFerramenta_PI`: 1 → 2 expressões
-- `VaosFerramenta_PQ`: 1 → 2 expressões
+- `Folha_Banheiro`: 6 → 3 expressões
+- `Folha_Entrada`: 6 → 3 expressões
+- `Folha_Escritorio`: 6 → 3 expressões
+- `Folha_Quarto`: 6 → 3 expressões
 
 ## Como usar
 
