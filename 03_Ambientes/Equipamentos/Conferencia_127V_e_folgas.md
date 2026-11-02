@@ -1,5 +1,8 @@
 # Conferência dos aparelhos em 127 V e das folgas
 
+**Purificador vigente: PE12G grafite.** Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”; reconfirmado em 02/11/2026: “Manter PE12G e corrigir os documentos antigos”. Manual PE12: corpo 160×350×420mm(L/A/P); folgas 50mm nas laterais, 100mm atrás, 220mm acima; bivolt automático 127/220V, tomada exclusiva, plugue 2pinos 4mm até 10 A. Potência/corrente de operação ainda não documentadas;70 W e instruções do PE11X abaixo são históricos e não se aplicam ao PE12G. [Manual oficial PE12](https://api.electrolux-medialibrary.com/asset/2766b234-544a-4587-b0e8-7545af48356c/E4RM3Q/251021JAXM/PDF/251021JAXM.pdf), instalação e especificações, conferido02/11/2026.
+
+
 **F104 — 12/09/2026:** Elias decide manter o ME23P com **10 cm livres acima**, mesmo após conhecer a exigência de 30 cm do manual. Registrar como escolha de layout, **em desacordo com o fabricante e sem validação técnica**. Não afirmar que folgas laterais/traseiras compensam a redução. Permanecem 10 cm laterais e traseiros, frente aberta e circuito exclusivo de 20 A em 127 V. Nenhuma alteração foi solicitada para os 20 cm entre cooktop e forno.
 
 12/09/2026 · F103 · Etapa 1 solicitada por Elias. [Resumo](../../ESTADO_ATUAL.md) · [Equipamentos](README.md)
@@ -21,7 +24,7 @@ As folgas de 10 cm propostas anteriormente **não atendem** ao manual em dois po
 | Philips Walita RI9252/91 | Preta, 127 V, **1.400 W**, cabo de 0,8 m conforme ficha oficial. | Tomada aterrada, sem adaptadores. Referência aritmética de carga: 1.400/127 ≈ 11 A; não dimensionar circuito apenas por essa conta. Conferir o plugue da versão e prever ponto compatível, sem assumir 10 A. |
 | Electrolux IB6 | Bivolt automático, uso em 127 V. | Manual informa plugue de **10 A**, tomada exclusiva aterrada. Não converter consumo mensal em potência instantânea; potência de placa não consolidada nesta etapa. |
 | Electrolux KE4GC | Bivolt, uso em 127 V; acendimento elétrico e cocção a gás. | Seção de instalação elétrica informa plugue de **10 A**, pinos de 4 mm. A tabela técnica também cita “2,5 A/250 V”; há divergência documental sobre classificação do plugue. Não usar esse número como potência ou corrente de operação. Confirmar etiqueta/plugue; tomada exclusiva aterrada conforme texto. |
-| Electrolux PE11X | Bivolt automático, **70 W**, uso em 127 V. | Manual informa conexão de **10 A**, três pinos, tomada exclusiva e aterramento. |
+| PE11X — histórico, substituído pelo PE12G | Bivolt automático, **70 W**, uso em 127 V. | Manual informa conexão de **10 A**, três pinos, tomada exclusiva e aterramento. |
 
 Tomada exclusiva significa ponto reservado ao aparelho; circuito exclusivo significa alimentação com proteção própria. Não são sinônimos. O ME23P exige explicitamente ambos. As especificações acima são requisitos dos aparelhos, não uma confirmação dos circuitos entregues pela Cury nem um dimensionamento de cabos/disjuntores da unidade. O aquecedor continua na etapa 2, sem modelo escolhido; pequenos aparelhos já possuídos continuam sem ficha individual.
 
@@ -49,7 +52,7 @@ Com bancada provisória a 92 cm, é necessário desenhar o corte conjunto antes 
 | Air fryer | Manual RI9252: 10 cm livres atrás, nas laterais e acima; apoio estável, longe do fogão/forno quentes. Gaveta precisa abrir e o vapor sair livremente; não aprovar operação em compartimento fechado. |
 | LG VC4 | 2 cm de cada lado, 10 cm atrás e 0,5 cm acima no desenho. Mantidas reservas de 64 cm livres de largura, 85,5 cm de altura mais nivelamento, 72 cm parede–porta fechada e 120 cm parede–porta aberta, antes da pessoa. Manual também pede isolamento protegido por lâmina de alumínio se a proximidade de forno/fogão não puder ser evitada; essa interface exige detalhamento, sem inventar distância mínima. |
 | IB6 | Mantidas folgas de 10 cm em cada lateral, acima e atrás: reserva 80,1 cm de largura, 196,6 cm de altura e 84,75 cm de profundidade. Conferir portas e gavetas no layout. |
-| PE11X | 5 cm nas laterais, 15 cm atrás e 22 cm acima. O estudo lateral R03 já registra essas reservas; preservá-las ao girar o aparelho e detalhar o aéreo. Suporte deve considerar o aparelho com água, aproximadamente 10 kg segundo manual. |
+| PE11X — histórico, não usar no PE12G | 5 cm nas laterais, 15 cm atrás e 22 cm acima. O estudo lateral R03 já registra essas reservas; preservá-las ao girar o aparelho e detalhar o aéreo. Suporte deve considerar o aparelho com água, aproximadamente 10 kg segundo manual. |
 
 ## Situação das pendências
 

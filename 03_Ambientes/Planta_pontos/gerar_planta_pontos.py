@@ -44,7 +44,7 @@ P = [
     ('C07', 'E', 478, 690, 45, 'Esgoto da pia', 'Existente; conferir posição'),
     ('C08', 'T20', 528, 690, 92, 'Torre automática de tomadas 20 A na bancada (área seca)', 'Posição a definir'),
     ('C09', 'T', 539, 695, 190, 'Micro-ondas ME23P · 127 V', 'Aparelho escolhido'),
-    ('C10', 'T', 560, 695, 110, 'Purificador PE11X bivolt, uso 127 V', 'Aparelho escolhido'),
+    ('C10', 'T', 560, 695, 110, 'Purificador PE12G bivolt, uso 127 V', 'Aparelho escolhido'),
     ('C11', 'AF', 552, 698, 110, 'Água fria do purificador', 'Derivação a confirmar'),
     ('C12', 'T', 615, 695, 200, 'Geladeira IB6S bivolt, uso 127 V', 'Aparelho escolhido'),
     ('C13', 'L', 521, 591, None, 'Stella EVO STH21967/30, quadrado 3000 K', 'Interruptor comum; posição com portas a conferir'),

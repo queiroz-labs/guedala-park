@@ -11,7 +11,7 @@ Estado atual da cozinha. Nada aqui libera fabricação, compra ou instalação: 
 | Forno | Fischer Infinity 50 L com grill, sem turbo, preto, 127 V, código 28349-64929 | Escolhido em 19/10; substitui Venax. [Encaixe](Fischer_Grill/README.md), [apoios e ventilação](Fischer_Grill/Apoios_ventilacao/README.md), [grelhas e manutenção](Fischer_Grill/Grelhas_manutencao/README.md) |
 | Cooktop | KE4GC, gás natural (GN confirmado; não perguntar de novo) | Recorte 520 × 390 preservado |
 | Micro-ondas | ME23P com 10 cm livres acima | Escolha de layout de Elias **em desacordo com o manual (30 cm)**, sem validação técnica |
-| Purificador | PE11X girado 90° na lateral | [Purificador lateral](Purificador_lateral_R03.md) · [PDF](Purificador_lateral_R03.pdf) |
+| Purificador | PE12G grafite, sobre bancada; implantação condicionada | Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”; reconfirmado02/11/2026. [Equipamentos](../Equipamentos/README.md). PE11X lateral é histórico. |
 | Tensão | Todos os aparelhos em 127 V | Encerrado em 12/09; circuitos a detalhar. [Conferência 127 V e folgas](../Equipamentos/Conferencia_127V_e_folgas.md) |
 | Torre de tomadas | Automática por pressão, tampa preta, área seca, aceita plugue 20 A da air fryer **sem adaptador** | Direção aprovada em 27/09; modelo, posição e capacidade do conjunto em aberto. A ficha QM12200 é 10 A e não vale para a variante 20 A |
 

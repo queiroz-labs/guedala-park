@@ -1,4 +1,6 @@
-# Purificador lateral — R03
+# Purificador lateral — R03 (histórico)
+
+**Superado para o produto vigente:** este estudo é do PE11X. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”; reconfirmado em 02/11/2026: “Manter PE12G e corrigir os documentos antigos”. Não transferir coordenadas, apoio ou giro ao PE12G; consultar [equipamentos vigentes](../Equipamentos/README.md).
 
 [Voltar ao assunto](README.md) · [Resumo do projeto](../../ESTADO_ATUAL.md) · [Abrir PDF](Purificador_lateral_R03.pdf)
 

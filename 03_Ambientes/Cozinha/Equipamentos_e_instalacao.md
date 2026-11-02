@@ -1,3 +1,5 @@
+**Atualização do purificador vigente:** PE12G grafite, substituindo o PE11X. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”; reconfirmado em 02/11/2026: “Manter PE12G e corrigir os documentos antigos”. [Dados e reservas atuais](../Equipamentos/README.md). Os registros PE11X de09/09 abaixo são históricos; seu giro 90° não se aplica automaticamente ao PE12G.
+
 # Equipamentos e instalação
 
 **Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.

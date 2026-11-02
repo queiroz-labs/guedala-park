@@ -2,7 +2,7 @@
 <rect x="-40" y="-40" width="950" height="955" fill="#fff"/>
 <rect x="0" y="100" width="245" height="295" fill="#efe7da"/>
 <rect x="245" y="305" width="120" height="90" fill="#efe7da"/>
-<rect x="365" y="315" width="10" height="75" fill="#efe7da"/>
+<rect x="365" y="306" width="10" height="84" fill="#efe7da"/>
 <rect x="255" y="0" width="230" height="295" fill="#efe7da"/>
 <rect x="495" y="185" width="245" height="380" fill="#efe7da"/>
 <rect x="480" y="395" width="15" height="151" fill="#efe7da"/>
@@ -12,7 +12,7 @@
 <rect x="384" y="546" width="4" height="154" fill="#efe7da"/>
 <rect x="255" y="546" width="129" height="154" fill="#ece6da"/>
 <rect x="255" y="405" width="209" height="124" fill="#e4ddd0"/>
-<rect x="385" y="395" width="70" height="10" fill="#e4ddd0"/>
+<rect x="381" y="395" width="74" height="10" fill="#e4ddd0"/>
 <rect x="-10" y="90" width="70" height="10" fill="#4a5550"/>
 <rect x="180" y="90" width="75" height="10" fill="#4a5550"/>
 <rect x="-10" y="100" width="10" height="295" fill="#4a5550"/>
@@ -22,11 +22,11 @@
 <rect x="430" y="-10" width="65" height="10" fill="#4a5550"/>
 <rect x="245" y="0" width="10" height="100" fill="#4a5550"/>
 <rect x="485" y="-10" width="10" height="315" fill="#4a5550"/>
-<rect x="255" y="295" width="145" height="10" fill="#4a5550"/>
+<rect x="255" y="295" width="136" height="10" fill="#4a5550"/>
 <rect x="475" y="295" width="20" height="10" fill="#4a5550"/>
 <rect x="495" y="175" width="38" height="10" fill="#4a5550"/>
 <rect x="672" y="175" width="78" height="10" fill="#4a5550"/>
-<rect x="740" y="185" width="10" height="430" fill="#4a5550"/>
+<rect x="740" y="185" width="10" height="421" fill="#4a5550"/>
 <rect x="740" y="690" width="10" height="20" fill="#4a5550"/>
 <rect x="255" y="700" width="495" height="10" fill="#4a5550"/>
 <rect x="245" y="546" width="10" height="23" fill="#4a5550"/>
@@ -35,9 +35,9 @@
 <rect x="245" y="475" width="10" height="71" fill="#4a5550"/>
 <rect x="255" y="529" width="225" height="17" fill="#4a5550"/>
 <rect x="464" y="395" width="16" height="151" fill="#4a5550"/>
-<rect x="255" y="395" width="130" height="10" fill="#4a5550"/>
+<rect x="255" y="395" width="126" height="10" fill="#4a5550"/>
 <rect x="455" y="395" width="25" height="10" fill="#4a5550"/>
-<rect x="365" y="305" width="10" height="10" fill="#4a5550"/>
+<rect x="365" y="305" width="10" height="1" fill="#4a5550"/>
 <rect x="365" y="390" width="10" height="5" fill="#4a5550"/>
 <text x="122.5" y="269.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">QUARTO</text>
 <text x="370.0" y="169.5" font-size="13" font-weight="bold" fill="#a39a8c" text-anchor="middle" opacity=".8">ESCRITÓRIO</text>
@@ -65,7 +65,7 @@
 <g><title>C08 · Torre automática de tomadas 20 A na bancada (área seca) · Posição a definir</title><rect x="522" y="684" width="12" height="12" fill="#1a365d"/><circle cx="528" cy="690" r="2" fill="#fff"/><path d="M528,695L528,733" stroke="#999" stroke-width=".6"/><text x="517" y="742" font-size="9" font-weight="bold" fill="#222">C08</text></g>
 <g><title>C09 · Micro-ondas ME23P · 127 V · Aparelho escolhido</title><rect x="534" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M539,700L541,721" stroke="#999" stroke-width=".6"/><text x="530" y="730" font-size="9" font-weight="bold" fill="#222">C09</text></g>
 <g><title>C11 · Água fria do purificador · Derivação a confirmar</title><circle cx="552" cy="698" r="4.5" fill="#3182ce"/><path d="M552,703L554,733" stroke="#999" stroke-width=".6"/><text x="543" y="742" font-size="9" font-weight="bold" fill="#222">C11</text></g>
-<g><title>C10 · Purificador PE11X bivolt, uso 127 V · Aparelho escolhido</title><rect x="555" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M560,700L567,721" stroke="#999" stroke-width=".6"/><text x="556" y="730" font-size="9" font-weight="bold" fill="#222">C10</text></g>
+<g><title>C10 · Purificador PE12G bivolt, uso 127 V · Aparelho escolhido</title><rect x="555" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M560,700L567,721" stroke="#999" stroke-width=".6"/><text x="556" y="730" font-size="9" font-weight="bold" fill="#222">C10</text></g>
 <g><title>C12 · Geladeira IB6S bivolt, uso 127 V · Aparelho escolhido</title><rect x="610" y="690" width="10" height="10" fill="#2b6cb0"/><path d="M615,700L615,733" stroke="#999" stroke-width=".6"/><text x="604" y="742" font-size="9" font-weight="bold" fill="#222">C12</text></g>
 <g><title>C13 · Stella EVO STH21967/30, quadrado 3000 K · Interruptor comum; posição com portas a conferir</title><circle cx="521" cy="591" r="7" fill="#fff" stroke="#b7791f" stroke-width="2"/><path d="M516,586L526,596M526,586L516,596" stroke="#b7791f" stroke-width="1.5"/><text x="529" y="585" font-size="9" font-weight="bold" fill="#222">C13</text></g>
 <g><title>C14 · COB 3000K sob aéreos +Opus/Shelly/pulsador · Grupo independente; acesso/manuais IL04–07 pendentes</title><path d="M509,684L515,674L521,684Z" fill="#d69e2e"/><text x="523" y="674" font-size="9" font-weight="bold" fill="#222">C14</text></g>

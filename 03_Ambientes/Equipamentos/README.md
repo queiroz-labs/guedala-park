@@ -11,7 +11,7 @@ Geladeira Electrolux IB6 e lava e seca LG VC4 estão escolhidas. Rinnai E21 REU-
 O CSV separa dimensões do produto, encaixe, alimentação, potência, corrente informada pelo manual, folgas, manutenção, móvel receptor e interfaces. Dimensões em milímetros; fontes relativas à raiz, separadas por ` | `; pontos separados por `|`. Campo ausente registra **“falta: dado, quem fornece”**. Só documentos locais foram usados. Corrente de tomada/plugue e capacidade de fonte não são consumo de operação; não se calculou corrente por W/V. Reservas de estudo não são medidas do imóvel.
 
 - **ME23P:** manual vigente, p. 3, pede **30 cm acima**; F104, 12/09/2026, mantém o desejo de **10 cm**. Divergência conservada, sem solução técnica decidida. Laterais e traseira continuam com 10 cm. [Fonte local e decisão](Conferencia_127V_e_folgas.md).
-- **Versões históricas:** C10 corrigido para PE11X na R01 de 27/10; PE12G permanece só em antecedentes. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
+- **Versões históricas:** A correção C10 para PE11X na R01 de 27/10 estava incorreta: a decisão posterior de 15/09 escolheu PE12G, substituindo PE11X. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”; reconfirmado em 02/11/2026: “Manter PE12G e corrigir os documentos antigos”. A LG vigente é CV5012PC4 Inox Look; documentos da branca WC4 ficam como histórico e fonte da família, sem trocar a escolha. O aquecedor vigente é E21; trechos antigos sobre E15/sem escolha não prevalecem. Venax foi substituído pelo Fischer indicado na cozinha e no orçamento.
 - **Dados condicionados:** códigos dos aparelhos existentes, manuais dos metais, fixação/retirada e circuitos dependem de Elias (etiquetas), fabricante, projeto/oficina e RT. L04 lista apenas água fria, embora a Telca tenha requisito quente/fria: ramal a compatibilizar pelo RT. Manter também as divergências de plugue KE4GC, profundidade do Fischer e altura do Firefly registradas no CSV.
 
 **Retomada exata:** conferir as lacunas por equipamento com os documentos da unidade e etiquetas disponíveis; resolver a divergência superior do ME23P com fabricante/projeto e decisão de Elias, sem reduzir o manual por hipótese. Depois compatibilizar pontos, cortes de encaixe, ventilação e retirada com o RT/oficina. Lista documental entregue; T06 executivo continua condicionado.
@@ -38,7 +38,7 @@ Consultar estudos anteriores. Estudos nominais; instalação condicionada.
 | Depurador Suggar Slim de Embutir 60 cm inox | **127 V — DE61IX**; DE62IX de 220 V fica como referência histórica. |
 | Air fryer Philips Walita Série 3000 RI9252 | **127 V**; código confirmado RI9252/91 em F103. |
 | Geladeira Electrolux IB6 | Bivolt automático já documentado; uso previsto em **127 V**. |
-| Purificador Electrolux PE11X | Bivolt já escolhido; uso previsto em **127 V**. |
+| Purificador Electrolux PE12G | Bivolt já escolhido; uso previsto em **127 V**. |
 | Cooktop Electrolux KE4GC a gás | Alimentação elétrica prevista em **127 V**; bivolt confirmado no manual em F103, mantendo uso em 127 V. |
 | Aquecedor Rinnai E21 REU-E211 FEH GN | Bivolt com chave seletora; uso em **127 V**. Sem módulo Wi-Fi adicional — F106. |
 
@@ -101,7 +101,7 @@ Método e limite técnico: [ASHRAE2021 cap.17, tabela1](https://handbook.ashrae.
 | LG S3-Q09AA31C (alternativa) | 9000 | 780/150 | 220 V | 3,545 | 46,8 /93,6 /187,2 |
 | LG S3-Q12JA33K (alternativa) | 12000 | 1130/200 | 220 V | 5,136 | 67,8 /135,6 /271,2 |
 | LG S3-W18KL31C (alternativa) | 18000 | 1600/210 | 220 V | 7,273 | 96 /192 /384 |
-| Ventisol Mistral DC controle (alternativa) | sem refrigeração ativa | 30/mínimo ausente | bivolt127–220 V | 0,236 em127 V | 1,8 /3,6 /7,2 |
+| Ventisol Mistral DC controle (alternativa) | sem refrigeração ativa | 30/mínimo ausente | bivolt 127–220 V | 0,236 em127 V | 1,8 /3,6 /7,2 |
 | Sem aparelho adicional | sem refrigeração ativa | 0 | — | 0 | 0 /0 /0 |
 
 Fontes primárias consultadas29/10/2026: LG [9mil](https://www.lg.com/br/ar-condicionado-residencial/s3-q09aa31c/), [12mil](https://www.lg.com/br/ar-condicionado-residencial/dual-inverter-split/s3-q12ja33k/), [18mil](https://www.lg.com/br/ar-condicionado-residencial/s3-w18kl31c/); [manual Ventisol Mistral, p.1–2, hospedado pelo distribuidor](https://www.leverosintegra.com.br/download/manuais/Ventisol/manual-ventilador-ventisol-de-teto-mistral-bivolt.pdf). O18mil é quente/frio; valores da tabela referem-se apenas a resfriamento.

@@ -1,3 +1,5 @@
+**Correção02/11/2026:** PE12G é vigente;70 W eram do PE11X e foram retirados do subtotal, sem presumir consumo zero. Potência/corrente de operação do PE12G pendentes.
+
 # Quadro de cargas — cenário nominal 127 V para RT
 
 29/10/2026. Estudo documental; não é projeto elétrico. Usa a decisão F102 de 12/09 sobre aparelhos 127 V, sem deduzir a tensão entre fases nem a capacidade do prédio. **Não há dados suficientes para indicar disjuntor/seção final ou concluir que a instalação comporta as cargas.** Nenhum ponto, móvel ou FreeCAD foi alterado.
@@ -5,7 +7,7 @@
 ## Resultado calculável
 
 - 36 linhas: 21 aparelhos/grupos de tomadas e 15 grupos de iluminação; **13 linhas sem potência de entrada**. O número de linhas não é número de circuitos nem de aparelhos físicos.
-- Subtotal de referências: **6.740 W**, equivalente ativo de **53,07 A a 127 V e FP=1**, com simultaneidade 1. Não é demanda total, máximo garantido ou corrente de projeto: faltam cargas e fatores de potência; duas referências têm qualidade provisória.
+- Subtotal de referências: **6.670 W**, equivalente ativo de **52,52 A a 127 V e FP=1**, com simultaneidade 1. Não é demanda total, máximo garantido ou corrente de projeto: faltam cargas e fatores de potência; duas referências têm qualidade provisória.
 - Separação: **5.355 W** de seis equipamentos com potência documentada + **264,2 W** do cenário de entrada da iluminação = **5.619,2 W**. Acrescentar ME23P **1.100 W** (referência comercial a confrontar com placa) e monitor ASUS **20,8 W** (limite de consumo publicado em condição não esclarecida, não máximo de placa) produz o subtotal acima.
 - Lavagem LG 1.250 W e secagem 1.650 W são modos alternativos: entra **1.650 W**, não 2.900 W. A ficha é da família: placa do CV5012PC4 ainda deve confirmar.
 - Forno 2.061 W → 16,23 A equivalentes; LG secagem → 12,99 A; airfryer 1.400 W → 11,02 A. O FP pode elevar a corrente; partida e harmônicas não estão representadas. Essas cargas exigem atenção específica do RT, não ligação automática em tomada de 10 A.
@@ -54,7 +56,7 @@ Disjuntor geral, alimentação por fases, capacidade dos condutores, padrão da 
 
 Dados completos em [opções de climatização](../Equipamentos/Climatizacao_opcoes.csv), mantidos pelo bloco térmico. A tabela acima é um recorte elétrico dessas alternativas, sem escolha de quantidade ou ambiente.
 
-Os três splits não são alternativas de ligação direta a 127 V: não se calculou corrente fictícia P/127 para sugerir compatibilidade. Não há comprovação de 220 V na unidade. Não se adicionam as três opções entre si nem à base de 6.740 W; quantidade/ambientes não definidos. A convenção condiciona AC (art.58), conforme [impactos documentais](../../01_Programa_e_decisoes/Convencao_e_ata_impactos.md); não interpretar o resumo antigo de proibição como decisão atual. Dreno, tubulação, carga e localização de condensadora dependem das condições tratadas no bloco térmico, sem intervenção física.
+Os três splits não são alternativas de ligação direta a 127 V: não se calculou corrente fictícia P/127 para sugerir compatibilidade. Não há comprovação de 220 V na unidade. Não se adicionam as três opções entre si nem à base de 6.670 W; quantidade/ambientes não definidos. A convenção condiciona AC (art.58), conforme [impactos documentais](../../01_Programa_e_decisoes/Convencao_e_ata_impactos.md); não interpretar o resumo antigo de proibição como decisão atual. Dreno, tubulação, carga e localização de condensadora dependem das condições tratadas no bloco térmico, sem intervenção física.
 
 ## Conflitos e perguntas exatas
 
@@ -87,7 +89,7 @@ Esta é uma aplicação calculada aos recintos gráficos, **não contagem verifi
 
 **Ambientes abertos:** separar sala/cozinha/circulação/lavanderia é hipótese de cálculo, não criação de paredes. A união sala+cozinha tem **14,6976 m² e 17,42 m de contorno**, com 220 VA de luz pelo mesmo método, versus 200 VA nos dois recintos separados. Esse diagnóstico não se soma à tabela. Não foi aplicado o intervalo de sala ao conjunto para eliminar pontos de cozinha; o limite dos usos e distribuição nas paredes disponíveis precisam ser definidos no projeto elétrico. A circulação pode integrar espaço vizinho; o ponto individual calculado permanece referência, com posicionamento externo a verificar conforme a condição normativa de recinto pequeno. O desenho atual não confirma um comando/luz exclusivo dessa circulação; conferir cobertura do projeto, sem alterar produto aqui.
 
-**Sem dupla contagem:** 4.600 VA de TUG + 700 VA de previsão luminosa = 5.300 VA deste cenário, mantidos fora dos 6.740 W do inventário. Não somar VA com W, nem acrescentar mínimos de pontos aos aparelhos que esses mesmos pontos alimentarão. Para demanda real, mapear cada ponto/carga, adotar a previsão aplicável sem duplicação, identificar TUE e fatores de potência. As duas bases são complementares para revisão, não duas parcelas independentes de consumo. Banheiro continua exigindo identificar o ponto de serviço; os três pontos funcionais de iluminação não o substituem.
+**Sem dupla contagem:** 4.600 VA de TUG + 700 VA de previsão luminosa = 5.300 VA deste cenário, mantidos fora dos 6.670 W do inventário. Não somar VA com W, nem acrescentar mínimos de pontos aos aparelhos que esses mesmos pontos alimentarão. Para demanda real, mapear cada ponto/carga, adotar a previsão aplicável sem duplicação, identificar TUE e fatores de potência. As duas bases são complementares para revisão, não duas parcelas independentes de consumo. Banheiro continua exigindo identificar o ponto de serviço; os três pontos funcionais de iluminação não o substituem.
 
 Reproduzir: `python -B ferramentas/estudos/quadro_cargas_minimos.py`; testes: `python -B ferramentas/estudos/test_quadro_cargas_minimos.py`. Sete testes cobrem união/perímetro, sobreposição, desconto geométrico, frações versus incrementos inteiros, potências atribuídas e geometria inválida. Nada foi transferido ao CAD ou aos circuitos reais.
 

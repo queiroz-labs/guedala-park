@@ -7,7 +7,7 @@ TUE-GEL;EQ05;0;1;0.0;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/t
 TUE-GN;EQ08;50.0;0;0.3937;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
 TUE-LG;EQ07;1650.0;0;12.9921;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
 TUE-MIC;EQ03;1100.0;0;8.6614;;"manual ME23P: 20 A curva C; conferir RT";2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
-TUG-COZ;EQ02,EQ04,EQ06,EQ46,EQ47;194.0;3;1.5276;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
+TUG-COZ;EQ02,EQ04,EQ06,EQ46,EQ47;124.0;4;0.9764;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
 TUG-ESC;EQ26,EQ27,EQ28A,EQ28B,EQ29;20.8;4;0.1638;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
 TUG-LAV;EQ10;0;1;0.0;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"
 TUG-QUA;EQ44;0;1;0.0;;a determinar pelo RT;2.5;;;;30 mA: verificar aplicação/tipo/coordenação pelo RT;"cenário nominal para RT; não circuito existente"

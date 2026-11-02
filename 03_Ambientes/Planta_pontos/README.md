@@ -14,13 +14,13 @@ Correção documental: pedra da cozinha/lavanderia a **92 cm** (Elias, 31/10/202
 
 ## Quadro elétrico nominal — 29/10
 
-[Estudo 127 V para RT](Quadro_cargas.md): 36 linhas, 13 potências ausentes; subtotal de referências 6.740 W, **não demanda dimensionante**. [Circuitos como opção](Circuitos_cenario.csv), sem seção/disjuntor final ou queda por falta de quadro, FP e trajetos. AC 220 V fica separado; oferta do prédio não confirmada.
+[Estudo 127 V para RT](Quadro_cargas.md): 36 linhas, 14 potências ausentes; subtotal de referências 6.670 W, **não demanda dimensionante**. [Circuitos como opção](Circuitos_cenario.csv), sem seção/disjuntor final ou queda por falta de quadro, FP e trajetos. AC 220 V fica separado; oferta do prédio não confirmada.
 
 [Mínimos nominais por recinto](Quadro_cargas.md#mínimos-por-recinto--levantamento-nominal-complementar): 16 pontos TUG, 4.600 VA e 700 VA de previsão de luz, separados das cargas em W; [CSV e geometria](Minimos_por_recinto.csv). Limites virtuais de ambientes abertos precisam de definição elétrica.
 
 ## Fontes e limites
 
-- [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE11X,09/09](../Cozinha/Equipamentos_e_instalacao.md#purificador-de-água--electrolux-pe11x-cinzaprata-escolhido), [iluminação 27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias 26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).
+- [Equipamentos e manuais](../Equipamentos/README.md), [CSV](../Equipamentos/Lista_equipamentos.csv), [escolha PE12G,15/09](../../01_Programa_e_decisoes/Registro_de_decisoes.md#purificador-electrolux-pe12g-definido), [iluminação 27/10](../Iluminacao/Lista_curta_luminarias_e_madeira.md) e [armários até o teto, Elias 26/10](../../04_Moveis/README.md#diretriz-de-fechamento-até-o-teto--26102026).
 - Marcadores/alturas da R00 são referências nominais herdadas da R45; **não foram validados contra R53; Q06 perdeu a posição antiga porque D04 mudou sua implantação**. Contorno atual lido do site; envelopes antigos de aparelhos omitidos para não sugerir encaixe vigente. Nenhum CAD aberto/alterado.
 - Tensão de uso 127 V (F102,12/09), aparelhos bivolt preservados; GN para KE4GC/E21. Identificação da alimentação não dimensiona circuito, proteção, cabo, simultaneidade nem tomada real.
 - RT confere pontos da construtora, quadro, circuitos, água quente, GN, exaustão e implantação; oficina garante acesso removível às conexões/fontes sem interferir no fechamento até o teto. [Roteiro das chaves](../../07_Imovel/Roteiro_dia_das_chaves_R01.md).
@@ -33,7 +33,7 @@ Correção documental: pedra da cozinha/lavanderia a **92 cm** (Elias, 31/10/202
 | C05–C07 | Pia: fria/esgoto previstos; quente não comprovada na unidade | Levantar existentes; percurso quente com RT |
 | C08 | Torre 20 A na área seca | Quantidade de usos e implantação sem giro/água; não definir simultaneidade |
 | C09 | ME23P127V;10 cm desejados contra 30 cm do manual | Divergência existente mantida; sem novo estudo nominal ou redução do manual |
-| C10–C11 | PE12G desatualizado: escolha PE11X em 09/09 | Corrigido PE11X; água, garrafa, acesso e retirada pendentes |
+| C10–C11 | PE12G grafite escolhido em 15/09/2026; PE11X superado | Fonte anterior PE11X corrigida; água, garrafa, acesso e retirada pendentes |
 | C12 | IB6S bivolt, uso 127 V; tomada 200cm nominal | Evitar acesso bloqueado pelo armário/teto; RT/oficina |
 | C13–C14 | Produtos/comandos antigos genéricos | EVO comum; bancadaCOB/Shelly/pulsador; fonte acessível e IL04–07 |
 | L01–L03 | LG127V, água/esgoto coerentes | Identificar CV5012PC4; conferir mangueiras/retirada/posição real |
@@ -83,7 +83,7 @@ D05-C (Elias 27/10/2026: "C — cotar com aumento de verba") adia P17/C05: E06 p
 | C07 | Esgoto / ralo | Esgoto da pia | 45 cm (nominal) | Existente; conferir posição |
 | C08 | Tomada 20 A / 127 V | Torre automática de tomadas 20 A na bancada (área seca) | 92 cm (nominal) | Posição a definir |
 | C09 | Tomada 127 V | Micro-ondas ME23P · 127 V | 190 cm (nominal) | Aparelho escolhido |
-| C10 | Tomada 127 V | Purificador PE11X bivolt, uso 127 V | 110 cm (nominal) | Aparelho escolhido |
+| C10 | Tomada 127 V | Purificador PE12G bivolt, uso 127 V | 110 cm (nominal) | Aparelho escolhido |
 | C11 | Água fria | Água fria do purificador | 110 cm (nominal) | Derivação a confirmar |
 | C12 | Tomada 127 V | Geladeira IB6S bivolt, uso 127 V | 200 cm (nominal) | Aparelho escolhido |
 | C13 | Luz no teto | Stella EVO STH21967/30, quadrado 3000 K | teto a confirmar | Interruptor comum; posição com portas a conferir |

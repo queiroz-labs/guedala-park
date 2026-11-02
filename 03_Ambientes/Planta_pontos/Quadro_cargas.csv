@@ -4,7 +4,7 @@ EQ02;cozinha;KE4GC ignição;C03;TUG-COZ;;ausente;Lista_equipamentos.csv EQ02;"2
 EQ03;cozinha;ME23P;C09;TUE-MIC;1100;referência comercial provisória;"Conferencia_127V_e_folgas.md F103; ME23P manual";"Confirmar potência absorvida da placa; manual circuito exclusivo 20 A curva C";1;ausente;8.6614;10.8268
 EQ04;cozinha;Suggar DE61IX;C04;TUG-COZ;124;manual REV0025;Suggar_DE61IX_DE62IX.pdf;127 V;1;ausente;0.9764;1.2205
 EQ05;cozinha;Electrolux IB6S;C12;TUE-GEL;;ausente;Lista_equipamentos.csv EQ05;"Bivolt; kWh/mês não é potência máxima; partida ausente";1;ausente;;
-EQ06;cozinha;Electrolux PE11X;C10;TUG-COZ;70;manual;Electrolux_PE11X_Manual.pdf;Bivolt;1;ausente;0.5512;0.689
+EQ06;cozinha;Electrolux PE12G;C10;TUG-COZ;;ausente;"Manual oficial PE12; Conferencia_127V_e_folgas.md";"Bivolt; potência de operação a conferir; não herdar 70 W do PE11X";1;ausente;;
 EQ07;lavanderia;LG CV5012PC4;L01;TUE-LG;1650;manual família;LG_VC4_CV5012WC4_127V.pdf p10;"Lavagem 1250 W e secagem 1650 W: usar maior modo, não somar; conferir placa SKU";1;ausente;12.9921;16.2402
 EQ08;lavanderia;Rinnai E21 GN;L07;TUE-GN;50;manual máximo elétrico;Rinnai_E21_Manual_176.pdf tabela1;"Standby 1,5 W; 33,7 kW térmicos excluídos; tomada exclusiva não prova circuito exclusivo";1;ausente;0.3937;0.4921
 EQ09;lavanderia;Walita RI9252/91;L10;TUE-AIR;1400;referência fabricante registrada F103;Conferencia_127V_e_folgas.md;"Airfryer 127 V; L10 compartilhado no anteprojeto requer revisão RT";1;ausente;11.0236;13.7795
