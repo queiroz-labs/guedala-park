@@ -51,7 +51,7 @@ html=html.replace('</body>','<script>'+(src/'navigation-clarity.js').read_text(e
 for name,token in [('app.css','/*CSS*/'),('experience.css','/*EXPERIENCE_CSS*/'),('experience.js','/*EXPERIENCE_JS*/'),('data.js','/*DATA*/'),('cad-data.js','/*CAD_DATA*/'),('cad-sync.js','/*CAD_SYNC*/'),('lighting.js','/*LIGHTING*/'),('depth-renderer.js','/*DEPTH*/'),('app.js','/*APP*/')]:
     content=(src/name).read_text(encoding='utf-8')
     if name=='cad-sync.js':content=(src/'visual-finishes.js').read_text(encoding='utf-8')+'\n'+(src/'site-copy.js').read_text(encoding='utf-8')+'\n'+content
-    if name=='app.js':content=subprocess.run(['node','-e',"process.stdout.write(require('esbuild').transformSync(require('fs').readFileSync(0,'utf8'),{loader:'js',minify:true,charset:'utf8'}).code)"],input=content,text=True,encoding='utf-8',capture_output=True,check=True,cwd=root).stdout
+    if name in ('app.js','cad-sync.js'):content=subprocess.run(['node','-e',"process.stdout.write(require('esbuild').transformSync(require('fs').readFileSync(0,'utf8'),{loader:'js',minify:true,charset:'utf8'}).code)"],input=content,text=True,encoding='utf-8',capture_output=True,check=True,cwd=root).stdout
     html=html.replace(token,content)
 
 details={}

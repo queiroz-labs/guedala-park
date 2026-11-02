@@ -29,6 +29,17 @@ function cadMesh(n){
 }
 // Covers not tagged as fronts in the R45 export. Fixed corner fascia is hidden
 // only for the inspection cut; supports, geometry and quantities remain intact.
+// The saved CAD export has the upper refrigerator door at 90 degrees.
+// Present it closed, rotating its panel and handle together about the hinge.
+const CLOSED_FRIDGE_VERTICES=new WeakMap();
+function closedFridgePart(part){
+ if(!['IB6S_Porta_Refrigerador','IB6S_Pega_Refrigerador'].includes(part.source))return part;
+ const door=CAD_DATA.parts.find(p=>p.source==='IB6S_Porta_Refrigerador'),base=CAD_DATA.parts.find(p=>p.source==='IB6S_Porta_Freezer');
+ if(!base||!door||door.d<=door.w)return part;
+ const n={...part,x:base.x-(part.z+part.d-base.z),z:base.z+part.x-base.x,w:part.d,d:part.w};
+ if(part.v){let v=CLOSED_FRIDGE_VERTICES.get(part.v);if(!v){v=part.v.map(([x,y,z])=>[part.d-z,y,x]);CLOSED_FRIDGE_VERTICES.set(part.v,v);}n.v=v;delete n.preparedMesh;}
+ return n;
+}
 const INTERIOR_COVERS=new Set(['FrenteVizinhaR18','FaixaQuinaAR04','FaixaQuinaBR04']);
 function isInteriorCover(part){return !!part.front||INTERIOR_COVERS.has(part.source);}
 function applyCadSync(scene,st){
@@ -38,7 +49,7 @@ function applyCadSync(scene,st){
   if(part.scenario && part.scenario!==st.table)continue;
   if(st.moduleFilter && part.module!==st.moduleFilter)continue;
   if(st.inside&&isInteriorCover(part))continue;
-  const n={...part};
+  const n={...closedFridgePart(part)};
   // Tonal separation makes the PE12G cup recess and controls readable.
   const purifierColors={PE12G_Corpo:'#505659',PE12G_Bandeja:'#202729',PE12G_Comandos:'#181e21',PE12G_Bica:'#161b1d',PE12G_Tecla0:'#b5cbd4',PE12G_Tecla1:'#d8dddd',PE12G_Tecla2:'#91adbd'};
   if(purifierColors[n.source])n.c=purifierColors[n.source];

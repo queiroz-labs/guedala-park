@@ -1,14 +1,16 @@
 # Apartamento interativo — R55 e pacote R30
 
+**Navegação:** Obra fica em Mais; geladeira fechada no site, com painel e pega transformados juntos, sem mudar o CAD. Pedido: Elias,02/11/2026.
+
 **Consulta interna:** na ficha de cada módulo, “Medidas internas no desenho” oferece frente/lateral/planta, posição do corte e duas linhas móveis. Cotas em cm vêm da interseção das malhas de chapas com o corte; recortes são respeitados. Frentes e ferragens não entram. Vão não comprova acesso/folgas reais; consulta aguarda o 3D. Pedido: Elias,02/11/2026, nesta conversa.
 
 **Pia no site:** torneira atrás da cuba (Peca136/137); PE12G com rebaixo, bica, comandos e grelha mais legíveis, detalhes aproximados e envelope 16×42×35 cm preservado. Pedido: Elias,02/11/2026, nesta conversa.
 
-**CAD principal atualizado:** Elias,02/11/2026: “aprovo deixa como documento principal”. Publicação autorizada: Elias,02/11/2026: “ok, pode publicar”. Integração dos controles novos no visualizador pendente.
+**CAD/site:** principal aprovado por Elias,02/11/2026: “aprovo deixa como documento principal”; publicação: “ok, pode publicar”. Controles novos no site pendentes.
 
 **R55:** portas livres 80/70×210 cm e alturas 255/230 cm (Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”); [106 cenários](../../02_Modelo_3D/Relatorio_mudanca.md); 3D: rodapé e persiana 30% (Elias, 31/10/2026) nominais.
 
-**Textos públicos:** estado atual em `src/data.js`; registros internos fora da biblioteca (`plain_language.py`).
+**Textos públicos:** `src/data.js`; política da biblioteca em `plain_language.py`.
 
 **Box verde:** chuveiro e janela verdes; outra interna clara (Elias,30/10/2026). Quantidades nominais.
 

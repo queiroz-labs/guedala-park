@@ -99,3 +99,8 @@ assert.equal(ribs.length,8);
 assert(purifier.some(n=>n.source==='PE12G_Bica'));
 assert(purifier.some(n=>n.source==='PE12G_Comandos'));
 assert(ribs.every(n=>n.x>=552&&n.x+n.w<=568&&n.z>=646&&n.z+n.d<=688&&n.y>=92&&n.y+n.h<=127));
+
+// Both refrigerator doors are closed in the site presentation, irrespective of saved CAD pose.
+const fridge=scene({}).filter(n=>n.id==='fridge'),lower=fridge.find(n=>n.source==='IB6S_Porta_Freezer'),upper=fridge.find(n=>n.source==='IB6S_Porta_Refrigerador'),handle=fridge.find(n=>n.source==='IB6S_Pega_Refrigerador');
+for(const part of [upper,handle]){assert(part.z>=lower.z-1e-5);assert(part.x>=lower.x-1e-5);assert(part.x+part.w<=lower.x+lower.w+1e-5);assert(part.z+part.d<=lower.z+lower.d+1e-5);}
+assert(Math.abs(upper.w-60.1)<1e-5&&Math.abs(upper.d-6.9)<1e-5);
