@@ -192,46 +192,30 @@
           ]
         },
         {
-          "item": "Corrediças ocultas, 500 mm",
-          "reference": "FGVTN 54FGOC12500TSX0",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 4,
           "unit": "par",
-          "status": "candidato",
-          "assembly": "Capacidade publicada35kg; curso475 ±3mm, não500. Modelo de caixa legado exige compatibilização.",
-          "evidence": [
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
-              "trecho": "Roupeiro — Gaveta, 001, 002, 003 | 54FGOC12500TSX0 | 4 pares | 355 × 550 | 344 externos / 314 internos × 500 | +30 sobre mínimo 520 | Cozinha — Gaveta004, 005, 006 | 54FGOC12500TSX0 | 3 pares | 583 × 572 | 572 externos / 542 internos × 500 | +52 sobre mínimo 520 | Escritório — Gaveta008, 009 | 54FGOC12400TSX0 | 2 pares | 364 × 412 na R44; 432 na variante R04 | 353 externos / 323 internos × 400 | −8 R44; +12 R04 | São 7 pares de 500 + 2 pares de 400, total 18 guias e 9 conjuntos de engates esquerdo/direito compatíveis. Conferir se os engates vêm nos kits para evitar compra duplicada. Não misturar engate convencional com opcional 3D sem o desenho da combinação exata. Parafusos de fixação e seus comprimentos aguardam desenho definitivo, espessura real e substrato. As caixas atuais vieram de outra família: +1 mm na largura interna/externa e +"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
-          ],
-          "derivation": "1 par por gaveta: 4 gavetas"
+          ]
         },
         {
-          "item": "Engates das corrediças 500",
-          "reference": "Par esquerdo/direito correspondente ao kit FGVTN 500; SKU não confirmado",
-          "quantity": 4,
-          "unit": "par E/D",
-          "status": "pendente",
-          "assembly": "Não duplicar se os engates vierem incluídos. Não misturar convencional e opcional3D.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
-              "trecho": "São 7 pares de 500 + 2 pares de 400, total 18 guias e 9 conjuntos de engates esquerdo/direito compatíveis. Conferir se os engates vêm nos kits para evitar compra duplicada. Não misturar engate convencional com opcional 3D sem o desenho da combinação exata. Parafusos de fixação e seus comprimentos aguardam desenho definitivo, espessura real e substrato. As caixas atuais vieram de outra família: +1 mm na largura interna/externa e +10 mm n"
-            }
-          ],
-          "includedWhenBundled": true
-        },
-        {
-          "item": "Parafusos das guias e engates",
-          "reference": null,
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
-          "unit": "unidade",
-          "status": "pendente",
-          "assembly": "Definir pelo desenho e material reais; não quantificar pela geometria de outra família.",
-          "evidence": [
+          "unit": "conjunto",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
-              "trecho": "Parafusos guias;Conforme furo e substrato;A definir;peca;NAO QUANTIFICADO;Gabarito de cada comprimento e resistencia do substrato Fixacao frentes escritorio;Parafuso4x30 arruela1.2 conforme estudoR04;8;conjunto;HIPOTESE GEOMETRICA;Resistenc"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
@@ -298,16 +282,17 @@
       "technicalChecks": [
         "Confirmar envelope real, retenção antidescarrilamento, padrão de furação, seções completas dos trilhos e posição dos freios.",
         "Dimensionar suporte dos trilhos e ligações da base/topo; capacidade de60 kg por porta não dimensiona a marcenaria.",
-        "Determinar datum vertical, recortes traseiros e desenho dos engates da FGVTN; o STEP400 não deve ser escalado para500.",
         "Fechar carga útil incluindo massa da caixa, frente, acessórios e conteúdo; 35kg não significa35kg de conteúdo.",
         "Compatibilizar suportes centrais: eixo superior82mm abaixo da base do maleiro e inferior52mm abaixo da prateleira; altura externa63 do suporte não é a cota eixo–face.",
         "Definir carga dos varões e das prateleiras; rigidez de tubo e fixação no MDF são verificações separadas.",
-        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada."
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não cotas executivas.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte.",
-        "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis."
+        "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis.",
+        "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+        "Fechar gavetas antes de mover as portas. ExtensaoEfetiva bloqueia visualmente o curso quando a folha cobre o vão; não representa trava física."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
@@ -1070,46 +1055,30 @@
       "name": "Gaveteiro G1/G2/G3",
       "hardwareRows": [
         {
-          "item": "Corrediças ocultas, 500 mm",
-          "reference": "FGVTN 54FGOC12500TSX0",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "candidato",
-          "assembly": "Capacidade publicada35kg; curso475 ±3mm, não500. Modelo de caixa legado exige compatibilização.",
-          "evidence": [
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
-              "trecho": "Roupeiro — Gaveta, 001, 002, 003 | 54FGOC12500TSX0 | 4 pares | 355 × 550 | 344 externos / 314 internos × 500 | +30 sobre mínimo 520 | Cozinha — Gaveta004, 005, 006 | 54FGOC12500TSX0 | 3 pares | 583 × 572 | 572 externos / 542 internos × 500 | +52 sobre mínimo 520 | Escritório — Gaveta008, 009 | 54FGOC12400TSX0 | 2 pares | 364 × 412 na R44; 432 na variante R04 | 353 externos / 323 internos × 400 | −8 R44; +12 R04 | São 7 pares de 500 + 2 pares de 400, total 18 guias e 9 conjuntos de engates esquerdo/direito compatíveis. Conferir se os engates vêm nos kits para evitar compra duplicada. Não misturar engate convencional com opcional 3D sem o desenho da combinação exata. Parafusos de fixação e seus comprimentos aguardam desenho definitivo, espessura real e substrato. As caixas atuais vieram de outra família: +1 mm na largura interna/externa e +"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
-          ],
-          "derivation": "1 par por gaveta: 3 gavetas"
+          ]
         },
         {
-          "item": "Engates das corrediças 500",
-          "reference": "Par esquerdo/direito correspondente ao kit FGVTN 500; SKU não confirmado",
-          "quantity": 3,
-          "unit": "par E/D",
-          "status": "pendente",
-          "assembly": "Não duplicar se os engates vierem incluídos. Não misturar convencional e opcional3D.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
-              "trecho": "São 7 pares de 500 + 2 pares de 400, total 18 guias e 9 conjuntos de engates esquerdo/direito compatíveis. Conferir se os engates vêm nos kits para evitar compra duplicada. Não misturar engate convencional com opcional 3D sem o desenho da combinação exata. Parafusos de fixação e seus comprimentos aguardam desenho definitivo, espessura real e substrato. As caixas atuais vieram de outra família: +1 mm na largura interna/externa e +10 mm n"
-            }
-          ],
-          "includedWhenBundled": true
-        },
-        {
-          "item": "Parafusos das guias e engates",
-          "reference": null,
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
-          "unit": "unidade",
-          "status": "pendente",
-          "assembly": "Definir pelo desenho e material reais; não quantificar pela geometria de outra família.",
-          "evidence": [
+          "unit": "conjunto",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
-              "trecho": "Parafusos guias;Conforme furo e substrato;A definir;peca;NAO QUANTIFICADO;Gabarito de cada comprimento e resistencia do substrato Fixacao frentes escritorio;Parafuso4x30 arruela1.2 conforme estudoR04;8;conjunto;HIPOTESE GEOMETRICA;Resistenc"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
@@ -1129,13 +1098,13 @@
         }
       ],
       "technicalChecks": [
-        "Determinar datum vertical, recortes traseiros e desenho dos engates da FGVTN; o STEP400 não deve ser escalado para500.",
         "Fechar carga útil incluindo massa da caixa, frente, acessórios e conteúdo; 35kg não significa35kg de conteúdo.",
         "G3: cenário de madeira900kg/m³ consome15,626kg e deixa19,374kg até35kg, antes de acessórios. Recalcular com materiais e caixa definitivos.",
-        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada."
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte."
+        "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
@@ -2464,115 +2433,32 @@
       "name": "Gaveteiro escritório",
       "hardwareRows": [
         {
-          "item": "Corrediças recomendadas para continuidade",
-          "reference": "Blum MOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "candidato",
-          "assembly": "Alternativa posterior recomendada preserva caixa/útilR44; exclui TIP-ON e estabilizador não selecionados.",
-          "evidence": [
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
-              "trecho": "Pacote identificado Dois pares de 760H4000S, MOVENTO com BLUMOTION S, classe40kg; dois engates esquerdos e dois direitos T51.7601; fixação por parafusos do sistema conforme desenho de cada guia; gabarito T65.1000.02 para engates/ganchos. Não inclui TIP-ON, estabilizador lateral nem ajuste de profundidade para frente embutida: as frentes aqui são aplicadas. O kit comercial deve discriminar ambos os engates por par. Códigos oficiais identificam as peças, não comprovam estoque/preço local. O manual apresenta para guias parafusos 609.1500 (Ø3,5×15) ou de sistema661.1450.HG (Ø6×14,5), em posições indicadas na folha26. Não são dois métodos para somar no mesmo furo. O desenho deve ser conferido na revisão do produto comprado, inclusive a opção de substituição indicada por asterisco. Na lateral18, um parafuso de comprimento15 deixa pelo menos3 de pele geométrica se toda a haste penetrasse madeir"
-            }
-          ],
-          "exclusiveGroup": "P16.corredicas",
-          "option": "MOVENTO400"
-        },
-        {
-          "item": "Engates MOVENTO",
-          "reference": "Blum T51.7601 esquerdo e direito",
-          "quantity": 2,
-          "unit": "par E/D",
-          "status": "candidato",
-          "assembly": "2esquerdos +2direitos; não duplicar quando incluídos no kit.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
-              "trecho": "Dois pares de 760H4000S, MOVENTO com BLUMOTION S, classe40kg; dois engates esquerdos e dois direitos T51.7601; fixação por parafusos do sistema conforme desenho de cada guia; gabarito T65.1000.02 para engates/ganchos. Não inclui TIP-ON, estabilizador lateral nem ajuste de profundidade para frente embutida: as frentes aqui são aplicadas. O kit comercial deve discriminar ambos os engates por par. Códigos oficiais identificam as peças, não comprovam estoque/preço local. O manual apresenta para guias parafusos 609.1500 (Ø3,5×15) ou de sistema661.1450.HG (Ø6×14,5), em posições indicadas na folha26. Não são d"
-            }
-          ],
-          "exclusiveGroup": "P16.engates",
-          "option": "MOVENTO400",
-          "includedWhenBundled": true,
-          "derivation": "2 gavetas × 1 par E/D"
-        },
-        {
-          "item": "Parafusos de guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15 OU661.1450.HG Ø6×14,5",
-          "quantity": null,
-          "unit": "unidade",
-          "status": "pendente",
-          "assembly": "Métodos alternativos, não dois parafusos no mesmo furo. Contar posições na revisão do produto adquirido.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
-              "trecho": "O manual apresenta para guias parafusos 609.1500 (Ø3,5×15) ou de sistema661.1450.HG (Ø6×14,5), em posições indicadas na folha26. Não são dois métodos para somar no mesmo furo. O desenho deve ser conferido na revisão do produto comprado, inclusive a opção de substituição indicada por asterisco. Na lateral18, um parafuso de comprimento15 deixa pelo menos3 de pele geométrica se toda a haste penetrasse madeira; a espessura do perfil aumenta a sobra. Isso não avalia arrancamento ou piloto. Comparação sem redução do armazenamento Opção | Gabinete mínimo / existente | Caixa e útil longitudinal | Decisão | MOVENTO400 | 4"
-            }
-          ],
-          "option": "MOVENTO400"
-        },
-        {
-          "item": "Gabarito de engates e ganchos",
-          "reference": "Blum T65.1000.02",
-          "quantity": null,
-          "unit": "ferramenta de montagem",
-          "status": "candidato",
-          "assembly": "Ferramenta reutilizável; confirmar disponibilidade com a marcenaria, não presumir compra adicional.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
-              "trecho": "gabarito T65.1000.02 para engates/ganchos. Não inclui TIP-ON, estabilizador lateral nem ajuste de profundidade para frente embutida: as frentes aqui são aplicadas. O kit comercial deve discriminar ambos os engates por par. Códigos oficiais identificam as peças, não comprovam estoque/preço local. O m"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
         {
-          "item": "Corrediças alternativas que exigem variante da caixa",
-          "reference": "FGVTN54FGOC12400TSX0,35kg",
-          "quantity": 2,
-          "unit": "par",
-          "status": "candidato",
-          "assembly": "Alternativa exclusiva à MOVENTO: exige mínimo420mm livres;R44 tem412 eR04propõe432.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
-              "trecho": "Escritório — Gaveta008, 009 | 54FGOC12400TSX0 | 2 pares | 364 × 412 na R44; 432 na variante R04 | 353 externos / 323 internos × 400 | −8 R44; +12 R04 | São 7 pares de 500 + 2 pares de 400, total 18 guias e 9 conjuntos de engates esquerdo/direito compatíveis. Conferir se os engates vêm nos kits para evitar compra duplicada. Não misturar engate convencional com opcional 3D sem o desenho da combinação exata. Parafusos de fixação e seus comprimentos aguardam desenho definitivo, espessura real e subs"
-            }
-          ],
-          "exclusiveGroup": "P16.corredicas",
-          "option": "FGVTN400"
-        },
-        {
-          "item": "Engates da alternativa FGVTN400",
-          "reference": "Código do par correspondente não confirmado",
-          "quantity": 2,
-          "unit": "par E/D",
-          "status": "pendente",
-          "assembly": "Não combinar com T51.7601Blum.",
-          "evidence": [
-            {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
-              "trecho": "Engates400;Par esquerdo direito correspondente ao kit400;2;conjunto;NAO DUPLICAR SE INCLUSO;Confirmar codigo embalagem e desenho Parafusos guias;Conforme furo e substrato;A definir;peca;NAO QUANTIFICADO;Gabarito de cada comprimento e resist"
-            }
-          ],
-          "exclusiveGroup": "P16.engates",
-          "option": "FGVTN400",
-          "includedWhenBundled": true
-        },
-        {
-          "item": "Fixação das frentes na variante FGVTN R04",
-          "reference": "Parafuso4×30 + arruela1,2mm",
-          "quantity": 8,
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
+          "quantity": null,
           "unit": "conjunto",
-          "status": "candidato",
-          "assembly": "Hipótese geométricaR04; não transferir automaticamente ao pacoteMOVENTO. Piloto/arrancamento pendentes.",
-          "evidence": [
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
+          "sources": [
             {
-              "path": "04_Moveis/Inventario_dimensional/Gavetas/Ferragens_quantitativo.csv",
-              "trecho": "Fixacao frentes escritorio;Parafuso4x30 arruela1.2 conforme estudoR04;8;conjunto;HIPOTESE GEOMETRICA;Resistencia piloto e engates pendentes Rodizios gaveta baixa;Fixo roda30 altura39 silicone;6;peca;PRODUTO EXATO PENDENTE;Capacidade dinamica material primario "
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
-          ],
-          "option": "FGVTN400 R04"
+          ]
         },
         {
           "item": "Ligações dos painéis da carcaça",
@@ -2592,12 +2478,11 @@
       "technicalChecks": [
         "Corrigir datum/recortes sem apagar interferências por tentativa: conflitos0,125–0,175mm no fundo e1,902mm³ no gancho direito registrados.",
         "Resolver reserva superior de retirada e coordenar as duas caixas com tampo/estrutura; diferença pequena não equivale a tolerância aprovada.",
-        "Escolher MOVENTO400 ou varianteFGVTN400; quantitativos são alternativas e não somam4pares.",
-        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada."
+        "Fechar mapa de uniões por interface: material real, conector, quantidade por encontro, distâncias de borda, piloto/profundidade e acesso da ferramenta; contato de borda não é ligação dimensionada.",
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
-        "MOVENTO400: caixa390, útil359; largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
-        "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
+        "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",

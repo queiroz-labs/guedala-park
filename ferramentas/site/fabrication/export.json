@@ -1,12 +1,12 @@
 {
   "revision": "R55",
-  "source_sha256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
+  "source_sha256": "4a9026956aa4557a2fa392f4c02c308f93eabb3bbda6d7bd3ddd927777cd216c",
   "source_unchanged": true,
-  "parts": 445,
+  "parts": 518,
   "modules": 20,
-  "triangles": 125322,
-  "panel_rows": 248,
-  "drawer_panels_visible": 53,
-  "unknown_finish_panels": 128,
+  "triangles": 127878,
+  "panel_rows": 251,
+  "drawer_panels_visible": 54,
+  "unknown_finish_panels": 129,
   "classification_policy": "No material fallback. Panel eligibility uses explicit material or documented functional allowlist; finish can remain unspecified. Hardware, contents and unknown-purpose components stay piece=null."
 }

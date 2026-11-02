@@ -14,8 +14,22 @@
   "modules": {
     "P01": {
       "name": "Guarda-roupa",
-      "summary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
+      "summary": "4 pares laterais com amortecimento. Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "decisions": [
+        {
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
+          "quantity": 4,
+          "unit": "par",
+          "status": "pendente de especificação do conjunto",
+          "sources": [
+            {
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
+            }
+          ],
+          "reason": "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
+        },
         {
           "item": "Kits de correr RO62 para uma folha",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
@@ -119,50 +133,6 @@
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
               "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
-            }
-          ],
-          "assemblyStatus": "compatibilização fabril"
-        },
-        {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
-          "quantity": 4,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN"
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
           ],
           "assemblyStatus": "compatibilização fabril"
@@ -321,48 +291,39 @@
           "id": "P01-F03"
         },
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P01-F04",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado; altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar datum vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500; instruçãoset 2024 deixa Hsemcota em 500. Não usinar furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F04"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P01-F05",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=314 mm (+1/−0,5), laterais 15→largura externa 344 mm. Profundidade mínima 520 frente a 550 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado; mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade; confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F05"
@@ -571,46 +532,30 @@
           ]
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 4,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "compatibilização fabril",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         }
@@ -637,15 +582,16 @@
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
         "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar quatro gavetas internas e dois setores superiores; regular o sistema real de correr antes de conferir acesso às gavetas.",
         "Montar divisórias e apoios com ligação dimensionada; contato nominal não comprova suporte.",
         "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não cotas executivas.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte.",
         "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 329,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+        "Fechar gavetas antes de mover as portas. ExtensaoEfetiva bloqueia visualmente o curso quando a folha cobre o vão; não representa trava física."
       ],
       "fieldChecks": [
         {
@@ -694,7 +640,6 @@
       ],
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem Comfort selecionado;2 kits de 1 folha por módulo.",
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
         "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do maleiro (2132); inferior em 1030, 52 mm abaixo da prateleira (1082).",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
@@ -3067,51 +3012,21 @@
     },
     "P06": {
       "name": "Três gavetas da cozinha",
-      "summary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
+      "summary": "3 pares laterais com amortecimento. Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "decisions": [
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN"
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
+          "reason": "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
         },
         {
           "item": "Caixa do gaveteiro montada antes das guias",
@@ -3129,48 +3044,39 @@
       ],
       "drilling": [
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P06-F01",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado; altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar datum vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500; instruçãoset 2024 deixa Hsemcota em 500. Não usinar furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F01"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P06-F02",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=542 mm (+1/−0,5), laterais 15→largura externa 572 mm. Profundidade mínima 520 frente a 572 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado; mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade; confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F02"
@@ -3214,46 +3120,30 @@
           ]
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo; não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos; escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "compatibilização fabril",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         }
@@ -3274,13 +3164,12 @@
         "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: fechar os recortes traseiros e o datum vertical do conjunto 54FGOC12500TSX0; a caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir carga útil dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
+        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Conferir gavetas e guias como conjuntos compatíveis; preservar G1/G2/G3 e seus usos.",
-        "FGVTN 54FGOC12500TSX0 selecionada para as três gavetas; conferir engates, regulagem e fixação.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11; folga centrada nominal5,5mm/lado. Compatibilizar caixa/recortes/engates antes do corte.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 557,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "fieldChecks": [
         {
@@ -3328,7 +3217,6 @@
         }
       ],
       "resolvedChecks": [
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada; caixa/recortes continuam em compatibilização.",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],
       "unmappedInterfaces": [
@@ -8137,86 +8025,21 @@
     },
     "P16": {
       "name": "Gavetas do escritório",
-      "summary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49. Provar retirada na oficina.",
+      "summary": "2 pares laterais com amortecimento. Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "decisions": [
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
+          "status": "pendente de especificação do conjunto",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "compatibilização fabril"
-        },
-        {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "2 esquerdos +2 direitos. Discriminar no kit; não comprar novamente caso incluídos.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ],
-          "assemblyStatus": "compatibilização fabril"
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
-          "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "reason": "Selecionado método A do fabricante; contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            }
-          ],
-          "assemblyStatus": "compatibilização fabril"
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "reason": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
-            }
-          ],
-          "assemblyStatus": "compatibilização fabril"
+          "reason": "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
         },
         {
           "item": "Carcaça do escritório fixa, frentes reguláveis",
@@ -8234,51 +8057,39 @@
       ],
       "drilling": [
         {
-          "item": "Guias MOVENTO400",
+          "item": "Fixação lateral — P16-F01",
           "partIds": [],
-          "face": "face interna das laterais",
-          "datum": "frente acabada da carcaça e plano de referência do eixo da guia",
-          "pattern": "Usar padrão 760H40 kg/NL380–480 da página 428; primeiro centro 37 mm da frente. Fixação por 609.1500; mínimo 38 mm do eixo à base. O mapa vertical existente precisa ajuste de retirada.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "609.1500 Ø3,5×15",
-          "status": "gabarito documentado; mapa por lateral pendente",
-          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F01"
         },
         {
-          "item": "Ganchos traseiros e engates MOVENTO400",
+          "item": "Fixação lateral — P16-F02",
           "partIds": [],
-          "face": "traseira e face inferior da caixa",
-          "datum": "gabarito T65.1000.02 referenciado nas duas laterais e face inferior do fundo",
-          "pattern": "2 furos traseirosØ6×10; referências 7/11 do desenho. Comprimento da caixa NL−10=390; largura interna 364−42=322(+0/−1,5). Laterais 15 mm preservadas.",
-          "diameter": 6,
-          "depth": 10,
-          "fastener": "T51.7601 e ganchosMOVENTO",
-          "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD; confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
+          "depth": null,
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F02"
@@ -8323,81 +8134,30 @@
           ]
         },
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
-          "assemblyStatus": "compatibilização fabril",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         },
         {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "assembly": "2 esquerdos +2 direitos. Discriminar no kit; não comprar novamente caso incluídos.",
-          "assemblyStatus": "compatibilização fabril",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ]
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "assembly": "Selecionado método A do fabricante; contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "assemblyStatus": "compatibilização fabril",
+          "unit": "conjunto",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores; definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            }
-          ]
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "assembly": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "assemblyStatus": "compatibilização fabril",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ]
         }
@@ -8409,8 +8169,7 @@
       ],
       "workshopChecks": [
         "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
-        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem."
       ],
       "technicalChecks": [
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
@@ -8418,13 +8177,11 @@
         "Fechar substrato e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: emitir mapa definitivo de altura das 2 guias após compatibilização; testar destrave/retirada com frentes e tampo montados.",
         "Em chapa real: conferir espessura, prova de pré-furo/torque e fita de borda; travar origem/face e sentido de montagem antes de gerar programa de usinagem.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Conferir o par lateral com amortecimento numa caixa piloto; os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.",
-        "MOVENTO400: caixa390, útil359; largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
-        "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
+        "Caixa externa 338,6 mm; folga nominal 12,7 mm por lado; frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "fieldChecks": [
         {
@@ -8443,8 +8200,6 @@
         }
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601; variante FGVTN400 excluída.",
-        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
         "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda; não invade mais a guia direita (era 1.276 mm³).",
         "Estratégia de união definida por função; não tratar toda ligação como ferragem indefinida."
       ],

@@ -25,6 +25,8 @@ runpy.run_path(str(root/'build_floorplan.py'))['build']()
 build_field_guide()
 runpy.run_path(str(root/'build_visual_finishes.py'))['build']()
 html=plain_html((src/'shell.html').read_text(encoding='utf-8')).replace('{{HEIGHT_STUDY}}',height_text)
+# Isolar dados preserva a fronteira de extração da geometria no build web.
+html=html.replace('/*CAD_DATA*/','</script><script>/*CAD_DATA*/</script><script>')
 html=html.replace('</style>',(src/'workshop.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</style>',(src/'internal-measures.css').read_text(encoding='utf-8')+'\n</style>')
 html=html.replace('</style>',(src/'field.css').read_text(encoding='utf-8')+'\n</style>')

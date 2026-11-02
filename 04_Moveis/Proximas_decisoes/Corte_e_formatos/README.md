@@ -1,6 +1,8 @@
 # Corte guilhotinado nominal para cotação — R54 / fichas R15
 
-## Resultado corrente — 28/10/2026
+**Fonte atual —02/11/2026:** o leitor recebe 251 painéis, incluindo `MontagemG2R021` e `P07_Faixa_Superior_Forno`, antes omitidos na exportação. As caixas foram ajustadas às corrediças laterais por decisão de Elias,02/11/2026. O plano de 249 painéis abaixo é histórico; recotar com as fichas atuais, sem presumir o mesmo aproveitamento.
+
+## Resultado histórico — 28/10/2026
 
 **216 dos 249 painéis calculados; 33 ainda excluídos.** P13/Peca350 entrou no grupo Arenza 18: F13=A, Elias, 27/10/2026, conforme ficha e auditoria. A área e os IDs das fichas atuais são lidos novamente, sem alterar madeira, ferragens, orçamento ou FreeCAD. Os 36 componentes de alternativas continuam separados: não foram adotados nem somados.
 

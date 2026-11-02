@@ -30,7 +30,7 @@ Base documental: dormitório 02 de **2,30 × 2,95 m**, Guedala Park III, torre 0
 
 No ensaio atual, o braço do sofá fica a **3 cm da parede da entrada**, e o encosto a **2 cm da parede esquerda**: afastamentos provisórios. Isso deixa **82 cm entre a frente da bancada e o primeiro braço do sofá**, liberando mais área para deslocamento da cadeira. Não equivale a passagem livre atrás da cadeira ocupada ou reclinada.
 
-Gavetas com frentes em Arenza, pega discreta na borda e corrediças de abertura total confirmadas; amortecimento das gavetas ainda não definido.
+Gavetas com frentes em Arenza, pega discreta na borda e corrediças de abertura total confirmadas; corrediças laterais com amortecimento (Elias,02/11/2026: “Com amortecimento ao fechar”); SKU e furação pendentes.
 
 A cadeira deve entrar numa faixa sem gavetas ou travessa frontal que bloqueiem os braços. Estudar ao menos 80 cm de largura livre nessa faixa. Não há profundidade de recolhimento confirmada nem garantia de que a cadeira caiba inteira sob a bancada; o encosto permanece externo. Não aumentar altura do tampo apenas para fazê-la caber.
 

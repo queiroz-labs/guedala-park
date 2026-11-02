@@ -1,8 +1,8 @@
 ﻿IDs CAD;Peça;Qtd;C nominal mm;L nominal mm;Esp. envelope mm;Referência CAD;Especificação documental;Contorno;Bordas/veios/usinagem;Acabamento parcial
-Peca334 | Peca335;Lateral direita / Lateral esquerda;2;610.0;330.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca336;Fundo;1;661.0;574.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca337;Base;1;661.0;312.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca338;Tampo;1;661.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
-Peca339;Prateleira;1;661.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca334 | Peca335;P11_Lateral_direita023_334 / P11_Lateral_esquerda007_335;2;610.0;330.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca336;P11_Fundo007_336;1;661.0;574.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca337;P11_Base006_337;1;661.0;312.0;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca338;P11_Tampo004_338;1;661.0;312.0;18.0;Guararapes Azul Petróleo;Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
+Peca339;P11_Prateleira003_339;1;661.0;312.0;18.0;Off-white fosco (referência CAD);Branco TX — duas faces da mesma peça;Retangular;"Detalhamento técnico por ID; não descontado do envelope";
 FrenteComumR006;B · acima do micro - porta direita — frente com canecos;1;608.0;345.5;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";
 FrenteComumR007;B · acima do micro - porta esquerda — frente com canecos;1;608.0;345.5;18.0;Guararapes Azul Petróleo;Guararapes Azul Petróleo — duas faces da mesma peça;Recortado/especial;"Detalhamento técnico por ID; não descontado do envelope";

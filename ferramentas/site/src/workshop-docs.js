@@ -1,5 +1,5 @@
 /* Fontes explícitas. Conferir as medidas antes de fabricar. */
-const WORKSHOP_DOCS = [{"id":"dossie","title":"Guia do montador.","category":"Começar","rooms":["all"],"status":"Consolidado","summary":"Consulte as medidas, os materiais e o que falta conferir em cada móvel.","path":"06_Entregas/Dossie_marcenaria_R45.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pacote-compartilhar","title":"Pacote R31 · pacote de consulta","category":"Começar","rooms":["all"],"status":"Atual","summary":"Modelo FreeCAD R55, fichas dos móveis, planta, HTML offline e avanços técnicos selecionados.","path":"06_Entregas/Publicacao/Guedala_Park_R31.zip","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"matriz","title":"Medidas dos 20 móveis","category":"Medidas","rooms":["all"],"status":"Medida do projeto","summary":"Veja os espaços internos e as medidas que ainda precisam de confirmação.","path":"04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"comparacao-r54","title":"Reconciliação dimensional →","category":"Medidas","rooms":["all"],"status":"Medida do projeto","summary":"Dimensões e vãos comparados por peça, diferenças e limites da conferência.","path":"04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"interfaces","title":"Como unir as peças","category":"Montagem","rooms":["all"],"status":"Em estudo","summary":"Encontros entre chapas. Falta definir as peças de união e o peso suportado.","path":"04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"fixas","title":"Conectores e suportes dos armários","category":"Ferragens","rooms":["all"],"status":"Opções a conferir","summary":"Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar.","path":"04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"varoes","title":"Cabideiros do guarda-roupa","category":"Ferragens","rooms":["quarto"],"status":"Em estudo","summary":"Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos.","path":"04_Moveis/Inventario_dimensional/Inventario/Varoes.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"bancada","title":"Apoios da bancada do escritório","category":"Montagem","rooms":["escritorio"],"status":"Alternativa","summary":"Veja as medidas da bancada e o reforço que ainda está em estudo.","path":"04_Moveis/Inventario_dimensional/Inventario/Bancada.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"minifix","title":"Conectores do armário sobre a pia","category":"Ferragens","rooms":["cozinha"],"status":"Alternativa","summary":"Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário.","path":"04_Moveis/Inventario_dimensional/Inventario/Minifix_C.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"espelheiro","title":"Prateleiras do armário com espelho","category":"Ferragens","rooms":["banho"],"status":"Em estudo","summary":"Opções de apoios. Falta confirmar o peso suportado e a fixação na parede.","path":"04_Moveis/Inventario_dimensional/Inventario/Espelheiro.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"gavetas","title":"Gavetas — conferência dimensional","category":"Ferragens","rooms":["cozinha","quarto","escritorio"],"status":"Em estudo","summary":"Confira as corrediças, as rodas e o peso suportado. Veja também como retirar cada gaveta.","path":"04_Moveis/Inventario_dimensional/Gavetas/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"rodizios-p08","title":"Rodas da gaveta de limpeza","category":"Ferragens","rooms":["cozinha"],"status":"Selecionado","summary":"Seis rodas de 38 mm e espaçadores de 1 mm. Veja a escolha e o link de compra.","path":"03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"banheiro-fechamento","title":"Escolhas do banheiro","category":"Conferências de montagem","rooms":["banho"],"status":"Escolhido","summary":"Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad-p19","title":"Modelo de estudo do armário com espelho","category":"FreeCAD","rooms":["banho"],"status":"Estudo","summary":"Proposta de união entre as peças. A montagem ainda precisa de teste.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Espelheiro_P19_Unioes_NOMINAIS.FCStd","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"luz-banho","title":"Luzes do banheiro e preços","category":"Iluminação","rooms":["banho"],"status":"R$ 612,64","summary":"Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"movento","title":"Escritório: MOVENTO400 preserva a profundidade útil","category":"Ferragens","rooms":["escritorio"],"status":"Alternativa","summary":"Peças que guiam as gavetas do escritório. Confira os encaixes e a retirada.","path":"04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"portas","title":"Portas e articulações","category":"Ferragens","rooms":["all"],"status":"Em estudo","summary":"Estudos dos mecanismos. Teste a montagem antes de fabricar.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cesto","title":"Abertura do cesto de roupas","category":"Ferragens","rooms":["lavanderia"],"status":"Em estudo","summary":"Frente que inclina para abrir, com saco removível. Falta testar o mecanismo.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"mesa-varal","title":"Mesa Berlin e varal — validação dimensional","category":"Conferências de montagem","rooms":["sala","lavanderia"],"status":"Em estudo","summary":"Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"banco","title":"Banco: medidas e estudo histórico de apoios","category":"Montagem","rooms":["sala"],"status":"Em estudo","summary":"Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões.","path":"04_Moveis/Inventario_dimensional/Banco_estrutura/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"southco","title":"Alternativa de dobradiça para o banco","category":"Histórico","rooms":["sala"],"status":"Superado como direção P20","summary":"Estudo anterior com dobradiças Southco. Consulte a ficha do banco para ver a solução atual.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Relatorio.html","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"batente","title":"Limite de abertura do banco","category":"Histórico","rooms":["sala"],"status":"Registro de estudo","summary":"Estudo de uma peça para limitar a abertura. A posição depende da dobradiça real.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Batente_estudo.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"torneiras","title":"Torneiras: encaixe e acesso","category":"Conferências de montagem","rooms":["cozinha","banho"],"status":"Em estudo","summary":"Confira as medidas dos produtos e o espaço para abrir as torneiras.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Conferencia.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"purangi","title":"Torneira Purangi · opção em estudo","category":"Conferências de montagem","rooms":["banho"],"status":"Ainda não aprovado para fabricar","summary":"A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"forno","title":"Apoios e ventilação do forno","category":"Conferências de montagem","rooms":["cozinha"],"status":"Em estudo","summary":"Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.","path":"03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad","title":"FreeCAD R55 · modelo atual","category":"FreeCAD","rooms":["all"],"status":"Atual","summary":"Modelo 3D do apartamento com os 20 móveis. Abra no FreeCAD para consultar as peças.","path":"02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd","localOnly":true,"available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad-atual-notas","title":"Modelo 3D (FreeCAD)","category":"FreeCAD","rooms":["all"],"status":"Revisão local verificada","summary":"Pacote R30: banheiro atual na galeria e imagens offline. CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\". Correção da lavanderia 1290x1540 mm, parede 170 mm e Loop +15 mm incorporada: Elias, 01/11/2026, \"Sim, incorporar essa correção\". Publicação desta atualização autorizada por Elias, 02/11/2026, nesta conversa: \"ok, pode publicar\".","path":"02_Modelo_3D/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cad-r49","title":"O que mudou na R49","category":"FreeCAD","rooms":["escritorio"],"status":"Atual","summary":"Correções das gavetas do escritório e conferências P01, P02, P04 e P18.","path":"02_Modelo_3D/Historico/Gavetas_escritorio/README.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-r48","title":"Depurador sem canal de duto","category":"FreeCAD","rooms":["cozinha"],"status":"Atual","summary":"Canal removido do armário superior D e divisor levado até o fundo.","path":"02_Modelo_3D/Historico/Depurador_sem_canal/README.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-cores","title":"Cores do modelo 3D","category":"Acabamentos","rooms":["all"],"status":"Referência","summary":"Veja os acabamentos representados. Compare as cores com amostras reais.","path":"02_Modelo_3D/Historico/Cores/README.md","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-southco","title":"Modelo da alternativa Southco","category":"Histórico","rooms":["sala"],"status":"Não operacional","summary":"Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Southco_Fixacao_ESTUDO.FCStd","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-purangi","title":"Modelo de estudo da torneira Purangi","category":"FreeCAD","rooms":["banho"],"status":"Estudo","summary":"Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Purangi_R45_SENSIBILIDADE.FCStd","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"executivo","title":"Desenhos e medidas antes de fabricar","category":"Antes de fabricar","rooms":["all"],"status":"Pendente","summary":"Falta concluir os detalhes de corte, furos, bordas, folgas e montagem.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"planta","title":"Planta oficial do apartamento","category":"Arquitetura","rooms":["all"],"status":"Documento de origem","summary":"Documento de origem. Confira as medidas reais depois dos acabamentos.","path":"09_Referencias/Plantas_e_manuais/Planta_oficial.pdf","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pisos","title":"Pisos e rodapés","category":"Arquitetura","rooms":["all"],"status":"Escolhas e estudos","summary":"Veja as escolhas de acabamento e o que falta conferir na instalação.","path":"01_Programa_e_decisoes/Pisos_e_rodapes.md","available":true,"internal":false,"publicSection":"leitura","readingOrder":13},{"id":"luz-quarto","title":"Luzes do quarto","category":"Iluminação","rooms":["quarto"],"status":"Smart com Alexa/celular","summary":"Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.","path":"03_Ambientes/Quarto_e_portas/Iluminacao.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-economica","title":"Luzes do quarto · opção econômica","category":"Iluminação","rooms":["quarto"],"status":"Proposta","summary":"Composição com controle pelo celular. Referência parcial de R$ 376,32, sem frete e instalação.","path":"03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-imagens","title":"Luminárias nos ambientes","category":"Iluminação","rooms":["all"],"status":"Simulações","summary":"Simulações de cada ambiente com as luminárias escolhidas. Luz e escala aproximadas.","path":"09_Referencias/Iluminacao_CB02/Galeria.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-selecao","title":"Iluminação — proposta de custo-benefício CB01","category":"Iluminação","rooms":["all"],"status":"Atual","summary":"Seleção por ambiente. A CB02 substitui o plafon caro do quarto.","path":"03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Selecao_CB01.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"tecidos-escolhas","title":"Cortinas e estofados — rodada visual","category":"Acabamentos","rooms":["sala","quarto","escritorio"],"status":"Escolhido","summary":"Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório.","path":"09_Referencias/Cortinas_estofados/LEIA-ME.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"tecidos-codigos","title":"Códigos comerciais — cortina C2 e estofado E2","category":"Acabamentos","rooms":["sala","quarto","escritorio"],"status":"Candidatos comerciais","summary":"Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar.","path":"09_Referencias/Cortinas_estofados/Codigos_comerciais_2026-10-24.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cores-escolhidas","title":"Escolha de tons da marcenaria","category":"Acabamentos","rooms":["banho","escritorio"],"status":"Escolha para o projeto","summary":"Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório.","path":"09_Referencias/Tons_marcenaria/Escolha_aprovada_R02.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"marfim-codigo","title":"Pesquisa comercial do O2 Marfim — escritório","category":"Acabamentos","rooms":["escritorio"],"status":"Candidato","summary":"Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.","path":"09_Referencias/Tons_marcenaria/Pesquisa_Marfim_comercial_2026-10-24.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"instalacoes","title":"Água, gás, tomadas e ventilação","category":"Instalações","rooms":["all"],"status":"Pendente","summary":"Confira os pontos reais no apartamento antes de finalizar os desenhos de instalação.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"levantamento","title":"O que medir antes de fabricar","category":"Antes de fabricar","rooms":["all"],"status":"Pendente","summary":"Confira as paredes, o piso pronto, os revestimentos e os pontos de fixação.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"acabamentos-r13","title":"Acabamento interno dos armários","category":"Acabamentos","rooms":["all"],"status":"Escolhido","summary":"Branco texturizado por dentro e os padrões escolhidos nas partes visíveis.","path":"ferramentas/site/fabrication/Decisao_acabamentos_R13.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"planta-cotada","title":"Planta com medidas","category":"Arquitetura","rooms":["all"],"status":"Atual","summary":"Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site.","path":"06_Entregas/Planta_cotada/index.html","available":true,"internal":false,"publicSection":"leitura","readingOrder":118},{"id":"banco-atual","title":"Banco com baú: assento e apoios","category":"Montagem","rooms":["sala"],"status":"Condicionado","summary":"Tampas com dobradiça contínua e trava. As uniões e o peso suportado dependem de protótipo.","path":"04_Moveis/P20/Assento_fechado/README.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pe-direito","title":"Pesquisa do pé-direito","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Decisão de Elias, 27/10/2026. Valores nominais a confirmar. Substitui o cenário de 2,47 m do escritório.","path":"01_Programa_e_decisoes/Pesquisa_pe_direito.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"avancos-pendencias","title":"Pendências e avanços depois da","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Próximas decisões separadas entre cálculo, produto/oficina e levantamento real. Estudos mantidos fora da geometria principal.","path":"04_Moveis/Proximas_decisoes/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"corte-formatos","title":"Corte guilhotinado nominal para cotação — / fichas","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"249 painéis triados e36 propostas separadas. Planos preliminares não são compra, corte ou orientação de veio liberados.","path":"04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"p01-p03-ligacoes","title":"/ — equilíbrio da caixa completa e ligações compartilhadas","category":"Avanços e pendências","rooms":["quarto"],"status":"Estudo","summary":"Uniões entre peças e equilíbrio nominal. Caixa, juntas, rigidez e caminho até os apoios continuam condicionados.","path":"04_Moveis/Proximas_decisoes/P01_P03/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"micro-p16-instalacao","title":"Instalação ME23P e limite da conferência","category":"Avanços e pendências","rooms":["cozinha","escritorio"],"status":"Estudo","summary":"Alternativa separada para300mm sobre ME23P, sem adoção automática. Dados e ensaios de produto/oficina ainda necessários.","path":"04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cinematica-r52","title":"Forma de abertura — interferências e mínimos amostrados","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Fotografia e verificações numéricas da R52. Transformação nominal não certifica mecanismo comercial, resistência ou colisão física.","path":"04_Moveis/Proximas_decisoes/Cinematica/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"andamento20","title":"Matriz dos 20 moveis — consolidacao em 27/10/2026","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado.","path":"04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"suspensao-p17","title":"base, fundo e ligações de marcenaria","category":"Avanços e pendências","rooms":["escritorio"],"status":"Estudo","summary":"Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.","path":"04_Moveis/P17/Base_fundo_ligacoes/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"suspensao-p12","title":"caixa e fixação na parede acima da geladeira","category":"Avanços e pendências","rooms":["cozinha"],"status":"Estudo","summary":"Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.","path":"04_Moveis/P12/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"p03-estudos","title":"armário sobre o guarda-roupa para duas malas de bordo","category":"Avanços e pendências","rooms":["quarto"],"status":"Estudo","summary":"Estudos incorporados em 26/10/2026. Capacidades, juntas e ensaios continuam pendentes. R52 preservada.","path":"04_Moveis/P03/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"decisoes-vigentes","title":"Visão geral do projeto","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Escopo R53, decisoes27/10 e bloqueios tecnicos.","path":"ESTADO_ATUAL.md","internal":false,"available":true,"publicSection":"leitura","readingOrder":0},{"id":"lixeiras-r53","title":"Lixeiras — proposta de encaixe sem alterar o FreeCAD","category":"Avanços e pendências","rooms":["cozinha","lavanderia"],"status":"Estudo","summary":"LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes.","path":"03_Ambientes/Cozinha/Encaixe_lixeiras.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"orcamento-r44","title":"Orçamento e cotações","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"R44=A: TV mantida. Metas de negociacao e lacunas ainda abertas.","path":"05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md","internal":false,"available":true,"publicSection":"leitura","readingOrder":4},{"id":"kit-p20-p14","title":"Banco e cesto — roteiro do protótipo","category":"Avanços e pendências","rooms":["sala","lavanderia"],"status":"Estudo","summary":"Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes.","path":"04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"pranchas-a3","title":"Plantas e elevações em escala","category":"Arquitetura","rooms":["all"],"status":"Estudo","summary":"Folhas em escala com plantas e elevações de cada ambiente. Desenhos de estudo, não de execução.","path":"06_Entregas/Caderno_pranchas/index.html","available":true,"internal":false,"publicSection":"leitura","readingOrder":91},{"id":"berlin-pedestal","title":"Mesa Berlin: pedestal e cadeira lateral","category":"Avanços e pendências","rooms":["sala"],"status":"Estudo","summary":"Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado. Medidas do produto sem desenho técnico.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"ensaios-oficina","title":"Ensaios de oficina","category":"Oficina","rooms":["all"],"status":"Pendente de execução","summary":"Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem.","path":"06_Entregas/Ensaios_oficina/index.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-pecas","title":"Furação relativa às peças — nominal/proposta","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Coordenadas relativas, desenhos em cada lado da peça e parâmetros a confirmar para os 20 móveis.","path":"04_Moveis/Furacao/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"fichas","title":"Fichas dos móveis.","category":"Começar","rooms":["all"],"status":"Atual","summary":"Medidas, materiais, peças de montagem e furos de cada móvel.","path":"06_Entregas/Fichas_fabricacao/index.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pendencias-r14","title":"O que falta conferir.","category":"Começar","rooms":["all"],"status":"Atual","summary":"Veja o que falta definir, testar na oficina e medir no apartamento.","path":"06_Entregas/Fichas_fabricacao/Pendencias.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"campo","title":"O que medir no apartamento.","category":"Levantamento","rooms":["all"],"status":"Para preencher","summary":"Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar.","path":"06_Entregas/Fichas_fabricacao/Levantamento.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P01","title":"Guarda-roupa","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P01.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P02","title":"Armário de canto do quarto","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P02.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P03","title":"Armário sobre o guarda-roupa","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P03.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P04","title":"Armário sobre a cabeceira","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P04.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P05","title":"Gabinete da pia","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P05.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P06","title":"Três gavetas da cozinha","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P06.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P07","title":"Móvel do forno e cooktop","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P07.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P08","title":"Gaveta de limpeza","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P08.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P09","title":"Armário superior D · depurador","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P09.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P10","title":"Armário superior C · pia","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P10.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P11","title":"Armário superior B · micro-ondas","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P11.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P12","title":"Armário superior A · geladeira","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P12.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P13","title":"Prateleira do micro-ondas","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P13.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P14","title":"Tanque e cesto de roupas","category":"Ficha de montagem","rooms":["lavanderia"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P14.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P15","title":"Armário superior da lavanderia","category":"Ficha de montagem","rooms":["lavanderia"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P15.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P16","title":"Gavetas do escritório","category":"Ficha de montagem","rooms":["escritorio"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P16.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P17","title":"Armário superior do escritório","category":"Ficha de montagem","rooms":["escritorio"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P17.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P18","title":"Gabinete do banheiro","category":"Ficha de montagem","rooms":["banho"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P18.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P19","title":"Armário com espelho","category":"Ficha de montagem","rooms":["banho"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P19.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P20","title":"Banco com baú","category":"Ficha de montagem","rooms":["sala"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P20.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ambiente-cozinha","title":"Cozinha","path":"03_Ambientes/Cozinha/README.md","rooms":["cozinha"],"status":"Em estudo","summary":"Escolhas e pontos a conferir na cozinha.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":2},{"id":"ambiente-sala","title":"Sala e jantar","path":"03_Ambientes/Sala_e_jantar/README.md","rooms":["sala"],"status":"Em estudo","summary":"Organização, móveis e passagens da sala.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":49},{"id":"ambiente-quarto","title":"Quarto","path":"03_Ambientes/Quarto_e_portas/README.md","rooms":["quarto"],"status":"Em estudo","summary":"Organização e móveis do quarto.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":48},{"id":"quarto-roupeiro","title":"Guarda-roupa — organização interna","path":"03_Ambientes/Quarto_e_portas/Guarda_roupa_interior.md","rooms":["quarto"],"status":"Em estudo","summary":"Divisões e organização do guarda-roupa.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"quarto-cabeceira","title":"Alteração vigente — 22/10/2026","path":"03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md","rooms":["quarto"],"status":"Em estudo","summary":"Organização junto à cama.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"ambiente-lavanderia","title":"Lavanderia","path":"03_Ambientes/Lavanderia/README.md","rooms":["lavanderia"],"status":"Em estudo","summary":"Tanque, varal e cesto em conjunto.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":40},{"id":"varal","title":"Varal — especificação consolidada sem placa de ocultação","path":"03_Ambientes/Lavanderia/Varal.md","rooms":["lavanderia"],"status":"Em estudo","summary":"Percurso com roupa e espaço a conferir.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"roteiro-chaves","title":"O que medir no apartamento","path":"07_Imovel/Roteiro_dia_das_chaves_R01.md","rooms":["all"],"status":"Pendente","summary":"Marcos físicos e medidas para o dia das chaves.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":121},{"id":"dependencias-medidas","title":"Medidas, dependências e roteiro de campo","path":"04_Moveis/Dependencias/README.md","rooms":["all"],"status":"Pendente","summary":"Comando, mapeamento físico e limites da regeneração.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-relatorio","title":"Conferência dos furos","path":"04_Moveis/Furacao/Conferencia.md","rooms":["all"],"status":"Pendente","summary":"Conflitos, acesso de ferramenta e cobertura pendente.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-quantitativos","title":"Fita, ferragens e horas","path":"04_Moveis/Furacao/Quantitativos.md","rooms":["all"],"status":"Em estudo","summary":"Cenários nominais para cotação.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"luz-estudo","title":"Estudo fotométrico do apartamento","path":"03_Ambientes/Iluminacao/Estudo_fotometrico.md","rooms":["all"],"status":"Em estudo","summary":"Lux por cômodo e tarefa, com e sem reflexão das paredes, consumo e opções numéricas.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"agua-quente","title":"Água quente do banheiro — 13 opções em três famílias","path":"03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md","rooms":["banho"],"status":"Em estudo","summary":"Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"quadro-cargas","title":"Quadro de cargas — cenário nominal 127 V para RT","path":"03_Ambientes/Planta_pontos/Quadro_cargas.md","rooms":["all"],"status":"Em estudo","summary":"Potências conhecidas e pontos mínimos por recinto, como referência para o responsável técnico.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"clima","title":"Equipamentos","path":"03_Ambientes/Equipamentos/README.md","rooms":["all"],"status":"Em estudo","summary":"Lista de aparelhos e cálculo parcial de calor e ar-condicionado.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"acabamentos-qtd","title":"Acabamentos e quantidades","path":"03_Ambientes/Acabamentos/README.md","rooms":["all"],"status":"Em estudo","summary":"Áreas por cômodo comparadas com o orçamento.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":20},{"id":"massas","title":"Quantitativos separados das propostas de marcenaria","path":"04_Moveis/Quantitativos/README.md","rooms":["all"],"status":"Em estudo","summary":"Peso estimado por móvel para transporte e montagem.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"auditoria-cotacao","title":"Cotação — conferência independente das quantidades","path":"06_Entregas/Cotacao/README.md","rooms":["all"],"status":"Atual","summary":"Recálculo independente das quantidades enviadas aos fornecedores.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cronograma","title":"Etapas da obra e compras","path":"05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md","rooms":["all"],"status":"Em estudo","summary":"Marcos de compra e obra; prazos sem fonte ficam como pendentes.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":84},{"id":"checklist-chaves","title":"Vistoria no dia das chaves","path":"07_Imovel/Checklist_vistoria_dia_das_chaves.md","rooms":["all"],"status":"Atual","summary":"Equipamentos, defeitos a procurar e o que verificar antes de alterar o apartamento. Dá para marcar no celular.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":3},{"id":"biblioteca-visao","title":"Visão do projeto","category":"Começar","status":"Atual","summary":"Entenda o projeto, as escolhas atuais, os custos e os próximos passos.","rooms":["all"],"path":"biblioteca/visao.html","generated":true,"available":true,"searchTerms":"Estado vigente e decisoes Escopo R53, decisoes27/10 e bloqueios tecnicos. decisoes-vigentes Avanços e pendências após a revisão integral Próximas decisões separadas entre cálculo, produto/oficina e levantamento real. Estudos mantidos fora da geometria principal. avancos-pendencias Andamento dos 20 moveis Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado. andamento20 Orcamento: manter TV nesta etapa R44=A: TV mantida. Metas de negociacao e lacunas ainda abertas. orcamento-r44 Cronograma e marcos Marcos de compra e obra; prazos sem fonte ficam como pendentes. cronograma","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-plantas","title":"Planta com medidas","category":"Começar","status":"Atual","summary":"Consulte medidas, planta oficial, pisos, rodapés e desenhos em escala.","rooms":["all"],"path":"biblioteca/plantas.html","generated":true,"available":true,"searchTerms":"Planta com medidas Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site. planta-cotada Planta oficial do apartamento Documento de origem. Confira as medidas reais depois dos acabamentos. planta Plantas e elevações · caderno A3 Folhas em escala com plantas e elevações de cada ambiente. Desenhos de estudo, não de execução. pranchas-a3 Pisos e rodapés Veja as escolhas de acabamento e o que falta conferir na instalação. pisos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-pacote","title":"Pacote para baixar","category":"Começar","status":"Atual","summary":"Baixe o conjunto para consultar o projeto e as fichas sem internet.","rooms":["all"],"path":"06_Entregas/Publicacao/Guedala_Park_R31.zip","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-moveis","title":"Fichas dos 20 móveis","category":"Móveis","status":"Atual","summary":"Abra as fichas, os estudos de cada móvel e os furos previstos por peça.","rooms":["all"],"path":"biblioteca/moveis.html","generated":true,"available":true,"searchTerms":"Fichas dos 20 móveis Medidas, materiais, peças de montagem e furos de cada móvel. fichas Guia de montagem Consulte as medidas, os materiais e o que falta conferir em cada móvel. dossie Medidas dos 20 móveis Veja os espaços internos e as medidas que ainda precisam de confirmação. matriz Conferência dimensional R44 para R54 Dimensões e vãos comparados por peça, diferenças e limites da conferência. comparacao-r54 Forma de abertura consultável da R52 Fotografia e verificações numéricas da R52. Transformação nominal não certifica mecanismo comercial, resistência ou colisão física. cinematica-r52 Guarda-roupa P01 Armário de canto do quarto P02 Armário sobre o guarda-roupa P03 Armário sobre a cabeceira P04 Gabinete da pia P05 Três gavetas da cozinha P06 Móvel do forno e cooktop P07 Gaveta de limpeza P08 Armário superior D · depurador P09 Armário superior C · pia P10 Armário superior B · micro-ondas P11 Armário superior A · geladeira P12 Prateleira do micro-ondas P13 Tanque e cesto de roupas P14 Armário superior da lavanderia P15 Gavetas do escritório P16 Armário superior do escritório P17 Gabinete do banheiro P18 Armário com espelho P19 Banco com baú P20 P01/P03: caixa, apoios e ligações p01-p03-ligacoes Cabideiros do guarda-roupa varoes Montagem das gavetas gavetas Abertura de portas e tampas portas P01/P03: caixa, apoios e ligações p01-p03-ligacoes Abertura de portas e tampas portas P01/P03: caixa, apoios e ligações p01-p03-ligacoes P03: portas, malas, caixa e ligações — estudos condicionais p03-estudos Abertura de portas e tampas portas Abertura de portas e tampas portas Encaixe das cubas e torneiras torneiras Abertura de portas e tampas portas Montagem das gavetas gavetas Rodas da gaveta de limpeza rodizios-p08 Apoios e ventilação do forno forno Conectores e suportes dos armários fixas Rodas da gaveta de limpeza rodizios-p08 Montagem das gavetas gavetas Abertura de portas e tampas portas Conectores do armário sobre a pia minifix Abertura de portas e tampas portas Conectores e suportes dos armários fixas Abertura de portas e tampas portas P12 · suspensao em estudo suspensao-p12 Abertura de portas e tampas portas Conectores e suportes dos armários fixas Abertura do cesto de roupas cesto Banco e cesto: preparacao de oficina kit-p20-p14 Conectores e suportes dos armários fixas Montagem das gavetas gavetas Corrediças MOVENTO para as gavetas movento Apoios da bancada do escritório bancada Instalação: micro-ondas e união entre peças das gavetas micro-p16-instalacao P17 · suspensao em estudo suspensao-p17 Apoios da bancada do escritório bancada Abertura de portas e tampas portas Escolhas do banheiro banheiro-fechamento Encaixe das cubas e torneiras torneiras Abertura de portas e tampas portas Prateleiras do armário com espelho espelheiro Escolhas do banheiro banheiro-fechamento Abertura de portas e tampas portas Estrutura do banco com baú banco Banco com baú: assento e apoios banco-atual Banco e cesto: preparacao de oficina kit-p20-p14 Mesa extensível e varal mesa-varal","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-conferir","title":"Antes de fabricar","category":"Preparar a fabricação","status":"Pendente","summary":"Reúna as medidas, os testes e os detalhes que ainda precisam ser conferidos.","rooms":["all"],"path":"biblioteca/conferir.html","generated":true,"available":true,"searchTerms":"O que falta conferir Veja o que falta definir, testar na oficina e medir no apartamento. pendencias-r14 Folha para medir o apartamento Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar. campo Checklist de vistoria · dia das chaves Equipamentos, defeitos a procurar e o que verificar antes de alterar o apartamento. Dá para marcar no celular. checklist-chaves Folha de campo: medidas prioritárias Marcos físicos e medidas para o dia das chaves. roteiro-chaves Como propagar as medidas reais Comando, mapeamento físico e limites da regeneração. dependencias-medidas Pé-direito: cômodos 2,60 m. Banheiro 2,50 m Decisão de Elias, 27/10/2026. Valores nominais a confirmar. Substitui o cenário de 2,47 m do escritório. pe-direito Corte preliminar e formatos de chapa 249 painéis triados e36 propostas separadas. Planos preliminares não são compra, corte ou orientação de veio liberados. corte-formatos Cargas elétricas e pontos mínimos Potências conhecidas e pontos mínimos por recinto, como referência para o responsável técnico. quadro-cargas Equipamentos e climatização Lista de aparelhos e cálculo parcial de calor e ar-condicionado. clima Pintura, piso e rodapé: quantidades Áreas por cômodo comparadas com o orçamento. acabamentos-qtd Massas dos móveis para manuseio Peso estimado por móvel para transporte e montagem. massas Conferência das quantidades da cotação Recálculo independente das quantidades enviadas aos fornecedores. auditoria-cotacao","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-cozinha","title":"Cozinha","category":"Por ambiente","status":"Em estudo","summary":"Confira cubas, torneiras, forno, lixeiras e os estudos dos armários.","rooms":["cozinha"],"path":"biblioteca/cozinha.html","generated":true,"available":true,"searchTerms":"Visão da cozinha Escolhas e pontos a conferir na cozinha. ambiente-cozinha Encaixe das cubas e torneiras Confira as medidas dos produtos e o espaço para abrir as torneiras. torneiras Apoios e ventilação do forno Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar. forno Lixeiras: implantacao nominal R53 LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes. lixeiras-r53 Instalação: micro-ondas e união entre peças das gavetas Alternativa separada para300mm sobre ME23P, sem adoção automática. Dados e ensaios de produto/oficina ainda necessários. micro-p16-instalacao","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-banheiro","title":"Banheiro","category":"Por ambiente","status":"Em estudo","summary":"Veja as escolhas, os encaixes e as luzes do banheiro.","rooms":["banho"],"path":"biblioteca/banheiro.html","generated":true,"available":true,"searchTerms":"Escolhas do banheiro Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações. banheiro-fechamento Luzes do banheiro e preços Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação. luz-banho Encaixe das cubas e torneiras Confira as medidas dos produtos e o espaço para abrir as torneiras. torneiras Água quente do banheiro: 13 opções Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha. agua-quente","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-sala","title":"Sala","category":"Por ambiente","status":"Em estudo","summary":"Consulte a mesa extensível, as cadeiras e o banco com baú.","rooms":["sala"],"path":"biblioteca/sala.html","generated":true,"available":true,"searchTerms":"Visão da sala Organização, móveis e passagens da sala. ambiente-sala Mesa extensível e varal Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir. mesa-varal Mesa Berlin: pedestal e cadeira lateral Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado. Medidas do produto sem desenho técnico. berlin-pedestal Banco com baú: assento e apoios Tampas com dobradiça contínua e trava. As uniões e o peso suportado dependem de protótipo. banco-atual Estrutura do banco com baú Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões. banco Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-quarto","title":"Quarto","category":"Por ambiente","status":"Em estudo","summary":"Confira o guarda-roupa, a cabeceira e os armários do quarto.","rooms":["quarto"],"path":"biblioteca/quarto.html","generated":true,"available":true,"searchTerms":"Visão do quarto Organização e móveis do quarto. ambiente-quarto Interior do guarda-roupa Divisões e organização do guarda-roupa. quarto-roupeiro Cabeceira e armário superior Organização junto à cama. quarto-cabeceira P01/P03: caixa, apoios e ligações Uniões entre peças e equilíbrio nominal. Caixa, juntas, rigidez e caminho até os apoios continuam condicionados. p01-p03-ligacoes P03: portas, malas, caixa e ligações — estudos condicionais Estudos incorporados em 26/10/2026. Capacidades, juntas e ensaios continuam pendentes. R52 preservada. p03-estudos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-lavanderia","title":"Lavanderia","category":"Por ambiente","status":"Em estudo","summary":"Consulte tanque, cesto de roupas, varal e os encaixes com a cozinha.","rooms":["lavanderia"],"path":"biblioteca/lavanderia.html","generated":true,"available":true,"searchTerms":"Visão da lavanderia Tanque, varal e cesto em conjunto. ambiente-lavanderia Abertura do cesto de roupas Frente que inclina para abrir, com saco removível. Falta testar o mecanismo. cesto Varal e espaço para as roupas Percurso com roupa e espaço a conferir. varal Mesa extensível e varal Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir. mesa-varal Lixeiras: implantacao nominal R53 LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes. lixeiras-r53 Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-cores","title":"Cores e acabamentos","category":"Escolhas para a casa","status":"Em estudo","summary":"Compare os tons, o acabamento interno e as amostras da marcenaria.","rooms":["all"],"path":"biblioteca/cores.html","generated":true,"available":true,"searchTerms":"Tons escolhidos para a marcenaria Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório. cores-escolhidas Acabamento interno dos armários Branco texturizado por dentro e os padrões escolhidos nas partes visíveis. acabamentos-r13 Marfim do escritório: amostra comercial Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida. marfim-codigo","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-tecidos","title":"Tecidos","category":"Escolhas para a casa","status":"Em estudo","summary":"Veja cortinas, estofados e referências para pedir amostras.","rooms":["sala","quarto","escritorio"],"path":"biblioteca/tecidos.html","generated":true,"available":true,"searchTerms":"Cortinas e estofados escolhidos Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório. tecidos-escolhas Tecidos: códigos para amostra Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar. tecidos-codigos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-luz","title":"Iluminação","category":"Escolhas para a casa","status":"Em estudo","summary":"Consulte as luzes por ambiente, os preços e a opção econômica do quarto.","rooms":["all"],"path":"biblioteca/luz.html","generated":true,"available":true,"searchTerms":"Luminárias nos ambientes Simulações de cada ambiente com as luminárias escolhidas. Luz e escala aproximadas. luz-imagens Luzes do quarto Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários. luz-quarto Luzes do quarto · opção econômica Composição com controle pelo celular. Referência parcial de R$ 376,32, sem frete e instalação. luz-economica Luzes do banheiro e preços Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação. luz-banho Iluminação: composição e pendências Seleção por ambiente. A CB02 substitui o plafon caro do quarto. luz-selecao Estudo de luz: níveis, reflexão e opções Lux por cômodo e tarefa, com e sem reflexão das paredes, consumo e opções numéricas. luz-estudo","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-oficina","title":"Oficina e compras","category":"Preparar a fabricação","status":"Pendente","summary":"Reúna ensaios, conectores, furação e quantidades para pedir orçamento.","rooms":["all"],"path":"biblioteca/oficina.html","generated":true,"available":true,"searchTerms":"Ensaios de oficina Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem. ensaios-oficina Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14 Como unir as peças Encontros entre chapas. Falta definir as peças de união e o peso suportado. interfaces Conectores e suportes dos armários Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar. fixas Cabideiros do guarda-roupa Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos. varoes Conectores do armário sobre a pia Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário. minifix Abertura de portas e tampas Estudos dos mecanismos. Teste a montagem antes de fabricar. portas Furos previstos no projeto por peça Coordenadas relativas, desenhos em cada lado da peça e parâmetros a confirmar para os 20 móveis. furacao-pecas Conferência dos furos Conflitos, acesso de ferramenta e cobertura pendente. furacao-relatorio Fita, ferragens e horas Cenários nominais para cotação. furacao-quantitativos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-modelo","title":"Modelo 3D","category":"Consultar o modelo","status":"Atual","summary":"Baixe o modelo atual do apartamento e veja como abrir e consultar.","rooms":["all"],"path":"biblioteca/modelo.html","generated":true,"available":true,"searchTerms":"FreeCAD R55 · modelo atual Modelo 3D do apartamento com os 20 móveis. Abra no FreeCAD para consultar as peças. cad O que mudou na R55 Pacote R30: banheiro atual na galeria e imagens offline. CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\". Correção da lavanderia 1290x1540 mm, parede 170 mm e Loop +15 mm incorporada: Elias, 01/11/2026, \"Sim, incorporar essa correção\". Publicação desta atualização autorizada por Elias, 02/11/2026, nesta conversa: \"ok, pode publicar\". cad-atual-notas","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-0","path":"01_Programa_e_decisoes/Caderno_de_especificacoes.md","title":"Materiais e equipamentos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":10},{"id":"leitura-1","path":"01_Programa_e_decisoes/Perguntas_em_aberto/README.md","title":"Perguntas que faltam responder","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":11},{"id":"leitura-4","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","title":"Plano de reforma e responsável técnico","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":14},{"id":"leitura-5","path":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","title":"Roteiro para projeto oficial de arquitetura de interiores","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-11","path":"03_Ambientes/Acustica/README.md","title":"Acústica — índice dos estudos nominais","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-13","path":"03_Ambientes/Banheiro/Conferencia_bancada_porta.md","title":"Conferência da bancada, torneira e porta","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-15","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L01.html","title":"Luminárias do banheiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-17","path":"03_Ambientes/Banheiro/README.md","title":"Banheiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":1},{"id":"leitura-25","path":"03_Ambientes/Gas_natural/README.md","title":"Gás natural — rede, ventilação e exaustão (triagem nominal)","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-29","path":"03_Ambientes/Iluminacao/README.md","title":"Iluminação do apartamento","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":39},{"id":"leitura-32","path":"03_Ambientes/Planta_mobiliada/README.md","title":"Planta mobiliada e vistas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":42},{"id":"leitura-34","path":"03_Ambientes/Planta_pontos/README.md","title":"Tomadas, água e gás","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":44},{"id":"leitura-40","path":"04_Moveis/Aereos_suspensao/README.md","title":"Ligações e suspensão dos aéreos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-45","path":"04_Moveis/Furacao/index.html","title":"Furos previstos no projeto por peça","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-62","path":"04_Moveis/P04/Suspensao_P04_P15/README.md","title":"/ — suspensão da caixa inteira e portas abertas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-73","path":"04_Moveis/README.md","title":"Móveis — cálculos, ligações e estudos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-76","path":"05_Orcamento_e_cronograma/Orcamento/Obra_e_pintura/Analise_obra.md","title":"Obra e pintura — análise para redução","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-77","path":"05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md","title":"Pedras e box — economia preservando o visual","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-78","path":"05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md","title":"Plano de execução do Guedala Park até 31 de outubro de 2026","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-79","path":"05_Orcamento_e_cronograma/README.md","title":"Orçamento e cronograma","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-80","path":"06_Entregas/Caderno_pranchas/Impacto.html","title":"Impacto da última geração","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-110","path":"07_Imovel/README.md","title":"Visita ao apartamento — fotos e relatórios","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-119","path":"ferramentas/site/README.md","title":"Como consultar o site e os arquivos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-120","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/elias.md","title":"Perguntas para elias","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-121","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/rt.md","title":"Perguntas para rt","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-122","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/construtora.md","title":"Perguntas para construtora","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-123","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/condominio_administracao.md","title":"Perguntas para condominio administracao","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-124","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/oficina_marceneiro.md","title":"Perguntas para oficina marceneiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-125","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/fornecedor.md","title":"Perguntas para fornecedor","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-126","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/concessionaria_de_gas.md","title":"Perguntas para concessionaria de gas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-127","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/outro.md","title":"Perguntas para outro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-147","path":"05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md","title":"Orçamento detalhado e cenários","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-148","path":"02_Modelo_3D/Relatorio_mudanca.md","title":"Relatório de mudança do modelo","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-150","path":"03_Ambientes/Medidas/README.md","title":"Medidas e instalações","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-151","path":"04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md","title":"Banco e cesto — lista para amostras e protótipo","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-152","path":"06_Entregas/Caderno_pranchas/README.md","title":"Caderno formal A3","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999}];
+const WORKSHOP_DOCS = [{"id":"dossie","title":"Guia do montador.","category":"Começar","rooms":["all"],"status":"Consolidado","summary":"Consulte as medidas, os materiais e o que falta conferir em cada móvel.","path":"06_Entregas/Dossie_marcenaria_R45.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pacote-compartilhar","title":"Pacote R32 · pacote de consulta","category":"Começar","rooms":["all"],"status":"Atual","summary":"Modelo FreeCAD R55, fichas dos móveis, planta, HTML offline e avanços técnicos selecionados.","path":"06_Entregas/Publicacao/Guedala_Park_R32.zip","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"matriz","title":"Medidas dos 20 móveis","category":"Medidas","rooms":["all"],"status":"Medida do projeto","summary":"Veja os espaços internos e as medidas que ainda precisam de confirmação.","path":"04_Moveis/Inventario_dimensional/Inventario/Matriz_20_modulos.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"comparacao-r54","title":"Reconciliação dimensional →","category":"Medidas","rooms":["all"],"status":"Medida do projeto","summary":"Dimensões e vãos comparados por peça, diferenças e limites da conferência.","path":"04_Moveis/Inventario_dimensional/Inventario/Comparacao_R44_R54.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"interfaces","title":"Como unir as peças","category":"Montagem","rooms":["all"],"status":"Em estudo","summary":"Encontros entre chapas. Falta definir as peças de união e o peso suportado.","path":"04_Moveis/Inventario_dimensional/Inventario/Interfaces_retangulares.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"fixas","title":"Conectores e suportes dos armários","category":"Ferragens","rooms":["all"],"status":"Opções a conferir","summary":"Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar.","path":"04_Moveis/Inventario_dimensional/Inventario/Ferragens_fixas.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"varoes","title":"Cabideiros do guarda-roupa","category":"Ferragens","rooms":["quarto"],"status":"Em estudo","summary":"Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos.","path":"04_Moveis/Inventario_dimensional/Inventario/Varoes.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"bancada","title":"Apoios da bancada do escritório","category":"Montagem","rooms":["escritorio"],"status":"Alternativa","summary":"Veja as medidas da bancada e o reforço que ainda está em estudo.","path":"04_Moveis/Inventario_dimensional/Inventario/Bancada.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"minifix","title":"Conectores do armário sobre a pia","category":"Ferragens","rooms":["cozinha"],"status":"Alternativa","summary":"Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário.","path":"04_Moveis/Inventario_dimensional/Inventario/Minifix_C.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"espelheiro","title":"Prateleiras do armário com espelho","category":"Ferragens","rooms":["banho"],"status":"Em estudo","summary":"Opções de apoios. Falta confirmar o peso suportado e a fixação na parede.","path":"04_Moveis/Inventario_dimensional/Inventario/Espelheiro.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"gavetas","title":"Gavetas — conferência dimensional","category":"Ferragens","rooms":["cozinha","quarto","escritorio"],"status":"Em estudo","summary":"Confira as corrediças, as rodas e o peso suportado. Veja também como retirar cada gaveta.","path":"04_Moveis/Inventario_dimensional/Gavetas/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"rodizios-p08","title":"Rodas da gaveta de limpeza","category":"Ferragens","rooms":["cozinha"],"status":"Selecionado","summary":"Seis rodas de 38 mm e espaçadores de 1 mm. Veja a escolha e o link de compra.","path":"03_Ambientes/Cozinha/Rodizios_gaveta/Selecao.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"banheiro-fechamento","title":"Escolhas do banheiro","category":"Conferências de montagem","rooms":["banho"],"status":"Escolhido","summary":"Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Fechamento.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad-p19","title":"Modelo de estudo do armário com espelho","category":"FreeCAD","rooms":["banho"],"status":"Estudo","summary":"Proposta de união entre as peças. A montagem ainda precisa de teste.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Espelheiro_P19_Unioes_NOMINAIS.FCStd","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"luz-banho","title":"Luzes do banheiro e preços","category":"Iluminação","rooms":["banho"],"status":"R$ 612,64","summary":"Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação.","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"movento","title":"Escritório: MOVENTO400 preserva a profundidade útil","category":"Ferragens","rooms":["escritorio"],"status":"Alternativa","summary":"Peças que guiam as gavetas do escritório. Confira os encaixes e a retirada.","path":"04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"portas","title":"Portas e articulações","category":"Ferragens","rooms":["all"],"status":"Em estudo","summary":"Estudos dos mecanismos. Teste a montagem antes de fabricar.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cesto","title":"Abertura do cesto de roupas","category":"Ferragens","rooms":["lavanderia"],"status":"Em estudo","summary":"Frente que inclina para abrir, com saco removível. Falta testar o mecanismo.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Cesto_selecao_e_esforcos.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"mesa-varal","title":"Mesa Berlin e varal — validação dimensional","category":"Conferências de montagem","rooms":["sala","lavanderia"],"status":"Em estudo","summary":"Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"banco","title":"Banco: medidas e estudo histórico de apoios","category":"Montagem","rooms":["sala"],"status":"Em estudo","summary":"Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões.","path":"04_Moveis/Inventario_dimensional/Banco_estrutura/Resultado.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"southco","title":"Alternativa de dobradiça para o banco","category":"Histórico","rooms":["sala"],"status":"Superado como direção P20","summary":"Estudo anterior com dobradiças Southco. Consulte a ficha do banco para ver a solução atual.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Relatorio.html","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"batente","title":"Limite de abertura do banco","category":"Histórico","rooms":["sala"],"status":"Registro de estudo","summary":"Estudo de uma peça para limitar a abertura. A posição depende da dobradiça real.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Batente_estudo.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"torneiras","title":"Torneiras: encaixe e acesso","category":"Conferências de montagem","rooms":["cozinha","banho"],"status":"Em estudo","summary":"Confira as medidas dos produtos e o espaço para abrir as torneiras.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Conferencia.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"purangi","title":"Torneira Purangi · opção em estudo","category":"Conferências de montagem","rooms":["banho"],"status":"Ainda não aprovado para fabricar","summary":"A vedação e a abertura ainda precisam de confirmação. A troca não foi aprovada.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Resultado_vedacao_abertura.md","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"forno","title":"Apoios e ventilação do forno","category":"Conferências de montagem","rooms":["cozinha"],"status":"Em estudo","summary":"Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar.","path":"03_Ambientes/Cozinha/Fischer_Grill/Grelhas_manutencao/README.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad","title":"FreeCAD R55 · modelo atual","category":"FreeCAD","rooms":["all"],"status":"Atual","summary":"Modelo 3D do apartamento com os 20 móveis. Abra no FreeCAD para consultar as peças.","path":"02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd","localOnly":true,"available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cad-atual-notas","title":"Modelo 3D (FreeCAD)","category":"FreeCAD","rooms":["all"],"status":"Revisão local verificada","summary":"Pacote R30: banheiro atual na galeria e imagens offline. CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\". Correção da lavanderia 1290x1540 mm, parede 170 mm e Loop +15 mm incorporada: Elias, 01/11/2026, \"Sim, incorporar essa correção\". Publicação desta atualização autorizada por Elias, 02/11/2026, nesta conversa: \"ok, pode publicar\".","path":"02_Modelo_3D/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cad-r49","title":"O que mudou na R49","category":"FreeCAD","rooms":["escritorio"],"status":"Atual","summary":"Correções das gavetas do escritório e conferências P01, P02, P04 e P18.","path":"02_Modelo_3D/Historico/Gavetas_escritorio/README.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-r48","title":"Depurador sem canal de duto","category":"FreeCAD","rooms":["cozinha"],"status":"Atual","summary":"Canal removido do armário superior D e divisor levado até o fundo.","path":"02_Modelo_3D/Historico/Depurador_sem_canal/README.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-cores","title":"Cores do modelo 3D","category":"Acabamentos","rooms":["all"],"status":"Referência","summary":"Veja os acabamentos representados. Compare as cores com amostras reais.","path":"02_Modelo_3D/Historico/Cores/README.md","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-southco","title":"Modelo da alternativa Southco","category":"Histórico","rooms":["sala"],"status":"Não operacional","summary":"Estudo anterior da fixação do banco. Veja a solução atual na ficha do móvel.","path":"04_Moveis/Banco_e_cesto/Fixacao_Southco/Southco_Fixacao_ESTUDO.FCStd","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"cad-purangi","title":"Modelo de estudo da torneira Purangi","category":"FreeCAD","rooms":["banho"],"status":"Estudo","summary":"Desenho aproximado para conferir a abertura. Confirme as medidas no produto real.","path":"03_Ambientes/Cozinha/Conferencia_torneiras/Purangi_R45_SENSIBILIDADE.FCStd","available":true,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"executivo","title":"Desenhos e medidas antes de fabricar","category":"Antes de fabricar","rooms":["all"],"status":"Pendente","summary":"Falta concluir os detalhes de corte, furos, bordas, folgas e montagem.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"planta","title":"Planta oficial do apartamento","category":"Arquitetura","rooms":["all"],"status":"Documento de origem","summary":"Documento de origem. Confira as medidas reais depois dos acabamentos.","path":"09_Referencias/Plantas_e_manuais/Planta_oficial.pdf","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pisos","title":"Pisos e rodapés","category":"Arquitetura","rooms":["all"],"status":"Escolhas e estudos","summary":"Veja as escolhas de acabamento e o que falta conferir na instalação.","path":"01_Programa_e_decisoes/Pisos_e_rodapes.md","available":true,"internal":false,"publicSection":"leitura","readingOrder":13},{"id":"luz-quarto","title":"Luzes do quarto","category":"Iluminação","rooms":["quarto"],"status":"Smart com Alexa/celular","summary":"Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários.","path":"03_Ambientes/Quarto_e_portas/Iluminacao.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-economica","title":"Luzes do quarto · opção econômica","category":"Iluminação","rooms":["quarto"],"status":"Proposta","summary":"Composição com controle pelo celular. Referência parcial de R$ 376,32, sem frete e instalação.","path":"03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Revisao_quarto_CB02.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-imagens","title":"Luminárias nos ambientes","category":"Iluminação","rooms":["all"],"status":"Simulações","summary":"Simulações de cada ambiente com as luminárias escolhidas. Luz e escala aproximadas.","path":"09_Referencias/Iluminacao_CB02/Galeria.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"luz-selecao","title":"Iluminação — proposta de custo-benefício CB01","category":"Iluminação","rooms":["all"],"status":"Atual","summary":"Seleção por ambiente. A CB02 substitui o plafon caro do quarto.","path":"03_Ambientes/Iluminacao/Fechamento_custo_beneficio/Selecao_CB01.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"tecidos-escolhas","title":"Cortinas e estofados — rodada visual","category":"Acabamentos","rooms":["sala","quarto","escritorio"],"status":"Escolhido","summary":"Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório.","path":"09_Referencias/Cortinas_estofados/LEIA-ME.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"tecidos-codigos","title":"Códigos comerciais — cortina C2 e estofado E2","category":"Acabamentos","rooms":["sala","quarto","escritorio"],"status":"Candidatos comerciais","summary":"Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar.","path":"09_Referencias/Cortinas_estofados/Codigos_comerciais_2026-10-24.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"cores-escolhidas","title":"Escolha de tons da marcenaria","category":"Acabamentos","rooms":["banho","escritorio"],"status":"Escolha para o projeto","summary":"Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório.","path":"09_Referencias/Tons_marcenaria/Escolha_aprovada_R02.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"marfim-codigo","title":"Pesquisa comercial do O2 Marfim — escritório","category":"Acabamentos","rooms":["escritorio"],"status":"Candidato","summary":"Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida.","path":"09_Referencias/Tons_marcenaria/Pesquisa_Marfim_comercial_2026-10-24.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"instalacoes","title":"Água, gás, tomadas e ventilação","category":"Instalações","rooms":["all"],"status":"Pendente","summary":"Confira os pontos reais no apartamento antes de finalizar os desenhos de instalação.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"levantamento","title":"O que medir antes de fabricar","category":"Antes de fabricar","rooms":["all"],"status":"Pendente","summary":"Confira as paredes, o piso pronto, os revestimentos e os pontos de fixação.","path":null,"internal":true,"publicSection":"oculto","readingOrder":999},{"id":"acabamentos-r13","title":"Acabamento interno dos armários","category":"Acabamentos","rooms":["all"],"status":"Escolhido","summary":"Branco texturizado por dentro e os padrões escolhidos nas partes visíveis.","path":"ferramentas/site/fabrication/Decisao_acabamentos_R13.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"planta-cotada","title":"Planta com medidas","category":"Arquitetura","rooms":["all"],"status":"Atual","summary":"Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site.","path":"06_Entregas/Planta_cotada/index.html","available":true,"internal":false,"publicSection":"leitura","readingOrder":118},{"id":"banco-atual","title":"Banco com baú: assento e apoios","category":"Montagem","rooms":["sala"],"status":"Condicionado","summary":"Tampas com dobradiça contínua e trava. As uniões e o peso suportado dependem de protótipo.","path":"04_Moveis/P20/Assento_fechado/README.md","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pe-direito","title":"Pesquisa do pé-direito","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Decisão de Elias, 27/10/2026. Valores nominais a confirmar. Substitui o cenário de 2,47 m do escritório.","path":"01_Programa_e_decisoes/Pesquisa_pe_direito.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"avancos-pendencias","title":"Pendências e avanços depois da","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Próximas decisões separadas entre cálculo, produto/oficina e levantamento real. Estudos mantidos fora da geometria principal.","path":"04_Moveis/Proximas_decisoes/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"corte-formatos","title":"Corte guilhotinado nominal para cotação — / fichas","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"249 painéis triados e36 propostas separadas. Planos preliminares não são compra, corte ou orientação de veio liberados.","path":"04_Moveis/Proximas_decisoes/Corte_e_formatos/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"p01-p03-ligacoes","title":"/ — equilíbrio da caixa completa e ligações compartilhadas","category":"Avanços e pendências","rooms":["quarto"],"status":"Estudo","summary":"Uniões entre peças e equilíbrio nominal. Caixa, juntas, rigidez e caminho até os apoios continuam condicionados.","path":"04_Moveis/Proximas_decisoes/P01_P03/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"micro-p16-instalacao","title":"Instalação ME23P e limite da conferência","category":"Avanços e pendências","rooms":["cozinha","escritorio"],"status":"Estudo","summary":"Alternativa separada para300mm sobre ME23P, sem adoção automática. Dados e ensaios de produto/oficina ainda necessários.","path":"04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cinematica-r52","title":"Forma de abertura — interferências e mínimos amostrados","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Fotografia e verificações numéricas da R52. Transformação nominal não certifica mecanismo comercial, resistência ou colisão física.","path":"04_Moveis/Proximas_decisoes/Cinematica/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"andamento20","title":"Matriz dos 20 moveis — consolidacao em 27/10/2026","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado.","path":"04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"suspensao-p17","title":"base, fundo e ligações de marcenaria","category":"Avanços e pendências","rooms":["escritorio"],"status":"Estudo","summary":"Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.","path":"04_Moveis/P17/Base_fundo_ligacoes/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"suspensao-p12","title":"caixa e fixação na parede acima da geladeira","category":"Avanços e pendências","rooms":["cozinha"],"status":"Estudo","summary":"Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.","path":"04_Moveis/P12/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"p03-estudos","title":"armário sobre o guarda-roupa para duas malas de bordo","category":"Avanços e pendências","rooms":["quarto"],"status":"Estudo","summary":"Estudos incorporados em 26/10/2026. Capacidades, juntas e ensaios continuam pendentes. R52 preservada.","path":"04_Moveis/P03/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"decisoes-vigentes","title":"Visão geral do projeto","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Escopo R53, decisoes27/10 e bloqueios tecnicos.","path":"ESTADO_ATUAL.md","internal":false,"available":true,"publicSection":"leitura","readingOrder":0},{"id":"lixeiras-r53","title":"Lixeiras — proposta de encaixe sem alterar o FreeCAD","category":"Avanços e pendências","rooms":["cozinha","lavanderia"],"status":"Estudo","summary":"LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes.","path":"03_Ambientes/Cozinha/Encaixe_lixeiras.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"orcamento-r44","title":"Orçamento e cotações","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"R44=A: TV mantida. Metas de negociacao e lacunas ainda abertas.","path":"05_Orcamento_e_cronograma/Orcamento/LEIA-ME.md","internal":false,"available":true,"publicSection":"leitura","readingOrder":4},{"id":"kit-p20-p14","title":"Banco e cesto — roteiro do protótipo","category":"Avanços e pendências","rooms":["sala","lavanderia"],"status":"Estudo","summary":"Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes.","path":"04_Moveis/P20/Assento_fechado/Roteiro_banco_cesto.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"pranchas-a3","title":"Plantas e elevações em escala","category":"Arquitetura","rooms":["all"],"status":"Estudo","summary":"Folhas em escala com plantas e elevações de cada ambiente. Desenhos de estudo, não de execução.","path":"06_Entregas/Caderno_pranchas/index.html","available":true,"internal":false,"publicSection":"leitura","readingOrder":91},{"id":"berlin-pedestal","title":"Mesa Berlin: pedestal e cadeira lateral","category":"Avanços e pendências","rooms":["sala"],"status":"Estudo","summary":"Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado. Medidas do produto sem desenho técnico.","path":"04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md","internal":true,"available":true,"publicSection":"oculto","readingOrder":999},{"id":"ensaios-oficina","title":"Ensaios de oficina","category":"Oficina","rooms":["all"],"status":"Pendente de execução","summary":"Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem.","path":"06_Entregas/Ensaios_oficina/index.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-pecas","title":"Furação relativa às peças — nominal/proposta","category":"Avanços e pendências","rooms":["all"],"status":"Estudo","summary":"Coordenadas relativas, desenhos em cada lado da peça e parâmetros a confirmar para os 20 móveis.","path":"04_Moveis/Furacao/README.md","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"fichas","title":"Fichas dos móveis.","category":"Começar","rooms":["all"],"status":"Atual","summary":"Medidas, materiais, peças de montagem e furos de cada móvel.","path":"06_Entregas/Fichas_fabricacao/index.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"pendencias-r14","title":"O que falta conferir.","category":"Começar","rooms":["all"],"status":"Atual","summary":"Veja o que falta definir, testar na oficina e medir no apartamento.","path":"06_Entregas/Fichas_fabricacao/Pendencias.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"campo","title":"O que medir no apartamento.","category":"Levantamento","rooms":["all"],"status":"Para preencher","summary":"Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar.","path":"06_Entregas/Fichas_fabricacao/Levantamento.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P01","title":"Guarda-roupa","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P01.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P02","title":"Armário de canto do quarto","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P02.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P03","title":"Armário sobre o guarda-roupa","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P03.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P04","title":"Armário sobre a cabeceira","category":"Ficha de montagem","rooms":["quarto"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P04.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P05","title":"Gabinete da pia","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P05.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P06","title":"Três gavetas da cozinha","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P06.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P07","title":"Móvel do forno e cooktop","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P07.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P08","title":"Gaveta de limpeza","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P08.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P09","title":"Armário superior D · depurador","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P09.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P10","title":"Armário superior C · pia","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P10.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P11","title":"Armário superior B · micro-ondas","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P11.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P12","title":"Armário superior A · geladeira","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P12.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P13","title":"Prateleira do micro-ondas","category":"Ficha de montagem","rooms":["cozinha"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P13.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P14","title":"Tanque e cesto de roupas","category":"Ficha de montagem","rooms":["lavanderia"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P14.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P15","title":"Armário superior da lavanderia","category":"Ficha de montagem","rooms":["lavanderia"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P15.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P16","title":"Gavetas do escritório","category":"Ficha de montagem","rooms":["escritorio"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P16.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P17","title":"Armário superior do escritório","category":"Ficha de montagem","rooms":["escritorio"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P17.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P18","title":"Gabinete do banheiro","category":"Ficha de montagem","rooms":["banho"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P18.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P19","title":"Armário com espelho","category":"Ficha de montagem","rooms":["banho"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P19.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ficha-P20","title":"Banco com baú","category":"Ficha de montagem","rooms":["sala"],"status":"Atual","summary":"Consulte as medidas, os materiais, a montagem e o que falta conferir.","path":"06_Entregas/Fichas_fabricacao/P20.html","available":true,"internal":false,"publicSection":"tecnico","readingOrder":999},{"id":"ambiente-cozinha","title":"Cozinha","path":"03_Ambientes/Cozinha/README.md","rooms":["cozinha"],"status":"Em estudo","summary":"Escolhas e pontos a conferir na cozinha.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":2},{"id":"ambiente-sala","title":"Sala e jantar","path":"03_Ambientes/Sala_e_jantar/README.md","rooms":["sala"],"status":"Em estudo","summary":"Organização, móveis e passagens da sala.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":49},{"id":"ambiente-quarto","title":"Quarto","path":"03_Ambientes/Quarto_e_portas/README.md","rooms":["quarto"],"status":"Em estudo","summary":"Organização e móveis do quarto.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":48},{"id":"quarto-roupeiro","title":"Guarda-roupa — organização interna","path":"03_Ambientes/Quarto_e_portas/Guarda_roupa_interior.md","rooms":["quarto"],"status":"Em estudo","summary":"Divisões e organização do guarda-roupa.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"quarto-cabeceira","title":"Alteração vigente — 22/10/2026","path":"03_Ambientes/Quarto_e_portas/Cabeceira_e_armario_superior.md","rooms":["quarto"],"status":"Em estudo","summary":"Organização junto à cama.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"ambiente-lavanderia","title":"Lavanderia","path":"03_Ambientes/Lavanderia/README.md","rooms":["lavanderia"],"status":"Em estudo","summary":"Tanque, varal e cesto em conjunto.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":40},{"id":"varal","title":"Varal — especificação consolidada sem placa de ocultação","path":"03_Ambientes/Lavanderia/Varal.md","rooms":["lavanderia"],"status":"Em estudo","summary":"Percurso com roupa e espaço a conferir.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"roteiro-chaves","title":"O que medir no apartamento","path":"07_Imovel/Roteiro_dia_das_chaves_R01.md","rooms":["all"],"status":"Pendente","summary":"Marcos físicos e medidas para o dia das chaves.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":121},{"id":"dependencias-medidas","title":"Medidas, dependências e roteiro de campo","path":"04_Moveis/Dependencias/README.md","rooms":["all"],"status":"Pendente","summary":"Comando, mapeamento físico e limites da regeneração.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-relatorio","title":"Conferência dos furos","path":"04_Moveis/Furacao/Conferencia.md","rooms":["all"],"status":"Pendente","summary":"Conflitos, acesso de ferramenta e cobertura pendente.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"furacao-quantitativos","title":"Fita, ferragens e horas","path":"04_Moveis/Furacao/Quantitativos.md","rooms":["all"],"status":"Em estudo","summary":"Cenários nominais para cotação.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"luz-estudo","title":"Estudo fotométrico do apartamento","path":"03_Ambientes/Iluminacao/Estudo_fotometrico.md","rooms":["all"],"status":"Em estudo","summary":"Lux por cômodo e tarefa, com e sem reflexão das paredes, consumo e opções numéricas.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"agua-quente","title":"Água quente do banheiro — 13 opções em três famílias","path":"03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md","rooms":["banho"],"status":"Em estudo","summary":"Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"quadro-cargas","title":"Quadro de cargas — cenário nominal 127 V para RT","path":"03_Ambientes/Planta_pontos/Quadro_cargas.md","rooms":["all"],"status":"Em estudo","summary":"Potências conhecidas e pontos mínimos por recinto, como referência para o responsável técnico.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"clima","title":"Equipamentos","path":"03_Ambientes/Equipamentos/README.md","rooms":["all"],"status":"Em estudo","summary":"Lista de aparelhos e cálculo parcial de calor e ar-condicionado.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"acabamentos-qtd","title":"Acabamentos e quantidades","path":"03_Ambientes/Acabamentos/README.md","rooms":["all"],"status":"Em estudo","summary":"Áreas por cômodo comparadas com o orçamento.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":20},{"id":"massas","title":"Quantitativos separados das propostas de marcenaria","path":"04_Moveis/Quantitativos/README.md","rooms":["all"],"status":"Em estudo","summary":"Peso estimado por móvel para transporte e montagem.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"auditoria-cotacao","title":"Cotação — conferência independente das quantidades","path":"06_Entregas/Cotacao/README.md","rooms":["all"],"status":"Atual","summary":"Recálculo independente das quantidades enviadas aos fornecedores.","category":"Consulta","internal":false,"available":true,"publicSection":"tecnico","readingOrder":999},{"id":"cronograma","title":"Etapas da obra e compras","path":"05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md","rooms":["all"],"status":"Em estudo","summary":"Marcos de compra e obra; prazos sem fonte ficam como pendentes.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":84},{"id":"checklist-chaves","title":"Vistoria no dia das chaves","path":"07_Imovel/Checklist_vistoria_dia_das_chaves.md","rooms":["all"],"status":"Atual","summary":"Equipamentos, defeitos a procurar e o que verificar antes de alterar o apartamento. Dá para marcar no celular.","category":"Consulta","internal":false,"available":true,"publicSection":"leitura","readingOrder":3},{"id":"biblioteca-visao","title":"Visão do projeto","category":"Começar","status":"Atual","summary":"Entenda o projeto, as escolhas atuais, os custos e os próximos passos.","rooms":["all"],"path":"biblioteca/visao.html","generated":true,"available":true,"searchTerms":"Estado vigente e decisoes Escopo R53, decisoes27/10 e bloqueios tecnicos. decisoes-vigentes Avanços e pendências após a revisão integral Próximas decisões separadas entre cálculo, produto/oficina e levantamento real. Estudos mantidos fora da geometria principal. avancos-pendencias Andamento dos 20 moveis Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado. andamento20 Orcamento: manter TV nesta etapa R44=A: TV mantida. Metas de negociacao e lacunas ainda abertas. orcamento-r44 Cronograma e marcos Marcos de compra e obra; prazos sem fonte ficam como pendentes. cronograma","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-plantas","title":"Planta com medidas","category":"Começar","status":"Atual","summary":"Consulte medidas, planta oficial, pisos, rodapés e desenhos em escala.","rooms":["all"],"path":"biblioteca/plantas.html","generated":true,"available":true,"searchTerms":"Planta com medidas Veja as distâncias entre paredes e as diferenças entre a planta e o desenho do site. planta-cotada Planta oficial do apartamento Documento de origem. Confira as medidas reais depois dos acabamentos. planta Plantas e elevações · caderno A3 Folhas em escala com plantas e elevações de cada ambiente. Desenhos de estudo, não de execução. pranchas-a3 Pisos e rodapés Veja as escolhas de acabamento e o que falta conferir na instalação. pisos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-pacote","title":"Pacote para baixar","category":"Começar","status":"Atual","summary":"Baixe o conjunto para consultar o projeto e as fichas sem internet.","rooms":["all"],"path":"06_Entregas/Publicacao/Guedala_Park_R32.zip","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-moveis","title":"Fichas dos 20 móveis","category":"Móveis","status":"Atual","summary":"Abra as fichas, os estudos de cada móvel e os furos previstos por peça.","rooms":["all"],"path":"biblioteca/moveis.html","generated":true,"available":true,"searchTerms":"Fichas dos 20 móveis Medidas, materiais, peças de montagem e furos de cada móvel. fichas Guia de montagem Consulte as medidas, os materiais e o que falta conferir em cada móvel. dossie Medidas dos 20 móveis Veja os espaços internos e as medidas que ainda precisam de confirmação. matriz Conferência dimensional R44 para R54 Dimensões e vãos comparados por peça, diferenças e limites da conferência. comparacao-r54 Forma de abertura consultável da R52 Fotografia e verificações numéricas da R52. Transformação nominal não certifica mecanismo comercial, resistência ou colisão física. cinematica-r52 Guarda-roupa P01 Armário de canto do quarto P02 Armário sobre o guarda-roupa P03 Armário sobre a cabeceira P04 Gabinete da pia P05 Três gavetas da cozinha P06 Móvel do forno e cooktop P07 Gaveta de limpeza P08 Armário superior D · depurador P09 Armário superior C · pia P10 Armário superior B · micro-ondas P11 Armário superior A · geladeira P12 Prateleira do micro-ondas P13 Tanque e cesto de roupas P14 Armário superior da lavanderia P15 Gavetas do escritório P16 Armário superior do escritório P17 Gabinete do banheiro P18 Armário com espelho P19 Banco com baú P20 P01/P03: caixa, apoios e ligações p01-p03-ligacoes Cabideiros do guarda-roupa varoes Montagem das gavetas gavetas Abertura de portas e tampas portas P01/P03: caixa, apoios e ligações p01-p03-ligacoes Abertura de portas e tampas portas P01/P03: caixa, apoios e ligações p01-p03-ligacoes P03: portas, malas, caixa e ligações — estudos condicionais p03-estudos Abertura de portas e tampas portas Abertura de portas e tampas portas Encaixe das cubas e torneiras torneiras Abertura de portas e tampas portas Montagem das gavetas gavetas Rodas da gaveta de limpeza rodizios-p08 Apoios e ventilação do forno forno Conectores e suportes dos armários fixas Rodas da gaveta de limpeza rodizios-p08 Montagem das gavetas gavetas Abertura de portas e tampas portas Conectores do armário sobre a pia minifix Abertura de portas e tampas portas Conectores e suportes dos armários fixas Abertura de portas e tampas portas P12 · suspensao em estudo suspensao-p12 Abertura de portas e tampas portas Conectores e suportes dos armários fixas Abertura do cesto de roupas cesto Banco e cesto: preparacao de oficina kit-p20-p14 Conectores e suportes dos armários fixas Montagem das gavetas gavetas Corrediças MOVENTO para as gavetas movento Apoios da bancada do escritório bancada Instalação: micro-ondas e união entre peças das gavetas micro-p16-instalacao P17 · suspensao em estudo suspensao-p17 Apoios da bancada do escritório bancada Abertura de portas e tampas portas Escolhas do banheiro banheiro-fechamento Encaixe das cubas e torneiras torneiras Abertura de portas e tampas portas Prateleiras do armário com espelho espelheiro Escolhas do banheiro banheiro-fechamento Abertura de portas e tampas portas Estrutura do banco com baú banco Banco com baú: assento e apoios banco-atual Banco e cesto: preparacao de oficina kit-p20-p14 Mesa extensível e varal mesa-varal","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-conferir","title":"Antes de fabricar","category":"Preparar a fabricação","status":"Pendente","summary":"Reúna as medidas, os testes e os detalhes que ainda precisam ser conferidos.","rooms":["all"],"path":"biblioteca/conferir.html","generated":true,"available":true,"searchTerms":"O que falta conferir Veja o que falta definir, testar na oficina e medir no apartamento. pendencias-r14 Folha para medir o apartamento Anote as medidas reais de cada móvel. Imprima ou salve em PDF para guardar. campo Checklist de vistoria · dia das chaves Equipamentos, defeitos a procurar e o que verificar antes de alterar o apartamento. Dá para marcar no celular. checklist-chaves Folha de campo: medidas prioritárias Marcos físicos e medidas para o dia das chaves. roteiro-chaves Como propagar as medidas reais Comando, mapeamento físico e limites da regeneração. dependencias-medidas Pé-direito: cômodos 2,60 m. Banheiro 2,50 m Decisão de Elias, 27/10/2026. Valores nominais a confirmar. Substitui o cenário de 2,47 m do escritório. pe-direito Corte preliminar e formatos de chapa 249 painéis triados e36 propostas separadas. Planos preliminares não são compra, corte ou orientação de veio liberados. corte-formatos Cargas elétricas e pontos mínimos Potências conhecidas e pontos mínimos por recinto, como referência para o responsável técnico. quadro-cargas Equipamentos e climatização Lista de aparelhos e cálculo parcial de calor e ar-condicionado. clima Pintura, piso e rodapé: quantidades Áreas por cômodo comparadas com o orçamento. acabamentos-qtd Massas dos móveis para manuseio Peso estimado por móvel para transporte e montagem. massas Conferência das quantidades da cotação Recálculo independente das quantidades enviadas aos fornecedores. auditoria-cotacao","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-cozinha","title":"Cozinha","category":"Por ambiente","status":"Em estudo","summary":"Confira cubas, torneiras, forno, lixeiras e os estudos dos armários.","rooms":["cozinha"],"path":"biblioteca/cozinha.html","generated":true,"available":true,"searchTerms":"Visão da cozinha Escolhas e pontos a conferir na cozinha. ambiente-cozinha Encaixe das cubas e torneiras Confira as medidas dos produtos e o espaço para abrir as torneiras. torneiras Apoios e ventilação do forno Grelhas removíveis para manutenção. Confira os apoios e a passagem de ar antes de montar. forno Lixeiras: implantacao nominal R53 LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes. lixeiras-r53 Instalação: micro-ondas e união entre peças das gavetas Alternativa separada para300mm sobre ME23P, sem adoção automática. Dados e ensaios de produto/oficina ainda necessários. micro-p16-instalacao","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-banheiro","title":"Banheiro","category":"Por ambiente","status":"Em estudo","summary":"Veja as escolhas, os encaixes e as luzes do banheiro.","rooms":["banho"],"path":"biblioteca/banheiro.html","generated":true,"available":true,"searchTerms":"Escolhas do banheiro Materiais e luzes escolhidos. Veja o que falta conferir na montagem e nas tubulações. banheiro-fechamento Luzes do banheiro e preços Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação. luz-banho Encaixe das cubas e torneiras Confira as medidas dos produtos e o espaço para abrir as torneiras. torneiras Água quente do banheiro: 13 opções Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha. agua-quente","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-sala","title":"Sala","category":"Por ambiente","status":"Em estudo","summary":"Consulte a mesa extensível, as cadeiras e o banco com baú.","rooms":["sala"],"path":"biblioteca/sala.html","generated":true,"available":true,"searchTerms":"Visão da sala Organização, móveis e passagens da sala. ambiente-sala Mesa extensível e varal Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir. mesa-varal Mesa Berlin: pedestal e cadeira lateral Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado. Medidas do produto sem desenho técnico. berlin-pedestal Banco com baú: assento e apoios Tampas com dobradiça contínua e trava. As uniões e o peso suportado dependem de protótipo. banco-atual Estrutura do banco com baú Duas tampas e espaço para guardar objetos. Falta detalhar os apoios e as uniões. banco Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-quarto","title":"Quarto","category":"Por ambiente","status":"Em estudo","summary":"Confira o guarda-roupa, a cabeceira e os armários do quarto.","rooms":["quarto"],"path":"biblioteca/quarto.html","generated":true,"available":true,"searchTerms":"Visão do quarto Organização e móveis do quarto. ambiente-quarto Interior do guarda-roupa Divisões e organização do guarda-roupa. quarto-roupeiro Cabeceira e armário superior Organização junto à cama. quarto-cabeceira P01/P03: caixa, apoios e ligações Uniões entre peças e equilíbrio nominal. Caixa, juntas, rigidez e caminho até os apoios continuam condicionados. p01-p03-ligacoes P03: portas, malas, caixa e ligações — estudos condicionais Estudos incorporados em 26/10/2026. Capacidades, juntas e ensaios continuam pendentes. R52 preservada. p03-estudos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-lavanderia","title":"Lavanderia","category":"Por ambiente","status":"Em estudo","summary":"Consulte tanque, cesto de roupas, varal e os encaixes com a cozinha.","rooms":["lavanderia"],"path":"biblioteca/lavanderia.html","generated":true,"available":true,"searchTerms":"Visão da lavanderia Tanque, varal e cesto em conjunto. ambiente-lavanderia Abertura do cesto de roupas Frente que inclina para abrir, com saco removível. Falta testar o mecanismo. cesto Varal e espaço para as roupas Percurso com roupa e espaço a conferir. varal Mesa extensível e varal Mesa pronta e varal que sobe e desce. Veja as medidas e o que falta conferir. mesa-varal Lixeiras: implantacao nominal R53 LIX=A: deslocamentos7/6cm aplicados. Gabarito fisico e destino temporario pendentes. lixeiras-r53 Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-cores","title":"Cores e acabamentos","category":"Escolhas para a casa","status":"Em estudo","summary":"Compare os tons, o acabamento interno e as amostras da marcenaria.","rooms":["all"],"path":"biblioteca/cores.html","generated":true,"available":true,"searchTerms":"Tons escolhidos para a marcenaria Areia e madeira natural no banheiro. Marfim claro no armário superior do escritório. cores-escolhidas Acabamento interno dos armários Branco texturizado por dentro e os padrões escolhidos nas partes visíveis. acabamentos-r13 Marfim do escritório: amostra comercial Guararapes Lume Matt como candidato para comparar com a direção Marfim escolhida. marfim-codigo","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-tecidos","title":"Tecidos","category":"Escolhas para a casa","status":"Em estudo","summary":"Veja cortinas, estofados e referências para pedir amostras.","rooms":["sala","quarto","escritorio"],"path":"biblioteca/tecidos.html","generated":true,"available":true,"searchTerms":"Cortinas e estofados escolhidos Cortina da sala C2 Areia e suede areia no banco e na cabeceira. Tecido claro no escritório. tecidos-escolhas Tecidos: códigos para amostra Artesanart 7260 Areia e Victor Decor 4842. Confirmar amostras antes de comprar. tecidos-codigos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-luz","title":"Iluminação","category":"Escolhas para a casa","status":"Em estudo","summary":"Consulte as luzes por ambiente, os preços e a opção econômica do quarto.","rooms":["all"],"path":"biblioteca/luz.html","generated":true,"available":true,"searchTerms":"Luminárias nos ambientes Simulações de cada ambiente com as luminárias escolhidas. Luz e escala aproximadas. luz-imagens Luzes do quarto Posições e comandos em estudo. Confira o espaço junto à cabeceira e aos armários. luz-quarto Luzes do quarto · opção econômica Composição com controle pelo celular. Referência parcial de R$ 376,32, sem frete e instalação. luz-economica Luzes do banheiro e preços Veja os componentes escolhidos e os links de compra. O valor não inclui frete nem instalação. luz-banho Iluminação: composição e pendências Seleção por ambiente. A CB02 substitui o plafon caro do quarto. luz-selecao Estudo de luz: níveis, reflexão e opções Lux por cômodo e tarefa, com e sem reflexão das paredes, consumo e opções numéricas. luz-estudo","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-oficina","title":"Oficina e compras","category":"Preparar a fabricação","status":"Pendente","summary":"Reúna ensaios, conectores, furação e quantidades para pedir orçamento.","rooms":["all"],"path":"biblioteca/oficina.html","generated":true,"available":true,"searchTerms":"Ensaios de oficina Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem. ensaios-oficina Banco e cesto: preparacao de oficina Lista, desenho e formulario vazio. Produto/oficina e ensaio pendentes. kit-p20-p14 Como unir as peças Encontros entre chapas. Falta definir as peças de união e o peso suportado. interfaces Conectores e suportes dos armários Opções para unir as peças e prender os móveis na parede. Confira a aplicação antes de comprar. fixas Cabideiros do guarda-roupa Quatro cabideiros previstos. Confira os suportes antes de cortar os tubos. varoes Conectores do armário sobre a pia Proposta de 20 conjuntos Minifix, que unem as peças e permitem desmontar o armário. minifix Abertura de portas e tampas Estudos dos mecanismos. Teste a montagem antes de fabricar. portas Furos previstos no projeto por peça Coordenadas relativas, desenhos em cada lado da peça e parâmetros a confirmar para os 20 móveis. furacao-pecas Conferência dos furos Conflitos, acesso de ferramenta e cobertura pendente. furacao-relatorio Fita, ferragens e horas Cenários nominais para cotação. furacao-quantitativos","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"biblioteca-modelo","title":"Modelo 3D","category":"Consultar o modelo","status":"Atual","summary":"Baixe o modelo atual do apartamento e veja como abrir e consultar.","rooms":["all"],"path":"biblioteca/modelo.html","generated":true,"available":true,"searchTerms":"FreeCAD R55 · modelo atual Modelo 3D do apartamento com os 20 móveis. Abra no FreeCAD para consultar as peças. cad O que mudou na R55 Pacote R30: banheiro atual na galeria e imagens offline. CAD R55, medidas por objeto, modo Medir, lista/CSV e ficha recolhida em Ver mais. Publicação autorizada por Elias, 01/11/2026, nesta conversa: \"ok, pode commit push e publicar no site\". Correção da lavanderia 1290x1540 mm, parede 170 mm e Loop +15 mm incorporada: Elias, 01/11/2026, \"Sim, incorporar essa correção\". Publicação desta atualização autorizada por Elias, 02/11/2026, nesta conversa: \"ok, pode publicar\". cad-atual-notas","publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-0","path":"01_Programa_e_decisoes/Caderno_de_especificacoes.md","title":"Materiais e equipamentos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":10},{"id":"leitura-1","path":"01_Programa_e_decisoes/Perguntas_em_aberto/README.md","title":"Perguntas que faltam responder","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":11},{"id":"leitura-4","path":"01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md","title":"Plano de reforma e responsável técnico","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":14},{"id":"leitura-5","path":"01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md","title":"Roteiro para projeto oficial de arquitetura de interiores","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-11","path":"03_Ambientes/Acustica/README.md","title":"Acústica — índice dos estudos nominais","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-13","path":"03_Ambientes/Banheiro/Conferencia_bancada_porta.md","title":"Conferência da bancada, torneira e porta","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-15","path":"03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L01.html","title":"Luminárias do banheiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-17","path":"03_Ambientes/Banheiro/README.md","title":"Banheiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":1},{"id":"leitura-25","path":"03_Ambientes/Gas_natural/README.md","title":"Gás natural — rede, ventilação e exaustão (triagem nominal)","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-29","path":"03_Ambientes/Iluminacao/README.md","title":"Iluminação do apartamento","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":39},{"id":"leitura-32","path":"03_Ambientes/Planta_mobiliada/README.md","title":"Planta mobiliada e vistas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":42},{"id":"leitura-34","path":"03_Ambientes/Planta_pontos/README.md","title":"Tomadas, água e gás","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"leitura","internal":false,"readingOrder":44},{"id":"leitura-40","path":"04_Moveis/Aereos_suspensao/README.md","title":"Ligações e suspensão dos aéreos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-45","path":"04_Moveis/Furacao/index.html","title":"Furos previstos no projeto por peça","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-62","path":"04_Moveis/P04/Suspensao_P04_P15/README.md","title":"/ — suspensão da caixa inteira e portas abertas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-73","path":"04_Moveis/README.md","title":"Móveis — cálculos, ligações e estudos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-76","path":"05_Orcamento_e_cronograma/Orcamento/Obra_e_pintura/Analise_obra.md","title":"Obra e pintura — análise para redução","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-77","path":"05_Orcamento_e_cronograma/Orcamento/Pedras_e_box/Analise_pedras_box.md","title":"Pedras e box — economia preservando o visual","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-78","path":"05_Orcamento_e_cronograma/Plano_execucao_ate_31_10.md","title":"Plano de execução do Guedala Park até 31 de outubro de 2026","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-79","path":"05_Orcamento_e_cronograma/README.md","title":"Orçamento e cronograma","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-80","path":"06_Entregas/Caderno_pranchas/Impacto.html","title":"Impacto da última geração","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-110","path":"07_Imovel/README.md","title":"Visita ao apartamento — fotos e relatórios","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-119","path":"ferramentas/site/README.md","title":"Como consultar o site e os arquivos","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-120","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/elias.md","title":"Perguntas para elias","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-121","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/rt.md","title":"Perguntas para rt","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-122","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/construtora.md","title":"Perguntas para construtora","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-123","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/condominio_administracao.md","title":"Perguntas para condominio administracao","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-124","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/oficina_marceneiro.md","title":"Perguntas para oficina marceneiro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-125","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/fornecedor.md","title":"Perguntas para fornecedor","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-126","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/concessionaria_de_gas.md","title":"Perguntas para concessionaria de gas","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-127","path":"01_Programa_e_decisoes/Perguntas_em_aberto/Mensagens/outro.md","title":"Perguntas para outro","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-146","path":"06_Entregas/Publicacao/Guedala_Park_R29.zip","title":"Pacote para baixar","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-147","path":"05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md","title":"Orçamento detalhado e cenários","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-148","path":"02_Modelo_3D/Relatorio_mudanca.md","title":"Relatório de mudança do modelo","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-150","path":"03_Ambientes/Medidas/README.md","title":"Medidas e instalações","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-151","path":"04_Moveis/Banco_e_cesto/Cesto_simples/Precos_e_conjunto_R01.md","title":"Banco e cesto — lista para amostras e protótipo","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999},{"id":"leitura-152","path":"06_Entregas/Caderno_pranchas/README.md","title":"Caderno formal A3","summary":"Consulte as escolhas e as conferências deste assunto.","category":"Consulta","rooms":["all"],"status":"Atual","available":true,"publicSection":"tecnico","internal":false,"readingOrder":999}];
 const MODULE_GUIDANCE = {
   "P01": {
     "hardware": [
@@ -13,8 +13,8 @@ const MODULE_GUIDANCE = {
       "Parafusos dos carros RO62: Ø3,5×14 CC · selecionado",
       "Parafusos das guias e freios RO62: Ø3,5×22 CC · selecionado",
       "Parafusos da retenção RO62: Ø3,5×12 CF · selecionado",
-      "Corrediças 500 com engates convencionais E/D: FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada · selecionado",
-      "Fixadores das guias/engates FGVTN500: Modelo e contagem pelo kit54FGOC12500TSX0 recebido · pendente de especificação do conjunto"
+      "Corrediças laterais com amortecimento, 500 mm: Telescópica lateral. SKU final pendente · pendente de especificação do conjunto",
+      "Fixadores das corrediças laterais: Conforme produto adquirido e chapa real · Pendente"
     ],
     "pending": [
       "Não repetir pilotos8,5 opostos nas divisórias18. Definir desencontro dos conectores e sequência de fechamento. Prateleiras e varões têm verificações próprias.",
@@ -25,7 +25,8 @@ const MODULE_GUIDANCE = {
       "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
       "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
       "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
     ],
     "finish": "Um acabamento por peça, igual nas duas faces. Padrões neste móvel: Branco TX, Arenza liso (referência. Código/amostra a confirmar). Branco TX somente em peças exclusivamente internas.",
     "documentIds": [
@@ -50,7 +51,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca206",
-          "name": "Lateral direita",
+          "name": "P01_Lateral_direita016_206",
           "dimensions": [
             2132.0,
             568.0,
@@ -67,7 +68,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca207",
-          "name": "Lateral esquerda",
+          "name": "P01_Lateral_esquerda_207",
           "dimensions": [
             2132.0,
             568.0,
@@ -84,7 +85,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca208",
-          "name": "Fundo",
+          "name": "P01_Fundo_208",
           "dimensions": [
             2096.0,
             1964.0,
@@ -101,7 +102,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca209",
-          "name": "Base · topo 80 mm",
+          "name": "P01_Base_topo_80_mm_209",
           "dimensions": [
             1964.0,
             550.0,
@@ -118,7 +119,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca210",
-          "name": "Divisória",
+          "name": "P01_Divisoria_210",
           "dimensions": [
             2052.0,
             550.0,
@@ -135,7 +136,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca211",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis_211",
           "dimensions": [
             400.0,
             355.0,
@@ -152,7 +153,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca212",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis001_212",
           "dimensions": [
             400.0,
             355.0,
@@ -169,7 +170,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca213",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis002_213",
           "dimensions": [
             400.0,
             355.0,
@@ -223,7 +224,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta de roupa - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -239,7 +240,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR003",
           "name": "Traseira comum · Gaveta de roupa - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -256,7 +257,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR004",
           "name": "Dianteira comum16 · Gaveta de roupa - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -325,7 +326,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta de roupa001 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -341,7 +342,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR015",
           "name": "Traseira comum · Gaveta de roupa001 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -358,7 +359,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR016",
           "name": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -390,7 +391,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca226",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis003_226",
           "dimensions": [
             400.0,
             355.0,
@@ -407,7 +408,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca227",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis004_227",
           "dimensions": [
             400.0,
             355.0,
@@ -424,7 +425,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca228",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis005_228",
           "dimensions": [
             400.0,
             355.0,
@@ -478,7 +479,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta de roupa002 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -494,7 +495,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR027",
           "name": "Traseira comum · Gaveta de roupa002 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -511,7 +512,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR028",
           "name": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -580,7 +581,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta de roupa003 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -596,7 +597,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR039",
           "name": "Traseira comum · Gaveta de roupa003 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -613,7 +614,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR040",
           "name": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -645,7 +646,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca241",
-          "name": "Divisória",
+          "name": "P01_Divisoria001_241",
           "dimensions": [
             1002.0,
             550.0,
@@ -662,7 +663,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca242",
-          "name": "Divisória",
+          "name": "P01_Divisoria002_242",
           "dimensions": [
             1002.0,
             550.0,
@@ -679,7 +680,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca243",
-          "name": "Divisória",
+          "name": "P01_Divisoria003_243",
           "dimensions": [
             1002.0,
             550.0,
@@ -696,7 +697,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca244",
-          "name": "Divisória",
+          "name": "P01_Divisoria004_244",
           "dimensions": [
             1002.0,
             550.0,
@@ -713,7 +714,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca245",
-          "name": "Prateleira curta · topo 1100",
+          "name": "P01_Prateleira_curta_topo_1100_245",
           "dimensions": [
             705.0,
             550.0,
@@ -730,7 +731,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca246",
-          "name": "Prateleira curta · topo 1101",
+          "name": "P01_Prateleira_curta_topo_1101_246",
           "dimensions": [
             705.0,
             550.0,
@@ -747,7 +748,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca247",
-          "name": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+          "name": "P01_Roupeiro_porta_direita_deslizar_para_esquerda_frente_proposta_247",
           "dimensions": [
             1999.0,
             995.0,
@@ -764,7 +765,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca248",
-          "name": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+          "name": "P01_Roupeiro_porta_esquerda_deslizar_para_direita_frente_proposta_248",
           "dimensions": [
             1999.0,
             995.0,
@@ -958,47 +959,31 @@ const MODULE_GUIDANCE = {
           "explanation": ""
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 4,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "explanation": ""
@@ -1073,15 +1058,16 @@ const MODULE_GUIDANCE = {
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
         "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar quatro gavetas internas e dois setores superiores. Regular o sistema real de correr antes de conferir acesso às gavetas.",
         "Montar divisórias e apoios com ligação dimensionada. Contato nominal não comprova suporte.",
         "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não medidas executivas.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
         "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+        "Fechar gavetas antes de mover as portas. ExtensaoEfetiva bloqueia visualmente o curso quando a folha cobre o vão. Não representa trava física."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
@@ -1099,6 +1085,21 @@ const MODULE_GUIDANCE = {
       "sheetPath": "06_Entregas/Fichas_fabricacao/P01.html",
       "drawingPath": "06_Entregas/Fichas_fabricacao/P01.svg",
       "decisions": [
+        {
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
+          "quantity": 4,
+          "unit": "par",
+          "status": "pendente de especificação do conjunto",
+          "sources": [
+            {
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
+            }
+          ],
+          "reason": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "explanation": ""
+        },
         {
           "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
@@ -1207,52 +1208,6 @@ const MODULE_GUIDANCE = {
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
               "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": ""
-        },
-        {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
-          "quantity": 4,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -1413,48 +1368,39 @@ const MODULE_GUIDANCE = {
           "id": "P01-F03"
         },
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P01-F04",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado. Altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F04"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P01-F05",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=314 mm (+1/−0,5), laterais 15→largura externa 344 mm. Profundidade mínima 520 frente a 550 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado. Mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F05"
@@ -1510,7 +1456,6 @@ const MODULE_GUIDANCE = {
       ],
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem o sistema Comfort de fechamento suave selecionado;2 kits de 1 folha por módulo.",
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
         "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do armário sobre o guarda-roupa (2132). Inferior em 1030, 52 mm abaixo da prateleira (1082).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
@@ -1552,11 +1497,11 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
-      "technicalSummary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
+      "technicalSummary": "4 pares laterais com amortecimento. Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca206",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P01_Lateral_direita016_206 / P01_Lateral_esquerda_207",
           "dimensions": [
             2132.0,
             568.0,
@@ -1577,17 +1522,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca206",
-              "name": "Lateral direita"
+              "name": "P01_Lateral_direita016_206"
             },
             {
               "id": "Peca207",
-              "name": "Lateral esquerda"
+              "name": "P01_Lateral_esquerda_207"
             }
           ]
         },
         {
           "id": "Peca208",
-          "name": "Fundo",
+          "name": "P01_Fundo_208",
           "dimensions": [
             2096.0,
             1964.0,
@@ -1607,13 +1552,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca208",
-              "name": "Fundo"
+              "name": "P01_Fundo_208"
             }
           ]
         },
         {
           "id": "Peca209",
-          "name": "Base · topo 80 mm",
+          "name": "P01_Base_topo_80_mm_209",
           "dimensions": [
             1964.0,
             550.0,
@@ -1633,13 +1578,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca209",
-              "name": "Base · topo 80 mm"
+              "name": "P01_Base_topo_80_mm_209"
             }
           ]
         },
         {
           "id": "Peca210",
-          "name": "Divisória",
+          "name": "P01_Divisoria_210",
           "dimensions": [
             2052.0,
             550.0,
@@ -1659,13 +1604,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca210",
-              "name": "Divisória"
+              "name": "P01_Divisoria_210"
             }
           ]
         },
         {
           "id": "Peca211",
-          "name": "Sapateira · três níveis",
+          "name": "Peças equivalentes",
           "dimensions": [
             400.0,
             355.0,
@@ -1690,27 +1635,27 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca211",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis_211"
             },
             {
               "id": "Peca212",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis001_212"
             },
             {
               "id": "Peca213",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis002_213"
             },
             {
               "id": "Peca226",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis003_226"
             },
             {
               "id": "Peca227",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis004_227"
             },
             {
               "id": "Peca228",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis005_228"
             }
           ]
         },
@@ -1801,7 +1746,7 @@ const MODULE_GUIDANCE = {
           "name": "Peças equivalentes",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -1841,7 +1786,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR003",
           "name": "Peças equivalentes",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -1882,7 +1827,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR004",
           "name": "Peças equivalentes",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -1983,7 +1928,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca241",
-          "name": "Divisória",
+          "name": "Peças equivalentes",
           "dimensions": [
             1002.0,
             550.0,
@@ -2006,25 +1951,25 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca241",
-              "name": "Divisória"
+              "name": "P01_Divisoria001_241"
             },
             {
               "id": "Peca242",
-              "name": "Divisória"
+              "name": "P01_Divisoria002_242"
             },
             {
               "id": "Peca243",
-              "name": "Divisória"
+              "name": "P01_Divisoria003_243"
             },
             {
               "id": "Peca244",
-              "name": "Divisória"
+              "name": "P01_Divisoria004_244"
             }
           ]
         },
         {
           "id": "Peca245",
-          "name": "Prateleira curta · topo 1100 / Prateleira curta · topo 1101",
+          "name": "P01_Prateleira_curta_topo_1100_245 / P01_Prateleira_curta_topo_1101_246",
           "dimensions": [
             705.0,
             550.0,
@@ -2045,17 +1990,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca245",
-              "name": "Prateleira curta · topo 1100"
+              "name": "P01_Prateleira_curta_topo_1100_245"
             },
             {
               "id": "Peca246",
-              "name": "Prateleira curta · topo 1101"
+              "name": "P01_Prateleira_curta_topo_1101_246"
             }
           ]
         },
         {
           "id": "Peca247",
-          "name": "Roupeiro · portas",
+          "name": "Peças equivalentes",
           "dimensions": [
             1999.0,
             995.0,
@@ -2076,11 +2021,11 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca247",
-              "name": "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+              "name": "P01_Roupeiro_porta_direita_deslizar_para_esquerda_frente_proposta_247"
             },
             {
               "id": "Peca248",
-              "name": "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+              "name": "P01_Roupeiro_porta_esquerda_deslizar_para_direita_frente_proposta_248"
             }
           ]
         }
@@ -2159,7 +2104,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca255",
-          "name": "Fundo do braço principal",
+          "name": "P02_Fundo_do_braco_principal_255",
           "dimensions": [
             632.0,
             272.0,
@@ -2176,7 +2121,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca256",
-          "name": "Fundo do retorno",
+          "name": "P02_Fundo_do_retorno_256",
           "dimensions": [
             1032.0,
             272.0,
@@ -2916,7 +2861,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca255",
-          "name": "Fundo do braço principal",
+          "name": "P02_Fundo_do_braco_principal_255",
           "dimensions": [
             632.0,
             272.0,
@@ -2936,13 +2881,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca255",
-              "name": "Fundo do braço principal"
+              "name": "P02_Fundo_do_braco_principal_255"
             }
           ]
         },
         {
           "id": "Peca256",
-          "name": "Fundo do retorno",
+          "name": "P02_Fundo_do_retorno_256",
           "dimensions": [
             1032.0,
             272.0,
@@ -2962,7 +2907,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca256",
-              "name": "Fundo do retorno"
+              "name": "P02_Fundo_do_retorno_256"
             }
           ]
         },
@@ -3169,7 +3114,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca259",
-          "name": "Lateral direita",
+          "name": "P03_Lateral_direita017_259",
           "dimensions": [
             650.0,
             308.0,
@@ -3186,7 +3131,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca260",
-          "name": "Lateral esquerda",
+          "name": "P03_Lateral_esquerda001_260",
           "dimensions": [
             650.0,
             308.0,
@@ -3203,7 +3148,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca261",
-          "name": "Fundo",
+          "name": "P03_Fundo001_261",
           "dimensions": [
             1314.0,
             272.0,
@@ -3220,7 +3165,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca262",
-          "name": "Base",
+          "name": "P03_Base_262",
           "dimensions": [
             1314.0,
             632.0,
@@ -3237,7 +3182,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca263",
-          "name": "Tampo",
+          "name": "P03_Tampo_263",
           "dimensions": [
             1314.0,
             632.0,
@@ -3254,7 +3199,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca264",
-          "name": "Maleiro — porta direita — deslizar para esquerda — frente proposta",
+          "name": "P03_Maleiro_porta_direita_deslizar_para_esquerda_frente_proposta_264",
           "dimensions": [
             670.0,
             237.0,
@@ -3271,7 +3216,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca265",
-          "name": "Maleiro — porta esquerda — deslizar para direita — frente proposta",
+          "name": "P03_Maleiro_porta_esquerda_deslizar_para_direita_frente_proposta_265",
           "dimensions": [
             670.0,
             237.0,
@@ -3849,7 +3794,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca259",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P03_Lateral_direita017_259 / P03_Lateral_esquerda001_260",
           "dimensions": [
             650.0,
             308.0,
@@ -3870,17 +3815,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca259",
-              "name": "Lateral direita"
+              "name": "P03_Lateral_direita017_259"
             },
             {
               "id": "Peca260",
-              "name": "Lateral esquerda"
+              "name": "P03_Lateral_esquerda001_260"
             }
           ]
         },
         {
           "id": "Peca261",
-          "name": "Fundo",
+          "name": "P03_Fundo001_261",
           "dimensions": [
             1314.0,
             272.0,
@@ -3900,13 +3845,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca261",
-              "name": "Fundo"
+              "name": "P03_Fundo001_261"
             }
           ]
         },
         {
           "id": "Peca262",
-          "name": "Base / Tampo",
+          "name": "P03_Base_262 / P03_Tampo_263",
           "dimensions": [
             1314.0,
             632.0,
@@ -3927,17 +3872,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca262",
-              "name": "Base"
+              "name": "P03_Base_262"
             },
             {
               "id": "Peca263",
-              "name": "Tampo"
+              "name": "P03_Tampo_263"
             }
           ]
         },
         {
           "id": "Peca264",
-          "name": "Maleiro · portas",
+          "name": "Peças equivalentes",
           "dimensions": [
             670.0,
             237.0,
@@ -3958,11 +3903,11 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca264",
-              "name": "Maleiro — porta direita — deslizar para esquerda — frente proposta"
+              "name": "P03_Maleiro_porta_direita_deslizar_para_esquerda_frente_proposta_264"
             },
             {
               "id": "Peca265",
-              "name": "Maleiro — porta esquerda — deslizar para direita — frente proposta"
+              "name": "P03_Maleiro_porta_esquerda_deslizar_para_direita_frente_proposta_265"
             }
           ]
         }
@@ -4007,7 +3952,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca266",
-          "name": "Lateral direita",
+          "name": "P04_Lateral_direita018_266",
           "dimensions": [
             308.0,
             230.0,
@@ -4024,7 +3969,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca267",
-          "name": "Lateral esquerda",
+          "name": "P04_Lateral_esquerda002_267",
           "dimensions": [
             308.0,
             230.0,
@@ -4041,7 +3986,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca268",
-          "name": "Fundo",
+          "name": "P04_Fundo002_268",
           "dimensions": [
             1764.0,
             272.0,
@@ -4058,7 +4003,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca269",
-          "name": "Base",
+          "name": "P04_Base001_269",
           "dimensions": [
             1764.0,
             212.0,
@@ -4075,7 +4020,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca270",
-          "name": "Tampo",
+          "name": "P04_Tampo001_270",
           "dimensions": [
             1764.0,
             212.0,
@@ -5004,7 +4949,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca266",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P04_Lateral_direita018_266 / P04_Lateral_esquerda002_267",
           "dimensions": [
             308.0,
             230.0,
@@ -5025,17 +4970,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca266",
-              "name": "Lateral direita"
+              "name": "P04_Lateral_direita018_266"
             },
             {
               "id": "Peca267",
-              "name": "Lateral esquerda"
+              "name": "P04_Lateral_esquerda002_267"
             }
           ]
         },
         {
           "id": "Peca268",
-          "name": "Fundo",
+          "name": "P04_Fundo002_268",
           "dimensions": [
             1764.0,
             272.0,
@@ -5055,13 +5000,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca268",
-              "name": "Fundo"
+              "name": "P04_Fundo002_268"
             }
           ]
         },
         {
           "id": "Peca269",
-          "name": "Base",
+          "name": "P04_Base001_269",
           "dimensions": [
             1764.0,
             212.0,
@@ -5081,13 +5026,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca269",
-              "name": "Base"
+              "name": "P04_Base001_269"
             }
           ]
         },
         {
           "id": "Peca270",
-          "name": "Tampo",
+          "name": "P04_Tampo001_270",
           "dimensions": [
             1764.0,
             212.0,
@@ -5107,7 +5052,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca270",
-              "name": "Tampo"
+              "name": "P04_Tampo001_270"
             }
           ]
         },
@@ -5324,7 +5269,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca276",
-          "name": "Lateral direita",
+          "name": "P05_Lateral_direita019_276",
           "dimensions": [
             720.0,
             590.0,
@@ -5341,7 +5286,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca277",
-          "name": "Lateral esquerda",
+          "name": "P05_Lateral_esquerda003_277",
           "dimensions": [
             720.0,
             590.0,
@@ -5358,7 +5303,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca278",
-          "name": "Fundo",
+          "name": "P05_Fundo003_278",
           "dimensions": [
             684.0,
             614.0,
@@ -5375,7 +5320,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca279",
-          "name": "Base",
+          "name": "P05_Base002_279",
           "dimensions": [
             614.0,
             572.0,
@@ -5392,7 +5337,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca280",
-          "name": "Prateleira de estudo · hidráulica a recortar",
+          "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280",
           "dimensions": [
             614.0,
             572.0,
@@ -6010,7 +5955,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca276",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P05_Lateral_direita019_276 / P05_Lateral_esquerda003_277",
           "dimensions": [
             720.0,
             590.0,
@@ -6031,17 +5976,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca276",
-              "name": "Lateral direita"
+              "name": "P05_Lateral_direita019_276"
             },
             {
               "id": "Peca277",
-              "name": "Lateral esquerda"
+              "name": "P05_Lateral_esquerda003_277"
             }
           ]
         },
         {
           "id": "Peca278",
-          "name": "Fundo",
+          "name": "P05_Fundo003_278",
           "dimensions": [
             684.0,
             614.0,
@@ -6061,13 +6006,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca278",
-              "name": "Fundo"
+              "name": "P05_Fundo003_278"
             }
           ]
         },
         {
           "id": "Peca279",
-          "name": "Base",
+          "name": "P05_Base002_279",
           "dimensions": [
             614.0,
             572.0,
@@ -6087,13 +6032,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca279",
-              "name": "Base"
+              "name": "P05_Base002_279"
             }
           ]
         },
         {
           "id": "Peca280",
-          "name": "Prateleira de estudo · hidráulica a recortar",
+          "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280",
           "dimensions": [
             614.0,
             572.0,
@@ -6113,7 +6058,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca280",
-              "name": "Prateleira de estudo · hidráulica a recortar"
+              "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280"
             }
           ]
         },
@@ -6176,8 +6121,8 @@ const MODULE_GUIDANCE = {
   "P06": {
     "hardware": [
       "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas · Estratégia selecionada. Mapa parcial",
-      "Corrediças 500 com engates convencionais E/D: FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada · selecionado",
-      "Fixadores das guias/engates FGVTN500: Modelo e contagem pelo kit54FGOC12500TSX0 recebido · pendente de especificação do conjunto"
+      "Corrediças laterais com amortecimento, 500 mm: Telescópica lateral. SKU final pendente · pendente de especificação do conjunto",
+      "Fixadores das corrediças laterais: Conforme produto adquirido e chapa real · Pendente"
     ],
     "pending": [
       "Cruzar mapa com furos das corrediças e acesso da ferramenta. Não perfurar guia ou frente com furação de estrutura do armário.",
@@ -6185,7 +6130,8 @@ const MODULE_GUIDANCE = {
       "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
       "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
       "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+      "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+      "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
     ],
     "finish": "Um acabamento por peça, igual nas duas faces. Padrões neste móvel: Branco TX, Greenplac Arenza liso. Branco TX somente em peças exclusivamente internas.",
     "documentIds": [
@@ -6208,7 +6154,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca283",
-          "name": "Lateral direita",
+          "name": "P06_Lateral_direita020_283",
           "dimensions": [
             720.0,
             590.0,
@@ -6225,7 +6171,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca284",
-          "name": "Lateral esquerda",
+          "name": "P06_Lateral_esquerda004_284",
           "dimensions": [
             720.0,
             590.0,
@@ -6242,7 +6188,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca285",
-          "name": "Fundo",
+          "name": "P06_Fundo004_285",
           "dimensions": [
             684.0,
             583.0,
@@ -6259,7 +6205,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca286",
-          "name": "Base",
+          "name": "P06_Base003_286",
           "dimensions": [
             583.0,
             572.0,
@@ -6312,7 +6258,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR050",
           "name": "Fundo comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -6329,7 +6275,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR051",
           "name": "Traseira comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             15.0
           ],
@@ -6346,7 +6292,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR052",
           "name": "Dianteira comum16 · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             16.0
           ],
@@ -6380,12 +6326,12 @@ const MODULE_GUIDANCE = {
           "id": "MontagemG2R016",
           "name": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
           "dimensions": [
-            541.0,
+            554.4,
             73.0,
             15.0
           ],
           "thickness": 15.0,
-          "rectangular": true,
+          "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
@@ -6431,7 +6377,7 @@ const MODULE_GUIDANCE = {
           "id": "MontagemG2R019",
           "name": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
           "dimensions": [
-            551.0,
+            564.4,
             490.0,
             16.2
           ],
@@ -6459,6 +6405,23 @@ const MODULE_GUIDANCE = {
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
           "remainingFinish": null,
+          "quantity": 1
+        },
+        {
+          "id": "MontagemG2R021",
+          "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+          "dimensions": [
+            554.4,
+            73.0,
+            16.0
+          ],
+          "thickness": 16.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": null,
+          "materialEvidence": null,
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1
         },
         {
@@ -6499,7 +6462,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR062",
           "name": "Fundo comum · G1 · talheres - proposta R08",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -6516,7 +6479,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR063",
           "name": "Traseira comum · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             15.0
           ],
@@ -6533,7 +6496,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR064",
           "name": "Dianteira comum16 · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             16.0
           ],
@@ -6581,47 +6544,31 @@ const MODULE_GUIDANCE = {
           "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "explanation": ""
@@ -6693,13 +6640,12 @@ const MODULE_GUIDANCE = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Conferir gavetas e guias como conjuntos compatíveis. Preservar G1/G2/G3 e seus usos.",
-        "FGVTN 54FGOC12500TSX0 selecionada para as três gavetas. Conferir engates, regulagem e fixação.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
@@ -6715,49 +6661,18 @@ const MODULE_GUIDANCE = {
       "drawingPath": "06_Entregas/Fichas_fabricacao/P06.svg",
       "decisions": [
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "conferir a montagem na oficina",
+          "reason": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "explanation": ""
         },
         {
@@ -6777,48 +6692,39 @@ const MODULE_GUIDANCE = {
       ],
       "drilling": [
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P06-F01",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado. Altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F01"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P06-F02",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=542 mm (+1/−0,5), laterais 15→largura externa 572 mm. Profundidade mínima 520 frente a 572 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado. Mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F02"
@@ -6857,7 +6763,6 @@ const MODULE_GUIDANCE = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "resolvedChecks": [
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
@@ -6869,11 +6774,11 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
-      "technicalSummary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
+      "technicalSummary": "3 pares laterais com amortecimento. Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca283",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P06_Lateral_direita020_283 / P06_Lateral_esquerda004_284",
           "dimensions": [
             720.0,
             590.0,
@@ -6894,17 +6799,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca283",
-              "name": "Lateral direita"
+              "name": "P06_Lateral_direita020_283"
             },
             {
               "id": "Peca284",
-              "name": "Lateral esquerda"
+              "name": "P06_Lateral_esquerda004_284"
             }
           ]
         },
         {
           "id": "Peca285",
-          "name": "Fundo",
+          "name": "P06_Fundo004_285",
           "dimensions": [
             684.0,
             583.0,
@@ -6924,13 +6829,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca285",
-              "name": "Fundo"
+              "name": "P06_Fundo004_285"
             }
           ]
         },
         {
           "id": "Peca286",
-          "name": "Base",
+          "name": "P06_Base003_286",
           "dimensions": [
             583.0,
             572.0,
@@ -6950,7 +6855,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca286",
-              "name": "Base"
+              "name": "P06_Base003_286"
             }
           ]
         },
@@ -7010,7 +6915,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR050",
           "name": "Peças equivalentes",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -7041,7 +6946,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR051",
           "name": "Traseira comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             15.0
           ],
@@ -7067,7 +6972,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR052",
           "name": "Dianteira comum16 · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             16.0
           ],
@@ -7119,12 +7024,12 @@ const MODULE_GUIDANCE = {
           "id": "MontagemG2R016",
           "name": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
           "dimensions": [
-            541.0,
+            554.4,
             73.0,
             15.0
           ],
           "thickness": 15.0,
-          "rectangular": true,
+          "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
@@ -7197,7 +7102,7 @@ const MODULE_GUIDANCE = {
           "id": "MontagemG2R019",
           "name": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
           "dimensions": [
-            551.0,
+            564.4,
             490.0,
             16.2
           ],
@@ -7242,6 +7147,32 @@ const MODULE_GUIDANCE = {
             {
               "id": "MontagemG2R020",
               "name": "Frente_da_gaveta[3B0R-001H] - proposta R07"
+            }
+          ]
+        },
+        {
+          "id": "MontagemG2R021",
+          "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+          "dimensions": [
+            554.4,
+            73.0,
+            16.0
+          ],
+          "thickness": 16.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": null,
+          "materialEvidence": null,
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "quantity": 1,
+          "ids": [
+            "MontagemG2R021"
+          ],
+          "members": [
+            {
+              "id": "MontagemG2R021",
+              "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07"
             }
           ]
         },
@@ -7301,7 +7232,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR063",
           "name": "Traseira comum · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             15.0
           ],
@@ -7327,7 +7258,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR064",
           "name": "Dianteira comum16 · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             16.0
           ],
@@ -7407,14 +7338,14 @@ const MODULE_GUIDANCE = {
       "room": "cozinha",
       "dimensions": [
         613.0,
-        597.5,
+        610.0,
         900.0
       ],
       "internalMeasures": "Vão lateral 577; base plana 577×535×18, topo 138. Travessa 577×212×30 emZ660–690; trás terminaY6955, reservando 45 até parede nominal 7000.",
       "panels": [
         {
           "id": "Peca305",
-          "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+          "name": "P07_Lateral_direita_do_forno_R30_deslocada_13_mm_vao_577_305",
           "dimensions": [
             900.0,
             590.0,
@@ -7431,7 +7362,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca306",
-          "name": "Lateral esquerda do forno",
+          "name": "P07_Lateral_esquerda_do_forno_306",
           "dimensions": [
             900.0,
             590.0,
@@ -7448,7 +7379,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca307",
-          "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+          "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307",
           "dimensions": [
             577.0,
             212.0,
@@ -7597,6 +7528,23 @@ const MODULE_GUIDANCE = {
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
           "remainingFinish": null,
+          "quantity": 1
+        },
+        {
+          "id": "P07_Faixa_Superior_Forno",
+          "name": "P07 — faixa frontal acima da grelha do forno",
+          "dimensions": [
+            577.0,
+            115.0,
+            18.0
+          ],
+          "thickness": 18.0,
+          "rectangular": true,
+          "cadMaterial": "Greenplac Arenza (referência CAD)",
+          "specifiedMaterial": null,
+          "materialEvidence": "P07_Faixa_Superior_Forno.MaterialReferencia",
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1
         }
       ],
@@ -7830,7 +7778,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca305",
-          "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577) / Lateral esquerda do forno",
+          "name": "Peças equivalentes",
           "dimensions": [
             900.0,
             590.0,
@@ -7851,17 +7799,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca305",
-              "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)"
+              "name": "P07_Lateral_direita_do_forno_R30_deslocada_13_mm_vao_577_305"
             },
             {
               "id": "Peca306",
-              "name": "Lateral esquerda do forno"
+              "name": "P07_Lateral_esquerda_do_forno_306"
             }
           ]
         },
         {
           "id": "Peca307",
-          "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+          "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307",
           "dimensions": [
             577.0,
             212.0,
@@ -7881,7 +7829,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca307",
-              "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta"
+              "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307"
             }
           ]
         },
@@ -8048,6 +7996,32 @@ const MODULE_GUIDANCE = {
             {
               "id": "ReguaSuperiorAltaR31",
               "name": "ReguaSuperiorAlta · proposta R31"
+            }
+          ]
+        },
+        {
+          "id": "P07_Faixa_Superior_Forno",
+          "name": "P07 — faixa frontal acima da grelha do forno",
+          "dimensions": [
+            577.0,
+            115.0,
+            18.0
+          ],
+          "thickness": 18.0,
+          "rectangular": true,
+          "cadMaterial": "Greenplac Arenza (referência CAD)",
+          "specifiedMaterial": null,
+          "materialEvidence": "P07_Faixa_Superior_Forno.MaterialReferencia",
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "quantity": 1,
+          "ids": [
+            "P07_Faixa_Superior_Forno"
+          ],
+          "members": [
+            {
+              "id": "P07_Faixa_Superior_Forno",
+              "name": "P07 — faixa frontal acima da grelha do forno"
             }
           ]
         }
@@ -8763,7 +8737,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca315",
-          "name": "Lateral direita",
+          "name": "P09_Lateral_direita021_315",
           "dimensions": [
             592.0,
             330.0,
@@ -8780,7 +8754,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca316",
-          "name": "Lateral esquerda",
+          "name": "P09_Lateral_esquerda005_316",
           "dimensions": [
             592.0,
             330.0,
@@ -8797,7 +8771,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca317",
-          "name": "Fundo",
+          "name": "P09_Fundo005_317",
           "dimensions": [
             614.0,
             556.0,
@@ -8814,7 +8788,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca318",
-          "name": "Base",
+          "name": "P09_Base004_318",
           "dimensions": [
             614.0,
             312.0,
@@ -8831,7 +8805,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca319",
-          "name": "Tampo",
+          "name": "P09_Tampo002_319",
           "dimensions": [
             614.0,
             312.0,
@@ -8848,7 +8822,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca320",
-          "name": "Divisória",
+          "name": "P09_Divisoria005_320",
           "dimensions": [
             556.0,
             312.0,
@@ -9497,7 +9471,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca315",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P09_Lateral_direita021_315 / P09_Lateral_esquerda005_316",
           "dimensions": [
             592.0,
             330.0,
@@ -9518,17 +9492,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca315",
-              "name": "Lateral direita"
+              "name": "P09_Lateral_direita021_315"
             },
             {
               "id": "Peca316",
-              "name": "Lateral esquerda"
+              "name": "P09_Lateral_esquerda005_316"
             }
           ]
         },
         {
           "id": "Peca317",
-          "name": "Fundo",
+          "name": "P09_Fundo005_317",
           "dimensions": [
             614.0,
             556.0,
@@ -9548,13 +9522,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca317",
-              "name": "Fundo"
+              "name": "P09_Fundo005_317"
             }
           ]
         },
         {
           "id": "Peca318",
-          "name": "Base",
+          "name": "P09_Base004_318",
           "dimensions": [
             614.0,
             312.0,
@@ -9574,13 +9548,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca318",
-              "name": "Base"
+              "name": "P09_Base004_318"
             }
           ]
         },
         {
           "id": "Peca319",
-          "name": "Tampo",
+          "name": "P09_Tampo002_319",
           "dimensions": [
             614.0,
             312.0,
@@ -9600,13 +9574,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca319",
-              "name": "Tampo"
+              "name": "P09_Tampo002_319"
             }
           ]
         },
         {
           "id": "Peca320",
-          "name": "Divisória",
+          "name": "P09_Divisoria005_320",
           "dimensions": [
             556.0,
             312.0,
@@ -9626,7 +9600,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca320",
-              "name": "Divisória"
+              "name": "P09_Divisoria005_320"
             }
           ]
         },
@@ -9729,7 +9703,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca324",
-          "name": "Lateral direita",
+          "name": "P10_Lateral_direita022_324",
           "dimensions": [
             1018.0,
             330.0,
@@ -9746,7 +9720,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca325",
-          "name": "Lateral esquerda",
+          "name": "P10_Lateral_esquerda006_325",
           "dimensions": [
             1018.0,
             330.0,
@@ -9763,7 +9737,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca326",
-          "name": "Fundo",
+          "name": "P10_Fundo006_326",
           "dimensions": [
             982.0,
             511.0,
@@ -9780,7 +9754,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca327",
-          "name": "Base",
+          "name": "P10_Base005_327",
           "dimensions": [
             511.0,
             312.0,
@@ -9797,7 +9771,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca328",
-          "name": "Tampo",
+          "name": "P10_Tampo003_328",
           "dimensions": [
             511.0,
             312.0,
@@ -9814,7 +9788,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca329",
-          "name": "Prateleira",
+          "name": "P10_Prateleira_329",
           "dimensions": [
             511.0,
             312.0,
@@ -9831,7 +9805,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca330",
-          "name": "Prateleira",
+          "name": "P10_Prateleira001_330",
           "dimensions": [
             511.0,
             312.0,
@@ -9848,7 +9822,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca331",
-          "name": "Prateleira",
+          "name": "P10_Prateleira002_331",
           "dimensions": [
             511.0,
             312.0,
@@ -11085,7 +11059,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca324",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P10_Lateral_direita022_324 / P10_Lateral_esquerda006_325",
           "dimensions": [
             1018.0,
             330.0,
@@ -11106,17 +11080,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca324",
-              "name": "Lateral direita"
+              "name": "P10_Lateral_direita022_324"
             },
             {
               "id": "Peca325",
-              "name": "Lateral esquerda"
+              "name": "P10_Lateral_esquerda006_325"
             }
           ]
         },
         {
           "id": "Peca326",
-          "name": "Fundo",
+          "name": "P10_Fundo006_326",
           "dimensions": [
             982.0,
             511.0,
@@ -11136,13 +11110,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca326",
-              "name": "Fundo"
+              "name": "P10_Fundo006_326"
             }
           ]
         },
         {
           "id": "Peca327",
-          "name": "Base",
+          "name": "P10_Base005_327",
           "dimensions": [
             511.0,
             312.0,
@@ -11162,13 +11136,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca327",
-              "name": "Base"
+              "name": "P10_Base005_327"
             }
           ]
         },
         {
           "id": "Peca328",
-          "name": "Tampo",
+          "name": "P10_Tampo003_328",
           "dimensions": [
             511.0,
             312.0,
@@ -11188,13 +11162,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca328",
-              "name": "Tampo"
+              "name": "P10_Tampo003_328"
             }
           ]
         },
         {
           "id": "Peca329",
-          "name": "Prateleira",
+          "name": "P10_Prateleira_329 / P10_Prateleira001_330 / P10_Prateleira002_331",
           "dimensions": [
             511.0,
             312.0,
@@ -11216,15 +11190,15 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca329",
-              "name": "Prateleira"
+              "name": "P10_Prateleira_329"
             },
             {
               "id": "Peca330",
-              "name": "Prateleira"
+              "name": "P10_Prateleira001_330"
             },
             {
               "id": "Peca331",
-              "name": "Prateleira"
+              "name": "P10_Prateleira002_331"
             }
           ]
         },
@@ -11327,7 +11301,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca334",
-          "name": "Lateral direita",
+          "name": "P11_Lateral_direita023_334",
           "dimensions": [
             610.0,
             330.0,
@@ -11344,7 +11318,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca335",
-          "name": "Lateral esquerda",
+          "name": "P11_Lateral_esquerda007_335",
           "dimensions": [
             610.0,
             330.0,
@@ -11361,7 +11335,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca336",
-          "name": "Fundo",
+          "name": "P11_Fundo007_336",
           "dimensions": [
             661.0,
             574.0,
@@ -11378,7 +11352,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca337",
-          "name": "Base",
+          "name": "P11_Base006_337",
           "dimensions": [
             661.0,
             312.0,
@@ -11395,7 +11369,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca338",
-          "name": "Tampo",
+          "name": "P11_Tampo004_338",
           "dimensions": [
             661.0,
             312.0,
@@ -11412,7 +11386,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca339",
-          "name": "Prateleira",
+          "name": "P11_Prateleira003_339",
           "dimensions": [
             661.0,
             312.0,
@@ -12405,7 +12379,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca334",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P11_Lateral_direita023_334 / P11_Lateral_esquerda007_335",
           "dimensions": [
             610.0,
             330.0,
@@ -12426,17 +12400,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca334",
-              "name": "Lateral direita"
+              "name": "P11_Lateral_direita023_334"
             },
             {
               "id": "Peca335",
-              "name": "Lateral esquerda"
+              "name": "P11_Lateral_esquerda007_335"
             }
           ]
         },
         {
           "id": "Peca336",
-          "name": "Fundo",
+          "name": "P11_Fundo007_336",
           "dimensions": [
             661.0,
             574.0,
@@ -12456,13 +12430,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca336",
-              "name": "Fundo"
+              "name": "P11_Fundo007_336"
             }
           ]
         },
         {
           "id": "Peca337",
-          "name": "Base",
+          "name": "P11_Base006_337",
           "dimensions": [
             661.0,
             312.0,
@@ -12482,13 +12456,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca337",
-              "name": "Base"
+              "name": "P11_Base006_337"
             }
           ]
         },
         {
           "id": "Peca338",
-          "name": "Tampo",
+          "name": "P11_Tampo004_338",
           "dimensions": [
             661.0,
             312.0,
@@ -12508,13 +12482,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca338",
-              "name": "Tampo"
+              "name": "P11_Tampo004_338"
             }
           ]
         },
         {
           "id": "Peca339",
-          "name": "Prateleira",
+          "name": "P11_Prateleira003_339",
           "dimensions": [
             661.0,
             312.0,
@@ -12534,7 +12508,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca339",
-              "name": "Prateleira"
+              "name": "P11_Prateleira003_339"
             }
           ]
         },
@@ -12635,7 +12609,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca342",
-          "name": "Lateral direita",
+          "name": "P12_Lateral_direita024_342",
           "dimensions": [
             584.0,
             330.0,
@@ -12652,7 +12626,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca343",
-          "name": "Lateral esquerda",
+          "name": "P12_Lateral_esquerda008_343",
           "dimensions": [
             584.0,
             330.0,
@@ -12669,7 +12643,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca344",
-          "name": "Fundo",
+          "name": "P12_Fundo008_344",
           "dimensions": [
             765.0,
             548.0,
@@ -12686,7 +12660,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca345",
-          "name": "Base",
+          "name": "P12_Base007_345",
           "dimensions": [
             765.0,
             312.0,
@@ -12703,7 +12677,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca346",
-          "name": "Tampo",
+          "name": "P12_Tampo005_346",
           "dimensions": [
             765.0,
             312.0,
@@ -12720,7 +12694,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca347",
-          "name": "Divisória",
+          "name": "P12_Divisoria006_347",
           "dimensions": [
             548.0,
             312.0,
@@ -13369,7 +13343,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca342",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P12_Lateral_direita024_342 / P12_Lateral_esquerda008_343",
           "dimensions": [
             584.0,
             330.0,
@@ -13390,17 +13364,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca342",
-              "name": "Lateral direita"
+              "name": "P12_Lateral_direita024_342"
             },
             {
               "id": "Peca343",
-              "name": "Lateral esquerda"
+              "name": "P12_Lateral_esquerda008_343"
             }
           ]
         },
         {
           "id": "Peca344",
-          "name": "Fundo",
+          "name": "P12_Fundo008_344",
           "dimensions": [
             765.0,
             548.0,
@@ -13420,13 +13394,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca344",
-              "name": "Fundo"
+              "name": "P12_Fundo008_344"
             }
           ]
         },
         {
           "id": "Peca345",
-          "name": "Base",
+          "name": "P12_Base007_345",
           "dimensions": [
             765.0,
             312.0,
@@ -13446,13 +13420,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca345",
-              "name": "Base"
+              "name": "P12_Base007_345"
             }
           ]
         },
         {
           "id": "Peca346",
-          "name": "Tampo",
+          "name": "P12_Tampo005_346",
           "dimensions": [
             765.0,
             312.0,
@@ -13472,13 +13446,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca346",
-              "name": "Tampo"
+              "name": "P12_Tampo005_346"
             }
           ]
         },
         {
           "id": "Peca347",
-          "name": "Divisória",
+          "name": "P12_Divisoria006_347",
           "dimensions": [
             548.0,
             312.0,
@@ -13498,7 +13472,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca347",
-              "name": "Divisória"
+              "name": "P12_Divisoria006_347"
             }
           ]
         },
@@ -13590,7 +13564,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca350",
-          "name": "Prateleira de apoio · topo 1550",
+          "name": "P13_Prateleira_de_apoio_topo_1550_350",
           "dimensions": [
             697.0,
             470.0,
@@ -13765,7 +13739,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca350",
-          "name": "Prateleira de apoio · topo 1550",
+          "name": "P13_Prateleira_de_apoio_topo_1550_350",
           "dimensions": [
             697.0,
             470.0,
@@ -13785,7 +13759,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca350",
-              "name": "Prateleira de apoio · topo 1550"
+              "name": "P13_Prateleira_de_apoio_topo_1550_350"
             }
           ]
         }
@@ -13827,7 +13801,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca352",
-          "name": "Lateral direita",
+          "name": "P14_Lateral_direita025_352",
           "dimensions": [
             802.0,
             610.0,
@@ -13844,7 +13818,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca353",
-          "name": "Lateral esquerda",
+          "name": "P14_Lateral_esquerda009_353",
           "dimensions": [
             802.0,
             610.0,
@@ -14216,7 +14190,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca352",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P14_Lateral_direita025_352 / P14_Lateral_esquerda009_353",
           "dimensions": [
             802.0,
             610.0,
@@ -14237,11 +14211,11 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca352",
-              "name": "Lateral direita"
+              "name": "P14_Lateral_direita025_352"
             },
             {
               "id": "Peca353",
-              "name": "Lateral esquerda"
+              "name": "P14_Lateral_esquerda009_353"
             }
           ]
         },
@@ -14477,7 +14451,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca359",
-          "name": "Lateral direita",
+          "name": "P15_Lateral_direita026_359",
           "dimensions": [
             580.0,
             330.0,
@@ -14494,7 +14468,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca360",
-          "name": "Lateral esquerda",
+          "name": "P15_Lateral_esquerda010_360",
           "dimensions": [
             580.0,
             330.0,
@@ -14511,7 +14485,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca361",
-          "name": "Fundo",
+          "name": "P15_Fundo010_361",
           "dimensions": [
             799.0,
             544.0,
@@ -14528,7 +14502,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca362",
-          "name": "Base",
+          "name": "P15_Base008_362",
           "dimensions": [
             799.0,
             312.0,
@@ -14545,7 +14519,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca363",
-          "name": "Tampo",
+          "name": "P15_Tampo006_363",
           "dimensions": [
             799.0,
             312.0,
@@ -15434,7 +15408,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca359",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P15_Lateral_direita026_359 / P15_Lateral_esquerda010_360",
           "dimensions": [
             580.0,
             330.0,
@@ -15455,17 +15429,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca359",
-              "name": "Lateral direita"
+              "name": "P15_Lateral_direita026_359"
             },
             {
               "id": "Peca360",
-              "name": "Lateral esquerda"
+              "name": "P15_Lateral_esquerda010_360"
             }
           ]
         },
         {
           "id": "Peca361",
-          "name": "Fundo",
+          "name": "P15_Fundo010_361",
           "dimensions": [
             799.0,
             544.0,
@@ -15485,13 +15459,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca361",
-              "name": "Fundo"
+              "name": "P15_Fundo010_361"
             }
           ]
         },
         {
           "id": "Peca362",
-          "name": "Base",
+          "name": "P15_Base008_362",
           "dimensions": [
             799.0,
             312.0,
@@ -15511,13 +15485,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca362",
-              "name": "Base"
+              "name": "P15_Base008_362"
             }
           ]
         },
         {
           "id": "Peca363",
-          "name": "Tampo",
+          "name": "P15_Tampo006_363",
           "dimensions": [
             799.0,
             312.0,
@@ -15537,7 +15511,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca363",
-              "name": "Tampo"
+              "name": "P15_Tampo006_363"
             }
           ]
         },
@@ -15600,10 +15574,8 @@ const MODULE_GUIDANCE = {
   "P16": {
     "hardware": [
       "Uniões das chapas do armário: Confirmat7×50 + cavilhaØ8×30 nas faces ocultas da caixa. Guias/frentes com o sistema de gaveta selecionado · Estratégia selecionada. Mapa parcial",
-      "Corrediças 400: BlumMOVENTO760H4000S, BLUMOTION S, classe40kg · selecionado",
-      "Engates MOVENTO esquerdo e direito: BlumT51.7601 E/D · selecionado",
-      "Parafusos de fixação das guias MOVENTO: Blum609.1500 Ø3,5×15 · selecionado",
-      "Gabarito MOVENTO de engates/ganchos: BlumT65.1000.02 · selecionado"
+      "Corrediças laterais com amortecimento, 400 mm: Telescópica lateral. SKU final pendente · pendente de especificação do conjunto",
+      "Fixadores das corrediças laterais: Conforme produto adquirido e chapa real · Pendente"
     ],
     "pending": [
       "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
@@ -15611,7 +15583,7 @@ const MODULE_GUIDANCE = {
       "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
       "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
       "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
-      "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+      "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
     ],
     "finish": "Um acabamento por peça, igual nas duas faces. Padrões neste móvel: Branco TX, Greenplac Arenza liso. Branco TX somente em peças exclusivamente internas.",
     "documentIds": [
@@ -15636,7 +15608,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca367",
-          "name": "Lateral direita",
+          "name": "P16_Lateral_direita027_367",
           "dimensions": [
             430.0,
             240.0,
@@ -15653,7 +15625,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca368",
-          "name": "Lateral esquerda",
+          "name": "P16_Lateral_esquerda011_368",
           "dimensions": [
             430.0,
             240.0,
@@ -15670,7 +15642,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca369",
-          "name": "Fundo",
+          "name": "P16_Fundo011_369",
           "dimensions": [
             364.0,
             204.0,
@@ -15687,7 +15659,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca370",
-          "name": "Base",
+          "name": "P16_Base009_370",
           "dimensions": [
             412.0,
             364.0,
@@ -15704,7 +15676,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca371",
-          "name": "Tampo",
+          "name": "P16_Tampo007_371",
           "dimensions": [
             412.0,
             364.0,
@@ -15758,7 +15730,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -15774,7 +15746,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR075",
           "name": "Traseira comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             15.0
           ],
@@ -15791,7 +15763,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR076",
           "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             16.0
           ],
@@ -15860,7 +15832,7 @@ const MODULE_GUIDANCE = {
           "name": "Fundo comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -15876,7 +15848,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR087",
           "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             15.0
           ],
@@ -15893,7 +15865,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR088",
           "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             16.0
           ],
@@ -15941,87 +15913,34 @@ const MODULE_GUIDANCE = {
           "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "assembly": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
-          "assemblyStatus": "conferir a montagem na oficina",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ],
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "assembly": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "unit": "conjunto",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Parafusos para prender as dobradiças e suas bases."
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "assembly": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "assemblyStatus": "conferir a montagem na oficina",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
-            }
-          ],
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
+          "explanation": ""
         }
       ],
       "finishSummary": "Um acabamento por peça, igual nas duas faces. Padrões neste móvel: Branco TX, Greenplac Arenza liso. Branco TX somente em peças exclusivamente internas.",
@@ -16067,13 +15986,11 @@ const MODULE_GUIDANCE = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
         "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.",
-        "MOVENTO400: caixa390, útil359. Largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
-        "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
+        "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
@@ -16090,87 +16007,19 @@ const MODULE_GUIDANCE = {
       "drawingPath": "06_Entregas/Fichas_fabricacao/P16.svg",
       "decisions": [
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
+          "status": "pendente de especificação do conjunto",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
-          "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "reason": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Parafusos para prender as dobradiças e suas bases."
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "reason": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
+          "reason": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "explanation": ""
         },
         {
           "item": "Estrutura do armário do escritório fixa, frentes reguláveis",
@@ -16189,51 +16038,39 @@ const MODULE_GUIDANCE = {
       ],
       "drilling": [
         {
-          "item": "Guias MOVENTO400",
+          "item": "Fixação lateral — P16-F01",
           "partIds": [],
-          "face": "face interna das laterais",
-          "datum": "frente acabada da carcaça e plano de referência do eixo da guia",
-          "pattern": "Usar padrão 760H40 kg/NL380–480 da página 428; primeiro centro 37 mm da frente. Fixação por 609.1500; mínimo 38 mm do eixo à base. O mapa vertical existente precisa ajuste de retirada.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "609.1500 Ø3,5×15",
-          "status": "gabarito documentado. Mapa por lateral pendente",
-          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F01"
         },
         {
-          "item": "Ganchos traseiros e engates MOVENTO400",
+          "item": "Fixação lateral — P16-F02",
           "partIds": [],
-          "face": "traseira e face inferior da caixa",
-          "datum": "gabarito T65.1000.02 referenciado nas duas laterais e face inferior do fundo",
-          "pattern": "2 furos traseirosØ6×10; referências 7/11 do desenho. Comprimento da caixa NL−10=390; largura interna 364−42=322(+0/−1,5). Laterais 15 mm preservadas.",
-          "diameter": 6,
-          "depth": 10,
-          "fastener": "T51.7601 e ganchosMOVENTO",
-          "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD. Confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
+          "depth": null,
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F02"
@@ -16264,8 +16101,7 @@ const MODULE_GUIDANCE = {
       ],
       "workshopChecks": [
         "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
@@ -16273,8 +16109,6 @@ const MODULE_GUIDANCE = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601. Variante FGVTN400 excluída.",
-        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
         "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda. Não invade mais a guia direita (era 1.276 mm³).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
@@ -16289,11 +16123,11 @@ const MODULE_GUIDANCE = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
-      "technicalSummary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49. Provar retirada na oficina.",
+      "technicalSummary": "2 pares laterais com amortecimento. Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca367",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P16_Lateral_direita027_367 / P16_Lateral_esquerda011_368",
           "dimensions": [
             430.0,
             240.0,
@@ -16314,17 +16148,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca367",
-              "name": "Lateral direita"
+              "name": "P16_Lateral_direita027_367"
             },
             {
               "id": "Peca368",
-              "name": "Lateral esquerda"
+              "name": "P16_Lateral_esquerda011_368"
             }
           ]
         },
         {
           "id": "Peca369",
-          "name": "Fundo",
+          "name": "P16_Fundo011_369",
           "dimensions": [
             364.0,
             204.0,
@@ -16344,13 +16178,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca369",
-              "name": "Fundo"
+              "name": "P16_Fundo011_369"
             }
           ]
         },
         {
           "id": "Peca370",
-          "name": "Base / Tampo",
+          "name": "P16_Base009_370 / P16_Tampo007_371",
           "dimensions": [
             412.0,
             364.0,
@@ -16371,11 +16205,11 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca370",
-              "name": "Base"
+              "name": "P16_Base009_370"
             },
             {
               "id": "Peca371",
-              "name": "Tampo"
+              "name": "P16_Tampo007_371"
             }
           ]
         },
@@ -16436,7 +16270,7 @@ const MODULE_GUIDANCE = {
           "name": "Peças equivalentes",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -16466,7 +16300,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR075",
           "name": "Traseira comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             15.0
           ],
@@ -16492,7 +16326,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR076",
           "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             16.0
           ],
@@ -16596,7 +16430,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR087",
           "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             15.0
           ],
@@ -16622,7 +16456,7 @@ const MODULE_GUIDANCE = {
           "id": "GavetaComumR088",
           "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             16.0
           ],
@@ -16715,7 +16549,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca384",
-          "name": "Lateral direita",
+          "name": "P17_Lateral_direita028_384",
           "dimensions": [
             550.0,
             330.0,
@@ -16732,7 +16566,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca385",
-          "name": "Lateral esquerda",
+          "name": "P17_Lateral_esquerda012_385",
           "dimensions": [
             550.0,
             330.0,
@@ -16749,7 +16583,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca386",
-          "name": "Fundo",
+          "name": "P17_Fundo012_386",
           "dimensions": [
             1964.0,
             514.0,
@@ -16757,7 +16591,7 @@ const MODULE_GUIDANCE = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -16766,7 +16600,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca387",
-          "name": "Base",
+          "name": "P17_Base010_387",
           "dimensions": [
             1964.0,
             312.0,
@@ -16783,7 +16617,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca388",
-          "name": "Tampo",
+          "name": "P17_Tampo008_388",
           "dimensions": [
             1964.0,
             312.0,
@@ -16791,7 +16625,7 @@ const MODULE_GUIDANCE = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17696,7 +17530,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca384",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P17_Lateral_direita028_384 / P17_Lateral_esquerda012_385",
           "dimensions": [
             550.0,
             330.0,
@@ -17717,17 +17551,17 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca384",
-              "name": "Lateral direita"
+              "name": "P17_Lateral_direita028_384"
             },
             {
               "id": "Peca385",
-              "name": "Lateral esquerda"
+              "name": "P17_Lateral_esquerda012_385"
             }
           ]
         },
         {
           "id": "Peca386",
-          "name": "Fundo",
+          "name": "P17_Fundo012_386",
           "dimensions": [
             1964.0,
             514.0,
@@ -17735,7 +17569,7 @@ const MODULE_GUIDANCE = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17747,13 +17581,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca386",
-              "name": "Fundo"
+              "name": "P17_Fundo012_386"
             }
           ]
         },
         {
           "id": "Peca387",
-          "name": "Base",
+          "name": "P17_Base010_387",
           "dimensions": [
             1964.0,
             312.0,
@@ -17773,13 +17607,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca387",
-              "name": "Base"
+              "name": "P17_Base010_387"
             }
           ]
         },
         {
           "id": "Peca388",
-          "name": "Tampo",
+          "name": "P17_Tampo008_388",
           "dimensions": [
             1964.0,
             312.0,
@@ -17787,7 +17621,7 @@ const MODULE_GUIDANCE = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17799,7 +17633,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca388",
-              "name": "Tampo"
+              "name": "P17_Tampo008_388"
             }
           ]
         },
@@ -18000,7 +17834,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca396",
-          "name": "Fundo",
+          "name": "P18_Fundo013_396",
           "dimensions": [
             564.0,
             509.0,
@@ -18842,7 +18676,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca396",
-          "name": "Fundo",
+          "name": "P18_Fundo013_396",
           "dimensions": [
             564.0,
             509.0,
@@ -18862,7 +18696,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca396",
-              "name": "Fundo"
+              "name": "P18_Fundo013_396"
             }
           ]
         },
@@ -19150,7 +18984,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca400",
-          "name": "Lateral direita",
+          "name": "P19_Lateral_direita030_400",
           "dimensions": [
             750.0,
             126.0,
@@ -19167,7 +19001,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca401",
-          "name": "Lateral esquerda",
+          "name": "P19_Lateral_esquerda014_401",
           "dimensions": [
             750.0,
             126.0,
@@ -19184,7 +19018,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca402",
-          "name": "Fundo",
+          "name": "P19_Fundo014_402",
           "dimensions": [
             714.0,
             564.0,
@@ -19201,7 +19035,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca403",
-          "name": "Base",
+          "name": "P19_Base012_403",
           "dimensions": [
             564.0,
             108.0,
@@ -19218,7 +19052,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca404",
-          "name": "Tampo",
+          "name": "P19_Tampo009_404",
           "dimensions": [
             564.0,
             108.0,
@@ -20262,7 +20096,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca400",
-          "name": "Lateral direita",
+          "name": "P19_Lateral_direita030_400",
           "dimensions": [
             750.0,
             126.0,
@@ -20282,13 +20116,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca400",
-              "name": "Lateral direita"
+              "name": "P19_Lateral_direita030_400"
             }
           ]
         },
         {
           "id": "Peca401",
-          "name": "Lateral esquerda",
+          "name": "P19_Lateral_esquerda014_401",
           "dimensions": [
             750.0,
             126.0,
@@ -20308,13 +20142,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca401",
-              "name": "Lateral esquerda"
+              "name": "P19_Lateral_esquerda014_401"
             }
           ]
         },
         {
           "id": "Peca402",
-          "name": "Fundo",
+          "name": "P19_Fundo014_402",
           "dimensions": [
             714.0,
             564.0,
@@ -20334,13 +20168,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca402",
-              "name": "Fundo"
+              "name": "P19_Fundo014_402"
             }
           ]
         },
         {
           "id": "Peca403",
-          "name": "Base",
+          "name": "P19_Base012_403",
           "dimensions": [
             564.0,
             108.0,
@@ -20360,13 +20194,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca403",
-              "name": "Base"
+              "name": "P19_Base012_403"
             }
           ]
         },
         {
           "id": "Peca404",
-          "name": "Tampo",
+          "name": "P19_Tampo009_404",
           "dimensions": [
             564.0,
             108.0,
@@ -20386,7 +20220,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca404",
-              "name": "Tampo"
+              "name": "P19_Tampo009_404"
             }
           ]
         },
@@ -20517,7 +20351,7 @@ const MODULE_GUIDANCE = {
       "panels": [
         {
           "id": "Peca407",
-          "name": "Lateral esquerda",
+          "name": "P20_Lateral_esquerda015_407",
           "dimensions": [
             450.0,
             400.0,
@@ -20534,7 +20368,7 @@ const MODULE_GUIDANCE = {
         },
         {
           "id": "Peca408",
-          "name": "Fundo",
+          "name": "P20_Fundo015_408",
           "dimensions": [
             1764.0,
             382.0,
@@ -21227,7 +21061,7 @@ const MODULE_GUIDANCE = {
       "panelGroups": [
         {
           "id": "Peca407",
-          "name": "Lateral esquerda",
+          "name": "P20_Lateral_esquerda015_407",
           "dimensions": [
             450.0,
             400.0,
@@ -21247,13 +21081,13 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca407",
-              "name": "Lateral esquerda"
+              "name": "P20_Lateral_esquerda015_407"
             }
           ]
         },
         {
           "id": "Peca408",
-          "name": "Fundo",
+          "name": "P20_Fundo015_408",
           "dimensions": [
             1764.0,
             382.0,
@@ -21273,7 +21107,7 @@ const MODULE_GUIDANCE = {
           "members": [
             {
               "id": "Peca408",
-              "name": "Fundo"
+              "name": "P20_Fundo015_408"
             }
           ]
         },

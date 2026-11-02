@@ -1,5 +1,7 @@
 # Caderno formal A3 — R02
 
+**Fonte atual:** corrediças laterais e geladeira fechada (Elias,02/11/2026). Exportação do CAD aprovado; 20 folhas e 818 cotas, sem alteração das cotas de referência.
+
 **Referência dos desenhos: R55,02/11/2026.** Paredes em corte a1000mm, pisos, vãos e aparelhos relidos da geometria vigente; alturas nominais2550/2300mm. Nenhum CAD alterado. P07/P16/P20 mostram envelope completo; a cadeia dimensional conserva separadamente a referência da caixa. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
 [Abrir caderno](index.html) · [PDF R02](Guedala_Park_Pranchas_R02.pdf) · [Alterações e avisos](Impacto.html). R00 removido da pasta (histórico no git); R02 incluído no pacote R26.

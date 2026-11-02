@@ -1,4 +1,14 @@
-# Gavetas — conferência vigente P01/P06
+# Gavetas — corrediças laterais e estudos P01/P06
+
+## Corrediças laterais vigentes — 02/11/2026
+
+Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.
+
+Nove caixas ajustadas para folga nominal de 12,7 mm por lado: P01 (4) 343→329,6 mm; P06 (3) 571→557,6 mm; P16 (2) 352→338,6 mm. Frentes decorativas, vãos e espessuras preservados; fundos/travessas acompanham. Bandejas G2 recentradas 7 mm, sem mudar dimensões.
+
+[Movimentos, limites e aprovação do modelo](../../../02_Modelo_3D/README.md). SKU, furação, capacidade e ensaio permanecem pendentes; os estudos abaixo são históricos.
+
+## Estudos anteriores — não usar como montagem vigente
 
 T05, 26/10/2026. Sete gavetas conferidas na base persistida R52 contra a [instrução FGVTN arquivada](../../Avanco_pendencias/Ferragens/FGVTN_Oculta_ET_montagem_Set24.png), linha **500 mm**. [Dados por gaveta e hashes](Conferencia_P01_P06.json). Auditoria dimensional inicial sem abrir CAD; nesta continuação, R52 aberta somente para leitura dos sólidos G2, sem salvar. Nenhum ensaio físico. Relatórios antigos de carga/alternativas nesta pasta permanecem evidências históricas, não aprovação da montagem.
 

@@ -1,5 +1,15 @@
 # Modelo 3D (FreeCAD)
 
+## Corrediças laterais vigentes — 02/11/2026
+
+Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.
+
+Caixas: P01 (4) 329,6 mm; P06 (3) 557,6 mm; P16 (2) 338,6 mm; folgas 12,7 mm/lado. Frentes, vãos e espessuras preservados; bandejas G2 recentradas 7 mm.
+
+Estágios visuais: fixo, meio curso e curso completo. P01/P06:500 mm; P16:400 mm. Amortecimento simbólico; produto, furação, retirada e capacidade pendentes. Ferragens inferiores ocultas, sem apagar objetos.
+
+No P01, `ExtensaoEfetiva` impede o avanço visual enquanto a porta cobre a frente; a abertura solicitada continua em `Extensao`. É condição do simulador, não trava física. Fechar a gaveta antes de deslocar a porta. Geladeira salva fechada.
+
 Vigente: **R55**, com correções incorporadas em 02/11/2026 (Elias: “aprovo deixa como documento principal”), [FCStd](Guedala_Park_R55_Berlin.FCStd). Elias,01/11/2026: “Sim, incorporar o candidato e atualizar a base”: portas livres 800×2100 mm, banheiro 700×2100 mm; alturas acabadas 2550/2300 mm. Bancada/gabinete preservados. [Relatório](Relatorio_mudanca.md) · [SHA/release](../ferramentas/site/current_release.json).
 
 
@@ -19,15 +29,9 @@ Fontes oficiais: [PE12G](https://loja.electrolux.com.br/pe12g-pe12g-purif-agua-p
 
 ## Referência para revisão do arquiteto
 
-6149 objetos; 8239 expressões; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
+6221 objetos; 8279 expressões; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
 
-| Item | Situação e uso |
-|---|---|
-| R55 vigente | Portas/alturas incorporadas: Elias,01/11/2026, “Sim, incorporar o candidato e atualizar a base”. Histórico de limpeza/nível no git. |
-| Pranchas A3 R02 | [Caderno R55](../06_Entregas/Caderno_pranchas/README.md): arquitetura e aparelhos reexportados; nominais2550/2300mm, sem alterar CAD. |
-| Planta mobiliada R03 | [Capturas R55](../03_Ambientes/Planta_mobiliada/README.md), oito vistas com SHA. |
-| Verde na janela do box | Incorporado: `RevestJanelaBoxR55`; parede do chuveiro preservada, outra interna clara. |
-| Campo e executivo | Sem medida real; revisão do arquiteto, levantamento e detalhamento continuam pendentes. |
+Verde incorporado em `RevestJanelaBoxR55`; chuveiro preservado, outra parede clara. [Pranchas](../06_Entregas/Caderno_pranchas/README.md) e [vistas](../03_Ambientes/Planta_mobiliada/README.md); campo e revisão técnica pendentes.
 
 Histórico de formação abaixo; caminhos externos não são modelos vigentes. Abridor: `-Vigente`.
 
@@ -162,7 +166,7 @@ Rápido: arquivo/cores/SHA/backups. Completo: [invariantes](../ferramentas/verif
 
 ## Movimentos e operação
 
-106 cenários de movimento conferidos (gavetas até 400/500, portas 45/86°, correr do banheiro, canto, cesto, banco, varal): [resumo](Verificacao_movimentos_R52.json) · [casos](Movimentos_R52.json) · [condições](Condicoes_operacao_R52.json). Abrir a gaveta do roupeiro com a folha fechada, ou o banco com as almofadas presentes, é contato esperado; faz parte da sequência de uso. Consulta sem abrir CAD: `ferramentas/cinematica/consultar.py`.
+106 cenários de movimento conferidos (gavetas até 400/500, portas 45/86°, correr do banheiro, canto, cesto, banco, varal): [resumo](Verificacao_movimentos_R52.json) · [casos](Movimentos_R52.json) · [condições](Condicoes_operacao_R52.json). Na R55 atual, ExtensaoEfetiva bloqueia visualmente a gaveta coberta pela folha. O banco com almofadas continua exigindo a sequência de uso. Consulta sem abrir CAD: `ferramentas/cinematica/consultar.py`.
 
 ## Pendências técnicas
 

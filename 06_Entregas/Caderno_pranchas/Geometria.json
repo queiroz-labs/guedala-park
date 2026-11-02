@@ -2,7 +2,7 @@
   "schema": 2,
   "units": "mm",
   "cad_path": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cad_sha256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
+  "cad_sha256": "4a9026956aa4557a2fa392f4c02c308f93eabb3bbda6d7bd3ddd927777cd216c",
   "method": "Seleção ativa do visualizador relida no candidato GUI; paredes em corte Z1000 mm",
   "objects": [
     {
@@ -3483,10 +3483,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2026.0,
+        2019.0,
         6426.0,
         628.0,
-        2226.0,
+        2219.0,
         6881.0,
         632.0
       ]
@@ -3497,10 +3497,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2222.0,
+        2215.0,
         6426.0,
         632.0,
-        2226.0,
+        2219.0,
         6881.0,
         667.0
       ]
@@ -3511,10 +3511,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2026.0,
+        2019.0,
         6426.0,
         632.0,
-        2030.0,
+        2023.0,
         6881.0,
         667.0
       ]
@@ -3525,10 +3525,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2030.0,
+        2023.0,
         6426.0,
         632.0,
-        2222.0,
+        2215.0,
         6430.0,
         667.0
       ]
@@ -3539,10 +3539,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2030.0,
+        2023.0,
         6877.0,
         632.0,
-        2222.0,
+        2215.0,
         6881.0,
         667.0
       ]
@@ -3553,10 +3553,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2147.0,
+        2140.0,
         6435.0,
         632.0,
-        2217.0,
+        2210.0,
         6745.0,
         692.0
       ]
@@ -3567,10 +3567,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2137.0,
+        2130.0,
         6435.0,
         694.0,
-        2217.0,
+        2210.0,
         6755.0,
         719.0
       ]
@@ -3581,10 +3581,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2061.0,
+        2054.0,
         6435.0,
         632.0,
-        2121.0,
+        2114.0,
         6735.0,
         657.0
       ]
@@ -3595,10 +3595,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2061.0,
+        2054.0,
         6435.0,
         659.0,
-        2121.0,
+        2114.0,
         6735.0,
         684.0
       ]
@@ -3609,10 +3609,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2041.0,
+        2034.0,
         6435.0,
         686.0,
-        2121.0,
+        2114.0,
         6695.0,
         728.0
       ]
@@ -3623,10 +3623,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1709.0,
+        1702.0,
         6426.0,
         628.0,
-        2021.0,
+        2014.0,
         6881.0,
         632.0
       ]
@@ -3637,10 +3637,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2017.0,
+        2010.0,
         6426.0,
         632.0,
-        2021.0,
+        2014.0,
         6881.0,
         667.0
       ]
@@ -3651,10 +3651,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1709.0,
+        1702.0,
         6426.0,
         632.0,
-        1713.0,
+        1706.0,
         6881.0,
         667.0
       ]
@@ -3665,10 +3665,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1713.0,
+        1706.0,
         6426.0,
         632.0,
-        2017.0,
+        2010.0,
         6430.0,
         667.0
       ]
@@ -3679,10 +3679,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1713.0,
+        1706.0,
         6877.0,
         632.0,
-        2017.0,
+        2010.0,
         6881.0,
         667.0
       ]
@@ -3693,10 +3693,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1802.0,
+        1795.0,
         6435.0,
         632.0,
-        2012.0,
+        2005.0,
         6788.0,
         729.0
       ]
@@ -3707,10 +3707,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1718.0,
+        1711.0,
         6440.0,
         632.0,
-        1788.0,
+        1781.0,
         6630.0,
         697.0
       ]
@@ -3721,10 +3721,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1718.0,
+        1711.0,
         6650.0,
         632.0,
-        1788.0,
+        1781.0,
         6840.0,
         697.0
       ]
@@ -3735,236 +3735,12 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1802.0,
+        1795.0,
         6800.0,
         632.0,
-        2012.0,
+        2005.0,
         6875.0,
         672.0
-      ]
-    },
-    {
-      "id": "MontagemG2R07",
-      "label": "Acoplamento T51.7601 - 46166126[46166126] - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2149.686,
-        6408.0,
-        594.349,
-        2231.0,
-        6496.497,
-        612.925
-      ]
-    },
-    {
-      "id": "MontagemG2R001",
-      "label": "Acoplamento T51.7601 - 43107713[43107713] - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1690.0,
-        6408.0,
-        594.349,
-        1770.814,
-        6496.497,
-        612.925
-      ]
-    },
-    {
-      "id": "MontagemG2R002",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.1 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2252.0,
-        6422.67,
-        620.0,
-        2264.0,
-        6431.33,
-        627.5
-      ]
-    },
-    {
-      "id": "MontagemG2R003",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.2 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2252.0,
-        6440.67,
-        620.0,
-        2264.0,
-        6449.33,
-        627.5
-      ]
-    },
-    {
-      "id": "MontagemG2R004",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.3 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2252.0,
-        6472.67,
-        620.0,
-        2264.0,
-        6481.33,
-        627.5
-      ]
-    },
-    {
-      "id": "MontagemG2R005",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.4 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2252.0,
-        6664.67,
-        620.0,
-        2264.0,
-        6673.33,
-        627.5
-      ]
-    },
-    {
-      "id": "MontagemG2R006",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.1.5 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2252.0,
-        6696.67,
-        620.0,
-        2264.0,
-        6705.33,
-        627.5
-      ]
-    },
-    {
-      "id": "MontagemG2R007",
-      "label": "48346342[48346342] - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2186.225,
-        6410.0,
-        584.4,
-        2252.0,
-        6910.495,
-        635.325
-      ]
-    },
-    {
-      "id": "MontagemG2R008",
-      "label": "48346342[48346342]001 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2184.725,
-        6495.0,
-        588.225,
-        2199.225,
-        6748.0,
-        612.125
-      ]
-    },
-    {
-      "id": "MontagemG2R009",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.1 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1657.0,
-        6422.67,
-        617.5,
-        1669.0,
-        6431.33,
-        625.0
-      ]
-    },
-    {
-      "id": "MontagemG2R010",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.2 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1657.0,
-        6440.67,
-        617.5,
-        1669.0,
-        6449.33,
-        625.0
-      ]
-    },
-    {
-      "id": "MontagemG2R011",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.3 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1657.0,
-        6472.67,
-        617.5,
-        1669.0,
-        6481.33,
-        625.0
-      ]
-    },
-    {
-      "id": "MontagemG2R012",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.4 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1657.0,
-        6664.67,
-        617.5,
-        1669.0,
-        6673.33,
-        625.0
-      ]
-    },
-    {
-      "id": "MontagemG2R013",
-      "label": "Open CASCADE STEP translator 7.1 1.1.1.2.2.5 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1657.0,
-        6696.67,
-        617.5,
-        1669.0,
-        6705.33,
-        625.0
-      ]
-    },
-    {
-      "id": "MontagemG2R014",
-      "label": "49027541[49027541] - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1669.0,
-        6410.0,
-        584.4,
-        1734.775,
-        6910.495,
-        635.325
-      ]
-    },
-    {
-      "id": "MontagemG2R015",
-      "label": "49027541[49027541]001 - proposta R07",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1721.775,
-        6495.0,
-        588.225,
-        1736.275,
-        6748.0,
-        612.125
       ]
     },
     {
@@ -3973,10 +3749,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1683.3,
         6883.0,
         628.0,
-        2231.0,
+        2237.7,
         6898.0,
         701.0
       ]
@@ -3987,10 +3763,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2231.0,
+        2224.3,
         6408.0,
         601.0,
-        2246.0,
+        2239.3,
         6898.0,
         701.0
       ]
@@ -4001,10 +3777,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1675.0,
+        1681.7,
         6408.0,
         601.0,
-        1690.0,
+        1696.7,
         6898.0,
         701.0
       ]
@@ -4015,10 +3791,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1685.0,
+        1678.3,
         6408.0,
         613.0,
-        2236.0,
+        2242.7,
         6898.0,
         629.196
       ]
@@ -4043,10 +3819,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1683.3,
         6408.0,
         628.0,
-        2231.0,
+        2237.7,
         6424.0,
         701.0
       ]
@@ -4057,10 +3833,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7351.0,
+        7344.3,
         3380.0,
         820.0,
-        7366.0,
+        7359.3,
         3870.0,
         920.0
       ]
@@ -4071,10 +3847,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7023.0,
+        7029.7,
         3380.0,
         820.0,
-        7038.0,
+        7044.7,
         3870.0,
         920.0
       ]
@@ -4085,10 +3861,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7033.0,
+        7039.7,
         3380.0,
         832.0,
-        7356.0,
+        7349.3,
         3870.0,
         847.0
       ]
@@ -4099,10 +3875,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7038.0,
+        7044.7,
         3855.0,
         847.0,
-        7351.0,
+        7344.3,
         3870.0,
         920.0
       ]
@@ -4113,10 +3889,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7038.0,
+        7044.7,
         3380.0,
         847.0,
-        7351.0,
+        7344.3,
         3396.0,
         920.0
       ]
@@ -4136,99 +3912,15 @@
       ]
     },
     {
-      "id": "GavetaComumR006",
-      "label": "Trava T51.7601 · 46166126 · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7269.686,
-        3380.0,
-        813.349,
-        7351.0,
-        3468.497,
-        831.925
-      ]
-    },
-    {
-      "id": "GavetaComumR007",
-      "label": "Trava T51.7601 · 43107713 · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7038.0,
-        3380.0,
-        813.349,
-        7118.814,
-        3468.497,
-        831.925
-      ]
-    },
-    {
-      "id": "GavetaComumR008",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7306.225,
-        3382.0,
-        803.4,
-        7372.0,
-        3882.495,
-        854.325
-      ]
-    },
-    {
-      "id": "GavetaComumR009",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7304.725,
-        3467.0,
-        807.225,
-        7319.225,
-        3720.0,
-        831.125
-      ]
-    },
-    {
-      "id": "GavetaComumR010",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7017.0,
-        3382.0,
-        803.4,
-        7082.775,
-        3882.495,
-        854.325
-      ]
-    },
-    {
-      "id": "GavetaComumR011",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7069.775,
-        3467.0,
-        807.225,
-        7084.275,
-        3720.0,
-        831.125
-      ]
-    },
-    {
       "id": "GavetaComumR012",
       "label": "Lateral comum esquerda · Gaveta de roupa001 - proposta R08",
       "room": "quarto",
       "module": "P01",
       "box": [
-        7351.0,
+        7344.3,
         3380.0,
         970.0,
-        7366.0,
+        7359.3,
         3870.0,
         1070.0
       ]
@@ -4239,10 +3931,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7023.0,
+        7029.7,
         3380.0,
         970.0,
-        7038.0,
+        7044.7,
         3870.0,
         1070.0
       ]
@@ -4253,10 +3945,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7033.0,
+        7039.7,
         3380.0,
         982.0,
-        7356.0,
+        7349.3,
         3870.0,
         997.0
       ]
@@ -4267,10 +3959,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7038.0,
+        7044.7,
         3855.0,
         997.0,
-        7351.0,
+        7344.3,
         3870.0,
         1070.0
       ]
@@ -4281,10 +3973,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        7038.0,
+        7044.7,
         3380.0,
         997.0,
-        7351.0,
+        7344.3,
         3396.0,
         1070.0
       ]
@@ -4304,99 +3996,15 @@
       ]
     },
     {
-      "id": "GavetaComumR018",
-      "label": "Trava T51.7601 · 46166126 · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7269.686,
-        3380.0,
-        963.349,
-        7351.0,
-        3468.497,
-        981.925
-      ]
-    },
-    {
-      "id": "GavetaComumR019",
-      "label": "Trava T51.7601 · 43107713 · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7038.0,
-        3380.0,
-        963.349,
-        7118.814,
-        3468.497,
-        981.925
-      ]
-    },
-    {
-      "id": "GavetaComumR020",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7306.225,
-        3382.0,
-        953.4,
-        7372.0,
-        3882.495,
-        1004.325
-      ]
-    },
-    {
-      "id": "GavetaComumR021",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7304.725,
-        3467.0,
-        957.225,
-        7319.225,
-        3720.0,
-        981.125
-      ]
-    },
-    {
-      "id": "GavetaComumR022",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7017.0,
-        3382.0,
-        953.4,
-        7082.775,
-        3882.495,
-        1004.325
-      ]
-    },
-    {
-      "id": "GavetaComumR023",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa001 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        7069.775,
-        3467.0,
-        957.225,
-        7084.275,
-        3720.0,
-        981.125
-      ]
-    },
-    {
       "id": "GavetaComumR024",
       "label": "Lateral comum esquerda · Gaveta de roupa002 - proposta R08",
       "room": "quarto",
       "module": "P01",
       "box": [
-        5742.0,
+        5735.3,
         3380.0,
         820.0,
-        5757.0,
+        5750.3,
         3870.0,
         920.0
       ]
@@ -4407,10 +4015,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5414.0,
+        5420.7,
         3380.0,
         820.0,
-        5429.0,
+        5435.7,
         3870.0,
         920.0
       ]
@@ -4421,10 +4029,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5424.0,
+        5430.7,
         3380.0,
         832.0,
-        5747.0,
+        5740.3,
         3870.0,
         847.0
       ]
@@ -4435,10 +4043,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5429.0,
+        5435.7,
         3855.0,
         847.0,
-        5742.0,
+        5735.3,
         3870.0,
         920.0
       ]
@@ -4449,10 +4057,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5429.0,
+        5435.7,
         3380.0,
         847.0,
-        5742.0,
+        5735.3,
         3396.0,
         920.0
       ]
@@ -4472,99 +4080,15 @@
       ]
     },
     {
-      "id": "GavetaComumR030",
-      "label": "Trava T51.7601 · 46166126 · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5660.686,
-        3380.0,
-        813.349,
-        5742.0,
-        3468.497,
-        831.925
-      ]
-    },
-    {
-      "id": "GavetaComumR031",
-      "label": "Trava T51.7601 · 43107713 · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5429.0,
-        3380.0,
-        813.349,
-        5509.814,
-        3468.497,
-        831.925
-      ]
-    },
-    {
-      "id": "GavetaComumR032",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5697.225,
-        3382.0,
-        803.4,
-        5763.0,
-        3882.495,
-        854.325
-      ]
-    },
-    {
-      "id": "GavetaComumR033",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5695.725,
-        3467.0,
-        807.225,
-        5710.225,
-        3720.0,
-        831.125
-      ]
-    },
-    {
-      "id": "GavetaComumR034",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5408.0,
-        3382.0,
-        803.4,
-        5473.775,
-        3882.495,
-        854.325
-      ]
-    },
-    {
-      "id": "GavetaComumR035",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa002 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5460.775,
-        3467.0,
-        807.225,
-        5475.275,
-        3720.0,
-        831.125
-      ]
-    },
-    {
       "id": "GavetaComumR036",
       "label": "Lateral comum esquerda · Gaveta de roupa003 - proposta R08",
       "room": "quarto",
       "module": "P01",
       "box": [
-        5742.0,
+        5735.3,
         3380.0,
         970.0,
-        5757.0,
+        5750.3,
         3870.0,
         1070.0
       ]
@@ -4575,10 +4099,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5414.0,
+        5420.7,
         3380.0,
         970.0,
-        5429.0,
+        5435.7,
         3870.0,
         1070.0
       ]
@@ -4589,10 +4113,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5424.0,
+        5430.7,
         3380.0,
         982.0,
-        5747.0,
+        5740.3,
         3870.0,
         997.0
       ]
@@ -4603,10 +4127,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5429.0,
+        5435.7,
         3855.0,
         997.0,
-        5742.0,
+        5735.3,
         3870.0,
         1070.0
       ]
@@ -4617,10 +4141,10 @@
       "room": "quarto",
       "module": "P01",
       "box": [
-        5429.0,
+        5435.7,
         3380.0,
         997.0,
-        5742.0,
+        5735.3,
         3396.0,
         1070.0
       ]
@@ -4640,99 +4164,15 @@
       ]
     },
     {
-      "id": "GavetaComumR042",
-      "label": "Trava T51.7601 · 46166126 · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5660.686,
-        3380.0,
-        963.349,
-        5742.0,
-        3468.497,
-        981.925
-      ]
-    },
-    {
-      "id": "GavetaComumR043",
-      "label": "Trava T51.7601 · 43107713 · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5429.0,
-        3380.0,
-        963.349,
-        5509.814,
-        3468.497,
-        981.925
-      ]
-    },
-    {
-      "id": "GavetaComumR044",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5697.225,
-        3382.0,
-        953.4,
-        5763.0,
-        3882.495,
-        1004.325
-      ]
-    },
-    {
-      "id": "GavetaComumR045",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5695.725,
-        3467.0,
-        957.225,
-        5710.225,
-        3720.0,
-        981.125
-      ]
-    },
-    {
-      "id": "GavetaComumR046",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5408.0,
-        3382.0,
-        953.4,
-        5473.775,
-        3882.495,
-        1004.325
-      ]
-    },
-    {
-      "id": "GavetaComumR047",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · Gaveta de roupa003 - proposta R08",
-      "room": "quarto",
-      "module": "P01",
-      "box": [
-        5460.775,
-        3467.0,
-        957.225,
-        5475.275,
-        3720.0,
-        981.125
-      ]
-    },
-    {
       "id": "GavetaComumR048",
       "label": "Lateral comum esquerda · G3 · mantimentos - proposta R08",
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2231.0,
+        2224.3,
         6408.0,
         217.0,
-        2246.0,
+        2239.3,
         6898.0,
         517.0
       ]
@@ -4743,10 +4183,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1675.0,
+        1681.7,
         6408.0,
         217.0,
-        1690.0,
+        1696.7,
         6898.0,
         517.0
       ]
@@ -4757,10 +4197,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1685.0,
+        1691.7,
         6408.0,
         229.0,
-        2236.0,
+        2229.3,
         6898.0,
         244.0
       ]
@@ -4771,10 +4211,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1696.7,
         6883.0,
         244.0,
-        2231.0,
+        2224.3,
         6898.0,
         517.0
       ]
@@ -4785,10 +4225,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1696.7,
         6408.0,
         244.0,
-        2231.0,
+        2224.3,
         6424.0,
         517.0
       ]
@@ -4805,258 +4245,6 @@
         2269.0,
         6408.0,
         577.0
-      ]
-    },
-    {
-      "id": "GavetaComumR054",
-      "label": "Trava T51.7601 · 46166126 · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2149.686,
-        6408.0,
-        210.349,
-        2231.0,
-        6496.497,
-        228.925
-      ]
-    },
-    {
-      "id": "GavetaComumR055",
-      "label": "Trava T51.7601 · 43107713 · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1690.0,
-        6408.0,
-        210.349,
-        1770.814,
-        6496.497,
-        228.925
-      ]
-    },
-    {
-      "id": "GavetaComumR056",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2186.225,
-        6410.0,
-        200.4,
-        2252.0,
-        6910.495,
-        251.325
-      ]
-    },
-    {
-      "id": "GavetaComumR057",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2184.725,
-        6495.0,
-        204.225,
-        2199.225,
-        6748.0,
-        228.125
-      ]
-    },
-    {
-      "id": "GavetaComumR058",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1669.0,
-        6410.0,
-        200.4,
-        1734.775,
-        6910.495,
-        251.325
-      ]
-    },
-    {
-      "id": "GavetaComumR059",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · G3 · mantimentos - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1721.775,
-        6495.0,
-        204.225,
-        1736.275,
-        6748.0,
-        228.125
-      ]
-    },
-    {
-      "id": "GavetaComumR068",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019259316_v(760H5001S_L) · G1 · talheres - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2186.225,
-        6410.0,
-        744.4,
-        2252.0,
-        6910.495,
-        795.325
-      ]
-    },
-    {
-      "id": "GavetaComumR069",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023263_v(T75S746M00_L)001 · G1 · talheres - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        2184.725,
-        6495.0,
-        748.225,
-        2199.225,
-        6748.0,
-        772.125
-      ]
-    },
-    {
-      "id": "GavetaComumR070",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0019179630_v(760H5001S) · G1 · talheres - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1669.0,
-        6410.0,
-        744.4,
-        1734.775,
-        6910.495,
-        795.325
-      ]
-    },
-    {
-      "id": "GavetaComumR071",
-      "label": "Envelope MOVENTO500 (STEP Blum) · seleção R14 FGVTN 54FGOC12500TSX0 · bau0086023290_v(T75S746M00)001 · G1 · talheres - proposta R08",
-      "room": "cozinha",
-      "module": "P06",
-      "box": [
-        1721.775,
-        6495.0,
-        748.225,
-        1736.275,
-        6748.0,
-        772.125
-      ]
-    },
-    {
-      "id": "GavetaComumR080",
-      "label": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 1 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4318.0,
-        279.505,
-        500.4,
-        4383.775,
-        680.0,
-        551.325
-      ]
-    },
-    {
-      "id": "GavetaComumR081",
-      "label": "MOVENTO400 · bau0086023263_v(T75S746M00_L) · Gaveta escritório 1 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4370.775,
-        322.5,
-        504.225,
-        4385.275,
-        575.5,
-        528.125
-      ]
-    },
-    {
-      "id": "GavetaComumR082",
-      "label": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 1 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4616.225,
-        279.505,
-        500.4,
-        4682.0,
-        680.0,
-        551.325
-      ]
-    },
-    {
-      "id": "GavetaComumR083",
-      "label": "MOVENTO400 · bau0086023290_v(T75S746M00) · Gaveta escritório 1 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4614.725,
-        322.5,
-        504.225,
-        4629.225,
-        575.5,
-        528.125
-      ]
-    },
-    {
-      "id": "GavetaComumR092",
-      "label": "MOVENTO400 · bau0019259316_v(760H4001S_L) · Gaveta escritório 2 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4318.0,
-        279.505,
-        604.4,
-        4383.775,
-        680.0,
-        655.325
-      ]
-    },
-    {
-      "id": "GavetaComumR093",
-      "label": "MOVENTO400 · bau0086023263_v(T75S746M00_L) · Gaveta escritório 2 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4370.775,
-        322.5,
-        608.225,
-        4385.275,
-        575.5,
-        632.125
-      ]
-    },
-    {
-      "id": "GavetaComumR094",
-      "label": "MOVENTO400 · bau0019179630_v(760H4001S) · Gaveta escritório 2 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4616.225,
-        279.505,
-        604.4,
-        4682.0,
-        680.0,
-        655.325
-      ]
-    },
-    {
-      "id": "GavetaComumR095",
-      "label": "MOVENTO400 · bau0086023290_v(T75S746M00) · Gaveta escritório 2 - proposta R08",
-      "room": "escritorio",
-      "module": "P16",
-      "box": [
-        4614.725,
-        322.5,
-        608.225,
-        4629.225,
-        575.5,
-        632.125
       ]
     },
     {
@@ -13353,10 +12541,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        2231.0,
+        2224.3,
         6408.0,
         761.0,
-        2246.0,
+        2239.3,
         6898.0,
         841.0
       ]
@@ -13367,10 +12555,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1675.0,
+        1681.7,
         6408.0,
         761.0,
-        1690.0,
+        1696.7,
         6898.0,
         841.0
       ]
@@ -13381,10 +12569,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1685.0,
+        1691.7,
         6408.0,
         773.0,
-        2236.0,
+        2229.3,
         6898.0,
         788.0
       ]
@@ -13395,10 +12583,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1696.7,
         6883.0,
         788.0,
-        2231.0,
+        2224.3,
         6898.0,
         841.0
       ]
@@ -13409,10 +12597,10 @@
       "room": "cozinha",
       "module": "P06",
       "box": [
-        1690.0,
+        1696.7,
         6408.0,
         788.0,
-        2231.0,
+        2224.3,
         6424.0,
         841.0
       ]
@@ -14095,10 +13283,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4324.0,
+        4330.7,
         292.0,
         517.0,
-        4339.0,
+        4345.7,
         682.0,
         597.0
       ]
@@ -14109,10 +13297,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4661.0,
+        4654.3,
         292.0,
         517.0,
-        4676.0,
+        4669.3,
         682.0,
         597.0
       ]
@@ -14123,10 +13311,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4334.0,
+        4340.7,
         292.0,
         529.0,
-        4666.0,
+        4659.3,
         682.0,
         544.0
       ]
@@ -14137,10 +13325,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4339.0,
+        4345.7,
         292.0,
         544.0,
-        4661.0,
+        4654.3,
         307.0,
         597.0
       ]
@@ -14151,10 +13339,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4339.0,
+        4345.7,
         666.0,
         544.0,
-        4661.0,
+        4654.3,
         682.0,
         597.0
       ]
@@ -14179,10 +13367,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4324.0,
+        4330.7,
         292.0,
         621.0,
-        4339.0,
+        4345.7,
         682.0,
         695.0
       ]
@@ -14193,10 +13381,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4661.0,
+        4654.3,
         292.0,
         621.0,
-        4676.0,
+        4669.3,
         682.0,
         695.0
       ]
@@ -14207,10 +13395,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4334.0,
+        4340.7,
         292.0,
         633.0,
-        4666.0,
+        4659.3,
         682.0,
         648.0
       ]
@@ -14221,10 +13409,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4339.0,
+        4345.7,
         292.0,
         648.0,
-        4661.0,
+        4654.3,
         307.0,
         695.0
       ]
@@ -14235,10 +13423,10 @@
       "room": "escritorio",
       "module": "P16",
       "box": [
-        4339.0,
+        4345.7,
         666.0,
         648.0,
-        4661.0,
+        4654.3,
         682.0,
         695.0
       ]
@@ -14333,11 +13521,11 @@
       "room": "cozinha",
       "module": null,
       "box": [
-        1482.0,
-        5551.5,
+        950.0,
+        6152.5,
         650.0,
         1551.0,
-        6152.5,
+        6221.5,
         1866.0
       ]
     },
@@ -14347,11 +13535,11 @@
       "room": "cozinha",
       "module": null,
       "box": [
-        1543.0,
-        5563.5,
+        962.0,
+        6159.5,
         710.0,
-        1544.0,
-        5583.5,
+        982.0,
+        6160.5,
         1030.0
       ]
     },
@@ -15104,7 +14292,1071 @@
       "module": null,
       "box": [
         950.0,
-        5551.5,
+        6152.5,
+        -0.0,
+        1551.0,
+        6900.0,
+        1866.0
+      ]
+    },
+    {
+      "id": "LGVC4_Visual",
+      "label": "Lava e seca LG VC4 — aparencia e porta",
+      "room": "lavanderia",
+      "module": null,
+      "box": [
+        3600.0,
+        6280.0,
+        0.0,
+        4200.0,
+        6900.0,
+        850.0
+      ]
+    },
+    {
+      "id": "ME23P_Visual",
+      "label": "Micro-ondas Electrolux ME23P",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1774.0,
+        6548.0,
+        1550.0,
+        2235.0,
+        6900.0,
+        1840.0
+      ]
+    },
+    {
+      "id": "PE12G_Visual",
+      "label": "Purificador Electrolux PE12G",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        1720.0,
+        6460.0,
+        920.0,
+        1880.0,
+        6880.0,
+        1270.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_0_Fixo",
+      "label": "Gaveta de roupa | lateral E | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7362.5,
+        3380.0,
+        823.0,
+        7371.5,
+        3880.0,
+        868.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_0_Intermediario",
+      "label": "Gaveta de roupa | lateral E | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7363.1,
+        3380.0,
+        825.0,
+        7368.1,
+        3880.0,
+        866.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_0_Movel",
+      "label": "Gaveta de roupa | lateral E | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7359.8,
+        3380.0,
+        827.0,
+        7363.8,
+        3880.0,
+        864.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_1_Fixo",
+      "label": "Gaveta de roupa | lateral D | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7017.5,
+        3380.0,
+        823.0,
+        7026.5,
+        3880.0,
+        868.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_1_Intermediario",
+      "label": "Gaveta de roupa | lateral D | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7020.9,
+        3380.0,
+        825.0,
+        7025.9,
+        3880.0,
+        866.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta_1_Movel",
+      "label": "Gaveta de roupa | lateral D | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7025.2,
+        3380.0,
+        827.0,
+        7029.2,
+        3880.0,
+        864.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7368.5,
+        3815.0,
+        830.0,
+        7370.0,
+        3870.0,
+        838.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa001",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7019.0,
+        3815.0,
+        830.0,
+        7020.5,
+        3870.0,
+        838.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_0_Fixo",
+      "label": "Gaveta de roupa001 | lateral E | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7362.5,
+        3380.0,
+        973.0,
+        7371.5,
+        3880.0,
+        1018.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_0_Intermediario",
+      "label": "Gaveta de roupa001 | lateral E | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7363.1,
+        3380.0,
+        975.0,
+        7368.1,
+        3880.0,
+        1016.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_0_Movel",
+      "label": "Gaveta de roupa001 | lateral E | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7359.8,
+        3380.0,
+        977.0,
+        7363.8,
+        3880.0,
+        1014.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_1_Fixo",
+      "label": "Gaveta de roupa001 | lateral D | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7017.5,
+        3380.0,
+        973.0,
+        7026.5,
+        3880.0,
+        1018.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_1_Intermediario",
+      "label": "Gaveta de roupa001 | lateral D | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7020.9,
+        3380.0,
+        975.0,
+        7025.9,
+        3880.0,
+        1016.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta001_1_Movel",
+      "label": "Gaveta de roupa001 | lateral D | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7025.2,
+        3380.0,
+        977.0,
+        7029.2,
+        3880.0,
+        1014.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta001_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa002",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7368.5,
+        3815.0,
+        980.0,
+        7370.0,
+        3870.0,
+        988.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta001_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa003",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        7019.0,
+        3815.0,
+        980.0,
+        7020.5,
+        3870.0,
+        988.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_0_Fixo",
+      "label": "Gaveta de roupa002 | lateral E | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5753.5,
+        3380.0,
+        823.0,
+        5762.5,
+        3880.0,
+        868.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_0_Intermediario",
+      "label": "Gaveta de roupa002 | lateral E | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5754.1,
+        3380.0,
+        825.0,
+        5759.1,
+        3880.0,
+        866.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_0_Movel",
+      "label": "Gaveta de roupa002 | lateral E | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5750.8,
+        3380.0,
+        827.0,
+        5754.8,
+        3880.0,
+        864.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_1_Fixo",
+      "label": "Gaveta de roupa002 | lateral D | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5408.5,
+        3380.0,
+        823.0,
+        5417.5,
+        3880.0,
+        868.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_1_Intermediario",
+      "label": "Gaveta de roupa002 | lateral D | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5411.9,
+        3380.0,
+        825.0,
+        5416.9,
+        3880.0,
+        866.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta002_1_Movel",
+      "label": "Gaveta de roupa002 | lateral D | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5416.2,
+        3380.0,
+        827.0,
+        5420.2,
+        3880.0,
+        864.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta002_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa004",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5759.5,
+        3815.0,
+        830.0,
+        5761.0,
+        3870.0,
+        838.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta002_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa005",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5410.0,
+        3815.0,
+        830.0,
+        5411.5,
+        3870.0,
+        838.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_0_Fixo",
+      "label": "Gaveta de roupa003 | lateral E | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5753.5,
+        3380.0,
+        973.0,
+        5762.5,
+        3880.0,
+        1018.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_0_Intermediario",
+      "label": "Gaveta de roupa003 | lateral E | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5754.1,
+        3380.0,
+        975.0,
+        5759.1,
+        3880.0,
+        1016.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_0_Movel",
+      "label": "Gaveta de roupa003 | lateral E | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5750.8,
+        3380.0,
+        977.0,
+        5754.8,
+        3880.0,
+        1014.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_1_Fixo",
+      "label": "Gaveta de roupa003 | lateral D | Fixo (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5408.5,
+        3380.0,
+        973.0,
+        5417.5,
+        3880.0,
+        1018.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_1_Intermediario",
+      "label": "Gaveta de roupa003 | lateral D | Intermediario (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5411.9,
+        3380.0,
+        975.0,
+        5416.9,
+        3880.0,
+        1016.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta003_1_Movel",
+      "label": "Gaveta de roupa003 | lateral D | Movel (visual)",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5416.2,
+        3380.0,
+        977.0,
+        5420.2,
+        3880.0,
+        1014.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta003_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa006",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5759.5,
+        3815.0,
+        980.0,
+        5761.0,
+        3870.0,
+        988.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta003_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta de roupa007",
+      "room": "quarto",
+      "module": "P01",
+      "box": [
+        5410.0,
+        3815.0,
+        980.0,
+        5411.5,
+        3870.0,
+        988.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_0_Fixo",
+      "label": "G2 · utensílios | lateral E | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2242.5,
+        6408.0,
+        604.0,
+        2251.5,
+        6908.0,
+        649.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_0_Intermediario",
+      "label": "G2 · utensílios | lateral E | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2243.1,
+        6408.0,
+        606.0,
+        2248.1,
+        6908.0,
+        647.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_0_Movel",
+      "label": "G2 · utensílios | lateral E | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2239.8,
+        6408.0,
+        608.0,
+        2243.8,
+        6908.0,
+        645.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_1_Fixo",
+      "label": "G2 · utensílios | lateral D | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1669.5,
+        6408.0,
+        604.0,
+        1678.5,
+        6908.0,
+        649.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_1_Intermediario",
+      "label": "G2 · utensílios | lateral D | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1672.9,
+        6408.0,
+        606.0,
+        1677.9,
+        6908.0,
+        647.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta005_1_Movel",
+      "label": "G2 · utensílios | lateral D | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1677.2,
+        6408.0,
+        608.0,
+        1681.2,
+        6908.0,
+        645.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta005_0",
+      "label": "Amortecedor lateral (simbolico) - G2 · utensílios",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2248.5,
+        6843.0,
+        611.0,
+        2250.0,
+        6898.0,
+        619.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta005_1",
+      "label": "Amortecedor lateral (simbolico) - G2 · utensílios001",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1671.0,
+        6843.0,
+        611.0,
+        1672.5,
+        6898.0,
+        619.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_0_Fixo",
+      "label": "G3 · mantimentos | lateral E | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2242.5,
+        6408.0,
+        220.0,
+        2251.5,
+        6908.0,
+        265.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_0_Intermediario",
+      "label": "G3 · mantimentos | lateral E | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2243.1,
+        6408.0,
+        222.0,
+        2248.1,
+        6908.0,
+        263.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_0_Movel",
+      "label": "G3 · mantimentos | lateral E | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2239.8,
+        6408.0,
+        224.0,
+        2243.8,
+        6908.0,
+        261.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_1_Fixo",
+      "label": "G3 · mantimentos | lateral D | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1669.5,
+        6408.0,
+        220.0,
+        1678.5,
+        6908.0,
+        265.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_1_Intermediario",
+      "label": "G3 · mantimentos | lateral D | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1672.9,
+        6408.0,
+        222.0,
+        1677.9,
+        6908.0,
+        263.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta004_1_Movel",
+      "label": "G3 · mantimentos | lateral D | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1677.2,
+        6408.0,
+        224.0,
+        1681.2,
+        6908.0,
+        261.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta004_0",
+      "label": "Amortecedor lateral (simbolico) - G3 · mantimentos",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2248.5,
+        6843.0,
+        227.0,
+        2250.0,
+        6898.0,
+        235.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta004_1",
+      "label": "Amortecedor lateral (simbolico) - G3 · mantimentos001",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1671.0,
+        6843.0,
+        227.0,
+        1672.5,
+        6898.0,
+        235.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_0_Fixo",
+      "label": "G1 · talheres | lateral E | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2242.5,
+        6408.0,
+        764.0,
+        2251.5,
+        6908.0,
+        809.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_0_Intermediario",
+      "label": "G1 · talheres | lateral E | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2243.1,
+        6408.0,
+        766.0,
+        2248.1,
+        6908.0,
+        807.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_0_Movel",
+      "label": "G1 · talheres | lateral E | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2239.8,
+        6408.0,
+        768.0,
+        2243.8,
+        6908.0,
+        805.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_1_Fixo",
+      "label": "G1 · talheres | lateral D | Fixo (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1669.5,
+        6408.0,
+        764.0,
+        1678.5,
+        6908.0,
+        809.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_1_Intermediario",
+      "label": "G1 · talheres | lateral D | Intermediario (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1672.9,
+        6408.0,
+        766.0,
+        1677.9,
+        6908.0,
+        807.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta006_1_Movel",
+      "label": "G1 · talheres | lateral D | Movel (visual)",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1677.2,
+        6408.0,
+        768.0,
+        1681.2,
+        6908.0,
+        805.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta006_0",
+      "label": "Amortecedor lateral (simbolico) - G1 · talheres",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        2248.5,
+        6843.0,
+        771.0,
+        2250.0,
+        6898.0,
+        779.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta006_1",
+      "label": "Amortecedor lateral (simbolico) - G1 · talheres001",
+      "room": "cozinha",
+      "module": "P06",
+      "box": [
+        1671.0,
+        6843.0,
+        771.0,
+        1672.5,
+        6898.0,
+        779.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_0_Fixo",
+      "label": "Gaveta escritório 1 | lateral E | Fixo (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4318.5,
+        282.0,
+        520.0,
+        4327.5,
+        682.0,
+        565.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_0_Intermediario",
+      "label": "Gaveta escritório 1 | lateral E | Intermediario (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4321.9,
+        282.0,
+        522.0,
+        4326.9,
+        682.0,
+        563.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_0_Movel",
+      "label": "Gaveta escritório 1 | lateral E | Movel (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4326.2,
+        282.0,
+        524.0,
+        4330.2,
+        682.0,
+        561.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_1_Fixo",
+      "label": "Gaveta escritório 1 | lateral D | Fixo (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4672.5,
+        282.0,
+        520.0,
+        4681.5,
+        682.0,
+        565.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_1_Intermediario",
+      "label": "Gaveta escritório 1 | lateral D | Intermediario (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4673.1,
+        282.0,
+        522.0,
+        4678.1,
+        682.0,
+        563.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta008_1_Movel",
+      "label": "Gaveta escritório 1 | lateral D | Movel (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4669.8,
+        282.0,
+        524.0,
+        4673.8,
+        682.0,
+        561.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta008_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta escritório 1",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4320.0,
+        292.0,
+        527.0,
+        4321.5,
+        347.0,
+        535.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta008_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta escritório 001",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4678.5,
+        292.0,
+        527.0,
+        4680.0,
+        347.0,
+        535.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_0_Fixo",
+      "label": "Gaveta escritório 2 | lateral E | Fixo (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4318.5,
+        282.0,
+        624.0,
+        4327.5,
+        682.0,
+        669.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_0_Intermediario",
+      "label": "Gaveta escritório 2 | lateral E | Intermediario (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4321.9,
+        282.0,
+        626.0,
+        4326.9,
+        682.0,
+        667.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_0_Movel",
+      "label": "Gaveta escritório 2 | lateral E | Movel (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4326.2,
+        282.0,
+        628.0,
+        4330.2,
+        682.0,
+        665.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_1_Fixo",
+      "label": "Gaveta escritório 2 | lateral D | Fixo (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4672.5,
+        282.0,
+        624.0,
+        4681.5,
+        682.0,
+        669.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_1_Intermediario",
+      "label": "Gaveta escritório 2 | lateral D | Intermediario (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4673.1,
+        282.0,
+        626.0,
+        4678.1,
+        682.0,
+        667.0
+      ]
+    },
+    {
+      "id": "Corredica_Gaveta009_1_Movel",
+      "label": "Gaveta escritório 2 | lateral D | Movel (visual)",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4669.8,
+        282.0,
+        628.0,
+        4673.8,
+        682.0,
+        665.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta009_0",
+      "label": "Amortecedor lateral (simbolico) - Gaveta escritório 2",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4320.0,
+        292.0,
+        631.0,
+        4321.5,
+        347.0,
+        639.0
+      ]
+    },
+    {
+      "id": "Amortecedor_Gaveta009_1",
+      "label": "Amortecedor lateral (simbolico) - Gaveta escritório 002",
+      "room": "escritorio",
+      "module": "P16",
+      "box": [
+        4678.5,
+        292.0,
+        631.0,
+        4680.0,
+        347.0,
+        639.0
+      ]
+    },
+    {
+      "id": "IB6S_Visual",
+      "label": "Geladeira IB6S — aparencia e portas",
+      "room": "cozinha",
+      "module": null,
+      "box": [
+        950.0,
+        6152.5,
         0.0,
         1551.0,
         6900.0,
@@ -16235,6 +16487,90 @@
       "clearance_at_export": 2080.0
     }
   },
+  "parametric_modules": {
+    "P07": {
+      "box": [
+        2920.0,
+        6402.5,
+        0.0,
+        3533.0,
+        7000.0,
+        900.0
+      ],
+      "position": [
+        2920.0,
+        6402.5,
+        0.0
+      ],
+      "size": [
+        613.0,
+        597.5,
+        900.0
+      ],
+      "ceiling_ref": "PD-COZ",
+      "clearance_at_export": 1650.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "P07_Faixa_Superior_Forno"
+      ]
+    },
+    "P16": {
+      "box": [
+        4300.0,
+        250.0,
+        480.0,
+        4700.0,
+        680.0,
+        720.0
+      ],
+      "position": [
+        4300.0,
+        250.0,
+        480.0
+      ],
+      "size": [
+        400.0,
+        430.0,
+        240.0
+      ],
+      "ceiling_ref": "PD-ESC",
+      "clearance_at_export": 1830.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "GavetaComumR077",
+        "GavetaComumR089"
+      ]
+    },
+    "P20": {
+      "box": [
+        100.0,
+        3750.0,
+        0.0,
+        550.0,
+        5550.0,
+        400.0
+      ],
+      "position": [
+        100.0,
+        3750.0,
+        0.0
+      ],
+      "size": [
+        450.0,
+        1800.0,
+        400.0
+      ],
+      "ceiling_ref": "PD-SAL",
+      "clearance_at_export": 2150.0,
+      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
+      "additional_components": [
+        "BancoR43_Painel1",
+        "BancoR43_Painel2",
+        "BancoR43_Almofada1",
+        "BancoR43_Almofada2"
+      ]
+    }
+  },
   "openings": {
     "porta-1": {
       "source": "Batente_Escritorio_Compatibilizado",
@@ -16333,90 +16669,6 @@
         400.0,
         920.0,
         1130.0
-      ]
-    }
-  },
-  "parametric_modules": {
-    "P07": {
-      "box": [
-        2920.0,
-        6402.5,
-        0.0,
-        3533.0,
-        7000.0,
-        900.0
-      ],
-      "position": [
-        2920.0,
-        6402.5,
-        0.0
-      ],
-      "size": [
-        613.0,
-        597.5,
-        900.0
-      ],
-      "ceiling_ref": "PD-COZ",
-      "clearance_at_export": 1650.0,
-      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
-      "additional_components": [
-        "P07_Faixa_Superior_Forno"
-      ]
-    },
-    "P16": {
-      "box": [
-        4300.0,
-        250.0,
-        480.0,
-        4700.0,
-        680.0,
-        720.0
-      ],
-      "position": [
-        4300.0,
-        250.0,
-        480.0
-      ],
-      "size": [
-        400.0,
-        430.0,
-        240.0
-      ],
-      "ceiling_ref": "PD-ESC",
-      "clearance_at_export": 1830.0,
-      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
-      "additional_components": [
-        "GavetaComumR077",
-        "GavetaComumR089"
-      ]
-    },
-    "P20": {
-      "box": [
-        100.0,
-        3750.0,
-        0.0,
-        550.0,
-        5550.0,
-        400.0
-      ],
-      "position": [
-        100.0,
-        3750.0,
-        0.0
-      ],
-      "size": [
-        450.0,
-        1800.0,
-        400.0
-      ],
-      "ceiling_ref": "PD-SAL",
-      "clearance_at_export": 2150.0,
-      "meaning": "Referência dimensional da caixa preservada; o envelope completo está em modules.",
-      "additional_components": [
-        "BancoR43_Painel1",
-        "BancoR43_Painel2",
-        "BancoR43_Almofada1",
-        "BancoR43_Almofada2"
       ]
     }
   }

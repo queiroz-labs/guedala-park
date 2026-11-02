@@ -1,5 +1,7 @@
 # Ferramentas
 
+Consistência: confere quatro/três/dois pares laterais (Elias,02/11/2026); custos anteriores são provisão, sujeitos a recotação.
+
 Arquiteto: executar ferramentas/estudos/pacote_arquiteto.py com --zip CAMINHO_EXTERNO_NOVO.zip (ReportLab/pypdf). [Conteúdo e limites](../06_Entregas/Arquiteto/README.md); CAD não aberto/alterado, sem envio.
 
 Scripts do projeto. Rode a partir da raiz do repositório (`guedala-park/`).

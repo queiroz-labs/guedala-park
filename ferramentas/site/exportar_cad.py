@@ -10,12 +10,12 @@ gui=ET.fromstring(zipfile.ZipFile(source).read('GuiDocument.xml'))
 vis={vp.attrib['name']:vp.find(".//Property[@name='Visibility']/Bool").attrib.get('value')=='true' for vp in gui.findall('.//ViewProvider') if vp.find(".//Property[@name='Visibility']/Bool") is not None}
 # Never bootstrap classification from a previous export: older fallbacks labeled
 # utensils, hydraulic reserves, mirrors and metal hardware as wood.
-palette={'wood':'#c4a27b','petrol':'#294b51','offwhite':'#eeeae1','stone':'#ded7c7','bathbeige':'#c9bca8','lightwood':'#c8a77d','head':'#c9bbaa','black':'#282d2e'}
+palette={'whiteTX':'#f3f2ed','wood':'#c4a27b','petrol':'#294b51','offwhite':'#eeeae1','stone':'#ded7c7','bathbeige':'#c9bca8','lightwood':'#c8a77d','head':'#c9bbaa','black':'#282d2e'}
 names=['Roupeiro','Canto em L','Maleiro','Aéreo da cabeceira','Gabinete da pia','Gaveteiro da cozinha','Módulo de cocção','Gaveta de limpeza','Aéreo D · depurador','Aéreo C · uso diário','Aéreo B · micro','Aéreo A · geladeira','Apoio do micro','Gabinete tanque e cesto','Aéreo da lavanderia','Gaveteiro do escritório','Aéreo do escritório','Gabinete do banheiro','Espelheiro','Banco baú']
 ids=['wardrobe','bedcabinet','bedcabinet','bedcabinet','sinkstorage','kitchenbase','kitchenbase','lowdrawer','kitchenupper','kitchenupper','kitchenupper','kitchenupper','microwave','laundrybase','laundryupper','drawers','officecab','bathvanity','bathmirror','bench']
 rooms=['quarto']*4+['cozinha']*9+['lavanderia']*2+['escritorio']*2+['banho']*2+['sala']
 parts=[];modules=[];seen=set()
-drawer_panels={'GavetaComumR08'} | {f'GavetaComumR{k:03d}' for start in [0,12,24,36,48,60,72,84] for k in range(max(1,start),start+6)} | {f'MontagemG2R{k:03d}' for k in range(16,21)}
+drawer_panels={'GavetaComumR08'} | {f'GavetaComumR{k:03d}' for start in [0,12,24,36,48,60,72,84] for k in range(max(1,start),start+6)} | {f'MontagemG2R{k:03d}' for k in range(16,22)}
 # Functional panel evidence is separate from finish evidence. These identifiers
 # are boards, fronts or wood supports in the R45 matrix / labeled active CAD.
 # This allowlist deliberately omits cesto frame gabaritos, guides, contents,
@@ -82,12 +82,19 @@ def visit(o,item,room,module,anc=(),force=False):
  # Viewer convention is the historical pre-R34 x axis; camera reflects it once.
  # R45 physical geometry stays unchanged. Reflect X and swap Y/Z => determinant +1.
  vv=[[round((7400-v.x)/10,5),round(v.z/10,5),round(v.y/10,5)] for v in verts]
+ # Merge only identical exported coordinates; triangles and winding stay intact.
+ unique=[];lookup={};remap=[]
+ for point in vv:
+  key=tuple(point)
+  if key not in lookup:lookup[key]=len(unique);unique.append(point)
+  remap.append(lookup[key])
+ vv=unique;tri=[tuple(remap[index] for index in face) for face in tri]
  lo=[min(v[k] for v in vv) for k in range(3)];hi=[max(v[k] for v in vv) for k in range(3)]
  mat,mat_source=material_evidence(o)
  role=str(getattr(o,'TipoPeca',''))
  front=role in ['Porta','Frente','Tampa','Almofada'] or any(a.startswith(('Folha','Porta','Tampa','BancoR43_Tampa')) for a in anc) or o.Name.startswith(('BC43_Painel','BancoR43_Almofada'))
  native_visual=any(a.endswith('_Visual') for a in anc)
- if native_visual:mat='#'+''.join(f'{round(v*255):02x}' for v in o.ViewObject.ShapeColor[:3])
+ if native_visual or o.Name.startswith(('Corredica_','Amortecedor_')):mat='#'+''.join(f'{round(v*255):02x}' for v in o.ViewObject.ShapeColor[:3])
  material=palette.get(mat,mat if re.fullmatch(r'#[0-9a-fA-F]{6}',mat) else '#bbbdb7')
  item2='laundrybasket' if item=='laundrybase' and any(a.startswith('BasculanteCesto') for a in anc) else item
  p={'key':'cad/'+o.Name,'source':o.Name,'label':o.Label,'id':item2,'room':room,'module':module,'x':lo[0],'y':lo[1],'z':lo[2],'w':hi[0]-lo[0],'h':hi[1]-lo[1],'d':hi[2]-lo[2],'c':material,'mat':mat,'kind':'cad','upper':b.ZMin>=1300,'front':front,'opacity':1,'v':[[round(v[k]-lo[k],5) for k in range(3)] for v in vv],'t':[list(t) for t in tri]}

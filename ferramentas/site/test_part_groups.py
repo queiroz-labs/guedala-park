@@ -45,7 +45,10 @@ class PanelGroupingTest(unittest.TestCase):
                 self.assertEqual(len(rows),len(groups));self.assertEqual(sum(int(r['Qtd']) for r in rows),len(ids))
                 self.assertEqual([r['IDs CAD'].split(' | ') for r in rows],[g['ids'] for g in groups])
                 totals[0]+=len(ids);totals[1]+=len(groups)
-        self.assertEqual(len(modules),20);self.assertEqual(totals[0],249)
+        self.assertEqual(len(modules),20);self.assertEqual(totals[0],251)
+        current={p['id'] for m in modules.values() for p in m['panels']}
+        self.assertTrue({'Peca386','Peca388','MontagemG2R021','P07_Faixa_Superior_Forno'} <= current)
+        self.assertFalse(any(n.startswith(('Corredica_','Amortecedor_')) for n in current))
         p01=modules['P01'];self.assertEqual(len(p01['panelGroups']),15)
         shoe=next(g for g in p01['panelGroups'] if 'Peca211' in g['ids']);self.assertEqual(shoe['quantity'],6)
         print('Peças físicas / grupos:',totals)

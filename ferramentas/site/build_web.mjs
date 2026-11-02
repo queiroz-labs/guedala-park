@@ -45,7 +45,7 @@ function externalImages(code){return code.replace(/data:image\/(png|svg\+xml|web
 let scripts=[...offline.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
 const inline={};
 for(const name of ['cad-data.js','workshop-docs.js']){
- inline[name]=(await transform(read(name),{minifyWhitespace:true,minifyIdentifiers:false,legalComments:'none'})).code.trim();
+ inline[name]=(await transform(read(name),{minifyWhitespace:true,minifyIdentifiers:true,minifySyntax:true,legalComments:'none'})).code.trim();
  if(!scripts.some(code=>code.includes(inline[name])))throw Error('Cannot externalize '+name);
 }
 scripts=scripts.map(code=>code.replace(inline['cad-data.js'],`const CAD_DATA=${JSON.stringify(cad)};`).replace(inline['workshop-docs.js'],`const WORKSHOP_DOCS=${JSON.stringify(docs)};const MODULE_GUIDANCE=${JSON.stringify(guidance)};`));

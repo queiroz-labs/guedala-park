@@ -25,7 +25,7 @@
     "module": "P01",
     "dimensions": [
       490.0,
-      323.0,
+      309.6,
       15.0
     ]
   },
@@ -34,7 +34,7 @@
     "label": "Traseira comum · Gaveta de roupa - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       15.0
     ]
@@ -44,7 +44,7 @@
     "label": "Dianteira comum16 · Gaveta de roupa - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       16.0
     ]
@@ -85,7 +85,7 @@
     "module": "P01",
     "dimensions": [
       490.0,
-      323.0,
+      309.6,
       15.0
     ]
   },
@@ -94,7 +94,7 @@
     "label": "Traseira comum · Gaveta de roupa001 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       15.0
     ]
@@ -104,7 +104,7 @@
     "label": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       16.0
     ]
@@ -145,7 +145,7 @@
     "module": "P01",
     "dimensions": [
       490.0,
-      323.0,
+      309.6,
       15.0
     ]
   },
@@ -154,7 +154,7 @@
     "label": "Traseira comum · Gaveta de roupa002 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       15.0
     ]
@@ -164,7 +164,7 @@
     "label": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       16.0
     ]
@@ -205,7 +205,7 @@
     "module": "P01",
     "dimensions": [
       490.0,
-      323.0,
+      309.6,
       15.0
     ]
   },
@@ -214,7 +214,7 @@
     "label": "Traseira comum · Gaveta de roupa003 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       15.0
     ]
@@ -224,7 +224,7 @@
     "label": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
     "module": "P01",
     "dimensions": [
-      313.0,
+      299.6,
       73.0,
       16.0
     ]
@@ -384,7 +384,7 @@
     "label": "Fundo comum · G3 · mantimentos - proposta R08",
     "module": "P06",
     "dimensions": [
-      551.0,
+      537.6,
       490.0,
       15.0
     ]
@@ -394,7 +394,7 @@
     "label": "Traseira comum · G3 · mantimentos - proposta R08",
     "module": "P06",
     "dimensions": [
-      541.0,
+      527.6,
       273.0,
       15.0
     ]
@@ -404,7 +404,7 @@
     "label": "Dianteira comum16 · G3 · mantimentos - proposta R08",
     "module": "P06",
     "dimensions": [
-      541.0,
+      527.6,
       273.0,
       16.0
     ]
@@ -424,7 +424,7 @@
     "label": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
     "module": "P06",
     "dimensions": [
-      541.0,
+      554.4,
       73.0,
       15.0
     ]
@@ -454,7 +454,7 @@
     "label": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
     "module": "P06",
     "dimensions": [
-      551.0,
+      564.4,
       490.0,
       16.2
     ]
@@ -467,6 +467,16 @@
       617.0,
       156.0,
       18.0
+    ]
+  },
+  {
+    "source": "MontagemG2R021",
+    "label": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+    "module": "P06",
+    "dimensions": [
+      554.4,
+      73.0,
+      16.0
     ]
   },
   {
@@ -494,7 +504,7 @@
     "label": "Fundo comum · G1 · talheres - proposta R08",
     "module": "P06",
     "dimensions": [
-      551.0,
+      537.6,
       490.0,
       15.0
     ]
@@ -504,7 +514,7 @@
     "label": "Traseira comum · G1 · talheres - proposta R08",
     "module": "P06",
     "dimensions": [
-      541.0,
+      527.6,
       53.0,
       15.0
     ]
@@ -514,7 +524,7 @@
     "label": "Dianteira comum16 · G1 · talheres - proposta R08",
     "module": "P06",
     "dimensions": [
-      541.0,
+      527.6,
       53.0,
       16.0
     ]
@@ -785,7 +795,7 @@
     "module": "P16",
     "dimensions": [
       390.0,
-      332.0,
+      318.6,
       15.0
     ]
   },
@@ -794,7 +804,7 @@
     "label": "Traseira comum · Gaveta escritório 1 - proposta R08",
     "module": "P16",
     "dimensions": [
-      322.0,
+      308.6,
       53.0,
       15.0
     ]
@@ -804,7 +814,7 @@
     "label": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
     "module": "P16",
     "dimensions": [
-      322.0,
+      308.6,
       53.0,
       16.0
     ]
@@ -845,7 +855,7 @@
     "module": "P16",
     "dimensions": [
       390.0,
-      332.0,
+      318.6,
       15.0
     ]
   },
@@ -854,7 +864,7 @@
     "label": "Traseira comum · Gaveta escritório 2 - proposta R08",
     "module": "P16",
     "dimensions": [
-      322.0,
+      308.6,
       47.0,
       15.0
     ]
@@ -864,7 +874,7 @@
     "label": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
     "module": "P16",
     "dimensions": [
-      322.0,
+      308.6,
       47.0,
       16.0
     ]

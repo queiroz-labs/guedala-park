@@ -66,10 +66,10 @@ def main():
     def qty(pred):
         return sum((r['quantity'] or 0) for m in tech.values() for r in m['hardwareRows'] if pred(r))
     hinges = qty(lambda r: r['item'].startswith('Dobradiças das portas de abrir'))
-    fgv = qty(lambda r: 'FGVTN54FGOC12500' in str(r['reference']).replace(' ', ''))
+    laterais = {code: sum((r['quantity'] or 0) for r in tech[code]['hardwareRows'] if r['item'].startswith('Corrediças laterais com amortecimento')) for code in ('P01','P06','P16')}
     minifix = qty(lambda r: r['item'] == 'Caixas Minifix')
     check(hinges == 52, 'Dobradiças de abrir nas fichas = 52 do orçamento', f'fichas: {hinges}')
-    check(fgv == 7, 'Pares FGVTN 500 nas fichas = 7 do orçamento', f'fichas: {fgv}')
+    check(laterais == {'P01':4,'P06':3,'P16':2}, 'Pares laterais conforme decisão de Elias,02/11/2026: 4+3+2', f'fichas: {laterais}; orçamento anterior é provisão, recotação pendente')
     check(minifix == 52, 'Minifix com quantidade definida nas fichas = 52 da reconciliação', f'fichas: {minifix}')
     southco = [f'{code}.{path}' for code, module in tech.items() for path in obsolete_bench_fields(module)]
     check(not southco, 'Fichas sem Southco (diretriz: piano + trava)',

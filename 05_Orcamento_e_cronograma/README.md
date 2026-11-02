@@ -1,10 +1,12 @@
 # Orçamento e cronograma
 
+Gavetas: nove pares laterais com amortecimento (Elias,02/11/2026). Recotar ferragens e caixas; nenhuma economia aplicada ao total.
+
 [Comparador de cotações: modelos, cobertura e custo equivalente](Orcamento/Cotacoes/README.md): sem propostas reais; decisão pendente.
 
 ## Risco do cronograma — escopo registrado em 29/10/2026
 
-**Resultado:** rede documental ampliada de 21 para **29 nós, sem ciclos**, com cotação, contratação e abastecimento. **P50/P80, probabilidades dos marcos e caminho crítico global continuam indeterminados**: faltam durações, modas e ligações da conclusão da obra. Foram executados **zero cenários do projeto**, sem preencher lacunas com zero, uniforme ou moda central. Os 5.000 cenários dos testes são sintéticos.
+Rede: **29 nós, sem ciclos**. P50/P80, probabilidades e caminho crítico global indeterminados: faltam durações e ligações. Zero cenários reais; os 5.000 testes são sintéticos.
 
 Fontes: [cronograma R00](Cronograma_obra_e_compras.md), [pedido de cotação R02](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) e [programa atualizado](../01_Programa_e_decisoes/Programa_de_necessidades.md). Hashes nas saídas. R00 traz **faixas típicas, não respostas de fornecedores**; fontes, orçamento e CAD preservados.
 

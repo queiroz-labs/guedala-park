@@ -11,7 +11,7 @@ Gerado por `verificar_consistencia.py`. Não corrige nada; só aponta.
 | OK | Caderno de especificações atualizado em relação a data.js |  |
 | OK | Site local reconstruído depois da última alteração em src/ |  |
 | OK | Dobradiças de abrir nas fichas = 52 do orçamento | fichas: 52 |
-| OK | Pares FGVTN 500 nas fichas = 7 do orçamento | fichas: 7 |
+| OK | Pares laterais conforme decisão de Elias,02/11/2026: 4+3+2 | fichas: {'P01': 4, 'P06': 3, 'P16': 2}; orçamento anterior é provisão, recotação pendente |
 | OK | Minifix com quantidade definida nas fichas = 52 da reconciliação | fichas: 52 |
 | OK | Fichas sem Southco (diretriz: piano + trava) |  |
 | OK | Banco mantém limitação de abertura necessária sem inventar componente/quantitativo | Definir produto, geometria e fixação no protótipo; não reutilizar batente histórico. |

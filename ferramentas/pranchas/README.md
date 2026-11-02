@@ -1,5 +1,7 @@
 # Gerador de pranchas
 
+**Fonte atual:** corrediças laterais e geladeira fechada (Elias,02/11/2026). Exportação do CAD aprovado; 20 folhas e 818 cotas, sem alteração das cotas de referência.
+
 **R55 conciliada —02/11/2026:** exportação ativa com paredes em corteZ1000mm, pisos, vãos e aparelhos. Pranchas mostram o envelope completo; P07/P16/P20 preservam à parte a referência da caixa usada pelas469 regras. CAD, base e invariantes intactos. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
 `exportar_documento_gui(doc, destino_externo)` prepara conferência sem salvarCAD. `gerar.py --geometria <json_externo> --saida <pasta_externa>` gera20 folhas para revisão. Sem opções, gera a entrega vigente. Teste2470mm preservado; nominais2550/2300mm.

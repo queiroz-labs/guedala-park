@@ -1,8 +1,10 @@
-# Apartamento interativo — R55 e pacote R31
+# Apartamento interativo — R55 e pacote R32
+
+**Atualização R32:** corrediças laterais, caixas ajustadas e geladeira fechada no CAD e na geometria do site. Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”. Controles adicionais no visualizador continuam pendentes; consultar movimentos no FreeCAD.
 
 **Pranchas R55:** alturas2550/2300mm, PE12G e referências de caixa/conjunto conciliadas; CAD intacto. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
-**Navegação:** Obra fica em Mais; geladeira fechada no site, com painel e pega transformados juntos, sem mudar o CAD. Pedido: Elias,02/11/2026.
+**Navegação:** Obra fica em Mais; geladeira fechada no site, com painel e pega fechados na fonte CAD vigente. Pedido: Elias,02/11/2026.
 
 **Consulta interna:** na ficha de cada módulo, “Medidas internas no desenho” oferece frente/lateral/planta, posição do corte e duas linhas móveis. Cotas em cm vêm da interseção das malhas de chapas com o corte; recortes são respeitados. Frentes e ferragens não entram. Vão não comprova acesso/folgas reais; consulta aguarda o 3D. Pedido: Elias,02/11/2026, nesta conversa.
 
@@ -20,7 +22,7 @@
 
 CAD/site: lavanderia 1,29 × 1,54 m; Loop +1,5 cm; fechamentos do banheiro de 16/17 cm são reconstruídos. Portas/janelas e instalações continuam a conferir.
 
-`current_release.json`: CAD R55, pacote R31, fichas R15 e iluminação CB02; medidas, cotas, lista/CSV e ficha ilustrada. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
+`current_release.json`: CAD R55, pacote R32, fichas R15 e iluminação CB02; medidas, cotas, lista/CSV e ficha ilustrada. Publicação autorizada por Elias, 01/11/2026: “ok, pode commit push e publicar no site”. [Histórico](../../06_Entregas/README.md).
 
 [Divergências e limpeza R14/R16](../../06_Entregas/README.md).
 
@@ -34,7 +36,7 @@ Na raiz do repositório, `auto` verifica o ZIP selado ou constrói quando ausent
 
 `build_workshop_docs.py --sources-only` atualiza somente os dados de consulta. `--regenerate-sources` é uma opção explícita para reconstruir fichas/planta; o fluxo normal usa as fontes correntes já verificadas. Testes ficam nesta pasta e saídas temporárias fora do repositório.
 
-**Integração:**20 módulos/249 painéis com eixos e SHA nas fichas. Produtos, furação, medidas reais e ensaios continuam condicionados; [histórico de publicação](../../06_Entregas/README.md).
+**Integração:**20 módulos/251 painéis com eixos e SHA nas fichas. Produtos, furação, medidas reais e ensaios continuam condicionados; [histórico de publicação](../../06_Entregas/README.md).
 
 ## Referências e verificações
 
@@ -48,7 +50,7 @@ Seleção aproxima em 0,8 s; arraste/zoom interrompem. Ficha: interior, medidas 
 
 **Capa:** `src/capa_sala.webp`, miniatura ilustrativa da sala, não técnica; embutida offline, asset separado na web. “Explorar o apartamento” abre o 3D. Aba Cômodos no topo; ficha primeiro, medidas em “Mais detalhes do projeto”.
 
-**Medidas por objeto:** ficha ilustrada à vista; medidas em cm em “Mais detalhes do projeto”; sem ficha, cartão abaixo do desenho. Cópia como texto/tabela; “Objetos do cômodo” busca por nome/referência, filtra categoria/cômodo e sincroniza seleção com o 3D. CSV dos resultados em cm: L/P/A, x/y/z, selos e referência; gerado por `src/object-list.js`, sem arquivo manual. Sofás usam envelope gráfico do conjunto no estado atual. “Medir objeto” destaca o selecionado e mostra largura, profundidade e altura no 3D, inclusive na vista lateral; usa `dimension()` em `src/object-measure-mode.js`. Cada campo indica projeto/nominal, estimativa gráfica ou pendente; não há medidas reais importadas. Posição pelo canto inferior no zero do desenho: x/largura, z/profundidade, y/altura. Distâncias em planta aos dois alinhamentos de parede próximos, incluindo paredes compartilhadas; não são folgas de instalação. Corte visual não reduz medidas.
+**Medidas por objeto:** ficha e lista oferecem dimensões em cm, posição e CSV; seleção sincroniza com o 3D. “Medir objeto” destaca cotas sem reduzir o envelope pelo corte visual. Campos distinguem nominal, gráfico e pendente. Distâncias às paredes são referências em planta, não folgas de instalação. Fontes: `object-list.js`, `object-measures.js` e `object-measure-mode.js`.
 
 
 **Lacunas Promob:** portas/janelas gráficas, sem perfis ou sentido documentado; vão/peitoril estimados. Cafeteira sem volume/dimensões; torre/tomada sem dimensão/posição; luz da bancada sem comprimento; luz da lavanderia sem produto/posição. Água quente/acabamento são registros sem objeto individual. Panela sem volume, com medidas documentais parciais. Sem caixa presumida para esses itens. Cama: corpo/colchão 188 × 128 × 64 cm nos eixos da cena, sem travesseiros. Outros componentes: volume próprio, sem equivaler a corte/folga.

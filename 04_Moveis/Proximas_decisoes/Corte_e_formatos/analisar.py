@@ -71,7 +71,8 @@ def load_base(folder=None):
                     row['packing_blockers'] = packing_blockers(row)
                     row['included_in_virtual_plan'] = not row['packing_blockers']
                     panels.append(row)
-    assert len(panels) == 249 and len({p['id'] for p in panels}) == 249
+    # Fichas vigentes incluem a frente interna G2 e a faixa superior do forno.
+    assert len(panels) == 251 and len({p['id'] for p in panels}) == 251
     return panels
 
 

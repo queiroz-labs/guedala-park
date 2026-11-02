@@ -1,5 +1,7 @@
 # Entregas — manifesto e versões
 
+**Atualização R32:** corrediças laterais, caixas ajustadas e geladeira fechada no CAD e na geometria do site. Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”. Controles adicionais no visualizador continuam pendentes; consultar movimentos no FreeCAD.
+
 **Revisão02/11/2026:** pranchas R02/R55, alturas2550/2300mm; oito vistas R55; PE12G vigente; P07/P16/P20 distinguem caixa e envelope completo. CAD e base preservados. Pacote R31. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
 **Arquiteto, 01/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R55 identificadas, materiais, 23 pendências e levantamento. Preparado, não enviado; com exportação arquitetônica R55.
@@ -20,7 +22,7 @@
 
 **Publicação anterior R53/R24,27/10/2026:** decisões P02/P13/TV/lixeiras integradas ao modelo e fichas R15. [Modelo e relatório](../02_Modelo_3D/README.md) · [fichas atuais](Fichas_fabricacao/index.html). Publicação autorizada por Elias, 27/10/2026: “Pode fazer push e publicar a R53 com as fichas R15 e o pacote R24”. Publicação conferida em 27/10/2026: [workflow concluído](https://github.com/queiroz-labs/guedala-park/actions/runs/40519714291), metadados R53/R24/R15, 27 arquivos do site idênticos ao build validado e fichas P02/P13 corretas. ZIP remoto com 264 arquivos, CRC e hashes íntegros, 239 fontes canônicas conferidas. Verificação completa R53 passou 106 cenários; site e selagem do pacote passaram. Os artefatos locais de revisão são gerados fora desta pasta para preservar o pacote histórico existente. [Baixar ZIP R24](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R24.zip). Extraia inteiro e abra `Guedala_Park_R24/COMECE_AQUI.html`. Os registros R52/R23 abaixo são históricos da publicação anterior.
 
-**Correção da planta / pacote R23, 26/10/2026:** lavanderia 1,29 × 1,54 m; circulação com trechos perpendiculares de 0,90 m e 1,05 m, acessos e ligação à sala separados. Fechamentos gráficos do banheiro de 16/17 cm são derivados, não espessuras medidas. Portas, janelas, móveis e FreeCAD preservados. Pé-direito visível em **Planta com medidas → Pé-direito para testes**, âncora `#planta-pe-direito`: 2,60 m, medida a confirmar, não fabricação; forro de 2,47 m separado. A hipótese anterior de cozinha 2,57 m foi reconciliada em Escolhas. Publicação desta correção autorizada por Elias em 26/10/2026, mensagem Sentinel_3ce 273ee 835081919acefb 805f 637632: "Sim, autorizo comitt push". R23 sucede a configuração R22; os registros T09 abaixo retratam a conferência anterior. Testes em 360, 412 e 1440 px: âncora abre a aba correta, aviso visível e sem transbordamento horizontal.
+**Histórico R23:** lavanderia/circulação incorporadas e publicação autorizada por Elias,26/10/2026: “Sim, autorizo comitt push”. Evidências completas no git; os registros T09 abaixo são históricos.
 
 ## Limpeza confirmada
 

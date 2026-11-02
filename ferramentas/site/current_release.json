@@ -5,15 +5,15 @@
   "projectDate": "27 outubro 2026",
   "cadRevision": "R55",
   "cadPath": "02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd",
-  "cadSHA256": "0d9e16fc47ff93ca5122d72f0abe596e73c4544a704d21f8448887e81786c3d3",
+  "cadSHA256": "4a9026956aa4557a2fa392f4c02c308f93eabb3bbda6d7bd3ddd927777cd216c",
   "cadReadme": "02_Modelo_3D/README.md",
   "cadEvidence": [
     "Alteracoes_R53.json",
     "Relatorio_mudanca.md"
   ],
-  "packageRevision": "R31",
+  "packageRevision": "R32",
   "packageDirectory": "06_Entregas/Publicacao",
-  "packageFile": "Guedala_Park_R31.zip",
+  "packageFile": "Guedala_Park_R32.zip",
   "archiveRoot": "Guedala_Park_R30",
   "fabricationRevision": "R15",
   "appearanceRevision": "R16",

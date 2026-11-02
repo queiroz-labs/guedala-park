@@ -1,5 +1,7 @@
 # Medidas, dependências e roteiro de campo
 
+Fonte atualizada para as corrediças laterais (Elias,02/11/2026); 24 envelopes-alvo conferidos idênticos, 469 fórmulas/limites preservados.
+
 **Conciliação R55 —02/11/2026:** 469 regras e24 alvos preservados, sem alteração do CAD. `Geometria.json/modules` contém o envelope visível completo; `parametric_modules` conserva a referência dimensional anterior de P07/P16/P20. Não confundir referência da caixa com conjunto acabado nem com medida de corte.
 
 |Módulo|Complemento incluído no envelope completo|

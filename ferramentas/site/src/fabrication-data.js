@@ -1,7 +1,7 @@
 const FABRICATION_DATA = {
   "revision": "R15",
   "cadRevision": "R53",
-  "source_sha256": "fedd9d1d0604fabb93af47f9e2b70e1892f06d7e0d6ba9eb6f3f4785e281ae7f",
+  "source_sha256": "4a9026956aa4557a2fa392f4c02c308f93eabb3bbda6d7bd3ddd927777cd216c",
   "modules": {
     "P01": {
       "code": "P01",
@@ -16,7 +16,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca206",
-          "name": "Lateral direita",
+          "name": "P01_Lateral_direita016_206",
           "dimensions": [
             2132.0,
             568.0,
@@ -33,7 +33,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca207",
-          "name": "Lateral esquerda",
+          "name": "P01_Lateral_esquerda_207",
           "dimensions": [
             2132.0,
             568.0,
@@ -50,7 +50,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca208",
-          "name": "Fundo",
+          "name": "P01_Fundo_208",
           "dimensions": [
             2096.0,
             1964.0,
@@ -67,7 +67,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca209",
-          "name": "Base · topo 80 mm",
+          "name": "P01_Base_topo_80_mm_209",
           "dimensions": [
             1964.0,
             550.0,
@@ -84,7 +84,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca210",
-          "name": "Divisória",
+          "name": "P01_Divisoria_210",
           "dimensions": [
             2052.0,
             550.0,
@@ -101,7 +101,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca211",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis_211",
           "dimensions": [
             400.0,
             355.0,
@@ -118,7 +118,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca212",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis001_212",
           "dimensions": [
             400.0,
             355.0,
@@ -135,7 +135,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca213",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis002_213",
           "dimensions": [
             400.0,
             355.0,
@@ -189,7 +189,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta de roupa - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -205,7 +205,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR003",
           "name": "Traseira comum · Gaveta de roupa - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -222,7 +222,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR004",
           "name": "Dianteira comum16 · Gaveta de roupa - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -291,7 +291,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta de roupa001 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -307,7 +307,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR015",
           "name": "Traseira comum · Gaveta de roupa001 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -324,7 +324,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR016",
           "name": "Dianteira comum16 · Gaveta de roupa001 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -356,7 +356,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca226",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis003_226",
           "dimensions": [
             400.0,
             355.0,
@@ -373,7 +373,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca227",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis004_227",
           "dimensions": [
             400.0,
             355.0,
@@ -390,7 +390,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca228",
-          "name": "Sapateira · três níveis",
+          "name": "P01_Sapateira_tres_niveis005_228",
           "dimensions": [
             400.0,
             355.0,
@@ -444,7 +444,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta de roupa002 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -460,7 +460,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR027",
           "name": "Traseira comum · Gaveta de roupa002 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -477,7 +477,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR028",
           "name": "Dianteira comum16 · Gaveta de roupa002 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -546,7 +546,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta de roupa003 - proposta R08",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -562,7 +562,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR039",
           "name": "Traseira comum · Gaveta de roupa003 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -579,7 +579,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR040",
           "name": "Dianteira comum16 · Gaveta de roupa003 - proposta R08",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -611,7 +611,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca241",
-          "name": "Divisória",
+          "name": "P01_Divisoria001_241",
           "dimensions": [
             1002.0,
             550.0,
@@ -628,7 +628,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca242",
-          "name": "Divisória",
+          "name": "P01_Divisoria002_242",
           "dimensions": [
             1002.0,
             550.0,
@@ -645,7 +645,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca243",
-          "name": "Divisória",
+          "name": "P01_Divisoria003_243",
           "dimensions": [
             1002.0,
             550.0,
@@ -662,7 +662,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca244",
-          "name": "Divisória",
+          "name": "P01_Divisoria004_244",
           "dimensions": [
             1002.0,
             550.0,
@@ -679,7 +679,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca245",
-          "name": "Prateleira curta · topo 1100",
+          "name": "P01_Prateleira_curta_topo_1100_245",
           "dimensions": [
             705.0,
             550.0,
@@ -696,7 +696,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca246",
-          "name": "Prateleira curta · topo 1101",
+          "name": "P01_Prateleira_curta_topo_1101_246",
           "dimensions": [
             705.0,
             550.0,
@@ -713,7 +713,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca247",
-          "name": "Roupeiro — porta direita — deslizar para esquerda — frente proposta",
+          "name": "P01_Roupeiro_porta_direita_deslizar_para_esquerda_frente_proposta_247",
           "dimensions": [
             1999.0,
             995.0,
@@ -730,7 +730,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca248",
-          "name": "Roupeiro — porta esquerda — deslizar para direita — frente proposta",
+          "name": "P01_Roupeiro_porta_esquerda_deslizar_para_direita_frente_proposta_248",
           "dimensions": [
             1999.0,
             995.0,
@@ -924,47 +924,31 @@ const FABRICATION_DATA = {
           "explanation": ""
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 4,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "explanation": ""
@@ -1039,15 +1023,16 @@ const FABRICATION_DATA = {
         "Oficina: conferir vão de corte, piloto/penetração, apoio dos trilhos e freios/antidescarrilamento no primeiro conjunto.",
         "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar quatro gavetas internas e dois setores superiores. Regular o sistema real de correr antes de conferir acesso às gavetas.",
         "Montar divisórias e apoios com ligação dimensionada. Contato nominal não comprova suporte.",
         "AP = vão vertical −35 mm e transpasse30 mm são compatíveis nominalmente. Passo38 e distribuição10/25 da folga vertical são hipóteses, não medidas executivas.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
         "Furos de terminais opostos na divisória18 devem ser desencontrados ou ter profundidades compatíveis.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+        "Fechar gavetas antes de mover as portas. ExtensaoEfetiva bloqueia visualmente o curso quando a folha cobre o vão. Não representa trava física."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Relatorio.html",
@@ -1065,6 +1050,21 @@ const FABRICATION_DATA = {
       "sheetPath": "06_Entregas/Fichas_fabricacao/P01.html",
       "drawingPath": "06_Entregas/Fichas_fabricacao/P01.svg",
       "decisions": [
+        {
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
+          "quantity": 4,
+          "unit": "par",
+          "status": "pendente de especificação do conjunto",
+          "sources": [
+            {
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
+            }
+          ],
+          "reason": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "explanation": ""
+        },
         {
           "item": "Kit de trilhos e guias para uma porta de correr",
           "reference": "Rometal RO-624032OR + DISP ANTI DESC; Guia Flex 4032",
@@ -1173,52 +1173,6 @@ const FABRICATION_DATA = {
               "url": "https://www.rometal.com.br/download/c8e22bca-6781-11f1-bac0-02006e230003/en",
               "page": "1–2",
               "local": "02_Modelo_3D/Componentes/Portas_de_correr/Fontes/Rometal_RO62_manual.pdf"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": ""
-        },
-        {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
-          "quantity": 4,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
             }
           ],
           "assemblyStatus": "conferir a montagem na oficina",
@@ -1379,48 +1333,39 @@ const FABRICATION_DATA = {
           "id": "P01-F03"
         },
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P01-F04",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado. Altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F04"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P01-F05",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=314 mm (+1/−0,5), laterais 15→largura externa 344 mm. Profundidade mínima 520 frente a 550 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado. Mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P01-F05"
@@ -1476,7 +1421,6 @@ const FABRICATION_DATA = {
       ],
       "resolvedChecks": [
         "RO62/4032 com retenção antidescarrilamento e sem o sistema Comfort de fechamento suave selecionado;2 kits de 1 folha por módulo.",
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
         "Conferido em 24/10 (R48): eixo do varão superior em 2050, 82 mm abaixo da base do armário sobre o guarda-roupa (2132). Inferior em 1030, 52 mm abaixo da prateleira (1082).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
@@ -1518,11 +1462,11 @@ const FABRICATION_DATA = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P01-furacao.csv",
-      "technicalSummary": "Guarda-roupa com duas portas de correr e quatro gavetas. Confira os trilhos, os cabideiros e a montagem antes de fabricar.",
+      "technicalSummary": "4 pares laterais com amortecimento. Caixa externa 329,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca206",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P01_Lateral_direita016_206 / P01_Lateral_esquerda_207",
           "dimensions": [
             2132.0,
             568.0,
@@ -1543,17 +1487,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca206",
-              "name": "Lateral direita"
+              "name": "P01_Lateral_direita016_206"
             },
             {
               "id": "Peca207",
-              "name": "Lateral esquerda"
+              "name": "P01_Lateral_esquerda_207"
             }
           ]
         },
         {
           "id": "Peca208",
-          "name": "Fundo",
+          "name": "P01_Fundo_208",
           "dimensions": [
             2096.0,
             1964.0,
@@ -1573,13 +1517,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca208",
-              "name": "Fundo"
+              "name": "P01_Fundo_208"
             }
           ]
         },
         {
           "id": "Peca209",
-          "name": "Base · topo 80 mm",
+          "name": "P01_Base_topo_80_mm_209",
           "dimensions": [
             1964.0,
             550.0,
@@ -1599,13 +1543,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca209",
-              "name": "Base · topo 80 mm"
+              "name": "P01_Base_topo_80_mm_209"
             }
           ]
         },
         {
           "id": "Peca210",
-          "name": "Divisória",
+          "name": "P01_Divisoria_210",
           "dimensions": [
             2052.0,
             550.0,
@@ -1625,13 +1569,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca210",
-              "name": "Divisória"
+              "name": "P01_Divisoria_210"
             }
           ]
         },
         {
           "id": "Peca211",
-          "name": "Sapateira · três níveis",
+          "name": "Peças equivalentes",
           "dimensions": [
             400.0,
             355.0,
@@ -1656,27 +1600,27 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca211",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis_211"
             },
             {
               "id": "Peca212",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis001_212"
             },
             {
               "id": "Peca213",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis002_213"
             },
             {
               "id": "Peca226",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis003_226"
             },
             {
               "id": "Peca227",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis004_227"
             },
             {
               "id": "Peca228",
-              "name": "Sapateira · três níveis"
+              "name": "P01_Sapateira_tres_niveis005_228"
             }
           ]
         },
@@ -1767,7 +1711,7 @@ const FABRICATION_DATA = {
           "name": "Peças equivalentes",
           "dimensions": [
             490.0,
-            323.0,
+            309.6,
             15.0
           ],
           "thickness": 15.0,
@@ -1807,7 +1751,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR003",
           "name": "Peças equivalentes",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             15.0
           ],
@@ -1848,7 +1792,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR004",
           "name": "Peças equivalentes",
           "dimensions": [
-            313.0,
+            299.6,
             73.0,
             16.0
           ],
@@ -1949,7 +1893,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca241",
-          "name": "Divisória",
+          "name": "Peças equivalentes",
           "dimensions": [
             1002.0,
             550.0,
@@ -1972,25 +1916,25 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca241",
-              "name": "Divisória"
+              "name": "P01_Divisoria001_241"
             },
             {
               "id": "Peca242",
-              "name": "Divisória"
+              "name": "P01_Divisoria002_242"
             },
             {
               "id": "Peca243",
-              "name": "Divisória"
+              "name": "P01_Divisoria003_243"
             },
             {
               "id": "Peca244",
-              "name": "Divisória"
+              "name": "P01_Divisoria004_244"
             }
           ]
         },
         {
           "id": "Peca245",
-          "name": "Prateleira curta · topo 1100 / Prateleira curta · topo 1101",
+          "name": "P01_Prateleira_curta_topo_1100_245 / P01_Prateleira_curta_topo_1101_246",
           "dimensions": [
             705.0,
             550.0,
@@ -2011,17 +1955,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca245",
-              "name": "Prateleira curta · topo 1100"
+              "name": "P01_Prateleira_curta_topo_1100_245"
             },
             {
               "id": "Peca246",
-              "name": "Prateleira curta · topo 1101"
+              "name": "P01_Prateleira_curta_topo_1101_246"
             }
           ]
         },
         {
           "id": "Peca247",
-          "name": "Roupeiro · portas",
+          "name": "Peças equivalentes",
           "dimensions": [
             1999.0,
             995.0,
@@ -2042,11 +1986,11 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca247",
-              "name": "Roupeiro — porta direita — deslizar para esquerda — frente proposta"
+              "name": "P01_Roupeiro_porta_direita_deslizar_para_esquerda_frente_proposta_247"
             },
             {
               "id": "Peca248",
-              "name": "Roupeiro — porta esquerda — deslizar para direita — frente proposta"
+              "name": "P01_Roupeiro_porta_esquerda_deslizar_para_direita_frente_proposta_248"
             }
           ]
         }
@@ -2099,7 +2043,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca255",
-          "name": "Fundo do braço principal",
+          "name": "P02_Fundo_do_braco_principal_255",
           "dimensions": [
             632.0,
             272.0,
@@ -2116,7 +2060,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca256",
-          "name": "Fundo do retorno",
+          "name": "P02_Fundo_do_retorno_256",
           "dimensions": [
             1032.0,
             272.0,
@@ -2856,7 +2800,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca255",
-          "name": "Fundo do braço principal",
+          "name": "P02_Fundo_do_braco_principal_255",
           "dimensions": [
             632.0,
             272.0,
@@ -2876,13 +2820,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca255",
-              "name": "Fundo do braço principal"
+              "name": "P02_Fundo_do_braco_principal_255"
             }
           ]
         },
         {
           "id": "Peca256",
-          "name": "Fundo do retorno",
+          "name": "P02_Fundo_do_retorno_256",
           "dimensions": [
             1032.0,
             272.0,
@@ -2902,7 +2846,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca256",
-              "name": "Fundo do retorno"
+              "name": "P02_Fundo_do_retorno_256"
             }
           ]
         },
@@ -3078,7 +3022,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca259",
-          "name": "Lateral direita",
+          "name": "P03_Lateral_direita017_259",
           "dimensions": [
             650.0,
             308.0,
@@ -3095,7 +3039,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca260",
-          "name": "Lateral esquerda",
+          "name": "P03_Lateral_esquerda001_260",
           "dimensions": [
             650.0,
             308.0,
@@ -3112,7 +3056,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca261",
-          "name": "Fundo",
+          "name": "P03_Fundo001_261",
           "dimensions": [
             1314.0,
             272.0,
@@ -3129,7 +3073,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca262",
-          "name": "Base",
+          "name": "P03_Base_262",
           "dimensions": [
             1314.0,
             632.0,
@@ -3146,7 +3090,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca263",
-          "name": "Tampo",
+          "name": "P03_Tampo_263",
           "dimensions": [
             1314.0,
             632.0,
@@ -3163,7 +3107,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca264",
-          "name": "Maleiro — porta direita — deslizar para esquerda — frente proposta",
+          "name": "P03_Maleiro_porta_direita_deslizar_para_esquerda_frente_proposta_264",
           "dimensions": [
             670.0,
             237.0,
@@ -3180,7 +3124,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca265",
-          "name": "Maleiro — porta esquerda — deslizar para direita — frente proposta",
+          "name": "P03_Maleiro_porta_esquerda_deslizar_para_direita_frente_proposta_265",
           "dimensions": [
             670.0,
             237.0,
@@ -3758,7 +3702,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca259",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P03_Lateral_direita017_259 / P03_Lateral_esquerda001_260",
           "dimensions": [
             650.0,
             308.0,
@@ -3779,17 +3723,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca259",
-              "name": "Lateral direita"
+              "name": "P03_Lateral_direita017_259"
             },
             {
               "id": "Peca260",
-              "name": "Lateral esquerda"
+              "name": "P03_Lateral_esquerda001_260"
             }
           ]
         },
         {
           "id": "Peca261",
-          "name": "Fundo",
+          "name": "P03_Fundo001_261",
           "dimensions": [
             1314.0,
             272.0,
@@ -3809,13 +3753,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca261",
-              "name": "Fundo"
+              "name": "P03_Fundo001_261"
             }
           ]
         },
         {
           "id": "Peca262",
-          "name": "Base / Tampo",
+          "name": "P03_Base_262 / P03_Tampo_263",
           "dimensions": [
             1314.0,
             632.0,
@@ -3836,17 +3780,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca262",
-              "name": "Base"
+              "name": "P03_Base_262"
             },
             {
               "id": "Peca263",
-              "name": "Tampo"
+              "name": "P03_Tampo_263"
             }
           ]
         },
         {
           "id": "Peca264",
-          "name": "Maleiro · portas",
+          "name": "Peças equivalentes",
           "dimensions": [
             670.0,
             237.0,
@@ -3867,11 +3811,11 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca264",
-              "name": "Maleiro — porta direita — deslizar para esquerda — frente proposta"
+              "name": "P03_Maleiro_porta_direita_deslizar_para_esquerda_frente_proposta_264"
             },
             {
               "id": "Peca265",
-              "name": "Maleiro — porta esquerda — deslizar para direita — frente proposta"
+              "name": "P03_Maleiro_porta_esquerda_deslizar_para_direita_frente_proposta_265"
             }
           ]
         }
@@ -3890,7 +3834,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca266",
-          "name": "Lateral direita",
+          "name": "P04_Lateral_direita018_266",
           "dimensions": [
             308.0,
             230.0,
@@ -3907,7 +3851,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca267",
-          "name": "Lateral esquerda",
+          "name": "P04_Lateral_esquerda002_267",
           "dimensions": [
             308.0,
             230.0,
@@ -3924,7 +3868,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca268",
-          "name": "Fundo",
+          "name": "P04_Fundo002_268",
           "dimensions": [
             1764.0,
             272.0,
@@ -3941,7 +3885,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca269",
-          "name": "Base",
+          "name": "P04_Base001_269",
           "dimensions": [
             1764.0,
             212.0,
@@ -3958,7 +3902,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca270",
-          "name": "Tampo",
+          "name": "P04_Tampo001_270",
           "dimensions": [
             1764.0,
             212.0,
@@ -4887,7 +4831,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca266",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P04_Lateral_direita018_266 / P04_Lateral_esquerda002_267",
           "dimensions": [
             308.0,
             230.0,
@@ -4908,17 +4852,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca266",
-              "name": "Lateral direita"
+              "name": "P04_Lateral_direita018_266"
             },
             {
               "id": "Peca267",
-              "name": "Lateral esquerda"
+              "name": "P04_Lateral_esquerda002_267"
             }
           ]
         },
         {
           "id": "Peca268",
-          "name": "Fundo",
+          "name": "P04_Fundo002_268",
           "dimensions": [
             1764.0,
             272.0,
@@ -4938,13 +4882,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca268",
-              "name": "Fundo"
+              "name": "P04_Fundo002_268"
             }
           ]
         },
         {
           "id": "Peca269",
-          "name": "Base",
+          "name": "P04_Base001_269",
           "dimensions": [
             1764.0,
             212.0,
@@ -4964,13 +4908,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca269",
-              "name": "Base"
+              "name": "P04_Base001_269"
             }
           ]
         },
         {
           "id": "Peca270",
-          "name": "Tampo",
+          "name": "P04_Tampo001_270",
           "dimensions": [
             1764.0,
             212.0,
@@ -4990,7 +4934,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca270",
-              "name": "Tampo"
+              "name": "P04_Tampo001_270"
             }
           ]
         },
@@ -5181,7 +5125,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca276",
-          "name": "Lateral direita",
+          "name": "P05_Lateral_direita019_276",
           "dimensions": [
             720.0,
             590.0,
@@ -5198,7 +5142,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca277",
-          "name": "Lateral esquerda",
+          "name": "P05_Lateral_esquerda003_277",
           "dimensions": [
             720.0,
             590.0,
@@ -5215,7 +5159,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca278",
-          "name": "Fundo",
+          "name": "P05_Fundo003_278",
           "dimensions": [
             684.0,
             614.0,
@@ -5232,7 +5176,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca279",
-          "name": "Base",
+          "name": "P05_Base002_279",
           "dimensions": [
             614.0,
             572.0,
@@ -5249,7 +5193,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca280",
-          "name": "Prateleira de estudo · hidráulica a recortar",
+          "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280",
           "dimensions": [
             614.0,
             572.0,
@@ -5867,7 +5811,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca276",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P05_Lateral_direita019_276 / P05_Lateral_esquerda003_277",
           "dimensions": [
             720.0,
             590.0,
@@ -5888,17 +5832,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca276",
-              "name": "Lateral direita"
+              "name": "P05_Lateral_direita019_276"
             },
             {
               "id": "Peca277",
-              "name": "Lateral esquerda"
+              "name": "P05_Lateral_esquerda003_277"
             }
           ]
         },
         {
           "id": "Peca278",
-          "name": "Fundo",
+          "name": "P05_Fundo003_278",
           "dimensions": [
             684.0,
             614.0,
@@ -5918,13 +5862,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca278",
-              "name": "Fundo"
+              "name": "P05_Fundo003_278"
             }
           ]
         },
         {
           "id": "Peca279",
-          "name": "Base",
+          "name": "P05_Base002_279",
           "dimensions": [
             614.0,
             572.0,
@@ -5944,13 +5888,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca279",
-              "name": "Base"
+              "name": "P05_Base002_279"
             }
           ]
         },
         {
           "id": "Peca280",
-          "name": "Prateleira de estudo · hidráulica a recortar",
+          "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280",
           "dimensions": [
             614.0,
             572.0,
@@ -5970,7 +5914,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca280",
-              "name": "Prateleira de estudo · hidráulica a recortar"
+              "name": "P05_Prateleira_de_estudo_hidraulica_a_recortar_280"
             }
           ]
         },
@@ -6042,7 +5986,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca283",
-          "name": "Lateral direita",
+          "name": "P06_Lateral_direita020_283",
           "dimensions": [
             720.0,
             590.0,
@@ -6059,7 +6003,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca284",
-          "name": "Lateral esquerda",
+          "name": "P06_Lateral_esquerda004_284",
           "dimensions": [
             720.0,
             590.0,
@@ -6076,7 +6020,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca285",
-          "name": "Fundo",
+          "name": "P06_Fundo004_285",
           "dimensions": [
             684.0,
             583.0,
@@ -6093,7 +6037,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca286",
-          "name": "Base",
+          "name": "P06_Base003_286",
           "dimensions": [
             583.0,
             572.0,
@@ -6146,7 +6090,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR050",
           "name": "Fundo comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -6163,7 +6107,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR051",
           "name": "Traseira comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             15.0
           ],
@@ -6180,7 +6124,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR052",
           "name": "Dianteira comum16 · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             16.0
           ],
@@ -6214,12 +6158,12 @@ const FABRICATION_DATA = {
           "id": "MontagemG2R016",
           "name": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
           "dimensions": [
-            541.0,
+            554.4,
             73.0,
             15.0
           ],
           "thickness": 15.0,
-          "rectangular": true,
+          "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
@@ -6265,7 +6209,7 @@ const FABRICATION_DATA = {
           "id": "MontagemG2R019",
           "name": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
           "dimensions": [
-            551.0,
+            564.4,
             490.0,
             16.2
           ],
@@ -6293,6 +6237,23 @@ const FABRICATION_DATA = {
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
           "remainingFinish": null,
+          "quantity": 1
+        },
+        {
+          "id": "MontagemG2R021",
+          "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+          "dimensions": [
+            554.4,
+            73.0,
+            16.0
+          ],
+          "thickness": 16.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": null,
+          "materialEvidence": null,
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1
         },
         {
@@ -6333,7 +6294,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR062",
           "name": "Fundo comum · G1 · talheres - proposta R08",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -6350,7 +6311,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR063",
           "name": "Traseira comum · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             15.0
           ],
@@ -6367,7 +6328,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR064",
           "name": "Dianteira comum16 · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             16.0
           ],
@@ -6415,47 +6376,31 @@ const FABRICATION_DATA = {
           "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
           "unit": "conjunto",
-          "status": "pendente de especificação do conjunto",
-          "assembly": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "explanation": ""
@@ -6527,13 +6472,12 @@ const FABRICATION_DATA = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: fechar os recortes traseiros e o ponto de referência para medir vertical do conjunto 54FGOC12500TSX0. A caixa Blum legada não fica convertida apenas pela escolha do SKU.",
         "Oficina: medir peso acabado da gaveta/organizadores para atribuir peso do conteúdo dentro dos 35 kg publicados do sistema;35 kg não são carga de conteúdo livre.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Conferir gavetas e guias como conjuntos compatíveis. Preservar G1/G2/G3 e seus usos.",
-        "FGVTN 54FGOC12500TSX0 selecionada para as três gavetas. Conferir engates, regulagem e fixação.",
-        "Caixas FGVTN em laterais15: largura interna A−41 e externa A−11. Folga centrada nominal5,5mm/lado. Conferir caixa/recortes/engates antes do corte.",
-        "Montar um par real 500 com engates convencionais em uma caixa-piloto. Conferir fechamento, travamento, regulagem+3 mm e destrave simultâneo E/D antes de repetir."
+        "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Resultado.html",
@@ -6549,49 +6493,18 @@ const FABRICATION_DATA = {
       "drawingPath": "06_Entregas/Fichas_fabricacao/P06.svg",
       "decisions": [
         {
-          "item": "Corrediças 500 com engates convencionais E/D",
-          "reference": "FGVTN54FGOC12500TSX0, OcultaSlowmotionET, zincada",
+          "item": "Corrediças laterais com amortecimento, 500 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 3,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Selecionada referência 500/classe 35 kg, com engates convencionais correspondentes, um E e um D por gaveta. Pedir kit completo. Não adicionar Blum T51 nem engate 3D. Quantidade é par de guias, não 18 kits.",
-          "sources": [
-            {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
-            }
-          ],
-          "assemblyStatus": "adaptar caixa ao gabarito FGVTN",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Fixadores das guias/engates FGVTN500",
-          "reference": "Modelo e contagem pelo kit54FGOC12500TSX0 recebido",
-          "quantity": null,
-          "unit": "conjunto",
           "status": "pendente de especificação do conjunto",
-          "reason": "A ficha oficial não fecha cabeça/comprimento/piloto para todos os pontos. Escolher em bancada sobre chapa real. Não reutilizar automaticamente os parafusos Blum.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "conferir a montagem na oficina",
+          "reason": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "explanation": ""
         },
         {
@@ -6611,48 +6524,39 @@ const FABRICATION_DATA = {
       ],
       "drilling": [
         {
-          "item": "Furação lateral das guias 500",
+          "item": "Fixação lateral — P06-F01",
           "partIds": [],
-          "face": "face interna dos apoios das gavetas",
-          "datum": "frente da carcaça acabada",
-          "pattern": "Referências longitudinais documentadas 37,37+32=69,37+D=261 e 37+D+E=325 mm; D224/E64. Recuo frontal 4 mm de referência. Altura do eixo: mínimo 38 mm conforme seção do manual, a compatibilizar por gaveta.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "conforme conjunto adquirido",
-          "status": "gabarito documentado. Altura por gaveta pendente",
-          "releaseCondition": "Oficina deve aprovar ponto de referência para medir vertical e quantidade efetiva de fixadores. Divergência documental: catálogo 2024 indica H96 para 500. Instruçãoset 2024 deixa Hsemcota em 500. Não preparar os cortes e furos furo H adicional até confirmar revisão do produto.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
-            },
-            {
-              "title": "FGVTN: código 54FGOC12500TSX0 e capacidade 35 kg",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Catalogo_Geral_FGVTN_2024.pdf",
-              "page": "59"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F01"
         },
         {
-          "item": "Caixa e furos traseiros FGVTN500",
+          "item": "Fixação lateral — P06-F02",
           "partIds": [],
-          "face": "traseira da caixa; furar pelo lado de entrada do gancho",
-          "datum": "face inferior do fundo e faces internas laterais conforme seção oficial",
-          "pattern": "Caixa 500 mm; largura interna A−41=542 mm (+1/−0,5), laterais 15→largura externa 572 mm. Profundidade mínima 520 frente a 572 mm disponível.2 furosØ7: referências 7 mm da lateral interna e 11 mm da face inferior do fundo conforme seção; não copiarØ6Blum.",
-          "diameter": 7,
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
           "depth": null,
-          "fastener": "ganchos e engatesFGVTN convencionais",
-          "status": "gabarito documentado. Mapa completo da caixa pendente",
-          "releaseCondition": "Revisar caixa legada: +1 mm largura e+10 mm profundidade. Confirmar recortes/fundo e profundidade de furo com produto real antes de furar. Não escalar o STEP400 para 500.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "FGVTN Oculta Slowmotion ET: instalação setembro 2024",
-              "url": "https://www.fgvtn.com.br/site/novopdf/Instru%C3%A7%C3%A3o_de_montagem_Corredica_FGVTN_Oculta_Slow_ET_set_2024.pdf",
-              "page": "1",
-              "localOutput": "FGVTN_Oculta_ET_montagem_2024.pdf"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P06-F02"
@@ -6691,7 +6595,6 @@ const FABRICATION_DATA = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "resolvedChecks": [
-        "FGVTN54FGOC12500TSX0 com engates convencionais E/D selecionada. Caixa/recortes continuam em conferência de encaixe e montagem.",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
       "drawings": [],
@@ -6703,11 +6606,11 @@ const FABRICATION_DATA = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P06-furacao.csv",
-      "technicalSummary": "Três gavetas com corrediças da marca FGVTN. Confira os encaixes e as posições de montagem antes de fabricar.",
+      "technicalSummary": "3 pares laterais com amortecimento. Caixa externa 557,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 500 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca283",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P06_Lateral_direita020_283 / P06_Lateral_esquerda004_284",
           "dimensions": [
             720.0,
             590.0,
@@ -6728,17 +6631,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca283",
-              "name": "Lateral direita"
+              "name": "P06_Lateral_direita020_283"
             },
             {
               "id": "Peca284",
-              "name": "Lateral esquerda"
+              "name": "P06_Lateral_esquerda004_284"
             }
           ]
         },
         {
           "id": "Peca285",
-          "name": "Fundo",
+          "name": "P06_Fundo004_285",
           "dimensions": [
             684.0,
             583.0,
@@ -6758,13 +6661,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca285",
-              "name": "Fundo"
+              "name": "P06_Fundo004_285"
             }
           ]
         },
         {
           "id": "Peca286",
-          "name": "Base",
+          "name": "P06_Base003_286",
           "dimensions": [
             583.0,
             572.0,
@@ -6784,7 +6687,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca286",
-              "name": "Base"
+              "name": "P06_Base003_286"
             }
           ]
         },
@@ -6844,7 +6747,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR050",
           "name": "Peças equivalentes",
           "dimensions": [
-            551.0,
+            537.6,
             490.0,
             15.0
           ],
@@ -6875,7 +6778,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR051",
           "name": "Traseira comum · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             15.0
           ],
@@ -6901,7 +6804,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR052",
           "name": "Dianteira comum16 · G3 · mantimentos - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             273.0,
             16.0
           ],
@@ -6953,12 +6856,12 @@ const FABRICATION_DATA = {
           "id": "MontagemG2R016",
           "name": "Parte_traseira_da_gaveta[3B0R-000X] - proposta R07",
           "dimensions": [
-            541.0,
+            554.4,
             73.0,
             15.0
           ],
           "thickness": 15.0,
-          "rectangular": true,
+          "rectangular": false,
           "cadMaterial": "Não individualizado",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
@@ -7031,7 +6934,7 @@ const FABRICATION_DATA = {
           "id": "MontagemG2R019",
           "name": "Fundo_da_gaveta[3B0R-001A] - proposta R07",
           "dimensions": [
-            551.0,
+            564.4,
             490.0,
             16.2
           ],
@@ -7076,6 +6979,32 @@ const FABRICATION_DATA = {
             {
               "id": "MontagemG2R020",
               "name": "Frente_da_gaveta[3B0R-001H] - proposta R07"
+            }
+          ]
+        },
+        {
+          "id": "MontagemG2R021",
+          "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07",
+          "dimensions": [
+            554.4,
+            73.0,
+            16.0
+          ],
+          "thickness": 16.0,
+          "rectangular": false,
+          "cadMaterial": "Não individualizado",
+          "specifiedMaterial": null,
+          "materialEvidence": null,
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "quantity": 1,
+          "ids": [
+            "MontagemG2R021"
+          ],
+          "members": [
+            {
+              "id": "MontagemG2R021",
+              "name": "Pe栟frontal_da_gaveta[3B0R-001O] - proposta R07"
             }
           ]
         },
@@ -7135,7 +7064,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR063",
           "name": "Traseira comum · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             15.0
           ],
@@ -7161,7 +7090,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR064",
           "name": "Dianteira comum16 · G1 · talheres - proposta R08",
           "dimensions": [
-            541.0,
+            527.6,
             53.0,
             16.0
           ],
@@ -7217,14 +7146,14 @@ const FABRICATION_DATA = {
       "room": "cozinha",
       "dimensions": [
         613.0,
-        597.5,
+        610.0,
         900.0
       ],
       "internalMeasures": "Vão lateral 577; base plana 577×535×18, topo 138. Travessa 577×212×30 emZ660–690; trás terminaY6955, reservando 45 até parede nominal 7000.",
       "panels": [
         {
           "id": "Peca305",
-          "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)",
+          "name": "P07_Lateral_direita_do_forno_R30_deslocada_13_mm_vao_577_305",
           "dimensions": [
             900.0,
             590.0,
@@ -7241,7 +7170,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca306",
-          "name": "Lateral esquerda do forno",
+          "name": "P07_Lateral_esquerda_do_forno_306",
           "dimensions": [
             900.0,
             590.0,
@@ -7258,7 +7187,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca307",
-          "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+          "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307",
           "dimensions": [
             577.0,
             212.0,
@@ -7407,6 +7336,23 @@ const FABRICATION_DATA = {
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
           "remainingFinish": null,
+          "quantity": 1
+        },
+        {
+          "id": "P07_Faixa_Superior_Forno",
+          "name": "P07 — faixa frontal acima da grelha do forno",
+          "dimensions": [
+            577.0,
+            115.0,
+            18.0
+          ],
+          "thickness": 18.0,
+          "rectangular": true,
+          "cadMaterial": "Greenplac Arenza (referência CAD)",
+          "specifiedMaterial": null,
+          "materialEvidence": "P07_Faixa_Superior_Forno.MaterialReferencia",
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
           "quantity": 1
         }
       ],
@@ -7640,7 +7586,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca305",
-          "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577) / Lateral esquerda do forno",
+          "name": "Peças equivalentes",
           "dimensions": [
             900.0,
             590.0,
@@ -7661,17 +7607,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca305",
-              "name": "Lateral direita do forno - R30 deslocada 13 mm (vão 577)"
+              "name": "P07_Lateral_direita_do_forno_R30_deslocada_13_mm_vao_577_305"
             },
             {
               "id": "Peca306",
-              "name": "Lateral esquerda do forno"
+              "name": "P07_Lateral_esquerda_do_forno_306"
             }
           ]
         },
         {
           "id": "Peca307",
-          "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta",
+          "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307",
           "dimensions": [
             577.0,
             212.0,
@@ -7691,7 +7637,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca307",
-              "name": "Travessa cocção · avançada27 para liberar ar traseiro45 · proposta"
+              "name": "P07_Travessa_coccao_avancada27_para_liberar_ar_traseiro45_proposta_307"
             }
           ]
         },
@@ -7858,6 +7804,32 @@ const FABRICATION_DATA = {
             {
               "id": "ReguaSuperiorAltaR31",
               "name": "ReguaSuperiorAlta · proposta R31"
+            }
+          ]
+        },
+        {
+          "id": "P07_Faixa_Superior_Forno",
+          "name": "P07 — faixa frontal acima da grelha do forno",
+          "dimensions": [
+            577.0,
+            115.0,
+            18.0
+          ],
+          "thickness": 18.0,
+          "rectangular": true,
+          "cadMaterial": "Greenplac Arenza (referência CAD)",
+          "specifiedMaterial": null,
+          "materialEvidence": "P07_Faixa_Superior_Forno.MaterialReferencia",
+          "finishComplete": false,
+          "remainingFinish": "Falta indicar o acabamento de cada lado da peça.",
+          "quantity": 1,
+          "ids": [
+            "P07_Faixa_Superior_Forno"
+          ],
+          "members": [
+            {
+              "id": "P07_Faixa_Superior_Forno",
+              "name": "P07 — faixa frontal acima da grelha do forno"
             }
           ]
         }
@@ -8521,7 +8493,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca315",
-          "name": "Lateral direita",
+          "name": "P09_Lateral_direita021_315",
           "dimensions": [
             592.0,
             330.0,
@@ -8538,7 +8510,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca316",
-          "name": "Lateral esquerda",
+          "name": "P09_Lateral_esquerda005_316",
           "dimensions": [
             592.0,
             330.0,
@@ -8555,7 +8527,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca317",
-          "name": "Fundo",
+          "name": "P09_Fundo005_317",
           "dimensions": [
             614.0,
             556.0,
@@ -8572,7 +8544,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca318",
-          "name": "Base",
+          "name": "P09_Base004_318",
           "dimensions": [
             614.0,
             312.0,
@@ -8589,7 +8561,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca319",
-          "name": "Tampo",
+          "name": "P09_Tampo002_319",
           "dimensions": [
             614.0,
             312.0,
@@ -8606,7 +8578,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca320",
-          "name": "Divisória",
+          "name": "P09_Divisoria005_320",
           "dimensions": [
             556.0,
             312.0,
@@ -9255,7 +9227,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca315",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P09_Lateral_direita021_315 / P09_Lateral_esquerda005_316",
           "dimensions": [
             592.0,
             330.0,
@@ -9276,17 +9248,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca315",
-              "name": "Lateral direita"
+              "name": "P09_Lateral_direita021_315"
             },
             {
               "id": "Peca316",
-              "name": "Lateral esquerda"
+              "name": "P09_Lateral_esquerda005_316"
             }
           ]
         },
         {
           "id": "Peca317",
-          "name": "Fundo",
+          "name": "P09_Fundo005_317",
           "dimensions": [
             614.0,
             556.0,
@@ -9306,13 +9278,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca317",
-              "name": "Fundo"
+              "name": "P09_Fundo005_317"
             }
           ]
         },
         {
           "id": "Peca318",
-          "name": "Base",
+          "name": "P09_Base004_318",
           "dimensions": [
             614.0,
             312.0,
@@ -9332,13 +9304,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca318",
-              "name": "Base"
+              "name": "P09_Base004_318"
             }
           ]
         },
         {
           "id": "Peca319",
-          "name": "Tampo",
+          "name": "P09_Tampo002_319",
           "dimensions": [
             614.0,
             312.0,
@@ -9358,13 +9330,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca319",
-              "name": "Tampo"
+              "name": "P09_Tampo002_319"
             }
           ]
         },
         {
           "id": "Peca320",
-          "name": "Divisória",
+          "name": "P09_Divisoria005_320",
           "dimensions": [
             556.0,
             312.0,
@@ -9384,7 +9356,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca320",
-              "name": "Divisória"
+              "name": "P09_Divisoria005_320"
             }
           ]
         },
@@ -9456,7 +9428,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca324",
-          "name": "Lateral direita",
+          "name": "P10_Lateral_direita022_324",
           "dimensions": [
             1018.0,
             330.0,
@@ -9473,7 +9445,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca325",
-          "name": "Lateral esquerda",
+          "name": "P10_Lateral_esquerda006_325",
           "dimensions": [
             1018.0,
             330.0,
@@ -9490,7 +9462,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca326",
-          "name": "Fundo",
+          "name": "P10_Fundo006_326",
           "dimensions": [
             982.0,
             511.0,
@@ -9507,7 +9479,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca327",
-          "name": "Base",
+          "name": "P10_Base005_327",
           "dimensions": [
             511.0,
             312.0,
@@ -9524,7 +9496,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca328",
-          "name": "Tampo",
+          "name": "P10_Tampo003_328",
           "dimensions": [
             511.0,
             312.0,
@@ -9541,7 +9513,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca329",
-          "name": "Prateleira",
+          "name": "P10_Prateleira_329",
           "dimensions": [
             511.0,
             312.0,
@@ -9558,7 +9530,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca330",
-          "name": "Prateleira",
+          "name": "P10_Prateleira001_330",
           "dimensions": [
             511.0,
             312.0,
@@ -9575,7 +9547,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca331",
-          "name": "Prateleira",
+          "name": "P10_Prateleira002_331",
           "dimensions": [
             511.0,
             312.0,
@@ -10812,7 +10784,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca324",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P10_Lateral_direita022_324 / P10_Lateral_esquerda006_325",
           "dimensions": [
             1018.0,
             330.0,
@@ -10833,17 +10805,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca324",
-              "name": "Lateral direita"
+              "name": "P10_Lateral_direita022_324"
             },
             {
               "id": "Peca325",
-              "name": "Lateral esquerda"
+              "name": "P10_Lateral_esquerda006_325"
             }
           ]
         },
         {
           "id": "Peca326",
-          "name": "Fundo",
+          "name": "P10_Fundo006_326",
           "dimensions": [
             982.0,
             511.0,
@@ -10863,13 +10835,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca326",
-              "name": "Fundo"
+              "name": "P10_Fundo006_326"
             }
           ]
         },
         {
           "id": "Peca327",
-          "name": "Base",
+          "name": "P10_Base005_327",
           "dimensions": [
             511.0,
             312.0,
@@ -10889,13 +10861,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca327",
-              "name": "Base"
+              "name": "P10_Base005_327"
             }
           ]
         },
         {
           "id": "Peca328",
-          "name": "Tampo",
+          "name": "P10_Tampo003_328",
           "dimensions": [
             511.0,
             312.0,
@@ -10915,13 +10887,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca328",
-              "name": "Tampo"
+              "name": "P10_Tampo003_328"
             }
           ]
         },
         {
           "id": "Peca329",
-          "name": "Prateleira",
+          "name": "P10_Prateleira_329 / P10_Prateleira001_330 / P10_Prateleira002_331",
           "dimensions": [
             511.0,
             312.0,
@@ -10943,15 +10915,15 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca329",
-              "name": "Prateleira"
+              "name": "P10_Prateleira_329"
             },
             {
               "id": "Peca330",
-              "name": "Prateleira"
+              "name": "P10_Prateleira001_330"
             },
             {
               "id": "Peca331",
-              "name": "Prateleira"
+              "name": "P10_Prateleira002_331"
             }
           ]
         },
@@ -11023,7 +10995,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca334",
-          "name": "Lateral direita",
+          "name": "P11_Lateral_direita023_334",
           "dimensions": [
             610.0,
             330.0,
@@ -11040,7 +11012,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca335",
-          "name": "Lateral esquerda",
+          "name": "P11_Lateral_esquerda007_335",
           "dimensions": [
             610.0,
             330.0,
@@ -11057,7 +11029,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca336",
-          "name": "Fundo",
+          "name": "P11_Fundo007_336",
           "dimensions": [
             661.0,
             574.0,
@@ -11074,7 +11046,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca337",
-          "name": "Base",
+          "name": "P11_Base006_337",
           "dimensions": [
             661.0,
             312.0,
@@ -11091,7 +11063,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca338",
-          "name": "Tampo",
+          "name": "P11_Tampo004_338",
           "dimensions": [
             661.0,
             312.0,
@@ -11108,7 +11080,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca339",
-          "name": "Prateleira",
+          "name": "P11_Prateleira003_339",
           "dimensions": [
             661.0,
             312.0,
@@ -12101,7 +12073,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca334",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P11_Lateral_direita023_334 / P11_Lateral_esquerda007_335",
           "dimensions": [
             610.0,
             330.0,
@@ -12122,17 +12094,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca334",
-              "name": "Lateral direita"
+              "name": "P11_Lateral_direita023_334"
             },
             {
               "id": "Peca335",
-              "name": "Lateral esquerda"
+              "name": "P11_Lateral_esquerda007_335"
             }
           ]
         },
         {
           "id": "Peca336",
-          "name": "Fundo",
+          "name": "P11_Fundo007_336",
           "dimensions": [
             661.0,
             574.0,
@@ -12152,13 +12124,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca336",
-              "name": "Fundo"
+              "name": "P11_Fundo007_336"
             }
           ]
         },
         {
           "id": "Peca337",
-          "name": "Base",
+          "name": "P11_Base006_337",
           "dimensions": [
             661.0,
             312.0,
@@ -12178,13 +12150,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca337",
-              "name": "Base"
+              "name": "P11_Base006_337"
             }
           ]
         },
         {
           "id": "Peca338",
-          "name": "Tampo",
+          "name": "P11_Tampo004_338",
           "dimensions": [
             661.0,
             312.0,
@@ -12204,13 +12176,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca338",
-              "name": "Tampo"
+              "name": "P11_Tampo004_338"
             }
           ]
         },
         {
           "id": "Peca339",
-          "name": "Prateleira",
+          "name": "P11_Prateleira003_339",
           "dimensions": [
             661.0,
             312.0,
@@ -12230,7 +12202,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca339",
-              "name": "Prateleira"
+              "name": "P11_Prateleira003_339"
             }
           ]
         },
@@ -12302,7 +12274,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca342",
-          "name": "Lateral direita",
+          "name": "P12_Lateral_direita024_342",
           "dimensions": [
             584.0,
             330.0,
@@ -12319,7 +12291,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca343",
-          "name": "Lateral esquerda",
+          "name": "P12_Lateral_esquerda008_343",
           "dimensions": [
             584.0,
             330.0,
@@ -12336,7 +12308,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca344",
-          "name": "Fundo",
+          "name": "P12_Fundo008_344",
           "dimensions": [
             765.0,
             548.0,
@@ -12353,7 +12325,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca345",
-          "name": "Base",
+          "name": "P12_Base007_345",
           "dimensions": [
             765.0,
             312.0,
@@ -12370,7 +12342,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca346",
-          "name": "Tampo",
+          "name": "P12_Tampo005_346",
           "dimensions": [
             765.0,
             312.0,
@@ -12387,7 +12359,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca347",
-          "name": "Divisória",
+          "name": "P12_Divisoria006_347",
           "dimensions": [
             548.0,
             312.0,
@@ -13035,7 +13007,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca342",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P12_Lateral_direita024_342 / P12_Lateral_esquerda008_343",
           "dimensions": [
             584.0,
             330.0,
@@ -13056,17 +13028,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca342",
-              "name": "Lateral direita"
+              "name": "P12_Lateral_direita024_342"
             },
             {
               "id": "Peca343",
-              "name": "Lateral esquerda"
+              "name": "P12_Lateral_esquerda008_343"
             }
           ]
         },
         {
           "id": "Peca344",
-          "name": "Fundo",
+          "name": "P12_Fundo008_344",
           "dimensions": [
             765.0,
             548.0,
@@ -13086,13 +13058,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca344",
-              "name": "Fundo"
+              "name": "P12_Fundo008_344"
             }
           ]
         },
         {
           "id": "Peca345",
-          "name": "Base",
+          "name": "P12_Base007_345",
           "dimensions": [
             765.0,
             312.0,
@@ -13112,13 +13084,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca345",
-              "name": "Base"
+              "name": "P12_Base007_345"
             }
           ]
         },
         {
           "id": "Peca346",
-          "name": "Tampo",
+          "name": "P12_Tampo005_346",
           "dimensions": [
             765.0,
             312.0,
@@ -13138,13 +13110,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca346",
-              "name": "Tampo"
+              "name": "P12_Tampo005_346"
             }
           ]
         },
         {
           "id": "Peca347",
-          "name": "Divisória",
+          "name": "P12_Divisoria006_347",
           "dimensions": [
             548.0,
             312.0,
@@ -13164,7 +13136,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca347",
-              "name": "Divisória"
+              "name": "P12_Divisoria006_347"
             }
           ]
         },
@@ -13236,7 +13208,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca350",
-          "name": "Prateleira de apoio · topo 1550",
+          "name": "P13_Prateleira_de_apoio_topo_1550_350",
           "dimensions": [
             697.0,
             470.0,
@@ -13411,7 +13383,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca350",
-          "name": "Prateleira de apoio · topo 1550",
+          "name": "P13_Prateleira_de_apoio_topo_1550_350",
           "dimensions": [
             697.0,
             470.0,
@@ -13431,7 +13403,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca350",
-              "name": "Prateleira de apoio · topo 1550"
+              "name": "P13_Prateleira_de_apoio_topo_1550_350"
             }
           ]
         }
@@ -13450,7 +13422,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca352",
-          "name": "Lateral direita",
+          "name": "P14_Lateral_direita025_352",
           "dimensions": [
             802.0,
             610.0,
@@ -13467,7 +13439,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca353",
-          "name": "Lateral esquerda",
+          "name": "P14_Lateral_esquerda009_353",
           "dimensions": [
             802.0,
             610.0,
@@ -13839,7 +13811,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca352",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P14_Lateral_direita025_352 / P14_Lateral_esquerda009_353",
           "dimensions": [
             802.0,
             610.0,
@@ -13860,11 +13832,11 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca352",
-              "name": "Lateral direita"
+              "name": "P14_Lateral_direita025_352"
             },
             {
               "id": "Peca353",
-              "name": "Lateral esquerda"
+              "name": "P14_Lateral_esquerda009_353"
             }
           ]
         },
@@ -14070,7 +14042,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca359",
-          "name": "Lateral direita",
+          "name": "P15_Lateral_direita026_359",
           "dimensions": [
             580.0,
             330.0,
@@ -14087,7 +14059,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca360",
-          "name": "Lateral esquerda",
+          "name": "P15_Lateral_esquerda010_360",
           "dimensions": [
             580.0,
             330.0,
@@ -14104,7 +14076,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca361",
-          "name": "Fundo",
+          "name": "P15_Fundo010_361",
           "dimensions": [
             799.0,
             544.0,
@@ -14121,7 +14093,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca362",
-          "name": "Base",
+          "name": "P15_Base008_362",
           "dimensions": [
             799.0,
             312.0,
@@ -14138,7 +14110,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca363",
-          "name": "Tampo",
+          "name": "P15_Tampo006_363",
           "dimensions": [
             799.0,
             312.0,
@@ -15027,7 +14999,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca359",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P15_Lateral_direita026_359 / P15_Lateral_esquerda010_360",
           "dimensions": [
             580.0,
             330.0,
@@ -15048,17 +15020,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca359",
-              "name": "Lateral direita"
+              "name": "P15_Lateral_direita026_359"
             },
             {
               "id": "Peca360",
-              "name": "Lateral esquerda"
+              "name": "P15_Lateral_esquerda010_360"
             }
           ]
         },
         {
           "id": "Peca361",
-          "name": "Fundo",
+          "name": "P15_Fundo010_361",
           "dimensions": [
             799.0,
             544.0,
@@ -15078,13 +15050,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca361",
-              "name": "Fundo"
+              "name": "P15_Fundo010_361"
             }
           ]
         },
         {
           "id": "Peca362",
-          "name": "Base",
+          "name": "P15_Base008_362",
           "dimensions": [
             799.0,
             312.0,
@@ -15104,13 +15076,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca362",
-              "name": "Base"
+              "name": "P15_Base008_362"
             }
           ]
         },
         {
           "id": "Peca363",
-          "name": "Tampo",
+          "name": "P15_Tampo006_363",
           "dimensions": [
             799.0,
             312.0,
@@ -15130,7 +15102,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca363",
-              "name": "Tampo"
+              "name": "P15_Tampo006_363"
             }
           ]
         },
@@ -15202,7 +15174,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca367",
-          "name": "Lateral direita",
+          "name": "P16_Lateral_direita027_367",
           "dimensions": [
             430.0,
             240.0,
@@ -15219,7 +15191,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca368",
-          "name": "Lateral esquerda",
+          "name": "P16_Lateral_esquerda011_368",
           "dimensions": [
             430.0,
             240.0,
@@ -15236,7 +15208,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca369",
-          "name": "Fundo",
+          "name": "P16_Fundo011_369",
           "dimensions": [
             364.0,
             204.0,
@@ -15253,7 +15225,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca370",
-          "name": "Base",
+          "name": "P16_Base009_370",
           "dimensions": [
             412.0,
             364.0,
@@ -15270,7 +15242,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca371",
-          "name": "Tampo",
+          "name": "P16_Tampo007_371",
           "dimensions": [
             412.0,
             364.0,
@@ -15324,7 +15296,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -15340,7 +15312,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR075",
           "name": "Traseira comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             15.0
           ],
@@ -15357,7 +15329,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR076",
           "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             16.0
           ],
@@ -15426,7 +15398,7 @@ const FABRICATION_DATA = {
           "name": "Fundo comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -15442,7 +15414,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR087",
           "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             15.0
           ],
@@ -15459,7 +15431,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR088",
           "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             16.0
           ],
@@ -15507,87 +15479,34 @@ const FABRICATION_DATA = {
           "explanation": "Parafusos próprios para unir chapas de madeira."
         },
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "assembly": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "status": "pendente de especificação do conjunto",
+          "assembly": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
+          "explanation": ""
         },
         {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "assembly": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
-          "assemblyStatus": "conferir a montagem na oficina",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ],
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
+          "item": "Fixadores das corrediças laterais",
+          "reference": "Conforme produto adquirido e chapa real",
           "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "assembly": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "assemblyStatus": "conferir a montagem na oficina",
+          "unit": "conjunto",
+          "status": "Pendente",
+          "assembly": "Não reutilizar os gabaritos das antigas guias inferiores. Definir diâmetro, comprimento e pontos após escolha do produto.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "explanation": "Parafusos para prender as dobradiças e suas bases."
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "assembly": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "assemblyStatus": "conferir a montagem na oficina",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
-            }
-          ],
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
+          "explanation": ""
         }
       ],
       "finishSummary": "Um acabamento por peça, igual nas duas faces. Padrões neste móvel: Branco TX, Greenplac Arenza liso. Branco TX somente em peças exclusivamente internas.",
@@ -15633,13 +15552,11 @@ const FABRICATION_DATA = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista.",
         "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
         "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Conferir o par lateral com amortecimento numa caixa piloto. Os estágios CAD são aproximações visuais, sem simulação de força ou capacidade."
       ],
       "assembly": [
         "Preservar duas gavetas à esquerda e centro livre da bancada.",
-        "MOVENTO 400 com BLUMOTION S selecionada: abertura total e amortecimento. Provar retirada na primeira montagem.",
-        "MOVENTO400: caixa390, útil359. Largura interna364−42=322, externa352 com laterais15. Gabarito oficial rege furos traseiros/engates.",
-        "Não reduzir comprimento a350: perderia50mm úteis com MOVENTO ou40mm com FGVTN em paredes equivalentes."
+        "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina."
       ],
       "sources": [
         "04_Moveis/Inventario_dimensional/Gavetas/Alternativas_escritorio/Resultado.html",
@@ -15656,87 +15573,19 @@ const FABRICATION_DATA = {
       "drawingPath": "06_Entregas/Fichas_fabricacao/P16.svg",
       "decisions": [
         {
-          "item": "Corrediças 400",
-          "reference": "BlumMOVENTO760H4000S, BLUMOTION S, classe40kg",
+          "item": "Corrediças laterais com amortecimento, 400 mm",
+          "reference": "Telescópica lateral; SKU final pendente",
           "quantity": 2,
           "unit": "par",
-          "status": "selecionado",
-          "reason": "Diretriz vigente consolidada: preserva ascaixas 400 nominais / 390 efetivas e o vão 412. FGVTN400 exige 420 e fica excluída.",
+          "status": "pendente de especificação do conjunto",
           "sources": [
             {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Revisão de ferragens para orçamento,23/10/2026",
-              "path": "05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Revisao_ferragens_servicos_2026-10-23.md",
-              "page": "pacote MOVENTO400"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Corrediças: peças que guiam a abertura e o fechamento das gavetas."
-        },
-        {
-          "item": "Engates MOVENTO esquerdo e direito",
-          "reference": "BlumT51.7601 E/D",
-          "quantity": 2,
-          "unit": "par",
-          "status": "selecionado",
-          "reason": "2 esquerdos +2 direitos. Discriminar no kit. Não comprar novamente caso incluídos.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO760H e engates T51.7601",
-              "url": "https://publications.blum.com/2024/catalogue/en/412/",
-              "page": "412"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
-        },
-        {
-          "item": "Parafusos de fixação das guias MOVENTO",
-          "reference": "Blum609.1500 Ø3,5×15",
-          "quantity": null,
-          "unit": "unidade",
-          "status": "selecionado",
-          "reason": "Selecionado método A do fabricante. Contar os pontos do padrão NL380–480 da revisão adquirida. Não somar método B661.1450.HG.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Parafusos para prender as dobradiças e suas bases."
-        },
-        {
-          "item": "Gabarito MOVENTO de engates/ganchos",
-          "reference": "BlumT65.1000.02",
-          "quantity": 1,
-          "unit": "ferramenta compartilhada",
-          "status": "selecionado",
-          "reason": "Usar gabarito da oficina;1 ferramenta serve às duas gavetas e não é ferragem incorporada.",
-          "sources": [
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
-            }
-          ],
-          "assemblyStatus": "conferir a montagem na oficina",
-          "explanation": "Dobradiças da marca Blum para abrir e fechar as portas."
+          "reason": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
+          "explanation": ""
         },
         {
           "item": "Estrutura do armário do escritório fixa, frentes reguláveis",
@@ -15755,51 +15604,39 @@ const FABRICATION_DATA = {
       ],
       "drilling": [
         {
-          "item": "Guias MOVENTO400",
+          "item": "Fixação lateral — P16-F01",
           "partIds": [],
-          "face": "face interna das laterais",
-          "datum": "frente acabada da carcaça e plano de referência do eixo da guia",
-          "pattern": "Usar padrão 760H40 kg/NL380–480 da página 428; primeiro centro 37 mm da frente. Fixação por 609.1500; mínimo 38 mm do eixo à base. O mapa vertical existente precisa ajuste de retirada.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
           "diameter": null,
           "depth": null,
-          "fastener": "609.1500 Ø3,5×15",
-          "status": "gabarito documentado. Mapa por lateral pendente",
-          "releaseCondition": "Folga superior de 7 mm resolvida na R49. Conferir as sobreposições locais de 0,125–0,175 mm entre fundo e guia antes de copiar centros. Não baixar guia por tentativa para esconder conflito.",
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: fixação lateral",
-              "url": "https://publications.blum.com/2024/catalogue/en/428/",
-              "page": "428"
-            },
-            {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F01"
         },
         {
-          "item": "Ganchos traseiros e engates MOVENTO400",
+          "item": "Fixação lateral — P16-F02",
           "partIds": [],
-          "face": "traseira e face inferior da caixa",
-          "datum": "gabarito T65.1000.02 referenciado nas duas laterais e face inferior do fundo",
-          "pattern": "2 furos traseirosØ6×10; referências 7/11 do desenho. Comprimento da caixa NL−10=390; largura interna 364−42=322(+0/−1,5). Laterais 15 mm preservadas.",
-          "diameter": 6,
-          "depth": 10,
-          "fastener": "T51.7601 e ganchosMOVENTO",
-          "status": "gabarito documentado",
-          "releaseCondition": "Usar gabarito do modelo exato para recorte e engates. Trava direita espelhada na R49, sem interferência no CAD. Confirmar retirada completa na primeira montagem. Não aplicar Ø7 FGVTN.",
+          "face": "lateral do armário e da caixa",
+          "datum": "Frente acabada e eixo a definir com o produto",
+          "pattern": "Pendente do desenho do produto lateral escolhido; gabarito inferior anterior superado.",
+          "diameter": null,
+          "depth": null,
+          "fastener": "A especificar",
+          "status": "Pendente de produto e oficina",
+          "releaseCondition": "Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
           "sources": [
             {
-              "title": "Blum MOVENTO: montagem e caixa",
-              "url": "https://publications.blum.com/2024/catalogue/en/413/",
-              "page": "413"
-            },
-            {
-              "title": "Blum: fabricar caixa e usar gabarito T65.1000.02",
-              "url": "https://ea.blum.com/en/building-a-movento-drawer/",
-              "page": "passos de montagem"
+              "title": "Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.",
+              "path": "02_Modelo_3D/README.md"
             }
           ],
           "id": "P16-F02"
@@ -15830,8 +15667,7 @@ const FABRICATION_DATA = {
       ],
       "workshopChecks": [
         "Oficina: emitir mapa definitivo de altura das 2 guias após conferência de encaixe e montagem. Testar destrave/retirada com frentes e tampo montados.",
-        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos.",
-        "Ensaiar encaixe, curso e retirada com MOVENTO 400 e os reforços finais da bancada."
+        "Confira a espessura e a fita de borda na chapa real. Teste o pré-furo e o aperto do parafuso. Marque o lado e o ponto de referência antes de preparar os cortes e furos."
       ],
       "projectChecks": [
         "Não levar Confirmat à frente nem aos rasgos das guias. Furação da caixa depende da variante final da gaveta e da ligação com bancada.",
@@ -15839,8 +15675,6 @@ const FABRICATION_DATA = {
         "Fechar material da base e códigos de chapa, com um único padrão nas duas faces de cada peça, bordas e veios. Peças de padrão ainda indefinido continuam marcadas na lista."
       ],
       "resolvedChecks": [
-        "Selecionados 2 pares MOVENTO760H4000S e 2 pares T51.7601. Variante FGVTN400 excluída.",
-        "Corrigido na R49 (24/10): gaveta 2 com laterais 74 e traseira/dianteira 47; 7 mm livres sob o tampo, como pede a MOVENTO (era 1 mm).",
         "Corrigido na R49 (24/10): trava T51.7601 direita das duas gavetas espelhada da esquerda. Não invade mais a guia direita (era 1.276 mm³).",
         "Estratégia de união definida por função. Não tratar toda ligação como ferragem indefinida."
       ],
@@ -15855,11 +15689,11 @@ const FABRICATION_DATA = {
       ],
       "revision": "R15",
       "drillingPath": "06_Entregas/Fichas_fabricacao/P16-furacao.csv",
-      "technicalSummary": "MOVENTO 400 selecionada para as duas gavetas. FGVTN 400 sai da lista ativa. Folga superior e trava direita corrigidas na R49. Provar retirada na oficina.",
+      "technicalSummary": "2 pares laterais com amortecimento. Caixa externa 338,6 mm. Folga nominal 12,7 mm por lado. Frente e vão preservados. Curso visual 400 mm. Produto, fixação, capacidade e retirada a conferir em oficina.",
       "panelGroups": [
         {
           "id": "Peca367",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P16_Lateral_direita027_367 / P16_Lateral_esquerda011_368",
           "dimensions": [
             430.0,
             240.0,
@@ -15880,17 +15714,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca367",
-              "name": "Lateral direita"
+              "name": "P16_Lateral_direita027_367"
             },
             {
               "id": "Peca368",
-              "name": "Lateral esquerda"
+              "name": "P16_Lateral_esquerda011_368"
             }
           ]
         },
         {
           "id": "Peca369",
-          "name": "Fundo",
+          "name": "P16_Fundo011_369",
           "dimensions": [
             364.0,
             204.0,
@@ -15910,13 +15744,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca369",
-              "name": "Fundo"
+              "name": "P16_Fundo011_369"
             }
           ]
         },
         {
           "id": "Peca370",
-          "name": "Base / Tampo",
+          "name": "P16_Base009_370 / P16_Tampo007_371",
           "dimensions": [
             412.0,
             364.0,
@@ -15937,11 +15771,11 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca370",
-              "name": "Base"
+              "name": "P16_Base009_370"
             },
             {
               "id": "Peca371",
-              "name": "Tampo"
+              "name": "P16_Tampo007_371"
             }
           ]
         },
@@ -16002,7 +15836,7 @@ const FABRICATION_DATA = {
           "name": "Peças equivalentes",
           "dimensions": [
             390.0,
-            332.0,
+            318.6,
             15.0
           ],
           "thickness": 15.0,
@@ -16032,7 +15866,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR075",
           "name": "Traseira comum · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             15.0
           ],
@@ -16058,7 +15892,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR076",
           "name": "Dianteira comum16 · Gaveta escritório 1 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             53.0,
             16.0
           ],
@@ -16162,7 +15996,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR087",
           "name": "Traseira comum · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             15.0
           ],
@@ -16188,7 +16022,7 @@ const FABRICATION_DATA = {
           "id": "GavetaComumR088",
           "name": "Dianteira comum16 · Gaveta escritório 2 - proposta R08",
           "dimensions": [
-            322.0,
+            308.6,
             47.0,
             16.0
           ],
@@ -16251,7 +16085,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca384",
-          "name": "Lateral direita",
+          "name": "P17_Lateral_direita028_384",
           "dimensions": [
             550.0,
             330.0,
@@ -16268,7 +16102,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca385",
-          "name": "Lateral esquerda",
+          "name": "P17_Lateral_esquerda012_385",
           "dimensions": [
             550.0,
             330.0,
@@ -16285,7 +16119,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca386",
-          "name": "Fundo",
+          "name": "P17_Fundo012_386",
           "dimensions": [
             1964.0,
             514.0,
@@ -16293,7 +16127,7 @@ const FABRICATION_DATA = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -16302,7 +16136,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca387",
-          "name": "Base",
+          "name": "P17_Base010_387",
           "dimensions": [
             1964.0,
             312.0,
@@ -16319,7 +16153,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca388",
-          "name": "Tampo",
+          "name": "P17_Tampo008_388",
           "dimensions": [
             1964.0,
             312.0,
@@ -16327,7 +16161,7 @@ const FABRICATION_DATA = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17231,7 +17065,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca384",
-          "name": "Lateral direita / Lateral esquerda",
+          "name": "P17_Lateral_direita028_384 / P17_Lateral_esquerda012_385",
           "dimensions": [
             550.0,
             330.0,
@@ -17252,17 +17086,17 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca384",
-              "name": "Lateral direita"
+              "name": "P17_Lateral_direita028_384"
             },
             {
               "id": "Peca385",
-              "name": "Lateral esquerda"
+              "name": "P17_Lateral_esquerda012_385"
             }
           ]
         },
         {
           "id": "Peca386",
-          "name": "Fundo",
+          "name": "P17_Fundo012_386",
           "dimensions": [
             1964.0,
             514.0,
@@ -17270,7 +17104,7 @@ const FABRICATION_DATA = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17282,13 +17116,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca386",
-              "name": "Fundo"
+              "name": "P17_Fundo012_386"
             }
           ]
         },
         {
           "id": "Peca387",
-          "name": "Base",
+          "name": "P17_Base010_387",
           "dimensions": [
             1964.0,
             312.0,
@@ -17308,13 +17142,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca387",
-              "name": "Base"
+              "name": "P17_Base010_387"
             }
           ]
         },
         {
           "id": "Peca388",
-          "name": "Tampo",
+          "name": "P17_Tampo008_388",
           "dimensions": [
             1964.0,
             312.0,
@@ -17322,7 +17156,7 @@ const FABRICATION_DATA = {
           ],
           "thickness": 18.0,
           "rectangular": true,
-          "cadMaterial": "Off-white fosco (referência CAD)",
+          "cadMaterial": "whiteTX",
           "specifiedMaterial": "Branco TX — duas faces da mesma peça",
           "materialEvidence": "ferramentas/site/fabrication/Decisao_acabamentos_R13.md; decisão expressa de Elias em25/10/2026. Evidência anterior preservada em sourceEvidence e auditoria por ID.",
           "finishComplete": true,
@@ -17334,7 +17168,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca388",
-              "name": "Tampo"
+              "name": "P17_Tampo008_388"
             }
           ]
         },
@@ -17499,7 +17333,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca396",
-          "name": "Fundo",
+          "name": "P18_Fundo013_396",
           "dimensions": [
             564.0,
             509.0,
@@ -18341,7 +18175,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca396",
-          "name": "Fundo",
+          "name": "P18_Fundo013_396",
           "dimensions": [
             564.0,
             509.0,
@@ -18361,7 +18195,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca396",
-              "name": "Fundo"
+              "name": "P18_Fundo013_396"
             }
           ]
         },
@@ -18614,7 +18448,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca400",
-          "name": "Lateral direita",
+          "name": "P19_Lateral_direita030_400",
           "dimensions": [
             750.0,
             126.0,
@@ -18631,7 +18465,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca401",
-          "name": "Lateral esquerda",
+          "name": "P19_Lateral_esquerda014_401",
           "dimensions": [
             750.0,
             126.0,
@@ -18648,7 +18482,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca402",
-          "name": "Fundo",
+          "name": "P19_Fundo014_402",
           "dimensions": [
             714.0,
             564.0,
@@ -18665,7 +18499,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca403",
-          "name": "Base",
+          "name": "P19_Base012_403",
           "dimensions": [
             564.0,
             108.0,
@@ -18682,7 +18516,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca404",
-          "name": "Tampo",
+          "name": "P19_Tampo009_404",
           "dimensions": [
             564.0,
             108.0,
@@ -19726,7 +19560,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca400",
-          "name": "Lateral direita",
+          "name": "P19_Lateral_direita030_400",
           "dimensions": [
             750.0,
             126.0,
@@ -19746,13 +19580,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca400",
-              "name": "Lateral direita"
+              "name": "P19_Lateral_direita030_400"
             }
           ]
         },
         {
           "id": "Peca401",
-          "name": "Lateral esquerda",
+          "name": "P19_Lateral_esquerda014_401",
           "dimensions": [
             750.0,
             126.0,
@@ -19772,13 +19606,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca401",
-              "name": "Lateral esquerda"
+              "name": "P19_Lateral_esquerda014_401"
             }
           ]
         },
         {
           "id": "Peca402",
-          "name": "Fundo",
+          "name": "P19_Fundo014_402",
           "dimensions": [
             714.0,
             564.0,
@@ -19798,13 +19632,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca402",
-              "name": "Fundo"
+              "name": "P19_Fundo014_402"
             }
           ]
         },
         {
           "id": "Peca403",
-          "name": "Base",
+          "name": "P19_Base012_403",
           "dimensions": [
             564.0,
             108.0,
@@ -19824,13 +19658,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca403",
-              "name": "Base"
+              "name": "P19_Base012_403"
             }
           ]
         },
         {
           "id": "Peca404",
-          "name": "Tampo",
+          "name": "P19_Tampo009_404",
           "dimensions": [
             564.0,
             108.0,
@@ -19850,7 +19684,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca404",
-              "name": "Tampo"
+              "name": "P19_Tampo009_404"
             }
           ]
         },
@@ -19953,7 +19787,7 @@ const FABRICATION_DATA = {
       "panels": [
         {
           "id": "Peca407",
-          "name": "Lateral esquerda",
+          "name": "P20_Lateral_esquerda015_407",
           "dimensions": [
             450.0,
             400.0,
@@ -19970,7 +19804,7 @@ const FABRICATION_DATA = {
         },
         {
           "id": "Peca408",
-          "name": "Fundo",
+          "name": "P20_Fundo015_408",
           "dimensions": [
             1764.0,
             382.0,
@@ -20663,7 +20497,7 @@ const FABRICATION_DATA = {
       "panelGroups": [
         {
           "id": "Peca407",
-          "name": "Lateral esquerda",
+          "name": "P20_Lateral_esquerda015_407",
           "dimensions": [
             450.0,
             400.0,
@@ -20683,13 +20517,13 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca407",
-              "name": "Lateral esquerda"
+              "name": "P20_Lateral_esquerda015_407"
             }
           ]
         },
         {
           "id": "Peca408",
-          "name": "Fundo",
+          "name": "P20_Fundo015_408",
           "dimensions": [
             1764.0,
             382.0,
@@ -20709,7 +20543,7 @@ const FABRICATION_DATA = {
           "members": [
             {
               "id": "Peca408",
-              "name": "Fundo"
+              "name": "P20_Fundo015_408"
             }
           ]
         },

@@ -1,5 +1,17 @@
 # P16 — movimento das gavetas e estabilidade da bancada
 
+## Corrediças laterais vigentes — 02/11/2026
+
+Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”.
+
+Nove caixas ajustadas para folga nominal de 12,7 mm por lado: P01 (4) 343→329,6 mm; P06 (3) 571→557,6 mm; P16 (2) 352→338,6 mm. Frentes decorativas, vãos e espessuras preservados; fundos/travessas acompanham. Bandejas G2 recentradas 7 mm, sem mudar dimensões.
+
+Ferragem lateral com amortecimento representada por três estágios simplificados: fixo no armário, intermediário a meio curso e móvel na gaveta. Cursos existentes de 500 mm (P01/P06) e 400 mm (P16) mantidos; produto comercial, furação, retirada e capacidade permanecem pendentes. Guias/engates inferiores anteriores ocultos, sem apagar objetos.
+
+No P01, `ExtensaoEfetiva` impede o avanço visual enquanto a porta cobre a frente; a abertura solicitada continua em `Extensao`. É condição do simulador, não trava física. Fechar a gaveta antes de deslocar a porta. Geladeira salva fechada.
+
+## Estudos anteriores — não usar como montagem vigente
+
 25/10/2026 · avanço T05/T02 sobre a [proposta de marcenaria da bancada](../../Bancada/README.md). **O curso nominal das gavetas cabe na proposta; a estabilidade exige ligação positiva e definição da massa real do tampo.** Análise separada, sem incorporar os painéis, alterar a R51 ou perder movimentos/armazenamento.
 
 ![Planta dos cursos e apoios](Planta_movimento_apoios.png)

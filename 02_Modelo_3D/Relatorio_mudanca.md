@@ -1,124 +1,227 @@
 # Relatório de mudança do modelo
 
-Gerado por `verificar_modelo.py` em 02/11/2026 01:21. Revisão `R55`. SHA256 `abf6c2eb22f4` → `0d9e16fc47ff`.
+Gerado por `verificar_modelo.py` em 02/11/2026 20:46. Revisão `R55`. SHA256 `0d9e16fc47ff` → `4a9026956aa4`.
 
-**Aprovação de Elias:** Elias, 02/11/2026: aprovo deixa como documento principal
+**Aprovação de Elias:** Elias, 02/11/2026: sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm
 
 ## Resumo
 
 | | Base anterior | Agora |
 |---|---:|---:|
-| Objetos | 6038 | 6149 |
-| Expressões | 8072 | 8239 |
-| Formas ativas | 1143 | 1199 |
+| Objetos | 6149 | 6221 |
+| Expressões | 8239 | 8279 |
+| Formas ativas | 1199 | 1207 |
 | Peças com geometria própria inválida | 0 | 0 |
-| Contêineres com forma montada inválida (informativo) | 14 | 14 |
+| Contêineres com forma montada inválida (informativo) | 14 | 10 |
 | Cenários de movimento | 106 | 106 |
 
-## Objetos novos (111)
+## Objetos novos (72)
 
-- `IB6S_Controles` Geladeira — abrir refrigerador / freezer
-- `IB6S_Corpo` IB6S — corpo fixo
-- `IB6S_Pega_Freezer` IB6S — pega embutida Freezer
-- `IB6S_Pega_Refrigerador` IB6S — pega embutida Refrigerador
-- `IB6S_Porta_Freezer` IB6S — porta Freezer
-- `IB6S_Porta_Refrigerador` IB6S — porta Refrigerador
-- `IB6S_Visual` Geladeira IB6S — aparencia e portas
-- `LGVC4_Aro` LG VC4 — aro da porta
-- `LGVC4_Controles` Lava e seca — abrir porta
-- `LGVC4_Corpo` LG VC4 — corpo fixo com abertura
-- `LGVC4_GavetaSabao` LG VC4 — frente do dispenser
-- `LGVC4_Painel` LG VC4 — comandos
-- `LGVC4_Seletor` LG VC4 — seletor
-- `LGVC4_Vidro` LG VC4 — vidro da porta
-- `LGVC4_Visual` Lava e seca LG VC4 — aparencia e porta
-- `ME23P_Comandos` ME23P — coluna de comandos
-- `ME23P_Corpo` ME23P — corpo
-- `ME23P_Porta` ME23P — moldura da porta
-- `ME23P_Tecla00` ME23P — tecla visual
-- `ME23P_Tecla01` ME23P — tecla visual001
-- `ME23P_Tecla02` ME23P — tecla visual002
-- `ME23P_Tecla10` ME23P — tecla visual003
-- `ME23P_Tecla11` ME23P — tecla visual004
-- `ME23P_Tecla12` ME23P — tecla visual005
-- `ME23P_Tecla20` ME23P — tecla visual006
-- `ME23P_Tecla21` ME23P — tecla visual007
-- `ME23P_Tecla22` ME23P — tecla visual008
-- `ME23P_Tecla30` ME23P — tecla visual009
-- `ME23P_Tecla31` ME23P — tecla visual010
-- `ME23P_Tecla32` ME23P — tecla visual011
-- `ME23P_Vidro` ME23P — vidro frontal
-- `ME23P_Visual` Micro-ondas Electrolux ME23P
-- `P07_Faixa_Superior_Forno` P07 — faixa frontal acima da grelha do forno
-- `PE12G_Bandeja` PE12G — bandeja removivel
-- `PE12G_Bica` PE12G — bica
-- `PE12G_Comandos` PE12G — painel frontal
-- `PE12G_Corpo` PE12G — corpo grafite e rebaixo
-- `PE12G_Tecla0` PE12G — selecao temperatura
-- `PE12G_Tecla1` PE12G — selecao temperatura001
-- `PE12G_Tecla2` PE12G — selecao temperatura002
-- … e mais 71
+- `Amortecedor_Gaveta001_0` Amortecedor lateral (simbolico) - Gaveta de roupa002
+- `Amortecedor_Gaveta001_1` Amortecedor lateral (simbolico) - Gaveta de roupa003
+- `Amortecedor_Gaveta002_0` Amortecedor lateral (simbolico) - Gaveta de roupa004
+- `Amortecedor_Gaveta002_1` Amortecedor lateral (simbolico) - Gaveta de roupa005
+- `Amortecedor_Gaveta003_0` Amortecedor lateral (simbolico) - Gaveta de roupa006
+- `Amortecedor_Gaveta003_1` Amortecedor lateral (simbolico) - Gaveta de roupa007
+- `Amortecedor_Gaveta004_0` Amortecedor lateral (simbolico) - G3 · mantimentos
+- `Amortecedor_Gaveta004_1` Amortecedor lateral (simbolico) - G3 · mantimentos001
+- `Amortecedor_Gaveta005_0` Amortecedor lateral (simbolico) - G2 · utensílios
+- `Amortecedor_Gaveta005_1` Amortecedor lateral (simbolico) - G2 · utensílios001
+- `Amortecedor_Gaveta006_0` Amortecedor lateral (simbolico) - G1 · talheres
+- `Amortecedor_Gaveta006_1` Amortecedor lateral (simbolico) - G1 · talheres001
+- `Amortecedor_Gaveta008_0` Amortecedor lateral (simbolico) - Gaveta escritório 1
+- `Amortecedor_Gaveta008_1` Amortecedor lateral (simbolico) - Gaveta escritório 001
+- `Amortecedor_Gaveta009_0` Amortecedor lateral (simbolico) - Gaveta escritório 2
+- `Amortecedor_Gaveta009_1` Amortecedor lateral (simbolico) - Gaveta escritório 002
+- `Amortecedor_Gaveta_0` Amortecedor lateral (simbolico) - Gaveta de roupa
+- `Amortecedor_Gaveta_1` Amortecedor lateral (simbolico) - Gaveta de roupa001
+- `Corredica_Gaveta001_0_Fixo` Gaveta de roupa001 | lateral E | Fixo (visual)
+- `Corredica_Gaveta001_0_Intermediario` Gaveta de roupa001 | lateral E | Intermediario (visual)
+- `Corredica_Gaveta001_0_Movel` Gaveta de roupa001 | lateral E | Movel (visual)
+- `Corredica_Gaveta001_1_Fixo` Gaveta de roupa001 | lateral D | Fixo (visual)
+- `Corredica_Gaveta001_1_Intermediario` Gaveta de roupa001 | lateral D | Intermediario (visual)
+- `Corredica_Gaveta001_1_Movel` Gaveta de roupa001 | lateral D | Movel (visual)
+- `Corredica_Gaveta002_0_Fixo` Gaveta de roupa002 | lateral E | Fixo (visual)
+- `Corredica_Gaveta002_0_Intermediario` Gaveta de roupa002 | lateral E | Intermediario (visual)
+- `Corredica_Gaveta002_0_Movel` Gaveta de roupa002 | lateral E | Movel (visual)
+- `Corredica_Gaveta002_1_Fixo` Gaveta de roupa002 | lateral D | Fixo (visual)
+- `Corredica_Gaveta002_1_Intermediario` Gaveta de roupa002 | lateral D | Intermediario (visual)
+- `Corredica_Gaveta002_1_Movel` Gaveta de roupa002 | lateral D | Movel (visual)
+- `Corredica_Gaveta003_0_Fixo` Gaveta de roupa003 | lateral E | Fixo (visual)
+- `Corredica_Gaveta003_0_Intermediario` Gaveta de roupa003 | lateral E | Intermediario (visual)
+- `Corredica_Gaveta003_0_Movel` Gaveta de roupa003 | lateral E | Movel (visual)
+- `Corredica_Gaveta003_1_Fixo` Gaveta de roupa003 | lateral D | Fixo (visual)
+- `Corredica_Gaveta003_1_Intermediario` Gaveta de roupa003 | lateral D | Intermediario (visual)
+- `Corredica_Gaveta003_1_Movel` Gaveta de roupa003 | lateral D | Movel (visual)
+- `Corredica_Gaveta004_0_Fixo` G3 · mantimentos | lateral E | Fixo (visual)
+- `Corredica_Gaveta004_0_Intermediario` G3 · mantimentos | lateral E | Intermediario (visual)
+- `Corredica_Gaveta004_0_Movel` G3 · mantimentos | lateral E | Movel (visual)
+- `Corredica_Gaveta004_1_Fixo` G3 · mantimentos | lateral D | Fixo (visual)
+- … e mais 32
 
-## Posição alterada (4)
+## Posição alterada (22)
 
-- `Folha_Banheiro`: (-20, 0, 0) → (2850, 4050, 0) (Δ 4963.8 mm)
-- `Folha_Escritorio`: (2640, 2150, 0) → (2650, 2150, 0) (Δ 10.0 mm)
-- `Peca136`: (2355, 6780, 920) → (2585, 6890, 920) (Δ 255.0 mm)
-- `Peca137`: (2365, 6770, 1330) → (2585, 6720, 1330) (Δ 225.6 mm)
+- `BandejaG2R001`: (-248, 36, 47) → (-255, 36, 47) (Δ 7.0 mm)
+- `BandejaG2R06`: (-43, 36, 47) → (-50, 36, 47) (Δ 7.0 mm)
+- `GavetaComumR001`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR012`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR013`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR024`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR025`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR036`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR037`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR048`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR049`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR060`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR061`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR072`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR073`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR08`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR084`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `GavetaComumR085`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
+- `IB6S_Pega_Refrigerador`: (1551, 5551.5, 0) → (950, 6152.5, 0) (Δ 849.9 mm)
+- `IB6S_Porta_Refrigerador`: (1551, 5551.5, 0) → (950, 6152.5, 0) (Δ 849.9 mm)
+- `MontagemG2R017`: (0, 0, 0) → (-6.7, 0, 0) (Δ 6.7 mm)
+- `MontagemG2R018`: (0, 0, 0) → (6.7, 0, 0) (Δ 6.7 mm)
 
-## Geometria alterada (17)
+## Geometria alterada (78)
 
-- `Ambiente_banho`: volume 326872280.0 → 240726643.642 mm³
-- `Ambiente_cozinha`: volume 1157152045.0 → 248277330.0 mm³
-- `Ambiente_lavanderia`: volume 450052000.0 → 105815200.0 mm³
-- `ApartamentoR34`: volume 18095522844.492 → 16767903527.229 mm³
-- `BuildingPart`: volume 9907821960.0 → 9905097960.0 mm³
-- `Elementos_Banho`: volume 326872280.0 → 240726643.642 mm³
-- `Elementos_Cozinha`: volume 1157152045.0 → 248277330.0 mm³
-- `Elementos_Lavanderia`: volume 450052000.0 → 105815200.0 mm³
-- `Folha_Banheiro`: volume 29400000.0 → 29400000.0 mm³
-- `Folha_Escritorio`: volume 33600000.0 → 33600000.0 mm³
-- `Janela_Escritorio`: volume 22280000.0 → 20948000.0 mm³
-- `Janela_Quarto`: volume 23080000.0 → 21688000.0 mm³
-- `Modulo006`: volume 33421181.734 → 34615562.539 mm³
-- `Moveis`: volume 1386425450.85 → 1387619840.884 mm³
-- `P07`: volume 33421181.734 → 34615562.539 mm³
-- `Peca136`: volume 172000.0 → 172000.0 mm³
-- `Peca137`: volume 68000.0 → 68000.0 mm³
+- `AcessoControleR006`: volume 7864766.082 → 7652138.923 mm³
+- `AcessoControleR008`: volume 4285164.034 → 4092587.923 mm³
+- `AcessoControleR009`: volume 4155072.036 → 3964988.323 mm³
+- `BandejaG2R001`: volume 10329970.0 → 10329970.0 mm³
+- `BandejaG2R06`: volume 4260760.0 → 4260760.0 mm³
+- `Gaveta`: volume 5472154.098 → 5251218.923 mm³
+- `Gaveta001`: volume 5395906.095 → 5174970.923 mm³
+- `Gaveta002`: volume 5472154.098 → 5251218.923 mm³
+- `Gaveta003`: volume 5395906.095 → 5174970.923 mm³
+- `Gaveta004`: volume 17453826.348 → 17149810.923 mm³
+- `Gaveta005`: volume 23084888.435 → 22863927.049 mm³
+- `Gaveta006`: volume 7864766.082 → 7652138.923 mm³
+- `Gaveta008`: volume 4285164.034 → 4092587.923 mm³
+- `Gaveta009`: volume 4155072.036 → 3964988.323 mm³
+- `GavetaComumR001`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR002`: volume 2373484.513 → 2274994.513 mm³
+- `GavetaComumR003`: volume 342735.0 → 328062.0 mm³
+- `GavetaComumR004`: volume 365075.062 → 349423.862 mm³
+- `GavetaComumR012`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR013`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR014`: volume 2373484.513 → 2274994.513 mm³
+- `GavetaComumR015`: volume 342735.0 → 328062.0 mm³
+- `GavetaComumR016`: volume 365075.062 → 349423.862 mm³
+- `GavetaComumR024`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR025`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR026`: volume 2373484.513 → 2274994.513 mm³
+- `GavetaComumR027`: volume 342735.0 → 328062.0 mm³
+- `GavetaComumR028`: volume 365075.062 → 349423.862 mm³
+- `GavetaComumR036`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR037`: volume 698250.0 → 698250.0 mm³
+- `GavetaComumR038`: volume 2373484.513 → 2274994.513 mm³
+- `GavetaComumR039`: volume 342735.0 → 328062.0 mm³
+- `GavetaComumR040`: volume 365075.062 → 349423.862 mm³
+- `GavetaComumR048`: volume 2168250.0 → 2168250.0 mm³
+- `GavetaComumR049`: volume 2168250.0 → 2168250.0 mm³
+- `GavetaComumR050`: volume 4049284.513 → 3950794.513 mm³
+- `GavetaComumR051`: volume 2215395.0 → 2160522.0 mm³
+- `GavetaComumR052`: volume 2362579.062 → 2304047.862 mm³
+- `GavetaComumR060`: volume 551250.0 → 551250.0 mm³
+- `GavetaComumR061`: volume 551250.0 → 551250.0 mm³
+- … e mais 38
 
-## Aparência alterada (13)
+## Aparência alterada (64)
 
-- `FaixaQuinaBR04`: cor EDF2F3 → 7BA2C4, transparência 0 → 0%
-- `FrenteSimplesR001`: cor EDF2F3 → 7BA2C4, transparência 0 → 0%
-- `Peca138`: cor B5B5AE → B5B5AE, transparência 0 → 0%
-- `Peca140`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
-- `Peca152`: cor B5B5AE → B5B5AE, transparência 0 → 0%
-- `Peca154`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
-- `Peca190`: cor E1EAEE → E1EAEE, transparência 0 → 0%
-- `Peca351`: cor 2E2D28 → 2E2D28, transparência 0 → 0%
-- `Peca384`: cor EDF2F3 → E1EAEE, transparência 0 → 0%
-- `Peca386`: cor E1EAEE → EDF2F3, transparência 0 → 0%
-- `Peca388`: cor E1EAEE → EDF2F3, transparência 0 → 0%
-- `Persiana_Integrada_Escritorio`: cor E8EDF0 → E8EDF0, transparência 0 → 0%
-- `Persiana_Integrada_Quarto`: cor E8EDF0 → E8EDF0, transparência 0 → 0%
+- `GavetaComumR006`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR007`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR008`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR009`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR010`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR011`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR018`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR019`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR020`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR021`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR022`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR023`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR030`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR031`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR032`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR033`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR034`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR035`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR042`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR043`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR044`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR045`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR046`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR047`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR054`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR055`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR056`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR057`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR058`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR059`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR066`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR067`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR068`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR069`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR070`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR071`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR078`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR079`: cor 146BF2 → 146BF2, transparência 0 → 0%
+- `GavetaComumR080`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- `GavetaComumR081`: cor BDB8B3 → BDB8B3, transparência 0 → 0%
+- … e mais 24
 
-## Visibilidade alterada (8)
+## Visibilidade alterada (64)
 
-- `Peca138`: visível → oculto
-- `Peca140`: visível → oculto
-- `Peca152`: visível → oculto
-- `Peca154`: visível → oculto
-- `Peca190`: visível → oculto
-- `Peca351`: visível → oculto
-- `Persiana_Integrada_Escritorio`: visível → oculto
-- `Persiana_Integrada_Quarto`: visível → oculto
+- `GavetaComumR006`: visível → oculto
+- `GavetaComumR007`: visível → oculto
+- `GavetaComumR008`: visível → oculto
+- `GavetaComumR009`: visível → oculto
+- `GavetaComumR010`: visível → oculto
+- `GavetaComumR011`: visível → oculto
+- `GavetaComumR018`: visível → oculto
+- `GavetaComumR019`: visível → oculto
+- `GavetaComumR020`: visível → oculto
+- `GavetaComumR021`: visível → oculto
+- `GavetaComumR022`: visível → oculto
+- `GavetaComumR023`: visível → oculto
+- `GavetaComumR030`: visível → oculto
+- `GavetaComumR031`: visível → oculto
+- `GavetaComumR032`: visível → oculto
+- `GavetaComumR033`: visível → oculto
+- `GavetaComumR034`: visível → oculto
+- `GavetaComumR035`: visível → oculto
+- `GavetaComumR042`: visível → oculto
+- `GavetaComumR043`: visível → oculto
+- `GavetaComumR044`: visível → oculto
+- `GavetaComumR045`: visível → oculto
+- `GavetaComumR046`: visível → oculto
+- `GavetaComumR047`: visível → oculto
+- `GavetaComumR054`: visível → oculto
+- `GavetaComumR055`: visível → oculto
+- `GavetaComumR056`: visível → oculto
+- `GavetaComumR057`: visível → oculto
+- `GavetaComumR058`: visível → oculto
+- `GavetaComumR059`: visível → oculto
+- `GavetaComumR066`: visível → oculto
+- `GavetaComumR067`: visível → oculto
+- `GavetaComumR068`: visível → oculto
+- `GavetaComumR069`: visível → oculto
+- `GavetaComumR070`: visível → oculto
+- `GavetaComumR071`: visível → oculto
+- `GavetaComumR078`: visível → oculto
+- `GavetaComumR079`: visível → oculto
+- `GavetaComumR080`: visível → oculto
+- `GavetaComumR081`: visível → oculto
+- … e mais 24
 
 ## Expressões alteradas (4)
 
-- `Folha_Banheiro`: 6 → 3 expressões
-- `Folha_Entrada`: 6 → 3 expressões
-- `Folha_Escritorio`: 6 → 3 expressões
-- `Folha_Quarto`: 6 → 3 expressões
+- `Gaveta`: 5 → 6 expressões
+- `Gaveta001`: 5 → 6 expressões
+- `Gaveta002`: 5 → 6 expressões
+- `Gaveta003`: 5 → 6 expressões
 
 ## Como usar
 
