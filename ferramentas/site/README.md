@@ -1,6 +1,6 @@
 # Apartamento interativo — R55 e pacote R30
 
-**Consulta interna:** na ficha de cada módulo, “Medidas internas no desenho” oferece frente/lateral/planta, posição do corte e duas linhas móveis. Cotas em cm vêm da interseção das malhas de chapas com o corte; recortes são respeitados. Frentes e ferragens não entram. Vão geométrico não comprova acesso, fabricação ou folgas de instalação. Pedido: Elias,02/11/2026, nesta conversa.
+**Consulta interna:** na ficha de cada módulo, “Medidas internas no desenho” oferece frente/lateral/planta, posição do corte e duas linhas móveis. Cotas em cm vêm da interseção das malhas de chapas com o corte; recortes são respeitados. Frentes e ferragens não entram. Vão não comprova acesso/folgas reais; consulta aguarda o 3D. Pedido: Elias,02/11/2026, nesta conversa.
 
 **Pia no site:** torneira atrás da cuba (Peca136/137); PE12G com rebaixo, bica, comandos e grelha mais legíveis, detalhes aproximados e envelope 16×42×35 cm preservado. Pedido: Elias,02/11/2026, nesta conversa.
 

@@ -31,7 +31,7 @@ function objectRecord(n,scene=objectScene||nodes){
  // The bed body is explicitly 188 × 128 × 64; pillows are not the product height.
  if(n.id==='bed')box={x:state.headDepth,y:0,z:136,w:188,d:128,h:64};
  if(['bonnie','daiane','fridge','washer','filter','airfryer','microwave','toilet'].includes(n.id)){
-  const points=scene.filter(q=>q.id===n.id&&(q.opacity??1)>.01).flatMap(q=>mesh(q).flatMap(f=>f.p));
+  const points=scene.filter(q=>q.id===n.id&&(q.opacity??1)>.01).flatMap(q=>q.kind==='cad'&&!q.v?[[q.x,q.y,q.z],[q.x+q.w,q.y+q.h,q.z+q.d]]:mesh(q).flatMap(f=>f.p));
   if(points.length){const lo=[0,1,2].map(k=>points.reduce((m,p)=>Math.min(m,p[k]),Infinity)),hi=[0,1,2].map(k=>points.reduce((m,p)=>Math.max(m,p[k]),-Infinity));box={x:lo[0],y:lo[1],z:lo[2],w:hi[0]-lo[0],h:hi[1]-lo[1],d:hi[2]-lo[2]};}
  }
  // Full-height architectural data, independent of the cutaway display height.

@@ -167,3 +167,8 @@ async function browserTest(){
   assert.deepEqual(errors,[]);await page.close();console.log('Navegador '+viewport.width+': 6 cliques, cartões/fichas, capturas, arraste, pinça e busca OK.');
  }}finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
 }
+
+// Product metadata remains usable while web geometry is still loading.
+run('globalThis.pendingGeometry=CAD_DATA.parts.map(p=>[p,p.v,p.t]);CAD_DATA.parts.forEach(p=>{delete p.v;delete p.t;});buildScene();');
+assert.deepEqual(record("n.id==='washer'").box,{x:320,y:0,z:628,w:60,d:62,h:85});
+run('pendingGeometry.forEach(([p,v,t])=>{p.v=v;p.t=t;});buildScene();');

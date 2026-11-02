@@ -33,3 +33,13 @@ for(const m of ctx.data.modules){
  }
 }
 console.log('Internal sections: fixture clearances, holes, open contours, coordinates and 20 native modules OK;',checks,'measured gaps');
+
+
+// A web module may need to fetch its sheet before its DOM exists.
+(async()=>{
+ let resolveSheet,mounts=0;
+ const context={showModule:()=>new Promise(resolve=>{resolveSheet=resolve;}),work:{module:'P01'},CAD_DATA:{modules:[{code:'P01'}],parts:[]},INTERNAL_FRAMES:{P01:[]},InternalMeasures:{panels:()=>{mounts++;return[];}},document:{getElementById:()=>({})},window:{GuedalaWorkshop:{}}};
+ vm.runInNewContext(fs.readFileSync(path.join(__dirname,'src/internal-measures-ui.js'),'utf8'),context);
+ const loading=context.showModule('P01');assert.equal(mounts,0);resolveSheet();await loading;assert.equal(mounts,1);
+ console.log('Deferred web sheet: section mounts after the sheet is ready');
+})().catch(error=>{console.error(error);process.exitCode=1;});

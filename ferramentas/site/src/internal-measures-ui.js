@@ -3,7 +3,11 @@
  const cache=new Map(),cm=n=>(n/10).toLocaleString('pt-BR',{maximumFractionDigits:2}),safe=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function get(code){if(!cache.has(code))cache.set(code,InternalMeasures.panels(CAD_DATA.parts.filter(p=>p.module===code),INTERNAL_FRAMES[code]));return cache.get(code);}
  function mount(code){
-  const host=document.getElementById('selectedInfo'),m=CAD_DATA.modules.find(m=>m.code===code);if(!host||!m||!INTERNAL_FRAMES[code])return;
+  const host=document.getElementById('selectedInfo'),m=CAD_DATA.modules.find(m=>m.code===code);if(!host||!m||!INTERNAL_FRAMES[code]||work.module!==code)return;
+  if(window.GUEDALA_WEB&&!GUEDALA_WEB.geometryReady){
+   const pending=document.createElement('details');pending.className='work-accordion internal-consult';pending.innerHTML='<summary>Medidas internas no desenho</summary><p role="status">Aguarde o carregamento do modelo 3D para consultar os vãos.</p>';host.querySelector('.work-measures')?.insertAdjacentElement('afterend',pending);
+   window.addEventListener('guedala-geometry-ready',()=>{if(host.contains(pending)){const opened=pending.open;pending.remove();mount(code);if(opened)host.querySelector('.internal-consult').open=true;}},{once:true});return;
+  }
   const panels=get(code);if(!panels.length)return;const box=InternalMeasures.bounds(panels);
   const details=document.createElement('details');details.className='work-accordion internal-consult';details.innerHTML=`<summary>Medidas internas no desenho</summary><p>Escolha a vista e toque no desenho para medir entre as chapas. As cotas verdes mostram os vãos nas duas linhas de consulta.</p><button type="button" class="internal-expand">Abrir consulta maior</button><div class="internal-toolbar"><label>Vista<select data-internal="view"><option value="front">Frente</option><option value="side">Lateral</option><option value="top">Planta</option></select></label><label>Desenho<select data-internal="zoom"><option value="1">Ajustar à tela</option><option value="1.6">Ampliar 160%</option><option value="2">Ampliar 200%</option></select></label></div><div class="internal-sliders"></div><div class="internal-scroll" tabindex="0" aria-label="Desenho com vãos internos; ao ampliar, role para os lados"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corte das chapas e cotas dos vãos internos" viewBox="0 0 720 600"></svg></div><div class="internal-values" aria-live="polite"></div><p class="work-note">Medidas do projeto, calculadas entre faces neste corte. Frentes retiradas para consulta. Ferragens e peças sem classificação de chapa não entram; um vão cotado não garante acesso ou espaço livre para uso. Confira no local e antes de fabricar.</p>`;
   host.querySelector('.work-measures')?.insertAdjacentElement('afterend',details);
@@ -39,6 +43,6 @@
   svg.onclick=e=>{if(!frame)return;const p=svg.createSVGPoint();p.x=e.clientX;p.y=e.clientY;const q=p.matrixTransform(svg.getScreenCTM().inverse());probes=[Math.max(.001,Math.min(.999,(q.x-frame.ox)/(frame.w*frame.scale))),Math.max(.001,Math.min(.999,(600-frame.oy-q.y)/(frame.h*frame.scale)))];sliders.querySelector('[data-probe="a"]').value=probes[0]*1000;sliders.querySelector('[data-probe="b"]').value=probes[1]*1000;draw();};
   details.addEventListener('toggle',()=>{if(details.open&&!svg.childElementCount)reset();});
  }
- const previous=showModule;showModule=function(code){const result=previous(code);mount(code);return result;};
+ const previous=showModule;showModule=function(code){const result=previous(code);if(result&&typeof result.then==='function')return result.then(value=>{mount(code);return value;});mount(code);return result;};
  window.GuedalaWorkshop.showModule=showModule;
 })();
