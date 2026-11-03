@@ -113,7 +113,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 **CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
-Busca por sinônimos local; publicação pendente.
+Busca por sinônimos oficial (Elias,02/11/26).
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
