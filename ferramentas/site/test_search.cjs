@@ -20,3 +20,31 @@ const ui=read('src/search-ui.js');assert(ui.includes('Nenhum resultado'));assert
 console.log('Busca: acentos, caixa, tipos, P01–P20, sem resultado e rotas até cada registro');
 
 for(const term of ['Detalhamento pendente','Responsável a definir','Opção para comparar'])assert(api.find(term,index).some(r=>r.kind==='glossary'),term);
+
+// Casos de uso: o nome comercial sozinho não descreve o que o aparelho faz.
+for(const query of ['máquina de lavar','maquina de lavar','lavar','lava e seca','lava','lg','lavadora','secadora','LGVC4','VC4','roupa lavar','máquinas de lavar','lavar na lavanderia']){
+ const results=api.find(query,index);
+ assert.equal(results[0]?.key,'choice:washer',query+' deve priorizar a máquina');
+}
+for(const [query,id] of [
+ ['refrigerador','fridge'],['fogão','cooktop'],['fritadeira sem óleo','airfryer'],
+ ['microondas','microwave'],['máquina de café','coffeemaker'],['filtro de água','filter'],
+ ['aquecedor a gás','heater'],['privada','toilet'],['vaso sanitário','toilet'],
+ ['chuveiro','shower'],['torneira banheiro','bath tap'],['espelheira','bathmirror'],
+ ['televisão sala','tv50'],['televisor escritório','tv43'],['caixa de som','soundbar'],
+ ['playstation','ps5'],['escrivaninha','desk'],['roupeiro','wardrobe'],
+ ['cesto roupa suja','laundrybasket'],['lixo reciclável','recycling'],
+ ['lâmpada cozinha','kitchenlight'],['tomadas lavanderia','laundrypower']
+])assert(api.find(query,index).some(r=>r.key==='choice:'+id),query+' deve encontrar '+id);
+assert(api.find('preços',index).some(r=>r.kind==='document'),'Sinônimos também nos documentos');
+assert.equal(api.find('de e para',index).length,0,'Preposições sozinhas não buscam tudo');
+assert.equal(api.find('máquina de lavar inexistente',index).length,0,'Não descarta palavras desconhecidas');
+assert.equal(api.find('P01',index)[0].key,'module:P01','Código exato preservado');
+const dataContext=vm.createContext({});vm.runInContext(read('src/data.js'),dataContext);
+const items=JSON.parse(vm.runInContext('JSON.stringify(ITEMS)',dataContext));
+const aliases=JSON.parse(read('search_aliases.json'));
+assert.deepEqual(Object.keys(aliases).sort(),items.map(r=>r.id).sort(),'Todo item deve ter nomes comuns revisados');
+for(const item of items){
+ assert(api.find(item.name,index,index.length).some(r=>r.key==='choice:'+item.id),'Nome completo: '+item.id);
+}
+console.log('Busca ampliada: nomes comuns de todos os itens, sinônimos, plurais, contexto e prioridade');
