@@ -48,3 +48,23 @@ for(const item of items){
  assert(api.find(item.name,index,index.length).some(r=>r.key==='choice:'+item.id),'Nome completo: '+item.id);
 }
 console.log('Busca ampliada: nomes comuns de todos os itens, sinônimos, plurais, contexto e prioridade');
+
+for(const [query,id] of [
+ ['geladera','fridge'],['geladiera','fridge'],['geladdeira','fridge'],['geladejra','fridge'],
+ ['geladera electrolux','fridge'],['microondas','microwave'],['microondsa','microwave'],
+ ['microndas','microwave'],['maquina de lavra','washer'],['purificadr','filter'],
+ ['escrivanina','desk'],['refrijerador','fridge']
+])assert(api.find(query,index).some(r=>r.key==='choice:'+id),query+' deve encontrar '+id);
+assert.equal(api.find('geladera',index)[0]?.key,'choice:fridge');
+const sample=[
+ {key:'choice:mesa',kind:'choice',id:'mesa',title:'Mesa',tokens:''},
+ {key:'choice:meta',kind:'choice',id:'meta',title:'Meta',tokens:''},
+ {key:'module:P01',kind:'module',id:'P01',title:'P01',tokens:''}
+];
+assert.equal(api.find('meta',sample)[0]?.key,'choice:meta','Exato antes de palavra parecida');
+assert.equal(api.find('P02',sample).length,0,'Não corrige código para outro móvel');
+assert.equal(api.find('P0I',sample).length,0,'Não corrige identificadores alfanuméricos');
+assert.equal(api.find('5411',index).some(r=>r.id==='5410'),false,'Não troca número de norma');
+assert.equal(api.find('gldrxzz',index).length,0,'Não aproxima palavra distante');
+assert.equal(api.find('geladera xzqwx',index).length,0,'Todas as palavras continuam necessárias');
+console.log('Erros de digitação: omissão, repetição, substituição, inversão; exatos e códigos preservados');
