@@ -115,16 +115,10 @@ process.stdout.write(vm.runInContext('JSON.stringify({cases:conferencia,heights:
         'A diretriz de chegar ao teto não define arremate, tolerância de montagem ou espaço de instalações.',
         'Registrar topo do móvel, teto acabado e folga/arremate de montagem por ambiente antes de liberar corte.',
         '04_Moveis/README.md|'+height_source)
-    priorities = list(csv.DictReader((ROOT/'03_Ambientes/Conforto_ambiental/Prioridades.csv').open(encoding='utf-8-sig'),delimiter=';'))
-    for p in priorities[:2]:
-        add('CF-'+p['ordem'],'pe-direito e conforto','todos','Prioridade de conforto existente',p['solucao'],'',
-            'estimativa de estudo','campo/RT',p['condicoes'],
-            'Conferir operação das janelas/persianas, ruído, chuva e ventilação permanente antes de adotar rotina; não pressupor desempenho térmico medido.',
-            '03_Ambientes/Conforto_ambiental/README.md|03_Ambientes/Conforto_ambiental/Prioridades.csv')
     add('CF-L','pe-direito e conforto','cozinha/escritorio','Luz natural e artificial','pendente','','estimativa de estudo','campo/RT',
-        'Cozinha sem janela própria e escritório aparecem como pontos de atenção nos estudos condicionais. Não é ensaio de desempenho.',
+        'Cozinha sem janela própria e escritório aparecem como pontos de atenção na planta. Não é ensaio de desempenho.',
         'Conferir obstruções, área livre dos vãos e iluminação de tarefa; preservar comandos próprios e validar a instalação.',
-        '03_Ambientes/Conforto_ambiental/README.md')
+        '03_Ambientes/Iluminacao/README.md')
     add('N-1','fontes e criterio','todos','Portaria 725 FAR/FDS','comparacao','','documental','aplicabilidade pendente',
         'Mínimos do programa subsidiado não são cotas físicas e não se estendem automaticamente a todas as modalidades.',
         'Conferir enquadramento, licenciamento e normas aplicáveis com RT; preservar a planta oficial ao estudar o layout.',

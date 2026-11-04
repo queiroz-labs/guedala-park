@@ -37,7 +37,7 @@ Histórico de formação abaixo; caminhos externos não são modelos vigentes. A
 
 ## Revisão da base arquitetônica
 
-**Uso:** [37 itens, fontes e proposta](Conferencia_uso.csv); [gerador](../ferramentas/estudos/conferir_uso.py) com `--atualizar --saida <pasta externa>`. Reúne as quatro frentes e as [interfaces arquitetônicas](Revisao_base_arquitetonica.csv). Medidas reais e revisão técnica pendentes.
+**Uso:** [35 itens, fontes e proposta](Conferencia_uso.csv); [gerador](../ferramentas/estudos/conferir_uso.py) com `--atualizar --saida <pasta externa>`. Reúne as quatro frentes e as [interfaces arquitetônicas](Revisao_base_arquitetonica.csv). Medidas reais e revisão técnica pendentes.
 
 **Lavanderia corrigida:** Elias,01/11/2026, “Sim, incorporar essa correção”: 1290×1540 mm; parede 100→170 mm, banheiro 2090×1240 preservado; Loop +15 mm, folga 10 mm. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro) recorta pisos/contornos e ajusta rodapés; [relatório](Relatorio_mudanca.md).
 

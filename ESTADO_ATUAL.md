@@ -32,7 +32,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [encaixe](03_Ambientes/Cozinha/Encaixe_lixeiras.md) +7/+6 cm, LIX=A (Elias27/10/2026, “A”), nominal na R53/site; testar pedal/tampa, passagem, varal e destino da Loop. ZIP não comprova compatibilização nem ensaios.
 
-**Clima:** [parcelas](03_Ambientes/Equipamentos/README.md), TMY8.760h/ASUS condicional/carga pendente; [conforto anual](03_Ambientes/Conforto_ambiental/README.md).
+**Clima:** [parcelas](03_Ambientes/Equipamentos/README.md), TMY8.760h/ASUS condicional/carga pendente.
 
 **Acústica:** [piso, aparelhos e envoltória](03_Ambientes/Acustica/README.md); 29 faces/407 sensibilidades; isolamento real e custos pendentes.
 
@@ -110,7 +110,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Revisão documental:** pranchas/vistas R55 e P07/P16/P20 conciliados; CAD intacto. [Critérios](04_Moveis/Dependencias/README.md).
 
-**CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 37 itens/fontes/ações; campo pendente.
+**CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 35 itens/fontes/ações; campo pendente.
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 Busca: sinônimos e erros de digitação.
