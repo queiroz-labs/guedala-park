@@ -4,7 +4,7 @@ Gavetas: nove pares laterais com amortecimento (Elias,02/11/2026). Recotar ferra
 
 [Comparador de cotações: modelos, cobertura e custo equivalente](Orcamento/Cotacoes/README.md): sem propostas reais; decisão pendente.
 
-## Risco do cronograma — escopo registrado em 29/10/2026
+## Cronograma — escopo registrado em 29/10/2026
 
 Rede: **29 nós, sem ciclos**. P50/P80, probabilidades e caminho crítico global indeterminados: faltam durações e ligações. Zero cenários reais; os 5.000 testes são sintéticos.
 
@@ -67,15 +67,6 @@ Box/pedras exigem medição/gabarito após chaves; pedido antecipado não os eli
 - **Coordenação/RT:** quais durações e predecessores faltam da medição até a mudança, e qual prazo de análise do condomínio? Sem esses dados não há caminho crítico global.
 - **Pedras:** valem 7–10 dias ou 1–2 semanas, e incluem instalação? Não somar as duas referências.
 - **Registro administrativo:** quando o pedido foi enviado e qual retorno foi aceito pelo fornecedor? Não há nova escolha estética para Elias nesta atualização.
-
-Reproduzir: `python -B ferramentas/estudos/cronograma_risco.py --saida ../outputs/Cronograma_risco`. Testar: `python -B ferramentas/estudos/test_cronograma_risco.py` — **14 testes passaram**. JSON: rede/lacunas/fontes; CSV: contas, marcos e escopo. Dados externos, sem informações pessoais.
-
-| Saída externa | SHA256 |
-|---|---|
-| `Cronograma_risco.json` | `3c802b14e2498f0d783fc3da3f2069ec6cda07b790b00442f148e56fb509bdfc` |
-| `Limites_compras.csv` | `c44ef0364846c360a9e8e2d7ebc0473c8cfd3a4ef2e0f6f26ac9918b451acaf7` |
-| `Marcos_cronograma.csv` | `2ec4f10bfca16e027a0372c2510f46981662110a19c022e0a3b654b00b985484` |
-| `Escopo_cronograma.csv` | `5fb99ece96daaceb911e93ff697db3a337170aa20462f90349bcd53b8dedf7b9` |
 
 | Arquivo | Para quê |
 |---|---|
@@ -144,4 +135,3 @@ D06 — Elias, 27/10/2026: "B — adiar só E06/prateleiras, manter E05/TV para 
 
 Conferência final: soma independente das 17 linhas da iluminação = R$ 4.534,55; base comparável R$ 138.742,66; fora da marcenaria R$ 90.101,22 + pacote-alvo R$ 37.000 = R$ 127.101,22. Estado/Roteiro/pontos: 87% documental; retorno comercial pendente.
 
-[Simulação condicional de custo e prazo](Risco/README.md): hipóteses editáveis; orçamento e cronograma preservados.

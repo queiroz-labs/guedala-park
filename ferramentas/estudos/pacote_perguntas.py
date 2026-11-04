@@ -99,7 +99,7 @@ def source_paths():
         '01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md','07_Imovel/Roteiro_dia_das_chaves_R01.md',
         '07_Imovel/Checklist_vistoria_dia_das_chaves.md','05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md']]
     paths += list((ROOT.parent/'outputs/Codex_acustica_envoltoria').glob('*.md'))
-    return sorted({p for p in paths if p.is_file() and 'Perguntas_em_aberto' not in str(p) and '/Risco/' not in p.as_posix()})
+    return sorted({p for p in paths if p.is_file() and 'Perguntas_em_aberto' not in str(p)})
 
 
 def extract():
