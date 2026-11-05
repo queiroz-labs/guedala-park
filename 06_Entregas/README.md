@@ -57,7 +57,7 @@ O pacote publicado anterior permanece R23. Extraia o ZIP R23 inteiro e abra `Gue
 
 | Uso | Abrir | Revisão |
 |---|---|---|
-| Modelo 3D (FreeCAD) | [Guedala_Park_R49_Gavetas_escritorio.FCStd](../02_Modelo_3D/Historico/Gavetas_escritorio/Guedala_Park_R49_Gavetas_escritorio.FCStd) | R49: R48 + gavetas do escritório corrigidas (folga de 7 mm, trava direita espelhada) |
+| Modelo 3D (FreeCAD) | Guedala_Park_R49_Gavetas_escritorio.FCStd (arquivo removido em 04/11/2026; está no git) | R49: R48 + gavetas do escritório corrigidas (folga de 7 mm, trava direita espelhada) |
 | Pacote para o montador | `Compartilhar_R16/Guedala_Park_R16.zip` (somente no PC, fora do Git/site) | R16 |
 | Fichas dos 20 móveis, furação e pendências | [Fichas_fabricacao_R13](Fichas_fabricacao/index.html) (conteúdo R14) | R14 |
 | Planta cotada | [Planta_cotada_R13](Planta_cotada/index.html) | R13 |

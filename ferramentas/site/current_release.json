@@ -125,7 +125,6 @@
       "path": "04_Moveis/Proximas_decisoes/Cinematica/README.md",
       "summary": "Fotografia e verificações numéricas da R52; transformação nominal não certifica mecanismo comercial, resistência ou colisão física.",
       "files": [
-        "04_Moveis/Proximas_decisoes/Cinematica/Extracao.json",
         "04_Moveis/Proximas_decisoes/Cinematica/Snapshot_R52.json",
         "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_nativa_R52.json",
         "04_Moveis/Proximas_decisoes/Cinematica/Verificacao_offline_R52.json"

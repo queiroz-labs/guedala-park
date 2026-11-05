@@ -93,7 +93,6 @@ ASSETS = [
     *[str(Path(RELEASE['cadReadme']).parent/n).replace('\\','/')for n in RELEASE['cadEvidence']],
     R49+'Verificacao_R49.json', R49+'Diferencas_CAD.json',
     LIGHT+'Composicao_CB01.json', LIGHT+'Composicao_CB02.json',
-    '02_Modelo_3D/Historico/Fichas_no_CAD/Guedala_Park_R46_Fichas_R14.FCStd',
     BATH+'Luminarias_selecao_L02.json', BATH+'Verificacao_luminarias_L02.json',
     BATH+'Luminarias_selecao_L01.html',
     BATH+'Luminarias_selecao_L01.json',
