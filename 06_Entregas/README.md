@@ -8,7 +8,6 @@
 
 **Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R55, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
 
-**Ensaios de oficina, 28/10/2026:** [PDF e ZIP](Ensaios_oficina/README.md) com caderno, CSV vazio, verificador e fontes selecionadas. Todos pendentes de execução. Publicação no site autorizada por Elias nesta conversa: “pode fazer o push e atualizar o site com essas infos”.
 
 **Moodboard / pacote R27, 28/10/2026:** [seis pares, painéis 4K e A3](../09_Referencias/README.md), galeria Dia/Noite e ducha à esquerda do vaso no site/especificações. R27 renova o HTML e documentos do ZIP; R26 permanece preservado. CAD R54 intacto. Elias, nesta conversa: “Aprovado, pode commitar e dar push. Publica o site com a galeria Dia/Noite e os PDFs atualizados.”
 

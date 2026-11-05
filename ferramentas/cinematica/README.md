@@ -50,7 +50,7 @@ Ao modificar geometria, controles ou fórmulas no CAD, gerar nova fotografia com
 
 ## Aplicação e limites
 
-A rotina fornece massa/centro de gravidade para estudos com fonte identificada. Na continuidade vigente, usar a consulta R52 acima; não repetir varreduras dos estudos já condicionados a produto/oficina. [P04/P15](../../04_Moveis/P04/Suspensao_P04_P15/README.md) já fornecem referências verificadas e cenários de parede. O mecanismo completo inclui braços de dobradiça com movimentos próprios: não atribuir a posição da frente a todas as massas de ferragem.
+A rotina fornece massa/centro de gravidade para estudos com fonte identificada. Na continuidade vigente, usar a consulta R52 acima; não repetir varreduras dos estudos já condicionados a produto/oficina. P04/P15 já fornecem referências verificadas e cenários de parede. O mecanismo completo inclui braços de dobradiça com movimentos próprios: não atribuir a posição da frente a todas as massas de ferragem.
 
 A rotina não verifica BREP em colisão, resistência, parafusos, tolerâncias, fabricação ou conforto de uso. Massas reais e propriedades dos produtos continuam pendentes nos respectivos estudos. A R51 não foi salva ou animada para esta entrega; nenhum movimento, detalhe ou acabamento foi removido.
 

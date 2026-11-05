@@ -290,12 +290,6 @@
       "ordem": 49
     },
     {
-      "path": "04_Moveis/Aereos_suspensao/README.md",
-      "publico": "tecnico",
-      "titulo_simples": "Ligações e suspensão dos aéreos",
-      "motivo": "Detalhamento e evidências para consulta do projetista."
-    },
-    {
       "path": "04_Moveis/Banco_e_cesto/Fixacao_Southco/Batente_estudo.md",
       "publico": "tecnico",
       "titulo_simples": "Limite de abertura do banco",
@@ -305,12 +299,6 @@
       "path": "04_Moveis/Banco_e_cesto/Fixacao_Southco/Relatorio.html",
       "publico": "tecnico",
       "titulo_simples": "Southco no banco: fixação proposta e limites",
-      "motivo": "Detalhamento e evidências para consulta do projetista."
-    },
-    {
-      "path": "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md",
-      "publico": "tecnico",
-      "titulo_simples": "Matriz dos 20 moveis — consolidacao em 27/10/2026",
       "motivo": "Detalhamento e evidências para consulta do projetista."
     },
     {
@@ -422,21 +410,9 @@
       "motivo": "Detalhamento e evidências para consulta do projetista."
     },
     {
-      "path": "04_Moveis/P04/Suspensao_P04_P15/README.md",
-      "publico": "tecnico",
-      "titulo_simples": "/ — suspensão da caixa inteira e portas abertas",
-      "motivo": "Detalhamento e evidências para consulta do projetista."
-    },
-    {
       "path": "04_Moveis/P12/README.md",
       "publico": "tecnico",
       "titulo_simples": "caixa e fixação na parede acima da geladeira",
-      "motivo": "Detalhamento e evidências para consulta do projetista."
-    },
-    {
-      "path": "04_Moveis/P17/Base_fundo_ligacoes/README.md",
-      "publico": "tecnico",
-      "titulo_simples": "base, fundo e ligações de marcenaria",
       "motivo": "Detalhamento e evidências para consulta do projetista."
     },
     {
@@ -554,12 +530,6 @@
       "path": "06_Entregas/Dossie_marcenaria_R45.html",
       "publico": "tecnico",
       "titulo_simples": "Guia do montador.",
-      "motivo": "Detalhamento e evidências para consulta do projetista."
-    },
-    {
-      "path": "06_Entregas/Ensaios_oficina/index.html",
-      "publico": "tecnico",
-      "titulo_simples": "Ensaios de oficina",
       "motivo": "Detalhamento e evidências para consulta do projetista."
     },
     {
@@ -973,6 +943,12 @@
       "publico": "tecnico",
       "titulo_simples": "Caderno formal A3",
       "motivo": "Documento de apoio já selecionado como anexo; publicar HTML com extensão e apresentação corretas."
+    },
+    {
+      "path": "04_Moveis/Perguntas_para_oficina.md",
+      "publico": "tecnico",
+      "titulo_simples": "Perguntas para oficina, RT e fornecedor",
+      "motivo": "Detalhamento e evidências para consulta do projetista."
     }
   ],
   "padroes": {

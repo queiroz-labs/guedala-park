@@ -31,7 +31,7 @@ class DocumentLibraryTests(unittest.TestCase):
         self.assertTrue(all(d.get('path') for d in visible))
         for d in visible:self.assertNotRegex(d['title'],r'\b(?:R\d+|CB\d+|P\d\d|L\d+|T\d+)\b')
         with (docs.STUDY/'Documentos_antes_depois.csv').open(encoding='utf-8',newline='') as f:rows=list(csv.DictReader(f,delimiter=';'))
-        self.assertEqual(len(rows),89);self.assertEqual(len({r['id'] for r in rows}),89)
+        self.assertEqual(len(rows),86);self.assertEqual(len({r['id'] for r in rows}),86)
         comparison = next(r for r in rows if r['id'] == 'comparacao-r54')
         self.assertTrue(comparison['depois'])
         path = next(d['path'] for d in docs.DOCS if d['id'] == 'comparacao-r54')
@@ -46,7 +46,7 @@ class DocumentLibraryTests(unittest.TestCase):
             self.assertIn('id="'+code+'"',html)
             self.assertIn(code+'-coordenadas.csv',html)
             for p in f['panels']:self.assertIn(p['id'],html)
-        for did in ['p01-p03-ligacoes','p03-estudos','suspensao-p12','suspensao-p17','movento','espelheiro','banco','banco-atual']:
+        for did in ['p01-p03-ligacoes','p03-estudos','suspensao-p12','movento','espelheiro','banco','banco-atual']:
             path=next(d['path'] for d in docs.DOCS if d['id']==did)
             self.assertIn(path,selected_sources(docs.RELEASE,docs.STUDY))
 

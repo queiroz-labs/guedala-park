@@ -38,7 +38,7 @@ Regras para manter a organização: [AGENTS.md](AGENTS.md). Commite cedo, um ass
 | Ler o que cada ambiente precisa ter | [Programa de necessidades R01](01_Programa_e_decisoes/Programa_de_necessidades.md) · [planta mobiliada R02](03_Ambientes/Planta_mobiliada/README.md) |
 | Consultar marcas, modelos e acabamentos | [Caderno de especificações R01](01_Programa_e_decisoes/Caderno_de_especificacoes.md) |
 | Preparar a aprovação da reforma no condomínio | [Rascunho do plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md) |
-| Preparar ensaios de oficina | [Caderno PDF e pacote ZIP](06_Entregas/Ensaios_oficina/README.md) · execução pendente |
+| Perguntas para oficina, RT e fornecedor | [Perguntas](04_Moveis/Perguntas_para_oficina.md) · execução pendente |
 | Pedir orçamento de marcenaria | [Pacote de cotação R01](05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) |
 | Ver tomadas, luzes, água e gás previstos | [Planta de pontos preliminar](03_Ambientes/Planta_pontos/README.md) |
 | Preparar o dia da entrega das chaves | [Roteiro do dia das chaves](07_Imovel/Roteiro_dia_das_chaves_R01.md) |

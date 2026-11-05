@@ -53,17 +53,14 @@ corte-formatos;Corte guilhotinado nominal para cotação — / fichas;Antes de f
 p01-p03-ligacoes;/ — equilíbrio da caixa completa e ligações compartilhadas;Fichas dos 20 móveis → P01 → Estudos deste móvel / Fichas dos 20 móveis → P02 → Estudos deste móvel / Fichas dos 20 móveis → P03 → Estudos deste móvel / Quarto → Montagem em estudo
 micro-p16-instalacao;Instalação ME23P e limite da conferência;Fichas dos 20 móveis → P16 → Estudos deste móvel / Cozinha → Escolhas e encaixes
 cinematica-r52;Forma de abertura — interferências e mínimos amostrados;Fichas dos 20 móveis → Consulta geral
-andamento20;Matriz dos 20 moveis — consolidacao em 27/10/2026;Visão do projeto → Projeto e próximos passos
-suspensao-p17;base, fundo e ligações de marcenaria;Fichas dos 20 móveis → P17 → Estudos deste móvel
 suspensao-p12;caixa e fixação na parede acima da geladeira;Fichas dos 20 móveis → P12 → Estudos deste móvel
 p03-estudos;armário sobre o guarda-roupa para duas malas de bordo;Fichas dos 20 móveis → P03 → Estudos deste móvel / Quarto → Montagem em estudo
 decisoes-vigentes;Visão geral do projeto;Visão do projeto → Projeto e próximos passos
 lixeiras-r53;Lixeiras — proposta de encaixe sem alterar o FreeCAD;Cozinha → Escolhas e encaixes / Lavanderia → Equipamentos e espaço
 orcamento-r44;Orçamento e cotações;Visão do projeto → Projeto e próximos passos
-kit-p20-p14;Banco e cesto — roteiro do protótipo;Fichas dos 20 móveis → P14 → Estudos deste móvel / Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Banco com baú / Lavanderia → Equipamentos e espaço / Oficina e compras → Ensaios de oficina
+kit-p20-p14;Banco e cesto — roteiro do protótipo;Fichas dos 20 móveis → P14 → Estudos deste móvel / Fichas dos 20 móveis → P20 → Estudos deste móvel / Sala → Banco com baú / Lavanderia → Equipamentos e espaço / Oficina e compras → Banco e cesto
 pranchas-a3;Plantas e elevações em escala;Planta com medidas → Medidas e desenhos
 berlin-pedestal;Mesa Berlin: pedestal e cadeira lateral;Sala → Mesa e convivência
-ensaios-oficina;Ensaios de oficina;Oficina e compras → Ensaios de oficina
 furacao-pecas;Furação relativa às peças — nominal/proposta;Oficina e compras → Furação e quantidades
 fichas;Fichas dos móveis.;Fichas dos 20 móveis → Consulta geral
 pendencias-r14;O que falta conferir.;Antes de fabricar → O que conferir

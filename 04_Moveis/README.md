@@ -4,13 +4,11 @@ Estudos separados do modelo R52: nenhum foi incorporado à geometria, e nenhum l
 
 | Para quê | Onde |
 |---|---|
-| Andamento dos 20 móveis, com ação, responsável e evidência | [Andamento](Cargas_e_ligacoes/Andamento_20_moveis.md) · [CSV](Cargas_e_ligacoes/Andamento_20_moveis.csv) |
 | Pendências e avanços depois da R52 (P01/P03, corte e formatos, cinemática) | [Próximas decisões](Proximas_decisoes/README.md) |
-| Decisão "sem tubos" e cargas prioritárias | [Cargas e ligações](Cargas_e_ligacoes/README.md) · [Ligações sem tubos](Ligacoes_sem_tubos/README.md) |
+| Decisão "sem tubos" e perguntas à oficina | [Decisão](Decisao_sem_tubos.md) · [Perguntas](Perguntas_para_oficina.md) |
 | Matriz dos 20 módulos, Minifix, interfaces e ferragens fixas | [Inventário dimensional](Inventario_dimensional/README.md) |
 | Conectores propostos | [Mapa de conectores](Mapa_conectores/README.md) |
 | Quantitativos por proposta | [Quantitativos](Quantitativos/README.md) |
-| Ensaios de oficina: caderno, compras, orçamento e registro único | [Pacote de oficina](Ensaios_oficina/README.md) — preparado em 28/10/2026; execução pendente, protocolos de carga a fechar |
 
 Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização de 25/10/2026. Referências sem equivalente local mantêm o texto e o caminho antigo, com aviso de arquivo removido; para recuperar a evidência original, consulte o histórico do Git e a tag `antes-reorganizacao`.
 
@@ -20,8 +18,7 @@ Os HTMLs de estudo tiveram os caminhos locais conferidos após a reorganização
 |---|---|
 | P01 (e P03) | [Apoios ao piso](P01/Apoios_ao_piso/README.md) · [Massas e equilíbrio](P01/Massas_equilibrio/README.md) · [Caminho superior P03](P01/Caminho_superior_P03/README.md) |
 | P03 maleiro — duas malas de bordo | [Volume, passagem e dobradiças](P03/README.md): Elias prefereA672 ×306; corredor nominal602/1203 em86° com uma/duas abertas. Grupo3/extremos202 em estudo; produto, fixações/caixa e terceira mala condicionados |
-| P04 / P15 | [Suspensão P04/P15](P04/Suspensao_P04_P15/README.md) · [Composição parcial P15](P15/Composicao_parcial/README.md) |
-| P09 / P11 / P12 / P17 | [Suspensão dos aéreos](Aereos_suspensao/README.md) · [P11 sem tubos](P11/Ligacoes_sem_tubos/Resultado_R00.md) · [P17 base e fundo](P17/Base_fundo_ligacoes/README.md) |
+| P04 / P15 | Suspensão P04/P15 · Composição parcial P15 |
 | P12 acima da geladeira | [Caixa e suspensão candidata](P12/README.md):fundo548 preservado; acesso e 225 equilíbrios nominais; produto/juntas/ensaios pendentes |
 | P14 / P20 (cesto e banco) | [Reações e operação do cesto](P14/Reacoes_e_operacao/README.md) · [Assento fechado](P20/Assento_fechado/README.md) · [kit de oficina vigente](P20/Assento_fechado/Roteiro_banco_cesto.md) · [Southco histórico](Banco_e_cesto/Fixacao_Southco) |
 | P16 e bancada | [Gavetas e estabilidade](P16/Gavetas_estabilidade/README.md) · [Interface guia–fundo](P16/Interface_guia_fundo/README.md) · [Bancada](Bancada/README.md) |

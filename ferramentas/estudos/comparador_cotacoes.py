@@ -418,7 +418,6 @@ def run(args):
     result = compare(proposals, date.fromisoformat(args.data), weights, dependencies)
     dump(output / 'Propostas_normalizadas.json', dict(propostas=proposals))
     result['fontes_sha256'] = {p: sha(ROOT / p) for p in [REF, CUT + 'Custos_chapas.csv', CUT + 'Resumo_chapas.csv',
-        CUT + 'Custos_cenarios.csv', CUT + 'Custos_propostas.csv', CUT + 'Fita_custo_hipotese.csv',
         '05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md', '05_Orcamento_e_cronograma/Cronograma_obra_e_compras.md']}
     if args.entrada:
         result['entrada_sha256'] = sha(args.entrada)

@@ -8,7 +8,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 
 - **Objetivo:** tudo pronto para mudar; dois meses de obra após chaves, mudança no terceiro.
 - **Verba:** R$ 120 mil de execução + R$ 10 mil de reserva intocada.
-- **Regra de Elias:** nenhum tubo ou quadro metálico substituto para sustentar chapas de madeira sem sua autorização prévia. [Decisão e inventário](04_Moveis/Cargas_e_ligacoes/Decisao_sem_tubos.md).
+- **Regra de Elias:** nenhum tubo ou quadro metálico substituto para sustentar chapas de madeira sem sua autorização prévia. [Decisão e inventário](04_Moveis/Decisao_sem_tubos.md).
 - **Chapas/cores:** faces iguais por chapa; peças distintas podem diferir (externa 18 mm no padrão, interna 15 mm BrancoTX). Conferir geometria/ligações/cargas; caixa dupla/15 mm não automáticos. [Regra por peça](ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 - **Pé-direito:** 2,55 m = 255 cm = 2550 mm; banheiro: **2,30 m = 230 cm = 2300 mm**, medida a confirmar (Elias,01/11/2026). Portas livres 80×210 cm; banheiro 70×210 cm. [Fonte](01_Programa_e_decisoes/Pesquisa_pe_direito.md).
 
@@ -19,7 +19,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Modelo 3D | R55: corrediças laterais e geladeira fechada (Elias,02/11/2026: “aprovo esse candidato como oficial”) | [Modelo](02_Modelo_3D/Guedala_Park_R55_Berlin.FCStd) · [Abertura segura](02_Modelo_3D/README.md) |
 | Triagem geométrica | 0 inválidas/1.449 próprias (25/10); 12 contêineres | [Triagem e critério](02_Modelo_3D/README.md#triagem-das-formas-inválidas--25102026) · [dados](02_Modelo_3D/Triagem_geometria.json) |
 | Fichas dos 20 móveis | R15 | [Fichas](06_Entregas/Fichas_fabricacao/index.html) · [Pendências](06_Entregas/Fichas_fabricacao/Pendencias.html) · [Levantamento](06_Entregas/Fichas_fabricacao/Levantamento.html) |
-| Estudos dos móveis | Nominais, fora do CAD; painéis ~732 kg ref.; P01/Peca208 ~51 kg | [Cargas](04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) · [Massas](04_Moveis/Quantitativos/README.md) |
+| Estudos dos móveis | Cargas e suspensão: estudos nominais removidos (04/11); perguntas à oficina | [Perguntas](04_Moveis/Perguntas_para_oficina.md) · [Massas](04_Moveis/Quantitativos/README.md) |
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
 | Planta mobiliada e vistas | R03; cena R55, 8 PNGs/SHA | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
 | Especificações/luz | R01; E5% e U0 separados | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
@@ -62,8 +62,8 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 - **Escritório (29/10):** Ercathe A01 e ASUS 27″ + AOC 24″ fora da verba; volante/pedais retirados. [Setup](03_Ambientes/Escritorio/README.md).
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
-- **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Lote B](04_Moveis/Aereos_suspensao/README.md#lote-b--p17p04p12).
-- **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto” (T0/P04 preparado, sem ensaio). [P04](04_Moveis/P04/Suspensao_P04_P15/README.md).
+- **Aéreos P17/P04/P12:** Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” (nesta ordem), fundos inteiros e base limpa; capacidade não demonstrada. [Perguntas](04_Moveis/Perguntas_para_oficina.md).
+- **Oficina/material:** Elias, 26/10/2026: “Ainda não; deixar o roteiro pronto”. Nada foi ensaiado; caderno de ensaios removido (04/11/2026), perguntas em [Perguntas](04_Moveis/Perguntas_para_oficina.md).
 - **Tecidos:** cortina da sala C2 Areia; suede areia no banco e na cabeceira; aéreo do escritório marfim claro. Códigos comerciais dependem de amostra.
 - **Cozinha:** pedra a 92 cm (Elias, 31/10/2026), forno Fischer 127 V, cooktop KE4GC a gás natural, gaveta de limpeza sobre rodízios Leão Aço.
 - **Banheiro:** ducha entre box e vaso; papeleira à esquerda do gabinete, a confirmar (imagem 29/10). Gabinete 60 cm, portas de correr/frente removível; verde em 2 paredes do box ([R55 incorporado](02_Modelo_3D/README.md)); teto/indireta 3000 K, espelho 4000 K, 3 comandos ([L02 histórico](03_Ambientes/Banheiro/Fechamento_pre_entrega/Luminarias_selecao_L02.html)); Beige Matt/Louro Freijó Poro.
@@ -78,17 +78,13 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 | Móvel | Estudo | Falta |
 |---|---|---|
 | P01/P02/P03 | [Ligação e caminho ao piso](04_Moveis/P03/README.md) | [P02: U1–U4=A](04_Moveis/Proximas_decisoes/P01_P03/README.md), Elias 27/10/2026: leves ocasionais, requisito 10 kg, peso na região apoiada, preservar vãos/aparência; produto/ensaio, juntas, soco/piso e fundo P01 pendentes |
-| P04/P15 | [Suspensão](04_Moveis/P04/Suspensao_P04_P15/README.md) · [composição P15](04_Moveis/P15/Composicao_parcial/README.md) | Produto de suspensão, juntas, parede real |
-| P04/P12/P17 | [Lote B](04_Moveis/Aereos_suspensao/README.md) · [P17](04_Moveis/P17/Base_fundo_ligacoes/README.md) · [P12](04_Moveis/P12/README.md) | Executar T0 (oficina), qualificar Bigfer/juntas, contatos e ancoragens |
-| P09/P11 | [Lote A](04_Moveis/Aereos_suspensao/README.md) | Contato real, fixadores, retenção, parede |
-| Ensaios de oficina | [Caderno, PDF e ZIP](06_Entregas/Ensaios_oficina/README.md) | 13 frentes; execução pendente. Desenhos/protocolos e cotação a fechar; instalação após levantamento |
 | P08 | [Rodízios e estabilidade](04_Moveis/P08/README.md) | Massas, contato, guias, batente, retirada completa |
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Laterais com amortecimento; produto, furação e ensaio pendentes |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
 | Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas, elétrica com RT; sem escolha (29/10) |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
-| Todos | [Corte e custo nominal](04_Moveis/Plano_de_corte/README.md) | 15 chapas/215 painéis; 33 bloqueados e fundo fora; retalhos e custos de sete propostas exportados; meta não demonstrada |
+| Todos | [Lista de corte e custos de chapa](04_Moveis/Plano_de_corte/README.md) | Formato de chapa, produto e oficina definem o corte; cenários removidos (04/11) |
 
 **Cotação:** [101 linhas; aritmética sem erros; bases P19 distintas](06_Entregas/Cotacao/README.md).
 

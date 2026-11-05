@@ -132,48 +132,12 @@
       ]
     },
     {
-      "id": "andamento20",
-      "title": "Andamento dos 20 moveis",
-      "room": "all",
-      "path": "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md",
-      "summary": "Proxima acao, evidencia e responsavel proposto por movel;controle documental25/10 consolidado.",
-      "files": [
-        "04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.csv"
-      ]
-    },
-    {
-      "id": "suspensao-p17",
-      "title": "P17 · suspensao em estudo",
-      "room": "escritorio",
-      "path": "04_Moveis/P17/Base_fundo_ligacoes/README.md",
-      "summary": "Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.",
-      "files": [
-        "04_Moveis/Aereos_suspensao/P17_suspensao.json",
-        "04_Moveis/Aereos_suspensao/P17_suspensao.png",
-        "04_Moveis/Aereos_suspensao/P17_demandas_suspensao.csv",
-        "04_Moveis/Aereos_suspensao/P17_reacoes_inferiores.csv",
-        "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.csv",
-        "04_Moveis/Aereos_suspensao/P17_qualificacao_suspensao.txt",
-        "04_Moveis/Aereos_suspensao/P17_verificacao_suspensao.json",
-        "04_Moveis/Aereos_suspensao/Lote_B_premissas.json",
-        "04_Moveis/Aereos_suspensao/Selecao_ferragem.json"
-      ]
-    },
-    {
       "id": "suspensao-p12",
       "title": "P12 · suspensao em estudo",
       "room": "cozinha",
       "path": "04_Moveis/P12/README.md",
       "summary": "Implantacao nominal com acesso aos fixadores e casos simultaneos;produto,juntas e ensaios pendentes.",
-      "files": [
-        "04_Moveis/Aereos_suspensao/P12_suspensao.json",
-        "04_Moveis/Aereos_suspensao/P12_suspensao.png",
-        "04_Moveis/Aereos_suspensao/P12_demandas_suspensao.csv",
-        "04_Moveis/Aereos_suspensao/P12_reacoes_inferiores.csv",
-        "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.csv",
-        "04_Moveis/Aereos_suspensao/P12_qualificacao_suspensao.txt",
-        "04_Moveis/Aereos_suspensao/P12_verificacao_suspensao.json"
-      ]
+      "files": []
     },
     {
       "id": "p03-estudos",
@@ -286,21 +250,6 @@
       "path": "04_Moveis/Inventario_dimensional/Portas_e_articulacoes/Mesa_e_varal.md",
       "summary": "Pedestal aproximado e afastamento mínimo da cadeira no cenário fechado; medidas do produto sem desenho técnico.",
       "files": []
-    },
-    {
-      "id": "ensaios-oficina",
-      "title": "Ensaios de oficina",
-      "room": "all",
-      "category": "Oficina",
-      "status": "Pendente de execução",
-      "summary": "Caderno de montagem e medições, lista de compras e pacote para a oficina. PDF, registro vazio e documentos de origem.",
-      "path": "06_Entregas/Ensaios_oficina/index.html",
-      "files": [
-        "06_Entregas/Ensaios_oficina/Caderno_ensaios_oficina.pdf",
-        "06_Entregas/Ensaios_oficina/Pacote_ensaios_oficina.zip",
-        "06_Entregas/Ensaios_oficina/Manifesto.json",
-        "04_Moveis/Ensaios_oficina/Registro.csv"
-      ]
     },
     {
       "id": "furacao-pecas",
@@ -692,7 +641,6 @@
             "documents": [
               "decisoes-vigentes",
               "avancos-pendencias",
-              "andamento20",
               "orcamento-r44",
               "cronograma"
             ]
@@ -1013,9 +961,8 @@
         ],
         "sections": [
           {
-            "title": "Ensaios de oficina",
+            "title": "Banco e cesto",
             "documents": [
-              "ensaios-oficina",
               "kit-p20-p14"
             ]
           },
@@ -1137,7 +1084,6 @@
         "micro-p16-instalacao"
       ],
       "P17": [
-        "suspensao-p17",
         "bancada",
         "portas"
       ],
@@ -1164,14 +1110,12 @@
       "luz-selecao": "Composição por ambiente — conferir atualização",
       "cinematica-r52": "Estudo dos movimentos — conferir referência do modelo",
       "p01-p03-ligacoes": "Guarda-roupa e armários: apoios e ligações",
-      "suspensao-p17": "Armário do escritório: fixação e ligações",
       "suspensao-p12": "Armário da geladeira: fixação e ligações",
       "p03-estudos": "Armário sobre o guarda-roupa: portas e apoios",
       "micro-p16-instalacao": "Micro-ondas e gavetas: encaixes em estudo",
       "decisoes-vigentes": "Estado atual do projeto",
       "avancos-pendencias": "Decisões e próximos passos",
       "corte-formatos": "Corte e formatos de chapa em estudo",
-      "andamento20": "O que falta em cada móvel",
       "orcamento-r44": "Orçamento e limites da etapa",
       "lixeiras-r53": "Lixeiras: encaixes e conferências",
       "kit-p20-p14": "Banco e cesto: preparação dos ensaios",

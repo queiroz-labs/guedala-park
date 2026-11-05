@@ -1,6 +1,6 @@
 # Fontes de suspensão de armários
 
-Documentos públicos consultados em25/10/2026 e preservados sem edição. São fontes, não produtos adotados. [Aplicação e limites no loteP09/P11/P15](../../../../04_Moveis/Aereos_suspensao/README.md).
+Documentos públicos consultados em25/10/2026 e preservados sem edição. São fontes, não produtos adotados. Aplicação e limites no loteP09/P11/P15.
 
 | Arquivo | Fonte oficial | Resultado da leitura visual |
 |---|---|---|

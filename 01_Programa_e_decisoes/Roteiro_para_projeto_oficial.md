@@ -57,7 +57,7 @@ D05-C adia P17/C05: não há prateleiras da primeira etapa onde instalar E06. E0
 
 - **RT:** conferir documentação da unidade, elétrica 127 V, GN/ventilação/exaustão E21, água quente (incluindoTelca), volumes do banheiro e comandos. Definir circuitos/bitolas/proteções e formalização exigida; não inferir da lista de pontos.
 - **Chaves:** pé-direito por ambiente, paredes/teto/piso, esquadrias e pontos existentes; a hipótese 2,60 m não é medida. Preencher o [levantamento R15](../06_Entregas/Fichas_fabricacao/Levantamento.html).
-- **Oficina/produtos:** juntas, suspensão, banco/cesto/gavetas, fixadores, retirada/manutenção, bordas e protótipos. Retomar os [20 móveis](../04_Moveis/Cargas_e_ligacoes/Andamento_20_moveis.md) somente após nova entrada real; sem repetir cálculo nominal para aparentar avanço.
+- **Oficina/produtos:** juntas, suspensão, banco/cesto/gavetas, fixadores, retirada/manutenção, bordas e protótipos. Retomar as [perguntas à oficina](../04_Moveis/Perguntas_para_oficina.md) somente após nova entrada real; sem repetir cálculo nominal para aparentar avanço.
 - **Implantação:** resolver folgaME23P/manual, acessoBC43, varal carregado, lixeiras e fontes. Perguntas já nos READMEs; não modificar oCAD nesta janela.
 - **Entrega:** após decisões e autorização apropriada, reconciliar R53/fichas R15, planta R01, pranchasA3 e manifesto; vistas antigas não passam a atuais por renomeação. [Situação de publicação](../06_Entregas/README.md). Nesta janela: commits locais, sem push.
 

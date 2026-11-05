@@ -82,4 +82,4 @@ Cinco testes cobrem perda de serra, orientação proibida, formato inviável, ma
 
 ## Extensão de cenários de corte — 29/10/2026
 
-O [plano de corte por cenário](../../Plano_de_corte/README.md) reutiliza este motor/base para chapa 2750 × 1850 com refilo/serra de 10/4, 0/3 e 20/4 mm. Encontra 15 chapas no subconjunto de 215 painéis, sem o fundo P01 que excede 1850; os 33 bloqueios materiais permanecem. Sensibilidade de espessura e sete propostas ficam separadas. Não substitui nem se soma ao conjunto misto corrente de 14 chapas/216 painéis acima; orçamento e cotação não foram alterados.
+O plano de corte por cenário (removido em 04/11/2026) reutiliza este motor/base para chapa 2750 × 1850 com refilo/serra de 10/4, 0/3 e 20/4 mm. Encontra 15 chapas no subconjunto de 215 painéis, sem o fundo P01 que excede 1850; os 33 bloqueios materiais permanecem. Sensibilidade de espessura e sete propostas ficam separadas. Não substitui nem se soma ao conjunto misto corrente de 14 chapas/216 painéis acima; orçamento e cotação não foram alterados.

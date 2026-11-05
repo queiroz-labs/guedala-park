@@ -36,7 +36,7 @@ Fontes relidas: [Mahler Ref.54](../../Banco_e_cesto/Cesto_simples/Conferencia/Fo
 
 Reproduzir na raiz: `python -B ferramentas/aereos/detalhar_banco_aberto.py` e `python -B ferramentas/aereos/conferir_banco_aberto.py`. Teste físico e montagem comercial continuam pendentes; o assento fechado segue abaixo.
 
-25/10/2026 · leitura da R51 completa, sem alterar peças, cores, armazenamento ou movimentos. Continuação do [primeiro ciclo de cargas](../../Cargas_e_ligacoes/README.md) e da [conferência dos mecanismos simples](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md).
+25/10/2026 · leitura da R51 completa, sem alterar peças, cores, armazenamento ou movimentos. Continuação do primeiro ciclo de cargas e da [conferência dos mecanismos simples](../../Banco_e_cesto/Cesto_simples/Conferencia/Resultado.md).
 
 **As tampas podem ser estudadas sobre os apoios de madeira existentes, sem acrescentar tubos. A nova análise trata o assento fechado; não libera o banco para pessoas.** O requisito histórico de três pessoas de 80 kg é cenário de projeto, não capacidade comprovada nem carga de ensaio normativo. As ferragens de abertura continuam sendo outra verificação.
 

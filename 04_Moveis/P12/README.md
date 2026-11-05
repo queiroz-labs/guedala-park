@@ -1,6 +1,6 @@
 # P12 — caixa e suspensão acima da geladeira
 
-Estudo nominal separado, 26/10/2026. Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” na ordem P17/P04/P12; uso P12: utensílios grandes/leves de cozinha usados ocasionalmente. [Premissas](../Aereos_suspensao/Lote_B_premissas.json). Base limpa, sem cabeças/tampinhas aparentes por baixo. Nenhum ensaio físico ou capacidade demonstrada.
+Estudo nominal separado, 26/10/2026. Elias, 25/10/2026: “20 kg / 10 kg / 10 kg” na ordem P17/P04/P12; uso P12: utensílios grandes/leves de cozinha usados ocasionalmente. Premissas. Base limpa, sem cabeças/tampinhas aparentes por baixo. Nenhum ensaio físico ou capacidade demonstrada.
 
 | Item | Estado vigente do estudo |
 |---|---|
@@ -11,7 +11,7 @@ Estudo nominal separado, 26/10/2026. Elias, 25/10/2026: “20 kg / 10 kg / 10 kg
 | Ligações | 12 Minifix/9 Confirmat candidatos reconciliados com R00; não somar como compras novas |
 | Suspensão | Bigfer 04.02.058 candidata nos dois cantos laterais/fundo 18; dois suportes são hipótese |
 
-[Implantação e memória](../Aereos_suspensao/P12_suspensao.json) · [desenho](../Aereos_suspensao/P12_suspensao.png) · [conferência independente](../Aereos_suspensao/P12_verificacao_suspensao.json) · [requisitos preparados para produto/oficina](../Aereos_suspensao/P12_qualificacao_suspensao.txt).
+Implantação e memória · desenho · conferência independente · requisitos preparados para produto/oficina.
 
 ## Posição e acesso
 
@@ -27,7 +27,7 @@ Montar a caixa e apertar conectores antes das portas; manutenção com portas de
 
 75 casos, 225 equilíbrios 3D,450 vetores de suporte. Compressão inferior de referência nas arestas existentes 18×60, Z60..120, centro 90; braço hipotético 458 mm. Fundo/laterais coplanares não garantem essa área ou centro: medir contato real antes de usar o braço no dimensionamento final.
 
-No alvo 10 kg, máximos separados por suporte: **V262,11 N, T215,62 N e R332,32 N**. [Seis casos simultâneos de qualificação](../Aereos_suspensao/P12_qualificacao_suspensao.csv) conservam os controles V/T/R de cada lado; não combinar máximos de casos diferentes. [Reações inferiores](../Aereos_suspensao/P12_reacoes_inferiores.csv): compressão até 201,99 N, pressão sobre referência 1080 mm²≈0,187 MPa, sem valor admissível atribuído. Partilhas 0/50/100 são sensibilidades, não a rigidez real da montagem.
+No alvo 10 kg, máximos separados por suporte: **V262,11 N, T215,62 N e R332,32 N**. Seis casos simultâneos de qualificação conservam os controles V/T/R de cada lado; não combinar máximos de casos diferentes. Reações inferiores: compressão até 201,99 N, pressão sobre referência 1080 mm²≈0,187 MPa, sem valor admissível atribuído. Partilhas 0/50/100 são sensibilidades, não a rigidez real da montagem.
 
 O conteúdo e os pesos da caixa/portas precisam chegar pelas juntas às laterais/fundo e aos cantos superiores. O fundo atual encontra base e tampo apenas pela aresta: nenhum apoio traseiro contínuo nem Confirmat horizontal novo foi creditado. Base/tampo–laterais/divisor usam os 12 Minifix candidatos; fundo–laterais/divisor usa os 9 Confirmat candidatos. Essas contagens não demonstram transferência, retenção, rigidez ou resistência.
 
@@ -37,7 +37,7 @@ Por 1 kg adicional em v200: +9,807 N vertical, +1,961 Nm e+4,282 N de tração t
 
 ### Caminho da caixa detalhado em 26/10
 
-[Desenho](../Aereos_suspensao/P12_caminho_caixa.png) · [9 grupos de juntas](../Aereos_suspensao/P12_mapa_juntas.csv) · [21 posições](../Aereos_suspensao/P12_eixos_fixadores.csv) · [30 cortes de carga](../Aereos_suspensao/P12_cortes_carga.csv) · [memória](../Aereos_suspensao/P12_caminho_caixa.json) · [conferência](../Aereos_suspensao/P12_verificacao_caminho.json).
+Desenho · 9 grupos de juntas · 21 posições · 30 cortes de carga · memória · conferência.
 
 | Caminho nominal | Grupo candidato |
 |---|---|
@@ -57,7 +57,7 @@ Reproduzir: `python -B ferramentas/aereos/mapear_caminho_caixa.py --movel P12` e
 
 ### Comprovações restantes
 
-1. Produto/oficina: confirmar montagem Bigfer com fundo 18, fixadores MDF/pilotos/profundidade/torque, passo 12/borda 9,5, cabeça/arruela/rasgo 5, retenção, flexão/esmagamento e ferramenta efetiva. Fonte geométrica: catálogo Bigfer p235 já preservado no [estudo de seleção](../Aereos_suspensao/Selecao_ferragem.json); sem capacidade publicada para esta implantação.
+1. Produto/oficina: confirmar montagem Bigfer com fundo 18, fixadores MDF/pilotos/profundidade/torque, passo 12/borda 9,5, cabeça/arruela/rasgo 5, retenção, flexão/esmagamento e ferramenta efetiva. Fonte geométrica: catálogo Bigfer p235 já preservado no estudo de seleção; sem capacidade publicada para esta implantação.
 2. Projeto/oficina: comprovar base/divisor, juntas e distorção da caixa/fundo até os cantos. Não transferir flecha ou rigidez de P17/P04 ao P12 nem dar resistência às cavilhas/atrito.
 3. Laboratório/fabricante/RT: acordar protocolo, replicação, fatores/ciclos/duração e critérios antes de aplicar carga. Usar vetores simultâneos e montagem representativa; registrar deformações, deslizamento, residual e danos.
 4. Imóvel/RT: medir parede/revestimento, instalações, contato inferior e posição final sobre a geladeira antes de definir ancoragens. Ventilação e manutenção do aparelho continuam na compatibilização de equipamentos.
