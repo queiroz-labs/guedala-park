@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 02/11/2026.
+Vigente 04/11/2026.
 
 ## O projeto
 
@@ -96,7 +96,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 ## Próximos passos
 
-1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; resposta solicitada 30/10 às 18 h. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.
+1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo antigo de 30/10 vencido; nova data a combinar no envio. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
@@ -104,7 +104,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Purificador:** PE12G grafite; PE11X superado. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”;02/11/2026: “Manter PE12G e corrigir os documentos antigos”.
 
-**Revisão documental:** pranchas/vistas R55 e P07/P16/P20 conciliados; CAD intacto. [Critérios](04_Moveis/Dependencias/README.md).
+**Revisão documental:** roteiro e rascunhos conciliados em 04/11 (alturas e prazo); pranchas/vistas R55 e P07/P16/P20 conciliados; CAD intacto. [Critérios](04_Moveis/Dependencias/README.md).
 
 **CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 35 itens/fontes/ações; campo pendente.
 

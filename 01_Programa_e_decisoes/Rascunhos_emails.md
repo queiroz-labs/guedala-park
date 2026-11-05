@@ -1,6 +1,6 @@
 # Rascunhos de e-mail — R03
 
-**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+**Alturas vigentes:** 2,55 m nos cômodos e 2,30 m no banheiro (Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”). Medidas de projeto a confirmar no local; substituem as alturas anteriores. [Fonte vigente](Pesquisa_pe_direito.md).
 
 27/10/2026 · **Rascunhos. Nada foi enviado.** Revise, ajuste os dados entre colchetes e envie pelo canal oficial de cada destinatário: o portal ou atendimento do cliente da Cury, e o e-mail da administração ou do síndico depois da entrega.
 
@@ -87,7 +87,7 @@ Enviar a 2 ou 3 arquitetos(as) ou engenheiros(as) para comparar.
 
 ## 4. Pacote pronto para envio — D02, D05-C e D06-B
 
-**R03, 27/10/2026 — não enviado.** As consultas de amostras, IL02–IL09 e marcenaria estão agora separadas em páginas autônomas por destinatário. Cada página contém escopo, exclusões, retorno técnico/comercial e prazo solicitado de **30/10/2026 às 18 h, Brasília**; o prazo ainda não foi aceito pelo fornecedor.
+**R03, 27/10/2026 — não enviado.** As consultas de amostras, IL02–IL09 e marcenaria estão agora separadas em páginas autônomas por destinatário. Cada página contém escopo, exclusões e retorno técnico/comercial. O prazo original de 30/10/2026 venceu sem envio registrado; combinar nova data no envio, sem presumir aceite do fornecedor.
 
 - [Elias envia hoje: destinatário, canal e arquivo](../06_Entregas/Cotacao/index.html).
 - [Pacote completo para baixar](../06_Entregas/Cotacao/Pacote_cotacao.zip).

@@ -1,8 +1,8 @@
 # Roteiro para projeto oficial de arquitetura de interiores
 
-**Alturas vigentes (Elias, 27/10/2026):** 2,60 m nos cômodos e 2,50 m no banheiro, medidas de projeto a confirmar. Substituem o cenário de 2,47 m do escritório; cotas de pesquisas/ensaios anteriores abaixo são históricas.
+**Alturas vigentes:** 2,55 m nos cômodos e 2,30 m no banheiro (Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”). Medidas de projeto a confirmar no local; substituem as alturas anteriores. [Fonte vigente](Pesquisa_pe_direito.md).
 
-Revisão 27/10/2026. **Anteprojeto estimado em 87%, antes 75%; meta 90–95% ainda não demonstrada.** Percentual gerencial de maturidade documental, não laudo, medição física ou autorização de execução. Pergunta pronta é **aguardando Elias**, não decisão concluída. Preços-alvo não são descontos obtidos.
+Revisão documental 04/11/2026; percentuais gerenciais mantidos da avaliação de 27/10/2026. **Anteprojeto estimado em 87%, antes 75%; meta 90–95% ainda não demonstrada.** Percentual gerencial de maturidade documental, não laudo, medição física ou autorização de execução. Pergunta pronta é **aguardando Elias**, não decisão concluída. Preços-alvo não são descontos obtidos.
 
 ## Critério e justificativa do avanço
 
@@ -17,7 +17,7 @@ Mantém-se o critério anterior de 17 pontos pendentes, agora com 4 resolvidos. 
 | 3. Luminárias | [Lista atualizada](../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md):9608 corrigido, preços/fontes, substituições propostas e reconciliação | **D03-B respondida; IL02–IL09 pendentes; D06-B integrada** | WiZ/WiZmote sem SKU nacional conciliado; Elgin no quarto selecionada, comando físico não comprovado; Brilia 318939 substitui a SMD sem oferta reconfirmada; âmbar/manuais/compatibilidade/frete pendentes |
 | 4. Planta R01 | [50/50 códigos auditados +3 funções omitidas](../03_Ambientes/Planta_pontos/README.md);127 V/GN e comandos; CSV cobre 53 funções | **Revisão documental concluída; implantação condicionada** | D04 define cabeceira/face inferior, implantação pendente; Telca quente/fria; fontes acessíveis com armários até teto; circuitos/posições reais pelo RT. Não é planta executiva |
 | 5. Amostras e consultas | [Rascunhos R03](Rascunhos_emails.md): [20 páginas por destinatário e checklist](../06_Entregas/Cotacao/index.html), D02 A/C, IL02–IL09 e ZIP R15 com D05-C/D06-B | **Preparação concluída; todos não enviados** | Elias revisa/envia pelos canais oficiais; fornecedores respondem. Nenhuma ordem de compra/fabricação |
-| 6. Roteiro e estado | Este roteiro e [ESTADO_ATUAL](../ESTADO_ATUAL.md) reconciliados, limites e perguntas explícitos | **Respostas D01–D06 integradas; D06-B integrada** | Pranchas A3 R02 locais verificadas; envelopes R53 e escalas incorporados. Reavaliar após propostas e amostras |
+| 6. Roteiro e estado | Este roteiro e [ESTADO_ATUAL](../ESTADO_ATUAL.md) reconciliados, limites e perguntas explícitos | **Respostas D01–D06 integradas; D06-B integrada** | Pranchas A3 R02 locais verificadas; envelopes R55 e escalas incorporados. Reavaliar após propostas e amostras |
 
 **Para 90%:** obter proposta financeira comparável e completa para D05-C, dentro da verba que vier a ser consolidada, incluindo luz, adaptações e lacunas; confirmar produtos/variantes. **Para 95%:** fechar amostras/códigos e interfaces de anteprojeto. Medição real, dimensionamento, ensaios e responsabilidade técnica pertencem às etapas seguintes e permanecem condicionantes explícitas.
 
@@ -25,11 +25,11 @@ Mantém-se o critério anterior de 17 pontos pendentes, agora com 4 resolvidos. 
 
 | Etapa | Estimativa | Evidência / limite |
 |---|---:|---|
-| Programa e estudo preliminar |100% documental | [Programa R01](Programa_de_necessidades.md), [planta mobiliada R02](../03_Ambientes/Planta_mobiliada/README.md); conferir no local |
+| Programa e estudo preliminar |100% documental | [Programa R01](Programa_de_necessidades.md), [planta mobiliada R03](../03_Ambientes/Planta_mobiliada/README.md); conferir no local |
 | Levantamento |25% | [Roteiro das chaves](../07_Imovel/Roteiro_dia_das_chaves_R01.md); nenhum levantamento novo |
 | Executivo de marcenaria |45–55% | [R15](../06_Entregas/Fichas_fabricacao/index.html) e [pendências](../06_Entregas/Fichas_fabricacao/Pendencias.html); sem refinamento nominal adicional |
 | Complementares |35% | [R01](../03_Ambientes/Planta_pontos/README.md); funções/comandos auditados, circuitos e traçados não projetados |
-| Pranchas formais |80% estimados | [A3 R02 local e critérios](../06_Entregas/Caderno_pranchas/README.md):20 folhas, escalas 1:50/1:25, envelopes R53, fonte CSV e impacto; teste 2,60→2,47 passou. Levantamento, interfaces e RT pendentes |
+| Pranchas formais |80% estimados | [A3 R02 local e critérios](../06_Entregas/Caderno_pranchas/README.md):20 folhas, escalas 1:50/1:25, envelopes R55, alturas 2,55/2,30 m, fonte CSV e impacto. Levantamento, interfaces e RT pendentes |
 | Especificações |80% documental | [Caderno](Caderno_de_especificacoes.md); códigos comerciais avançaram, amostras e dados faltantes não concluídos |
 | Orçamento |60% | [R44](../05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md)137.748,11; base com luz 138.742,66; D05-C propõe 127.101,22 +reserva 10.000, cotação pendente |
 | RT e formalização |10% | [Plano de reforma](Plano_de_reforma_NBR16280.md) e consultas; contratar profissional e confirmar requisitos do condomínio |
@@ -56,11 +56,11 @@ D05-C adia P17/C05: não há prateleiras da primeira etapa onde instalar E06. E0
 ## Dependências técnicas — seguir após dados reais
 
 - **RT:** conferir documentação da unidade, elétrica 127 V, GN/ventilação/exaustão E21, água quente (incluindoTelca), volumes do banheiro e comandos. Definir circuitos/bitolas/proteções e formalização exigida; não inferir da lista de pontos.
-- **Chaves:** pé-direito por ambiente, paredes/teto/piso, esquadrias e pontos existentes; a hipótese 2,60 m não é medida. Preencher o [levantamento R15](../06_Entregas/Fichas_fabricacao/Levantamento.html).
+- **Chaves:** pé-direito por ambiente, paredes/teto/piso, esquadrias e pontos existentes; as alturas de projeto 2,55/2,30 m não substituem medição real. Preencher o [levantamento R15](../06_Entregas/Fichas_fabricacao/Levantamento.html).
 - **Oficina/produtos:** juntas, suspensão, banco/cesto/gavetas, fixadores, retirada/manutenção, bordas e protótipos. Retomar as [perguntas à oficina](../04_Moveis/Perguntas_para_oficina.md) somente após nova entrada real; sem repetir cálculo nominal para aparentar avanço.
 - **Implantação:** resolver folgaME23P/manual, acessoBC43, varal carregado, lixeiras e fontes. Perguntas já nos READMEs; não modificar oCAD nesta janela.
-- **Entrega:** após decisões e autorização apropriada, reconciliar R53/fichas R15, planta R01, pranchasA3 e manifesto; vistas antigas não passam a atuais por renomeação. [Situação de publicação](../06_Entregas/README.md). Nesta janela: commits locais, sem push.
+- **Entrega:** após decisões e autorização apropriada, atualizar em conjunto modelo R55, fichas R15, planta de pontos R01, pranchas A3 e manifesto após novas entradas; as vistas atuais são R03/cena R55. [Situação de publicação](../06_Entregas/README.md). Nesta janela: commits locais, sem push.
 
 ## Auditoria do modelo e integridade
 
-O commit76e9a4b trouxe R53/fichas R15. O [relatório de mudança](../02_Modelo_3D/Relatorio_mudanca.md) registra aprovação atribuída a Elias com data 27/10/2026 e escopo P02/P13/TV/lixeiras; o [README do modelo](../02_Modelo_3D/README.md) registra verificação completa concluída. A verificação rápida `verificar_tudo.py` passou nesta sessão. Não se executou nova verificação completa nem se abriu/alterouFCStd; não há pendência de verificação completa indicada nesses registros. Isso não substitui comprovação física de instalação.
+O modelo vigente é R55; as pranchas R02 e vistas R03 já referenciam essa cena. Conferências e histórico técnico estão no [README do modelo](../02_Modelo_3D/README.md). Esta revisão documental não abre nem altera o CAD, não refaz ensaios e não comprova instalação física. As fichas R15 mantêm limites nominais; produto, medidas reais e revisão profissional permanecem pendentes.
