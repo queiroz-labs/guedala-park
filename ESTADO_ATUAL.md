@@ -100,7 +100,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 
-**Entregas:** [arquiteto](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
+**Entregas:** [arquiteto revisto 04/11, 33 páginas](06_Entregas/Arquiteto/README.md) · [limpeza](06_Entregas/README.md#limpeza-confirmada); não enviado.
 
 **Purificador:** PE12G grafite; PE11X superado. Elias,15/09/2026: “PE12G DEFINIDO ENTÃO”;02/11/2026: “Manter PE12G e corrigir os documentos antigos”.
 

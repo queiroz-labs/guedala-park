@@ -27,17 +27,19 @@ Elias, 02/11/2026, nesta conversa: “aprovo deixa como documento principal”, 
 
 Fontes oficiais: [PE12G](https://loja.electrolux.com.br/pe12g-pe12g-purif-agua-pelt-bivolt/p), [RI9252](https://www.philips.com.br/c-p/RI9252_91/essential-airfryer), [ME23P](https://loja.electrolux.com.br/micro-ondas-electrolux-preto-23l-efficient-me23p/p), [LG](https://www.lg.com/br/lavanderia/lava-e-seca/cv5012pc4/). Dimensões e reservas: [conferência](../03_Ambientes/Equipamentos/Conferencia_127V_e_folgas.md). Cores: [regra por chapa](../ferramentas/site/fabrication/Decisao_acabamentos_R13.md).
 
-## Referência para revisão do arquiteto
+## Revisão do arquiteto
 
-6221 objetos; 8279 expressões; 106 cenários; sem colisão nova nem peça própria inválida. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
+04/11: ARQ-01/03/11/13 atualizadas; campo pendente.
+
+6221 objetos, 8279 expressões, 106 cenários; sem novas colisões ou peças próprias inválidas. [Macro](../ferramentas/estudos/atualizar_portas_alturas.FCMacro): batentes/recortes, soleiras e quatro rodapés; perfis de 20 mm gráficos, produto por especificar. Altura de 2300 mm em face oculta, sem espessura de forro presumida.
 
 Verde incorporado em `RevestJanelaBoxR55`; chuveiro preservado, outra parede clara. [Pranchas](../06_Entregas/Caderno_pranchas/README.md) e [vistas](../03_Ambientes/Planta_mobiliada/README.md); campo e revisão técnica pendentes.
 
-Histórico de formação abaixo; caminhos externos não são modelos vigentes. Abridor: `-Vigente`.
+Oficial: `-Vigente`.
 
 ## Revisão da base arquitetônica
 
-**Uso:** [35 itens, fontes e proposta](Conferencia_uso.csv); [gerador](../ferramentas/estudos/conferir_uso.py) com `--atualizar --saida <pasta externa>`. Reúne as quatro frentes e as [interfaces arquitetônicas](Revisao_base_arquitetonica.csv). Medidas reais e revisão técnica pendentes.
+[35 itens de uso](Conferencia_uso.csv) e [13 questões arquitetônicas](Revisao_base_arquitetonica.csv); campo e RT pendentes. [Gerador](../ferramentas/estudos/conferir_uso.py): `--atualizar --saida <pasta externa>`.
 
 **Lavanderia corrigida:** Elias,01/11/2026, “Sim, incorporar essa correção”: 1290×1540 mm; parede 100→170 mm, banheiro 2090×1240 preservado; Loop +15 mm, folga 10 mm. [Macro](../ferramentas/estudos/corrigir_lavanderia.FCMacro) recorta pisos/contornos e ajusta rodapés; [relatório](Relatorio_mudanca.md).
 

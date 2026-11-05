@@ -4,7 +4,7 @@
 
 **Revisão02/11/2026:** pranchas R02/R55, alturas2550/2300mm; oito vistas R55; PE12G vigente; P07/P16/P20 distinguem caixa e envelope completo. CAD e base preservados. Pacote R31. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
 
-**Arquiteto, 01/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R55 identificadas, materiais, 23 pendências e levantamento. Preparado, não enviado; com exportação arquitetônica R55.
+**Arquiteto, 04/11/2026:** [caderno e pacote local](Arquiteto/README.md), com CAD R55, pranchas R02/R55 identificadas, materiais/luz revistos, escopo/finanças, 23 questões e levantamento. 33 páginas; ZIP com 21 fontes, manifesto e instruções. Preparado, não enviado; CAD preservado.
 
 **Planta mobiliada R03, 30/10/2026:** [imagem e sete vistas](../03_Ambientes/Planta_mobiliada/README.md) recapturadas da cena R55, com acabamentos atuais do site. Substituem as imagens R02/R45 no mesmo enquadramento; estudo preliminar nominal, sem cotas ou alteração do CAD. R01 mantida como histórico.
 

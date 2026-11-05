@@ -1,4 +1,5 @@
 """Caderno e ZIP de revisão para o arquiteto; não abre nem modifica o CAD."""
+# MEDIDAS: Elias 01/11/2026 - alturas no roteiro de campo; demais cotas das fontes incluídas
 import argparse
 import csv
 import hashlib
@@ -27,6 +28,8 @@ INTERFACES = "03_Ambientes/Planta_pontos/Interfaces_prioritarias.csv"
 PLANCHES = "06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf"
 SPEC = "01_Programa_e_decisoes/Caderno_de_especificacoes.md"
 FIELD = "07_Imovel/Roteiro_dia_das_chaves_R01.md"
+LIGHT = "03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md"
+BUDGET = "05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md"
 
 
 def sha(data):
@@ -75,14 +78,14 @@ def make_pdf(destination, release):
 
     title("Guedala Park")
     story += [p("Caderno para revisão do arquiteto", styles["Title"]),
-              p("Anteprojeto | emissão 01/11/2026 | não enviado"),
+              p("Anteprojeto | emissão 04/11/2026 | não enviado"),
               p("Estudo nominal. Não executar. Medidas acabadas, compatibilização profissional e detalhamento executivo pendentes.")]
     table([
         ["Componente", "Referência e limite"],
         ["Modelo FreeCAD", release["cadRevision"] + " vigente, arquivo incluído sem alteração."],
         ["Pranchas no anexo", "R02, referência dos desenhos R55; 20 folhas A3 preservadas em tamanho original. Extração arquitetônica R55; referências da caixa e envelope completo distinguidas."],
         ["Pontos", "R01: 53 funções, E06 adiada; posições e circuitos por compatibilizar."],
-        ["Materiais", "Caderno R01: intenções de projeto; amostras, SKUs e produtos pendentes."],
+        ["Materiais", "Caderno R01: identidades comerciais revistas em 04/11; amostras, lotes e variantes pendentes."],
         ["Revisão", "13 questões da base arquitetônica + 10 interfaces prioritárias."],
         ["Levantamento", "532 registros de preparação, nenhum valor medido preenchido."],
     ], [40 * mm, 132 * mm])
@@ -99,16 +102,15 @@ def make_pdf(destination, release):
     img.drawWidth = 172 * mm
     img.drawHeight = img.imageHeight / img.imageWidth * img.drawWidth
     story += [img, Spacer(1, 8 * mm)]
-    title("Comparação de níveis")
+    title("Níveis de projeto e levantamento")
     table([
         ["Referência", "Demais ambientes", "Banheiro"],
-        ["Piso no CAD", "Z = 0 mm", "Z = 0 mm"],
-        ["Topo da envoltória R55", "2570 mm", "2570 mm"],
         ["Teto acabado de projeto", "2550 mm nominal", "2300 mm nominal"],
-        ["Envoltória menos projeto", "-30 mm", "+70 mm"],
-        ["Composição de piso no CAD", "Z -50 a 0 mm, representação nominal", "Z -50 a 0 mm, representação nominal"],
+        ["Fonte", "Elias, 01/11/2026; roteiro de campo PD-*", "Elias, 01/11/2026; roteiro de campo PD-BAN"],
+        ["Levantamento real", "Pendente", "Pendente"],
+        ["Revisão necessária", "Piso acabado, teto, forro e fechamentos", "Piso acabado, teto, forro e instalações"],
     ], [62 * mm, 55 * mm, 55 * mm])
-    story.append(p("Quadro comparativo sem escala, não é corte construtivo. Forro não modelado; espessura gráfica de piso não comprova composição. Medir piso/teto acabados e desníveis antes de ajustar a envoltória ou os fechamentos dos armários. ARQ-01/11/12.", small))
+    story.append(p("Quadro de referências sem escala, não é corte construtivo. Não reutilizar a comparação antiga 2570 versus 2600/2500 mm. As alturas de projeto não comprovam espessuras de piso ou forro. Medir piso/teto acabados e desníveis antes de ajustar a envoltória ou os fechamentos dos armários. ARQ-01/11/12.", small))
     story.append(PageBreak())
 
     title("Materiais e acabamentos")
@@ -122,6 +124,42 @@ def make_pdf(destination, release):
     table(material_rows, [49 * mm, 38 * mm, 30 * mm, 55 * mm])
     story.append(PageBreak())
 
+    def markdown_table_section(filename, heading, end, widths):
+        section = read(filename).split(heading, 1)[1].split(end, 1)[0]
+        data = []
+        for line in section.splitlines():
+            if line.startswith("|") and not re.match(r"^\|[- :|]+\|$", line):
+                data.append([plain(c.strip()) for c in line.strip("|").split("|")])
+        if not data:
+            raise ValueError("Tabela ausente: " + heading)
+        table(data, widths)
+
+    title("Identidade comercial dos acabamentos")
+    story.append(p("Conferência documental de 04/11/2026. Os códigos abaixo identificam referências, não compra, lote ou amostra recebida. Fontes oficiais e detalhes de chapas/bordas nas seções 4 e 5 do Caderno de especificações incluído no ZIP."))
+    markdown_table_section(SPEC, "## 5. Identificação dos demais acabamentos", "**Registro da amostra", [35*mm, 65*mm, 72*mm])
+    story.append(p("Chapas: Arenza Colore/Lizze, Azul Petróleo Colors/Matt, Beige e Louro Freijó Poro documentados. Lume/Areia continuam alternativas sujeitas à amostra; Branco TX ainda exige fabricante. Não presumir equivalência de cor, classe do substrato ou formato de chapa."))
+    story.append(PageBreak())
+
+    title("Iluminação: compatibilidade documental")
+    story.append(p("Revisão de 04/11/2026. Identificação de componentes não comprova compatibilidade do conjunto. A lista curta completa acompanha o pacote com links oficiais; preços são históricos de 27/10. Não houve ensaio ou resposta direta de fornecedor."))
+    markdown_table_section(LIGHT, "## Compatibilidade documental", "**Manutenção e comando", [32*mm, 66*mm, 74*mm])
+    story.append(p("Manter fontes e controladores acessíveis para manutenção. Posições, condições térmicas, circuitos e ligações dependem do levantamento e revisão técnica; não executar a partir deste quadro."))
+    story.append(PageBreak())
+
+    title("Primeira etapa e limites financeiros")
+    story.append(p("D05-C: Elias, 27/10/2026, 'C - cotar com aumento de verba'. D06-B: Elias, 27/10/2026, 'B - adiar só E06/prateleiras, manter E05/TV para cotação'. O modelo mostra o projeto integral; presença no desenho não significa inclusão na primeira etapa."))
+    table([
+        ["Tratamento", "Escopo"],
+        ["Adiados na marcenaria", "C01 cabeceira; C03 encosto/almofadas do banco; C04 painel/prateleiras TV; C05 complementos do escritório; P16 gavetas; P17 aéreo do escritório."],
+        ["Outros adiados", "M05 Daiane, M06 tapete, M08 cortina do escritório; E06 de iluminação. M09 cortina do quarto é exclusão de escopo, não compra futura."],
+        ["Preservar", "Quarto e banco-baú, bancada e apoios próprios, TV da sala e E05. Cama viúva atual; queen futura. Ferragens laterais com amortecimento na marcenaria retida."],
+        ["Interfaces para revisar", "TV/PS5 e indiretas sem complementos adiados; suporte da soundbar; manutenção e acesso. Não atribuir custo zero nem presumir independência construtiva."],
+    ], [42*mm, 130*mm])
+    budget_intro = read(BUDGET).split("## Visão consolidada — 04/11/2026", 1)[1].split("### Da base", 1)[0].strip()
+    story.append(p(budget_intro))
+    story.append(p("Memória financeira completa no arquivo Orcamento_R43.md incluído no ZIP; o nome é legado. Valores documentais não são contratação. Bens existentes e compras fora da verba estão separados na abertura do documento."))
+    story.append(PageBreak())
+
     for filename, heading, finding, action, owner, acceptance in [
         (CAD_REVIEW, "Base arquitetônica: 13 questões", "constatacao",
          "pergunta_exata", "quem_resolve", "criterio_de_encerramento"),
@@ -129,7 +167,7 @@ def make_pdf(destination, release):
          "encaminhamento", "quem_resolve", "criterio_de_encerramento"),
     ]:
         title(heading)
-        story.append(p("Revisão documental concluída em 01/11/2026; fechamento físico/técnico pendente. IDs correspondem aos CSV incluídos, com fontes e critérios completos."))
+        story.append(p("Revisão de 01/11, com referências conciliadas em 04/11/2026; fechamento físico/técnico pendente. IDs correspondem aos CSV incluídos, com fontes e critérios completos."))
         for row in rows(filename):
             theme = row.get("tema", row.get("ambientes", ""))
             block = [p(row["id"] + " | " + theme, styles["Heading3"]),
@@ -163,7 +201,7 @@ def make_pdf(destination, release):
         c.setStrokeColor(colors.HexColor("#b9cacc"))
         c.line(19 * mm, 17 * mm, 191 * mm, 17 * mm)
         c.setFont("Helvetica", 7)
-        c.drawString(19 * mm, 12 * mm, "Guedala Park | revisão do arquiteto | 01/11/2026 | ESTUDO - NÃO EXECUTAR")
+        c.drawString(19 * mm, 12 * mm, "Guedala Park | revisão do arquiteto | 04/11/2026 | ESTUDO - NÃO EXECUTAR")
         c.drawRightString(191 * mm, 12 * mm, str(doc.page))
 
     prefix = BytesIO()
@@ -217,7 +255,11 @@ def build(zip_path):
         ("03_Ambientes/Planta_pontos/Planta_pontos_R00.svg", "Desenho de pontos R01; nome legado R00"),
         ("03_Ambientes/Planta_pontos/README.md", "Funções de pontos e limites"),
         ("03_Ambientes/Planta_pontos/Quadro_cargas.md", "Referência parcial para RT"),
-        (SPEC, "Especificações R01 completas"),
+        (SPEC, "Especificações R01; identidades comerciais revistas em 04/11"),
+        (LIGHT, "Compatibilidade documental 04/11; preços históricos e pendências"),
+        ("03_Ambientes/Iluminacao/README.md", "Composição de iluminação e limites"),
+        (BUDGET, "Consolidação 04/11; base histórica e etapa condicional"),
+        ("04_Moveis/Perguntas_para_oficina.md", "Perguntas técnicas; sem ensaios ou capacidades demonstradas"),
         ("01_Programa_e_decisoes/Programa_de_necessidades.md", "Programa R01"),
         (FIELD, "Roteiro completo de datum e prioridades"),
         ("07_Imovel/Medidas_e_impactos.csv", "Índice de campo vazio; não é levantamento"),
@@ -235,7 +277,7 @@ def build(zip_path):
     manifest_bytes = manifest.getvalue().encode("utf-8-sig")
     (OUT / "Manifesto.csv").write_bytes(manifest_bytes)
     start = """GUEDALA PARK - PACOTE PARA REVISAO DO ARQUITETO
-Emissão 01/11/2026. Preparado; não enviado. ESTUDO - NÃO EXECUTAR.
+Emissão 04/11/2026. Preparado; não enviado. ESTUDO - NÃO EXECUTAR.
 
 1. Abra 06_Entregas/Arquiteto/Caderno_arquiteto.pdf.
 2. Consulte o FCStd R55 em 02_Modelo_3D, no FreeCAD.
@@ -244,14 +286,14 @@ Emissão 01/11/2026. Preparado; não enviado. ESTUDO - NÃO EXECUTAR.
 5. Confirme o formato editável necessário: IFC/DWG/DXF/STEP não incluídos.
 
 O caderno reúne revisão, quadro de materiais, layout e levantamento, seguidos
-das 20 pranchas A3 originais R02/referência R55. Não constitui reexportação
-arquitetônica do R55. Imprima os anexos A3 a 100%, sem ajustar ao papel.
+das 20 pranchas A3 originais R02/referência R55. Inclui a revisão documental
+de materiais, luz e escopo de 04/11; o CAD permanece byte a byte preservado. Imprima os anexos A3 a 100%, sem ajustar ao papel.
 O nome Planta_pontos_R00.svg é legado; conteúdo documental R01.
 Os fontes Markdown preservam referências ao repositório completo; nem todos
 os estudos citados nesses documentos integram este recorte. Comece pelo PDF
 e pelos caminhos do Manifesto.csv, que estão presentes no ZIP.
 
-Manifesto.csv registra os hashes dos 17 arquivos de conteúdo.
+Manifesto.csv registra os hashes dos 21 arquivos de conteúdo.
 """
     payload["LEIA_PRIMEIRO.txt"] = start.encode("utf-8-sig")
     payload["Manifesto.csv"] = manifest_bytes
