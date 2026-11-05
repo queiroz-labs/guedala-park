@@ -1,6 +1,6 @@
 # Guedala Park — estado atual
 
-Vigente 04/11/2026.
+Vigente 05/11/2026.
 
 ## O projeto
 
@@ -114,6 +114,8 @@ Busca: sinônimos e erros de digitação.
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.
 
 ## Como trabalhar nesta pasta
+
+[Retomar em outra máquina](README.md#continuar-em-outra-máquina): clone, dependências, hooks e ZIP do arquiteto por manifesto (05/11).
 
 - [Regras](AGENTS.md) · [verificações](ferramentas/README.md) · [mapa](README.md).
 - PS1 abre candidato piso/rodapé da base atual; `-Vigente` abre o oficial no FreeCAD mais recente.

@@ -1,5 +1,7 @@
 # Ferramentas
 
+[Retomada em outra máquina](../README.md#continuar-em-outra-máquina): requisitos_retomada.txt; pacote_arquiteto.py --somente-zip recompõe fontes emitidas pelo manifesto sem regenerar PDF.
+
 Consistência: confere quatro/três/dois pares laterais (Elias,02/11/2026); custos anteriores são provisão, sujeitos a recotação.
 
 Arquiteto (revisão 04/11: materiais, luz, escopo/finanças; 33 páginas): executar ferramentas/estudos/pacote_arquiteto.py com --zip CAMINHO_EXTERNO_NOVO.zip (ReportLab/pypdf). [Conteúdo e limites](../06_Entregas/Arquiteto/README.md); CAD não aberto/alterado, sem envio.

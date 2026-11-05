@@ -6,6 +6,50 @@ Projeto de interiores e marcenaria do apartamento. **Para entender o projeto, co
 
 **[Abrir o site interativo →](https://queiroz-labs.github.io/guedala-park/)** · **[Baixar o pacote para o montador ↓](https://queiroz-labs.github.io/guedala-park/docs/06_Entregas/Publicacao/Guedala_Park_R32.zip)**
 
+## Continuar em outra máquina
+
+Guia de retomada conferido em 05/11/2026. **Clone o repositório inteiro**, não apenas o pacote do montador. O Git contém CAD R55, fontes editáveis, pranchas/PDFs, cotações, histórico, scripts e regras. Leia `AGENTS.md`, depois `ESTADO_ATUAL.md`; a conversa não é necessária para recuperar o estado registrado.
+
+No PowerShell, com Git e Python 3.12 disponíveis:
+
+```powershell
+git clone https://github.com/queiroz-labs/guedala-park.git
+cd guedala-park
+git config core.hooksPath ferramentas/hooks
+git status
+python -m venv ../guedala-ambiente
+& ../guedala-ambiente/Scripts/python.exe -m pip install -r ferramentas/requisitos_retomada.txt
+$env:PATH = (Resolve-Path ../guedala-ambiente/Scripts).Path + ';' + $env:PATH
+$env:PYTHONDONTWRITEBYTECODE = '1'
+python -B ferramentas/verificar_tudo.py --ci
+```
+
+O ambiente fica fora do repositório. Em Linux/macOS, use `../guedala-ambiente/bin/python` e `source ../guedala-ambiente/bin/activate`. Na próxima sessão, reative o ambiente antes dos hooks. Para editar CAD, instale FreeCAD e abra o arquivo indicado no [README do modelo](02_Modelo_3D/README.md); não dependa de atalhos ou caminhos da máquina anterior. Não regenere CAD ou sua base para instalar o ambiente.
+
+**Site, se for trabalhar nele:** Node/npm são necessários. As dependências JavaScript também podem ficar fora da pasta do projeto:
+
+```powershell
+New-Item -ItemType Directory -Force ../guedala-web | Out-Null
+Copy-Item ferramentas/site/package.json,ferramentas/site/package-lock.json ../guedala-web/
+npm ci --prefix ../guedala-web --ignore-scripts
+$env:NODE_PATH = (Resolve-Path ../guedala-web/node_modules).Path
+python -B ferramentas/verificar_site.py
+```
+
+Os caminhos `guedala-ambiente`/`guedala-web` são locais e não devem ser commitados. Poppler é opcional para renderizar e revisar PDFs; os PDFs emitidos já estão no Git. Scripts de estudos especializados podem exigir bibliotecas adicionais indicadas no README de cada área; esta instalação cobre verificadores, site e pacote do arquiteto.
+
+**Pacotes:** a [cotação](06_Entregas/Cotacao/README.md) e o [PDF do arquiteto](06_Entregas/Arquiteto/Caderno_arquiteto.pdf) estão versionados. O ZIP externo do arquiteto pode ser recriado sem abrir CAD nem regenerar PDF, a partir das 21 fontes e hashes do manifesto:
+
+```powershell
+python -B ferramentas/estudos/pacote_arquiteto.py --somente-zip --zip ../outputs/Arquiteto/Guedala_Park_Arquiteto.zip
+```
+
+Use destino inexistente. O conteúdo emitido é preservado; o contêiner ZIP e suas instruções podem ter hash diferente. Se uma fonte divergir, o comando para: revisar a emissão, não ignorar a diferença. O site/pacote do montador é reconstruído pelo CI a partir das fontes versionadas.
+
+**Não transferidos pelo Git público:** `guedala-pessoal`, documentos personalizados de fornecedores excluídos por privacidade, vídeos brutos, programas instalados, credenciais, caches e saídas temporárias. Vídeos têm relatórios/fotos selecionadas no projeto; pacotes antigos ignorados não são dependência da retomada. Se precisar dos originais ou dados privados, transfira-os por meio privado separado. Não adicionar essas pastas ao Git.
+
+**Ponto de retomada:** materiais e luz revistos; orçamento consolidado; pacote do arquiteto emitido; [16 tarefas de uso/manutenção](03_Ambientes/README.md#revisão-de-uso-e-manutenção--04112026). Cotação ainda não enviada; medidas reais, produtos e RT seguem pendentes. A planilha financeira R43 é histórica: usar a abertura do consolidado indicado no estado atual.
+
 ## Como a pasta está organizada
 
 | Pasta | Conteúdo |

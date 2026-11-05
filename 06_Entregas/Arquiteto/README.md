@@ -17,6 +17,10 @@ FCStd e desenhos referem-se à R55. As pranchas usam paredes, vãos e pisos reex
 
 **Revisão 04/11:** fontes de materiais/luz e orçamento incluídas; ARQ-01/03/11/13 conciliadas com alturas, portas e pranchas vigentes. Nenhum ensaio ou levantamento novo. O modelo integral contém móveis adiados: o caderno identifica o escopo da primeira etapa.
 
+## Recriar apenas o ZIP
+
+Em outra máquina, instalar as [dependências de retomada](../../README.md#continuar-em-outra-máquina) e executar `python -B ferramentas/estudos/pacote_arquiteto.py --somente-zip --zip ../outputs/Arquiteto/Guedala_Park_Arquiteto.zip`. Destino novo, fora do repositório. Confere as 21 fontes pelo manifesto e preserva o PDF emitido; não abre CAD. O ZIP reconstituído pode ter hash diferente por metadados/instruções.
+
 ## Regenerar
 
 Usar Python com ReportLab e pypdf (runtime local do Codex disponível), na raiz:

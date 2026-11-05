@@ -1,0 +1,4 @@
+# Site: mesma versao de Pillow do CI. PDF: versoes utilizadas na emissao local.
+Pillow==11.3.0
+reportlab==4.4.9
+pypdf==6.10.0

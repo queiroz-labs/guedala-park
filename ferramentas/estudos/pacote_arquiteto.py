@@ -313,8 +313,52 @@ Manifesto.csv registra os hashes dos 21 arquivos de conteúdo.
                      ensure_ascii=False))
 
 
+def repackage(zip_path):
+    """Recria o pacote a partir dos arquivos emitidos, sem regenerar o PDF."""
+    zip_path = zip_path.resolve()
+    if zip_path.is_relative_to(ROOT) or zip_path.exists():
+        raise ValueError("Escolha um destino novo fora do repositório")
+    manifest = (OUT / "Manifesto.csv").read_bytes()
+    entries = list(csv.DictReader(StringIO(manifest.decode("utf-8-sig")), delimiter=";"))
+    payload = {}
+    for entry in entries:
+        source = (ROOT / entry["origem_no_repositorio"]).resolve()
+        name = entry["caminho_no_zip"]
+        if not source.is_relative_to(ROOT) or Path(name).is_absolute() or ".." in Path(name).parts:
+            raise ValueError("Caminho inválido no manifesto")
+        if name in payload:
+            raise ValueError("Entrada duplicada no manifesto")
+        data = source.read_bytes()
+        if len(data) != int(entry["bytes"]) or sha(data) != entry["sha256"]:
+            raise ValueError("Fonte diferente da emissão: " + name)
+        payload[name] = data
+    payload["Manifesto.csv"] = manifest
+    payload["LEIA_PRIMEIRO.txt"] = (
+        "GUEDALA PARK - PACOTE PARA REVISAO DO ARQUITETO\n"
+        "Reconstituido pelos hashes da emissao documentada. Nao enviado.\n"
+        "Abra 06_Entregas/Arquiteto/Caderno_arquiteto.pdf.\n"
+        "Extraia tudo. Consulte Manifesto.csv para as fontes e limites.\n"
+        "ESTUDO - NAO EXECUTAR. Medidas reais e revisao tecnica pendentes.\n"
+    ).encode("utf-8")
+    zip_path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(zip_path, "x", zipfile.ZIP_DEFLATED) as z:
+        for name, data in payload.items():
+            z.writestr(name, data)
+    with zipfile.ZipFile(zip_path) as z:
+        assert z.testzip() is None
+        assert set(z.namelist()) == set(payload)
+        for name, data in payload.items():
+            assert z.read(name) == data, name
+    print(json.dumps({"zip": str(zip_path), "fontes_conferidas": len(entries),
+                      "pdf_regenerado": False, "sha256": sha(zip_path.read_bytes())}))
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--zip", type=Path, required=True, help="Destino novo fora do repositório")
+    parser.add_argument("--somente-zip", action="store_true", help="Usa PDF/fontes emitidos, conferindo o manifesto")
     args = parser.parse_args()
-    build(args.zip)
+    if args.somente_zip:
+        repackage(args.zip)
+    else:
+        build(args.zip)
