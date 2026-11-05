@@ -10,7 +10,7 @@ O verificador bloqueia pastas datadas fora de `06_Entregas/` e `02_Modelo_3D/His
 
 Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de estudo vão para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script novo solto).
 
-Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` transcreve painéis/ferragens das fichas atuais para o CSV e regenera os pedidos e ZIPs. Não recalcula corte/fita, não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py` verifica fontes, corrediças laterais, escopos, formulário, CRC, links e fichas anexadas. Exige estado não enviado. A consolidação anterior foi substituída; seu histórico está no git.
+Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` transcreve painéis/ferragens das fichas atuais para o CSV e regenera os pedidos e ZIPs. Não recalcula corte/fita, não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py` verifica fontes, corrediças laterais, escopos, formulário, CRC, links e fichas anexadas. Exige estado não enviado; consultas de iluminação atualizadas em 04/11 por fontes oficiais, sem fechar compatibilidade pendente. A consolidação anterior foi substituída; seu histórico está no git.
 
 
 | Comando | O que faz | Tempo |

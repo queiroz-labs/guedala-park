@@ -4,6 +4,8 @@
 
 **Proposta consolidada em 26/10 e preços revistos em 27/10/2026; seleção comercial e instalação ainda condicionadas.** A geral do quarto passa a smart: Elias, 26/10/2026, pediu “conecta-las na alexa e celular” e confirmou “Manter essas três com interruptor comum” para cozinha, lavanderia e banheiro. SceneSwitch sai da proposta prioritária; não registrar iluminação como pronta para compra/execução.
 
+**Conferência 04/11:** [compatibilidade por conjunto](Lista_curta_luminarias_e_madeira.md#compatibilidade-documental--consulta-04112026): WiZmote sem internet e Opus 172 mm documentados; Elgin físico, WiZ/Jurerê, pulsador, corrente COB e G9/D1 pendentes.
+
 ## Composição vigente por ambiente
 
 | Ambiente / função | Proposta e comando | Falta para fechar |
@@ -40,7 +42,7 @@ Faltam frete, pilhas eventualmente ausentes, suportes opcionais, comandos conven
 |---|---|---|
 | Lâmpadas e plafons | IL02/IL03: SKU, tensão e condições de uso das quatro WiZ nos dois Jurerê | WiZ/revenda/Taschibra |
 | Comando das indiretas | IL04/IL05: pulsador Tramontina ou Wall Switch 1 identificado e compatível com I1–negativo | Tramontina/Shelly |
-| Fontes e fitas | IL06/IL07: lote Opus 172/270 mm, regulação/PWM/térmica; corrente divergente da Cristallux | Opus/Cristallux |
+| Fontes e fitas | IL06/IL07: Opus 172 mm no catálogo; lote/PWM/térmica e corrente Cristallux pendentes | Opus/Cristallux |
 | Kits e luminárias restantes | IL08/IL09: manuais, variantes e componentes completos | Fabricantes/revendas indicados |
 | Compra | Cotação entregue por SKU, acessórios e decisão sobre candidatos | Elias/projeto após respostas |
 | Implantação | Pontos reais, grupos independentes, acesso às fontes, compatibilidade com portas/varal/torneira, circuitos e proteção | RT/instalador após levantamento |

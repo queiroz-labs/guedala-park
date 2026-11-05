@@ -13,7 +13,7 @@ Revisão 04/11/2026. **Preparado, não enviado.** [Checklist](index.html) · [Ma
 | Prazo | A combinar no envio; 30/10 venceu sem envio registrado |
 | Limites | R55 de referência; fichas R15 atualizadas conservam rótulos históricos R53/R45 e mapas anteriores; não representam nova extração integral |
 
-Pedidos individuais preservam amostras A/C e consultas IL02–IL09. Galaxy/Paris Luz são alternativas para a mesma unidade; controle E05 está na IL02, sem duplicação na IL08. Nenhum envio, compra ou preço interno incluído.
+Pedidos individuais preservam amostras A/C; IL02–IL09 incorporam a conferência oficial de 04/11 (variantes WiZ, fonte Opus, corrente Cristallux, comandos e conjuntos ainda pendentes). Galaxy/Paris Luz são alternativas para a mesma unidade; controle E05 está na IL02, sem duplicação na IL08. Nenhum envio, compra ou preço interno incluído.
 
 Regenerar: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py`. Validar: `python -B ferramentas/estudos/test_quantidades_cotacao.py` (fontes atuais, escopo, formulário, CRC, links e bytes das fichas anexadas).
 

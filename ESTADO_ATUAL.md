@@ -22,7 +22,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Estudos dos móveis | Cargas e suspensão: estudos nominais removidos (04/11); perguntas à oficina | [Perguntas](04_Moveis/Perguntas_para_oficina.md) · [Massas](04_Moveis/Quantitativos/README.md) |
 | Programa | R01; escolhas 29/10 | [Programa](01_Programa_e_decisoes/Programa_de_necessidades.md) |
 | Planta mobiliada e vistas | R03; cena R55, 8 PNGs/SHA | [Planta mobiliada](03_Ambientes/Planta_mobiliada/README.md) |
-| Especificações/luz | R01; E5% e U0 separados | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
+| Especificações/luz | R01; identidade/compatibilidade revistas 04/11 | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
 | Pontos (elétrica, água, gás) | R01; 6.670 W parciais; mínimos: 16 TUG/5.300 VA | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
 | Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
@@ -58,7 +58,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 - **Cores:** Branco TX em peças internas separadas; Arenza na cozinha, lavanderia, escritório e quarto; Azul Petróleo nos aéreos da cozinha; off-white e bege foscos; Granito Branco Itaúnas; piso vinílico Olmo.
 - **Sala:** Philips 50PUG8100/78 e TAB4000 (29/10); TCL só reserva. Sofá Bonnie; Berlin com três cadeiras; banco com duas tampas, piano e articuladores com trava (protótipo pendente).
-- **Quarto:** roupeiro 65 cm, portas de correr; viúva com baú 128×188×64 atual (29/10), queen futura. Geral smart, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin 48D18WSRWIFI só no quarto (Elias 27/10/2026); manual/comando físico pendentes. D04-A: cabeceira/face inferior acessível, implantação pendente.
+- **Quarto:** roupeiro 65 cm, portas de correr; viúva com baú 128×188×64 atual (29/10), queen futura. Geral smart, Alexa/celular (Elias, 26/10/2026: “quero q seja possivel conecta-las na alexa e celular”); D03-B Elgin 48D18WSRWIFI só no quarto (Elias 27/10/2026); comando físico específico ainda pendente. D04-A: cabeceira/face inferior acessível, implantação pendente.
 - **Escritório (29/10):** Ercathe A01 e ASUS 27″ + AOC 24″ fora da verba; volante/pedais retirados. [Setup](03_Ambientes/Escritorio/README.md).
 - **Canto P02:** duas portas independentes e quina fixa ([mockup](04_Moveis/Proximas_decisoes/P01_P03/Abertura_armario_L.png)); ferragens, limitador e folgas condicionados.
 - **Maleiro P03:** Elias, 25/10/2026, prefere a opção A (duas folhas 672 × 306) e confirmou Arenza liso; aplicar somente se atender, ainda não executado. [README do P03](04_Moveis/P03/README.md).
