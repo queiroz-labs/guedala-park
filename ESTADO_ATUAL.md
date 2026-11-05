@@ -46,7 +46,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Anteprojeto | 87% estimado | [Critério e pendências](01_Programa_e_decisoes/Roteiro_para_projeto_oficial.md). D01–D06 respondidas; pacote pronto para envio; cotações/amostras impedem 90–95% |
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01 e grupo 3](03_Ambientes/Planta_pontos/README.md#interfaces-prioritárias--grupo-3): 10 interfaces revisadas; 53 funções/E06 adiada; implantação, rotas e acessos com RT/oficina |
-| Especificações | 80% documental | Catálogo 15/18 mm e códigos disponíveis no Caderno; D02: amostras Lume/Areia solicitadas por Elias 27/10; SKUs e escolha final pendentes |
+| Especificações | 80% documental | Caderno revisto 04/11: Louro Poro 18 e identidades comerciais documentados; D02/amostras, lotes e SKUs restantes pendentes |
 | Orçamento | 60% | R44: R$ 137.748,11; luz 4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias 27/10: "C — cotar com aumento de verba". Referência 127.101,22, aporte 7.101,22, reserva 10.000 intacta; pacote 37.000 condicionado, sem contratar |
 | Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R55, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |

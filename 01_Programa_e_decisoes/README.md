@@ -37,3 +37,5 @@ Pedido preliminar R15 preserva estratégia comercial: três propostas comparáve
 **Pranchas R02, 27/10/2026:** [20 folhas A3 e critérios](../06_Entregas/Caderno_pranchas/README.md); estimativa formal 80% após escalas, fonte CSV, R53, impacto e teste externo 2,60→2,47. Anteprojeto mantém avaliação independente; levantamento/interfaces/RT pendentes.
 
 **Reconciliação 04/11/2026:** roteiro e rascunhos alinhados às alturas 2,55/2,30 m e às referências R55/R03; prazo antigo de consulta vencido, nova data a combinar no envio. Percentuais de maturidade não foram elevados.
+
+**Materiais, 04/11/2026:** [identificação comercial e amostras](Caderno_de_especificacoes.md#5-identificação-dos-demais-acabamentos--04112026): Louro Poro 18 identificado; códigos de pisos/revestimentos e referência F100 registrados; tecidos, lote e variantes pendentes. Sem alteração das escolhas ou quantidades.
