@@ -25,7 +25,7 @@ Interiores/marcenaria: Cury Guedala Park III (Torre 2, final 06, 8º andar, 40,1
 | Especificações/luz | R01; identidade/compatibilidade revistas 04/11 | [Caderno](01_Programa_e_decisoes/Caderno_de_especificacoes.md) · [Luz](03_Ambientes/Iluminacao/README.md) |
 | Pontos (elétrica, água, gás) | R01; 6.670 W parciais; mínimos: 16 TUG/5.300 VA | [Planta de pontos](03_Ambientes/Planta_pontos/README.md) |
 | Conectores (P01, P04, P12, P17) | R00, proposta | [Mapa de conectores](04_Moveis/Mapa_conectores/README.md) |
-| Orçamento | R44 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
+| Orçamento | R44; consolidação 04/11 | [Orçamento](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md) |
 | Cronograma | R00; escopo 29/10: 29 nós/7 marcos; faltam prazos, sem probabilidades | [Rede e limites de compra](05_Orcamento_e_cronograma/README.md) |
 | Pranchas A3 | R02: 20 folhas; 1:50/1:25; R55; alturas2,55/2,30m | [Caderno de pranchas](06_Entregas/Caderno_pranchas/index.html) · [PDF R02](06_Entregas/Caderno_pranchas/Guedala_Park_Pranchas_R02.pdf) |
 | Site/pacote do montador | R55/R32; Geometria atual; medidas internas e foco animado; Obra em Mais; pub. autorizada: Elias,02/11/26, “ok, pode publicar” | [Site online](https://queiroz-labs.github.io/guedala-park/) · [gerador](ferramentas/site/README.md) · [entregas](06_Entregas/README.md) |
@@ -47,7 +47,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 | Executivo de marcenaria | 45–55% | Fichas prontas; faltam montagens do banco, cesto e gavetas, furação dos conectores e medidas reais |
 | Complementares | 35% | [Pontos R01 e grupo 3](03_Ambientes/Planta_pontos/README.md#interfaces-prioritárias--grupo-3): 10 interfaces revisadas; 53 funções/E06 adiada; implantação, rotas e acessos com RT/oficina |
 | Especificações | 80% documental | Caderno revisto 04/11: Louro Poro 18 e identidades comerciais documentados; D02/amostras, lotes e SKUs restantes pendentes |
-| Orçamento | 60% | R44: R$ 137.748,11; luz 4.534,55. [D05-C](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#d05--plano-de-escopo-sem-descontos-presumidos), Elias 27/10: "C — cotar com aumento de verba". Referência 127.101,22, aporte 7.101,22, reserva 10.000 intacta; pacote 37.000 condicionado, sem contratar |
+| Orçamento | 60% | [Consolidado 04/11](05_Orcamento_e_cronograma/Orcamento/Orcamento_R43.md#visão-consolidada--04112026): referência parcial 127.589,02–127.619,02, PE12G/TAB4000 incluídos; reserva 10.000 separada. D05-C/D06-B; pacote-alvo 37.000 e lacunas pendentes; sem contratar |
 | Pranchas formais | 80% estimados | [R02 e critérios](06_Entregas/Caderno_pranchas/README.md): fonte CSV, R55, 12 elevações, impacto; faltam levantamento, interfaces e revisão técnica |
 | Responsável técnico e aprovação | 10% | Rascunho do plano de reforma; RT ainda não contratado |
 | Levantamento no imóvel | 25% | [Registros de medidas e impactos](07_Imovel/Medidas_e_impactos.csv); levantamento real depende das chaves |

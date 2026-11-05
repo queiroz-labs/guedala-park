@@ -1,12 +1,54 @@
 # Orçamento consolidado R44 — 26/10/2026
 
-**Comparação vigente em 27/10/2026, D05-C + D06-B:** luz parcial **R$ 4.534,55**; etapa de execução **R$ 127.101,22**, aporte de **R$ 7.101,22** e reserva **R$ 10.000** preservada. Anteprojeto **87%** documental. R44 integral de R$ 137.748,11 permanece como base histórica de comparação; as memórias anteriores à seção D01 não são os valores vigentes de iluminação. Propostas instaladas e adaptações ainda faltam; não é orçamento contratado.
+**Antecedente de 27/10/2026, D05-C + D06-B; consolidação de 04/11 abaixo:** luz parcial **R$ 4.534,55**; etapa de execução **R$ 127.101,22**, aporte de **R$ 7.101,22** e reserva **R$ 10.000** preservada. Anteprojeto **87%** documental. R44 integral de R$ 137.748,11 permanece como base histórica de comparação; as memórias anteriores à seção D01 não são os valores vigentes de iluminação. Propostas instaladas e adaptações ainda faltam; não é orçamento contratado.
 
-**Estimativa atual de execução: R$ 137.748,11.** Teto: **R$ 120.000,00**, mais **R$ 10.000,00 de reserva intocada**, conforme [fatos do projeto](../../ferramentas/fatos.json). Excesso de execução: **R$ 17.748,11**. Necessidade incluindo a reserva: **R$ 147.748,11**, contra R$ 130.000,00 disponíveis. Uso da reserva: R$ 0,00.
+**Base histórica integral de execução R44: R$ 137.748,11.** Teto: **R$ 120.000,00**, mais **R$ 10.000,00 de reserva intocada**, conforme [fatos do projeto](../../ferramentas/fatos.json). Excesso de execução: **R$ 17.748,11**. Necessidade incluindo a reserva: **R$ 147.748,11**, contra R$ 130.000,00 disponíveis. Uso da reserva: R$ 0,00.
 
 Revisão consolidada no arquivo original, sem mudar seu nome. Substitui os totais e notas cumulativas da R43. Estimativa não é compra, contrato nem autorização de execução. As escolhas de modelos, acabamentos, armazenamento e serviços necessários permanecem nas análises citadas.
 
-## Tabela única por categoria
+## Visão consolidada — 04/11/2026
+
+**Referência parcial da etapa escolhida: R$ 127.589,02 a R$ 127.619,02**, usando a provisão documental do PE12G e a faixa histórica da TAB4000. Reserva fixa de R$ 10.000 separada: recursos de referência R$ 137.589,02 a R$ 137.619,02. Excesso sobre o limite-base de execução de R$ 120.000: R$ 7.589,02 a R$ 7.619,02. **Não é preço fechado nem intervalo do custo final:** pacote de marcenaria, preços e lacunas continuam condicionados. Não altera o limite-base ou autoriza gasto.
+
+### Da base à etapa escolhida
+
+| Movimento documental | Variação (R$) | Saldo (R$) | Tratamento |
+|---|---:|---:|---|
+| Base integral R44 de 26/10 | — | 137.748,11 | Estimativas históricas das onze categorias abaixo |
+| Luz: substituir 3.540,00 por 4.534,55 | +994,55 | 138.742,66 | D03-B/D06-B já incorporadas; E06 adiada, não descontar outra vez |
+| M09: retirar cortina indevida do quarto | −650,00 | 138.092,66 | Correção de escopo, não desconto negociado |
+| Adiar M05 Daiane, M06 tapete e M08 cortina do escritório | −1.491,44 | 136.601,22 | 641,44 + 300,00 + 550,00; custo futuro permanece |
+| Substituir provisão global 46.500 por pacote-alvo 37.000 | −9.500,00 | 127.101,22 | D05-C: adiar C01/C03/C04/C05/P16/P17; crédito-alvo, sem proposta recebida |
+| E08: substituir PE11X 502,10 por provisão PE12G 659,90 | +157,80 | 127.259,02 | Modelo vigente corrigido; referência indexada antiga, sem preço entregue confirmado |
+| Incluir soundbar Philips TAB4000 | +330,00 a +360,00 | **127.589,02 a 127.619,02** | Faixa documental de 29/10; suporte/frete não demonstrados |
+
+Fontes: tabela R44 e seções D01/D05 deste arquivo; [luz vigente](../../03_Ambientes/Iluminacao/Lista_curta_luminarias_e_madeira.md); [correção M09](Moveis_e_tecidos/Analise_moveis.md); [PE12G, registro de 15/09](../../01_Programa_e_decisoes/Registro_de_decisoes.md#purificador-electrolux-pe12g-definido) (preço indexado 659,90 no mesmo registro, teto de pesquisa aproximadamente 660; reconfirmação do modelo em [Cozinha](../../03_Ambientes/Cozinha/README.md)); [TAB4000 e escolha de 29/10](../../03_Ambientes/Sala_e_jantar/README.md). Nenhum preço foi pesquisado novamente nesta consolidação.
+
+**Conta para substituir pelas respostas reais:** R$ 89.599,12 + pacote instalado da marcenaria + preço do PE12G + preço da TAB4000 + ajustes líquidos das demais categorias e lacunas. Os 89.599,12 são 90.101,22 fora da marcenaria menos 502,10 do purificador superado. A provisão 659,90 não comprova oferta atual; a faixa da soundbar tampouco. Se outra referência mudar, substituir sua parcela, sem somar o produto inteiro por cima do antigo.
+
+### Existentes, compras separadas e adiamentos
+
+| Grupo | Situação e efeito financeiro |
+|---|---|
+| Existentes | Cama viúva atual; TV Samsung 43 do escritório; AOC 24; um ELG F80N; computador/PS5 e cafeteira já documentados. Não geram nova compra nem novo desconto: já estavam fora da base. Queen futura não precificada |
+| Fora da verba por decisão de Elias em 29/10 | Cadeira Ercathe 2.290,90 + ASUS 2.000,00 = 4.290,90, referências históricas; não incluídos no total da etapa nem na reserva |
+| Acessório do escritório ainda fora da R44 | Segundo F80N: 169,99 a comprar; primeiro já possuído. Somado à cadeira/ASUS: referência separada 4.460,89, antes de fretes |
+| Suporte FIX200 | Referência 63,99 fora da R44. Conferir cobertura em A02 (400 para suportes/instalação das duas TVs) antes de adicionar; sem cobrança dupla |
+| Adiados da etapa | M05/M06/M08; C01/C03/C04/C05/P16/P17; E06 de iluminação. Custos futuros e nova mobilização não estão quitados pelo abatimento documental |
+| Escolhidos e ainda a comprar | TV Philips já na base; TAB4000 e PE12G incorporados acima por referências históricas. Escolha não significa compra realizada |
+
+Valores e fontes das compras separadas: [README financeiro](../README.md#compras-fora-do-orçamento) e [setup](../../03_Ambientes/Escritorio/Setup.md). O total separado 4.460,89 não inclui FIX200, queen, fretes ou outros itens sem preço; não é orçamento completo do escritório.
+
+### Lacunas e duplicidades a controlar
+
+- Marcenaria: 37.000 é alvo instalado da etapa, não proposta; ferragens laterais, estofamento retido, protótipos, arremates e montagem precisam estar discriminados. Não acrescentar ferragens novamente se incluídas no pacote.
+- Iluminação: acessórios, comandos físicos, suportes, pilhas e frete ainda incompletos. Fontes/controladores dos kits e os três WiZmotes entram uma vez; mão de obra em I01, sujeita a cobertura.
+- TV/PS5 e indiretas precisam funcionar sem os complementos adiados; custo de adaptação e suporte da soundbar em aberto. Conferir A02 antes de adicionar suportes.
+- Transporte de marcenaria pertence ao pacote; frete de varejo usa G02 (1.800) como provisão. Substituir pela cobertura real, sem somar o mesmo frete duas vezes.
+- Box até o teto, revestimentos, água quente, instalações e serviços permanecem provisionados; mudanças de escopo e quantidades podem alterar valores. Lacuna não equivale a zero.
+- A planilha R43 abaixo continua histórica e divergente. Esta visão é a referência de leitura consolidada; percentuais de maturidade e situação de contratação não mudaram.
+
+## Tabela histórica por categoria — base R44
 
 Valores em reais. A data junto à fonte vale para os valores da respectiva linha, salvo indicação específica. **Preço cotado vazio significa ausência de proposta completa recebida e documentada para a categoria**; preços de varejo pesquisados nas análises são referências da estimativa, não uma cotação fechada com frete, instalação e escopo conferidos. As metas são condicionais; nenhuma redução negociada foi contabilizada na estimativa atual.
 

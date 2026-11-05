@@ -1,5 +1,7 @@
 # Orçamento e cronograma
 
+**Consolidação 04/11:** [composição da etapa](Orcamento/Orcamento_R43.md#visão-consolidada--04112026), referência parcial 127.589,02–127.619,02 com PE12G/TAB4000; reserva separada. Pacote-alvo e lacunas continuam condicionados. Valores antigos abaixo são antecedentes.
+
 Gavetas: nove pares laterais com amortecimento (Elias,02/11/2026). Recotar ferragens e caixas; nenhuma economia aplicada ao total.
 
 [Comparador de cotações: modelos, cobertura e custo equivalente](Orcamento/Cotacoes/README.md): sem propostas reais; decisão pendente.
@@ -96,7 +98,7 @@ Fontes: [cronograma §§1–3](Cronograma_obra_e_compras.md) e [plano de reforma
 
 ## Compras fora do orçamento
 
-Valores fora do R44, sem uso da reserva. Em 29/10/2026, Philips 50PUG8100/78 e TAB4000 estão escolhidas ([fonte](../03_Ambientes/Sala_e_jantar/README.md#tv-e-painel)); TV já provisionada, soundbar ainda a incluir. Preservar totais e preços históricos.
+Valores fora do R44, sem uso da reserva. Em 29/10/2026, Philips 50PUG8100/78 e TAB4000 estão escolhidas ([fonte](../03_Ambientes/Sala_e_jantar/README.md#tv-e-painel)); TV já provisionada, soundbar incluída por faixa histórica na consolidação de 04/11, sem preço fechado.
 
 | Item | Valor | Fonte |
 |---|---:|---|
