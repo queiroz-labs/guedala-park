@@ -108,7 +108,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Uso:** [16 tarefas de rotina/manutenção e faseamento, 04/11](03_Ambientes/README.md#revisão-de-uso-e-manutenção--04112026); campo pendente. [35 conferências geométricas](02_Modelo_3D/Conferencia_uso.csv).
 
-**Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
+**Site:** índices/HTML recompostos 05/11; [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 Busca: sinônimos e erros de digitação.
 
 **Responsáveis a contratar:** projeto: juntas/interfaces; oficina: ferragens/ensaios; RT: campo/ancoragens/piso. Elias: aparência.

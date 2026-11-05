@@ -1,5 +1,7 @@
 # Apartamento interativo — R55 e pacote R32
 
+05/11: índices e HTML atualizados; CAD preservado.
+
 **Atualização R32:** corrediças laterais, caixas ajustadas e geladeira fechada no CAD e na geometria do site. Elias, 02/11/2026: “sim, aprovo esse candidato como oficial, com as corrediças laterais e a geladeira fechada. atualiza o site tbm”. Controles adicionais no visualizador continuam pendentes; consultar movimentos no FreeCAD.
 
 **Pranchas R55:** alturas2550/2300mm, PE12G e referências de caixa/conjunto conciliadas; CAD intacto. Elias,02/11/2026: “sim, pode conciliar as referências desses 3 móveis sem alterar o CAD e terminar a atualização das pranchas e do site”.
