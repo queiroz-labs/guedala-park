@@ -53,7 +53,7 @@ As 21 posições, 210 pares de envelopes e acessos contra madeira/calços/suspen
 
 No cenário ρ900 com 10 kg de conteúdo, a fronteira da base transmite V136,62 N; incluindo a divisória, V164,23 N. Para conteúdo frontal, momentos de 36,62/41,42 Nm em torno da origem traseira. O CSV preserva as resultantes simultâneas de cada corte; não são esforços por parafuso nem cargas extras a somar ao equilíbrio global. Um par colinear de Minifix não fecha sozinho um momento em torno da sua linha: a caixa e os contatos precisam participar. Resistência, rigidez e flecha do P12 ainda exigem modelo compatível e dados reais de junta; não se reutiliza a flecha do P17.
 
-Reproduzir: `python -B ferramentas/aereos/mapear_caminho_caixa.py --movel P12` e `python -B ferramentas/aereos/conferir_caminho_caixa.py --movel P12`. Nenhum ensaio físico ou alteração R52.
+ Nenhum ensaio físico ou alteração R52.
 
 ### Comprovações restantes
 
@@ -62,4 +62,4 @@ Reproduzir: `python -B ferramentas/aereos/mapear_caminho_caixa.py --movel P12` e
 3. Laboratório/fabricante/RT: acordar protocolo, replicação, fatores/ciclos/duração e critérios antes de aplicar carga. Usar vetores simultâneos e montagem representativa; registrar deformações, deslizamento, residual e danos.
 4. Imóvel/RT: medir parede/revestimento, instalações, contato inferior e posição final sobre a geladeira antes de definir ancoragens. Ventilação e manutenção do aparelho continuam na compatibilização de equipamentos.
 
-Nenhuma mudança de aparência, volume ou uso exigiu nova decisão de Elias nesta etapa. Nenhuma compra, consulta enviada, execução de furos ou alteração R52. Reproduzir na raiz: `python -B ferramentas/aereos/suspender_lote_b.py --movel P12` e `python -B ferramentas/aereos/conferir_suspensao_b.py --movel P12`. Hashes portáveis e solução independente de 6 incógnitas conferem fontes/equilíbrio, sem validar as hipóteses físicas.
+Nenhuma mudança de aparência, volume ou uso exigiu nova decisão de Elias nesta etapa. Nenhuma compra, consulta enviada, execução de furos ou alteração R52. Hashes portáveis e solução independente de 6 incógnitas conferem fontes/equilíbrio, sem validar as hipóteses físicas.

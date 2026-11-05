@@ -11,7 +11,7 @@ Consulta por seis ambientes e 20 módulos, visualização 3D/2,5D, isolamento e 
 
 ## Reprodução
 
-Execute `python ferramentas/site/preparar_pages.py` na raiz. A saída `.site` é publicada pelo workflow Pages. Para regenerar a geometria, execute `export_cad.py` desta pasta com o Python distribuído com FreeCAD 1.1.4; o exportador abre o FCStd sem salvar e verifica o SHA256. Depois regenere o site.
+Execute `python ferramentas/site/preparar_pages.py` na raiz. A saída `.site` é publicada pelo workflow Pages. A geometria de consulta vem do CAD vigente pelo `ferramentas/site/exportar_cad.py`; depois regenere o site.
 
 ## Verificação
 

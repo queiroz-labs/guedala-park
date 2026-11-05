@@ -15,20 +15,7 @@ Pacote de cotação: primeiro `python -B ferramentas/estudos/consolidar_quantida
 
 | Comando | O que faz | Tempo |
 |---|---|---|
-| `python -B ferramentas/aereos/preparar_ensaios_p04.py` | Pacote PDF de quatro páginas, cinco retalhos T0/oito Minifix e 15 registros vazios; ReportLab/NumPy no Python embutido, sem ensaio físico | segundos |
-| `python -B ferramentas/aereos/conferir_ensaios_p04.py` | Confere recorte, sequência por eixos, campos vazios, fontes e páginas PDF; NumPy/pypdf, sem abrir CAD | segundos |
-| `python -B ferramentas/aereos/validar_p04.py` | Quatro acessos SW4 curta, calços R52, implantação candidata e 765 equilíbrios 3D/1530 vetores; gera desenho/casos para qualificação, sem ensaio físico | segundos |
-| `python -B ferramentas/aereos/conferir_p04.py` | Confere envelopes contínuos/controles negativos e equilíbrio independente, sem abrir CAD ou demonstrar capacidade | segundos |
-| `python -B ferramentas/aereos/reconciliar_lote_b.py` | P17/P04/P12: premissas respondidas, cinco geometrias, 47 contatos R00 e 16 entradas inferiores antigas; fundo inteiro separado da R52 (NumPy/Pillow) | segundos |
-| `python -B ferramentas/aereos/detalhar_lote_b.py` | Metas 20/10/10 kg: 585 casos de massa/demanda e 60 Minifix de acesso interno; quatro corredores P04 restritos, sem capacidade demonstrada | segundos |
-| `python -B ferramentas/aereos/conferir_lote_b.py` | Conferência independente de hashes/contatos/canecos, pinos, acesso e demandas; registra restrições, sem ensaio físico | segundos |
 | `python ferramentas/verificar_tudo.py` | Roda todas as verificações rápidas abaixo de uma vez | segundos |
-| `python -B ferramentas/aereos/detalhar_ligacoes.py` | Lote P09/P11/P15: 96 interfaces nominais, 696 casos/4176 vetores e 12 zonas de acesso só contra madeira; preserva R52, sem produto/usinagem/capacidade demonstrados (NumPy/Pillow) | segundos |
-| `python -B ferramentas/aereos/conferir_ligacoes.py` | Confere contato positivo, rejeita ligação pela aresta, reconcilia contagens e equilíbrio independente dos 2088 pares de grupos; não é ensaio físico | segundos |
-| `python -B ferramentas/aereos/selecionar_ferragem.py` | Bigfer 04.02.058 candidata: envelopes≈60 mL/par, 6 cantos e 4176 vetores na implantação proposta; sem montagem/capacidade homologadas | segundos |
-| `python -B ferramentas/aereos/conferir_selecao.py` | Confere fontes/ocupação e equilíbrio independente da pré-seleção; CAD preservado, sem ensaio físico | segundos |
-| `python -B ferramentas/aereos/analisar_apoio_caixa.py` | Faixas 18×60 nas laterais, 4176 reações inferiores e 8 casos de corpo de prova fundo–laterais; sem contato/resistência comprovados (NumPy/Pillow) | segundos |
-| `python -B ferramentas/aereos/conferir_apoio_caixa.py` | Confere áreas nominais/equilíbrio e rejeita copiar T para C do mesmo lado ou fechar torção por uma única coluna pontual | segundos |
 | `python -B ferramentas/aereos/test_fontes.py` | Regressão de hashes: LF/CRLF equivalentes só em textos; alterações de conteúdo e binários continuam detectadas | segundos |
 | `python ferramentas/verificar_modelo/verificar_modelo.py` | Modelo FreeCAD: arquivo vigente, cores (GuiDocument.xml), SHA do release, backups esquecidos | segundos |
 | `python ferramentas/verificar_modelo/verificar_modelo.py --completo [--relatorio]` | Abre o modelo no FreeCADCmd **sem salvar** e confere: invariantes (`invariantes.json`), nada novo fora do apartamento, aparência por objeto, **106 cenários de movimento** (`movimentos.json`), objetos removidos, formas inválidas, expressões perdidas e colisões novas. Com `--relatorio` escreve `02_Modelo_3D/Relatorio_mudanca.md`. Atualizar a base exige `--atualizar-base --aprovado-por "Elias, dd/mm: ..."` | ~8 min |
@@ -91,7 +78,6 @@ Análise BOP: `verificar_modelo/analisar_bop.py`; [resultado e limites](../02_Mo
 
 Estudos P01/P02/P03: scripts em `roupeiro/`, com geometria extraída, conferências e hipóteses; [escopo vigente](../04_Moveis/P03/README.md). Os cálculos não substituem ensaio de juntas.
 
-`consolidar_matriz.py` atualiza somente o controle CSV/Markdown: agenda 27/10 inclui kit P20/P14 e perguntas P02/P13; sem recalcular equilíbrio, gerar furação ou abrir CAD. Matriz vigente.
 
 R53: `estudos/integrar_decisoes_r53.py` aplica somente decisões 27/10 na GUI sobre R52; `site/exportar_cad.py` extrai o CAD vigente para fichas/site sem salvar. Verificação completa e relatório obrigatórios.
 

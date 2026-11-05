@@ -1040,7 +1040,7 @@ const ITEMS=[
     "choice": "Em estudo",
     "measure": "Traçados nominais; acesso, vazão e elétrica a confirmar",
     "material": "paint",
-    "source": "Estudo de 29/10/2026; 03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md",
+    "source": "Estudo de 29/10/2026; 03_Ambientes/Banheiro/Agua_quente_aparente.md",
     "notes": "13 opções: seis discretas, quatro simples e três de geração local, sem escolha. Comparar calha com tampa, forro existente e rodapé técnico; rotas baixas dependem de folga atrás do VIP, sem avançar a louça. Origem no enchimento antes dos controles do chuveiro; derivação e reforma com RT. Esperas nominais não incluem E21 até o enchimento; vazão Arion a confirmar e E21 exige 3,9 L/min de água quente. Miniacumulador sem produto/encaixe demonstrado; passagem elétrica exige circuito exclusivo, e torneira elétrica não conserva a Arion. Planta e elevação na comparação do banheiro."
   },
   {
