@@ -28,6 +28,14 @@ jobs:
           else
             echo "Commit anterior indisponível (push forçado?); afirmações não conferidas."
           fi
+      - name: Scripts novos com fonte de medida declarada
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: |
+          if git cat-file -e "${{ github.event.before }}^{commit}" 2>/dev/null; then
+            python3 -B ferramentas/verificar_medidas.py --desde "${{ github.event.before }}"
+          else
+            echo "Commit anterior indisponível; medidas não conferidas."
+          fi
       - name: Instalar ferramenta de build
         run: npm ci --prefix ferramentas/site --ignore-scripts
       - name: Instalar Pillow (o build do site compacta imagens)

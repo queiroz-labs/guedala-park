@@ -1,6 +1,6 @@
 # Regras do projeto Guedala Park
 
-> **Regras críticas (resumo; detalhes nas seções abaixo):** `git status` antes de tudo · commits pequenos, um assunto por commit, cedo (não acumule arquivos sem commit) · `git add` só por caminho, nunca `-A` · `python ferramentas/verificar_tudo.py` antes de cada commit · clone limpo com `--ci` antes de cada push · README da área + `ESTADO_ATUAL.md` no mesmo commit · não mude o modelo FreeCAD sem pedido de Elias · nunca "Elias aprovou" sem fonte na linha · nada pessoal no repositório · sem `__pycache__`/`node_modules`/backups na pasta · scripts de estudo em `ferramentas/estudos/`, nunca soltos na raiz de `ferramentas/` · `ESTADO_ATUAL.md` ≤ 14 KB (só o que vale + link; detalhe no README do móvel) · **não refine estudo nominal de item já condicionado a medidas reais/oficina/RT**: registre a dúvida no README e siga outra frente · ao encerrar, informe o que ficou sem commit.
+> **Regras críticas (resumo; detalhes nas seções abaixo):** `git status` antes de tudo · commits pequenos, um assunto por commit, cedo (não acumule arquivos sem commit) · `git add` só por caminho, nunca `-A` · `python ferramentas/verificar_tudo.py` antes de cada commit · clone limpo com `--ci` antes de cada push · README da área + `ESTADO_ATUAL.md` no mesmo commit · não mude o modelo FreeCAD sem pedido de Elias · nunca "Elias aprovou" sem fonte na linha · nada pessoal no repositório · sem `__pycache__`/`node_modules`/backups na pasta · scripts de estudo em `ferramentas/estudos/`, nunca soltos na raiz de `ferramentas/` · `ESTADO_ATUAL.md` ≤ 14 KB (só o que vale + link; detalhe no README do móvel) · **não refine estudo nominal de item já condicionado a medidas reais/oficina/RT**: registre a dúvida no README e siga outra frente · **portão de medidas (seção 4c): sem medida oficial nem medida dada por Elias, não calcule, simule nem invente valor; pergunte e siga outra frente** · ao encerrar, informe o que ficou sem commit.
 
 Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Seguir sempre, sem precisar pedir.
 
@@ -46,6 +46,26 @@ Valem para qualquer pessoa ou IA (Claude, Codex…) que trabalhe nesta pasta. Se
 - `ESTADO_ATUAL.md` tem teto de 14 KB (verificador): linha curta + link; números, casos e hipóteses vão para o README do móvel. Nada de parágrafo de diário nele.
 - **Não gaste esforço refinando um estudo nominal cujo resultado depende de medida real (chaves), oficina, ensaio ou RT.** Se o item já consta como condicionado/pendente no README, registre a pergunta exata e passe a outra frente (orçamento, cronograma, luminárias, e-mails, plano de reforma). Estudo novo só se mudar uma decisão, um custo ou uma compra.
 - Dados gerados volumosos (JSON/HTML de dezenas de milhares de linhas) só entram no git se o site ou a ficha usar; senão regenere por script e registre o hash no README.
+
+## 4c. Portão de medidas (vale antes de qualquer cálculo)
+
+Antes de calcular, simular, otimizar, varrer parâmetros, gerar cenários ou criar script de estudo, responda: **de onde vem cada medida de entrada?** Só valem estas fontes:
+
+1. Planta ou memorial oficial (`09_Referencias/Plantas_e_manuais`).
+2. Manual ou catálogo de fabricante (cite o arquivo).
+3. `ferramentas/fatos.json`.
+4. Medida real registrada em `07_Imovel` (depois das chaves).
+5. Valor que Elias deu no chat, com data e citação (`Elias, 04/11/2026: "vão de 80 cm"`).
+
+**Sem uma dessas fontes, pare:** não estime, não "assuma um valor típico", não rode faixa de hipóteses, não crie planilha ou script que dependa do número inventado. Faça no lugar disso:
+
+- diga a Elias, em uma frase, **qual medida falta e onde ela seria medida**;
+- registre a pergunta exata (uma linha) em [Perguntas_para_oficina.md](04_Moveis/Perguntas_para_oficina.md) ou no README do assunto;
+- siga para outra frente (orçamento, cotação, e-mails, dia das chaves).
+
+Hipótese só existe se Elias pedir ("assuma 3 cm"); registre como hipótese dele, com data. Aritmética sobre dados já oficiais (somar áreas, conferir uma cota existente, contar peças) é livre. Isso reforça a seção 4b: um item "condicionado a medidas reais" não ganha estudo novo.
+
+Todo `.py` novo (fora de `ferramentas/site`, `verificar_*` e `test_*`) declara nas primeiras 15 linhas `# MEDIDAS: <fonte>` (`oficial`, `fatos`, `manual`, `campo`, `Elias dd/mm/aaaa` ou `nao se aplica - <motivo>`). O `verificar_medidas.py` barra o commit sem isso, e o CI repete a checagem. Texto novo em `.md` que fale em simulação, cenário, sensibilidade ou varredura sem fonte gera aviso.
 
 ## 5. Ferramentas fora do projeto
 
@@ -101,6 +121,7 @@ Pasta nova de topo só com motivo forte; prefira encaixar numa dessas.
 | Quando | Comando (na raiz) | Falha significa |
 |---|---|---|
 | Antes de todo commit (o hook roda sozinho) | `python ferramentas/verificar_tudo.py` | Estrutura, modelo (arquivo, cores, SHA), links, tamanho, privacidade, consistência ou afirmação sem fonte |
+| Ao adicionar script `.py` novo (o hook roda sozinho com `verificar_tudo.py`) | `python ferramentas/verificar_medidas.py` | Script novo sem `# MEDIDAS: <fonte>` válida: falta medida oficial ou de Elias |
 | Antes de todo push (o hook roda sozinho) e no CI | `python ferramentas/verificar_site.py` | O site ou o pacote não passariam no CI; publicar quebrado é pior que não publicar |
 | Depois de **qualquer** trabalho que abriu ou alterou o modelo FreeCAD | `python ferramentas/verificar_modelo/verificar_modelo.py --completo` | Objeto removido, forma inválida, expressão perdida ou **colisão nova** em relação à base |
 | Depois de mudar `ferramentas/site/src` | `python -B ferramentas/site/construir.py` e os testes de `ferramentas/site` | Site ou pacote fora de sincronia |

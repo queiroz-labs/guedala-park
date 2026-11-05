@@ -79,6 +79,7 @@ def main():
         passos.append(('consistencia', ['ferramentas/verificar_consistencia.py']))
         if tem_staged:
             passos.append(('afirmacoes', ['ferramentas/verificar_afirmacoes.py']))
+            passos.append(('medidas', ['ferramentas/verificar_medidas.py']))
     for rotulo, cmd in passos:
         if not rodar(rotulo, cmd):
             falhou = True
