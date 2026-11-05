@@ -28,40 +28,25 @@ def bad_links(archive):
 
 
 class Quantities(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.rows,cls.checks,cls.detail,cls.missing,cls.summary,_=q.consolidate()
+    def test_inventory_and_current_drawer_scope(self):
+        rows=q.current_rows()
+        self.assertEqual(sum(int(r['quantidade']) for r in rows if r['grupo']=='paineis'),251)
+        rails=[r for r in rows if r['item'].startswith('Corrediças laterais')]
+        self.assertEqual({r['movel']:r['quantidade'] for r in rails},{'P01':4,'P06':3,'P16':2})
+        self.assertTrue(all('500 mm' in r['item'] for r in rails if r['movel']!='P16'))
+        self.assertIn('400 mm',next(r['item'] for r in rails if r['movel']=='P16'))
+        self.assertTrue(all(r['quantidade']=='' for r in rows if r['grupo']=='pendencia'))
+        self.assertTrue(all(r['grupo'] not in ('chapas','fita') for r in rows))
+        for r in rows:
+            self.assertTrue((q.ROOT/r['fonte']).is_file(),r['fonte'])
+        serialized=str(rows)
+        self.assertNotIn('MOVENTO',serialized)
+        self.assertNotIn('FGVTN',serialized)
 
-    def test_coverage_and_units(self):
-        s=self.summary
-        self.assertEqual((s['paineis'],s['corte'],s['excluidos'],s['chapas']),(249,216,33,14))
-        self.assertEqual(s['centros'],2286)
-        self.assertEqual(sum(int(r['quantidade']) for r in self.rows if r['grupo']=='paineis'),249)
-        self.assertEqual(len([r for r in self.rows if r['grupo']=='fita_sem_regra']),23)
-        self.assertTrue(all(r['quantidade']=='' for r in self.rows if r['grupo']=='fita_sem_regra'))
-        self.assertEqual(len({(r['movel'],r['peca']) for r in self.detail}),249)
-
-    def test_loss_is_not_hidden_and_p19_not_decided(self):
-        self.assertAlmostEqual(self.summary['fita_m'],191.136)
-        self.assertAlmostEqual(self.summary['fita_com_perda_soma_cores_m'],210.2496)
-        self.assertAlmostEqual(self.summary['fita_com_perda_soma_pecas_m'],210.2498)
-        p19=next(r for r in self.checks if r['item']=='P19 Minifix mapa x documental')
-        self.assertEqual((p19['valor_A'],p19['valor_B']),(8,12))
-        self.assertEqual(p19['resultado'],'divergencia')
-        hardware=[r for r in self.rows if r['grupo']=='ferragens' and r['item']=='Minifix 15']
-        self.assertEqual(sum(float(r['quantidade']) for r in hardware),316)
-
-    def test_mismatch_is_reported_not_suppressed(self):
-        checks=[]
-        q.checks_equal(checks,'alteração',12,8,'teste','causa')
-        q.checks_equal(checks,'arredondamento',210.2498,210.2496,'teste','causa')
-        self.assertTrue(all(r['resultado']=='divergencia' for r in checks))
-        self.assertTrue(all('Não escolher' in r['acao'] for r in checks))
-
-    def test_persisted_csv_is_reproducible(self):
+    def test_csv_matches_current_sources(self):
         expected=io.StringIO(newline='')
         writer=csv.DictWriter(expected,fieldnames=q.FIELDS,delimiter=';')
-        writer.writeheader();writer.writerows(self.rows)
+        writer.writeheader();writer.writerows(q.current_rows())
         self.assertEqual(q.CSV.read_text(encoding='utf-8-sig'),expected.getvalue().replace('\r\n','\n'))
 
 
@@ -87,13 +72,20 @@ class Package(unittest.TestCase):
             self.assertEqual(bad_links(z),[])
             self.assertEqual(z.read('Quantidades_referencia.csv'),q.CSV.read_bytes())
             text=z.read('Pedido.html').decode('utf-8')
-            self.assertIn('30/10/2026, às 18h',text)
+            self.assertIn('A combinar no envio',text)
+            self.assertNotIn('30/10/2026, às 18h',text)
             self.assertIn('ESTIMATIVA NOMINAL',text)
-            self.assertIn('33 excluídos',text)
-            self.assertIn('316 no cenário do mapa versus 52 documentais; não somar',text)
-            self.assertIn('12 documentais',text)
+            self.assertIn('251 painéis',text)
+            self.assertIn('7 pares de 500 mm',text)
+            self.assertIn('2 pares de 400 mm',text)
+            self.assertNotIn('MOVENTO',text)
+            self.assertNotIn('FGVTN',text)
+            self.assertIn('12 Minifix documentais versus 8 no mapa',text)
             for forbidden in ['35.000','37.000','46.500','137.748','120.000','2290','2.290','VG27AQ5A']:
                 self.assertNotIn(forbidden,text)
+            for name in z.namelist():
+                if name.startswith('Fichas_R15/'):
+                    self.assertEqual(z.read(name),(q.ROOT/'06_Entregas/Fichas_fabricacao'/name.split('/',1)[1]).read_bytes())
             form=list(csv.DictReader(io.StringIO(z.read('Formulario_resposta.csv').decode('utf-8-sig')),delimiter=';'))
             self.assertEqual(len(form),33)
             self.assertEqual(len({r['ID'] for r in form}),33)
@@ -101,6 +93,11 @@ class Package(unittest.TestCase):
             self.assertIsNone(z.testzip())
             self.assertEqual(bad_links(z),[])
             self.assertEqual(z.read('Marcenaria.zip'),(pack.OUT/'Marcenaria.zip').read_bytes())
+            for name in z.namelist():
+                if name.endswith('.html'):
+                    page=z.read(name).decode('utf-8')
+                    self.assertIn('combinar no envio',page)
+                    self.assertNotIn('30/10/2026, às 18h',page)
 
 
 if __name__=='__main__':unittest.main()

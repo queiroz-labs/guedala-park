@@ -89,21 +89,19 @@ def quantity(value, unit, expected):
 
 
 def references():
-    return {f'L{i:03}': row for i, row in enumerate(read_csv(ROOT / REF), 1)}
+    result={}
+    for row in read_csv(ROOT / REF):
+        identity='|'.join(row.get(k,'') for k in ('grupo','movel','item','unidade'))
+        code='Q'+hashlib.sha256(identity.encode('utf-8')).hexdigest()[:12]
+        if code in result:
+            raise ValueError('Identidade de item duplicada: '+identity)
+        result[code]=row
+    return result
 
 
 def gaps():
-    result = {}
-    for row in read_csv(ROOT / (CUT + 'Lista_de_corte.csv')):
-        if row['variante'] == 'base' and row['bloqueios']:
-            result['CORTE-' + row['id']] = dict(grupo='lacuna_corte', item=row['id'],
-                movel=row['movel'], quantidade='', unidade='', fonte=CUT + 'Lista_de_corte.csv')
-    for i, row in enumerate(read_csv(ROOT / '04_Moveis/Furacao/Ferragens_pendentes.csv'), 1):
-        result[f'FER-PEND-{i:02}'] = dict(grupo='lacuna_ferragem', item=row.get('item', str(row)),
-            movel=row.get('movel', ''), quantidade='', unidade='', fonte='04_Moveis/Furacao/Ferragens_pendentes.csv')
-    result['P19-MINIFIX'] = dict(grupo='divergencia', item='P19: 12 documentais versus 8 no mapa',
-        movel='P19', quantidade='', unidade='', fonte='06_Entregas/Cotacao/README.md')
-    return result
+    # Pendências atuais já estão no inventário. Não importar lacunas antigas.
+    return {}
 
 
 def value(record, field):
@@ -238,9 +236,9 @@ def compare(proposals, as_of, weights, dependencies=None):
     refs, holes = references(), gaps()
     matrix, estimates, questions, summary = [], [], [], []
     dep_codes = {r['linha'] for r in dependencies or []}
-    scenarios = { (r['padrao'], number(r['espessura_mm'])): r
-        for r in read_csv(ROOT / (CUT + 'Resumo_chapas.csv'))
-        if r['variante'] == 'base' and r['cenario'] == 'refilo10_serra4'}
+    if dep_codes-set(refs):
+        raise ValueError('Vínculos de medidas antigos/desconhecidos; regenerar para os IDs Q atuais.')
+    scenarios = {}  # Sem reaplicar o plano histórico de chapas.
     for proposal in proposals:
         supplier, fields = proposal['fornecedor'], proposal['campos']
         declared = number(value(fields, 'preco_total'))
@@ -282,7 +280,7 @@ def compare(proposals, as_of, weights, dependencies=None):
                     alerts.append('regra de borda ausente; comparar com C0/C1/L0/L1')
             if expected is not None and value(line, 'situacao') == 'incluida' and qty is None:
                 alerts.append('quantidade ausente ≠ zero')
-            if status != 'coberta' or alerts or ref['grupo'].startswith('lacuna') or ref['grupo'] in {'limite', 'fita_sem_regra', 'divergencia'}:
+            if status != 'coberta' or alerts or ref['grupo'].startswith('lacuna') or ref['grupo'] in {'limite', 'fita_sem_regra', 'divergencia', 'pendencia'}:
                 ask(code, f"{ref['item']}: confirmar inclusão, quantidade/especificação e preço no escopo {value(fields, 'escopo') or 'a definir'}. Situação: {status}; {'; '.join(alerts) or value(line, 'situacao') or 'não respondida'}.")
             matrix.append(dict(fornecedor=supplier, linha=code, grupo=ref['grupo'], item=ref['item'], movel=ref['movel'],
                 quantidade_referencia=expected, quantidade_proposta=qty, cobertura=status,
@@ -299,6 +297,8 @@ def compare(proposals, as_of, weights, dependencies=None):
                 if status != 'coberta':
                     unknown.append(code + ': cobertura/agregado pendente')
                 continue
+            if ref['grupo']=='pendencia':
+                unknown.append(code + ': definição técnica/quantitativo pendente')
             if expected is None and status == 'coberta':
                 continue  # inclusão explícita da lacuna no preço, a conferir na origem
             missing = None if expected is None else max(Decimal(0), expected - (qty or 0))
@@ -380,6 +380,12 @@ def compare(proposals, as_of, weights, dependencies=None):
 
 def templates(dest):
     dest.mkdir(parents=True, exist_ok=True)
+    existing=dest/'Modelo_entrada.csv'
+    if existing.exists() and any(r.get('fornecedor') or r.get('valor') or r.get('origem') for r in read_csv(existing)):
+        raise ValueError('Modelo contém respostas; preservar antes de regenerar')
+    js=dest/'Modelo_entrada.json'
+    if js.exists() and json.loads(js.read_text(encoding='utf-8')).get('propostas'):
+        raise ValueError('Modelo JSON contém propostas; preservar antes de regenerar')
     refs = references()
     rows = [dict(fornecedor='', linha='', campo=f, valor='', unidade='', origem='') for f in META]
     rows += [dict(fornecedor='', linha=code, campo=f, valor='', unidade=ref['unidade'] if f == 'quantidade' else '', origem='')
@@ -433,10 +439,10 @@ def run(args):
     report = ['# Comparador de cotações', '', f"Data de referência: {args.data}. Propostas normalizadas: {len(proposals)}.",
         'Decisão PENDENTE de Elias. Nenhuma proposta real foi comparada.' if not proposals else 'Conferir as origens antes de usar. Não há seleção automática.',
         '', 'Parcial equivalente não é custo completo. Sem base impede total equivalente e ranking; vazio não é zero.',
-        'A matriz inclui 101 linhas, 33 lacunas de corte, 40 de ferragens e P19; 23 lacunas de fita já estão nas 101.',
+        f'A matriz usa {len(references())} itens atuais com IDs Q estáveis; vínculos L antigos são rejeitados.',
         'Referências sobrepostas de painéis/chapas e linhas de comparação não se somam.',
-        '14 chapas do misto (8 de 1850 + 6 de 2100) não têm o mesmo escopo de 15 em 1850: Peca208 não cabe.',
-        'Fita: 191,136 m; 210,2496 m com perda; confirmar regra, SKU e largura. Parciais de cenários não são custo de escopo completo.',
+        'Chapas e fita: quantidades a definir pela oficina; não reaplicar o plano histórico.',
+        'As pendências de material, conectores e complementos impedem tratar o parcial como total fechado.',
         'A meta histórica 35 mil não substitui D05-C (pacote 37 mil condicionado). O arquivo Orcamento_R43.md contém a base R44 137.748,11 e provisão 46.500.',
         'Prazo: alvo obra semana 8, mudança até 12; cabimento da cadeia do fornecedor não comprova ocupação.', '',
         '| Código | Declarado | Parcial mínimo | Parcial máximo | Pontuação | Decisão |', '|---|---:|---:|---:|---:|---|']

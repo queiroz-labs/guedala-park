@@ -10,7 +10,7 @@ import io
 import json
 import re
 import zipfile
-from consolidar_quantidades_cotacao import annex, CSV as QUANTITIES
+from consolidar_quantidades_cotacao import annex, current_rows, write, FIELDS, CSV as QUANTITIES
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / '06_Entregas/Cotacao'
@@ -29,7 +29,7 @@ PAGES = [
      'Cotação preliminar D05-C / D06-B com fichas R15', '',
      'Cotar base integral dos 20 módulos e seis complementos e, separadamente, etapa inicial sem P16, P17, C01, C03, C04 e C05. Manter P01–P15, P18–P20, C02 e C06, conforme fichas R15 e pendências. Preservar armazenamento e ferragens de todos os móveis retidos, espessuras, paleta e armários até o teto. Sem tubos ou quadro metálico substituto. Uma chapa física tem acabamento igual nas duas faces; não acrescentar caixa interna de 15 mm automaticamente.',
      'Na etapa inicial ficam fora: duas gavetas e aéreo do escritório (P16/P17), cabeceira estofada (C01), encosto/almofadas do banco (C03), painel e duas prateleiras da TV (C04), prateleiras/suportes de acessórios do escritório (C05). Perdem-se esses volumes de armazenamento e estofamentos temporariamente; preservar banco-baú e armazenamento do quarto. Pedras, eletros, louças, mesa/cadeiras, sofás, componentes de iluminação e instalação elétrica não pertencem ao pacote de marcenaria. Televisores, soundbar, cadeira de escritório, monitores, volante e pedais não são itens a cotar. E06/prateleiras adiada; E05/TV mantida como interface, sem fornecer aparelho.',
-     'Informar preço por módulo/complemento, crédito real de cada adiamento, preço instalado da etapa e custo de segunda mobilização. Cotar suportes independentes para TV/PS5 e E05, e indireta da cabeceira em face inferior acessível sem C01. Não transferir custo ou retirar ferragens silenciosamente. Incluir medição, materiais, bordas, ferragens, fabricação, montagem, arremates e impostos; discriminar frete. Confirmar inclusão do acabamento M03 para evitar duplicidade. Responder no CSV anexo. Fichas têm medidas nominais; produto, ensaios e medição real condicionam execução.'),
+     'Informar preço por módulo/complemento, crédito real de cada adiamento, preço instalado da etapa e custo de segunda mobilização. Cotar suportes independentes para TV/PS5 e E05, e indireta da cabeceira em face inferior acessível sem C01. Não transferir custo ou retirar ferragens silenciosamente. Incluir medição, materiais, bordas, ferragens, fabricação, montagem, arremates e impostos; discriminar frete. Confirmar inclusão do acabamento M03 para evitar duplicidade. Identificar fabricante/SKU das corrediças laterais com amortecimento: P01 quatro pares de 500 mm, P06 três pares de 500 mm, P16 dois pares de 400 mm somente no integral/futuro. Não incluir as guias ocultas e engates antigos. Separar prazo de medição, executivo, fila, fabricação, montagem e segunda mobilização; informar dias úteis ou corridos, garantia e responsável por cada serviço. Responder no CSV anexo. Fichas têm medidas nominais; produto, ensaios e medição real condicionam execução.'),
     ('Amostras_Madeiramar', 'Madeiramar / Guararapes', 'D02: amostras Lume Matt A e Areia Matt C', url('madeiramar.com.br/produto/mdf-lume'),
      'Solicitar uma amostra física identificada de Lume Matt (A) e uma de Areia Matt (C), para comparação ao lado do Arenza. Referências de revenda: Lume 18 mm 10520 e Areia 18 mm 6734. Solicitar também catálogo vigente de Azul Petróleo Matt e Branco TX.',
      'Não é compra de chapas nem escolha final da cor. Nuvem não integra este pedido de amostras. Não substituir textura, substrato ou cor sem informar.',
@@ -121,8 +121,8 @@ def page_html(name, title, channel, scope, excluded, technical, zipped=False):
         extra += annex()
         style += 'table{border-collapse:collapse;width:100%;font-size:12px}th,td{text-align:left;border:1px solid #cbd7d1;padding:4px 6px}thead{display:table-header-group}tr{break-inside:avoid}'
     return f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>{escape(title)}</title><style>{style}</style></head><body><main class="page">
-<div class="tag">GUEDALA PARK · COTAÇÃO PRELIMINAR · 27/10/2026 · NÃO ENVIADO</div><h1>{escape(title)}</h1>
-<div class="meta"><b>Para:</b> {escape(name)}<br><b>Canal:</b> {channel_html}<br><b>Resposta solicitada:</b> 30/10/2026, às 18h (Brasília). Se inviável, confirmar recebimento e informar outra data.</div>
+<div class="tag">GUEDALA PARK · COTAÇÃO PRELIMINAR · 04/11/2026 · NÃO ENVIADO</div><h1>{escape(title)}</h1>
+<div class="meta"><b>Para:</b> {escape(name)}<br><b>Canal:</b> {channel_html}<br><b>Resposta solicitada:</b> A combinar no envio. Confirmar recebimento e informar a data de retorno da proposta.</div>
 <h2>Escopo a cotar</h2><p>{escape(scope)}</p>{extra}<h2>O que fica fora</h2><p>{escape(excluded)}</p>
 <h2>O que precisamos receber de volta</h2><p>{escape(technical)}</p>
 <p><b>Condições comerciais:</b> preço unitário por móvel/item e total; frete separado; instalação/montagem incluída, cobrada à parte ou não oferecida; acessórios; impostos; pagamento; prazo de entrega; validade e garantia. Não deixar campo ausente valer zero. Dados de entrega serão informados privadamente por Elias para cálculo do frete.</p>
@@ -164,6 +164,7 @@ def require_unsent():
 
 def build():
     require_unsent()
+    write(QUANTITIES, current_rows(), FIELDS)
     source = ROOT / '05_Orcamento_e_cronograma/Orcamento/Marcenaria_35mil/Formulario_resposta_cotacao_R01.csv'
     old = list(csv.DictReader(io.StringIO(source.read_text(encoding='utf-8-sig')), delimiter=';'))
     rows=form_rows(old)
@@ -186,8 +187,8 @@ def build():
         file = 'Marcenaria.zip' if filename == 'Marcenaria' else filename + '.html'
         link = f'<a href="{escape(channel, quote=True)}">canal da loja / atendimento</a>' if channel else 'contato comercial das três oficinas escolhidas; nomes não constam do projeto'
         items.append(f'<li><input type="checkbox"> <b>{escape(name)}</b> — {link} — <a href="{file}">{file}</a></li>')
-    intro = '<p>Revisar e enviar cada arquivo somente ao respectivo destinatário. As páginas são autônomas: anexar o HTML como documento ou abrir e copiar o texto no atendimento. Se o canal recusar HTML, imprimir a página em PDF A4, sem cabeçalhos do navegador. Para marcenaria, enviar o ZIP com fichas R15 e Quantidades_referencia.csv (estimativa nominal de 29/10, com exclusões e divergências); a proposta integral é comparação, a etapa inicial segue D05-C/D06-B.</p><p><b>Prazo solicitado em todos:</b> 30/10/2026 às 18h, Brasília. Registrar o envio real privadamente. Não há envio automático. Galaxy e Paris Luz são cotações alternativas da mesma unidade 9605; não somar. IL08 não duplica o controle de IL02. Os links de produto/canal são referências, não confirmação de estoque.</p>'
-    index = f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Elias envia hoje</title><style>{CSS}</style></head><body><main class="page"><div class="tag">CHECKLIST · 27/10/2026 · NÃO ENVIADO</div><h1>Elias envia hoje</h1>{intro}<p><a href="Pacote_cotacao.zip">Baixar todos os pedidos</a></p><ol>{"".join(items)}</ol><footer>Não encaminhar orçamento interno, metas ou dados pessoais junto aos pedidos. Amostras Lume/Areia dependem da comparação física com Arenza. Nenhuma compra autorizada.</footer></main></body></html>'
+    intro = '<p>Revisar e enviar cada arquivo somente ao respectivo destinatário. As páginas são autônomas: anexar o HTML como documento ou abrir e copiar o texto no atendimento. Se o canal recusar HTML, imprimir a página em PDF A4, sem cabeçalhos do navegador. Para marcenaria, enviar o ZIP com fichas R15 e Quantidades_referencia.csv (inventário das fichas atuais, revisão 04/11, com pendências); a proposta integral é comparação, a etapa inicial segue D05-C/D06-B.</p><p><b>Prazo solicitado em todos:</b> A combinar no envio; o prazo antigo de 30/10 venceu. Registrar envio e data aceita privadamente. Não há envio automático. Galaxy e Paris Luz são cotações alternativas da mesma unidade 9605; não somar. IL08 não duplica o controle de IL02. Os links de produto/canal são referências, não confirmação de estoque.</p>'
+    index = f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Pedidos para revisão e envio</title><style>{CSS}</style></head><body><main class="page"><div class="tag">CHECKLIST · 04/11/2026 · NÃO ENVIADO</div><h1>Pedidos para revisão e envio</h1>{intro}<p><a href="Pacote_cotacao.zip">Baixar todos os pedidos</a></p><ol>{"".join(items)}</ol><footer>Não encaminhar orçamento interno, metas ou dados pessoais junto aos pedidos. Amostras Lume/Areia dependem da comparação física com Arenza. Nenhuma compra autorizada.</footer></main></body></html>'
     (OUT / 'index.html').write_text(index, encoding='utf-8')
     with zipfile.ZipFile(OUT / 'Pacote_cotacao.zip', 'w', zipfile.ZIP_DEFLATED) as z:
         for filename, *_ in PAGES:

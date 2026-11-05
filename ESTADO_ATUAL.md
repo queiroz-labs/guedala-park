@@ -86,9 +86,9 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Lista de corte e custos de chapa](04_Moveis/Plano_de_corte/README.md) | Formato de chapa, produto e oficina definem o corte; cenários removidos (04/11) |
 
-**Cotação:** [101 linhas; aritmética sem erros; bases P19 distintas](06_Entregas/Cotacao/README.md).
+**Cotação:** [revisão 04/11: 251 painéis, laterais 500/400; chapas/fita pela oficina; P19 pendente](06_Entregas/Cotacao/README.md).
 
-**Cotações:** [comparador; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
+**Cotações:** [comparador com IDs atuais; sem propostas](05_Orcamento_e_cronograma/Orcamento/Cotacoes/README.md).
 
 **Chaves:** [JSON→cadeia; PR com datum](07_Imovel/README.md); [guia: 34 fotos/setas](ferramentas/site/Dia_das_chaves.html); sem medida real.
 
@@ -96,7 +96,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 ## Próximos passos
 
-1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) R15, quantidades nominais (29/10), D02 e IL02–IL09. Elias revisa/envia; prazo antigo de 30/10 vencido; nova data a combinar no envio. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.
+1. **Cotação não enviada:** [pacote](06_Entregas/Cotacao/index.html) pedido R03/fichas R15, inventário atual (04/11), D02 e IL02–IL09. Elias revisa/envia; prazo antigo de 30/10 vencido; nova data a combinar no envio. Comparar propostas/amostras/respostas. RT pendente; sem contratação autorizada.
 2. **No dia das chaves:** [checklist de vistoria](07_Imovel/Checklist_vistoria_dia_das_chaves.md) + [medidas](07_Imovel/Roteiro_dia_das_chaves_R01.md).
 3. **Depois das chaves:** ajustar modelo, fichas e orçamento às medidas reais; protocolar o [plano de reforma](01_Programa_e_decisoes/Plano_de_reforma_NBR16280.md); contratar e executar.
 

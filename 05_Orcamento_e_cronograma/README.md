@@ -18,13 +18,13 @@ Fontes: [cronograma R00](Cronograma_obra_e_compras.md), [pedido de cotação R02
 - **D05-C/D06-B:** cotar integral e etapa sem P16/P17/C01/C03/C04/C05; E06 adiada, E05 mantida. Isso não demonstra redução proporcional de prazo. O fornecedor precisa separar mobilizações e abastecimento.
 - **29/10:** Philips 50PUG8100/78 e TAB4000 identificadas, sem prazo por SKU; cama viúva atual na mudança, queen futura; AOC e TV do escritório existentes, ASUS a comprar; um F80N comprado, outro a comprar. Cadeira/monitores fora da verba não significam já comprados. Volante/pedais retirados não geram compra. Não se aplicou uma faixa genérica de eletros a todos esses modelos.
 
-O pedido permanece **preparado, não enviado**. **30/10/2026 às 18 h, Brasília**, é prazo solicitado de resposta, não confirmação do fornecedor. Sem data de envio, duração de resposta e data das chaves, não se converte esse prazo absoluto em semana relativa nem em probabilidade.
+O pedido permanece **preparado, não enviado**. O prazo original de **30/10/2026 às 18 h, Brasília**, venceu; nova data deve ser combinada no envio. Sem data de envio, duração de resposta e data das chaves, não se converte esse prazo absoluto em semana relativa nem em probabilidade.
 
 ### Marcos calculados pelo motor
 
 | Marco | Alvo documental | Probabilidade | Dado que falta |
 |---|---|---|---|
-| Respostas à cotação | 30/10/2026, 18 h Brasília | Indeterminada | Envio, prazo aceito e calendário das chaves |
+| Respostas à cotação | A combinar no envio | Indeterminada | Envio, prazo aceito e calendário das chaves |
 | Oficina escolhida | Antes da semana 0 | Indeterminada | Respostas, comparação e contratação |
 | Início da fabricação | Semana 2 no diagrama | Indeterminada | Medição, executivo, mecanismos, fornecimento e origens pré-chaves |
 | Box recebido | Semana 6 | Indeterminada | Etapas anteriores, medição e moda do fornecimento |
@@ -73,7 +73,7 @@ Box/pedras exigem medição/gabarito após chaves; pedido antecipado não os eli
 | [Orcamento/Orcamento_R43.md](Orcamento/Orcamento_R43.md) | R44: execução R$ 137.748,11; excesso R$ 17.748,11 sobre teto de R$ 120 mil + reserva intocada de R$ 10 mil |
 | [Orcamento/LEIA-ME.md](Orcamento/LEIA-ME.md) | Estimativas, metas condicionais e divergências; retomada da reconciliação de iluminação e marcenaria |
 | `Orcamento/<Categoria>/Analise_*.md` | Detalhe de cada categoria: Marcenaria_35mil, Eletros_e_TV, Loucas_e_metais, Pedras_e_box, Pisos_e_revestimentos, Obra_e_pintura, Instalacoes, Moveis_e_tecidos |
-| [Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) | Pacote D05-C/D06-B com fichas R15, pronto para Elias enviar |
+| [Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md](Orcamento/Marcenaria_35mil/Pacote_cotacao_marcenaria_R01.md) | Pedido R03 D05-C/D06-B, fichas R15 atuais e inventário revisado em 04/11; não enviado |
 | [Cronograma_obra_e_compras.md](Cronograma_obra_e_compras.md) | Cronograma de obra e o que comprar antes |
 | [Plano_execucao_ate_31_10.md](Plano_execucao_ate_31_10.md) | Plano de trabalho diário até 31/10/2026 |
 

@@ -13,76 +13,60 @@ def sourced(value, unit=''):
 
 
 class Comparador(unittest.TestCase):
-    def setUp(self):
-        self.proposals = c.load_proposals(Path(__file__).parent / 'testes/Cotacoes_ficticias.json')
-
-    def result(self):
-        return c.compare(self.proposals, date(2026, 10, 29), c.WEIGHTS)
-
-    def test_unidades_e_decimal(self):
-        self.assertEqual(c.quantity('1.250,5', 'cm', 'm'), Decimal('12.505'))
-        self.assertEqual(c.quantity('1000', 'mm', 'm'), 1)
-        with self.assertRaises(ValueError):
-            c.quantity('7', 'unidade', 'par')
-
-    def test_ausencia_nao_zero(self):
+    def test_unidades_e_ausencia(self):
+        self.assertEqual(c.quantity('1.250,5','cm','m'),Decimal('12.505'))
+        with self.assertRaises(ValueError):c.quantity('7','unidade','par')
         self.assertIsNone(c.number(''))
-        self.assertEqual(c.number('0'), 0)
-        ref = c.references()['L001']
-        self.assertEqual(c.coverage(ref, {})[0], 'não mencionada')
-        line = dict(situacao=sourced('incluida'))
-        self.assertEqual(c.coverage(ref, line)[0], 'coberta com quantidade diferente')
+        self.assertEqual(c.number('0'),0)
+        ref=next(r for r in c.references().values() if r['grupo']=='paineis')
+        self.assertEqual(c.coverage(ref,{})[0],'não mencionada')
+        self.assertEqual(c.coverage(ref,dict(situacao=sourced('incluida')))[0],'coberta com quantidade diferente')
 
-    def test_substituicao_nao_equivale_nem_precifica(self):
-        result = self.result()
-        row = next(r for r in result['matriz'] if r['linha'] == 'L051')
-        self.assertEqual(row['substituicao'], 'sim')
-        cost = next(r for r in result['custos'] if r['linha'] == 'L051')
-        self.assertEqual(cost['categoria'], 'sem base')
-        self.assertIsNone(result['resumo'][0]['pontuacao'])
+    def test_ids_stable_and_legacy_rejected(self):
+        from unittest.mock import patch
+        original=c.references()
+        rows=c.read_csv(c.ROOT/c.REF)
+        with patch.object(c,'read_csv',return_value=list(reversed(rows))):
+            self.assertEqual(c.references(),original)
+        with self.assertRaises(ValueError):
+            c.load_proposals(Path(__file__).parent/'testes/Cotacoes_ficticias.json')
+        with self.assertRaises(ValueError):
+            c.compare([],date(2026,11,4),c.WEIGHTS,[dict(linha='L001')])
 
-    def test_divergencia_chapas_e_faixa_projeto(self):
-        result = self.result()
-        row = next(r for r in result['matriz'] if r['linha'] == 'L001')
-        self.assertIn('divergência de chapas', row['alertas'])
-        cost = next(r for r in result['custos'] if r['linha'] == 'L001')
-        self.assertEqual((cost['minimo'], cost['maximo']), (Decimal('435.58'), Decimal('520')))
-        self.assertIsNone(c.project_range(c.references()['L006']))  # 2100 não herda preço1850
-
-    def test_prioridade_outra_proposta_mesmo_escopo(self):
-        other = copy.deepcopy(self.proposals[0])
-        other['fornecedor'] = 'F02'
-        line = other['linhas']['L001']
-        line.update(preco_unitario=sourced('600'), espessura_mm=sourced('18'), cor=sourced('Arenza'))
-        self.proposals.append(other)
-        cost = c.missing_cost('L001', c.references()['L001'], self.proposals[0], self.proposals, Decimal(1))
-        self.assertEqual(cost[:3], (Decimal(600), Decimal(600), 'estimado com base em outra proposta'))
-        other['campos']['escopo'] = sourced('etapa')
-        self.assertEqual(c.missing_cost('L001', c.references()['L001'], self.proposals[0], self.proposals, Decimal(1))[2], 'estimado por referência do projeto')
-
-    def test_cobertura_completa_da_referencia_e_lacunas(self):
-        result = self.result()
-        self.assertEqual(len(c.references()), 101)
-        self.assertEqual(sum(r['grupo'] == 'lacuna_corte' for r in result['matriz']), 33)
-        self.assertEqual(sum(r['grupo'] == 'lacuna_ferragem' for r in result['matriz']), 40)
+    def test_current_scope_and_unresolved_quantities(self):
+        refs=c.references()
+        self.assertEqual(sum(int(r['quantidade']) for r in refs.values() if r['grupo']=='paineis'),251)
+        proposal=dict(fornecedor='F01',campos=dict(preco_total=sourced('100'),escopo=sourced('integral')),linhas={})
+        result=c.compare([proposal],date(2026,11,4),c.WEIGHTS)
+        self.assertEqual(len(result['matriz']),len(refs))
         self.assertIsNone(result['resumo'][0]['equivalente_max'])
+        self.assertIsNone(result['resumo'][0]['pontuacao'])
+        self.assertEqual(c.gaps(),{})
 
-    def test_validacao_origem_e_ids(self):
+    def test_other_proposal_requires_same_scope(self):
+        code,ref=next((k,r) for k,r in c.references().items() if r['item'].startswith('Corrediças laterais'))
+        first=dict(fornecedor='F01',campos=dict(escopo=sourced('integral')),linhas={})
+        second=dict(fornecedor='F02',campos=dict(escopo=sourced('integral')),linhas={code:dict(situacao=sourced('incluida'),marca_modelo=sourced(ref['item']),quantidade=sourced('4','par'),preco_unitario=sourced('100'))})
+        self.assertEqual(c.missing_cost(code,ref,first,[first,second],Decimal(1))[:2],(Decimal(100),Decimal(100)))
+        second['campos']['escopo']=sourced('etapa')
+        self.assertEqual(c.missing_cost(code,ref,first,[first,second],Decimal(1))[2],'sem base')
+
+    def test_template_protects_answers(self):
         with tempfile.TemporaryDirectory() as tmp:
-            path = Path(tmp) / 'Ficticio.json'
-            data = copy.deepcopy(self.proposals)
-            data[0]['campos']['preco_total']['origem'] = ''
-            c.dump(path, dict(rotulo='FICTÍCIO', propostas=data))
-            with self.assertRaises(ValueError):
-                c.load_proposals(path)
+            folder=Path(tmp)
+            c.templates(folder)
+            rows=c.read_csv(folder/'Modelo_entrada.csv')
+            rows[0]['valor']='FICTICIO'
+            c.write_csv(folder/'Modelo_entrada.csv',rows,c.CSV_FIELDS)
+            with self.assertRaises(ValueError):c.templates(folder)
+            self.assertEqual(c.read_csv(folder/'Modelo_entrada.csv')[0]['valor'],'FICTICIO')
 
     def test_prazo_nao_confirma_mudanca(self):
-        fields = {k: sourced(v) for k, v in dict(producao_dias='35', entrega_dias='7', montagem_dias='7', inicio_semana_chaves='2', calendario='corridos', gatilho_prazo='executivo').items()}
-        self.assertEqual(c.schedule(fields)[0], 9)
-        self.assertIn('atenção', c.schedule(fields)[1])
-        fields['calendario'] = sourced('uteis')
+        fields={k:sourced(v) for k,v in dict(producao_dias='35',entrega_dias='7',montagem_dias='7',inicio_semana_chaves='2',calendario='corridos',gatilho_prazo='executivo').items()}
+        self.assertEqual(c.schedule(fields)[0],9)
+        self.assertIn('atenção',c.schedule(fields)[1])
+        fields['calendario']=sourced('uteis')
         self.assertIsNone(c.schedule(fields)[0])
 
 
-if __name__ == '__main__':
-    unittest.main()
+if __name__=='__main__':unittest.main()

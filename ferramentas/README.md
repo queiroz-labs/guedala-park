@@ -10,7 +10,7 @@ O verificador bloqueia pastas datadas fora de `06_Entregas/` e `02_Modelo_3D/His
 
 Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de estudo vão para `ferramentas/estudos/` ou para a pasta do tema (o `verificar_tudo.py` reprova script novo solto).
 
-Pacote de cotação: primeiro `python -B ferramentas/estudos/consolidar_quantidades_cotacao.py --detalhe CAMINHO_EXTERNO`, depois `python -B ferramentas/estudos/gerar_pedidos_cotacao.py`. CSV nominal e anexo no ZIP; divergências/detalhe fora do git. Não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py`: somas, limites, formulário idempotente, respostas preservadas, CRC e links. Gerador exige estado não enviado.
+Pacote de cotação: `python -B ferramentas/estudos/gerar_pedidos_cotacao.py` transcreve painéis/ferragens das fichas atuais para o CSV e regenera os pedidos e ZIPs. Não recalcula corte/fita, não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py` verifica fontes, corrediças laterais, escopos, formulário, CRC, links e fichas anexadas. Exige estado não enviado. A consolidação anterior foi substituída; seu histórico está no git.
 
 
 | Comando | O que faz | Tempo |
@@ -94,3 +94,5 @@ Box (Elias, 30/10/2026): `estudos/atualizar_verde_box.py` reproduz B09; quantita
 `estudos/medidas_do_celular.py --entrada <json> --saida <pasta externa nova>` importa e executa a cadeia sem abrir CAD; `--csv <cópia externa>` para fixtures. [Uso e limites](../07_Imovel/README.md). Teste de ponta a ponta em `estudos/test_importar_medidas_site.py`, integrado ao verificador do site.
 
 `estudos/rascunhar_guias_campo.py --saida <json externo>` prepara rascunho simples para edição manual e separa a descrição técnica, sem substituir o guia revisado. [Modo guiado e limites](site/README.md).
+
+Comparador de cotações (04/11): IDs Q estáveis por item; rejeita IDs L e vínculos antigos. Modelos vazios regenerados, respostas preenchidas protegidas. `python -B ferramentas/estudos/test_comparador_cotacoes.py`.
