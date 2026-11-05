@@ -1,5 +1,7 @@
 # Quarto e portas
 
+**Primeira etapa — conferência de uso 04/11:** cama viúva atual, roupeiro e aéreo mantidos; C01/cabeceira estofada adiada em D05-C. A indireta e arandelas precisam de implantação independente da peça adiada. Queen futura; as descrições abaixo incluem o projeto integral. A preferência pessoal de acesso ao aéreo já registrada não foi reaberta. [Tarefas U06/M06/M07](../README.md#revisão-de-uso-e-manutenção--04112026).
+
 **Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 Estado atual do quarto principal. Nada aqui libera fabricação. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [Quarto R03](../../09_Referencias/Quarto_referencia_aprovada_R03.png).

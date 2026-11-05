@@ -106,7 +106,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 
 **Revisão documental:** roteiro e rascunhos conciliados em 04/11 (alturas e prazo); pranchas/vistas R55 e P07/P16/P20 conciliados; CAD intacto. [Critérios](04_Moveis/Dependencias/README.md).
 
-**CAD:** [conferência de portas, circulação, instalações e alturas](02_Modelo_3D/Conferencia_uso.csv), 35 itens/fontes/ações; campo pendente.
+**Uso:** [16 tarefas de rotina/manutenção e faseamento, 04/11](03_Ambientes/README.md#revisão-de-uso-e-manutenção--04112026); campo pendente. [35 conferências geométricas](02_Modelo_3D/Conferencia_uso.csv).
 
 **Site:** [capa, Cômodos e medidas](ferramentas/site/README.md#como-usar).
 Busca: sinônimos e erros de digitação.

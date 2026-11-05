@@ -1,5 +1,7 @@
 # Escritório
 
+**Primeira etapa — conferência de uso 04/11:** D05-C/D06-B adiam P16 (gavetas), P17 (aéreo), C05 (complementos), M05 (Daiane), M08 (cortina) e E06 (luz de prateleiras). Bancada, TV e E05 precisam funcionar sem esses itens; persiana integrada permanece. As disposições e o modo hóspedes abaixo descrevem o projeto integral/futuro. A escolha de tecido/modelo em 29/10 não foi interpretada como cancelamento do adiamento. [Tarefas U03/U04/U05/M06](../README.md#revisão-de-uso-e-manutenção--04112026).
+
 **Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 Estado atual do escritório (dormitório 02, 2,30 × 2,95 m). Prioridade: conforto para trabalhar, depois hóspedes, depois armazenamento. Medidas de estudo não liberam fabricação. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git.

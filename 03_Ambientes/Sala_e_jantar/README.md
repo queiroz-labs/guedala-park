@@ -1,5 +1,7 @@
 # Sala e jantar
 
+**Primeira etapa — conferência de uso 04/11:** D05-C mantém P20, TV e luz, mas adia C03 (encosto/almofadas), C04 (painel/prateleiras) e M06 (tapete). As descrições abaixo mostram o projeto integral. Apoios da TV/TAB4000/PS5, cabos e indireta precisam de solução independente; acesso ao aspirador no banco deve considerar mesa/cadeiras. [Tarefas U02/U03/M01](../README.md#revisão-de-uso-e-manutenção--04112026).
+
 **Pé-direito de projeto: 2,55 m = 255 cm = 2550 mm nos cômodos; banheiro: 2,30 m = 230 cm = 2300 mm. Medida a confirmar.** Elias, 01/11/2026: “Pé-direito 255 cm; banheiro, 230 cm”. Substitui 2600/2500 mm. Alturas acabadas nominais; forros, instalações e móveis dependem do levantamento.
 
 Estado atual da sala e do jantar. Nada aqui libera fabricação ou compra. Histórico no [Registro de decisões](../../01_Programa_e_decisoes/Registro_de_decisoes.md) e no git. Referência visual aprovada: [Sala R03](../../09_Referencias/Sala_referencia_aprovada_R03.png) (não tirar cotas do render).
