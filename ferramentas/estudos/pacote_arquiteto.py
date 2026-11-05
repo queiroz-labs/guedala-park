@@ -329,7 +329,17 @@ def repackage(zip_path):
         if name in payload:
             raise ValueError("Entrada duplicada no manifesto")
         data = source.read_bytes()
-        if len(data) != int(entry["bytes"]) or sha(data) != entry["sha256"]:
+        def matches(candidate):
+            return len(candidate) == int(entry["bytes"]) and sha(candidate) == entry["sha256"]
+        if not matches(data) and source.suffix.lower() in {".md", ".csv", ".svg", ".txt"}:
+            # Git/Windows podem converter LF/CRLF no checkout. Só aceitar os
+            # bytes se reproduzirem exatamente o hash e tamanho da emissão.
+            lf = data.replace(b"\r\n", b"\n")
+            for candidate in (lf, lf.replace(b"\n", b"\r\n")):
+                if matches(candidate):
+                    data = candidate
+                    break
+        if not matches(data):
             raise ValueError("Fonte diferente da emissão: " + name)
         payload[name] = data
     payload["Manifesto.csv"] = manifest

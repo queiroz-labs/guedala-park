@@ -1,6 +1,6 @@
 # Ferramentas
 
-[Retomada em outra máquina](../README.md#continuar-em-outra-máquina): requisitos_retomada.txt; pacote_arquiteto.py --somente-zip recompõe fontes emitidas pelo manifesto sem regenerar PDF.
+[Retomada em outra máquina](../README.md#continuar-em-outra-máquina): requisitos_retomada.txt; pacote_arquiteto.py --somente-zip recompõe fontes emitidas pelo manifesto sem regenerar PDF; concilia LF/CRLF por hash.
 
 Consistência: confere quatro/três/dois pares laterais (Elias,02/11/2026); custos anteriores são provisão, sujeitos a recotação.
 

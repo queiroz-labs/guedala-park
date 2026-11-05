@@ -115,7 +115,7 @@ Busca: sinônimos e erros de digitação.
 
 ## Como trabalhar nesta pasta
 
-[Retomar em outra máquina](README.md#continuar-em-outra-máquina): clone, dependências, hooks e ZIP do arquiteto por manifesto (05/11).
+[Retomar em outra máquina](README.md#continuar-em-outra-máquina): clone, dependências, hooks e ZIP do arquiteto por manifesto, portátil LF/CRLF (05/11).
 
 - [Regras](AGENTS.md) · [verificações](ferramentas/README.md) · [mapa](README.md).
 - PS1 abre candidato piso/rodapé da base atual; `-Vigente` abre o oficial no FreeCAD mais recente.

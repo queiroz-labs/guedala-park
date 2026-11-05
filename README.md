@@ -44,7 +44,7 @@ Os caminhos `guedala-ambiente`/`guedala-web` são locais e não devem ser commit
 python -B ferramentas/estudos/pacote_arquiteto.py --somente-zip --zip ../outputs/Arquiteto/Guedala_Park_Arquiteto.zip
 ```
 
-Use destino inexistente. O conteúdo emitido é preservado; o contêiner ZIP e suas instruções podem ter hash diferente. Se uma fonte divergir, o comando para: revisar a emissão, não ignorar a diferença. O site/pacote do montador é reconstruído pelo CI a partir das fontes versionadas.
+Use destino inexistente. Finais de linha LF/CRLF do checkout são conciliados somente quando reproduzem o hash e tamanho emitidos. O conteúdo emitido é preservado; o contêiner ZIP e suas instruções podem ter hash diferente. Se uma fonte divergir, o comando para: revisar a emissão, não ignorar a diferença. O site/pacote do montador é reconstruído pelo CI a partir das fontes versionadas.
 
 **Não transferidos pelo Git público:** `guedala-pessoal`, documentos personalizados de fornecedores excluídos por privacidade, vídeos brutos, programas instalados, credenciais, caches e saídas temporárias. Vídeos têm relatórios/fotos selecionadas no projeto; pacotes antigos ignorados não são dependência da retomada. Se precisar dos originais ou dados privados, transfira-os por meio privado separado. Não adicionar essas pastas ao Git.
 
