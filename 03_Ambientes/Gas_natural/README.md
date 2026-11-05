@@ -7,7 +7,7 @@
 | # | Resultado | Base |
 |---|---|---|
 | 1 | Demanda máxima somada: **42,5 kW = 3,83 m³/h** (E21 33,7 kW + cooktop 8,8 kW). O E21 sozinho é 79% disso. | Manuais |
-| 2 | A rede só fecha com folga se o tubo tiver **diâmetro interno ≥ 16 mm no tronco e ≥ 14–16 mm no ramal do E21** em trajetos curtos; 18–20 mm a partir de 8–12 m. O ramal do cooktop aceita 10–12 mm. | Cálculo, hipóteses abaixo |
+| 2 | A rede só fecha com folga se o tubo tiver **diâmetro interno ≥ 16 mm no tronco e ≥ 14–16 mm no ramal do E21** em trajetos curtos; 18–20 mm a partir de 8–12 m. O ramal do cooktop aceita 10–12 mm. | Cálculo preliminar (removido); RT dimensiona |
 | 3 | **O E21 exige abertura de ventilação permanente ≥ 100 cm²** (livres). A dispensa só valeria com 382,5 m³ de ambiente; a unidade inteira tem ≈ 104,5 m³ brutos. | Manual Rinnai |
 | 4 | **Volume mínimo do ambiente do E21: 6 m³.** A área de serviço sozinha tem ≈ 5,2 m³ nominais: só cumpre se for um ambiente com a cozinha (19,4 m³), sem parede nem porta fechada entre elas. | Manual Rinnai + cotas |
 | 5 | O depurador **sem duto** recircula o ar: nada remove o CO₂ e o vapor do cooktop. Dois queimadores a 4 kW por 30 min elevam o CO₂ de ≈ 1.100 ppm (unidade toda, 2 trocas/h) a ≈ 3.600 ppm (cozinha+AS+sala, 0,5 troca/h). | Cálculo estequiométrico |
@@ -41,31 +41,12 @@ Os manuais citam NBR 13103, 15526 e 14177. **O texto dessas normas não foi conf
 
 Entrada de 15 °C e vazão do chuveiro são **hipóteses** (mesma entrada da comparação do aquecedor). A rede deve atender o caso em que o RT adotar; o coeficiente de simultaneidade da norma não foi conferido e aqui se usa 100%.
 
-## Rede interna: perda de carga
+## Rede interna
 
-Método: Darcy–Weisbach com Colebrook, gás de densidade relativa 0,60 (coincide em todas as fontes), viscosidade 1,1·10⁻⁵ Pa·s, 20 °C, pressão inicial 200 mmca, comprimento equivalente = real × 1,3 para conexões (hipótese). A conferência independente pela fórmula clássica de Renouard (baixa pressão) fica a 8% do resultado (29,1 contra 31,5 mmca em 3,04 m³/h, DI 14 mm, 10 m). Rugosidade por material é hipótese: cobre 0,0015, multicamada 0,007, aço 0,045 mm. Tabela completa: [Dimensionamento_rede.csv](Dimensionamento_rede.csv) (DI = diâmetro **interno**; relacionar ao tubo comercial é com o RT).
-
-**Critérios (nenhum é a norma conferida):**
-
-- **20 mmca de queda no caminho inteiro** (≈ 10% de 200 mmca; Comgás/RIP 2009 em material da USP; 2 mbar em documento de projeto citando a NBR 15526:2021). Três fontes secundárias convergem em ≈ 20 mmca.
-- **50 mmca** é o máximo que o E21 tolera (200 − 25%), conforme o manual.
-- **Velocidade:** 20 m/s (NBR 15526:2012, segundo gabarito universitário) ou 6 m/s (NBR 15526:2021, segundo um documento de projeto). Divergem; aqui se mostram os dois. Com 6 m/s o menor DI é 16 mm (tronco), 14 mm (E21) e 10 mm (cooktop).
-
-**Menor DI (cobre) que mantém a queda do trecho ≤ 20 mmca:**
-
-| Comprimento real | Tronco 3,83 m³/h | Ramal E21 3,04 m³/h | Ramal cooktop 0,79 m³/h |
-|---|---:|---:|---:|
-| 3 m | 14 mm | 14 mm | 10 mm |
-| 5 m | 16 mm | 14 mm | 10 mm |
-| 8 m | 18 mm | 16 mm | 10 mm |
-| 12 m | 20 mm | 18 mm | 10 mm |
-| 18 m | 20 mm | 20 mm | 12 mm |
-
-**As quedas do tronco e do ramal somam.** Exemplos para o E21: tronco 4 m DI 16 + ramal 3 m DI 14 = 23,3 mmca (acima de 20); tronco 4 m DI 18 + ramal 3 m DI 16 = 12,9 mmca; tronco 8 m DI 20 + ramal 5 m DI 18 = 14,1 mmca. Tronco 8 m DI 16 + ramal 5 m DI 14 = 42,9 mmca ainda cabe nos 50 do fabricante, mas deixa o E21 perto do limite de pressão mínima.
+O dimensionamento por perda de carga (diâmetros por comprimento) foi removido em 04/11/2026: sem trajeto nem comprimento reais não era projeto. Quem dimensiona é o RT, com a concessionária (G-03, G-06). Referência do manual: o E21 tolera até 50 mmca de queda (200 mmca −25%).
 
 ## Ventilação permanente e volume
 
-[Ventilacao_e_ar.csv](Ventilacao_e_ar.csv).
 
 - **Abertura mínima: 100 cm² livres** (maior entre 100 cm² e a seção da chaminé, 28,3 cm²). A grelha de 100 cm² livres tem em geral 150–200 cm² brutos; conferir com o fabricante da grelha.
 - **Isenção por volume:** 9 m³/kW da soma de potências. Com E21 + cooktop são 382,5 m³; nem a unidade inteira (≈ 104,5 m³ brutos) chega lá. **Há ventilação permanente a prover.**
@@ -76,15 +57,9 @@ Método: Darcy–Weisbach com Colebrook, gás de densidade relativa 0,60 (coinci
 ## Exaustão da cozinha e subprodutos
 
 - Renovação de ar de 10–12 trocas/h aplicada ao volume (regra de guias comerciais, não norma): 142–170 m³/h (cozinha) a 194–233 m³/h (cozinha + AS). Coifas de parede comerciais ficam em 400–800 m³/h. O manual do DE61IX não informa a vazão.
-- **Cooktop sem exaustão externa:** por m³ de gás queimado saem ≈ 1,83 kg de CO₂ e ≈ 1,50 kg de vapor de água (estequiometria do metano). Tabela com 2 queimadores a 4 kW (1 hora a 100%; fogo médio ≈ metade): [Combustao_cooktop.csv](Combustao_cooktop.csv), mistura perfeita, sem entrada de ar externo além das trocas indicadas.
+- **Cooktop sem exaustão externa:** por m³ de gás queimado saem ≈ 1,83 kg de CO₂ e ≈ 1,50 kg de vapor de água (estequiometria do metano).
 
-| Volume | Trocas/h | CO₂ acima do externo, 30 min | idem, 60 min |
-|---|---:|---:|---:|
-| cozinha + AS (19,4 m³) | 0,5 | 8.249 ppm | 14.674 ppm |
-| cozinha + AS + sala (44,5 m³) | 0,5 | 3.587 ppm | 6.381 ppm |
-| cozinha + AS + sala | 2 | 2.563 ppm | 3.506 ppm |
-| cozinha + AS + sala | 5 | 1.489 ppm | 1.611 ppm |
-| unidade inteira (104,5 m³) | 2 | 1.092 ppm | 1.493 ppm |
+Ordem de grandeza (2 queimadores a 4 kW, 30 min, mistura perfeita): ≈ 1.100 ppm de CO₂ acima do externo na unidade inteira com 2 trocas/h e ≈ 3.600 ppm em cozinha+AS+sala com 0,5 troca/h.
 
 Vapor: 4 kW por 30 min geram 0,27 kg de água; em cozinha + AS + sala isso soma 5,3 g/kg. De 22 °C e 60% de UR iria a ≈ 89% sem nenhuma remoção. Isso alimenta o estudo de umidade e condensação.
 
@@ -121,15 +96,6 @@ Fotografar etiqueta do medidor ou da previsão de medição; ponto de gás da co
 
 ## Limites
 
-- Sem trajetos, comprimentos ou diâmetros reais; as tabelas são varredura paramétrica, não projeto.
+- Sem trajetos, comprimentos ou diâmetros reais; nada aqui é projeto.
 - Excesso de ar, rugosidade, fator de conexões, entrada de água a 15 °C e uso dos queimadores são hipóteses.
 - Critérios de queda e velocidade vêm de fontes secundárias que divergem; confirmar com a norma vigente.
-
-## Reproduzir
-
-```powershell
-python -B ferramentas/estudos/gas_natural.py
-python -B ferramentas/estudos/test_gas_natural.py
-```
-
-19 testes: demanda, queda de carga (inclusive contra Renouard), ventilação e estequiometria.

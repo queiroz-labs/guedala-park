@@ -82,7 +82,7 @@ A largura da porta não foi localizada na planta ou no memorial. A cota 1,05 m d
 
 ## Água quente
 
-**Estudo de 29/10/2026: 13 opções, sem escolha.** [Comparação, critérios, rankings e fontes](Comparacao_rotas_agua_quente.md) · [planta e elevação](Comparacao_visual_dos_percursos.html). Famílias: discretas, simples e geração local. Recomendações condicionais: B2/calha com tampa, A1/forro e A6/rodapé; preferência com Elias.
+**Estudo de 29/10/2026: 13 opções, sem escolha.** Comparação detalhada removida em 04/11/2026 (está no git). Famílias: discretas, simples e geração local. Recomendações condicionais: B2/calha com tampa, A1/forro e A6/rodapé; preferência com Elias.
 
 - Origem: ramal privativo no enchimento de gesso, antes dos controles do banho, conforme Elias. Posição exata desconhecida; R54 consultada por caixas vinculadas ao SHA, sem abrir CAD.
 - E21 exige **3,9 L/min de água quente**, não vazão total misturada. Vazão Arion a confirmar; espera calculada exclui E21→enchimento e engates.
@@ -127,6 +127,6 @@ Consolidação da conversa e dos registros existentes; não houve nova cotação
 
 | Assunto | Documento |
 |---|---|
-| Quatro caminhos da água quente (ainda alternativas) | [Comparação visual](Comparacao_visual_dos_percursos.html) · [rotas, materiais e custos](Comparacao_rotas_agua_quente.md) · [pedra e enchimento](Agua_quente_aparente.md) |
+| Quatro caminhos da água quente (ainda alternativas) | [pedra e enchimento](Agua_quente_aparente.md) |
 | Bancada, torneira e giro da porta | [Conferência](Conferencia_bancada_porta.md) |
 | Layout com o vaso VIP | [Esquema R01](Encaixe_R01.svg) |

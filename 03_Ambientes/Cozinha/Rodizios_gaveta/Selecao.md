@@ -22,4 +22,4 @@ Antes da instalação, conferir material e banda plana sem rebarbas, medir os se
 
 A referência Quadrilátero 1372 de 30/39 mm fica superada para compra; permanece apenas nos estudos históricos. O Oliver importado não foi selecionado. A furação ilustrativa dos gabaritos anteriores não é mapa executivo deste kit.
 
-[Especificação estruturada](Selecao.json) · [Modelo atualizado da gaveta e espaçadores](Guedala_Park_R45_Rodizios_P08.FCStd) · [Verificação do modelo](Verificacao_CAD.json).
+[Especificação estruturada](Selecao.json) · Modelo atualizado da gaveta e espaçadores · [Verificação do modelo](Verificacao_CAD.json).

@@ -12,7 +12,6 @@ Na raiz de `ferramentas/` só ficam `verificar_*.py` e `test_*.py`; scripts de e
 
 Pacote de cotação: primeiro `python -B ferramentas/estudos/consolidar_quantidades_cotacao.py --detalhe CAMINHO_EXTERNO`, depois `python -B ferramentas/estudos/gerar_pedidos_cotacao.py`. CSV nominal e anexo no ZIP; divergências/detalhe fora do git. Não envia nem altera CAD. `python -B ferramentas/estudos/test_quantidades_cotacao.py`: somas, limites, formulário idempotente, respostas preservadas, CRC e links. Gerador exige estado não enviado.
 
-Água quente: `python -B ferramentas/estudos/agua_quente_banheiro.py` gera comparação e 26 vistas para 13 opções; caixas vinculadas por SHA à R54, sem abrir CAD. Teste: `python -B ferramentas/estudos/test_agua_quente_banheiro.py` (volumes, ramais, origem incerta e encaixe).
 
 | Comando | O que faz | Tempo |
 |---|---|---|

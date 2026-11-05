@@ -1,6 +1,6 @@
 # FreeCAD R46 — fichas R14 no modelo
 
-24/10/2026. **[Guedala_Park_R46_Fichas_R14.FCStd](Guedala_Park_R46_Fichas_R14.FCStd)** passa a ser o modelo vigente. Parte do R45 com cores R16 e rodízios P08 ([Guedala_Park_R45_Rodizios_P08.FCStd](../../../03_Ambientes/Cozinha/Rodizios_gaveta/Guedala_Park_R45_Rodizios_P08.FCStd), preservado) e grava no CAD o que as [fichas R14](../../../06_Entregas/Fichas_fabricacao/index.html) definem. **Nenhuma peça foi furada, movida ou redimensionada.** Não libera fabricação.
+24/10/2026. **Guedala_Park_R46_Fichas_R14.FCStd** passa a ser o modelo vigente. Parte do R45 com cores R16 e rodízios P08 (Guedala_Park_R45_Rodizios_P08.FCStd, preservado) e grava no CAD o que as [fichas R14](../../../06_Entregas/Fichas_fabricacao/index.html) definem. **Nenhuma peça foi furada, movida ou redimensionada.** Não libera fabricação.
 
 ## O que entrou
 

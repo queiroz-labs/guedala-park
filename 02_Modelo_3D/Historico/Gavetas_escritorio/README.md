@@ -1,6 +1,6 @@
 # FreeCAD R49 — gavetas do escritório
 
-24/10/2026. **[Guedala_Park_R49_Gavetas_escritorio.FCStd](Guedala_Park_R49_Gavetas_escritorio.FCStd)** parte da [R48](../Depurador_sem_canal/README.md), preservada.
+24/10/2026. **Guedala_Park_R49_Gavetas_escritorio.FCStd** parte da [R48](../Depurador_sem_canal/README.md), preservada.
 
 ## O que mudou (P16)
 

@@ -34,7 +34,7 @@ Planta R23 publicada: Elias,26/10/2026, "Sim, autorizo comitt push". Lixeiras: [
 
 **Clima:** [parcelas](03_Ambientes/Equipamentos/README.md), TMY8.760h/ASUS condicional/carga pendente.
 
-**Acústica:** [piso, aparelhos e envoltória](03_Ambientes/Acustica/README.md); 29 faces/407 sensibilidades; isolamento real e custos pendentes.
+**Acústica:** [resumo e protocolo de medição](03_Ambientes/Acustica/README.md); isolamento real, laje e critério do condomínio pendentes.
 
 **Acabamentos:** [quantidades e divergências](03_Ambientes/Acabamentos/README.md); vinílico líquido 30,8101 m²; box de correr até o teto (Elias, 30/10/2026).
 
@@ -82,7 +82,7 @@ Fabricação/carga de uso pendentes. Estudos nominais; hipóteses/números/pergu
 | P01/P06 gavetas | [Inventário](04_Moveis/Inventario_dimensional/Gavetas/README.md) | Laterais com amortecimento; produto, furação e ensaio pendentes |
 | P16 e bancada | [Gavetas](04_Moveis/P16/Gavetas_estabilidade/README.md) · [Bancada](04_Moveis/Bancada/README.md) | Massa e rigidez do tampo 30, juntas, montagem real |
 | Micro-ondas (T05) | [Cadeia dimensional](04_Moveis/Proximas_decisoes/Instalacao_e_P16/README.md) | 10 cm desejados × 30 cm do manual; sem decisão técnica |
-| Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente](03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md) | Acesso, vazão, rotas, elétrica com RT; sem escolha (29/10) |
+| Banheiro | [BC43](03_Ambientes/Banheiro/Conferencia_bancada_porta.md) · [Água quente](03_Ambientes/Banheiro/Agua_quente_aparente.md) | Acesso, vazão, rotas, elétrica com RT; sem escolha (29/10) |
 | Varal | [Percurso com roupa](03_Ambientes/Lavanderia/Varal.md) | Conferir roupas/posição antes de adotar o curso |
 | Todos | [Lista de corte e custos de chapa](04_Moveis/Plano_de_corte/README.md) | Formato de chapa, produto e oficina definem o corte; cenários removidos (04/11) |
 

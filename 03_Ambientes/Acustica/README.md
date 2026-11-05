@@ -1,14 +1,10 @@
-# Acústica — índice dos estudos nominais
+# Acústica
 
-**Estudo NOMINAL, não é projeto acústico nem laudo.** Nenhuma solução adotada por estes cálculos.
+**Não há projeto acústico nem laudo.** Os estudos nominais de piso, equipamentos e envoltória (cenários, 29 faces, 407 sensibilidades) foram removidos em 04/11/2026: sem a laje real, o ensaio do conjunto e o critério do condomínio, não mudavam nenhuma decisão. O histórico está no git.
 
-| Estudo | Resultado útil | Limite |
-|---|---|---|
-| [Piso e equipamentos](Piso_e_equipamentos/README.md) | Olmo: ΔLw de catálogo 4 dB; referências LG e mantas | Compatibilidade, preço completo e desempenho de campo pendentes |
-| [Envoltória](Envoltoria/README.md) | 29 faces inventariadas; 407 sensibilidades; porta, paredes e teto | Rw, DnT,w e L'nT,w da unidade não determinados |
-
-Os dados anteriores continuam em [Cenarios.csv](Cenarios.csv). O detalhe anterior foi movido integralmente, com links relativos corrigidos; valores e conclusões preservados. As fontes BR01–BR09 permanecem; BR10–BR24 complementam o estudo, incluindo fontes internacionais explicitamente identificadas.
-
-[Fontes e limitações](Fontes_brasileiras.csv). SHA256: `b16543724a08bcc8108006ba110d69c77c985a33cf167d6ef4ca679ac7d125bd`.
-
-Site, modelo e orçamento não alterados. Sugestão de navegação futura: expor este índice e o estudo de envoltória na biblioteca documental; nenhuma regeneração ou publicação realizada.
+| O que vale | Situação |
+|---|---|
+| Piso vinílico Olmo colado, 3 mm, 30,8101 m² | ΔLw de catálogo 4 dB. Ln,w do conjunto e L'nT,w no vizinho não determinados; exigir sistema completo compatível antes de comprar manta |
+| Laje, composição e piso do andar superior | Desconhecidos (PQ-009, PQ-034 em [Perguntas em aberto](../../01_Programa_e_decisoes/Perguntas_em_aberto/README.md)) |
+| Critério e documentação aceitos pelo condomínio para trocar o piso | Pendente (pergunta ao condomínio) |
+| Teste indicativo no dia das chaves | [Protocolo de medição](Envoltoria/Protocolo_medicao.md) · [pendências e perguntas](Envoltoria/Pendencias_e_perguntas.md) |

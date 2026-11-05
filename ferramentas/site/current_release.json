@@ -1245,13 +1245,13 @@
       },
       {
         "id": "agua-quente",
-        "title": "Água quente do banheiro: 13 opções",
-        "path": "03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md",
+        "title": "Água quente do banheiro",
+        "path": "03_Ambientes/Banheiro/Agua_quente_aparente.md",
         "rooms": [
           "banho"
         ],
         "status": "Em estudo",
-        "summary": "Rotas até a pia comparadas por espera, discrição e facilidade, sem escolha."
+        "summary": "Ocultação da tubulação de água quente: pedra e enchimento; rotas e acesso pendentes de RT e vistoria."
       },
       {
         "id": "quadro-cargas",

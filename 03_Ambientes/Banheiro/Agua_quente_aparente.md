@@ -73,4 +73,4 @@ Abrir e recompor um fechamento técnico não estrutural é diferente de rasgar a
 
 A comparação foi ampliada para 13 opções em três famílias. A tabela antiga de quatro percursos foi substituída, mantendo neste memorial a origem e as restrições documentais. Não há escolha executiva.
 
-[Comparação única: rotas, geração local, medidas nominais, espera, custos e fontes](Comparacao_rotas_agua_quente.md) · [Planta e elevação das 13 opções](Comparacao_visual_dos_percursos.html).
+A comparação das 13 opções foi removida em 04/11/2026 (está no git); a escolha depende de RT e vistoria.

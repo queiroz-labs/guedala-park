@@ -10,7 +10,7 @@ Para integrar ao site, após as outras frentes: `python -B ferramentas/site/cons
 
 > **Southco — aprofundamento posterior:** [fixação proposta no banco e limites](../Banco_e_cesto/Fixacao_Southco/Relatorio.html). Contraplatinas e suporte recuado estudados sem alterar dimensões das tampas ou gabaritos de armazenamento. Instalação ainda não fechada: almofadas, eixo real, batente e ligações pendentes. Modelo principal R45 preservado.
 
-23/10/2026. [Relatório completo](Relatorio.html) · [FreeCAD R45](Guedala_Park_R45_Consolidado.FCStd) · [Verificação](Verificacao_entrega.json).
+23/10/2026. [Relatório completo](Relatorio.html) · FreeCAD R45 · [Verificação](Verificacao_entrega.json).
 
 Revisão dos 20 módulos, 171 interfaces, gavetas, portas, banco, equipamentos e ferragens. A R44 permanece intacta. A R45 incorpora registros de revisão e grupos ocultos dos estudos, preservando a geometria principal e o armazenamento. Não representa todos os mecanismos aprovados para fabricação.
 

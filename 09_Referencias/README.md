@@ -90,7 +90,7 @@ Imagens de inspiração preservadas como histórico. Móveis, cotas, marcas e so
 
 ## Banheiro — referência escolhida em 18/09/2026
 
-[Decisões consolidadas do banheiro](../03_Ambientes/Banheiro/README.md) · [Comparação dos caminhos da água quente](../03_Ambientes/Banheiro/Comparacao_visual_dos_percursos.html).
+[Decisões consolidadas do banheiro](../03_Ambientes/Banheiro/README.md).
 
 [Imagem inicial enviada por Elias](Banheiro_inspiracao_original_2026-09-18.png): preservada para rastreabilidade; detalhes superados não substituem as decisões atuais.
 

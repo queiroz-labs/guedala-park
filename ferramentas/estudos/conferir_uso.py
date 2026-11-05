@@ -83,7 +83,7 @@ process.stdout.write(vm.runInContext('JSON.stringify({cases:conferencia,heights:
     add('B-I','banheiro e cozinha','banho','Box até o teto e instalações','pendente','',
         'projeto/nominal','RT/campo','Altura do box acompanha teto acabado ainda não medido; fixação, vedação e interfaces elétricas/hidráulicas não resolvidas.',
         'Compatibilizar altura real, trilho e suporte com RT e vidraceiro; identificar volumes elétricos e acesso aos registros.',
-        '03_Ambientes/Banheiro/README.md|03_Ambientes/Banheiro/Comparacao_rotas_agua_quente.md')
+        '03_Ambientes/Banheiro/README.md|03_Ambientes/Banheiro/Agua_quente_aparente.md')
     for id,room,check,value,unit,status,reading,action,source in [
         ('K-M','cozinha','ME23P: intenção / exigência superior','100 / 300','mm','divergencia',
          'A intenção de 100 mm não atende os 300 mm indicados no manual; folgas laterais não comprovam compensação.',
